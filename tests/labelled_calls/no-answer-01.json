@@ -1,0 +1,10 @@
+{
+  "call_id": "no-answer-01",
+  "transcript": "",
+  "expected": {
+    "answered": false,
+    "outcome": "none",
+    "total_min": 0, "total_max": 0,
+    "notes": "Empty transcript = no one ever spoke (no answer / voicemail / disconnected). process_call.py should short-circuit this without calling either skill."
+  }
+}

@@ -1,0 +1,126 @@
+# Paragon Global AI calling agent — configuration.
+# Secrets (API keys) do NOT go here — they go in a local .env file (see .env.example)
+# that is never committed. This file holds everything that is safe to check in.
+
+vapi:
+  model:
+    provider: anthropic
+    model: claude-sonnet-5
+    # keep the persona + scenarios static across turns so Vapi/Anthropic can cache it -
+    # only the per-call institute fields at the top change turn to turn
+  voice:
+    # Vapi's own built-in voice (no extra API key needed) - confirmed working when
+    # setting up the account. Fine for the first smoke test and as a fallback;
+    # swap to ElevenLabs/Cartesia per the training-workflow trial once one is chosen.
+    provider: "vapi"
+    voice_id: "Elliot"
+  transcriber:
+    provider: deepgram        # needs multilingual support - confirm model/language set
+    language: multi
+  server_url: "REPLACE_ME_WITH_WEBHOOK_URL"   # the end-of-call-report receiver (webhook/worker.js)
+  tools_server_url: "REPLACE_ME_WITH_TOOLS_WEBHOOK_URL"   # live in-call tools (webhook/tools_worker.js)
+  # Declared to Vapi so the model can call them mid-conversation. Handlers live in
+  # agent/tools.py (TOOLS dict) - name here must match a key there exactly.
+  tools:
+    - name: book_meeting
+      description: >-
+        Request a meeting slot with Dr. Nadia. Currently returns a "someone will
+        confirm" response, not a real booking (see agent/tools.py's book_meeting
+        docstring) - the agent must not claim the meeting is confirmed based on
+        this tool's result alone until it is wired to a real calendar.
+      parameters:
+        type: object
+        properties:
+          date: {type: string, description: "the date the caller proposed, in their own words"}
+          time: {type: string, description: "the time the caller proposed, in their own words"}
+        required: [date, time]
+    - name: get_institute_context
+      description: Look up the current contact and escalation status on file for this institute, in case it has changed since the call started.
+      parameters: {type: object, properties: {}}
+    - name: log_callback_request
+      description: Record that the caller asked to be called back at a specific time.
+      parameters:
+        type: object
+        properties:
+          callback_datetime: {type: string, description: "the callback time, in the caller's own words"}
+        required: [callback_datetime]
+    - name: escalate_to_human
+      description: Hand this call off to a human team member for anything outside the agent's scope (legal questions, complaints, anything sensitive).
+      parameters:
+        type: object
+        properties:
+          reason: {type: string, description: "why this needs a human"}
+        required: [reason]
+  # Zadarma connection: this is a ONE-TIME SETUP, not a per-call value. Confirmed
+  # against Zadarma's own Vapi integration guide (zadarma.com/en/support/instructions/vapiai/):
+  #   1. my.zadarma.com -> My PBX -> Extensions: note your extension (e.g. "1234-100")
+  #      and generate its SIP password.
+  #   2. Run `python agent/setup_zadarma_trunk.py` (reads the two fields below, needs
+  #      VAPI_API_KEY in .env) - it registers a byo-sip-trunk credential and your
+  #      Zadarma number on Vapi, and prints the resulting phoneNumberId.
+  #   3. Put that phoneNumberId in .env as VAPI_PHONE_NUMBER_ID - this is what every
+  #      real call actually uses (agent/vapi_call.py), not the fields below.
+  #   4. Back in Zadarma Extensions: enable Call forwarding and voicemail, forward to
+  #      "External server (SIP URI)": +<your-zadarma-number>@sip.vapi.ai
+  zadarma:
+    pbx_extension: "398933-124"          # extension 124 ("Daniya", internship3@...) - a shared team
+                                          # line, chosen deliberately over any named person's own extension
+    zadarma_number: "REPLACE_ME"         # your Zadarma number in +15551111111 format - NOT in the
+                                          # extensions export; get this from Zadarma's "My numbers" panel
+    # SIP password itself is a secret - put ZADARMA_SIP_PASSWORD in .env, not here
+    #
+    # Supervisor alerts (agent/pause_monitor.py). This is a DIFFERENT credential from the SIP
+    # fields above - it uses Zadarma's account API (ZADARMA_API_KEY/ZADARMA_API_SECRET in .env),
+    # not the SIP trunk. It watches whichever extensions you list below, whether a human operator
+    # or the AI dialer is using them - it only cares whether the extension is online and active.
+    monitor:
+      shift_start_utc: "07:00"   # outside this window, an offline extension is not flagged
+      shift_end_utc: "16:00"
+      idle_minutes: 15           # extension online but no status change this long, with work queued -> alert
+      # A delay alert now emails two people: the operator on that extension (their "email" below)
+      # and manager_email (one shared address, e.g. whoever runs the team) - fill manager_email in
+      # before alerts are worth relying on; an operator with no "email" just doesn't get a personal
+      # copy, manager_email still does. Sending itself needs SMTP_* in .env (see .env.example);
+      # with no SMTP configured, alerts still log to data/alerts.csv, they just aren't emailed.
+      manager_email: "REPLACE_ME"
+      extensions:                # real names + emails from the Zadarma "Current Users" export (29 Sep 2026)
+        "100": {manager: "Nadia Theuma", email: "nadiatheuma2012@gmail.com"}
+        "101": {manager: "Felice", email: "felice@paragoninnovation.net"}
+        "102": {manager: "Giuseppe Papa", email: "giuseppe.papa1@paragoninnovation.net"}
+        "108": {manager: "Ivan", email: "ivan@paragonprojects.eu"}
+        "110": {manager: "Ali", email: "ali.1@paragoninnovation.net"}
+        "117": {manager: "Hamza Ali", email: "hamza.ali1@paragoninnovation.net"}
+        "124": {manager: "Daniya (AI dialer line)", email: "internship3@paragonglobalinternships.eu"}
+        "130": {manager: "Hidayat Ullah", email: "hidayat.shaikh@paragoninnovation.eu"}
+        "132": {manager: "Zahra Batool", email: "zahra.batool@paragoninnovation.net"}
+        "135": {manager: "Meerab", email: "internship4@paragonglobalinternships.eu"}
+        "137": {manager: "Gulelala Yousafzai", email: "gulelala.yousafzai@paragoninnovation.net"}
+        "138": {manager: "Shahid Khan Usmani", email: "shahid.usmani@paragoninnovation.net"}
+        "140": {manager: "Muhammad Huzaifa", email: "muhammad.huzaifa@paragoninnovation.net"}
+        "144": {manager: "Tanisha Imam", email: "tanisha.imam@paragoninnovation.net"}
+                                  # leave a value empty ({}) to watch an extension with no manager label
+
+limits:
+  max_contacts_per_institute_per_day: 3
+  max_attempts_per_contact_per_day: 1
+
+paths:
+  persona: prompts/persona.md
+  scenarios: data/scenarios.yaml
+  numbers: data/numbers_clean.csv
+  enriched: data/institutions_enriched.csv
+  partners: data/partners.csv
+  calls_dir: data/calls
+  results_dir: data/results
+
+# Scraper v2 (scraper2/). Provider is the only thing that decides whether a run costs money.
+scraper:
+  provider: claude_cli     # claude_api (GitHub Actions, needs ANTHROPIC_API_KEY) | claude_cli (local, your Claude plan)
+                           # | gemini (free tier, needs GEMINI_API_KEY) | rules (no AI, free)
+  model: ""                # blank = provider default (Haiku 4.5 for Claude, gemini-3.1-flash-lite for Gemini)
+  workers: 6               # institutes scraped at once
+  llm_concurrency: 4       # simultaneous model calls (free tiers cap requests per minute)
+  page_workers: 5          # pages fetched at once per institute (still 1 request/second per host)
+  max_pages: 10
+  evidence_chars: 90000
+  discover_with_search: true    # claude_cli only: one extra web-search call for sites the free tiers cannot find

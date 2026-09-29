@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paragon &middot; Scraper</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b0e14;
+    --bg-grad: radial-gradient(1200px 600px at 15% -10%, rgba(99,102,241,.16), transparent 60%),
+               radial-gradient(1000px 500px at 100% 0%, rgba(20,184,166,.10), transparent 55%);
+    --panel: #12151f; --panel-2: #161a26; --line: #232838;
+    --ink: #eef1f8; --mut: #8790a8; --mut-2: #5c6580;
+    --accent: #6366f1; --accent-2: #22d3ee; --accent-ink: #a5b4fc;
+    --ok: #22c55e; --warn: #f59e0b; --bad: #f43f5e; --off: #64748b;
+    --radius: 14px; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 32px -12px rgba(0,0,0,.55);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg-grad), var(--bg); color: var(--ink);
+    font: 400 14px/1.55 "Inter", -apple-system, Segoe UI, Roboto, sans-serif; -webkit-font-smoothing: antialiased;
+  }
+  .mono { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; }
+  header {
+    padding: 18px 32px; border-bottom: 1px solid var(--line); background: rgba(11,14,20,.72);
+    backdrop-filter: blur(10px); display: flex; align-items: center; gap: 11px;
+  }
+  header .mark {
+    width: 30px; height: 30px; border-radius: 8px; flex: none;
+    background: linear-gradient(135deg, #6366f1, #22d3ee); display: flex; align-items: center; justify-content: center;
+    font-weight: 800; font-size: 13px; color: #0b0e14; box-shadow: 0 4px 14px -4px rgba(99,102,241,.6);
+  }
+  header h1 { font-size: 15.5px; font-weight: 700; margin: 0; letter-spacing: -.01em; }
+  header .sub { font-size: 11.5px; color: var(--mut); margin-top: 1px; }
+
+  main { padding: 32px 20px 56px; display: grid; gap: 22px; max-width: 720px; margin: 0 auto; }
+
+  .card {
+    background: linear-gradient(180deg, var(--panel-2), var(--panel)); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow);
+  }
+  .card h2 { font-size: 15px; margin: 0 0 4px; font-weight: 700; }
+  .card .hint { color: var(--mut); font-size: 12.5px; margin-bottom: 18px; }
+
+  label { display: block; font-size: 12.5px; font-weight: 600; color: var(--mut); margin: 14px 0 6px; }
+  label:first-of-type { margin-top: 0; }
+  input[type=text], input[type=password], select {
+    width: 100%; background: #0d1017; border: 1px solid var(--line); color: var(--ink);
+    border-radius: 9px; padding: 10px 12px; font: inherit; font-size: 13.5px;
+  }
+  input:focus, select:focus, .dropzone:focus-within { outline: none; border-color: var(--accent); }
+
+  .dropzone {
+    border: 1.5px dashed var(--line); border-radius: 11px; padding: 26px; text-align: center;
+    cursor: pointer; transition: border-color .15s ease, background .15s ease; position: relative;
+  }
+  .dropzone:hover, .dropzone.drag { border-color: var(--accent); background: rgba(99,102,241,.06); }
+  .dropzone input[type=file] { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+  .dropzone .fname { font-weight: 600; margin-top: 6px; color: var(--accent-ink); }
+  .dropzone svg { opacity: .6; }
+
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  details { margin-top: 14px; }
+  details summary { cursor: pointer; font-size: 12.5px; color: var(--mut); font-weight: 600; }
+
+  button {
+    width: 100%; margin-top: 20px; padding: 12px; border: none; border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent), #4f46e5); color: white; font: inherit;
+    font-weight: 700; font-size: 14px; cursor: pointer; box-shadow: 0 4px 16px -4px rgba(99,102,241,.55);
+    transition: opacity .15s ease;
+  }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  button.secondary {
+    background: var(--panel-2); border: 1px solid var(--line); box-shadow: none; margin-top: 10px;
+  }
+
+  .msg { border-radius: 10px; padding: 11px 14px; font-size: 12.5px; margin-top: 14px; display: none; }
+  .msg.show { display: block; }
+  .msg.error { background: rgba(244,63,94,.12); border: 1px solid rgba(244,63,94,.35); color: #ffb4c2; }
+  .msg.ok { background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.35); color: #86efac; }
+
+  .checkrow { display: flex; gap: 10px; }
+  .checkrow input { flex: 1; }
+  .checkrow button { width: auto; margin: 0; padding: 10px 16px; }
+
+  /* Progress view */
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; }
+  .kpi { background: var(--panel-2); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .kpi .n { font-size: 22px; font-weight: 800; } .kpi .l { color: var(--mut); font-size: 11.5px; margin-top: 2px; }
+  .bar-track { height: 10px; background: #0b1219; border-radius: 999px; overflow: hidden; margin: 14px 0 8px; }
+  .bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 999px; transition: width .4s ease; }
+  .bar-label { display: flex; justify-content: space-between; font-size: 12.5px; color: var(--mut); }
+  .status-pill {
+    display: inline-flex; align-items: center; gap: 6px; font-size: 11.5px; font-weight: 700;
+    padding: 3px 10px; border-radius: 999px; text-transform: uppercase; letter-spacing: .03em;
+  }
+  .status-pill.running { background: rgba(99,102,241,.15); color: var(--accent-ink); }
+  .status-pill.done { background: rgba(34,197,94,.15); color: var(--ok); }
+  .status-pill.error { background: rgba(244,63,94,.15); color: var(--bad); }
+  .status-pill.not_found { background: rgba(100,116,139,.15); color: var(--off); }
+  .status-pill.cancelled { background: rgba(245,158,11,.15); color: var(--warn); }
+  .conf-row { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+  .conf { flex: 1; min-width: 90px; text-align: center; padding: 10px; border-radius: 9px; border: 1px solid var(--line); }
+  .conf.high { background: rgba(34,197,94,.10); } .conf.medium { background: rgba(245,158,11,.10); }
+  .conf.low { background: rgba(244,63,94,.08); } .conf.none { background: rgba(100,116,139,.08); }
+  .conf .n { font-weight: 800; font-size: 16px; } .conf .l { font-size: 10.5px; color: var(--mut); text-transform: uppercase; }
+  footer { text-align: center; color: var(--mut-2); font-size: 11.5px; padding: 10px 20px 30px; }
+
+  .preview {
+    margin-top: 14px; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px;
+    background: #0d1017; font-size: 12.5px;
+  }
+  .preview .p-title { font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+  .preview .p-title.warn-title { color: var(--warn); }
+  .preview .p-title.ok-title { color: var(--ok); }
+  .preview table { width: 100%; border-collapse: collapse; }
+  .preview td { padding: 4px 0; vertical-align: top; }
+  .preview td.field { color: var(--mut); width: 130px; white-space: nowrap; }
+  .preview td.val { font-family: "JetBrains Mono", monospace; }
+  .preview td.val.missing { color: var(--mut-2); font-style: italic; }
+  .preview .p-note { margin-top: 10px; color: var(--mut); font-size: 11.5px; }
+</style></head>
+<body>
+<header>
+  <div class="mark">P</div>
+  <div><h1>Scraper</h1><div class="sub">Upload a batch, watch it run, download the results</div></div>
+</header>
+<main>
+  <div class="card" id="upload-card">
+    <h2>Start a new batch</h2>
+    <div class="hint">Upload an Excel (.xlsx) or CSV list of institutes. No column formatting required — names like "University", "Institution Name", "Phone", "Website" are all recognized.</div>
+
+    <label>File</label>
+    <div class="dropzone" id="dropzone">
+      <input type="file" id="file" accept=".csv,.xlsx,.xls">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v12m0-12 4 4m-4-4-4 4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+      <div>Drop a file here, or click to choose</div>
+      <div class="fname" id="fname"></div>
+    </div>
+
+    <div id="preview" class="preview" style="display:none"></div>
+
+    <label>Batch name</label>
+    <input type="text" id="batch" placeholder="e.g. partnerships-oct">
+
+    <label>Access phrase</label>
+    <input type="password" id="token" placeholder="Given to you by your team admin">
+
+    <details>
+      <summary>Advanced</summary>
+      <label>Provider</label>
+      <select id="provider">
+        <option value="gemini">Gemini (free)</option>
+        <option value="claude_api">Claude (paid, higher quality)</option>
+        <option value="rules">Rules only (free, no AI)</option>
+      </select>
+      <label>Chunk size (institutes per step, default 25)</label>
+      <input type="text" id="chunk_size" placeholder="25">
+    </details>
+
+    <button id="start-btn">Start scraping</button>
+    <div class="msg" id="upload-msg"></div>
+  </div>
+
+  <div class="card">
+    <h2>Check a batch</h2>
+    <div class="hint">Already started one? Look it up by name — from any device, any time.</div>
+    <div class="checkrow">
+      <input type="text" id="check-batch" placeholder="batch name">
+      <button class="secondary" id="check-btn">Check</button>
+    </div>
+  </div>
+
+  <div class="card" id="progress-card" style="display:none">
+    <h2>Batch <span id="p-batch" class="mono"></span> <span class="status-pill" id="p-status"></span></h2>
+    <div id="p-error" class="msg error"></div>
+    <div id="p-body">
+      <div class="bar-label"><span id="p-count">0 / 0</span><span id="p-eta"></span></div>
+      <div class="bar-track"><div class="bar-fill" id="p-fill" style="width:0%"></div></div>
+      <div class="kpis" id="p-kpis" style="margin-top:16px"></div>
+      <div class="conf-row" id="p-conf"></div>
+      <button id="p-download" style="display:none">Download results (.csv)</button>
+      <button id="p-cancel" class="secondary" style="display:none">Cancel this batch</button>
+      <div class="msg" id="p-cancel-msg"></div>
+    </div>
+  </div>
+</main>
+<footer>Runs on GitHub Actions in chunks — safe to close this tab, progress keeps going. Poll refreshes every 10s.</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+let pollTimer = null;
+
+function esc(s) { return (s ?? "").toString().replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
+function slugSuggest() {
+  const d = new Date();
+  const pad = n => String(n).padStart(2, "0");
+  return `batch-${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate())}-${pad(d.getHours())}${pad(d.getMinutes())}`;
+}
+$("batch").value = slugSuggest();
+
+// --- File selection / drag-drop, and .xlsx -> CSV client-side conversion ---
+let csvText = null, chosenName = "";
+const dz = $("dropzone"), fileInput = $("file");
+["dragenter","dragover"].forEach(ev => dz.addEventListener(ev, e => { e.preventDefault(); dz.classList.add("drag"); }));
+["dragleave","drop"].forEach(ev => dz.addEventListener(ev, e => { e.preventDefault(); dz.classList.remove("drag"); }));
+dz.addEventListener("drop", e => { if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]); });
+fileInput.addEventListener("change", e => { if (e.target.files[0]) handleFile(e.target.files[0]); });
+
+const MAX_ROWS_CLIENT = 1200; // mirrors web_scraper/api/start-batch.js's server-side cap - checked
+                               // here too so a wrong-file mistake is caught before any upload happens
+function rowCountOf(csv) {
+  return Math.max(0, csv.split(/\r\n|\r|\n/).filter(l => l.trim() !== "").length - 1);
+}
+
+// Same column-name recognition as scraper2/import_batch.py's ALIASES/_map_headers - ported so the
+// page can show, before anything is uploaded, exactly which column will be read as what. This is
+// what actually answers "how does it know this is the right file": it doesn't guess at content,
+// it shows you the mapping it found so you can catch a wrong file yourself before any scraping runs.
+const ALIASES = {
+  institution_name: ["institution_name", "institution", "name", "university", "school", "college"],
+  phone_1: ["phone_1", "phone", "phone1", "generic_phone", "contact_phone", "primary_phone"],
+  contact_name: ["contact_name", "contact", "on_file_name", "name_on_file", "person"],
+  email: ["email", "contact_email", "email_address"],
+  seed_urls: ["seed_urls", "website", "website_url", "url", "site"],
+};
+const FIELD_LABELS = {
+  institution_name: "Institution name", phone_1: "Phone", contact_name: "Contact person",
+  email: "Email", seed_urls: "Website / seed URL",
+};
+function norm(s) { return (s || "").toString().toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, ""); }
+
+function parseHeaderAndFirstRow(csv) {
+  const lines = csv.split(/\r\n|\r|\n/).filter(l => l.trim() !== "");
+  if (!lines.length) return { header: [], first: [] };
+  // Simple split for a preview only - the server re-parses the full file properly with a real CSV
+  // reader (Python's csv module in import_batch.py); this is just for showing the mapping at a glance.
+  const split = l => l.split(",").map(c => c.trim().replace(/^"|"$/g, ""));
+  return { header: split(lines[0]), first: lines[1] ? split(lines[1]) : [] };
+}
+
+function buildMapping(header) {
+  const normed = header.map(norm);
+  const mapping = {};
+  for (const [field, aliases] of Object.entries(ALIASES)) {
+    let foundIdx = -1;
+    for (const a of aliases.map(norm)) { const i = normed.indexOf(a); if (i >= 0) { foundIdx = i; break; } }
+    mapping[field] = foundIdx;
+  }
+  return mapping;
+}
+
+function renderPreview(header, first, n) {
+  const el = $("preview");
+  if (!header.length) { el.style.display = "none"; return; }
+  const mapping = buildMapping(header);
+  const hasName = mapping.institution_name >= 0;
+  const hasAnyContact = mapping.phone_1 >= 0 || mapping.email >= 0 || mapping.seed_urls >= 0;
+
+  const rows = Object.entries(FIELD_LABELS).map(([field, label]) => {
+    const idx = mapping[field];
+    const colName = idx >= 0 ? header[idx] : null;
+    const sample = idx >= 0 ? (first[idx] || "") : "";
+    return colName
+      ? `<tr><td class="field">${esc(label)}</td><td class="val">"${esc(colName)}"${sample ? " &rarr; e.g. " + esc(sample) : ""}</td></tr>`
+      : `<tr><td class="field">${esc(label)}</td><td class="val missing">not found</td></tr>`;
+  }).join("");
+
+  let titleCls = "ok-title", titleText = `Detected ${n} rows - here's what each column will be read as:`;
+  let note = "";
+  if (!hasName) {
+    titleCls = "warn-title";
+    titleText = `No "institution name" column found in ${n} rows.`;
+    note = "This file will be rejected at import - none of the expected header names (Institution, University, Name, School, College...) were found. Check the file's headers.";
+  } else if (!hasAnyContact) {
+    titleCls = "warn-title";
+    titleText = `Found a name column, but no phone / email / website column, in ${n} rows.`;
+    note = "This will still run, but double-check this is really an institute list and not something else that happens to have a \"Name\" column (e.g. a staff/contact list) - the scraper will try to look up whatever ends up in the institution-name column.";
+  }
+
+  el.style.display = "block";
+  el.innerHTML = `<div class="p-title ${titleCls}">${esc(titleText)}</div><table>${rows}</table>` +
+    (note ? `<div class="p-note">${esc(note)}</div>` : "");
+}
+
+async function handleFile(file) {
+  chosenName = file.name;
+  $("fname").textContent = "Reading " + file.name + "...";
+  $("preview").style.display = "none";
+  try {
+    if (/\.xlsx?$/i.test(file.name)) {
+      const buf = await file.arrayBuffer();
+      const wb = XLSX.read(buf, { type: "array" });
+      const sheet = wb.Sheets[wb.SheetNames[0]];
+      csvText = XLSX.utils.sheet_to_csv(sheet);
+    } else {
+      csvText = await file.text();
+    }
+    const n = rowCountOf(csvText);
+    if (n > MAX_ROWS_CLIENT) {
+      $("fname").textContent = `${file.name}: looks like ~${n} rows - over the ${MAX_ROWS_CLIENT} limit for one batch. Split it up, or double-check this is the right file.`;
+      return;
+    }
+    $("fname").textContent = file.name + " (" + n + " rows)";
+    const { header, first } = parseHeaderAndFirstRow(csvText);
+    renderPreview(header, first, n);
+  } catch (e) {
+    csvText = null;
+    $("fname").textContent = "Could not read file: " + e.message;
+  }
+}
+
+function showMsg(el, cls, text) {
+  el.className = "msg show " + cls;
+  el.textContent = text;
+}
+
+$("start-btn").addEventListener("click", async () => {
+  const batch = $("batch").value.trim().toLowerCase();
+  const token = $("token").value;
+  const provider = $("provider").value;
+  const chunk_size = $("chunk_size").value.trim();
+  const msg = $("upload-msg");
+  msg.className = "msg";
+
+  if (!csvText) { showMsg(msg, "error", "Choose a file first."); return; }
+  if (!/^[a-z0-9-]{3,40}$/.test(batch)) { showMsg(msg, "error", "Batch name: lowercase letters, numbers, hyphens, 3-40 characters."); return; }
+
+  $("start-btn").disabled = true;
+  $("start-btn").textContent = "Starting...";
+  try {
+    const resp = await fetch("/api/start-batch", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ batch, csv: csvText, provider, chunk_size, token }),
+    });
+    const data = await resp.json();
+    if (!resp.ok) { showMsg(msg, "error", data.error || "Failed to start."); return; }
+    showMsg(msg, "ok", `Started batch "${batch}". Tracking progress below.`);
+    $("check-batch").value = batch;
+    trackBatch(batch);
+  } catch (e) {
+    showMsg(msg, "error", "Network error: " + e.message);
+  } finally {
+    $("start-btn").disabled = false;
+    $("start-btn").textContent = "Start scraping";
+  }
+});
+
+$("check-btn").addEventListener("click", () => {
+  const b = $("check-batch").value.trim().toLowerCase();
+  if (b) trackBatch(b);
+});
+
+function trackBatch(batch) {
+  if (pollTimer) clearInterval(pollTimer);
+  $("progress-card").style.display = "block";
+  $("progress-card").scrollIntoView({ behavior: "smooth", block: "start" });
+  renderProgress({ status: "loading", batch });
+  pollBatch(batch);
+  pollTimer = setInterval(() => pollBatch(batch), 10000);
+}
+
+async function pollBatch(batch) {
+  try {
+    const resp = await fetch(`/api/progress?batch=${encodeURIComponent(batch)}`, { cache: "no-store" });
+    const data = await resp.json();
+    renderProgress(data);
+    if (data.status === "done" || data.status === "error" || data.status === "not_found" || data.status === "cancelled") {
+      if (pollTimer) { clearInterval(pollTimer); pollTimer = null; }
+    }
+  } catch (e) {
+    renderProgress({ status: "error", batch, error: "Network error: " + e.message });
+  }
+}
+
+function renderProgress(d) {
+  $("p-batch").textContent = d.batch || "";
+  const status = d.status || "loading";
+  const pill = $("p-status");
+  pill.className = "status-pill " + status;
+  pill.textContent = status === "loading" ? "loading" : status.replace("_", " ");
+
+  const errEl = $("p-error");
+  if (status === "error") {
+    errEl.style.display = "block";
+    errEl.textContent = d.error || "Something went wrong.";
+    $("p-body").style.display = "none";
+    return;
+  }
+  errEl.style.display = "none";
+  if (status === "not_found") {
+    $("p-body").style.display = "none";
+    errEl.style.display = "block";
+    errEl.className = "msg error show";
+    errEl.textContent = `No batch named "${d.batch}" found yet.`;
+    return;
+  }
+  $("p-body").style.display = "block";
+
+  const total = d.total_rows || 0, done = d.done || 0;
+  $("p-count").textContent = `${done} / ${total} institutes`;
+  $("p-eta").textContent = d.eta_seconds ? `ETA ~${Math.round(d.eta_seconds/60)} min` : (status === "done" ? "Complete" : "");
+  $("p-fill").style.width = total ? Math.round(100 * done / total) + "%" : "0%";
+
+  const fmtUsd = n => n == null ? "—" : "$" + Number(n).toFixed(2);
+  $("p-kpis").innerHTML = [
+    [d.pending ?? 0, "pending"],
+    [d.needs_review ?? 0, "needs review"],
+    [d.partners_found ?? 0, "partners"],
+    [fmtUsd(d.cost_usd_so_far), "cost so far"],
+  ].map(([n,l]) => `<div class="kpi"><div class="n">${esc(n)}</div><div class="l">${l}</div></div>`).join("");
+
+  const c = d.confidence || {};
+  $("p-conf").innerHTML = ["high","medium","low","none"].map(k =>
+    `<div class="conf ${k}"><div class="n">${c[k]||0}</div><div class="l">${k}</div></div>`).join("");
+
+  const dl = $("p-download");
+  if (status === "done") {
+    dl.style.display = "block";
+    dl.onclick = () => window.location.href = `/api/download?batch=${encodeURIComponent(d.batch)}`;
+  } else {
+    dl.style.display = "none";
+  }
+
+  const cancelBtn = $("p-cancel");
+  if (status === "running" || status === "loading") {
+    cancelBtn.style.display = "block";
+    cancelBtn.onclick = () => cancelBatch(d.batch);
+  } else {
+    cancelBtn.style.display = "none";
+  }
+}
+
+async function cancelBatch(batch) {
+  const msg = $("p-cancel-msg");
+  const token = $("token").value || window.prompt("Access phrase, to confirm cancelling this batch:") || "";
+  if (!window.confirm(`Cancel batch "${batch}"? At most one more chunk may still run before it stops.`)) return;
+  $("p-cancel").disabled = true;
+  try {
+    const resp = await fetch("/api/cancel-batch", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ batch, token }),
+    });
+    const data = await resp.json();
+    showMsg(msg, resp.ok ? "ok" : "error", resp.ok
+      ? `Cancellation requested for "${batch}". It will stop after at most one more chunk.`
+      : (data.error || "Could not cancel."));
+  } catch (e) {
+    showMsg(msg, "error", "Network error: " + e.message);
+  } finally {
+    $("p-cancel").disabled = false;
+  }
+}
+</script>
+</body></html>

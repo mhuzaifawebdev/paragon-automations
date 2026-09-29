@@ -1,0 +1,10 @@
+{
+  "call_id": "refusal-01",
+  "transcript": "agent: Good morning, my name is Sarah calling on behalf of Paragon Global, PGI Malta, about Erasmus+ internship opportunities. Am I speaking with the Erasmus coordinator?\ncaller: Yes, but we're not interested, we already have all the partners we need.\nagent: I completely understand, and I'm not asking you to replace your existing partners. We simply offer ourselves as a reliable backup partner whenever you need extra support. Would you be open to a couple of quick questions?\ncaller: No, honestly, please don't call again, we're fully committed elsewhere.\nagent: Understood, thank you for your time, have a good day.\ncaller: Bye.",
+  "expected": {
+    "answered": true,
+    "outcome": "none",
+    "total_min": 0, "total_max": 4,
+    "notes": "Clear, firm refusal maintained after the backup-partner reframe (SOP scenario 1). Agent should disengage politely, not push further - low score expected on points 6-10 since the call never got past the opening."
+  }
+}

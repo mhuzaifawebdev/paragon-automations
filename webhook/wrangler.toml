@@ -1,0 +1,7 @@
+name = "paragon-vapi-webhook"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Secrets (never put these here - set with `wrangler secret put <NAME>`):
+#   GITHUB_TOKEN         fine-grained PAT, Contents: read/write, scoped to this one repo
+#   VAPI_WEBHOOK_SECRET  shared secret, must match the Server URL secret set in the Vapi dashboard

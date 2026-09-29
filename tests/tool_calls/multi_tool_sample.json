@@ -1,0 +1,27 @@
+{
+  "message": {
+    "toolCallList": [
+      {
+        "id": "call_ctx_1",
+        "function": {"name": "get_institute_context", "arguments": {}}
+      },
+      {
+        "id": "call_cb_1",
+        "function": {"name": "log_callback_request", "arguments": {"callback_datetime": "next Tuesday 3pm"}}
+      },
+      {
+        "id": "call_esc_1",
+        "function": {"name": "escalate_to_human", "arguments": {"reason": "caller asked a legal/GDPR question the agent should not answer"}}
+      },
+      {
+        "id": "call_unknown_1",
+        "function": {"name": "not_a_real_tool", "arguments": {}}
+      }
+    ],
+    "call": {
+      "id": "test-live-call-2",
+      "metadata": {"row_id": "r052"},
+      "customer": {"number": "37038951665"}
+    }
+  }
+}

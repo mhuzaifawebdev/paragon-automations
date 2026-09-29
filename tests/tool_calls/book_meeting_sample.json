@@ -1,0 +1,18 @@
+{
+  "message": {
+    "toolCallList": [
+      {
+        "id": "call_abc123",
+        "function": {
+          "name": "book_meeting",
+          "arguments": "{\"date\": \"Thursday\", \"time\": \"11:00\"}"
+        }
+      }
+    ],
+    "call": {
+      "id": "test-live-call-1",
+      "metadata": {"row_id": "r035"},
+      "customer": {"number": "353214326100"}
+    }
+  }
+}

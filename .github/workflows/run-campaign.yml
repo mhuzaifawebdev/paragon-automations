@@ -1,0 +1,63 @@
+name: Run calling campaign
+
+# The dialer: places outbound calls for eligible institutes each day, respecting
+# config.yaml's per-institute and per-contact daily limits. This replaces a human
+# operator working down the list manually.
+#
+# Disabled by default (see the `if:` guard below) until Vapi credentials, the
+# Zadarma SIP trunk, and config.yaml are all filled in - remove the guard once
+# training steps 1-6 (see Paragon-Voice-Platform-and-Training-Workflow.pdf) are
+# complete and shadow-mode results look right. Until then, trigger manually with
+# workflow_dispatch and --dry-run to keep testing the loop for free.
+
+on:
+  schedule:
+    - cron: "0 8 * * 1-5"    # 08:00 UTC, weekdays - adjust to Paragon's calling hours
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true = place no real calls, just print what would happen"
+        default: "true"
+      limit:
+        description: "max calls to place this run"
+        default: "20"
+
+permissions:
+  contents: write
+
+jobs:
+  dial:
+    runs-on: ubuntu-latest
+    # Remove this guard once the campaign is approved to run live on schedule.
+    if: ${{ github.event_name == 'workflow_dispatch' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      - name: Write .env from secrets
+        run: |
+          echo "VAPI_API_KEY=${{ secrets.VAPI_API_KEY }}" >> .env
+          echo "VAPI_PHONE_NUMBER_ID=${{ secrets.VAPI_PHONE_NUMBER_ID }}" >> .env
+
+      - name: Run the campaign
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "false" ]; then
+            python agent/run_campaign.py --limit "${{ github.event.inputs.limit }}"
+          else
+            python agent/run_campaign.py --dry-run --limit "${{ github.event.inputs.limit || 20 }}"
+          fi
+
+      - name: Commit campaign state
+        if: ${{ github.event.inputs.dry_run == 'false' }}
+        run: |
+          git config user.name "paragon-campaign-runner"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/campaign_state.csv
+          git diff --cached --quiet || git commit -m "Campaign run [automated]"
+          git push

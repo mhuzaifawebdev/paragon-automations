@@ -1,0 +1,47 @@
+name: Process finished calls
+
+# Picks up anything the webhook Worker dropped in data/calls/inbox/, scores it,
+# classifies it, updates campaign_state.csv, and commits the results back.
+# Runs on a schedule (the reliable path) and also on push to inbox/ (for faster
+# turnaround right after a call ends) - whichever fires first wins; both are safe
+# to run even when the other already emptied the inbox.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes - adjust once real call volume is known
+  push:
+    paths:
+      - "data/calls/inbox/**.json"
+  workflow_dispatch: {}       # manual trigger, e.g. for re-running after a fix
+
+permissions:
+  contents: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml lxml pypdf
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Process every file in the inbox
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python agent/process_call.py --all
+
+      - name: Commit results
+        run: |
+          git config user.name "paragon-call-processor"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/calls data/results data/campaign_state.csv
+          git diff --cached --quiet || git commit -m "Process finished calls [automated]"
+          git push

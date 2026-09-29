@@ -1,0 +1,74 @@
+name: Enrich institutes
+
+# Reads institutes marked "pending" in the Google Sheet (Run status column), scrapes them with
+# scraper v2, verifies every claim against its source page, and rebuilds the sheet's tabs.
+#
+# Start it from any of:
+#   - the Sheet: Paragon > Enrich pending rows  (Apps Script, see apps_script/Code.gs)
+#   - GitHub: Actions > Enrich institutes > Run workflow
+#   - the nightly schedule below (only does anything if some row is marked pending)
+#
+# Free: GitHub Actions gives a private repo 2,000 minutes a month; the Sheets API is free. The model
+# (claude_api) is the only paid part, a few cents per institute; set provider: rules in config.yaml
+# for a fully free run.
+
+on:
+  workflow_dispatch:
+    inputs:
+      rows:
+        description: "Optional: comma-separated row ids to force (e.g. r007,r008). Empty = rows marked pending."
+        required: false
+        default: ""
+  repository_dispatch:
+    types: [enrich]
+  schedule:
+    - cron: "0 3 * * *"        # 03:00 UTC nightly; a no-op when nothing is pending
+
+permissions:
+  contents: write              # to commit the results back (scrape_results + CSVs)
+
+concurrency:
+  group: enrich                # never two runs at once: they would overwrite each other's sheet rebuild
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      SCRAPER_PROVIDER: ${{ vars.SCRAPER_PROVIDER || 'claude_api' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Write the Google service-account key (from a secret, never committed)
+        run: |
+          mkdir -p credentials
+          printf '%s' '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > credentials/google_service_account.json
+
+      - name: Scrape
+        run: |
+          if [ -n "${{ github.event.inputs.rows }}" ]; then
+            python scraper2/run.py --rows "${{ github.event.inputs.rows }}" --force --provider "$SCRAPER_PROVIDER" --workers 6
+          else
+            python scraper2/run.py --pending --provider "$SCRAPER_PROVIDER" --workers 6
+          fi
+
+      - name: Publish to the Google Sheet
+        run: python scraper/build_sheet.py --mark-done
+
+      - name: Commit results (private repo)
+        run: |
+          git config user.name "paragon-enrich-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/scrape_results data/*.csv
+          git diff --cached --quiet || git commit -m "Enrich institutes [automated]"
+          git push

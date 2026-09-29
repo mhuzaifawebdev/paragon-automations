@@ -1,0 +1,53 @@
+# Secrets - never commit
+.env
+*.key
+*.pem
+
+# Local scrape cache (large, rebuildable)
+data/cache/
+
+# Raw inbound call payloads once processed (kept locally for debugging, not in git)
+data/calls/inbox/*.json
+!data/calls/inbox/.gitkeep
+
+# Local test runs - these accumulate every time state.py / tools.py are exercised
+data/campaign_state.csv
+data/callback_requests.csv
+data/escalations.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+credentials/
+
+# Vercel local project-linking metadata (per-machine, not meant for source control)
+.vercel
+
+# Real scraped/business data and generated snapshots - not for source control (decided when first
+# pushing this repo: real operator PII, real scraped third-party contact data, and locally-generated
+# dashboards with that data embedded should not go to GitHub)
+data/*.csv
+data/scrape_results/
+data/scrape_results_v1/
+data/scrape_results_v2/
+data_hei/
+dashboard.html
+scraper_dashboard.html
+
+# Internal planning/pitch documents - not for this repo (business strategy, not code)
+Paragon-*.pdf
+paragon-*.md
+paragon-n8n-workflow.json
+
+# Unrelated to this project - a different client (WatchChest) and leftover Magento-project files
+# from before this repo was Paragon-focused
+WatchChest-*.pdf
+system_documentation.md
+Sheet6_Magento_Attributes.tsv
+fetch_attribute_options.json
+attributes.txt
+_transform_wf02.js

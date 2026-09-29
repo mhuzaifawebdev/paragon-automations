@@ -1,0 +1,139 @@
+name: Scrape uploaded batch
+
+# Runs a team's uploaded batch (web_scraper/index.html -> api/start-batch.js commits the raw file
+# to data_hei/uploads/<batch>.csv and fires the "scrape-start" event below) one CHUNK at a time -
+# scraper2/batch_runner.py's --once flag was written specifically for this: one job = one chunk.
+#
+# Self-chaining: if rows remain after a chunk, the last step re-fires "scrape-start" for the same
+# batch so the next chunk runs as a fresh job. This is not optional - GitHub Actions does not let
+# the built-in GITHUB_TOKEN trigger new workflow runs (an anti-infinite-loop rule), so a real PAT
+# (secrets.DISPATCH_TOKEN) is required to re-dispatch. Progress is committed after every chunk, so
+# a timeout or cancellation never loses more than one chunk's work.
+#
+# Cancellation: web_scraper's "Cancel this batch" button (api/cancel-batch.js) writes
+# data_hei/<batch>/CANCELLED. The first step below checks for that marker every run and, if
+# present, marks progress.json "cancelled" and skips everything else - so a batch that was
+# cancelled mid-run does at most one more chunk before stopping for good.
+
+on:
+  repository_dispatch:
+    types: [scrape-start]
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Batch name (matches data_hei/<batch>/)"
+        required: true
+      provider:
+        description: "gemini (free) | claude_api (paid) | rules (no AI)"
+        default: "gemini"
+      chunk_size:
+        description: "Institutes per chunk"
+        default: "25"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-${{ github.event.client_payload.batch || github.event.inputs.batch }}
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      BATCH: ${{ github.event.client_payload.batch || github.event.inputs.batch }}
+      PROVIDER: ${{ github.event.client_payload.provider || github.event.inputs.provider || 'gemini' }}
+      CHUNK_SIZE: ${{ github.event.client_payload.chunk_size || github.event.inputs.chunk_size || '25' }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Check for a cancellation marker (web_scraper's "Cancel this batch" button)
+        id: cancelcheck
+        run: |
+          if [ -f "data_hei/$BATCH/CANCELLED" ]; then
+            echo "cancelled=true" >> "$GITHUB_OUTPUT"
+            python -c "
+          import json, datetime, os
+          path = f'data_hei/$BATCH/progress.json'
+          data = json.load(open(path)) if os.path.exists(path) else {'batch': '$BATCH', 'total_rows': 0, 'done': 0}
+          data['status'] = 'cancelled'
+          data['generated_at'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+          json.dump(data, open(path, 'w'))
+          "
+            git config user.name "paragon-scraper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add "data_hei/$BATCH"
+            git diff --cached --quiet || git commit -m "scrape $BATCH: cancelled [automated]"
+            git push
+          else
+            echo "cancelled=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Import the uploaded file, if not already imported
+        if: steps.cancelcheck.outputs.cancelled != 'true'
+        run: |
+          if [ -f "data_hei/$BATCH/numbers_clean.csv" ]; then
+            echo "Already imported, skipping."
+          elif python scraper2/import_batch.py --csv "data_hei/uploads/$BATCH.csv" --batch "$BATCH"; then
+            echo "Imported."
+          else
+            mkdir -p "data_hei/$BATCH"
+            python -c "
+          import json, datetime
+          json.dump({
+              'batch': '$BATCH', 'status': 'error',
+              'error': 'Import failed - check the uploaded file columns (see scraper2/import_batch.py ALIASES).',
+              'generated_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              'total_rows': 0, 'done': 0, 'pending': 0, 'chunk': 0, 'total_chunks': 0,
+              'confidence': {'high': 0, 'medium': 0, 'low': 0, 'none': 0}, 'recent': [],
+          }, open('data_hei/$BATCH/progress.json', 'w'))
+          "
+            git config user.name "paragon-scraper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add "data_hei/$BATCH" "data_hei/uploads"
+            git commit -m "scrape $BATCH: import failed [automated]"
+            git push
+            exit 1
+          fi
+
+      - name: Run one chunk
+        if: steps.cancelcheck.outputs.cancelled != 'true'
+        run: |
+          PARAGON_DATA="data_hei/$BATCH" python scraper2/batch_runner.py \
+            --batch "$BATCH" --chunk-size "$CHUNK_SIZE" --provider "$PROVIDER" --once
+
+      - name: Commit this chunk's results
+        if: steps.cancelcheck.outputs.cancelled != 'true'
+        run: |
+          git config user.name "paragon-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add "data_hei/$BATCH" "data_hei/uploads"
+          git diff --cached --quiet || git commit -m "scrape $BATCH: chunk done [automated]"
+          git push
+
+      - name: Continue with the next chunk, if any rows remain
+        if: steps.cancelcheck.outputs.cancelled != 'true'
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          PENDING=$(python -c "import json; print(json.load(open('data_hei/$BATCH/progress.json')).get('pending', 0))")
+          echo "Pending rows: $PENDING"
+          if [ "$PENDING" -gt 0 ]; then
+            curl -s -X POST \
+              -H "Authorization: Bearer $DISPATCH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/dispatches" \
+              -d "{\"event_type\":\"scrape-start\",\"client_payload\":{\"batch\":\"$BATCH\",\"provider\":\"$PROVIDER\",\"chunk_size\":\"$CHUNK_SIZE\"}}"
+          else
+            echo "Batch $BATCH complete."
+          fi

@@ -1,0 +1,11 @@
+{
+ "call_id": "hot-lead-01",
+ "transcript": "agent: Good morning, my name is Sarah calling on behalf of Paragon Global, PGI Malta. Am I speaking with the person who handles Erasmus+ partnerships?\ncaller: Yes, this is Patrick, I'm the Erasmus officer here.\nagent: Great to reach you, Patrick. We've supported Erasmus+ partnerships for over 20 years, working with 900 plus institutions and placing more than 45,000 students. I'm calling about internship opportunities in Malta for your students.\ncaller: Oh interesting, we do send students abroad sometimes.\nagent: That's great to hear. Do you currently run short-term mobility, like one to four weeks, or longer placements up to six months? And do you also do staff mobility?\ncaller: Mostly longer placements, around 8 to 12 weeks, and yes we do some staff exchanges too.\nagent: Good to know. Can I ask roughly how many students you send abroad each year, and what departments they mostly come from?\ncaller: Maybe 30 to 40 students a year, mostly business and hospitality.\nagent: That's a strong fit actually, Malta has a big hospitality and tourism sector, so we could offer real placement variety for exactly those departments.\ncaller: That does sound useful, we've been looking to diversify our destinations actually.\nagent: Perfect, then this could be a great outcome for your students, concrete placements with real employers in Malta. Would you be open to a short 5 to 10 minute meeting with Dr. Nadia to go through the details?\ncaller: Sure, when were you thinking?\nagent: How about Thursday at 11am your time?\ncaller: Thursday at 11 works for me.\nagent: Wonderful, I'll get that sent over. And roughly when would your next group of students be ready to travel?\ncaller: We're thinking around January, so about 4 months from now.\nagent: Perfect, thank you Patrick, looking forward to Thursday.\ncaller: Thanks, bye.",
+ "expected": {
+  "answered": true,
+  "outcome": "engagement_appointment",
+  "total_min": 7.5,
+  "total_max": 9.5,
+  "notes": "Meeting booked for a specific day/time; arrival stated as ~4 months, which the boundary rule places in the 4-6 month band, not qualified_appointment (needs strictly <4)."
+ }
+}

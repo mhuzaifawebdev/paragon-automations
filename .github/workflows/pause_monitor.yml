@@ -1,0 +1,55 @@
+name: Pause-monitor check
+
+# Runs agent/pause_monitor.py on a schedule (there is no VPS to run this as a long-lived cron job
+# on) and commits the updated state/alert CSVs back to the repo. web/api/status.js reads those
+# committed files via GitHub's Contents API, so this workflow is what makes web/index.html "live".
+#
+# Every 10 minutes, not 5: a private repo's GitHub Actions free tier is capped at 2,000 min/month.
+# */10 7-16 * * * is ~54 runs/day (~1,600 min/month with checkout+setup overhead) - safely inside
+# that budget. If this repo ends up public (unlimited Actions minutes), tighten the cron below to
+# */5 for a faster-feeling dashboard.
+#
+# dashboard.html (the local snapshot from scripts/build_dashboard.py) is deliberately NOT
+# regenerated or committed here - web/index.html is the hosted replacement for that view. The
+# local script still works standalone for anyone who runs it by hand.
+
+on:
+  schedule:
+    - cron: "*/10 7-16 * * *"   # matches config.yaml's vapi.zadarma.monitor shift window (UTC)
+  workflow_dispatch: {}          # manual "check now" run
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      - name: Run pause monitor
+        env:
+          ZADARMA_API_KEY: ${{ secrets.ZADARMA_API_KEY }}
+          ZADARMA_API_SECRET: ${{ secrets.ZADARMA_API_SECRET }}
+          ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+        run: python agent/pause_monitor.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "paragon-pause-monitor"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/extension_state.csv data/alerts.csv
+          git diff --cached --quiet || git commit -m "pause-monitor: update state [automated]"
+          git push

@@ -1,0 +1,138 @@
+# Erasmus Calling SOP -> structured playbook for the AI calling agent.
+# Source: Erasmus_Calling_SOP_What_If_Scenarios.md (client SOP). Wording of `response`
+# is the client's; do not paraphrase the facts. `next_state` refers to the call-flow
+# state machine: dial -> ivr -> gatekeeper -> find_english_speaker -> confirm_right_person
+# -> pitch -> qualify -> close_meeting -> wrapup.
+#
+# Constants used by several scenarios (confirm with client):
+#   meeting_host: Dr. Nadia        meeting_length: 5-10 minutes
+
+scenarios:
+  - id: 1
+    name: Existing partners
+    trigger: 'Coordinator says they are not looking for other commitments because they already have partners.'
+    response: >-
+      Absolutely, and I'm not asking you to replace your existing partners. We're simply
+      offering ourselves as a reliable backup partner whenever you need additional support
+      or extra capacity. If you're open to it, I'd love to ask a couple of quick questions
+      so we can better understand your needs.
+    required_actions:
+      - Clarify that we are a backup / additional option, not a replacement.
+      - Proceed with the qualification questions if they are willing.
+    next_state: qualify
+
+  - id: 2
+    name: Not available / send an email
+    trigger: 'Coordinator says "I am not available. Send me an email."'
+    response: >-
+      Certainly, I can send you an email. I would just suggest a brief 5-10 minute meeting
+      with Dr. Nadia. She has complete clarity on our services and can explain everything
+      clearly. It will only take a few minutes.
+    required_actions:
+      - Agree to send the email.
+      - Try to secure a short meeting with Dr. Nadia.
+    next_state: close_meeting
+
+  - id: 3
+    name: Send an email first
+    trigger: 'Coordinator is available but repeatedly asks for an email first.'
+    response: >-
+      Absolutely, I'll send you the email. However, I'd recommend a quick 5-10 minute
+      meeting with Dr. Nadia first. It will help us understand your institution's
+      requirements so we can send a proposal tailored to your needs rather than a generic one.
+    required_actions:
+      - Send the email.
+      - Politely continue trying to secure the short meeting.
+    next_state: close_meeting
+
+  - id: 4
+    name: English-speaking contact
+    trigger: 'Person does not speak English and asks to be connected with someone who can.'
+    response: >-
+      Could you please connect me with someone who speaks English?
+    fallback_phrases: ['English teacher, please.', 'Principal, please.', 'Headmaster, please.']
+    required_actions:
+      - Ask to be connected to an English-speaking staff member.
+      - Use translation when necessary (operators use Google Translate; agent needs an equivalent).
+      - Once connected, continue with the standard script.
+    next_state: find_english_speaker
+    notes: 'Most frequent blocker in the call log ("LB"). Log speaks_english=false for that contact.'
+
+  - id: 5
+    name: Discuss with the team
+    trigger: 'Person says they need to discuss the proposal with their team first.'
+    response: >-
+      Of course, I completely understand. Please feel free to discuss it with your team.
+      We'd also like to invite you and any relevant decision-makers to a short 5-10 minute
+      meeting with Dr. Nadia. We can share an open meeting link, explain the proposal in
+      detail, and answer any questions.
+    required_actions:
+      - Allow them to involve their team.
+      - Invite relevant decision-makers to the meeting.
+      - Use the meeting to explain the proposal and answer questions.
+    next_state: close_meeting
+
+  - id: 6
+    name: Interested but not ready
+    trigger: 'Person says "Yes, I am interested, but right now we cannot..." or keeps delaying.'
+    response: >-
+      I completely understand, and thank you for your interest. Before I send you the email,
+      I'd just like to ask a few quick questions. It will only take a couple of minutes and
+      will help us understand your institution's requirements so we can prepare and share
+      the most relevant proposal instead of a generic one.
+    required_actions:
+      - Ask the qualification questions (list still to be supplied by the client).
+      - Use the answers to prepare a relevant proposal.
+      - Then send the follow-up email.
+    next_state: qualify
+
+  - id: 7
+    name: Wrong / non-decision-maker contact
+    trigger: 'Person says someone else (Principal, Headmaster, Director, Administrator) makes the decision.'
+    response: >-
+      Thank you for letting me know. May I ask who is responsible for making decisions
+      regarding Erasmus or international partnerships at your institution? Could you please
+      share their name, email address, or direct contact number, if possible? I'd also like
+      to ask a few quick questions about your institution so we can be better prepared when
+      we speak with them.
+    required_actions:
+      - Collect the decision-maker's name, position, email and phone number if available.
+      - Collect basic institution information.
+      - Ask about student profile / levels and other qualification details.
+      - Use the information to tailor the later conversation with the decision-maker.
+    next_state: qualify
+    writes_to_db: [contact_name, role_title, email, phone]
+
+  - id: 8
+    name: Automated telephone system / IVR
+    trigger: 'Call connects to an automated menu in the local language ("press 1, press 2...").'
+    response: null   # no spoken pitch; agent navigates the menu
+    required_actions:
+      - Listen to the options (translate if needed).
+      - Choose the option most likely to reach a live person: Reception, Operator, Administration or International Office.
+      - Continue until connected to a real person, then follow the standard script.
+    next_state: ivr
+    notes: >-
+      Needs multilingual speech-to-text. Some log entries labelled "speaker" may be this
+      or a voicemail message; meaning to be confirmed with the operators.
+
+  - id: 9
+    name: Long wait + unresponsive contact
+    trigger: 'Call takes long to connect and, once answered, the person is not very responsive.'
+    response: null
+    required_actions:
+      - Confirm you have the correct Erasmus / international partnership contact; if not, ask to be connected.
+      - Deliver the first five script points clearly and quickly.
+      - Cover the remaining points one by one.
+      - Ask the relevant qualification questions.
+      - Work toward securing a 5-10 minute meeting with Dr. Nadia.
+    next_state: pitch
+    pitch_mode: compressed_first_five
+
+# Operator rules from the SOP (apply to every state)
+global_rules:
+  - Stay polite and professional even when the person is hesitant or unavailable.
+  - Do not argue; acknowledge their situation and guide toward the next useful step.
+  - Use the qualification questions to learn needs and the student arrival timeline.
+  - Always try to identify the correct decision-maker when the current contact is not responsible.
+  - The objective is to qualify the opportunity and secure the appropriate next step, not just to collect an email.
