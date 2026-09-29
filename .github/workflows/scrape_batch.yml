@@ -106,6 +106,33 @@ jobs:
             exit 1
           fi
 
+      - name: Write an initial progress checkpoint, so the page shows "running" immediately
+        # Without this, progress.json is only written AFTER a whole chunk finishes - for a small
+        # file (fewer rows than chunk-size), that means the page shows "not found" for the entire
+        # first chunk, which for real websites + real LLM calls can genuinely take minutes and looks
+        # exactly like nothing is happening. This gives it something true to show within seconds.
+        if: steps.cancelcheck.outputs.cancelled != 'true'
+        run: |
+          if [ ! -f "data_hei/$BATCH/progress.json" ]; then
+            python -c "
+          import json, csv, datetime, math
+          with open('data_hei/$BATCH/numbers_clean.csv', encoding='utf-8-sig') as f:
+              total = sum(1 for _ in csv.DictReader(f))
+          json.dump({
+              'batch': '$BATCH', 'status': 'running',
+              'generated_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              'total_rows': total, 'done': 0, 'pending': total,
+              'chunk': 1, 'total_chunks': max(1, math.ceil(total / int('$CHUNK_SIZE'))),
+              'confidence': {'high': 0, 'medium': 0, 'low': 0, 'none': 0}, 'recent': [],
+          }, open('data_hei/$BATCH/progress.json', 'w'))
+          "
+            git config user.name "paragon-scraper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add "data_hei/$BATCH"
+            git commit -m "scrape $BATCH: started [automated]"
+            git push
+          fi
+
       - name: Run one chunk
         if: steps.cancelcheck.outputs.cancelled != 'true'
         run: |

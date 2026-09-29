@@ -192,6 +192,7 @@
 <script>
 const $ = id => document.getElementById(id);
 let pollTimer = null;
+let trackStartedAt = 0;
 
 function esc(s) { return (s ?? "").toString().replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
 function slugSuggest() {
@@ -353,21 +354,47 @@ $("check-btn").addEventListener("click", () => {
   if (b) trackBatch(b);
 });
 
-function trackBatch(batch) {
+function trackBatch(batch, { scroll = true } = {}) {
   if (pollTimer) clearInterval(pollTimer);
+  trackStartedAt = Date.now();
   $("progress-card").style.display = "block";
-  $("progress-card").scrollIntoView({ behavior: "smooth", block: "start" });
+  if (scroll) $("progress-card").scrollIntoView({ behavior: "smooth", block: "start" });
   renderProgress({ status: "loading", batch });
   pollBatch(batch);
   pollTimer = setInterval(() => pollBatch(batch), 10000);
+
+  // Remember this batch so reopening the page (or reloading it) resumes tracking instead of
+  // dropping back to an empty form - a batch runs for minutes to hours in the background, so
+  // losing track of it on every refresh made it look "idle" when it was actually still working.
+  try { localStorage.setItem("lastBatch", batch); } catch {}
+  try {
+    const url = new URL(window.location);
+    url.searchParams.set("batch", batch);
+    window.history.replaceState({}, "", url);
+  } catch {}
 }
+
+// On load: resume tracking whatever batch is in the URL (?batch=...), or failing that, the last
+// one this browser started - so coming back to this page later shows progress, not a blank form.
+(function resumeTracking() {
+  let batch = null;
+  try { batch = new URL(window.location).searchParams.get("batch"); } catch {}
+  if (!batch) { try { batch = localStorage.getItem("lastBatch"); } catch {} }
+  if (batch && /^[a-z0-9-]{3,40}$/.test(batch)) {
+    $("check-batch").value = batch;
+    trackBatch(batch, { scroll: false });
+  }
+})();
 
 async function pollBatch(batch) {
   try {
     const resp = await fetch(`/api/progress?batch=${encodeURIComponent(batch)}`, { cache: "no-store" });
     const data = await resp.json();
     renderProgress(data);
-    if (data.status === "done" || data.status === "error" || data.status === "not_found" || data.status === "cancelled") {
+    // "not_found" right after starting is normal - the GitHub Actions job hasn't written
+    // progress.json yet (checkout + install deps alone takes 20-40s). Only stop polling once the
+    // batch has genuinely finished one way or another; "not_found" keeps retrying like "running" does.
+    if (data.status === "done" || data.status === "error" || data.status === "cancelled") {
       if (pollTimer) { clearInterval(pollTimer); pollTimer = null; }
     }
   } catch (e) {
@@ -393,8 +420,11 @@ function renderProgress(d) {
   if (status === "not_found") {
     $("p-body").style.display = "none";
     errEl.style.display = "block";
-    errEl.className = "msg error show";
-    errEl.textContent = `No batch named "${d.batch}" found yet.`;
+    const justStarted = trackStartedAt && (Date.now() - trackStartedAt) < 90000;
+    errEl.className = "msg show " + (justStarted ? "ok" : "error");
+    errEl.textContent = justStarted
+      ? `Starting up - GitHub Actions is spinning up the job for "${d.batch}". This usually takes under a minute.`
+      : `No batch named "${d.batch}" found. Check the name is spelled exactly right, or it may genuinely not have started yet - GitHub Actions can occasionally take a few minutes under load.`;
     return;
   }
   $("p-body").style.display = "block";
