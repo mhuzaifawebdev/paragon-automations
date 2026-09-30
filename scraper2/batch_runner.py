@@ -197,11 +197,12 @@ def _run(a, data_dir, results_dir, cfg):
 
             def _live_checkpoint(timings, costs, done_ids, _base=set(already_done)):
                 # Fires after every row, not just once at chunk end - gives real, ticking done/pending
-                # counts and ETA while the chunk is still running. Confidence/partner counts still
-                # reflect the last full merge (not this chunk's still-in-progress rows) since
-                # run_batch.merge() is deliberately not called mid-chunk - rewriting the whole
-                # enriched CSV on every single row would be needless I/O for a number that's only
-                # cosmetic until the chunk finishes anyway.
+                # counts AND a real, downloadable institutions_enriched.csv while the chunk is still
+                # running (not just a cosmetic counter). scraper/run_batch.py's own work() loop
+                # already re-merges after every row for exactly this reason - matching that pattern
+                # here means a crash mid-chunk only loses whatever the last ~20s push loop (in
+                # .github/workflows/scrape_batch.yml) hadn't caught up on yet, not the whole chunk.
+                run_batch.merge(rows)
                 write_progress(data_dir, a.batch, "running", rows, _base | set(done_ids), chunk_no,
                                total_chunks, all_timings + timings, all_costs + costs, started_at)
 

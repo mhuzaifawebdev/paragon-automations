@@ -74,6 +74,7 @@ jobs:
             git config user.email "actions@users.noreply.github.com"
             git add "data_hei/$BATCH"
             git diff --cached --quiet || git commit -m "scrape $BATCH: cancelled [automated]"
+            git pull --rebase --autostash -q
             git push
           else
             echo "cancelled=false" >> "$GITHUB_OUTPUT"
@@ -102,6 +103,7 @@ jobs:
             git config user.email "actions@users.noreply.github.com"
             git add "data_hei/$BATCH" "data_hei/uploads"
             git commit -m "scrape $BATCH: import failed [automated]"
+            git pull --rebase --autostash -q
             git push
             exit 1
           fi
@@ -130,14 +132,17 @@ jobs:
             git config user.email "actions@users.noreply.github.com"
             git add "data_hei/$BATCH"
             git commit -m "scrape $BATCH: started [automated]"
+            git pull --rebase --autostash -q
             git push
           fi
 
-      - name: Run one chunk, pushing live progress while it's still running
-        # batch_runner.py now updates progress.json locally after every row, not just once at chunk
-        # end (a chunk of real websites + real LLM calls can take minutes) - this backgrounds it and
-        # pushes just that one file every 20s so the page's poll actually sees it move, instead of
-        # showing nothing until the whole chunk finishes.
+      - name: Run one chunk, pushing real results while it's still running
+        # batch_runner.py now updates progress.json AND institutions_enriched.csv (via
+        # run_batch.merge()) after every row, not just once at chunk end - a chunk of real websites
+        # + real LLM calls can take minutes. This backgrounds it and pushes the whole batch
+        # directory every 20s, so a crash or timeout mid-chunk only loses the last <20s of work,
+        # not the whole chunk - and the download button always reflects genuinely saved results,
+        # not just a progress counter that's ahead of what's actually downloadable.
         if: steps.cancelcheck.outputs.cancelled != 'true'
         run: |
           git config user.name "paragon-scraper-bot"
@@ -149,8 +154,9 @@ jobs:
 
           while kill -0 $RUNNER_PID 2>/dev/null; do
             sleep 20
-            if git add "data_hei/$BATCH/progress.json" 2>/dev/null && ! git diff --cached --quiet; then
+            if git add "data_hei/$BATCH" 2>/dev/null && ! git diff --cached --quiet; then
               git commit -m "scrape $BATCH: progress update [automated]" -q
+              git pull --rebase --autostash -q || true
               git push -q || echo "(live progress push failed, non-fatal - the final commit after this chunk will still catch up)"
             fi
           done
@@ -163,6 +169,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add "data_hei/$BATCH" "data_hei/uploads"
           git diff --cached --quiet || git commit -m "scrape $BATCH: chunk done [automated]"
+          git pull --rebase --autostash -q
           git push
 
       - name: Continue with the next chunk, if any rows remain
