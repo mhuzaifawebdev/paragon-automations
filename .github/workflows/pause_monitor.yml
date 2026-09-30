@@ -32,7 +32,14 @@ jobs:
           python-version: "3.12"
 
       - name: Install Python dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml google-auth google-api-python-client
+
+      - name: Write the Google service-account key (from a secret, never committed)
+        # Same secret enrich.yml already uses for the scraper's Sheet publishing - reused here for
+        # agent/sheet_log.py, no new credential to set up.
+        run: |
+          mkdir -p credentials
+          printf '%s' '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > credentials/google_service_account.json
 
       - name: Run pause monitor
         env:

@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "agent"))
 import zadarma_client as zc  # noqa: E402
 import notify_email  # noqa: E402
+import sheet_log  # noqa: E402
 from vapi_call import load_env  # noqa: E402
 import os  # noqa: E402
 import json  # noqa: E402
@@ -34,6 +35,10 @@ import urllib.request  # noqa: E402
 
 def _default_email_send(to_addrs, subject, body):
     return notify_email.send_email(to_addrs, subject, body)
+
+
+def _default_sheet_log(sheet_id, row):
+    return sheet_log.append_alert_row(sheet_id, row)
 
 STATE_PATH = ROOT / "data" / "extension_state.csv"
 ALERTS_PATH = ROOT / "data" / "alerts.csv"
@@ -102,13 +107,17 @@ def send_alert(webhook_url, text):
         return False
 
 
-def check(cfg, get_fn=None, webhook_url=None, dry_run=False, now=None, email_fn=None):
+def check(cfg, get_fn=None, webhook_url=None, dry_run=False, now=None, email_fn=None, sheet_log_fn=None):
     now = now or _now()
     ext_cfg = cfg.get("extensions") or {}
     idle_minutes = int(cfg.get("idle_minutes", 15))
     manager_email = cfg.get("manager_email") or ""
     if manager_email == "REPLACE_ME":
         manager_email = ""
+    alert_sheet_id = cfg.get("alert_sheet_id") or ""
+    if alert_sheet_id == "REPLACE_ME":
+        alert_sheet_id = ""
+    alert_sheet_tab = cfg.get("alert_sheet_tab") or "Alerts"
     targets = list(ext_cfg) or [str(n) for n in zc.extensions(_get_fn=get_fn)]
     state = _read_csv(STATE_PATH, STATE_FIELDS)
     shift, work = in_shift(cfg, now), queued_work_exists(cfg)
@@ -149,9 +158,15 @@ def check(cfg, get_fn=None, webhook_url=None, dry_run=False, now=None, email_fn=
                                 f"this only repeats once an hour per extension.")
                         (email_fn or _default_email_send)(recipients, subject, body)
                         email_ok = True   # notify_email.send_email logs its own failure; never blocks the alert log
+                    sheet_ok = None
+                    if alert_sheet_id:
+                        sheet_row = {"timestamp": now.isoformat(), "extension": ext, "manager": manager,
+                                     "reason": reason, "sent_ok": ""}
+                        sheet_ok = (sheet_log_fn or _default_sheet_log)(alert_sheet_id, sheet_row)
                     row["last_alert_at"] = now.isoformat()
                     _append_csv(ALERTS_PATH, {"timestamp": now.isoformat(), "extension": ext, "manager": manager,
-                                              "reason": reason, "sent_ok": webhook_ok or bool(email_ok)}, ALERT_FIELDS)
+                                              "reason": reason,
+                                              "sent_ok": webhook_ok or bool(email_ok) or bool(sheet_ok)}, ALERT_FIELDS)
         state[ext] = row
 
     if not dry_run:

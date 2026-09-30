@@ -150,6 +150,26 @@ try:
             now=datetime(2026, 9, 27, 12, 0, tzinfo=timezone.utc))
     check("'REPLACE_ME' manager_email is treated as unset, not emailed literally",
           "REPLACE_ME" not in (sent_calls[0] if sent_calls else []), True)
+
+    # ---- pause_monitor: an alert also logs a row to a Google Sheet, if alert_sheet_id is set ----
+    sheet_calls = []
+    cfg_sheet = {"shift_start_utc": "00:00", "shift_end_utc": "23:59", "idle_minutes": 15,
+                "alert_sheet_id": "sheet123", "alert_sheet_tab": "Alerts",
+                "extensions": {"100": {"manager": "Nadia"}}}
+    pm.check(cfg_sheet, get_fn=get_offline, dry_run=False,
+            email_fn=lambda *a: None,
+            sheet_log_fn=lambda sheet_id, row: sheet_calls.append((sheet_id, row)),
+            now=datetime(2026, 9, 27, 13, 0, tzinfo=timezone.utc))
+    check("a real alert logs a row to the configured Google Sheet",
+          sheet_calls and sheet_calls[0][0] == "sheet123" and sheet_calls[0][1]["extension"] == "100", True)
+
+    sheet_calls.clear()
+    cfg_no_sheet = {**cfg_sheet, "alert_sheet_id": "REPLACE_ME"}
+    pm.check(cfg_no_sheet, get_fn=get_offline, dry_run=False, email_fn=lambda *a: None,
+            sheet_log_fn=lambda sheet_id, row: sheet_calls.append(sheet_id),
+            now=datetime(2026, 9, 27, 14, 0, tzinfo=timezone.utc))
+    check("'REPLACE_ME' alert_sheet_id is treated as unset, sheet logging skipped",
+          sheet_calls, [])
 finally:
     pm.STATE_PATH, pm.ALERTS_PATH = real_state_path, real_alerts_path
     import shutil

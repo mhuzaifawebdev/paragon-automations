@@ -77,12 +77,17 @@ vapi:
       shift_start_utc: "07:00"   # outside this window, an offline extension is not flagged
       shift_end_utc: "16:00"
       idle_minutes: 15           # extension online but no status change this long, with work queued -> alert
-      # A delay alert now emails two people: the operator on that extension (their "email" below)
-      # and manager_email (one shared address, e.g. whoever runs the team) - fill manager_email in
-      # before alerts are worth relying on; an operator with no "email" just doesn't get a personal
-      # copy, manager_email still does. Sending itself needs SMTP_* in .env (see .env.example);
-      # with no SMTP configured, alerts still log to data/alerts.csv, they just aren't emailed.
+      # A delay alert can email two people (the operator + manager_email below) AND/OR log a row to
+      # a Google Sheet (alert_sheet_id) - pick whichever fits; either, both, or neither can be
+      # configured, and alerts always log to data/alerts.csv regardless.
+      #   - Email needs SMTP_* in .env (see .env.example) - without it, email is silently skipped.
+      #   - The Sheet needs credentials/google_service_account.json (same one the scraper uses) and
+      #     the sheet itself shared with that service account's email - without it, logging is
+      #     silently skipped. Test it directly: python agent/sheet_log.py <sheet_id>
       manager_email: "REPLACE_ME"
+      alert_sheet_id: "REPLACE_ME"    # the Google Sheet's ID (from its URL), or leave as-is to skip
+      alert_sheet_tab: "Alerts"       # tab name new alert rows get appended to - this tab must
+                                       # already exist in the sheet; the Sheets API won't create it
       extensions:                # real names + emails from the Zadarma "Current Users" export (29 Sep 2026)
         "100": {manager: "Nadia Theuma", email: "nadiatheuma2012@gmail.com"}
         "101": {manager: "Felice", email: "felice@paragoninnovation.net"}
