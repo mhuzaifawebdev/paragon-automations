@@ -1,0 +1,97 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-09-30T07:21:10Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Cologne Business School",
+  "institution_type": "university",
+  "official_website": "https://business-school.uni-koeln.de/de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini. 6 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "BMW Group",
+    "partner_country": "Netherlands",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://business-school.uni-koeln.de/de/seminare/future-of-mobility",
+    "evidence_quote": "Marc Bras, Head der BMW Group Niederlande",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Weltwirtschaftsforum",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://business-school.uni-koeln.de/de/seminare/future-of-mobility",
+    "evidence_quote": "Mitglied der Geschäftsleitung und Global Head ‚Mobility‘ des Weltwirtschaftsforums mit Sitz in New York und Genf, Dozent an der Universität Köln",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ärztekammer Nordrhein",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://business-school.uni-koeln.de/de/seminare/healthcare-management",
+    "evidence_quote": "Das Modul 3 wurde mit 8 Fortbildungspunkten von der Ärztekammer Nordrhein anerkannt.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Judge Business School",
+    "partner_country": "United Kingdom",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://business-school.uni-koeln.de/de/seminare/healthcare-management",
+    "evidence_quote": "Prof. Kuntz ist Professor für BWL an der Universität zu Köln und Research Fellow der Judge Business School an der Universität Cambridge. Er leitet den Arbeitskreis „Ökonomie im Gesundheitswesen“ der Schmalenbach-Gesellschaft und beschäftigt sich in seiner Forschung mit Strategie, Controlling und Management von Gesundheitsorganisationen. Er war Controlling-Leiter an der Universitätsklinik Hamburg und für das Informationsmanagement an der Universitätsklinik Mainz verantwortlich.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Schmalenbach-Gesellschaft",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://business-school.uni-koeln.de/de/seminare/healthcare-management",
+    "evidence_quote": "Prof. Kuntz ist Professor für BWL an der Universität zu Köln und Research Fellow der Judge Business School an der Universität Cambridge. Er leitet den Arbeitskreis „Ökonomie im Gesundheitswesen“ der Schmalenbach-Gesellschaft und beschäftigt sich in seiner Forschung mit Strategie, Controlling und Management von Gesundheitsorganisationen. Er war Controlling-Leiter an der Universitätsklinik Hamburg und für das Informationsmanagement an der Universitätsklinik Mainz verantwortlich.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Business School der Universität zu Köln",
+    "city": "Köln",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://business-school.uni-koeln.de/de/business-school/kontakt",
+    "evidence_quote": "Business School der Universität zu Köln"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 7,
+  "coverage_note": "The provided evidence focuses on executive education and seminar programs at the University of Cologne Business School and does not contain a list of international academic partners or Erasmus+ agreements. 6 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 56.4,
+  "crawl_s": 32.4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 131.9,
+  "mode": "gemini",
+  "total_seconds": 220.7
+ }
+}

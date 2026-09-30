@@ -1,1 +1,34 @@
-{"batch": "batch-20260930-0015", "status": "running", "generated_at": "2026-09-30T07:17:27.657555+00:00", "total_rows": 10, "done": 0, "pending": 10, "chunk": 1, "total_chunks": 1, "confidence": {"high": 0, "medium": 0, "low": 0, "none": 0}, "recent": []}
+{
+ "batch": "batch-20260930-0015",
+ "status": "done",
+ "generated_at": "2026-09-30T07:22:50.570089+00:00",
+ "chunk": 2,
+ "total_chunks": 1,
+ "total_rows": 10,
+ "done": 10,
+ "pending": 0,
+ "elapsed_seconds": 321,
+ "eta_seconds": null,
+ "cost_usd_so_far": 0.0,
+ "cost_usd_projected_total": 0.0,
+ "confidence": {
+  "high": 4,
+  "medium": 2,
+  "low": 0,
+  "none": 4
+ },
+ "partners_found": 232,
+ "campuses_found": 23,
+ "recent": [
+  "r001",
+  "r002",
+  "r003",
+  "r004",
+  "r005",
+  "r006",
+  "r007",
+  "r008",
+  "r009",
+  "r010"
+ ]
+}
