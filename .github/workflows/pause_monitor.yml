@@ -57,6 +57,12 @@ jobs:
         run: |
           git config user.name "paragon-pause-monitor"
           git config user.email "actions@users.noreply.github.com"
-          git add data/extension_state.csv data/alerts.csv
+          # extension_state.csv always exists after a real run, but alerts.csv only gets created the
+          # first time an actual alert fires - `git add` on an explicitly-named path that doesn't
+          # exist yet fails hard ("pathspec did not match any files"), unlike a glob or `git add .`,
+          # so each file is only added if it's actually there.
+          [ -f data/extension_state.csv ] && git add data/extension_state.csv
+          [ -f data/alerts.csv ] && git add data/alerts.csv
           git diff --cached --quiet || git commit -m "pause-monitor: update state [automated]"
+          git pull --rebase --autostash -q
           git push
