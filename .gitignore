@@ -31,6 +31,12 @@ credentials/
 # pushing this repo: real operator PII, real scraped third-party contact data, and locally-generated
 # dashboards with that data embedded should not go to GitHub)
 data/*.csv
+# ...except the pause-monitor's own operational state - these ARE meant to be committed (same
+# reasoning as data_hei/<batch>/ below: web/api/status.js reads them live via GitHub's Contents API,
+# so .github/workflows/pause_monitor.yml's commit step needs to be able to add them). Without this,
+# every scheduled run failed at "git add" with an "ignored by .gitignore" error (exit code 1).
+!data/extension_state.csv
+!data/alerts.csv
 data/scrape_results/
 data/scrape_results_v1/
 data/scrape_results_v2/
