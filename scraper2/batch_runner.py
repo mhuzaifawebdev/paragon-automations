@@ -104,8 +104,12 @@ def _read_csv(path):
         return list(csv.DictReader(f))
 
 
-def run_chunk(rows, cfg, workers, results_dir):
-    """Scrapes one chunk. Same per-row logic as scraper2/run.py's work(), reused not duplicated."""
+def run_chunk(rows, cfg, workers, results_dir, on_row_done=None):
+    """Scrapes one chunk. Same per-row logic as scraper2/run.py's work(), reused not duplicated.
+    on_row_done(timings, costs, done_ids), if given, fires after each row (not just once at the end
+    of the whole chunk) so a caller can checkpoint live done/pending counts while a chunk is still
+    running - a chunk of real websites + real LLM calls can take minutes, and showing nothing until
+    it fully finishes looks indistinguishable from being stuck."""
     lock = threading.Lock()
     timings, costs, done_ids = [], [], []
 
@@ -114,6 +118,8 @@ def run_chunk(rows, cfg, workers, results_dir):
         if (results_dir / f"{rid}.json").exists():
             with lock:
                 done_ids.append(rid)
+                if on_row_done:
+                    on_row_done(timings, costs, done_ids)
             return
         try:
             res = pipeline.scrape(r, cfg)
@@ -125,6 +131,8 @@ def run_chunk(rows, cfg, workers, results_dir):
                 timings.append(res["timing"].get("total_seconds", 0))
                 costs.append(res["timing"].get("cost_usd_estimate", 0))
                 done_ids.append(rid)
+                if on_row_done:
+                    on_row_done(timings, costs, done_ids)
             print(f"{rid}: done ({res['timing'].get('total_seconds')}s)", flush=True)
         except Exception as e:
             print(f"{rid}: FAILED: {type(e).__name__}: {e}", flush=True)
@@ -186,7 +194,18 @@ def _run(a, data_dir, results_dir, cfg):
             chunk = todo[:a.chunk_size]
             todo = todo[a.chunk_size:]
             print(f"--- chunk {chunk_no}/{total_chunks} ({len(chunk)} rows) ---", flush=True)
-            timings, costs, done_ids = run_chunk(chunk, cfg, a.workers, results_dir)
+
+            def _live_checkpoint(timings, costs, done_ids, _base=set(already_done)):
+                # Fires after every row, not just once at chunk end - gives real, ticking done/pending
+                # counts and ETA while the chunk is still running. Confidence/partner counts still
+                # reflect the last full merge (not this chunk's still-in-progress rows) since
+                # run_batch.merge() is deliberately not called mid-chunk - rewriting the whole
+                # enriched CSV on every single row would be needless I/O for a number that's only
+                # cosmetic until the chunk finishes anyway.
+                write_progress(data_dir, a.batch, "running", rows, _base | set(done_ids), chunk_no,
+                               total_chunks, all_timings + timings, all_costs + costs, started_at)
+
+            timings, costs, done_ids = run_chunk(chunk, cfg, a.workers, results_dir, on_row_done=_live_checkpoint)
             all_timings += timings
             all_costs += costs
             already_done |= set(done_ids)

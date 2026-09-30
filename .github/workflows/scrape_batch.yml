@@ -133,11 +133,28 @@ jobs:
             git push
           fi
 
-      - name: Run one chunk
+      - name: Run one chunk, pushing live progress while it's still running
+        # batch_runner.py now updates progress.json locally after every row, not just once at chunk
+        # end (a chunk of real websites + real LLM calls can take minutes) - this backgrounds it and
+        # pushes just that one file every 20s so the page's poll actually sees it move, instead of
+        # showing nothing until the whole chunk finishes.
         if: steps.cancelcheck.outputs.cancelled != 'true'
         run: |
+          git config user.name "paragon-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+
           PARAGON_DATA="data_hei/$BATCH" python scraper2/batch_runner.py \
-            --batch "$BATCH" --chunk-size "$CHUNK_SIZE" --provider "$PROVIDER" --once
+            --batch "$BATCH" --chunk-size "$CHUNK_SIZE" --provider "$PROVIDER" --once &
+          RUNNER_PID=$!
+
+          while kill -0 $RUNNER_PID 2>/dev/null; do
+            sleep 20
+            if git add "data_hei/$BATCH/progress.json" 2>/dev/null && ! git diff --cached --quiet; then
+              git commit -m "scrape $BATCH: progress update [automated]" -q
+              git push -q || echo "(live progress push failed, non-fatal - the final commit after this chunk will still catch up)"
+            fi
+          done
+          wait $RUNNER_PID
 
       - name: Commit this chunk's results
         if: steps.cancelcheck.outputs.cancelled != 'true'

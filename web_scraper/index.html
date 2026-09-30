@@ -180,7 +180,7 @@
       <div class="bar-track"><div class="bar-fill" id="p-fill" style="width:0%"></div></div>
       <div class="kpis" id="p-kpis" style="margin-top:16px"></div>
       <div class="conf-row" id="p-conf"></div>
-      <button id="p-download" style="display:none">Download results (.csv)</button>
+      <button id="p-download" style="display:none">Download results (.xlsx)</button>
       <button id="p-cancel" class="secondary" style="display:none">Cancel this batch</button>
       <div class="msg" id="p-cancel-msg"></div>
     </div>
@@ -434,12 +434,11 @@ function renderProgress(d) {
   $("p-eta").textContent = d.eta_seconds ? `ETA ~${Math.round(d.eta_seconds/60)} min` : (status === "done" ? "Complete" : "");
   $("p-fill").style.width = total ? Math.round(100 * done / total) + "%" : "0%";
 
-  const fmtUsd = n => n == null ? "—" : "$" + Number(n).toFixed(2);
   $("p-kpis").innerHTML = [
     [d.pending ?? 0, "pending"],
     [d.needs_review ?? 0, "needs review"],
     [d.partners_found ?? 0, "partners"],
-    [fmtUsd(d.cost_usd_so_far), "cost so far"],
+    [d.campuses_found ?? 0, "campuses"],
   ].map(([n,l]) => `<div class="kpi"><div class="n">${esc(n)}</div><div class="l">${l}</div></div>`).join("");
 
   const c = d.confidence || {};
@@ -449,7 +448,9 @@ function renderProgress(d) {
   const dl = $("p-download");
   if (status === "done") {
     dl.style.display = "block";
-    dl.onclick = () => window.location.href = `/api/download?batch=${encodeURIComponent(d.batch)}`;
+    dl.disabled = false;
+    dl.textContent = "Download results (.xlsx)";
+    dl.onclick = () => downloadAsExcel(d.batch);
   } else {
     dl.style.display = "none";
   }
@@ -460,6 +461,29 @@ function renderProgress(d) {
     cancelBtn.onclick = () => cancelBatch(d.batch);
   } else {
     cancelBtn.style.display = "none";
+  }
+}
+
+async function downloadAsExcel(batch) {
+  const btn = $("p-download");
+  const original = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = "Preparing .xlsx...";
+  try {
+    const resp = await fetch(`/api/download?batch=${encodeURIComponent(batch)}`, { cache: "no-store" });
+    if (!resp.ok) throw new Error(await resp.text());
+    const csv = await resp.text();
+    // Reuse the same SheetJS library already loaded for .xlsx uploads to build a real Excel file
+    // client-side - the server keeps sending plain CSV (api/download.js is unchanged), so this
+    // needs no new backend code at all.
+    const wb = XLSX.read(csv, { type: "string" });
+    XLSX.writeFile(wb, `${batch}_enriched.xlsx`);
+  } catch (e) {
+    window.alert("Could not prepare the Excel file: " + e.message + "\n\nFalling back to a plain CSV download.");
+    window.location.href = `/api/download?batch=${encodeURIComponent(batch)}`;
+  } finally {
+    btn.disabled = false;
+    btn.textContent = original;
   }
 }
 
