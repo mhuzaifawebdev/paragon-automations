@@ -188,6 +188,18 @@ def _run(a, data_dir, results_dir, cfg):
         chunk_no = prior.get("chunk", 0)
         todo = [r for r in rows if r["row_id"] not in already_done]
         chunks_run = 0
+        # merge() re-verifies and rewrites all 5 output CSVs from every row done SO FAR, not just the
+        # new one - cheap early in a batch, but O(total done) per call, so calling it on every single
+        # row would make a whole batch roughly O(n^2) once it's a few hundred rows deep, and would
+        # serialize all worker threads against each other's merge (they share the same lock) right
+        # when there's the most concurrency to lose. The workflow only pushes to GitHub every 20s
+        # anyway (.github/workflows/scrape_batch.yml), so there's no value in recomputing more often
+        # than that - throttling here keeps the "live" feel while keeping the cost bounded by wall
+        # time, not row count. The unconditional merge() at chunk end (below) guarantees correctness
+        # regardless of what this throttle skipped.
+        CHECKPOINT_MIN_INTERVAL = 8
+        checkpoint_state = {"last": 0.0}
+
         while todo:
             chunk_no += 1
             chunks_run += 1
@@ -196,12 +208,12 @@ def _run(a, data_dir, results_dir, cfg):
             print(f"--- chunk {chunk_no}/{total_chunks} ({len(chunk)} rows) ---", flush=True)
 
             def _live_checkpoint(timings, costs, done_ids, _base=set(already_done)):
-                # Fires after every row, not just once at chunk end - gives real, ticking done/pending
-                # counts AND a real, downloadable institutions_enriched.csv while the chunk is still
-                # running (not just a cosmetic counter). scraper/run_batch.py's own work() loop
-                # already re-merges after every row for exactly this reason - matching that pattern
-                # here means a crash mid-chunk only loses whatever the last ~20s push loop (in
-                # .github/workflows/scrape_batch.yml) hadn't caught up on yet, not the whole chunk.
+                # Fires after every row (from run_chunk's lock), but only does real work at most
+                # once every CHECKPOINT_MIN_INTERVAL seconds - see note above the loop.
+                now = time.time()
+                if now - checkpoint_state["last"] < CHECKPOINT_MIN_INTERVAL:
+                    return
+                checkpoint_state["last"] = now
                 run_batch.merge(rows)
                 write_progress(data_dir, a.batch, "running", rows, _base | set(done_ids), chunk_no,
                                total_chunks, all_timings + timings, all_costs + costs, started_at)
