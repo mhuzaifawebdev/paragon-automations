@@ -1,0 +1,26 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-09-30T08:26:38Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "ESCP Business School",
+  "institution_type": "unknown",
+  "official_website": "",
+  "country": null,
+  "phone": null,
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "none",
+  "confidence": 0,
+  "needs_human_check": true,
+  "pages_read": 0,
+  "notes": "Website not found (email domain: https://www.example.com/ -> homepage does not mention this institution's name or phone; email domain: https://example.com/ -> homepage does not mention this institution's name or phone; Wikidata: https://escp.eu/ -> could not read https://escp.eu/ (TimeoutError: The read operation timed out); Wikidata: https://escp.eu/madrid -> could not read https://escp.eu/madrid (TimeoutError: The read operation timed out))"
+ },
+ "network": null,
+ "network_skipped": "website not found",
+ "timing": {
+  "discover_s": 55.3,
+  "total_seconds": 55.3
+ }
+}
