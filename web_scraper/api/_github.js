@@ -29,6 +29,23 @@ async function getRawFile(path) {
   return resp.text();
 }
 
+async function getRawBinary(path) {
+  // Same as getRawFile but returns a Buffer, not text - required for binary files (results.xlsx is
+  // a zip archive; reading it as text would corrupt any byte sequence that isn't valid UTF-8).
+  const { owner, repo, branch, token } = cfg();
+  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
+  const resp = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "User-Agent": "paragon-scraper-web",
+      Accept: "application/vnd.github.raw",
+    },
+  });
+  if (resp.status === 404) return null;
+  if (!resp.ok) throw new Error(`GitHub GET ${path} failed: ${resp.status} ${await resp.text()}`);
+  return Buffer.from(await resp.arrayBuffer());
+}
+
 async function fileExists(path) {
   const { owner, repo, branch, token } = cfg();
   const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
@@ -73,4 +90,4 @@ async function dispatch(eventType, clientPayload) {
   if (!resp.ok) throw new Error(`GitHub dispatch failed: ${resp.status} ${await resp.text()}`);
 }
 
-module.exports = { cfg, getRawFile, fileExists, putFile, dispatch };
+module.exports = { cfg, getRawFile, getRawBinary, fileExists, putFile, dispatch };

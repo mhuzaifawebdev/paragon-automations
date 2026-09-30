@@ -172,7 +172,7 @@ jobs:
           git pull --rebase --autostash -q
           git push
 
-      - name: Continue with the next chunk, if any rows remain
+      - name: Continue with the next chunk, or build the final Excel file if this batch is done
         if: steps.cancelcheck.outputs.cancelled != 'true'
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
@@ -186,5 +186,12 @@ jobs:
               "https://api.github.com/repos/${{ github.repository }}/dispatches" \
               -d "{\"event_type\":\"scrape-start\",\"client_payload\":{\"batch\":\"$BATCH\",\"provider\":\"$PROVIDER\",\"chunk_size\":\"$CHUNK_SIZE\"}}"
           else
+            python scraper2/build_xlsx.py --batch "$BATCH"
+            git config user.name "paragon-scraper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add "data_hei/$BATCH/results.xlsx"
+            git diff --cached --quiet || git commit -m "scrape $BATCH: built results.xlsx [automated]"
+            git pull --rebase --autostash -q
+            git push
             echo "Batch $BATCH complete."
           fi

@@ -1,15 +1,15 @@
 /**
- * GET /api/download?batch=<name> -> streams data_hei/<batch>/institutions_enriched.csv back with
- * a real filename (plain CSV, unchanged - kept as the simple/fallback path).
+ * GET /api/download?batch=<name> -> data_hei/<batch>/results.xlsx if the batch has finished (a real,
+ * properly-styled multi-tab workbook with working cross-sheet hyperlinks - built server-side by
+ * scraper2/build_xlsx.py using openpyxl, once .github/workflows/scrape_batch.yml sees the batch is
+ * done). Falls back to plain institutions_enriched.csv if results.xlsx doesn't exist yet (an older
+ * batch from before this existed, or one still running).
  *
- * GET /api/download?batch=<name>&format=json -> all five CSVs scraper/run_batch.py's merge()
- * writes (institutions_enriched, partners, campuses, contacts, needs_review), as one JSON object.
- * web_scraper/index.html's downloadAsExcel() uses this to build a real multi-tab workbook with
- * hyperlinks between tabs - the single-CSV download only ever had the hard counts
- * (partners_found: 5), never the actual partner names, because those live in partners.csv, which
- * nothing was serving before this.
+ * GET /api/download?batch=<name>&format=json -> all five CSVs scraper/run_batch.py's merge() writes,
+ * as one JSON object - kept as a simple fallback/programmatic path, not used by the page's button
+ * anymore now that the server builds a real .xlsx directly.
  */
-const { getRawFile } = require("./_github");
+const { getRawFile, getRawBinary } = require("./_github");
 
 const BATCH_RE = /^[a-z0-9-]{3,40}$/;
 const SHEETS = {
@@ -39,6 +39,14 @@ module.exports = async (req, res) => {
         return;
       }
       res.status(200).json(data);
+      return;
+    }
+
+    const xlsx = await getRawBinary(`data_hei/${batch}/results.xlsx`);
+    if (xlsx !== null) {
+      res.setHeader("Content-Type", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+      res.setHeader("Content-Disposition", `attachment; filename="${batch}_enriched.xlsx"`);
+      res.status(200).send(xlsx);
       return;
     }
 
