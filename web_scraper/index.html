@@ -464,19 +464,86 @@ function renderProgress(d) {
   }
 }
 
+// Full quote-aware CSV -> array-of-arrays parser (same algorithm as web/api/status.js's server-side
+// one) - needed here (not just the rough header-only split used for the upload preview) because
+// building cross-tab hyperlinks means knowing exactly which spreadsheet row each record lands on.
+function parseCsvRows(text) {
+  if (!text) return { header: [], rows: [] };
+  if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1); // strip UTF-8 BOM (these CSVs are written
+                                                            // with Python's utf-8-sig) so "row_id"
+                                                            // matches exactly, not "﻿row_id"
+  const all = [];
+  let row = [], field = "", inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQuotes) {
+      if (c === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else inQuotes = false; }
+      else field += c;
+    } else if (c === '"') inQuotes = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n" || c === "\r") {
+      if (c === "\r" && text[i + 1] === "\n") i++;
+      row.push(field); field = "";
+      if (row.length > 1 || row[0] !== "") all.push(row);
+      row = [];
+    } else field += c;
+  }
+  if (field !== "" || row.length) { row.push(field); all.push(row); }
+  return { header: all[0] || [], rows: all.slice(1) };
+}
+
 async function downloadAsExcel(batch) {
   const btn = $("p-download");
   const original = btn.textContent;
   btn.disabled = true;
   btn.textContent = "Preparing .xlsx...";
   try {
-    const resp = await fetch(`/api/download?batch=${encodeURIComponent(batch)}`, { cache: "no-store" });
-    if (!resp.ok) throw new Error(await resp.text());
-    const csv = await resp.text();
-    // Reuse the same SheetJS library already loaded for .xlsx uploads to build a real Excel file
-    // client-side - the server keeps sending plain CSV (api/download.js is unchanged), so this
-    // needs no new backend code at all.
-    const wb = XLSX.read(csv, { type: "string" });
+    const resp = await fetch(`/api/download?batch=${encodeURIComponent(batch)}&format=json`, { cache: "no-store" });
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.error || "Failed to fetch results.");
+
+    const inst = parseCsvRows(data.institutions);
+    const partners = parseCsvRows(data.partners);
+    const campuses = parseCsvRows(data.campuses);
+    const contacts = parseCsvRows(data.contacts);
+    const review = parseCsvRows(data.needs_review);
+
+    const wb = XLSX.utils.book_new();
+    const wsInst = XLSX.utils.aoa_to_sheet([inst.header, ...inst.rows]);
+    const wsPartners = XLSX.utils.aoa_to_sheet([partners.header, ...partners.rows]);
+    const wsCampuses = XLSX.utils.aoa_to_sheet([campuses.header, ...campuses.rows]);
+    const wsContacts = XLSX.utils.aoa_to_sheet([contacts.header, ...contacts.rows]);
+    const wsReview = XLSX.utils.aoa_to_sheet([review.header, ...review.rows]);
+
+    // Hyperlink each institution's partners_found / campuses_found / needs_human_check count to the
+    // first matching row_id in that detail tab - same idea as scraper/build_hei_sheet.py's linked
+    // tabs for the client sheet, applied here so a generic team's download isn't just hard numbers
+    // with no way to see the actual partner/campus names behind them.
+    const ridCol = inst.header.indexOf("row_id");
+    const linkTargets = [
+      { col: inst.header.indexOf("partners_found"), rows: partners.rows, ridCol: partners.header.indexOf("row_id"), sheet: "Partners" },
+      { col: inst.header.indexOf("campuses_found"), rows: campuses.rows, ridCol: campuses.header.indexOf("row_id"), sheet: "Campuses" },
+      { col: inst.header.indexOf("person_scraped"), rows: contacts.rows, ridCol: contacts.header.indexOf("row_id"), sheet: "Contacts" },
+      { col: inst.header.indexOf("needs_human_check"), rows: review.rows, ridCol: review.header.indexOf("row_id"), sheet: "Needs Review" },
+    ];
+    if (ridCol >= 0) {
+      inst.rows.forEach((r, i) => {
+        const rid = r[ridCol];
+        for (const t of linkTargets) {
+          if (t.col < 0 || t.ridCol < 0) continue;
+          const targetRow = t.rows.findIndex(tr => tr[t.ridCol] === rid);
+          if (targetRow < 0) continue;
+          const cellAddr = XLSX.utils.encode_cell({ r: i + 1, c: t.col });
+          if (wsInst[cellAddr]) wsInst[cellAddr].l = { Target: `#'${t.sheet}'!A${targetRow + 2}` };
+        }
+      });
+    }
+
+    XLSX.utils.book_append_sheet(wb, wsInst, "Institutions");
+    XLSX.utils.book_append_sheet(wb, wsPartners, "Partners");
+    XLSX.utils.book_append_sheet(wb, wsCampuses, "Campuses");
+    XLSX.utils.book_append_sheet(wb, wsContacts, "Contacts");
+    XLSX.utils.book_append_sheet(wb, wsReview, "Needs Review");
     XLSX.writeFile(wb, `${batch}_enriched.xlsx`);
   } catch (e) {
     window.alert("Could not prepare the Excel file: " + e.message + "\n\nFalling back to a plain CSV download.");

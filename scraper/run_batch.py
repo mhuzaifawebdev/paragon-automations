@@ -149,8 +149,10 @@ def method_label(res):
     if (res.get("contacts") or {}).get("source") == "none":
         return "not read"
     mode = t.get("mode") or ("agent" if "contacts" in t else "")
-    return {"claude_cli": "AI-read (Claude)", "claude_api": "AI-read (Claude)", "gemini": "AI-read (Gemini)",
-            "rules": "rules-only (lower accuracy)", "agent": "AI agent (first version)"}.get(mode, mode)
+    # Deliberately generic - a team's downloaded results shouldn't reveal which specific AI vendor
+    # was used under the hood, only whether the page was actually read by AI or not.
+    return {"claude_cli": "AI-read", "claude_api": "AI-read", "gemini": "AI-read",
+            "rules": "rules-only (lower accuracy)", "agent": "AI-read"}.get(mode, mode)
 
 
 def coverage_text(n, captured, verified):
