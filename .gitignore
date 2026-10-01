@@ -37,6 +37,7 @@ data/*.csv
 # every scheduled run failed at "git add" with an "ignored by .gitignore" error (exit code 1).
 !data/extension_state.csv
 !data/alerts.csv
+!data/call_gap_seen.csv
 data/scrape_results/
 data/scrape_results_v1/
 data/scrape_results_v2/

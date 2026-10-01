@@ -55,6 +55,18 @@ check("a Zadarma API error propagates as ZadarmaError, not a crash", raised, Tru
 
 
 # ---- pause_monitor: shift-hours and alert logic ----
+# Redirect state/alert paths to a temp dir for the REST of this file - even the dry_run=True tests
+# below read pm.STATE_PATH (for the "already alerted within the last hour" check), so without this,
+# running this suite after any real local pause_monitor.py run (which writes real recent timestamps
+# into data/extension_state.csv) made these tests fail: a fixed historical `now` ends up computing a
+# NEGATIVE elapsed time against a real, more-recent last_alert_at, which `< 3600` treats as "already
+# alerted" and silently suppresses the expected event.
+import tempfile  # noqa: E402
+import shutil  # noqa: E402
+real_state_path, real_alerts_path = pm.STATE_PATH, pm.ALERTS_PATH
+tmpdir = Path(tempfile.mkdtemp())
+pm.STATE_PATH, pm.ALERTS_PATH = tmpdir / "extension_state.csv", tmpdir / "alerts.csv"
+
 noon = datetime(2026, 9, 27, 10, 0, tzinfo=timezone.utc)   # 10:00 UTC
 check("in_shift is True inside the configured window", pm.in_shift({"shift_start_utc": "07:00", "shift_end_utc": "16:00"}, noon), True)
 check("in_shift is False outside the configured window", pm.in_shift({"shift_start_utc": "07:00", "shift_end_utc": "16:00"},
@@ -127,12 +139,7 @@ del os.environ["SMTP_HOST"]
 
 
 # ---- pause_monitor: an alert emails both the operator and the shared manager address ----
-# dry_run=False writes state/alert CSVs for real, so redirect those paths to a temp location -
-# this test must never touch the real data/extension_state.csv or data/alerts.csv.
-import tempfile  # noqa: E402
-real_state_path, real_alerts_path = pm.STATE_PATH, pm.ALERTS_PATH
-tmpdir = Path(tempfile.mkdtemp())
-pm.STATE_PATH, pm.ALERTS_PATH = tmpdir / "extension_state.csv", tmpdir / "alerts.csv"
+# (STATE_PATH/ALERTS_PATH are already redirected to a temp dir, above)
 try:
     sent_calls = []
     cfg_email = {"shift_start_utc": "00:00", "shift_end_utc": "23:59", "idle_minutes": 15,

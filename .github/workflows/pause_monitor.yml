@@ -53,16 +53,28 @@ jobs:
           SMTP_FROM: ${{ secrets.SMTP_FROM }}
         run: python agent/pause_monitor.py
 
+      - name: Run call-gap monitor
+        # Separate from presence-checking above: this reads completed call history (Zadarma's
+        # per-extension PBX statistics) to flag when too long passes between one of an operator's
+        # calls ending and their next one starting - presence alone can't tell "on a call" from
+        # "idle between calls". See agent/call_gap_monitor.py's docstring for why this is
+        # retrospective (checked each run), not a real-time alarm.
+        env:
+          ZADARMA_API_KEY: ${{ secrets.ZADARMA_API_KEY }}
+          ZADARMA_API_SECRET: ${{ secrets.ZADARMA_API_SECRET }}
+        run: python agent/call_gap_monitor.py
+
       - name: Commit updated state
         run: |
           git config user.name "paragon-pause-monitor"
           git config user.email "actions@users.noreply.github.com"
-          # extension_state.csv always exists after a real run, but alerts.csv only gets created the
-          # first time an actual alert fires - `git add` on an explicitly-named path that doesn't
-          # exist yet fails hard ("pathspec did not match any files"), unlike a glob or `git add .`,
-          # so each file is only added if it's actually there.
+          # extension_state.csv always exists after a real run, but alerts.csv/call_gap_seen.csv only
+          # get created the first time something actually fires - `git add` on an explicitly-named
+          # path that doesn't exist yet fails hard ("pathspec did not match any files"), unlike a
+          # glob or `git add .`, so each file is only added if it's actually there.
           [ -f data/extension_state.csv ] && git add data/extension_state.csv
           [ -f data/alerts.csv ] && git add data/alerts.csv
+          [ -f data/call_gap_seen.csv ] && git add data/call_gap_seen.csv
           git diff --cached --quiet || git commit -m "pause-monitor: update state [automated]"
           git pull --rebase --autostash -q
           git push

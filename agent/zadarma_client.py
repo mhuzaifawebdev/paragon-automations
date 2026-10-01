@@ -87,6 +87,16 @@ def extension_info(number, _get_fn=None):
     return _get(f"/v1/pbx/internal/{number}/info/", _get_fn=_get_fn)
 
 
+def statistics_pbx(start, end, _get_fn=None):
+    """Per-extension call history: each entry's "sip" field is the internal PBX extension number
+    (e.g. "105"), unlike /v1/statistics/ (the generic account endpoint) whose "sip" field is the
+    shared outbound trunk id, the same for every call regardless of which extension placed it -
+    confirmed by testing both against the real account before relying on this one.
+    start/end: "YYYY-MM-DD HH:MM:SS" strings, Zadarma's documented format (UTC)."""
+    data = _get("/v1/statistics/pbx/", params={"start": start, "end": end, "version": "2"}, _get_fn=_get_fn)
+    return data.get("stats", [])
+
+
 if __name__ == "__main__":
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")

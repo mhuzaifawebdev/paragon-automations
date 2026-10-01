@@ -77,6 +77,10 @@ vapi:
       shift_start_utc: "07:00"   # outside this window, an offline extension is not flagged
       shift_end_utc: "16:00"
       idle_minutes: 15           # extension online but no status change this long, with work queued -> alert
+      max_call_gap_minutes: 1    # agent/call_gap_monitor.py: flag if more than this passes between
+                                  # one of an operator's calls ending and their next one starting
+                                  # (during shift hours) - retrospective, checked each scheduled run,
+                                  # not a real-time alarm (see that file's docstring for why)
       # A delay alert can email two people (the operator + manager_email below) AND/OR log a row to
       # a Google Sheet (alert_sheet_id) - pick whichever fits; either, both, or neither can be
       # configured, and alerts always log to data/alerts.csv regardless.
