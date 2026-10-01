@@ -170,6 +170,10 @@ def check(cfg, get_fn=None, webhook_url=None, dry_run=False, now=None, email_fn=
         state[ext] = row
 
     if not dry_run:
+        # Only keep extensions currently in targets - otherwise a removed/renumbered extension (e.g.
+        # a stale number from a corrected config.yaml) stays in extension_state.csv forever, since
+        # this function only ever updates rows for `targets`, never removes rows that fall out of it.
+        state = {ext: row for ext, row in state.items() if ext in targets}
         _write_csv(STATE_PATH, state, STATE_FIELDS)
     return events
 

@@ -170,6 +170,17 @@ try:
             now=datetime(2026, 9, 27, 14, 0, tzinfo=timezone.utc))
     check("'REPLACE_ME' alert_sheet_id is treated as unset, sheet logging skipped",
           sheet_calls, [])
+
+    # ---- pause_monitor: a renumbered/removed extension is pruned from saved state, not kept forever ----
+    cfg_old = {"shift_start_utc": "00:00", "shift_end_utc": "23:59", "idle_minutes": 15,
+               "extensions": {"130": {"manager": "Old Number"}}}
+    pm.check(cfg_old, get_fn=get_offline, dry_run=False, now=datetime(2026, 9, 27, 15, 0, tzinfo=timezone.utc))
+    cfg_corrected = {"shift_start_utc": "00:00", "shift_end_utc": "23:59", "idle_minutes": 15,
+                     "extensions": {"104": {"manager": "Same Person, Correct Number"}}}
+    pm.check(cfg_corrected, get_fn=get_offline, dry_run=False, now=datetime(2026, 9, 27, 16, 0, tzinfo=timezone.utc))
+    saved_state = pm._read_csv(pm.STATE_PATH, pm.STATE_FIELDS)
+    check("a stale extension no longer in config is pruned from saved state, not kept forever",
+          sorted(saved_state.keys()), ["104"])
 finally:
     pm.STATE_PATH, pm.ALERTS_PATH = real_state_path, real_alerts_path
     import shutil
