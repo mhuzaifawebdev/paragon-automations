@@ -88,21 +88,27 @@ vapi:
       alert_sheet_id: "19IL7hnXUQ0qEAa66cs1gN3GNNpuv9_aZ2M_qA1iuBpQ"
       alert_sheet_tab: "Alerts"       # tab name new alert rows get appended to - this tab must
                                        # already exist in the sheet; the Sheets API won't create it
-      extensions:                # real names + emails from the Zadarma "Current Users" export (29 Sep 2026)
+      extensions:                # corrected 1 Oct 2026 against the live Teamsale CRM user list - the
+                                  # original Zadarma "Current Users" export (29 Sep 2026) had 7 of
+                                  # these 14 extension numbers wrong (stale/reassigned), which meant
+                                  # the monitor was watching the wrong phone lines for half the team
+                                  # and explains alerts never firing even with real offline extensions
         "100": {manager: "Nadia Theuma", email: "nadiatheuma2012@gmail.com"}
         "101": {manager: "Felice", email: "felice@paragoninnovation.net"}
         "102": {manager: "Giuseppe Papa", email: "giuseppe.papa1@paragoninnovation.net"}
+        "103": {manager: "Ali", email: "ali.1@paragoninnovation.net"}
+        "104": {manager: "Hidayat Ullah", email: "hidayat.shaikh@paragoninnovation.eu"}
+        "105": {manager: "Zahra Batool", email: "zahra.batool@paragoninnovation.net"}
+        "106": {manager: "Meerab", email: "internship4@paragonglobalinternships.eu"}
+        "107": {manager: "Gulelala Yousafzai", email: "gulelala.yousafzai@paragoninnovation.net"}
         "108": {manager: "Ivan", email: "ivan@paragonprojects.eu"}
-        "110": {manager: "Ali", email: "ali.1@paragoninnovation.net"}
+        "109": {manager: "Shahid Khan Usmani", email: "shahid.usmani@paragoninnovation.net"}
+        "110": {manager: "Muhammad Huzaifa", email: "muhammad.huzaifa@paragoninnovation.net"}
+        "111": {manager: "Tanisha Imam", email: "tanisha.imam@paragoninnovation.net"}
+        "112": {manager: "Nazish Shabbir"}    # newly found on Teamsale - no email on file yet
+        "113": {manager: "Saima Abbas"}       # newly found on Teamsale - no email on file yet
         "117": {manager: "Hamza Ali", email: "hamza.ali1@paragoninnovation.net"}
         "124": {manager: "Daniya (AI dialer line)", email: "internship3@paragonglobalinternships.eu"}
-        "130": {manager: "Hidayat Ullah", email: "hidayat.shaikh@paragoninnovation.eu"}
-        "132": {manager: "Zahra Batool", email: "zahra.batool@paragoninnovation.net"}
-        "135": {manager: "Meerab", email: "internship4@paragonglobalinternships.eu"}
-        "137": {manager: "Gulelala Yousafzai", email: "gulelala.yousafzai@paragoninnovation.net"}
-        "138": {manager: "Shahid Khan Usmani", email: "shahid.usmani@paragoninnovation.net"}
-        "140": {manager: "Muhammad Huzaifa", email: "muhammad.huzaifa@paragoninnovation.net"}
-        "144": {manager: "Tanisha Imam", email: "tanisha.imam@paragoninnovation.net"}
                                   # leave a value empty ({}) to watch an extension with no manager label
 
 limits:
