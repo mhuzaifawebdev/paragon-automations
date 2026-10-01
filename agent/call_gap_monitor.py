@@ -25,7 +25,12 @@ sys.path.insert(0, str(ROOT / "agent"))
 import zadarma_client as zc  # noqa: E402
 import sheet_log  # noqa: E402
 from vapi_call import load_env  # noqa: E402
-from pause_monitor import in_shift, _append_csv, _default_sheet_log  # noqa: E402
+from pause_monitor import in_shift, _append_csv  # noqa: E402
+
+
+def _default_sheet_log_rows(sheet_id, rows):
+    return sheet_log.append_alert_rows(sheet_id, rows)
+
 
 SEEN_PATH = ROOT / "data" / "call_gap_seen.csv"
 GAP_ALERTS_PATH = ROOT / "data" / "alerts.csv"   # same file pause_monitor.py writes to - one alert log
@@ -92,6 +97,10 @@ def check(cfg, now=None, get_fn=None, sheet_log_fn=None, dry_run=False):
 
     seen = _read_seen()
     events = []
+    new_gaps = []   # (ext, manager, reason, call_id) - collected first, so the Sheet write below can
+                     # be ONE batched call instead of one call per gap (see sheet_log.py's
+                     # append_alert_rows docstring for why that matters: a first-ever run here can
+                     # easily find dozens of historical gaps at once).
     for ext, entry in ext_cfg.items():
         manager = entry.get("manager", "") if isinstance(entry, dict) else ""
         calls = by_ext.get(ext, [])
@@ -105,17 +114,19 @@ def check(cfg, now=None, get_fn=None, sheet_log_fn=None, dry_run=False):
             reason = (f"{minutes}m{seconds:02d}s gap between calls (previous ended around "
                       f"{prev['callstart']}, next started {nxt['callstart']})")
             events.append((ext, manager, reason))
-            if not dry_run:
-                sheet_ok = None
-                if alert_sheet_id:
-                    sheet_ok = (sheet_log_fn or _default_sheet_log)(alert_sheet_id, {
-                        "timestamp": now.isoformat(), "extension": ext, "manager": manager,
-                        "reason": reason, "sent_ok": "",
-                    })
-                _append_csv(GAP_ALERTS_PATH, {"timestamp": now.isoformat(), "extension": ext,
-                                              "manager": manager, "reason": reason,
-                                              "sent_ok": bool(sheet_ok)}, ALERT_FIELDS)
-                _append_seen(call_id)
+            new_gaps.append((ext, manager, reason, call_id))
+
+    if not dry_run and new_gaps:
+        sheet_ok = False
+        if alert_sheet_id:
+            rows = [{"timestamp": now.isoformat(), "extension": ext, "manager": manager,
+                     "reason": reason, "sent_ok": ""} for ext, manager, reason, _ in new_gaps]
+            sheet_ok = (sheet_log_fn or _default_sheet_log_rows)(alert_sheet_id, rows)
+        for ext, manager, reason, call_id in new_gaps:
+            _append_csv(GAP_ALERTS_PATH, {"timestamp": now.isoformat(), "extension": ext,
+                                          "manager": manager, "reason": reason,
+                                          "sent_ok": bool(sheet_ok)}, ALERT_FIELDS)
+            _append_seen(call_id)
     return events
 
 

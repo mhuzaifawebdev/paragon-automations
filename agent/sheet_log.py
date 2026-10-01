@@ -15,24 +15,38 @@ CREDS_PATH = ROOT / "credentials" / "google_service_account.json"
 
 ROW_FIELDS = ["timestamp", "extension", "manager", "reason", "sent_ok"]
 
+_svc_cache = None
+
 
 def _service():
+    # Cached at module level - rebuilding this (and the OAuth token exchange it does under the
+    # hood) on every single append() call is what caused real failures: a first-ever run of
+    # agent/call_gap_monitor.py found ~30 historical gaps and called append_alert_row 30 times in a
+    # few seconds, each one re-authenticating from scratch, which tripped Google's rate limiting and
+    # came back as "Expecting value: line 1 column 1 (char 0)" (an empty/malformed HTTP response)
+    # for every single one. One real, authenticated client per process, reused, fixes this at the
+    # root - see also append_alert_rows() below, which batches multiple rows into one API call too.
+    global _svc_cache
+    if _svc_cache is not None:
+        return _svc_cache
     from google.oauth2 import service_account
     from googleapiclient.discovery import build
     creds = service_account.Credentials.from_service_account_file(
         str(CREDS_PATH), scopes=["https://www.googleapis.com/auth/spreadsheets"])
-    return build("sheets", "v4", credentials=creds)
+    _svc_cache = build("sheets", "v4", credentials=creds)
+    return _svc_cache
 
 
-def append_alert_row(sheet_id, row, tab="Alerts", _svc=None):
-    """row: dict with (at least) the keys in ROW_FIELDS - extras are ignored, missing ones blank.
-    Returns True on success, False on any failure (never raises - callers already treat a failed
-    notification as non-fatal, same as agent/notify_email.py's send_email)."""
-    if not sheet_id:
+def append_alert_rows(sheet_id, rows, tab="Alerts", _svc=None):
+    """Same as append_alert_row, but writes many rows in ONE API call. Prefer this whenever more
+    than one row needs appending in the same run (e.g. a monitor that just found several events at
+    once) - see _service()'s docstring above for why one-call-per-row is a real problem, not just a
+    style preference."""
+    if not sheet_id or not rows:
         return False
     try:
         svc = _svc or _service()
-        values = [[str(row.get(f, "")) for f in ROW_FIELDS]]
+        values = [[str(row.get(f, "")) for f in ROW_FIELDS] for row in rows]
         svc.spreadsheets().values().append(
             spreadsheetId=sheet_id, range=f"{tab}!A1",
             valueInputOption="RAW", insertDataOption="INSERT_ROWS",
@@ -42,6 +56,14 @@ def append_alert_row(sheet_id, row, tab="Alerts", _svc=None):
     except Exception as e:
         print(f"(sheet log append failed, non-fatal: {e})", file=sys.stderr)
         return False
+
+
+def append_alert_row(sheet_id, row, tab="Alerts", _svc=None):
+    """row: dict with (at least) the keys in ROW_FIELDS - extras are ignored, missing ones blank.
+    Returns True on success, False on any failure (never raises - callers already treat a failed
+    notification as non-fatal, same as agent/notify_email.py's send_email). For more than one row in
+    the same run, use append_alert_rows() instead - see its docstring for why."""
+    return append_alert_rows(sheet_id, [row], tab=tab, _svc=_svc)
 
 
 if __name__ == "__main__":

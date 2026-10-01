@@ -64,6 +64,27 @@ try:
     cfg_outside = {**cfg, "shift_start_utc": "07:00", "shift_end_utc": "08:00"}
     events_outside = cgm.check(cfg_outside, now=noon, get_fn=fake_get)
     check("outside shift hours, nothing is checked at all", events_outside, [])
+
+    # ---- multiple gaps in one run must be ONE Sheet write, not one per gap (the real bug found live:
+    # a first-ever run found ~30 gaps and called the Sheets API 30 times in a few seconds, which
+    # Google's rate limiting rejected outright - every single one failed) ----
+    cgm.SEEN_PATH.unlink(missing_ok=True)
+    cfg_two_ext = {"shift_start_utc": "00:00", "shift_end_utc": "23:59", "max_call_gap_minutes": 1,
+                   "alert_sheet_id": "sheet123",
+                   "extensions": {"105": {"manager": "Zahra Batool"}, "999": {"manager": "Someone Else"}}}
+
+    def fake_get_two_ext(url, auth_header):
+        other_calls = [
+            {"callstart": "2026-10-01 09:07:08", "seconds": 0, "call_id": "x", "sip": "999"},
+            {"callstart": "2026-10-01 09:20:00", "seconds": 0, "call_id": "y", "sip": "999"},
+        ]
+        return {"status": "success", "stats": [{**c, "sip": "105"} for c in calls] + other_calls}
+
+    sheet_calls = []
+    cgm.check(cfg_two_ext, now=noon, get_fn=fake_get_two_ext,
+              sheet_log_fn=lambda sheet_id, rows: sheet_calls.append(rows) or True)
+    check("multiple gaps across extensions in one run make exactly one Sheet API call", len(sheet_calls), 1)
+    check("that one call carries every flagged gap's row, not just one", len(sheet_calls[0]) >= 2, True)
 finally:
     cgm.SEEN_PATH, cgm.GAP_ALERTS_PATH = real_seen_path, real_alerts_path
     shutil.rmtree(tmpdir, ignore_errors=True)
