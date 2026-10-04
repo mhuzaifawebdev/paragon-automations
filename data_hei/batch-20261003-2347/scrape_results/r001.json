@@ -1,0 +1,78 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-04T06:49:30Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Sukromna spojena skola Sturovo",
+  "institution_type": "school",
+  "official_website": "http://www.1soa-sturovo.sk/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "DREVOREZ – Gabriel Vígh",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "http://www.1soa-sturovo.sk/web/?page_id=30",
+    "evidence_quote": "DREVOREZ – Gabriel Vígh",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Píla Svodín",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "http://www.1soa-sturovo.sk/web/?page_id=30",
+    "evidence_quote": "Píla Svodín – drevorez@stonline.sk",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Súkromná obchodná akadémia",
+    "city": "Štúrovo",
+    "country": "Slovakia",
+    "role": "main",
+    "source_url": "http://www.1soa-sturovo.sk/web/?page_id=32",
+    "evidence_quote": "ADRESA / CÍM: Súkromná spojená škola Elokované pracovisko SSŠ – o. z. Súkromná obchodná akadémia"
+   },
+   {
+    "campus_name": "Elokované pracovisko SSŠ",
+    "city": "Nitra",
+    "country": "Slovakia",
+    "role": "branch",
+    "source_url": "http://www.1soa-sturovo.sk/web/?page_id=32",
+    "evidence_quote": "ADRESA / CÍM: Súkromná spojená škola Elokované pracovisko SSŠ – o. z. Súkromná obchodná akadémia"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not list any international Erasmus+ partners, only local business partners. No specific staff names or titles are provided beyond a general email address.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 64.9,
+  "crawl_s": 7.5,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.0,
+  "mode": "gemini",
+  "total_seconds": 77.4
+ }
+}
