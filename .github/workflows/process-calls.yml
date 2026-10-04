@@ -42,6 +42,13 @@ jobs:
         run: |
           git config user.name "paragon-call-processor"
           git config user.email "actions@users.noreply.github.com"
-          git add data/calls data/results data/campaign_state.csv
+          # Same class of bug already fixed in pause_monitor.yml and scrape_batch.yml: `git add` on
+          # an explicitly-named path that doesn't exist yet fails hard ("pathspec did not match any
+          # files"), unlike a glob or `git add .` - data/results and data/campaign_state.csv don't
+          # exist until a real call has actually been processed, which hasn't happened yet.
+          [ -e data/calls ] && git add data/calls
+          [ -e data/results ] && git add data/results
+          [ -f data/campaign_state.csv ] && git add data/campaign_state.csv
           git diff --cached --quiet || git commit -m "Process finished calls [automated]"
+          git pull --rebase --autostash -q
           git push
