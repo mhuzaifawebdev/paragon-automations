@@ -31,8 +31,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Python dependencies
-        run: pip install pyyaml google-auth google-api-python-client
+      - name: Install Python dependencies (with retry - PyPI/network hiccups do happen)
+        run: |
+          success=false
+          for i in 1 2 3; do
+            if pip install pyyaml google-auth google-api-python-client; then success=true; break; fi
+            echo "pip install failed (attempt $i/3), retrying in 10s..."
+            sleep 10
+          done
+          if [ "$success" != "true" ]; then
+            echo "::error::pip install failed after 3 attempts"
+            exit 1
+          fi
 
       - name: Write the Google service-account key (from a secret, never committed)
         # Same secret enrich.yml already uses for the scraper's Sheet publishing - reused here for

@@ -38,7 +38,17 @@ jobs:
           python-version: "3.12"
 
       - name: Install Python dependencies
-        run: pip install pyyaml
+        run: |
+          success=false
+          for i in 1 2 3; do
+            if pip install pyyaml; then success=true; break; fi
+            echo "pip install failed (attempt $i/3), retrying in 10s..."
+            sleep 10
+          done
+          if [ "$success" != "true" ]; then
+            echo "::error::pip install failed after 3 attempts"
+            exit 1
+          fi
 
       - name: Write .env from secrets
         run: |

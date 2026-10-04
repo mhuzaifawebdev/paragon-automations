@@ -55,7 +55,21 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r requirements.txt
+      - name: Install Python dependencies (with retry - PyPI/network hiccups do happen)
+        run: |
+          success=false
+          for i in 1 2 3; do
+            if pip install -r requirements.txt; then success=true; break; fi
+            echo "pip install failed (attempt $i/3), retrying in 10s..."
+            sleep 10
+          done
+          # Without this check, a loop that exhausts all 3 attempts still ends on `sleep` (always
+          # exit 0), so the step would silently report success despite nothing being installed -
+          # the real failure would only surface later and more confusingly, e.g. ModuleNotFoundError.
+          if [ "$success" != "true" ]; then
+            echo "::error::pip install failed after 3 attempts"
+            exit 1
+          fi
 
       - name: Check for a cancellation marker (web_scraper's "Cancel this batch" button)
         id: cancelcheck
