@@ -1,0 +1,55 @@
+{
+ "row_id": "r023",
+ "scraped_at": "2026-10-04T06:49:04Z",
+ "contacts": {
+  "row_id": "r023",
+  "institution_name": "unit",
+  "institution_type": "unknown",
+  "official_website": "https://www.uni-t.org/web",
+  "country": {
+   "value": "Österreich",
+   "source_url": "https://www.uni-t.org/contact",
+   "evidence_quote": "Steiermark, Österreich"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "uniT GmbH",
+    "city": "Graz",
+    "country": "Österreich",
+    "role": "main",
+    "source_url": "https://www.uni-t.org/contact",
+    "evidence_quote": "Jakominiplatz 15 / 1. Stock"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The provided evidence does not contain a list of Erasmus+ or international partners. The institution is described as a cultural initiative rather than a traditional university.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 14.2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "total_seconds": 18.4
+ }
+}
