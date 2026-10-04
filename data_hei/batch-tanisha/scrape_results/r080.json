@@ -1,0 +1,55 @@
+{
+ "row_id": "r080",
+ "scraped_at": "2026-10-04T08:26:38Z",
+ "contacts": {
+  "row_id": "r080",
+  "institution_name": "IES EMILIO JIMENO",
+  "institution_type": "school",
+  "official_website": "https://www.emiliojimeno.edu.es/",
+  "country": {
+   "value": "España",
+   "source_url": "https://www.emiliojimeno.edu.es/",
+   "evidence_quote": "C/ Río Perejiles 2, 50300 Zaragoza (España)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Emilio Jimeno",
+    "city": "Zaragoza",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.emiliojimeno.edu.es/",
+    "evidence_quote": "C/ Río Perejiles 2, 50300 Zaragoza (España)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The provided evidence does not contain any named staff members or information regarding international partnerships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 3.8,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "total_seconds": 6.8
+ }
+}
