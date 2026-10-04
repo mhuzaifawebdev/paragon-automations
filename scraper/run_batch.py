@@ -169,11 +169,50 @@ def coverage_text(n, captured, verified):
     return f"{verified} of {captured} verified"
 
 
+def _read_prior_csv(path):
+    if not path.exists():
+        return []
+    with open(path, newline="", encoding="utf-8-sig") as f:
+        return list(csv.DictReader(f))
+
+
+def _reuse_if_matches(prev_row, verified_col, value_col, url_col, current_value, current_url, fallback_note):
+    """A claim's cited page can be in the cache on one run (so it gets really checked) and
+    missing on the next (a fresh GitHub Actions container never saw it - the cache is
+    git-ignored and container-local). verify.py returns None for that "can't check" case
+    rather than silently failing it; this reuses the LAST time the exact same claim (same
+    scraped value, same source URL) was actually checked and passed, instead of letting an
+    empty cache downgrade already-confirmed data to 'none'."""
+    if (prev_row and prev_row.get(verified_col) == "yes"
+            and prev_row.get(value_col) == current_value and prev_row.get(url_col) == current_url):
+        return True, "previously verified; page not in this run's cache (reused prior result)"
+    return False, fallback_note
+
+
+def _reuse_list_item(prev_map, key, fallback_note):
+    prev = prev_map.get(key)
+    if prev and prev.get("verified") == "yes":
+        return True, "previously verified; page not in this run's cache (reused prior result)"
+    return False, fallback_note
+
+
 def merge(rows):
     """Rebuild every output CSV from the saved per-institute results, running the
     deterministic verifier on each claim. CSVs keep ALL rows with a `verified` flag
     (audit trail); the sheet builder shows only verified rows in the main tabs and
-    lists the rest in 'Needs Review'."""
+    lists the rest in 'Needs Review'.
+
+    Reads the CSVs it's about to overwrite FIRST (see _reuse_if_matches/_reuse_list_item) so a
+    claim verify.py can't currently re-check (empty cache in this container) falls back to the
+    last run's real result instead of being marked unverified just because of where it happened
+    to run."""
+    prev_enriched = {row["row_id"]: row for row in _read_prior_csv(DATA / "institutions_enriched.csv")}
+    prev_partners = {(row["row_id"], row["partner_name"], row["source_url"]): row
+                      for row in _read_prior_csv(DATA / "partners.csv")}
+    prev_campuses = {(row["row_id"], row["campus_name"], row["source_url"]): row
+                      for row in _read_prior_csv(DATA / "campuses.csv")}
+    prev_contacts = {(row["row_id"], row["name"], row["source_url"]): row
+                      for row in _read_prior_csv(DATA / "contacts.csv")}
     enriched, partners, campuses, contacts, review = [], [], [], [], []
     for r in rows:
         f = RESULTS / f"{r['row_id']}.json"
@@ -199,13 +238,46 @@ def merge(rows):
         n = res.get("network") or {}
         name = c.get("institution_name") or r["institution_name"]
 
+        prev_row = prev_enriched.get(r["row_id"])
+
         contact_ok, contact_note = verify.verify_contact(ct, site)
-        country_ok = bool(country) and verify.verify_partner_or_campus(c.get("country") or {}, site, "value")[0]
-        phone_ok = bool(phone) and verify.verify_partner_or_campus(c.get("phone") or {}, site, "value")[0]
+        if contact_ok is None:
+            contact_ok, contact_note = _reuse_if_matches(
+                prev_row, "contact_verified", "person_scraped", "contact_source_url",
+                ct.get("name") or "", ct.get("source_url") or "", contact_note)
+
+        country_item = c.get("country") or {}
+        country_check, country_note = verify.verify_partner_or_campus(country_item, site, "value")
+        if country_check is None:
+            country_check, country_note = _reuse_if_matches(
+                prev_row, "country_verified", "country_scraped", "country_source_url",
+                country, country_item.get("source_url") or "", country_note)
+        country_ok = bool(country) and bool(country_check)
+
+        phone_item = c.get("phone") or {}
+        phone_check, phone_note = verify.verify_partner_or_campus(phone_item, site, "value")
+        if phone_check is None:
+            phone_check, phone_note = _reuse_if_matches(
+                prev_row, "phone_verified", "phone_scraped", "phone_source_url",
+                phone, phone_item.get("source_url") or "", phone_note)
+        phone_ok = bool(phone) and bool(phone_check)
+
         p_items = n.get("external_collaboration") or []
         m_items = n.get("internal_collaboration") or []
-        p_res = [verify.verify_partner_or_campus(p, site, "partner_name") for p in p_items]
-        m_res = [verify.verify_partner_or_campus(m, site, "campus_name") for m in m_items]
+        p_res = []
+        for p in p_items:
+            ok, note = verify.verify_partner_or_campus(p, site, "partner_name")
+            if ok is None:
+                ok, note = _reuse_list_item(
+                    prev_partners, (r["row_id"], p.get("partner_name", ""), p.get("source_url", "")), note)
+            p_res.append((ok, note))
+        m_res = []
+        for m in m_items:
+            ok, note = verify.verify_partner_or_campus(m, site, "campus_name")
+            if ok is None:
+                ok, note = _reuse_list_item(
+                    prev_campuses, (r["row_id"], m.get("campus_name", ""), m.get("source_url", "")), note)
+            m_res.append((ok, note))
         p_ok, m_ok = sum(1 for ok, _ in p_res if ok), sum(1 for ok, _ in m_res if ok)
 
         changed = []
@@ -281,6 +353,9 @@ def merge(rows):
             if not alt.get("name"):
                 continue
             alt_ok, alt_note = verify.verify_contact(alt, site)
+            if alt_ok is None:
+                alt_ok, alt_note = _reuse_list_item(
+                    prev_contacts, (r["row_id"], alt.get("name") or "", alt.get("source_url") or ""), alt_note)
             contacts.append({"row_id": r["row_id"], "institution": name, "rank": k,
                              "name": alt.get("name"), "designation": alt.get("designation") or "",
                              "designation_local": alt.get("designation_local") or "",

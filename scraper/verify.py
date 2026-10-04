@@ -5,6 +5,12 @@ the cited page (scraper/fetch_pages.py's cache). A claim is 'verified' only if t
 finds its evidence on that page. Anything else is reported with the reason, never
 silently accepted.
 
+A claim whose cited page simply isn't in today's cache comes back as `verified=None`,
+not `False` - "can't check right now" is a different outcome from "checked and it
+failed", and run_batch.merge() relies on that distinction to avoid downgrading a claim
+that was genuinely verified in an earlier run (in a since-discarded cache) just because
+this run's cache happens to be empty.
+
 What 'verified' means, precisely: the quote is on the cited page, the entity named in the
 claim is on that page (email/phone literally, never inferred), and the page is on the
 institute's own domain. It does NOT mean the page is current or correct - only that the
@@ -84,13 +90,16 @@ def _page(url):
 
 
 def verify_partner_or_campus(item, official_website, name_key):
-    """item has source_url + evidence_quote + a name field. Returns (verified, note)."""
+    """item has source_url + evidence_quote + a name field. Returns (verified, note).
+    `verified` is None (not False) when the cited page simply isn't in today's cache - that's
+    "can't check right now", not "checked and it's wrong", and callers (run_batch.merge()) treat
+    the two very differently."""
     url, quote = item.get("source_url") or "", item.get("evidence_quote") or ""
     if not url or not quote:
         return False, "no source URL or quote given"
     text, rec = _page(url)
     if text is None:
-        return False, "cited page was not read by the fetcher (cannot check)"
+        return None, "cited page was not read by the fetcher (cannot check)"
     if not quote_in_text(quote, text):
         return False, "quote not found on the cited page"
     if not is_official(url, official_website):
@@ -106,9 +115,12 @@ def verify_contact(contact, official_website):
     if not contact or not contact.get("name"):
         return False, "no contact found"
     url, quote = contact.get("source_url") or "", contact.get("evidence_quote") or ""
+    if not url:
+        return False, "no source URL given"
     text, rec = _page(url)
-    if not url or text is None:
-        return False, "cited page was not read by the fetcher (cannot check)"
+    if text is None:
+        # None, not False: the page just isn't in today's cache (see verify_partner_or_campus).
+        return None, "cited page was not read by the fetcher (cannot check)"
     problems = []
     if not quote_in_text(quote, text):
         problems.append("quote not on page")
