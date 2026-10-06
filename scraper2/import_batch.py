@@ -72,6 +72,35 @@ def rows_from_csv_text(text):
     return [{out: (r.get(src) or "").strip() for out, src in mapping.items()} for r in reader]
 
 
+def _expand_merged_rows(rows):
+    """A merged/stacked Excel cell (multiple institutions Alt+Enter'd into one cell) survives CSV
+    export as a single field with embedded newlines - csv.DictReader correctly reads that as ONE
+    row's ONE value, not several rows, so without this it would silently become one garbled row.
+    Splits such a row into one row per line, pairing line i of each field positionally. A field
+    with only one non-blank line (e.g. a status shared by the whole stacked block) is reused
+    verbatim on every split row - but since reusing one value across several different institutes
+    is a guess, not a fact, every row born from a split is marked for human review, even a cleanly
+    aligned one. No-op for ordinary single-line rows."""
+    out = []
+    for row in rows:
+        lines = {k: (v.splitlines() if v else []) for k, v in row.items()}
+        max_n = max((len(v) for v in lines.values()), default=1) or 1
+        if max_n <= 1:
+            out.append(row)
+            continue
+        for i in range(max_n):
+            new_row = {}
+            for k in row:
+                ls = lines[k]
+                if len(ls) <= 1:
+                    new_row[k] = (ls[0] if ls else "").strip()
+                else:
+                    new_row[k] = ls[i].strip() if i < len(ls) else ""
+            new_row["flags"] = "split from merged cell - verify pairing"
+            out.append(new_row)
+    return out
+
+
 def rows_from_sheet(sheet_url, tab):
     from google.oauth2 import service_account
     from googleapiclient.discovery import build
@@ -104,7 +133,8 @@ def build_rows(raw_rows):
         rid = f"r{k:03d}"
         seeds = " ".join(u for u in re.split(r"[\s,;]+", r.get("seed_urls") or "") if u.startswith("http"))
         row = {f: r.get(f, "") for f in OUT_FIELDS}
-        row.update(row_id=rid, seed_urls=seeds, duplicate_group="", flags="")
+        row.update(row_id=rid, seed_urls=seeds, duplicate_group="")
+        row["flags"] = r.get("flags", "") or ""   # preserve a marker _expand_merged_rows set
         numbers.append(row)
     return numbers
 
@@ -126,6 +156,8 @@ def main():
     try:
         raw = rows_from_csv_text(Path(a.csv).read_text(encoding="utf-8-sig")) if a.csv \
             else rows_from_sheet(a.sheet_url, a.tab)
+        if a.csv:
+            raw = _expand_merged_rows(raw)
     except ImportError_ as e:
         raise SystemExit(f"Import failed: {e}")
 

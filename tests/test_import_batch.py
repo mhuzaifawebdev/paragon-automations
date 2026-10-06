@@ -43,6 +43,7 @@ numbers = ib.build_rows(rows)
 check("a row with no institution name is dropped", len(numbers), 1)
 check("row_id is assigned r001-style", numbers[0]["row_id"], "r001")
 check("every output row has all the fields run.py expects", set(numbers[0]) == set(ib.OUT_FIELDS), True)
+check("an ordinary (non-merged) row has no review flag", numbers[0]["flags"], "")
 
 seed_rows = ib.build_rows([{"institution_name": "X", "seed_urls": "https://a.org junk https://b.org"}])
 check("seed_urls keeps only things that look like URLs", seed_rows[0]["seed_urls"], "https://a.org https://b.org")
@@ -53,6 +54,53 @@ try:
 except ib.ImportError_:
     raised = True
 check("an empty file fails loudly instead of crashing", raised, True)
+
+
+# ---- merged/stacked-cell splitting (_expand_merged_rows) ----
+single_line_rows = [{"institution_name": "A", "contact_name": "X"}, {"institution_name": "B", "contact_name": "Y"}]
+check("single-line rows pass through _expand_merged_rows unchanged",
+      ib._expand_merged_rows(single_line_rows), single_line_rows)
+
+aligned = [{"institution_name": "A\nB\nC", "contact_name": "X\nY\nZ"}]
+aligned_out = ib._expand_merged_rows(aligned)
+check("a cleanly-aligned 3-line stacked block splits into 3 rows", len(aligned_out), 3)
+check("aligned split pairs fields positionally",
+      [r["institution_name"] for r in aligned_out], ["A", "B", "C"])
+check("aligned split pairs the other field positionally too",
+      [r["contact_name"] for r in aligned_out], ["X", "Y", "Z"])
+check("every row born from a split is marked for review, even a cleanly-aligned one",
+      all(r.get("flags") == "split from merged cell - verify pairing" for r in aligned_out), True)
+
+mismatched = [{"institution_name": "A\nB\nC\nD\nE", "contact_name": "X\nY\nZ"}]
+mismatched_out = ib._expand_merged_rows(mismatched)
+check("a mismatched stacked block (5 names, 3 contacts) splits into 5 rows", len(mismatched_out), 5)
+check("mismatched split blank-pads the shorter field",
+      [r["contact_name"] for r in mismatched_out], ["X", "Y", "Z", "", ""])
+check("mismatched split flags every resulting row for review",
+      all(r.get("flags") == "split from merged cell - verify pairing" for r in mismatched_out), True)
+
+shared = [{"institution_name": "A\nB\nC", "status_raw": "pending"}]
+shared_out = ib._expand_merged_rows(shared)
+check("a single shared one-line field is reused across every split row",
+      [r["status_raw"] for r in shared_out], ["pending", "pending", "pending"])
+check("reusing a shared one-line field still marks the split for review",
+      all(r.get("flags") == "split from merged cell - verify pairing" for r in shared_out), True)
+
+# ---- end to end: a real merged-cell CSV field through the whole import ----
+merged_csv = 'University,Contact\n"Example College\nOther College","123\n456"\n'
+merged_rows = ib._expand_merged_rows(ib.rows_from_csv_text(merged_csv))
+merged_numbers = ib.build_rows(merged_rows)
+check("end-to-end: a quoted multi-line CSV field becomes 2 separate institutes",
+      [n["institution_name"] for n in merged_numbers], ["Example College", "Other College"])
+check("end-to-end: row_ids are sequential across the expanded rows",
+      [n["row_id"] for n in merged_numbers], ["r001", "r002"])
+check("end-to-end: build_rows preserves the review flag _expand_merged_rows set, doesn't clobber it",
+      all(n["flags"] == "split from merged cell - verify pairing" for n in merged_numbers), True)
+
+mismatched_csv = 'University,Contact\n"Example College\nOther College\nThird College","123"\n'
+mismatched_numbers = ib.build_rows(ib._expand_merged_rows(ib.rows_from_csv_text(mismatched_csv)))
+check("end-to-end: a mismatched merge's review flag survives build_rows",
+      all(n["flags"] == "split from merged cell - verify pairing" for n in mismatched_numbers), True)
 
 
 print(f"\n{sum(results)}/{len(results)} passed")

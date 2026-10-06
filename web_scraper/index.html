@@ -210,6 +210,31 @@ const dz = $("dropzone"), fileInput = $("file");
 dz.addEventListener("drop", e => { if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]); });
 fileInput.addEventListener("change", e => { if (e.target.files[0]) handleFile(e.target.files[0]); });
 
+// Reads EVERY sheet/tab of the workbook, not just the first - a team's file commonly splits
+// institutes across several tabs (e.g. by region), and silently reading only tab 1 would drop the
+// rest with no sign anything was missed. sheet_to_json (not sheet_to_csv) lets each tab's own
+// header row be auto-detected and mapped independently, so tabs with a different column order
+// still line up correctly once merged under one unified header.
+function csvSerialize(headers, rows) {
+  const esc = v => {
+    const s = (v ?? "").toString();
+    return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+  };
+  const lines = [headers.map(esc).join(",")];
+  for (const row of rows) lines.push(headers.map(h => esc(row[h])).join(","));
+  return lines.join("\r\n");
+}
+function workbookToCsv(wb) {
+  const headerOrder = [], seen = new Set(), allRows = [];
+  for (const name of wb.SheetNames) {
+    for (const obj of XLSX.utils.sheet_to_json(wb.Sheets[name], { defval: "", raw: false })) {
+      for (const k of Object.keys(obj)) if (!seen.has(k)) { seen.add(k); headerOrder.push(k); }
+      allRows.push(obj);
+    }
+  }
+  return csvSerialize(headerOrder, allRows);
+}
+
 const MAX_ROWS_CLIENT = 1200; // mirrors web_scraper/api/start-batch.js's server-side cap - checked
                                // here too so a wrong-file mistake is caught before any upload happens
 function rowCountOf(csv) {
@@ -294,8 +319,7 @@ async function handleFile(file) {
     if (/\.xlsx?$/i.test(file.name)) {
       const buf = await file.arrayBuffer();
       const wb = XLSX.read(buf, { type: "array" });
-      const sheet = wb.Sheets[wb.SheetNames[0]];
-      csvText = XLSX.utils.sheet_to_csv(sheet);
+      csvText = workbookToCsv(wb);
     } else {
       csvText = await file.text();
     }
