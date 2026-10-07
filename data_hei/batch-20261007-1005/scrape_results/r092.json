@@ -1,0 +1,132 @@
+{
+ "row_id": "r092",
+ "scraped_at": "2026-10-07T18:27:23Z",
+ "contacts": {
+  "row_id": "r092",
+  "institution_name": "ENSAV",
+  "institution_type": "college",
+  "official_website": "http://www.lacambre.be/en",
+  "country": {
+   "value": "BELGIUM",
+   "source_url": "http://www.lacambre.be/en/pages/contact",
+   "evidence_quote": "BELGIUM"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Sarah Magnan",
+   "designation": "Quality Coordinator",
+   "designation_local": "",
+   "email": "ecoute.etudiantex@lacambre.be",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://www.lacambre.be/en/informations/services-aux-etudiant-e-x-s/contact-ecoute-etudiantex",
+   "evidence_quote": "Les personnes contact écoute étudiant·e·x sont actuellement Sarah Magnan (coordinatrice qualité) et Olivier Drouot (enseignant en peinture), formées à l’écoute active, et en tant que personne de confiance."
+  },
+  "alternates": [
+   {
+    "name": "Olivier Drouot",
+    "designation": "Painting Teacher",
+    "designation_local": "",
+    "email": "ecoute.etudiantex@lacambre.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "http://www.lacambre.be/en/informations/services-aux-etudiant-e-x-s/contact-ecoute-etudiantex",
+    "evidence_quote": "Les personnes contact écoute étudiant·e·x sont actuellement Sarah Magnan (coordinatrice qualité) et Olivier Drouot (enseignant en peinture), formées à l’écoute active, et en tant que personne de confiance.",
+    "why_chosen": "Other role. Olivier Drouot is identified as a teaching staff member handling student support contacts."
+   }
+  ],
+  "rung": "Other role. Sarah Magnan is identified as a quality coordinator handling student support and contacts.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ELIA (European League of Institutes of the Arts)",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lacambre.be/en/international/networks/elia",
+    "evidence_quote": "L'ENSAV La Cambre is a full member of ELIA (European League of Institutes of the Arts).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cumulus",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lacambre.be/en/international/networks/cumulus",
+    "evidence_quote": "Founded in 1990 on the initiative of the University of Art and Design in Helsinki, Finland, and the Royal College of Art, Cumulus is the leading international association for education and research in the field of design (and also art and media). It has 357 members in 66 countries. Cumulus has been recognised by UNESCO since 2011.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ENCoRE",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lacambre.be/en/international/networks/encore",
+    "evidence_quote": "ENCoRE is a network organisation of higher education institutions in the field of conservation-restoration.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ELIA",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lacambre.be/en/international/networks/elia",
+    "evidence_quote": "L'ENSAV La Cambre is a full member of ELIA (European League of Institutes of the Arts).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Art and Design in Helsinki",
+    "partner_country": "Finland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lacambre.be/en/international/networks/cumulus",
+    "evidence_quote": "Founded in 1990 on the initiative of the University of Art and Design in Helsinki, Finland, and the Royal College of Art, Cumulus is the leading international association for education and research in the field of design (and also art and media). It has 357 members in 66 countries. Cumulus has been recognised by UNESCO since 2011.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Royal College of Art",
+    "partner_country": "unknown",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lacambre.be/en/international/networks/cumulus",
+    "evidence_quote": "Founded in 1990 on the initiative of the University of Art and Design in Helsinki, Finland, and the Royal College of Art, Cumulus is the leading international association for education and research in the field of design (and also art and media). It has 357 members in 66 countries. Cumulus has been recognised by UNESCO since 2011.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "La Cambre",
+    "city": "Brussels",
+    "country": "BELGIUM",
+    "role": "main",
+    "source_url": "http://www.lacambre.be/en/pages/contact",
+    "evidence_quote": "21 Abbaye de La Cambre"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions the International Relations office email for staff mobility but does not name any specific individual as the international coordinator. Specific bilateral partner universities are not listed, only broad networks.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.3,
+  "crawl_s": 18.0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.4,
+  "mode": "gemini",
+  "email_search_s": 6.8,
+  "total_seconds": 51.6
+ }
+}
