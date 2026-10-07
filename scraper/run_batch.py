@@ -311,7 +311,11 @@ def merge(rows):
             "email_original": r["email"],
             "institution_scraped": c.get("institution_name") or "",
             "institution_type": c.get("institution_type") or "",
-            "official_website": site,
+            # The "Website" column should take a person straight to the exact page the contact was
+            # read from, not just the homepage - but only once that page is actually verified, so
+            # an unverified/wrong page is never what "Website" points at. `site` (the homepage)
+            # is still what every verification check above used - that's unaffected by this.
+            "official_website": ct.get("source_url") if contact_ok and ct.get("source_url") else site,
             "country_scraped": country,
             "country_source_url": (c.get("country") or {}).get("source_url") or "",
             "country_verified": "yes" if country_ok else ("no" if country else ""),
