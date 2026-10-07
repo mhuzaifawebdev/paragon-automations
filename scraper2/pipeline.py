@@ -150,6 +150,21 @@ def _matches_name(email, toks):
     return bool(toks) and any(t in _n((email or "").split("@", 1)[0]) for t in toks)
 
 
+def _is_own_email(email, toks):
+    """Stricter than _matches_name, for taking an address off a page found by search: EVERY piece of the local
+    part must fit this person's name. 'katja.kaikkonen' is not Meira Kaikkonen's address and 'paola.cioffi' is not
+    Paola Teti's, although each shares one name word - both were wrongly accepted before this check existed.
+    A piece fits if it is a name word, the start of one (an initial), or a name word plus such a start."""
+    def fits(piece):
+        if not piece or any(t.startswith(piece) for t in toks):
+            return True
+        return any(t in piece and (lambda rest: not rest or any(o.startswith(rest) for o in toks if o != t))(piece.replace(t, "", 1))
+                   for t in toks)
+    pieces = [re.sub(r"\d+", "", p) for p in re.split(r"[._\-+]", _n((email or "").split("@", 1)[0]))]
+    return bool(toks) and any(p in toks for p in pieces if len(p) >= 3) and all(fits(p) for p in pieces) \
+        or bool(toks) and len(pieces) == 1 and any(t in pieces[0] for t in toks) and fits(pieces[0])
+
+
 def find_profile_link(name, pages, site):
     """A same-site link whose label is this person's full name: the staff-directory -> own-profile pattern.
     Every name word must be in the label - a shared first name alone would point at somebody else's page."""
@@ -202,7 +217,7 @@ def upgrade_generic_email(contact, pages, site, institution="", web_search=None)
             return None                               # this page is not about this person
         for e in evidence.emails_in(text):
             d = e.split("@", 1)[-1].lower()
-            if _matches_name(e, toks) and any(d == x or d.endswith("." + x) or x.endswith("." + d) for x in domains):
+            if _is_own_email(e, toks) and any(d == x or d.endswith("." + x) or x.endswith("." + d) for x in domains):
                 return e, rec.get("final_url") or url
         return None
 

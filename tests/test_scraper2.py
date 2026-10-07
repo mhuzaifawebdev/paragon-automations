@@ -295,6 +295,16 @@ discover._ddg_search, discover.check_site, discover.load_memo, discover._wikidat
 discover.urllib.request.urlopen = real_urlopen
 os.environ.pop("ANTHROPIC_API_KEY") if old_key is None else os.environ.__setitem__("ANTHROPIC_API_KEY", old_key)
 
+# an address found by search must fit the WHOLE name, not just share one word with it (two real wrong matches)
+for email, name, want in [("katja.kaikkonen@kamk.fi", "Meira Kaikkonen", False), ("paola.cioffi@uniroma4.it", "Paola Teti", False),
+                          ("Sonya.Hogan@iadt.ie", "Sonya Hogan", True), ("tuija.tammi@vamk.fi", "Tuija Tammi", True),
+                          ("m.kebude@hybria.fr", "Mélisa KEBUDE", True), ("cl.bernard@ebi-edu.com", "Clémence Bernard", True),
+                          ("s.kunze@hszg.de", "Simone Kunze", True), ("hofmann@burg-halle.de", "Dieter Hofmann", True),
+                          ("shogan@iadt.ie", "Sonya Hogan", True), ("hogans2@iadt.ie", "Sonya Hogan", True),
+                          ("agnes.kovacs@a.org", "Kovács Ágnes", True), ("info@a.org", "Sonya Hogan", False),
+                          ("hogan.office@iadt.ie", "Sonya Hogan", False), ("john.hogan@iadt.ie", "Sonya Hogan", False)]:
+    check(f"_is_own_email({email!r}, {name!r})", pl._is_own_email(email, pl._name_toks(name)), want)
+
 # Gemini out of quota: the refused model is set aside instead of being retried on every call
 real_post2, old_gkey = llm._post, os.environ.get("GEMINI_API_KEY")
 os.environ["GEMINI_API_KEY"] = "test-key"
