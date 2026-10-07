@@ -220,6 +220,13 @@ check("web search with no qualifying page: contact unchanged",
 searched.clear()
 pl.upgrade_generic_email(dict(personal), no_links, "https://a.org", "A College", fake_search)
 check("no web search when the email is already personal", searched, [])
+office = {**generic, "name": "Ufficio Relazioni Internazionali", "email": "erasmus@a.org"}
+check("an office is not a person: no search, contact unchanged",
+      (pl.upgrade_generic_email(dict(office), pages_fx, "https://a.org", "A College", fake_search), searched), (office, []))
+for n, want in [("Erasmus Office", True), ("International Office", True), ("Departament Internacional", True),
+                ("Nemzetközi Kapcsolati Központ", True), ("Bureau des Relations Internationales", True),
+                ("Dominique Bureau", False), ("Sonya Hogan", False), ("Karel McLeod Smith", False), ("Rūta Puidokė", False)]:
+    check(f"is_office({n!r})", pl.is_office(n), want)
 fp.fetch = real_fetch
 
 # Claude web search: only result URLs are taken from the reply, and a tool error yields nothing

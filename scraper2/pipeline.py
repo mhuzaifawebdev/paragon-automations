@@ -165,6 +165,20 @@ def find_profile_link(name, pages, site):
 
 MAX_EMAIL_PAGES = 3
 
+# A "contact" that is really an office ("Ufficio Relazioni Internazionali", "Erasmus Office") has no personal
+# address to find: searching for one costs a paid search and can only turn up another shared inbox. Words that
+# are also ordinary surnames (Bureau, Centre, Service) are deliberately left out.
+OFFICE_WORDS = re.compile(
+    r"\b(office|ufficio|oficina|officina|biuro|buro|buero|department|departament|departamento|departement|dipartimento|"
+    r"oddeleni|oddelenie|skyrius|dzial|referat|abteilung|sekretariat|secretariat|secretaria|segreteria|titkarsag|"
+    r"international|internacional|internazional\w*|internationale\w*|miedzynarodow\w*|nemzetkozi|mezinarodni\w*|"
+    r"medzinarodn\w*|tarptautini\w*|relations|relazioni|relaciones|relacoes|kapcsolat\w*|kozpont|erasmus|mobility|"
+    r"mobilite|mobilidad|movilidad|mobilita|admissions|auslandsamt|team|unit)\b")
+
+
+def is_office(name):
+    return bool(OFFICE_WORDS.search(_n(name)))
+
 
 def upgrade_generic_email(contact, pages, site, institution="", web_search=None):
     """When the chosen contact has only a shared inbox (or no email), look for their OWN work address: first the
@@ -174,7 +188,7 @@ def upgrade_generic_email(contact, pages, site, institution="", web_search=None)
     office_email; if nothing qualifies the contact is returned untouched."""
     toks = _name_toks(contact.get("name", ""))
     old = contact.get("email") or ""
-    if len(toks) < 2 or _matches_name(old, toks):
+    if len(toks) < 2 or _matches_name(old, toks) or is_office(contact.get("name", "")):
         return contact
     domains = {crawl._host(site)} | ({old.split("@", 1)[1].lower()} if "@" in old else set())
 
