@@ -43,6 +43,65 @@ LINK_COLUMNS = {
 }
 HYPERLINK_FONT = Font(color="0563C1", underline="single")
 
+# The fields a human actually needs at a glance - contact person, designation, email, phone,
+# confidence - come first on the Institutions sheet instead of making the team scroll past ~18
+# audit/original-sheet columns to find them. Anything not listed here keeps its existing relative
+# order, appended after these.
+PRIORITY_COLUMNS = [
+    "institution_scraped", "person_scraped", "designation_scraped", "email_scraped",
+    "phone_scraped", "confidence", "contact_verified", "needs_human_check",
+    "official_website", "institution_type", "country_scraped",
+    "partners_found", "campuses_found", "row_id",
+]
+
+# Raw CSV header -> a label a non-technical team member can read at a glance. Anything not listed
+# falls back to a prettified version of its raw name (see _prettify) rather than being left as
+# snake_case.
+FRIENDLY_LABELS = {
+    "row_id": "Row ID", "institution_scraped": "Institution Name", "person_scraped": "Contact Person",
+    "designation_scraped": "Designation", "email_scraped": "Email", "phone_scraped": "Phone",
+    "confidence": "Confidence", "contact_verified": "Contact Verified?",
+    "needs_human_check": "Needs Review?", "official_website": "Website",
+    "institution_type": "Institution Type", "country_scraped": "Country",
+    "partners_found": "Partners Found", "campuses_found": "Campuses Found",
+    "institution_original": "Institution Name (as given)", "country_original": "Country (as given)",
+    "phone_original": "Phone (as given)", "person_original": "Contact Person (as given)",
+    "designation_original": "Designation (as given)", "email_original": "Email (as given)",
+    "duplicate_of": "Duplicate Of", "country_source_url": "Country Source",
+    "phone_source_url": "Phone Source", "phone_verified": "Phone Verified?",
+    "phone_alt": "Alternate Phone", "designation_local": "Designation (local language)",
+    "office_email": "Office Email", "contact_phone": "Contact's Direct Phone",
+    "contact_source_url": "Contact Source", "contact_evidence": "Contact Evidence Quote",
+    "contact_verify_note": "Contact Verification Note", "rung": "Contact Seniority",
+    "country_verified": "Country Verified?", "changed_vs_sheet": "Changed vs Original Sheet",
+    "partners_verified": "Partners Verified", "campuses_verified": "Campuses Verified",
+    "partners_coverage": "Partners Coverage", "campuses_coverage": "Campuses Coverage",
+    "network_truncated": "Network List Truncated?", "multiplier_hook": "Multiplier Hook",
+    "network_note": "Network Note", "notes": "Notes", "scraped_at": "Scraped At", "method": "Method",
+    "institution": "Institution Name", "rank": "Rank", "name": "Name", "designation": "Designation",
+    "email": "Email", "phone": "Phone", "source_url": "Source", "evidence_quote": "Evidence Quote",
+    "why_chosen": "Why Chosen", "verified": "Verified?", "verify_note": "Verification Note",
+    "partner_name": "Partner Name", "partner_country": "Partner Country", "partner_type": "Partner Type",
+    "mobility_type": "Mobility Type", "confidence_": "Confidence", "campus_name": "Campus Name",
+    "country": "Country", "city": "City", "role": "Role", "kind": "Kind", "item": "Item",
+    "why_flagged": "Why Flagged",
+}
+
+
+def _prettify(field):
+    return field.replace("_", " ").strip().title()
+
+
+def _reorder_institutions(header, rows):
+    """Puts PRIORITY_COLUMNS first (in that order); everything else keeps its existing relative
+    order, appended after. Returns a new (header, rows) pair - nothing is dropped, only reordered."""
+    front = [f for f in PRIORITY_COLUMNS if f in header]
+    rest = [f for f in header if f not in front]
+    new_header = front + rest
+    idx = [header.index(f) for f in new_header]
+    new_rows = [[row[i] if i < len(row) else "" for i in idx] for row in rows]
+    return new_header, new_rows
+
 
 def read_csv(path):
     if not path.exists():
@@ -64,8 +123,12 @@ def build(data_dir):
     wb.remove(wb.active)
     ws_objs = {}
     for name, data in sheets.items():
+        if name == "Institutions" and data["header"]:
+            # Reorder in place so the hyperlink-column lookup below (which reads sheets["Institutions"])
+            # sees the same reordered header/rows, not the original CSV order.
+            data["header"], data["rows"] = _reorder_institutions(data["header"], data["rows"])
         ws = wb.create_sheet(name)
-        ws.append(data["header"])
+        ws.append([FRIENDLY_LABELS.get(h, _prettify(h)) for h in data["header"]])
         for row in data["rows"]:
             ws.append(row)
         ws_objs[name] = ws
