@@ -1,0 +1,80 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-07T17:09:23Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "ARKITEKTUR OG DESIGNHOGSKOLEN I OSLO",
+  "institution_type": "university",
+  "official_website": "https://www.aho.no/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "International Office",
+   "designation": "International Office",
+   "designation_local": "",
+   "email": "international-office@aho.no",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.aho.no/english/studies/exchange/erasmus.html",
+   "evidence_quote": "Contact international-office@aho.no <international-office@aho.no> if you are unsure whether you qualify for the additional grant. Students receiving the additional grant must sign a declaration (“Declaration on Honour”) confirming that they belong to one (or more) of the above categories."
+  },
+  "alternates": [],
+  "rung": "International relations officer. The International Office handles Erasmus+ grant inquiries and international mobility.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universitetet i Tromsø",
+    "partner_country": "Norway",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aho.no/om/bygg-og-fasiliteter/campusprosjektet/2022-10-01_konseptvalgnotat_arkitektur-_og_designhogskolen_i_oslo.pdf",
+    "evidence_quote": "samarbeid med Universitetet i Tromsø",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kunsthøgskolen (KHiO)",
+    "partner_country": "Norway",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aho.no/om/bygg-og-fasiliteter/campusprosjektet/2022-10-01_konseptvalgnotat_arkitektur-_og_designhogskolen_i_oslo.pdf",
+    "evidence_quote": "utdanningsinstitusjoner. Kunsthøgskolen (KHiO) ligger",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Maridalsveien 29",
+    "city": "Oslo",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://www.aho.no/om/kontakt/",
+    "evidence_quote": "Besøksadresse: Maridalsveien 29, 0175 Oslo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of partner institutions. Information regarding Erasmus+ policy and procedures is available, but specific partner names are not listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 16.7,
+  "cost_usd_estimate": 0.0,
+  "model_s": 150.8,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 169.0
+ }
+}
