@@ -30,17 +30,29 @@ ALIASES = {
     # not the institution. Specific institutional terms must win that collision; "name" only
     # applies as a last resort when nothing more specific is present.
     "institution_name": ["institution_name", "institution", "university", "school", "college", "name"],
-    "country_sheet": ["country_sheet", "country"],
-    "phone_1": ["phone_1", "phone", "phone1", "generic_phone", "contact_phone", "primary_phone"],
-    "phone_2": ["phone_2", "phone2", "work_phone", "secondary_phone"],
+    "country_sheet": ["country_sheet", "country", "hei_country"],
+    "phone_1": ["phone_1", "phone", "phone1", "generic_phone", "contact_phone", "primary_phone",
+                "contact_work_phone_number", "work_phone_number"],
+    "phone_2": ["phone_2", "phone2", "work_phone", "secondary_phone", "contact_generic_phone_number"],
     "contact_name": ["contact_name", "contact", "on_file_name", "name_on_file", "person"],
-    "designation": ["designation", "role", "title", "position"],
-    "email": ["email", "contact_email", "email_address"],
+    "designation": ["designation", "role", "title", "position", "erasmus_director"],
+    "email": ["email", "contact_email", "email_address", "contact_work_email", "contact_generic_email"],
     "status_raw": ["status_raw", "status", "remarks", "notes"],
     "seed_urls": ["seed_urls", "website", "website_url", "url", "site"],
 }
 OUT_FIELDS = ["row_id", "institution_name", "country_sheet", "phone_1", "phone_2", "contact_name",
               "designation", "email", "status_raw", "duplicate_group", "flags", "seed_urls"]
+
+# When a file has no single "contact name" column but splits it into a first/last name pair (very
+# common: "Name" + "Surname", or "First Name" + "Last Name"), combine them instead of leaving
+# contact_name blank. Only used as a fallback, when nothing in ALIASES["contact_name"] matched.
+FIRST_NAME_ALIASES = ["first_name", "firstname", "given_name", "name"]
+LAST_NAME_ALIASES = ["last_name", "lastname", "surname", "family_name"]
+
+
+def _find_header(fieldnames, aliases):
+    normed = {_norm(h): h for h in fieldnames}
+    return next((normed[_norm(a)] for a in aliases if _norm(a) in normed), None)
 
 
 class ImportError_(Exception):
@@ -73,7 +85,18 @@ def rows_from_csv_text(text):
     if not reader.fieldnames:
         raise ImportError_("File has no header row / is empty.")
     mapping = _map_headers(reader.fieldnames)
-    return [{out: (r.get(src) or "").strip() for out, src in mapping.items()} for r in reader]
+    first_col = None if "contact_name" in mapping else _find_header(reader.fieldnames, FIRST_NAME_ALIASES)
+    last_col = None if "contact_name" in mapping else _find_header(reader.fieldnames, LAST_NAME_ALIASES)
+    out = []
+    for r in reader:
+        row = {out_field: (r.get(src) or "").strip() for out_field, src in mapping.items()}
+        if "contact_name" not in row and (first_col or last_col):
+            row["contact_name"] = " ".join(p for p in (
+                (r.get(first_col) or "").strip() if first_col else "",
+                (r.get(last_col) or "").strip() if last_col else "",
+            ) if p)
+        out.append(row)
+    return out
 
 
 def _expand_merged_rows(rows):
@@ -122,10 +145,18 @@ def rows_from_sheet(sheet_url, tab):
     header, body = values[0], values[1:]
     mapping = _map_headers(header)
     idx = {h: i for i, h in enumerate(header)}
+    first_col = None if "contact_name" in mapping else _find_header(header, FIRST_NAME_ALIASES)
+    last_col = None if "contact_name" in mapping else _find_header(header, LAST_NAME_ALIASES)
     out = []
     for r in body:
         r = r + [""] * (len(header) - len(r))
-        out.append({out_field: r[idx[src]].strip() for out_field, src in mapping.items()})
+        row = {out_field: r[idx[src]].strip() for out_field, src in mapping.items()}
+        if "contact_name" not in row and (first_col or last_col):
+            row["contact_name"] = " ".join(p for p in (
+                r[idx[first_col]].strip() if first_col else "",
+                r[idx[last_col]].strip() if last_col else "",
+            ) if p)
+        out.append(row)
     return out
 
 

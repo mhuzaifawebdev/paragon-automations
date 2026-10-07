@@ -235,23 +235,59 @@ function workbookToCsv(wb) {
   return csvSerialize(headerOrder, allRows);
 }
 
+// Splits raw CSV text into records the same way a real RFC-4180 parser would: a quoted field's
+// embedded newline (a merged/stacked Excel cell) is part of ONE record, not a record boundary of
+// its own. A naive csv.split(/\n/) would overcount rows for any file with such a cell - confirmed
+// in production (a 100-row file with one stacked cell showed as "114 rows" here before this fix,
+// even though the actual import correctly read it as 100).
+function splitCsvRecords(csv) {
+  const records = [];
+  let cur = "", inQuotes = false;
+  for (let i = 0; i < csv.length; i++) {
+    const c = csv[i];
+    if (inQuotes) {
+      if (c === '"') { if (csv[i + 1] === '"') { cur += '"'; i++; } else inQuotes = false; }
+      else cur += c;
+    } else if (c === '"') {
+      inQuotes = true;
+    } else if (c === "\n" || c === "\r") {
+      if (c === "\r" && csv[i + 1] === "\n") i++;
+      records.push(cur);
+      cur = "";
+    } else {
+      cur += c;
+    }
+  }
+  if (cur !== "") records.push(cur);
+  return records.filter(r => r.trim() !== "");
+}
+
 const MAX_ROWS_CLIENT = 1200; // mirrors web_scraper/api/start-batch.js's server-side cap - checked
                                // here too so a wrong-file mistake is caught before any upload happens
 function rowCountOf(csv) {
-  return Math.max(0, csv.split(/\r\n|\r|\n/).filter(l => l.trim() !== "").length - 1);
+  return Math.max(0, splitCsvRecords(csv).length - 1);
 }
 
 // Same column-name recognition as scraper2/import_batch.py's ALIASES/_map_headers - ported so the
 // page can show, before anything is uploaded, exactly which column will be read as what. This is
 // what actually answers "how does it know this is the right file": it doesn't guess at content,
 // it shows you the mapping it found so you can catch a wrong file yourself before any scraping runs.
+// Keep this in sync with scraper2/import_batch.py's ALIASES - it drifted out of sync once already
+// (institution_name briefly preferred a generic "Name" column over "University" here, even after
+// the same bug was fixed server-side) and silently showed a wrong preview because of it.
 const ALIASES = {
-  institution_name: ["institution_name", "institution", "name", "university", "school", "college"],
-  phone_1: ["phone_1", "phone", "phone1", "generic_phone", "contact_phone", "primary_phone"],
+  institution_name: ["institution_name", "institution", "university", "school", "college", "name"],
+  phone_1: ["phone_1", "phone", "phone1", "generic_phone", "contact_phone", "primary_phone",
+            "contact_work_phone_number", "work_phone_number"],
   contact_name: ["contact_name", "contact", "on_file_name", "name_on_file", "person"],
-  email: ["email", "contact_email", "email_address"],
+  email: ["email", "contact_email", "email_address", "contact_work_email", "contact_generic_email"],
   seed_urls: ["seed_urls", "website", "website_url", "url", "site"],
 };
+// Mirrors import_batch.py's FIRST_NAME_ALIASES/LAST_NAME_ALIASES fallback: when there's no single
+// contact-name column but a first/last split (e.g. "Name" + "Surname"), show the combined preview
+// instead of "not found", so the preview matches what the real import will actually produce.
+const FIRST_NAME_ALIASES = ["first_name", "firstname", "given_name", "name"];
+const LAST_NAME_ALIASES = ["last_name", "lastname", "surname", "family_name"];
 const FIELD_LABELS = {
   institution_name: "Institution name", phone_1: "Phone", contact_name: "Contact person",
   email: "Email", seed_urls: "Website / seed URL",
@@ -259,10 +295,12 @@ const FIELD_LABELS = {
 function norm(s) { return (s || "").toString().toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, ""); }
 
 function parseHeaderAndFirstRow(csv) {
-  const lines = csv.split(/\r\n|\r|\n/).filter(l => l.trim() !== "");
+  const lines = splitCsvRecords(csv);
   if (!lines.length) return { header: [], first: [] };
-  // Simple split for a preview only - the server re-parses the full file properly with a real CSV
-  // reader (Python's csv module in import_batch.py); this is just for showing the mapping at a glance.
+  // Simple per-field split for a preview only - the server re-parses the full file properly with a
+  // real CSV reader (Python's csv module in import_batch.py); this is just for showing the mapping
+  // at a glance. The RECORD boundaries themselves (which line is the header vs. first row) are now
+  // quote-aware via splitCsvRecords, so a stacked/merged cell in row 1 no longer throws this off.
   const split = l => l.split(",").map(c => c.trim().replace(/^"|"$/g, ""));
   return { header: split(lines[0]), first: lines[1] ? split(lines[1]) : [] };
 }
@@ -275,7 +313,19 @@ function buildMapping(header) {
     for (const a of aliases.map(norm)) { const i = normed.indexOf(a); if (i >= 0) { foundIdx = i; break; } }
     mapping[field] = foundIdx;
   }
+  // Fallback preview for contact_name: a first/last name split (e.g. "Name" + "Surname") with no
+  // single contact-name column - mirrors import_batch.py's combine logic so the preview matches
+  // what actually gets imported, instead of showing "not found" for a field that WILL be filled.
+  if (mapping.contact_name === -1) {
+    const firstIdx = aliasesIndex(normed, FIRST_NAME_ALIASES);
+    const lastIdx = aliasesIndex(normed, LAST_NAME_ALIASES);
+    if (firstIdx >= 0 || lastIdx >= 0) mapping.contact_name = { combine: [firstIdx, lastIdx] };
+  }
   return mapping;
+}
+function aliasesIndex(normedHeader, aliases) {
+  for (const a of aliases.map(norm)) { const i = normedHeader.indexOf(a); if (i >= 0) return i; }
+  return -1;
 }
 
 function renderPreview(header, first, n) {
@@ -287,6 +337,12 @@ function renderPreview(header, first, n) {
 
   const rows = Object.entries(FIELD_LABELS).map(([field, label]) => {
     const idx = mapping[field];
+    if (idx && typeof idx === "object") {   // combined first+last name fallback
+      const [fi, li] = idx.combine;
+      const cols = [fi, li].filter(i => i >= 0).map(i => `"${esc(header[i])}"`).join(" + ");
+      const sample = [fi, li].filter(i => i >= 0).map(i => first[i] || "").filter(Boolean).join(" ");
+      return `<tr><td class="field">${esc(label)}</td><td class="val">${cols} (combined)${sample ? " &rarr; e.g. " + esc(sample) : ""}</td></tr>`;
+    }
     const colName = idx >= 0 ? header[idx] : null;
     const sample = idx >= 0 ? (first[idx] || "") : "";
     return colName

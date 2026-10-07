@@ -124,5 +124,27 @@ check("slicing before expansion keeps row numbers matching the real file, not th
       [r["institution_name"] for r in sliced_before_expand], ["Row Three", "Row Four"])
 
 
+# ---- first+last name combine fallback (real-world: "Name" + "Surname", no single contact column) ----
+split_name_csv = "University,Name,Surname\nExample College,Anna,Theis\n"
+split_rows = ib.rows_from_csv_text(split_name_csv)
+check("Name + Surname combine into contact_name when there's no single contact-name column",
+      split_rows[0]["contact_name"], "Anna Theis")
+
+single_contact_csv = "University,Contact Name,Name,Surname\nExample College,Priority Contact,Anna,Theis\n"
+single_rows = ib.rows_from_csv_text(single_contact_csv)
+check("an existing single contact-name column wins over the first+last combine fallback",
+      single_rows[0]["contact_name"], "Priority Contact")
+
+# ---- real-world header spellings seen in an actual client sheet ----
+real_world_csv = ("University,Erasmus Director,Name,Surname,Contact Work Email,"
+                   "Contact Work Phone Number,Contact Generic Phone Number\n"
+                   "Example College,Erasmus Coordinator,Anna,Theis,anna@example.edu,111,222\n")
+rw = ib.build_rows(ib.rows_from_csv_text(real_world_csv))[0]
+check("'Erasmus Director' column is recognized as designation", rw["designation"], "Erasmus Coordinator")
+check("'Contact Work Email' is recognized as email", rw["email"], "anna@example.edu")
+check("'Contact Work Phone Number' is recognized as phone_1", rw["phone_1"], "111")
+check("'Contact Generic Phone Number' is recognized as phone_2", rw["phone_2"], "222")
+
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
