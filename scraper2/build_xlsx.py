@@ -132,6 +132,17 @@ def build(data_dir):
         for row in data["rows"]:
             ws.append(row)
         ws_objs[name] = ws
+        # Any column that IS a real URL (the website itself, or a "source" page used to verify a
+        # claim) gets made a real clickable hyperlink here - previously these were only plain text,
+        # correct-looking but not clickable, in every sheet.
+        url_cols = [i for i, h in enumerate(data["header"]) if h == "official_website" or h.endswith("_url")]
+        for col_idx in url_cols:
+            for row_idx, row in enumerate(data["rows"], start=2):
+                val = row[col_idx] if col_idx < len(row) else ""
+                if val and val.startswith("http"):
+                    cell = ws.cell(row=row_idx, column=col_idx + 1)
+                    cell.hyperlink = val   # a plain string -> openpyxl writes a real external relationship
+                    cell.font = HYPERLINK_FONT
 
     inst = sheets["Institutions"]
     if inst["header"] and "row_id" in inst["header"]:
