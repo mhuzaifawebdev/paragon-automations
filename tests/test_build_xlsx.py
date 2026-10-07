@@ -62,6 +62,11 @@ stable_sorted = bx._sort_partners(stable_header, stable_rows)
 check("equal-scope rows keep their original (scraped) relative order",
       [r[1] for r in stable_sorted], ["First Found", "Second Found"])
 
+inst_header = ["row_id", "institution_scraped", "office_email", "person_scraped", "email_scraped", "notes"]
+inst_new, _ = bx._reorder_institutions(inst_header, [])
+check("department email sits directly after the personal email",
+      inst_new.index("office_email"), inst_new.index("email_scraped") + 1)
+check("institutions reorder drops no columns", set(inst_new), set(inst_header))
 
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

@@ -126,8 +126,13 @@ def verify_contact(contact, official_website):
         problems.append("quote not on page")
     if normalize(contact["name"]) not in normalize(text):
         problems.append("name not on page")
-    if contact.get("email") and not email_in_text(contact["email"], text):
+    # A personal email read from the person's own profile page is checked against THAT page.
+    email_url = contact.get("email_source_url") or url
+    email_text = text if email_url == url else (_page(email_url)[0] or "")
+    if contact.get("email") and not email_in_text(contact["email"], email_text):
         problems.append("email not on page")
+    if email_url != url and not is_official(email_url, official_website):
+        problems.append("email source not on the institute's own domain")
     if contact.get("phone") and not phone_in_text(contact["phone"], text):
         problems.append("phone not on page")
     if not is_official(url, official_website):

@@ -48,7 +48,7 @@ HYPERLINK_FONT = Font(color="0563C1", underline="single")
 # audit/original-sheet columns to find them. Anything not listed here keeps its existing relative
 # order, appended after these.
 PRIORITY_COLUMNS = [
-    "institution_scraped", "person_scraped", "designation_scraped", "email_scraped",
+    "institution_scraped", "person_scraped", "designation_scraped", "email_scraped", "office_email",
     "phone_scraped", "confidence", "contact_verified", "needs_human_check",
     "official_website", "institution_type", "country_scraped",
     "partners_found", "campuses_found", "row_id",
@@ -68,7 +68,7 @@ SCOPE_RANK = {"International": 0, "Unknown": 1, "National": 2}
 # snake_case.
 FRIENDLY_LABELS = {
     "row_id": "Row ID", "institution_scraped": "Institution Name", "person_scraped": "Contact Person",
-    "designation_scraped": "Designation", "email_scraped": "Email", "phone_scraped": "Phone",
+    "designation_scraped": "Designation", "email_scraped": "Email (personal if found)", "phone_scraped": "Phone",
     "confidence": "Confidence", "contact_verified": "Contact Verified?",
     "needs_human_check": "Needs Review?", "official_website": "Website",
     "institution_type": "Institution Type", "country_scraped": "Country",
@@ -79,7 +79,7 @@ FRIENDLY_LABELS = {
     "duplicate_of": "Duplicate Of", "country_source_url": "Country Source",
     "phone_source_url": "Phone Source", "phone_verified": "Phone Verified?",
     "phone_alt": "Alternate Phone", "designation_local": "Designation (local language)",
-    "office_email": "Office Email", "contact_phone": "Contact's Direct Phone",
+    "office_email": "Department Email (general)", "contact_phone": "Contact's Direct Phone",
     "contact_source_url": "Contact Source", "contact_evidence": "Contact Evidence Quote",
     "contact_verify_note": "Contact Verification Note", "rung": "Contact Seniority",
     "country_verified": "Country Verified?", "changed_vs_sheet": "Changed vs Original Sheet",

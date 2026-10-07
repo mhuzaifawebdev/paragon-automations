@@ -19,6 +19,7 @@ sys.path.insert(0, str(HERE.parent / "scraper"))
 import crawl  # noqa: E402
 import discover  # noqa: E402
 import evidence  # noqa: E402
+import fetch_pages  # noqa: E402
 import llm  # noqa: E402
 import rank  # noqa: E402
 
@@ -133,11 +134,56 @@ def _pick_email(name, texts):
                 found.append(e)
     if not found:
         return ""
-    toks = [t for t in re.findall(r"[a-z]{3,}", _n(name))]
+    toks = _name_toks(name)
     for e in found:
-        if any(t in _n(e.split("@")[0]) for t in toks):
+        if _matches_name(e, toks):
             return e
     return found[0] if len(found) == 1 else ""       # several unrelated emails: attach none rather than guess
+
+
+def _name_toks(name):
+    return re.findall(r"[a-z]{3,}", _n(name))
+
+
+def _matches_name(email, toks):
+    """A personal address carries part of its owner's name (ruta@, a.kovacs@); a shared inbox (trs@, info@) does not."""
+    return bool(toks) and any(t in _n((email or "").split("@", 1)[0]) for t in toks)
+
+
+def find_profile_link(name, pages, site):
+    """A same-site link whose label is this person's full name: the staff-directory -> own-profile pattern.
+    Every name word must be in the label - a shared first name alone would point at somebody else's page."""
+    toks = _name_toks(name)
+    if len(toks) < 2:
+        return None
+    for p in pages:
+        for label, url in p.get("links") or []:
+            if url.startswith("http") and crawl.same_site(url, site) and all(t in _n(label) for t in toks):
+                return url
+    return None
+
+
+def upgrade_generic_email(contact, pages, site):
+    """When the chosen email is a shared inbox, read the person's own profile page (at most ONE extra page, no
+    model call) and prefer the address found there. The shared one is kept as office_email; if nothing better
+    turns up the contact is returned untouched."""
+    toks = _name_toks(contact.get("name", ""))
+    if not contact.get("email") or _matches_name(contact["email"], toks):
+        return contact
+    url = find_profile_link(contact["name"], pages, site)
+    if not url:
+        return contact
+    try:
+        text = fetch_pages.fetch(url).get("text", "")
+    except Exception:
+        return contact
+    if not all(t in _n(text) for t in toks):
+        return contact                                # the linked page is not about this person
+    match = next((e for e in evidence.emails_in(text) if _matches_name(e, toks)), None)
+    if not match or match.lower() == contact["email"].lower():
+        return contact
+    return {**contact, "office_email": contact["email"], "email": match, "email_source_url": url,
+            "why_chosen": (contact.get("why_chosen", "") + " Own email read from their staff profile page.").strip()}
 
 
 def _same_page(line, ref):
@@ -370,6 +416,8 @@ def scrape(row, cfg):
     else:
         contacts, n_alt = boost_on_file(contacts, inst["contact"]), 2
     primary, alternates = (contacts[0] if contacts else None), contacts[1:1 + n_alt]
+    if primary:
+        primary = upgrade_generic_email(primary, cr["pages"], cr["site"])
     country_claim = None
     cl = pack.get((data.get("country") or {}).get("line"))
     if cl and country_in_line((data.get("country") or {}).get("name"), cl["text"]):

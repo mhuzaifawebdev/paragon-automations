@@ -243,4 +243,4 @@ def sitemap_urls(site, max_urls=4000):
 
 def _slim(rec):
     return {"url": rec.get("final_url") or rec["url"], "text": rec.get("text", ""),
-            "cert_unverified": bool(rec.get("certificate_unverified"))}
+            "cert_unverified": bool(rec.get("certificate_unverified")), "links": rec.get("links", [])}

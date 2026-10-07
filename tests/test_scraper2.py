@@ -157,5 +157,54 @@ except llm.LLMError:
 check("missing API key raises LLMError (pipeline then falls back to the rules provider)", raised, True)
 llm._post = real_post
 
+# ---- shared inbox -> the person's own email, from their staff profile page ----
+real_fetch = fp.fetch
+profile = "https://a.org/staff/ruta-puidoke"
+pages_fx = [{"url": "https://a.org/staff", "text": "", "links": [("Rūta Puidokė", profile),
+                                                                 ("Rūta Kitokia", "https://a.org/staff/other"),
+                                                                 ("Rūta Puidokė", "https://elsewhere.com/ruta")]}]
+generic = {"name": "Rūta Puidokė", "email": "trs@a.org", "office_email": "", "why_chosen": "x",
+           "source_url": "https://a.org/kontaktai"}
+
+
+def _no_fetch(url):
+    raise AssertionError("no page should be fetched")
+
+
+fp.fetch = _no_fetch
+personal = {**generic, "email": "ruta.puidoke@a.org"}
+check("an email that already carries the person's name is left alone, nothing fetched",
+      pl.upgrade_generic_email(dict(personal), pages_fx, "https://a.org"), personal)
+check("no link labelled with the full name: shared inbox kept, nothing fetched",
+      pl.upgrade_generic_email(dict(generic), [{"url": "u", "text": "", "links": [("Rūta Kitokia", "https://a.org/x")]}],
+                               "https://a.org"), generic)
+fetched = []
+fp.fetch = lambda url: fetched.append(url) or {"text": "Rūta Puidokė\nHead of unit\nruta@a.org\ninfo@a.org"}
+up = pl.upgrade_generic_email(dict(generic), pages_fx, "https://a.org")
+check("shared inbox is replaced by the personal email from the profile page", up["email"], "ruta@a.org")
+check("the shared inbox is kept as office_email, not dropped", up["office_email"], "trs@a.org")
+check("the profile page is recorded as the email's source", up["email_source_url"], profile)
+check("exactly one extra page is read, and it is the same-site one", fetched, [profile])
+fp.fetch = lambda url: {"text": "Rūta Puidokė\nHead of unit\ninfo@a.org"}
+check("profile page without a personal email: contact unchanged",
+      pl.upgrade_generic_email(dict(generic), pages_fx, "https://a.org"), generic)
+fp.fetch = lambda url: {"text": "Somebody Else\nruta@a.org"}
+check("linked page is about someone else: contact unchanged",
+      pl.upgrade_generic_email(dict(generic), pages_fx, "https://a.org"), generic)
+fp.fetch = real_fetch
+
+real_cached = verify.cached_record
+cache_fx = {"https://a.org/kontaktai": {"text": "Rūta Puidokė, Erasmus coordinator, trs@a.org"},
+            profile: {"text": "Rūta Puidokė ruta@a.org"}}
+verify.cached_record = cache_fx.get
+vc = {"name": "Rūta Puidokė", "email": "ruta@a.org", "source_url": "https://a.org/kontaktai",
+      "evidence_quote": "Rūta Puidokė, Erasmus coordinator"}
+check("personal email cited to the contact page alone does not verify", verify.verify_contact(vc, "https://a.org")[0], False)
+check("personal email verifies against its own profile page",
+      verify.verify_contact({**vc, "email_source_url": profile}, "https://a.org")[0], True)
+check("an off-site email source is rejected",
+      verify.verify_contact({**vc, "email_source_url": "https://elsewhere.com/ruta"}, "https://a.org")[0], False)
+verify.cached_record = real_cached
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
