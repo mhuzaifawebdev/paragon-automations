@@ -32,6 +32,12 @@ check("Cloudflare-hidden email decodes",
 html = b'<p>Mail <a href="/cdn-cgi/l/email-protection#0a696566666f6f6424666f6d786b646e4a6364796b27697c66246c78">[email\xc2\xa0protected]</a></p>'
 check("hidden email appears in page text", "colleen.legrand@insa-cvl.fr" in fp._html_to_text(html, "utf-8", "https://x.fr/")[0], True)
 
+logo_html = b'<p>Members of <a href="https://eaec.info"><img alt="EAEC" src="eaec.png"></a></p>'
+check("logo-only membership link alt text appears in page text",
+      "[EAEC]" in fp._html_to_text(logo_html, "utf-8", "https://x.fr/")[0], True)
+check("generic alt text is not injected as noise",
+      "[logo]" in fp._html_to_text(b'<img alt="logo" src="x.png">', "utf-8", "https://x.fr/")[0], False)
+
 # ---- evidence pack: numbered lines, dedupe, budget ----
 pages = [{"url": "https://a.org/", "text": "Menu\nHome\nWelcome to the school\nMenu", "score": 100},
          {"url": "https://a.org/staff", "text": "Menu\nJane Doe\nErasmus coordinator\njane@a.org", "score": 10}]

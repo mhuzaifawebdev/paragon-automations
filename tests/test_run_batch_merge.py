@@ -75,7 +75,49 @@ check("contact stays verified despite empty cache (reused prior result)", out["c
 check("country stays verified despite empty cache (reused prior result)", out["country_verified"], "yes")
 check("reused note says so, not a generic pass", "reused prior result" in out["contact_verify_note"], True)
 
+# ---- partner_scope: International vs National, deterministic, never the model's own judgment ----
+row2 = {"row_id": "r002", "institution_name": "Second College", "country_sheet": "Ireland",
+        "phone_1": "", "contact_name": "", "designation": "", "email": ""}
+res2 = {
+    "row_id": "r002", "scraped_at": "2026-10-01T00:00:00Z",
+    "contacts": {
+        "institution_name": "Second College", "institution_type": "college",
+        "official_website": "https://second.edu",
+        "country": {"value": "Ireland", "source_url": "https://second.edu/about", "evidence_quote": "Located in Ireland"},
+        "phone": {}, "contact": {}, "confidence": "low", "alternates": [],
+    },
+    "network": {
+        "external_collaboration": [
+            {"partner_name": "Uni of Lisbon", "partner_country": "Portugal", "partner_type": "university",
+             "source_url": "https://second.edu/partners", "evidence_quote": "Uni of Lisbon"},
+            {"partner_name": "Trinity College Dublin", "partner_country": "Ireland", "partner_type": "university",
+             "source_url": "https://second.edu/partners", "evidence_quote": "Trinity College Dublin"},
+            {"partner_name": "EAEC", "partner_country": "", "partner_type": "network",
+             "source_url": "https://second.edu/partners", "evidence_quote": "EAEC"},
+            {"partner_name": "Some School", "partner_country": "", "partner_type": "school",
+             "source_url": "https://second.edu/partners", "evidence_quote": "Some School"},
+        ],
+        "internal_collaboration": [],
+    },
+    "network_skipped": "",
+}
+(rb.RESULTS / "r002.json").write_text(json.dumps(res2), encoding="utf-8")
+
+rb.merge([row, row2])
+
+with open(tmp / "partners.csv", newline="", encoding="utf-8-sig") as f:
+    partner_rows = {r["partner_name"]: r for r in csv.DictReader(f)}
+
+check("a partner in a different country is International",
+      partner_rows["Uni of Lisbon"]["partner_scope"], "International")
+check("a partner in the institute's own country is National",
+      partner_rows["Trinity College Dublin"]["partner_scope"], "National")
+check("a blank-country network/association is International (inherently cross-border)",
+      partner_rows["EAEC"]["partner_scope"], "International")
+check("a blank-country non-network partner is Unknown, not guessed either way",
+      partner_rows["Some School"]["partner_scope"], "Unknown")
+
 shutil.rmtree(tmp, ignore_errors=True)
 
-print(f"\n{3 - bad}/3 passed")
+print(f"\n{7 - bad}/7 passed")
 sys.exit(1 if bad else 0)

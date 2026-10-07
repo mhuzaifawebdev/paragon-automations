@@ -41,6 +41,12 @@ MAX_PDF_PAGES = 250
 BLOCK = {"p", "div", "li", "ul", "ol", "h1", "h2", "h3", "h4", "h5", "h6", "section",
          "article", "header", "footer", "address", "table", "dt", "dd", "blockquote"}
 DROP = ("script", "style", "noscript", "svg", "iframe", "template")
+# A logo-only membership badge (e.g. an association's logo with no surrounding text) would
+# otherwise vanish entirely - text_content() only reads text nodes, never an <img>'s alt attribute.
+# Generic alt text like "logo" carries no institutional information, so it's skipped rather than
+# turned into meaningless "[logo] [logo] [logo]" noise.
+GENERIC_ALT = {"", "logo", "icon", "image", "photo", "picture", "banner", "placeholder", "spacer",
+               "arrow", "bullet"}
 
 _robots = {}
 
@@ -136,6 +142,12 @@ def _html_to_text(data, charset, base_url):
             el.text = cf_decode(cf)                 # "[email protected]" -> the real address
             for child in list(el):
                 el.remove(child)
+    for img in doc.iter("img"):
+        alt = (img.get("alt") or img.get("title") or "").strip()
+        if len(alt) < 2 or alt.casefold() in GENERIC_ALT or img.text:
+            continue
+        img.text = f"[{alt}]"   # makes a logo-only membership badge readable, and gives a bare
+                                 # <a><img alt="EAEC"></a> a real link label too (next loop reads it)
     for a in doc.iter("a"):
         href = (a.get("href") or "").strip()
         label = " ".join(a.text_content().split())

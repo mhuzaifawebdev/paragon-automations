@@ -143,6 +143,19 @@ def norm(s):
     return re.sub(r"[^a-z0-9@.]", "", (s or "").lower())
 
 
+def partner_scope(partner_type, partner_country, institute_country):
+    """International vs National is decided here, deterministically - never by the model, matching
+    verify.py's own rule that classification is always code, not self-assessment. A blank-country
+    network (a multi-country alliance named as a single partner row) is inherently cross-border, so
+    it's classified international directly rather than falling to "Unknown"."""
+    pc, ic = verify.normalize(partner_country), verify.normalize(institute_country)
+    if not pc:
+        return "International" if (partner_type or "").lower() == "network" else "Unknown"
+    if not ic:
+        return "Unknown"
+    return "National" if pc == ic else "International"
+
+
 def method_label(res):
     """Provenance shown in the sheet: a person reading a row should know whether an AI read the pages."""
     t = res.get("timing") or {}
@@ -372,6 +385,7 @@ def merge(rows):
             row = {"row_id": r["row_id"], "institution": name, **{
                 k: p.get(k, "") for k in ("partner_name", "partner_country", "partner_type",
                                            "mobility_type", "source_url", "evidence_quote", "confidence")},
+                "partner_scope": partner_scope(p.get("partner_type", ""), p.get("partner_country", ""), country),
                 "verified": "yes" if ok else "no", "verify_note": note, "scraped_at": res.get("scraped_at", "")}
             partners.append(row)
             if not ok:
@@ -390,8 +404,8 @@ def merge(rows):
                                "why_flagged": note})
     write_csv(DATA / "institutions_enriched.csv", enriched, ["row_id"])
     write_csv(DATA / "partners.csv", partners, ["row_id", "institution", "partner_name", "partner_country",
-              "partner_type", "mobility_type", "source_url", "evidence_quote", "confidence", "verified",
-              "verify_note", "scraped_at"])
+              "partner_type", "mobility_type", "source_url", "evidence_quote", "confidence", "partner_scope",
+              "verified", "verify_note", "scraped_at"])
     write_csv(DATA / "campuses.csv", campuses, ["row_id", "institution", "campus_name", "country", "city",
               "role", "source_url", "evidence_quote", "verified", "verify_note", "scraped_at"])
     write_csv(DATA / "contacts.csv", contacts, ["row_id", "institution", "rank", "name", "designation",

@@ -54,6 +54,15 @@ PRIORITY_COLUMNS = [
     "partners_found", "campuses_found", "row_id",
 ]
 
+# Same idea for the Partners sheet: partner name, country, scope (International/National) and type
+# come first, so a client specifically wanting international reach doesn't have to scroll past
+# source_url/evidence_quote/verify_note to see what matters.
+PARTNER_PRIORITY_COLUMNS = ["partner_name", "partner_country", "partner_scope", "partner_type",
+                            "mobility_type", "confidence", "verified", "row_id", "institution"]
+# International partners are the client's priority - rank them first within each institute's own
+# block of partners, so scanning down the sheet doesn't bury them under domestic ones.
+SCOPE_RANK = {"International": 0, "Unknown": 1, "National": 2}
+
 # Raw CSV header -> a label a non-technical team member can read at a glance. Anything not listed
 # falls back to a prettified version of its raw name (see _prettify) rather than being left as
 # snake_case.
@@ -82,6 +91,7 @@ FRIENDLY_LABELS = {
     "email": "Email", "phone": "Phone", "source_url": "Source", "evidence_quote": "Evidence Quote",
     "why_chosen": "Why Chosen", "verified": "Verified?", "verify_note": "Verification Note",
     "partner_name": "Partner Name", "partner_country": "Partner Country", "partner_type": "Partner Type",
+    "partner_scope": "International or National?",
     "mobility_type": "Mobility Type", "confidence_": "Confidence", "campus_name": "Campus Name",
     "country": "Country", "city": "City", "role": "Role", "kind": "Kind", "item": "Item",
     "why_flagged": "Why Flagged",
@@ -101,6 +111,35 @@ def _reorder_institutions(header, rows):
     idx = [header.index(f) for f in new_header]
     new_rows = [[row[i] if i < len(row) else "" for i in idx] for row in rows]
     return new_header, new_rows
+
+
+def _reorder_partners(header, rows):
+    """Same idea as _reorder_institutions, for the Partners sheet."""
+    front = [f for f in PARTNER_PRIORITY_COLUMNS if f in header]
+    rest = [f for f in header if f not in front]
+    new_header = front + rest
+    idx = [header.index(f) for f in new_header]
+    new_rows = [[row[i] if i < len(row) else "" for i in idx] for row in rows]
+    return new_header, new_rows
+
+
+def _sort_partners(header, rows):
+    """Within each institute's own block (grouped by row_id, institute order preserved as scraped),
+    International partners before National - the client's ask for prominence. Stable: rows with
+    the same scope keep their original (scraped) relative order."""
+    if "row_id" not in header or "partner_scope" not in header:
+        return rows
+    rid_i, scope_i = header.index("row_id"), header.index("partner_scope")
+    order, groups = [], {}
+    for row in rows:
+        rid = row[rid_i] if rid_i < len(row) else ""
+        groups.setdefault(rid, []).append(row)
+        if rid not in order:
+            order.append(rid)
+    out = []
+    for rid in order:
+        out.extend(sorted(groups[rid], key=lambda r: SCOPE_RANK.get(r[scope_i] if scope_i < len(r) else "", 1)))
+    return out
 
 
 def read_csv(path):
@@ -127,6 +166,9 @@ def build(data_dir):
             # Reorder in place so the hyperlink-column lookup below (which reads sheets["Institutions"])
             # sees the same reordered header/rows, not the original CSV order.
             data["header"], data["rows"] = _reorder_institutions(data["header"], data["rows"])
+        elif name == "Partners" and data["header"]:
+            data["header"], data["rows"] = _reorder_partners(data["header"], data["rows"])
+            data["rows"] = _sort_partners(data["header"], data["rows"])
         ws = wb.create_sheet(name)
         ws.append([FRIENDLY_LABELS.get(h, _prettify(h)) for h in data["header"]])
         for row in data["rows"]:
