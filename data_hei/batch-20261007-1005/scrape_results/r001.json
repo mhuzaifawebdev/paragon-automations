@@ -1,0 +1,152 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-07T17:07:26Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "FUNDACION CANARIA GENERAL DE LA UNIVERSIDAD DE LA LAGUNA",
+  "institution_type": "university",
+  "official_website": "https://fg.ull.es/",
+  "country": {
+   "value": "España",
+   "source_url": "https://fg.ull.es/",
+   "evidence_quote": "Santa Cruz de Tenerife - España"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "STARS EU",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ull.es/internacional/erasmus/",
+    "evidence_quote": "Investigadores de STARS EU exploran en la ULL proyectos de colaboración en turismo",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pipe",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ull.es/internacional/erasmus/",
+    "evidence_quote": "La ULL celebra el final del proyecto europeo Pipe sobre riesgos de exclusión de personas migrantes",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MathIA",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ull.es/internacional/erasmus/",
+    "evidence_quote": "La ULL presenta en Madeira los cursos de formación docente del proyecto europeo MathIA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "STARS-EU",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ull.es/internacional/#programas-movilidad",
+    "evidence_quote": "[Blended Intensive Programs (BIPs) de la alianza STARS-EU]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IMFAHE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ull.es/internacional/#programas-movilidad",
+    "evidence_quote": "[Red de Talentos IMFAHE]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "empresas y entidades colaboradoras",
+    "partner_country": "España",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://fg.ull.es/",
+    "evidence_quote": "empresas y entidades colaboradoras",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Santander",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://fg.ull.es/",
+    "evidence_quote": "Actualización listados: “Becas Santander / Ayudas Predoctorales 2026” para la participación en congresos o jornadas de investigación internacional.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Red de Talentos IMFAHE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ull.es/internacional/#programas-movilidad",
+    "evidence_quote": "[Red de Talentos IMFAHE]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus de Guajara",
+    "city": "San Cristóbal de La Laguna",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://fg.ull.es/",
+    "evidence_quote": "Campus de Guajara"
+   },
+   {
+    "campus_name": "Campus Central Universidad de La Laguna",
+    "city": "San Cristóbal de La Laguna",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://fg.ull.es/contacto/",
+    "evidence_quote": "Estamos en el Campus Central Universidad de La Laguna. ¡Visítanos!"
+   },
+   {
+    "campus_name": "Sede Adeje",
+    "city": "Adeje",
+    "country": "España",
+    "role": "branch",
+    "source_url": "https://fg.ull.es/contacto/",
+    "evidence_quote": "También tenemos sedes en Adeje y Guía de Isora."
+   },
+   {
+    "campus_name": "Sede Guía de Isora",
+    "city": "Guía de Isora",
+    "country": "España",
+    "role": "branch",
+    "source_url": "https://fg.ull.es/contacto/",
+    "evidence_quote": "También tenemos sedes en Adeje y Guía de Isora."
+   }
+  ],
+  "stated_total": 500,
+  "stated_total_quote": "+500",
+  "stated_total_url": "https://fg.ull.es/",
+  "truncated": true,
+  "total_seen": 500,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides contact emails for Erasmus mobility (orisal@ull.edu.es, incoming@ull.edu.es, iiaerasmus@ull.edu.es) but does not name the specific individuals holding those roles. A comprehensive list of all international partners is not provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.6,
+  "crawl_s": 14.0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 50.2,
+  "mode": "gemini",
+  "total_seconds": 68.9
+ }
+}
