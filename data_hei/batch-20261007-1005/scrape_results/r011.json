@@ -1,0 +1,108 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-07T17:10:48Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "GAL FERENC EGYETEM",
+  "institution_type": "university",
+  "official_website": "https://gfe.hu/",
+  "country": {
+   "value": "Hungary",
+   "source_url": "https://gfe.hu/en/2024/06/lezarult-junius-7-en-a-nemzetkozi-egyuttmukodesben-megvalosult-erasmus-ka2-s-projekt-a-gfe-reszvetelevel/",
+   "evidence_quote": "Gál Ferenc University, Hungary"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Bíró Gyula",
+   "designation": "Director General",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://gfe.hu/2026/10/iro-gyula-eloadasa-a-gfe-pk-szakkollegiumaban/",
+   "evidence_quote": "Előadó: Bíró Gyula, főigazgató, c. egyetemi docens"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Bíró Gyula is identified as the Director General of the institution's Pedagogical Faculty.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Szegedi Tudományegyetem",
+    "partner_country": "Hungary",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://gfe.hu/kateketa-lelkipasztori-munkatars-alapszak/",
+    "evidence_quote": "vagy pedig a második tanári szakot megalapozó minor szak a Szegedi Tudományegyetemen (SZTE), mivel a KLM alapszakra épülő HN-T mesterszak tanárképes szak.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SoCaTel",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://gfe.hu/socatel-hackathon-versenyt-tartottak-a-gal-ferenc-foiskolan-a-h2020-socatel-projekt-magyar-konzorciumi-partnerenel/",
+    "evidence_quote": "SoCaTel hackathon versenyt tartottak a Gál Ferenc Főiskolán, a H2020 SoCaTel projekt magyar konzorciumi partnerénél - Gál Ferenc Egyetem",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Teológiai Kar",
+    "city": "Szeged",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://gfe.hu/",
+    "evidence_quote": "Szeged"
+   },
+   {
+    "campus_name": "Egészség- és Szociális Tudományi Kar",
+    "city": "Gyula",
+    "country": "Hungary",
+    "role": "branch",
+    "source_url": "https://gfe.hu/",
+    "evidence_quote": "Gyula"
+   },
+   {
+    "campus_name": "Gazdasági Kar",
+    "city": "Békéscsaba",
+    "country": "Hungary",
+    "role": "branch",
+    "source_url": "https://gfe.hu/",
+    "evidence_quote": "Békéscsaba"
+   },
+   {
+    "campus_name": "Pedagógiai Kar",
+    "city": "Szarvas",
+    "country": "Hungary",
+    "role": "branch",
+    "source_url": "https://gfe.hu/",
+    "evidence_quote": "Szarvas"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partners. Dr. Nikoletta Sey was not found in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.3,
+  "crawl_s": 22.4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 44.4,
+  "mode": "gemini",
+  "email_search_s": 7.1,
+  "total_seconds": 84.2
+ }
+}
