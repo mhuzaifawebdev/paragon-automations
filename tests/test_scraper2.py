@@ -257,6 +257,41 @@ check("Claude search is capped at one search per call", sent["tools"][0]["max_us
 discover.urllib.request.urlopen = _fake_reply([{"type": "web_search_tool_result",
                                                 "content": {"type": "web_search_tool_result_error", "error_code": "unavailable"}}])
 check("Claude search: a tool error gives no URLs instead of crashing", discover._claude_urls("find her"), [])
+
+# spending cap: counted per batch, kept on disk across jobs, and no request is sent once it is reached
+import tempfile  # noqa: E402
+usage_file = Path(tempfile.mkdtemp()) / "paid_usage.json"
+calls = []
+ok_reply = _fake_reply([{"type": "web_search_tool_result", "content": [{"type": "web_search_result", "url": "https://a.org/"}]}])
+discover.urllib.request.urlopen = lambda req, timeout=0: calls.append(1) or ok_reply(req)
+discover.set_budget(0.015, usage_file)
+check("under the cap: the search runs", (discover._claude_urls("x"), len(calls)), (["https://a.org/"], 1))
+check("spend is counted at $0.01 per search", discover.spent_usd(), 0.01)
+discover._claude_urls("x")
+check("second search takes the batch over its cap", discover.budget_left(), False)
+check("over the cap: no request is sent at all", (discover._claude_urls("x"), len(calls)), ([], 2))
+discover.set_budget(0.015, usage_file)                    # a new job for the same batch starts here
+check("a later job of the same batch continues from the saved total", (discover.spent_usd(), discover.budget_left()), (0.02, False))
+
+# website finding: the paid search needs a real name, and its results must still pass the homepage proof
+discover.set_budget(None)
+real_ddg, real_check, real_memo = discover._ddg_search, discover.check_site, discover.load_memo
+discover._ddg_search, discover.load_memo = (lambda row, limit=4: []), (lambda: {})
+discover._wikidata_real, discover._wikidata = discover._wikidata, (lambda name, country: [])
+discover._gemini_search = discover._claude_search = lambda row: ""
+calls.clear()
+discover.urllib.request.urlopen = lambda req, timeout=0: calls.append(1) or _fake_reply([{"type": "web_search_tool_result", "content": [
+    {"type": "web_search_result", "url": "https://wrong.example/page"}, {"type": "web_search_result", "url": "https://real.edu/en/about"}]}])(req)
+discover.check_site = lambda url, row: (url == "https://real.edu/", "name on homepage" if url == "https://real.edu/" else "not this institution", None)
+site, how, _note = discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True, paid_search=True)
+check("Claude search: the site that fails the homepage proof is skipped, the proven one is used",
+      (site, how), ("https://real.edu/", "web search (Claude)"))
+calls.clear()
+site, how, _note = discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True)
+check("the paid website search is off unless asked for", (site, len(calls)), (None, 0))
+site, how, note = discover.find_website({"row_id": "t2", "name": "420322312622", "country": ""}, use_search=True, paid_search=True)
+check("a phone number in the name column triggers no paid search", (site, len(calls)), (None, 0))
+discover._ddg_search, discover.check_site, discover.load_memo, discover._wikidata = real_ddg, real_check, real_memo, discover._wikidata_real
 discover.urllib.request.urlopen = real_urlopen
 os.environ.pop("ANTHROPIC_API_KEY") if old_key is None else os.environ.__setitem__("ANTHROPIC_API_KEY", old_key)
 

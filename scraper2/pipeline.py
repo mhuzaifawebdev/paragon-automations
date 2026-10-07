@@ -400,7 +400,9 @@ def scrape(row, cfg):
 
     t = time.time()
     site, how, note = discover.find_website(inst, use_search=bool(cfg.get("discover_with_search")),
-                                            search_provider=cfg.get("search_provider", "claude_cli"))
+                                            paid_search=bool(cfg.get("claude_site_search")),
+                                            search_provider=cfg.get("search_provider") or
+                                            ("gemini" if cfg.get("provider") == "gemini" else "claude_cli"))
     timing["discover_s"] = round(time.time() - t, 1)
     if not site:
         timing["total_seconds"] = round(time.time() - t_all, 1)

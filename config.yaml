@@ -138,4 +138,7 @@ scraper:
   page_workers: 5          # pages fetched at once per institute (still 1 request/second per host)
   max_pages: 10
   evidence_chars: 90000
-  discover_with_search: true    # claude_cli only: one extra web-search call for sites the free tiers cannot find
+  discover_with_search: true    # free web search for sites the other free tiers cannot find
+  claude_site_search: false     # paid Claude web search for missing websites. Off: a 25-row trial recovered few sites and accepted a directory
+  email_web_search: true        # web search for a contact's own email when only a shared inbox was found
+  max_paid_usd_per_batch: 3.0   # hard cap on paid Claude web searches per batch (about $0.02 each); free sources continue after it

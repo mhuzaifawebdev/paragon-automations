@@ -29,6 +29,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scraper2"))
 sys.path.insert(0, str(ROOT / "scraper"))
+import discover  # noqa: E402
 import pipeline  # noqa: E402
 import run_batch  # noqa: E402
 from run import load_cfg, load_env  # noqa: E402
@@ -87,7 +88,9 @@ def write_progress(data_dir, batch, status, queue, done_ids, chunk_no, total_chu
         "chunk": chunk_no, "total_chunks": total_chunks,
         "total_rows": len(queue), "done": len(done_ids), "pending": remaining,
         "elapsed_seconds": round(elapsed), "eta_seconds": round(eta_seconds) if eta_seconds else None,
-        "cost_usd_so_far": round(sum(costs), 4),
+        "cost_usd_so_far": round(sum(costs) + discover.spent_usd(), 4),
+        "paid_search_usd": discover.spent_usd(), "paid_search_limit_usd": discover.BUDGET["limit"],
+        "paid_search_limit_reached": not discover.budget_left(),
         "cost_usd_projected_total": round(sum(costs) / max(len(done_ids), 1) * len(queue), 2) if done_ids else None,
         "confidence": confidence_counts, "partners_found": total_partners, "campuses_found": total_campuses,
         "recent": [r["row_id"] for r in enriched if r["row_id"] in done_ids][-20:],
@@ -168,6 +171,9 @@ def main():
     data_dir = Path(os.environ.get("PARAGON_DATA") or (ROOT / "data_hei" / a.batch))
     results_dir = data_dir / "scrape_results"
     results_dir.mkdir(parents=True, exist_ok=True)
+    # Paid web searches are capped per BATCH, not per job: the total is kept in the batch folder so every chunk
+    # (a separate GitHub job) continues from what the earlier ones already spent.
+    discover.set_budget(float(cfg.get("max_paid_usd_per_batch", 3.0)), data_dir / "paid_usage.json")
 
     try:
         with batch_lock(data_dir):

@@ -263,7 +263,33 @@ def _gemini_urls(prompt, limit=5):
 
 SEARCH_MODEL = "claude-haiku-4-5"
 SEARCH_USAGE = {"searches": 0, "input_tokens": 0, "output_tokens": 0}     # running totals, for cost reporting
+SEARCH_PRICE = {"search": 0.01, "input_per_m": 1.0, "output_per_m": 5.0}   # USD: $10 per 1,000 searches + Haiku 4.5 tokens
+BUDGET = {"limit": None, "file": None}
 _usage_lock = threading.Lock()
+
+
+def spent_usd():
+    u = SEARCH_USAGE
+    return round(u["searches"] * SEARCH_PRICE["search"] + u["input_tokens"] / 1e6 * SEARCH_PRICE["input_per_m"]
+                 + u["output_tokens"] / 1e6 * SEARCH_PRICE["output_per_m"], 4)
+
+
+def set_budget(limit_usd, path=None):
+    """Cap what paid searches may cost. `path` keeps the running total on disk, because a batch runs as many
+    separate jobs (one per chunk) and a total held only in memory would start from zero in each of them."""
+    BUDGET.update(limit=limit_usd, file=Path(path) if path else None)
+    for k in SEARCH_USAGE:
+        SEARCH_USAGE[k] = 0
+    if BUDGET["file"] and BUDGET["file"].exists():
+        try:
+            saved = json.loads(BUDGET["file"].read_text(encoding="utf-8"))
+            SEARCH_USAGE.update({k: int(saved.get(k, 0)) for k in SEARCH_USAGE})
+        except Exception:
+            pass
+
+
+def budget_left():
+    return BUDGET["limit"] is None or spent_usd() < BUDGET["limit"]
 
 
 def _claude_urls(prompt, limit=5):
@@ -272,7 +298,7 @@ def _claude_urls(prompt, limit=5):
     each page and reads the address from it, so nothing the model writes can end up in the sheet."""
     import os
     key = os.environ.get("ANTHROPIC_API_KEY")
-    if not key:
+    if not key or not budget_left():
         return []
     body = json.dumps({"model": SEARCH_MODEL, "max_tokens": 1024,
                        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}],
@@ -292,6 +318,12 @@ def _claude_urls(prompt, limit=5):
         SEARCH_USAGE["searches"] += (u.get("server_tool_use") or {}).get("web_search_requests", 0)
         SEARCH_USAGE["input_tokens"] += u.get("input_tokens", 0)
         SEARCH_USAGE["output_tokens"] += u.get("output_tokens", 0)
+        if BUDGET["file"]:
+            try:
+                BUDGET["file"].write_text(json.dumps({**SEARCH_USAGE, "spent_usd": spent_usd(), "limit_usd": BUDGET["limit"]}),
+                                          encoding="utf-8")
+            except Exception:
+                pass
     urls = []
     for block in resp.get("content", []):
         results = block.get("content") if block.get("type") == "web_search_tool_result" else None
@@ -339,8 +371,31 @@ def _country_ok(url, country, why):
         return False
 
 
-def find_website(row, use_search=False, search_provider="claude_cli"):
-    """row: {name, country, phone, email, website_override}. Returns (url, how, note); url None if unresolved."""
+def searchable(name):
+    """A name worth a paid search: real words, not a phone number or code that landed in the name column."""
+    return len(re.findall(r"[^\W\d_]", name or "")) >= 4
+
+
+def _claude_sites(row, limit=4):
+    """Candidate site roots from one Claude web search. check_site() must still prove each one."""
+    q = " ".join(x for x in (row.get("name"), row.get("country")) if x)
+    urls = _claude_urls(f"Search the web once for: {q} official website\n"
+                        f"The goal is to find the official website of this educational institution. "
+                        f"After the search, reply with one short line.", 8)
+    roots = []
+    for u in urls:
+        pu = urllib.parse.urlparse(u)
+        root = f"{pu.scheme or 'https'}://{pu.netloc}/"
+        if pu.netloc and root not in roots and not any(h in pu.netloc.lower() for h in SKIP_HOSTS):
+            roots.append(root)
+    return roots[:limit]
+
+
+def find_website(row, use_search=False, search_provider="claude_cli", paid_search=False):
+    """row: {name, country, phone, email, website_override}. Returns (url, how, note); url None if unresolved.
+    paid_search adds one Claude web search after the free one. It is OFF by default: in a 25-institute trial it
+    recovered 3 sites for 23 paid searches, and one of the 3 was a university directory that passed check_site
+    because it mentions the institution's name."""
     tried = []
 
     def attempt(url, how):
@@ -369,13 +424,17 @@ def find_website(row, use_search=False, search_provider="claude_cli"):
         hit = attempt(u, "Wikidata")
         if hit:
             return hit
-    if use_search:
-        for u in _ddg_search(row):
-            hit = attempt(u, "web search (DuckDuckGo)")
-            if hit and _country_ok(hit[0], row.get("country"), hit[2]):
-                return hit
-            if hit:
-                tried.append(f"{u} rejected: country {row.get('country')} not shown")
+    if use_search and not searchable(row.get("name")):
+        tried.append("no web search: the institution name is not a usable name")
+    elif use_search:
+        sources = [("web search (DuckDuckGo)", _ddg_search)] + ([("web search (Claude)", _claude_sites)] if paid_search else [])
+        for how, candidates in sources:
+            for u in candidates(row):                 # the paid Claude search only runs if the free one proved nothing
+                hit = attempt(u, how)
+                if hit and _country_ok(hit[0], row.get("country"), hit[2]):
+                    return hit
+                if hit:
+                    tried.append(f"{u} rejected: country {row.get('country')} not shown")
         found = _gemini_search(row) if search_provider == "gemini" else _claude_search(row)
         hit = attempt(found, "web search (" + ("Gemini" if search_provider == "gemini" else "Claude") + ")")
         if hit:
