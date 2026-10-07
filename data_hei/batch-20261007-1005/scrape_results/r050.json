@@ -1,0 +1,134 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-10-07T17:54:01Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "UNIVERSIDAD NACIONAL DE EDUCACION A DISTANCIA",
+  "institution_type": "university",
+  "official_website": "https://www.uned.es/universidad/inicio.html",
+  "country": {
+   "value": "Spain",
+   "source_url": "https://www.uned.es/universidad/inicio.html",
+   "evidence_quote": "La UNED reúne a profesionales de toda España para abordar los retos de la educación pública en prisión"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Ángel Mancebo Muñoz",
+   "designation": "Technical Director UNED Media",
+   "designation_local": "",
+   "email": "angel.mancebo@pas.uned.es",
+   "office_email": "",
+   "phone": "91 398 88 91",
+   "source_url": "https://www.uned.es/universidad/inicio/comunicacion/equipo-comunicacion.html",
+   "evidence_quote": "Director Técnico UNED Media ... Ángel Mancebo Muñoz"
+  },
+  "alternates": [
+   {
+    "name": "Jesús María Pascual Pérez",
+    "designation": "Director of Communication and Marketing",
+    "designation_local": "",
+    "email": "jm.pascual@pas.uned.es",
+    "office_email": "",
+    "phone": "91 398 96 68",
+    "source_url": "https://www.uned.es/universidad/inicio/comunicacion/equipo-comunicacion.html",
+    "evidence_quote": "Director de Comunicación y Marketing ... Jesús María Pascual Pérez",
+    "why_chosen": "Secretary / administration (last resort). Jesús María Pascual Pérez is a named director handling communication and marketing with direct contact details on the website."
+   },
+   {
+    "name": "Ainhoa Raso Canals",
+    "designation": "Subdirector UNED Media",
+    "designation_local": "",
+    "email": "ainhoa.raso@pas.uned.es",
+    "office_email": "",
+    "phone": "91 398 65 42",
+    "source_url": "https://www.uned.es/universidad/inicio/comunicacion/equipo-comunicacion.html",
+    "evidence_quote": "Subdirectora UNED Media ... Ainhoa Raso Canals",
+    "why_chosen": "Secretary / administration (last resort). Ainhoa Raso Canals is a named subdirector with direct contact information provided on the website."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Ángel Mancebo Muñoz is a named administrative and media director with direct contact details available on the website.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: Wikidata. mode: gemini. 7 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Bata",
+    "partner_country": "Guinea Ecuatorial",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uned.es/universidad/inicio/internacional/cooperacion-al-desarrollo.html",
+    "evidence_quote": "La UNED en Guinea Ecuatorial: brindando apoyo a los centros de la UNED de Bata y Malabo.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Malabo",
+    "partner_country": "Guinea Ecuatorial",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uned.es/universidad/inicio/internacional/cooperacion-al-desarrollo.html",
+    "evidence_quote": "La UNED en Guinea Ecuatorial: brindando apoyo a los centros de la UNED de Bata y Malabo.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Open European University",
+    "partner_country": "",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uned.es/universidad/inicio.html",
+    "evidence_quote": "[The Open European University]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EADTU",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uned.es/universidad/inicio.html",
+    "evidence_quote": "[Acceso a EADTU]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "RECLA Red de Educación Continua de Latinoamérica y Europa",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uned.es/universidad/inicio.html",
+    "evidence_quote": "[RECLA Red de Educación Continua de Latinoamérica y Europa]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "UNED HQ",
+    "city": "Madrid",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.uned.es/universidad/inicio/en/",
+    "evidence_quote": "Face to face support at UNED HQ"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 7,
+  "coverage_note": "The evidence provides general institutional descriptions and contact details for administrative and media services, but lacks a detailed list of Erasmus or international partners. 7 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 52.5,
+  "crawl_s": 92.4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 358.1,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 503.1
+ }
+}
