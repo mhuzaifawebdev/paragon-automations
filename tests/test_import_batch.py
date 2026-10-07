@@ -103,5 +103,26 @@ check("end-to-end: a mismatched merge's review flag survives build_rows",
       all(n["flags"] == "split from merged cell - verify pairing" for n in mismatched_numbers), True)
 
 
+# ---- institution_name vs a colliding generic "Name" column (real-world bug: a file with both
+# "University" and a separate "Name" column for the contact's first name) ----
+collision_headers = ib._map_headers(["University", "Erasmus Director", "Name", "Surname"])
+check("'University' wins institution_name over a colliding 'Name' column",
+      collision_headers["institution_name"], "University")
+
+name_only_headers = ib._map_headers(["Name", "Email"])
+check("'Name' is still used as institution_name when nothing more specific exists",
+      name_only_headers["institution_name"], "Name")
+
+# ---- --start/--limit must be measured against the file's real rows, before merged-cell
+# expansion - otherwise an earlier stacked cell silently shifts what "row 200" means ----
+pre_split_csv = ('University,Contact\n'
+                  '"Stacked One\nStacked Two","1\n2"\n'      # row 1: will expand into 2 rows
+                  'Row Three,3\nRow Four,4\nRow Five,5\n')
+raw = ib.rows_from_csv_text(pre_split_csv)
+sliced_before_expand = ib._expand_merged_rows(raw[1:3])   # what main() does: slice first, expand after
+check("slicing before expansion keeps row numbers matching the real file, not the split-out count",
+      [r["institution_name"] for r in sliced_before_expand], ["Row Three", "Row Four"])
+
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

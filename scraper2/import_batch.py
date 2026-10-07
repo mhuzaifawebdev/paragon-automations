@@ -25,7 +25,11 @@ ROOT = Path(__file__).resolve().parent.parent
 REQUIRED = ["institution_name"]
 # Each output field maps to whichever of these header spellings appears first, case/spacing-insensitive.
 ALIASES = {
-    "institution_name": ["institution_name", "institution", "name", "university", "school", "college"],
+    # "name" is listed LAST on purpose: a file very often has a separate "Name" column that means
+    # the CONTACT person's first name (as this real sheet does: University + ...+ Name + Surname),
+    # not the institution. Specific institutional terms must win that collision; "name" only
+    # applies as a last resort when nothing more specific is present.
+    "institution_name": ["institution_name", "institution", "university", "school", "college", "name"],
     "country_sheet": ["country_sheet", "country"],
     "phone_1": ["phone_1", "phone", "phone1", "generic_phone", "contact_phone", "primary_phone"],
     "phone_2": ["phone_2", "phone2", "work_phone", "secondary_phone"],
@@ -162,15 +166,20 @@ def main():
     try:
         raw = rows_from_csv_text(Path(a.csv).read_text(encoding="utf-8-sig")) if a.csv \
             else rows_from_sheet(a.sheet_url, a.tab)
-        if a.csv:
-            raw = _expand_merged_rows(raw)
     except ImportError_ as e:
         raise SystemExit(f"Import failed: {e}")
 
+    # --start/--limit are applied BEFORE merged-cell expansion, against the file's real row
+    # count, so "--start 200" always means row 200 as you'd count it by opening the file -
+    # applying it after expansion would shift that number by however many extra rows any
+    # earlier merged/stacked cell split into, which has nothing to do with what the person
+    # asking for "row 200" actually meant.
     if a.start > 1:
         raw = raw[a.start - 1:]
     if a.limit:
         raw = raw[:a.limit]
+    if a.csv:
+        raw = _expand_merged_rows(raw)
     numbers = build_rows(raw)
     if not numbers:
         raise SystemExit("No usable rows found (every row was missing an institution name).")
