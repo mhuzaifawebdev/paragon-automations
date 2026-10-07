@@ -1,0 +1,99 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-07T07:30:00Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "HAUTE ECOLE DE LA VILLE DE LIEGE",
+  "institution_type": "college",
+  "official_website": "https://www.hel.be/",
+  "country": {
+   "value": "Belgium",
+   "source_url": "https://www.hel.be/",
+   "evidence_quote": "Je suis résident en Belgique"
+  },
+  "phone": {
+   "value": "+32(0)4/258 42 46",
+   "source_url": "https://www.hel.be/international/",
+   "evidence_quote": "Rebecca Rahier rebecca.rahier@hel.be <rebecca.rahier@hel.be> +32(0)4/258 42 46 Disponible sur rendez-vous (par e-mail)"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Rebecca Rahier",
+   "designation": "Head of international relations",
+   "designation_local": "",
+   "email": "rebecca.rahier@hel.be",
+   "office_email": "",
+   "phone": "+32(0)4/221 12 52",
+   "source_url": "https://www.hel.be/international/",
+   "evidence_quote": "Head of international relations: ... Rebecca Rahier rebecca.rahier@hel.be <rebecca.rahier@hel.be> +32(0)4/221 12 52"
+  },
+  "alternates": [
+   {
+    "name": "Ingrid Jacob",
+    "designation": "Erasmus coordinator",
+    "designation_local": "",
+    "email": "ingrid.jacob@hel.be",
+    "office_email": "",
+    "phone": "+32(0)4/238 38 11",
+    "source_url": "https://www.hel.be/international/",
+    "evidence_quote": "Erasmus coordinator: ... Ingrid Jacob ingrid.jacob@hel.be <ingrid.jacob@hel.be>+32(0)4/238 38 11",
+    "why_chosen": "Institutional Erasmus+ coordinator. She is the designated Erasmus coordinator responsible for incoming student applications and coordination."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. She is the Head of international relations and the primary contact for Erasmus+ mobility.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "partner companies",
+    "partner_country": "Europe",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.hel.be/international/",
+    "evidence_quote": "The International Relations Office also collaborates with many partner companies hosting student interns from the economic, paramedical, and technical departments in Europe and outside.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Higher Institute of Living Languages (ISLV)",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hel.be/international/",
+    "evidence_quote": "All our Erasmus+ students are entitled to 60 hours of French as a foreign language evening classes (60 hours – 5 ECTS) at the Higher Institute of Living Languages ​​(ISLV) https://www.islv. uliege.be/cms/c_10737813/fr/islv-course-du-soir",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Haute Ecole de la Ville de Liège",
+    "city": "Liège",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.hel.be/international/",
+    "evidence_quote": "4 sites in the centre of Liège;"
+   }
+  ],
+  "stated_total": 53,
+  "stated_total_quote": "The Haute Ecole de la Ville de Liège manages 53 bilateral agreements with 22 different countries.",
+  "stated_total_url": "https://www.hel.be/international/",
+  "truncated": true,
+  "total_seen": 53,
+  "pages_read": 9,
+  "coverage_note": "The evidence mentions that there are 53 bilateral agreements but does not provide a specific list of partner institutions. Information regarding specific partner names is missing.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 11.5,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.0,
+  "mode": "gemini",
+  "total_seconds": 34.5
+ }
+}
