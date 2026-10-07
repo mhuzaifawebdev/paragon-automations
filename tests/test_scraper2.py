@@ -295,6 +295,36 @@ discover._ddg_search, discover.check_site, discover.load_memo, discover._wikidat
 discover.urllib.request.urlopen = real_urlopen
 os.environ.pop("ANTHROPIC_API_KEY") if old_key is None else os.environ.__setitem__("ANTHROPIC_API_KEY", old_key)
 
+# Gemini out of quota: the refused model is set aside instead of being retried on every call
+real_post2, old_gkey = llm._post, os.environ.get("GEMINI_API_KEY")
+os.environ["GEMINI_API_KEY"] = "test-key"
+llm._GEMINI_RESTING.clear()
+asked = []
+
+
+def _quota_post(url, headers, body, timeout, retries=3):
+    m = url.split("/models/")[1].split(":")[0]
+    asked.append(m)
+    if m == "gemini-3.1-flash-lite":
+        raise llm.LLMError("HTTP 429: quota exceeded")
+    return {"candidates": [{"content": {"parts": [{"text": '{"contacts": [], "partners": []}'}]}}]}
+
+
+llm._post = _quota_post
+_d, meta1 = llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+check("out-of-quota model: the next model answers", (asked, meta1["model_used"]),
+      (["gemini-3.1-flash-lite", "gemini-3.5-flash-lite"], "gemini-3.5-flash-lite"))
+asked.clear()
+llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+check("the out-of-quota model is not asked again on the next call", asked, ["gemini-3.5-flash-lite"])
+asked.clear()
+llm._GEMINI_RESTING["gemini-3.1-flash-lite"] = 0
+llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+check("after the rest period it is tried again", asked[0], "gemini-3.1-flash-lite")
+llm._post = real_post2
+llm._GEMINI_RESTING.clear()
+os.environ.pop("GEMINI_API_KEY") if old_gkey is None else os.environ.__setitem__("GEMINI_API_KEY", old_gkey)
+
 real_cached = verify.cached_record
 cache_fx = {"https://a.org/kontaktai": {"text": "Rūta Puidokė, Erasmus coordinator, trs@a.org"},
             profile: {"text": "Rūta Puidokė ruta@a.org"}}

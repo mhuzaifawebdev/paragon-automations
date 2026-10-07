@@ -14,6 +14,7 @@ cannot invent a quote, email or phone. Providers (config.yaml `scraper.provider`
 import json
 import os
 import subprocess
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -189,6 +190,8 @@ def _claude_cli(system, user, model, timeout, schema=None):
 
 
 GEMINI_FALLBACKS = ["gemini-3.5-flash-lite", "gemini-3.5-flash"]     # tried when the chosen model is overloaded
+GEMINI_REST_SECONDS = 600
+_GEMINI_RESTING = {}                                                  # model -> time until which it is skipped
 
 
 def _gemini(system, user, model, timeout, schema=None):
@@ -197,17 +200,25 @@ def _gemini(system, user, model, timeout, schema=None):
     if not key:
         raise LLMError("GEMINI_API_KEY is not set")
     t0, last = time.time(), None
-    for m in dict.fromkeys([model] + GEMINI_FALLBACKS):
+    models = list(dict.fromkeys([model] + GEMINI_FALLBACKS))
+    # A model that answered 429 has run out of free-tier quota: retrying it only burns time (measured: 26 of 33
+    # calls refused, each one waiting over a minute before the fallback was tried). Rest it and go straight on.
+    for m in [x for x in models if _GEMINI_RESTING.get(x, 0) <= time.time()] or models:
         try:
             resp = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={key}", {},
                          {"systemInstruction": {"parts": [{"text": system}]},
                           "contents": [{"role": "user", "parts": [{"text": user}]}],
                           "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": schema,
-                                               "temperature": 0}}, timeout, retries=5)
+                                               "temperature": 0}}, timeout, retries=2)
             data = json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
             return data, {"seconds": round(time.time() - t0, 1), "cost_usd_estimate": 0.0, "model_used": m}
         except LLMError as e:
             last = e
+            if "429" in str(e):
+                if _GEMINI_RESTING.get(m, 0) <= time.time():
+                    print(f"(Gemini {m} is out of quota - using the next model for {GEMINI_REST_SECONDS // 60} min)",
+                          file=sys.stderr, flush=True)
+                _GEMINI_RESTING[m] = time.time() + GEMINI_REST_SECONDS
             if not any(c in str(e) for c in ("503", "429", "500", "502")):
                 raise                                   # a real error (bad key, bad request): do not hide it
         except Exception as e:
