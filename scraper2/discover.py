@@ -261,10 +261,55 @@ def _gemini_urls(prompt, limit=5):
     return []
 
 
+SEARCH_MODEL = "claude-haiku-4-5"
+SEARCH_USAGE = {"searches": 0, "input_tokens": 0, "output_tokens": 0}     # running totals, for cost reporting
+_usage_lock = threading.Lock()
+
+
+def _claude_urls(prompt, limit=5):
+    """One Claude API call with the server-side web search tool (max one search: $10 per 1,000 searches plus
+    tokens). Returns the result URLs of that search, in rank order. Only the URLs are used - the caller opens
+    each page and reads the address from it, so nothing the model writes can end up in the sheet."""
+    import os
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        return []
+    body = json.dumps({"model": SEARCH_MODEL, "max_tokens": 1024,
+                       "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}],
+                       "messages": [{"role": "user", "content": prompt}]}).encode("utf-8")
+    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body,
+                                 headers={"Content-Type": "application/json", "x-api-key": key,
+                                          "anthropic-version": "2023-06-01"})
+    try:
+        with urllib.request.urlopen(req, timeout=90) as r:
+            resp = json.loads(r.read().decode("utf-8"))
+    except Exception as e:
+        detail = e.read().decode("utf-8", "replace")[:200] if hasattr(e, "read") else str(e)
+        print(f"(Claude web search unavailable: {detail})", file=sys.stderr, flush=True)
+        return []
+    u = resp.get("usage") or {}
+    with _usage_lock:
+        SEARCH_USAGE["searches"] += (u.get("server_tool_use") or {}).get("web_search_requests", 0)
+        SEARCH_USAGE["input_tokens"] += u.get("input_tokens", 0)
+        SEARCH_USAGE["output_tokens"] += u.get("output_tokens", 0)
+    urls = []
+    for block in resp.get("content", []):
+        results = block.get("content") if block.get("type") == "web_search_tool_result" else None
+        if isinstance(results, list):                          # an error comes back as an object, not a list
+            urls += [x.get("url", "") for x in results if x.get("type") == "web_search_result"]
+    return [x for x in dict.fromkeys(urls) if x and not any(h in urllib.parse.urlparse(x).netloc.lower()
+                                                            for h in NO_EMAIL_HOSTS)][:limit]
+
+
 def person_pages(name, institution, domain, limit=4):
     """Web pages likely to publish this person's own work email. Candidates only: nothing here is used
-    unless the page itself, once opened, shows the name and the address."""
-    urls = _ddg_urls(f'"{name}" {domain} email', limit)
+    unless the page itself, once opened, shows the name and the address. Claude's web search when an
+    Anthropic key is set (reliable, paid per search); otherwise the free sources, which get blocked quickly."""
+    urls = _claude_urls(f'Search the web once for: "{name}" {domain} email\n'
+                        f"The goal is to find pages that publish the work email address of {name} at {institution}. "
+                        f"After the search, reply with one short line.", limit)
+    if not urls:
+        urls = _ddg_urls(f'"{name}" {domain} email', limit)
     if not urls:
         urls = _gemini_urls(f"Find web pages that publish the professional work email address of {name}, who works at "
                             f"{institution} (website {domain}). List the page URLs, one per line. If there are none, answer NONE.",

@@ -222,6 +222,37 @@ pl.upgrade_generic_email(dict(personal), no_links, "https://a.org", "A College",
 check("no web search when the email is already personal", searched, [])
 fp.fetch = real_fetch
 
+# Claude web search: only result URLs are taken from the reply, and a tool error yields nothing
+import io  # noqa: E402
+import json as _json  # noqa: E402
+import discover  # noqa: E402
+
+real_urlopen, old_key = discover.urllib.request.urlopen, os.environ.get("ANTHROPIC_API_KEY")
+os.environ["ANTHROPIC_API_KEY"] = "test-key"
+sent = {}
+
+
+def _fake_reply(content):
+    def opener(req, timeout=0):
+        sent.update(_json.loads(req.data.decode()), key=req.get_header("X-api-key"))
+        return io.BytesIO(_json.dumps({"content": content, "usage": {"server_tool_use": {"web_search_requests": 1}}}).encode())
+    return opener
+
+
+discover.urllib.request.urlopen = _fake_reply([
+    {"type": "text", "text": "Her email is invented@a.org, see https://made-up.example/"},
+    {"type": "web_search_tool_result", "content": [
+        {"type": "web_search_result", "url": "https://a.org/staff/ruta", "title": "Ruta"},
+        {"type": "web_search_result", "url": "https://www.linkedin.com/in/ruta", "title": "LinkedIn"}]}])
+check("Claude search: result URLs only, nothing from the model's own text, social sites dropped",
+      discover._claude_urls("find her"), ["https://a.org/staff/ruta"])
+check("Claude search is capped at one search per call", sent["tools"][0]["max_uses"], 1)
+discover.urllib.request.urlopen = _fake_reply([{"type": "web_search_tool_result",
+                                                "content": {"type": "web_search_tool_result_error", "error_code": "unavailable"}}])
+check("Claude search: a tool error gives no URLs instead of crashing", discover._claude_urls("find her"), [])
+discover.urllib.request.urlopen = real_urlopen
+os.environ.pop("ANTHROPIC_API_KEY") if old_key is None else os.environ.__setitem__("ANTHROPIC_API_KEY", old_key)
+
 real_cached = verify.cached_record
 cache_fx = {"https://a.org/kontaktai": {"text": "Rūta Puidokė, Erasmus coordinator, trs@a.org"},
             profile: {"text": "Rūta Puidokė ruta@a.org"}}
