@@ -1,0 +1,109 @@
+{
+ "row_id": "r060",
+ "scraped_at": "2026-10-07T07:39:19Z",
+ "contacts": {
+  "row_id": "r060",
+  "institution_name": "ESCOLA SUPERIOR DE ENFERMAGEM DE LISBOA (ESEL)",
+  "institution_type": "university",
+  "official_website": "https://enfermagem.ulisboa.pt/",
+  "country": null,
+  "phone": {
+   "value": "+351 217 913 400",
+   "source_url": "https://enfermagem.ulisboa.pt/",
+   "evidence_quote": "+351 217 913 400"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Cláudia Bacatum",
+   "designation": "Florence Network Exchange Coordinator",
+   "designation_local": "",
+   "email": "coordenacaoerasmus@esel.pt",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://enfermagem.ulisboa.pt/node/6738",
+   "evidence_quote": "FLECO ESEL (Florence Network Exchange Coordinator): Prof.ª Cláudia Bacatum (coordenacaoerasmus@esel.pt <coordenacaoerasmus@esel.pt>)"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Cláudia Bacatum is explicitly identified as the Florence Network Exchange Coordinator and is the contact person for international mobility.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fundação Bom Sucesso",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://enfermagem.ulisboa.pt/",
+    "evidence_quote": "Esta Conferência é promovida pela nossa parceira Fundação Bom Sucesso.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidade Mindelo",
+    "partner_country": "Cabo Verde",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://enfermagem.ulisboa.pt/",
+    "evidence_quote": "Protocolo Universidade Mindelo - Cabo Verde",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Florence Network",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://enfermagem.ulisboa.pt/",
+    "evidence_quote": "Florence Network",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TRACTION network",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://enfermagem.ulisboa.pt/node/7979",
+    "evidence_quote": "TRACTION network - Establishment of a Network on Clinical Trials for Health Care Interventions | ESEUL – Escola Superior de Enfermagem da Universidade de Lisboa",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Edifício Calouste Gulbenkian",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://enfermagem.ulisboa.pt/node/5787",
+    "evidence_quote": "Edifício Calouste Gulbenkian (Sede) - Campus da Cidade Universitária"
+   },
+   {
+    "campus_name": "Edifício Artur Ravara",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://enfermagem.ulisboa.pt/node/5787",
+    "evidence_quote": "Edifício Artur Ravara - Campus do Parque das Nações"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific Erasmus+ project partners and network memberships but does not contain a comprehensive list of all bilateral Erasmus+ university partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 13.7,
+  "cost_usd_estimate": 0.0,
+  "model_s": 128.8,
+  "mode": "gemini",
+  "total_seconds": 146.8
+ }
+}
