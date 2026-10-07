@@ -147,11 +147,17 @@ def main():
     ap.add_argument("--sheet-url", help="any Google Sheet URL (must be shared with the service account)")
     ap.add_argument("--tab", default="Sheet1", help="tab name, only used with --sheet-url")
     ap.add_argument("--batch", required=True, help="a short name for this batch, e.g. teamA")
+    ap.add_argument("--start", type=int, default=1,
+                    help="1-based row number (in the source file, not counting the header) to start "
+                         "from - e.g. to carve out institutes 200-300 of a 1000-row file, use "
+                         "--start 200 --limit 100")
     ap.add_argument("--limit", type=int)
     a = ap.parse_args()
 
     if bool(a.csv) == bool(a.sheet_url):
         ap.error("give exactly one of --csv or --sheet-url")
+    if a.start < 1:
+        ap.error("--start is 1-based (the first data row is 1, not 0)")
 
     try:
         raw = rows_from_csv_text(Path(a.csv).read_text(encoding="utf-8-sig")) if a.csv \
@@ -161,6 +167,8 @@ def main():
     except ImportError_ as e:
         raise SystemExit(f"Import failed: {e}")
 
+    if a.start > 1:
+        raw = raw[a.start - 1:]
     if a.limit:
         raw = raw[:a.limit]
     numbers = build_rows(raw)
