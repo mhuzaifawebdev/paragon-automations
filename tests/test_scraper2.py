@@ -191,6 +191,35 @@ check("profile page without a personal email: contact unchanged",
 fp.fetch = lambda url: {"text": "Somebody Else\nruta@a.org"}
 check("linked page is about someone else: contact unchanged",
       pl.upgrade_generic_email(dict(generic), pages_fx, "https://a.org"), generic)
+
+# web search: candidates are only used if the opened page itself shows the full name and an own-domain address
+web = {"https://conf.example/speakers": {"text": "Speakers: Rūta Puidokė (A College), ruta.puidoke@a.org"},
+       "https://other.example/x": {"text": "Rūta Puidokė ruta.puidoke@gmail.com"},
+       "https://wrong.example/y": {"text": "Rūta Kitokia ruta@a.org"}}
+fp.fetch = lambda url: web[url]
+searched = []
+
+
+def fake_search(name, institution, domain):
+    searched.append((name, institution, domain))
+    return ["https://wrong.example/y", "https://other.example/x", "https://conf.example/speakers"]
+
+
+no_links = [{"url": "https://a.org/kontaktai", "text": "", "links": []}]
+ws = pl.upgrade_generic_email(dict(generic), no_links, "https://www.a.org/", "A College", fake_search)
+check("web search: another person's page and a gmail address are skipped, the real one is taken",
+      ws["email"], "ruta.puidoke@a.org")
+check("web search is asked for this person at this institute's domain", searched, [("Rūta Puidokė", "A College", "a.org")])
+check("web search: shared inbox still kept alongside", ws["office_email"], "trs@a.org")
+check("web search finds an email for a contact that had none",
+      pl.upgrade_generic_email({**generic, "email": ""}, no_links, "https://a.org", "A College", fake_search)["email"],
+      "ruta.puidoke@a.org")
+check("web search with no qualifying page: contact unchanged",
+      pl.upgrade_generic_email(dict(generic), no_links, "https://a.org", "A College", lambda *a: ["https://wrong.example/y"]),
+      generic)
+searched.clear()
+pl.upgrade_generic_email(dict(personal), no_links, "https://a.org", "A College", fake_search)
+check("no web search when the email is already personal", searched, [])
 fp.fetch = real_fetch
 
 real_cached = verify.cached_record
@@ -202,8 +231,12 @@ vc = {"name": "Rūta Puidokė", "email": "ruta@a.org", "source_url": "https://a.
 check("personal email cited to the contact page alone does not verify", verify.verify_contact(vc, "https://a.org")[0], False)
 check("personal email verifies against its own profile page",
       verify.verify_contact({**vc, "email_source_url": profile}, "https://a.org")[0], True)
-check("an off-site email source is rejected",
-      verify.verify_contact({**vc, "email_source_url": "https://elsewhere.com/ruta"}, "https://a.org")[0], False)
+cache_fx["https://conf.example/speakers"] = {"text": "Rūta Puidokė ruta@a.org ruta@gmail.com"}
+check("an own-domain email verifies even when the page naming it is off-site",
+      verify.verify_contact({**vc, "email_source_url": "https://conf.example/speakers"}, "https://a.org")[0], True)
+check("an email on another domain is rejected",
+      verify.verify_contact({**vc, "email": "ruta@gmail.com", "email_source_url": "https://conf.example/speakers"},
+                            "https://a.org")[0], False)
 verify.cached_record = real_cached
 
 print(f"\n{sum(results)}/{len(results)} passed")

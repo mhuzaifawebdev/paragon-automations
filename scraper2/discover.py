@@ -209,6 +209,69 @@ def _ddg_search(row, limit=4):
     return out
 
 
+NO_EMAIL_HOSTS = ("facebook.", "linkedin.", "instagram.", "youtube.", "twitter.", "x.com", "tiktok.", "google.", "bing.",
+                  "duckduckgo.", "wikipedia.", "wikidata.")
+_search_lock = threading.Lock()
+
+
+def _ddg_urls(query, limit=5):
+    """Free web search (DuckDuckGo HTML, no key): full result URLs, in rank order."""
+    with _search_lock:                                   # one search at a time, so parallel workers do not get blocked
+        try:
+            req = urllib.request.Request("https://html.duckduckgo.com/html/?" + urllib.parse.urlencode({"q": query}),
+                                         headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"})
+            with urllib.request.urlopen(req, timeout=25) as r:
+                html = r.read().decode("utf-8", "replace")
+        except Exception:
+            return []
+        finally:
+            time.sleep(1)
+    out = []
+    for m in re.finditer(r'class="result__a"[^>]*href="([^"]+)"', html):
+        m2 = re.search(r"uddg=([^&]+)", m.group(1))
+        u = urllib.parse.unquote(m2.group(1) if m2 else m.group(1))
+        host = urllib.parse.urlparse(u).netloc.lower()
+        if host and u not in out and not any(h in host for h in NO_EMAIL_HOSTS):
+            out.append(u)
+    return out[:limit]
+
+
+def _gemini_urls(prompt, limit=5):
+    """One Google-Search-grounded Gemini call (free tier). Returns the pages it searched and any URL it names.
+    Its answer is never trusted as data - the caller opens each page and reads the address from it."""
+    import os
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        return []
+    for model in ("gemini-3.1-flash-lite", "gemini-3.5-flash"):
+        body = json.dumps({"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                           "tools": [{"google_search": {}}], "generationConfig": {"temperature": 0}}).encode("utf-8")
+        req = urllib.request.Request(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}", data=body,
+            headers={"Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                cand = json.loads(r.read().decode())["candidates"][0]
+        except Exception:
+            continue
+        text = " ".join(p_.get("text", "") for p_ in (cand.get("content") or {}).get("parts", []))
+        urls = [u.rstrip(".,;") for u in re.findall(r"https?://[^\s\"'<>)\]]+", text)]
+        urls += [(c.get("web") or {}).get("uri", "") for c in (cand.get("groundingMetadata") or {}).get("groundingChunks", [])]
+        return list(dict.fromkeys(u for u in urls if u))[:limit]
+    return []
+
+
+def person_pages(name, institution, domain, limit=4):
+    """Web pages likely to publish this person's own work email. Candidates only: nothing here is used
+    unless the page itself, once opened, shows the name and the address."""
+    urls = _ddg_urls(f'"{name}" {domain} email', limit)
+    if not urls:
+        urls = _gemini_urls(f"Find web pages that publish the professional work email address of {name}, who works at "
+                            f"{institution} (website {domain}). List the page URLs, one per line. If there are none, answer NONE.",
+                            limit)
+    return urls[:limit]
+
+
 CCTLD = {"spain": "es", "france": "fr", "cyprus": "cy", "czechia": "cz", "czech republic": "cz", "poland": "pl", "slovenia": "si",
          "slovakia": "sk", "sweden": "se", "hungary": "hu", "austria": "at", "netherlands": "nl", "ireland": "ie",
          "lithuania": "lt", "germany": "de", "portugal": "pt", "italy": "it", "bulgaria": "bg", "belgium": "be",

@@ -131,8 +131,9 @@ def verify_contact(contact, official_website):
     email_text = text if email_url == url else (_page(email_url)[0] or "")
     if contact.get("email") and not email_in_text(contact["email"], email_text):
         problems.append("email not on page")
-    if email_url != url and not is_official(email_url, official_website):
-        problems.append("email source not on the institute's own domain")
+    # That page may be off-site (found by web search), so the ADDRESS itself must be on the institute's mail domain.
+    if email_url != url and not is_official("https://" + contact["email"].split("@", 1)[-1], official_website):
+        problems.append("email is not on the institute's own domain")
     if contact.get("phone") and not phone_in_text(contact["phone"], text):
         problems.append("phone not on page")
     if not is_official(url, official_website):

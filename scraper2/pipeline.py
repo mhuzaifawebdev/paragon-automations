@@ -163,27 +163,50 @@ def find_profile_link(name, pages, site):
     return None
 
 
-def upgrade_generic_email(contact, pages, site):
-    """When the chosen email is a shared inbox, read the person's own profile page (at most ONE extra page, no
-    model call) and prefer the address found there. The shared one is kept as office_email; if nothing better
-    turns up the contact is returned untouched."""
+MAX_EMAIL_PAGES = 3
+
+
+def upgrade_generic_email(contact, pages, site, institution="", web_search=None):
+    """When the chosen contact has only a shared inbox (or no email), look for their OWN work address: first the
+    person's profile page linked on the site, then - if web_search is given - pages a web search returns for
+    their name. No model reads the address: each candidate page is opened and must itself show the person's full
+    name and an address that carries their name on the institute's own mail domain. The shared inbox is kept as
+    office_email; if nothing qualifies the contact is returned untouched."""
     toks = _name_toks(contact.get("name", ""))
-    if not contact.get("email") or _matches_name(contact["email"], toks):
+    old = contact.get("email") or ""
+    if len(toks) < 2 or _matches_name(old, toks):
         return contact
-    url = find_profile_link(contact["name"], pages, site)
-    if not url:
+    domains = {crawl._host(site)} | ({old.split("@", 1)[1].lower()} if "@" in old else set())
+
+    def own_email(url):
+        try:
+            rec = fetch_pages.fetch(url)
+        except Exception:
+            return None
+        text = rec.get("text", "")
+        if not all(t in _n(text) for t in toks):
+            return None                               # this page is not about this person
+        for e in evidence.emails_in(text):
+            d = e.split("@", 1)[-1].lower()
+            if _matches_name(e, toks) and any(d == x or d.endswith("." + x) or x.endswith("." + d) for x in domains):
+                return e, rec.get("final_url") or url
+        return None
+
+    link = find_profile_link(contact["name"], pages, site)
+    hit = own_email(link) if link else None
+    if not hit and web_search:
+        try:
+            found = web_search(contact["name"], institution, crawl._host(site))
+        except Exception:
+            found = []
+        for url in [u for u in found if u != link][:MAX_EMAIL_PAGES]:
+            hit = own_email(url)
+            if hit:
+                break
+    if not hit or hit[0].lower() == old.lower():
         return contact
-    try:
-        text = fetch_pages.fetch(url).get("text", "")
-    except Exception:
-        return contact
-    if not all(t in _n(text) for t in toks):
-        return contact                                # the linked page is not about this person
-    match = next((e for e in evidence.emails_in(text) if _matches_name(e, toks)), None)
-    if not match or match.lower() == contact["email"].lower():
-        return contact
-    return {**contact, "office_email": contact["email"], "email": match, "email_source_url": url,
-            "why_chosen": (contact.get("why_chosen", "") + " Own email read from their staff profile page.").strip()}
+    return {**contact, "office_email": old, "email": hit[0], "email_source_url": hit[1],
+            "why_chosen": (contact.get("why_chosen", "") + " Own work email found on a page naming them.").strip()}
 
 
 def _same_page(line, ref):
@@ -417,7 +440,10 @@ def scrape(row, cfg):
         contacts, n_alt = boost_on_file(contacts, inst["contact"]), 2
     primary, alternates = (contacts[0] if contacts else None), contacts[1:1 + n_alt]
     if primary:
-        primary = upgrade_generic_email(primary, cr["pages"], cr["site"])
+        t = time.time()
+        primary = upgrade_generic_email(primary, cr["pages"], cr["site"], inst["name"],
+                                        discover.person_pages if cfg.get("email_web_search", True) else None)
+        timing["email_search_s"] = round(time.time() - t, 1)
     country_claim = None
     cl = pack.get((data.get("country") or {}).get("line"))
     if cl and country_in_line((data.get("country") or {}).get("name"), cl["text"]):
