@@ -256,6 +256,12 @@ def fetch(url, refresh=False):
            "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
            "text": text, "links": links, "certificate_unverified": unverified}
     path.write_text(json.dumps(rec, ensure_ascii=False), encoding="utf-8")
+    # cached_record() builds its lookup of the cache once per process. Without this, every page fetched AFTER the
+    # verifier's first look was invisible to it, and claims citing those pages were reported as "cited page was
+    # not read" - in a batch that meant only the first few institutes of each job could ever be verified.
+    if _cache_index is not None:
+        for u in (url, final_url):
+            _cache_index[_url_key(u)] = path
     return rec
 
 

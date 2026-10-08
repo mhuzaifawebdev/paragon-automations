@@ -32,6 +32,42 @@ check("Cloudflare-hidden email decodes",
 html = b'<p>Mail <a href="/cdn-cgi/l/email-protection#0a696566666f6f6424666f6d786b646e4a6364796b27697c66246c78">[email\xc2\xa0protected]</a></p>'
 check("hidden email appears in page text", "colleen.legrand@insa-cvl.fr" in fp._html_to_text(html, "utf-8", "https://x.fr/")[0], True)
 
+# a page fetched AFTER the verifier first looked at the cache must still be found by it (was: "cited page was not
+# read", which left most contacts and partners of every batch marked unverified)
+import tempfile as _tf  # noqa: E402
+
+
+class _Resp:
+    headers = type("H", (), {"get_content_type": staticmethod(lambda: "text/html"), "get_content_charset": staticmethod(lambda: "utf-8")})()
+
+    def __init__(self, final):
+        self.final = final
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *a):
+        return False
+
+    def geturl(self):
+        return self.final
+
+    def read(self, n=-1):
+        return b"<p>Jane Doe, Erasmus coordinator</p>"
+
+
+_real = (fp.CACHE, fp._open, fp.robots_allowed, fp._throttle, fp._cache_index)
+fp.CACHE, fp._cache_index = Path(_tf.mkdtemp()), None
+fp._open = lambda url, accept="*/*": _Resp("https://late.example/staff/")       # the site redirects to a final URL
+fp.robots_allowed, fp._throttle = (lambda url: True), (lambda host: None)
+check("nothing cached yet", fp.cached_record("https://late.example/staff/"), None)     # this builds the lookup, empty
+fp.fetch("https://late.example/staff")
+check("a page fetched later is found under the address it was asked for",
+      (fp.cached_record("https://late.example/staff") or {}).get("text"), "Jane Doe, Erasmus coordinator")
+check("and under its final address after the redirect, which is what results cite",
+      (fp.cached_record("https://late.example/staff/") or {}).get("text"), "Jane Doe, Erasmus coordinator")
+fp.CACHE, fp._open, fp.robots_allowed, fp._throttle, fp._cache_index = _real
+
 logo_html = b'<p>Members of <a href="https://eaec.info"><img alt="EAEC" src="eaec.png"></a></p>'
 check("logo-only membership link alt text appears in page text",
       "[EAEC]" in fp._html_to_text(logo_html, "utf-8", "https://x.fr/")[0], True)
