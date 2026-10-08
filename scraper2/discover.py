@@ -69,9 +69,20 @@ def seed_from_results(results_dir):
     return n
 
 
+# Letters that Unicode does not split into "plain letter + accent", so stripping accents leaves them as they are:
+# without this "Norges idrettshøgskole" on a homepage never matches "NORGES IDRETTSHOGSKOLE" in a sheet.
+_PLAIN = str.maketrans({"ø": "o", "đ": "d", "ł": "l", "ß": "ss", "æ": "ae", "œ": "oe", "ı": "i", "þ": "th", "ð": "d"})
+
+
 def _n(s):
-    s = unicodedata.normalize("NFKD", (s or "").lower())
+    s = unicodedata.normalize("NFKD", (s or "").lower().translate(_PLAIN))
     return "".join(c for c in s if not unicodedata.combining(c))
+
+
+def _fold(s):
+    """Sheets often spell German names without umlauts (UNIVERSITAET, MUENCHEN) while the site writes them with
+    (Universität, München). Folding ae/oe/ue to a/o/u on BOTH sides lets the two spellings meet."""
+    return s.replace("ae", "a").replace("oe", "o").replace("ue", "u")
 
 
 def name_tokens(name):
@@ -84,13 +95,13 @@ def check_site(url, row):
         rec = fetch_pages.fetch(url)
     except Exception as e:
         return False, f"could not read {url} ({e})", None
-    text = _n(rec.get("text", ""))
+    text = _fold(_n(rec.get("text", "")))
     digits = re.sub(r"\D", "", row.get("phone") or "")
     if len(digits) >= 8 and digits[-8:] in re.sub(r"\D", "", rec.get("text", "")):
         return True, "the client's phone number appears on the homepage", rec
     toks = name_tokens(row.get("name"))
     if toks:
-        hit = [t for t in toks if t in text]
+        hit = [t for t in toks if _fold(t) in text]
         need = 1 if len(toks) == 1 else 2
         if len(hit) >= need:
             return True, f"institution name words on the homepage ({', '.join(hit[:3])})", rec
@@ -429,6 +440,16 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
     remembered = load_memo().get(row.get("row_id") or "")
     if remembered:
         return remembered, "remembered from an earlier run", ""
+    # The sheet's own website column comes before anything guessed from an email address: an institute's mail
+    # domain is often not its website (hsmarnix.nl vs marnixacademie.nl). It still has to pass the homepage
+    # proof, because sheets also contain wrong links; a social-media page is never taken as the website.
+    given = (row.get("website") or "").strip()
+    pu = urllib.parse.urlparse(given if "//" in given else "https://" + given) if given else None
+    if pu and pu.netloc and not any(h in pu.netloc.lower() for h in SKIP_HOSTS):
+        for u in dict.fromkeys((f"{pu.scheme}://{pu.netloc}/", urllib.parse.urlunparse(pu))):
+            hit = attempt(u, "website column in the sheet")
+            if hit:
+                return hit
     for d in _emails_domain(row):
         for u in (f"https://www.{d}/", f"https://{d}/"):
             hit = attempt(u, "email domain")

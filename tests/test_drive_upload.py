@@ -87,6 +87,10 @@ check("not set up: nothing is uploaded and progress.json is left alone",
        "drive_link" in json.loads((tmp / "progress.json").read_text(encoding="utf-8"))), ((None, None), False))
 
 os.environ["DRIVE_FOLDER_ID"] = "FOLDER"
+if not du.KEY_FILE.exists():
+    link, err = du.upload(tmp, "b0")
+    check("folder set but no robot key: the page is told which secret is missing",
+          (link, "GOOGLE_SERVICE_ACCOUNT_JSON" in (err or "")), (None, True))
 drive = FakeDrive()
 link, err = du.upload(tmp, "b1", svc=drive, mode="robot")
 prog = json.loads((tmp / "progress.json").read_text(encoding="utf-8"))

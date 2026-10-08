@@ -327,6 +327,32 @@ site, how, _note = discover.find_website({"row_id": "t1", "name": "Real College"
 check("the paid website search is off unless asked for", (site, len(calls)), (None, 0))
 site, how, note = discover.find_website({"row_id": "t2", "name": "420322312622", "country": ""}, use_search=True, paid_search=True)
 check("a phone number in the name column triggers no paid search", (site, len(calls)), (None, 0))
+# the sheet's own website column is tried before the email domain, and must still pass the homepage proof
+tried_urls = []
+discover.check_site = lambda url, row: (tried_urls.append(url) or url.startswith("https://www.marnixacademie.nl"), "name words on the homepage", None)
+site, how, _note = discover.find_website({"row_id": "t3", "name": "Marnix Academie", "email": "io@hsmarnix.nl",
+                                           "website": "https://www.marnixacademie.nl/international"}, use_search=False)
+check("the website in the sheet is used, not the one guessed from the email", (site, how, tried_urls[0]),
+      ("https://www.marnixacademie.nl/", "website column in the sheet", "https://www.marnixacademie.nl/"))
+discover.check_site = lambda url, row: (url == "https://www.hsmarnix.nl/", "ok" if url == "https://www.hsmarnix.nl/" else "not this institution", None)
+site, how, _note = discover.find_website({"row_id": "t4", "name": "Marnix Academie", "email": "io@hsmarnix.nl",
+                                           "website": "https://wrong.example/"}, use_search=False)
+check("a wrong link in the sheet fails the proof and the email domain is tried next", (site, how), ("https://www.hsmarnix.nl/", "email domain"))
+tried_urls.clear()
+discover.check_site = lambda url, row: (tried_urls.append(url) or False, "no", None)
+discover.find_website({"row_id": "t5", "name": "Strate", "website": "https://www.facebook.com/strate"}, use_search=False)
+check("a Facebook page in the website column is never tried as the website", tried_urls, [])
+real_fetch_d = discover.fetch_pages.fetch
+discover.fetch_pages.fetch = lambda url: {"text": "Universität der Bundeswehr München - Startseite"}
+check("a name typed without umlauts (UNIVERSITAET ... MUENCHEN) matches the site's own spelling",
+      real_check("https://www.unibw.de/", {"name": "UNIVERSITAET DER BUNDESWEHR MUENCHEN"})[0], True)
+discover.fetch_pages.fetch = lambda url: {"text": "Technische Universität Wien - Startseite"}
+check("but a different university is still rejected",
+      real_check("https://www.tuwien.at/", {"name": "UNIVERSITAET DER BUNDESWEHR MUENCHEN"})[0], False)
+discover.fetch_pages.fetch = real_fetch_d
+check("letters like ø, ł and ß compare equal to their plain spelling",
+      (discover._n("Norges idrettshøgskole"), discover._n("Szkoła Główna"), discover._n("Straße")),
+      ("norges idrettshogskole", "szkola glowna", "strasse"))
 discover._ddg_search, discover.check_site, discover.load_memo, discover._wikidata = real_ddg, real_check, real_memo, discover._wikidata_real
 discover.urllib.request.urlopen = real_urlopen
 os.environ.pop("ANTHROPIC_API_KEY") if old_key is None else os.environ.__setitem__("ANTHROPIC_API_KEY", old_key)

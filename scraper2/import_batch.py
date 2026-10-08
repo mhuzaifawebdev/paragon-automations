@@ -107,13 +107,20 @@ def _expand_merged_rows(rows):
     with only one non-blank line (e.g. a status shared by the whole stacked block) is reused
     verbatim on every split row - but since reusing one value across several different institutes
     is a guess, not a fact, every row born from a split is marked for human review, even a cleanly
-    aligned one. No-op for ordinary single-line rows."""
+    aligned one. No-op for ordinary single-line rows.
+
+    A row is only split when the INSTITUTION NAME itself holds several lines. One institute whose
+    cells merely list two emails, two phones or two links is still one institute: those values are
+    joined with "; " and the row stays whole (splitting it scraped the same institute twice)."""
     out = []
     for row in rows:
-        lines = {k: (v.splitlines() if v else []) for k, v in row.items()}
+        lines = {k: ([ln for ln in v.splitlines() if ln.strip()] if v else []) for k, v in row.items()}
         max_n = max((len(v) for v in lines.values()), default=1) or 1
         if max_n <= 1:
             out.append(row)
+            continue
+        if len(lines.get("institution_name", [])) <= 1:
+            out.append({k: "; ".join(ln.strip() for ln in lines[k]) for k in row})
             continue
         for i in range(max_n):
             new_row = {}

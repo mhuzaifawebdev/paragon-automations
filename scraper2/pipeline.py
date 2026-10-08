@@ -411,7 +411,8 @@ def scrape(row, cfg):
     t_all, timing = time.time(), {}
     inst = {"row_id": row["row_id"], "name": row.get("institution_name", ""), "country": row.get("country_sheet", ""), "phone": row.get("phone_1", ""),
             "contact": row.get("contact_name", ""), "email": row.get("email", ""),
-            "website_override": row.get("website_override", ""), "alternatives": bool(cfg.get("alternatives"))}
+            "website_override": row.get("website_override", ""), "alternatives": bool(cfg.get("alternatives")),
+            "website": ((row.get("seed_urls") or "").split() or [""])[0]}
 
     t = time.time()
     site, how, note = discover.find_website(inst, use_search=bool(cfg.get("discover_with_search")),

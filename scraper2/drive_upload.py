@@ -100,10 +100,13 @@ def upload(batch_dir, batch, svc=None, mode=None):
     """Returns (link, error); both None when Drive is not set up. Records the outcome in progress.json."""
     batch_dir = Path(batch_dir)
     mode = mode or sign_in_mode()
-    if not mode:
-        return None, None
+    if not mode and not os.environ.get("DRIVE_FOLDER_ID"):
+        return None, None                       # Drive delivery was never asked for: stay silent
     link = error = None
     try:
+        if not mode:
+            raise RuntimeError("A Drive folder is set, but the robot account's key is not: add the GitHub secret "
+                               "GOOGLE_SERVICE_ACCOUNT_JSON (the full contents of credentials/google_service_account.json).")
         xlsx = batch_dir / "results.xlsx"
         if not xlsx.exists():
             raise RuntimeError("results.xlsx has not been built for this batch")
@@ -133,6 +136,8 @@ def _explain(e):
         return "The Drive folder was not found, or it has not been shared with the account the tool signs in as."
     if "invalid_grant" in text:
         return "Google no longer accepts the saved sign-in. Run scripts/drive_authorize.py again and update the secret."
+    if "GOOGLE_SERVICE_ACCOUNT_JSON" in text:
+        return text
     return f"{type(e).__name__}: {text[:200]}"
 
 

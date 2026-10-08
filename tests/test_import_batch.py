@@ -146,5 +146,14 @@ check("'Contact Work Phone Number' is recognized as phone_1", rw["phone_1"], "11
 check("'Contact Generic Phone Number' is recognized as phone_2", rw["phone_2"], "222")
 
 
+# ---- one institute, several values in a cell: still one row ----
+multi = ib._expand_merged_rows([{"institution_name": "IPAC", "email": "info@ipac.fr\ncm@ipac.fr",
+                                 "seed_urls": "https://ipac.fr/\nhttps://facebook.com/ipac", "phone_1": "1\n\n2"}])
+check("an institute with two emails in one cell is NOT split into two rows", len(multi), 1)
+check("its values are kept, joined", (multi[0]["email"], multi[0]["phone_1"]), ("info@ipac.fr; cm@ipac.fr", "1; 2"))
+check("and it is not flagged as a split", multi[0].get("flags"), None)
+check("both links still reach the scraper as seed pages",
+      ib.build_rows(multi)[0]["seed_urls"], "https://ipac.fr/ https://facebook.com/ipac")
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
