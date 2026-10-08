@@ -142,6 +142,81 @@ def _sort_partners(header, rows):
     return out
 
 
+BOLD = Font(bold=True)
+TITLE_FONT = Font(bold=True, size=13)
+PARTNER_VIEW = [("partner_name", "Partner", 46), ("partner_country", "Country", 16), ("partner_scope", "International or National?", 24),
+                ("partner_type", "Type", 13), ("mobility_type", "Mobility", 13), ("verified", "Verified?", 10), ("source_url", "Source", 50)]
+CAMPUS_VIEW = [("campus_name", "Campus", 46), ("country", "Country", 16), ("city", "City", 24), ("role", "Role", 13),
+               ("", "", 13), ("verified", "Verified?", 10), ("source_url", "Source", 50)]
+
+
+def _sheet_title(rid, name, used):
+    """Excel tab names: at most 31 characters, none of []:*?/\\ and no apostrophe (it would need escaping in links)."""
+    clean = "".join(" " if ch in "[]:*?/\\'" else ch for ch in f"{rid} {name}").strip()
+    title = " ".join(clean.split())[:31].strip() or rid
+    while title.lower() in used:
+        title = (title[:27] + " " + rid[-3:])[:31]
+        if title.lower() in used:
+            title = rid
+            break
+    used.add(title.lower())
+    return title
+
+
+def _by_institute(data):
+    out = {}
+    if "row_id" in data["header"]:
+        i = data["header"].index("row_id")
+        for row in data["rows"]:
+            out.setdefault(row[i] if i < len(row) else "", []).append(dict(zip(data["header"], row)))
+    return out
+
+
+def _institute_sheets(wb, sheets):
+    """One sheet per institute holding ONLY its partners and campuses, so opening an institute's network does not
+    mean scrolling a list of every partner of every institute. Returns {row_id: sheet title} for the links."""
+    inst = sheets["Institutions"]
+    if "row_id" not in inst["header"]:
+        return {}
+    partners, campuses = _by_institute(sheets["Partners"]), _by_institute(sheets["Campuses"])
+    used, titles = {n.lower() for n in SHEETS}, {}
+    for n, values in enumerate(inst["rows"], start=2):
+        row = dict(zip(inst["header"], values))
+        rid = row.get("row_id", "")
+        ps, cs = partners.get(rid, []), campuses.get(rid, [])
+        if not rid or not (ps or cs):
+            continue
+        name = row.get("institution_scraped") or row.get("institution_original") or rid
+        ws = wb.create_sheet(_sheet_title(rid, name, used))
+        titles[rid] = ws.title
+        for col, (_f, _l, width) in zip("ABCDEFG", PARTNER_VIEW):
+            ws.column_dimensions[col].width = width
+        ws.append([name])
+        ws["A1"].font = TITLE_FONT
+        ws.append(["← Back to all institutes"])
+        ws["A2"].hyperlink = Hyperlink(ref="A2", location=f"'Institutions'!A{n}")
+        ws["A2"].font = HYPERLINK_FONT
+        for heading, view, items in ((f"Partners ({len(ps)}) - international first", PARTNER_VIEW, ps),
+                                     (f"Campuses ({len(cs)})", CAMPUS_VIEW, cs)):
+            if not items:
+                continue
+            ws.append([])
+            ws.append([heading])
+            ws.cell(row=ws.max_row, column=1).font = BOLD
+            ws.append([label for _f, label, _w in view])
+            for c in ws[ws.max_row]:
+                c.font = BOLD
+            for item in items:
+                ws.append([item.get(f, "") if f else "" for f, _l, _w in view])
+                url = item.get("source_url", "")
+                if url.startswith("http"):
+                    cell = ws.cell(row=ws.max_row, column=len(view))
+                    cell.hyperlink = url
+                    cell.font = HYPERLINK_FONT
+        ws.freeze_panes = "A3"
+    return titles
+
+
 def read_csv(path):
     if not path.exists():
         return [], []
@@ -187,6 +262,7 @@ def build(data_dir):
                     cell.font = HYPERLINK_FONT
 
     inst = sheets["Institutions"]
+    own_sheet = _institute_sheets(wb, sheets) if inst["header"] else {}
     if inst["header"] and "row_id" in inst["header"]:
         rid_col = inst["header"].index("row_id")
         ws_inst = ws_objs["Institutions"]
@@ -212,6 +288,11 @@ def build(data_dir):
                     continue
                 cell = ws_inst.cell(row=i + 2, column=link_col_idx + 1)
                 if cell.value in (None, ""):
+                    continue
+                if target_sheet in ("Partners", "Campuses") and rid in own_sheet:
+                    # the partner/campus counts open that institute's own sheet, not the list of everyone's
+                    cell.hyperlink = Hyperlink(ref=cell.coordinate, location=f"'{own_sheet[rid]}'!A1")
+                    cell.font = HYPERLINK_FONT
                     continue
                 # A plain string (even "#'Sheet'!A1") makes openpyxl write an EXTERNAL relationship
                 # (TargetMode="External") - confirmed by inspecting the raw XML it produces - which

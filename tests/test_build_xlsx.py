@@ -68,5 +68,46 @@ check("department email sits directly after the personal email",
       inst_new.index("office_email"), inst_new.index("email_scraped") + 1)
 check("institutions reorder drops no columns", set(inst_new), set(inst_header))
 
+# ---- one sheet per institute: only its own partners and campuses ----
+import csv  # noqa: E402
+import tempfile  # noqa: E402
+from openpyxl import load_workbook  # noqa: E402
+
+tmp = Path(tempfile.mkdtemp())
+
+
+def write(name, hdr, data):
+    with open(tmp / name, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.writer(f)
+        w.writerow(hdr)
+        w.writerows(data)
+
+
+write("institutions_enriched.csv", ["row_id", "institution_scraped", "institution_original", "partners_found", "campuses_found"],
+      [["r001", "A College: Arts/Design [Main]", "A", "3", "1"], ["r002", "B College", "B", "2", ""], ["r003", "No Network School", "C", "", ""]])
+write("partners.csv", header, rows)
+write("campuses.csv", ["row_id", "institution", "campus_name", "country", "city", "role", "source_url", "evidence_quote", "verified", "verify_note", "scraped_at"],
+      [["r001", "A College", "North Campus", "Ireland", "Cork", "branch", "https://a.edu/c", "q", "yes", "", ""]])
+write("contacts.csv", ["row_id", "name"], [])
+write("needs_review.csv", ["row_id", "item"], [])
+wb = load_workbook(bx.build(tmp))
+own = [s for s in wb.sheetnames if s not in bx.SHEETS]
+check("one extra sheet per institute that has partners or campuses, none for the one without", len(own), 2)
+check("sheet names are valid for Excel (no forbidden characters, at most 31 long)",
+      all(len(s) <= 31 and not any(ch in s for ch in "[]:*?/\\'") for s in own), True)
+ws1 = wb[own[0]]
+cells = [c for r in ws1.iter_rows(values_only=True) for c in r if c]
+check("an institute's sheet lists its own partners", all(p in cells for p in ("Foreign Uni", "EAEC", "National Uni")), True)
+check("and none of another institute's", any(p in cells for p in ("Another Foreign", "Another National")), False)
+check("its campuses are on the same sheet", "North Campus" in cells, True)
+col_a = [r[0] for r in ws1.iter_rows(values_only=True)]
+check("international partners are listed before national ones", col_a.index("Foreign Uni") < col_a.index("National Uni"), True)
+check("it links back to the institute's row on the main sheet", ws1["A2"].hyperlink.location, "'Institutions'!A2")
+inst_ws = wb["Institutions"]
+hdr = [c.value for c in inst_ws[1]]
+pf = inst_ws.cell(row=2, column=hdr.index("Partners Found") + 1)
+check("the partner count on the main sheet opens that institute's own sheet", pf.hyperlink.location, f"'{own[0]}'!A1")
+check("the full Partners list is still there for filtering", wb["Partners"].max_row, len(rows) + 1)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

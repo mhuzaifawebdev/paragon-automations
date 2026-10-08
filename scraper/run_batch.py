@@ -143,12 +143,16 @@ def norm(s):
     return re.sub(r"[^a-z0-9@.]", "", (s or "").lower())
 
 
+NO_COUNTRY = {"unknown", "n/a", "na", "none", "-", "various", "multiple", "not stated", "not specified"}
+
+
 def partner_scope(partner_type, partner_country, institute_country):
     """International vs National is decided here, deterministically - never by the model, matching
     verify.py's own rule that classification is always code, not self-assessment. A blank-country
     network (a multi-country alliance named as a single partner row) is inherently cross-border, so
     it's classified international directly rather than falling to "Unknown"."""
     pc, ic = verify.normalize(partner_country), verify.normalize(institute_country)
+    pc, ic = ("" if x in NO_COUNTRY else x for x in (pc, ic))     # the word "unknown" is not a country
     if not pc:
         return "International" if (partner_type or "").lower() == "network" else "Unknown"
     if not ic:
@@ -389,7 +393,9 @@ def merge(rows):
             row = {"row_id": r["row_id"], "institution": name, **{
                 k: p.get(k, "") for k in ("partner_name", "partner_country", "partner_type",
                                            "mobility_type", "source_url", "evidence_quote", "confidence")},
-                "partner_scope": partner_scope(p.get("partner_type", ""), p.get("partner_country", ""), country),
+                # the institute's own country: what the scraper confirmed, else what the uploaded sheet says
+                "partner_scope": partner_scope(p.get("partner_type", ""), p.get("partner_country", ""),
+                                               country or r.get("country_sheet", "")),
                 "verified": "yes" if ok else "no", "verify_note": note, "scraped_at": res.get("scraped_at", "")}
             partners.append(row)
             if not ok:

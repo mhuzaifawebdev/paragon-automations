@@ -117,7 +117,12 @@ check("a blank-country network/association is International (inherently cross-bo
 check("a blank-country non-network partner is Unknown, not guessed either way",
       partner_rows["Some School"]["partner_scope"], "Unknown")
 
+check("the word 'unknown' as a partner's country is not treated as a foreign country",
+      rb.partner_scope("university", "unknown", "Ireland"), "Unknown")
+check("a network whose country is 'unknown' is still international",
+      rb.partner_scope("network", "Unknown", "Ireland"), "International")
+
 shutil.rmtree(tmp, ignore_errors=True)
 
-print(f"\n{7 - bad}/7 passed")
+print(f"\n{9 - bad}/9 passed")
 sys.exit(1 if bad else 0)
