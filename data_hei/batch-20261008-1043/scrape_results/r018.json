@@ -1,0 +1,122 @@
+{
+ "row_id": "r018",
+ "scraped_at": "2026-10-08T17:50:59Z",
+ "contacts": {
+  "row_id": "r018",
+  "institution_name": "TECHNISCHE HOCHSCHULE WILDAU",
+  "institution_type": "university",
+  "official_website": "https://www.th-wildau.de/",
+  "country": {
+   "value": "Germany",
+   "source_url": "https://en.th-wildau.de/",
+   "evidence_quote": "15745 Wildau, Germany"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Dipl.-Wirtsch.infor. (FH) Carolina Maria Winkler",
+   "designation": "Ihre Ansprechperson für den Studierendenaustausch (Incoming)",
+   "designation_local": "",
+   "email": "carolina.winkler@th-wildau.de",
+   "office_email": "",
+   "phone": "+49 3375 508 378",
+   "source_url": "https://www.th-wildau.de/hochschule/zentrale-einrichtungen/zentrum-fuer-internationale-angelegenheiten/international-office/internationale-partnerschaften",
+   "evidence_quote": "Ihre Ansprechperson für den Studierendenaustausch (Incoming) ... Dipl.-Wirtsch.infor. (FH) Carolina Maria Winkler"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. She is the contact person for incoming student exchange.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "WH Zwickau",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.th-wildau.de/",
+    "evidence_quote": "Hochschulübergreifende Kooperation für Mobilität der Zukunft: TH Wildau und WH Zwickau erweitern Angebot des Verkehrswissenschaftlichen Kolloquium",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UCTM Sofia",
+    "partner_country": "Bulgaria",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.th-wildau.de/hochschule/zentrale-einrichtungen/zentrum-fuer-internationale-angelegenheiten/international-office",
+    "evidence_quote": "Erfolgsmodell europäischer Zusammenarbeit: Kooperation der TH Wildau und der UCTM Sofia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Initiative FDM-BB",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.th-wildau.de/forschung-und-transfer/beratung-und-foerderung/forschungsdatenmanagement",
+    "evidence_quote": "Landesinitiative FDM-BB",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FDM-BB",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.th-wildau.de/forschung-und-transfer/beratung-und-foerderung/forschungsdatenmanagement",
+    "evidence_quote": "Die TH Wildau ist gemeinsam mit weiteren brandenburger Hochschulen Mitglied der Initiative FDM-BB(Forschungsdatenmanagement in Brandenburg). Die Webseite der Initiative bietet eine Übersicht über die Aufgaben und Erfolge der Initiative sowie hilfreicher Tools und Materialien.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VBB",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.th-wildau.de/kontakt-anfahrt",
+    "evidence_quote": "Fahrplanauskunft des VBB",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsche Bahn",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.th-wildau.de/kontakt-anfahrt",
+    "evidence_quote": "Fahrplanauskunft der Deutschen Bahn",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Wildau Campus",
+    "city": "Wildau",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.th-wildau.de/hochschule/ueber-uns/campus",
+    "evidence_quote": "Die TH Wildau ist eine Campushochschule – die Lehr- und Verwaltungsgebäude, die Mensa und die Bibliothek befinden sich auf einem zusammenhängenden Gelände am S-Bahnhof Wildau mit direkter Anbindung nach Berlin. Damit ist das Studieren in Wildau besonders komfortabel, denn es gibt keine langen Wege, die zwischen den Lehrveranstaltungen zurückzulegen sind."
+   }
+  ],
+  "stated_total": 75,
+  "stated_total_quote": "Die Technische Hochschule Wildau (TH Wildau) pflegt seit ihrer Gründung 1991 zahlreiche internationale Partnerschaften. Aktuell kooperiert sie mit rund 75 Hochschulen in über 60 Ländern weltweit.",
+  "stated_total_url": "https://www.th-wildau.de/hochschule/zentrale-einrichtungen/zentrum-fuer-internationale-angelegenheiten/international-office/internationale-partnerschaften",
+  "truncated": true,
+  "total_seen": 75,
+  "pages_read": 10,
+  "coverage_note": "The complete list of over 75 partner universities is missing from the provided text, with only WH Zwickau and UCTM Sofia being explicitly named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 16.9,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 146.7,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 167.7
+ }
+}

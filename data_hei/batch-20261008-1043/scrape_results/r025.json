@@ -1,0 +1,97 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-08T17:51:25Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "Duale Hochschule Baden-Württemberg Lörrach",
+  "institution_type": "university",
+  "official_website": "https://dhbw-loerrach.de/home",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université de Haute Alsace – UHA",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://dhbw-loerrach.de/ibm/studieninhalte-profil",
+    "evidence_quote": "Der Studiengang International Business Management (IBM) Trinational vermittelt betriebswirtschaftliche und interkulturelle Kompetenzen. Ein besonderes Merkmal des Studiengangs stellt das grenzüberschreitende Konzept dar. Das heißt, das mehrsprachige Studium wird gemeinsam mit den beiden Partnerhochschulen Université de Haute Alsace – UHA in Colmar (Frankreich) und der Fachhochschule Nordwestschweiz – FHNW in Basel (Schweiz) durchgeführt.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fachhochschule Nordwestschweiz – FHNW",
+    "partner_country": "Switzerland",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://dhbw-loerrach.de/ibm/studieninhalte-profil",
+    "evidence_quote": "Der Studiengang International Business Management (IBM) Trinational vermittelt betriebswirtschaftliche und interkulturelle Kompetenzen. Ein besonderes Merkmal des Studiengangs stellt das grenzüberschreitende Konzept dar. Das heißt, das mehrsprachige Studium wird gemeinsam mit den beiden Partnerhochschulen Université de Haute Alsace – UHA in Colmar (Frankreich) und der Fachhochschule Nordwestschweiz – FHNW in Basel (Schweiz) durchgeführt.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsch-Französische Hochschule (DFH)",
+    "partner_country": "France/Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://dhbw-loerrach.de/forschung/wissenstransfer-kooperationen",
+    "evidence_quote": "Deutsch-Französische Hochschule (DFH)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Standort Hangstraße",
+    "city": "Lörrach",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://dhbw-loerrach.de/kontakt/standorte#inhalt",
+    "evidence_quote": "Standort Hangstraße"
+   },
+   {
+    "campus_name": "Standort Marie-Curie-Straße (KBC)",
+    "city": "Lörrach",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://dhbw-loerrach.de/kontakt/standorte#inhalt",
+    "evidence_quote": "Standort Marie-Curie-Straße (KBC)"
+   },
+   {
+    "campus_name": "Standort Vitra Campus",
+    "city": "Weil am Rhein",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://dhbw-loerrach.de/kontakt/standorte#inhalt",
+    "evidence_quote": "Standort Vitra Campus"
+   }
+  ],
+  "stated_total": 750,
+  "stated_total_quote": "Die DHBW Lörrach arbeitet mit mehr als 750 Unternehmen aus Deutschland, der Schweiz und Frankreich zusammen. Als Mitglieder der Hochschule wirken unsere Dualen Partner in vielfältiger Weise an der Gestaltung von Studium und Lehre mit. Wir haben auf dieser Seite die wichtigsten Informationen und Dokumente für die Duale Partnerschaft zusammengestellt. Weitere Informationen und Tipps finden Sie auch in unseren Begleitinformationen für Duale Partner.",
+  "stated_total_url": "https://dhbw-loerrach.de/dualepartner/dualer-partner-sein",
+  "truncated": true,
+  "total_seen": 750,
+  "pages_read": 10,
+  "coverage_note": "The website mentions an International Office but does not list specific staff names or contact details for the coordinators. A full list of Erasmus partner universities is not provided in the text. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.5,
+  "crawl_s": 16.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 11.4,
+  "mode": "gemini",
+  "total_seconds": 32.8
+ }
+}
