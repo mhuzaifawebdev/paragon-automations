@@ -61,7 +61,32 @@ PARTNER_PRIORITY_COLUMNS = ["partner_name", "partner_country", "partner_scope", 
                             "mobility_type", "confidence", "verified", "row_id", "institution"]
 # International partners are the client's priority - rank them first within each institute's own
 # block of partners, so scanning down the sheet doesn't bury them under domestic ones.
-SCOPE_RANK = {"International": 0, "Unknown": 1, "National": 2}
+SCOPE_RANK = {"International": 0, "Unknown": 1, "Country not stated": 1, "National": 2}
+
+
+def _drop_national(sheets):
+    """The client only wants international collaboration: partners in the institute's own country are left out
+    of the Excel (they stay in partners.csv). Partners whose country the page did not state are kept, labelled as
+    such and listed after the international ones, because many of them are foreign. The 'Partners Found' count
+    on the Institutions sheet is recounted to match what is shown."""
+    par, inst = sheets["Partners"], sheets["Institutions"]
+    if "partner_scope" not in par["header"] or "row_id" not in par["header"]:
+        return
+    s, r = par["header"].index("partner_scope"), par["header"].index("row_id")
+    kept, counts = [], {}
+    for row in par["rows"]:
+        if row[s] == "National":
+            continue
+        row = list(row)
+        row[s] = "Country not stated" if row[s] == "Unknown" else row[s]
+        kept.append(row)
+        counts[row[r]] = counts.get(row[r], 0) + 1
+    par["rows"] = kept
+    if "partners_found" in inst["header"] and "row_id" in inst["header"]:
+        pf, rid = inst["header"].index("partners_found"), inst["header"].index("row_id")
+        for row in inst["rows"]:
+            if row[pf] not in ("", None):
+                row[pf] = str(counts.get(row[rid], 0))
 
 # Raw CSV header -> a label a non-technical team member can read at a glance. Anything not listed
 # falls back to a prettified version of its raw name (see _prettify) rather than being left as
@@ -72,7 +97,7 @@ FRIENDLY_LABELS = {
     "confidence": "Confidence", "contact_verified": "Contact Verified?",
     "needs_human_check": "Needs Review?", "official_website": "Website",
     "institution_type": "Institution Type", "country_scraped": "Country",
-    "partners_found": "Partners Found", "campuses_found": "Campuses Found",
+    "partners_found": "International Partners Found", "campuses_found": "Campuses Found",
     "institution_original": "Institution Name (as given)", "country_original": "Country (as given)",
     "phone_original": "Phone (as given)", "person_original": "Contact Person (as given)",
     "designation_original": "Designation (as given)", "email_original": "Email (as given)",
@@ -196,7 +221,7 @@ def _institute_sheets(wb, sheets):
         ws.append(["← Back to all institutes"])
         ws["A2"].hyperlink = Hyperlink(ref="A2", location=f"'Institutions'!A{n}")
         ws["A2"].font = HYPERLINK_FONT
-        for heading, view, items in ((f"Partners ({len(ps)}) - international first", PARTNER_VIEW, ps),
+        for heading, view, items in ((f"International partners ({len(ps)}) - those with no country stated are last", PARTNER_VIEW, ps),
                                      (f"Campuses ({len(cs)})", CAMPUS_VIEW, cs)):
             if not items:
                 continue
@@ -233,6 +258,7 @@ def build(data_dir):
         header, rows = read_csv(data_dir / filename)
         sheets[name] = {"header": header, "rows": rows}
 
+    _drop_national(sheets)
     wb = Workbook()
     wb.remove(wb.active)
     ws_objs = {}

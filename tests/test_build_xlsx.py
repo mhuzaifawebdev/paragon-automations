@@ -97,17 +97,21 @@ check("sheet names are valid for Excel (no forbidden characters, at most 31 long
       all(len(s) <= 31 and not any(ch in s for ch in "[]:*?/\\'") for s in own), True)
 ws1 = wb[own[0]]
 cells = [c for r in ws1.iter_rows(values_only=True) for c in r if c]
-check("an institute's sheet lists its own partners", all(p in cells for p in ("Foreign Uni", "EAEC", "National Uni")), True)
+check("an institute's sheet lists its own international partners", all(p in cells for p in ("Foreign Uni", "EAEC")), True)
+check("partners in the institute's own country are left out", "National Uni" in cells, False)
 check("and none of another institute's", any(p in cells for p in ("Another Foreign", "Another National")), False)
 check("its campuses are on the same sheet", "North Campus" in cells, True)
-col_a = [r[0] for r in ws1.iter_rows(values_only=True)]
-check("international partners are listed before national ones", col_a.index("Foreign Uni") < col_a.index("National Uni"), True)
 check("it links back to the institute's row on the main sheet", ws1["A2"].hyperlink.location, "'Institutions'!A2")
 inst_ws = wb["Institutions"]
 hdr = [c.value for c in inst_ws[1]]
-pf = inst_ws.cell(row=2, column=hdr.index("Partners Found") + 1)
+pf = inst_ws.cell(row=2, column=hdr.index("International Partners Found") + 1)
+check("the count on the main sheet is recounted without national partners", pf.value, "2")
 check("the partner count on the main sheet opens that institute's own sheet", pf.hyperlink.location, f"'{own[0]}'!A1")
-check("the full Partners list is still there for filtering", wb["Partners"].max_row, len(rows) + 1)
+check("the full Partners list has no national partners either", wb["Partners"].max_row, 1 + sum(1 for r in rows if r[9] != "National"))
+unk_h = ["row_id", "partner_name", "partner_scope"]
+unk = {"Partners": {"header": unk_h, "rows": [["r1", "X", "Unknown"], ["r1", "Y", "National"]]}, "Institutions": {"header": [], "rows": []}}
+bx._drop_national(unk)
+check("a partner with no country stated is kept, and labelled so", unk["Partners"]["rows"], [["r1", "X", "Country not stated"]])
 
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
