@@ -23,6 +23,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import yaml
 
@@ -30,6 +31,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scraper2"))
 sys.path.insert(0, str(ROOT / "scraper"))
 import discover  # noqa: E402
+import import_batch  # noqa: E402
 import pipeline  # noqa: E402
 import run_batch  # noqa: E402
 from run import load_cfg, load_env  # noqa: E402
@@ -93,11 +95,52 @@ def write_progress(data_dir, batch, status, queue, done_ids, chunk_no, total_chu
         "paid_search_limit_reached": not discover.budget_left(),
         "paid_searches": discover.SEARCH_USAGE["searches"], "haiku_fallback_calls": discover.SEARCH_USAGE["reader_calls"],
         "cost_usd_projected_total": round(sum(costs) / max(len(done_ids), 1) * len(queue), 2) if done_ids else None,
+        "ai_calls": STATS["ai_calls"],
         "confidence": confidence_counts, "partners_found": total_partners, "campuses_found": total_campuses,
         "recent": [r["row_id"] for r in enriched if r["row_id"] in done_ids][-20:],
     }
     _progress_path(data_dir).write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     return data
+
+
+STATS = {"ai_calls": 0}      # AI calls made by this batch so far (carried across chunks through progress.json)
+
+
+def _site_host(row):
+    """The website the sheet gives for this row (a URL column, else the email's domain), or ''."""
+    for u in (row.get("seed_urls") or "").split():
+        host = urlparse(u).netloc.lower()
+        if host:
+            return host[4:] if host.startswith("www.") else host
+    email = (row.get("email") or "").strip().lower()
+    return email.split("@", 1)[1].split()[0].strip(";,") if "@" in email else ""
+
+
+def mark_repeats(rows, results_dir):
+    """An institute listed more than once in the file is scraped once: later rows get the `.duplicate` marker
+    that run_batch.merge() already understands (it gives them the first row's result and fills 'Duplicate Of').
+    Rows are the same institute only when name AND country AND website all match - two schools that merely share
+    a name, or two institutes that share a website, are never merged. Returns the row_ids marked now or earlier."""
+    first, repeats = {}, set()
+    for r in rows:
+        name = import_batch._norm(r.get("institution_name"))
+        if not name:
+            continue
+        key = (name, import_batch._norm(r.get("country_sheet")), _site_host(r))
+        rid, marker = r["row_id"], results_dir / f"{r['row_id']}.duplicate"
+        if key not in first:
+            first[key] = rid
+        elif marker.exists():
+            repeats.add(rid)
+        elif not (results_dir / f"{rid}.json").exists():        # never undo a result that was already scraped
+            marker.write_text(first[key], encoding="utf-8")
+            repeats.add(rid)
+    return repeats
+
+
+def merge_gap(last_merge_seconds, floor):
+    """Seconds to leave between full merges: never less than `floor`, and at least 4x what the last one took."""
+    return max(floor, 4 * last_merge_seconds)
 
 
 def _read_csv(path):
@@ -134,6 +177,7 @@ def run_chunk(rows, cfg, workers, results_dir, on_row_done=None):
                 (results_dir / f"{rid}.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
                 timings.append(res["timing"].get("total_seconds", 0))
                 costs.append(res["timing"].get("cost_usd_estimate", 0))
+                STATS["ai_calls"] += res["timing"].get("ai_calls", 0)
                 done_ids.append(rid)
                 if on_row_done:
                     on_row_done(timings, costs, done_ids)
@@ -187,8 +231,12 @@ def main():
 def _run(a, data_dir, results_dir, cfg):
     if True:
         rows = run_batch.read_numbers()
-        already_done = {r["row_id"] for r in rows if (results_dir / f"{r['row_id']}.json").exists()}
+        repeats = mark_repeats(rows, results_dir)
+        if repeats:
+            print(f"{len(repeats)} row(s) repeat an institute already in this file - scraped once, result shared", flush=True)
+        already_done = {r["row_id"] for r in rows if (results_dir / f"{r['row_id']}.json").exists()} | repeats
         prior = json.loads(_progress_path(data_dir).read_text(encoding="utf-8")) if _progress_path(data_dir).exists() else {}
+        STATS["ai_calls"] = prior.get("ai_calls", 0)
         started_at = time.time() - prior.get("elapsed_seconds", 0)
         all_timings, all_costs = [], []
         total_chunks = max(1, -(-len(rows) // a.chunk_size))
@@ -206,7 +254,7 @@ def _run(a, data_dir, results_dir, cfg):
         # time, not row count. The unconditional merge() at chunk end (below) guarantees correctness
         # regardless of what this throttle skipped.
         CHECKPOINT_MIN_INTERVAL = 8
-        checkpoint_state = {"last": 0.0}
+        checkpoint_state = {"last": 0.0, "merged_at": 0.0, "merge_took": 0.0}
 
         while todo:
             chunk_no += 1
@@ -222,7 +270,13 @@ def _run(a, data_dir, results_dir, cfg):
                 if now - checkpoint_state["last"] < CHECKPOINT_MIN_INTERVAL:
                     return
                 checkpoint_state["last"] = now
-                run_batch.merge(rows)
+                # The full merge costs more the bigger the batch gets, and every worker waits while it runs
+                # (it is called under run_chunk's lock). Spacing it at 4x its own duration keeps it to a fifth
+                # of the time at any batch size; the progress counter below is still refreshed every 8 seconds.
+                if now - checkpoint_state["merged_at"] >= merge_gap(checkpoint_state["merge_took"], CHECKPOINT_MIN_INTERVAL):
+                    run_batch.merge(rows)
+                    checkpoint_state["merge_took"] = time.time() - now
+                    checkpoint_state["merged_at"] = time.time()
                 write_progress(data_dir, a.batch, "running", rows, _base | set(done_ids), chunk_no,
                                total_chunks, all_timings + timings, all_costs + costs, started_at)
 

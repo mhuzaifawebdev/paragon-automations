@@ -373,7 +373,7 @@ def extract_partner_slices(inst, pack, provider, model):
     """Partners-only model calls over list-like slices, in parallel. Returns ({partners, stated, cost}, slices_missed)."""
     from concurrent.futures import ThreadPoolExecutor
     wins = partner_windows(pack)
-    out = {"partners": [], "stated": {"value": 0, "line": 0}, "cost": 0.0}
+    out = {"partners": [], "stated": {"value": 0, "line": 0}, "cost": 0.0, "calls": len(wins)}
     if not wins:
         return out, 0
     missed = 0
@@ -451,8 +451,11 @@ def scrape(row, cfg):
         data = rank.extract(pack, inst)
         mode = "rules"
     slice_note = ""
+    timing["ai_calls"] = 1 if mode == provider and provider != "rules" else 0
     if mode == provider and provider != "rules":
         extra, missed = extract_partner_slices(inst, pack, provider, cfg.get("model") or None)
+        timing["partner_calls"] = extra["calls"]
+        timing["ai_calls"] += extra["calls"]
         data["partners"] = list(data.get("partners") or []) + extra["partners"]
         st = extra["stated"]
         if st.get("value", 0) > (data.get("partners_stated_total") or {}).get("value", 0):

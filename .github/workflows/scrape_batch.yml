@@ -166,9 +166,18 @@ jobs:
             --batch "$BATCH" --chunk-size "$CHUNK_SIZE" --provider "$PROVIDER" --once &
           RUNNER_PID=$!
 
+          # Every 60s (not 20s), and only the small files: the progress counter, the paid-usage total and each
+          # institute's own result. The big merged CSVs (partners.csv is ~16 MB at 1,000 institutes) are
+          # committed once, by the next step. Nothing is lost on a crash: the merged files are rebuilt from
+          # the per-institute results, which are what gets saved here.
           while kill -0 $RUNNER_PID 2>/dev/null; do
-            sleep 20
-            if git add "data_hei/$BATCH" 2>/dev/null && ! git diff --cached --quiet; then
+            for i in $(seq 12); do
+              if kill -0 $RUNNER_PID 2>/dev/null; then sleep 5; fi
+            done
+            for p in progress.json paid_usage.json websites.csv scrape_results; do
+              if [ -e "data_hei/$BATCH/$p" ]; then git add "data_hei/$BATCH/$p"; fi
+            done
+            if ! git diff --cached --quiet; then
               git commit -m "scrape $BATCH: progress update [automated]" -q
               git pull --rebase --autostash -q || true
               git push -q || echo "(live progress push failed, non-fatal - the final commit after this chunk will still catch up)"
