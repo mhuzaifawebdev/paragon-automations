@@ -1,0 +1,80 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-10-08T17:48:46Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "FORSVARSHOGSKOLAN",
+  "institution_type": "university",
+  "official_website": "https://www.fhs.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Robert Egnell",
+   "designation": "Rektor",
+   "designation_local": "",
+   "email": "Robert.Egnell@fhs.se",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.fhs.se/",
+   "evidence_quote": "[Robert Egnell.] ... Rektorsblogg",
+   "email_source_url": "https://www.fhs.se/sc/profile-page.html?identity=400.2f47e5cb1614247fda145670"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Robert Egnell is the Rektor (Principal) of the institution and is the contact currently on file. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Försvarshögskolan Stockholm",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.fhs.se/om-forsvarshogskolan/kontakta-oss.html",
+    "evidence_quote": "Försvarshögskolan Stockholm"
+   },
+   {
+    "campus_name": "Försvarshögskolan Karlberg",
+    "city": "Solna",
+    "country": "Sweden",
+    "role": "branch",
+    "source_url": "https://www.fhs.se/om-forsvarshogskolan/kontakta-oss.html",
+    "evidence_quote": "Försvarshögskolan Karlberg"
+   },
+   {
+    "campus_name": "Försvarshögskolan Karlstad",
+    "city": "Karlstad",
+    "country": "Sweden",
+    "role": "branch",
+    "source_url": "https://www.fhs.se/om-forsvarshogskolan/kontakta-oss.html",
+    "evidence_quote": "Försvarshögskolan Karlstad"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence provides contact information for international student exchanges but does not list specific partner institutions or a total count of agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 6.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 46.2,
+  "mode": "gemini",
+  "email_search_s": 3.3,
+  "total_seconds": 57.4
+ }
+}
