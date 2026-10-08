@@ -1,1 +1,31 @@
-{"batch": "batch-20261008-1043", "status": "running", "generated_at": "2026-10-08T17:43:45.365082+00:00", "total_rows": 55, "done": 0, "pending": 55, "chunk": 1, "total_chunks": 3, "confidence": {"high": 0, "medium": 0, "low": 0, "none": 0}, "recent": []}
+{
+ "batch": "batch-20261008-1043",
+ "status": "running",
+ "generated_at": "2026-10-08T17:44:29.044489+00:00",
+ "chunk": 2,
+ "total_chunks": 3,
+ "total_rows": 55,
+ "done": 5,
+ "pending": 50,
+ "elapsed_seconds": 42,
+ "eta_seconds": 2080,
+ "cost_usd_so_far": 0.0,
+ "paid_search_usd": 0.0,
+ "paid_search_limit_usd": 3.0,
+ "paid_search_limit_reached": false,
+ "paid_searches": 0,
+ "haiku_fallback_calls": 0,
+ "cost_usd_projected_total": 0.0,
+ "ai_calls": 6,
+ "confidence": {
+  "high": 0,
+  "medium": 0,
+  "low": 0,
+  "none": 5
+ },
+ "partners_found": 49,
+ "campuses_found": 5,
+ "recent": [
+  "r003"
+ ]
+}
