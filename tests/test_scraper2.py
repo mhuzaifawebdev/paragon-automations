@@ -331,6 +331,42 @@ asked.clear()
 llm._GEMINI_RESTING["gemini-3.1-flash-lite"] = 0
 llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
 check("after the rest period it is tried again", asked[0], "gemini-3.1-flash-lite")
+
+# paid safety net: Claude Haiku reads only when every Gemini model refuses, and only inside the batch's cap
+real_claude = llm._claude_api
+haiku_calls = []
+llm._claude_api = lambda system, user, model, timeout, schema=None: (
+    haiku_calls.append(model) or ({"contacts": [], "partners": []}, {"seconds": 1.0, "cost_usd_estimate": 0.03, "in_tokens": 20000, "out_tokens": 1000}))
+llm._post = lambda url, headers, body, timeout, retries=3: (_ for _ in ()).throw(llm.LLMError("HTTP 429: quota exceeded"))
+os.environ["ANTHROPIC_API_KEY"] = "test-key"
+
+
+def _reader():
+    try:
+        return llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)[1].get("model_used")
+    except llm.LLMError:
+        return "raised"
+
+
+llm._GEMINI_RESTING.clear(); llm.FALLBACK["enabled"] = False; discover.set_budget(1.0)
+check("fallback switched off: an exhausted Gemini is an error, nothing is paid for", (_reader(), haiku_calls), ("raised", []))
+llm._GEMINI_RESTING.clear(); llm.FALLBACK["enabled"] = True; discover.set_budget(None)
+check("no spending cap set: the paid fallback never runs", (_reader(), haiku_calls), ("raised", []))
+llm._GEMINI_RESTING.clear(); discover.set_budget(0.04)
+check("Gemini exhausted, cap set: Claude Haiku reads the call", _reader(), "claude-haiku-4-5")
+check("that call is counted against the batch cap (20k in + 1k out = $0.025)",
+      (discover.SEARCH_USAGE["reader_calls"], discover.spent_usd()), (1, 0.025))
+asked.clear(); llm._post = _quota_post
+check("while every Gemini model is resting, Haiku is used without asking Gemini again", (_reader(), asked), ("claude-haiku-4-5", []))
+check("cap reached ($0.05 of $0.04): Haiku stops, Gemini is tried again instead", (discover.budget_left(), _reader()), (False, "gemini-3.5-flash-lite"))
+llm._GEMINI_RESTING.clear(); discover.set_budget(1.0); haiku_calls.clear(); asked.clear()
+llm._post = lambda url, headers, body, timeout, retries=3: {"candidates": [{"content": {"parts": [{"text": '{"contacts": [], "partners": []}'}]}}]}
+check("Gemini available again: it reads, and nothing is paid for", (_reader(), haiku_calls), ("gemini-3.1-flash-lite", []))
+llm._claude_api = real_claude
+llm.FALLBACK["enabled"] = False
+discover.set_budget(None)
+os.environ.pop("ANTHROPIC_API_KEY") if old_key is None else os.environ.__setitem__("ANTHROPIC_API_KEY", old_key)
+
 llm._post = real_post2
 llm._GEMINI_RESTING.clear()
 os.environ.pop("GEMINI_API_KEY") if old_gkey is None else os.environ.__setitem__("GEMINI_API_KEY", old_gkey)

@@ -141,4 +141,5 @@ scraper:
   discover_with_search: true    # free web search for sites the other free tiers cannot find
   claude_site_search: false     # paid Claude web search for missing websites. Off: a 25-row trial recovered few sites and accepted a directory
   email_web_search: true        # web search for a contact's own email when only a shared inbox was found
-  max_paid_usd_per_batch: 3.0   # hard cap on paid Claude web searches per batch (about $0.02 each); free sources continue after it
+  haiku_fallback: true          # when every Gemini model refuses (free quota used up), Claude Haiku reads that call instead
+  max_paid_usd_per_batch: 3.0   # hard cap per batch on ALL paid Claude use (email searches + Haiku fallback); free sources continue after it

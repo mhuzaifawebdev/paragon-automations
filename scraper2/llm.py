@@ -118,6 +118,7 @@ def build_user(institute, pack):
 
 PRICES = {  # USD per million tokens (input, output); public list prices, used only for the cost ESTIMATE
     "claude-haiku-4-5-20251001": (1.0, 5.0),
+    "claude-haiku-4-5": (1.0, 5.0),
     "claude-sonnet-5": (3.0, 15.0),
 }
 
@@ -190,8 +191,35 @@ def _claude_cli(system, user, model, timeout, schema=None):
 
 
 GEMINI_FALLBACKS = ["gemini-3.5-flash-lite", "gemini-3.5-flash"]     # tried when the chosen model is overloaded
-GEMINI_REST_SECONDS = 600
+GEMINI_REST_SECONDS = 120                                             # a per-minute limit clears well inside this
 _GEMINI_RESTING = {}                                                  # model -> time until which it is skipped
+
+# The paid safety net behind the free reader. Off unless a batch switches it on, and it never runs without a
+# spending cap: it is used only when every Gemini model has just refused, and each call is counted against
+# the batch's cap (discover.BUDGET), shared with the paid web searches.
+FALLBACK = {"enabled": False, "model": "claude-haiku-4-5"}
+_fallback_said = {"until": 0.0}
+
+
+def _paid_fallback(system, user, timeout, schema, why):
+    """One Claude Haiku call in place of a Gemini call that could not be made. Returns None when it must not or
+    cannot be used (switched off, no key, no cap set, cap reached, or the call itself failed)."""
+    import discover
+    if not (FALLBACK["enabled"] and os.environ.get("ANTHROPIC_API_KEY")
+            and discover.BUDGET["limit"] is not None and discover.budget_left()):
+        return None
+    try:
+        data, meta = _claude_api(system, user, FALLBACK["model"], timeout, schema)
+    except LLMError as e:
+        print(f"(Claude Haiku fallback failed: {str(e)[:160]})", file=sys.stderr, flush=True)
+        return None
+    discover.record_reader(meta.get("in_tokens") or 0, meta.get("out_tokens") or 0)
+    if _fallback_said["until"] <= time.time():
+        _fallback_said["until"] = time.time() + GEMINI_REST_SECONDS
+        print(f"(Gemini unavailable: {why} - Claude Haiku is reading instead; spent ${discover.spent_usd():.2f} "
+              f"of ${discover.BUDGET['limit']:.2f})", file=sys.stderr, flush=True)
+    # the cost is counted once, in the batch's paid total, so it is not repeated in the per-call estimate
+    return data, {**meta, "cost_usd_estimate": 0.0, "model_used": FALLBACK["model"], "fallback": why}
 
 
 def _gemini(system, user, model, timeout, schema=None):
@@ -203,7 +231,12 @@ def _gemini(system, user, model, timeout, schema=None):
     models = list(dict.fromkeys([model] + GEMINI_FALLBACKS))
     # A model that answered 429 has run out of free-tier quota: retrying it only burns time (measured: 26 of 33
     # calls refused, each one waiting over a minute before the fallback was tried). Rest it and go straight on.
-    for m in [x for x in models if _GEMINI_RESTING.get(x, 0) <= time.time()] or models:
+    awake = [x for x in models if _GEMINI_RESTING.get(x, 0) <= time.time()]
+    if not awake:                                     # every Gemini model refused within the last two minutes
+        paid = _paid_fallback(system, user, timeout, schema, "out of free quota")
+        if paid:
+            return paid
+    for m in awake or models:
         try:
             resp = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={key}", {},
                          {"systemInstruction": {"parts": [{"text": system}]},
@@ -223,6 +256,9 @@ def _gemini(system, user, model, timeout, schema=None):
                 raise                                   # a real error (bad key, bad request): do not hide it
         except Exception as e:
             raise LLMError(f"unreadable Gemini reply: {e}")
+    paid = _paid_fallback(system, user, timeout, schema, "all Gemini models refused or overloaded")
+    if paid:
+        return paid
     raise last
 
 

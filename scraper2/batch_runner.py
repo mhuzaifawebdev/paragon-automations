@@ -91,6 +91,7 @@ def write_progress(data_dir, batch, status, queue, done_ids, chunk_no, total_chu
         "cost_usd_so_far": round(sum(costs) + discover.spent_usd(), 4),
         "paid_search_usd": discover.spent_usd(), "paid_search_limit_usd": discover.BUDGET["limit"],
         "paid_search_limit_reached": not discover.budget_left(),
+        "paid_searches": discover.SEARCH_USAGE["searches"], "haiku_fallback_calls": discover.SEARCH_USAGE["reader_calls"],
         "cost_usd_projected_total": round(sum(costs) / max(len(done_ids), 1) * len(queue), 2) if done_ids else None,
         "confidence": confidence_counts, "partners_found": total_partners, "campuses_found": total_campuses,
         "recent": [r["row_id"] for r in enriched if r["row_id"] in done_ids][-20:],
@@ -174,6 +175,7 @@ def main():
     # Paid web searches are capped per BATCH, not per job: the total is kept in the batch folder so every chunk
     # (a separate GitHub job) continues from what the earlier ones already spent.
     discover.set_budget(float(cfg.get("max_paid_usd_per_batch", 3.0)), data_dir / "paid_usage.json")
+    pipeline.llm.FALLBACK["enabled"] = bool(cfg.get("haiku_fallback", True))   # only ever acts inside the cap above
 
     try:
         with batch_lock(data_dir):

@@ -262,7 +262,7 @@ def _gemini_urls(prompt, limit=5):
 
 
 SEARCH_MODEL = "claude-haiku-4-5"
-SEARCH_USAGE = {"searches": 0, "input_tokens": 0, "output_tokens": 0}     # running totals, for cost reporting
+SEARCH_USAGE = {"searches": 0, "input_tokens": 0, "output_tokens": 0, "reader_calls": 0}   # running paid totals
 SEARCH_PRICE = {"search": 0.01, "input_per_m": 1.0, "output_per_m": 5.0}   # USD: $10 per 1,000 searches + Haiku 4.5 tokens
 BUDGET = {"limit": None, "file": None}
 _usage_lock = threading.Lock()
@@ -286,6 +286,25 @@ def set_budget(limit_usd, path=None):
             SEARCH_USAGE.update({k: int(saved.get(k, 0)) for k in SEARCH_USAGE})
         except Exception:
             pass
+
+
+def _save_usage():
+    if BUDGET["file"]:
+        try:
+            BUDGET["file"].write_text(json.dumps({**SEARCH_USAGE, "spent_usd": spent_usd(), "limit_usd": BUDGET["limit"]}),
+                                      encoding="utf-8")
+        except Exception:
+            pass
+
+
+def record_reader(input_tokens, output_tokens):
+    """A Claude Haiku call that stood in for the free reader (llm._paid_fallback): same model, same prices,
+    same cap as the web searches."""
+    with _usage_lock:
+        SEARCH_USAGE["reader_calls"] += 1
+        SEARCH_USAGE["input_tokens"] += input_tokens
+        SEARCH_USAGE["output_tokens"] += output_tokens
+        _save_usage()
 
 
 def budget_left():
@@ -318,12 +337,7 @@ def _claude_urls(prompt, limit=5):
         SEARCH_USAGE["searches"] += (u.get("server_tool_use") or {}).get("web_search_requests", 0)
         SEARCH_USAGE["input_tokens"] += u.get("input_tokens", 0)
         SEARCH_USAGE["output_tokens"] += u.get("output_tokens", 0)
-        if BUDGET["file"]:
-            try:
-                BUDGET["file"].write_text(json.dumps({**SEARCH_USAGE, "spent_usd": spent_usd(), "limit_usd": BUDGET["limit"]}),
-                                          encoding="utf-8")
-            except Exception:
-                pass
+        _save_usage()
     urls = []
     for block in resp.get("content", []):
         results = block.get("content") if block.get("type") == "web_search_tool_result" else None
