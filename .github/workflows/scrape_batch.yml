@@ -199,6 +199,12 @@ jobs:
         if: steps.cancelcheck.outputs.cancelled != 'true'
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+          # Google Drive delivery (scraper2/drive_upload.py). All optional: with none set, nothing is uploaded.
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
         run: |
           PENDING=$(python -c "import json; print(json.load(open('data_hei/$BATCH/progress.json')).get('pending', 0))")
           echo "Pending rows: $PENDING"
@@ -220,9 +226,12 @@ jobs:
             fi
           else
             python scraper2/build_xlsx.py --batch "$BATCH"
+            # Puts the Excel file in the client's Google Drive and records the link (or the reason it failed)
+            # in progress.json. It never fails the batch: the download button works either way.
+            python scraper2/drive_upload.py --batch "$BATCH" || echo "(Google Drive upload step crashed, non-fatal)"
             git config user.name "paragon-scraper-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add "data_hei/$BATCH/results.xlsx"
+            git add "data_hei/$BATCH/results.xlsx" "data_hei/$BATCH/progress.json"
             git diff --cached --quiet || git commit -m "scrape $BATCH: built results.xlsx [automated]"
             git pull --rebase --autostash -q
             git push

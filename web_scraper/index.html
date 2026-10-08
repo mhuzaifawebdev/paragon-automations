@@ -181,6 +181,8 @@
       <div class="kpis" id="p-kpis" style="margin-top:16px"></div>
       <div class="conf-row" id="p-conf"></div>
       <button id="p-download" style="display:none">Download results (.xlsx)</button>
+      <a id="p-drive" class="mono" target="_blank" rel="noopener" style="display:none;margin-top:10px">Open in Google Drive</a>
+      <div class="msg" id="p-drive-msg"></div>
       <button id="p-cancel" class="secondary" style="display:none">Cancel this batch</button>
       <div class="msg" id="p-cancel-msg"></div>
     </div>
@@ -534,6 +536,14 @@ function renderProgress(d) {
   } else {
     dl.style.display = "none";
   }
+
+  // Google Drive delivery: the finished file's link, or why it could not be delivered (the download still works).
+  const drive = $("p-drive"), driveMsg = $("p-drive-msg");
+  const driveOk = status === "done" && /^https:\/\/(drive|docs)\.google\.com\//.test(d.drive_link || "");
+  drive.style.display = driveOk ? "block" : "none";
+  if (driveOk) drive.href = d.drive_link;
+  if (status === "done" && d.drive_error) showMsg(driveMsg, "error", "Not delivered to Google Drive: " + d.drive_error);
+  else driveMsg.className = "msg";
 
   const cancelBtn = $("p-cancel");
   if (status === "running" || status === "loading") {

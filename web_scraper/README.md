@@ -72,6 +72,49 @@ The repo must be pushed to GitHub first — every piece here reads/writes throug
 
 5. **Give your team**: the Vercel URL, and the access phrase. That's the entire hand-off.
 
+## Optional: deliver results to Google Drive automatically
+
+When this is set up, every finished batch's Excel file is placed in a Google Drive folder by itself,
+named `<batch name> results.xlsx`, and the upload page shows an "Open in Google Drive" link. A batch
+that is run again replaces its own file. If Drive is unreachable the batch still finishes and the
+download button still works; the page says why delivery failed.
+
+### Company Google Workspace (Drive shows "Shared drives" in the left menu)
+
+1. In Google Drive, open **Shared drives** and create one (for example "Scraper results"), or open
+   an existing one.
+2. Click the shared drive's name → **Manage members** → add this address as **Content manager**:
+   `paragon@skyline-468406.iam.gserviceaccount.com`
+   (the project's robot account - the same one that already writes the Google Sheets).
+3. Open the shared drive, or a folder inside it, where the files should land. Copy the last part of
+   the address in the browser: in `https://drive.google.com/drive/folders/0AAbCdEf...` the folder ID
+   is `0AAbCdEf...`.
+4. On GitHub: repo → Settings → Secrets and variables → Actions → **New repository secret**, named
+   `DRIVE_FOLDER_ID`, with that ID as the value. `GOOGLE_SERVICE_ACCOUNT_JSON` must already exist
+   there (it does if the Google Sheets features work).
+5. The Google Drive API must be switched on for the robot's Google Cloud project: console.cloud.google.com
+   → project `skyline-468406` → APIs & Services → Library → "Google Drive API" → Enable.
+
+It has to be a **shared drive**, not a folder in someone's own "My Drive" shared with the robot:
+a robot account has no storage of its own, and Google refuses the upload.
+
+### Personal Gmail (no "Shared drives")
+
+The tool uploads as the Drive's owner instead, using a permission they grant once. It can only see
+files it created itself.
+
+1. At console.cloud.google.com create a project, enable the **Google Drive API**, and under
+   APIs & Services → OAuth consent screen choose External, fill in the app name, and **publish** it
+   ("In production") - an app left in "Testing" loses its permission every 7 days.
+2. Credentials → Create credentials → OAuth client ID → **Desktop app**. Note the client ID and secret.
+3. On any computer: `pip install google-auth-oauthlib`, then
+   `python scripts/drive_authorize.py --client-id ... --client-secret ...`. The Drive's owner signs
+   in and clicks Allow.
+4. Save the three values it prints as GitHub secrets: `GOOGLE_OAUTH_CLIENT_ID`,
+   `GOOGLE_OAUTH_CLIENT_SECRET`, `GOOGLE_OAUTH_REFRESH_TOKEN`.
+
+Files go to a folder the tool creates, "Paragon Scraper Results".
+
 ## Verify before handing off
 
 1. Open the URL, upload a small (3-5 row) real CSV, start a batch.
