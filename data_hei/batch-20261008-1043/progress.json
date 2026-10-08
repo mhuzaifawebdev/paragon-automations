@@ -1,14 +1,14 @@
 {
  "batch": "batch-20261008-1043",
  "status": "running",
- "generated_at": "2026-10-08T17:49:00.976424+00:00",
+ "generated_at": "2026-10-08T17:50:48.746004+00:00",
  "chunk": 2,
  "total_chunks": 3,
  "total_rows": 55,
- "done": 17,
- "pending": 38,
- "elapsed_seconds": 314,
- "eta_seconds": 4759,
+ "done": 20,
+ "pending": 35,
+ "elapsed_seconds": 421,
+ "eta_seconds": 4411,
  "cost_usd_so_far": 0.1639,
  "paid_search_usd": 0.1639,
  "paid_search_limit_usd": 3.0,
@@ -16,15 +16,15 @@
  "paid_searches": 8,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 55,
+ "ai_calls": 67,
  "confidence": {
   "high": 0,
   "medium": 3,
-  "low": 7,
+  "low": 10,
   "none": 7
  },
- "partners_found": 749,
- "campuses_found": 32,
+ "partners_found": 797,
+ "campuses_found": 38,
  "recent": [
   "r001",
   "r002",
@@ -39,6 +39,9 @@
   "r011",
   "r012",
   "r013",
-  "r016"
+  "r016",
+  "r017",
+  "r019",
+  "r020"
  ]
 }
