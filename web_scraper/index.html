@@ -100,6 +100,11 @@
   .status-pill.error { background: rgba(244,63,94,.15); color: var(--bad); }
   .status-pill.not_found { background: rgba(100,116,139,.15); color: var(--off); }
   .status-pill.cancelled { background: rgba(245,158,11,.15); color: var(--warn); }
+  .status-pill.waiting { background: rgba(245,158,11,.15); color: var(--warn); }
+  .reader-box { margin-top: 16px; padding: 12px 14px; border-radius: 10px; border: 1px solid rgba(245,158,11,.35);
+                background: rgba(245,158,11,.08); font-size: 14px; line-height: 1.5; }
+  .reader-box.quiet { border-color: rgba(100,116,139,.3); background: transparent; }
+  .reader-box button { margin-top: 10px; }
   .conf-row { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
   .conf { flex: 1; min-width: 90px; text-align: center; padding: 10px; border-radius: 9px; border: 1px solid var(--line); }
   .conf.high { background: rgba(34,197,94,.10); } .conf.medium { background: rgba(245,158,11,.10); }
@@ -180,6 +185,11 @@
       <div class="bar-track"><div class="bar-fill" id="p-fill" style="width:0%"></div></div>
       <div class="kpis" id="p-kpis" style="margin-top:16px"></div>
       <div class="conf-row" id="p-conf"></div>
+      <div class="reader-box" id="p-reader" style="display:none">
+        <div id="p-reader-text"></div>
+        <button id="p-reader-btn" class="secondary"></button>
+        <div class="msg" id="p-reader-msg"></div>
+      </div>
       <button id="p-download" style="display:none">Download results (.xlsx)</button>
       <a id="p-drive" class="mono" target="_blank" rel="noopener" style="display:none;margin-top:10px">Open in Google Drive</a>
       <div class="msg" id="p-drive-msg"></div>
@@ -188,7 +198,7 @@
     </div>
   </div>
 </main>
-<footer>Runs on GitHub Actions in chunks — safe to close this tab, progress keeps going. Poll refreshes every 10s.</footer>
+<footer>Runs on GitHub Actions in chunks — safe to close this tab, progress keeps going. A large batch pauses when the free AI allowance runs out and resumes by itself. Poll refreshes every 10s.</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <script>
@@ -513,7 +523,9 @@ function renderProgress(d) {
 
   const total = d.total_rows || 0, done = d.done || 0;
   $("p-count").textContent = `${done} / ${total} institutes`;
-  $("p-eta").textContent = d.eta_seconds ? `ETA ~${Math.round(d.eta_seconds/60)} min` : (status === "done" ? "Complete" : "");
+  const etaMin = Math.round((d.eta_seconds || 0) / 60);
+  const etaText = etaMin >= 120 ? `~${Math.round(etaMin / 60)} h of reading left` : `ETA ~${etaMin} min`;
+  $("p-eta").textContent = status === "waiting" ? "Paused" : d.eta_seconds ? etaText : (status === "done" ? "Complete" : "");
   $("p-fill").style.width = total ? Math.round(100 * done / total) + "%" : "0%";
 
   $("p-kpis").innerHTML = [
@@ -527,6 +539,8 @@ function renderProgress(d) {
   $("p-conf").innerHTML = ["high","medium","low","none"].map(k =>
     `<div class="conf ${k}"><div class="n">${c[k]||0}</div><div class="l">${k}</div></div>`).join("");
 
+  renderReader(d, status);
+
   const dl = $("p-download");
   if (status === "done") {
     dl.style.display = "block";
@@ -539,18 +553,110 @@ function renderProgress(d) {
 
   // Google Drive delivery: the finished file's link, or why it could not be delivered (the download still works).
   const drive = $("p-drive"), driveMsg = $("p-drive-msg");
-  const driveOk = status === "done" && /^https:\/\/(drive|docs)\.google\.com\//.test(d.drive_link || "");
+  // During a long batch the file in Drive is refreshed every 100 institutes and at every pause.
+  const driveOk = /^https:\/\/(drive|docs)\.google\.com\//.test(d.drive_link || "");
   drive.style.display = driveOk ? "block" : "none";
   if (driveOk) drive.href = d.drive_link;
+  drive.textContent = status === "done" ? "Open in Google Drive" : "Open the results so far in Google Drive";
   if (status === "done" && d.drive_error) showMsg(driveMsg, "error", "Not delivered to Google Drive: " + d.drive_error);
   else driveMsg.className = "msg";
 
   const cancelBtn = $("p-cancel");
-  if (status === "running" || status === "loading") {
+  if (status === "running" || status === "loading" || status === "waiting") {
     cancelBtn.style.display = "block";
     cancelBtn.onclick = () => cancelBatch(d.batch);
   } else {
     cancelBtn.style.display = "none";
+  }
+}
+
+// Free / fast reader. Free (default): only the free Gemini reader; when its allowance is used up the batch pauses
+// and resumes by itself. Fast: Claude Haiku (paid) reads whatever Gemini refuses, up to a spending limit.
+// progress.json only shows a switch once the scraper has next written it, so the choice just made on this page
+// is remembered for a few minutes and shown straight away.
+const HAIKU_USD_PER_INSTITUTE = 0.06;      // measured average; an estimate, shown as such
+let readerChoice = null;                   // { batch, mode, at }
+
+function renderReader(d, status) {
+  const box = $("p-reader"), text = $("p-reader-text"), btn = $("p-reader-btn");
+  if (status !== "running" && status !== "waiting") { box.style.display = "none"; return; }
+  if (readerChoice && (readerChoice.batch !== d.batch || Date.now() - readerChoice.at > 240000
+      || readerChoice.mode === d.reader_mode)) readerChoice = null;
+  const mode = readerChoice ? readerChoice.mode : (d.reader_mode || "free");
+  const usd = n => "$" + Number(n || 0).toFixed(2);
+  box.style.display = "block";
+  btn.style.display = "block";
+  btn.disabled = false;
+
+  if (mode === "fast") {
+    box.className = "reader-box";
+    const capHit = d.paid_search_limit_reached && d.reader_mode === "fast";
+    text.textContent = `Fast mode is on: Claude Haiku (paid) reads whatever the free reader refuses. `
+      + `Paid so far on this batch: ${usd(d.paid_search_usd)}`
+      + (d.reader_mode === "fast" && d.paid_search_limit_usd ? ` of the ${usd(d.paid_search_limit_usd)} limit.` : ".")
+      + (capHit ? " The limit has been reached, so the batch is back on the free reader only." : "")
+      + (readerChoice ? " (Switch sent - it takes effect within a minute or two.)" : "");
+    btn.textContent = "Back to free mode";
+    btn.onclick = () => setReader(d, "free");
+    return;
+  }
+
+  const allowance = status === "waiting" && d.waiting_kind !== "retry";
+  if (status === "waiting") {
+    box.className = "reader-box";
+    let when = "";
+    const t = d.resume_at ? new Date(d.resume_at) : null;
+    if (t && !isNaN(t)) {
+      when = t.toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" }) + " (your time)";
+    }
+    text.textContent = `Paused: ${d.waiting_reason || "waiting."} `
+      + (when ? `Resumes automatically at about ${when}. ` : "Resumes automatically. ")
+      + "Nothing is lost and you do not need to do anything."
+      + (readerChoice ? " (Switched back to free mode.)" : "");
+    btn.textContent = "Continue now with Claude Haiku (paid)";
+    btn.style.display = allowance ? "block" : "none";
+  } else {
+    box.className = "reader-box quiet";
+    text.textContent = "Free mode (lowest cost). If the free AI allowance runs out, this batch pauses and resumes "
+      + "by itself when the allowance is back." + (readerChoice ? " (Switched back to free mode.)" : "");
+    btn.textContent = "Urgent? Use Claude Haiku (paid) instead of pausing";
+  }
+  btn.onclick = () => setReader(d, "fast");
+}
+
+async function setReader(d, mode) {
+  const msg = $("p-reader-msg"), btn = $("p-reader-btn");
+  if (mode === "fast") {
+    const left = d.pending || 0, cap = d.fast_limit_usd || 30;
+    const worst = Math.min(left * HAIKU_USD_PER_INSTITUTE, cap);
+    if (!window.confirm(`Use Claude Haiku (paid) for batch "${d.batch}"?\n\n`
+        + `${left} institutes are left. Haiku costs about 6 cents for each institute it reads, so if it has to read `
+        + `all of them that is about $${worst.toFixed(2)}.\n\n`
+        + `It never spends more than $${Number(cap).toFixed(2)} on this batch, it is only used when the free reader `
+        + `refuses, and you can switch back to free mode at any time.`)) return;
+  }
+  const token = $("token").value || window.prompt("Access phrase, to confirm:") || "";
+  btn.disabled = true;
+  try {
+    const resp = await fetch("/api/set-reader", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ batch: d.batch, token, mode }),
+    });
+    const data = await resp.json();
+    if (resp.ok) {
+      readerChoice = { batch: d.batch, mode, at: Date.now() };
+      showMsg(msg, "ok", mode === "fast"
+        ? (data.restarted ? "Fast mode on. The batch is starting again now - give it a minute."
+                          : "Fast mode on. It takes effect within a minute or two.")
+        : "Back to free mode. It takes effect within a minute or two.");
+      renderReader(d, d.status);
+    } else {
+      showMsg(msg, "error", data.error || "Could not switch.");
+    }
+  } catch (e) {
+    showMsg(msg, "error", "Network error: " + e.message);
+  } finally {
+    btn.disabled = false;
   }
 }
 

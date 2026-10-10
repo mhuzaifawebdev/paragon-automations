@@ -1,0 +1,47 @@
+name: Resume paused scraper batches
+
+# A scraper batch pauses itself when the free AI allowance is used up (status "waiting" + resume_at in
+# data_hei/<batch>/progress.json - see scraper2/batch_runner.py). Every 15 minutes this looks for paused batches
+# whose time has come and starts them again with the same "scrape-start" event the upload page uses, so a long
+# batch carries on over several days with nobody watching it.
+#
+# Needs secrets.DISPATCH_TOKEN (the same one scrape_batch.yml already uses to start its next chunk).
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resume-batches
+  cancel-in-progress: false
+
+jobs:
+  resume:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Start every paused batch that is due
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: python scripts/resume_due_batches.py
+
+      - name: Save the new "look again at" times
+        run: |
+          git config user.name "paragon-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data_hei/*/progress.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -q -m "resume: paused batch(es) started again [automated]"
+            git pull --rebase --autostash -q
+            git push -q
+          fi

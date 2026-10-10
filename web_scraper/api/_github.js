@@ -76,6 +76,26 @@ async function putFile(path, content, message) {
   return resp.json();
 }
 
+async function upsertFile(path, content, message) {
+  // putFile can only create: GitHub refuses to overwrite a file unless told which version (sha) it replaces.
+  const { owner, repo, branch, token } = cfg();
+  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+  const headers = {
+    Authorization: `Bearer ${token}`,
+    "User-Agent": "paragon-scraper-web",
+    Accept: "application/vnd.github+json",
+  };
+  const existing = await fetch(`${url}?ref=${branch}`, { headers });
+  if (!existing.ok && existing.status !== 404) {
+    throw new Error(`GitHub GET ${path} failed: ${existing.status} ${await existing.text()}`);
+  }
+  const body = { message, branch, content: Buffer.from(content, "utf8").toString("base64") };
+  if (existing.ok) body.sha = (await existing.json()).sha;
+  const resp = await fetch(url, { method: "PUT", headers, body: JSON.stringify(body) });
+  if (!resp.ok) throw new Error(`GitHub PUT ${path} failed: ${resp.status} ${await resp.text()}`);
+  return resp.json();
+}
+
 async function dispatch(eventType, clientPayload) {
   const { owner, repo, token } = cfg();
   const resp = await fetch(`https://api.github.com/repos/${owner}/${repo}/dispatches`, {
@@ -90,4 +110,4 @@ async function dispatch(eventType, clientPayload) {
   if (!resp.ok) throw new Error(`GitHub dispatch failed: ${resp.status} ${await resp.text()}`);
 }
 
-module.exports = { cfg, getRawFile, getRawBinary, fileExists, putFile, dispatch };
+module.exports = { cfg, getRawFile, getRawBinary, fileExists, putFile, upsertFile, dispatch };

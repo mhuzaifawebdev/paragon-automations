@@ -10,6 +10,10 @@ name: Scrape uploaded batch
 # (secrets.DISPATCH_TOKEN) is required to re-dispatch. Progress is committed after every chunk, so
 # a timeout or cancellation never loses more than one chunk's work.
 #
+# Waiting: when the free AI allowance is used up (and the batch is not in paid "fast" mode), batch_runner.py
+# ends the chunk with status "waiting" and a resume_at time in progress.json. This workflow then does NOT start
+# the next chunk; .github/workflows/resume_batches.yml starts it again once that time has passed.
+#
 # Cancellation: web_scraper's "Cancel this batch" button (api/cancel-batch.js) writes
 # data_hei/<batch>/CANCELLED. The first step below checks for that marker every run and, if
 # present, marks progress.json "cancelled" and skips everything else - so a batch that was
@@ -207,8 +211,26 @@ jobs:
           GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
         run: |
           PENDING=$(python -c "import json; print(json.load(open('data_hei/$BATCH/progress.json')).get('pending', 0))")
-          echo "Pending rows: $PENDING"
-          if [ "$PENDING" -gt 0 ]; then
+          STATUS=$(python -c "import json; print(json.load(open('data_hei/$BATCH/progress.json')).get('status', ''))")
+          CHUNK=$(python -c "import json; print(json.load(open('data_hei/$BATCH/progress.json')).get('chunk', 0))")
+          echo "Pending rows: $PENDING, status: $STATUS, chunk: $CHUNK"
+          # A long batch takes days on the free allowance, so the results so far go to Google Drive every 4 chunks
+          # (100 institutes) and whenever the batch pauses. Same file each time, replaced. Never fails the batch.
+          # The Excel itself is not committed here (it would add megabytes to the repository each time).
+          if [ "$PENDING" -gt 0 ] && { [ "$STATUS" = "waiting" ] || [ $((CHUNK % 4)) -eq 0 ]; }; then
+            (
+              python scraper2/build_xlsx.py --batch "$BATCH" &&
+              python scraper2/drive_upload.py --batch "$BATCH" &&
+              git config user.name "paragon-scraper-bot" &&
+              git config user.email "actions@users.noreply.github.com" &&
+              git add "data_hei/$BATCH/progress.json" &&
+              { git diff --cached --quiet || git commit -q -m "scrape $BATCH: results so far sent to Drive [automated]"; } &&
+              git pull --rebase --autostash -q && git push -q
+            ) || echo "(sending the results so far to Google Drive failed, non-fatal)"
+          fi
+          if [ "$PENDING" -gt 0 ] && [ "$STATUS" = "waiting" ]; then
+            echo "Batch $BATCH is waiting (free AI allowance). resume_batches.yml will start it again; no next chunk now."
+          elif [ "$PENDING" -gt 0 ]; then
             # curl -s alone treats ANY HTTP response (even 401/404/422) as a successful curl
             # invocation - it only fails on a transport-level error, never on the API rejecting the
             # request. That let a batch silently stop self-chaining while this very step still

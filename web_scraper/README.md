@@ -115,6 +115,28 @@ files it created itself.
 
 Files go to a folder the tool creates, "Paragon Scraper Results".
 
+## Large batches (1,000 institutes): runs by itself over several days
+
+Nothing extra to set up. Upload the file and leave it.
+
+- The batch is read 25 institutes at a time. Calls to the free AI reader (Gemini) are spaced out
+  automatically when it starts refusing.
+- When the day's free allowance is used up, the page shows **waiting** with the time the batch
+  resumes. `.github/workflows/resume_batches.yml` checks every 15 minutes and starts it again; if
+  the allowance is still not back it waits another 30 minutes.
+- The Excel file in Google Drive is refreshed every 100 institutes and at every pause, so the
+  results so far are always there. The same file is replaced each time.
+- An institute that fails 3 times is saved as "Could not be read after 3 attempts" so the batch
+  always finishes.
+
+**Free / fast switch (on the batch's progress card).** Every batch starts in free mode: only
+Gemini reads, and Claude is used only for the personal-email searches (cap
+`max_paid_usd_per_batch`, $3). The button "Continue now with Claude Haiku (paid)" switches that one
+batch to fast mode: Haiku reads whatever Gemini refuses, about 6 cents per institute, up to
+`max_fast_usd_per_batch` ($30, in `config.yaml`). Gemini is still tried first, so the batch is back
+on free reading by itself when Gemini answers again. "Back to free mode" switches it off. The
+choice is stored in `data_hei/<batch>/reader.json`.
+
 ## Verify before handing off
 
 1. Open the URL, upload a small (3-5 row) real CSV, start a batch.
@@ -134,6 +156,9 @@ Files go to a folder the tool creates, "Paragon Scraper Results".
 - **"error" status with a message**: `scraper2/import_batch.py` couldn't find a required column in
   the uploaded file. The message names which one; check the file's headers against the aliases in
   `scraper2/import_batch.py`'s `ALIASES` dict.
+- **"waiting" status**: not stuck. The free AI allowance ran out; the page shows when it resumes.
+  If the time has passed by more than 30 minutes, check Actions → "Resume paused scraper batches"
+  is running on schedule and that the `DISPATCH_TOKEN` secret has not expired.
 - **Stopped partway with rows still pending**: check Actions for a failed run — the self-chaining
   re-dispatch only fires after a successful chunk; a crashed chunk needs a manual `workflow_dispatch`
   retrigger (Actions → "Scrape uploaded batch" → Run workflow, with the same batch name) to resume.

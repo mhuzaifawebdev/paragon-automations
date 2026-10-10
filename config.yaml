@@ -141,5 +141,8 @@ scraper:
   discover_with_search: true    # free web search for sites the other free tiers cannot find
   claude_site_search: false     # paid Claude web search for missing websites. Off: a 25-row trial recovered few sites and accepted a directory
   email_web_search: true        # web search for a contact's own email when only a shared inbox was found
-  haiku_fallback: true          # when every Gemini model refuses (free quota used up), Claude Haiku reads that call instead
-  max_paid_usd_per_batch: 3.0   # hard cap per batch on ALL paid Claude use (email searches + Haiku fallback); free sources continue after it
+  # Free / fast is chosen per batch on the upload page (data_hei/<batch>/reader.json), free unless switched:
+  #   free: only Gemini reads. When its free allowance is used up the batch pauses and resumes by itself.
+  #   fast: Claude Haiku reads whatever Gemini refuses, so the batch does not pause.
+  max_paid_usd_per_batch: 3.0   # cap per batch on paid Claude use in free mode (the personal-email searches)
+  max_fast_usd_per_batch: 30.0  # extra allowed per batch while it is in fast mode (Haiku reading, about 6 cents an institute)

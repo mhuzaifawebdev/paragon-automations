@@ -372,6 +372,16 @@ real_post2, old_gkey = llm._post, os.environ.get("GEMINI_API_KEY")
 os.environ["GEMINI_API_KEY"] = "test-key"
 llm._GEMINI_RESTING.clear()
 asked = []
+slept = []
+real_sleep, llm._sleep = llm._sleep, slept.append          # waits are recorded, never actually slept
+
+
+def _fresh():
+    llm._GEMINI_RESTING.clear()
+    llm._PACE.update(gap=0.0, next=0.0, ok=0)
+    slept.clear()
+    asked.clear()
+
 
 
 def _quota_post(url, headers, body, timeout, retries=3):
@@ -383,6 +393,7 @@ def _quota_post(url, headers, body, timeout, retries=3):
 
 
 llm._post = _quota_post
+_fresh()
 _d, meta1 = llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
 check("out-of-quota model: the next model answers", (asked, meta1["model_used"]),
       (["gemini-3.1-flash-lite", "gemini-3.5-flash-lite"], "gemini-3.5-flash-lite"))
@@ -428,6 +439,83 @@ llm._claude_api = real_claude
 llm.FALLBACK["enabled"] = False
 discover.set_budget(None)
 os.environ.pop("ANTHROPIC_API_KEY") if old_key is None else os.environ.__setitem__("ANTHROPIC_API_KEY", old_key)
+
+# ---- pacing and pausing: what makes a 1,000-institute batch run by itself on the free allowance ----
+check("a refusal that names the daily allowance is recognised, with its wait",
+      llm.quota_info('{"error":{"details":[{"quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier"},{"retryDelay":"41s"}]}}'), (True, 41.0))
+check("a per-minute refusal is not mistaken for the daily one",
+      llm.quota_info('quotaId: GenerateRequestsPerMinutePerProjectPerModel-FreeTier. Please retry in 12.5s.'), (False, 12.5))
+check("a refusal with no details gives no wait time", llm.quota_info("HTTP 429: quota exceeded"), (False, None))
+day = 86400
+check("the daily allowance is expected back at 08:05 UTC: later the same day when asked before it",
+      llm.next_daily_reset(10 * day + 3 * 3600), 10 * day + 8 * 3600 + 300)
+check("and the next day when asked after it", llm.next_daily_reset(10 * day + 9 * 3600), 11 * day + 8 * 3600 + 300)
+
+OK_REPLY = {"candidates": [{"content": {"parts": [{"text": '{"contacts": [], "partners": []}'}]}}]}
+_fresh()
+llm._pace_feedback(True)
+g1 = llm._PACE["gap"]
+llm._pace_feedback(True)
+check("each 'too many requests' doubles the gap between calls", (g1, llm._PACE["gap"]), (2.0, 4.0))
+for _ in range(10):
+    llm._pace_feedback(False)
+check("ten answers in a row shorten it again", llm._PACE["gap"] < 4.0, True)
+_fresh()
+for _ in range(5):
+    llm._pace_wait()
+check("with no refusals the pacer adds no delay at all", slept, [])
+
+_fresh(); llm.FALLBACK["enabled"] = False
+state = {"n": 0}
+
+
+def _minute_limit(url, headers, body, timeout, retries=3):
+    asked.append(url.split("/models/")[1].split(":")[0])
+    state["n"] += 1
+    if state["n"] <= 3:                                     # all three models refuse once, then the minute passes
+        raise llm.LLMError("HTTP 429: PerMinute limit. Please retry in 20s.")
+    return OK_REPLY
+
+
+llm._post = _minute_limit
+_d, m_meta = llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+check("a per-minute limit is waited out in place and the call then succeeds",
+      (m_meta["model_used"], len(asked), any(18 <= x <= 22 for x in slept)), ("gemini-3.1-flash-lite", 4, True))
+
+_fresh()
+llm._post = lambda url, headers, body, timeout, retries=3: (asked.append(1), (_ for _ in ()).throw(
+    llm.LLMError('HTTP 429: quotaId GenerateRequestsPerDayPerProjectPerModel-FreeTier')))[1]
+try:
+    llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+    got = None
+except llm.QuotaExhausted as e:
+    got = (e.daily, abs(e.resume_at - llm.next_daily_reset()) < 5)
+check("daily allowance gone, free mode: the call reports it with the expected return time", got, (True, True))
+check("and each Gemini model was asked once, with no waiting or hammering", (len(asked), [x for x in slept if x > 1]), (3, []))
+asked.clear()
+try:
+    llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+except llm.QuotaExhausted:
+    pass
+check("further calls that day do not contact Gemini at all", asked, [])
+
+_fresh(); llm.SIMULATE_EXHAUSTED = True
+llm._post = lambda *a, **k: asked.append(1) or OK_REPLY
+try:
+    llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+    got = "answered"
+except llm.QuotaExhausted as e:
+    got = e.daily
+check("the test switch behaves like a used-up daily allowance without calling Gemini", (got, asked), (True, []))
+os.environ["ANTHROPIC_API_KEY"] = "test-key"
+llm._claude_api = lambda system, user, model, timeout, schema=None: ({"contacts": [], "partners": []}, {"in_tokens": 10, "out_tokens": 1})
+llm.FALLBACK["enabled"] = True; discover.set_budget(5.0)
+check("in fast mode the same situation is read by Claude Haiku instead of pausing",
+      llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)[1]["model_used"], "claude-haiku-4-5")
+llm.SIMULATE_EXHAUSTED = False; llm.FALLBACK["enabled"] = False; llm._claude_api = real_claude; discover.set_budget(None)
+os.environ.pop("ANTHROPIC_API_KEY") if old_key is None else os.environ.__setitem__("ANTHROPIC_API_KEY", old_key)
+_fresh()
+llm._sleep = real_sleep
 
 llm._post = real_post2
 llm._GEMINI_RESTING.clear()

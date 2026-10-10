@@ -13,8 +13,10 @@ cannot invent a quote, email or phone. Providers (config.yaml `scraper.provider`
 """
 import json
 import os
+import re
 import subprocess
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -131,7 +133,7 @@ def _post(url, headers, body, timeout, retries=3):
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.loads(r.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
-            msg = e.read().decode("utf-8", "replace")[:400]
+            msg = e.read().decode("utf-8", "replace")[:400 if e.code != 429 else 3000]   # a 429 carries the wait time
             if e.code in (429, 500, 502, 503, 529) and attempt < retries:
                 time.sleep(min(3 * 2 ** attempt, 30))          # overload spikes clear in seconds; back off, do not hammer
                 continue
@@ -191,11 +193,64 @@ def _claude_cli(system, user, model, timeout, schema=None):
 
 
 GEMINI_FALLBACKS = ["gemini-3.5-flash-lite", "gemini-3.5-flash"]     # tried when the chosen model is overloaded
-GEMINI_REST_SECONDS = 120                                             # a per-minute limit clears well inside this
-_GEMINI_RESTING = {}                                                  # model -> time until which it is skipped
+GEMINI_REST_SECONDS = 60                # how long a refused model is left alone when the refusal does not say
+MAX_WAIT_FOR_GEMINI = 90                # a wait up to this long is sat out in place; anything longer pauses the batch
+_GEMINI_RESTING = {}                    # model -> time until which it is skipped
+_sleep = time.sleep                     # replaced in tests
+SIMULATE_EXHAUSTED = False              # test switch: behave as if the daily free allowance were used up
 
-# The paid safety net behind the free reader. Off unless a batch switches it on, and it never runs without a
-# spending cap: it is used only when every Gemini model has just refused, and each call is counted against
+
+class QuotaExhausted(LLMError):
+    """The free reader cannot answer for a while and nothing paid may stand in. `resume_at` is the time (epoch
+    seconds) it is expected back; `daily` says the day's allowance is gone rather than a short per-minute limit."""
+    def __init__(self, resume_at, daily):
+        super().__init__("Gemini free allowance used up" + (" for today" if daily else ""))
+        self.resume_at, self.daily = resume_at, daily
+
+
+def next_daily_reset(now=None):
+    """Gemini's daily free allowance resets at midnight US Pacific time: 08:00 UTC in winter, 07:00 in summer.
+    08:05 UTC is used all year, so in summer the batch resumes up to an hour late rather than too early."""
+    now = time.time() if now is None else now
+    day = 86400
+    reset = now - (now % day) + 8 * 3600 + 300
+    return reset if reset > now else reset + day
+
+
+def quota_info(text):
+    """(daily, retry_after_seconds or None) read from a Gemini 429 reply."""
+    daily = bool(re.search(r"per\s*day|PerDay|daily", text or "", re.I))
+    m = re.search(r'retryDelay"?\s*:\s*"?(\d+(?:\.\d+)?)s', text or "") or re.search(r"retry in (\d+(?:\.\d+)?)\s*s", text or "", re.I)
+    return daily, (float(m.group(1)) if m else None)
+
+
+# Pacer: a gap between Gemini calls that grows each time Gemini says "too many requests" and shrinks again after
+# a run of answers. Nothing about the limits has to be known in advance, and with no refusals it adds no delay.
+_PACE = {"gap": 0.0, "next": 0.0, "ok": 0}
+_pace_lock = threading.Lock()
+
+
+def _pace_wait():
+    with _pace_lock:
+        now = time.time()
+        at = max(now, _PACE["next"])
+        _PACE["next"] = at + _PACE["gap"]
+    if at > now:
+        _sleep(at - now)
+
+
+def _pace_feedback(refused):
+    with _pace_lock:
+        if refused:
+            _PACE["gap"], _PACE["ok"] = min(max(_PACE["gap"] * 2, 2.0), 30.0), 0
+        else:
+            _PACE["ok"] += 1
+            if _PACE["ok"] >= 10:
+                _PACE["gap"], _PACE["ok"] = (_PACE["gap"] * 0.7 if _PACE["gap"] > 0.5 else 0.0), 0
+
+
+# The paid stand-in for the free reader. Off unless a batch is switched to "fast" mode, and it never runs without
+# a spending cap: it is used only when every Gemini model has just refused, and each call is counted against
 # the batch's cap (discover.BUDGET), shared with the paid web searches.
 FALLBACK = {"enabled": False, "model": "claude-haiku-4-5"}
 _fallback_said = {"until": 0.0}
@@ -215,7 +270,7 @@ def _paid_fallback(system, user, timeout, schema, why):
         return None
     discover.record_reader(meta.get("in_tokens") or 0, meta.get("out_tokens") or 0)
     if _fallback_said["until"] <= time.time():
-        _fallback_said["until"] = time.time() + GEMINI_REST_SECONDS
+        _fallback_said["until"] = time.time() + 120
         print(f"(Gemini unavailable: {why} - Claude Haiku is reading instead; spent ${discover.spent_usd():.2f} "
               f"of ${discover.BUDGET['limit']:.2f})", file=sys.stderr, flush=True)
     # the cost is counted once, in the batch's paid total, so it is not repeated in the per-call estimate
@@ -229,36 +284,58 @@ def _gemini(system, user, model, timeout, schema=None):
         raise LLMError("GEMINI_API_KEY is not set")
     t0, last = time.time(), None
     models = list(dict.fromkeys([model] + GEMINI_FALLBACKS))
-    # A model that answered 429 has run out of free-tier quota: retrying it only burns time (measured: 26 of 33
-    # calls refused, each one waiting over a minute before the fallback was tried). Rest it and go straight on.
-    awake = [x for x in models if _GEMINI_RESTING.get(x, 0) <= time.time()]
-    if not awake:                                     # every Gemini model refused within the last two minutes
-        paid = _paid_fallback(system, user, timeout, schema, "out of free quota")
-        if paid:
-            return paid
-    for m in awake or models:
-        try:
-            resp = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={key}", {},
-                         {"systemInstruction": {"parts": [{"text": system}]},
-                          "contents": [{"role": "user", "parts": [{"text": user}]}],
-                          "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": schema,
-                                               "temperature": 0}}, timeout, retries=2)
-            data = json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
-            return data, {"seconds": round(time.time() - t0, 1), "cost_usd_estimate": 0.0, "model_used": m}
-        except LLMError as e:
-            last = e
-            if "429" in str(e):
-                if _GEMINI_RESTING.get(m, 0) <= time.time():
-                    print(f"(Gemini {m} is out of quota - using the next model for {GEMINI_REST_SECONDS // 60} min)",
-                          file=sys.stderr, flush=True)
-                _GEMINI_RESTING[m] = time.time() + GEMINI_REST_SECONDS
-            if not any(c in str(e) for c in ("503", "429", "500", "502")):
-                raise                                   # a real error (bad key, bad request): do not hide it
-        except Exception as e:
-            raise LLMError(f"unreadable Gemini reply: {e}")
+    daily = False
+    for _round in range(4):                           # at most three short waits before giving the call up
+        if SIMULATE_EXHAUSTED:
+            for m in models:
+                _GEMINI_RESTING[m] = next_daily_reset()
+            daily = True
+        awake = [x for x in models if _GEMINI_RESTING.get(x, 0) <= time.time()]
+        if not awake:
+            # Every Gemini model has refused. In fast mode Claude Haiku reads this call; otherwise a short wait is
+            # sat out here, and a long one is handed back so the batch can pause instead of hammering.
+            paid = _paid_fallback(system, user, timeout, schema, "out of free quota")
+            if paid:
+                return paid
+            wake = min(_GEMINI_RESTING[x] for x in models)
+            if wake - time.time() > MAX_WAIT_FOR_GEMINI or _round == 3:
+                raise QuotaExhausted(max(wake, time.time() + 900) if not daily else wake, daily)
+            _sleep(max(0.0, wake - time.time()) + 0.5)
+            awake = models
+        for m in awake:
+            _pace_wait()
+            try:
+                resp = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={key}", {},
+                             {"systemInstruction": {"parts": [{"text": system}]},
+                              "contents": [{"role": "user", "parts": [{"text": user}]}],
+                              "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": schema,
+                                                   "temperature": 0}}, timeout, retries=2)
+                data = json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
+                _pace_feedback(False)
+                return data, {"seconds": round(time.time() - t0, 1), "cost_usd_estimate": 0.0, "model_used": m}
+            except LLMError as e:
+                last = e
+                if "429" in str(e):
+                    is_daily, retry_after = quota_info(str(e))
+                    daily = daily or is_daily
+                    if not is_daily:                    # a used-up day is not a sign of going too fast
+                        _pace_feedback(True)
+                    until = next_daily_reset() if is_daily else time.time() + (retry_after or GEMINI_REST_SECONDS)
+                    if _GEMINI_RESTING.get(m, 0) <= time.time():
+                        print(f"(Gemini {m} refused: {'daily allowance used up' if is_daily else 'too many requests'}"
+                              f" - left alone for {max(0, until - time.time()) / 60:.0f} min)", file=sys.stderr, flush=True)
+                    _GEMINI_RESTING[m] = until
+                if not any(c in str(e) for c in ("503", "429", "500", "502")):
+                    raise                               # a real error (bad key, bad request): do not hide it
+            except Exception as e:
+                raise LLMError(f"unreadable Gemini reply: {e}")
+        if not all(_GEMINI_RESTING.get(x, 0) > time.time() for x in models):
+            break                                     # refused for another reason (overload): handled below
     paid = _paid_fallback(system, user, timeout, schema, "all Gemini models refused or overloaded")
     if paid:
         return paid
+    if all(_GEMINI_RESTING.get(x, 0) > time.time() for x in models):
+        raise QuotaExhausted(min(_GEMINI_RESTING[x] for x in models), daily)
     raise last
 
 

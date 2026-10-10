@@ -376,7 +376,7 @@ def extract_partner_slices(inst, pack, provider, model):
     out = {"partners": [], "stated": {"value": 0, "line": 0}, "cost": 0.0, "calls": len(wins)}
     if not wins:
         return out, 0
-    missed = 0
+    missed, exhausted = 0, None
 
     def one(w):
         with LLM_SLOTS:
@@ -386,6 +386,9 @@ def extract_partner_slices(inst, pack, provider, model):
         for f in futs:
             try:
                 d, meta = f.result()
+            except llm.QuotaExhausted as e:
+                exhausted = e                       # do not save half a partner list: the whole institute is redone later
+                continue
             except llm.LLMError:
                 missed += 1
                 continue
@@ -394,6 +397,8 @@ def extract_partner_slices(inst, pack, provider, model):
             st = d.get("partners_stated_total") or {}
             if st.get("value", 0) > out["stated"]["value"] and st.get("line", 0):
                 out["stated"] = st
+    if exhausted:
+        raise exhausted
     return out, missed
 
 
@@ -443,6 +448,10 @@ def scrape(row, cfg):
         with LLM_SLOTS:
             data, meta = llm.extract(inst, pack, provider, cfg.get("model") or None)
         mode = provider
+    except llm.QuotaExhausted as e:
+        timing["total_seconds"] = round(time.time() - t_all, 1)
+        return {"row_id": row["row_id"], "retry": True, "quota": True, "resume_at": e.resume_at, "daily": e.daily,
+                "reason": str(e), "timing": timing}
     except llm.LLMError as e:
         if provider != "rules":
             # never save a degraded rules-only answer over (or instead of) a real one: the model was unavailable
@@ -454,7 +463,12 @@ def scrape(row, cfg):
     slice_note = ""
     timing["ai_calls"] = 1 if mode == provider and provider != "rules" else 0
     if mode == provider and provider != "rules":
-        extra, missed = extract_partner_slices(inst, pack, provider, cfg.get("model") or None)
+        try:
+            extra, missed = extract_partner_slices(inst, pack, provider, cfg.get("model") or None)
+        except llm.QuotaExhausted as e:
+            timing["total_seconds"] = round(time.time() - t_all, 1)
+            return {"row_id": row["row_id"], "retry": True, "quota": True, "resume_at": e.resume_at, "daily": e.daily,
+                    "reason": str(e), "timing": timing}
         timing["partner_calls"] = extra["calls"]
         timing["ai_calls"] += extra["calls"]
         data["partners"] = list(data.get("partners") or []) + extra["partners"]

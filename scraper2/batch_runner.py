@@ -60,7 +60,10 @@ def _progress_path(data_dir):
     return data_dir / "progress.json"
 
 
-def write_progress(data_dir, batch, status, queue, done_ids, chunk_no, total_chunks, timings, costs, started_at):
+KEEP_KEYS = ("drive_link", "drive_error")      # written by drive_upload.py between chunks; a rewrite must not lose them
+
+
+def write_progress(data_dir, batch, status, queue, done_ids, chunk_no, total_chunks, timings, costs, started_at, extra=None):
     enriched_path = data_dir / "institutions_enriched.csv"
     enriched = run_batch.read_csv_safe(enriched_path) if hasattr(run_batch, "read_csv_safe") else _read_csv(enriched_path)
     by_id = {r["row_id"]: r for r in enriched}
@@ -81,7 +84,7 @@ def write_progress(data_dir, batch, status, queue, done_ids, chunk_no, total_chu
     elapsed = time.time() - started_at
     avg = (sum(timings) / len(timings)) if timings else None
     remaining = len(queue) - len(done_ids)
-    eta_seconds = (avg * remaining) if avg else None
+    eta_seconds = (avg * remaining / max(1, STATS["workers"])) if avg else None    # institutes run in parallel
     total_partners = sum(int(r.get("partners_found") or 0) for r in enriched)
     total_campuses = sum(int(r.get("campuses_found") or 0) for r in enriched)
 
@@ -95,15 +98,65 @@ def write_progress(data_dir, batch, status, queue, done_ids, chunk_no, total_chu
         "paid_search_limit_reached": not discover.budget_left(),
         "paid_searches": discover.SEARCH_USAGE["searches"], "haiku_fallback_calls": discover.SEARCH_USAGE["reader_calls"],
         "cost_usd_projected_total": round(sum(costs) / max(len(done_ids), 1) * len(queue), 2) if done_ids else None,
-        "ai_calls": STATS["ai_calls"],
+        "ai_calls": STATS["ai_calls"], "reader_mode": STATS["mode"], "fast_limit_usd": STATS["fast_limit"],
+        "provider": STATS["provider"], "chunk_size": STATS["chunk_size"],
         "confidence": confidence_counts, "partners_found": total_partners, "campuses_found": total_campuses,
         "recent": [r["row_id"] for r in enriched if r["row_id"] in done_ids][-20:],
     }
+    try:
+        old = json.loads(_progress_path(data_dir).read_text(encoding="utf-8"))
+        data.update({k: old[k] for k in KEEP_KEYS if k in old})
+    except Exception:
+        pass
+    data.update(extra or {})
     _progress_path(data_dir).write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     return data
 
 
-STATS = {"ai_calls": 0}      # AI calls made by this batch so far (carried across chunks through progress.json)
+STATS = {"ai_calls": 0, "workers": 1, "mode": "free", "fast_limit": None, "provider": None, "chunk_size": None}
+MAX_ATTEMPTS = 3             # a row that fails this often is saved as unreadable, so a batch can always finish
+PAUSE = {"until": None, "daily": False}     # set when the free reader's allowance is used up and nothing paid may stand in
+_attempt_lock = threading.Lock()
+
+
+def reader_mode(data_dir):
+    """'free' (default: Gemini only) or 'fast' (Claude Haiku reads what Gemini refuses). Set from the upload page,
+    which writes reader.json into the batch folder."""
+    try:
+        mode = json.loads((Path(data_dir) / "reader.json").read_text(encoding="utf-8")).get("mode")
+    except Exception:
+        mode = None
+    return "fast" if mode == "fast" else "free"
+
+
+def apply_mode(data_dir, cfg):
+    """Called before every institute, so a switch made on the page takes effect within about a minute (the
+    workflow pulls the repository every 60 seconds while a chunk runs)."""
+    mode = reader_mode(data_dir)
+    fast_cap = float(cfg.get("max_fast_usd_per_batch", 30.0))
+    discover.BUDGET["limit"] = float(cfg.get("max_paid_usd_per_batch", 3.0)) + (fast_cap if mode == "fast" else 0.0)
+    pipeline.llm.FALLBACK["enabled"] = mode == "fast"
+    pipeline.llm.SIMULATE_EXHAUSTED = (Path(data_dir) / "SIMULATE_EXHAUSTED").exists()     # zero-cost test switch
+    if mode == "fast" and STATS["mode"] != "fast":
+        PAUSE.update(until=None, daily=False)       # a paused batch switched to fast carries straight on
+    STATS.update(mode=mode, fast_limit=fast_cap)
+    return mode
+
+
+def count_failure(results_dir, row, reason):
+    """Remember that this row failed. On the MAX_ATTEMPTS-th failure return an 'unreadable' result to save in its
+    place; before that return None (the row is left for a later job). Allowance waits are never counted here."""
+    path = Path(results_dir) / "attempts.json"
+    with _attempt_lock:
+        try:
+            seen = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            seen = {}
+        seen[row["row_id"]] = n = seen.get(row["row_id"], 0) + 1
+        path.write_text(json.dumps(seen), encoding="utf-8")
+    if n < MAX_ATTEMPTS:
+        return None
+    return pipeline.unresolved(row, f"Could not be read after {n} attempts ({reason[:160]})", {"total_seconds": 0})
 
 
 def _site_host(row):
@@ -151,7 +204,7 @@ def _read_csv(path):
         return list(csv.DictReader(f))
 
 
-def run_chunk(rows, cfg, workers, results_dir, on_row_done=None):
+def run_chunk(rows, cfg, workers, results_dir, on_row_done=None, data_dir=None):
     """Scrapes one chunk. Same per-row logic as scraper2/run.py's work(), reused not duplicated.
     on_row_done(timings, costs, done_ids), if given, fires after each row (not just once at the end
     of the whole chunk) so a caller can checkpoint live done/pending counts while a chunk is still
@@ -159,6 +212,16 @@ def run_chunk(rows, cfg, workers, results_dir, on_row_done=None):
     it fully finishes looks indistinguishable from being stuck."""
     lock = threading.Lock()
     timings, costs, done_ids = [], [], []
+
+    def save(rid, res):
+        with lock:
+            (results_dir / f"{rid}.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+            timings.append(res["timing"].get("total_seconds", 0))
+            costs.append(res["timing"].get("cost_usd_estimate", 0))
+            STATS["ai_calls"] += res["timing"].get("ai_calls", 0)
+            done_ids.append(rid)
+            if on_row_done:
+                on_row_done(timings, costs, done_ids)
 
     def work(r):
         rid = r["row_id"]
@@ -168,28 +231,60 @@ def run_chunk(rows, cfg, workers, results_dir, on_row_done=None):
                 if on_row_done:
                     on_row_done(timings, costs, done_ids)
             return
+        if data_dir is not None:
+            apply_mode(data_dir, cfg)
+        if PAUSE["until"]:
+            return                                  # allowance used up: the rest of the chunk waits for the resume
         try:
             res = pipeline.scrape(r, cfg)
-            if res.get("retry"):
-                print(f"{rid}: NOT SAVED, {res['reason']} - will retry next chunk", flush=True)
+            if res.get("quota"):
+                with lock:
+                    first = not PAUSE["until"]
+                    PAUSE.update(until=max(PAUSE["until"] or 0, res["resume_at"]), daily=bool(res.get("daily")))
+                if first:
+                    print(f"{rid}: free AI allowance used up - pausing the batch", flush=True)
                 return
-            with lock:
-                (results_dir / f"{rid}.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
-                timings.append(res["timing"].get("total_seconds", 0))
-                costs.append(res["timing"].get("cost_usd_estimate", 0))
-                STATS["ai_calls"] += res["timing"].get("ai_calls", 0)
-                done_ids.append(rid)
-                if on_row_done:
-                    on_row_done(timings, costs, done_ids)
+            if res.get("retry"):
+                final = count_failure(results_dir, r, res["reason"])
+                if final is None:
+                    print(f"{rid}: NOT SAVED, {res['reason']} - will retry next chunk", flush=True)
+                    return
+                res = final
+                print(f"{rid}: saved as unreadable after {MAX_ATTEMPTS} attempts", flush=True)
+            save(rid, res)
             print(f"{rid}: done ({res['timing'].get('total_seconds')}s)", flush=True)
         except Exception as e:
             print(f"{rid}: FAILED: {type(e).__name__}: {e}", flush=True)
             with open(results_dir / "errors.log", "a", encoding="utf-8") as log:
                 log.write(f"{time.strftime('%F %T')} batch_runner {rid}: {e}\n")
+            final = count_failure(results_dir, r, f"{type(e).__name__}: {e}")
+            if final is not None:
+                save(rid, final)
 
     with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
         list(pool.map(work, rows))
     return timings, costs, done_ids
+
+
+def waiting_state(pending, progressed, prior, now=None):
+    """What a job reports when it stops with rows still to do: (status, extra fields for progress.json)."""
+    now = time.time() if now is None else now
+    iso = lambda t: datetime.fromtimestamp(t, timezone.utc).isoformat()     # noqa: E731
+    if pending == 0:
+        return "done", {}
+    if PAUSE["until"]:
+        if PAUSE["daily"]:
+            # If the batch was already waiting for the daily allowance and this job still got nothing done, the
+            # expected return time was wrong: look again in 30 minutes rather than waiting another whole day.
+            again = prior.get("waiting_kind") == "daily" and not progressed
+            return "waiting", {"waiting_kind": "daily", "resume_at": iso(now + 1800 if again else PAUSE["until"]),
+                               "waiting_reason": "Today's free AI allowance is used up."}
+        return "waiting", {"waiting_kind": "busy", "resume_at": iso(max(PAUSE["until"], now + 900)),
+                           "waiting_reason": "The free AI reader is refusing requests for now."}
+    if not progressed:
+        return "waiting", {"waiting_kind": "retry", "resume_at": iso(now + 900),
+                           "waiting_reason": "Nothing could be read in the last run; trying again shortly."}
+    return "running", {}
 
 
 def main():
@@ -219,7 +314,8 @@ def main():
     # Paid web searches are capped per BATCH, not per job: the total is kept in the batch folder so every chunk
     # (a separate GitHub job) continues from what the earlier ones already spent.
     discover.set_budget(float(cfg.get("max_paid_usd_per_batch", 3.0)), data_dir / "paid_usage.json")
-    pipeline.llm.FALLBACK["enabled"] = bool(cfg.get("haiku_fallback", True))   # only ever acts inside the cap above
+    STATS.update(workers=a.workers, provider=a.provider, chunk_size=a.chunk_size)
+    apply_mode(data_dir, cfg)          # free mode unless the upload page switched this batch to fast
 
     try:
         with batch_lock(data_dir):
@@ -237,6 +333,7 @@ def _run(a, data_dir, results_dir, cfg):
         already_done = {r["row_id"] for r in rows if (results_dir / f"{r['row_id']}.json").exists()} | repeats
         prior = json.loads(_progress_path(data_dir).read_text(encoding="utf-8")) if _progress_path(data_dir).exists() else {}
         STATS["ai_calls"] = prior.get("ai_calls", 0)
+        PAUSE.update(until=None, daily=False)
         started_at = time.time() - prior.get("elapsed_seconds", 0)
         all_timings, all_costs = [], []
         total_chunks = max(1, -(-len(rows) // a.chunk_size))
@@ -280,15 +377,21 @@ def _run(a, data_dir, results_dir, cfg):
                 write_progress(data_dir, a.batch, "running", rows, _base | set(done_ids), chunk_no,
                                total_chunks, all_timings + timings, all_costs + costs, started_at)
 
-            timings, costs, done_ids = run_chunk(chunk, cfg, a.workers, results_dir, on_row_done=_live_checkpoint)
+            before = set(already_done)
+            timings, costs, done_ids = run_chunk(chunk, cfg, a.workers, results_dir, on_row_done=_live_checkpoint,
+                                                 data_dir=data_dir)
             all_timings += timings
             all_costs += costs
             already_done |= set(done_ids)
+            todo = [r for r in rows if r["row_id"] not in already_done]      # includes rows this chunk could not finish
 
             run_batch.merge(rows)
-            status = "done" if not todo else "running"
+            status, extra = waiting_state(len(todo), bool(already_done - before), prior)
+            total_chunks = max(total_chunks, chunk_no)
             write_progress(data_dir, a.batch, status, rows, already_done, chunk_no, total_chunks,
-                           all_timings, all_costs, started_at)
+                           all_timings, all_costs, started_at, extra)
+            if status == "waiting":
+                print(f"Batch {a.batch}: waiting - {extra['waiting_reason']} Resumes by itself at {extra['resume_at']}.", flush=True)
 
             if a.publish_every and chunk_no % a.publish_every == 0:
                 import subprocess
@@ -304,7 +407,7 @@ def _run(a, data_dir, results_dir, cfg):
             except Exception as e:
                 print(f"(scraper dashboard refresh failed, non-fatal: {e})", file=sys.stderr)
 
-            if a.once:
+            if a.once or status == "waiting":
                 break
 
         if not todo and chunks_run:
