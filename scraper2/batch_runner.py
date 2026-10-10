@@ -133,7 +133,7 @@ def apply_mode(data_dir, cfg):
     """Called before every institute, so a switch made on the page takes effect within about a minute (the
     workflow pulls the repository every 60 seconds while a chunk runs)."""
     mode = reader_mode(data_dir)
-    fast_cap = float(cfg.get("max_fast_usd_per_batch", 30.0))
+    fast_cap = float(cfg.get("max_fast_usd_per_batch", 10.0))
     discover.BUDGET["limit"] = float(cfg.get("max_paid_usd_per_batch", 3.0)) + (fast_cap if mode == "fast" else 0.0)
     pipeline.llm.FALLBACK["enabled"] = mode == "fast"
     pipeline.llm.SIMULATE_EXHAUSTED = (Path(data_dir) / "SIMULATE_EXHAUSTED").exists()     # zero-cost test switch

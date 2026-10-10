@@ -133,7 +133,7 @@ Nothing extra to set up. Upload the file and leave it.
 Gemini reads, and Claude is used only for the personal-email searches (cap
 `max_paid_usd_per_batch`, $3). The button "Continue now with Claude Haiku (paid)" switches that one
 batch to fast mode: Haiku reads whatever Gemini refuses, about 6 cents per institute, up to
-`max_fast_usd_per_batch` ($30, in `config.yaml`). Gemini is still tried first, so the batch is back
+`max_fast_usd_per_batch` ($10, in `config.yaml`). Gemini is still tried first, so the batch is back
 on free reading by itself when Gemini answers again. "Back to free mode" switches it off. The
 choice is stored in `data_hei/<batch>/reader.json`.
 

@@ -145,4 +145,4 @@ scraper:
   #   free: only Gemini reads. When its free allowance is used up the batch pauses and resumes by itself.
   #   fast: Claude Haiku reads whatever Gemini refuses, so the batch does not pause.
   max_paid_usd_per_batch: 3.0   # cap per batch on paid Claude use in free mode (the personal-email searches)
-  max_fast_usd_per_batch: 30.0  # extra allowed per batch while it is in fast mode (Haiku reading, about 6 cents an institute)
+  max_fast_usd_per_batch: 10.0  # extra allowed per batch while it is in fast mode (Haiku reading, about 6 cents an institute)

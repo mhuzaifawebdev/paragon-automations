@@ -627,7 +627,7 @@ function renderReader(d, status) {
 async function setReader(d, mode) {
   const msg = $("p-reader-msg"), btn = $("p-reader-btn");
   if (mode === "fast") {
-    const left = d.pending || 0, cap = d.fast_limit_usd || 30;
+    const left = d.pending || 0, cap = d.fast_limit_usd || 10;
     const worst = Math.min(left * HAIKU_USD_PER_INSTITUTE, cap);
     if (!window.confirm(`Use Claude Haiku (paid) for batch "${d.batch}"?\n\n`
         + `${left} institutes are left. Haiku costs about 6 cents for each institute it reads, so if it has to read `
