@@ -416,11 +416,14 @@ def _claude_sites(row, limit=4):
     return roots[:limit]
 
 
-def find_website(row, use_search=False, search_provider="claude_cli", paid_search=False):
+def find_website(row, use_search=False, search_provider="claude_cli", paid_search=False, gemini_search=False):
     """row: {name, country, phone, email, website_override}. Returns (url, how, note); url None if unresolved.
     paid_search adds one Claude web search after the free one. It is OFF by default: in a 25-institute trial it
     recovered 3 sites for 23 paid searches, and one of the 3 was a university directory that passed check_site
-    because it mentions the institution's name."""
+    because it mentions the institution's name.
+    gemini_search is the Google-grounded Gemini call. Also OFF by default: it found no site at all in 165
+    institutes (this key is refused for grounded search) while spending calls from the same free allowance the
+    reading needs."""
     tried = []
 
     def attempt(url, how):
@@ -470,8 +473,9 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
                     return hit
                 if hit:
                     tried.append(f"{u} rejected: country {row.get('country')} not shown")
-        found = _gemini_search(row) if search_provider == "gemini" else _claude_search(row)
-        hit = attempt(found, "web search (" + ("Gemini" if search_provider == "gemini" else "Claude") + ")")
-        if hit:
-            return hit
+        if search_provider != "gemini" or gemini_search:
+            found = _gemini_search(row) if search_provider == "gemini" else _claude_search(row)
+            hit = attempt(found, "web search (" + ("Gemini" if search_provider == "gemini" else "Claude") + ")")
+            if hit:
+                return hit
     return None, "unresolved", "; ".join(tried) or "no website source available (add one in the 'Website override' column)"

@@ -198,12 +198,16 @@
     </div>
   </div>
 </main>
-<footer>Runs on GitHub Actions in chunks — safe to close this tab, progress keeps going. A large batch pauses when the free AI allowance runs out and resumes by itself. Poll refreshes every 10s.</footer>
+<footer>Runs on GitHub Actions in chunks — safe to close this tab, progress keeps going. A large batch pauses when the free AI allowance runs out and resumes by itself. Refreshes every 20s while running, every 2 min while paused.</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <script>
 const $ = id => document.getElementById(id);
 let pollTimer = null;
+// Each check is a round trip page -> Vercel -> GitHub. A paused batch changes nothing for hours, so it is
+// checked far less often than a running one.
+const POLL_RUNNING_MS = 20000, POLL_WAITING_MS = 120000;
+let pollEvery = POLL_RUNNING_MS;
 let trackStartedAt = 0;
 
 function esc(s) { return (s ?? "").toString().replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
@@ -453,7 +457,8 @@ function trackBatch(batch, { scroll = true } = {}) {
   if (scroll) $("progress-card").scrollIntoView({ behavior: "smooth", block: "start" });
   renderProgress({ status: "loading", batch });
   pollBatch(batch);
-  pollTimer = setInterval(() => pollBatch(batch), 10000);
+  pollEvery = POLL_RUNNING_MS;
+  pollTimer = setInterval(() => pollBatch(batch), pollEvery);
 
   // Remember this batch so reopening the page (or reloading it) resumes tracking instead of
   // dropping back to an empty form - a batch runs for minutes to hours in the background, so
@@ -488,6 +493,13 @@ async function pollBatch(batch) {
     // batch has genuinely finished one way or another; "not_found" keeps retrying like "running" does.
     if (data.status === "done" || data.status === "error" || data.status === "cancelled") {
       if (pollTimer) { clearInterval(pollTimer); pollTimer = null; }
+    } else if (pollTimer) {
+      const want = data.status === "waiting" ? POLL_WAITING_MS : POLL_RUNNING_MS;
+      if (want !== pollEvery) {
+        clearInterval(pollTimer);
+        pollEvery = want;
+        pollTimer = setInterval(() => pollBatch(batch), pollEvery);
+      }
     }
   } catch (e) {
     renderProgress({ status: "error", batch, error: "Network error: " + e.message });

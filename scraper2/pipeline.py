@@ -373,7 +373,7 @@ def extract_partner_slices(inst, pack, provider, model):
     """Partners-only model calls over list-like slices, in parallel. Returns ({partners, stated, cost}, slices_missed)."""
     from concurrent.futures import ThreadPoolExecutor
     wins = partner_windows(pack)
-    out = {"partners": [], "stated": {"value": 0, "line": 0}, "cost": 0.0, "calls": len(wins)}
+    out = {"partners": [], "stated": {"value": 0, "line": 0}, "cost": 0.0, "calls": len(wins), "slices": []}
     if not wins:
         return out, 0
     missed, exhausted = 0, None
@@ -383,7 +383,7 @@ def extract_partner_slices(inst, pack, provider, model):
             return llm.extract_partners(inst, pack.window(*w), provider, model)
     with ThreadPoolExecutor(max_workers=min(len(wins), 4)) as pool:
         futs = [pool.submit(one, w) for w in wins]
-        for f in futs:
+        for w, f in zip(wins, futs):
             try:
                 d, meta = f.result()
             except llm.QuotaExhausted as e:
@@ -393,6 +393,8 @@ def extract_partner_slices(inst, pack, provider, model):
                 missed += 1
                 continue
             out["partners"] += d.get("partners") or []
+            # what this one call gave back, kept with the result so wasted slice calls can be counted afterwards
+            out["slices"].append({"lines": list(w), "names": [(p.get("name") or "").strip() for p in d.get("partners") or []]})
             out["cost"] += meta.get("cost_usd_estimate", 0)
             st = d.get("partners_stated_total") or {}
             if st.get("value", 0) > out["stated"]["value"] and st.get("line", 0):
@@ -422,6 +424,7 @@ def scrape(row, cfg):
     t = time.time()
     site, how, note = discover.find_website(inst, use_search=bool(cfg.get("discover_with_search")),
                                             paid_search=bool(cfg.get("claude_site_search")),
+                                            gemini_search=bool(cfg.get("gemini_site_search")),
                                             search_provider=cfg.get("search_provider") or
                                             ("gemini" if cfg.get("provider") == "gemini" else "claude_cli"))
     timing["discover_s"] = round(time.time() - t, 1)
@@ -460,7 +463,7 @@ def scrape(row, cfg):
             return {"row_id": row["row_id"], "retry": True, "reason": f"model unavailable: {str(e)[:160]}", "timing": timing}
         data = rank.extract(pack, inst)
         mode = "rules"
-    slice_note = ""
+    slice_note, slices = "", []
     timing["ai_calls"] = 1 if mode == provider and provider != "rules" else 0
     if mode == provider and provider != "rules":
         try:
@@ -470,6 +473,7 @@ def scrape(row, cfg):
             return {"row_id": row["row_id"], "retry": True, "quota": True, "resume_at": e.resume_at, "daily": e.daily,
                     "reason": str(e), "timing": timing}
         timing["partner_calls"] = extra["calls"]
+        slices = extra["slices"]
         timing["ai_calls"] += extra["calls"]
         data["partners"] = list(data.get("partners") or []) + extra["partners"]
         st = extra["stated"]
@@ -501,6 +505,10 @@ def scrape(row, cfg):
         country_claim = {"value": data["country"]["name"], "source_url": cl["url"], "evidence_quote": cl["text"]}
     name = inst["name"] or (pack.lines[0]["text"][:80] if pack.lines else "")
     partners, campuses, stated, st_line = resolve_network(data, pack, name)
+    if slices:
+        kept = {_n(p["partner_name"]) for p in partners}
+        timing["slices"] = [{"lines": s["lines"], "returned": len(s["names"]),
+                             "accepted": len({_n(x) for x in s["names"]} & kept)} for s in slices]
 
     unread = f" {len(cr['errors'])} page(s) could not be read." if cr["errors"] else ""
     contact_obj = {"row_id": row["row_id"], "institution_name": name,

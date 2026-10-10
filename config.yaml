@@ -139,6 +139,7 @@ scraper:
   max_pages: 10
   evidence_chars: 90000
   discover_with_search: true    # free web search for sites the other free tiers cannot find
+  gemini_site_search: false     # Google search through Gemini for a missing website: found 0 sites in 165 institutes, and uses the free reading allowance
   claude_site_search: false     # paid Claude web search for missing websites. Off: a 25-row trial recovered few sites and accepted a directory
   email_web_search: true        # web search for a contact's own email when only a shared inbox was found
   # Free / fast is chosen per batch on the upload page (data_hei/<batch>/reader.json), free unless switched:

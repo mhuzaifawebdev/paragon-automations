@@ -325,6 +325,19 @@ check("Claude search: the site that fails the homepage proof is skipped, the pro
 calls.clear()
 site, how, _note = discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True)
 check("the paid website search is off unless asked for", (site, len(calls)), (None, 0))
+asked_gemini = []
+discover._gemini_search = lambda row: asked_gemini.append(1) or ""
+discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True, search_provider="gemini")
+check("the Gemini website search (never found a site, spends reading allowance) is off unless asked for", asked_gemini, [])
+discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True, search_provider="gemini",
+                      gemini_search=True)
+check("and still runs when switched on", asked_gemini, [1])
+discover._ddg_search = lambda row, limit=4: ["https://real.edu/"]
+check("with it off, the free DuckDuckGo search still finds the site",
+      discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True, search_provider="gemini")[:2],
+      ("https://real.edu/", "web search (DuckDuckGo)"))
+discover._ddg_search = lambda row, limit=4: []
+discover._gemini_search = lambda row: ""
 site, how, note = discover.find_website({"row_id": "t2", "name": "420322312622", "country": ""}, use_search=True, paid_search=True)
 check("a phone number in the name column triggers no paid search", (site, len(calls)), (None, 0))
 # the sheet's own website column is tried before the email domain, and must still pass the homepage proof
@@ -537,6 +550,21 @@ check("an email on another domain is rejected",
       verify.verify_contact({**vc, "email": "ruta@gmail.com", "email_source_url": "https://conf.example/speakers"},
                             "https://a.org")[0], False)
 verify.cached_record = real_cached
+
+# each partner slice records what it returned, so wasted slice calls can be counted from the results
+slice_pack = evidence.Pack()
+for i in range(1, 281):
+    slice_pack.add("https://a.org/partners", f"University of Town {i}" if i <= 10 or 141 <= i <= 150 else f"plain line {i}")
+real_ep = llm.extract_partners
+llm.extract_partners = lambda inst, window, provider, model=None, timeout=180: (
+    {"partners": [{"name": "University of Town 3", "line": 3}] if window.lines[0]["n"] == 1 else [],
+     "partners_stated_total": {"value": 0, "line": 0}}, {})
+extra, missed = pl.extract_partner_slices({"name": "A College"}, slice_pack, "gemini", None)
+llm.extract_partners = real_ep
+check("both list-like slices are read, as before", (extra["calls"], missed, [p["name"] for p in extra["partners"]]),
+      (2, 0, ["University of Town 3"]))
+check("each slice records its lines and what it returned",
+      extra["slices"], [{"lines": [1, 140], "names": ["University of Town 3"]}, {"lines": [141, 280], "names": []}])
 
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
