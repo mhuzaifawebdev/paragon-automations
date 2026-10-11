@@ -1,0 +1,75 @@
+{
+ "row_id": "r105",
+ "scraped_at": "2026-10-11T10:59:50Z",
+ "contacts": {
+  "row_id": "r105",
+  "institution_name": "ACCADEMIA DI BELLE ARTI DI BRERA",
+  "institution_type": "university",
+  "official_website": "https://www.accademiadibrera.milano.it/",
+  "country": null,
+  "phone": {
+   "value": "02.86955237",
+   "source_url": "https://www.accademiadibrera.milano.it/it/orari-e-contatti-accademia-di-brera",
+   "evidence_quote": "Tel: 02.86955237"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "RELAZIONI INTERNAZIONALI",
+   "designation": "International Relations",
+   "designation_local": "",
+   "email": "internationalrelations@accademiadibrera.milano.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.accademiadibrera.milano.it/it/orari-e-contatti-accademia-di-brera",
+   "evidence_quote": "RELAZIONI INTERNAZIONALI"
+  },
+  "alternates": [],
+  "rung": "Head of international relations. This office manages international relations for the institution.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Palazzo Brera",
+    "city": "Milano",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.accademiadibrera.milano.it/",
+    "evidence_quote": "Accademia di Brera - Milano"
+   },
+   {
+    "campus_name": "Sede Scalo Farini",
+    "city": "Milano",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://www.accademiadibrera.milano.it/it/sede-valtellina",
+    "evidence_quote": "Sede Scalo Farini | Accademia di Brera"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of partner institutions. The contact Elisabetta Solca was not found in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 12.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.7,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 29.3
+ }
+}
