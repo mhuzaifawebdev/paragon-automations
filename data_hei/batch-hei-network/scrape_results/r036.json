@@ -1,0 +1,108 @@
+{
+ "row_id": "r036",
+ "scraped_at": "2026-10-11T10:33:43Z",
+ "contacts": {
+  "row_id": "r036",
+  "institution_name": "UNIWERSYTET JANA KOCHANOWSKIEGO W KIELCACH",
+  "institution_type": "university",
+  "official_website": "https://ujk.edu.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Sylwia Konarska-Zimnicka",
+   "designation": "Vice-Rector for International Cooperation",
+   "designation_local": "",
+   "email": "prorum@ujk.edu.pl",
+   "office_email": "",
+   "phone": "+48 41 349 72 04",
+   "source_url": "https://erasmus.ujk.edu.pl/erasmus-partner-countries-ujk/staff/",
+   "evidence_quote": "dr hab. Sylwia Konarska-Zimnicka, prof. UJK ... Prorektor ds. Współpracy Międzynarodowej"
+  },
+  "alternates": [],
+  "rung": "Vice-rector for international affairs. She is the Vice-Rector for International Cooperation and the Institutional Erasmus+ Coordinator.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ESN",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus.ujk.edu.pl/erasmus-dla-studentow/erasmus-app/",
+    "evidence_quote": "informacje o aktualnych wydarzeniach od lokalnych organizacji ESN",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EAIE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus.ujk.edu.pl/",
+    "evidence_quote": "UJK na EAIE 2026 w Glasgow | UJK at EAIE 2026 in Glasgow",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Uniwersytet Jana Kochanowskiego w Kielcach",
+    "city": "Kielce",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://ujk.edu.pl/",
+    "evidence_quote": "Uniwersytet Jana Kochanowskiego w Kielcach"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides contact details for the international office and Erasmus+ staff, but does not contain a list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.8,
+  "crawl_s": 17.5,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 228.8,
+  "mode": "gemini",
+  "email_search_s": 12.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     395
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 265.1
+ }
+}
