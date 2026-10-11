@@ -1,0 +1,108 @@
+{
+ "row_id": "r108",
+ "scraped_at": "2026-10-11T11:02:04Z",
+ "contacts": {
+  "row_id": "r108",
+  "institution_name": "Academia Națională de Muzica Gheorghe Dima",
+  "institution_type": "university",
+  "official_website": "https://anmgd.ro/",
+  "country": null,
+  "phone": {
+   "value": "+40264591241",
+   "source_url": "https://anmgd.ro/contact/",
+   "evidence_quote": "<tel +40264591241>"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Oana Bălan-Budoiu",
+   "designation": "International Relations Director and Erasmus Plus Coordinator",
+   "designation_local": "",
+   "email": "oana.balan@amgd.ro",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://anmgd.ro/relatii-internationale/contact/",
+   "evidence_quote": "Conf.univ.dr. Oana Bălan-Budoiu ... Director Relații Internaționale, Coordonator Erasmus Plus, Responsabil STT, STA"
+  },
+  "alternates": [
+   {
+    "name": "Naomi Chiricov",
+    "designation": "Officer responsible for foreign students and Romanians everywhere",
+    "designation_local": "",
+    "email": "naomi.chiricov@amgd.ro",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://anmgd.ro/relatii-internationale/contact/",
+    "evidence_quote": "Drd. Naomi Chiricov ... Responsabil studenți străini și români de pretutindeni",
+    "why_chosen": "International relations officer. She coordinates affairs for foreign students and international mobility participants."
+   },
+   {
+    "name": "Samuel Pop",
+    "designation": "Officer responsible for Student Mobility for Studies (SMS) and Traineeships (SMP)",
+    "designation_local": "",
+    "email": "popsami@amgd.ro",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://anmgd.ro/relatii-internationale/contact/",
+    "evidence_quote": "Drd. Samuel Pop ... Responsabil SMS, SMP",
+    "why_chosen": "Mobility coordinator. He is responsible for managing student mobilities for studies and traineeships."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. She serves as the International Relations Director and Erasmus Plus Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Headquarters – Cluj-Napoca",
+    "city": "Cluj-Napoca",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://anmgd.ro/contact/",
+    "evidence_quote": "Headquarters – Cluj-Napoca"
+   },
+   {
+    "campus_name": "Piatra Neamţ Extension",
+    "city": "Piatra Neamț",
+    "country": "Romania",
+    "role": "branch",
+    "source_url": "https://anmgd.ro/contact/",
+    "evidence_quote": "Piatra Neamţ"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The provided evidence contains information about international relations contacts and campus locations, but does not include a list of partner institutions or agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 19.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 112.7,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 133.7
+ }
+}
