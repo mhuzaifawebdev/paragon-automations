@@ -1,0 +1,145 @@
+{
+ "row_id": "r120",
+ "scraped_at": "2026-10-11T11:08:57Z",
+ "contacts": {
+  "row_id": "r120",
+  "institution_name": "UNIVERSITATEA AUREL VLAICU DIN ARAD",
+  "institution_type": "university",
+  "official_website": "https://www.uav.ro/",
+  "country": {
+   "value": "România",
+   "source_url": "https://www.uav.ro/",
+   "evidence_quote": "+40-257-280702 <tel +40-257-280702> rectorat@uav.ro <rectorat@uav.ro> www.uav.ro B-dul Revoluţiei, nr. 77, 310130 Arad, România P. O. BOX 2/158 AR"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Alexandru Popa",
+   "designation": "Vice-Rector",
+   "designation_local": "",
+   "email": "rectorat@uav.ro",
+   "office_email": "",
+   "phone": "+40-257-280702",
+   "source_url": "https://www.uav.ro/",
+   "evidence_quote": "Prorector: ... Prof.univ.dr. Alexandru Popa"
+  },
+  "alternates": [
+   {
+    "name": "Codruța Simona Stoica",
+    "designation": "Vice-Rector",
+    "designation_local": "",
+    "email": "rectorat@uav.ro",
+    "office_email": "",
+    "phone": "+40-257-280702",
+    "source_url": "https://www.uav.ro/",
+    "evidence_quote": "Prorector: ... Prof.univ.dr. Codruța Simona Stoica",
+    "why_chosen": "Vice-rector for international affairs. Prof.univ.dr. Codruța Simona Stoica is a vice-rector involved in central university management."
+   },
+   {
+    "name": "Ramona Lile",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "rectorat@uav.ro",
+    "office_email": "",
+    "phone": "+40-257-280702",
+    "source_url": "https://www.uav.ro/",
+    "evidence_quote": "Rector: ... ​Dr. Ramona Lile",
+    "why_chosen": "Principal / director (no Erasmus contact found). Dr. Ramona Lile serves as Rector of the university and represents top institutional leadership."
+   }
+  ],
+  "rung": "Vice-rector for international affairs. Prof.univ.dr. Alexandru Popa is a vice-rector involved in central university management.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UEFISCDI",
+    "partner_country": "Romania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uav.ro/",
+    "evidence_quote": "Studentii Universitatii „Aurel Vlaicu” din Arad pot consulta Ghidul National al Studentului 2026/2027, realizat de UEFISCDI impreuna cu Ministerul Educatiei si Cercetarii.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ministerul Educatiei si Cercetarii",
+    "partner_country": "Romania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uav.ro/",
+    "evidence_quote": "Studentii Universitatii „Aurel Vlaicu” din Arad pot consulta Ghidul National al Studentului 2026/2027, realizat de UEFISCDI impreuna cu Ministerul Educatiei si Cercetarii.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institute for Geopolitical Studies",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uav.ro/",
+    "evidence_quote": "Universitatea „Aurel Vlaicu” din Arad, împreună cu Institute for Geopolitical Studies și Research Centre for Mathematical Models and Computer Systems din cadrul UAV, a găzduit conferința „The Role of ...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Research Centre for Mathematical Models and Computer Systems",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uav.ro/",
+    "evidence_quote": "Universitatea „Aurel Vlaicu” din Arad, împreună cu Institute for Geopolitical Studies și Research Centre for Mathematical Models and Computer Systems din cadrul UAV, a găzduit conferința „The Role of ...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Universitatea „Aurel Vlaicu” din Arad",
+    "city": "Arad",
+    "country": "România",
+    "role": "main",
+    "source_url": "https://www.uav.ro/",
+    "evidence_quote": "+40-257-280702 <tel +40-257-280702> rectorat@uav.ro <rectorat@uav.ro> www.uav.ro B-dul Revoluţiei, nr. 77, 310130 Arad, România P. O. BOX 2/158 AR"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence pages mention that international partners exist under the 'Parteneri internaționali' link, but the actual partner list and specific Erasmus coordinator contact details are not present in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.6,
+  "crawl_s": 22.6,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 75.1,
+  "mode": "gemini",
+  "email_search_s": 7.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 109.3
+ }
+}
