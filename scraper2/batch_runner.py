@@ -100,6 +100,8 @@ def write_progress(data_dir, batch, status, queue, done_ids, chunk_no, total_chu
         "cost_usd_projected_total": round(sum(costs) / max(len(done_ids), 1) * len(queue), 2) if done_ids else None,
         "ai_calls": STATS["ai_calls"], "reader_mode": STATS["mode"], "fast_limit_usd": STATS["fast_limit"],
         "provider": STATS["provider"], "chunk_size": STATS["chunk_size"],
+        "fast_reader": {"gemini": "paid Gemini", "haiku": "Claude Haiku"}.get(pipeline.llm.paid_reader()[0]),
+        "fast_usd_per_institute": pipeline.llm.paid_reader()[1],
         "confidence": confidence_counts, "partners_found": total_partners, "campuses_found": total_campuses,
         "recent": [r["row_id"] for r in enriched if r["row_id"] in done_ids][-20:],
     }
@@ -120,7 +122,8 @@ _attempt_lock = threading.Lock()
 
 
 def reader_mode(data_dir):
-    """'free' (default: Gemini only) or 'fast' (Claude Haiku reads what Gemini refuses). Set from the upload page,
+    """'free' (default: Gemini only) or 'fast' (a paid reader takes what free Gemini refuses: the paid Gemini key
+    if one is set, otherwise Claude Haiku). Set from the upload page,
     which writes reader.json into the batch folder."""
     try:
         mode = json.loads((Path(data_dir) / "reader.json").read_text(encoding="utf-8")).get("mode")

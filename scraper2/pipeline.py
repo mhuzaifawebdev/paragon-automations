@@ -520,7 +520,7 @@ def scrape(row, cfg):
                    "rung": primary["why_chosen"] if primary else "", "source": "web",
                    "confidence": primary["confidence"] if primary else 0.2,
                    "needs_human_check": (not primary) or (not primary["email"]),
-                   "pages_read": len(cr["pages"]), "notes": f"site found via: {how}. mode: {mode}{' (read by Claude Haiku: Gemini was unavailable)' if meta.get('fallback') else ''}.{unread}"}
+                   "pages_read": len(cr["pages"]), "notes": f"site found via: {how}. mode: {mode}{f" (read by the paid reader {meta.get('model_used')}: free Gemini was unavailable)" if meta.get('fallback') else ''}.{unread}"}
     network_obj = {"external_collaboration": partners, "internal_collaboration": campuses,
                    "stated_total": stated or None, "stated_total_quote": st_line.get("text", ""),
                    "stated_total_url": st_line.get("url", ""), "truncated": bool(stated and stated > len(partners)),

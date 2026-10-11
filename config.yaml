@@ -144,6 +144,8 @@ scraper:
   email_web_search: true        # web search for a contact's own email when only a shared inbox was found
   # Free / fast is chosen per batch on the upload page (data_hei/<batch>/reader.json), free unless switched:
   #   free: only Gemini reads. When its free allowance is used up the batch pauses and resumes by itself.
-  #   fast: Claude Haiku reads whatever Gemini refuses, so the batch does not pause.
+  #   fast: a paid reader takes whatever free Gemini refuses, so the batch does not pause. It is the same Gemini
+  #         model on a paid key (secret GEMINI_PAID_API_KEY, about 2 cents an institute) when that key is set,
+  #         otherwise Claude Haiku (about 6 cents).
   max_paid_usd_per_batch: 3.0   # cap per batch on paid Claude use in free mode (the personal-email searches)
-  max_fast_usd_per_batch: 10.0  # extra allowed per batch while it is in fast mode (Haiku reading, about 6 cents an institute)
+  max_fast_usd_per_batch: 10.0  # extra allowed per batch while it is in fast mode (paid reading)

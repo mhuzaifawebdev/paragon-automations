@@ -273,7 +273,9 @@ def _gemini_urls(prompt, limit=5):
 
 
 SEARCH_MODEL = "claude-haiku-4-5"
-SEARCH_USAGE = {"searches": 0, "input_tokens": 0, "output_tokens": 0, "reader_calls": 0}   # running paid totals
+# running paid totals. input/output_tokens are Claude Haiku tokens; reader_micro_usd is paid reading by any other
+# model, kept as millionths of a dollar because each model has its own price
+SEARCH_USAGE = {"searches": 0, "input_tokens": 0, "output_tokens": 0, "reader_calls": 0, "reader_micro_usd": 0}
 SEARCH_PRICE = {"search": 0.01, "input_per_m": 1.0, "output_per_m": 5.0}   # USD: $10 per 1,000 searches + Haiku 4.5 tokens
 BUDGET = {"limit": None, "file": None}
 _usage_lock = threading.Lock()
@@ -282,7 +284,7 @@ _usage_lock = threading.Lock()
 def spent_usd():
     u = SEARCH_USAGE
     return round(u["searches"] * SEARCH_PRICE["search"] + u["input_tokens"] / 1e6 * SEARCH_PRICE["input_per_m"]
-                 + u["output_tokens"] / 1e6 * SEARCH_PRICE["output_per_m"], 4)
+                 + u["output_tokens"] / 1e6 * SEARCH_PRICE["output_per_m"] + u["reader_micro_usd"] / 1e6, 4)
 
 
 def set_budget(limit_usd, path=None):
@@ -308,13 +310,16 @@ def _save_usage():
             pass
 
 
-def record_reader(input_tokens, output_tokens):
-    """A Claude Haiku call that stood in for the free reader (llm._paid_fallback): same model, same prices,
-    same cap as the web searches."""
+def record_reader(input_tokens, output_tokens, price=None):
+    """A paid call that stood in for the free reader (llm._paid_fallback), counted against the same cap as the web
+    searches. price = (USD per million input tokens, per million output tokens); None means Claude Haiku."""
     with _usage_lock:
         SEARCH_USAGE["reader_calls"] += 1
-        SEARCH_USAGE["input_tokens"] += input_tokens
-        SEARCH_USAGE["output_tokens"] += output_tokens
+        if price:
+            SEARCH_USAGE["reader_micro_usd"] += round(input_tokens * price[0] + output_tokens * price[1])
+        else:
+            SEARCH_USAGE["input_tokens"] += input_tokens
+            SEARCH_USAGE["output_tokens"] += output_tokens
         _save_usage()
 
 

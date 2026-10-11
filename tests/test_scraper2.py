@@ -525,6 +525,30 @@ llm._claude_api = lambda system, user, model, timeout, schema=None: ({"contacts"
 llm.FALLBACK["enabled"] = True; discover.set_budget(5.0)
 check("in fast mode the same situation is read by Claude Haiku instead of pausing",
       llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)[1]["model_used"], "claude-haiku-4-5")
+# the cheapest paid reader: the same Gemini model on a key with billing on, used before (and instead of) Haiku
+check("no paid Gemini key: fast mode would use Claude Haiku", llm.paid_reader(), ("haiku", 0.06))
+os.environ["GEMINI_PAID_API_KEY"] = "paid-key"
+check("paid Gemini key set: fast mode uses it, at about a third of the price", llm.paid_reader(), ("gemini", 0.02))
+paid_urls, haiku_used = [], []
+llm._claude_api = lambda system, user, model, timeout, schema=None: haiku_used.append(1) or ({}, {})
+llm._post = lambda url, headers, body, timeout, retries=3: paid_urls.append(url) or {
+    "candidates": [{"content": {"parts": [{"text": '{"contacts": [], "partners": []}'}]}}],
+    "usageMetadata": {"promptTokenCount": 40000, "candidatesTokenCount": 1500, "thoughtsTokenCount": 500}}
+discover.set_budget(5.0)
+paid_meta = llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)[1]
+check("free allowance used up in fast mode: the paid Gemini key reads, on the cheapest model, and Haiku is not called",
+      (paid_meta["model_used"], "gemini-3.1-flash-lite:generateContent?key=paid-key" in paid_urls[0], len(paid_urls), haiku_used),
+      ("gemini-3.1-flash-lite (paid key)", True, 1, []))
+check("its cost is counted against the batch cap at Gemini's price (40k in + 2k out = $0.013)",
+      (discover.SEARCH_USAGE["reader_calls"], discover.spent_usd()), (1, 0.013))
+llm._post = lambda url, headers, body, timeout, retries=3: (_ for _ in ()).throw(llm.LLMError("HTTP 403: billing not enabled"))
+try:
+    llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+    got = "answered"
+except llm.QuotaExhausted:
+    got = "paused"
+check("a paid key that does not work pauses the batch; it does not quietly move to the dearer Haiku", (got, haiku_used), ("paused", []))
+os.environ.pop("GEMINI_PAID_API_KEY")
 llm.SIMULATE_EXHAUSTED = False; llm.FALLBACK["enabled"] = False; llm._claude_api = real_claude; discover.set_budget(None)
 os.environ.pop("ANTHROPIC_API_KEY") if old_key is None else os.environ.__setitem__("ANTHROPIC_API_KEY", old_key)
 _fresh()

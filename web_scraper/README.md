@@ -137,6 +137,11 @@ batch to fast mode: Haiku reads whatever Gemini refuses, about 6 cents per insti
 on free reading by itself when Gemini answers again. "Back to free mode" switches it off. The
 choice is stored in `data_hei/<batch>/reader.json`.
 
+**Cheaper fast mode (optional).** Add a GitHub secret `GEMINI_PAID_API_KEY` holding a second
+Gemini key from a Google project with billing switched on. Fast mode then uses that key (same
+model, about 2 cents per institute) and never Claude Haiku. Keep the existing free key in
+`GEMINI_API_KEY`: do not switch billing on for that project, or every batch is charged.
+
 ## Verify before handing off
 
 1. Open the URL, upload a small (3-5 row) real CSV, start a batch.

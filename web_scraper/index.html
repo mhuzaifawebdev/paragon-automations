@@ -586,7 +586,10 @@ function renderProgress(d) {
 // and resumes by itself. Fast: Claude Haiku (paid) reads whatever Gemini refuses, up to a spending limit.
 // progress.json only shows a switch once the scraper has next written it, so the choice just made on this page
 // is remembered for a few minutes and shown straight away.
-const HAIKU_USD_PER_INSTITUTE = 0.06;      // measured average; an estimate, shown as such
+// Which paid reader fast mode uses, and its rough cost per institute, come from progress.json: paid Gemini
+// (about 2 cents) when a paid Gemini key is set up, otherwise Claude Haiku (about 6 cents). Estimates.
+const paidName = d => d.fast_reader || "Claude Haiku";
+const paidRate = d => d.fast_usd_per_institute || 0.06;
 let readerChoice = null;                   // { batch, mode, at }
 
 function renderReader(d, status) {
@@ -603,7 +606,7 @@ function renderReader(d, status) {
   if (mode === "fast") {
     box.className = "reader-box";
     const capHit = d.paid_search_limit_reached && d.reader_mode === "fast";
-    text.textContent = `Fast mode is on: Claude Haiku (paid) reads whatever the free reader refuses. `
+    text.textContent = `Fast mode is on: ${paidName(d)} (paid) reads whatever the free reader refuses. `
       + `Paid so far on this batch: ${usd(d.paid_search_usd)}`
       + (d.reader_mode === "fast" && d.paid_search_limit_usd ? ` of the ${usd(d.paid_search_limit_usd)} limit.` : ".")
       + (capHit ? " The limit has been reached, so the batch is back on the free reader only." : "")
@@ -625,13 +628,13 @@ function renderReader(d, status) {
       + (when ? `Resumes automatically at about ${when}. ` : "Resumes automatically. ")
       + "Nothing is lost and you do not need to do anything."
       + (readerChoice ? " (Switched back to free mode.)" : "");
-    btn.textContent = "Continue now with Claude Haiku (paid)";
+    btn.textContent = `Continue now with ${paidName(d)} (paid)`;
     btn.style.display = allowance ? "block" : "none";
   } else {
     box.className = "reader-box quiet";
     text.textContent = "Free mode (lowest cost). If the free AI allowance runs out, this batch pauses and resumes "
       + "by itself when the allowance is back." + (readerChoice ? " (Switched back to free mode.)" : "");
-    btn.textContent = "Urgent? Use Claude Haiku (paid) instead of pausing";
+    btn.textContent = `Urgent? Use ${paidName(d)} (paid) instead of pausing`;
   }
   btn.onclick = () => setReader(d, "fast");
 }
@@ -640,9 +643,9 @@ async function setReader(d, mode) {
   const msg = $("p-reader-msg"), btn = $("p-reader-btn");
   if (mode === "fast") {
     const left = d.pending || 0, cap = d.fast_limit_usd || 10;
-    const worst = Math.min(left * HAIKU_USD_PER_INSTITUTE, cap);
-    if (!window.confirm(`Use Claude Haiku (paid) for batch "${d.batch}"?\n\n`
-        + `${left} institutes are left. Haiku costs about 6 cents for each institute it reads, so if it has to read `
+    const worst = Math.min(left * paidRate(d), cap);
+    if (!window.confirm(`Use ${paidName(d)} (paid) for batch "${d.batch}"?\n\n`
+        + `${left} institutes are left. It costs about ${Math.round(paidRate(d) * 100)} cents for each institute it reads, so if it has to read `
         + `all of them that is about $${worst.toFixed(2)}.\n\n`
         + `It never spends more than $${Number(cap).toFixed(2)} on this batch, it is only used when the free reader `
         + `refuses, and you can switch back to free mode at any time.`)) return;

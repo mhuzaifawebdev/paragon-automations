@@ -253,16 +253,59 @@ def _pace_feedback(refused):
 # a spending cap: it is used only when every Gemini model has just refused, and each call is counted against
 # the batch's cap (discover.BUDGET), shared with the paid web searches.
 FALLBACK = {"enabled": False, "model": "claude-haiku-4-5"}
+# The cheapest paid reader is the SAME Gemini model on a key with billing switched on (GEMINI_PAID_API_KEY):
+# about 2 cents an institute against about 6 for Claude Haiku, and the answers are the ones the free run gives.
+# Only this one model is used on the paid key; the dearer Gemini models are never paid for.
+PAID_GEMINI = {"model": "gemini-3.1-flash-lite", "price": (0.25, 1.50)}     # USD per million tokens (input, output)
 _fallback_said = {"until": 0.0}
 
 
+def paid_reader():
+    """Which paid reader fast mode would use: ('gemini' | 'haiku' | None, rough USD per institute)."""
+    if os.environ.get("GEMINI_PAID_API_KEY"):
+        return "gemini", 0.02
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return "haiku", 0.06
+    return None, 0.0
+
+
+def _gemini_once(key, m, system, user, schema, timeout):
+    resp = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={key}", {},
+                 {"systemInstruction": {"parts": [{"text": system}]},
+                  "contents": [{"role": "user", "parts": [{"text": user}]}],
+                  "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": schema,
+                                       "temperature": 0}}, timeout, retries=2)
+    try:
+        return json.loads(resp["candidates"][0]["content"]["parts"][0]["text"]), resp
+    except Exception as e:
+        raise LLMError(f"unreadable Gemini reply: {e}")
+
+
 def _paid_fallback(system, user, timeout, schema, why):
-    """One Claude Haiku call in place of a Gemini call that could not be made. Returns None when it must not or
-    cannot be used (switched off, no key, no cap set, cap reached, or the call itself failed)."""
+    """One paid call in place of a free Gemini call that could not be made: paid Gemini when a paid key is set,
+    otherwise Claude Haiku. Returns None when it must not or cannot be used (switched off, no key, no cap set, cap
+    reached, or the call itself failed)."""
     import discover
-    if not (FALLBACK["enabled"] and os.environ.get("ANTHROPIC_API_KEY")
-            and discover.BUDGET["limit"] is not None and discover.budget_left()):
+    kind = paid_reader()[0]
+    if not (FALLBACK["enabled"] and kind and discover.BUDGET["limit"] is not None and discover.budget_left()):
         return None
+    if kind == "gemini":
+        t0 = time.time()
+        try:
+            data, resp = _gemini_once(os.environ["GEMINI_PAID_API_KEY"], PAID_GEMINI["model"], system, user, schema, timeout)
+        except LLMError as e:           # not handed on to the dearer Haiku: the batch pauses instead
+            print(f"(paid Gemini reader failed: {str(e)[:160]})", file=sys.stderr, flush=True)
+            return None
+        use = resp.get("usageMetadata") or {}
+        discover.record_reader(use.get("promptTokenCount") or 0,
+                               (use.get("candidatesTokenCount") or 0) + (use.get("thoughtsTokenCount") or 0),
+                               PAID_GEMINI["price"])
+        if _fallback_said["until"] <= time.time():
+            _fallback_said["until"] = time.time() + 120
+            print(f"(free Gemini unavailable: {why} - the paid Gemini key is reading instead; spent "
+                  f"${discover.spent_usd():.2f} of ${discover.BUDGET['limit']:.2f})", file=sys.stderr, flush=True)
+        return data, {"seconds": round(time.time() - t0, 1), "cost_usd_estimate": 0.0,
+                      "model_used": PAID_GEMINI["model"] + " (paid key)", "fallback": why}
     try:
         data, meta = _claude_api(system, user, FALLBACK["model"], timeout, schema)
     except LLMError as e:
@@ -305,12 +348,7 @@ def _gemini(system, user, model, timeout, schema=None):
         for m in awake:
             _pace_wait()
             try:
-                resp = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={key}", {},
-                             {"systemInstruction": {"parts": [{"text": system}]},
-                              "contents": [{"role": "user", "parts": [{"text": user}]}],
-                              "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": schema,
-                                                   "temperature": 0}}, timeout, retries=2)
-                data = json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
+                data, _resp = _gemini_once(key, m, system, user, schema, timeout)
                 _pace_feedback(False)
                 return data, {"seconds": round(time.time() - t0, 1), "cost_usd_estimate": 0.0, "model_used": m}
             except LLMError as e:
@@ -327,8 +365,6 @@ def _gemini(system, user, model, timeout, schema=None):
                     _GEMINI_RESTING[m] = until
                 if not any(c in str(e) for c in ("503", "429", "500", "502")):
                     raise                               # a real error (bad key, bad request): do not hide it
-            except Exception as e:
-                raise LLMError(f"unreadable Gemini reply: {e}")
         if not all(_GEMINI_RESTING.get(x, 0) > time.time() for x in models):
             break                                     # refused for another reason (overload): handled below
     paid = _paid_fallback(system, user, timeout, schema, "all Gemini models refused or overloaded")
