@@ -219,7 +219,7 @@ def _institute_sheets(wb, sheets):
         ws.append([name])
         ws["A1"].font = TITLE_FONT
         ws.append(["← Back to all institutes"])
-        ws["A2"].hyperlink = Hyperlink(ref="A2", location=f"'Institutions'!A{n}")
+        ws["A2"].hyperlink = Hyperlink(ref="A2", location=f"'Institutions'!A{n}", display=ws["A2"].value)
         ws["A2"].font = HYPERLINK_FONT
         for heading, view, items in ((f"International partners ({len(ps)}) - those with no country stated are last", PARTNER_VIEW, ps),
                                      (f"Campuses ({len(cs)})", CAMPUS_VIEW, cs)):
@@ -317,7 +317,7 @@ def build(data_dir):
                     continue
                 if target_sheet in ("Partners", "Campuses") and rid in own_sheet:
                     # the partner/campus counts open that institute's own sheet, not the list of everyone's
-                    cell.hyperlink = Hyperlink(ref=cell.coordinate, location=f"'{own_sheet[rid]}'!A1")
+                    cell.hyperlink = Hyperlink(ref=cell.coordinate, location=f"'{own_sheet[rid]}'!A1", display=str(cell.value))
                     cell.font = HYPERLINK_FONT
                     continue
                 # A plain string (even "#'Sheet'!A1") makes openpyxl write an EXTERNAL relationship
@@ -325,7 +325,10 @@ def build(data_dir):
                 # Excel would treat as a URL, not an in-workbook jump. The Hyperlink object with
                 # `location` (no `target`) is what actually produces a spec-correct internal link
                 # with no relationship file at all, verified the same way.
-                cell.hyperlink = Hyperlink(ref=cell.coordinate, location=f"'{target_sheet}'!A{target_row}")
+                # `display` repeats the cell's own text: without it Google Sheets shows the link target
+                # ("#gid=123...") in place of the name or count when the file is opened there.
+                cell.hyperlink = Hyperlink(ref=cell.coordinate, location=f"'{target_sheet}'!A{target_row}",
+                                           display=str(cell.value))
                 cell.font = HYPERLINK_FONT
 
     out_path = data_dir / "results.xlsx"

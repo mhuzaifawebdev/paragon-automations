@@ -107,6 +107,8 @@ hdr = [c.value for c in inst_ws[1]]
 pf = inst_ws.cell(row=2, column=hdr.index("International Partners Found") + 1)
 check("the count on the main sheet is recounted without national partners", pf.value, "2")
 check("the partner count on the main sheet opens that institute's own sheet", pf.hyperlink.location, f"'{own[0]}'!A1")
+check("links between sheets carry the cell's own text, so Google Sheets shows it instead of '#gid=...'",
+      (pf.hyperlink.display, ws1["A2"].hyperlink.display), ("2", "← Back to all institutes"))
 check("the full Partners list has no national partners either", wb["Partners"].max_row, 1 + sum(1 for r in rows if r[9] != "National"))
 unk_h = ["row_id", "partner_name", "partner_scope"]
 unk = {"Partners": {"header": unk_h, "rows": [["r1", "X", "Unknown"], ["r1", "Y", "National"]]}, "Institutions": {"header": [], "rows": []}}
