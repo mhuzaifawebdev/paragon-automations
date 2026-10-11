@@ -147,5 +147,5 @@ scraper:
   #   fast: a paid reader takes whatever free Gemini refuses, so the batch does not pause. It is the same Gemini
   #         model on a paid key (secret GEMINI_PAID_API_KEY, about 2 cents an institute) when that key is set,
   #         otherwise Claude Haiku (about 6 cents).
-  max_paid_usd_per_batch: 3.0   # cap per batch on paid Claude use in free mode (the personal-email searches)
+  max_paid_usd_per_batch: 6.0   # cap per batch on paid Claude use in free mode (the personal-email searches)
   max_fast_usd_per_batch: 10.0  # extra allowed per batch while it is in fast mode (paid reading)
