@@ -1,0 +1,90 @@
+{
+ "row_id": "r249",
+ "scraped_at": "2026-10-11T12:12:08Z",
+ "contacts": {
+  "row_id": "r249",
+  "institution_name": "Kodolanyi Janos Egyetem",
+  "institution_type": "university",
+  "official_website": "https://www.kodolanyi.hu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Partner universities in EU (France, Italy, Spain, Portugal, Belgium, Netherlands, Germany, Finland, Turkey)",
+    "partner_country": "Multiple (France, Italy, Spain, Portugal, Belgium, Netherlands, Germany, Finland, Turkey)",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.kodolanyi.hu/erasmus/",
+    "evidence_quote": "Az Erasmus+ programunk a hallgatók számára 25 európai uniós ország több mint 100 felsőoktatási intézményébe kínál áthallgatási lehetőséget, a legnépszerűbb célállomások között találjuk az Franciaországot, Olaszországot, Spanyolországot, Portugáliát, Belgiumot, Hollandiát, Németországot, Finnországot és Törökországot. Az Erasmus+ program keretében a kiutazó hallgatók támogatásban részesülnek, amely a felmerülő többletköltségek (lakhatás, étkezés) részleges fedezésére szolgál, így szinte tényleg c",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "More than 100 partner universities worldwide",
+    "partner_country": "30+ countries",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kodolanyi.hu/erasmus/",
+    "evidence_quote": "Intézményünk a világ több, mint 30 országában, több mint 100 partneregyetemmel áll kapcsolatban.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Virtual Power Plant Program operator (Magyar Innováció és Hatékonyság Nonprofit Kft.)",
+    "partner_country": "Hungary",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kodolanyi.hu/szintet-lepett-az-egyuttmukodes/",
+    "evidence_quote": "Stratégiai együttműködési megállapodást írt alá a Kodolányi János Egyetem (KJE) és a Virtuális Erőmű Programot (VEP) üzemeltető Magyar Innováció és Hatékonyság Nonprofit Kft. az 5 éve megkezdett, a fenntartható fejlődéshez kapcsolódó, egymást támogató, közös és kölcsönös tudásfejlesztés intézményesítése és magasabb szintre emelése érdekében.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Budapesti Nemzetközi Campus",
+    "city": "Budapest",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://www.kodolanyi.hu/",
+    "evidence_quote": "Budapesti Nemzetközi Campus"
+   },
+   {
+    "campus_name": "Székesfehérvári Oktatási Központ",
+    "city": "Székesfehérvár",
+    "country": "Hungary",
+    "role": "branch",
+    "source_url": "https://www.kodolanyi.hu/",
+    "evidence_quote": "Székesfehérvári Oktatási Központ"
+   }
+  ],
+  "stated_total": 100,
+  "stated_total_quote": "Intézményünk a világ több, mint 30 országában, több mint 100 partneregyetemmel áll kapcsolatban.",
+  "stated_total_url": "https://www.kodolanyi.hu/erasmus/",
+  "truncated": true,
+  "total_seen": 100,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides an overview of Erasmus+ partnerships and mentions more than 100 partner universities in 30+ countries, but does not provide a complete list of individual partner institutions with their countries and mobility types. Strategic partnerships with non-academic organizations (such as Magyar Innováció és Hatékonyság Nonprofit Kft.) are mentioned but named contacts responsible for international relations at institutional level are not fully identified in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 16.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.6,
+  "mode": "gemini",
+  "reader": "claude-haiku-4-5",
+  "total_seconds": 26.8
+ }
+}
