@@ -1,0 +1,111 @@
+{
+ "row_id": "r235",
+ "scraped_at": "2026-10-11T12:09:05Z",
+ "contacts": {
+  "row_id": "r235",
+  "institution_name": "YRKESHOGSKOLAN ARCADA AB",
+  "institution_type": "university",
+  "official_website": "https://www.arcada.fi/sv",
+  "country": {
+   "value": "Finland",
+   "source_url": "https://www.arcada.fi/sv",
+   "evidence_quote": "Finland"
+  },
+  "phone": {
+   "value": "0294 282 673",
+   "source_url": "https://www.arcada.fi/sv/om-oss/kontaktuppgifter",
+   "evidence_quote": "Telefonnummer:0294 282 673 <tel +358 294 282 673>"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Annika Keskinen",
+   "designation": "International Coordinator",
+   "designation_local": "",
+   "email": "annika.keskinen@arcada.fi",
+   "office_email": "",
+   "phone": "0294 282 673",
+   "source_url": "https://www.arcada.fi/sv/om-oss/kontaktuppgifter",
+   "evidence_quote": "Annika Keskinen ... Internationell koordinator"
+  },
+  "alternates": [
+   {
+    "name": "Christa Holm",
+    "designation": "Specialist, international matters",
+    "designation_local": "",
+    "email": "christa.holm@arcada.fi",
+    "office_email": "",
+    "phone": "0294 282 670",
+    "source_url": "https://www.arcada.fi/sv/om-oss/kontaktuppgifter",
+    "evidence_quote": "Christa Holm ... Specialist, internationella ärenden",
+    "why_chosen": "International relations officer. Christa Holm works directly under international affairs at the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Annika Keskinen is explicitly listed as an international coordinator handling international matters.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "partner insitutions around the world",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.arcada.fi/en/cooperation-and-services/collaborate-us/international-collaboration/erasmus",
+    "evidence_quote": "Come on an exchange to Arcada! Arcada has about 120 partner insitutions around the world and welcomes about 70 exchange students each year. Around 50 nationalities are represented in Arcada, partly within the English degree programs and partly through student, teacher and expert exchanges.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Arcada",
+    "city": "Helsingfors",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.arcada.fi/sv",
+    "evidence_quote": "Arcada är en mångprofessionell högskola i Finland. På vårt internationella campus i Helsingfors arbetar våra 2900 studenter och 170 medarbetare gränsöverskridande för bred bildning."
+   }
+  ],
+  "stated_total": 120,
+  "stated_total_quote": "Come on an exchange to Arcada! Arcada has about 120 partner insitutions around the world and welcomes about 70 exchange students each year. Around 50 nationalities are represented in Arcada, partly within the English degree programs and partly through student, teacher and expert exchanges.",
+  "stated_total_url": "https://www.arcada.fi/en/cooperation-and-services/collaborate-us/international-collaboration/erasmus",
+  "truncated": true,
+  "total_seen": 120,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain an explicit, itemized list of named partner universities, only a stated total of approximately 120 partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 16.5,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.5,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 38.7
+ }
+}
