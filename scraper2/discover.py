@@ -275,8 +275,11 @@ def _gemini_urls(prompt, limit=5):
 SEARCH_MODEL = "claude-haiku-4-5"
 # running paid totals. input/output_tokens are Claude Haiku tokens; reader_micro_usd is paid reading by any other
 # model, kept as millionths of a dollar because each model has its own price
-SEARCH_USAGE = {"searches": 0, "input_tokens": 0, "output_tokens": 0, "reader_calls": 0, "reader_micro_usd": 0}
-SEARCH_PRICE = {"search": 0.01, "input_per_m": 1.0, "output_per_m": 5.0}   # USD: $10 per 1,000 searches + Haiku 4.5 tokens
+SEARCH_USAGE = {"searches": 0, "input_tokens": 0, "output_tokens": 0, "reader_calls": 0, "reader_micro_usd": 0,
+                "brave_searches": 0}
+# USD: Claude $10 per 1,000 searches + Haiku 4.5 tokens. Brave $5 per 1,000; its monthly free credit (about 1,000
+# searches) is NOT subtracted here, so the batch total can only overstate what Brave really charges.
+SEARCH_PRICE = {"search": 0.01, "input_per_m": 1.0, "output_per_m": 5.0, "brave": 0.005}
 BUDGET = {"limit": None, "file": None}
 _usage_lock = threading.Lock()
 
@@ -284,7 +287,8 @@ _usage_lock = threading.Lock()
 def spent_usd():
     u = SEARCH_USAGE
     return round(u["searches"] * SEARCH_PRICE["search"] + u["input_tokens"] / 1e6 * SEARCH_PRICE["input_per_m"]
-                 + u["output_tokens"] / 1e6 * SEARCH_PRICE["output_per_m"] + u["reader_micro_usd"] / 1e6, 4)
+                 + u["output_tokens"] / 1e6 * SEARCH_PRICE["output_per_m"] + u["reader_micro_usd"] / 1e6
+                 + u["brave_searches"] * SEARCH_PRICE["brave"], 4)
 
 
 def set_budget(limit_usd, path=None):
@@ -363,19 +367,50 @@ def _claude_urls(prompt, limit=5):
                                                             for h in NO_EMAIL_HOSTS)][:limit]
 
 
+def _brave_urls(query, limit=5):
+    """One Brave Search API request (key in BRAVE_API_KEY): result URLs in rank order. About 1,000 searches a month
+    are covered by Brave's free credit, then $5 per 1,000 - a quarter of what a Claude web search costs."""
+    import os
+    key = os.environ.get("BRAVE_API_KEY")
+    if not key or not budget_left():
+        return []
+    with _search_lock:                                   # the free plan allows one request a second
+        try:
+            req = urllib.request.Request("https://api.search.brave.com/res/v1/web/search?" +
+                                         urllib.parse.urlencode({"q": query, "count": 10}),
+                                         headers={"Accept": "application/json", "X-Subscription-Token": key})
+            with urllib.request.urlopen(req, timeout=25) as r:
+                data = json.loads(r.read().decode("utf-8", "replace"))
+        except Exception as e:
+            detail = e.read().decode("utf-8", "replace")[:200] if hasattr(e, "read") else str(e)
+            print(f"(Brave search unavailable: {detail})", file=sys.stderr, flush=True)
+            return []
+        finally:
+            time.sleep(1.1)
+    with _usage_lock:
+        SEARCH_USAGE["brave_searches"] += 1
+        _save_usage()
+    urls = [x.get("url", "") for x in (data.get("web") or {}).get("results") or []]
+    return [x for x in dict.fromkeys(urls) if x and not any(h in urllib.parse.urlparse(x).netloc.lower()
+                                                            for h in NO_EMAIL_HOSTS)][:limit]
+
+
 def person_pages(name, institution, domain, limit=4):
     """Web pages likely to publish this person's own work email. Candidates only: nothing here is used
-    unless the page itself, once opened, shows the name and the address. Claude's web search when an
-    Anthropic key is set (reliable, paid per search); otherwise the free sources, which get blocked quickly."""
-    urls = _claude_urls(f'Search the web once for: "{name}" {domain} email\n'
-                        f"The goal is to find pages that publish the work email address of {name} at {institution}. "
-                        f"After the search, reply with one short line.", limit)
+    unless the page itself, once opened, shows the name and the address. Brave's search API when a Brave key
+    is set (cheapest); otherwise Claude's web search when an Anthropic key is set (paid per search); then the
+    free DuckDuckGo page, which gets blocked quickly. Gemini's Google-grounded search is no longer tried here:
+    it is not available on the free tier and each attempt spent calls from the free reading allowance."""
+    import os
+    query = f'"{name}" {domain} email'
+    if os.environ.get("BRAVE_API_KEY"):
+        urls = _brave_urls(query, limit)
+    else:
+        urls = _claude_urls(f'Search the web once for: "{name}" {domain} email\n'
+                            f"The goal is to find pages that publish the work email address of {name} at {institution}. "
+                            f"After the search, reply with one short line.", limit)
     if not urls:
-        urls = _ddg_urls(f'"{name}" {domain} email', limit)
-    if not urls:
-        urls = _gemini_urls(f"Find web pages that publish the professional work email address of {name}, who works at "
-                            f"{institution} (website {domain}). List the page URLs, one per line. If there are none, answer NONE.",
-                            limit)
+        urls = _ddg_urls(query, limit)
     return urls[:limit]
 
 

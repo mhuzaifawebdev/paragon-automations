@@ -142,6 +142,11 @@ Gemini key from a Google project with billing switched on. Fast mode then uses t
 model, about 2 cents per institute) and never Claude Haiku. Keep the existing free key in
 `GEMINI_API_KEY`: do not switch billing on for that project, or every batch is charged.
 
+**Cheaper personal-email search (optional).** Add a GitHub secret `BRAVE_API_KEY` (Brave Search
+API; an account needs a card, and about 1,000 searches a month are covered by its free credit).
+The search for a contact's own email then uses Brave, never the paid Claude web search. A
+1,000-institute batch makes about 300 of these searches.
+
 ## Verify before handing off
 
 1. Open the URL, upload a small (3-5 row) real CSV, start a batch.

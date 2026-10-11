@@ -51,6 +51,9 @@ jobs:
       CHUNK_SIZE: ${{ github.event.client_payload.chunk_size || github.event.inputs.chunk_size || '25' }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      # Optional: Brave Search API key. When set, the personal-email search uses Brave (about 1,000 free searches a
+      # month) instead of the paid Claude web search.
+      BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
       # Optional: a second Gemini key with billing switched on. Used only by a batch switched to "fast" on the
       # upload page; without it fast mode uses Claude Haiku (about three times dearer).
       GEMINI_PAID_API_KEY: ${{ secrets.GEMINI_PAID_API_KEY }}

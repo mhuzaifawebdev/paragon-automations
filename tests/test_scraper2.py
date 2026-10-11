@@ -294,6 +294,41 @@ discover.urllib.request.urlopen = _fake_reply([{"type": "web_search_tool_result"
                                                 "content": {"type": "web_search_tool_result_error", "error_code": "unavailable"}}])
 check("Claude search: a tool error gives no URLs instead of crashing", discover._claude_urls("find her"), [])
 
+# Brave search for the personal-email step: used instead of the paid Claude search when a Brave key is set
+real_sleep, discover.time.sleep = discover.time.sleep, (lambda s: None)
+real_ddg_urls, discover._ddg_urls = discover._ddg_urls, (lambda q, limit=5: ["https://ddg.example/hit"])
+asked_urls = []
+
+
+def _brave(results, fail=False):
+    def opener(req, timeout=0):
+        asked_urls.append((req.full_url, req.get_header("X-subscription-token")))
+        if fail:
+            raise OSError("HTTP 429")
+        return io.BytesIO(_json.dumps({"web": {"results": [{"url": u} for u in results]}}).encode())
+    return opener
+
+
+discover.set_budget(None)
+check("no Brave key: the Brave search sends nothing", (discover._brave_urls("x"), asked_urls), ([], []))
+os.environ["BRAVE_API_KEY"] = "brave-key"
+discover.urllib.request.urlopen = _brave(["https://a.org/staff/ruta", "https://www.facebook.com/ruta", "https://a.org/staff/ruta"])
+got = discover.person_pages("Ruta Jonaite", "A College", "a.org")
+check("Brave key set: the email search goes to Brave, with the key in the header, never to Claude",
+      (got, "api.search.brave.com" in asked_urls[0][0], asked_urls[0][1], len(asked_urls)),
+      (["https://a.org/staff/ruta"], True, "brave-key", 1))
+check("each Brave search is counted in the batch's paid total at half a cent",
+      (discover.SEARCH_USAGE["brave_searches"], discover.SEARCH_USAGE["searches"], discover.spent_usd()), (1, 0, 0.005))
+discover.urllib.request.urlopen = _brave([], fail=True)
+check("Brave refusing a request falls back to the free DuckDuckGo search, not to the paid one",
+      (discover.person_pages("Ruta Jonaite", "A College", "a.org"), discover.SEARCH_USAGE["searches"]), (["https://ddg.example/hit"], 0))
+discover.set_budget(0.004); asked_urls.clear()
+discover.SEARCH_USAGE["brave_searches"] = 1
+check("over the batch cap: no Brave request is sent", (discover._brave_urls("x"), asked_urls), ([], []))
+os.environ.pop("BRAVE_API_KEY")
+discover.time.sleep, discover._ddg_urls = real_sleep, real_ddg_urls
+discover.set_budget(None)
+
 # spending cap: counted per batch, kept on disk across jobs, and no request is sent once it is reached
 import tempfile  # noqa: E402
 usage_file = Path(tempfile.mkdtemp()) / "paid_usage.json"
