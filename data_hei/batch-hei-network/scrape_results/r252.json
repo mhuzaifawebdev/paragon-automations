@@ -1,0 +1,148 @@
+{
+ "row_id": "r252",
+ "scraped_at": "2026-10-11T12:12:39Z",
+ "contacts": {
+  "row_id": "r252",
+  "institution_name": "ESCOLA SUPERIOR DE ENFERMAGEM DE LISBOA (ESEL)",
+  "institution_type": "college",
+  "official_website": "https://enfermagem.ulisboa.pt/",
+  "country": null,
+  "phone": {
+   "value": "+351 217 913 400",
+   "source_url": "https://enfermagem.ulisboa.pt/",
+   "evidence_quote": "+351 217 913 400"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Cláudia Bacatum",
+   "designation": "Florence Network Exchange Coordinator (FLECO)",
+   "designation_local": "",
+   "email": "coordenacaoerasmus@esel.pt",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://enfermagem.ulisboa.pt/node/6738",
+   "evidence_quote": "FLECO ESEL (Florence Network Exchange Coordinator): Prof.ª Cláudia Bacatum (coordenacaoerasmus@esel.pt <coordenacaoerasmus@esel.pt>)"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Florence Network Exchange Coordinator and the contact currently on file with operators; manages exchange coordination for international partnerships.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Florence Network",
+    "partner_country": "multiple",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://enfermagem.ulisboa.pt/node/6738",
+    "evidence_quote": "Florence Network | ESEUL – Escola Superior de Enfermagem da Universidade de Lisboa",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "InfPrev4frica",
+    "partner_country": "Sub-Saharan Africa",
+    "partner_type": "network",
+    "mobility_type": "study",
+    "source_url": "https://enfermagem.ulisboa.pt/node/6737",
+    "evidence_quote": "ERASMUS-EDU-2022-CBHE-101083108 - InfPrev4frica - Capacitating Sub-Saharan African Higher Education Institutions to educate Nursing Students for Sustainable and Innovative Prevention and Control practices;",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mindelo University",
+    "partner_country": "Cabo Verde",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://enfermagem.ulisboa.pt/",
+    "evidence_quote": "Protocolo Universidade Mindelo - Cabo Verde",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "PULPIT Project ERASMUS+",
+    "partner_country": "<UNKNOWN>",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://enfermagem.ulisboa.pt/",
+    "evidence_quote": "O PULPIT é um Projeto ERASMUS+ dedicado a reforçar o envolvimento de pessoas com doença e cidadãos na educação em saúde, bem como promover a aprendizagem interprofissional.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fundação Bom Sucesso",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://enfermagem.ulisboa.pt/",
+    "evidence_quote": "Esta Conferência é promovida pela nossa parceira Fundação Bom Sucesso.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Superior de Enfermagem da Universidade de Lisboa (Main Campus)",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://enfermagem.ulisboa.pt/",
+    "evidence_quote": "Escola Superior de Enfermagem da Universidade de Lisboa"
+   },
+   {
+    "campus_name": "Campus Artur Ravara",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://enfermagem.ulisboa.pt/",
+    "evidence_quote": "Edifício Artur Ravara, Campus do Parque das Nações"
+   },
+   {
+    "campus_name": "Campus Torres Vedras",
+    "city": "Torres Vedras",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://enfermagem.ulisboa.pt/index%2Ephp/campus-torres-vedras",
+    "evidence_quote": "A Escola Superior de Enfermagem da Universidade de Lisboa (ESEULisboa) vai expandir a sua presença através da criação do Campus Torres Vedras, um novo polo de formação que integrará o projeto Campus da Saúde de Torres Vedras."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence includes only three named contacts related to international mobility and Erasmus+. A comprehensive list of bilateral Erasmus partners is referenced (L535) but not detailed in the provided pages. Multiple Erasmus+ Action 2 projects are listed but their partner institutions are not fully specified in the evidence provided.\">",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 14.6,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 19.4,
+  "mode": "gemini",
+  "reader": "claude-haiku-4-5",
+  "email_search_s": 5.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     561,
+     622
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 42.5
+ }
+}
