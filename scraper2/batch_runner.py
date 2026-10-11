@@ -243,7 +243,8 @@ def run_chunk(rows, cfg, workers, results_dir, on_row_done=None, data_dir=None):
             if res.get("quota"):
                 with lock:
                     first = not PAUSE["until"]
-                    PAUSE.update(until=max(PAUSE["until"] or 0, res["resume_at"]), daily=bool(res.get("daily")))
+                    PAUSE.update(until=max(PAUSE["until"] or 0, res["resume_at"]),
+                                 daily=PAUSE["daily"] or bool(res.get("daily")))     # one worker saying "daily" is enough
                 if first:
                     print(f"{rid}: free AI allowance used up - pausing the batch", flush=True)
                 return
@@ -277,9 +278,9 @@ def waiting_state(pending, progressed, prior, now=None):
         return "done", {}
     if PAUSE["until"]:
         if PAUSE["daily"]:
-            # If the batch was already waiting for the daily allowance and this job still got nothing done, the
+            # If the batch was already waiting and this job still got nothing done, the
             # expected return time was wrong: look again in 30 minutes rather than waiting another whole day.
-            again = prior.get("waiting_kind") == "daily" and not progressed
+            again = prior.get("status") == "waiting" and not progressed
             return "waiting", {"waiting_kind": "daily", "resume_at": iso(now + 1800 if again else PAUSE["until"]),
                                "waiting_reason": "Today's free AI allowance is used up."}
         return "waiting", {"waiting_kind": "busy", "resume_at": iso(max(PAUSE["until"], now + 900)),

@@ -171,9 +171,20 @@ check("waiting for the allowance is not counted as a failed attempt", (d / "scra
 check("the progress file records the mode and how the batch was started",
       (prog["reader_mode"], prog["fast_limit_usd"]), ("free", 30.0))
 
+# several institutes hit the limit at once; one reporting "daily" must not be overwritten by another that did not
+d = new_batch("mixed", 3)
+replies = iter([True, False, False])
+br.pipeline.scrape = lambda r, cfg: {"row_id": r["row_id"], "retry": True, "quota": True, "resume_at": RESET,
+                                     "daily": next(replies), "reason": "x", "timing": {}}
+br.PAUSE.update(until=None, daily=False)
+br.run_chunk([{"row_id": "r001"}], CFG, 1, d / "scrape_results")
+br.PAUSE["until"] = None; hold = br.PAUSE["daily"]
+br.run_chunk([{"row_id": "r002"}], CFG, 1, d / "scrape_results")
+check("the 'daily allowance used up' reason is kept when a later institute only reports a refusal", (hold, br.PAUSE["daily"]), (True, True))
+
 # resumed too early: nothing done again -> look again in 30 minutes, not tomorrow
 br.PAUSE.update(until=RESET, daily=True)
-status, extra = br.waiting_state(4, False, {"waiting_kind": "daily"}, now=1000.0)
+status, extra = br.waiting_state(4, False, {"status": "waiting", "waiting_kind": "busy"}, now=1000.0)
 check("still no allowance after a resume: try again in 30 minutes",
       (status, extra["resume_at"]), ("waiting", "1970-01-01T00:46:40+00:00"))
 br.PAUSE.update(until=1060.0, daily=False)
