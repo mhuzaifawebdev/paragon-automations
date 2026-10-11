@@ -1,0 +1,112 @@
+{
+ "row_id": "r203",
+ "scraped_at": "2026-10-11T12:01:51Z",
+ "contacts": {
+  "row_id": "r203",
+  "institution_name": "ECOLE D'INGENIEURS GENERALISTES -LAROCHELLE",
+  "institution_type": "university",
+  "official_website": "https://www.eigsi.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.eigsi.fr/",
+   "evidence_quote": "France"
+  },
+  "phone": {
+   "value": "05 46 45 80 00",
+   "source_url": "https://www.eigsi.fr/",
+   "evidence_quote": "Tél. : 05 46 45 80 00 <tel 0546458000>"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Frédéric Thivet",
+   "designation": "General Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.eigsi.fr/international/charte-erasmus/",
+   "evidence_quote": "Frédéric THIVET, Directeur Général de l’EIGSI La Rochelle, a signé officiellement la déclaration d’adhésion à la Charte Erasmus + et s’est engagé à ce que l’EIGSI respecte cette charte et observe les obligations qui y sont liées, notamment :"
+  },
+  "alternates": [
+   {
+    "name": "Hannelore Guerrand",
+    "designation": "Erasmus Coordinator",
+    "designation_local": "",
+    "email": "hannelore.guerrand@eigsi.fr",
+    "office_email": "",
+    "phone": "+33.5.46.45.80.17",
+    "source_url": "https://www.eigsi.fr/international/charte-erasmus/",
+    "evidence_quote": "Coordinatrice ERASMUS ... Hannelore GUERRAND",
+    "why_chosen": "Institutional Erasmus+ coordinator. Named Erasmus Coordinator with direct email and phone contact on the same page, responsible for Erasmus+ mobility coordination at the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). General Director of EIGSI who officially signed the Erasmus+ Charter commitment; represents the institution in strategic international engagement matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "WARTSILA",
+    "partner_country": "<UNKNOWN>",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eigsi.fr/entreprises/services/#club-partenaires-et-reseaux",
+    "evidence_quote": "WARTSILA |",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "EIGSI La Rochelle",
+    "city": "La Rochelle",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.eigsi.fr/",
+    "evidence_quote": "26 rue de Vaux de Foletier"
+   }
+  ],
+  "stated_total": 80,
+  "stated_total_quote": "Découvrez nos 80 partenariats dans le monde",
+  "stated_total_url": "https://www.eigsi.fr/",
+  "truncated": true,
+  "total_seen": 80,
+  "pages_read": 10,
+  "coverage_note": "The evidence indicates 80 international partnerships (L43) but does not provide a detailed list of partner institutions with their specific countries, types, and mobility types. The Erasmus Charter declaration and strategic documents are referenced but not fully provided in the evidence, limiting complete partner identification.\"",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 22.1,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.5,
+  "mode": "gemini",
+  "reader": "claude-haiku-4-5",
+  "email_search_s": 11.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 43.2
+ }
+}
