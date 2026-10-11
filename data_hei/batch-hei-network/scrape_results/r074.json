@@ -1,0 +1,121 @@
+{
+ "row_id": "r074",
+ "scraped_at": "2026-10-11T10:49:17Z",
+ "contacts": {
+  "row_id": "r074",
+  "institution_name": "UNIVERSITAT FUR ANGEWANDTE KUNST WIEN",
+  "institution_type": "university",
+  "official_website": "https://www.dieangewandte.at/",
+  "country": {
+   "value": "Österreich",
+   "source_url": "https://www.dieangewandte.at/",
+   "evidence_quote": "Österreichischer Austauschdienst (OeAD)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: email domain. mode: gemini. 7 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Österreichischer Austauschdienst (OeAD)",
+    "partner_country": "Austria",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dieangewandte.at/",
+    "evidence_quote": "Österreichischer Austauschdienst (OeAD)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Secession Wien",
+    "partner_country": "Austria",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dieangewandte.at/",
+    "evidence_quote": "Gerhard und Birgit Gmoser-Preis für Gegenwartskunst, vergeben durch die Secession Wien. „Kia Sciarrone hat uns mit seiner",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Europäische Union",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dieangewandte.at/",
+    "evidence_quote": "get your win, go abroad‘ sowie Logos der Europäischen Union und von Erasmus+]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dieangewandte.at/",
+    "evidence_quote": "get your win, go abroad‘ sowie Logos der Europäischen Union und von Erasmus+]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ulmer Verein",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dieangewandte.at/",
+    "evidence_quote": "Präsenztreffen der AG Erste Generation Kunstgeschichte im Ulmer Verein",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Universität für angewandte Kunst Wien",
+    "city": "Wien",
+    "country": "Österreich",
+    "role": "main",
+    "source_url": "https://www.dieangewandte.at/",
+    "evidence_quote": "Universität für angewandte Kunst Wien, Auditorium & Atrium, Vordere Zollamtsstraße"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 1,
+  "coverage_note": "The evidence contains general menu items and event information for the institution, but lacks a specific partner university list and does not explicitly name any mobility coordinators or contact staff with titles. 7 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.7,
+  "crawl_s": 0.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 172.7,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 178.4
+ }
+}
