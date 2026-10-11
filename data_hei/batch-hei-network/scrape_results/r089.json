@@ -1,0 +1,140 @@
+{
+ "row_id": "r089",
+ "scraped_at": "2026-10-11T10:53:35Z",
+ "contacts": {
+  "row_id": "r089",
+  "institution_name": "ARKITEKTSKOLEN I AARHUS",
+  "institution_type": "university",
+  "official_website": "https://aarch.dk/",
+  "country": {
+   "value": "Denmark",
+   "source_url": "https://aarch.dk/",
+   "evidence_quote": "Denmark"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Jørgen Helstrup",
+   "designation": "International coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://aarch.dk/kontakt-uddannelse/",
+   "evidence_quote": "[Jørgen Helstrup - International koordinator]Jørgen Helstrup ... International koordinator, Cand.mag.Se profil"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. Jørgen Helstrup is explicitly listed as the International coordinator for external applicants and those with an older bachelor's degree.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Virginia Tech",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://aarch.dk/internationalization-network-grant/",
+    "evidence_quote": "Virginia Tech, USA.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Uddannelses – og Forskningsministeriet",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://aarch.dk/internationalization-network-grant/",
+    "evidence_quote": "Projektet er finansieret af Uddannelses – og Forskningsministeriet.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Esbjerg Kommune",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://aarch.dk/internationalization-network-grant/",
+    "evidence_quote": "Foto: Esbjerg Byhistoriske Arkiv og Esbjerg Kommune.Forskningsprojekt Under vejr med Mandø: Sammen skaber vi fremtidens klimaarv",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Realdania",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://aarch.dk/internationalization-network-grant/",
+    "evidence_quote": "[Arkitektskolen Aarhus modtager støtte fra Realdania til forskningsprojekt om regenerativt byggeri]Forskningsprojekt REGENERATIVT BYGGERI - Eksempler, processer og fortællinger fra et igangværende paradigmeskifte",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ministry of Education and Research",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://aarch.dk/en/strategic-framework-agreement-publication/",
+    "evidence_quote": "The publication below presents the Strategic Framework Contract that Aarhus School of Architecture has entered into with the Ministry of Education and Research for the period 2018 to 2021.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "RIBA",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://aarch.dk/en/strategic-framework-agreement-publication/",
+    "evidence_quote": "[RIBA validation]Organisation RIBA-validering",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Arkitektskolen Aarhus",
+    "city": "Aarhus C",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://aarch.dk/",
+    "evidence_quote": "Exners Plads 7"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partners, only mentioning a specific research collaboration with Virginia Tech.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 23.8,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 6.3,
+  "mode": "gemini",
+  "email_search_s": 6.6,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 5,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     561,
+     596
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 39.4
+ }
+}
