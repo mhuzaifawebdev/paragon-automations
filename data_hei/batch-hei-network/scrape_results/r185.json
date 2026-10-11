@@ -1,0 +1,163 @@
+{
+ "row_id": "r185",
+ "scraped_at": "2026-10-11T11:38:34Z",
+ "contacts": {
+  "row_id": "r185",
+  "institution_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN - FACHHOCHSCHULE ANSBACH",
+  "institution_type": "university",
+  "official_website": "https://www.hs-ansbach.de/startseite",
+  "country": {
+   "value": "Deutschland",
+   "source_url": "https://www.hs-ansbach.de/infos/international-office/erasmus",
+   "evidence_quote": "| Belgien, Dänemark, Deutschland, Finnland, Frankreich, Irland, Island, Italien, Liechtenstein, Luxemburg, Niederlande, Norwegen, Österreich, Schweden"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Varun Friedrich Ort",
+   "designation": "Staff Member Advisory Services, Career Service",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "0981 4877-544",
+   "source_url": "https://www.hs-ansbach.de/infos/career-service/companiescampus-hochschulkontaktmesse",
+   "evidence_quote": "Varun Friedrich Ort ... Mitarbeiter Bereich Beratung: Allgemeine Studienberatung, Career Service"
+  },
+  "alternates": [
+   {
+    "name": "Rebecca Stroh",
+    "designation": "Staff Member Advisory Services & Career Service",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "0981 4877 177",
+    "source_url": "https://www.hs-ansbach.de/infos/career-service/companiescampus-hochschulkontaktmesse",
+    "evidence_quote": "Rebecca Stroh ... Mitarbeiterin Bereich Beratung: Allgemeine Studienberatung & Career Service",
+    "why_chosen": "Secretary / administration (last resort). Staff member handling general student advisory services and career service."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Staff member handling student advisory services and career service.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Thermo Fisher Scientific",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hs-ansbach.de/startseite",
+    "evidence_quote": "Die Hochschule Ansbach lädt im Rahmen des Projekts \"NextGen-Kunststoffe\" zu einem Praxis-Workshop mit Thermo Fisher Scientific ein.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hochschule Ansbach",
+    "city": "Ansbach",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.hs-ansbach.de/infos/career-service/companiescampus-hochschulkontaktmesse",
+    "evidence_quote": "Campus der Hochschule Ansbach"
+   },
+   {
+    "campus_name": "Herrieden",
+    "city": "Herrieden",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.hs-ansbach.de/startseite",
+    "evidence_quote": "AußenstellenHerrieden"
+   },
+   {
+    "campus_name": "Feuchtwangen",
+    "city": "Feuchtwangen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.hs-ansbach.de/startseite",
+    "evidence_quote": "Feuchtwangen"
+   },
+   {
+    "campus_name": "Rothenburg",
+    "city": "Rothenburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.hs-ansbach.de/startseite",
+    "evidence_quote": "Rothenburg"
+   },
+   {
+    "campus_name": "Weißenburg",
+    "city": "Weißenburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.hs-ansbach.de/startseite",
+    "evidence_quote": "Weißenburg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence contains general information about the International Office and Erasmus+ procedures, but a specific named International Office coordinator or head with email address was not found in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 27.7,
+  "ai_calls": 6,
+  "partner_calls": 5,
+  "cost_usd_estimate": 0.0,
+  "model_s": 96.6,
+  "mode": "gemini",
+  "email_search_s": 5.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 132.2
+ }
+}
