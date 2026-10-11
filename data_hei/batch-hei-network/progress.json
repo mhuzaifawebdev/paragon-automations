@@ -1,22 +1,22 @@
 {
  "batch": "batch-hei-network",
  "status": "running",
- "generated_at": "2026-10-11T10:23:58.844911+00:00",
+ "generated_at": "2026-10-11T10:25:17.797675+00:00",
  "chunk": 2,
  "total_chunks": 39,
  "total_rows": 963,
- "done": 16,
- "pending": 947,
- "elapsed_seconds": 162,
- "eta_seconds": 7588,
- "cost_usd_so_far": 0.0427,
- "paid_search_usd": 0.0427,
+ "done": 19,
+ "pending": 944,
+ "elapsed_seconds": 241,
+ "eta_seconds": 8323,
+ "cost_usd_so_far": 0.0831,
+ "paid_search_usd": 0.0831,
  "paid_search_limit_usd": 3.0,
  "paid_search_limit_reached": false,
- "paid_searches": 2,
+ "paid_searches": 4,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 62,
+ "ai_calls": 77,
  "reader_mode": "free",
  "fast_limit_usd": 10.0,
  "provider": "gemini",
@@ -24,13 +24,13 @@
  "fast_reader": "Claude Haiku",
  "fast_usd_per_institute": 0.06,
  "confidence": {
-  "high": 4,
+  "high": 6,
   "medium": 1,
   "low": 1,
-  "none": 10
+  "none": 11
  },
- "partners_found": 378,
- "campuses_found": 33,
+ "partners_found": 552,
+ "campuses_found": 54,
  "recent": [
   "r001",
   "r002",
@@ -44,8 +44,11 @@
   "r010",
   "r011",
   "r012",
+  "r015",
   "r016",
+  "r017",
   "r018",
-  "r020"
+  "r020",
+  "r022"
  ]
 }
