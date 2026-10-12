@@ -676,7 +676,7 @@ async function setReader(d, mode) {
   try {
     const resp = await fetch("/api/set-reader", {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ batch: d.batch, token, mode, ...(mode === "fast" ? { paid: paidNow(d).id } : {}) }),
+      body: JSON.stringify({ batch: d.batch, token, mode, ...(mode === "fast" && d.fast_readers && d.fast_readers.length ? { paid: paidNow(d).id } : {}) }),
     });
     const data = await resp.json();
     if (resp.ok) {

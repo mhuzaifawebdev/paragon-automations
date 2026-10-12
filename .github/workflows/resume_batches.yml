@@ -30,6 +30,15 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Tell the upload page which paid readers have a key
+        # The page offers "paid Gemini" / "Claude Haiku" for a paused batch, but only a job here can see which
+        # keys exist. Names and rough prices only are written - never a key. Without this the page would not
+        # learn about a newly added key until the batch next ran.
+        env:
+          GEMINI_PAID_API_KEY: ${{ secrets.GEMINI_PAID_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/resume_due_batches.py --list-paid-readers
+
       - name: Start every paused batch that is due
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
@@ -39,9 +48,9 @@ jobs:
         run: |
           git config user.name "paragon-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data_hei/*/progress.json 2>/dev/null || true
+          git add data_hei/*/progress.json data_hei/paid_readers.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
-            git commit -q -m "resume: paused batch(es) started again [automated]"
+            git commit -q -m "resume: paused batches / paid readers updated [automated]"
             git pull --rebase --autostash -q
             git push -q
           fi

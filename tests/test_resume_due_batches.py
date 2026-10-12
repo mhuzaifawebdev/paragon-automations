@@ -55,5 +55,16 @@ check("a batch GitHub refused to start keeps its time and is tried again next ru
 sent.clear()
 check("15 minutes later nothing is started twice", (rd.run(root, NOW + 900, start), sent), ([], []))
 
+# which paid readers have a key, for the upload page: names and prices only
+pr = root / "paid_readers.json"
+have = rd.paid_readers_file({"GEMINI_PAID_API_KEY": "secret-value", "ANTHROPIC_API_KEY": "other-secret"}, pr)
+check("both keys set: paid Gemini is listed first, Claude Haiku second", [r["id"] for r in have], ["gemini", "haiku"])
+check("no key value is ever written to the file", "secret" in pr.read_text(encoding="utf-8"), False)
+check("only Claude's key set: only Claude Haiku is offered",
+      [r["name"] for r in rd.paid_readers_file({"ANTHROPIC_API_KEY": "x", "GEMINI_PAID_API_KEY": ""}, pr)], ["Claude Haiku"])
+stamp = pr.stat().st_mtime_ns
+rd.paid_readers_file({"ANTHROPIC_API_KEY": "x"}, pr)
+check("nothing changed: the file is not rewritten, so no commit is made", pr.stat().st_mtime_ns, stamp)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

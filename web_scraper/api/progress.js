@@ -20,6 +20,20 @@ module.exports = async (req, res) => {
       return;
     }
     const data = JSON.parse(text);
+    // Which paid readers have a key (written every 15 minutes by resume_batches.yml). It is newer than what a
+    // paused batch last recorded, so a key added while the batch waits shows up on the page.
+    try {
+      const readers = JSON.parse((await getRawFile("data_hei/paid_readers.json")) || "{}").fast_readers;
+      if (Array.isArray(readers) && readers.length) {
+        data.fast_readers = readers;
+        const current = readers.find(r => r.id === data.fast_reader_id) || readers[0];
+        if (data.reader_mode !== "fast") {
+          data.fast_reader_id = current.id;
+          data.fast_reader = current.name;
+          data.fast_usd_per_institute = current.usd_per_institute;
+        }
+      }
+    } catch {}
     res.status(200).json(data);
   } catch (e) {
     res.status(200).json({ status: "error", batch, error: `Could not read progress: ${e.message}` });

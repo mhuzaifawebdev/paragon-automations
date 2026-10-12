@@ -68,7 +68,25 @@ def run(data_root, now, start):
     return started
 
 
+def paid_readers_file(env, path):
+    """Writes which paid readers have a key (names and rough prices, never a key) for the upload page. The
+    list itself comes from scraper2/llm.py so there is one place that knows the readers. Returns the list."""
+    sys.path.insert(0, str(ROOT / "scraper2"))
+    import llm
+    have = [{"id": k, "name": name, "usd_per_institute": usd}
+            for k, (name, usd, key_name) in llm.PAID_READERS.items() if env.get(key_name)]
+    text = json.dumps({"fast_readers": have}, indent=1) + "\n"
+    path = Path(path)
+    if not path.exists() or path.read_text(encoding="utf-8") != text:
+        path.write_text(text, encoding="utf-8")
+    return have
+
+
 def main():
+    if "--list-paid-readers" in sys.argv:
+        have = paid_readers_file(os.environ, ROOT / "data_hei" / "paid_readers.json")
+        print("Paid readers with a key:", ", ".join(r["name"] for r in have) or "none")
+        return
     token, repo = os.environ.get("DISPATCH_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
     if not token or not repo:
         sys.exit("DISPATCH_TOKEN and GITHUB_REPOSITORY must be set.")
