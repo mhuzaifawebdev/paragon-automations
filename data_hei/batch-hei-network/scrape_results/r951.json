@@ -1,0 +1,123 @@
+{
+ "row_id": "r951",
+ "scraped_at": "2026-10-12T07:34:18Z",
+ "contacts": {
+  "row_id": "r951",
+  "institution_name": "Wyzsza Szkola Menedzerska w Warszawie",
+  "institution_type": "university",
+  "official_website": "https://mans.org.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Ireneusz Thomas",
+   "designation": "Institutional Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "erasmus@mans.org.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://mans.org.pl/zostan-naszym-wspolpracownikiem-jako-erasmus-buddy/",
+   "evidence_quote": "dr Ireneusz Thomas ... Instytucjonalny Koordynator Programu Erasmus+"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. Ireneusz Thomas is explicitly stated as the Institutional Erasmus+ Coordinator and appears in the evidence with a direct institutional email address.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universum College",
+    "partner_country": "Kosovo",
+    "partner_type": "college",
+    "mobility_type": "staff",
+    "source_url": "https://mans.org.pl/international-staff-week-promoting-global-sustainability-through-climate-change-resource-management-renewable-energy-global-governance-sustainable-cities-and-global-justice/",
+    "evidence_quote": "For any questions and additional information, please do not hesitate to contact us at: erasmus@universum-ks.org <erasmus@universum-ks.org>",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Kampus Kawęczyńska",
+    "city": "Warszawa",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://mans.org.pl/",
+    "evidence_quote": "Kampus Kawęczyńska 36"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that Menedżerska Akademia Nauk Stosowanych w Warszawie was incorporated into Vistula University and lists some general information, but no specific partner institution list is provided in the text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 17.2,
+  "ai_calls": 7,
+  "partner_calls": 6,
+  "cost_usd_estimate": 0.0,
+  "model_s": 95.8,
+  "mode": "gemini",
+  "email_search_s": 7.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 123.2
+ }
+}
