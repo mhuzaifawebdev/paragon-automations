@@ -1,0 +1,126 @@
+{
+ "row_id": "r902",
+ "scraped_at": "2026-10-12T07:21:02Z",
+ "contacts": {
+  "row_id": "r902",
+  "institution_name": "Conservatorio Superior de Danza de Málaga Angel Pericet",
+  "institution_type": "college",
+  "official_website": "https://www.csdanzamalaga.com/",
+  "country": {
+   "value": "Spain",
+   "source_url": "https://www.csdanzamalaga.com/1erasmus/movilidad-para-personal-docente-y-no-docente/",
+   "evidence_quote": "Países de la UE y asociados al programa con costes de vida medios (Chequia, Chipre, Eslovaquia, Eslovenia, España, Estonia, Grecia, Letonia, Malta, Portugal)"
+  },
+  "phone": {
+   "value": "951 298350 / 677 902 149",
+   "source_url": "https://www.csdanzamalaga.com/",
+   "evidence_quote": "951 298350 / 677 902 149"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Accademia Nazionale di Danza",
+    "partner_country": "Italia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.csdanzamalaga.com/1erasmus/convenios/",
+    "evidence_quote": "Accademia Nazionale di Danza",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Savonia University of Applied Sciences",
+    "partner_country": "Finlandia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.csdanzamalaga.com/1erasmus/convenios/",
+    "evidence_quote": "Savonia University of Applied Sciences",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Instituto Politécnico de Lisboa",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.csdanzamalaga.com/1erasmus/convenios/",
+    "evidence_quote": "Instituto Politécnico de Lisboa",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Facultad de Motricidade Humana",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.csdanzamalaga.com/1erasmus/convenios/",
+    "evidence_quote": "Facultad de Motricidade Humana",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Codarts",
+    "partner_country": "Holanda",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.csdanzamalaga.com/1erasmus/convenios/",
+    "evidence_quote": "Codarts",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Lithiuanian Academy of Music and Theatre",
+    "partner_country": "Lituania",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.csdanzamalaga.com/1erasmus/convenios/",
+    "evidence_quote": "The Lithiuanian Academy of Music and Theatre",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Conservatorio Superior de Danza Ángel Pericet de Málaga",
+    "city": "Málaga",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.csdanzamalaga.com/",
+    "evidence_quote": "C/ Cerrojo, 5. 29007 Málaga"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a specific list of partner institutions under the convenios page, but does not explicitly name any individual staff members holding the Erasmus coordinator or international relations roles.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.2,
+  "crawl_s": 17.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 26.2,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 6,
+    "accepted": 6
+   }
+  ],
+  "total_seconds": 47.1
+ }
+}
