@@ -1,0 +1,67 @@
+{
+ "row_id": "r855",
+ "scraped_at": "2026-10-12T07:12:20Z",
+ "contacts": {
+  "row_id": "r855",
+  "institution_name": "Tolosako Inmakulada Ikastetxea S.Coop.",
+  "institution_type": "college",
+  "official_website": "https://osoki.eus/",
+  "country": null,
+  "phone": {
+   "value": "943 67 36 29",
+   "source_url": "https://osoki.eus/",
+   "evidence_quote": "943 67 36 29"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini. 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée Professionnel privé Joseph Roussel",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://osoki.eus/proiektua/erasmus/",
+    "evidence_quote": "Frantziako Le Mans hiriko Lycée Professionnel privé Joseph Roussel ( http://www.lyceeroussel72.com/) ikastetxearekin harreman estua du ikastolak 2015/16 ikasturtetik. Ikasleek atzerrian esperientziak bizitzeko, hizkuntz trebetasunak garatzeko eta beste kultura baten ezagutza sustatzeko, bi ikastetxetako ikasleen arteko elkartrukeak egiten dira, enpresetan praktikaldiak antolatuz.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Tolosako Inmakulada Ikastetxea S.Coop.",
+    "city": "Tolosa",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://osoki.eus/",
+    "evidence_quote": "Kondeko aldapa 5B"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus partners, only mentioning a specific relationship with a French school and general country names for potential internships. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 20.1,
+  "crawl_s": 114.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.4,
+  "mode": "gemini",
+  "total_seconds": 154.9
+ }
+}
