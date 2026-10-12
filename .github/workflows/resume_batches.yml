@@ -11,6 +11,14 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+  # GitHub runs the schedule above far less often than asked (every 3-6 hours in practice), so a change to the
+  # list of paid readers or to this job is also picked up straight away when it is pushed.
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/resume_batches.yml
+      - scripts/resume_due_batches.py
+      - scraper2/llm.py
 
 permissions:
   contents: write
