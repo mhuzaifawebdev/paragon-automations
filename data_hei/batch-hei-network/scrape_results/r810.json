@@ -1,0 +1,68 @@
+{
+ "row_id": "r810",
+ "scraped_at": "2026-10-12T06:59:59Z",
+ "contacts": {
+  "row_id": "r810",
+  "institution_name": "Groupe scolaire Javouhey Rive-Droite",
+  "institution_type": "school",
+  "official_website": "https://www.javouhey-brest.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 98 45 17 70",
+   "source_url": "https://www.javouhey-brest.fr/",
+   "evidence_quote": "02 98 45 17 70"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Groupe scolaire Javouhey",
+    "city": "Brest",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.javouhey-brest.fr/",
+    "evidence_quote": "29200 BREST"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The provided evidence does not contain information regarding international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 14.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 26.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 43.1
+ }
+}
