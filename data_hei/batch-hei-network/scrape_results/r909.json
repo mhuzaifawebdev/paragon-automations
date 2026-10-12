@@ -1,0 +1,125 @@
+{
+ "row_id": "r909",
+ "scraped_at": "2026-10-12T07:23:29Z",
+ "contacts": {
+  "row_id": "r909",
+  "institution_name": "Institut Les Vinyes",
+  "institution_type": "school",
+  "official_website": "https://www.ieslesvinyes.org/",
+  "country": null,
+  "phone": {
+   "value": "+34 93 391 16 61",
+   "source_url": "https://www.ieslesvinyes.org/",
+   "evidence_quote": "+34 93 391 16 61 <tel +34933911661>"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Carolina Martos",
+   "designation": "International Mobility Coordination",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+34 93 391 16 61",
+   "source_url": "https://www.ieslesvinyes.org/index.php/contact",
+   "evidence_quote": "Coordinació de mobilitat internacional: ... Carolina Martos"
+  },
+  "alternates": [
+   {
+    "name": "Ana Cabellos",
+    "designation": "International Mobility Coordination",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+34 93 391 16 61",
+    "source_url": "https://www.ieslesvinyes.org/index.php/contact",
+    "evidence_quote": "Coordinació de mobilitat internacional: ... Ana Cabellos |",
+    "why_chosen": "Mobility coordinator. Ana Cabellos shares the international mobility coordination role, handling international programs and student exchanges."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Carolina Martos is listed as the international mobility coordinator, making her the primary contact for Erasmus+ and mobility programs.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "J.S. Bach Gymnasium de Mannheim",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ieslesvinyes.org/",
+    "evidence_quote": "J.S. Bach Gymnasium de Mannheim",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rueber",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ieslesvinyes.org/index.php/innova-fp-imatge-personal",
+    "evidence_quote": "Aquest curs hem tingut l'oportunitat de participar en un projecte Innova FP conjuntament amb Rueber, empresa especialitzada en perruques i pròtesis capil·lars.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universitat Pompeu Fabra",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ieslesvinyes.org/",
+    "evidence_quote": "Visita a la Universitat Pompeu Fabra",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut Les Vinyes",
+    "city": "Santa Coloma de Gramenet",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.ieslesvinyes.org/index.php/contact",
+    "evidence_quote": "c/Amèrica, 53 08924 Santa Coloma de Gramenet |"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information on international mobility policies and general activities, but lacks a comprehensive list of formal partner institutions outside of a few specific mentions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 14.1,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.6,
+  "mode": "gemini",
+  "email_search_s": 5.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 44.9
+ }
+}
