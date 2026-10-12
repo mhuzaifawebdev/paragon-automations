@@ -1,0 +1,86 @@
+{
+ "row_id": "r447",
+ "scraped_at": "2026-10-12T05:58:48Z",
+ "contacts": {
+  "row_id": "r447",
+  "institution_name": "Wyzsza Szkola Jezykow Obcych im. Samuela Bogumila Lindego",
+  "institution_type": "college",
+  "official_website": "https://www.wsjo.pl/",
+  "country": null,
+  "phone": {
+   "value": "724 825 577",
+   "source_url": "https://www.wsjo.pl/kontakt/",
+   "evidence_quote": "724 825 577"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universidad de Jaén",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wsjo.pl/",
+    "evidence_quote": "📢 Porozumienie o współpracy z Universidad de Jaén w Hiszpanii",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Wyzsza Szkola Jezykow Obcych im. Samuela Bogumila Lindego",
+    "city": "Poznań",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://www.wsjo.pl/kontakt/",
+    "evidence_quote": "ul. Różana 17A"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The evidence provides a specific partnership with Universidad de Jaén but does not contain a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 14.7,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     421,
+     432
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 21.0
+ }
+}
