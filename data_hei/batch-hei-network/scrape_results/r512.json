@@ -1,0 +1,88 @@
+{
+ "row_id": "r512",
+ "scraped_at": "2026-10-12T06:14:53Z",
+ "contacts": {
+  "row_id": "r512",
+  "institution_name": "CARITAS - VYSSI ODBORNA SKOLA SOCIALNI OLOMOUC",
+  "institution_type": "college",
+  "official_website": "https://www.caritas-vos.cz/",
+  "country": null,
+  "phone": {
+   "value": "585 209 048",
+   "source_url": "https://www.caritas-vos.cz/kontakty",
+   "evidence_quote": "585 209 048, 731 644 306"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "PhDr. Mgr. Eva Kubíčková",
+   "designation": "Deputy Director for Quality, Development and International Cooperation",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "585 209 048",
+   "source_url": "https://www.caritas-vos.cz/kontakty",
+   "evidence_quote": "PhDr. Mgr. Eva Kubíčková ... zástupkyně ředitele pro kvalitu, rozvoj a zahraniční spolupráci, průvodkyně, vyučující odborných předmětů"
+  },
+  "alternates": [
+   {
+    "name": "Mgr. Martin Bednář, Ph.D.",
+    "designation": "Director of the school",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "585 209 022",
+    "source_url": "https://www.caritas-vos.cz/kontakty",
+    "evidence_quote": "Mgr. Martin Bednář, Ph.D. ... ředitel školy",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the director of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. She is the deputy director responsible for international cooperation and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hlavní budova",
+    "city": "Olomouc",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.caritas-vos.cz/kontakty",
+    "evidence_quote": "nám. Republiky 3, Olomouc"
+   },
+   {
+    "campus_name": "Vedlejší budova",
+    "city": "Olomouc",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://www.caritas-vos.cz/kontakty",
+    "evidence_quote": "Křížkovského 6, Olomouc"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not provide a list of partner institutions or a total number of international agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 11.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.8,
+  "total_seconds": 23.3
+ }
+}
