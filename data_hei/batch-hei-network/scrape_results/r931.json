@@ -1,0 +1,86 @@
+{
+ "row_id": "r931",
+ "scraped_at": "2026-10-12T07:29:13Z",
+ "contacts": {
+  "row_id": "r931",
+  "institution_name": "OGEC Lycee Cluny Sainte Suzanne",
+  "institution_type": "school",
+  "official_website": "http://www.lyceecluny-saintesuzanne.fr/",
+  "country": null,
+  "phone": {
+   "value": "0262 98 06 26",
+   "source_url": "http://www.lyceecluny-saintesuzanne.fr/contact/",
+   "evidence_quote": "Tel. 0262 98 06 26"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ker an Lèr",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lyceecluny-saintesuzanne.fr/",
+    "evidence_quote": "L'association Ker an Lèr et le Lycée Cluny : un partenariat fort et un projet inclusif majeur pour Sainte-Suzanne C’est un événement marquant qui s’est [...]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ker an L¨r",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lyceecluny-saintesuzanne.fr/",
+    "evidence_quote": "L'association Ker an Lèr et le Lycée Cluny : un partenariat fort et un projet inclusif majeur pour Sainte-Suzanne C’est un événement marquant qui s’est [...]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Cluny",
+    "city": "Sainte-Suzanne",
+    "country": "France",
+    "role": "main",
+    "source_url": "http://www.lyceecluny-saintesuzanne.fr/contact/",
+    "evidence_quote": "97441 Sainte-Suzanne"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 7,
+  "coverage_note": "The evidence mentions an Erasmus team but does not provide specific names or contact details for its members. There is no formal list of international partner institutions provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 12.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.0,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     1,
+     89
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 35.2
+ }
+}

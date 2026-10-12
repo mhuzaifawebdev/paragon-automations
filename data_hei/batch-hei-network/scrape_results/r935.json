@@ -1,0 +1,63 @@
+{
+ "row_id": "r935",
+ "scraped_at": "2026-10-12T07:29:10Z",
+ "contacts": {
+  "row_id": "r935",
+  "institution_name": "NOVA UNIVERZA, FAKULTETA ZA DRZAVNE IN EVROPSKE STUDIJE",
+  "institution_type": "university",
+  "official_website": "https://fds.nova-uni.si/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Univerza v Lizboni",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://fds.nova-uni.si/",
+    "evidence_quote": "Naša študentka Ela Širca je del študija preživela na Univerzi v Lizboni, kjer je poleg novih znanj pridobila več samozavesti in samostojnosti, izboljšala angleščino ter spletla prijateljstva s študenti z vsega sveta. 🎓🌊",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fakulteta za državne in evropske študije",
+    "city": "Kranj",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://fds.nova-uni.si/",
+    "evidence_quote": "Žanova ulica 3"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of partner institutions. Only one partner (Univerza v Lizboni) is mentioned in the context of a student experience.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 14.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.6,
+  "mode": "gemini",
+  "total_seconds": 32.8
+ }
+}
