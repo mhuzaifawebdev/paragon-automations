@@ -561,9 +561,15 @@ llm.FALLBACK["enabled"] = True; discover.set_budget(5.0)
 check("in fast mode the same situation is read by Claude Haiku instead of pausing",
       llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)[1]["model_used"], "claude-haiku-4-5")
 # the cheapest paid reader: the same Gemini model on a key with billing on, used before (and instead of) Haiku
-check("no paid Gemini key: fast mode would use Claude Haiku", llm.paid_reader(), ("haiku", 0.06))
+check("no paid Gemini key: fast mode would use Claude Haiku", llm.paid_reader(), ("haiku", 0.05))
 os.environ["GEMINI_PAID_API_KEY"] = "paid-key"
-check("paid Gemini key set: fast mode uses it, at about a third of the price", llm.paid_reader(), ("gemini", 0.02))
+check("paid Gemini key set: fast mode uses it, at about a third of the price", llm.paid_reader(), ("gemini", 0.015))
+check("both keys set: the page is offered both, cheapest first", [r[0] for r in llm.paid_readers()], ["gemini", "haiku"])
+llm.FALLBACK["prefer"] = "haiku"
+check("Claude Haiku chosen on the page: it is used even though a paid Gemini key exists", llm.paid_reader()[0], "haiku")
+llm.FALLBACK["prefer"] = "something-else"
+check("an unknown choice falls back to the cheapest reader", llm.paid_reader()[0], "gemini")
+llm.FALLBACK["prefer"] = None
 paid_urls, haiku_used = [], []
 llm._claude_api = lambda system, user, model, timeout, schema=None: haiku_used.append(1) or ({}, {})
 llm._post = lambda url, headers, body, timeout, retries=3: paid_urls.append(url) or {

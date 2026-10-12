@@ -138,6 +138,12 @@ check("free mode: Claude Haiku never reads, and the cap is the small search cap"
 br.apply_mode(d, CFG)
 check("fast mode: Haiku may read what Gemini refuses, inside the larger cap",
       (br.pipeline.llm.FALLBACK["enabled"], br.discover.BUDGET["limit"]), (True, 33.0))
+(d / "reader.json").write_text('{"mode": "fast", "paid": "haiku"}', encoding="utf-8")
+br.apply_mode(d, CFG)
+check("the paid reader chosen on the page is passed on to the AI module", br.pipeline.llm.FALLBACK["prefer"], "haiku")
+(d / "reader.json").write_text('{"mode": "fast", "paid": "rm -rf"}', encoding="utf-8")
+br.apply_mode(d, CFG)
+check("anything that is not a known reader is ignored", br.pipeline.llm.FALLBACK["prefer"], None)
 (d / "reader.json").write_text("not json", encoding="utf-8")
 check("an unreadable reader.json means free, never paid", br.reader_mode(d), "free")
 (d / "SIMULATE_EXHAUSTED").write_text("", encoding="utf-8")

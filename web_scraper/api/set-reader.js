@@ -21,7 +21,7 @@ module.exports = async (req, res) => {
   if (typeof body === "string") {
     try { body = JSON.parse(body); } catch { body = {}; }
   }
-  const { batch, token, mode } = body || {};
+  const { batch, token, mode, paid } = body || {};
 
   const accessPhrase = process.env.ACCESS_PHRASE;
   if (accessPhrase && token !== accessPhrase) {
@@ -36,6 +36,11 @@ module.exports = async (req, res) => {
     res.status(400).json({ error: "mode must be 'free' or 'fast'." });
     return;
   }
+  // Which paid reader fast mode should use. Optional: without it the scraper takes the cheapest one that has a key.
+  if (paid !== undefined && paid !== null && paid !== "gemini" && paid !== "haiku") {
+    res.status(400).json({ error: "paid must be 'gemini' or 'haiku'." });
+    return;
+  }
 
   try {
     const text = await getRawFile(`data_hei/${batch}/progress.json`);
@@ -47,8 +52,8 @@ module.exports = async (req, res) => {
     try { progress = JSON.parse(text); } catch {}
 
     await upsertFile(`data_hei/${batch}/reader.json`,
-      JSON.stringify({ mode, set_at: new Date().toISOString() }) + "\n",
-      `scrape ${batch}: reader set to ${mode} [automated]`);
+      JSON.stringify({ mode, ...(paid ? { paid } : {}), set_at: new Date().toISOString() }) + "\n",
+      `scrape ${batch}: reader set to ${mode}${paid ? " (" + paid + ")" : ""} [automated]`);
 
     let restarted = false;
     if (mode === "fast" && progress.status === "waiting") {
@@ -59,7 +64,7 @@ module.exports = async (req, res) => {
       });
       restarted = true;
     }
-    res.status(200).json({ ok: true, batch, mode, restarted });
+    res.status(200).json({ ok: true, batch, mode, paid: paid || null, restarted });
   } catch (e) {
     res.status(500).json({ error: `Could not switch: ${e.message}` });
   }

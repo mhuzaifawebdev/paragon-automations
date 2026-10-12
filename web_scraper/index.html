@@ -187,6 +187,8 @@
       <div class="conf-row" id="p-conf"></div>
       <div class="reader-box" id="p-reader" style="display:none">
         <div id="p-reader-text"></div>
+        <label id="p-reader-pick-wrap" style="display:none;margin-top:10px">Paid reader:
+          <select id="p-reader-pick"></select></label>
         <button id="p-reader-btn" class="secondary"></button>
         <div class="msg" id="p-reader-msg"></div>
       </div>
@@ -588,8 +590,26 @@ function renderProgress(d) {
 // is remembered for a few minutes and shown straight away.
 // Which paid reader fast mode uses, and its rough cost per institute, come from progress.json: paid Gemini
 // (about 2 cents) when a paid Gemini key is set up, otherwise Claude Haiku (about 6 cents). Estimates.
-const paidName = d => d.fast_reader || "Claude Haiku";
-const paidRate = d => d.fast_usd_per_institute || 0.06;
+// When more than one paid reader has a key, a dropdown offers them, cheapest first (so paid Gemini is the default
+// and Claude Haiku the alternative). The pick is kept here so the 20-second refresh does not reset it.
+let paidPick = null;
+const paidList = d => (d.fast_readers && d.fast_readers.length) ? d.fast_readers
+  : [{ id: d.fast_reader_id || "haiku", name: d.fast_reader || "Claude Haiku", usd_per_institute: d.fast_usd_per_institute || 0.05 }];
+const paidNow = d => paidList(d).find(r => r.id === paidPick) || paidList(d).find(r => r.id === d.fast_reader_id) || paidList(d)[0];
+const paidName = d => paidNow(d).name;
+const paidRate = d => paidNow(d).usd_per_institute;
+
+function renderPaidPick(d, show) {
+  const wrap = $("p-reader-pick-wrap"), sel = $("p-reader-pick"), list = paidList(d);
+  wrap.style.display = show && list.length > 1 ? "block" : "none";
+  const want = list.map(r => r.id).join(",");
+  if (sel.dataset.ids !== want) {
+    sel.innerHTML = list.map(r => `<option value="${esc(r.id)}">${esc(r.name)} - about ${(r.usd_per_institute * 100).toFixed(1)} cents per institute</option>`).join("");
+    sel.dataset.ids = want;
+  }
+  sel.value = paidNow(d).id;
+  sel.onchange = () => { paidPick = sel.value; renderReader(d, d.status); };
+}
 let readerChoice = null;                   // { batch, mode, at }
 
 function renderReader(d, status) {
@@ -602,6 +622,7 @@ function renderReader(d, status) {
   box.style.display = "block";
   btn.style.display = "block";
   btn.disabled = false;
+  renderPaidPick(d, mode !== "fast");
 
   if (mode === "fast") {
     box.className = "reader-box";
@@ -655,7 +676,7 @@ async function setReader(d, mode) {
   try {
     const resp = await fetch("/api/set-reader", {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ batch: d.batch, token, mode }),
+      body: JSON.stringify({ batch: d.batch, token, mode, ...(mode === "fast" ? { paid: paidNow(d).id } : {}) }),
     });
     const data = await resp.json();
     if (resp.ok) {

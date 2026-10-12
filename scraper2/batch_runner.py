@@ -100,8 +100,10 @@ def write_progress(data_dir, batch, status, queue, done_ids, chunk_no, total_chu
         "cost_usd_projected_total": round(sum(costs) / max(len(done_ids), 1) * len(queue), 2) if done_ids else None,
         "ai_calls": STATS["ai_calls"], "reader_mode": STATS["mode"], "fast_limit_usd": STATS["fast_limit"],
         "provider": STATS["provider"], "chunk_size": STATS["chunk_size"],
-        "fast_reader": {"gemini": "paid Gemini", "haiku": "Claude Haiku"}.get(pipeline.llm.paid_reader()[0]),
+        "fast_reader": pipeline.llm.PAID_READERS.get(pipeline.llm.paid_reader()[0], (None,))[0],
+        "fast_reader_id": pipeline.llm.paid_reader()[0],
         "fast_usd_per_institute": pipeline.llm.paid_reader()[1],
+        "fast_readers": [{"id": k, "name": n, "usd_per_institute": u} for k, n, u in pipeline.llm.paid_readers()],
         "confidence": confidence_counts, "partners_found": total_partners, "campuses_found": total_campuses,
         "recent": [r["row_id"] for r in enriched if r["row_id"] in done_ids][-20:],
     }
@@ -125,17 +127,24 @@ def reader_mode(data_dir):
     """'free' (default: Gemini only) or 'fast' (a paid reader takes what free Gemini refuses: the paid Gemini key
     if one is set, otherwise Claude Haiku). Set from the upload page,
     which writes reader.json into the batch folder."""
+    return reader_choice(data_dir)[0]
+
+
+def reader_choice(data_dir):
+    """(mode, paid reader chosen on the page or None). reader.json: {"mode": "fast", "paid": "gemini" | "haiku"}."""
     try:
-        mode = json.loads((Path(data_dir) / "reader.json").read_text(encoding="utf-8")).get("mode")
+        saved = json.loads((Path(data_dir) / "reader.json").read_text(encoding="utf-8"))
+        mode, paid = saved.get("mode"), saved.get("paid")
     except Exception:
-        mode = None
-    return "fast" if mode == "fast" else "free"
+        mode = paid = None
+    return ("fast" if mode == "fast" else "free"), (paid if paid in pipeline.llm.PAID_READERS else None)
 
 
 def apply_mode(data_dir, cfg):
     """Called before every institute, so a switch made on the page takes effect within about a minute (the
     workflow pulls the repository every 60 seconds while a chunk runs)."""
-    mode = reader_mode(data_dir)
+    mode, paid = reader_choice(data_dir)
+    pipeline.llm.FALLBACK["prefer"] = paid
     fast_cap = float(cfg.get("max_fast_usd_per_batch", 10.0))
     discover.BUDGET["limit"] = float(cfg.get("max_paid_usd_per_batch", 3.0)) + (fast_cap if mode == "fast" else 0.0)
     pipeline.llm.FALLBACK["enabled"] = mode == "fast"

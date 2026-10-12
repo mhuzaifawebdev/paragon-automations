@@ -252,7 +252,7 @@ def _pace_feedback(refused):
 # The paid stand-in for the free reader. Off unless a batch is switched to "fast" mode, and it never runs without
 # a spending cap: it is used only when every Gemini model has just refused, and each call is counted against
 # the batch's cap (discover.BUDGET), shared with the paid web searches.
-FALLBACK = {"enabled": False, "model": "claude-haiku-4-5"}
+FALLBACK = {"enabled": False, "model": "claude-haiku-4-5", "prefer": None}
 # The cheapest paid reader is the SAME Gemini model on a key with billing switched on (GEMINI_PAID_API_KEY):
 # about 2 cents an institute against about 6 for Claude Haiku, and the answers are the ones the free run gives.
 # Only this one model is used on the paid key; the dearer Gemini models are never paid for.
@@ -260,13 +260,22 @@ PAID_GEMINI = {"model": "gemini-3.1-flash-lite", "price": (0.25, 1.50)}     # US
 _fallback_said = {"until": 0.0}
 
 
+# USD per institute, measured on batch-hei-network (121 institutes read by Haiku: about 29,700 tokens in and
+# 4,200 out each). The Gemini figure is those same token counts at Gemini's price, not yet a measured bill.
+PAID_READERS = {"gemini": ("paid Gemini", 0.015, "GEMINI_PAID_API_KEY"), "haiku": ("Claude Haiku", 0.05, "ANTHROPIC_API_KEY")}
+
+
+def paid_readers():
+    """The paid readers that have a key, cheapest first: [(id, name, rough USD per institute)]."""
+    return [(k, name, usd) for k, (name, usd, env) in PAID_READERS.items() if os.environ.get(env)]
+
+
 def paid_reader():
-    """Which paid reader fast mode would use: ('gemini' | 'haiku' | None, rough USD per institute)."""
-    if os.environ.get("GEMINI_PAID_API_KEY"):
-        return "gemini", 0.02
-    if os.environ.get("ANTHROPIC_API_KEY"):
-        return "haiku", 0.06
-    return None, 0.0
+    """Which paid reader fast mode uses: (id | None, rough USD per institute). The one chosen on the upload page
+    (FALLBACK['prefer']) if its key is set, otherwise the cheapest that has a key."""
+    have = paid_readers()
+    pick = next((r for r in have if r[0] == FALLBACK.get("prefer")), have[0] if have else None)
+    return (pick[0], pick[2]) if pick else (None, 0.0)
 
 
 def _gemini_once(key, m, system, user, schema, timeout):
