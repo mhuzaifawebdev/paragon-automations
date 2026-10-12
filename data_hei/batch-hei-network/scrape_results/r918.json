@@ -1,0 +1,91 @@
+{
+ "row_id": "r918",
+ "scraped_at": "2026-10-12T07:25:01Z",
+ "contacts": {
+  "row_id": "r918",
+  "institution_name": "Monlau Centre d'Estudis S A",
+  "institution_type": "college",
+  "official_website": "https://www.monlau.com/",
+  "country": null,
+  "phone": {
+   "value": "933 408 204",
+   "source_url": "https://www.monlau.com/",
+   "evidence_quote": "Teléfono: 933 408 204"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Iban Ventura",
+   "designation": "Director General",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.monlau.com/quienes-somos/",
+   "evidence_quote": "Iban Ventura ... Director General de Grupo Monlau"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Iban Ventura is the Director General of the institution and holds the highest leadership position.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Monlau Sagrera",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.monlau.com/",
+    "evidence_quote": "Monlau Sagrera"
+   },
+   {
+    "campus_name": "Monlau La Maquinista",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.monlau.com/",
+    "evidence_quote": "Monlau La Maquinista"
+   },
+   {
+    "campus_name": "Monlau Motorsport-Barcelona",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.monlau.com/",
+    "evidence_quote": "Monlau Motorsport-Barcelona"
+   },
+   {
+    "campus_name": "Monlau Motorsport-Montcada",
+    "city": "Montcada i Reixac",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.monlau.com/",
+    "evidence_quote": "Monlau Motorsport-Montcada"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution mentions participation in Erasmus+ programs but does not provide a list of partner institutions or a specific contact person for international mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 17.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 26.4,
+  "mode": "gemini",
+  "email_search_s": 4.6,
+  "total_seconds": 49.6
+ }
+}

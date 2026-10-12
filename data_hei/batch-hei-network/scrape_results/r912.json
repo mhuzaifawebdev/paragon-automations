@@ -1,0 +1,126 @@
+{
+ "row_id": "r912",
+ "scraped_at": "2026-10-12T07:24:54Z",
+ "contacts": {
+  "row_id": "r912",
+  "institution_name": "Lycée Félix Le Dantec",
+  "institution_type": "school",
+  "official_website": "https://lycee-felix-le-dantec-lannion.ac-rennes.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://lycee-felix-le-dantec-lannion.ac-rennes.fr/",
+   "evidence_quote": "France"
+  },
+  "phone": {
+   "value": "02 96 05 61 71",
+   "source_url": "https://lycee-felix-le-dantec-lannion.ac-rennes.fr/",
+   "evidence_quote": "Lundi, mardi, jeudi et vendredi 7h30-18h ; mercredi 7h30-17h : 02 96 05 61 71 <tel 02.96.05.61.71>"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Région Bretagne",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-felix-le-dantec-lannion.ac-rennes.fr/",
+    "evidence_quote": "Région Bretagne",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GRETA - Agence de Lannion - Guingamp",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-felix-le-dantec-lannion.ac-rennes.fr/",
+    "evidence_quote": "[GRETA - Agence de Lannion - Guingamp]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Campus des métiers",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-felix-le-dantec-lannion.ac-rennes.fr/",
+    "evidence_quote": "[Campus des métiers]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-felix-le-dantec-lannion.ac-rennes.fr/",
+    "evidence_quote": "[Erasmus+]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cégep de la Gaspésie et des îles",
+    "partner_country": "Canada",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-felix-le-dantec-lannion.ac-rennes.fr/",
+    "evidence_quote": "[Cégep de la Gaspésie et des îles]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ecoles des réseaux pour la transition énergétique",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-felix-le-dantec-lannion.ac-rennes.fr/",
+    "evidence_quote": "[Ecoles des réseaux pour la transition énergétique]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée public Félix le Dantec",
+    "city": "Lannion",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lycee-felix-le-dantec-lannion.ac-rennes.fr/",
+    "evidence_quote": "Lycée public Félix le Dantec Lycée général, technologique et lycée professionnel"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 6,
+  "coverage_note": "The website mentions Erasmus+ and institutional partners but does not provide a list of specific partner names or contact details for international mobility staff.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 20.7,
+  "crawl_s": 11.4,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 40.1,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 6,
+    "accepted": 6
+   }
+  ],
+  "total_seconds": 72.2
+ }
+}
