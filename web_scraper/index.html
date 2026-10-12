@@ -604,7 +604,7 @@ function renderPaidPick(d, show) {
   wrap.style.display = show && list.length > 1 ? "block" : "none";
   const want = list.map(r => r.id).join(",");
   if (sel.dataset.ids !== want) {
-    sel.innerHTML = list.map(r => `<option value="${esc(r.id)}">${esc(r.name)} - about $${(r.usd_per_institute * 100).toFixed(2)} per 100 institutes</option>`).join("");
+    sel.innerHTML = list.map(r => `<option value="${esc(r.id)}">${esc(r.name)}</option>`).join("");
     sel.dataset.ids = want;
   }
   sel.value = paidNow(d).id;
@@ -663,13 +663,12 @@ function renderReader(d, status) {
 async function setReader(d, mode) {
   const msg = $("p-reader-msg"), btn = $("p-reader-btn");
   if (mode === "fast") {
-    const left = d.pending || 0, cap = d.fast_limit_usd || 10;
-    const worst = Math.min(left * paidRate(d), cap);
-    if (!window.confirm(`Use ${paidName(d)} (paid) for batch "${d.batch}"?\n\n`
-        + `${left} institutes are left. It costs about $${(paidRate(d) * 100).toFixed(2)} for every 100 institutes it reads, so if it has to read `
-        + `all of them that is about $${worst.toFixed(2)}.\n\n`
-        + `It never spends more than $${Number(cap).toFixed(2)} on this batch, it is only used when the free reader `
-        + `refuses, and you can switch back to free mode at any time.`)) return;
+    // No prices are shown on the page (it may be seen by people outside the team); the spending limit still applies.
+    if (!window.confirm(`Use ${paidName(d)} (paid) for batch "${d.batch}"?
+
+`
+        + `${d.pending || 0} institutes are left. It is only used when the free reader refuses, it stops at this `
+        + `batch's spending limit, and you can switch back to free mode at any time.`)) return;
   }
   const token = $("token").value || window.prompt("Access phrase, to confirm:") || "";
   btn.disabled = true;
