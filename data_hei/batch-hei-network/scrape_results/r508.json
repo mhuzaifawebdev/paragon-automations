@@ -1,0 +1,118 @@
+{
+ "row_id": "r508",
+ "scraped_at": "2026-10-12T06:07:12Z",
+ "contacts": {
+  "row_id": "r508",
+  "institution_name": "PANSTWOWA AKADEMIA NAUK STOSOWANYCH W GLOGOWIE",
+  "institution_type": "university",
+  "official_website": "https://pans.glogow.pl/",
+  "country": {
+   "value": "Poland",
+   "source_url": "https://erasmus.pans.glogow.pl/erasmus/incomming-staff/",
+   "evidence_quote": "Country: Poland"
+  },
+  "phone": {
+   "value": "76 832 04 32",
+   "source_url": "https://pans.glogow.pl/kontakt/",
+   "evidence_quote": "tel. 76 832 04 32"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Grzegorz Machera",
+   "designation": "Institutional Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "g.machera@pans.glogow.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://erasmus.pans.glogow.pl/erasmus/incomming-staff/",
+   "evidence_quote": "Erasmus+ Coordinator: Grzegorz Machera, M.Eng."
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. He is the designated Institutional Erasmus+ Coordinator for the university.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Zespół Szkół Politechnicznych w Głogowie",
+    "partner_country": "Poland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://pans.glogow.pl/pans-w-glogowie-i-zespol-szkol-politechnicznych-zaciesniaja-wspolprace/",
+    "evidence_quote": "19 listopada 2025 r. w Państwowej Akademii Nauk Stosowanych w Głogowie odbyło się uroczyste podpisanie Listu intencyjnego pomiędzy Uczelnią a Zespołem Szkół Politechnicznych w Głogowie. Dokument został podpisany przez Rektora PANS w Głogowie, dr. Jarosława Hermaszewskiego oraz Dyrektora ZSP w Głogowie, mgr. Pawła Korzenia. Podpisanie Listu stanowi kolejny etap rozwijania wieloletniej współpracy pomiędzy obiema instytucjami.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CISCO Academy",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus.pans.glogow.pl/erasmus/incomming-staff/",
+    "evidence_quote": "Computer Networks & Cybersecurity (CISCO Academy)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fundacja Rozwoju Systemu Edukacji",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus.pans.glogow.pl/erasmus/",
+    "evidence_quote": "Narodową Agencją Programu Erasmus+ i jego realizatorem w Polsce jest Fundacja Rozwoju Systemu Edukacji.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "PANS w Głogowie Campus",
+    "city": "Głogów",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://erasmus.pans.glogow.pl/erasmus/incomming-staff/",
+    "evidence_quote": "Our university operates two modern buildings (A and B), offering:"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of international Erasmus+ partner universities, only a local partnership with a secondary school.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 14.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 6.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 24.0
+ }
+}
