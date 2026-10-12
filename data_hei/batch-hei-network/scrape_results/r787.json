@@ -1,0 +1,151 @@
+{
+ "row_id": "r787",
+ "scraped_at": "2026-10-12T06:56:44Z",
+ "contacts": {
+  "row_id": "r787",
+  "institution_name": "lycée Carcado-Saisseval",
+  "institution_type": "college",
+  "official_website": "https://carcado-saisseval.com/",
+  "country": null,
+  "phone": {
+   "value": "01 45 48 43 46",
+   "source_url": "https://carcado-saisseval.com/lycee/equipe-lycee-2026-2027/",
+   "evidence_quote": "Tél. : 01 45 48 43 46 <tel 01 45 48 43 46>"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Loukina TRAN",
+   "designation": "Higher Education Assistant - Mobility Referent B1-B2",
+   "designation_local": "",
+   "email": "loukina.tran@carcado-saisseval.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://carcado-saisseval.com/campus/carcado-saisseval-une-equipe-campus-2025-2026/",
+   "evidence_quote": "Loukina TRAN ... Assistante de l’ enseignement supérieur—Responsable B3—Référente mobilité internationale B1-B2",
+   "email_source_url": "https://carcado-saisseval.com/content/uploads/2025/11/LIVRET-ACCUEIL-2025-26-ETUDIANTS.pdf"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. Loukina TRAN is explicitly designated as the mobility referent for students in B1 and B2. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Coventry",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://carcado-saisseval.com/campus/informations-pratiques/mobilite-europeenne-et-internationale/partenariats-reseaux/",
+    "evidence_quote": "Coventry - Bachelor",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sydney - Ravenswood",
+    "partner_country": "Australia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://carcado-saisseval.com/campus/informations-pratiques/mobilite-europeenne-et-internationale/partenariats-reseaux/",
+    "evidence_quote": "Sydney - Ravenswood",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Saint John's University",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://carcado-saisseval.com/campus/informations-pratiques/mobilite-europeenne-et-internationale/partenariats-reseaux/",
+    "evidence_quote": "Saint John's University",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ganztagsschule Holzkirchen",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://carcado-saisseval.com/campus/informations-pratiques/mobilite-europeenne-et-internationale/partenariats-reseaux/",
+    "evidence_quote": "Ganztagsschule Holzkirchen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CCE",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://carcado-saisseval.com/campus/informations-pratiques/mobilite-europeenne-et-internationale/partenariats-reseaux/",
+    "evidence_quote": "CCE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Les Filles du Coeur de Marie",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://carcado-saisseval.com/lycee/equipe-lycee-2026-2027/",
+    "evidence_quote": "Les Filles du Coeur de Marie",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ravenswood",
+    "partner_country": "Australia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://carcado-saisseval.com/campus/informations-pratiques/mobilite-europeenne-et-internationale/partenariats-reseaux/",
+    "evidence_quote": "Sydney - Ravenswood",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Carcado Saisseval",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://carcado-saisseval.com/",
+    "evidence_quote": "121 boulevard Raspail - CS 10622 – 75006 Paris"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 7,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of specific international partners but does not state a total number of agreements. Contact emails are not provided in the text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 13.6,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     275
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 22.7
+ }
+}
