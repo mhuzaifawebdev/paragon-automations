@@ -489,10 +489,18 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
     given = (row.get("website") or "").strip()
     pu = urllib.parse.urlparse(given if "//" in given else "https://" + given) if given else None
     if pu and pu.netloc and not any(h in pu.netloc.lower() for h in SKIP_HOSTS):
+        host = pu.netloc.lower()[4:] if pu.netloc.lower().startswith("www.") else pu.netloc.lower()
+        agrees = any(host == d or host.endswith("." + d) or d.endswith("." + host) for d in _emails_domain(row))
         for u in dict.fromkeys((f"{pu.scheme}://{pu.netloc}/", urllib.parse.urlunparse(pu))):
             hit = attempt(u, "website column in the sheet")
             if hit:
                 return hit
+            # The homepage was read but does not show the name as the sheet writes it (renamed institutes,
+            # transliterated names: "MAELARDALENS HOEGSKOLA" is mdu.se, "Waterford IT" is now setu.ie). When the
+            # sheet's own contact email is on that same domain, two separate columns agree, and that is taken as
+            # proof. A link whose domain differs from the email's is still refused (wrong links do occur).
+            if agrees and "does not mention" in tried[-1]:
+                return u, "website column in the sheet (same domain as the contact's email)", "the sheet's website and email agree"
     for d in _emails_domain(row):
         for u in (f"https://www.{d}/", f"https://{d}/"):
             hit = attempt(u, "email domain")

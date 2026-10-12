@@ -390,6 +390,22 @@ tried_urls.clear()
 discover.check_site = lambda url, row: (tried_urls.append(url) or False, "no", None)
 discover.find_website({"row_id": "t5", "name": "Strate", "website": "https://www.facebook.com/strate"}, use_search=False)
 check("a Facebook page in the website column is never tried as the website", tried_urls, [])
+NO_NAME = "homepage does not mention this institution's name or phone"
+discover.check_site = lambda url, row: (False, NO_NAME, None)
+site, how, _note = discover.find_website({"row_id": "t6", "name": "MAELARDALENS HOEGSKOLA", "email": "international@mdu.se",
+                                           "website": "https://www.mdu.se/"}, use_search=False)
+check("renamed institute: the sheet's website is accepted when the sheet's email is on the same domain",
+      (site, how), ("https://www.mdu.se/", "website column in the sheet (same domain as the contact's email)"))
+site, how, _note = discover.find_website({"row_id": "t7", "name": "Universitatea pentru Stiintele Vietii", "email": "x@uaiasi.ro",
+                                           "website": "https://www.mtu.ie/"}, use_search=False)
+check("a website on a different domain from the email is still refused", site, None)
+site, how, _note = discover.find_website({"row_id": "t8", "name": "Some College", "email": "someone@gmail.com",
+                                           "website": "https://gmail.com/"}, use_search=False)
+check("a public mail service never counts as agreement", site, None)
+discover.check_site = lambda url, row: (False, f"could not read {url} (timeout)", None)
+site, how, _note = discover.find_website({"row_id": "t9", "name": "MAELARDALENS HOEGSKOLA", "email": "international@mdu.se",
+                                           "website": "https://www.mdu.se/"}, use_search=False)
+check("a website that cannot be opened is not accepted just because the email matches", site, None)
 real_fetch_d = discover.fetch_pages.fetch
 discover.fetch_pages.fetch = lambda url: {"text": "Universität der Bundeswehr München - Startseite"}
 check("a name typed without umlauts (UNIVERSITAET ... MUENCHEN) matches the site's own spelling",
