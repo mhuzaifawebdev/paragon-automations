@@ -1,0 +1,87 @@
+{
+ "row_id": "r859",
+ "scraped_at": "2026-10-12T07:10:44Z",
+ "contacts": {
+  "row_id": "r859",
+  "institution_name": "LYCEE ANDRE ALIKER",
+  "institution_type": "school",
+  "official_website": "https://lyceeschweitzer.fr/",
+  "country": null,
+  "phone": {
+   "value": "01.41.53.11 50",
+   "source_url": "https://lyceeschweitzer.fr/",
+   "evidence_quote": "Téléphone 01.41.53.11 50"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Pierre LOUAZEL",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ce.0930830x@ac-creteil.fr",
+   "office_email": "",
+   "phone": "01.41.53.11 50",
+   "source_url": "https://lyceeschweitzer.fr/",
+   "evidence_quote": "Le proviseur, ... Pierre LOUAZEL"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Pierre LOUAZEL is the principal of the institution and the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Région Île de France",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeschweitzer.fr/wp-content/uploads/2024/07/Declaration-de-la-strategie-de-mobilite-a-linternational-de-letablissement.pdf",
+    "evidence_quote": "Etudiants (AMIE) de la Région Île de France et taxe d'apprentissage).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Albert Schweitzer",
+    "city": "Le Raincy",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceeschweitzer.fr/nous-ecrire/",
+    "evidence_quote": "11 Allée Valère Lefèbvre"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The evidence mentions that the institution has partnerships with seven universities in Paris and the surrounding region, but does not provide a list of their names.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 13.6,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 38.8,
+  "mode": "gemini",
+  "email_search_s": 5.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     107
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 59.4
+ }
+}
