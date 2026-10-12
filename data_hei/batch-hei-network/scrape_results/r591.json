@@ -1,0 +1,92 @@
+{
+ "row_id": "r591",
+ "scraped_at": "2026-10-12T06:26:12Z",
+ "contacts": {
+  "row_id": "r591",
+  "institution_name": "LYCEE GENERAL ET TECHNOLOGIQUE VICTOR HUGO",
+  "institution_type": "school",
+  "official_website": "https://lycee-victorhugo-poitiers.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Région Nouvelle-Aquitaine",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-victorhugo-poitiers.fr/",
+    "evidence_quote": "[Région Nouvelle-Aquitaine]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Académie de Poitiers",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-victorhugo-poitiers.fr/",
+    "evidence_quote": "[Académie de Poitiers]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-victorhugo-poitiers.fr/",
+    "evidence_quote": "[Erasmus+]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Général et Technologique Victor Hugo",
+    "city": "Poitiers",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lycee-victorhugo-poitiers.fr/",
+    "evidence_quote": "Fort de son assise historique et de sa situation géographique privilégiée au cœur du centre ville de Poitiers, le lycée Général et Technologique Victor Hugo est doté d’une structure pédagogique complète et unique qui s’est encore étoffée et renouvelée ces dernières années."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 1,
+  "coverage_note": "The evidence does not list any specific staff members or international partners. The contact Frédéric Couturier mentioned in the prompt was not found in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 5.9,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "slices": [
+   {
+    "lines": [
+     1,
+     74
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 11.6
+ }
+}
