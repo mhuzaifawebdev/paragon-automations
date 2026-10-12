@@ -1,0 +1,113 @@
+{
+ "row_id": "r477",
+ "scraped_at": "2026-10-12T06:03:24Z",
+ "contacts": {
+  "row_id": "r477",
+  "institution_name": "UNIVERSITATEA DE ARTE DIN TARGU MURES",
+  "institution_type": "university",
+  "official_website": "https://www.uat.ro/",
+  "country": {
+   "value": "Romania",
+   "source_url": "https://www.uat.ro/",
+   "evidence_quote": "Târgu-Mureş, ROMÂNIA"
+  },
+  "phone": {
+   "value": "0040.265.266281 / 0040.265.260362",
+   "source_url": "https://www.uat.ro/",
+   "evidence_quote": "0040.265.266281 / 0040.265.260362"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Aliz BORDI",
+   "designation": "Chief Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.uat.ro/en/contact",
+   "evidence_quote": "Aliz BORDI - Chief Secretary"
+  },
+  "alternates": [
+   {
+    "name": "Szegedi Attila",
+    "designation": "Erasmus coordinator",
+    "designation_local": "",
+    "email": "szegedi17@yahoo.com",
+    "office_email": "",
+    "phone": "0265-266281",
+    "source_url": "https://www.uat.ro/studenti/erasmus",
+    "evidence_quote": "Szegedi Attila, coordonator Erasmus",
+    "why_chosen": "Institutional Erasmus+ coordinator. He is explicitly identified as the Erasmus coordinator for the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Secretary / administration (last resort). She is the contact person currently on file and serves as the Chief Secretary.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EACEA (Educational, Audivisual & Culture Executive Agency)",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uat.ro/studenti/erasmus",
+    "evidence_quote": "Programul ERASMUS +, finanţat de Comisia Europeană prin EACEA (Educational, Audivisual & Culture Executive Agency) pentru activităţi în domeniile educaţiei, culturii, tineretului şi sportului, se desfăşoară în perioada 2021 – 2026. Instituţiile europene de învăţământ superior care doresc să organizeze mobilităţi individuale şi să dezvolte partneriate strategice trebuie să deţină Charta ERASMUS pentru Învăţământ Superior (ECHE).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EACEA (Educational, Audiovisual & Culture Executive Agency)",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uat.ro/en/students/erasmus",
+    "evidence_quote": "The ERASMUS + program, financed by the European Commission through the EACEA (Educational, Audiovisual & Culture Executive Agency) for activities in the fields of education, culture, youth and sport, takes place between 2014 and 2022. European higher education institutions that wish to organize individual mobility and develop strategic partnerships must hold the ERASMUS Charter for Higher Education (ECHE).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Universitatea de Arte Târgu Mureş",
+    "city": "Târgu-Mureş",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://www.uat.ro/",
+    "evidence_quote": "UNIVERSITATEA DE ARTE TÂRGU MUREŞ"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The evidence mentions the existence of a list of partner institutions for students and staff, but the actual list content is not provided in the text. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 35.6,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 47.5
+ }
+}

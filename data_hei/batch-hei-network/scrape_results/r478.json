@@ -1,0 +1,135 @@
+{
+ "row_id": "r478",
+ "scraped_at": "2026-10-12T06:02:58Z",
+ "contacts": {
+  "row_id": "r478",
+  "institution_name": "Lycée général et technologique Jean Condorcet",
+  "institution_type": "school",
+  "official_website": "https://www.lcondorcetbx.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.lcondorcetbx.fr/",
+   "evidence_quote": "France"
+  },
+  "phone": {
+   "value": "05 56 69 60 50",
+   "source_url": "https://www.lcondorcetbx.fr/",
+   "evidence_quote": "tel : 05 56 69 60 50 <tel +33556696050>"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "INALCO",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lcondorcetbx.fr/",
+    "evidence_quote": "Partenariat avec l’INALCO",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IES Maria Àngels Cardona",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.lcondorcetbx.fr/letablissement/ouverture-sur-linternational/erasmus-2/stage-erasmus-au-lycee-pour-ricardo-mercadal/",
+    "evidence_quote": "Ricardo Mercadal et sa professeure Francesca pour un stage en Erasmus au lycée du 22 mai au 18 juin dans le cadre d’un partenariat avec le lycée IES Maria Àngels Cardona.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bordeaux-Bristol",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lcondorcetbx.fr/wp-content/uploads/2021/05/Declaration-de-Politique-Erasmus.pdf",
+    "evidence_quote": "notamment grâce à l’association Bordeaux- Bristol dont la présidente enseigne dans l’établissement en Commerce International",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lcondorcetbx.fr/",
+    "evidence_quote": "Un partenariat privilégié avec Erasmus+",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Aquitapro",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.lcondorcetbx.fr/wp-content/uploads/2021/05/Declaration-de-Politique-Erasmus.pdf",
+    "evidence_quote": "étudiants de CI et de SAM peuvent réaliser des stages longs à l’étranger dans le cadre du consortium Aquitapro auquel le lycée",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "OFAJ",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lcondorcetbx.fr/wp-content/uploads/2021/05/Declaration-de-Politique-Erasmus.pdf",
+    "evidence_quote": "dans toute l’Euro pe (Allemagne avec possibilité de financement OFAJ), Pays -Bas, Danemark, Finlande, Chypre, etc). Selon",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Condorcet",
+    "city": "Bordeaux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lcondorcetbx.fr/",
+    "evidence_quote": "Lycée Condorcet"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 8,
+  "coverage_note": "The evidence does not provide a comprehensive list of all Erasmus+ partners, only specific examples mentioned in the text. No specific contact person with a role and email is listed in the provided documents.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 12.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 18.6
+ }
+}
