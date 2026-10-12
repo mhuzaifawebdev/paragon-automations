@@ -1,0 +1,149 @@
+{
+ "row_id": "r694",
+ "scraped_at": "2026-10-12T06:40:03Z",
+ "contacts": {
+  "row_id": "r694",
+  "institution_name": "Lycée Général et Technologique Jean Jaurès",
+  "institution_type": "school",
+  "official_website": "https://www.lyceejaures.levillage.org/",
+  "country": null,
+  "phone": {
+   "value": "01.42.87.49.84",
+   "source_url": "https://www.lyceejaures.levillage.org/",
+   "evidence_quote": "ce.0930121b@ac-creteil.fr | 01.42.87.49.84"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Chellaston Academy",
+    "partner_country": "United Kingdom",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceejaures.levillage.org/",
+    "evidence_quote": "Les élèves de secondes section euro ont actuellement des correspondants anglais de Chellaston Academy à Derby... Lire la suite",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "lycée Tommaso Gargallo",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceejaures.levillage.org/",
+    "evidence_quote": "Nos élèves ont participé au projet “Le récit policier” avec le lycée Tommaso Gargallo de Syracuse… Lire la suite",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CentraleSupélec",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceejaures.levillage.org/",
+    "evidence_quote": "[OSER - CentraleSupélec]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sciences-Po",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceejaures.levillage.org/",
+    "evidence_quote": "[Atelier Sciences-Po]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycées ROME",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceejaures.levillage.org/",
+    "evidence_quote": "Échange Lycées ROME & VENISE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycées VENISE",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceejaures.levillage.org/",
+    "evidence_quote": "Échange Lycées ROME & VENISE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Dauphine",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceejaures.levillage.org/",
+    "evidence_quote": "[Parcours Dauphine]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sicile",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceejaures.levillage.org/",
+    "evidence_quote": "Échanges Lycées Rome Sicile",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Jean Jaurès",
+    "city": "Montreuil",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://www.lyceejaures.levillage.org/",
+    "evidence_quote": "1, rue Dombasle, 93100 Montreuil"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 8,
+  "pages_read": 1,
+  "coverage_note": "The evidence does not list specific Erasmus+ coordinators or international relations staff. While several international exchanges are mentioned, a comprehensive list of formal partners is missing.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 2.8,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 10,
+    "accepted": 8
+   },
+   {
+    "lines": [
+     141,
+     220
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 8.9
+ }
+}
