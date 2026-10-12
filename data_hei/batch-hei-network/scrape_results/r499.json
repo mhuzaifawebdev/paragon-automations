@@ -1,0 +1,90 @@
+{
+ "row_id": "r499",
+ "scraped_at": "2026-10-12T06:06:21Z",
+ "contacts": {
+  "row_id": "r499",
+  "institution_name": "Fundació Privada BCN Formació Professional",
+  "institution_type": "college",
+  "official_website": "https://www.fundaciobcnfp.cat/",
+  "country": null,
+  "phone": {
+   "value": "93 413 21 01",
+   "source_url": "https://www.fundaciobcnfp.cat/",
+   "evidence_quote": "93 413 21 01 <tel +34934132101>"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Jordi Castillo",
+   "designation": "International Area Manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.fundaciobcnfp.cat/en/about-us/managing-team/",
+   "evidence_quote": "[Jordi Castillo Responsable Àrea Internacional Secretario Xarxa FP]Jordi Castillo ... International Area Manager"
+  },
+  "alternates": [
+   {
+    "name": "Neus Pons",
+    "designation": "Director and Manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.fundaciobcnfp.cat/en/about-us/managing-team/",
+    "evidence_quote": "[Neus Pons Directora y Gerente]Neus Pons ... Director and Manager",
+    "why_chosen": "Principal / director (no Erasmus contact found). Neus Pons is the Director and Manager of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. Jordi Castillo is the International Area Manager and the contact currently on file for international mobility.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fondazione Lepido Rocco",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://www.fundaciobcnfp.cat/comenca-el-pla-de-mesures-internacional-innovation-staffmobility-peer-to-peer/",
+    "evidence_quote": "Aquesta setmana, Barcelona s’ha convertit en l’escenari del projecte “Innovation Staffmobility: Peer to peer”. Hem tingut el plaer d’acollir un grup de docents de la Fondazione Lepido Rocco, d’Itàlia, en una estada d’aprenentatge compartit amb diversos centres de Formació Professional de la nostra ciutat.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fundació BCN Formació Professional",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.fundaciobcnfp.cat/",
+    "evidence_quote": "Plaça Espanya 5, 1a planta (08014 Barcelona)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution acts as a coordinator for a network of VET centers in Barcelona, but a specific list of individual partner institutions is not provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 15.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.8,
+  "total_seconds": 24.9
+ }
+}
