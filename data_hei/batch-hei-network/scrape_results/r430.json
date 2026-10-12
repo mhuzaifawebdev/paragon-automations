@@ -1,0 +1,114 @@
+{
+ "row_id": "r430",
+ "scraped_at": "2026-10-12T05:56:43Z",
+ "contacts": {
+  "row_id": "r430",
+  "institution_name": "ASSOCIATION SAINT PIERRE INSTITUT",
+  "institution_type": "college",
+  "official_website": "https://saintpierre91.org/",
+  "country": null,
+  "phone": {
+   "value": "01 60 47 99 85",
+   "source_url": "https://saintpierre91.org/contact/",
+   "evidence_quote": "01 60 47 99 85"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Isabel MICHAUD PINCHARD",
+   "designation": "Program Coordinator",
+   "designation_local": "",
+   "email": "erasmus@saint-pierre91.net",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://saintpierre91.org/erasmus/",
+   "evidence_quote": "Isabel MICHAUD PINCHARD ... COORDINATEUR DU PROGRAMME"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Isabel MICHAUD PINCHARD is explicitly identified as the program coordinator for Erasmus+.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Alix-Notre Dame",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://saintpierre91.org/",
+    "evidence_quote": "Alix-Notre Dame",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Enseignement catholique de l'Essonne",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://saintpierre91.org/",
+    "evidence_quote": "Enseignement catholique",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "APEL Saint-Pierre",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://saintpierre91.org/",
+    "evidence_quote": "APEL Saint-Pierre",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Saint-Pierre Institut",
+    "city": "Brunoy",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://saintpierre91.org/",
+    "evidence_quote": "Brunoy (91)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of partner institutions, only general mentions of partnerships in England, Spain, Ireland, and Norway.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.7,
+  "crawl_s": 45.2,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 15.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     1681,
+     1795
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 73.5
+ }
+}
