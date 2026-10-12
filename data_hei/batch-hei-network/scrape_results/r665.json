@@ -1,0 +1,113 @@
+{
+ "row_id": "r665",
+ "scraped_at": "2026-10-12T06:35:48Z",
+ "contacts": {
+  "row_id": "r665",
+  "institution_name": "Hochschule fuer Musik Nuernberg",
+  "institution_type": "university",
+  "official_website": "https://www.hfm-nuernberg.de/",
+  "country": null,
+  "phone": {
+   "value": "+49 911 / 215 22 - 102",
+   "source_url": "https://www.hfm-nuernberg.de/forschung-innovation/kooperationsprojekte/relevel/projektuebersicht",
+   "evidence_quote": "+49 911 / 215 22 - 102"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Technische Hochschule Nürnberg",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfm-nuernberg.de/studium/campus-angebote/leo-labs",
+    "evidence_quote": "Die LEO Labs bestehen aus Werkstätten, Tonstudio, Soundlabor, XR Lab und Co-Working Spaces und sind in dieser Konstellation einzigartig in Bayern. Sie sind eine Initiative des Hochschulverbunds LEONARDO und können von allen Hochschulangehörigen der Technischen Hochschule Nürnberg, der Akademie der Bildenden Künste Nürnberg und der Hochschule für Musik Nürnberg genutzt werden.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Akademie der Bildenden Künste Nürnberg",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfm-nuernberg.de/studium/campus-angebote/leo-labs",
+    "evidence_quote": "Die LEO Labs bestehen aus Werkstätten, Tonstudio, Soundlabor, XR Lab und Co-Working Spaces und sind in dieser Konstellation einzigartig in Bayern. Sie sind eine Initiative des Hochschulverbunds LEONARDO und können von allen Hochschulangehörigen der Technischen Hochschule Nürnberg, der Akademie der Bildenden Künste Nürnberg und der Hochschule für Musik Nürnberg genutzt werden.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "indischen Universitäten",
+    "partner_country": "India",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfm-nuernberg.de/forschung-innovation/kooperationsprojekte/relevel/projektuebersicht",
+    "evidence_quote": "Für das Projekt wurde mit indischen Universitäten kooperiert, um den Studierenden die Musiken Indiens aus erster Hand näherzubringen und einen gegenseitigen Austausch zu ermöglichen. Aufgrund der räumlichen Distanz fanden die gemeinsamen Seminareinheiten hybrid unter Einsatz einer 360°-Grad-Kamera statt.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LEONARDO",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfm-nuernberg.de/studium/campus-angebote/leo-labs",
+    "evidence_quote": "Die LEO Labs bestehen aus Werkstätten, Tonstudio, Soundlabor, XR Lab und Co-Working Spaces und sind in dieser Konstellation einzigartig in Bayern. Sie sind eine Initiative des Hochschulverbunds LEONARDO und können von allen Hochschulangehörigen der Technischen Hochschule Nürnberg, der Akademie der Bildenden Künste Nürnberg und der Hochschule für Musik Nürnberg genutzt werden.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hochschule für Musik Nürnberg",
+    "city": "Nürnberg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.hfm-nuernberg.de/",
+    "evidence_quote": "Hochschule für Musik Nürnberg - Hochschule für Musik Nürnberg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ or international mobility partners. Only a few specific project-based collaborations are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 15.8,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 21.2
+ }
+}
