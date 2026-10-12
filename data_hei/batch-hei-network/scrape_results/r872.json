@@ -1,0 +1,104 @@
+{
+ "row_id": "r872",
+ "scraped_at": "2026-10-12T07:14:44Z",
+ "contacts": {
+  "row_id": "r872",
+  "institution_name": "LYCÉE LAMARTINE",
+  "institution_type": "school",
+  "official_website": "https://www.lycee-tripoli.edu.lb",
+  "country": {
+   "value": "Liban",
+   "source_url": "https://www.lycee-tripoli.edu.lb/contact-us/",
+   "evidence_quote": "Kfar Kahel – Liban Nord"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: Wikidata. mode: gemini. 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ambassade de France",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lycee-tripoli.edu.lb",
+    "evidence_quote": "[ambassade de France]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "aefe",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lycee-tripoli.edu.lb",
+    "evidence_quote": "[aefe]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ift",
+    "partner_country": "Liban",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lycee-tripoli.edu.lb",
+    "evidence_quote": "[ift]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hallab 1881",
+    "partner_country": "Liban",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lycee-tripoli.edu.lb/la-cantine-notre-nouveau-partenaire-hallab-1881/",
+    "evidence_quote": "La Cantine – Notre nouveau partenaire Hallab 1881 | Lycées Alphonse de Lamartine",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Alphonse de Lamartine",
+    "city": "Kfar Kahel",
+    "country": "Liban",
+    "role": "main",
+    "source_url": "https://www.lycee-tripoli.edu.lb/contact-us/",
+    "evidence_quote": "Kfar Kahel – Liban Nord"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ or academic mobility partners. The contact information is limited to general phone numbers and does not include specific email addresses for staff. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 91.2,
+  "crawl_s": 16.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 31.1,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     1,
+     112
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 138.3
+ }
+}
