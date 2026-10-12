@@ -1,0 +1,93 @@
+{
+ "row_id": "r943",
+ "scraped_at": "2026-10-12T07:31:43Z",
+ "contacts": {
+  "row_id": "r943",
+  "institution_name": "La Martinière Diderot",
+  "institution_type": "college",
+  "official_website": "https://www.lamartinierediderot.fr/",
+  "country": null,
+  "phone": {
+   "value": "04 37 40 87 37",
+   "source_url": "https://www.lamartinierediderot.fr/",
+   "evidence_quote": "T 04 37 40 87 37"
+  },
+  "phone_alt": [],
+  "contact": {
+   "name": "Ibrahim Solmaz",
+   "designation": "administrative management",
+   "designation_local": "",
+   "email": "international.lmd.0690037r@ac-lyon.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.lamartinierediderot.fr/international-contact/",
+   "evidence_quote": "Ibrahim Solmaz : gestion administrative / administrative management"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Ibrahim Solmaz is listed as the administrative manager for the international service.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini. 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Site des Augustins",
+    "city": "Lyon",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lamartinierediderot.fr/contacts-lycee-la-martiniere-diderot/",
+    "evidence_quote": "Site des Augustins"
+   },
+   {
+    "campus_name": "Site Diderot",
+    "city": "Lyon",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lamartinierediderot.fr/contacts-lycee-la-martiniere-diderot/",
+    "evidence_quote": "Site Diderot"
+   },
+   {
+    "campus_name": "Site de La Centrale",
+    "city": "Lyon",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lamartinierediderot.fr/contacts-lycee-la-martiniere-diderot/",
+    "evidence_quote": "Site de La Centrale"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 4,
+  "coverage_note": "The website mentions an international section but does not provide a list of partner institutions. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 10.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 81.7,
+  "mode": "gemini",
+  "email_search_s": 7.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 100.7
+ }
+}
