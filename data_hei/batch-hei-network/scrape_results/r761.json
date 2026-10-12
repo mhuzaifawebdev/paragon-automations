@@ -1,0 +1,102 @@
+{
+ "row_id": "r761",
+ "scraped_at": "2026-10-12T06:51:56Z",
+ "contacts": {
+  "row_id": "r761",
+  "institution_name": "LYCEE GENERAL ET TECHNOLOGIQUE MARGUERITE YOURCENAR",
+  "institution_type": "school",
+  "official_website": "https://yourcenar.paysdelaloire.e-lyco.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Marjorie Gibon",
+   "designation": "Teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://yourcenar.paysdelaloire.e-lyco.fr/le-lycee/ouverture-internationaleouverture-internationale/erasmusenseignants/mobilite-enseignante-erasmus-madrid-espagne-45467/",
+   "evidence_quote": "Mobilité enseignante Erasmus + Madrid (Espagne) | Lycée Marguerite Yourcenar ... Marjorie Gibon a suivi des cours d’espagnol dans l’école de formation Enforex de Madrid du 11 avril au 22 avril 2016. A partir d’un test de niveau, les deux semaines de stage ont pu être organisées de la façon suivante :"
+  },
+  "alternates": [],
+  "rung": "Other role. Marjorie Gibon is identified as a teacher who participated in an Erasmus+ mobility program.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES Alpedrete",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://yourcenar.paysdelaloire.e-lyco.fr/erasmus-au-lycee-marguerite-yourcenar/",
+    "evidence_quote": "Ces dernières années, plusieurs projets ont déjà fait vivre cette ouverture internationale : échanges avec l’IES Alpedrete en Espagne, mobilités longues d’élèves à Alpedrete, accueil de partenaires venus du Portugal et de Sicile, mais aussi échanges avec l’Allemagne, notamment avec le lycée Kronwerk de Rendsburg. En 2025, deux élèves de terminale ont ainsi passé deux semaines à Rendsburg, tandis qu’un projet Le Mans–Florence a également permis de développer de nouveaux liens avec l’Italie.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "lycée Kronwerk de Rendsburg",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://yourcenar.paysdelaloire.e-lyco.fr/erasmus-au-lycee-marguerite-yourcenar/",
+    "evidence_quote": "Ces dernières années, plusieurs projets ont déjà fait vivre cette ouverture internationale : échanges avec l’IES Alpedrete en Espagne, mobilités longues d’élèves à Alpedrete, accueil de partenaires venus du Portugal et de Sicile, mais aussi échanges avec l’Allemagne, notamment avec le lycée Kronwerk de Rendsburg. En 2025, deux élèves de terminale ont ainsi passé deux semaines à Rendsburg, tandis qu’un projet Le Mans–Florence a également permis de développer de nouveaux liens avec l’Italie.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Enforex",
+    "partner_country": "Espagne",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://yourcenar.paysdelaloire.e-lyco.fr/le-lycee/ouverture-internationaleouverture-internationale/erasmusenseignants/mobilite-enseignante-erasmus-madrid-espagne-45467/",
+    "evidence_quote": "Marjorie Gibon a suivi des cours d’espagnol dans l’école de formation Enforex de Madrid du 11 avril au 22 avril 2016. A partir d’un test de niveau, les deux semaines de stage ont pu être organisées de la façon suivante :",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Marguerite Yourcenar",
+    "city": "Le Mans",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://yourcenar.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "2 rue du Miroir – 72100 LE MANS"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The evidence mentions several international projects and partners but does not provide a comprehensive list of all current Erasmus+ partners. No specific contact person for international relations is named with a direct email address.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 12.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 23.1
+ }
+}
