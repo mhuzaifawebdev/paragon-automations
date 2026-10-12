@@ -1,0 +1,92 @@
+{
+ "row_id": "r338",
+ "scraped_at": "2026-10-12T05:36:56Z",
+ "contacts": {
+  "row_id": "r338",
+  "institution_name": "DIAKONIA-AMMATTIKORKEAKOULU OY",
+  "institution_type": "college",
+  "official_website": "https://www.diak.fi/",
+  "country": null,
+  "phone": {
+   "value": "+358 50 505 6960",
+   "source_url": "https://www.diak.fi/diak/organisaatio/kansainvalisyys/",
+   "evidence_quote": "+358 50 505 6960 <tel 0505056960>"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Bielefeld University of Applied Sciences",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.diak.fi/diak/organisaatio/kansainvalisyys/",
+    "evidence_quote": "EduCare 5.0 -verkostoon kuuluu kymmenen yliopistoa ja korkeakoulua yhdeksästä maasta. Allianssi kehittää terveysalan koulutusta, tutkimusta ja käytäntöjä innovatiivisten, digitaalisten, monialaisten ja yhteiskuntaan vahvasti kytkeytyvien lähestymistapojen kautta. Tavoitteena on luoda uusia toimintamalleja ja asettaa uusia standardeja terveyspalvelujen kehittämiselle Euroopassa ja sen ulkopuolella. Allianssia koordinoi Bielefeld University of Applied Sciences.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Helsingin-kampus",
+    "city": "Helsinki",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.diak.fi/",
+    "evidence_quote": "Helsingin-kampus"
+   },
+   {
+    "campus_name": "Oulun-kampus",
+    "city": "Oulu",
+    "country": "Finland",
+    "role": "branch",
+    "source_url": "https://www.diak.fi/",
+    "evidence_quote": "Oulun-kampus"
+   },
+   {
+    "campus_name": "Porin-kampus",
+    "city": "Pori",
+    "country": "Finland",
+    "role": "branch",
+    "source_url": "https://www.diak.fi/",
+    "evidence_quote": "Porin-kampus"
+   },
+   {
+    "campus_name": "Pieksämäki campus",
+    "city": "Pieksämäki",
+    "country": "Finland",
+    "role": "branch",
+    "source_url": "https://www.diak.fi/en/diak/contact-us/staff-directory/",
+    "evidence_quote": "Pieksämäki campus"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partners, only mentioning participation in the EduCare 5.0 alliance.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 17.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "total_seconds": 39.9
+ }
+}
