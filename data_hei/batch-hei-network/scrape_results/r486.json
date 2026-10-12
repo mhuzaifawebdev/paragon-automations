@@ -1,0 +1,82 @@
+{
+ "row_id": "r486",
+ "scraped_at": "2026-10-12T06:05:12Z",
+ "contacts": {
+  "row_id": "r486",
+  "institution_name": "Collegium Da Vinci",
+  "institution_type": "university",
+  "official_website": "https://cdv.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": {
+   "name": "Joanna Jessa",
+   "designation": "Erasmus+ Program Coordinator",
+   "designation_local": "",
+   "email": "erasmus@cdv.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://cdv.pl/erasmus/",
+   "evidence_quote": "dr Joanna Jessa ... Koordynatorka Programu Erasmus+"
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. She is the designated Erasmus+ Program Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Collegium Da Vinci Poznań",
+    "city": "Poznań",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://cdv.pl/",
+    "evidence_quote": "Studia stacjonarne i niestacjonarne (zaoczne) – Poznań - Collegium Da Vinci Poznań"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that a full list of partner universities is available on a dedicated page, but the actual list of partner names is not provided in the text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 14.5,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 24.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.9,
+  "slices": [
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 47.4
+ }
+}
