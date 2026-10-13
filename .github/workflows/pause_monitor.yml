@@ -74,6 +74,11 @@ jobs:
           ZADARMA_API_SECRET: ${{ secrets.ZADARMA_API_SECRET }}
         run: python agent/call_gap_monitor.py
 
+      - name: Rebuild the readable tabs of the alert sheet ("Daily summary", "Alerts by day")
+        # The raw "Alerts" tab is one long list of every run. These two tabs are rebuilt from data/alerts.csv
+        # each run so supervisors can read it day by day. Never fails the job.
+        run: python scripts/build_alert_report.py || echo "(alert report rebuild failed, non-fatal)"
+
       - name: Commit updated state
         run: |
           git config user.name "paragon-pause-monitor"
