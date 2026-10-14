@@ -33,10 +33,20 @@ summary = rep.summary_values(rows)
 check("one summary row per day and operator, newest day first",
       [r[:2] for r in summary[1:]], [["2026-10-10", "Giuseppe Papa"], ["2026-10-09", "Zahra Batool"]])
 check("the day's totals: 1 offline, 2 gaps, longest 1 h 02, total 1 h 33",
-      summary[2][3:], [1, "", 2, "1 h 02 min", "1 h 33 min"])
+      summary[2][3:8], [1, "", 2, "1 h 02 min", "1 h 33 min"])
 days, heads = rep.day_values(rows)
 check("each day gets its own heading", [days[h][0].split("   ")[0] for h in heads], ["Saturday 10 October 2026", "Friday 09 October 2026"])
 check("a gap is shown at the time it started", [d[0] for d in days if d[3] == "Gap between calls"], ["08:43", "15:00"])
+
+lo = [["Date (UTC)", "Logged out at (UTC)", "Extension", "Operator", "Logged back in at (UTC)", "Minutes logged out"],
+      ["2026-10-09", "10:02", "105", "Zahra Batool", "10:31", "29"], ["2026-10-09", "12:00", "105", "Zahra Batool"],
+      ["2026-10-09", "11:00", "110", "Muhammad Huzaifa", "11:20", "20"]]
+s2 = rep.summary_values(rows, lo)
+z = next(r for r in s2 if r[:2] == ["2026-10-09", "Zahra Batool"])
+check("log-outs are added to the day's summary, an open one marked as still out", z[8:], [2, "29 min + still out"])
+check("someone with only log-outs and no other alert still gets a row",
+      [r[8:] for r in s2 if r[1] == "Muhammad Huzaifa"], [[1, "20 min"]])
+check("the header row of the Logouts tab is ignored", len(s2), 4)
 
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

@@ -61,8 +61,21 @@ def _fmt_minutes(m):
     return f"{h} h {mm:02d} min" if h else f"{mm} min"
 
 
-def summary_values(rows):
-    agg = defaultdict(lambda: {"off": 0, "idle": 0, "gaps": 0, "longest": 0.0, "lost": 0.0, "ext": ""})
+def summary_values(rows, logouts=()):
+    """logouts: rows of the "Logouts" tab (written by presence/worker.js): date, out at, ext, operator, back at, minutes."""
+    agg = defaultdict(lambda: {"off": 0, "idle": 0, "gaps": 0, "longest": 0.0, "lost": 0.0, "ext": "",
+                               "logouts": 0, "away": 0.0, "open": False})
+    for lo in logouts:
+        lo = list(lo) + [""] * 6
+        if not re.match(r"\d{4}-\d{2}-\d{2}$", lo[0]):
+            continue                                   # the header row
+        a = agg[(lo[0], lo[3])]
+        a["ext"] = lo[2]
+        a["logouts"] += 1
+        try:
+            a["away"] += float(lo[5])
+        except ValueError:
+            a["open"] = True                           # still logged out
     for r in rows:
         a = agg[(r["day"], r["who"])]
         a["ext"] = r["ext"]
@@ -75,13 +88,14 @@ def summary_values(rows):
             a["longest"] = max(a["longest"], r["gap"])
             a["lost"] += r["gap"]
     out = [["Date", "Operator", "Extension", "Offline alerts", "Idle alerts", "Call gaps", "Longest gap",
-            "Total gap time"]]
+            "Total gap time", "Log-outs", "Time logged out"]]
     days = sorted({d for d, _ in agg}, reverse=True)
     for day in days:
-        people = sorted(((w, a) for (d, w), a in agg.items() if d == day), key=lambda x: (-x[1]["lost"], -x[1]["off"], x[0]))
+        people = sorted(((w, a) for (d, w), a in agg.items() if d == day), key=lambda x: (-x[1]["lost"] - x[1]["away"], -x[1]["off"], x[0]))
         for who, a in people:
             out.append([day, who, a["ext"], a["off"] or "", a["idle"] or "", a["gaps"] or "",
-                        _fmt_minutes(a["longest"]), _fmt_minutes(a["lost"])])
+                        _fmt_minutes(a["longest"]), _fmt_minutes(a["lost"]), a["logouts"] or "",
+                        (_fmt_minutes(a["away"]) + (" + still out" if a["open"] else "")).strip(" +") if a["logouts"] else ""])
     return out
 
 
@@ -130,7 +144,7 @@ def write(sheet_id, summary, days, heads, svc=None):
                                            body={"values": values}).execute()
     bold = {"textFormat": {"bold": True}}
     reqs = []
-    for tab, widths in ((SUMMARY_TAB, [100, 190, 80, 110, 90, 80, 100, 120]), (DAY_TAB, [80, 190, 80, 140, 80, 260])):
+    for tab, widths in ((SUMMARY_TAB, [100, 190, 80, 110, 90, 80, 100, 120, 80, 130]), (DAY_TAB, [80, 190, 80, 140, 80, 260])):
         sid = ids[tab]
         reqs += [{"unmergeCells": {"range": {"sheetId": sid}}},
                  {"repeatCell": {"range": {"sheetId": sid}, "cell": {"userEnteredFormat": {}}, "fields": "userEnteredFormat"}},
@@ -157,7 +171,13 @@ def main():
     cfg = yaml.safe_load(open(ROOT / "config.yaml", encoding="utf-8"))
     sheet_id = cfg["vapi"]["zadarma"]["monitor"].get("alert_sheet_id")
     rows = load()
-    summary = summary_values(rows)
+    logouts = []
+    if sheet_id and "--dry-run" not in sys.argv:
+        try:
+            logouts = _service().spreadsheets().values().get(spreadsheetId=sheet_id, range="'Logouts'!A1:F").execute().get("values", [])
+        except Exception:
+            logouts = []                               # tab not created yet: nobody has logged out since the watcher started
+    summary = summary_values(rows, logouts)
     days, heads = day_values(rows)
     if "--dry-run" in sys.argv or not sheet_id:
         for line in summary[:12]:

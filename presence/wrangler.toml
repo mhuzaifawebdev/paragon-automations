@@ -1,0 +1,25 @@
+name = "paragon-presence-watch"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Every minute. Outside the shift it only follows log-outs that are still open.
+[triggers]
+crons = ["* * * * *"]
+
+# Keeps the last status of each extension. Create it once with:  wrangler kv namespace create PRESENCE
+# and put the id it prints here.
+[[kv_namespaces]]
+binding = "PRESENCE"
+id = "REPLACE_WITH_KV_ID"
+
+# Copied from config.yaml (vapi.zadarma.monitor). Change both together.
+[vars]
+SHEET_ID = "19IL7hnXUQ0qEAa66cs1gN3GNNpuv9_aZ2M_qA1iuBpQ"
+SHIFT_START_UTC = "07:00"
+SHIFT_END_UTC = "16:00"
+EXTENSIONS = '{"100": "Nadia Theuma", "101": "Felice", "102": "Giuseppe Papa", "103": "Ali", "104": "Hidayat Ullah", "105": "Zahra Batool", "106": "Meerab", "107": "Gulelala Yousafzai", "108": "Ivan", "109": "Shahid Khan Usmani", "110": "Muhammad Huzaifa", "111": "Tanisha Imam", "112": "Nazish Shabbir", "113": "Saima Abbas", "117": "Hamza Ali", "124": "Daniya (AI dialer line)"}'
+
+# Secrets, never in this file:
+#   wrangler secret put ZADARMA_API_KEY
+#   wrangler secret put ZADARMA_API_SECRET
+#   wrangler secret put GOOGLE_SERVICE_ACCOUNT_JSON
