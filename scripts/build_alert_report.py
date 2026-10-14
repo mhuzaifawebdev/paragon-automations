@@ -62,7 +62,7 @@ def _fmt_minutes(m):
 
 
 def summary_values(rows, logouts=()):
-    """logouts: rows of the "Logouts" tab (written by presence/worker.js): date, out at, ext, operator, back at, minutes."""
+    """logouts: rows of the "Logouts" tab (written by apps_script/LogoutWatch.gs): date, out at, ext, operator, back at, minutes."""
     agg = defaultdict(lambda: {"off": 0, "idle": 0, "gaps": 0, "longest": 0.0, "lost": 0.0, "ext": "",
                                "logouts": 0, "away": 0.0, "open": False})
     for lo in logouts:
