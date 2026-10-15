@@ -21,8 +21,9 @@ on:
         default: ""
   repository_dispatch:
     types: [enrich]
-  schedule:
-    - cron: "0 3 * * *"        # 03:00 UTC nightly; a no-op when nothing is pending
+  # The nightly schedule was removed on 15 Oct 2026: this older Sheet-driven path reads data/numbers_clean.csv,
+  # which is not in the repository (data/*.csv is git-ignored), so every nightly run since 30 Sep failed. Batches
+  # now go through the upload page (scrape_batch.yml). Start this one by hand if it is ever needed again.
 
 permissions:
   contents: write              # to commit the results back (scrape_results + CSVs)
