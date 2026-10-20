@@ -1,24 +1,15 @@
 {
- "generated_at": "2026-10-20T12:18:48.851079+00:00",
+ "generated_at": "2026-10-20T16:03:32.344529+00:00",
  "totals": {
-  "institutes": 1560,
-  "with_contact": 784,
-  "with_email": 554,
-  "partners": 48564,
-  "campuses": 2365,
+  "institutes": 1467,
+  "with_contact": 722,
+  "with_email": 516,
+  "partners": 44973,
+  "campuses": 2229,
   "no_website": 300,
   "batches": 11
  },
  "days": [
-  {
-   "day": "2026-09-25",
-   "institutes": 98,
-   "with_contact": 66,
-   "with_email": 41,
-   "partners": 3749,
-   "campuses": 145,
-   "no_website": 0
-  },
   {
    "day": "2026-09-30",
    "institutes": 20,
@@ -72,9 +63,31 @@
    "partners": 20603,
    "campuses": 1041,
    "no_website": 58
+  },
+  {
+   "day": "2026-10-20",
+   "institutes": 5,
+   "with_contact": 4,
+   "with_email": 3,
+   "partners": 158,
+   "campuses": 9,
+   "no_website": 0
   }
  ],
  "batches": [
+  {
+   "batch": "test-batch",
+   "status": "done",
+   "total_rows": 5,
+   "done": 5,
+   "updated": "2026-10-20T16:03:25.797829+00:00",
+   "institutes": 5,
+   "with_contact": 4,
+   "with_email": 3,
+   "partners": 158,
+   "campuses": 9,
+   "no_website": 0
+  },
   {
    "batch": "batch-hei-network",
    "status": "done",
@@ -204,19 +217,6 @@
    "partners": 232,
    "campuses": 23,
    "no_website": 1
-  },
-  {
-   "batch": "B1",
-   "status": "done",
-   "total_rows": 98,
-   "done": 98,
-   "updated": "",
-   "institutes": 98,
-   "with_contact": 66,
-   "with_email": 41,
-   "partners": 3749,
-   "campuses": 145,
-   "no_website": 0
   }
  ]
 }
