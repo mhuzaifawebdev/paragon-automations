@@ -6,132 +6,169 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
+  /* Light operations dashboard: summary first (totals, scraped per day, batches), then the two working panels. */
   :root {
-    --bg: #0b0e14;
-    --bg-grad: radial-gradient(1200px 600px at 15% -10%, rgba(99,102,241,.16), transparent 60%),
-               radial-gradient(1000px 500px at 100% 0%, rgba(20,184,166,.10), transparent 55%);
-    --panel: #12151f; --panel-2: #161a26; --line: #232838;
-    --ink: #eef1f8; --mut: #8790a8; --mut-2: #5c6580;
-    --accent: #6366f1; --accent-2: #22d3ee; --accent-ink: #a5b4fc;
-    --ok: #22c55e; --warn: #f59e0b; --bad: #f43f5e; --off: #64748b;
-    --radius: 14px; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 32px -12px rgba(0,0,0,.55);
+    color-scheme: light;
+    --bg: #f4f6f9; --panel: #ffffff; --panel-2: #f8fafc; --line: #e2e7ef; --line-2: #eef1f6;
+    --ink: #101828; --mut: #5d6778; --mut-2: #8b94a5;
+    --accent: #3b5bdb; --accent-2: #4c6ef5; --accent-soft: #edf2ff; --accent-ink: #2f4bc0;
+    --ok: #138a4b; --ok-soft: #e6f6ed; --warn: #b45309; --warn-soft: #fdf3e3; --bad: #c0283d; --bad-soft: #fdecee;
+    --off: #64748b; --off-soft: #f1f4f8;
+    --radius: 12px; --shadow: 0 1px 2px rgba(16,24,40,.05), 0 1px 3px rgba(16,24,40,.06);
   }
   * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--bg-grad), var(--bg); color: var(--ink);
-    font: 400 14px/1.55 "Inter", -apple-system, Segoe UI, Roboto, sans-serif; -webkit-font-smoothing: antialiased;
-  }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 400 14px/1.55 "Inter", -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
   .mono { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; }
-  header {
-    padding: 18px 32px; border-bottom: 1px solid var(--line); background: rgba(11,14,20,.72);
-    backdrop-filter: blur(10px); display: flex; align-items: center; gap: 11px;
-  }
-  header .mark {
-    width: 30px; height: 30px; border-radius: 8px; flex: none;
-    background: linear-gradient(135deg, #6366f1, #22d3ee); display: flex; align-items: center; justify-content: center;
-    font-weight: 800; font-size: 13px; color: #0b0e14; box-shadow: 0 4px 14px -4px rgba(99,102,241,.6);
-  }
-  header h1 { font-size: 15.5px; font-weight: 700; margin: 0; letter-spacing: -.01em; }
-  header .sub { font-size: 11.5px; color: var(--mut); margin-top: 1px; }
+  .num { font-variant-numeric: tabular-nums; }
+  header { background: var(--panel); border-bottom: 1px solid var(--line); }
+  header .in { max-width: 1180px; margin: 0 auto; display: flex; align-items: center; gap: 12px;
+    padding-block: 14px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+  header .mark { width: 32px; height: 32px; border-radius: 8px; flex: none; background: var(--accent);
+    display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 14px; color: #fff; }
+  header h1 { font-size: 16px; font-weight: 700; margin: 0; letter-spacing: -.01em; }
+  header .sub { font-size: 12px; color: var(--mut); margin-top: 1px; }
+  header .upd { margin-left: auto; font-size: 12px; color: var(--mut); text-align: right; }
 
-  main { padding: 32px 20px 56px; display: grid; gap: 22px; max-width: 720px; margin: 0 auto; }
+  main { max-width: 1180px; margin: 0 auto; display: grid; gap: 20px;
+    padding-block: 24px 48px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+  .section-title { font-size: 12px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--mut); margin: 0; }
 
-  .card {
-    background: linear-gradient(180deg, var(--panel-2), var(--panel)); border: 1px solid var(--line);
-    border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow);
-  }
+  .tiles { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
+  @media (max-width: 980px) { .tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 520px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .tile { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow); min-width: 0; }
+  .tile .n { font-size: 24px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+  .tile .l { color: var(--mut); font-size: 12px; margin-top: 2px; }
+  .tile .s { color: var(--mut-2); font-size: 11.5px; margin-top: 4px; }
+
+  .dash-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 20px; }
+  .cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+  .col { display: grid; gap: 20px; min-width: 0; }
+  @media (max-width: 900px) { .dash-grid, .cols { grid-template-columns: 1fr; } }
+
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); min-width: 0; }
   .card h2 { font-size: 15px; margin: 0 0 4px; font-weight: 700; }
-  .card .hint { color: var(--mut); font-size: 12.5px; margin-bottom: 18px; }
+  .card .hint { color: var(--mut); font-size: 12.5px; margin-bottom: 16px; }
+
+  .chart { width: 100%; height: auto; display: block; }
+  .chart text { fill: var(--mut); font: 500 11px "Inter", sans-serif; }
+  .legend { display: flex; gap: 16px; font-size: 12px; color: var(--mut); margin-top: 6px; flex-wrap: wrap; }
+  .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; background: var(--c); }
+  .scroll { overflow-x: auto; }
+  table.data { width: 100%; border-collapse: collapse; font-size: 13px; }
+  table.data th { text-align: left; font-size: 11.5px; font-weight: 600; color: var(--mut); text-transform: uppercase; letter-spacing: .04em;
+    padding: 8px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  table.data td { padding: 9px 8px; border-bottom: 1px solid var(--line-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  table.data tr:last-child td { border-bottom: 0; }
+  table.data td.r, table.data th.r { text-align: right; }
+  table.data a.view { color: var(--accent); font-weight: 600; text-decoration: none; cursor: pointer; }
+  .mini-bar { display: inline-block; width: 70px; height: 6px; background: var(--line-2); border-radius: 99px; overflow: hidden; vertical-align: middle; margin-right: 8px; }
+  .mini-bar i { display: block; height: 100%; background: var(--accent); }
 
   label { display: block; font-size: 12.5px; font-weight: 600; color: var(--mut); margin: 14px 0 6px; }
   label:first-of-type { margin-top: 0; }
-  input[type=text], input[type=password], select {
-    width: 100%; background: #0d1017; border: 1px solid var(--line); color: var(--ink);
-    border-radius: 9px; padding: 10px 12px; font: inherit; font-size: 13.5px;
-  }
-  input:focus, select:focus, .dropzone:focus-within { outline: none; border-color: var(--accent); }
-
-  .dropzone {
-    border: 1.5px dashed var(--line); border-radius: 11px; padding: 26px; text-align: center;
-    cursor: pointer; transition: border-color .15s ease, background .15s ease; position: relative;
-  }
-  .dropzone:hover, .dropzone.drag { border-color: var(--accent); background: rgba(99,102,241,.06); }
+  input[type=text], input[type=password], select { width: 100%; background: var(--panel); border: 1px solid var(--line); color: var(--ink);
+    border-radius: 8px; padding: 10px 12px; font: inherit; font-size: 13.5px; }
+  input:focus, select:focus, .dropzone:focus-within { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .dropzone { border: 1.5px dashed var(--line); border-radius: 10px; padding: 24px; text-align: center; cursor: pointer; color: var(--mut);
+    transition: border-color .15s ease, background .15s ease; position: relative; background: var(--panel-2); }
+  .dropzone:hover, .dropzone.drag { border-color: var(--accent); background: var(--accent-soft); }
   .dropzone input[type=file] { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
   .dropzone .fname { font-weight: 600; margin-top: 6px; color: var(--accent-ink); }
-  .dropzone svg { opacity: .6; }
-
+  .dropzone svg { opacity: .7; }
   .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
   details { margin-top: 14px; }
   details summary { cursor: pointer; font-size: 12.5px; color: var(--mut); font-weight: 600; }
 
-  button {
-    width: 100%; margin-top: 20px; padding: 12px; border: none; border-radius: 10px;
-    background: linear-gradient(135deg, var(--accent), #4f46e5); color: white; font: inherit;
-    font-weight: 700; font-size: 14px; cursor: pointer; box-shadow: 0 4px 16px -4px rgba(99,102,241,.55);
-    transition: opacity .15s ease;
-  }
+  button { width: 100%; margin-top: 18px; padding: 11px; border: none; border-radius: 8px; background: var(--accent); color: #fff;
+    font: inherit; font-weight: 600; font-size: 14px; cursor: pointer; transition: background .15s ease; }
+  button:hover { background: var(--accent-2); }
+  button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   button:disabled { opacity: .5; cursor: not-allowed; }
-  button.secondary {
-    background: var(--panel-2); border: 1px solid var(--line); box-shadow: none; margin-top: 10px;
-  }
+  button.secondary { background: var(--panel); color: var(--ink); border: 1px solid var(--line); margin-top: 10px; }
+  button.secondary:hover { background: var(--panel-2); }
 
-  .msg { border-radius: 10px; padding: 11px 14px; font-size: 12.5px; margin-top: 14px; display: none; }
+  .msg { border-radius: 8px; padding: 10px 13px; font-size: 12.5px; margin-top: 14px; display: none; }
   .msg.show { display: block; }
-  .msg.error { background: rgba(244,63,94,.12); border: 1px solid rgba(244,63,94,.35); color: #ffb4c2; }
-  .msg.ok { background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.35); color: #86efac; }
-
+  .msg.error { background: var(--bad-soft); border: 1px solid #f5c2c9; color: var(--bad); }
+  .msg.ok { background: var(--ok-soft); border: 1px solid #bfe5cf; color: var(--ok); }
   .checkrow { display: flex; gap: 10px; }
-  .checkrow input { flex: 1; }
+  .checkrow input { flex: 1; min-width: 0; }
   .checkrow button { width: auto; margin: 0; padding: 10px 16px; }
 
   /* Progress view */
-  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; }
-  .kpi { background: var(--panel-2); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
-  .kpi .n { font-size: 22px; font-weight: 800; } .kpi .l { color: var(--mut); font-size: 11.5px; margin-top: 2px; }
-  .bar-track { height: 10px; background: #0b1219; border-radius: 999px; overflow: hidden; margin: 14px 0 8px; }
-  .bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 999px; transition: width .4s ease; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+  .kpi { background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .kpi .n { font-size: 20px; font-weight: 800; font-variant-numeric: tabular-nums; } .kpi .l { color: var(--mut); font-size: 11.5px; margin-top: 2px; }
+  .bar-track { height: 8px; background: var(--line-2); border-radius: 999px; overflow: hidden; margin: 12px 0 8px; }
+  .bar-fill { height: 100%; background: var(--accent); border-radius: 999px; transition: width .4s ease; }
   .bar-label { display: flex; justify-content: space-between; font-size: 12.5px; color: var(--mut); }
-  .status-pill {
-    display: inline-flex; align-items: center; gap: 6px; font-size: 11.5px; font-weight: 700;
-    padding: 3px 10px; border-radius: 999px; text-transform: uppercase; letter-spacing: .03em;
-  }
-  .status-pill.running { background: rgba(99,102,241,.15); color: var(--accent-ink); }
-  .status-pill.done { background: rgba(34,197,94,.15); color: var(--ok); }
-  .status-pill.error { background: rgba(244,63,94,.15); color: var(--bad); }
-  .status-pill.not_found { background: rgba(100,116,139,.15); color: var(--off); }
-  .status-pill.cancelled { background: rgba(245,158,11,.15); color: var(--warn); }
-  .status-pill.waiting { background: rgba(245,158,11,.15); color: var(--warn); }
-  .reader-box { margin-top: 16px; padding: 12px 14px; border-radius: 10px; border: 1px solid rgba(245,158,11,.35);
-                background: rgba(245,158,11,.08); font-size: 14px; line-height: 1.5; }
-  .reader-box.quiet { border-color: rgba(100,116,139,.3); background: transparent; }
+  .status-pill { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; padding: 3px 9px;
+    border-radius: 999px; text-transform: uppercase; letter-spacing: .03em; }
+  .status-pill.running, .status-pill.loading { background: var(--accent-soft); color: var(--accent-ink); }
+  .status-pill.done { background: var(--ok-soft); color: var(--ok); }
+  .status-pill.error { background: var(--bad-soft); color: var(--bad); }
+  .status-pill.not_found, .status-pill.unknown { background: var(--off-soft); color: var(--off); }
+  .status-pill.cancelled, .status-pill.waiting { background: var(--warn-soft); color: var(--warn); }
+  .reader-box { margin-top: 16px; padding: 12px 14px; border-radius: 10px; border: 1px solid #f1d9b5; background: var(--warn-soft); font-size: 14px; line-height: 1.5; }
+  .reader-box.quiet { border-color: var(--line); background: var(--panel-2); }
   .reader-box button { margin-top: 10px; }
-  .conf-row { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
-  .conf { flex: 1; min-width: 90px; text-align: center; padding: 10px; border-radius: 9px; border: 1px solid var(--line); }
-  .conf.high { background: rgba(34,197,94,.10); } .conf.medium { background: rgba(245,158,11,.10); }
-  .conf.low { background: rgba(244,63,94,.08); } .conf.none { background: rgba(100,116,139,.08); }
+  .conf-row { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+  .conf { flex: 1; min-width: 80px; text-align: center; padding: 9px; border-radius: 8px; border: 1px solid var(--line); }
+  .conf.high { background: var(--ok-soft); } .conf.medium { background: var(--warn-soft); }
+  .conf.low { background: var(--bad-soft); } .conf.none { background: var(--off-soft); }
   .conf .n { font-weight: 800; font-size: 16px; } .conf .l { font-size: 10.5px; color: var(--mut); text-transform: uppercase; }
-  footer { text-align: center; color: var(--mut-2); font-size: 11.5px; padding: 10px 20px 30px; }
+  #p-drive { color: var(--accent); font-weight: 600; }
+  footer { text-align: center; color: var(--mut-2); font-size: 12px; padding: 0 20px 32px; }
 
-  .preview {
-    margin-top: 14px; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px;
-    background: #0d1017; font-size: 12.5px;
-  }
+  .preview { margin-top: 14px; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; background: var(--panel-2); font-size: 12.5px; }
   .preview .p-title { font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
   .preview .p-title.warn-title { color: var(--warn); }
   .preview .p-title.ok-title { color: var(--ok); }
   .preview table { width: 100%; border-collapse: collapse; }
   .preview td { padding: 4px 0; vertical-align: top; }
   .preview td.field { color: var(--mut); width: 130px; white-space: nowrap; }
-  .preview td.val { font-family: "JetBrains Mono", monospace; }
+  .preview td.val { font-family: "JetBrains Mono", monospace; overflow-wrap: anywhere; }
   .preview td.val.missing { color: var(--mut-2); font-style: italic; }
   .preview .p-note { margin-top: 10px; color: var(--mut); font-size: 11.5px; }
+  .empty { color: var(--mut); font-size: 13px; padding: 18px 0; }
 </style></head>
 <body>
 <header>
-  <div class="mark">P</div>
-  <div><h1>Scraper</h1><div class="sub">Upload a batch, watch it run, download the results</div></div>
+  <div class="in">
+    <div class="mark">P</div>
+    <div><h1>Paragon Scraper</h1><div class="sub">Institute contacts and international partners, scraped and verified</div></div>
+    <div class="upd" id="d-updated">Loading figures…</div>
+  </div>
 </header>
 <main>
+  <section aria-labelledby="t-overview" style="display:grid;gap:12px">
+    <h2 class="section-title" id="t-overview">Overview, all batches</h2>
+    <div class="tiles" id="d-tiles"></div>
+  </section>
+
+  <div class="dash-grid">
+    <div class="card">
+      <h2>Institutes scraped per day</h2>
+      <div class="hint">Last 21 days. Hover a bar for the day's figures.</div>
+      <div id="d-chart"></div>
+      <div class="legend"><span style="--c: var(--accent)">Institutes scraped</span><span style="--c: #8ea6f7">of which a contact was found</span></div>
+    </div>
+    <div class="card">
+      <h2>Daily report</h2>
+      <div class="hint">The most recent days with scraping activity.</div>
+      <div class="scroll"><table class="data" id="d-days"></table></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Batches</h2>
+    <div class="hint">Every batch run so far, newest first. Choose View to follow one below.</div>
+    <div class="scroll"><table class="data" id="d-batches"></table></div>
+  </div>
+
+  <div class="cols"><div class="col">
   <div class="card" id="upload-card">
     <h2>Start a new batch</h2>
     <div class="hint">Upload an Excel (.xlsx) or CSV list of institutes. No column formatting required — names like "University", "Institution Name", "Phone", "Website" are all recognized.</div>
@@ -168,6 +205,7 @@
     <div class="msg" id="upload-msg"></div>
   </div>
 
+  </div><div class="col">
   <div class="card">
     <h2>Check a batch</h2>
     <div class="hint">Already started one? Look it up by name — from any device, any time.</div>
@@ -199,6 +237,7 @@
       <div class="msg" id="p-cancel-msg"></div>
     </div>
   </div>
+  </div></div>
 </main>
 <footer>Runs on GitHub Actions in chunks — safe to close this tab, progress keeps going. A large batch pauses when the free AI allowance runs out and resumes by itself. Refreshes every 20s while running, every 2 min while paused.</footer>
 
@@ -725,5 +764,89 @@ async function cancelBatch(batch) {
     $("p-cancel").disabled = false;
   }
 }
+
+// ---------------- dashboard: totals, scraped per day, batch list (counts only, no contact details) ----------------
+const fmtN = n => Number(n || 0).toLocaleString("en-GB");
+const pct = (a, b) => b ? Math.round(100 * a / b) + "%" : "–";
+function dayLabel(iso, long) {
+  const d = new Date(iso + "T00:00:00Z");
+  return d.toLocaleDateString("en-GB", long ? { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" } : { day: "numeric", month: "short", timeZone: "UTC" });
+}
+function renderTiles(t) {
+  const tiles = [
+    [fmtN(t.institutes), "Institutes scraped", fmtN(t.batches) + " batches"],
+    [fmtN(t.with_contact), "Contacts found", pct(t.with_contact, t.institutes) + " of institutes"],
+    [fmtN(t.with_email), "With an email", pct(t.with_email, t.with_contact) + " of contacts"],
+    [fmtN(t.partners), "Partners found", "across all institutes"],
+    [fmtN(t.campuses), "Campuses found", "own sites and branches"],
+    [fmtN(t.no_website), "Website not found", pct(t.no_website, t.institutes) + " of institutes"],
+  ];
+  $("d-tiles").innerHTML = tiles.map(([n, l, s]) => `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div></div>`).join("");
+}
+function renderChart(days) {
+  const byDay = Object.fromEntries((days || []).map(d => [d.day, d]));
+  const list = [];
+  const today = new Date();
+  for (let i = 20; i >= 0; i--) {
+    const d = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate() - i));
+    const key = d.toISOString().slice(0, 10);
+    list.push(byDay[key] || { day: key, institutes: 0, with_contact: 0, with_email: 0, partners: 0 });
+  }
+  const W = 640, H = 220, L = 40, R = 8, T = 10, B = 26;
+  const max = Math.max(10, ...list.map(d => d.institutes));
+  const rough = max / 4, mag = Math.pow(10, Math.floor(Math.log10(rough)));
+  const step = [1, 2, 5, 10].map(m => m * mag).find(v => v >= rough);      // 1, 2 or 5 x 10^n: round grid lines
+  const top = Math.ceil(max / step) * step;
+  const y = v => T + (H - T - B) * (1 - v / top);
+  const bw = (W - L - R) / list.length;
+  let g = "";
+  for (let v = 0; v <= top + 1e-9; v += step) {
+    g += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="#eef1f6" />` +
+         `<text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${fmtN(v)}</text>`;
+  }
+  list.forEach((d, i) => {
+    const x = L + i * bw + bw * 0.18, w = bw * 0.64;
+    const tip = `${dayLabel(d.day, true)}: ${fmtN(d.institutes)} institutes, ${fmtN(d.with_contact)} contacts, ${fmtN(d.with_email)} emails, ${fmtN(d.partners)} partners`;
+    g += `<g><title>${esc(tip)}</title>` +
+      `<rect x="${x}" y="${y(d.institutes)}" width="${w}" height="${y(0) - y(d.institutes)}" rx="2" fill="#3b5bdb" />` +
+      `<rect x="${x}" y="${y(d.with_contact)}" width="${w}" height="${y(0) - y(d.with_contact)}" rx="2" fill="#8ea6f7" /></g>`;
+    if (i % 3 === 0 || i === list.length - 1) g += `<text x="${x + w / 2}" y="${H - 8}" text-anchor="middle">${dayLabel(d.day)}</text>`;
+  });
+  $("d-chart").innerHTML = `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Institutes scraped per day, last 21 days">${g}</svg>`;
+}
+function renderDays(days) {
+  const recent = (days || []).slice(-7).reverse();
+  $("d-days").innerHTML = recent.length ? `<tr><th>Day</th><th class="r">Institutes</th><th class="r">Contacts</th><th class="r">Emails</th><th class="r">Partners</th></tr>` +
+    recent.map(d => `<tr><td>${dayLabel(d.day, true)}</td><td class="r">${fmtN(d.institutes)}</td><td class="r">${fmtN(d.with_contact)}</td>` +
+      `<td class="r">${fmtN(d.with_email)}</td><td class="r">${fmtN(d.partners)}</td></tr>`).join("")
+    : `<tr><td class="empty">No scraping yet.</td></tr>`;
+}
+function renderBatches(batches) {
+  $("d-batches").innerHTML = (batches || []).length ? `<tr><th>Batch</th><th>Status</th><th>Progress</th><th class="r">Contacts</th><th class="r">Partners</th><th>Last update</th><th></th></tr>` +
+    batches.map(b => {
+      const p = b.total_rows ? Math.min(100, Math.round(100 * b.done / b.total_rows)) : 0;
+      const when = b.updated ? new Date(b.updated).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "–";
+      return `<tr><td class="mono">${esc(b.batch)}</td><td><span class="status-pill ${esc(b.status)}">${esc(String(b.status).replace("_", " "))}</span></td>` +
+        `<td><span class="mini-bar"><i style="width:${p}%"></i></span>${fmtN(b.done)} / ${fmtN(b.total_rows)}</td>` +
+        `<td class="r">${fmtN(b.with_contact)}</td><td class="r">${fmtN(b.partners)}</td><td>${when}</td>` +
+        `<td><a class="view" data-batch="${esc(b.batch)}" href="#progress-card">View</a></td></tr>`;
+    }).join("") : `<tr><td class="empty">No batches yet.</td></tr>`;
+  document.querySelectorAll("#d-batches a.view").forEach(a => a.onclick = e => {
+    e.preventDefault(); $("check-batch").value = a.dataset.batch; trackBatch(a.dataset.batch);
+  });
+}
+async function loadStats() {
+  try {
+    const r = await fetch("/api/stats", { cache: "no-store" });
+    const d = await r.json();
+    renderTiles(d.totals || {}); renderChart(d.days); renderDays(d.days); renderBatches(d.batches);
+    $("d-updated").textContent = d.generated_at ? "Figures updated " + new Date(d.generated_at).toLocaleString("en-GB",
+      { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : (d.error || "No figures yet");
+  } catch (e) {
+    $("d-updated").textContent = "Could not load the figures: " + e.message;
+  }
+}
+loadStats();
+setInterval(loadStats, 60000);
 </script>
 </body></html>
