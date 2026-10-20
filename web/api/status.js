@@ -85,7 +85,7 @@ module.exports = async (req, res) => {
     res.status(200).json({
       generated_at: new Date().toISOString(),
       extensions: ext.rows,
-      alerts: alertsSorted.slice(0, 50),
+      alerts: alertsSorted.slice(0, 3000),     // the page groups them by day; 3,000 is months of alerts
       warning: ext.warning || alerts.warning || null,
     });
   } catch (e) {
