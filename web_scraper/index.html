@@ -21,6 +21,33 @@
     font: 400 14px/1.55 "Inter", -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
   .mono { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; }
   .num { font-variant-numeric: tabular-nums; }
+  .app { display: grid; grid-template-columns: 232px minmax(0, 1fr); min-height: 100vh; }
+  .side { background: var(--panel); border-right: 1px solid var(--line); padding: 20px 14px; display: flex; flex-direction: column; gap: 22px;
+    position: sticky; top: 0; height: 100vh; }
+  .brand { display: flex; align-items: center; gap: 10px; padding: 0 6px; }
+  .brand .mark { width: 32px; height: 32px; border-radius: 8px; flex: none; background: var(--accent); display: flex;
+    align-items: center; justify-content: center; font-weight: 800; font-size: 14px; color: #fff; }
+  .brand .b1 { font-weight: 700; font-size: 14.5px; } .brand .b2 { font-size: 11.5px; color: var(--mut); }
+  .menu { display: grid; gap: 2px; }
+  .menu a { display: flex; align-items: center; gap: 10px; padding: 9px 10px; border-radius: 8px; color: var(--mut);
+    font-weight: 600; font-size: 13.5px; text-decoration: none; }
+  .menu a svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+  .menu a:hover { background: var(--panel-2); color: var(--ink); }
+  .menu a.on { background: var(--accent-soft); color: var(--accent-ink); }
+  .side-foot { margin-top: auto; font-size: 11.5px; color: var(--mut-2); padding: 0 6px; }
+  .content { min-width: 0; display: flex; flex-direction: column; }
+  .topbar { background: var(--panel); border-bottom: 1px solid var(--line); padding-block: 16px;
+    padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px)); }
+  .topbar h1 { margin: 0; font-size: 18px; font-weight: 700; letter-spacing: -.01em; }
+  .topbar .sub { font-size: 12.5px; color: var(--mut); margin-top: 2px; }
+  .view { display: grid; gap: 20px; }
+  [hidden] { display: none !important; }
+  @media (max-width: 820px) {
+    .app { grid-template-columns: 1fr; }
+    .side { position: static; height: auto; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 12px; padding: 12px 16px;
+      border-right: 0; border-bottom: 1px solid var(--line); }
+    .menu { grid-auto-flow: column; } .side-foot { display: none; }
+  }
   header { background: var(--panel); border-bottom: 1px solid var(--line); }
   header .in { max-width: 1180px; margin: 0 auto; display: flex; align-items: center; gap: 12px;
     padding-block: 14px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
@@ -30,7 +57,7 @@
   header .sub { font-size: 12px; color: var(--mut); margin-top: 1px; }
   header .upd { margin-left: auto; font-size: 12px; color: var(--mut); text-align: right; }
 
-  main { max-width: 1180px; margin: 0 auto; display: grid; gap: 20px;
+  main { width: 100%; max-width: 1180px; display: grid; gap: 20px;
     padding-block: 24px 48px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
   .section-title { font-size: 12px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--mut); margin: 0; }
 
@@ -135,111 +162,124 @@
   .empty { color: var(--mut); font-size: 13px; padding: 18px 0; }
 </style></head>
 <body>
-<header>
-  <div class="in">
-    <div class="mark">P</div>
-    <div><h1>Paragon Scraper</h1><div class="sub">Institute contacts and international partners, scraped and verified</div></div>
-    <div class="upd" id="d-updated">Loading figures…</div>
-  </div>
-</header>
+<div class="app">
+<aside class="side">
+  <div class="brand"><div class="mark">P</div><div><div class="b1">Paragon Scraper</div><div class="b2">Contacts & partners</div></div></div>
+  <nav class="menu" aria-label="Sections">
+    <a href="#scraper" data-view="scraper"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0-12 4 4m-4-4-4 4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>Scraper</a>
+    <a href="#dashboard" data-view="dashboard"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10m6 10V4m6 16v-7m4 7H2"/></svg>Dashboard</a>
+    <a href="#batches" data-view="batches"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Batches</a>
+  </nav>
+  <div class="side-foot" id="d-updated">Loading figures…</div>
+</aside>
+<div class="content">
+  <div class="topbar"><h1 id="view-title">Scraper</h1><div class="sub" id="view-sub">Upload a list of institutes, follow the run, download the results.</div></div>
 <main>
-  <section aria-labelledby="t-overview" style="display:grid;gap:12px">
-    <h2 class="section-title" id="t-overview">Overview, all batches</h2>
-    <div class="tiles" id="d-tiles"></div>
-  </section>
-
-  <div class="dash-grid">
-    <div class="card">
-      <h2>Institutes scraped per day</h2>
-      <div class="hint">Last 21 days. Hover a bar for the day's figures.</div>
-      <div id="d-chart"></div>
-      <div class="legend"><span style="--c: var(--accent)">Institutes scraped</span><span style="--c: #8ea6f7">of which a contact was found</span></div>
-    </div>
-    <div class="card">
-      <h2>Daily report</h2>
-      <div class="hint">The most recent days with scraping activity.</div>
-      <div class="scroll"><table class="data" id="d-days"></table></div>
-    </div>
-  </div>
-
-  <div class="card">
-    <h2>Batches</h2>
-    <div class="hint">Every batch run so far, newest first. Choose View to follow one below.</div>
-    <div class="scroll"><table class="data" id="d-batches"></table></div>
-  </div>
-
-  <div class="cols"><div class="col">
-  <div class="card" id="upload-card">
-    <h2>Start a new batch</h2>
-    <div class="hint">Upload an Excel (.xlsx) or CSV list of institutes. No column formatting required — names like "University", "Institution Name", "Phone", "Website" are all recognized.</div>
-
-    <label>File</label>
-    <div class="dropzone" id="dropzone">
-      <input type="file" id="file" accept=".csv,.xlsx,.xls">
-      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v12m0-12 4 4m-4-4-4 4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
-      <div>Drop a file here, or click to choose</div>
-      <div class="fname" id="fname"></div>
-    </div>
-
-    <div id="preview" class="preview" style="display:none"></div>
-
-    <label>Batch name</label>
-    <input type="text" id="batch" placeholder="e.g. partnerships-oct">
-
-    <label>Access phrase</label>
-    <input type="password" id="token" placeholder="Given to you by your team admin">
-
-    <details>
-      <summary>Advanced</summary>
-      <label>Provider</label>
-      <select id="provider">
-        <option value="gemini">Gemini (free)</option>
-        <option value="claude_api">Claude (paid, higher quality)</option>
-        <option value="rules">Rules only (free, no AI)</option>
-      </select>
-      <label>Chunk size (institutes per step, default 25)</label>
-      <input type="text" id="chunk_size" placeholder="25">
-    </details>
-
-    <button id="start-btn">Start scraping</button>
-    <div class="msg" id="upload-msg"></div>
-  </div>
-
-  </div><div class="col">
-  <div class="card">
-    <h2>Check a batch</h2>
-    <div class="hint">Already started one? Look it up by name — from any device, any time.</div>
-    <div class="checkrow">
-      <input type="text" id="check-batch" placeholder="batch name">
-      <button class="secondary" id="check-btn">Check</button>
-    </div>
-  </div>
-
-  <div class="card" id="progress-card" style="display:none">
-    <h2>Batch <span id="p-batch" class="mono"></span> <span class="status-pill" id="p-status"></span></h2>
-    <div id="p-error" class="msg error"></div>
-    <div id="p-body">
-      <div class="bar-label"><span id="p-count">0 / 0</span><span id="p-eta"></span></div>
-      <div class="bar-track"><div class="bar-fill" id="p-fill" style="width:0%"></div></div>
-      <div class="kpis" id="p-kpis" style="margin-top:16px"></div>
-      <div class="conf-row" id="p-conf"></div>
-      <div class="reader-box" id="p-reader" style="display:none">
-        <div id="p-reader-text"></div>
-        <label id="p-reader-pick-wrap" style="display:none;margin-top:10px">Paid reader:
-          <select id="p-reader-pick"></select></label>
-        <button id="p-reader-btn" class="secondary"></button>
-        <div class="msg" id="p-reader-msg"></div>
+  <section class="view" id="view-scraper">
+    <div class="cols"><div class="col">
+    <div class="card" id="upload-card">
+      <h2>Start a new batch</h2>
+      <div class="hint">Upload an Excel (.xlsx) or CSV list of institutes. No column formatting required — names like "University", "Institution Name", "Phone", "Website" are all recognized.</div>
+  
+      <label>File</label>
+      <div class="dropzone" id="dropzone">
+        <input type="file" id="file" accept=".csv,.xlsx,.xls">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v12m0-12 4 4m-4-4-4 4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+        <div>Drop a file here, or click to choose</div>
+        <div class="fname" id="fname"></div>
       </div>
-      <button id="p-download" style="display:none">Download results (.xlsx)</button>
-      <a id="p-drive" class="mono" target="_blank" rel="noopener" style="display:none;margin-top:10px">Open in Google Drive</a>
-      <div class="msg" id="p-drive-msg"></div>
-      <button id="p-cancel" class="secondary" style="display:none">Cancel this batch</button>
-      <div class="msg" id="p-cancel-msg"></div>
+  
+      <div id="preview" class="preview" style="display:none"></div>
+  
+      <label>Batch name</label>
+      <input type="text" id="batch" placeholder="e.g. partnerships-oct">
+  
+      <label>Access phrase</label>
+      <input type="password" id="token" placeholder="Given to you by your team admin">
+  
+      <details>
+        <summary>Advanced</summary>
+        <label>Provider</label>
+        <select id="provider">
+          <option value="gemini">Gemini (free)</option>
+          <option value="claude_api">Claude (paid, higher quality)</option>
+          <option value="rules">Rules only (free, no AI)</option>
+        </select>
+        <label>Chunk size (institutes per step, default 25)</label>
+        <input type="text" id="chunk_size" placeholder="25">
+      </details>
+  
+      <button id="start-btn">Start scraping</button>
+      <div class="msg" id="upload-msg"></div>
     </div>
-  </div>
-  </div></div>
+  
+    </div><div class="col">
+    <div class="card">
+      <h2>Check a batch</h2>
+      <div class="hint">Already started one? Look it up by name — from any device, any time.</div>
+      <div class="checkrow">
+        <input type="text" id="check-batch" placeholder="batch name">
+        <button class="secondary" id="check-btn">Check</button>
+      </div>
+    </div>
+  
+    <div class="card" id="progress-card" style="display:none">
+      <h2>Batch <span id="p-batch" class="mono"></span> <span class="status-pill" id="p-status"></span></h2>
+      <div id="p-error" class="msg error"></div>
+      <div id="p-body">
+        <div class="bar-label"><span id="p-count">0 / 0</span><span id="p-eta"></span></div>
+        <div class="bar-track"><div class="bar-fill" id="p-fill" style="width:0%"></div></div>
+        <div class="kpis" id="p-kpis" style="margin-top:16px"></div>
+        <div class="conf-row" id="p-conf"></div>
+        <div class="reader-box" id="p-reader" style="display:none">
+          <div id="p-reader-text"></div>
+          <label id="p-reader-pick-wrap" style="display:none;margin-top:10px">Paid reader:
+            <select id="p-reader-pick"></select></label>
+          <button id="p-reader-btn" class="secondary"></button>
+          <div class="msg" id="p-reader-msg"></div>
+        </div>
+        <button id="p-download" style="display:none">Download results (.xlsx)</button>
+        <a id="p-drive" class="mono" target="_blank" rel="noopener" style="display:none;margin-top:10px">Open in Google Drive</a>
+        <div class="msg" id="p-drive-msg"></div>
+        <button id="p-cancel" class="secondary" style="display:none">Cancel this batch</button>
+        <div class="msg" id="p-cancel-msg"></div>
+      </div>
+    </div>
+    </div></div>
+  </section>
+  <section class="view" id="view-dashboard" hidden>
+    <section aria-labelledby="t-overview" style="display:grid;gap:12px">
+      <h2 class="section-title" id="t-overview">Overview, all batches</h2>
+      <div class="tiles" id="d-tiles"></div>
+    </section>
+
+    <div class="dash-grid">
+      <div class="card">
+        <h2>Institutes scraped per day</h2>
+        <div class="hint">Last 21 days. Hover a bar for the day's figures.</div>
+        <div id="d-chart"></div>
+        <div class="legend"><span style="--c: var(--accent)">Institutes scraped</span><span style="--c: #8ea6f7">of which a contact was found</span></div>
+      </div>
+      <div class="card">
+        <h2>Daily report</h2>
+        <div class="hint">The most recent days with scraping activity.</div>
+        <div class="scroll"><table class="data" id="d-days"></table></div>
+      </div>
+    </div>
+  
+  </section>
+  <section class="view" id="view-batches" hidden>
+    <div class="card">
+      <h2>Batches</h2>
+      <div class="hint">Every batch run so far, newest first. Choose View to follow one on the Scraper page.</div>
+      <div class="scroll"><table class="data" id="d-batches"></table></div>
+    </div>
+  
+  </section>
 </main>
 <footer>Runs on GitHub Actions in chunks — safe to close this tab, progress keeps going. A large batch pauses when the free AI allowance runs out and resumes by itself. Refreshes every 20s while running, every 2 min while paused.</footer>
+</div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <script>
@@ -832,7 +872,7 @@ function renderBatches(batches) {
         `<td><a class="view" data-batch="${esc(b.batch)}" href="#progress-card">View</a></td></tr>`;
     }).join("") : `<tr><td class="empty">No batches yet.</td></tr>`;
   document.querySelectorAll("#d-batches a.view").forEach(a => a.onclick = e => {
-    e.preventDefault(); $("check-batch").value = a.dataset.batch; trackBatch(a.dataset.batch);
+    e.preventDefault(); showView("scraper"); $("check-batch").value = a.dataset.batch; trackBatch(a.dataset.batch);
   });
 }
 async function loadStats() {
@@ -848,5 +888,26 @@ async function loadStats() {
 }
 loadStats();
 setInterval(loadStats, 60000);
+
+// ---------------- side menu: one section at a time; the address remembers it (#scraper, #dashboard, #batches) ----------------
+const VIEWS = {
+  scraper: ["Scraper", "Upload a list of institutes, follow the run, download the results."],
+  dashboard: ["Dashboard", "Totals and daily figures across every batch."],
+  batches: ["Batches", "Every batch run so far."]
+};
+function showView(name) {
+  if (!VIEWS[name]) name = "scraper";
+  Object.keys(VIEWS).forEach(v => { $("view-" + v).hidden = v !== name; });
+  document.querySelectorAll(".menu a").forEach(a => {
+    const on = a.dataset.view === name;
+    a.classList.toggle("on", on);
+    if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  });
+  $("view-title").textContent = VIEWS[name][0];
+  $("view-sub").textContent = VIEWS[name][1];
+  try { if (location.hash !== "#" + name) history.replaceState(null, "", location.pathname + location.search + "#" + name); } catch {}
+}
+document.querySelectorAll(".menu a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); showView(a.dataset.view); }));
+showView((location.hash || "").slice(1) || "scraper");
 </script>
 </body></html>
