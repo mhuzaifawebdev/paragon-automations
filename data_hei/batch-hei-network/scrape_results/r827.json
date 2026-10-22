@@ -1,23 +1,36 @@
 {
  "row_id": "r827",
- "scraped_at": "2026-10-22T14:10:51Z",
+ "scraped_at": "2026-10-22T21:35:12Z",
  "contacts": {
   "row_id": "r827",
   "institution_name": "Fondazione Istituto Tecnico Superiore Energia e Ambiente",
   "institution_type": "college",
   "official_website": "https://www.its-energiaeambiente.it/it/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "+39 0577 900338",
+   "source_url": "https://www.its-energiaeambiente.it/it/staff-interno-its",
+   "evidence_quote": "Contatti: tel. +39 0577 900338 e-mail: Questo indirizzo email è protetto dagli spambots. È necessario abilitare JavaScript per vederlo."
+  },
   "phone_alt": [],
   "generic_email": "info@its-energiaeambiente.it",
   "generic_email_url": "https://www.its-energiaeambiente.it/it/",
-  "contact": null,
+  "contact": {
+   "name": "Giuseppe Rubechi",
+   "designation": "Technical–Scientific and Educational Design & Coordination",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.its-energiaeambiente.it/it/component/k2/item/246-organigramma",
+   "evidence_quote": "Giuseppe Rubechi ... Progettazione e Coordinamento Tecnico - scientifico e didattico"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Mobility coordinator. He is responsible for the technical-scientific and educational coordination of the institution's programs.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.7,
   "needs_human_check": true,
-  "pages_read": 5,
+  "pages_read": 8,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -189,25 +202,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 13.9,
-  "ai_calls": 3,
-  "partner_calls": 1,
+  "crawl_s": 118.1,
+  "ai_calls": 1,
+  "model_s": 3.1,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.7,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 2,
-    "accepted": 2
-   }
-  ],
-  "total_seconds": 18.5
- },
- "rechecked": 3
+  "email_search_s": 6.9,
+  "total_seconds": 128.1
+ }
 }
