@@ -1,0 +1,98 @@
+{
+ "row_id": "r067",
+ "scraped_at": "2026-10-22T10:51:54Z",
+ "contacts": {
+  "row_id": "r067",
+  "institution_name": "Ecole supérieure d'Art de La Réunion",
+  "institution_type": "college",
+  "official_website": "https://sites.google.com/esa.re/esa-reunion/",
+  "country": {
+   "value": "La Réunion",
+   "source_url": "https://sites.google.com/esa.re/esa-reunion/",
+   "evidence_quote": "102 avenue du 20 décembre 1848 - B.P. 246 - 97826 - Le Port Cedex - La Réunion"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Caroline DICKINSON",
+   "designation": "Coordinatrice des Relations Internationales",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://sites.google.com/esa.re/esa-reunion/l%C3%A9cole/organisation/%C3%A9quipe-administrative-et-technique",
+   "evidence_quote": "Coordinatrice des Relations Internationales ... Caroline DICKINSON"
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. She is the designated coordinator for international relations and partnerships.",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Inrap",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://sites.google.com/esa.re/esa-reunion/",
+    "evidence_quote": "Restitution // Résidence de recherche // Inrap // Zoé Desmet // 18.12.2025 // 10H-17H // Salle de Conférence",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée Jean Hinglo",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://sites.google.com/esa.re/esa-reunion/",
+    "evidence_quote": "Le Challenge des Cordées de la réussite // 15.04.2026 // Lycée Jean Hinglo",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "École Supérieure d'Art de La Réunion",
+    "city": "Le Port",
+    "country": "La Réunion",
+    "role": "main",
+    "source_url": "https://sites.google.com/esa.re/esa-reunion/",
+    "evidence_quote": "102 avenue du 20 décembre 1848 - B.P. 246 - 97826 - Le Port Cedex - La Réunion"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The website mentions that the institution has partners and inter-institutional agreements, but it does not provide a list of these partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 15.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 157.4,
+  "mode": "gemini",
+  "email_search_s": 1.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 178.0
+ }
+}
