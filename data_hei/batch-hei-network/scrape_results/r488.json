@@ -1,6 +1,6 @@
 {
  "row_id": "r488",
- "scraped_at": "2026-10-12T06:05:20Z",
+ "scraped_at": "2026-10-22T20:56:52Z",
  "contacts": {
   "row_id": "r488",
   "institution_name": "Escuela de Arte de Sevilla",
@@ -9,17 +9,37 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 8,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "international@easdsevilla.es",
   "generic_email_url": "https://easdsevilla.es/informacion/contacto/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Silvia Ruiz Ledesma",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://easdsevilla.es/la-escuela/docentes/",
+   "evidence_quote": "[Silvia Ruiz Ledesma]secretaría ... Silvia Ruiz Ledesma"
+  },
+  "alternates": [
+   {
+    "name": "Manuel Praena Segovia",
+    "designation": "Head of Studies",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://easdsevilla.es/la-escuela/docentes/",
+    "evidence_quote": "[Manuel Praena Segovia]jefatura de estudios ... Manuel Praena Segovia",
+    "why_chosen": "Other role. Manuel Praena Segovia is the head of studies."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Silvia Ruiz Ledesma is the secretary of the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 11,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -303,7 +323,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "UNIPA. Università degli Studi di Palermo",
+    "partner_name": "Università degli Studi di Palermo",
     "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -489,16 +509,16 @@
     "city": "Sevilla",
     "country": "Spain",
     "role": "main",
-    "source_url": "https://easdsevilla.es/la-escuela/",
-    "evidence_quote": "Pabellón de Chile"
+    "source_url": "https://easdsevilla.es/mapa-web/",
+    "evidence_quote": "2 sedesChile"
    },
    {
-    "campus_name": "Sede de Nervión",
+    "campus_name": "Nervión",
     "city": "Sevilla",
     "country": "Spain",
     "role": "branch",
-    "source_url": "https://easdsevilla.es/la-escuela/",
-    "evidence_quote": "[Chad Eaton terminando su mural en la escuela]Sede de Nervión"
+    "source_url": "https://easdsevilla.es/mapa-web/",
+    "evidence_quote": "Nervión"
    }
   ],
   "stated_total": null,
@@ -506,40 +526,21 @@
   "stated_total_url": "",
   "truncated": false,
   "total_seen": 51,
-  "pages_read": 8,
-  "coverage_note": "The evidence provides a comprehensive list of Erasmus+ partners. No specific total number of partners is stated in the text.",
+  "pages_read": 11,
+  "coverage_note": "The institution provides a comprehensive list of international partners. No specific total number of partners is stated in the text. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 12.9,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 131.0,
+  "ai_calls": 2,
+  "model_s": 6.8,
   "cost_usd_estimate": 0.0,
-  "model_s": 13.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 52,
-    "accepted": 51
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 52,
-    "accepted": 51
-   }
-  ],
-  "total_seconds": 29.2
- },
- "rechecked": 3
+  "contact_pass": 2,
+  "email_search_s": 12.3,
+  "total_seconds": 152.3
+ }
 }
