@@ -1,32 +1,44 @@
 {
  "row_id": "r279",
- "scraped_at": "2026-10-11T12:19:09Z",
+ "scraped_at": "2026-10-22T13:50:13Z",
  "contacts": {
   "row_id": "r279",
   "institution_name": "Groupe ESC Clermont - Auvergne",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.clermont-sb.fr/",
-  "country": null,
+  "country": {
+   "value": "France",
+   "source_url": "https://www.clermont-sb.fr/",
+   "evidence_quote": "En France"
+  },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Axelle Sauvadet",
+   "designation": "Responsable Vie Etudiante & Associative",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.clermont-sb.fr/conseil-etudiants-student-advisory-board/",
+   "evidence_quote": "Axelle Sauvadet ... Responsable Vie Etudiante & Associative"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. She is the contact for student life and associative activities, which includes the Student Advisory Board and student mobility support.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "INCG SETIF BUSINESS SCHOOL",
-    "partner_country": "Algeria",
-    "partner_type": "school",
+    "partner_country": "Algérie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "INCG SETIF BUSINESS SCHOOL – Sétif",
@@ -34,8 +46,8 @@
    },
    {
     "partner_name": "SUP DE CO YAOUNDE",
-    "partner_country": "Cameroon",
-    "partner_type": "school",
+    "partner_country": "Cameroun",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "SUP DE CO YAOUNDE – Yaoundé",
@@ -43,7 +55,7 @@
    },
    {
     "partner_name": "UNIVERSITE INTERNATIONALE DE GRAND-BASSAM",
-    "partner_country": "Ivory Coast",
+    "partner_country": "Côte d’Ivoire",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -52,7 +64,7 @@
    },
    {
     "partner_name": "UNIVERSITE SOUMARE",
-    "partner_country": "Ivory Coast",
+    "partner_country": "Côte d’Ivoire",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -61,8 +73,8 @@
    },
    {
     "partner_name": "ARAB ACADEMY FOR SCIENCE, TECHNOLOGY & MARITIME TRANSPORT",
-    "partner_country": "Egypt",
-    "partner_type": "school",
+    "partner_country": "Égypte",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ARAB ACADEMY FOR SCIENCE, TECHNOLOGY & MARITIME TRANSPORT – Alexandrie",
@@ -70,8 +82,8 @@
    },
    {
     "partner_name": "ESLSCA EGYPT",
-    "partner_country": "Egypt",
-    "partner_type": "school",
+    "partner_country": "Égypte",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ESLSCA EGYPT – Le Caire",
@@ -79,7 +91,7 @@
    },
    {
     "partner_name": "NILE UNIVERSITY",
-    "partner_country": "Egypt",
+    "partner_country": "Égypte",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -88,7 +100,7 @@
    },
    {
     "partner_name": "FACULTY OF BUSINESS INFORMATICS – EGYPT UNIVERSITY OF INFORMATICS",
-    "partner_country": "Egypt",
+    "partner_country": "Égypte",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -98,7 +110,7 @@
    {
     "partner_name": "ALTITUDE BUSINESS SCHOOL",
     "partner_country": "Madagascar",
-    "partner_type": "school",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ALTITUDE BUSINESS SCHOOL – Antananarivo",
@@ -106,8 +118,8 @@
    },
    {
     "partner_name": "ENCG Settat",
-    "partner_country": "Morocco",
-    "partner_type": "school",
+    "partner_country": "Maroc",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ENCG Settat – Settat",
@@ -115,8 +127,8 @@
    },
    {
     "partner_name": "ENCG AGADIR",
-    "partner_country": "Morocco",
-    "partner_type": "school",
+    "partner_country": "Maroc",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ENCG AGADIR – Agadir",
@@ -124,8 +136,8 @@
    },
    {
     "partner_name": "ENCG BENI MELLAL",
-    "partner_country": "Morocco",
-    "partner_type": "school",
+    "partner_country": "Maroc",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ENCG BENI MELLAL – Béni Mellal",
@@ -133,8 +145,8 @@
    },
    {
     "partner_name": "ENCG CASABLANCA",
-    "partner_country": "Morocco",
-    "partner_type": "school",
+    "partner_country": "Maroc",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ENCG CASABLANCA – Casablanca",
@@ -142,8 +154,8 @@
    },
    {
     "partner_name": "ENCG DAKHLA",
-    "partner_country": "Morocco",
-    "partner_type": "school",
+    "partner_country": "Maroc",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ENCG DAKHLA – Dakhla",
@@ -151,8 +163,8 @@
    },
    {
     "partner_name": "ENCG EL JADIDA",
-    "partner_country": "Morocco",
-    "partner_type": "school",
+    "partner_country": "Maroc",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ENCG EL JADIDA – El Jadida",
@@ -160,8 +172,8 @@
    },
    {
     "partner_name": "ENCG FES",
-    "partner_country": "Morocco",
-    "partner_type": "school",
+    "partner_country": "Maroc",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ENCG FES – Fès",
@@ -169,8 +181,8 @@
    },
    {
     "partner_name": "ENCG MARRAKECH",
-    "partner_country": "Morocco",
-    "partner_type": "school",
+    "partner_country": "Maroc",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ENCG MARRAKECH – Marrakech",
@@ -178,8 +190,8 @@
    },
    {
     "partner_name": "ESMA",
-    "partner_country": "Morocco",
-    "partner_type": "school",
+    "partner_country": "Maroc",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ESMA – Marrakech",
@@ -187,8 +199,8 @@
    },
    {
     "partner_name": "ESCG TANGER",
-    "partner_country": "Morocco",
-    "partner_type": "school",
+    "partner_country": "Maroc",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ESCG TANGER – Tanger",
@@ -196,8 +208,8 @@
    },
    {
     "partner_name": "INSTITUT INTERAFRICAIN DE FORMATION EN ASSURANCE ET EN GESTION DES ENTREPRISES",
-    "partner_country": "Senegal",
-    "partner_type": "school",
+    "partner_country": "Sénégal",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "INSTITUT INTERAFRICAIN DE FORMATION EN ASSURANCE ET EN GESTION DES ENTREPRISES – Dakar",
@@ -205,7 +217,7 @@
    },
    {
     "partner_name": "FACULTE DES SCIENCES ECONOMIQUES ET DE GESTION DE MAHDIA",
-    "partner_country": "Tunisia",
+    "partner_country": "Tunisie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -214,7 +226,7 @@
    },
    {
     "partner_name": "UPES MEGRINE",
-    "partner_country": "Tunisia",
+    "partner_country": "Tunisie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -223,8 +235,8 @@
    },
    {
     "partner_name": "ECOLE SUPERIEURE DE COMMERCE DE SFAX",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ECOLE SUPERIEURE DE COMMERCE DE SFAX – Sfax",
@@ -232,7 +244,7 @@
    },
    {
     "partner_name": "FACULTE DES SCIENCES ECONOMIQUES ET DE GESTION DE SFAX",
-    "partner_country": "Tunisia",
+    "partner_country": "Tunisie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -241,8 +253,8 @@
    },
    {
     "partner_name": "IHEC SFAX",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "IHEC SFAX – Sfax",
@@ -250,8 +262,8 @@
    },
    {
     "partner_name": "INSTITUT INTERNATIONAL DE TECHNOLOGIE",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "INSTITUT INTERNATIONAL DE TECHNOLOGIE – Sfax",
@@ -259,8 +271,8 @@
    },
    {
     "partner_name": "ISB SFAX",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ISB SFAX – Sfax",
@@ -268,8 +280,8 @@
    },
    {
     "partner_name": "IHEC SOUSSE",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "IHEC SOUSSE – Sousse",
@@ -277,7 +289,7 @@
    },
    {
     "partner_name": "UNIVERSITE DE SOUSSE",
-    "partner_country": "Tunisia",
+    "partner_country": "Tunisie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -286,8 +298,8 @@
    },
    {
     "partner_name": "ECOLE SUPERIEURE DE COMMERCE DE TUNIS",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ECOLE SUPERIEURE DE COMMERCE DE TUNIS – Tunis",
@@ -295,8 +307,8 @@
    },
    {
     "partner_name": "ESPRIT SCHOOL OF BUSINESS",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ESPRIT SCHOOL OF BUSINESS – Tunis",
@@ -304,7 +316,7 @@
    },
    {
     "partner_name": "FACULTE DES SCIENCES ECONOMIQUES ET DE GESTION DE TUNIS",
-    "partner_country": "Tunisia",
+    "partner_country": "Tunisie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -313,8 +325,8 @@
    },
    {
     "partner_name": "IHE TUNIS",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "IHE TUNIS – Tunis",
@@ -322,8 +334,8 @@
    },
    {
     "partner_name": "LAW BUSINESS SCHOOL",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "LAW BUSINESS SCHOOL – Tunis",
@@ -331,8 +343,8 @@
    },
    {
     "partner_name": "MEDITERRANEAN SCHOOL OF BUSINESS",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "MEDITERRANEAN SCHOOL OF BUSINESS – Tunis",
@@ -340,8 +352,8 @@
    },
    {
     "partner_name": "TUNIS BUSINESS SCHOOL",
-    "partner_country": "Tunisia",
-    "partner_type": "school",
+    "partner_country": "Tunisie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "TUNIS BUSINESS SCHOOL – Tunis",
@@ -349,7 +361,7 @@
    },
    {
     "partner_name": "UNIVERSITE CENTRALE",
-    "partner_country": "Tunisia",
+    "partner_country": "Tunisie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -358,7 +370,7 @@
    },
    {
     "partner_name": "UNIVERSITE EUROPEENNE DE TUNIS",
-    "partner_country": "Tunisia",
+    "partner_country": "Tunisie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -367,7 +379,7 @@
    },
    {
     "partner_name": "UNIVERSITE LIBRE DE TUNIS",
-    "partner_country": "Tunisia",
+    "partner_country": "Tunisie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -376,7 +388,7 @@
    },
    {
     "partner_name": "UNIVERSITE MONTPLAISIR TUNIS",
-    "partner_country": "Tunisia",
+    "partner_country": "Tunisie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -430,7 +442,7 @@
    },
    {
     "partner_name": "Brigham Young University",
-    "partner_country": "United States",
+    "partner_country": "États-Unis",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -439,7 +451,7 @@
    },
    {
     "partner_name": "Cleveland State University",
-    "partner_country": "United States",
+    "partner_country": "États-Unis",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -448,7 +460,7 @@
    },
    {
     "partner_name": "Florida International University",
-    "partner_country": "United States",
+    "partner_country": "États-Unis",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -457,7 +469,7 @@
    },
    {
     "partner_name": "University of Kansas",
-    "partner_country": "United States",
+    "partner_country": "États-Unis",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -466,7 +478,7 @@
    },
    {
     "partner_name": "University of California",
-    "partner_country": "United States",
+    "partner_country": "États-Unis",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -475,7 +487,7 @@
    },
    {
     "partner_name": "UNIVERSITY OF CALIFORNIA – SANTA BARBARA",
-    "partner_country": "United States",
+    "partner_country": "États-Unis",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -484,7 +496,7 @@
    },
    {
     "partner_name": "Universidad de Buenos Aires",
-    "partner_country": "Argentina",
+    "partner_country": "Argentine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -493,8 +505,8 @@
    },
    {
     "partner_name": "FAAP",
-    "partner_country": "Brazil",
-    "partner_type": "school",
+    "partner_country": "Brésil",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "FAAP – São Paulo",
@@ -502,7 +514,7 @@
    },
    {
     "partner_name": "Santa Catarina State University Udesc",
-    "partner_country": "Brazil",
+    "partner_country": "Brésil",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -511,7 +523,7 @@
    },
    {
     "partner_name": "Universidad de Chile",
-    "partner_country": "Chile",
+    "partner_country": "Chili",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -520,7 +532,7 @@
    },
    {
     "partner_name": "Universidad Diego Portales",
-    "partner_country": "Chile",
+    "partner_country": "Chili",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -529,7 +541,7 @@
    },
    {
     "partner_name": "Universidad Mayor",
-    "partner_country": "Chile",
+    "partner_country": "Chili",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -538,7 +550,7 @@
    },
    {
     "partner_name": "ICESI",
-    "partner_country": "Colombia",
+    "partner_country": "Colombie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -547,7 +559,7 @@
    },
    {
     "partner_name": "Universidad del Norte",
-    "partner_country": "Colombia",
+    "partner_country": "Colombie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -556,7 +568,7 @@
    },
    {
     "partner_name": "Universidad de las Americas",
-    "partner_country": "Ecuador",
+    "partner_country": "Équateur",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -565,7 +577,7 @@
    },
    {
     "partner_name": "Universidad San Francisco de Quito",
-    "partner_country": "Ecuador",
+    "partner_country": "Équateur",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -574,7 +586,7 @@
    },
    {
     "partner_name": "Universidad de Lima",
-    "partner_country": "Peru",
+    "partner_country": "Pérou",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -583,7 +595,7 @@
    },
    {
     "partner_name": "Universidad del Pacífico",
-    "partner_country": "Peru",
+    "partner_country": "Pérou",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -592,7 +604,7 @@
    },
    {
     "partner_name": "Universidad ESAN",
-    "partner_country": "Peru",
+    "partner_country": "Pérou",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -601,7 +613,7 @@
    },
    {
     "partner_name": "Universidad San Ignacio de Loyola",
-    "partner_country": "Peru",
+    "partner_country": "Pérou",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -628,7 +640,7 @@
    },
    {
     "partner_name": "Beijing International Studies University",
-    "partner_country": "China",
+    "partner_country": "Chine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -637,7 +649,7 @@
    },
    {
     "partner_name": "CUEB",
-    "partner_country": "China",
+    "partner_country": "Chine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -646,7 +658,7 @@
    },
    {
     "partner_name": "Dalian University of Technology",
-    "partner_country": "China",
+    "partner_country": "Chine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -655,7 +667,7 @@
    },
    {
     "partner_name": "Guangdong University of Foreign Studies",
-    "partner_country": "China",
+    "partner_country": "Chine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -664,7 +676,7 @@
    },
    {
     "partner_name": "Shanghai University of International Business and Economics",
-    "partner_country": "China",
+    "partner_country": "Chine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -673,7 +685,7 @@
    },
    {
     "partner_name": "BEIJING LANGUAGE AND CULTURE UNIVERSITY",
-    "partner_country": "China",
+    "partner_country": "Chine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -682,8 +694,8 @@
    },
    {
     "partner_name": "GUANGDONG POLYTECHNIC OF SCIENCE AND TECHNOLOGY",
-    "partner_country": "China",
-    "partner_type": "school",
+    "partner_country": "Chine",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "GUANGDONG POLYTECHNIC OF SCIENCE AND TECHNOLOGY – Guangdong",
@@ -691,7 +703,7 @@
    },
    {
     "partner_name": "ZHEJIANG UNIVERSITY CITY COLLEGE",
-    "partner_country": "China",
+    "partner_country": "Chine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -700,7 +712,7 @@
    },
    {
     "partner_name": "SHANDONG AGRICULTURE AND ENGINEERING UNIVERSITY",
-    "partner_country": "China",
+    "partner_country": "Chine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -709,7 +721,7 @@
    },
    {
     "partner_name": "ZHEJIANG YUEXIU UNIVERSITY",
-    "partner_country": "China",
+    "partner_country": "Chine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -718,7 +730,7 @@
    },
    {
     "partner_name": "Seoul National University",
-    "partner_country": "South Korea",
+    "partner_country": "Corée du Sud",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -727,8 +739,8 @@
    },
    {
     "partner_name": "SolBridge",
-    "partner_country": "South Korea",
-    "partner_type": "school",
+    "partner_country": "Corée du Sud",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "SolBridge – Daejeon",
@@ -736,7 +748,7 @@
    },
    {
     "partner_name": "Caucasus University",
-    "partner_country": "Georgia",
+    "partner_country": "Géorgie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -745,8 +757,8 @@
    },
    {
     "partner_name": "IIM Ahmedabad",
-    "partner_country": "India",
-    "partner_type": "school",
+    "partner_country": "Inde",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "IIM Ahmedabad – Ahmedabad",
@@ -754,8 +766,8 @@
    },
    {
     "partner_name": "IIM Bangalore",
-    "partner_country": "India",
-    "partner_type": "school",
+    "partner_country": "Inde",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "IIM Bangalore – Bangalore",
@@ -763,8 +775,8 @@
    },
    {
     "partner_name": "IIM Bodh Gaya",
-    "partner_country": "India",
-    "partner_type": "school",
+    "partner_country": "Inde",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "IIM Bodh Gaya – Bodh Gaya",
@@ -772,8 +784,8 @@
    },
    {
     "partner_name": "IIM Indore",
-    "partner_country": "India",
-    "partner_type": "school",
+    "partner_country": "Inde",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "IIM Indore – Indore",
@@ -781,8 +793,8 @@
    },
    {
     "partner_name": "IIM Jammu",
-    "partner_country": "India",
-    "partner_type": "school",
+    "partner_country": "Inde",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "IIM Jammu – Jammu",
@@ -790,8 +802,8 @@
    },
    {
     "partner_name": "INTERNATIONAL SCHOOL OF MANAGEMENT EXCELLENCE",
-    "partner_country": "India",
-    "partner_type": "school",
+    "partner_country": "Inde",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "INTERNATIONAL SCHOOL OF MANAGEMENT EXCELLENCE – Bangalore",
@@ -799,8 +811,8 @@
    },
    {
     "partner_name": "ISBR",
-    "partner_country": "India",
-    "partner_type": "school",
+    "partner_country": "Inde",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ISBR – Bangalore",
@@ -808,8 +820,8 @@
    },
    {
     "partner_name": "Management Development Institute",
-    "partner_country": "India",
-    "partner_type": "school",
+    "partner_country": "Inde",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "Management Development Institute – Gurgaon",
@@ -817,8 +829,8 @@
    },
    {
     "partner_name": "RAMAIAH INSTITUTE OF MANAGEMENT",
-    "partner_country": "India",
-    "partner_type": "school",
+    "partner_country": "Inde",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "RAMAIAH INSTITUTE OF MANAGEMENT – Bangalore",
@@ -826,7 +838,7 @@
    },
    {
     "partner_name": "WOXSEN UNIVERSITY",
-    "partner_country": "India",
+    "partner_country": "Inde",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -835,7 +847,7 @@
    },
    {
     "partner_name": "Universitas Gadjah Mada",
-    "partner_country": "Indonesia",
+    "partner_country": "Indonésie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -844,7 +856,7 @@
    },
    {
     "partner_name": "Hiroshima University of Economics",
-    "partner_country": "Japan",
+    "partner_country": "Japon",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -853,7 +865,7 @@
    },
    {
     "partner_name": "JAPAN UNIVERSITY OF ECONOMICS",
-    "partner_country": "Japan",
+    "partner_country": "Japon",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -871,17 +883,62 @@
    },
    {
     "partner_name": "TECHNICAL SCHOOL OF INNOVATION OF AUCA",
-    "partner_country": "Kyrgyzstan",
-    "partner_type": "school",
+    "partner_country": "Kirghizstan",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "TECHNICAL SCHOOL OF INNOVATION OF AUCA – Bichkek",
     "confidence": 0.9
    },
    {
+    "partner_name": "Bahria University",
+    "partner_country": "Pakistan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
+    "evidence_quote": "Bahria University – Islamabad",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Beaconhouse National University (BNU)",
+    "partner_country": "Pakistan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
+    "evidence_quote": "Beaconhouse National University (BNU) – Lahore",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UCP – University of Central Punjab",
+    "partner_country": "Pakistan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
+    "evidence_quote": "UCP – University of Central Punjab – Lahore",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UMT – University of Management and Technology",
+    "partner_country": "Pakistan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
+    "evidence_quote": "UMT – University of Management and Technology – Lahore",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Iqra University",
+    "partner_country": "Pakistan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
+    "evidence_quote": "Iqra University – Karachi",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Moscow International Higher Business School MIRBIS",
-    "partner_country": "Russia",
-    "partner_type": "school",
+    "partner_country": "Russie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "Moscow International Higher Business School MIRBIS – Moscou",
@@ -889,7 +946,7 @@
    },
    {
     "partner_name": "Sochi State University",
-    "partner_country": "Russia",
+    "partner_country": "Russie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -898,7 +955,7 @@
    },
    {
     "partner_name": "National Central University",
-    "partner_country": "Taiwan",
+    "partner_country": "Chine, Taïwan",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -907,7 +964,7 @@
    },
    {
     "partner_name": "National Taiwan University",
-    "partner_country": "Taiwan",
+    "partner_country": "Chine, Taïwan",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -916,7 +973,7 @@
    },
    {
     "partner_name": "Yuan Ze University – College of Management",
-    "partner_country": "Taiwan",
+    "partner_country": "Chine, Taïwan",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -925,7 +982,7 @@
    },
    {
     "partner_name": "Bilkent University",
-    "partner_country": "Turkey",
+    "partner_country": "Turquie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -952,7 +1009,7 @@
    },
    {
     "partner_name": "RMIT",
-    "partner_country": "Australia",
+    "partner_country": "Australie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -961,8 +1018,8 @@
    },
    {
     "partner_name": "ICMS – International College of Management de Sydney",
-    "partner_country": "Australia",
-    "partner_type": "school",
+    "partner_country": "Australie",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "ICMS – International College of Management de Sydney",
@@ -970,7 +1027,7 @@
    },
    {
     "partner_name": "Friedrich-Alexander- Universität Erlangen-Nümberg",
-    "partner_country": "Germany",
+    "partner_country": "Allemagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -979,7 +1036,7 @@
    },
    {
     "partner_name": "Heilbronn University",
-    "partner_country": "Germany",
+    "partner_country": "Allemagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -988,7 +1045,7 @@
    },
    {
     "partner_name": "Hochschule Osnabrück",
-    "partner_country": "Germany",
+    "partner_country": "Allemagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -997,7 +1054,7 @@
    },
    {
     "partner_name": "Hochschule Pforzheim",
-    "partner_country": "Germany",
+    "partner_country": "Allemagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1006,7 +1063,7 @@
    },
    {
     "partner_name": "Otto-Friedrich-Universität Bamberg",
-    "partner_country": "Germany",
+    "partner_country": "Allemagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1015,7 +1072,7 @@
    },
    {
     "partner_name": "Universität Regensburg",
-    "partner_country": "Germany",
+    "partner_country": "Allemagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1024,7 +1081,7 @@
    },
    {
     "partner_name": "Universität Stuttgart",
-    "partner_country": "Germany",
+    "partner_country": "Allemagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1033,7 +1090,7 @@
    },
    {
     "partner_name": "Hochschule Aalen",
-    "partner_country": "Germany",
+    "partner_country": "Allemagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1042,7 +1099,7 @@
    },
    {
     "partner_name": "Hogeschool Gent",
-    "partner_country": "Belgium",
+    "partner_country": "Belgique",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1051,7 +1108,7 @@
    },
    {
     "partner_name": "NEAPOLIS UNIVERSITY",
-    "partner_country": "Cyprus",
+    "partner_country": "Chypre",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1060,7 +1117,7 @@
    },
    {
     "partner_name": "Faculty of Economics & Business, University of Zagreb",
-    "partner_country": "Croatia",
+    "partner_country": "Croatie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1069,7 +1126,7 @@
    },
    {
     "partner_name": "University of Southern Denmark",
-    "partner_country": "Denmark",
+    "partner_country": "Danemark",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1078,7 +1135,7 @@
    },
    {
     "partner_name": "Complutense de Madrid",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1087,7 +1144,7 @@
    },
    {
     "partner_name": "Escola Universitaria Mediterrani (EUM)",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1096,7 +1153,7 @@
    },
    {
     "partner_name": "Universidad de Alcalá",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1105,7 +1162,7 @@
    },
    {
     "partner_name": "Universidad de Deusto",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1114,7 +1171,7 @@
    },
    {
     "partner_name": "Universidad de Granada",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1123,7 +1180,7 @@
    },
    {
     "partner_name": "Universidad Loyola Andalucía",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1132,7 +1189,7 @@
    },
    {
     "partner_name": "Mondragon Unibertsitatea",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1141,7 +1198,7 @@
    },
    {
     "partner_name": "Universidad de Oviedo",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1150,7 +1207,7 @@
    },
    {
     "partner_name": "Universitat Ramon Llull",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1159,7 +1216,7 @@
    },
    {
     "partner_name": "Universidad Pablo de Olavide",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1168,7 +1225,7 @@
    },
    {
     "partner_name": "Universidad Rey Juan Carlos",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1177,7 +1234,7 @@
    },
    {
     "partner_name": "Universitat Rovira i Virgili",
-    "partner_country": "Spain",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1186,7 +1243,7 @@
    },
    {
     "partner_name": "Haaga-Helia University of Applied Sciences",
-    "partner_country": "Finland",
+    "partner_country": "Finlande",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1195,7 +1252,7 @@
    },
    {
     "partner_name": "South-Eastern Finland University of Applied Sciences",
-    "partner_country": "Finland",
+    "partner_country": "Finlande",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1204,7 +1261,7 @@
    },
    {
     "partner_name": "University of Jyväskylä",
-    "partner_country": "Finland",
+    "partner_country": "Finlande",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1213,8 +1270,8 @@
    },
    {
     "partner_name": "Budapest Business School",
-    "partner_country": "Hungary",
-    "partner_type": "school",
+    "partner_country": "Hongrie",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "Budapest Business School – Budapest",
@@ -1222,8 +1279,8 @@
    },
    {
     "partner_name": "Dublin Business School",
-    "partner_country": "Ireland",
-    "partner_type": "school",
+    "partner_country": "Irlande",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "Dublin Business School – Dublin",
@@ -1231,8 +1288,8 @@
    },
    {
     "partner_name": "LETTERKENNY INSTITUTE OF TECHNOLOGY",
-    "partner_country": "Ireland",
-    "partner_type": "school",
+    "partner_country": "Irlande",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
     "evidence_quote": "LETTERKENNY INSTITUTE OF TECHNOLOGY – Letterkenny",
@@ -1240,7 +1297,7 @@
    },
    {
     "partner_name": "Università degli Studi di Bergamo",
-    "partner_country": "Italy",
+    "partner_country": "Italie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1249,7 +1306,7 @@
    },
    {
     "partner_name": "Università degli Studi di Padova",
-    "partner_country": "Italy",
+    "partner_country": "Italie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1258,7 +1315,7 @@
    },
    {
     "partner_name": "Università degli studi di Pavia",
-    "partner_country": "Italy",
+    "partner_country": "Italie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1267,7 +1324,7 @@
    },
    {
     "partner_name": "Vilniaus Universitetas",
-    "partner_country": "Lithuania",
+    "partner_country": "Lithuanie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
@@ -1275,111 +1332,84 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "The Hague University of Applied Sciences",
-    "partner_country": "Netherlands",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
-    "evidence_quote": "The Hague University of Applied Sciences – The Hague",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Cracow University of Economics",
-    "partner_country": "Poland",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
-    "evidence_quote": "Cracow University of Economics – Cracovie",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Poznań University of Economics",
-    "partner_country": "Poland",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
-    "evidence_quote": "Poznań University of Economics – Poznań",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Wroclaw University of Economics and Business",
-    "partner_country": "Poland",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
-    "evidence_quote": "Wroclaw University of Economics and Business – Wroclaw",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "ENBS (European Network of Business Schools)",
+    "partner_name": "ENBS",
     "partner_country": "Europe",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/docs/Declaration_de_Politique_Erasmus.pdf",
-    "evidence_quote": "L'Ecole est membre fondateur du consortium ENBS (European Network of Business Schools), qui",
+    "evidence_quote": "de deux réseaux internationaux : ENBS et NIBES.",
     "confidence": 0.9
    },
    {
-    "partner_name": "NIBES (Network of International Business and Economics Schools)",
-    "partner_country": "Multiple",
+    "partner_name": "NIBES",
+    "partner_country": "International",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/docs/Declaration_de_Politique_Erasmus.pdf",
-    "evidence_quote": "un membre actif du réseau NIBES (Network of International Business and Economics Schools), qui",
+    "evidence_quote": "de deux réseaux internationaux : ENBS et NIBES.",
     "confidence": 0.9
    },
    {
-    "partner_name": "Hexagone",
+    "partner_name": "partenaires académiques",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/",
+    "evidence_quote": "Nos partenaires académiques et territoriaux",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "partenaires dans le monde",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/",
+    "evidence_quote": "Nos partenaires dans le monde",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "study",
+    "source_url": "https://www.clermont-sb.fr/",
+    "evidence_quote": "Erasmus+",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ESN International",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.clermont-sb.fr/erasmus-plus-ecole-de-commerce/",
+    "evidence_quote": "Les étudiants souhaitant effectuer un stage à l’étranger peuvent consulter les offres publiées sur la plateforme d’ESN International ou contacter les responsables des stages de l’École.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École Hexagone",
     "partner_country": "France",
-    "partner_type": "other",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/nos-partenaires-academiques-et-territoriaux/",
-    "evidence_quote": "Fondée en 1919, Clermont SB confirme ainsi son rôle d’acteur structurant de l’enseignement supérieur et de l’innovation sur le territoire. Cette implantation marque une nouvelle étape dans le partenariat engagé avec Hexagone, formalisé par la signature d’une convention en juin 2025.",
+    "evidence_quote": "L’École Hexagone présente sur le campus Trudaine XL",
     "confidence": 0.9
    },
    {
-    "partner_name": "JA Vichy Basket",
+    "partner_name": "Alliance Université Clermont Auvergne (UCA)",
     "partner_country": "France",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://www.clermont-sb.fr/nos-partenaires-academiques-et-territoriaux/",
-    "evidence_quote": "[Logo_JA_Vichy_Basket_-_2023]",
+    "source_url": "https://www.clermont-sb.fr/programme/bachelor-en-management-international/",
+    "evidence_quote": "Le Bachelor Management International de Clermont School of Business, une école accréditée AACSB, AMBA et EFMD Bachelor, membre de la CGE, de la CDEFM et membre associé de l’Alliance Université Clermont Auvergne (UCA), est un diplôme visé Bac +3 – Grade de Licence délivré par le ministère de l’Enseignement Supérieur, de la Recherche et de l’Espace (MESRE).",
     "confidence": 0.9
    },
    {
-    "partner_name": "R3CA",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.clermont-sb.fr/nos-partenaires-academiques-et-territoriaux/",
-    "evidence_quote": "[Logo R3CA]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "SFACO",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.clermont-sb.fr/nos-partenaires-academiques-et-territoriaux/",
-    "evidence_quote": "[Logo SFACO]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "USO Nevers",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.clermont-sb.fr/nos-partenaires-academiques-et-territoriaux/",
-    "evidence_quote": "[logo USO Nevers]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Aalen University",
-    "partner_country": "Germany",
+    "partner_name": "Gand (Belgique)",
+    "partner_country": "Belgium",
     "partner_type": "university",
     "mobility_type": "study",
-    "source_url": "https://www.clermont-sb.fr/programme/msc-master-project-management-france/",
-    "evidence_quote": "MA in International Marketing & Sales – Aalen University (Allemagne)",
+    "source_url": "https://www.clermont-sb.fr/programme/bachelor-en-management-international/",
+    "evidence_quote": "International Management : un track qui s’adresse à celles et ceux qui aiment les langues étrangères, les voyages et la découverte de nouvelles cultures, et qui souhaitent évoluer dans un environnement international tout en contribuant à des projets de portée mondiale. Il offre notamment la possibilité de vivre un Fall Semester à l’international, comprenant deux mois de cours délocalisés dans une université partenaire, parmi plusieurs destinations en Europe et au Maroc : Gand (Belgique), Kouvola",
     "confidence": 0.9
    },
    {
@@ -1392,62 +1422,80 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "ICMS – International College of Management",
-    "partner_country": "Australia",
+    "partner_name": "Shanghai Jiao Tong University",
+    "partner_country": "Chine",
     "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
-    "evidence_quote": "ICMS – International College of Management de Sydney",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Friedrich-Alexander-Universität Erlangen-Nümberg",
-    "partner_country": "Germany",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.clermont-sb.fr/les-partenaires-internationaux/",
-    "evidence_quote": "Friedrich-Alexander- Universität Erlangen-Nümberg – Nürnberg",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Alliance Université Clermont Auvergne (UCA)",
-    "partner_country": "France",
-    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.clermont-sb.fr/le-campus-clermont-sb/",
-    "evidence_quote": "Clermont School of Business est membre associé de l’Alliance Université Clermont Auvergne (UCA)",
+    "evidence_quote": "Idéalement situé à proximité de deux grandes universités chinoises : Shanghai Jiao Tong University et East China Normal University, ce campus offre aux étudiants un environnement dynamique, moderne et connecté, propice à l’apprentissage et à l’ouverture internationale.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "East China Normal University",
+    "partner_country": "Chine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/le-campus-clermont-sb/",
+    "evidence_quote": "Idéalement situé à proximité de deux grandes universités chinoises : Shanghai Jiao Tong University et East China Normal University, ce campus offre aux étudiants un environnement dynamique, moderne et connecté, propice à l’apprentissage et à l’ouverture internationale.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Beijing Language and Culture University (BLCU)",
+    "partner_country": "Chine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/le-campus-clermont-sb/",
+    "evidence_quote": "En janvier 2024, Clermont School of Business renforce sa présence internationale en ouvrant un campus en Chine, au sein des locaux de l’Université BLCU (Beijing Language and Culture University) et de la CCI France Chine. L’ouverture de cette nouvelle entité s’inscrit dans le plan stratégique REVEAL 2022-2027 de l’École.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CCI France Chine",
+    "partner_country": "Chine",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/le-campus-clermont-sb/",
+    "evidence_quote": "En janvier 2024, Clermont School of Business renforce sa présence internationale en ouvrant un campus en Chine, au sein des locaux de l’Université BLCU (Beijing Language and Culture University) et de la CCI France Chine. L’ouverture de cette nouvelle entité s’inscrit dans le plan stratégique REVEAL 2022-2027 de l’École.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Harvard Business School",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.clermont-sb.fr/le-campus-clermont-sb/",
+    "evidence_quote": "Ce campus permet ainsi aux étudiants du Campus clermontois d’effectuer un semestre à Pékin (suivant leur programme). Ce dernier favorise également les échanges et travaux communs entre les professeurs de Clermont School of Business et de la BLCU, une université chinoise d’envergure, résolument tournée vers l’international qui détient plus de 386 partenariats avec d’autres universités dont la prestigieuse Harvard Business School.",
     "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Clermont-Ferrand (Campus Trudaine XL)",
+    "campus_name": "Campus Clermont",
     "city": "Clermont-Ferrand",
     "country": "France",
     "role": "main",
-    "source_url": "https://www.clermont-sb.fr/",
-    "evidence_quote": "63000 Clermont-Ferrand"
+    "source_url": "https://www.clermont-sb.fr/le-campus-clermont-sb/",
+    "evidence_quote": "Campus Clermont, en France"
    },
    {
-    "campus_name": "Shanghai Campus",
+    "campus_name": "Campus Shanghai",
     "city": "Shanghai",
-    "country": "China",
+    "country": "Chine",
     "role": "international",
     "source_url": "https://www.clermont-sb.fr/le-campus-clermont-sb/",
     "evidence_quote": "Campus Shanghai, en Chine"
    },
    {
-    "campus_name": "Beijing Campus",
-    "city": "Beijing",
-    "country": "China",
+    "campus_name": "Campus Pékin",
+    "city": "Pékin",
+    "country": "Chine",
     "role": "international",
     "source_url": "https://www.clermont-sb.fr/le-campus-clermont-sb/",
     "evidence_quote": "Campus Pékin, en Chine"
    },
    {
-    "campus_name": "Marrakech Campus",
+    "campus_name": "Campus Marrakech",
     "city": "Marrakech",
-    "country": "Morocco",
+    "country": "Maroc",
     "role": "international",
     "source_url": "https://www.clermont-sb.fr/le-campus-clermont-sb/",
     "evidence_quote": "Campus Marrakech, au Maroc"
@@ -1459,27 +1507,28 @@
   "truncated": false,
   "total_seen": 115,
   "pages_read": 10,
-  "coverage_note": "The evidence does not identify specific individuals with contact details (name, email, phone) in International Relations roles beyond Audrey Esteves, who is listed on file but does not appear in the website evidence. The evidence documents extensive Erasmus+ procedures and over 100 partner institutions but does not provide a detailed contact list with email addresses and phone numbers for Erasmus coordinators or international relations staff. A full current staff directory with direct contact information for mobility coordinators is not included in the provided pages.\"",
+  "coverage_note": "The evidence provides a comprehensive list of international partners and campus locations. While specific contact emails for the International Relations Office are not explicitly listed, the institution provides general contact procedures for mobility.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.1,
-  "crawl_s": 14.4,
+  "discover_s": 0.0,
+  "crawl_s": 18.7,
   "ai_calls": 10,
   "partner_calls": 9,
   "cost_usd_estimate": 0.0,
-  "model_s": 105.4,
+  "model_s": 33.0,
   "mode": "gemini",
-  "reader": "claude-haiku-4-5",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
@@ -1494,59 +1543,58 @@
      281,
      420
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 2,
+    "accepted": 2
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 4,
+    "accepted": 2
    },
    {
     "lines": [
      701,
      840
     ],
-    "returned": 6,
-    "accepted": 6
+    "returned": 8,
+    "accepted": 8
    },
    {
     "lines": [
      841,
      980
     ],
-    "returned": 95,
-    "accepted": 95
+    "returned": 106,
+    "accepted": 106
    },
    {
     "lines": [
      981,
      1120
     ],
-    "returned": 50,
-    "accepted": 50
+    "returned": 40,
+    "accepted": 40
    },
    {
     "lines": [
      1121,
-     1251
+     1225
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    }
   ],
-  "total_seconds": 121.9
- },
- "rechecked": true
+  "total_seconds": 53.0
+ }
 }
