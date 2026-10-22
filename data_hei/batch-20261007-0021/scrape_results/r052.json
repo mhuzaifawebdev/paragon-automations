@@ -1,16 +1,12 @@
 {
  "row_id": "r052",
- "scraped_at": "2026-10-22T11:06:00Z",
+ "scraped_at": "2026-10-22T13:12:15Z",
  "contacts": {
   "row_id": "r052",
   "institution_name": "WROCLAWSKA AKADEMIA BIZNESU W NAUKACH STOSOWANYCH",
   "institution_type": "university",
   "official_website": "https://wab.edu.pl/",
-  "country": {
-   "value": "Poland",
-   "source_url": "https://akademiata.pl/kontakt/#cct-wroclaw",
-   "evidence_quote": "[Polska - Logo]"
-  },
+  "country": null,
   "phone": {
    "value": "+48 71 333 11 15",
    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/",
@@ -19,14 +15,35 @@
   "phone_alt": [],
   "generic_email": "erasmus@wab.edu.pl",
   "generic_email_url": "https://wab.edu.pl/dla-studenta/erasmus/",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "dr Magdalena Łazorczyk-Szkudlarska",
+   "designation": "Dean of the WAB Faculty",
+   "designation_local": "",
+   "email": "magdalena.lazorczyk-szkudlarska@akademiata.pl",
+   "office_email": "",
+   "phone": "+48 71 333 11 20",
+   "source_url": "https://akademiata.pl/kontakt/#cct-wroclaw",
+   "evidence_quote": "Dziekan Wydziału WAB ... dr Magdalena Łazorczyk-Szkudlarska"
+  },
+  "alternates": [
+   {
+    "name": "dr Agnieszka Faron",
+    "designation": "Vice-Dean for Student Affairs",
+    "designation_local": "",
+    "email": "agnieszka.faron@akademiata.pl",
+    "office_email": "",
+    "phone": "+48 71 333 11 46",
+    "source_url": "https://akademiata.pl/kontakt/#cct-wroclaw",
+    "evidence_quote": "Prodziekan ds. Studenckich ... dr Agnieszka Faron, prof. ATA",
+    "why_chosen": "Other role. Dr Agnieszka Faron serves as the Vice-Dean for Student Affairs."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Dr Magdalena Łazorczyk-Szkudlarska is the Dean of the WAB Faculty.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.6,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini. 1 page(s) could not be read."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -854,12 +871,15 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 7.9,
-  "ai_calls": 8,
+  "crawl_s": 7.4,
+  "ai_calls": 9,
   "partner_calls": 7,
   "cost_usd_estimate": 0.0,
-  "model_s": 67.4,
+  "model_s": 11.5,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -874,8 +894,8 @@
      141,
      280
     ],
-    "returned": 32,
-    "accepted": 9
+    "returned": 5,
+    "accepted": 5
    },
    {
     "lines": [
@@ -918,7 +938,6 @@
     "accepted": 0
    }
   ],
-  "total_seconds": 75.4
- },
- "rechecked": 2
+  "total_seconds": 22.5
+ }
 }
