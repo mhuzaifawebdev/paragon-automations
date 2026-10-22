@@ -1,6 +1,6 @@
 {
  "row_id": "r571",
- "scraped_at": "2026-10-12T06:23:10Z",
+ "scraped_at": "2026-10-22T14:01:26Z",
  "contacts": {
   "row_id": "r571",
   "institution_name": "Conservatorio di Musica G.B.Martini",
@@ -13,17 +13,25 @@
    "evidence_quote": "Telefono: 051 221483 <tel +39051%20221483>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read.",
   "generic_email": "erasmus@consbo.it",
   "generic_email_url": "https://consbo.it/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Aurelio Zarrelli",
+   "designation": "Erasmus+ Project Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://consbo.it/wp-content/uploads/2026/06/6050-2026_Bando_mobilita_docenti-e-staff-progetto-25-27-sportello.pdf",
+   "evidence_quote": "procedimento è il Coordinatore del Progetto Erasmus+ ... M° Aurelio Zarrelli"
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. Aurelio Zarrelli is the designated Erasmus+ Project Coordinator responsible for the mobility procedures.",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -667,45 +675,70 @@
     "confidence": 0.9
    }
   ],
-  "internal_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Conservatorio di Musica G.B. Martini",
+    "city": "Bologna",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://consbo.it/",
+    "evidence_quote": "Via Guerrazzi, 13"
+   }
+  ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
   "total_seen": 71,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of partner institutes, but does not explicitly list the institution's own campus locations beyond the address in Bologna. 1 page(s) could not be read.",
+  "coverage_note": "The evidence provides a comprehensive list of partner institutes in Europe and beyond. No other campuses are mentioned. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.6,
-  "crawl_s": 17.2,
-  "ai_calls": 3,
-  "partner_calls": 2,
+  "discover_s": 0.0,
+  "crawl_s": 38.5,
+  "ai_calls": 5,
+  "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 14.4,
+  "model_s": 15.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.3,
   "slices": [
    {
     "lines": [
-     841,
-     980
+     701,
+     840
     ],
-    "returned": 39,
-    "accepted": 39
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
      981,
-     1087
+     1120
     ],
-    "returned": 32,
-    "accepted": 32
+    "returned": 9,
+    "accepted": 9
+   },
+   {
+    "lines": [
+     1121,
+     1260
+    ],
+    "returned": 43,
+    "accepted": 43
+   },
+   {
+    "lines": [
+     1261,
+     1327
+    ],
+    "returned": 19,
+    "accepted": 19
    }
   ],
-  "total_seconds": 35.2
- },
- "rechecked": true
+  "total_seconds": 56.4
+ }
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r591",
- "scraped_at": "2026-10-12T06:26:12Z",
+ "scraped_at": "2026-10-22T14:01:25Z",
  "contacts": {
   "row_id": "r591",
   "institution_name": "LYCEE GENERAL ET TECHNOLOGIQUE VICTOR HUGO",
@@ -9,17 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 1,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Mercedes Nadal",
+   "designation": "Project lead",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lycee-victorhugo-poitiers.fr/",
+   "evidence_quote": "Mercedes Nadal Objectif : la réalisation d’un film documentaire court retraçant le parcoursd’une personnalité représentative de la diversité culturelle en Nouvelle-Aquitaine.Tous l..."
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Mercedes Nadal is identified as leading a documentary film project at the institution.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -55,7 +63,7 @@
    {
     "campus_name": "Lycée Général et Technologique Victor Hugo",
     "city": "Poitiers",
-    "country": "France",
+    "country": "FRANCE",
     "role": "main",
     "source_url": "https://lycee-victorhugo-poitiers.fr/",
     "evidence_quote": "Fort de son assise historique et de sa situation géographique privilégiée au cœur du centre ville de Poitiers, le lycée Général et Technologique Victor Hugo est doté d’une structure pédagogique complète et unique qui s’est encore étoffée et renouvelée ces dernières années."
@@ -67,19 +75,21 @@
   "truncated": false,
   "total_seen": 3,
   "pages_read": 1,
-  "coverage_note": "The evidence does not list any specific staff members or international partners. The contact Frédéric Couturier mentioned in the prompt was not found in the provided text.",
+  "coverage_note": "The website does not list any specific staff members or international mobility coordinators. No partner list or Erasmus+ project details are provided in the evidence.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.6,
-  "crawl_s": 5.9,
-  "ai_calls": 2,
+  "discover_s": 0.0,
+  "crawl_s": 5.8,
+  "ai_calls": 3,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.1,
+  "model_s": 4.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 2.3,
   "slices": [
    {
     "lines": [
@@ -90,7 +100,6 @@
     "accepted": 3
    }
   ],
-  "total_seconds": 11.6
- },
- "rechecked": true
+  "total_seconds": 13.9
+ }
 }

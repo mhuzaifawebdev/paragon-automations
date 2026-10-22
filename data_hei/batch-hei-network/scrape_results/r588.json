@@ -1,6 +1,6 @@
 {
  "row_id": "r588",
- "scraped_at": "2026-10-12T06:26:00Z",
+ "scraped_at": "2026-10-22T14:01:27Z",
  "contacts": {
   "row_id": "r588",
   "institution_name": "Fakulteta za industrijski inzeniring Novo mesto",
@@ -17,6 +17,8 @@
    "evidence_quote": "07/39 32 206"
   },
   "phone_alt": [],
+  "generic_email": "erasmus@fini-unm.si",
+  "generic_email_url": "https://www.fini-unm.si/mednarodno-sodelovanje/erasmus/",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -24,10 +26,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 8,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read.",
-  "generic_email": "erasmus@fini-unm.si",
-  "generic_email_url": "https://www.fini-unm.si/mednarodno-sodelovanje/erasmus/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -165,6 +164,33 @@
     "source_url": "https://www.fini-unm.si/mednarodno-sodelovanje/",
     "evidence_quote": "University of Dunaújváros (Madžarska)",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "Javni sklad RS za razvoj kadrov in štipendij",
+    "partner_country": "Slovenia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fini-unm.si/mednarodno-sodelovanje/mobilnost-studentov/stipendije/",
+    "evidence_quote": "Javni sklad RS za razvoj kadrov in štipendij izvaja različne programe štipendiranje. Več informacij na: http://www.sklad-kadri.si/si/stipendije/",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fini-unm.si/mednarodno-sodelovanje/mobilnost-studentov/stipendije/",
+    "evidence_quote": "Štipendije za študijske obiske študentov v okviru programa Erasmus+. Na javnem razpisu lahko sredstva pridobijo višješolske oziroma visokošolske izobraževalne ustanove v Republiki Sloveniji ali Erasmus konzorcij za prakse oz. študij, ki bodo pridobljena sredstva v obliki Erasmus štipendije izplačali svojim študentom, ki odhajajo na program Erasmus mobilnost.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ministrstvo za delo, družino, socialne zadeve in enake možnosti",
+    "partner_country": "Slovenia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fini-unm.si/mednarodno-sodelovanje/mobilnost-studentov/stipendije/",
+    "evidence_quote": "Ministrstvo za delo, družino, socialne zadeve in enake možnosti – razpisane državne, kadrovske in zoisove štipendije.",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
@@ -181,32 +207,41 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 15,
+  "total_seen": 18,
   "pages_read": 8,
-  "coverage_note": "The evidence provides a list of partner universities but does not state a total number of agreements. No specific international relations head or institutional Erasmus coordinator is named, only an internship coordinator and a general email address. 2 page(s) could not be read.",
+  "coverage_note": "The institution provides a list of partner universities, but no specific contact person for the international office is named, only a general email address. 2 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.7,
-  "crawl_s": 15.8,
-  "ai_calls": 2,
-  "partner_calls": 1,
+  "discover_s": 0.0,
+  "crawl_s": 18.6,
+  "ai_calls": 4,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.5,
+  "model_s": 8.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
-     421,
-     455
+     281,
+     420
     ],
     "returned": 15,
     "accepted": 15
+   },
+   {
+    "lines": [
+     421,
+     483
+    ],
+    "returned": 3,
+    "accepted": 3
    }
   ],
-  "total_seconds": 24.0
+  "total_seconds": 28.0
  },
  "rechecked": true
 }

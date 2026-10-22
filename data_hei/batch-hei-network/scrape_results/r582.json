@@ -1,6 +1,6 @@
 {
  "row_id": "r582",
- "scraped_at": "2026-10-12T06:25:35Z",
+ "scraped_at": "2026-10-22T14:01:11Z",
  "contacts": {
   "row_id": "r582",
   "institution_name": "LYCEE GENERAL TECHNO ALAIN RENE LESAGE",
@@ -13,6 +13,8 @@
    "evidence_quote": "Tél : 02.97.46.61.10 <tel 0297466110>"
   },
   "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,16 +22,13 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "lycée Emile ZOLA d’HENNEBONT",
-    "partner_country": "France",
+    "partner_country": "FRANCE",
     "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://lycee-lesage.fr/formations/bts-cybersecurite-informatique-et-reseaux-electronique/",
@@ -38,7 +37,7 @@
    },
    {
     "partner_name": "Lycée Ampère JOSSELIN",
-    "partner_country": "France",
+    "partner_country": "FRANCE",
     "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://lycee-lesage.fr/formations/bts-cybersecurite-informatique-et-reseaux-electronique/",
@@ -46,7 +45,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Region Bretagne",
+    "partner_name": "Region bretagne",
     "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
@@ -55,7 +54,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Consulat des USA pour le grand ouest",
+    "partner_name": "consulat des usa pour le grand ouest",
     "partner_country": "USA",
     "partner_type": "other",
     "mobility_type": "unknown",
@@ -64,12 +63,30 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "GRETA",
+    "partner_name": "greta",
     "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://lycee-lesage.fr/",
     "evidence_quote": "[greta]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "erasmus",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-lesage.fr/",
+    "evidence_quote": "[erasmus]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "euroscol",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-lesage.fr/",
+    "evidence_quote": "[euroscol-logo]",
     "confidence": 0.9
    },
    {
@@ -102,7 +119,7 @@
    {
     "partner_name": "La Trousse à projets",
     "partner_country": "France",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://lycee-lesage.fr/lycee-lesage-vannes/nos-partenaires/",
     "evidence_quote": "La Trousse à projets est la plateforme de financement participatif de l’Education nationale.",
@@ -111,52 +128,53 @@
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Lycée Alain René LESAGE",
+    "campus_name": "Lycée Alain René Lesage",
     "city": "Vannes",
-    "country": "France",
+    "country": "FRANCE",
     "role": "main",
     "source_url": "https://lycee-lesage.fr/",
-    "evidence_quote": "Lycée Alain René LESAGE Vannes"
+    "evidence_quote": "20 Rue Winston Churchill"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 9,
+  "total_seen": 11,
   "pages_read": 10,
-  "coverage_note": "The evidence does not provide a list of international Erasmus+ partners. No specific contact person for international mobility is named in the provided text.",
+  "coverage_note": "The institution does not list specific Erasmus+ partner universities or organizations on its website. No contact persons with specific roles related to international mobility are named in the provided evidence.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.7,
-  "crawl_s": 20.5,
-  "ai_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 26.7,
+  "ai_calls": 4,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 18.9,
+  "model_s": 3.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 7,
+    "accepted": 7
    },
    {
     "lines": [
      141,
-     237
+     236
     ],
-    "returned": 7,
-    "accepted": 7
+    "returned": 5,
+    "accepted": 5
    }
   ],
-  "total_seconds": 43.1
+  "total_seconds": 31.2
  },
  "rechecked": true
 }

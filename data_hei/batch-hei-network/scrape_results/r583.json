@@ -1,10 +1,10 @@
 {
  "row_id": "r583",
- "scraped_at": "2026-10-12T06:25:35Z",
+ "scraped_at": "2026-10-22T14:01:18Z",
  "contacts": {
   "row_id": "r583",
   "institution_name": "ESCOLA SUPERIOR NAUTICA INFANTE D.HENRIQUE",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.enautica.pt/",
   "country": {
    "value": "Portugal",
@@ -17,17 +17,25 @@
    "evidence_quote": "Tel.:214 460 010"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 7,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 6 page(s) could not be read.",
   "generic_email": "international@enautica.pt",
   "generic_email_url": "https://www.enautica.pt/pt/erasmus--224/incoming-students--staff-71/incoming-students--staff-81",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Ana Luísa Teixeira",
+   "designation": "Erasmus Coordinator",
+   "designation_local": "",
+   "email": "anateixeira@enautica.pt",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.enautica.pt/pt/erasmus--224/international-relations-office--contacts-73/international-relations-office--contacts-83",
+   "evidence_quote": "Erasmus Coordinator ... Ana Luísa Teixeira"
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. She is explicitly identified as the Erasmus Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 6 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -98,33 +106,33 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.8,
-  "crawl_s": 13.0,
+  "discover_s": 0.0,
+  "crawl_s": 15.9,
   "ai_calls": 3,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 26.5,
+  "model_s": 2.8,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      141,
      280
     ],
-    "returned": 5,
-    "accepted": 5
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      281,
-     420
+     392
     ],
     "returned": 0,
     "accepted": 0
    }
   ],
-  "total_seconds": 43.4
- },
- "rechecked": true
+  "total_seconds": 18.7
+ }
 }
