@@ -1,6 +1,6 @@
 {
  "row_id": "r341",
- "scraped_at": "2026-10-12T05:37:26Z",
+ "scraped_at": "2026-10-22T13:51:51Z",
  "contacts": {
   "row_id": "r341",
   "institution_name": "Ecole nationale supérieure d'architecture et de paysage de Bordeaux",
@@ -17,43 +17,63 @@
    "evidence_quote": "T 33 (0)5 57 35 11 24"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "international@bordeaux.archi.fr",
+  "generic_email_url": "https://www.bordeaux.archi.fr/mobilites-erasmus/",
+  "contact": {
+   "name": "Fabien Ansel",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/2026/03/organigramme-administratif_03_2026.pdf",
+   "evidence_quote": "DIRECTEUR : ... Fabien Ansel"
+  },
+  "alternates": [
+   {
+    "name": "Léa Noé",
+    "designation": "Partnerships manager",
+    "designation_local": "",
+    "email": "lea.noe@bordeaux.archi.fr",
+    "office_email": "",
+    "phone": "33 (0)5 57 35 11 54",
+    "source_url": "https://www.bordeaux.archi.fr/nos-partenaires/",
+    "evidence_quote": "Léa Noé ... Chargée des partenariats",
+    "why_chosen": "Other role. She is the designated manager for institutional partnerships."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the director of the institution.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "Ecole d’architecture de San Sebastian",
-    "partner_country": "Espagne",
+    "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "• Ecole d’architecture de San Sebastian en Espagne : l’ENSAPBx a réalisé de nombreux échanges",
     "confidence": 0.9
    },
    {
     "partner_name": "Université de Santiago du Chili",
-    "partner_country": "Chili",
+    "partner_country": "Chile",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "• Universités de Santiago du Chili et de Rosario en Argentine : un workshop annuel se tient",
     "confidence": 0.9
    },
    {
     "partner_name": "Université de Rosario",
-    "partner_country": "Argentine",
+    "partner_country": "Argentina",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "• Universités de Santiago du Chili et de Rosario en Argentine : un workshop annuel se tient",
     "confidence": 0.9
@@ -62,72 +82,216 @@
     "partner_name": "Université de Hanoï",
     "partner_country": "Vietnam",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "• Université de Hanoï au Vietnam : l’ENSAPBx est membre d’un c onsortium avec les écoles",
     "confidence": 0.9
    },
    {
-    "partner_name": "Université Kasetsart",
-    "partner_country": "Thaïlande",
+    "partner_name": "École d’architecture de Rouen",
+    "partner_country": "France",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
+    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
+    "evidence_quote": "d’architecture de Rouen, Toulouse et Paris -Belleville proposant un diplôme d’architecte",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École d’architecture de Toulouse",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
+    "evidence_quote": "d’architecture de Rouen, Toulouse et Paris -Belleville proposant un diplôme d’architecte",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École d’architecture de Paris-Belleville",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
+    "evidence_quote": "d’architecture de Rouen, Toulouse et Paris -Belleville proposant un diplôme d’architecte",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université Kasetsart",
+    "partner_country": "Thailand",
+    "partner_type": "university",
+    "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "• Université Kasetsart de Bangkok en Thaïlande : des échanges pédagogiques, mobilités et",
     "confidence": 0.9
    },
    {
     "partner_name": "Ecole Supérieure Spéciale d’architecture du Cameroun",
-    "partner_country": "Cameroun",
+    "partner_country": "Cameroon",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "• Ecole Supérieure Spéciale d’architecture du Cameroun : avec cet te école privée créée il y a 5",
     "confidence": 0.9
    },
    {
     "partner_name": "Université de Tianjin",
-    "partner_country": "Chine",
+    "partner_country": "China",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "• Université de Tianjin en Chine : la collaboration vise à développer une formation au paysage",
     "confidence": 0.9
    },
    {
     "partner_name": "Université Jawaharlal Nehru d’Architecture et des Beaux-Arts d’Hyderabad",
-    "partner_country": "Inde",
+    "partner_country": "India",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "• Université Jawaharlal Nehru d’Architecture et des Beaux -Arts d’Hyderabad en Inde : un accord",
     "confidence": 0.9
    },
    {
-    "partner_name": "Université de Bucarest",
-    "partner_country": "Roumanie",
+    "partner_name": "Université Bordeaux-Montaigne",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
+    "evidence_quote": "Un partenariat l’Université de Bordeaux et l’Université Bordeaux -Montaigne a également permis",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université de Bucarest",
+    "partner_country": "Romania",
+    "partner_type": "university",
+    "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "soutenues dans le cadre de conventions de cotutelle signées avec les universités de Bucarest et de",
     "confidence": 0.9
    },
    {
     "partner_name": "Université de Curitiba",
-    "partner_country": "Brésil",
+    "partner_country": "Brazil",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "Milan. 2 conventions de cotutelle sont en cours avec l’université de Curitiba au Brésil et l’Université de",
     "confidence": 0.9
    },
    {
-    "partner_name": "Erasmus +",
+    "partner_name": "Université de Turin",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
+    "evidence_quote": "Turin.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AEEA (Association des écoles européennes d’architecture)",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
+    "evidence_quote": "L’ENSAPBx a organisé en septembre 2017 la 40 ème conférence de l’AEEA (Association des écoles",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "REA (réseau des écoles françaises et francophones des pays d’Europe centrale et orientale)",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
+    "evidence_quote": "L’ENSAPBx est membre actif du REA : réseau des écoles françaises et francophones des pays d’Europe",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IFoU (International Forum on Urbanism)",
+    "partner_country": "International",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
+    "evidence_quote": "Depuis octobre 2017 l’ENSAPBx fait partie de l’IFoU (International Forum on Urbanism), Ce réseau",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pays et Quartiers de Nouvelle-Aquitaine",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/",
+    "evidence_quote": "Pays et Quartiers de Nouvelle-Aquitaine",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Parc Naturel Régional du Haut-jura",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/",
+    "evidence_quote": "Parc Naturel Régional du Haut-jura",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Parc naturel régional du Gâtinais français",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/",
+    "evidence_quote": "Parc naturel régional du Gâtinais français",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MOSAÏC",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/",
+    "evidence_quote": "MOSAÏC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ZONE UP PAYSAGE",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/",
+    "evidence_quote": "ZONE UP PAYSAGE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "A+R Paysages",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/",
+    "evidence_quote": "A+R Paysages",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Google Maps",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/",
+    "evidence_quote": "Itinéraire (Google Maps)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Confernce des grandes écoles",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bordeaux.archi.fr/",
+    "evidence_quote": "[Confernce des grandes écoles logo]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Eduroam",
     "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/mobilites-erasmus/",
-    "evidence_quote": "En Europe, l’ENSAP Bordeaux participe au programme Erasmus + avec une vingtaine de pays.",
+    "source_url": "https://www.bordeaux.archi.fr/",
+    "evidence_quote": "[Eduroam logo]",
     "confidence": 0.9
    },
    {
@@ -149,12 +313,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Université Kasetsart de Bangkok",
-    "partner_country": "Thailand",
-    "partner_type": "university",
+    "partner_name": "département d’enseignement du français langue étrangère (DEFLE)",
+    "partner_country": "France",
+    "partner_type": "other",
     "mobility_type": "study",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
-    "evidence_quote": "• Université Kasetsart de Bangkok en Thaïlande : des échanges pédagogiques, mobilités et",
+    "evidence_quote": "avec le département d’enseignement du français langue étrangère (DEFLE) permet de",
     "confidence": 0.9
    },
    {
@@ -167,39 +331,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Université Bordeaux-Montaigne",
-    "partner_country": "France",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
-    "evidence_quote": "Un partenariat l’Université de Bordeaux et l’Université Bordeaux -Montaigne a également permis",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "universités de Bucarest",
     "partner_country": "Roumanie",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "soutenues dans le cadre de conventions de cotutelle signées avec les universités de Bucarest et de",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Milan",
-    "partner_country": "Italie",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
-    "evidence_quote": "Milan. 2 conventions de cotutelle sont en cours avec l’université de Curitiba au Brésil et l’Université de",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Université de Turin",
-    "partner_country": "Italie",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
-    "evidence_quote": "Turin.",
     "confidence": 0.9
    },
    {
@@ -239,48 +376,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "universités de Bordeaux",
-    "partner_country": "France",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
-    "evidence_quote": "Bordeaux a mises en place avec les universités de Bordeaux et de Bordeaux Montaigne.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Bordeaux Montaigne",
-    "partner_country": "France",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
-    "evidence_quote": "Bordeaux a mises en place avec les universités de Bordeaux et de Bordeaux Montaigne.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "AEEA (Association des écoles européennes d’architecture)",
-    "partner_country": "Europe",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
-    "evidence_quote": "L’ENSAPBx a organisé en septembre 2017 la 40 ème conférence de l’AEEA (Association des écoles",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "REA",
     "partner_country": "Europe",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "L’ENSAPBx est membre actif du REA : réseau des écoles françaises et francophones des pays d’Europe",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "IFoU (International Forum on Urbanism)",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
-    "evidence_quote": "Depuis octobre 2017 l’ENSAPBx fait partie de l’IFoU (International Forum on Urbanism), Ce réseau",
     "confidence": 0.9
    },
    {
@@ -302,15 +403,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Campus France Mexique",
-    "partner_country": "Mexique",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
-    "evidence_quote": "d’art et d’architecture» au Mexique organisé par Campus France Mexique.",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Conseil Régional de Nouvelle Aquitaine",
     "partner_country": "France",
     "partner_type": "other",
@@ -326,24 +418,6 @@
     "mobility_type": "unknown",
     "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/dmdocuments/Declaration_de_politique_erasmus_strategie_internationale.pdf",
     "evidence_quote": "collaborations avec le Conseil Régional de Nouvelle Aquitaine et le Ministère de la Culture (ministère",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "ENSA",
-    "partner_country": "France",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/nos-partenaires/",
-    "evidence_quote": "L’ENSAP Bordeaux participe pleinement à l’animation et à la collaboration au réseau des vingt ENSA et des quatre écoles nationales supérieures de paysage",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "écoles nationales supérieures de paysage",
-    "partner_country": "France",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/nos-partenaires/",
-    "evidence_quote": "L’ENSAP Bordeaux participe pleinement à l’animation et à la collaboration au réseau des vingt ENSA et des quatre écoles nationales supérieures de paysage",
     "confidence": 0.9
    },
    {
@@ -482,15 +556,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Bureau des Sports",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/nos-partenaires/",
-    "evidence_quote": "308 – Maison de l’Architecture en Nouvelle-Aquitaine – Agora – Pôle national cirque Boulazac Aquitaine – Association Campus régional du patrimoine bâti – de la restauration à l’écoconstruction – Association Les Events – A’URBA – Agence d’urbanisme Bordeaux métropole Aquitaine – Bureau des Etudiants – Bureau des Sports – ENSAP Bordeaux – C.A.C.I.S. Centre d’Accueil Consultation Information Sexualité – CASC – Comité d’Action Sociale et Culturelle – CAUE de la Gironde – CEGAPE – City Résidence Bord",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "C.A.C.I.S. Centre d’Accueil Consultation Information Sexualité",
     "partner_country": "France",
     "partner_type": "other",
@@ -527,7 +592,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "City Résidence Bordeaux",
+    "partner_name": "City Résidence Bord",
     "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
@@ -590,15 +655,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "CCBHAP",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.bordeaux.archi.fr/nos-partenaires/",
-    "evidence_quote": "308-Maison de l’architecture en Nouvelle-Aquitaine – Lycée JEAN HYPPOLITE de JONZAC – PAVE – ADERA – Archimuse – A’URBA – Bordeaux Metropole – Bordeaux Sotheby’s International Realty – Centre international d’études pédagogiques (CIEP) – CNRS – Communauté de Communes des Bastides en Haut Agenais Périgord – CCBHAP – Communauté de communes Val de Gers – Communauté d’universités et établissements d’Aquitaine (ComUE d’Aquitaine) – CROUS Bordeaux – DRAC Nouvellle-Aquitaine – École Nationale Supérieure",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Communauté de communes Val de Gers",
     "partner_country": "France",
     "partner_type": "other",
@@ -642,7 +698,7 @@
     "country": "France",
     "role": "main",
     "source_url": "https://www.bordeaux.archi.fr/",
-    "evidence_quote": "33405 Talence France"
+    "evidence_quote": "740 Cours de la Libération"
    }
   ],
   "stated_total": 337,
@@ -651,46 +707,46 @@
   "truncated": true,
   "total_seen": 337,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of specific international partners and mentions a total of approximately 50 established conventions, but does not provide a comprehensive list of all Erasmus+ partner institutions.",
+  "coverage_note": "The evidence provides a list of specific international partners and networks, but does not contain a comprehensive list of all Erasmus+ partner institutions.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 14.3,
+  "discover_s": 0.0,
+  "crawl_s": 16.4,
   "ai_calls": 4,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 11.7,
+  "model_s": 10.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 2,
-    "accepted": 1
+    "returned": 9,
+    "accepted": 9
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 18,
-    "accepted": 11
+    "returned": 19,
+    "accepted": 15
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 56,
-    "accepted": 55
+    "returned": 50,
+    "accepted": 48
    }
   ],
-  "total_seconds": 28.3
- },
- "rechecked": true
+  "total_seconds": 27.8
+ }
 }

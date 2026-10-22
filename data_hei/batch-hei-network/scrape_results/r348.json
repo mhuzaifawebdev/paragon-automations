@@ -1,6 +1,6 @@
 {
  "row_id": "r348",
- "scraped_at": "2026-10-12T05:38:22Z",
+ "scraped_at": "2026-10-22T13:52:25Z",
  "contacts": {
   "row_id": "r348",
   "institution_name": "INSTITUT PAUL BOCUSE ECOLE DE MANAGEMENT",
@@ -13,6 +13,8 @@
   },
   "phone": null,
   "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,10 +22,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -228,7 +227,7 @@
    {
     "partner_name": "DUSIT Thani College Hospitality Management, Bangkok",
     "partner_country": "Thailand",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
     "evidence_quote": "DUSIT Thani College Hospitality Management, Bangkok",
@@ -300,7 +299,7 @@
    {
     "partner_name": "Institute of Technical Education",
     "partner_country": "Singapore",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
     "evidence_quote": "Institute of Technical Education",
@@ -345,7 +344,7 @@
    {
     "partner_name": "AAUC, Ammon Apply University College, Ammon",
     "partner_country": "Jordania",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
     "evidence_quote": "AAUC, Ammon Apply University College, Ammon",
@@ -426,7 +425,7 @@
    {
     "partner_name": "Šv. Ignaco Lojolos Kolegija, Kaunas",
     "partner_country": "Lituania",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
     "evidence_quote": "Šv. Ignaco Lojolos Kolegija, Kaunas",
@@ -444,7 +443,7 @@
    {
     "partner_name": "CAST – The Italian Institute of Culinary Arts and Hospitality",
     "partner_country": "Italy",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
     "evidence_quote": "CAST – The Italian Institute of Culinary Arts and Hospitality",
@@ -489,7 +488,7 @@
    {
     "partner_name": "Le Monde, Athens",
     "partner_country": "Greece",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
     "evidence_quote": "Le Monde, Athens",
@@ -507,7 +506,7 @@
    {
     "partner_name": "Instituto Politecnico Internacional – UPI, San José",
     "partner_country": "Costa Rica",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
     "evidence_quote": "Instituto Politecnico Internacional – UPI, San José",
@@ -541,9 +540,45 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "CGE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/",
+    "evidence_quote": "[logo CGE]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CEFDG",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/",
+    "evidence_quote": "[logo CEFDG]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ICE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/",
+    "evidence_quote": "[logo ICE]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CFET",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/",
+    "evidence_quote": "[logo CFET]",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "AACSB",
     "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/",
     "evidence_quote": "[logo AACSB]",
@@ -552,19 +587,37 @@
    {
     "partner_name": "EFMD",
     "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/",
     "evidence_quote": "[logo EFMD]",
     "confidence": 0.9
    },
    {
-    "partner_name": "Alliance network",
+    "partner_name": "THTS",
     "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://en.institutlyfe.com/international/the-alliance/",
-    "evidence_quote": "Alliance network is a unique leading global network of excellence in higher education gathering 22 partner schools and universities across 4 continents. Its goal is to promote and develop the professions in hospitality, food service and culinary arts management while keeping the cross-educational experience as a fundamental pillar.",
+    "source_url": "https://en.institutlyfe.com/",
+    "evidence_quote": "[logo THTS]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Maison PIC",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://en.institutlyfe.com/student-experience/personalised-support-for-students/",
+    "evidence_quote": "Duncan Flamey joined the Maison PIC for his 1st year internship:",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hyatt Regency Paris Etoile",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://en.institutlyfe.com/student-experience/personalised-support-for-students/",
+    "evidence_quote": "Hélène did her work placement in Human Resources at the Hyatt Regency Paris Etoile:",
     "confidence": 0.9
    },
    {
@@ -577,7 +630,97 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Haaga Helia University of Helsinki",
+    "partner_name": "BILKENT University",
+    "partner_country": "Türkiye",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "BILKENT University, Ankara",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universite Saint Joseph – USJ",
+    "partner_country": "Liban",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "Universite Saint Joseph – USJ, Beyrouth",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kristianstad University",
+    "partner_country": "Sweden",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "Kristianstad University, Kristianstad",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Šv. Ignaco Lojolos Kolegija",
+    "partner_country": "Lituania",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "Šv. Ignaco Lojolos Kolegija, Kaunas",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SHTM PolyU",
+    "partner_country": "Hong Kong",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "SHTM PolyU, Hong Kong",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "John Folse Culinary Institute, Nicholls State University",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "John Folse Culinary Institute, Nicholls State University, Thibodaux",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Le Monde",
+    "partner_country": "Greece",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "Le Monde, Athens",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Inacap",
+    "partner_country": "Chile",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "Inacap, Santiago",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Instituto Politecnico Internacional – UPI",
+    "partner_country": "Costa Rica",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "Instituto Politecnico Internacional – UPI, San José",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UPC Universidad Peruana de Ciencias Aplicadas",
+    "partner_country": "Peru",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "UPC Universidad Peruana de Ciencias Aplicadas, Lima",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Haaga Helia University",
     "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -623,7 +766,7 @@
    },
    {
     "partner_name": "Huduma Cabinet Conseil",
-    "partner_country": "Senegal",
+    "partner_country": "Senegal, Benin, Burkina Faso, Cameroon, Côte d’Ivoire, Gabon, Togo",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
@@ -632,7 +775,7 @@
    },
    {
     "partner_name": "Francia Educacíon",
-    "partner_country": "Mexico",
+    "partner_country": "Mexico, Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, El Salvador, Ecuador, Guatemala, Honduras, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
@@ -650,7 +793,7 @@
    },
    {
     "partner_name": "Offshore Education Services",
-    "partner_country": "Indonesia",
+    "partner_country": "Indonesia, Malaysia, Philippines",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
@@ -659,7 +802,7 @@
    },
    {
     "partner_name": "LS Success",
-    "partner_country": "Morocco",
+    "partner_country": "Morocco, Tunisia",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
@@ -676,48 +819,57 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "The Hong Kong Polytechnic University (PolyU)",
-    "partner_country": "Hong Kong",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://en.institutlyfe.com/level/bachelors/bachelor-hons-in-international-hospitality-management/",
-    "evidence_quote": "– or in Hong Kong: The Hong Kong Polytechnic University (PolyU) (2 years on our campus and 2 years at the partner institution).",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Auckland University of Technology",
-    "partner_country": "unknown",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://en.institutlyfe.com/level/bachelors/bachelor-hons-in-international-hospitality-management/",
-    "evidence_quote": "Open your mind to the world, thanks to the multicultural student body on campus and a mobility semester with our partner universities as Auckland University of Technology, Hotelschool The Hague or SHTM Hong Kong Polytechnic University.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Hotelschool The Hague",
-    "partner_country": "unknown",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://en.institutlyfe.com/level/bachelors/bachelor-hons-in-international-hospitality-management/",
-    "evidence_quote": "Open your mind to the world, thanks to the multicultural student body on campus and a mobility semester with our partner universities as Auckland University of Technology, Hotelschool The Hague or SHTM Hong Kong Polytechnic University.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "SHTM Hong Kong Polytechnic University",
-    "partner_country": "unknown",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://en.institutlyfe.com/level/bachelors/bachelor-hons-in-international-hospitality-management/",
-    "evidence_quote": "Open your mind to the world, thanks to the multicultural student body on campus and a mobility semester with our partner universities as Auckland University of Technology, Hotelschool The Hague or SHTM Hong Kong Polytechnic University.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Conférence des Grandes Ecoles",
-    "partner_country": "unknown",
+    "partner_name": "Alliance Network",
+    "partner_country": "Turkey, Canada, Thailand, Cyprus, France, Mexico, Finland, Chile, Cameroon, Singapore, Malta, the United States of America, Greece, Taiwan, Russia, Indonesia, Colombia, Bolivia, Ecuador, Peru, Lebanon, South Korea",
     "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://en.institutlyfe.com/level/bachelors/bachelor-hons-in-international-hospitality-management/",
-    "evidence_quote": "There are several options for financing your studies in the hospitality and restaurant sector. Depending on your eligibility and that of your school, you can apply for a Crous State Bursary. Our school qualifies for this programme. The Institut Lyfe Foundation also offers scholarships to partially finance your studies. You can also apply for a student loan and, thanks to our membership of the Conférence des Grandes Ecoles, you will be entitled to preferential rates.",
+    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
+    "evidence_quote": "Institut Lyfe and the Alliance Network",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "APICIL",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/institut-lyfe/board/",
+    "evidence_quote": "[APICIL] |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Groupe Seb",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/institut-lyfe/board/",
+    "evidence_quote": "[Groupe Seb] |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Relais & Chateaux",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/institut-lyfe/board/",
+    "evidence_quote": "[Relais & Chateaux] |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Monin",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/institut-lyfe/board/",
+    "evidence_quote": "[Monin] |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Villeroy & Boch",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://en.institutlyfe.com/institut-lyfe/board/",
+    "evidence_quote": "[Villeroy & Boch] |",
     "confidence": 0.9
    },
    {
@@ -732,12 +884,20 @@
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Institut Lyfe",
-    "city": "Lyon, Ecully",
+    "campus_name": "GERARD PELISSON CAMPUS",
+    "city": "Ecully",
     "country": "France",
     "role": "main",
-    "source_url": "https://en.institutlyfe.com/international/our-international-partners/",
-    "evidence_quote": "Institut Lyfe (ex Paul Bocuse), Lyon, Ecully"
+    "source_url": "https://en.institutlyfe.com/institut-lyfe/new-campus/",
+    "evidence_quote": "GERARD PELISSON CAMPUS"
+   },
+   {
+    "campus_name": "PAUL BOCUSE CAMPUS",
+    "city": "Ecully",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://en.institutlyfe.com/institut-lyfe/new-campus/",
+    "evidence_quote": "PAUL BOCUSE CAMPUS"
    }
   ],
   "stated_total": 30,
@@ -746,70 +906,63 @@
   "truncated": false,
   "total_seen": 30,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of international partners and campuses. No specific contact person for Erasmus+ or international mobility is named with an email address.",
+  "coverage_note": "The evidence provides a comprehensive list of international academic partners and the Alliance network. No specific Erasmus+ coordinator contact details were found, so the institution's top leadership was provided.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 10.4,
-  "crawl_s": 14.6,
+  "discover_s": 0.0,
+  "crawl_s": 18.5,
   "ai_calls": 7,
-  "partner_calls": 6,
+  "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 13.7,
+  "model_s": 14.7,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 7,
+    "accepted": 7
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 4,
+    "accepted": 3
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 42,
-    "accepted": 41
+    "returned": 40,
+    "accepted": 39
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 36,
-    "accepted": 29
-   },
-   {
-    "lines": [
-     701,
-     840
-    ],
-    "returned": 6,
-    "accepted": 6
+    "returned": 42,
+    "accepted": 36
    }
   ],
-  "total_seconds": 38.6
+  "total_seconds": 36.0
  },
  "rechecked": true
 }

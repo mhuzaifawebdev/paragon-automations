@@ -1,10 +1,10 @@
 {
  "row_id": "r338",
- "scraped_at": "2026-10-12T05:36:56Z",
+ "scraped_at": "2026-10-22T13:51:42Z",
  "contacts": {
   "row_id": "r338",
   "institution_name": "DIAKONIA-AMMATTIKORKEAKOULU OY",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.diak.fi/",
   "country": null,
   "phone": {
@@ -13,17 +13,48 @@
    "evidence_quote": "+358 50 505 6960 <tel 0505056960>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "international.office@diak.fi",
+  "generic_email_url": "https://www.diak.fi/opiskelijan-opas/opiskelijan-polku/kansainvalisyys-opinnoissa/",
+  "contact": {
+   "name": "Suvi Äärilä",
+   "designation": "Head of International Affairs",
+   "designation_local": "",
+   "email": "Suvi.Aarila@diak.fi",
+   "office_email": "",
+   "phone": "+358 50 505 6960",
+   "source_url": "https://www.diak.fi/diak/organisaatio/kansainvalisyys/",
+   "evidence_quote": "Suvi Äärilä ... Kansainvälisten asioiden päällikkö"
+  },
+  "alternates": [
+   {
+    "name": "Sally Bamford",
+    "designation": "Expert, international affairs",
+    "designation_local": "",
+    "email": "Sally.Bamford@diak.fi",
+    "office_email": "",
+    "phone": "+358 50 372 2546",
+    "source_url": "https://www.diak.fi/opiskelijan-opas/opiskelijan-polku/kansainvalisyys-opinnoissa/",
+    "evidence_quote": "Sally Bamford ... Asiantuntija, kv",
+    "why_chosen": "International relations officer. She is an expert in international affairs and provides guidance on internationalization opportunities."
+   },
+   {
+    "name": "Kati Komulainen",
+    "designation": "CEO-President",
+    "designation_local": "",
+    "email": "Kati.Komulainen@diak.fi",
+    "office_email": "",
+    "phone": "+358 46 856 7347",
+    "source_url": "https://www.diak.fi/en/diak/contact-us/staff-directory/",
+    "evidence_quote": "Kati Komulainen ... CEO-President",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the CEO-President, she holds responsibility for leadership and international relations."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. She is the Head of International Affairs and is responsible for international cooperation, partnerships, and mobility.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.9,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "kirjaamo@diak.fi",
-  "generic_email_url": "https://www.diak.fi/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -77,20 +108,20 @@
   "truncated": false,
   "total_seen": 1,
   "pages_read": 10,
-  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partners, only mentioning participation in the EduCare 5.0 alliance.",
+  "coverage_note": "The evidence provides contact information for international affairs and lists one specific alliance partner (EduCare 5.0), but does not provide a comprehensive list of all Erasmus+ partner institutions.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.6,
-  "crawl_s": 17.0,
+  "discover_s": 0.0,
+  "crawl_s": 18.2,
   "ai_calls": 1,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 21.2,
+  "model_s": 2.6,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "total_seconds": 39.9
- },
- "rechecked": true
+  "email_search_s": 0.0,
+  "total_seconds": 20.8
+ }
 }

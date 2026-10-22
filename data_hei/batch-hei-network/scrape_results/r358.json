@@ -1,10 +1,10 @@
 {
  "row_id": "r358",
- "scraped_at": "2026-10-12T05:39:07Z",
+ "scraped_at": "2026-10-22T13:52:33Z",
  "contacts": {
   "row_id": "r358",
   "institution_name": "Państwowa Akademia Nauk Stosowanych w Chełmie",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://panschelm.edu.pl/",
   "country": {
    "value": "Poland",
@@ -17,17 +17,25 @@
    "evidence_quote": "Tel: 82 562 06 13"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "rektorat@panschelm.edu.pl",
   "generic_email_url": "https://panschelm.edu.pl/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Kamil Jaszczuk",
+   "designation": "Erasmus+ Program Coordinator",
+   "designation_local": "",
+   "email": "kjaszczuk@panschelm.edu.pl",
+   "office_email": "",
+   "phone": "82 562 06 13",
+   "source_url": "https://panschelm.edu.pl/erasmus/",
+   "evidence_quote": "mgr Kamil Jaszczuk"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Kamil Jaszczuk is explicitly listed as the contact for the Erasmus+ program.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -52,7 +60,7 @@
    {
     "partner_name": "Instituto Politécnico de Portalegre",
     "partner_country": "Portugalia",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://panschelm.edu.pl/erasmus/uczelnie-partnerskie/",
     "evidence_quote": "3 | Instituto Politécnico de Portalegre | P PORTALE 01 | Portalegre, Portugalia |",
@@ -115,7 +123,7 @@
    {
     "partner_name": "Vysoká škola medzinárodného podnikania ISM Slovakia v Prešove",
     "partner_country": "Słowacja",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://panschelm.edu.pl/erasmus/uczelnie-partnerskie/",
     "evidence_quote": "10 | Vysoká škola medzinárodného podnikania ISM Slovakia v Prešove | SK PRESOV 02 | Presov, Słowacja |",
@@ -131,30 +139,147 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Instytut Ochrony Roślin – PIB",
-    "partner_country": "Polska",
-    "partner_type": "other",
+    "partner_name": "Spółdzielnia Mleczarska BIELUCH",
+    "partner_country": "Poland",
+    "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://panschelm.edu.pl/",
-    "evidence_quote": "[Nowa współpraca PANS w Chełmie z Instytutem Ochrony Roślin – PIB]",
+    "evidence_quote": "PANS w Chełmie nawiązuje współpracę ze Spółdzielnią Mleczarską BIELUCH",
     "confidence": 0.9
    },
    {
-    "partner_name": "Zespół Szkół nr 3 w Kraśniku",
+    "partner_name": "Enter Air Training Center",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/",
+    "evidence_quote": "Studenci PANS w Chełmie z wizytą w Enter Air Training Center w Warszawie",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus Student Network (ESN)",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/erasmus/mobilnosc-studentow/",
+    "evidence_quote": "W poszukiwaniu ofert można skorzystać między innymi z portalu ErasmusIntern.org, prowadzonego przez Erasmus Student Network (ESN).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Uczelniana Rada Samorządu Studenckiego",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "Uczelniana Rada Samorządu Studenckiego",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Akademicki Związek Sportowy",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "Akademicki Związek Sportowy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ALFA – Chełmskie Centrum Ewangelizacji",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "ALFA – Chełmskie Centrum Ewangelizacji",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Camp Leaders",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "Camp Leaders – programy międzynarodowej wymiany i pracy wakacyjnej w USA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Chełmska Biblioteka Publiczna",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "Chełmska Biblioteka Publiczna",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Siłownia Extreme",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "Siłownia Extreme",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fabryka Sportu",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "Fabryka Sportu",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Restauracja Kwiat Paproci",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "Restauracja Kwiat Paproci",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Park Wodny Chełm",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "Park Wodny Chełm",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Akademia Smaku Słowianka",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "Akademia Smaku Słowianka",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stacja Ratownictwa Medycznego w Chełmie",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "25 lat w służbie drugiemu człowiekowi!Stacja Ratownictwa Medycznego w Chełmie świętowała jubileusz 25-lecia działalności!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zakład Doskonalenia Zawodowego w Chełmie",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "75 lat tradycji, edukacji i rozwoju!Zakład Doskonalenia Zawodowego w Chełmie świętował jubileusz 75-lecia swojej działalno...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pierwsza Społeczna Szkoła Podstawowa w Chełmie",
     "partner_country": "Poland",
     "partner_type": "school",
     "mobility_type": "unknown",
-    "source_url": "https://panschelm.edu.pl/wspolpraca-z-zespolem-szkol-nr-3-w-krasniku/",
-    "evidence_quote": "W dniu 28 lutego 2024 roku Państwowa Akademia Nauk Stosowanych w Chełmie reprezentowana przez JM Rektora – prof. PANS dr hab. inż. Arkadiusza Tofila podpisała porozumienie o współpracy z Zespołem Szkół nr 3 w Kraśniku reprezentowanym przez Dyrektora – mgr Annę Gromek.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Katedra Rozwoju Pielęgniarstwa UM w Lublinie",
-    "partner_country": "Poland",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://panschelm.edu.pl/i-konferencja-naukowo-szkoleniowa-integracja-dla-zdrowia-efektywnosc-zespolu-interdyscyplinarnego/",
-    "evidence_quote": "Studenckie Koło Naukowe przy Katedrze Rozwoju Pielęgniarstwa UM w Lublinie",
+    "source_url": "https://panschelm.edu.pl/onboarding-w-pans-w-chelmie/",
+    "evidence_quote": "PANS w Chełmie podczas inauguracji roku szkolnego 2026/2027 Pierwszej Społecznej Szkoły Podstawowej w Chełmie",
     "confidence": 0.9
    },
    {
@@ -182,6 +307,15 @@
     "mobility_type": "unknown",
     "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
     "evidence_quote": "Podpisanie listu intencyjnego z firmą Finder Polska – nowy etap współpracy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zespół Szkół nr 3 w Kraśniku",
+    "partner_country": "Poland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "Warsztaty Zespół Szkół nr 3 w Kraśniku",
     "confidence": 0.9
    },
    {
@@ -239,42 +373,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Recykl O. O. S.A.",
-    "partner_country": "Poland",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
-    "evidence_quote": "Rozwijamy współpracę z Recykl O. O. S.A.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Recykl Organizacja Odzysku S.A.",
-    "partner_country": "Poland",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
-    "evidence_quote": "Porozumienie o współpracy z Recykl Organizacja Odzysku S.A.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Gumet",
-    "partner_country": "Poland",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
-    "evidence_quote": "[Gumet]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "ZS 3 w Kraśniku",
-    "partner_country": "Poland",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
-    "evidence_quote": "[ZS 3 w Kraśniku]",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Fabryka Łożysk Tocznych w Kraśniku",
     "partner_country": "Poland",
     "partner_type": "company",
@@ -291,6 +389,51 @@
     "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
     "evidence_quote": "[Katedra i Klinika Otorynolaryngologii, Chirurgii Głowy i Szyi Warszawskiego Uniwersytetu Medycznego]",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "Muzeum Ziemi Chełmskiej im. Wiktora Ambroziewicza w Chełmie",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "[Muzeum Ziemi Chełmskiej im. Wiktora Ambroziewicza w Chełmie]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Centrum Medyczne Aurismed",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "[Centrum Medyczne Aurismed]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Muzeum Regionalne w Krasnymstawie",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "[Muzeum Regionalne w Krasnymstawie]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Haber",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "[Haber]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sigma",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "[Sigma]",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
@@ -299,64 +442,64 @@
     "city": "Chełm",
     "country": "Poland",
     "role": "main",
-    "source_url": "https://panschelm.edu.pl/erasmus/",
-    "evidence_quote": "ul. Pocztowa 54, pokój 202"
+    "source_url": "https://panschelm.edu.pl/",
+    "evidence_quote": "22-100 Chełm"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 29,
+  "total_seen": 44,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of Erasmus+ partners, but it is not exhaustive as the institution mentions that a full list is available on their website.",
+  "coverage_note": "The evidence provides a list of Erasmus+ partner universities, but does not state a total number of partners.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.3,
-  "crawl_s": 18.3,
+  "discover_s": 0.0,
+  "crawl_s": 20.0,
   "ai_calls": 5,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 8.9,
+  "model_s": 9.7,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 1,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 11,
-    "accepted": 11
+    "returned": 2,
+    "accepted": 2
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 12,
+    "accepted": 12
    },
    {
     "lines": [
      701,
      840
     ],
-    "returned": 23,
-    "accepted": 17
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     841,
+     946
+    ],
+    "returned": 30,
+    "accepted": 30
    }
   ],
-  "total_seconds": 30.5
- },
- "rechecked": true
+  "total_seconds": 29.7
+ }
 }
