@@ -1,0 +1,103 @@
+{
+ "row_id": "r080",
+ "scraped_at": "2026-10-11T10:52:34Z",
+ "contacts": {
+  "row_id": "r080",
+  "institution_name": "IONIAN UNIVERSITY",
+  "institution_type": "university",
+  "official_website": "https://ionio.gr/",
+  "country": null,
+  "phone": {
+   "value": "26610 87608",
+   "source_url": "https://ionio.gr/gr/services/pr/erasmus/",
+   "evidence_quote": "Τηλ.: 26610 87608"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini.",
+  "generic_email": "erasmus@ionio.gr",
+  "generic_email_url": "https://ionio.gr/gr/services/pr/erasmus/",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Polytechnic Institute of Leiria (IPLeiria)",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "https://international.ionio.gr/gr/",
+    "evidence_quote": "Στο πλαίσιο της Κινητικότητας Διοικητικού Προσωπικού Erasmus+, το Τμήμα Ψηφιακών Μέσων και Επικοινωνίας (ΤΨΜΕ) του Ιονίου Πανεπιστημίου υποδέχθηκε τις κυρίες Laura Filipa Pedrosa Ferreira και Joana Pimparel Mineiro από το Polytechnic Institute of Leiria (IPLeiria), με στόχο την επιμόρφωση και ανταλλαγή τεχνογνωσίας.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ionian University",
+    "city": "Corfu",
+    "country": "Greece",
+    "role": "main",
+    "source_url": "https://ionio.gr/",
+    "evidence_quote": "Ιόνιο Πανεπιστήμιο, Ιωάννου Θεοτόκη 72, 49100 Κέρκυρα, Τ.Θ. 663"
+   },
+   {
+    "campus_name": "Department of Digital Media and Communication",
+    "city": "Argostoli",
+    "country": "Greece",
+    "role": "branch",
+    "source_url": "https://ionio.gr/",
+    "evidence_quote": "dmc.ionio.grΑργοστόλι"
+   },
+   {
+    "campus_name": "Department of Ethnomusicology",
+    "city": "Lixouri",
+    "country": "Greece",
+    "role": "branch",
+    "source_url": "https://ionio.gr/",
+    "evidence_quote": "ethnomus.ionio.gr Ληξούρι"
+   },
+   {
+    "campus_name": "Department of Food Science and Technology",
+    "city": "Argostoli",
+    "country": "Greece",
+    "role": "branch",
+    "source_url": "https://ionio.gr/",
+    "evidence_quote": "fst.ionio.gr Αργοστόλι"
+   },
+   {
+    "campus_name": "Department of Regional Development",
+    "city": "Lefkada",
+    "country": "Greece",
+    "role": "branch",
+    "source_url": "https://ionio.gr/",
+    "evidence_quote": "rd.ionio.gr Λευκάδα"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific contact information for the Erasmus+ office and lists some partner institutions, but a comprehensive list of all Erasmus+ partners is not included.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 13.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "total_seconds": 18.5
+ },
+ "rechecked": true
+}

@@ -1,0 +1,201 @@
+{
+ "row_id": "r903",
+ "scraped_at": "2026-10-12T07:21:16Z",
+ "contacts": {
+  "row_id": "r903",
+  "institution_name": "INSTITUT POMPEU FABRA",
+  "institution_type": "university",
+  "official_website": "https://www.upf.edu/",
+  "country": null,
+  "phone": {
+   "value": "93 542 20 60",
+   "source_url": "https://www.upf.edu/web/universitat/contacte",
+   "evidence_quote": "93 542 20 60 <tel 93 542 20 60>"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini.",
+  "generic_email": "secretaria.esup@upf.edu",
+  "generic_email_url": "https://www.upf.edu/web/universitat/contacte",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "The Guild",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upf.edu/",
+    "evidence_quote": "The Guild",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ACUP",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upf.edu/",
+    "evidence_quote": "ACUP",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Alianza 4 Universidades",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upf.edu/",
+    "evidence_quote": "Alianza 4 Universidades",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "A4U",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upf.edu/",
+    "evidence_quote": "A4U",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Eutopia",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upf.edu/",
+    "evidence_quote": "[HR Excellence in Research] [Eutopia]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EUTOPIA Alliance of European Universities",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upf.edu/web/international",
+    "evidence_quote": "EUTOPIA Alliance of European Universities",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The EUROPAEUM",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upf.edu/web/international",
+    "evidence_quote": "The EUROPAEUM",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IIT Bombay",
+    "partner_country": "India",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upf.edu/web/international/mobilitat",
+    "evidence_quote": "A4U Artificial Intelligence for social Impact, IIT Bombay 2026",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Reed College",
+    "partner_country": "United States",
+    "partner_type": "college",
+    "mobility_type": "staff",
+    "source_url": "https://www.upf.edu/web/international/mobilitat",
+    "evidence_quote": "La UPF i el Reed College enforteixen la seva aliança acadèmica mitjançant el programa d’intercanvi internacional de professorat",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus de la Ciutadella",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.upf.edu/web/campus/",
+    "evidence_quote": "Campus de la Ciutadella"
+   },
+   {
+    "campus_name": "Campus del Poblenou",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.upf.edu/web/campus/",
+    "evidence_quote": "Campus del Poblenou"
+   },
+   {
+    "campus_name": "Campus del Mar",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.upf.edu/web/campus/",
+    "evidence_quote": "Campus del Mar"
+   }
+  ],
+  "stated_total": 149,
+  "stated_total_quote": "S'estan mostrant 1 - 100 de 149 resultats.",
+  "stated_total_url": "https://www.upf.edu/web/personal/ofertes-pdi",
+  "truncated": true,
+  "total_seen": 149,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists several international networks and a few specific partner institutions, but does not contain a comprehensive, itemized list of all bilateral or Erasmus partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 14.3,
+  "ai_calls": 6,
+  "partner_calls": 5,
+  "cost_usd_estimate": 0.0,
+  "model_s": 44.3,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 8,
+    "accepted": 7
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 59.6
+ },
+ "rechecked": true
+}

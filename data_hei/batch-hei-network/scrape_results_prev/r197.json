@@ -1,0 +1,100 @@
+{
+ "row_id": "r197",
+ "scraped_at": "2026-10-11T12:00:53Z",
+ "contacts": {
+  "row_id": "r197",
+  "institution_name": "Duale Hochschule Baden-Württemberg Mannheim",
+  "institution_type": "university",
+  "official_website": "https://www.mannheim.dhbw.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable).",
+  "generic_email": "ausland.manospam@dhbw.de",
+  "generic_email_url": "https://www.mannheim.dhbw.de/service/international-office/erasmus",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "DHBW Mannheim Campus Coblitzallee",
+    "city": "Mannheim",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.mannheim.dhbw.de/service/kontakt/campus-anfahrt",
+    "evidence_quote": "Campus Coblitzallee Neuostheim"
+   },
+   {
+    "campus_name": "DHBW Mannheim Außenstelle Käfertaler Straße",
+    "city": "Mannheim",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.mannheim.dhbw.de/service/kontakt/campus-anfahrt",
+    "evidence_quote": "Außenstelle Käfertaler Straße (Wohlgelegen)"
+   },
+   {
+    "campus_name": "DHBW Mannheim Außenstelle Eppelheim",
+    "city": "Eppelheim",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.mannheim.dhbw.de/service/kontakt/campus-anfahrt",
+    "evidence_quote": "Außenstelle Eppelheim: Anschrift & Campusplan"
+   }
+  ],
+  "stated_total": 2000,
+  "stated_total_quote": "Vom internationalen Konzern bis zum kreativen Start-up. Hier finden Sie eine Übersicht der fast 2.000 Partnerunternehmen der DHBW Mannheim.",
+  "stated_total_url": "https://www.mannheim.dhbw.de/zielgruppen/duale-partner",
+  "truncated": true,
+  "total_seen": 2000,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain a detailed list of specific partner institutions or networks. While the institution indicates participation in Erasmus+ and international cooperation, individual partner names and their mobility types are not enumerated in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 17.3,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.4,
+  "mode": "gemini",
+  "reader": "claude-haiku-4-5",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 27.2
+ },
+ "rechecked": true
+}

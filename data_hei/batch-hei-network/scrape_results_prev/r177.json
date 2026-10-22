@@ -1,0 +1,118 @@
+{
+ "row_id": "r177",
+ "scraped_at": "2026-10-11T11:35:09Z",
+ "contacts": {
+  "row_id": "r177",
+  "institution_name": "MITTUNIVERSITETET",
+  "institution_type": "university",
+  "official_website": "https://www.miun.se/",
+  "country": {
+   "value": "Sweden",
+   "source_url": "https://www.miun.se/en/meet-mid-sweden-university/External-relations/Company-and-organization/Student-collaborations/motesplats-campus-externa/foretag-som-deltar/Edlund-Partners/",
+   "evidence_quote": "We are part of Accru Partners, a leading business group in Sweden with independent firms nationwide, collaborating to deliver a broad service offering and tailored solutions to our clients. Edlund & Partners is also a member of the international network TGS - Think Global Sustainability, with 5,000 employees across more than 60 countries. This provides us with a unique opportunity to leverage global expertise and share insights, further enriching our services. At Edlund & Partners, you will have"
+  },
+  "phone": {
+   "value": "+46 (0)10-142 80 00",
+   "source_url": "https://www.miun.se/",
+   "evidence_quote": "+46 (0)10-142 80 00 <tel +4610-1428000>"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini.",
+  "generic_email": "kontakt@miun.se",
+  "generic_email_url": "https://www.miun.se/",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Accru Partners",
+    "partner_country": "Sweden",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.miun.se/en/meet-mid-sweden-university/External-relations/Company-and-organization/Student-collaborations/motesplats-campus-externa/foretag-som-deltar/Edlund-Partners/",
+    "evidence_quote": "We are part of Accru Partners, a leading business group in Sweden with independent firms nationwide, collaborating to deliver a broad service offering and tailored solutions to our clients. Edlund & Partners is also a member of the international network TGS - Think Global Sustainability, with 5,000 employees across more than 60 countries. This provides us with a unique opportunity to leverage global expertise and share insights, further enriching our services. At Edlund & Partners, you will have",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TGS - Think Global Sustainability",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.miun.se/en/meet-mid-sweden-university/External-relations/Company-and-organization/Student-collaborations/motesplats-campus-externa/foretag-som-deltar/Edlund-Partners/",
+    "evidence_quote": "We are part of Accru Partners, a leading business group in Sweden with independent firms nationwide, collaborating to deliver a broad service offering and tailored solutions to our clients. Edlund & Partners is also a member of the international network TGS - Think Global Sustainability, with 5,000 employees across more than 60 countries. This provides us with a unique opportunity to leverage global expertise and share insights, further enriching our services. At Edlund & Partners, you will have",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Sundsvall",
+    "city": "Sundsvall",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.miun.se/",
+    "evidence_quote": "[Studenter som går på långa bron vid Åkroken, Campus Sundsvall.]"
+   },
+   {
+    "campus_name": "Campus Östersund",
+    "city": "Östersund",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.miun.se/",
+    "evidence_quote": "[Studenter som pluggar i biblioteket på Campus Östersund.]"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence contains staff directory listings and some general institutional information, but lacks a comprehensive dedicated list of Erasmus partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 17.6,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 159.1,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 178.3
+ },
+ "rechecked": true
+}

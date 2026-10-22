@@ -1,0 +1,89 @@
+{
+ "row_id": "r826",
+ "scraped_at": "2026-10-12T07:01:24Z",
+ "contacts": {
+  "row_id": "r826",
+  "institution_name": "Conservatorio di Musica Luca Marenzio",
+  "institution_type": "university",
+  "official_website": "https://www.consbs.it/",
+  "country": null,
+  "phone": {
+   "value": "+39.030.2886711",
+   "source_url": "https://www.consbs.it/",
+   "evidence_quote": "Tel. +39.030.2886711"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
+  "generic_email": "protocollo@consbs.it",
+  "generic_email_url": "https://www.consbs.it/",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Conservatorio Graz",
+    "partner_country": "Austria",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.consbs.it/erasmus-accordi-bilaterali-con-altre-istituzioni/",
+    "evidence_quote": "Scadenze Domanda Conservatorio Graz Austria. (169.61 Kb)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conservatorio LEIPZIG",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.consbs.it/erasmus-accordi-bilaterali-con-altre-istituzioni/",
+    "evidence_quote": "Scadenze Domanda Conservatorio LEIPZIG GERMANIA (183.57 Kb)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede di Brescia",
+    "city": "Brescia",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.consbs.it/",
+    "evidence_quote": "Sede di Brescia:"
+   },
+   {
+    "campus_name": "Sede di Darfo",
+    "city": "Darfo Boario Terme",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://www.consbs.it/",
+    "evidence_quote": "Sede di Darfo:"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution provides a link to download a list of bilateral agreements, but the full list is not contained within the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.2,
+  "crawl_s": 22.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "total_seconds": 27.9
+ },
+ "rechecked": true
+}

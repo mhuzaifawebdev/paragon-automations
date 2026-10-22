@@ -1,0 +1,88 @@
+{
+ "row_id": "r620",
+ "scraped_at": "2026-10-12T06:30:22Z",
+ "contacts": {
+  "row_id": "r620",
+  "institution_name": "Driestar Educatief",
+  "institution_type": "college",
+  "official_website": "https://www.driestar-educatief.nl/home",
+  "country": null,
+  "phone": {
+   "value": "0182-540333",
+   "source_url": "https://www.driestar-hogeschool.nl/contact-met-het-onderzoekscentrum",
+   "evidence_quote": "0182-540333"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
+  "generic_email": "info@driestar-educatief.nl",
+  "generic_email_url": "https://www.driestar-educatief.nl/contact",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Locatie Gouda",
+    "city": "Gouda",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.driestar-educatief.nl/contact",
+    "evidence_quote": "Locatie Gouda"
+   },
+   {
+    "campus_name": "Locatie Kapelle",
+    "city": "Kapelle",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.driestar-educatief.nl/contact",
+    "evidence_quote": "Locatie Kapelle"
+   },
+   {
+    "campus_name": "Locatie Amersfoort",
+    "city": "Amersfoort",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.driestar-educatief.nl/contact",
+    "evidence_quote": "Locatie Amersfoort"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not contain a list of international partners or Erasmus+ agreements. No specific international mobility coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 10.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 16.5
+ },
+ "rechecked": true
+}

@@ -1,0 +1,125 @@
+{
+ "row_id": "r834",
+ "scraped_at": "2026-10-12T07:03:05Z",
+ "contacts": {
+  "row_id": "r834",
+  "institution_name": "LGT ACAJOU2",
+  "institution_type": "school",
+  "official_website": "https://acajou2.com/",
+  "country": null,
+  "phone": {
+   "value": "05 96 50 64 65",
+   "source_url": "https://acajou2.com/le-lycee/contact/",
+   "evidence_quote": "05 96 50 64 65 <tel +596596506465>"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini.",
+  "generic_email": "",
+  "generic_email_url": "",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "partenaires autrichiens",
+    "partner_country": "Austria",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://acajou2.com/category/erasmus-projets-et-mobilites/",
+    "evidence_quote": "Par Elsa Bottius-Cesses, Les Cordées de la Réussite, Erasmus+: mobilités Au mois d’avril 2026, les élèves de Terminale des Cordées de la réussite ont pris la direction de Bruxelles pour une mobilité de groupe placée sous le signe de l’Europe et de la rencontre. Institutions européennes, patrimoine bruxellois et échanges avec leurs partenaires autrichiens ont…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CPT2B",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://acajou2.com/les-plus-dacajou-2/poles-excellence-sport/",
+    "evidence_quote": "Accéder directement à : Basket-Ball (CPT2B) – Athlétisme",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EUROPASS",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://acajou2.com/erasmus/partir-pour-les-personnels/",
+    "evidence_quote": "EUROPASS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agence Erasmus+france",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://acajou2.com/erasmus/partir-pour-les-personnels/",
+    "evidence_quote": "Agence Erasmus+france",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TEACHER ACADEMY",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://acajou2.com/erasmus/partir-pour-les-personnels/",
+    "evidence_quote": "TEACHER ACADEMY",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "LPO Acajou 2",
+    "city": "Le Lamentin",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://acajou2.com/",
+    "evidence_quote": "LPO ACAJOU 2"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions the existence of European partners but does not provide a specific list of partner institutions. No individual names for the ERAEI are provided in the text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 15.2,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 34.1,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     206
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 53.3
+ },
+ "rechecked": true
+}

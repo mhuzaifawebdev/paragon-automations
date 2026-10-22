@@ -1,0 +1,85 @@
+{
+ "row_id": "r878",
+ "scraped_at": "2026-10-12T07:15:34Z",
+ "contacts": {
+  "row_id": "r878",
+  "institution_name": "Conservatorio Superior de Danza María de Ávila",
+  "institution_type": "university",
+  "official_website": "https://www.csdma.es/",
+  "country": {
+   "value": "Spain",
+   "source_url": "https://www.csdma.es/pdf2025/Ayudas%20econ%C3%B3micas%20personal%20STA-STT.pdf",
+   "evidence_quote": "Eslovaquia, Eslovenia, España, Estonia, Grecia, Letonia, Malta,"
+  },
+  "phone": {
+   "value": "914 22 09 79",
+   "source_url": "https://www.csdma.es/",
+   "evidence_quote": "914 22 09 79 <tel 0034914220979>"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini.",
+  "generic_email": "",
+  "generic_email_url": "",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Países Bajos",
+    "partner_country": "Países Bajos",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.csdma.es/internacional/erasmus/movilidad-estudiantes",
+    "evidence_quote": "Convocatoria BIP “Rhythm” Países Bajos",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Conservatorio Superior de Danza de Madrid",
+    "city": "Madrid",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.csdma.es/",
+    "evidence_quote": "CONSERVATORIO SUPERIOR DE DANZA DE MADRID"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that the institution has bilateral agreements with various European higher education institutions, but it does not provide a specific list of these partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 13.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 33.2,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 48.0
+ },
+ "rechecked": true
+}

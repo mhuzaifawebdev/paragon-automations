@@ -1,0 +1,118 @@
+{
+ "row_id": "r814",
+ "scraped_at": "2026-10-12T07:00:21Z",
+ "contacts": {
+  "row_id": "r814",
+  "institution_name": "Lycée Régional Anne Sophie PIC",
+  "institution_type": "school",
+  "official_website": "https://lyceepictoulon.fr/",
+  "country": null,
+  "phone": {
+   "value": "04 94 09 70 80",
+   "source_url": "https://lyceepictoulon.fr/",
+   "evidence_quote": "Tel : 04 94 09 70 80 <tel 04 94 09 70 80>"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
+  "generic_email": "",
+  "generic_email_url": "",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UPV",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepictoulon.fr/",
+    "evidence_quote": "Partenariat UPV",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CMC",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepictoulon.fr/",
+    "evidence_quote": "Visite de l’entreprise CMC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "école hôtelière de Massa Marittima",
+    "partner_country": "Italie",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepictoulon.fr/sejour-erasmus-italie/",
+    "evidence_quote": "Le lycée hôtelier Anne-Sophie Pic a récemment organisé une mobilité pour nos apprentis en Certificats de Spécialisation, en partenariat avec l’école hôtelière de Massa Marittima en Italie.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée IES Arozarena",
+    "partner_country": "Espagne",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepictoulon.fr/mobilite-picassomob/",
+    "evidence_quote": "[Lycée IES Arozarena - Ténérife]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Châteauvallon-Liberté, scène nationale",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepictoulon.fr/",
+    "evidence_quote": "[Mardi Lib 071025 © Vincent Berenger - Châteauvallon-Liberté, scène nationale]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Anne-Sophie PIC",
+    "city": "Toulon",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceepictoulon.fr/",
+    "evidence_quote": "Le lycée Anne-Sophie PIC situé au coeur de Toulon à 5 minutes à pied de la gare SNCF et du port, entre l’Opéra et la rue des Arts, offre une palette de formations sans égale dans le département du Var. Ses formations du CAP au BTS en passant par des baccalauréats professionnels, le baccalauréat STHR, les Certificats de Spécialisations et une classe de mise à niveau post-bac MANH, sont assurées par des professeurs de grande qualité qui vous feront adhérer aux exigences des métiers de bouche et du"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 6,
+  "coverage_note": "No specific contact person for international relations or Erasmus+ is named in the provided evidence. The partner list is derived from news articles about mobility projects.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 12.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 17.6
+ },
+ "rechecked": true
+}

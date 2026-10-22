@@ -1,0 +1,113 @@
+{
+ "row_id": "r629",
+ "scraped_at": "2026-10-12T06:31:12Z",
+ "contacts": {
+  "row_id": "r629",
+  "institution_name": "ECOLE NORMALE SUPERIEURE DE RENNES",
+  "institution_type": "university",
+  "official_website": "https://www.ens-rennes.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.ens-rennes.fr/",
+   "evidence_quote": "35170 BRUZ - France"
+  },
+  "phone": {
+   "value": "02 99 05 93 00",
+   "source_url": "https://www.ens-rennes.fr/",
+   "evidence_quote": "Tél. : 02 99 05 93 00"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read.",
+  "generic_email": "",
+  "generic_email_url": "",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fulbright",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ens-rennes.fr/international/ouverture-internationale/erasmus/mobilite-de-lenseignement-superieur",
+    "evidence_quote": "Fulbright - ENS Rennes",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IISER",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ens-rennes.fr/international/ouverture-internationale/erasmus/mobilite-de-lenseignement-superieur",
+    "evidence_quote": "ENS - IISER",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BIOSANTEXC",
+    "partner_country": "India",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ens-rennes.fr/international/ouverture-internationale/erasmus/mobilite-de-lenseignement-superieur",
+    "evidence_quote": "Campus Franco - Indien BIOSANTEXC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conférence des grandes écoles",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ens-rennes.fr/",
+    "evidence_quote": "[Conférence des grandes écoles]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus de Ker Lann",
+    "city": "Bruz",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ens-rennes.fr/",
+    "evidence_quote": "Campus de Ker Lann"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a specific list of Erasmus+ partners or a named contact person for international relations. The website mentions a 'Service Relations internationales' but does not list individual staff members. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 18.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 24.7
+ },
+ "rechecked": true
+}
