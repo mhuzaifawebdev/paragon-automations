@@ -1,33 +1,49 @@
 {
  "row_id": "r121",
- "scraped_at": "2026-10-11T11:09:36Z",
+ "scraped_at": "2026-10-22T20:21:42Z",
  "contacts": {
   "row_id": "r121",
   "institution_name": "Panstwowa Akademia Nauk Stosowanych we Wloclawku",
   "institution_type": "university",
   "official_website": "https://pans.wloclawek.pl/",
-  "country": {
-   "value": "Poland",
-   "source_url": "https://pans.wloclawek.pl/erasmus-projekt-2026/",
-   "evidence_quote": "Grupa 3 – Bułgaria, Chorwacja, Litwa, Macedonia Północna, Polska, Rumunia, Serbia, Turcja, Węgry"
-  },
+  "country": null,
   "phone": {
    "value": "+48 668 075 512",
    "source_url": "https://pans.wloclawek.pl/erasmus-contact/",
    "evidence_quote": "tel.: +48 668 075 512"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "kancelaria@pans.wloclawek.pl",
   "generic_email_url": "https://pans.wloclawek.pl/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Małgorzata Waśk",
+   "designation": "Erasmus+ Program Coordinator",
+   "designation_local": "",
+   "email": "małgorzata.wask@pans.wloclawek.pl",
+   "office_email": "",
+   "phone": "+48 668 075 512",
+   "source_url": "https://pans.wloclawek.pl/erasmus-contact/",
+   "evidence_quote": "KOORDYNATOR ... Małgorzata Waśk"
+  },
+  "alternates": [
+   {
+    "name": "Beata Jakubowska",
+    "designation": "Erasmus+ Administration Specialist",
+    "designation_local": "",
+    "email": "beata.jakubowska@pans.wloclawek.pl",
+    "office_email": "",
+    "phone": "+48 600 054 751",
+    "source_url": "https://pans.wloclawek.pl/erasmus-contact/",
+    "evidence_quote": "SPECJALISTA ... Beata Jakubowska",
+    "why_chosen": "Secretary / administration (last resort). She is an administration specialist working in the International Cooperation Office alongside the Erasmus coordinator."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. She is the designated Erasmus+ Program Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -1503,8 +1519,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 50.2,
-  "total_seconds": 50.2
- },
- "rechecked": 3
+  "crawl_s": 30.0,
+  "ai_calls": 1,
+  "model_s": 12.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 42.8
+ }
 }

@@ -1,10 +1,10 @@
 {
  "row_id": "r154",
- "scraped_at": "2026-10-22T13:45:06Z",
+ "scraped_at": "2026-10-22T20:22:07Z",
  "contacts": {
   "row_id": "r154",
   "institution_name": "HOCHSCHULE FUER OEFFENTLICHE VERWALTUNG UND FINANZEN LUDWIGSBURG",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.hs-ludwigsburg.de/",
   "country": null,
   "phone": {
@@ -15,13 +15,34 @@
   "phone_alt": [],
   "generic_email": "poststelle@hs-ludwigsburg.de",
   "generic_email_url": "https://www.hs-ludwigsburg.de/",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Dr. Iris Eliisa Rauskala",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.hs-ludwigsburg.de/hochschule/hochschulleitung-und-gremien",
+   "evidence_quote": "Dr. Iris Eliisa Rauskala ... Rektorin"
+  },
+  "alternates": [
+   {
+    "name": "Prof. Dr. Sascha Gieseler",
+    "designation": "Pro-Rector for Research, Continuing Education and Internationalization",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.hs-ludwigsburg.de/hochschule/hochschulleitung-und-gremien",
+    "evidence_quote": "Prof. Dr. Sascha Gieseler ... Prorektor für Forschung, Weiterbildung und Internationalisierung",
+    "why_chosen": "Vice-rector for international affairs. He is the Pro-Rector responsible for internationalization and international relations."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). As the Rector of the institution, she is the head of the university.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
-  "pages_read": 10,
+  "pages_read": 20,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -479,89 +500,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 17.1,
-  "ai_calls": 11,
-  "partner_calls": 9,
+  "crawl_s": 31.2,
+  "ai_calls": 1,
+  "model_s": 2.7,
   "cost_usd_estimate": 0.0,
-  "model_s": 8.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 2,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 2,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 6,
-    "accepted": 5
-   },
-   {
-    "lines": [
-     701,
-     840
-    ],
-    "returned": 9,
-    "accepted": 9
-   },
-   {
-    "lines": [
-     841,
-     980
-    ],
-    "returned": 9,
-    "accepted": 6
-   },
-   {
-    "lines": [
-     981,
-     1120
-    ],
-    "returned": 12,
-    "accepted": 10
-   },
-   {
-    "lines": [
-     1121,
-     1260
-    ],
-    "returned": 2,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     1261,
-     1381
-    ],
-    "returned": 19,
-    "accepted": 19
-   }
-  ],
-  "total_seconds": 28.2
- },
- "rechecked": 3
+  "email_search_s": 3.0,
+  "total_seconds": 37.1
+ }
 }

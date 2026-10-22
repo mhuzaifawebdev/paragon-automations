@@ -1,6 +1,6 @@
 {
  "row_id": "r149",
- "scraped_at": "2026-10-22T13:45:18Z",
+ "scraped_at": "2026-10-22T20:22:01Z",
  "contacts": {
   "row_id": "r149",
   "institution_name": "MEDIZINISCHE UNIVERSITAT GRAZ",
@@ -15,13 +15,22 @@
   "phone_alt": [],
   "generic_email": "international.office@medunigraz.at",
   "generic_email_url": "https://www.medunigraz.at/internationale-personalmobilitaet",
-  "contact": null,
+  "contact": {
+   "name": "Iris Topolovec",
+   "designation": "Koordinatorin Erasmus+ KA171",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+43 316 385 73694",
+   "source_url": "https://www.medunigraz.at/internationale-personalmobilitaet/lehr-oder-fortbildungsaufenthalte",
+   "evidence_quote": "Koordinatorin Erasmus+ KA171 ... Iris Topolovec T: +43 316 385 73694"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Mobility coordinator. She is the named coordinator for Erasmus+ KA171 mobility at the institution.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.7,
   "needs_human_check": true,
-  "pages_read": 10,
+  "pages_read": 20,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -1444,57 +1453,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 16.7,
-  "ai_calls": 7,
-  "partner_calls": 5,
+  "crawl_s": 30.5,
+  "ai_calls": 1,
+  "model_s": 4.7,
   "cost_usd_estimate": 0.0,
-  "model_s": 24.4,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 4,
-    "accepted": 4
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 8,
-    "accepted": 6
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 4,
-    "accepted": 4
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 50,
-    "accepted": 49
-   },
-   {
-    "lines": [
-     561,
-     696
-    ],
-    "returned": 94,
-    "accepted": 94
-   }
-  ],
-  "total_seconds": 45.0
- },
- "rechecked": 3
+  "email_search_s": 1.8,
+  "total_seconds": 37.1
+ }
 }
