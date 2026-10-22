@@ -1,6 +1,6 @@
 {
  "row_id": "r127",
- "scraped_at": "2026-10-11T11:11:27Z",
+ "scraped_at": "2026-10-22T13:45:04Z",
  "contacts": {
   "row_id": "r127",
   "institution_name": "VYSOKA SKOLA TECHNICKA A EKONOMICKA V CESKYCH BUDEJOVICICH",
@@ -13,17 +13,37 @@
    "evidence_quote": "+420 778 775 713 – Zahraniční oddělení/department of foreign relations"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "vstecb@vstecb.cz",
   "generic_email_url": "https://www.vstecb.cz/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Marek Vochozka",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "vochozka@vste.cz",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.vstecb.cz/vedeni-skoly/",
+   "evidence_quote": "[prof. Ing. Marek Vochozka, MBA, Ph.D., dr. h.c.]Rektor ... prof. Ing. Marek Vochozka, MBA, Ph.D., dr. h.c."
+  },
+  "alternates": [
+   {
+    "name": "Jaromír Vrbka",
+    "designation": "Vice-rector for external relations",
+    "designation_local": "",
+    "email": "vrbka@vste.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.vstecb.cz/vedeni-skoly/",
+    "evidence_quote": "[doc. Ing. Jaromír Vrbka, MBA, PhD.]Prorektor pro vnější vztahy ... doc. Ing. Jaromír Vrbka, MBA, PhD.",
+    "why_chosen": "Other role. Jaromír Vrbka is the Vice-rector for external relations."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Marek Vochozka is the Rector of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -220,24 +240,26 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.2,
-  "crawl_s": 33.6,
-  "ai_calls": 2,
+  "discover_s": 0.0,
+  "crawl_s": 50.4,
+  "ai_calls": 3,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.7,
+  "model_s": 7.1,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      141,
      280
     ],
-    "returned": 6,
-    "accepted": 5
+    "returned": 4,
+    "accepted": 4
    }
   ],
-  "total_seconds": 42.6
- },
- "rechecked": true
+  "total_seconds": 59.5
+ }
 }

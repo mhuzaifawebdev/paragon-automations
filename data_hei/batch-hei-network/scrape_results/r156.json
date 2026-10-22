@@ -1,6 +1,6 @@
 {
  "row_id": "r156",
- "scraped_at": "2026-10-11T11:22:57Z",
+ "scraped_at": "2026-10-22T13:45:12Z",
  "contacts": {
   "row_id": "r156",
   "institution_name": "INSTITUT NATIONAL DES SCIENCES APPLIQUEES CENTRE VAL DE LOIRE",
@@ -17,17 +17,25 @@
    "evidence_quote": "Tél. : +33 (0)2 54 55 84 00"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 9,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Colleen Legrand",
+   "designation": "International Relations",
+   "designation_local": "",
+   "email": "colleen.legrand@insa-cvl.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.insa-centrevaldeloire.fr/en/international/incoming-mobility",
+   "evidence_quote": "(colleen.legrand@insa-cvl.fr <colleen.legrand@insa-cvl.fr>)"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. International relations officer. Colleen Legrand is listed as a contact for international mobility and scholarships.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -115,13 +123,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.8,
-  "crawl_s": 10.7,
+  "discover_s": 0.0,
+  "crawl_s": 12.6,
   "ai_calls": 2,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 43.4,
+  "model_s": 3.0,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -132,7 +142,6 @@
     "accepted": 3
    }
   ],
-  "total_seconds": 55.8
- },
- "rechecked": true
+  "total_seconds": 15.7
+ }
 }
