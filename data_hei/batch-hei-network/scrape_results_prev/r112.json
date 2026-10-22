@@ -1,0 +1,62 @@
+{
+ "row_id": "r112",
+ "scraped_at": "2026-10-11T11:05:56Z",
+ "contacts": {
+  "row_id": "r112",
+  "institution_name": "SLEZSKA UNIVERZITA V OPAVE",
+  "institution_type": "university",
+  "official_website": "https://kontakty.slu.cz/",
+  "country": {
+   "value": "Česká republika",
+   "source_url": "https://kontakty.slu.cz/",
+   "evidence_quote": "Rybníčku 626/1, 746 01 Opava, Česká republika"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini.",
+  "generic_email": "",
+  "generic_email_url": "",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Slezská univerzita v Opavě",
+    "city": "Opava",
+    "country": "Česká republika",
+    "role": "main",
+    "source_url": "https://kontakty.slu.cz/",
+    "evidence_quote": "Rybníčku 626/1, 746 01 Opava, Česká republika"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence provides contact directory headers and a general address, but lacks specific staff names with roles for international mobility, and does not list any partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 7.9,
+  "ai_calls": 2,
+  "model_s": 1.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 10.5
+ },
+ "rechecked": 4
+}
