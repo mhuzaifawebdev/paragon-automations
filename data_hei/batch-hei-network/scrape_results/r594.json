@@ -1,25 +1,37 @@
 {
  "row_id": "r594",
- "scraped_at": "2026-10-12T06:28:03Z",
+ "scraped_at": "2026-10-22T21:10:04Z",
  "contacts": {
   "row_id": "r594",
   "institution_name": "CAMPUS CARAÏBEEN DES ARTS",
   "institution_type": "college",
   "official_website": "https://cca-martinique.com/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "0596 60 86 36",
+   "source_url": "https://cca-martinique.com/mobilite-internationale/",
+   "evidence_quote": "Contact : myrtha.mariejoseph@cca-martinique.com / 0596 60 86 36"
+  },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 4,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read.",
   "generic_email": "contact@cca-martinique.com",
   "generic_email_url": "https://cca-martinique.com/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Myrtha Marie-Joseph",
+   "designation": "International Mobility Contact",
+   "designation_local": "",
+   "email": "myrtha.mariejoseph@cca-martinique.com",
+   "office_email": "",
+   "phone": "0596 60 86 36",
+   "source_url": "https://cca-martinique.com/mobilite-internationale/",
+   "evidence_quote": "Contact : myrtha.mariejoseph@cca-martinique.com / 0596 60 86 36"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Myrtha Marie-Joseph is explicitly listed as the contact for international mobility.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 6,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 11 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -208,25 +220,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 23.9,
-  "ai_calls": 3,
-  "partner_calls": 1,
+  "crawl_s": 152.5,
+  "ai_calls": 1,
+  "model_s": 2.3,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.8,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     141,
-     192
-    ],
-    "returned": 18,
-    "accepted": 18
-   }
-  ],
-  "total_seconds": 30.8
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 154.8
+ }
 }
