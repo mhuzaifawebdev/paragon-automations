@@ -1,6 +1,6 @@
 {
  "row_id": "r301",
- "scraped_at": "2026-10-22T13:50:40Z",
+ "scraped_at": "2026-10-22T20:32:26Z",
  "contacts": {
   "row_id": "r301",
   "institution_name": "HOCHSCHULE KAISERSLAUTERN",
@@ -11,13 +11,22 @@
   "phone_alt": [],
   "generic_email": "",
   "generic_email_url": "",
-  "contact": null,
+  "contact": {
+   "name": "Prof. Dr.-Ing. Michael Magin",
+   "designation": "Vice President for Internationalization",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.hs-kl.de/hochschule/profil/hochschulleitung/team-kontaktmoeglichkeiten",
+   "evidence_quote": "Prof. Dr.-Ing. Michael Magin, Vizepräsident für Internationalisierung (Foto: Alexandra Lechner) ... Vizepräsident für Internationalisierung"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Vice-rector for international affairs. He is the Vice President for Internationalization and oversees international affairs at the university.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.6,
   "needs_human_check": true,
-  "pages_read": 9,
+  "pages_read": 19,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
  },
  "network": {
@@ -1159,57 +1168,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 15.6,
-  "ai_calls": 7,
-  "partner_calls": 5,
+  "crawl_s": 174.6,
+  "ai_calls": 1,
+  "model_s": 13.1,
   "cost_usd_estimate": 0.0,
-  "model_s": 18.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 5,
-    "accepted": 5
-   },
-   {
-    "lines": [
-     561,
-     700
-    ],
-    "returned": 29,
-    "accepted": 29
-   },
-   {
-    "lines": [
-     701,
-     840
-    ],
-    "returned": 38,
-    "accepted": 38
-   },
-   {
-    "lines": [
-     841,
-     980
-    ],
-    "returned": 40,
-    "accepted": 38
-   },
-   {
-    "lines": [
-     981,
-     1099
-    ],
-    "returned": 34,
-    "accepted": 34
-   }
-  ],
-  "total_seconds": 34.9
- },
- "rechecked": 3
+  "email_search_s": 60.3,
+  "total_seconds": 248.1
+ }
 }
