@@ -1,10 +1,10 @@
 {
  "row_id": "r956",
- "scraped_at": "2026-10-12T07:36:35Z",
+ "scraped_at": "2026-10-22T14:16:16Z",
  "contacts": {
   "row_id": "r956",
   "institution_name": "Vysoka skola logistiky o.p.s.",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://vslg.cz/",
   "country": null,
   "phone": {
@@ -13,17 +13,25 @@
    "evidence_quote": "E-mail: veronika.matejickova@vslg.cz <veronika.matejickova@vslg.cz> / tel. + 420 581 259 144 <tel +420581259144>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "studijni@vslg.cz",
   "generic_email_url": "https://vslg.cz/studijni-oddeleni-kontaktni-misto/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Veronika Matějíčková",
+   "designation": "Erasmus coordinator",
+   "designation_local": "",
+   "email": "veronika.matejickova@vslg.cz",
+   "office_email": "",
+   "phone": "420 581 259 144",
+   "source_url": "https://vslg.cz/erasmus/",
+   "evidence_quote": "Mgr. Veronika Matějíčková (Místnost: 203)"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. She is explicitly identified as the Erasmus coordinator responsible for preparing documents and managing mobility activities.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -226,15 +234,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "SUSMILE",
-    "partner_country": "",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://vslg.cz/",
-    "evidence_quote": "VŠLG se podílí na testování logistické hry v rámci mezinárodního projektu SUSMILE.",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Česká logistická asociace",
     "partner_country": "Czech Republic",
     "partner_type": "other",
@@ -247,7 +246,7 @@
     "partner_name": "DHL",
     "partner_country": "unknown",
     "partner_type": "company",
-    "mobility_type": "unknown",
+    "mobility_type": "traineeship",
     "source_url": "https://vslg.cz/o-vslg/partneri-skoly/",
     "evidence_quote": "VŠLG dlouhodobě pracuje s vícero soukromými firmami a institucemi z veřejného sektoru. Kromě spolupráce na společných projektech přináší toto partnerství velké množství příležitostí stáží a praxí pro naše studenty, kde si mohou vyzkoušet aplikovat teorii v praxi. Mezi naše partnery patří například Česká logistická asociace, DHL, Olomoucký kraj, Schneider logistics či ŠKODA.",
     "confidence": 0.9
@@ -265,7 +264,7 @@
     "partner_name": "Schneider logistics",
     "partner_country": "unknown",
     "partner_type": "company",
-    "mobility_type": "unknown",
+    "mobility_type": "traineeship",
     "source_url": "https://vslg.cz/o-vslg/partneri-skoly/",
     "evidence_quote": "VŠLG dlouhodobě pracuje s vícero soukromými firmami a institucemi z veřejného sektoru. Kromě spolupráce na společných projektech přináší toto partnerství velké množství příležitostí stáží a praxí pro naše studenty, kde si mohou vyzkoušet aplikovat teorii v praxi. Mezi naše partnery patří například Česká logistická asociace, DHL, Olomoucký kraj, Schneider logistics či ŠKODA.",
     "confidence": 0.9
@@ -274,56 +273,69 @@
     "partner_name": "ŠKODA",
     "partner_country": "Czech Republic",
     "partner_type": "company",
-    "mobility_type": "unknown",
+    "mobility_type": "traineeship",
     "source_url": "https://vslg.cz/o-vslg/partneri-skoly/",
     "evidence_quote": "VŠLG dlouhodobě pracuje s vícero soukromými firmami a institucemi z veřejného sektoru. Kromě spolupráce na společných projektech přináší toto partnerství velké množství příležitostí stáží a praxí pro naše studenty, kde si mohou vyzkoušet aplikovat teorii v praxi. Mezi naše partnery patří například Česká logistická asociace, DHL, Olomoucký kraj, Schneider logistics či ŠKODA.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "United College Prague",
+    "partner_country": "Czech Republic",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://vslg.cz/en/erasmus/",
+    "evidence_quote": "United College Prague",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "College of International and Public Relations Prague",
+    "partner_country": "Czech Republic",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://vslg.cz/en/erasmus/",
+    "evidence_quote": "College of International and Public Relations Prague",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Institute of Hospitality Management and Economics",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://vslg.cz/en/erasmus/",
+    "evidence_quote": "The Institute of Hospitality Management and Economics",
     "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "VŠLG Praha",
+    "campus_name": "Vysoká škola logistiky",
     "city": "Praha",
     "country": "Czech Republic",
     "role": "branch",
     "source_url": "https://vslg.cz/",
     "evidence_quote": "Praha"
-   },
-   {
-    "campus_name": "VŠLG Přerov",
-    "city": "Přerov",
-    "country": "Czech Republic",
-    "role": "main",
-    "source_url": "https://vslg.cz/",
-    "evidence_quote": "Přerov"
-   },
-   {
-    "campus_name": "VŠLG Bratislava",
-    "city": "Bratislava",
-    "country": "Slovakia",
-    "role": "branch",
-    "source_url": "https://vslg.cz/",
-    "evidence_quote": "Bratislava"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 28,
+  "total_seen": 30,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of Erasmus+ partners, but does not state a total number of agreements. Contact information is limited to the Erasmus coordinator.",
+  "coverage_note": "The evidence provides a comprehensive list of Erasmus+ partners and contact information for the Erasmus coordinator. No specific total number of partners is stated.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.6,
-  "crawl_s": 13.8,
+  "discover_s": 0.0,
+  "crawl_s": 17.1,
   "ai_calls": 5,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 45.9,
+  "model_s": 7.6,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -338,8 +350,8 @@
      141,
      280
     ],
-    "returned": 11,
-    "accepted": 6
+    "returned": 5,
+    "accepted": 5
    },
    {
     "lines": [
@@ -352,13 +364,12 @@
    {
     "lines": [
      421,
-     492
+     479
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 3,
+    "accepted": 3
    }
   ],
-  "total_seconds": 62.3
- },
- "rechecked": true
+  "total_seconds": 24.7
+ }
 }
