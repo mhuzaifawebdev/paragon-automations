@@ -14,6 +14,7 @@ import sys
 import threading
 import time
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -276,7 +277,7 @@ SEARCH_MODEL = "claude-haiku-4-5"
 # running paid totals. input/output_tokens are Claude Haiku tokens; reader_micro_usd is paid reading by any other
 # model, kept as millionths of a dollar because each model has its own price
 SEARCH_USAGE = {"searches": 0, "input_tokens": 0, "output_tokens": 0, "reader_calls": 0, "reader_micro_usd": 0,
-                "brave_searches": 0}
+                "brave_searches": 0, "gemini_searches": 0}
 # USD: Claude $10 per 1,000 searches + Haiku 4.5 tokens. Brave $5 per 1,000; its monthly free credit (about 1,000
 # searches) is NOT subtracted here, so the batch total can only overstate what Brave really charges.
 SEARCH_PRICE = {"search": 0.01, "input_per_m": 1.0, "output_per_m": 5.0, "brave": 0.005}
@@ -329,6 +330,66 @@ def record_reader(input_tokens, output_tokens, price=None):
 
 def budget_left():
     return BUDGET["limit"] is None or spent_usd() < BUDGET["limit"]
+
+
+# Google search through the PAID Gemini key (the free key has no search). Google lets 5,000 searches a month go free
+# on Gemini 3 models, then charges $14 per 1,000; every search is counted at that price here anyway, so the cap can
+# only overstate what is really spent. Tokens at the paid Gemini reader's price.
+GEMINI_SEARCH_MODEL = "gemini-3.1-flash-lite"
+GEMINI_SEARCH_PRICE = {"per_search": 0.014, "input_per_m": 0.25, "output_per_m": 1.50}
+
+
+def _resolve(url):
+    """Google's grounding results are redirect links; the real page address is where they lead."""
+    if "grounding-api-redirect" not in url:
+        return url
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return r.geturl()
+    except urllib.error.HTTPError as e:            # the target refused HEAD, but the redirect already told us where
+        return e.geturl() if "grounding-api-redirect" not in (e.geturl() or "") else ""
+    except Exception:
+        return ""
+
+
+def _gemini_paid_urls(prompt, limit=5):
+    """One Google-search-grounded call with the paid Gemini key. Returns the pages it found (real addresses). Its
+    answer is never trusted as data: the caller opens each page and reads names and addresses from it."""
+    import os
+    key = os.environ.get("GEMINI_PAID_API_KEY")
+    if not key or not budget_left():
+        return []
+    body = json.dumps({"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                       "tools": [{"google_search": {}}], "generationConfig": {"temperature": 0}}).encode("utf-8")
+    req = urllib.request.Request(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_SEARCH_MODEL}:generateContent?key={key}",
+        data=body, headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            resp = json.loads(r.read().decode())
+    except Exception as e:
+        print(f"(Gemini search unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
+        return []
+    use = resp.get("usageMetadata") or {}
+    p = GEMINI_SEARCH_PRICE
+    with _usage_lock:
+        SEARCH_USAGE["gemini_searches"] += 1
+        SEARCH_USAGE["reader_micro_usd"] += round(p["per_search"] * 1e6 + (use.get("promptTokenCount") or 0) * p["input_per_m"]
+                                                  + (use.get("candidatesTokenCount") or 0) * p["output_per_m"])
+        _save_usage()
+    cand = (resp.get("candidates") or [{}])[0]
+    text = " ".join(x.get("text", "") for x in (cand.get("content") or {}).get("parts", []))
+    urls = [u.rstrip(".,;") for u in re.findall(r"https?://[^\s\"'<>)\]]+", text)]
+    urls += [(c.get("web") or {}).get("uri", "") for c in (cand.get("groundingMetadata") or {}).get("groundingChunks", [])]
+    out = []
+    for u in dict.fromkeys(u for u in urls if u):
+        real = _resolve(u)
+        if real and real not in out:
+            out.append(real)
+        if len(out) >= limit:
+            break
+    return out
 
 
 def _claude_urls(prompt, limit=5):
@@ -405,6 +466,9 @@ def person_pages(name, institution, domain, limit=4):
     query = f'"{name}" {domain} email'
     if os.environ.get("BRAVE_API_KEY"):
         urls = _brave_urls(query, limit)
+    elif os.environ.get("GEMINI_PAID_API_KEY"):
+        urls = _gemini_paid_urls(f"Search Google for: {query}\nList the URLs of pages that publish the work email "
+                                 f"address of {name} at {institution}.", limit)
     else:
         urls = _claude_urls(f'Search the web once for: "{name}" {domain} email\n'
                             f"The goal is to find pages that publish the work email address of {name} at {institution}. "
@@ -422,6 +486,10 @@ def staff_pages(institution, domain, limit=4):
     query = (f'site:{domain} (rector OR president OR director OR principal OR "head teacher" OR headmaster OR '
              f'"international office" OR erasmus OR staff OR team OR contact)')
     urls = _ddg_urls(query, limit * 2)
+    if not urls and os.environ.get("GEMINI_PAID_API_KEY"):
+        urls = _gemini_paid_urls(f"Search Google for pages on {domain} that name the leadership (rector, president, "
+                                 f"director, principal, head teacher), the international or Erasmus office, or the "
+                                 f"staff of {institution}. List the URLs.", limit * 2)
     if not urls and os.environ.get("ANTHROPIC_API_KEY") and budget_left():
         urls = _claude_urls(f"Search the web once for: {query}\nThe goal is to find pages on {domain} that name the "
                             f"leadership, the international/Erasmus office or the staff of {institution}. "

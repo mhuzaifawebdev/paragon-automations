@@ -317,6 +317,10 @@ br.discover._ddg_urls = lambda q, limit=5: ["https://www.x.edu/team", "https://o
 check("staff search keeps only pages on the institute's own site",
       br.discover.staff_pages("X University", "x.edu"), ["https://www.x.edu/team", "https://x.edu/rector"])
 br.discover._ddg_urls = real_ddg
+os.environ.pop("GEMINI_PAID_API_KEY", None)
+check("no paid Gemini key: no Google search is made (and nothing is spent)", br.discover._gemini_paid_urls("x"), [])
+check("an ordinary address is used as it is; only Google's redirect links are followed",
+      br.discover._resolve("https://x.edu/team"), "https://x.edu/team")
 
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

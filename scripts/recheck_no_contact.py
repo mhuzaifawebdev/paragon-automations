@@ -20,7 +20,8 @@ DATA = ROOT / "data_hei"
 # Round 2: contacts-only second read, named staff with their own email accepted, leadership pages crawled.
 # Round 3: the deep pass (--deep): the site's own staff/leadership pages found by search and read first, up to
 # 20 pages per site, partner lists not read again.
-ROUND = 3
+# Round 4: the deep pass with Google search through the paid Gemini key (discover._gemini_paid_urls).
+ROUND = 4
 
 
 def batches(data=DATA):
