@@ -108,29 +108,30 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 19.1,
-  "ai_calls": 15,
+  "discover_s": 0.0,
+  "crawl_s": 19.2,
+  "ai_calls": 16,
   "partner_calls": 14,
   "cost_usd_estimate": 0.0,
-  "model_s": 8.9,
+  "model_s": 11.9,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 4,
+    "returned": 5,
     "accepted": 4
    },
    {
@@ -138,23 +139,23 @@
      281,
      420
     ],
-    "returned": 5,
-    "accepted": 5
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 3,
+    "returned": 2,
     "accepted": 2
    },
    {
@@ -163,55 +164,55 @@
      840
     ],
     "returned": 4,
-    "accepted": 4
+    "accepted": 3
    },
    {
     "lines": [
      841,
      980
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
      981,
      1120
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
      1121,
      1260
     ],
-    "returned": 3,
-    "accepted": 2
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
      1261,
      1400
     ],
-    "returned": 6,
-    "accepted": 6
+    "returned": 5,
+    "accepted": 4
    },
    {
     "lines": [
      1401,
      1540
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
      1541,
      1680
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 2,
+    "accepted": 2
    },
    {
     "lines": [
@@ -224,13 +225,13 @@
    {
     "lines": [
      1821,
-     1900
+     1920
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 2,
+    "accepted": 2
    }
   ],
-  "total_seconds": 30.3
+  "total_seconds": 35.0
  },
  "rechecked": true
 }

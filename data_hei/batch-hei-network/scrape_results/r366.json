@@ -25,8 +25,8 @@
   "needs_human_check": true,
   "pages_read": 10,
   "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
+  "generic_email": "international@unc.nc",
+  "generic_email_url": "https://www.unc.nc/en/international-and-partnerships/outbound-mobility/student-applications/",
   "generic_checked": "2026-10-22"
  },
  "network": {
@@ -295,14 +295,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 6.5,
-  "crawl_s": 22.2,
-  "ai_calls": 6,
+  "discover_s": 0.0,
+  "crawl_s": 21.9,
+  "ai_calls": 7,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 7.7,
+  "model_s": 5.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
@@ -326,7 +327,7 @@
      420
     ],
     "returned": 6,
-    "accepted": 4
+    "accepted": 5
    },
    {
     "lines": [
@@ -334,18 +335,18 @@
      560
     ],
     "returned": 15,
-    "accepted": 15
+    "accepted": 12
    },
    {
     "lines": [
      561,
-     693
+     700
     ],
     "returned": 6,
     "accepted": 6
    }
   ],
-  "total_seconds": 36.4
+  "total_seconds": 28.6
  },
  "rechecked": true
 }

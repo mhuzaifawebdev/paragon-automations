@@ -1,6 +1,6 @@
 {
  "row_id": "r367",
- "scraped_at": "2026-10-12T05:41:16Z",
+ "scraped_at": "2026-10-22T13:53:17Z",
  "contacts": {
   "row_id": "r367",
   "institution_name": "REGION GRAND EST",
@@ -17,6 +17,8 @@
    "evidence_quote": "APPELEZ-NOUS <tel 0388156867>Du lundi au vendredi, de 8h30 à 17h30"
   },
   "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -24,13 +26,28 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 4 page(s) could not be read.",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 4 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
+   {
+    "partner_name": "Région Wallonie",
+    "partner_country": "Belgium",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.grandest.fr/le-transfrontalier-specificite-du-grand-est/la-region-entretient-des-relations-de-qualite-avec-ses-partenaires-frontaliers/",
+    "evidence_quote": "La Région Grand Est coopère donc avec les collectivités et Etat voisins. Ces coopérations peuvent être bilatérales ou multilatérales dans le cadre d’espaces de coopération. La Région est engagée dans 3 grands espaces de coopération que sont – d’ouest en est – l’Ardenne transfrontalière, la Grande Région et le Rhin Supérieur. Elle mène des coopérations bilatérales avec la Région Wallonie et la Fédération Wallonie-Bruxelles, l’Etat Luxembourgeois, les Länder frontaliers allemands et les cantons de",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fédération Wallonie-Bruxelles",
+    "partner_country": "Belgium",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.grandest.fr/le-transfrontalier-specificite-du-grand-est/la-region-entretient-des-relations-de-qualite-avec-ses-partenaires-frontaliers/",
+    "evidence_quote": "La Région Grand Est coopère donc avec les collectivités et Etat voisins. Ces coopérations peuvent être bilatérales ou multilatérales dans le cadre d’espaces de coopération. La Région est engagée dans 3 grands espaces de coopération que sont – d’ouest en est – l’Ardenne transfrontalière, la Grande Région et le Rhin Supérieur. Elle mène des coopérations bilatérales avec la Région Wallonie et la Fédération Wallonie-Bruxelles, l’Etat Luxembourgeois, les Länder frontaliers allemands et les cantons de",
+    "confidence": 0.9
+   },
    {
     "partner_name": "Mission opérationnelle transfrontalière (MOT)",
     "partner_country": "France",
@@ -52,10 +69,19 @@
    {
     "partner_name": "Office franco-allemand pour la Jeunesse (OFAJ)",
     "partner_country": "France/Germany",
-    "partner_type": "network",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.grandest.fr/le-transfrontalier-specificite-du-grand-est/la-region-entretient-des-relations-de-qualite-avec-ses-partenaires-frontaliers/",
     "evidence_quote": "l’Office franco-allemand pour la Jeunesse (OFAJ) créé en 1963 afin de développer les échanges entre les jeunes français et allemands ;",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Comité de coopération transfrontalière (CCT)",
+    "partner_country": "France/Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.grandest.fr/le-transfrontalier-specificite-du-grand-est/la-region-entretient-des-relations-de-qualite-avec-ses-partenaires-frontaliers/",
+    "evidence_quote": "et le Comité de coopération transfrontalière (CCT) dont les principales finalités sont d’identifier les obstacles sur la frontière franco-allemande, de formuler des propositions destinées au conseil de ministres franco-allemand et de faire de l’observation territoriale sur la frontière franco-allemande.",
     "confidence": 0.9
    },
    {
@@ -93,7 +119,7 @@
     "country": "France",
     "role": "main",
     "source_url": "https://www.grandest.fr/contact/",
-    "evidence_quote": "Strasbourg"
+    "evidence_quote": "Siège du Conseil Régional (Strasbourg) et Hôtels de Région (Metz et Châlons-en-Champagne)"
    },
    {
     "campus_name": "Hôtel de Région",
@@ -101,29 +127,30 @@
     "country": "France",
     "role": "branch",
     "source_url": "https://www.grandest.fr/contact/",
-    "evidence_quote": "Metz"
+    "evidence_quote": "Siège du Conseil Régional (Strasbourg) et Hôtels de Région (Metz et Châlons-en-Champagne)"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 6,
+  "total_seen": 9,
   "pages_read": 10,
-  "coverage_note": "The institution is a regional government body (Région Grand Est) rather than an educational institution, so it does not have Erasmus+ coordinators or a standard partner list. No specific contact person is named in the provided evidence. 4 page(s) could not be read.",
+  "coverage_note": "The institution is a regional government body rather than an educational institution, though it manages funding for mobility. No specific Erasmus+ coordinator or international relations officer is named. 4 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 0.8,
-  "crawl_s": 19.0,
-  "ai_calls": 1,
+  "discover_s": 0.0,
+  "crawl_s": 40.2,
+  "ai_calls": 2,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 2.0,
+  "model_s": 3.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "total_seconds": 21.8
+  "contact_pass": 0,
+  "total_seconds": 44.2
  },
  "rechecked": true
 }
