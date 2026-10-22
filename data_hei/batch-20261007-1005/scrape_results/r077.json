@@ -1,10 +1,10 @@
 {
  "row_id": "r077",
- "scraped_at": "2026-10-07T18:25:30Z",
+ "scraped_at": "2026-10-22T11:17:46Z",
  "contacts": {
   "row_id": "r077",
   "institution_name": "Merz Akademie gGmbh",
-  "institution_type": "university",
+  "institution_type": "college",
   "official_website": "https://www.merz-akademie.de/",
   "country": {
    "value": "Deutschland",
@@ -17,14 +17,25 @@
    "evidence_quote": "Telefon +49 71 1 268 66-47"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "international.office@merz-akademie.de",
+  "generic_email_url": "https://www.merz-akademie.de/kontakt/",
+  "contact": {
+   "name": "Barbara M. Eggert",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.merz-akademie.de/kooperationen/",
+   "evidence_quote": "v.l.n.r: Oliver Hermann, Freies Radio für Stuttgart, Isabel Huber, Projektkoordinatorin MoMO, Barbara M. Eggert, Rektorin der Merz Akademie, Ahmed Özcan, ComputerSpielSchule im Stadtmedienzentrum"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Principal / director (no Erasmus contact found). Barbara M. Eggert is the Rector and head of the institution.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -32,7 +43,7 @@
     "partner_name": "Academy of Fine Arts Gdansk",
     "partner_country": "Polen",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Academy of Fine Arts Gdansk, Danzig, Polen",
     "confidence": 0.9
@@ -41,7 +52,7 @@
     "partner_name": "Athens School of Fine Arts",
     "partner_country": "Griechenland",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Athens School of Fine Arts, Griechenland",
     "confidence": 0.9
@@ -49,8 +60,8 @@
    {
     "partner_name": "École de recherche graphique (ERG)",
     "partner_country": "Belgien",
-    "partner_type": "university",
-    "mobility_type": "study",
+    "partner_type": "college",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "École de recherche graphique (ERG), Brüssel, Belgien",
     "confidence": 0.9
@@ -59,7 +70,7 @@
     "partner_name": "École Nationale Supérieure D’Arts de Paris-Cergy",
     "partner_country": "Frankreich",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "École Nationale Supérieure D’Arts de Paris-Cergy, Frankreich",
     "confidence": 0.9
@@ -67,8 +78,8 @@
    {
     "partner_name": "École Nationale Supérieure d’Art et de Design de Dijon",
     "partner_country": "Frankreich",
-    "partner_type": "university",
-    "mobility_type": "study",
+    "partner_type": "college",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "École Nationale Supérieure d’Art et de Design de Dijon, Frankreich",
     "confidence": 0.9
@@ -77,7 +88,7 @@
     "partner_name": "Fachhochschule Nordwestschweiz, Hochschule für Technik",
     "partner_country": "Schweiz",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Fachhochschule Nordwestschweiz, Hochschule für Technik, Windisch, Schweiz",
     "confidence": 0.9
@@ -85,8 +96,8 @@
    {
     "partner_name": "Gerrit Rietveld Academie",
     "partner_country": "Niederlande",
-    "partner_type": "university",
-    "mobility_type": "study",
+    "partner_type": "college",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Gerrit Rietveld Academie, Amsterdam, Niederlande",
     "confidence": 0.9
@@ -94,8 +105,8 @@
    {
     "partner_name": "Haute école des arts du Rhin (HEAR)",
     "partner_country": "Frankreich",
-    "partner_type": "university",
-    "mobility_type": "study",
+    "partner_type": "college",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Haute école des arts du Rhin (HEAR), Strasbourg, Frankreich",
     "confidence": 0.9
@@ -103,8 +114,8 @@
    {
     "partner_name": "HEAD – Geneva School of Art and Design",
     "partner_country": "Schweiz",
-    "partner_type": "university",
-    "mobility_type": "study",
+    "partner_type": "college",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "HEAD – Geneva School of Art and Design, Genf, Schweiz",
     "confidence": 0.9
@@ -113,7 +124,7 @@
     "partner_name": "Hongik University",
     "partner_country": "Südkorea",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Hongik University, Seoul, Südkorea",
     "confidence": 0.9
@@ -122,7 +133,7 @@
     "partner_name": "Kunstuniversität Linz",
     "partner_country": "Österreich",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Kunstuniversität Linz, Österreich",
     "confidence": 0.9
@@ -131,7 +142,7 @@
     "partner_name": "Oslo National Academy of the Art",
     "partner_country": "Norwegen",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Oslo National Academy of the Art, Olso, Norwegen",
     "confidence": 0.9
@@ -140,7 +151,7 @@
     "partner_name": "The Royal Danish Art Academy of Fine Arts",
     "partner_country": "Dänemark",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "The Royal Danish Art Academy of Fine Arts, Kopenhagen, Dänemark",
     "confidence": 0.9
@@ -149,7 +160,7 @@
     "partner_name": "Shanghai Theatre Academy",
     "partner_country": "China",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Shanghai Theatre Academy, Shanghai, China",
     "confidence": 0.9
@@ -157,8 +168,8 @@
    {
     "partner_name": "Srishti Manipal Institute of Art, Design and Technology",
     "partner_country": "Indien",
-    "partner_type": "university",
-    "mobility_type": "study",
+    "partner_type": "college",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Srishti Manipal Institute of Art, Design and Technology, Bangalore, Indien",
     "confidence": 0.9
@@ -167,7 +178,7 @@
     "partner_name": "Taipei National University of the Arts",
     "partner_country": "Taiwan",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Taipei National University of the Arts, Taipei, Taiwan",
     "confidence": 0.9
@@ -176,7 +187,7 @@
     "partner_name": "Technological University Dublin",
     "partner_country": "Irland",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Technological University Dublin, Irland",
     "confidence": 0.9
@@ -185,7 +196,7 @@
     "partner_name": "Universidad Autónoma de Madrid",
     "partner_country": "Spanien",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Universidad Autónoma de Madrid, Spanien",
     "confidence": 0.9
@@ -194,16 +205,16 @@
     "partner_name": "Universidad del Rosario",
     "partner_country": "Kolumbien",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Universidad del Rosario, Bogotá, Kolumbien",
     "confidence": 0.9
    },
    {
-    "partner_name": "Universität für angewandte Kunst",
+    "partner_name": "Universität für angewandte Kunst, Wien",
     "partner_country": "Österreich",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Universität für angewandte Kunst, Wien, Österreich",
     "confidence": 0.9
@@ -212,7 +223,7 @@
     "partner_name": "University Beira Interior",
     "partner_country": "Portugal",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "University Beira Interior, Covilhã, Portugal",
     "confidence": 0.9
@@ -221,16 +232,16 @@
     "partner_name": "University of Lisbon",
     "partner_country": "Portugal",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "University of Lisbon, Lissabon, Portugal",
     "confidence": 0.9
    },
    {
     "partner_name": "University of Luxembourg",
-    "partner_country": "Luxemburg",
+    "partner_country": "Luxembourg",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "University of Luxembourg, Esch-sur-Alzette",
     "confidence": 0.9
@@ -239,7 +250,7 @@
     "partner_name": "University of Porto",
     "partner_country": "Portugal",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "University of Porto, Portugal",
     "confidence": 0.9
@@ -248,7 +259,7 @@
     "partner_name": "University of Portsmouth",
     "partner_country": "UK",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "University of Portsmouth, UK",
     "confidence": 0.9
@@ -257,7 +268,7 @@
     "partner_name": "University of Warmia and Mazury",
     "partner_country": "Polen",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "University of Warmia and Mazury, Olsztyn, Polen",
     "confidence": 0.9
@@ -266,7 +277,7 @@
     "partner_name": "Vilnius Academy of Arts",
     "partner_country": "Litauen",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Vilnius Academy of Arts, Vilnius, Litauen",
     "confidence": 0.9
@@ -274,15 +285,105 @@
    {
     "partner_name": "Willem de Kooning Academy",
     "partner_country": "Niederlande",
-    "partner_type": "university",
-    "mobility_type": "study",
+    "partner_type": "college",
+    "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/international-office/",
     "evidence_quote": "Willem de Kooning Academy, Rotterdam, Niederlande",
     "confidence": 0.9
    },
    {
+    "partner_name": "Animation Media Creators Region Stuttgart",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "Animation Media Creators Region Stuttgart",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Centre for the Advanced Study of Collective Behaviour",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "Centre for the Advanced Study of Collective Behaviour",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Campus Gegenwart",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "Campus Gegenwart",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lichtspiel - Netzwerk kulturelle Filmbildung",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "Lichtspiel - Netzwerk kulturelle Filmbildung",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Haus für Film und Medien",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "Haus für Film und Medien",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MoMO",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "MoMO",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SMZ Stuttgart",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "SMZ Stuttgart",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stadtbibliothek",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "Stadtbibliothek",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "WKV",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "WKV",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AMCRS",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "Seit September 2023 ist die Merz Akademie Mitglied bei AMCRS. Aktuell wird die Gestaltungshochschule dort vertreten durch Prof. Mario Doulis und Jörg Frohnmayer (New Media). Die Creators-Initiative fördert den Know-how- und Technologietransfer und stärkt die interdisziplinäre Zusammenarbeit.",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Universität Konstanz",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -291,7 +392,7 @@
    },
    {
     "partner_name": "Max-Planck-Institut für Verhaltensbiologie",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -300,7 +401,7 @@
    },
    {
     "partner_name": "Hochschule für Musik und Darstellende Kunst Stuttgart",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -309,7 +410,7 @@
    },
    {
     "partner_name": "Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -318,7 +419,7 @@
    },
    {
     "partner_name": "Staatliche Akademie der Bildenden Künste Stuttgart",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -327,7 +428,7 @@
    },
    {
     "partner_name": "DFF – Deutsches Filminstitut Filmmuseum",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -336,8 +437,8 @@
    },
    {
     "partner_name": "KHM",
-    "partner_country": "Germany",
-    "partner_type": "school",
+    "partner_country": "",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
     "evidence_quote": "“Lichtspiel – Netzwerk kulturelle Filmbildung” wurde 2024 von Kino- und Filmemacher*innen sowie von Vertreter*innen von Filminstitutionen u.a. wie dem DFF – Deutsches Filminstitut Filmmuseum, der KHM, der Deutschen Filmakademie, der Deutschen Kinemathek, dem Filmhaus Köln, der Uni Köln und der Merz Akademie gegründet. Das Netzwerk begreift Filmbildung im Sinne der Kulturellen Bildung als Teil einer lebendigen Filmkultur – unabhängig von kommerziellen Interessen und eng verbunden mit dem Kulturor",
@@ -345,7 +446,7 @@
    },
    {
     "partner_name": "Deutsche Filmakademie",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -354,7 +455,7 @@
    },
    {
     "partner_name": "Deutsche Kinemathek",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -363,7 +464,7 @@
    },
    {
     "partner_name": "Filmhaus Köln",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -372,7 +473,7 @@
    },
    {
     "partner_name": "Uni Köln",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -381,7 +482,7 @@
    },
    {
     "partner_name": "Akademie der Bildenden Künste Stuttgart",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -390,7 +491,7 @@
    },
    {
     "partner_name": "Filmbüro Baden-Württemberg",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -399,7 +500,7 @@
    },
    {
     "partner_name": "Film Commission Region Stuttgart",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -408,7 +509,7 @@
    },
    {
     "partner_name": "Forum der Kulturen",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -417,7 +518,7 @@
    },
    {
     "partner_name": "Haus des Dokumentarfilms",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -426,7 +527,7 @@
    },
    {
     "partner_name": "Landesverband Kommunale Kinos Baden-Württemberg",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -435,7 +536,7 @@
    },
    {
     "partner_name": "Linden-Museum",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -444,7 +545,7 @@
    },
    {
     "partner_name": "Stadtteilkino Stuttgart",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -453,7 +554,7 @@
    },
    {
     "partner_name": "Stuttgarter Jugendhaus",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -462,7 +563,7 @@
    },
    {
     "partner_name": "vhs Stuttgart",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -471,7 +572,7 @@
    },
    {
     "partner_name": "Cumulus Association",
-    "partner_country": "unknown",
+    "partner_country": "",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -480,7 +581,7 @@
    },
    {
     "partner_name": "ELIA (European League of Institutes of the Arts)",
-    "partner_country": "unknown",
+    "partner_country": "",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -489,7 +590,7 @@
    },
    {
     "partner_name": "Aktivspielplatz Raitelsberg e.V.",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -498,7 +599,7 @@
    },
    {
     "partner_name": "Stadtmedienzentrum Stuttgart (SMZ)",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -507,7 +608,7 @@
    },
    {
     "partner_name": "Kinder- und Jugendhaus Ostend",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -516,7 +617,7 @@
    },
    {
     "partner_name": "Freies Radio Stuttgart",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -524,8 +625,26 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Stadtmedienzentrum",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "Die Merz Akademie kooperiert mit dem in unmittelbarer Nähe gelegenem Stadtmedienzentrum und der ComputerSpielSchule Stuttgart bei Veranstaltungen, Fortbildungen und Workshops. Den Studierenden der Merz Akademie steht zudem der Zugang zum Medien- und Geräteverleih offen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ComputerSpielSchule Stuttgart",
+    "partner_country": "",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/kooperationen/",
+    "evidence_quote": "Die Merz Akademie kooperiert mit dem in unmittelbarer Nähe gelegenem Stadtmedienzentrum und der ComputerSpielSchule Stuttgart bei Veranstaltungen, Fortbildungen und Workshops. Den Studierenden der Merz Akademie steht zudem der Zugang zum Medien- und Geräteverleih offen.",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Stadtbibliothek Stuttgart",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -533,8 +652,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Württembergischer Kunstverein Stuttgart",
-    "partner_country": "Germany",
+    "partner_name": "Württembergischen Kunstverein Stuttgart",
+    "partner_country": "",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.merz-akademie.de/kooperationen/",
@@ -560,6 +679,15 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Universität für angewandte Kunst",
+    "partner_country": "Österreich",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.merz-akademie.de/international-office/",
+    "evidence_quote": "Universität für angewandte Kunst, Wien, Österreich",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Motel One",
     "partner_country": "",
     "partner_type": "company",
@@ -575,8 +703,8 @@
     "city": "Stuttgart",
     "country": "Germany",
     "role": "main",
-    "source_url": "https://www.merz-akademie.de/kontakt/",
-    "evidence_quote": "Teckstraße 58"
+    "source_url": "https://www.merz-akademie.de/",
+    "evidence_quote": "Hochschule für Gestaltung, Kunst und Medien, Stuttgart"
    }
   ],
   "stated_total": 350,
@@ -585,17 +713,53 @@
   "truncated": true,
   "total_seen": 350,
   "pages_read": 10,
-  "coverage_note": "All partner universities explicitly listed under the International Office's partner page have been captured. No separate total partner count was explicitly stated in the provided text.",
+  "coverage_note": "The evidence provides a comprehensive list of partner universities for student exchange as well as contact details for the International Office.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.5,
-  "crawl_s": 13.6,
+  "discover_s": 0.0,
+  "crawl_s": 7.4,
+  "ai_calls": 5,
+  "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 17.8,
+  "model_s": 180.1,
   "mode": "gemini",
-  "total_seconds": 32.9
- },
- "rechecked": true
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 41,
+    "accepted": 41
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 30,
+    "accepted": 30
+   },
+   {
+    "lines": [
+     421,
+     529
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 188.8
+ }
 }

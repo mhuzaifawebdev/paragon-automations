@@ -1,14 +1,20 @@
 {
  "row_id": "r078",
- "scraped_at": "2026-10-07T18:25:36Z",
+ "scraped_at": "2026-10-22T11:18:04Z",
  "contacts": {
   "row_id": "r078",
   "institution_name": "Det Jyske Musikkonservatorium",
   "institution_type": "college",
   "official_website": "https://musikkons.dk/",
-  "country": null,
+  "country": {
+   "value": "Danmark",
+   "source_url": "https://musikkons.dk/",
+   "evidence_quote": "500+ årlige koncerter i Danmark"
+  },
   "phone": null,
   "phone_alt": [],
+  "generic_email": "mail@musikkons.dk",
+  "generic_email_url": "https://musikkons.dk/",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -16,7 +22,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -57,6 +63,33 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "CKU",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/capacity-building-projects/",
+    "evidence_quote": "The program is supported by CKU (Danish Centre for Culture and Development) and the Danish Embassy in Mali.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Danish Embassy in Mali",
+    "partner_country": "Mali",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/capacity-building-projects/",
+    "evidence_quote": "The program is supported by CKU (Danish Centre for Culture and Development) and the Danish Embassy in Mali.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SPOT festival",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/capacity-building-projects/",
+    "evidence_quote": "The large scale cooperation with Mali also includes collaboration with Danish SPOT festival with the focus of creating a platform (“SPOT on MALI Music”) for talent development of young promising Mali musicians. The most visible result is an annual showcase festival in Bamako and a corresponding webpage and interactive Facebook group www.spotonmalimusic.org and www.facebook.com/spotonmalimusic",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "European Association of Music Conservatories, AEC",
     "partner_country": "",
     "partner_type": "network",
@@ -66,12 +99,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Nordic Network for Jazz/Pop, NordPULS network",
+    "partner_name": "Nordic Network for Jazz/Pop",
     "partner_country": "",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
     "evidence_quote": "Furthermore RAMA is coordinator for the Nordic Network for Jazz/Pop (“rhythmic”) music, the NordPULS network.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NordPlus",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
+    "evidence_quote": "RAMA and two other Nordic music institutions have gathered their forces to set this focus on gender balance and equity. With support from NordPlus they have developed a three-year plan for conferences in major, nordic cities. In Kristianssand (2019), the focus was on the unequal gender balance in higher music education. In Aalborg (March 2020) the conference will be zooming in on the years before reaching a higher music education – from different takes on preschool education to culture schools, ",
     "confidence": 0.9
    },
    {
@@ -90,15 +132,6 @@
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
     "evidence_quote": "“SIBRA” is a close strategic alliance with the Sibelius academy (Helsinki, Finland) on globalization and entrepreneurial thinking in music education. This alliance has facilitated Nordic study programs like NOMAZZ and it has laid the foundation for Act in Art and the GLOMUS network",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Renew project",
-    "partner_country": "",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
-    "evidence_quote": "RAMA was a partner in the Renew project under the Erasmus+ education program. The program was working with a new platform for e learning and entrepreneurship. The program ended in 2018. The partnership included the music conservatories in The Hague, Oslo, Helsinki, the Guildhall Conservatory in London and AEC.",
     "confidence": 0.9
    },
    {
@@ -156,6 +189,15 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Århus Universitet",
+    "partner_country": "Denmark",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
+    "evidence_quote": "CFIN, som er en del af Klinisk Institut på Århus Universitet og er tilknyttet Århus Sygehus, forsøger gennem videnskabelige eksperimenter at kortlægge den menneskelige hjerne og forsker i hvordan denne reagerer på forskellige påvirkninger.",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Århus Universitetshospital",
     "partner_country": "Denmark",
     "partner_type": "other",
@@ -167,7 +209,7 @@
    {
     "partner_name": "Center for Kognitiv Semiotik ved Århus Universitet (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Center for Kognitiv Semiotik ved Århus Universitet (AU)",
@@ -176,7 +218,7 @@
    {
     "partner_name": "Center for Kulturforskning (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Center for Kulturforskning (AU)",
@@ -185,7 +227,7 @@
    {
     "partner_name": "Datalogisk Institut (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Datalogisk Institut (AU)",
@@ -194,7 +236,7 @@
    {
     "partner_name": "Center for Avanceret Visualisering og Interaktion (CAVI, AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Center for Avanceret Visualisering og Interaktion (CAVI, AU)",
@@ -203,16 +245,16 @@
    {
     "partner_name": "Center for digital Æstetikforskning (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
-    "evidence_quote": "Center for Digital Æstetikforskning på Århus Universitet forsker i digital æstetik.",
+    "evidence_quote": "Center for digital Æstetikforskning (AU)",
     "confidence": 0.9
    },
    {
-    "partner_name": "Institut for Design, Arkitektskolen i Århus",
+    "partner_name": "Arkitektskolen i Århus",
     "partner_country": "Denmark",
-    "partner_type": "school",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Institut for Design, Arkitektskolen i Århus",
@@ -221,7 +263,7 @@
    {
     "partner_name": "Psykologisk Institut (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Psykologisk Institut (AU)",
@@ -230,7 +272,7 @@
    {
     "partner_name": "Institut for Antropologi (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Institut for Antropologi (AU)",
@@ -266,7 +308,7 @@
    {
     "partner_name": "Cognitive Brain Research Unit, Helsinki",
     "partner_country": "Finland",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Cognitive Brain Research Unit, Helsinki",
@@ -282,9 +324,9 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Functional Imaging Laboratory at the Wellcome Department of Imaging Neuroscience",
+    "partner_name": "University College London",
     "partner_country": "United Kingdom",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Functional Imaging Laboratory at the Wellcome Department of Imaging Neuroscience (London)",
@@ -300,12 +342,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "RAMA Vocal Center",
+    "partner_name": "Aarhus Vocal Festival (AAVF)",
     "partner_country": "Denmark",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/djm-samarbejdspartner-for-aavf/",
-    "evidence_quote": "Konservatoriet er partner ved AAVF og præsenterer 22 studerende og alumner ved lørdagens hovedkoncert med temaet: Elements of the North. DJM afholder også en masterclass med undervisere fra RAMA Vocal Center, torsdag kl. 10-14. Masterclassen henvender sig til korledere og ensemblesangere, der ønsker at få et overblik over de nyeste og mest innovative arbejdsformer inden for rytmisk vokalmusik.",
+    "evidence_quote": "Aarhus Vocal Festival (AAVF) er en af de førende europæiske festivaler for moderne kor- og acappella-musik inden for pop-, rock-, jazz- og verdensmusikken. I 2019 finder AAVF sted fra d. 30. maj til d. 2. juni, hvor næsten 1000 korentusiaster fra hele verden mødes til fire intense dage med workshops, foredrag, koncerter og “sing-alongs”.",
     "confidence": 0.9
    },
    {
@@ -354,26 +396,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Gradus Junior College",
-    "partner_country": "",
-    "partner_type": "college",
-    "mobility_type": "unknown",
-    "source_url": "https://musikkons.dk/en/what-else/cooperation/",
-    "evidence_quote": "Gradus Junior College",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "CKU (Danish Centre for Culture and Development)",
     "partner_country": "Denmark",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/capacity-building-projects/",
-    "evidence_quote": "The program is supported by CKU (Danish Centre for Culture and Development) and the Danish Embassy in Mali.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Danish Embassy in Mali",
-    "partner_country": "Mali",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/capacity-building-projects/",
@@ -399,6 +423,24 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Saint Louis College of Music in Rome",
+    "partner_country": "Italy",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/harmony-festival-young-people-playing-for-young-people/",
+    "evidence_quote": "Blandt de mange bands er Urban Quartet fra Saint Louis College of Music i Rom. Kvartetten blander klassisk jazz med andre elementer og eksperimenterer med rytme og harmonier.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut for Design, Arkitektskolen i Århus",
+    "partner_country": "Denmark",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
+    "evidence_quote": "Institut for Design, Arkitektskolen i Århus",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Functional Imaging Laboratory at the Wellcome Department of Imaging Neuroscience (London)",
     "partner_country": "United Kingdom",
     "partner_type": "university",
@@ -419,47 +461,51 @@
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Det Jyske Musikkonservatorium Aarhus",
+    "campus_name": "Det Jyske Musikkonservatorium",
     "city": "Aarhus",
     "country": "Denmark",
     "role": "main",
     "source_url": "https://musikkons.dk/",
     "evidence_quote": "Aarhus"
-   },
-   {
-    "campus_name": "Det Jyske Musikkonservatorium Aalborg",
-    "city": "Aalborg",
-    "country": "Denmark",
-    "role": "branch",
-    "source_url": "https://musikkons.dk/",
-    "evidence_quote": "Aalborg"
-   },
-   {
-    "campus_name": "Det Jyske Musikkonservatorium Holstebro",
-    "city": "Holstebro",
-    "country": "Denmark",
-    "role": "branch",
-    "source_url": "https://musikkons.dk/",
-    "evidence_quote": "Holstebro"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 44,
+  "total_seen": 48,
   "pages_read": 10,
-  "coverage_note": "The evidence lists multiple networks, research collaborations, and project partners, but does not provide a comprehensive standalone directory or list of specific Erasmus+ bilateral exchange partner universities.",
+  "coverage_note": "The provided text does not contain named administrative contacts or specific Erasmus partner lists with contact persons, only institutional partners and networks.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.0,
-  "crawl_s": 19.1,
+  "discover_s": 0.0,
+  "crawl_s": 13.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 17.5,
+  "model_s": 150.8,
   "mode": "gemini",
-  "total_seconds": 38.6
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 32,
+    "accepted": 31
+   }
+  ],
+  "total_seconds": 163.8
  },
  "rechecked": true
 }
