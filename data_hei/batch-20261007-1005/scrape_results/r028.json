@@ -1,6 +1,6 @@
 {
  "row_id": "r028",
- "scraped_at": "2026-10-07T17:28:05Z",
+ "scraped_at": "2026-10-22T11:12:58Z",
  "contacts": {
   "row_id": "r028",
   "institution_name": "TESTNEVELESI EGYETEM",
@@ -17,14 +17,37 @@
    "evidence_quote": "Telefon: +36-1-487-9200"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "info@tf.hu",
+  "generic_email_url": "https://www.tf.hu/",
+  "contact": {
+   "name": "Koppa Györgyi",
+   "designation": "international partner relations coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.tf.hu/",
+   "evidence_quote": "A Magyar Testnevelési és Sporttudományi Egyetem (TF) képviseletében Koppa Györgyi nemzetközi partnerkapcsolati koordinátor vett részt az EAIE (European Association for International Education) éves konferenciáján, amely az európai felsőoktatás nemzetköziesítésének egyik legjelentősebb szakmai rendezvénye."
+  },
+  "alternates": [
+   {
+    "name": "Sterbenz Tamás",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.tf.hu/",
+    "evidence_quote": "Újabb öt évre Sterbenz Tamás a TF rektora",
+    "why_chosen": "Principal / director (no Erasmus contact found). Prof. Dr. Sterbenz Tamás is the rector and head of the institution."
+   }
+  ],
+  "rung": "International relations officer. Koppa Györgyi is listed as the international partner relations coordinator representing the institution at European international education events.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.7,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -517,12 +540,32 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.8,
-  "crawl_s": 13.9,
+  "discover_s": 0.0,
+  "crawl_s": 6.2,
+  "ai_calls": 3,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 301.6,
+  "model_s": 52.5,
   "mode": "gemini",
-  "total_seconds": 318.4
- },
- "rechecked": true
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 8,
+    "accepted": 8
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 45,
+    "accepted": 42
+   }
+  ],
+  "total_seconds": 60.1
+ }
 }

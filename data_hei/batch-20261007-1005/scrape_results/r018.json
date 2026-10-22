@@ -16,7 +16,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: email domain. mode: gemini.",
+  "generic_email": "erasmus@h-da.de",
+  "generic_email_url": "https://h-da.de/hochschule/eut/eut-mobilitaet"
  },
  "network": {
   "external_collaboration": [
@@ -266,12 +268,40 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.5,
-  "crawl_s": 15.9,
+  "discover_s": 0.0,
+  "crawl_s": 14.1,
+  "ai_calls": 4,
+  "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 36.4,
+  "model_s": 59.4,
   "mode": "gemini",
-  "total_seconds": 54.9
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 6,
+    "accepted": 6
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 13,
+    "accepted": 11
+   },
+   {
+    "lines": [
+     281,
+     402
+    ],
+    "returned": 7,
+    "accepted": 7
+   }
+  ],
+  "total_seconds": 73.5
  },
  "rechecked": true
 }
