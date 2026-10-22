@@ -1,6 +1,6 @@
 {
  "row_id": "r588",
- "scraped_at": "2026-10-22T14:01:27Z",
+ "scraped_at": "2026-10-22T21:09:13Z",
  "contacts": {
   "row_id": "r588",
   "institution_name": "Fakulteta za industrijski inzeniring Novo mesto",
@@ -8,8 +8,8 @@
   "official_website": "https://www.fini-unm.si/",
   "country": {
    "value": "Slovenia",
-   "source_url": "https://www.fini-unm.si/",
-   "evidence_quote": "V Sloveniji, EU in globalno je prisotna visoka stopnja zaposljivosti diplomantov na področju strojništva. Delodajalci izražajo potrebo po strokovnih kadrih, katerih znanja obsegajo tehnična in tehnološka znanja."
+   "source_url": "https://www.fini-unm.si/en/business-card/",
+   "evidence_quote": "Country: | Slovenia |"
   },
   "phone": {
    "value": "07/39 32 206",
@@ -19,13 +19,22 @@
   "phone_alt": [],
   "generic_email": "erasmus@fini-unm.si",
   "generic_email_url": "https://www.fini-unm.si/mednarodno-sodelovanje/erasmus/",
-  "contact": null,
+  "contact": {
+   "name": "Lucija Galič",
+   "designation": "Secretary General",
+   "designation_local": "",
+   "email": "lucija.galic@fini-unm.si",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.fini-unm.si/en/business-card/organization/",
+   "evidence_quote": "Secretary General ... Lucija Galič, MSc, Sen. Lect."
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Secretary / administration (last resort). Lucija Galič is the Secretary General and also serves as the practice coordinator for students.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 8,
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 18,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
@@ -215,33 +224,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 18.6,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 147.5,
+  "ai_calls": 1,
+  "model_s": 3.4,
   "cost_usd_estimate": 0.0,
-  "model_s": 8.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 15,
-    "accepted": 15
-   },
-   {
-    "lines": [
-     421,
-     483
-    ],
-    "returned": 3,
-    "accepted": 3
-   }
-  ],
-  "total_seconds": 28.0
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 150.9
+ }
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r582",
- "scraped_at": "2026-10-22T14:01:11Z",
+ "scraped_at": "2026-10-22T21:09:05Z",
  "contacts": {
   "row_id": "r582",
   "institution_name": "LYCEE GENERAL TECHNO ALAIN RENE LESAGE",
@@ -15,14 +15,35 @@
   "phone_alt": [],
   "generic_email": "",
   "generic_email_url": "",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Vincent Bourdon",
+   "designation": "Mathematics teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lycee-lesage.fr/une-equipe-du-lycee-lesage-en-finale-du-tournoi-francais-des-jeunes-mathematiciennes-et-mathematiciens/",
+   "evidence_quote": "Tous enthousiastes à l’idée de discuter de mathématiques avec d’autres lycéens mais aussi avec de jeunes chercheurs et étudiants, l’équipe s’est déplacée avec cette motivation de partage, accompagnée par deux professeurs de mathématiques Vincent Bourdon et François Sauvageot. Il n’est en effet pas nécessaire d’être un génie des mathématiques pour participer à ce tournoi, mais simplement d’avoir envie de chercher et résoudre des problèmes. Bien que les cinq lycéens n’aient pas gagné, l’aventure a"
+  },
+  "alternates": [
+   {
+    "name": "François Sauvageot",
+    "designation": "Mathematics teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lycee-lesage.fr/une-equipe-du-lycee-lesage-en-finale-du-tournoi-francais-des-jeunes-mathematiciennes-et-mathematiciens/",
+    "evidence_quote": "Tous enthousiastes à l’idée de discuter de mathématiques avec d’autres lycéens mais aussi avec de jeunes chercheurs et étudiants, l’équipe s’est déplacée avec cette motivation de partage, accompagnée par deux professeurs de mathématiques Vincent Bourdon et François Sauvageot. Il n’est en effet pas nécessaire d’être un génie des mathématiques pour participer à ce tournoi, mais simplement d’avoir envie de chercher et résoudre des problèmes. Bien que les cinq lycéens n’aient pas gagné, l’aventure a",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). François Sauvageot is a mathematics teacher who accompanies students on international projects."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Vincent Bourdon is a mathematics teacher who accompanies students on international projects.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.4,
   "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -148,33 +169,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 26.7,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 169.3,
+  "ai_calls": 2,
+  "model_s": 1.9,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 7,
-    "accepted": 7
-   },
-   {
-    "lines": [
-     141,
-     236
-    ],
-    "returned": 5,
-    "accepted": 5
-   }
-  ],
-  "total_seconds": 31.2
- },
- "rechecked": 3
+  "contact_pass": 2,
+  "email_search_s": 5.3,
+  "total_seconds": 178.1
+ }
 }
