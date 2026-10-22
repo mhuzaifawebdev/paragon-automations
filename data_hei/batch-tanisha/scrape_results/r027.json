@@ -20,7 +20,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini.",
+  "generic_email": "info@viaa.nl",
+  "generic_email_url": "https://www.viaa.nl/"
  },
  "network": {
   "external_collaboration": [
@@ -298,12 +300,25 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.6,
-  "crawl_s": 21.9,
+  "discover_s": 0.0,
+  "crawl_s": 17.2,
+  "ai_calls": 3,
+  "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 69.3,
+  "model_s": 18.7,
   "mode": "gemini",
-  "total_seconds": 94.9
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 20,
+    "accepted": 18
+   }
+  ],
+  "total_seconds": 43.0
  },
  "rechecked": true
 }
