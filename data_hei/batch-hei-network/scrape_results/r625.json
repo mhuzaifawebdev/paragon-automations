@@ -1,6 +1,6 @@
 {
  "row_id": "r625",
- "scraped_at": "2026-10-12T06:30:49Z",
+ "scraped_at": "2026-10-22T14:03:24Z",
  "contacts": {
   "row_id": "r625",
   "institution_name": "NLA Høgskolen",
@@ -9,17 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "international@nla.no",
   "generic_email_url": "https://www.nla.no/for-studenter/utenlandsopphold/utveksling/erasmus+",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Sigbjørn Sødal",
+   "designation": "rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.nla.no/for-studenter/utenlandsopphold/utveksling/erasmus+/_/attachment/inline/246edbc5-bbae-4375-af79-da972d42a0ec:e20e510948b9d4143f64ceb2e4cb3c1d91aa000c/eche-2021-27n.pdf",
+   "evidence_quote": "Sigbjørn Sødal, rector"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Sigbjørn Sødal is listed as the rector of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -104,22 +112,24 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.0,
-  "crawl_s": 15.9,
-  "ai_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 17.7,
+  "ai_calls": 5,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.0,
+  "model_s": 4.8,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      141,
      280
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
@@ -138,7 +148,6 @@
     "accepted": 0
    }
   ],
-  "total_seconds": 22.0
- },
- "rechecked": true
+  "total_seconds": 25.0
+ }
 }

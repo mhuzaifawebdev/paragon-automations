@@ -1,6 +1,6 @@
 {
  "row_id": "r641",
- "scraped_at": "2026-10-12T06:32:53Z",
+ "scraped_at": "2026-10-22T14:03:49Z",
  "contacts": {
   "row_id": "r641",
   "institution_name": "UNIVERSITA TELEMATICA E-CAMPUS",
@@ -17,27 +17,58 @@
    "evidence_quote": "031/7942500 <tel +390317942500>, 031/7942505 <tel +390317942505>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "mobilita@uniecampus.it",
+  "generic_email_url": "https://www.uniecampus.it/studenti/programma-erasmus",
+  "contact": {
+   "name": "BARBARA MARCHETTI",
+   "designation": "Coordinator of the Industrial Engineering degree program",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.uniecampus.it/",
+   "evidence_quote": "Barbara Marchetti, coordinatrice del corso di laurea in"
+  },
+  "alternates": [
+   {
+    "name": "BARANI CRISTINA",
+    "designation": "Coordinator of Student Secretariat for Bachelor and Master degrees",
+    "designation_local": "",
+    "email": "cristina.barani@uniecampus.it",
+    "office_email": "",
+    "phone": "031/7942211",
+    "source_url": "https://www.uniecampus.it/ateneo/struttura-e-personale/personale-tecnico-amministrativo/",
+    "evidence_quote": "BARANI CRISTINA | ... Coordinatrice Segreteria Studenti corsi di laurea triennali e magistrali |",
+    "why_chosen": "Secretary / administration (last resort). She is the coordinator of the student secretariat for bachelor and master degrees."
+   },
+   {
+    "name": "MARTINONI EMANUELE",
+    "designation": "Head of Novedrate branch",
+    "designation_local": "",
+    "email": "emanuele.martinoni@uniecampus.it",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.uniecampus.it/ateneo/struttura-e-personale/personale-tecnico-amministrativo/",
+    "evidence_quote": "MARTINONI EMANUELE | ... Responsabile sede Novedrate |",
+    "why_chosen": "Other role. He is the head of the Novedrate branch of the university."
+   }
+  ],
+  "rung": "Faculty-level Erasmus/international coordinator. She is a professor and coordinator of the Industrial Engineering degree program who represents the university at international conferences.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.5,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "info@uniecampus.it",
-  "generic_email_url": "https://www.uniecampus.it/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
-    "partner_name": "RIUL – International Universities Network for Reading",
+    "partner_name": "Red Internacional de Universidades Lectoras",
     "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.uniecampus.it/ateneo/international-cooperation",
-    "evidence_quote": "· the active participation in the RIUL – International Universities Network for Reading, where more of 50 universities from more than 10 Countries promoting research and exchange relationships with many European Universities also beyond EU Programmes;",
+    "evidence_quote": "eCampus encourages international mobility of students and staff. Several potential partnership could not be finalized in the absence of the ECHE. However eCampus is members of some Universities network, such as the Red Internacional de Universidades Lectoras, which currently gathers 53 Universities from Europe, Asia, North and South America (http://universidadeslectoras.org/miembros). And it has several bi-lateral cooperation agreement. Therefore, some academic staff did manage to spend periods ",
     "confidence": 0.9
    },
    {
@@ -104,9 +135,18 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Emergency",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uniecampus.it/",
+    "evidence_quote": "Evento benefico a favore di Emergency: linguaggi d'arte e percezioni dell' universo",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Accademia del Lusso",
     "partner_country": "Italy",
-    "partner_type": "school",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uniecampus.it/",
     "evidence_quote": "Accademia del Lusso, via Montenapoleone 5, Milano",
@@ -124,7 +164,7 @@
    {
     "partner_name": "ISIC",
     "partner_country": "unknown",
-    "partner_type": "network",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uniecampus.it/",
     "evidence_quote": "d’Identità Internazionale dello Studente (ISIC)",
@@ -140,30 +180,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "ANVUR",
+    "partner_name": "Almalaurea",
     "partner_country": "Italy",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "accreditamento ANVUR",
+    "evidence_quote": "Almalaurea",
     "confidence": 0.9
    },
    {
-    "partner_name": "Consorzio Interuniversitario Almalaurea",
-    "partner_country": "Italy",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Interuniversitario Almalaurea per la fruizione dei servizi di orientamento,",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "International Student Identity Card (ISIC)",
+    "partner_name": "Partner Institutes",
     "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uniecampus.it/en/",
-    "evidence_quote": "International Student Identity Card ISIC-eCampus",
+    "evidence_quote": "Partner Institutes",
     "confidence": 0.9
    },
    {
@@ -172,22 +203,22 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.uniecampus.it/en/",
-    "evidence_quote": "From this year (2024) eCampus University has entered an agreement with the Almalaurea",
+    "evidence_quote": "From this year (2024) eCampus University has entered an agreement with the Almalaurea Interuniversity Consortium for the guidance, training and employment services arranged for students and graduates.",
     "confidence": 0.9
    },
    {
-    "partner_name": "Red Internacional de Universidades Lectoras",
+    "partner_name": "RIUL – International Universities Network for Reading",
     "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.uniecampus.it/ateneo/international-cooperation",
-    "evidence_quote": "eCampus encourages international mobility of students and staff. Several potential partnership could not be finalized in the absence of the ECHE. However eCampus is members of some Universities network, such as the Red Internacional de Universidades Lectoras, which currently gathers 53 Universities from Europe, Asia, North and South America (http://universidadeslectoras.org/miembros). And it has several bi-lateral cooperation agreement. Therefore, some academic staff did manage to spend periods ",
+    "evidence_quote": "· the active participation in the RIUL – International Universities Network for Reading, where more of 50 universities from more than 10 Countries promoting research and exchange relationships with many European Universities also beyond EU Programmes;",
     "confidence": 0.9
    },
    {
     "partner_name": "Associazione Interuniversitaria Europea",
     "partner_country": "Switzerland",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.uniecampus.it/ateneo/international-cooperation",
     "evidence_quote": "· the formalization of an agreement with the inter-institutional association (Associazione Interuniversitaria Europea), based in Chiasso (Switzerland) to exploit eCampus staff and facilities. The international association is directly managing the first two years of Medicine as part of the courses provided by the Medical University of Sofia (MUS);",
@@ -228,95 +259,7 @@
     "country": "Italy",
     "role": "main",
     "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Novedrate"
-   },
-   {
-    "campus_name": "Firenze",
-    "city": "Firenze",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Firenze"
-   },
-   {
-    "campus_name": "Torino",
-    "city": "Torino",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Torino"
-   },
-   {
-    "campus_name": "Padova",
-    "city": "Padova",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Padova"
-   },
-   {
-    "campus_name": "Roma",
-    "city": "Roma",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Roma"
-   },
-   {
-    "campus_name": "Napoli",
-    "city": "Napoli",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Napoli"
-   },
-   {
-    "campus_name": "Bari",
-    "city": "Bari",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Bari"
-   },
-   {
-    "campus_name": "Reggio Calabria",
-    "city": "Reggio Calabria",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Reggio Calabria"
-   },
-   {
-    "campus_name": "Palermo",
-    "city": "Palermo",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Palermo"
-   },
-   {
-    "campus_name": "Catania",
-    "city": "Catania",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Catania"
-   },
-   {
-    "campus_name": "Cagliari",
-    "city": "Cagliari",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Cagliari"
-   },
-   {
-    "campus_name": "Milano",
-    "city": "Milano",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.uniecampus.it/",
-    "evidence_quote": "Milano"
+    "evidence_quote": "La sede principale è situata a Novedrate (Como),"
    }
   ],
   "stated_total": null,
@@ -325,19 +268,21 @@
   "truncated": false,
   "total_seen": 21,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of some international partners and networks, but does not contain a comprehensive list of all Erasmus+ partner universities.",
+  "coverage_note": "The institution lists several partners in the international cooperation section, but does not provide a comprehensive list of all Erasmus+ partners.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.1,
-  "crawl_s": 12.2,
+  "discover_s": 0.0,
+  "crawl_s": 15.5,
   "ai_calls": 8,
-  "partner_calls": 7,
+  "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 6.6,
+  "model_s": 5.8,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
@@ -352,51 +297,42 @@
      281,
      420
     ],
-    "returned": 4,
-    "accepted": 4
+    "returned": 5,
+    "accepted": 5
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      701,
      840
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      841,
      980
     ],
-    "returned": 3,
-    "accepted": 2
+    "returned": 13,
+    "accepted": 13
    },
    {
     "lines": [
-     981,
-     1120
-    ],
-    "returned": 12,
-    "accepted": 12
-   },
-   {
-    "lines": [
-     1541,
-     1574
+     1401,
+     1511
     ],
     "returned": 0,
     "accepted": 0
    }
   ],
-  "total_seconds": 20.9
- },
- "rechecked": true
+  "total_seconds": 25.0
+ }
 }

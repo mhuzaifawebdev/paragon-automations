@@ -1,10 +1,10 @@
 {
  "row_id": "r626",
- "scraped_at": "2026-10-12T06:30:49Z",
+ "scraped_at": "2026-10-22T14:03:20Z",
  "contacts": {
   "row_id": "r626",
   "institution_name": "Lycée général et technologique Jules Lesven",
-  "institution_type": "college",
+  "institution_type": "school",
   "official_website": "https://www.lycee-jules-lesven.org/",
   "country": null,
   "phone": {
@@ -13,24 +13,32 @@
    "evidence_quote": "Tél. 02.98.43.56.00 / Fax. 02.98.43.56.01"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "M. LE GUEN",
+   "designation": "Post-Bac Secretariat",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.lycee-jules-lesven.org/equipe-626-0-0-0.html",
+   "evidence_quote": "Secrétariat Post BAC ... M. LE GUEN"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). M. LE GUEN is in charge of the Post-Bac secretariat, which handles student mobility inquiries.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "Grèce",
     "partner_country": "Grèce",
-    "partner_type": "other",
+    "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.lycee-jules-lesven.org/partenaires-%C3%A9trangers-829-0-0-0.html",
     "evidence_quote": "- Grèce",
@@ -39,7 +47,7 @@
    {
     "partner_name": "Irlande",
     "partner_country": "Irlande",
-    "partner_type": "other",
+    "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.lycee-jules-lesven.org/partenaires-%C3%A9trangers-829-0-0-0.html",
     "evidence_quote": "- Irlande",
@@ -48,7 +56,7 @@
    {
     "partner_name": "Espagne",
     "partner_country": "Espagne",
-    "partner_type": "other",
+    "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.lycee-jules-lesven.org/partenaires-%C3%A9trangers-829-0-0-0.html",
     "evidence_quote": "- Espagne",
@@ -111,7 +119,7 @@
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Lycée Jules Lesven",
+    "campus_name": "Lycée général et technologique Jules Lesven",
     "city": "Brest",
     "country": "France",
     "role": "main",
@@ -130,14 +138,16 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.4,
-  "crawl_s": 14.2,
-  "ai_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 15.7,
+  "ai_calls": 5,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.1,
+  "model_s": 3.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -158,13 +168,12 @@
    {
     "lines": [
      281,
-     420
+     397
     ],
     "returned": 3,
-    "accepted": 0
+    "accepted": 3
    }
   ],
-  "total_seconds": 20.7
- },
- "rechecked": true
+  "total_seconds": 21.1
+ }
 }

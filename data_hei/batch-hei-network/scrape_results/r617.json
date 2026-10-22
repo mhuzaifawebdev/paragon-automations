@@ -1,13 +1,13 @@
 {
  "row_id": "r617",
- "scraped_at": "2026-10-12T06:30:11Z",
+ "scraped_at": "2026-10-22T14:03:13Z",
  "contacts": {
   "row_id": "r617",
   "institution_name": "Fundación Cultural Privada Empresa-Universidad de Zaragoza",
   "institution_type": "unknown",
   "official_website": "https://www.feuz.es/",
   "country": {
-   "value": "Spain",
+   "value": "España",
    "source_url": "https://www.feuz.es/contacta/",
    "evidence_quote": "50006 Zaragoza (España)"
   },
@@ -17,17 +17,25 @@
    "evidence_quote": "976 35 15 08 <tel +34976351508>"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "internacional@feuz.es",
+  "generic_email_url": "https://www.feuz.es/servicios/proyectos-internacionales/",
+  "contact": {
+   "name": "María Pilar Zaragoza Fernández",
+   "designation": "Course Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.feuz.es/curso/microcredencial-universidad-de-zaragoza-gestion-de-proyectos-de-innovacion-colaborativa-iniciativas-de-cooperacion-y-comunicacion-para-equipos-de-clusteres/",
+   "evidence_quote": "Directores del curso: ... María Pilar Zaragoza Fernández"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Other role. She is listed as a director of a course organized by the institution.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.3,
   "needs_human_check": true,
   "pages_read": 9,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -278,22 +286,24 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 7.8,
-  "crawl_s": 18.3,
-  "ai_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 25.5,
+  "ai_calls": 4,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 6.4,
+  "model_s": 5.3,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 21,
-    "accepted": 11
+    "returned": 22,
+    "accepted": 10
    },
    {
     "lines": [
@@ -304,7 +314,6 @@
     "accepted": 1
    }
   ],
-  "total_seconds": 32.6
- },
- "rechecked": true
+  "total_seconds": 33.4
+ }
 }

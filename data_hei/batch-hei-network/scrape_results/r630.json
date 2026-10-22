@@ -957,14 +957,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.3,
-  "crawl_s": 11.9,
+  "discover_s": 0.0,
+  "crawl_s": 14.2,
   "ai_calls": 5,
-  "partner_calls": 4,
+  "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 34.8,
+  "model_s": 12.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
@@ -979,27 +980,19 @@
      141,
      280
     ],
-    "returned": 48,
-    "accepted": 44
+    "returned": 49,
+    "accepted": 45
    },
    {
     "lines": [
      281,
-     420
+     391
     ],
-    "returned": 72,
-    "accepted": 44
-   },
-   {
-    "lines": [
-     421,
-     460
-    ],
-    "returned": 30,
-    "accepted": 25
+    "returned": 55,
+    "accepted": 42
    }
   ],
-  "total_seconds": 48.0
+  "total_seconds": 27.2
  },
  "rechecked": true
 }
