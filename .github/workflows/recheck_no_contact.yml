@@ -14,6 +14,9 @@ on:
       cap:
         description: "Spending cap in US dollars for the whole re-check (reading + email search, all batches)"
         default: "10"
+      deep:
+        description: "yes = deep pass: the site's staff pages searched and read first, up to 20 pages, partner lists not read again"
+        default: "no"
 
 permissions:
   contents: write
@@ -50,7 +53,7 @@ jobs:
           git config user.name "paragon-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
           python scripts/recheck_no_contact.py --finish
-          python scripts/recheck_no_contact.py --prepare --reader "${{ github.event.inputs.reader || 'free' }}" --cap "${{ github.event.inputs.cap || '10' }}"
+          python scripts/recheck_no_contact.py --prepare --reader "${{ github.event.inputs.reader || 'free' }}" --cap "${{ github.event.inputs.cap || '10' }}" ${{ github.event.inputs.deep == 'yes' && '--deep' || '' }}
           git add data_hei
           git diff --cached --quiet || git commit -q -m "re-check: institutes with no contact set aside [automated]"
           git pull --rebase --autostash -q && git push -q

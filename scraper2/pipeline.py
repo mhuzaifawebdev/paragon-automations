@@ -485,8 +485,14 @@ def scrape(row, cfg):
         return unresolved(row, f"Website not found ({note})", timing)
 
     t = time.time()
+    seeds = (row.get("seed_urls") or "").split()
+    if cfg.get("staff_search"):                 # deep re-check: the site's own leadership/staff pages are read first
+        try:
+            seeds = discover.staff_pages(inst["name"], crawl._host(site)) + seeds
+        except Exception:
+            pass
     cr = crawl.crawl(site, max_pages=int(cfg.get("max_pages", 10)), workers=int(cfg.get("page_workers", 5)),
-                     seeds=(row.get("seed_urls") or "").split())
+                     seeds=seeds)
     timing["crawl_s"] = round(time.time() - t, 1)
     if not cr["pages"]:
         timing["total_seconds"] = round(time.time() - t_all, 1)
@@ -517,7 +523,7 @@ def scrape(row, cfg):
         mode = "rules"
     slice_note, slices = "", []
     timing["ai_calls"] = 1 if mode == provider and provider != "rules" else 0
-    if mode == provider and provider != "rules":
+    if mode == provider and provider != "rules" and cfg.get("partner_slices", True):
         try:
             extra, missed = extract_partner_slices(inst, pack, provider, cfg.get("model") or None)
         except llm.QuotaExhausted as e:

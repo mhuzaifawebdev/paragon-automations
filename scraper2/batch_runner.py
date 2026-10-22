@@ -253,6 +253,18 @@ def paid_usage_file(data_dir):
     return Path(data_dir) / "paid_usage.json"
 
 
+def recheck_settings(data_dir, cfg):
+    """The deep re-check pass reads more of each site for a person and skips the partner lists (already read,
+    and keep_better() keeps the longer list anyway), so the extra pages cost less."""
+    try:
+        deep = json.loads((Path(data_dir) / "RECHECK").read_text(encoding="utf-8")).get("deep")
+    except Exception:
+        deep = False
+    if deep:
+        cfg.update(max_pages=20, partner_slices=False, staff_search=True)
+    return cfg
+
+
 def recheck_cap(data_dir):
     """The re-check's total spending cap in US dollars (scripts/recheck_no_contact.py --cap), or None."""
     try:
@@ -375,6 +387,7 @@ def main():
     discover.set_budget(float(cfg.get("max_paid_usd_per_batch", 3.0)), paid_usage_file(data_dir))
     STATS.update(workers=a.workers, provider=a.provider, chunk_size=a.chunk_size)
     apply_mode(data_dir, cfg)          # free mode unless the upload page switched this batch to fast
+    recheck_settings(data_dir, cfg)
 
     try:
         with batch_lock(data_dir):

@@ -308,6 +308,15 @@ check("a waiting batch is taken over by the re-check (the resume job leaves it a
       json.loads((rb2 / "progress.json").read_text())["status"], "running")
 br.apply_mode(rb2, {"max_paid_usd_per_batch": 6, "max_fast_usd_per_batch": 15})
 check("the running limit is the re-check cap ($10), not $6 + $15", br.discover.BUDGET["limit"], 10.0)
+check("a normal re-check keeps the usual crawl", br.recheck_settings(rb2, {"max_pages": 10}), {"max_pages": 10})
+rc.set_reader(rb2, "paid", 5, deep=True)
+check("the deep pass: staff pages searched, 20 pages, partner lists not read again",
+      br.recheck_settings(rb2, {"max_pages": 10}), {"max_pages": 20, "partner_slices": False, "staff_search": True})
+real_ddg = br.discover._ddg_urls
+br.discover._ddg_urls = lambda q, limit=5: ["https://www.x.edu/team", "https://other.org/x.edu-staff", "https://x.edu/rector"]
+check("staff search keeps only pages on the institute's own site",
+      br.discover.staff_pages("X University", "x.edu"), ["https://www.x.edu/team", "https://x.edu/rector"])
+br.discover._ddg_urls = real_ddg
 
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

@@ -414,6 +414,22 @@ def person_pages(name, institution, domain, limit=4):
     return urls[:limit]
 
 
+def staff_pages(institution, domain, limit=4):
+    """Pages on the institute's OWN site likely to name its leadership or staff (rector, director, head teacher,
+    international office, team), for the deep re-check: the crawl reads them first. The free DuckDuckGo page first;
+    Claude's web search (paid, counted against the batch cap) only if that finds nothing."""
+    import os
+    query = (f'site:{domain} (rector OR president OR director OR principal OR "head teacher" OR headmaster OR '
+             f'"international office" OR erasmus OR staff OR team OR contact)')
+    urls = _ddg_urls(query, limit * 2)
+    if not urls and os.environ.get("ANTHROPIC_API_KEY") and budget_left():
+        urls = _claude_urls(f"Search the web once for: {query}\nThe goal is to find pages on {domain} that name the "
+                            f"leadership, the international/Erasmus office or the staff of {institution}. "
+                            f"After the search, reply with one short line.", limit * 2)
+    own = [u for u in urls if domain in re.sub(r"^https?://", "", u).split("/")[0].lower()]
+    return own[:limit]
+
+
 CCTLD = {"spain": "es", "france": "fr", "cyprus": "cy", "czechia": "cz", "czech republic": "cz", "poland": "pl", "slovenia": "si",
          "slovakia": "sk", "sweden": "se", "hungary": "hu", "austria": "at", "netherlands": "nl", "ireland": "ie",
          "lithuania": "lt", "germany": "de", "portugal": "pt", "italy": "it", "bulgaria": "bg", "belgium": "be",
