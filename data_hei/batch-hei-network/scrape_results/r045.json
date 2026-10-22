@@ -1,6 +1,6 @@
 {
  "row_id": "r045",
- "scraped_at": "2026-10-22T11:39:11Z",
+ "scraped_at": "2026-10-22T20:20:17Z",
  "contacts": {
   "row_id": "r045",
   "institution_name": "MEDICAL UNIVERSITY SOFIA",
@@ -8,21 +8,53 @@
   "official_website": "https://etr0.mu-sofia.bg/",
   "country": null,
   "phone": {
-   "value": "02) 9152116",
-   "source_url": "https://mu-sofia.bg/kontakti/",
-   "evidence_quote": "Ръководител отдел : проф. Антония Янакиева – (02) 9152116"
+   "value": "+359 2 9152116",
+   "source_url": "https://mu-sofia.bg/en/international-activities/team-and-contacts/",
+   "evidence_quote": "+359 2 9152116"
   },
   "phone_alt": [],
-  "generic_email": "",
-  "generic_email_url": "",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "erasmus@foz.mu-sofia.bg",
+  "generic_email_url": "https://mu-sofia.bg/mezhdunarodna-dejnost/ekip-kontakti/",
+  "contact": {
+   "name": "Antoniya Yanakieva",
+   "designation": "Head of International Integration & Project Funding Department",
+   "designation_local": "",
+   "email": "a.yanakieva@foz.mu-sofia.bg",
+   "office_email": "",
+   "phone": "+359 2 9152116",
+   "source_url": "https://mu-sofia.bg/en/international-activities/team-and-contacts/",
+   "evidence_quote": "Prof. Antoniya Yanakieva, PhD ... Head of International Integration & Project Funding Department"
+  },
+  "alternates": [
+   {
+    "name": "S. Manolov",
+    "designation": "Institutional Erasmus Coordinator & Outgoing Students",
+    "designation_local": "",
+    "email": "smanolov@mu-sofia.bg",
+    "office_email": "",
+    "phone": "+359 2 91 52 138",
+    "source_url": "https://mu-sofia.bg/en/erasmus/",
+    "evidence_quote": "S. Manolov – Institutional Erasmus Coordinator & Outgoing Students, tel.: +359 2 91 52 138;",
+    "why_chosen": "Institutional Erasmus+ coordinator. He is the Institutional Erasmus Coordinator responsible for outgoing students."
+   },
+   {
+    "name": "Magdalena Kasnakova",
+    "designation": "Expert / Incoming students",
+    "designation_local": "",
+    "email": "m.kasnakova@mu-sofia.bg",
+    "office_email": "",
+    "phone": "+359 2 9152138",
+    "source_url": "https://mu-sofia.bg/en/international-activities/team-and-contacts/",
+    "evidence_quote": "MAGDALENA KASNAKOVA",
+    "why_chosen": "International relations officer. She is an expert responsible for incoming Erasmus students."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. She is the Head of the International Integration & Project Funding Department and is the primary contact for international activities.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini."
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -488,25 +520,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 24.4,
-  "ai_calls": 3,
-  "partner_calls": 1,
+  "crawl_s": 37.5,
+  "ai_calls": 1,
+  "model_s": 6.2,
   "cost_usd_estimate": 0.0,
-  "model_s": 8.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 9,
-    "accepted": 8
-   }
-  ],
-  "total_seconds": 34.4
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 43.8
+ }
 }

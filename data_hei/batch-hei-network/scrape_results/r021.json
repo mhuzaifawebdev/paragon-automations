@@ -343,33 +343,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 15.6,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 25.1,
+  "ai_calls": 2,
+  "model_s": 14.1,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
   "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 29,
-    "accepted": 26
-   },
-   {
-    "lines": [
-     141,
-     201
-    ],
-    "returned": 12,
-    "accepted": 11
-   }
-  ],
-  "total_seconds": 21.4
+  "total_seconds": 40.0
  },
  "rechecked": 3
 }

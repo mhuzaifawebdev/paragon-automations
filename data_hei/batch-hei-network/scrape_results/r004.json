@@ -1,6 +1,6 @@
 {
  "row_id": "r004",
- "scraped_at": "2026-10-11T10:21:53Z",
+ "scraped_at": "2026-10-22T20:20:13Z",
  "contacts": {
   "row_id": "r004",
   "institution_name": "UNIVERSITE DU LITTORAL",
@@ -17,17 +17,48 @@
    "evidence_quote": "+33(0)3 28 23 73 28"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "international@univ-littoral.fr",
   "generic_email_url": "https://www.univ-littoral.fr/universite/contacts-plans-dacces/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Myriam COURCO",
+   "designation": "Director – Erasmus+ Administrative Coordinator",
+   "designation_local": "",
+   "email": "myriam.lemaire@univ-littoral.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.univ-littoral.fr/international/joindre_relations_internationales/",
+   "evidence_quote": "Mme Myriam COURCO ... | Directrice – Coordinatrice administrative Erasmus+"
+  },
+  "alternates": [
+   {
+    "name": "Carole HAYNAU",
+    "designation": "Assistant for international agreements and staff mobility",
+    "designation_local": "",
+    "email": "International.agreements@univ-littoral.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.univ-littoral.fr/international/joindre_relations_internationales/",
+    "evidence_quote": "Mme Carole HAYNAU ... | Assistante conventions internationales + mobilité des personnels et enseignants à l’international + référent visa et titre de séjour pour doctorants et enseignants-chercheurs incoming",
+    "why_chosen": "Mobility coordinator. She manages international agreements and staff mobility."
+   },
+   {
+    "name": "Rachid AMARA",
+    "designation": "Vice-President delegated to International Relations",
+    "designation_local": "",
+    "email": "rachid.amara@univ-littoral.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.univ-littoral.fr/international/joindre_relations_internationales/",
+    "evidence_quote": "M. Rachid AMARA ... | Vice-Président délégué aux Relations Internationales",
+    "why_chosen": "Vice-rector for international affairs. He is the Vice-President in charge of International Relations."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. She is the Director and Erasmus+ Administrative Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -159,48 +190,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 20.8,
-  "ai_calls": 6,
-  "partner_calls": 4,
+  "crawl_s": 30.5,
+  "ai_calls": 1,
+  "model_s": 8.9,
   "cost_usd_estimate": 0.0,
-  "model_s": 54.1,
   "mode": "gemini",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 2,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 4,
-    "accepted": 4
-   },
-   {
-    "lines": [
-     421,
-     543
-    ],
-    "returned": 2,
-    "accepted": 2
-   }
-  ],
-  "total_seconds": 82.9
- },
- "rechecked": 3
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 39.4
+ }
 }
