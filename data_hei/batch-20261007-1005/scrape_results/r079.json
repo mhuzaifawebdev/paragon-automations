@@ -1,6 +1,6 @@
 {
  "row_id": "r079",
- "scraped_at": "2026-10-07T18:31:59Z",
+ "scraped_at": "2026-10-22T11:18:53Z",
  "contacts": {
   "row_id": "r079",
   "institution_name": "UNIWERSYTET MUZYCZNY FRYDERYKA CHOPINA",
@@ -9,12 +9,35 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "erasmus@chopin.edu.pl",
+  "generic_email_url": "https://chopin.edu.pl/erasmus",
+  "contact": {
+   "name": "Joanna Ławrynowicz-Just",
+   "designation": "Vice-Rector for International Relations",
+   "designation_local": "",
+   "email": "prorektor-zagr@chopin.edu.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://chopin.edu.pl/kontakt",
+   "evidence_quote": "Prorektor ds. zagranicznych ... prof. dr hab. Joanna Ławrynowicz-Just"
+  },
+  "alternates": [
+   {
+    "name": "Tomasz Strahl",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "rektor@chopin.edu.pl",
+    "office_email": "",
+    "phone": "48 22 2789 255",
+    "source_url": "https://chopin.edu.pl/kontakt",
+    "evidence_quote": "Rektor ... prof. dr hab. Tomasz Strahl",
+    "why_chosen": "Principal / director (no Erasmus contact found). Tomasz Strahl is the Rector and head of the institution."
+   }
+  ],
+  "rung": "Vice-rector for international affairs. Joanna Ławrynowicz-Just is the Vice-Rector for International Relations overseeing international cooperation.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.75,
+  "needs_human_check": false,
   "pages_read": 10,
   "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
@@ -2076,11 +2099,55 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 28.0,
+  "crawl_s": 7.5,
+  "ai_calls": 6,
+  "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 116.1,
+  "model_s": 110.1,
   "mode": "gemini",
-  "total_seconds": 144.2
- },
- "rechecked": true
+  "email_search_s": 3.5,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 71,
+    "accepted": 67
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 75,
+    "accepted": 72
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 10,
+    "accepted": 9
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     1261,
+     1400
+    ],
+    "returned": 36,
+    "accepted": 30
+   }
+  ],
+  "total_seconds": 121.4
+ }
 }

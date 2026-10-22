@@ -20,7 +20,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 3,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: email domain. mode: gemini.",
+  "generic_email": "info@ahk.nl",
+  "generic_email_url": "https://www.ahk.nl/contact/"
  },
  "network": {
   "external_collaboration": [],
@@ -45,12 +47,24 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.6,
-  "crawl_s": 7.1,
+  "discover_s": 0.0,
+  "crawl_s": 6.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 54.5,
+  "model_s": 9.6,
   "mode": "gemini",
-  "total_seconds": 63.2
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 16.3
  },
  "rechecked": true
 }

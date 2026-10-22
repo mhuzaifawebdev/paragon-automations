@@ -1,6 +1,6 @@
 {
  "row_id": "r106",
- "scraped_at": "2026-10-07T18:33:02Z",
+ "scraped_at": "2026-10-22T11:19:28Z",
  "contacts": {
   "row_id": "r106",
   "institution_name": "UNIVERSITAT MOZARTEUM SALZBURG",
@@ -9,14 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "international@moz.ac.at",
+  "generic_email_url": "https://www.moz.ac.at/de/studium/internationales-erasmus/erasmus-studieren-in-europa",
+  "contact": {
+   "name": "Günter Geiersberger",
+   "designation": "Head of Personnel Management",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.moz.ac.at/de/ueber-uns/organisation/personalservice",
+   "evidence_quote": "Günter Geiersberger ... Abteilungsleitung Personal Service"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Secretary / administration (last resort). Contact currently on file appearing in the personnel service evidence.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.3,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -177,12 +188,32 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 14.7,
+  "discover_s": 0.0,
+  "crawl_s": 18.9,
+  "ai_calls": 3,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 35.7,
+  "model_s": 6.9,
   "mode": "gemini",
-  "total_seconds": 52.8
- },
- "rechecked": true
+  "email_search_s": 2.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     788
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 28.1
+ }
 }
