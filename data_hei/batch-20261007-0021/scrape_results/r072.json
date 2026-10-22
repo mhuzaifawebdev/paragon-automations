@@ -1,28 +1,37 @@
 {
  "row_id": "r072",
- "scraped_at": "2026-10-07T07:43:58Z",
+ "scraped_at": "2026-10-22T13:12:28Z",
  "contacts": {
   "row_id": "r072",
   "institution_name": "UNIWERSYTET PAPIESKI JANA PAWLA II W KRAKOWIE",
   "institution_type": "university",
   "official_website": "https://upjp2.edu.pl/",
   "country": {
-   "value": "Polska",
+   "value": "Poland",
    "source_url": "https://upjp2.edu.pl/kontakt",
    "evidence_quote": "Polska"
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini.",
   "generic_email": "international@upjp2.edu.pl",
-  "generic_email_url": "https://upjp2.edu.pl/en/contact"
+  "generic_email_url": "https://upjp2.edu.pl/en/contact",
+  "contact": {
+   "name": "Tomasz Kniaź",
+   "designation": "International Cooperation Office",
+   "designation_local": "",
+   "email": "tomasz.kniaz@upjp2.edu.pl",
+   "office_email": "",
+   "phone": "+48 12 8898 214",
+   "source_url": "https://upjp2.edu.pl/kontakt",
+   "evidence_quote": "Biuro Współpracy Międzynarodowej | ... tomasz.kniaz@upjp2.edu.pl <tomasz.kniaz@upjp2.edu.pl>"
+  },
+  "alternates": [],
+  "rung": "International relations officer. He is listed as the contact for the International Cooperation Office which manages Erasmus+ mobility.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -462,12 +471,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 8.7,
+  "crawl_s": 4.4,
   "ai_calls": 5,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 90.0,
+  "model_s": 4.1,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -502,7 +513,6 @@
     "accepted": 3
    }
   ],
-  "total_seconds": 98.7
- },
- "rechecked": 2
+  "total_seconds": 8.5
+ }
 }

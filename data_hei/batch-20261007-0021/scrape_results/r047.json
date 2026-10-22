@@ -1,6 +1,6 @@
 {
  "row_id": "r047",
- "scraped_at": "2026-10-22T11:06:19Z",
+ "scraped_at": "2026-10-22T13:12:18Z",
  "contacts": {
   "row_id": "r047",
   "institution_name": "Akademia Ignatianum w Krakowie",
@@ -19,14 +19,23 @@
   "phone_alt": [],
   "generic_email": "erasmus@ignatianum.edu.pl",
   "generic_email_url": "https://www.ignatianum.edu.pl/pracownicy",
-  "contact": null,
+  "contact": {
+   "name": "Jacek Poznański",
+   "designation": "Contact person",
+   "designation_local": "",
+   "email": "jacek.poznanski@ignatianum.edu.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ignatianum.edu.pl/artykul/info-z-kircher-network-jezuickiej-sieci-uczelni-wyzszych-w-europie-i-na-bliskim-wschodzie",
+   "evidence_quote": "More info: jacek.poznanski@ignatianum.edu.pl <jacek.poznanski@ignatianum.edu.pl>"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Other role. He is listed as a contact person for theological symposium inquiries.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.35,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -34,7 +43,7 @@
     "partner_name": "University of Zadar",
     "partner_country": "Croatia",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Croatia University of Zadar [Sveučilište u Zadru] Department of Psychology HR ZADAR01 Psychology 2 long study cycle 2 2",
     "confidence": 0.9
@@ -43,7 +52,7 @@
     "partner_name": "University of Antwerp",
     "partner_country": "Belgium",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Belgium University of Antwerp [Universiteit Antwerpen] Faculty of Arts and Philosophy B ANTWERP01",
     "confidence": 0.9
@@ -52,7 +61,7 @@
     "partner_name": "Plovdiv University „Paisii Hilendarski”",
     "partner_country": "Bulgaria",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Plovdiv University „Paisii Hilendarski”",
     "confidence": 0.9
@@ -61,7 +70,7 @@
     "partner_name": "Burgas Free University",
     "partner_country": "Bulgaria",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Bulgaria Burgas Free University BG BOURGAS01 2 2",
     "confidence": 0.9
@@ -70,7 +79,7 @@
     "partner_name": "University of Zagreb",
     "partner_country": "Croatia",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Croatia University of Zagreb [Sveučilištu u Zagrebu ]",
     "confidence": 0.9
@@ -79,7 +88,7 @@
     "partner_name": "University of Rijeka",
     "partner_country": "Croatia",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Croatia University of Rijeka [Sveučilište u Rijeci] HR RIJEKA01",
     "confidence": 0.9
@@ -88,7 +97,7 @@
     "partner_name": "University of Ostrava",
     "partner_country": "Czech Republic",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "University of Ostrava [Ostravská univerzita v",
     "confidence": 0.9
@@ -97,7 +106,7 @@
     "partner_name": "Tomas Bata University in Zlín",
     "partner_country": "Czech Republic",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "BA, MA 2 2Czech Republic Tomas Bata University in Zlín [Univerzita Tomáše Bati ve Zlíně] Faculty of Humanities CZ ZLIN01 2",
     "confidence": 0.9
@@ -106,7 +115,7 @@
     "partner_name": "University of South Bohemia in Ceske Budejovice",
     "partner_country": "Czech Republic",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Republic University of South Bohemia in Ceske Budejovice CZ CESKE01 Education 2",
     "confidence": 0.9
@@ -115,7 +124,7 @@
     "partner_name": "Facultes Loyola de Paris",
     "partner_country": "France",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "France Facultes Loyola de Paris F PARIS522 Philosophy and ethics 2 BA, MA 2 2",
     "confidence": 0.9
@@ -124,7 +133,7 @@
     "partner_name": "University of Hradec Králové",
     "partner_country": "Czech Republic",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "University of Hradec Králové [Univerzita Hradec",
     "confidence": 0.9
@@ -133,7 +142,7 @@
     "partner_name": "University of West Bohemia",
     "partner_country": "Czech Republic",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Republic University of West Bohemia CZ PLZEN01 4 BA, MA 2",
     "confidence": 0.9
@@ -142,7 +151,7 @@
     "partner_name": "Palacký University Olomouc",
     "partner_country": "Czech Republic",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Palacký University Olomouc [Univerzita",
     "confidence": 0.9
@@ -151,7 +160,7 @@
     "partner_name": "Catholic University of Lyon",
     "partner_country": "France",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "France Catholic University of Lyon [Université Catholique de Lyon]",
     "confidence": 0.9
@@ -160,7 +169,7 @@
     "partner_name": "Toulouse Catholic University",
     "partner_country": "France",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "France Toulouse Catholic University (Institut Catholique de Toulouse) F TOULOUS09",
     "confidence": 0.9
@@ -169,7 +178,7 @@
     "partner_name": "Paris-Sorbonne University",
     "partner_country": "France",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "France Paris-Sorbonne University [Université Paris-Sorbonne] Faculty of Philosophy F PARIS004 Philosophy and ethics 2",
     "confidence": 0.9
@@ -178,7 +187,7 @@
     "partner_name": "IESA arts&culture",
     "partner_country": "France",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "France IESA arts&culture F PARIS329",
     "confidence": 0.9
@@ -187,7 +196,7 @@
     "partner_name": "University of Bremen",
     "partner_country": "Germany",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Germany University of Bremen [Universität Bremen]",
     "confidence": 0.9
@@ -196,7 +205,7 @@
     "partner_name": "Paderborn University",
     "partner_country": "Germany",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Germany Paderborn University [Universität Paderborn] D PADERO01 Languages [Language acquisition; Literature and linguistics] _ _ 2 _",
     "confidence": 0.9
@@ -205,7 +214,7 @@
     "partner_name": "Munich School of Philosophy",
     "partner_country": "Germany",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Germany Munich School of Philosophy D MUNCHEN17 Philosophy and ethics 3 BA, MA, PhD 2",
     "confidence": 0.9
@@ -214,7 +223,7 @@
     "partner_name": "Eötvös Loránd University (ELTE)",
     "partner_country": "Hungary",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Hungary Eötvös Loránd University (ELTE) [Eötvös Loránd Tudományegyetem] Faculty of Primary and Pre-School Education HU BUDAPES01 Education [Education sciense; Training for pre-school teachers; Teacher training without subject specialization; Teacher training with subject specialisation] 2 BA, MA 2 2",
     "confidence": 0.9
@@ -223,7 +232,7 @@
     "partner_name": "Uniwersita Degli Studi di Napoli Federico II",
     "partner_country": "Italy",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy Uniwersita Degli Studi di Napoli Federico II",
     "confidence": 0.9
@@ -232,7 +241,7 @@
     "partner_name": "Eszterhazy Karoly College",
     "partner_country": "Hungary",
     "partner_type": "college",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Hungary Eszterhazy Karoly College [Eszterhàzy Károly Föiskola] HU EGER01 2 BA, MA, PhD",
     "confidence": 0.9
@@ -241,7 +250,7 @@
     "partner_name": "Károli Gáspár University of Reformed Church in Hungary",
     "partner_country": "Hungary",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Hungary Károli Gáspár University of Reformed Church in Hungary [Károli Gáspár Református Egyetem] HU BUDAPES10",
     "confidence": 0.9
@@ -250,7 +259,7 @@
     "partner_name": "Budapest University of Technology and Economics (BUTE)",
     "partner_country": "Hungary",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Budapest University of Technology and",
     "confidence": 0.9
@@ -259,7 +268,7 @@
     "partner_name": "University of Macerata",
     "partner_country": "Italy",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy University of Macerata [Università di Macerata]",
     "confidence": 0.9
@@ -268,7 +277,7 @@
     "partner_name": "University of Milano-Bicocca",
     "partner_country": "Italy",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy University of Milano-Bicocca [Università Degli Studi di Milano-Bicocca] Department of Education Human Sciences I MILANO16 2 BA, MA 1 -",
     "confidence": 0.9
@@ -277,7 +286,7 @@
     "partner_name": "University of Foggia",
     "partner_country": "Italy",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy University of Foggia [Università degli Studi di Foggia] I FOGGIA03 BA, MA 2 2",
     "confidence": 0.9
@@ -286,7 +295,7 @@
     "partner_name": "Roma Tre University",
     "partner_country": "Italy",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy Roma Tre University [Università degli studi Roma Tre] I ROMA16",
     "confidence": 0.9
@@ -295,7 +304,7 @@
     "partner_name": "University of Salento",
     "partner_country": "Italy",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy University of Salento [Università del Salento] I LECCE01",
     "confidence": 0.9
@@ -304,7 +313,7 @@
     "partner_name": "Catholic University of the Sacred Heart",
     "partner_country": "Italy",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy Catholic University of the Sacred Heart [Universitá Cattolica del Sacro Cuore] I MILANO03 2 BA, MA 2 2",
     "confidence": 0.9
@@ -313,7 +322,7 @@
     "partner_name": "University of Cagliari",
     "partner_country": "Italy",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy University of Cagliari [Università degli Studi di Cagliari] I CAGLIAR01 3 BA, MA, PhD 2",
     "confidence": 0.9
@@ -322,7 +331,7 @@
     "partner_name": "LUMSA University",
     "partner_country": "Italy",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy LUMSA University [Libera Università degli Studi Maria Ss. Assunta di Roma] I ROMA04 2",
     "confidence": 0.9
@@ -331,7 +340,7 @@
     "partner_name": "Universita degli Studi di Verona",
     "partner_country": "Italy",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy Universita degli Studi di Verona I VERONA01 Literature and linguistics 2 BA, MA 2 2",
     "confidence": 0.9
@@ -340,7 +349,7 @@
     "partner_name": "Pontifical University of St Patrick's College at Maynooth",
     "partner_country": "Ireland",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Ireland Pontifical University of St Patrick's College at Maynooth IRLKILDARE01 Humanities [Religion and theology; History and archeology; Philosophy and ethics] 2 BA,MA PhD 2 _",
     "confidence": 0.9
@@ -349,7 +358,7 @@
     "partner_name": "Vytautas Magnus University",
     "partner_country": "Lithuania",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Vytautas Magnus University (Vytauto Didžiojo universitetas)",
     "confidence": 0.9
@@ -358,7 +367,7 @@
     "partner_name": "Unicollege SSML di Mantova",
     "partner_country": "Italy",
     "partner_type": "college",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Italy Unicollege SSML di Mantova [Unicollege Scuola Superiore Mediatori Linguistici] I MILANO22 1 1",
     "confidence": 0.9
@@ -367,7 +376,7 @@
     "partner_name": "International Balkan University",
     "partner_country": "North Macedonia",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "International Balkan University MK SKOPJE04 2 2 2",
     "confidence": 0.9
@@ -376,7 +385,7 @@
     "partner_name": "Transilvania University of Brasov",
     "partner_country": "Romania",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Romania Transilvania University of Brasov [Universitatea Transilvania din Brasov] RO BRASOV01 2 BA, MA",
     "confidence": 0.9
@@ -385,7 +394,7 @@
     "partner_name": "Vilnius University",
     "partner_country": "Lithuania",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Lithuania Vilnius University [Vilniaus universitetas]",
     "confidence": 0.9
@@ -394,7 +403,7 @@
     "partner_name": "Babeș-Bolyai University",
     "partner_country": "Romania",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Romania Babeș-Bolyai University [Universitatea Babeş-Bolyai] RO CLUJNAP01",
     "confidence": 0.9
@@ -403,7 +412,7 @@
     "partner_name": "Titu Maiorescu University of Bucharest",
     "partner_country": "Romania",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "BA, MA 2 2Romania Titu Maiorescu University of Bucharest [Universitatea Titu Maiorescu din Bucureşti]",
     "confidence": 0.9
@@ -412,7 +421,7 @@
     "partner_name": "Trnava University in Trnava",
     "partner_country": "Slovakia",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Slovakia Trnava University in Trnava [Trnavská univerzita v Trnave] SK TRNAVA01 2",
     "confidence": 0.9
@@ -421,7 +430,7 @@
     "partner_name": "The Catholic University in Ruzomberok",
     "partner_country": "Slovakia",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Slovakia The Catholic University in Ruzomberok [Katolícka univerzita v Ružomberku] SK RUZOMBE01",
     "confidence": 0.9
@@ -430,7 +439,7 @@
     "partner_name": "University of Oviedo",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain University of Oviedo [Universidad de Oviedo] Teacher Training and Education E OVIEDO01 Education [Education sciense; Training for pre-school teachers; Teacher training without subject specialization; Teacher training with subject specialisation] 5 BA, MA, PhD 2 2",
     "confidence": 0.9
@@ -439,7 +448,7 @@
     "partner_name": "Abat Oliba CEU University of Barcelona",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain Abat Oliba CEU University of Barcelona [Universitat Abat Oliba CEU] E BARCELO31 2 BA 1 1",
     "confidence": 0.9
@@ -448,7 +457,7 @@
     "partner_name": "University of Jaen",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain University of Jaen [Universidad de Jaén] E JAEN01 2 BA, MA, PhD 2 2",
     "confidence": 0.9
@@ -457,7 +466,7 @@
     "partner_name": "University of Castilla-La Mancha",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain University of Castilla-La Mancha [Universidad de Castilla-La Mancha] Toledo Campus E CIUDA-R01",
     "confidence": 0.9
@@ -466,7 +475,7 @@
     "partner_name": "Complutense University of Madrid",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain Complutense University of Madrid [Universidad Complutense de Madrid]",
     "confidence": 0.9
@@ -475,7 +484,7 @@
     "partner_name": "University of Cordoba",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain University of Cordoba [Universidad de Córdoba]",
     "confidence": 0.9
@@ -484,7 +493,7 @@
     "partner_name": "Comillas Pontifical University",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain Comillas Pontifical University [Universidad Pontificia Comillas] Faculty of Human and Social Sciences E MADRID02 2",
     "confidence": 0.9
@@ -493,7 +502,7 @@
     "partner_name": "Universidad CEU Cardenal Herrera",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain Universidad CEU Cardenal Herrera E VALENCI01 Social sciences, journalism and information [Political sciences and civics; Psychology; Sociology and cultural studies; Journalism and reporting] 2 BA 1 1",
     "confidence": 0.9
@@ -501,8 +510,8 @@
    {
     "partner_name": "Newmann Institute",
     "partner_country": "Sweden",
-    "partner_type": "college",
-    "mobility_type": "study",
+    "partner_type": "university",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Sweden Newmann Institute S UPPSALA05 Philosophy and Ethics 2 2",
     "confidence": 0.9
@@ -511,7 +520,7 @@
     "partner_name": "Bolu Abant Izzet Baysal Universitesi",
     "partner_country": "Turkey",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Turkey Bolu Abant Izzet Baysal Universitesi TB BOLU01 Languages [Literature and linguistics] 3 2",
     "confidence": 0.9
@@ -520,7 +529,7 @@
     "partner_name": "University of Deusto",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain University of Deusto [Universidad de Deusto] Campus Bilbao E BILBAO02 only by individual agreement",
     "confidence": 0.9
@@ -529,7 +538,7 @@
     "partner_name": "Escola Universitària Formatic Barcelona",
     "partner_country": "Spain",
     "partner_type": "college",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain Escola Universitària Formatic Barcelona E BARCELO102",
     "confidence": 0.9
@@ -538,7 +547,7 @@
     "partner_name": "Ramon Llull University",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain Ramon Llull University [Universitat Ramon Llull]",
     "confidence": 0.9
@@ -547,7 +556,7 @@
     "partner_name": "Universidad Loyola Andalucia",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain Universidad Loyola Andalucia E CORDOBA23 2 _",
     "confidence": 0.9
@@ -556,7 +565,7 @@
     "partner_name": "Universitat de Girona",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain Universitat de Girona Education and Psychology E GIRONA02 2 BA 2",
     "confidence": 0.9
@@ -565,7 +574,7 @@
     "partner_name": "Universidad Católica deValencia, \"San Vicente Mórtir\"",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Spain Universidad Católica deValencia, \"San Vicente Mórtir\" E VALENCI11",
     "confidence": 0.9
@@ -574,7 +583,7 @@
     "partner_name": "Cappadocia University",
     "partner_country": "Turkey",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Turkey Cappadocia University TR NEVSEHI03",
     "confidence": 0.9
@@ -671,11 +680,20 @@
    },
    {
     "partner_name": "Kircher Network",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ignatianum.edu.pl/",
     "evidence_quote": "20.02 Info z Kircher Network jezuickiej sieci uczelni wyższych w Europie i na Bliskim Wschodzie",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "URK",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ignatianum.edu.pl/",
+    "evidence_quote": "23.06 Wspólna oferta edukacyjna URK i UIK w zakresie psychodietetyki",
     "confidence": 0.9
    },
    {
@@ -697,12 +715,156 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Budapest University of Technology and",
+    "partner_name": "University of Zadar [Sveučilište u Zadru]",
+    "partner_country": "Croatia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "Croatia University of Zadar [Sveučilište u Zadru] Department of Psychology HR ZADAR01 Psychology 2 long study cycle 2 2",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Antwerp [Universiteit Antwerpen]",
+    "partner_country": "Belgium",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "Belgium University of Antwerp [Universiteit Antwerpen] Faculty of Arts and Philosophy B ANTWERP01",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Zagreb [Sveučilištu u Zagrebu ]",
+    "partner_country": "Croatia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "Croatia University of Zagreb [Sveučilištu u Zagrebu ]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Rijeka [Sveučilište u Rijeci]",
+    "partner_country": "Croatia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "Croatia University of Rijeka [Sveučilište u Rijeci] HR RIJEKA01",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Ostrava [Ostravská univerzita v Ostravě]",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "University of Ostrava [Ostravská univerzita v",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tomas Bata University in Zlín [Univerzita Tomáše Bati ve Zlíně]",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "BA, MA 2 2Czech Republic Tomas Bata University in Zlín [Univerzita Tomáše Bati ve Zlíně] Faculty of Humanities CZ ZLIN01 2",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Hradec Králové [Univerzita Hradec Králové]",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "University of Hradec Králové [Univerzita Hradec",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Palacký University Olomouc [Univerzita Palackého v Olomouci]",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "Palacký University Olomouc [Univerzita",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ESTRI",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "ESTRI",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Catholic University of Lyon [Université Catholique de Lyon]",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "France Catholic University of Lyon [Université Catholique de Lyon]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Toulouse Catholic University (Institut Catholique de Toulouse)",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "France Toulouse Catholic University (Institut Catholique de Toulouse) F TOULOUS09",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Paris-Sorbonne University [Université Paris-Sorbonne]",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "France Paris-Sorbonne University [Université Paris-Sorbonne] Faculty of Philosophy F PARIS004 Philosophy and ethics 2",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Bremen [Universität Bremen]",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "Germany University of Bremen [Universität Bremen]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Paderborn University [Universität Paderborn]",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "Germany Paderborn University [Universität Paderborn] D PADERO01 Languages [Language acquisition; Literature and linguistics] _ _ 2 _",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Eötvös Loránd University (ELTE) [Eötvös Loránd Tudományegyetem]",
     "partner_country": "Hungary",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
-    "evidence_quote": "Budapest University of Technology and",
+    "evidence_quote": "Hungary Eötvös Loránd University (ELTE) [Eötvös Loránd Tudományegyetem] Faculty of Primary and Pre-School Education HU BUDAPES01 Education [Education sciense; Training for pre-school teachers; Teacher training without subject specialization; Teacher training with subject specialisation] 2 BA, MA 2 2",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Eszterhazy Karoly College [Eszterhàzy Károly Föiskola]",
+    "partner_country": "Hungary",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "Hungary Eszterhazy Karoly College [Eszterhàzy Károly Föiskola] HU EGER01 2 BA, MA, PhD",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Károli Gáspár University of Reformed Church in Hungary [Károli Gáspár Református Egyetem]",
+    "partner_country": "Hungary",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
+    "evidence_quote": "Hungary Károli Gáspár University of Reformed Church in Hungary [Károli Gáspár Református Egyetem] HU BUDAPES10",
     "confidence": 0.9
    },
    {
@@ -712,51 +874,6 @@
     "mobility_type": "unknown",
     "source_url": "https://ignatianum.edu.pl/storage/files/December2025/Bilateral%20Agreements%20KA131-3.pdf",
     "evidence_quote": "Economics (BUTE) [Budapesti Műszaki és",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Centrum Doradztwa Rolniczego",
-    "partner_country": "Poland",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ignatianum.edu.pl/staff",
-    "evidence_quote": "Centrum Doradztwa Rolniczego: Polish description, English description",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "San Antonio",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ignatianum.edu.pl/staff",
-    "evidence_quote": "San Antonio",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Moon Hostel Cracow",
-    "partner_country": "Poland",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ignatianum.edu.pl/staff",
-    "evidence_quote": "Moon Hostel Cracow",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Intro Hostel",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ignatianum.edu.pl/staff",
-    "evidence_quote": "Intro Hostel",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Hotel Wyspiański",
-    "partner_country": "Poland",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ignatianum.edu.pl/staff",
-    "evidence_quote": "Hotel Wyspiański",
     "confidence": 0.9
    },
    {
@@ -821,35 +938,38 @@
     "country": "Poland",
     "role": "main",
     "source_url": "https://www.ignatianum.edu.pl/",
-    "evidence_quote": "[Uprzejmie informujemy, że z dniem 1 października 2024 r., Zarządzeniem nr 78/2023/2024 Rektora UIK z dnia 26 września 2024 r., tworzy się Kampus Uniwersytetu Ignatianum w Krakowie, zwany Kampusem Kopernika 26."
+    "evidence_quote": "KAMPUS UNIWERSYTETU IGNATIANUM W KRAKOWIE"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 87,
+  "total_seen": 99,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive bilateral agreements document containing various European and international partner universities, along with staff exchange partner lists.",
+  "coverage_note": "The evidence provides a detailed list of bilateral agreements and partner universities, but does not explicitly state a total number of partners.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 18.3,
-  "ai_calls": 7,
+  "crawl_s": 17.5,
+  "ai_calls": 8,
   "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 83.9,
+  "model_s": 13.2,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 2,
+    "accepted": 2
    },
    {
     "lines": [
@@ -880,19 +1000,18 @@
      561,
      700
     ],
-    "returned": 19,
-    "accepted": 19
+    "returned": 14,
+    "accepted": 14
    },
    {
     "lines": [
      701,
-     755
+     754
     ],
     "returned": 4,
     "accepted": 4
    }
   ],
-  "total_seconds": 102.2
- },
- "rechecked": 2
+  "total_seconds": 32.2
+ }
 }

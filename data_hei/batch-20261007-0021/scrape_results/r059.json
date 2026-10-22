@@ -1,26 +1,53 @@
 {
  "row_id": "r059",
- "scraped_at": "2026-10-07T07:38:41Z",
+ "scraped_at": "2026-10-22T13:12:38Z",
  "contacts": {
   "row_id": "r059",
   "institution_name": "Kõrgem Kunstikool Pallas",
-  "institution_type": "university",
+  "institution_type": "college",
   "official_website": "https://pallasart.ee/",
-  "country": null,
+  "country": {
+   "value": "Estonia",
+   "source_url": "https://pallasart.ee/rahvusvaheline-koostoo/erasmus-uleilmne-opiranne/",
+   "evidence_quote": "Osalemiskõlblikud riigid on jagatud kaheks: programmiriikideks ja partnerriikideks. Eesti on programmiriik ja saab üleilmse õpirände raames teha koostööd partnerriikide tunustatud kõrgkoolidega."
+  },
   "phone": {
    "value": "+372 730 9822 / 5557 2497",
    "source_url": "https://pallasart.ee/main-page/kontakt/",
    "evidence_quote": "Telefon +372 730 9822 / 5557 2497"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Piret Viirpalu",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "5698 5486",
+   "source_url": "https://pallasart.ee/main-page/kontakt/",
+   "evidence_quote": "REKTOR ... Piret Viirpalu"
+  },
+  "alternates": [
+   {
+    "name": "Lennart Mänd",
+    "designation": "Vice Rector for Academic Affairs",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://pallasart.ee/main-page/kontakt/",
+    "evidence_quote": "ÕPPE­PROREKTOR ... Lennart Mänd",
+    "why_chosen": "Other role. Lennart Mänd is the Vice Rector for Academic Affairs."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Piret Viirpalu is the Rector of the institution.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini. 1 page(s) could not be read."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -36,7 +63,7 @@
    {
     "partner_name": "Artesis Plantijn University College Antwerpen",
     "partner_country": "Belgium",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
     "evidence_quote": "Artesis Plantijn University College Antwerpen/The Royal Academy of Fine Arts/ Arts except Fashion",
@@ -252,8 +279,8 @@
    {
     "partner_name": "Cork Institute of Technology",
     "partner_country": "Ireland",
-    "partner_type": "university",
-    "mobility_type": "staff",
+    "partner_type": "college",
+    "mobility_type": "unknown",
     "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
     "evidence_quote": "Cork Institute of Technology – Munster campus/ (Textile teachers only)",
     "confidence": 0.9
@@ -584,7 +611,7 @@
    },
    {
     "partner_name": "Polytechnic Institute of Bragnaca",
-    "partner_country": "PORTUGAL",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "staff",
     "source_url": "https://pallasart.ee/en/studies/erasmus/partner-institutions/",
@@ -608,18 +635,21 @@
   "truncated": false,
   "total_seen": 52,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of Erasmus+ partner institutions. No major information is missing. 1 page(s) could not be read.",
+  "coverage_note": "The partner list is extensive but may not be exhaustive as it is compiled from multiple sections of the website. No specific mobility type is listed for most partners. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 8.9,
-  "ai_calls": 3,
+  "crawl_s": 18.1,
+  "ai_calls": 4,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 84.5,
+  "model_s": 16.7,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 1.2,
   "slices": [
    {
     "lines": [
@@ -638,7 +668,6 @@
     "accepted": 58
    }
   ],
-  "total_seconds": 93.4
- },
- "rechecked": 2
+  "total_seconds": 38.0
+ }
 }
