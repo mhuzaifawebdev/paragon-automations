@@ -1,0 +1,124 @@
+{
+ "row_id": "r565",
+ "scraped_at": "2026-10-22T21:07:49Z",
+ "contacts": {
+  "row_id": "r565",
+  "institution_name": "Lycée Hôtelier International de Lille",
+  "institution_type": "college",
+  "official_website": "https://lhil.fr/",
+  "country": null,
+  "phone": {
+   "value": "03 20 22 73 73",
+   "source_url": "https://lhil.fr/",
+   "evidence_quote": "03 20 22 73 73"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Didier Rys",
+   "designation": "Headmaster",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lhil.fr/presentation/",
+   "evidence_quote": "Didier RysProviseur"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Didier Rys is the head of the institution and is the primary contact for the school.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Finland",
+    "partner_country": "Finland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lhil.fr/wp-content/uploads/2023/06/DECLARATION-DE-STRATEGIE-ERASMUS1.pdf",
+    "evidence_quote": "l’Irlande, la Bulgarie, l’Estonie, la Finlande, la Belgique, le Portugal, le Canada, la Norvège et le",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Portugal",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lhil.fr/wp-content/uploads/2023/06/DECLARATION-DE-STRATEGIE-ERASMUS1.pdf",
+    "evidence_quote": "l’Irlande, la Bulgarie, l’Estonie, la Finlande, la Belgique, le Portugal, le Canada, la Norvège et le",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Canada",
+    "partner_country": "Canada",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lhil.fr/wp-content/uploads/2023/06/DECLARATION-DE-STRATEGIE-ERASMUS1.pdf",
+    "evidence_quote": "l’Irlande, la Bulgarie, l’Estonie, la Finlande, la Belgique, le Portugal, le Canada, la Norvège et le",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Luxembourg",
+    "partner_country": "Luxembourg",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lhil.fr/wp-content/uploads/2023/06/DECLARATION-DE-STRATEGIE-ERASMUS1.pdf",
+    "evidence_quote": "Luxembourg, la Grèce et l’Italie. Des échanges ont également été mis en place depuis plus de 10 ans",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erfurt",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lhil.fr/wp-content/uploads/2023/06/DECLARATION-DE-STRATEGIE-ERASMUS1.pdf",
+    "evidence_quote": "avec des écoles hôtelières allemandes à Erfurt et Bonn. Ces mobilités offrent à nos apprenants une",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bonn",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lhil.fr/wp-content/uploads/2023/06/DECLARATION-DE-STRATEGIE-ERASMUS1.pdf",
+    "evidence_quote": "avec des écoles hôtelières allemandes à Erfurt et Bonn. Ces mobilités offrent à nos apprenants une",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Hôtelier International de Lille",
+    "city": "Lille",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lhil.fr/",
+    "evidence_quote": "31 passage de L’Internationale"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 8,
+  "coverage_note": "The institution lists countries and specific cities for partnerships but does not provide a comprehensive list of partner institution names.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 153.3,
+  "ai_calls": 1,
+  "model_s": 3.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 10.1,
+  "total_seconds": 166.6
+ }
+}

@@ -1,6 +1,6 @@
 {
  "row_id": "r562",
- "scraped_at": "2026-10-12T06:22:24Z",
+ "scraped_at": "2026-10-22T21:07:26Z",
  "contacts": {
   "row_id": "r562",
   "institution_name": "UNIVERSIDADE ABERTA",
@@ -8,26 +8,34 @@
   "official_website": "https://portal.uab.pt/?lang=en",
   "country": {
    "value": "Portugal",
-   "source_url": "https://portal.uab.pt/contactos/",
-   "evidence_quote": "1269-001 Lisboa – Portugal"
+   "source_url": "https://portal.uab.pt/reitoria/?lang=en",
+   "evidence_quote": "Rua da Escola Politécnica, n.º 147 – 1269-001 Lisboa – Portugal"
   },
   "phone": {
    "value": "+351) 213 916 333",
-   "source_url": "https://portal.uab.pt/contactos/",
-   "evidence_quote": "Telefone: (+351) 213 916 333 | Segundas, quartas e sextas, das 10h00 às 12h30 | Terças e quintas, das 14h00 às 16h00"
+   "source_url": "https://portal.uab.pt/contactos/?lang=en",
+   "evidence_quote": "Phone: (+351) 213 916 333 | Mondays, Wednesdays and Fridays from 10h00 to 12h30 | Tuesdays and Thursdays from 14h00 to 16h00"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "infocandidaturas@uab.pt",
-  "generic_email_url": "https://portal.uab.pt/contactos/",
-  "generic_checked": "2026-10-22"
+  "generic_email_url": "https://portal.uab.pt/contactos/?lang=en",
+  "contact": {
+   "name": "Carla Padrel de Oliveira",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "reitoria@uab.pt",
+   "office_email": "",
+   "phone": "00 351) 300 007 708",
+   "source_url": "https://portal.uab.pt/reitoria/?lang=en",
+   "evidence_quote": "RECTOR ... Carla Padrel de Oliveira"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Rector of the university, she holds the highest institutional authority and is actively involved in international cooperation and Erasmus+ initiatives.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -799,33 +807,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 22.0,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 143.7,
+  "ai_calls": 1,
+  "model_s": 10.2,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 2,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     141,
-     233
-    ],
-    "returned": 4,
-    "accepted": 4
-   }
-  ],
-  "total_seconds": 26.1
- },
- "rechecked": 3
+  "email_search_s": 12.7,
+  "total_seconds": 166.7
+ }
 }

@@ -1,23 +1,36 @@
 {
  "row_id": "r578",
- "scraped_at": "2026-10-22T14:01:02Z",
+ "scraped_at": "2026-10-22T21:08:16Z",
  "contacts": {
   "row_id": "r578",
   "institution_name": "STOCKHOLMS KONSTNARLIGA HOGSKOLA",
   "institution_type": "university",
   "official_website": "https://www.skh.se/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "+46 8 49 400 111",
+   "source_url": "https://www.skh.se/english/about-skh/organisation/leadership/",
+   "evidence_quote": "Telephone number: +46 8 49 400 111"
+  },
   "phone_alt": [],
   "generic_email": "",
   "generic_email_url": "",
-  "contact": null,
+  "contact": {
+   "name": "Jonatan Palmquist",
+   "designation": "Director of Administration",
+   "designation_local": "",
+   "email": "jonatan.palmquist@uniarts.se",
+   "office_email": "",
+   "phone": "+46 8 49 400 111",
+   "source_url": "https://www.skh.se/english/about-skh/organisation/leadership/",
+   "evidence_quote": "Director of Administration ... Jonatan Palmquist"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Matches the contact your operators already spoke to. Secretary / administration (last resort). Jonatan Palmquist is a member of the university leadership and is listed as a contact for the institution.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 20,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -648,41 +661,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 13.9,
-  "ai_calls": 5,
-  "partner_calls": 3,
+  "crawl_s": 143.6,
+  "ai_calls": 1,
+  "model_s": 7.1,
   "cost_usd_estimate": 0.0,
-  "model_s": 11.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 3,
-    "accepted": 3
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 39,
-    "accepted": 39
-   },
-   {
-    "lines": [
-     281,
-     347
-    ],
-    "returned": 26,
-    "accepted": 26
-   }
-  ],
-  "total_seconds": 26.6
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 150.7
+ }
 }
