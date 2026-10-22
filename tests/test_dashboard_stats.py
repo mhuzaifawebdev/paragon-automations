@@ -24,7 +24,9 @@ d = Path(tempfile.mkdtemp())
 r = lambda day, contact, partners, notes="": {"scraped_at": day + "T10:00:00Z", "contacts": {"contact": contact, "notes": notes},
                                               "network": {"external_collaboration": [{}] * partners, "internal_collaboration": []}}
 (d / "b1" / "scrape_results" / "r001.json").write_text(json.dumps(r("2026-10-19", {"name": "A", "email": "a@x.edu"}, 4)))
-(d / "b1" / "scrape_results" / "r002.json").write_text(json.dumps(r("2026-10-20", None, 0, "Website not found (x)")))
+nosite = r("2026-10-20", None, 0, "Website not found (x)")
+nosite["contacts"]["institution_name"] = "Z School"
+(d / "b1" / "scrape_results" / "r002.json").write_text(json.dumps(nosite))
 s = bds.build(d)
 check("totals count institutes, contacts, emails, partners and missing websites",
       {k: s["totals"][k] for k in ("institutes", "with_contact", "with_email", "partners", "no_website", "batches")},
@@ -45,8 +47,14 @@ check("email = work or generic, with the split kept",
       {"with_email": 2, "personal_email": 1, "generic_email": 1, "with_website": 2})
 check("one Institutes line per result, name cleaned, counts only",
       sorted((x["name"], x["country"], x["campuses"], x["partners"], x["website"]) for x in rows),
-      [("", "", 0, 0, 0), ("", "", 0, 4, 1), ("Y College", "Malta", 3, 2, 1)])
+      [("", "", 0, 4, 1), ("Y College", "Malta", 3, 2, 1), ("Z School", "", 0, 0, 0)])
 check("the Institutes lines carry no email", "info@y.edu" in json.dumps(rows), False)
+
+bad = r("2026-10-20", None, 0, "Website not found (no website source available)")
+bad["contacts"]["institution_name"] = "34986419899"
+(d / "b1" / "scrape_results" / "r004.json").write_text(json.dumps(bad))
+check("a broken sheet row (a phone number as the name) is left out of the figures",
+      bds.build(d)["totals"]["institutes"], s["totals"]["institutes"])
 
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

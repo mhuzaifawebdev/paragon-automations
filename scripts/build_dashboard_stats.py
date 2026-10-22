@@ -33,6 +33,14 @@ def institute_counts(result):
             "no_website": no_site, "with_website": 1 - no_site}
 
 
+def broken_row(result):
+    """A broken row of an uploaded sheet (a phone number as the name, several institutes merged in one cell) that
+    never became an institute: left out of every figure. Same rule as the re-check (recheck_no_contact.clean_name)."""
+    from recheck_no_contact import clean_name
+    c = result.get("contacts") or {}
+    return str(c.get("notes") or "").startswith("Website not found") and not clean_name(c.get("institution_name"))
+
+
 def institute_row(result, batch):
     """One line of the Institutes view: counts only, no people or addresses (the page is public)."""
     c = result.get("contacts") or {}
@@ -55,6 +63,8 @@ def build(data=DATA, rows=None):
             try:
                 r = json.loads(f.read_text(encoding="utf-8"))
             except Exception:
+                continue
+            if broken_row(r):
                 continue
             n = institute_counts(r)
             if rows is not None:
