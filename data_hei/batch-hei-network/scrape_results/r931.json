@@ -1,6 +1,6 @@
 {
  "row_id": "r931",
- "scraped_at": "2026-10-12T07:29:13Z",
+ "scraped_at": "2026-10-22T14:15:12Z",
  "contacts": {
   "row_id": "r931",
   "institution_name": "OGEC Lycee Cluny Sainte Suzanne",
@@ -13,17 +13,25 @@
    "evidence_quote": "Tel. 0262 98 06 26"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 7,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Véronique ALEZAN",
+   "designation": "Directrice du Lycée Cluny de Sainte Suzanne",
+   "designation_local": "",
+   "email": "sainte-suzanne@cneap.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://www.lyceecluny-saintesuzanne.fr/",
+   "evidence_quote": "La Directrice du Lycée Cluny de Sainte Suzanne ... Véronique ALEZAN"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Véronique ALEZAN is the director of the institution and the legal representative for Erasmus+.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -37,12 +45,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Ker an L¨r",
-    "partner_country": "",
+    "partner_name": "Mairie de Bras Panon",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "http://www.lyceecluny-saintesuzanne.fr/",
-    "evidence_quote": "L'association Ker an Lèr et le Lycée Cluny : un partenariat fort et un projet inclusif majeur pour Sainte-Suzanne C’est un événement marquant qui s’est [...]",
+    "evidence_quote": "Les Etudiants du BTSA DATR à la Mairie de Bras Panon",
     "confidence": 0.9
    }
   ],
@@ -62,29 +70,30 @@
   "truncated": false,
   "total_seen": 2,
   "pages_read": 7,
-  "coverage_note": "The evidence mentions an Erasmus team but does not provide specific names or contact details for its members. There is no formal list of international partner institutions provided.",
+  "coverage_note": "The evidence mentions an Erasmus team but does not provide specific names or contact details for its members. No formal list of international partner institutions is provided.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 12.0,
+  "discover_s": 0.0,
+  "crawl_s": 19.6,
   "ai_calls": 2,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 21.0,
+  "model_s": 2.5,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 48.3,
   "slices": [
    {
     "lines": [
      1,
      89
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 2,
+    "accepted": 2
    }
   ],
-  "total_seconds": 35.2
- },
- "rechecked": true
+  "total_seconds": 70.4
+ }
 }
