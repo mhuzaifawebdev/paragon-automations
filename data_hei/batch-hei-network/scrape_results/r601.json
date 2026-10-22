@@ -1,6 +1,6 @@
 {
  "row_id": "r601",
- "scraped_at": "2026-10-12T06:27:06Z",
+ "scraped_at": "2026-10-22T21:10:34Z",
  "contacts": {
   "row_id": "r601",
   "institution_name": "Wyzsza Szkola Turystyki i Jezykow Obcych",
@@ -9,17 +9,48 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "dziekanat@wstijo.edu.pl",
   "generic_email_url": "https://wstijo.edu.pl/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Rafał Wróbel",
+   "designation": "Erasmus+ Program Coordinator",
+   "designation_local": "",
+   "email": "rafal.wrobel@wstijo.edu.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://wstijo.edu.pl/en/erasmus-plus/",
+   "evidence_quote": "Erasmus+ Program Coordinator ... Rafał Wróbel"
+  },
+  "alternates": [
+   {
+    "name": "Dr. Anna Jaroch",
+    "designation": "Vice-Rector for Science and Internationalization",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://wstijo.edu.pl/en/authorities/",
+    "evidence_quote": "Dr. Anna Jaroch ... Vice-Rector for Science and Internationalization",
+    "why_chosen": "Vice-rector for international affairs. She is the Vice-Rector for Internationalization and a member of the Erasmus+ recruitment commission."
+   },
+   {
+    "name": "Dr. Magdalena Lipińska-Derlikowska",
+    "designation": "Vice-Rector for Teaching",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://wstijo.edu.pl/en/authorities/",
+    "evidence_quote": "Dr. Magdalena Lipińska-Derlikowska ... Vice-Rector for Teaching",
+    "why_chosen": "Other role. She is a member of the Erasmus+ recruitment commission."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. He is the designated Erasmus+ Program Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -154,15 +185,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 4.5,
-  "ai_calls": 2,
-  "partner_calls": 0,
+  "crawl_s": 157.9,
+  "ai_calls": 1,
+  "model_s": 3.3,
   "cost_usd_estimate": 0.0,
-  "model_s": 1.3,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "total_seconds": 6.4
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 161.2
+ }
 }

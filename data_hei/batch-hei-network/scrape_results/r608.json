@@ -1,6 +1,6 @@
 {
  "row_id": "r608",
- "scraped_at": "2026-10-12T06:29:25Z",
+ "scraped_at": "2026-10-22T21:11:04Z",
  "contacts": {
   "row_id": "r608",
   "institution_name": "Akademija strukovnih studija Beograd",
@@ -13,17 +13,26 @@
    "evidence_quote": "<tel +381112698222>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "erasmus@assb.edu.rs",
   "generic_email_url": "https://assb.edu.rs/odlazna-mobilnost-zaposlenih/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Gordana Stupar",
+   "designation": "Secretary (CAO) of ASSB",
+   "designation_local": "",
+   "email": "gordana.stupar@assb.edu.rs",
+   "office_email": "",
+   "phone": "+381 11 2698222",
+   "source_url": "https://assb.edu.rs/en/president-s-office/",
+   "evidence_quote": "Secretary (CAO) of ASSB Gordana Stupar",
+   "email_source_url": "https://assb.edu.rs/wp-content/uploads/2025/02/Informator_o_radu_ASSB_10.02_2025.pdf"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Gordana Stupar is the Secretary (CAO) of the Academy. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -76,33 +85,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 19.3,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 154.2,
+  "ai_calls": 2,
+  "model_s": 1.8,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     141,
-     206
-    ],
-    "returned": 1,
-    "accepted": 0
-   }
-  ],
-  "total_seconds": 24.8
- },
- "rechecked": 3
+  "contact_pass": 1,
+  "email_search_s": 6.6,
+  "total_seconds": 164.8
+ }
 }
