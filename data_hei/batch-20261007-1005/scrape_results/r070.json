@@ -1,6 +1,6 @@
 {
  "row_id": "r070",
- "scraped_at": "2026-10-07T18:20:30Z",
+ "scraped_at": "2026-10-22T11:16:47Z",
  "contacts": {
   "row_id": "r070",
   "institution_name": "UNIVERSITAT FUR KUNSTLERISCHE UND INDUSTRIELLE GESTALTUNG LINZ",
@@ -17,6 +17,8 @@
    "evidence_quote": "T: +43 (0) 732 7898 2269 <tel +4373278982269>"
   },
   "phone_alt": [],
+  "generic_email": "international.office@kunstuni-linz.at",
+  "generic_email_url": "https://www.kunstuni-linz.at/studium/international/staff-mobilitaet-/-outgoing",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -24,26 +26,35 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
    {
-    "partner_name": "Ruhr-Universität Bochum",
-    "partner_country": "Germany",
-    "partner_type": "university",
+    "partner_name": "ifk Internationales Forschungszentrum Kulturwissenschaften",
+    "partner_country": "Austria",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.kunstuni-linz.at/",
-    "evidence_quote": "Ruhr-Universität Bochum und Kunstuniversität Linz",
+    "evidence_quote": "ifk Internationales Forschungszentrum Kulturwissenschaften | Kunstuniversität Linz in Wien",
     "confidence": 0.9
    },
    {
     "partner_name": "ASEAN-European Academic University Network / ASEA-UNINET",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "network",
-    "mobility_type": "staff",
+    "mobility_type": "unknown",
     "source_url": "https://www.kunstuni-linz.at/studium/international/staff-mobilitaet-/-outgoing",
     "evidence_quote": "Mobilitäten im ERASMUS+ Programm und über das ASEAN-European Academic University Network / ASEA-UNINET werden vom International Office betreut.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ars Electronica Festival",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kunstuni-linz.at/studium/international/staff-mobilitaet-/-incoming",
+    "evidence_quote": "Ars Electronica Festival",
     "confidence": 0.9
    }
   ],
@@ -109,19 +120,71 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 2,
+  "total_seen": 3,
   "pages_read": 10,
-  "coverage_note": "The evidence mentions partner universities exist, but does not provide an itemized list of all partner institutions.",
+  "coverage_note": "The evidence mentions partner universities exist and references an International Office, but does not list the individual names of partner institutions.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 7.5,
-  "crawl_s": 32.2,
+  "discover_s": 0.0,
+  "crawl_s": 10.0,
+  "ai_calls": 7,
+  "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 387.5,
+  "model_s": 172.0,
   "mode": "gemini",
-  "total_seconds": 427.2
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 2,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 182.1
  },
  "rechecked": true
 }
