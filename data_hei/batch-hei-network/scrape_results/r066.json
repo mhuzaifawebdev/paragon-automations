@@ -36,12 +36,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 26.9,
-  "ai_calls": 2,
+  "crawl_s": 26.7,
+  "ai_calls": 3,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 85.1,
+  "model_s": 2.2,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
@@ -52,7 +54,7 @@
     "accepted": 0
    }
   ],
-  "total_seconds": 112.0
+  "total_seconds": 29.7
  },
  "rechecked": 2
 }

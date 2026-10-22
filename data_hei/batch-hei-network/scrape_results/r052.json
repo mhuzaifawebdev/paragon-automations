@@ -1,6 +1,6 @@
 {
  "row_id": "r052",
- "scraped_at": "2026-10-11T10:44:42Z",
+ "scraped_at": "2026-10-22T13:42:10Z",
  "contacts": {
   "row_id": "r052",
   "institution_name": "ECOLE DE FORMATION PROFESSIONNELLE DES BARREAUX DE LA COUR D'APPEL DE PARIS",
@@ -17,6 +17,8 @@
    "evidence_quote": "+33 (0)1 80 22 01 53"
   },
   "phone_alt": [],
+  "generic_email": "international.erasmus@efb.fr",
+  "generic_email_url": "https://wpvit.efb.fr/index.php/international/erasmus/",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -24,13 +26,20 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 6,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
-  "generic_email": "international.erasmus@efb.fr",
-  "generic_email_url": "https://wpvit.efb.fr/index.php/international/erasmus/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
-  "external_collaboration": [],
+  "external_collaboration": [
+   {
+    "partner_name": "Académie de droit international de La Haye",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://wpvit.efb.fr/index.php/lequipe-de-lefb-remporte-le-concours-de-proces-fictif-de-la-cour-penale-internationale/",
+    "evidence_quote": "Durant ce concours organisé par l’Académie de droit international de La Haye, 40 étudiants de 10 universités différentes se sont affrontés.",
+    "confidence": 0.9
+   }
+  ],
   "internal_collaboration": [
    {
     "campus_name": "EFB Issy-les-Moulineaux",
@@ -61,21 +70,23 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 0,
+  "total_seen": 1,
   "pages_read": 6,
-  "coverage_note": "The evidence does not provide a list of partner institutions. The contact provided is a functional department email rather than a specific named individual.",
+  "coverage_note": "The institution does not list specific Erasmus+ partner universities on its website, only general information about the program and the countries involved. No specific contact person is named for international mobility, only a generic email address.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 14.3,
-  "ai_calls": 1,
+  "crawl_s": 13.1,
+  "ai_calls": 2,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 55.6,
+  "model_s": 1.6,
   "mode": "gemini",
-  "total_seconds": 69.9
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 16.0
  },
  "rechecked": 2
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r067",
- "scraped_at": "2026-10-11T10:46:16Z",
+ "scraped_at": "2026-10-22T13:42:42Z",
  "contacts": {
   "row_id": "r067",
   "institution_name": "INSTITUTO POLITECNICO DE VIANA DE CASTELO",
@@ -13,17 +13,48 @@
    "evidence_quote": "+351 258 809 610 | 965 919 650"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Fernando Matos de Carvalho",
+   "designation": "Central Technical Services",
+   "designation_local": "",
+   "email": "fmatos@ipvc.pt",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ipvc.pt/ipvc/servicos/tecnicos/info/",
+   "evidence_quote": "Serviços Técnicos Centrais ... Fernando Matos de Carvalho"
+  },
+  "alternates": [
+   {
+    "name": "Ivo Jerónimo da Silva Araújo",
+    "designation": "Central Technical Services",
+    "designation_local": "",
+    "email": "ivo@esdl.ipvc.pt",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ipvc.pt/ipvc/servicos/tecnicos/info/",
+    "evidence_quote": "Serviços Técnicos Centrais ... Ivo Jerónimo da Silva Araújo",
+    "why_chosen": "Secretary / administration (last resort). He works in the Central Technical Services of the institution."
+   },
+   {
+    "name": "José Carlos Esteves Pereira",
+    "designation": "Central Technical Services",
+    "designation_local": "",
+    "email": "jcepereira@ipvc.pt",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ipvc.pt/ipvc/servicos/tecnicos/info/",
+    "evidence_quote": "Serviços Técnicos Centrais ... José Carlos Esteves Pereira",
+    "why_chosen": "Secretary / administration (last resort). He works in the Central Technical Services of the institution."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). He works in the Central Technical Services of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -32,8 +63,8 @@
     "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
-    "source_url": "https://www.ipvc.pt/en/",
-    "evidence_quote": "(Português) Recordo-me das emoções e experiências vividas durante o meu tempo na ESA. A minha jornada académica começou com muitas dúvidas e incertezas. Felizmente sempre fui acompanhado por um corpo docente extremamente qualificado que me orientou ao longo do percurso académico. Realço a componente prática. Atualmente, sou técnico de SIG na InfoPortugal, onde sou um dos responsáveis pela edição da cartografia.",
+    "source_url": "https://www.ipvc.pt/",
+    "evidence_quote": "Recordo-me das emoções e experiências vividas durante o meu tempo na ESA. A minha jornada académica começou com muitas dúvidas e incertezas. Felizmente sempre fui acompanhado por um corpo docente extremamente qualificado que me orientou ao longo do percurso académico. Realço a componente prática. Atualmente, sou técnico de SIG na InfoPortugal, onde sou um dos responsáveis pela edição da cartografia.",
     "confidence": 0.9
    },
    {
@@ -48,7 +79,7 @@
    {
     "partner_name": "Carta Portuguesa para a Diversidade",
     "partner_country": "Portugal",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
     "evidence_quote": "IPVC signatário da Carta Portuguesa para a Diversidade",
@@ -109,12 +140,57 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "GreenMetric World University Ranking",
+    "partner_name": "UN-2030 Sustainable Development",
     "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "GreenMetric World University Ranking",
+    "evidence_quote": "UN-2030 Sustainable Development",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HESI",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
+    "evidence_quote": "HESI",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EAUC",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
+    "evidence_quote": "EAUC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ENEA",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
+    "evidence_quote": "ENEA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ECO.AP",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
+    "evidence_quote": "ECO.AP",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Global Compact Network",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
+    "evidence_quote": "Global Compact Network",
     "confidence": 0.9
    },
    {
@@ -136,21 +212,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Câmara Municipal de Viana do Castelo",
+    "partner_name": "Gabinete Cidade Saudável da Câmara Municipal de Viana do Castelo",
     "partner_country": "Portugal",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "Gabinete Cidade Saudável da Câmara Municipal de Viana do Castelo – IPVCInstituto Politécnico Viana do Castelo é parceiro local",
+    "evidence_quote": "Gabinete Cidade Saudável da Câmara Municipal de Viana do Castelo – A UNIPVCUniversidade Politécnica de Viana do Castelo é parceira local",
     "confidence": 0.9
    },
    {
     "partner_name": "Conselho Local de Ação Social (CLAS) de Viana do Castelo",
     "partner_country": "Portugal",
-    "partner_type": "network",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "Conselho Local de Ação Social (CLAS) de Viana do Castelo – IPVCInstituto Politécnico Viana do Castelo é parceiro local",
+    "evidence_quote": "Conselho Local de Ação Social (CLAS) de Viana do Castelo – A UNIPVCUniversidade Politécnica de Viana do Castelo é parceira local",
     "confidence": 0.9
    },
    {
@@ -159,7 +235,7 @@
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "Fundação Caixa Agrícola do Noroeste – IPVCInstituto Politécnico Viana do Castelo é do Conselho Consultivo",
+    "evidence_quote": "Fundação Caixa Agrícola do Noroeste – A UNIPVCUniversidade Politécnica de Viana do Castelo é do Conselho Consultivo",
     "confidence": 0.9
    },
    {
@@ -168,25 +244,25 @@
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "ÁREA ALTO-MINHO-Agência Regional de Energia e Ambiente – IPVCInstituto Politécnico Viana do Castelo Vice-Presidente da Direção",
+    "evidence_quote": "ÁREA ALTO-MINHO-Agência Regional de Energia e Ambiente – A UNIPVC assume a vice-presidência da Direção",
     "confidence": 0.9
    },
    {
-    "partner_name": "Comissão Europeia",
+    "partner_name": "DEAR – Development Education and Awareness Raising",
     "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "DEAR – Development Education and Awareness Raising – Multistakeholder Group” da Comissão Europeia, IPVCInstituto Politécnico Viana do Castelo tem representante da ESEEscola Superior de Educação (GEED) no Grupo consultivo",
+    "evidence_quote": "DEAR – Development Education and Awareness Raising – Multistakeholder Group” da Comissão Europeia. A UNIPVCUniversidade Politécnica de Viana do Castelo tem representante da ESEEscola Superior de Educação (GEED) no Grupo consultivo",
     "confidence": 0.9
    },
    {
     "partner_name": "CentroHabitat-Cluster Habitat Sustentável",
-    "partner_country": "Portugal",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "CentroHabitat-Cluster Habitat Sustentável – IPVCInstituto Politécnico Viana do Castelo é membro associado",
+    "evidence_quote": "CentroHabitat-Cluster Habitat Sustentável – A UNIPVCUniversidade Politécnica de Viana do Castelo é membro associado",
     "confidence": 0.9
    },
    {
@@ -195,7 +271,7 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "APESB – Associação Portuguesa de Engenharia Sanitária e Ambiental – IPVCInstituto Politécnico Viana do Castelo é sócio coletivo",
+    "evidence_quote": "APESB – Associação Portuguesa de Engenharia Sanitária e Ambiental – A UNIPVCUniversidade Politécnica de Viana do Castelo é sócio coletivo",
     "confidence": 0.9
    },
    {
@@ -204,7 +280,7 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "ANQIP – Associação Nacional para a Qualidade nas Instalações Prediais- IPVCInstituto Politécnico Viana do Castelo associado coletivo",
+    "evidence_quote": "ANQIP – Associação Nacional para a Qualidade nas Instalações Prediais – A UNIPVCUniversidade Politécnica de Viana do Castelo associado coletivo",
     "confidence": 0.9
    },
    {
@@ -213,7 +289,7 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "PSC – Plataforma Supraconcelhia do Minho-Lima. O IPVCInstituto Politécnico Viana do Castelo integra esta estrutura.",
+    "evidence_quote": "PSC – Plataforma Supraconcelhia do Minho-Lima – A UNIPVCUniversidade Politécnica de Viana do Castelo integra esta estrutura",
     "confidence": 0.9
    },
    {
@@ -222,7 +298,7 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "Age-Platform Europe – AGE Council;Task Force on Citizenship and Participation (TF5) – Membro",
+    "evidence_quote": "Age-Platform Europe – AGE Council;Task Force on Citizenship and Participation (TF5) – A UNIPVCUniversidade Politécnica de Viana do Castelo é membro",
     "confidence": 0.9
    },
    {
@@ -231,7 +307,7 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "CWEG – Collaborative Workgroup of Educators in Gerontology – Membro",
+    "evidence_quote": "CWEG – Collaborative Workgroup of Educators in Gerontology – A UNIPVCUniversidade Politécnica de Viana do Castelo é membro",
     "confidence": 0.9
    },
    {
@@ -240,7 +316,7 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "ORSIES – Observatório de Responsabilidade Social de Instituições de Ensino Superior- IPVCInstituto Politécnico Viana do Castelo é membro",
+    "evidence_quote": "ORSIES – Observatório de Responsabilidade Social de Instituições de Ensino Superior – A UNIPVCUniversidade Politécnica de Viana do Castelo é membro",
     "confidence": 0.9
    },
    {
@@ -249,16 +325,16 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "CME – Consórcio Maior Empregabilidade- IPVCInstituto Politécnico Viana do Castelo é membro",
+    "evidence_quote": "CME – Consórcio Maior Empregabilidade – A UNIPVCUniversidade Politécnica de Viana do Castelo é membro",
     "confidence": 0.9
    },
    {
     "partner_name": "CS11 (IPQ) – Comissão Sectorial para a Educação",
     "partner_country": "Portugal",
-    "partner_type": "network",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "CS11 (IPQ) – Comissão Sectorial para a Educação- IPVCInstituto Politécnico Viana do Castelo é membro",
+    "evidence_quote": "CS11 (IPQ) – Comissão Sectorial para a Educação – A UNIPVCUniversidade Politécnica de Viana do Castelo é membro",
     "confidence": 0.9
    },
    {
@@ -267,16 +343,7 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "RCS – Rede Campus Sustentável. IPVCInstituto Politécnico Viana do Castelo é membro",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Transforma Portugal",
-    "partner_country": "Portugal",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "Transforma Portugal",
+    "evidence_quote": "RCS – Rede Campus Sustentável – A UNIPVCUniversidade Politécnica de Viana do Castelo é membro",
     "confidence": 0.9
    },
    {
@@ -285,7 +352,7 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "R-VES – Rede de Voluntariado Universitário- IPVCInstituto Politécnico Viana do Castelo é membro",
+    "evidence_quote": "R-VES – Rede de Voluntariado Universitário – A UNIPVCUniversidade Politécnica de Viana do Castelo é membro",
     "confidence": 0.9
    },
    {
@@ -307,18 +374,9 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Governo",
-    "partner_country": "Portugal",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "Pacto para a Conciliação integrado no “Programa 3 em Linha – Programa para a Conciliação da Vida Profissional, Pessoal e Familiar” do Governo: o IPVCInstituto Politécnico Viana do Castelo foi a primeira IES a aderir ao Pacto",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Green Roofs – Associação Nacional de Coberturas Verdes",
     "partner_country": "Portugal",
-    "partner_type": "network",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
     "evidence_quote": "Green Roofs – Associação Nacional de Coberturas Verdes",
@@ -327,19 +385,10 @@
    {
     "partner_name": "Smart Waste Portugal",
     "partner_country": "Portugal",
-    "partner_type": "network",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
     "evidence_quote": "Smart Waste Portugal",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Santander",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
-    "evidence_quote": "O IPVCInstituto Politécnico Viana do Castelo também tem conquistado importantes prémios na área da Responsabilidade Social. Mais recentemente, arrecadou o Prémio Santander Uni.Covid-19 com o projeto Janelas ConVida. Em 2019, venceu o ERP Eco Sustainability Award, com o desenvolvimento de um Depositrão (antirroubo), e também o Novo Verde Packaging Universities Award, com CAFE – Consciência Ambiental para o Fim das Embalagens. Em 2018, foi Prémio Academia Grace, com o Sistema de auxílio e melhoram",
     "confidence": 0.9
    },
    {
@@ -375,9 +424,9 @@
     "campus_name": "Escola Superior de Educação",
     "city": "Viana do Castelo",
     "country": "Portugal",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ipvc.pt/",
-    "evidence_quote": "Escola Superior de Educação"
+    "evidence_quote": "A Escola Superior de Educação da Universidade Politécnica de Viana do Castelo (ESE-UNIPVC), criada pelo Decreto – Lei n.º 513-T/79, de 26 de Dezembro, é uma Unidade Orgânica da Universidade Politécnica de Viana do Castelo em funcionamento desde 31 de julho de 1986."
    },
    {
     "campus_name": "Escola Superior Agrária",
@@ -385,23 +434,23 @@
     "country": "Portugal",
     "role": "branch",
     "source_url": "https://www.ipvc.pt/",
-    "evidence_quote": "Escola Superior Agrária"
+    "evidence_quote": "A Escola Superior Agrária (ESA-UNIPVC) é uma das Unidades Orgânicas integrantes da universidade Politécnica de Viana do Castelo (UNIPVC), criada em 1985, através do Decreto do Governo n.º 46/85 de 22 de Novembro."
    },
    {
     "campus_name": "Escola Superior de Tecnologia e Gestão",
     "city": "Viana do Castelo",
     "country": "Portugal",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ipvc.pt/",
-    "evidence_quote": "Escola Superior de Tecnologia e Gestão"
+    "evidence_quote": "A Escola Superior de Tecnologia e Gestão (ESTG-UNIPVC) é uma Unidade Orgânica da UNIPVC, que foi criada em 1985 por Decreto do Governo n.º 46/85/ de 22 Novembro, para responder às necessidades do mercado de trabalho. Situa-se numa paisagem única, junto à praia Norte, com vista para o Monte de Santa Luzia, na cidade minhota de Viana do Castelo."
    },
    {
     "campus_name": "Escola Superior de Saúde",
     "city": "Viana do Castelo",
     "country": "Portugal",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ipvc.pt/",
-    "evidence_quote": "Escola Superior de Saúde"
+    "evidence_quote": "A Escola Superior de Saúde (ESS-UNIPVC) é uma Unidade Orgânica da Universidade Politécnica de Viana do Castelo, ao serviço da sociedade, com intervenção na formação e no desenvolvimento em saúde, constituída por uma comunidade educativa qualificada, inovadora e participativa, comprometida com a formação humanista, com a criação e gestão do conhecimento e da cultura, da investigação, da ciência, da tecnologia e da arte, e com a prestação de serviços à comunidade."
    },
    {
     "campus_name": "Escola Superior de Ciências Empresariais",
@@ -409,43 +458,46 @@
     "country": "Portugal",
     "role": "branch",
     "source_url": "https://www.ipvc.pt/",
-    "evidence_quote": "Escola Superior de Ciências Empresariais"
+    "evidence_quote": "A Escola Superior de Ciências Empresariais (ESCE-UNIPVC) é uma Unidade Orgânica da Universidade Politécnica de Viana do Castelo e está localizada no centro urbano de Valença – uma vila histórica, na margem esquerda do rio Minho, de rara beleza paisagística e com elevado potencial de desenvolvimento económico e social."
    },
    {
     "campus_name": "Escola Superior de Desporto e Lazer",
     "city": "Viana do Castelo",
     "country": "Portugal",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ipvc.pt/",
-    "evidence_quote": "Escola Superior de Desporto e Lazer"
+    "evidence_quote": "A Escola Superior de Desporto e Lazer (ESDL-UNIPVC) é uma das seis Escolas Superiores da Universidade Politécnico de Viana do Castelo. Foi criada pelo Conselho Geral da UNIPVC a 3 de maio de 2011, ao abrigo do disposto no artigo 59.º da Lei 62/2007 de 10 de setembro (Regime Jurídico das Instituições de Ensino Superior), sendo a autorização para funcionamento dada a 11 de maio de 2011, por Despacho do Ministro da Ciência, Tecnologia e Ensino Superior."
    }
   ],
-  "stated_total": 1745,
-  "stated_total_quote": "Desde a sua primeira participação, o IPVCInstituto Politécnico Viana do Castelo tem vindo a subir no Ranking, ocupando, em 2025, a 3.ª posição a nível nacional o 156.º posto em termos mundiais, de um total de 1 745 instituições avaliadas.",
+  "stated_total": 2016,
+  "stated_total_quote": "Desde a sua primeira participação, a UNIPVCUniversidade Politécnica de Viana do Castelo tem vindo a subir no Ranking, ocupando, em 2026, a 3.ª posição a nível nacional e a 260.ª posição em termos mundiais, de um total de 2.016 instituições avaliadas.",
   "stated_total_url": "https://www.ipvc.pt/ipvc/sobre-o-ipvc/campi/campus-sustentavel-e-inclusivo/",
   "truncated": true,
-  "total_seen": 1745,
+  "total_seen": 2016,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of schools and general contact information for the institution, but it does not contain a specific list of Erasmus+ partners or named international relations staff with their contact details.",
+  "coverage_note": "The institution website mentions a section for partner institutions but does not provide a list of names. No specific Erasmus+ coordinator contact details were found in the provided evidence.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 31.5,
-  "ai_calls": 6,
+  "crawl_s": 24.5,
+  "ai_calls": 7,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 118.2,
+  "model_s": 10.5,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 4,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
@@ -460,27 +512,26 @@
      281,
      420
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 5,
-    "accepted": 5
+    "returned": 6,
+    "accepted": 6
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 26,
-    "accepted": 26
+    "returned": 34,
+    "accepted": 34
    }
   ],
-  "total_seconds": 149.7
- },
- "rechecked": 2
+  "total_seconds": 37.0
+ }
 }
