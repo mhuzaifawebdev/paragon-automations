@@ -1,6 +1,6 @@
 {
  "row_id": "r001",
- "scraped_at": "2026-10-22T10:33:23Z",
+ "scraped_at": "2026-10-22T12:29:44Z",
  "contacts": {
   "row_id": "r001",
   "institution_name": "FUNDACION CANARIA GENERAL DE LA UNIVERSIDAD DE LA LAGUNA",
@@ -15,12 +15,21 @@
   "phone_alt": [],
   "generic_email": "info@fg.ull.es",
   "generic_email_url": "https://fg.ull.es/",
-  "contact": null,
+  "contact": {
+   "name": "José Manuel Conde Expósito",
+   "designation": "Data Protection Officer",
+   "designation_local": "",
+   "email": "protecciondedatos@fg.ull.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://fg.ull.es/informacion-legal/",
+   "evidence_quote": "Delegado de Protección de Datos | ... José Manuel Conde Expósito – protecciondedatos@fg.ull.es |"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Other role. He is named as the Data Protection Officer with a direct institutional email address.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.35,
+  "needs_human_check": false,
   "pages_read": 10,
   "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
@@ -134,23 +143,24 @@
   "ai_calls": 4,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 23.1,
+  "model_s": 119.2,
   "mode": "gemini",
+  "email_search_s": 4.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 4,
-    "accepted": 4
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 4,
+    "returned": 5,
     "accepted": 4
    },
    {
@@ -162,7 +172,6 @@
     "accepted": 0
    }
   ],
-  "total_seconds": 41.3
- },
- "rechecked": 2
+  "total_seconds": 141.4
+ }
 }
