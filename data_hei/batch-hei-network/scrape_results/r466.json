@@ -1,6 +1,6 @@
 {
  "row_id": "r466",
- "scraped_at": "2026-10-12T06:04:02Z",
+ "scraped_at": "2026-10-22T20:54:17Z",
  "contacts": {
   "row_id": "r466",
   "institution_name": "Starptautiska Kosmetologijas koledza",
@@ -9,17 +9,37 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 4,
-  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "info@kosmetikasskola.lv",
   "generic_email_url": "https://www.kosmetikasskola.lv/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Iveta Raimo",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "iveta.raimo@kosmetikasskola.lv",
+   "office_email": "",
+   "phone": "+371 27 873 858",
+   "source_url": "https://www.kosmetikasskola.lv/cidesco-skolas-pedagogi",
+   "evidence_quote": "Iveta Raimo ... Direktore"
+  },
+  "alternates": [
+   {
+    "name": "Laima Dobrovoļska",
+    "designation": "Administrator",
+    "designation_local": "",
+    "email": "info@kosmetikasskola.lv",
+    "office_email": "",
+    "phone": "+371 28 388 520",
+    "source_url": "https://www.kosmetikasskola.lv/cidesco-skolas-pedagogi",
+    "evidence_quote": "Laima Dobrovoļska ... Administratore",
+    "why_chosen": "Secretary / administration (last resort). Laima Dobrovoļska serves as an administrator and is a designated contact person for general inquiries."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Iveta Raimo is the director of the institution and is the primary contact for administrative and institutional inquiries.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -163,15 +183,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 10.3,
-  "ai_calls": 2,
-  "partner_calls": 0,
+  "crawl_s": 132.7,
+  "ai_calls": 1,
+  "model_s": 3.1,
   "cost_usd_estimate": 0.0,
-  "model_s": 2.4,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "total_seconds": 14.1
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 135.8
+ }
 }
