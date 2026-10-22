@@ -1,6 +1,6 @@
 {
  "row_id": "r249",
- "scraped_at": "2026-10-11T12:12:08Z",
+ "scraped_at": "2026-10-22T13:48:46Z",
  "contacts": {
   "row_id": "r249",
   "institution_name": "Kodolanyi Janos Egyetem",
@@ -9,17 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable).",
   "generic_email": "erasmus@kodolanyi.hu",
   "generic_email_url": "https://www.kodolanyi.hu/erasmus/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Prof. Dr. Obádovics Csilla",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.kodolanyi.hu/szintet-lepett-az-egyuttmukodes/",
+   "evidence_quote": "„Egyetemünk hosszú távú célja, hogy a MI6-tal való együttműködésre is épülve a fenntarthatóság területén országosan meghatározó tudásközponttá válhassunk. A MI6 szakmai tapasztalataival és országos kapcsolatrendszerével olyan együttműködés jöhet létre, amely jelentős értéket teremthet hallgatóink, kutatóink és partnereink számára egyaránt” – hangsúlyozta Prof. Dr. Obádovics Csilla, a Kodolányi János Egyetem rektora."
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). She is the rector of Kodolányi János University.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -80,15 +88,16 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.0,
-  "crawl_s": 16.2,
-  "ai_calls": 1,
+  "discover_s": 0.0,
+  "crawl_s": 21.7,
+  "ai_calls": 2,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 7.6,
+  "model_s": 2.0,
   "mode": "gemini",
-  "reader": "claude-haiku-4-5",
-  "total_seconds": 26.8
- },
- "rechecked": true
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.3,
+  "total_seconds": 26.5
+ }
 }

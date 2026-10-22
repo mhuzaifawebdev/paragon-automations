@@ -1,6 +1,6 @@
 {
  "row_id": "r259",
- "scraped_at": "2026-10-11T12:14:45Z",
+ "scraped_at": "2026-10-22T13:48:51Z",
  "contacts": {
   "row_id": "r259",
   "institution_name": "SKUPNOST VISJIH STROKOVNIH SOL REPUBLIKE SLOVENIJE",
@@ -13,17 +13,48 @@
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable).",
   "generic_email": "sekretariat@skupnost-vss.si",
   "generic_email_url": "https://www.skupnost-vss.si/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Natalija Klepej Gržanič",
+   "designation": "Head of Development",
+   "designation_local": "",
+   "email": "natalija.klepej@skupnost-vss.si",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.skupnost-vss.si/secretariat/?lang=en",
+   "evidence_quote": "Natalija Klepej Gržanič ... Head of Development"
+  },
+  "alternates": [
+   {
+    "name": "Nejc Gajšek",
+    "designation": "Researcher",
+    "designation_local": "",
+    "email": "nejc.gajsek@skupnost-vss.si",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.skupnost-vss.si/secretariat/?lang=en",
+    "evidence_quote": "Nejc Gajšek ... Researcher",
+    "why_chosen": "Mobility coordinator. He is listed as a contact for Erasmus+ KA1 mobility."
+   },
+   {
+    "name": "Dr. Vesna Novak",
+    "designation": "Office Associate",
+    "designation_local": "",
+    "email": "vesna.novak@skupnost-vss.si",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.skupnost-vss.si/secretariat/?lang=en",
+    "evidence_quote": "Dr. Vesna Novak ... Office Associate",
+    "why_chosen": "Mobility coordinator. She provides expert support for international projects including Erasmus+."
+   }
+  ],
+  "rung": "Head of international relations. She oversees the area of international cooperation and manages Erasmus+ (KA2) projects.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -103,15 +134,25 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 10.4,
-  "crawl_s": 20.1,
-  "ai_calls": 1,
-  "partner_calls": 0,
+  "discover_s": 0.0,
+  "crawl_s": 27.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 18.0,
+  "model_s": 4.0,
   "mode": "gemini",
-  "reader": "claude-haiku-4-5",
-  "total_seconds": 48.5
- },
- "rechecked": true
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 31.0
+ }
 }

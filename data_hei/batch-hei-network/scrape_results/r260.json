@@ -1,6 +1,6 @@
 {
  "row_id": "r260",
- "scraped_at": "2026-10-11T12:14:59Z",
+ "scraped_at": "2026-10-22T13:48:55Z",
  "contacts": {
   "row_id": "r260",
   "institution_name": "UNIWERSYTET MORSKI W GDYNI",
@@ -9,17 +9,48 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "erasmus@umg.edu.pl",
+  "generic_email_url": "https://www.umg.edu.pl/koordynatorzy-erasmus",
+  "contact": {
+   "name": "Paulina Witt",
+   "designation": "Senior Specialist, Erasmus+ Administrative Support",
+   "designation_local": "",
+   "email": "p.witt@au.umg.edu.pl",
+   "office_email": "",
+   "phone": "58-5586-616",
+   "source_url": "https://www.umg.edu.pl/koordynatorzy-erasmus",
+   "evidence_quote": "starszy specjalista ... Paulina Witt"
+  },
+  "alternates": [
+   {
+    "name": "Anika Kapuścińska",
+    "designation": "Specialist, Erasmus+ Administrative Support",
+    "designation_local": "",
+    "email": "a.kapuscinska@au.umg.edu.pl",
+    "office_email": "",
+    "phone": "58-5586-493",
+    "source_url": "https://www.umg.edu.pl/koordynatorzy-erasmus",
+    "evidence_quote": "specjalista ... Anika Kapuścińska",
+    "why_chosen": "Mobility coordinator. She is a specialist in the team responsible for the administrative support of the Erasmus+ program."
+   },
+   {
+    "name": "Aleksandra Prądzyńska",
+    "designation": "Erasmus+ Administrative Support",
+    "designation_local": "",
+    "email": "a.pradzynska@au.umg.edu.pl",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.umg.edu.pl/koordynatorzy-erasmus",
+    "evidence_quote": "Zespół ds. Obsługi Studentów Zagranicznych - obsługa administracyjna programu Erasmus+ ... Aleksandra Prądzyńska",
+    "why_chosen": "Mobility coordinator. She is part of the team responsible for the administrative support of the Erasmus+ program."
+   }
+  ],
+  "rung": "Mobility coordinator. She is a senior specialist in the team responsible for the administrative support of the Erasmus+ program.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable). 2 page(s) could not be read.",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -404,41 +435,41 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.4,
-  "crawl_s": 12.5,
+  "discover_s": 0.0,
+  "crawl_s": 13.2,
   "ai_calls": 4,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 47.9,
+  "model_s": 10.7,
   "mode": "gemini",
-  "reader": "claude-haiku-4-5",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 4,
+    "accepted": 3
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      281,
-     351
+     354
     ],
-    "returned": 37,
-    "accepted": 35
+    "returned": 36,
+    "accepted": 34
    }
   ],
-  "total_seconds": 62.8
- },
- "rechecked": true
+  "total_seconds": 23.9
+ }
 }

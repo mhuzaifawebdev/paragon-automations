@@ -44,25 +44,16 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.4,
-  "crawl_s": 10.4,
+  "discover_s": 0.0,
+  "crawl_s": 10.0,
   "ai_calls": 2,
-  "partner_calls": 1,
+  "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.0,
+  "model_s": 1.3,
   "mode": "gemini",
-  "reader": "claude-haiku-4-5",
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 0,
-    "accepted": 0
-   }
-  ],
-  "total_seconds": 18.8
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 12.0
  },
  "rechecked": true
 }
