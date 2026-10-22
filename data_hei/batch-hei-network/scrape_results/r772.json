@@ -1,25 +1,37 @@
 {
  "row_id": "r772",
- "scraped_at": "2026-10-12T06:52:33Z",
+ "scraped_at": "2026-10-22T21:30:41Z",
  "contacts": {
   "row_id": "r772",
   "institution_name": "Instytut Immunologii i Terapii Doswiadczalnej im. Ludwika Hirszfelda Polskiej Akademii Nauk",
-  "institution_type": "unknown",
+  "institution_type": "university",
   "official_website": "https://igcz.poznan.pl/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "61 65 79 156",
+   "source_url": "https://igcz.poznan.pl/struktura/biuro-koordynacji-badan/lokalny-punkt-kontaktowy/",
+   "evidence_quote": "KONTAKT: KOORDYNATOR DS. BADAŃ, tel. 61 65 79 156, e-mail: grantoffice@igcz.poznan.pl <grantoffice@igcz.poznan.pl>"
+  },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "erasmus@igcz.poznan.pl",
   "generic_email_url": "https://igcz.poznan.pl/doktoranci/erasmus/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Marcin Kęsikiewicz",
+   "designation": "Author/Publisher",
+   "designation_local": "",
+   "email": "marcink@man.poznan.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://bip.igcz.poznan.pl/projekty/",
+   "evidence_quote": "Autor: Marcin Kęsikiewicz"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). He is listed as the author and publisher of the projects page on the institution's website.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -40,11 +52,20 @@
     "source_url": "https://igcz.poznan.pl/seminaria-i-wyklady-gosci/seminarium-poswiecone-badaniom-prowadzonym-przez-zespol-miedzynarodowej-agendy-badawczej-mab-laboratorium-medycyny-3p-ang-preventive-personalized-precision/",
     "evidence_quote": "dr Natalia Filipowicz, prof. Jan Dumański, prof. Arkadiusz Piotrowski, dr Magdalena Koczkowska, dr hab. Jakub Mieczkowski (Laboratorium Medycyny 3P to wspólna specjalistyczna jednostka badawcza Gdańskiego Uniwersytetu Medycznego oraz Uniwersytetu w Uppsali w Szwecji).",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "Thematic Institute of Genetics, Genomics & Bioinformatics, INSERM",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://igcz.poznan.pl/aktualnosci/igc-pan-czlonkiem-partnerstwa-erdera-european-rare-diseases-research-alliance-wylonionego-w-konkursie-horyzontu-europa-ke-na-europejskie-partnerstwo-ds-chorob-rzadkich-na-lata-2024-2031/",
+    "evidence_quote": "Liderem konsorcjum jest Thematic Institute of Genetics, Genomics & Bioinformatics, INSERM z Francji.",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Instytut Genetyki Człowieka Polskiej Akademii Nauk",
+    "campus_name": "Institute of Human Genetics Polish Academy of Sciences",
     "city": "Poznań",
     "country": "Poland",
     "role": "main",
@@ -56,41 +77,22 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 2,
-  "pages_read": 10,
-  "coverage_note": "The evidence does not provide a list of Erasmus+ partner institutions. The contact information for the Erasmus+ coordinator is missing.",
+  "total_seen": 3,
+  "pages_read": 20,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partner universities, only mentioning that interinstitutional agreements are required for mobility. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 8.1,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 135.9,
+  "ai_calls": 2,
+  "model_s": 2.2,
   "cost_usd_estimate": 0.0,
-  "model_s": 2.8,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     841,
-     980
-    ],
-    "returned": 2,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     981,
-     1111
-    ],
-    "returned": 0,
-    "accepted": 0
-   }
-  ],
-  "total_seconds": 12.6
- },
- "rechecked": 3
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 139.9
+ }
 }
