@@ -20,7 +20,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: email domain. mode: gemini.",
+  "generic_email": "international@agro-bordeaux.fr",
+  "generic_email_url": "https://www.agro-bordeaux.fr/international/programmes-dechanges/mobilite-entrante/"
  },
  "network": {
   "external_collaboration": [
@@ -217,12 +219,32 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.2,
-  "crawl_s": 13.6,
+  "discover_s": 0.0,
+  "crawl_s": 8.6,
+  "ai_calls": 3,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 225.6,
+  "model_s": 38.3,
   "mode": "gemini",
-  "total_seconds": 241.5
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 7,
+    "accepted": 6
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 7,
+    "accepted": 6
+   }
+  ],
+  "total_seconds": 46.9
  },
  "rechecked": true
 }
