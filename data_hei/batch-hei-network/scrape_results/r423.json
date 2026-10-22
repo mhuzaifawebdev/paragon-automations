@@ -1,6 +1,6 @@
 {
  "row_id": "r423",
- "scraped_at": "2026-10-22T13:55:07Z",
+ "scraped_at": "2026-10-22T20:51:31Z",
  "contacts": {
   "row_id": "r423",
   "institution_name": "Ecole Supérieure d'Ingénieurs des Travaux de la Construction de Caen",
@@ -17,15 +17,36 @@
    "evidence_quote": "Campus Normandie : 02 31 46 23 00"
   },
   "phone_alt": [],
-  "generic_email": "",
-  "generic_email_url": "",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "contact@builders-ingenieurs.fr",
+  "generic_email_url": "https://builders-ingenieurs.fr/mentions-legales/",
+  "contact": {
+   "name": "Jérôme Lebrun",
+   "designation": "Director of BUILDERS École d'ingénieurs",
+   "designation_local": "",
+   "email": "contact@builders-ingenieurs.fr",
+   "office_email": "",
+   "phone": "02 31 46 23 00",
+   "source_url": "https://builders-ingenieurs.fr/mentions-legales/",
+   "evidence_quote": "Responsables de la publication du site Directeur de la publication : Jérôme Lebrun, Directeur de BUILDERS École d'ingénieurs - Responsable de rédaction : Marie-Caroline Coubé, Directrice Marketing et Communication."
+  },
+  "alternates": [
+   {
+    "name": "Marie-Caroline Coubé",
+    "designation": "Marketing and Communications Director",
+    "designation_local": "",
+    "email": "contact@builders-ingenieurs.fr",
+    "office_email": "",
+    "phone": "02 31 46 23 00",
+    "source_url": "https://builders-ingenieurs.fr/mentions-legales/",
+    "evidence_quote": "Responsables de la publication du site Directeur de la publication : Jérôme Lebrun, Directeur de BUILDERS École d'ingénieurs - Responsable de rédaction : Marie-Caroline Coubé, Directrice Marketing et Communication.",
+    "why_chosen": "Other role. Marie-Caroline Coubé is the Marketing and Communications Director."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Jérôme Lebrun is the Director of the institution.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 20,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -502,41 +523,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 31.4,
-  "ai_calls": 5,
-  "partner_calls": 3,
+  "crawl_s": 125.1,
+  "ai_calls": 2,
+  "model_s": 5.8,
   "cost_usd_estimate": 0.0,
-  "model_s": 11.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 2,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 1,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 43,
-    "accepted": 42
-   }
-  ],
-  "total_seconds": 44.9
- },
- "rechecked": 3
+  "contact_pass": 2,
+  "email_search_s": 6.6,
+  "total_seconds": 139.4
+ }
 }
