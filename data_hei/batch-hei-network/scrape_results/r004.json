@@ -25,8 +25,8 @@
   "needs_human_check": true,
   "pages_read": 10,
   "notes": "site found via: website column in the sheet. mode: gemini.",
-  "generic_email": "",
-  "generic_email_url": "",
+  "generic_email": "international@univ-littoral.fr",
+  "generic_email_url": "https://www.univ-littoral.fr/universite/contacts-plans-dacces/",
   "generic_checked": "2026-10-22"
  },
  "network": {
@@ -158,12 +158,12 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.9,
-  "crawl_s": 16.0,
+  "discover_s": 0.0,
+  "crawl_s": 22.1,
   "ai_calls": 5,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 17.9,
+  "model_s": 16.4,
   "mode": "gemini",
   "slices": [
    {
@@ -171,35 +171,35 @@
      1,
      140
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 5,
-    "accepted": 5
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
      421,
-     508
+     513
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 2,
+    "accepted": 2
    }
   ],
-  "total_seconds": 36.8
+  "total_seconds": 38.5
  },
  "rechecked": true
 }

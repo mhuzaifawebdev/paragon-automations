@@ -63,24 +63,14 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 11.1,
-  "crawl_s": 10.9,
-  "ai_calls": 2,
-  "partner_calls": 1,
+  "discover_s": 0.0,
+  "crawl_s": 20.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 26.4,
+  "model_s": 7.9,
   "mode": "gemini",
-  "slices": [
-   {
-    "lines": [
-     1,
-     136
-    ],
-    "returned": 2,
-    "accepted": 2
-   }
-  ],
-  "total_seconds": 48.4
+  "total_seconds": 28.0
  },
  "rechecked": true
 }
