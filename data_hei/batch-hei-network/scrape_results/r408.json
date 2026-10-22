@@ -1,6 +1,6 @@
 {
  "row_id": "r408",
- "scraped_at": "2026-10-12T05:50:02Z",
+ "scraped_at": "2026-10-22T13:54:54Z",
  "contacts": {
   "row_id": "r408",
   "institution_name": "AKADEMIA KALISKA IM. PREZYDENTA STANISŁAWA WOJCIECHOWSKIEGO",
@@ -9,17 +9,48 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "rekrutacja@uniwersytetkaliski.edu.pl",
+  "generic_email": "rektorat@uniwersytetkaliski.edu.pl",
   "generic_email_url": "https://uniwersytetkaliski.edu.pl/kontakt/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "T. Manasterska",
+   "designation": "Erasmus+ Program Coordinator",
+   "designation_local": "",
+   "email": "t.manasterska@uniwersytetkaliski.edu.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://uniwersytetkaliski.edu.pl/kontakt/",
+   "evidence_quote": "UCZELNIANY KOORDYNATOR PROGRAMU ERASMUS+ | ... email t.manasterska@uniwersytetkaliski.edu.pl <t.manasterska@uniwersytetkaliski.edu.pl>"
+  },
+  "alternates": [
+   {
+    "name": "W. Zatoński",
+    "designation": "Rector's Plenipotentiary for International Scientific Contacts",
+    "designation_local": "",
+    "email": "w.zatonski@uniwersytetkaliski.edu.pl",
+    "office_email": "",
+    "phone": "505 452 631",
+    "source_url": "https://uniwersytetkaliski.edu.pl/kontakt/",
+    "evidence_quote": "PEŁNOMOCNIK REKTORA DS. MIĘDZYNARODOWYCH KONTAKTÓW NAUKOWYCH | ... email w.zatonski@uniwersytetkaliski.edu.pl <w.zatonski@uniwersytetkaliski.edu.pl>",
+    "why_chosen": "Other role. W. Zatoński serves as the Rector's plenipotentiary for international scientific contacts."
+   },
+   {
+    "name": "A. Kijewski",
+    "designation": "Department of Cooperation, Development and Communication",
+    "designation_local": "",
+    "email": "a.kijewski@uniwersytetkaliski.edu.pl",
+    "office_email": "",
+    "phone": "62 76 79 748",
+    "source_url": "https://uniwersytetkaliski.edu.pl/kontakt/",
+    "evidence_quote": "DZIAŁ WSPÓŁPRACY, ROZWOJU I KOMUNIKACJI | ... email a.kijewski@uniwersytetkaliski.edu.pl <a.kijewski@uniwersytetkaliski.edu.pl>",
+    "why_chosen": "Other role. A. Kijewski works in the department responsible for cooperation and development."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. T. Manasterska is the institutional coordinator for the Erasmus+ program.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -458,7 +489,7 @@
    {
     "partner_name": "INSTITUT REGIONAL DE FORMATION SANITAIRE ET SOCIALE CROIX-ROUGE FRANCAISE NORD-PAS-DE-CALAIS",
     "partner_country": "Francja",
-    "partner_type": "college",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://uniwersytetkaliski.edu.pl/wspolpraca-miedzynarodowa/erasmus/mobilnosci-ka-131-kraje-programu/",
     "evidence_quote": "INSTITUT REGIONAL DE FORMATION SANITAIRE ET SOCIALE CROIX-ROUGE FRANCAISE NORD-PAS-DE-CALAIS | F DOUAI12 | zdrowie, pielęgniarstwo, położnictwo | Strona www |",
@@ -728,7 +759,7 @@
    {
     "partner_name": "Vysoka Skola Bezpecnostneho Manazerstva, S.R.O.",
     "partner_country": "Słowacja",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://uniwersytetkaliski.edu.pl/wspolpraca-miedzynarodowa/erasmus/mobilnosci-ka-131-kraje-programu/",
     "evidence_quote": "Vysoka Skola Bezpecnostneho Manazerstva, S.R.O. | SK KOSICE05 | bezpieczeństwo wewnętrzne, zarządzanie i dowodzenie, bezpieczeństwo narodowe | Strona www |",
@@ -746,7 +777,7 @@
    {
     "partner_name": "Vysoka Skola Manazmentu",
     "partner_country": "Słowacja",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://uniwersytetkaliski.edu.pl/wspolpraca-miedzynarodowa/erasmus/mobilnosci-ka-131-kraje-programu/",
     "evidence_quote": "Vysoka Skola Manazmentu | SK TRENCIN02 | zarządzanie,",
@@ -773,7 +804,7 @@
    {
     "partner_name": "Fakulteta za zdravstvene vede v Celju",
     "partner_country": "Słowenia",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://uniwersytetkaliski.edu.pl/wspolpraca-miedzynarodowa/erasmus/mobilnosci-ka-131-kraje-programu/",
     "evidence_quote": "Fakulteta za zdravstvene vede v Celju | SI CELJE08 | pielęgniarstwo, położnictwo | Strona www |",
@@ -1191,6 +1222,15 @@
     "mobility_type": "unknown",
     "source_url": "https://uniwersytetkaliski.edu.pl/wspolpraca-miedzynarodowa/erasmus/mobilnosci-ka-131-kraje-programu/",
     "evidence_quote": "Universita degli Studi Suor Orsola Benincasa | I NAPOLI04 | zarządzanie, administracja, | Strona www |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Wody Polskie",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://uniwersytetkaliski.edu.pl/",
+    "evidence_quote": "[Wody Polskie i Uniwersytet Kaliski będą wspólnie kształcić przyszłych specjalistów gospodarki wodnej]",
     "confidence": 0.9
    },
    {
@@ -1705,26 +1745,9 @@
     "source_url": "https://uniwersytetkaliski.edu.pl/wspolpraca-miedzynarodowa/erasmus/mobilnosci-ka-131-kraje-programu/",
     "evidence_quote": "Universita degli Studi di Perugia | I PERUGIA01 | zarządzanie, administracja, | Strona www |",
     "confidence": 0.9
-   },
-   {
-    "partner_name": "Wojewódzki Szpital Zespolony im. Ludwika Perzyny w Kaliszu",
-    "partner_country": "Poland",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://uniwersytetkaliski.edu.pl/wizyta-studentow-zagranicznych-programu-erasmus-w-wojewodzkim-szpitalu-zespolonym-im-ludwika-perzyny-w-kaliszu/",
-    "evidence_quote": "Wizyta studentów zagranicznych programu Erasmus+ w Wojewódzkim Szpitalu Zespolonym im. Ludwika Perzyny w Kaliszu – Uniwersytet Kaliski",
-    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
-   {
-    "campus_name": "Uniwersytet Kaliski",
-    "city": "Kalisz",
-    "country": "Poland",
-    "role": "main",
-    "source_url": "https://uniwersytetkaliski.edu.pl/",
-    "evidence_quote": "Uniwersytet Kaliski – Uniwersytet Kaliski im. Prezydenta Stanisława Wojciechowskiego"
-   },
    {
     "campus_name": "Wydział Medyczno-Społeczno-Techniczny we Wrześni",
     "city": "Września",
@@ -1740,27 +1763,29 @@
   "truncated": false,
   "total_seen": 188,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of Erasmus+ partner universities, but does not state a total number of partners. Contact information for the international office is provided.",
+  "coverage_note": "The evidence provides a comprehensive list of Erasmus+ partner universities, but does not explicitly state a total number of partners. Contact information for international cooperation is provided, though specific roles for some contacts are not fully detailed beyond their titles.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.1,
-  "crawl_s": 20.3,
-  "ai_calls": 6,
+  "discover_s": 0.0,
+  "crawl_s": 29.7,
+  "ai_calls": 7,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 27.2,
+  "model_s": 29.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
@@ -1789,13 +1814,12 @@
    {
     "lines": [
      561,
-     682
+     688
     ],
     "returned": 1,
     "accepted": 1
    }
   ],
-  "total_seconds": 50.7
- },
- "rechecked": true
+  "total_seconds": 60.8
+ }
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r443",
- "scraped_at": "2026-10-12T05:58:35Z",
+ "scraped_at": "2026-10-22T13:55:33Z",
  "contacts": {
   "row_id": "r443",
   "institution_name": "Akademia Nauk Stosowanych w Wałczu",
@@ -13,17 +13,37 @@
    "evidence_quote": "tel.: 67 259 09 70"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "rektorat@answalcz.pl",
   "generic_email_url": "https://answalcz.pl/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Kamil Woźny",
+   "designation": "Specialist for administration",
+   "designation_local": "",
+   "email": "kamil.wozny@answalcz.pl",
+   "office_email": "",
+   "phone": "67 259 09 70",
+   "source_url": "https://answalcz.pl/pracownicy-administracyjni/",
+   "evidence_quote": "Specjalista ds. administracji: ... inż. Kamil Woźny"
+  },
+  "alternates": [
+   {
+    "name": "Mateusz Bonin",
+    "designation": "Specialist for administration",
+    "designation_local": "",
+    "email": "mateusz.bonin@answalcz.pl",
+    "office_email": "",
+    "phone": "67 259 09 80",
+    "source_url": "https://answalcz.pl/pracownicy-administracyjni/",
+    "evidence_quote": "Specjalista ds. administracji: ... mgr Mateusz Bonin",
+    "why_chosen": "International relations officer. Mateusz Bonin works in the Department of Promotion and International Cooperation, which handles international partnerships."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. International relations officer. Kamil Woźny is listed under the Department of Promotion and International Cooperation and is the contact person on file for international mobility.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -154,10 +174,28 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "QuickMap",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://answalcz.pl/",
+    "evidence_quote": "Zapraszamy do udziału w Tax Games 2026/2027 – ogólnopolskim, indywidualnym konkursie podatkowym organizowanym przez QuickMap, którego partnerem merytorycznym jest MDDP.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MDDP",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://answalcz.pl/",
+    "evidence_quote": "Zapraszamy do udziału w Tax Games 2026/2027 – ogólnopolskim, indywidualnym konkursie podatkowym organizowanym przez QuickMap, którego partnerem merytorycznym jest MDDP.",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Fundacja DKMS",
     "partner_country": "unknown",
     "partner_type": "other",
-    "mobility_type": "unknown",
+    "mobility_type": "traineeship",
     "source_url": "https://answalcz.pl/",
     "evidence_quote": "Zostań Studenckim Liderem i wygraj staż w Fundacji DKMS!",
     "confidence": 0.9
@@ -169,15 +207,6 @@
     "mobility_type": "unknown",
     "source_url": "https://answalcz.pl/",
     "evidence_quote": "30 września w Wałeckim Centrum Kultury odbyła się uroczysta Inauguracja Roku Akademickiego 2026/2027 Akademii Nauk Stosowanych w Wałczu oraz Wałeckiego Uniwersytetu Trzeciego Wieku.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Powiat Szczecinecki",
-    "partner_country": "Poland",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://answalcz.pl/",
-    "evidence_quote": "Powiat Szczecinecki kolejnym partnerem Akademii Nauk Stosowanych w Wałczu!",
     "confidence": 0.9
    },
    {
@@ -204,29 +233,30 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 18,
+  "total_seen": 19,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of Erasmus+ partner universities, but does not explicitly state the total number of partners.",
+  "coverage_note": "The institution provides a list of partner universities, but does not explicitly state a total number of partners.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.8,
-  "crawl_s": 18.4,
+  "discover_s": 0.0,
+  "crawl_s": 20.5,
   "ai_calls": 3,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 6.2,
+  "model_s": 5.6,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
@@ -237,7 +267,6 @@
     "accepted": 12
    }
   ],
-  "total_seconds": 27.3
- },
- "rechecked": true
+  "total_seconds": 26.2
+ }
 }

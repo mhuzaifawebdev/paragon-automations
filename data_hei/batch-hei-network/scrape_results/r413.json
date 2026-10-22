@@ -1,10 +1,10 @@
 {
  "row_id": "r413",
- "scraped_at": "2026-10-12T05:53:50Z",
+ "scraped_at": "2026-10-22T13:54:54Z",
  "contacts": {
   "row_id": "r413",
   "institution_name": "FUNDACIO ESCOLA SUPERIOR DE MUSICA DE CATALUNYA",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.esmuc.cat/",
   "country": null,
   "phone": {
@@ -13,17 +13,25 @@
    "evidence_quote": "Telèfon ESMUC (+34) 93.352.30.11"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "erasmus@esmuc.cat",
   "generic_email_url": "https://www.esmuc.cat/estudis/mobilitat-internacional/vull-fer-un-erasmus-a-lesmuc/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Tuovi Martinsen",
+   "designation": "Head of International Relations",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.esmuc.cat/escola/sobre-lesmuc/organitzacio/administracio-i-serveis/",
+   "evidence_quote": "Martinsen, Tuovi | #4202 | Relacions Internacionals (Cap) |"
+  },
+  "alternates": [],
+  "rung": "Head of international relations. Tuovi Martinsen is listed as the Head of International Relations in the staff directory.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -865,12 +873,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Cor Bach de Freiburg",
-    "partner_country": "Germany",
+    "partner_name": "Banda Municipal de Barcelona",
+    "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.esmuc.cat/",
-    "evidence_quote": "Classes magistrals i concert Erasmus+ amb el Cor Bach de Freiburg",
+    "evidence_quote": "L’ESMUC continua la celebració del seu 25è aniversari amb la Banda Municipal de Barcelona",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bachchor Freiburg",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://www.esmuc.cat/",
+    "evidence_quote": "Classes magistrals i concert Erasmus+ amb el Bachchor Freiburg",
     "confidence": 0.9
    },
    {
@@ -879,7 +896,16 @@
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.esmuc.cat/",
-    "evidence_quote": "L'Orquestra Simfònica de l'ESMUC inaugura la 15a edició del Festival Mixtur de nova creació sonora de Barcelona.",
+    "evidence_quote": "La 15a edició del Mixtur aterra a l’ESMUC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CrossingLines Ensemble",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.esmuc.cat/",
+    "evidence_quote": "Workshop del CrossingLines Ensemble a l’ESMUC",
     "confidence": 0.9
    },
    {
@@ -888,7 +914,7 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.esmuc.cat/",
-    "evidence_quote": "IN.TUNE organitza una sèrie de seminaris web sobre recerca artística, supervisió de la recerca i avaluació en context internacional.",
+    "evidence_quote": "Explorant la supervisió en la recerca artística: cicle de seminaris web d’IN.TUNE",
     "confidence": 0.9
    },
    {
@@ -901,8 +927,26 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "SEPIE (Servicio Español para la Internacionalización de la Educación)",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.esmuc.cat/estudis/mobilitat-internacional/vull-fer-un-erasmus-a-lesmuc/",
+    "evidence_quote": "SEPIE (Servicio Español para la Internacionalización de la Educación)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Comissió Europea",
+    "partner_country": "European Union",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.esmuc.cat/estudis/mobilitat-internacional/vull-fer-un-erasmus-a-lesmuc/",
+    "evidence_quote": "Comissió Europea",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "MOBILITY",
-    "partner_country": "unknown",
+    "partner_country": "Europe",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.esmuc.cat/estudis/mobilitat-internacional/vull-fer-una-estada-erasmus-a-lestranger/",
@@ -996,37 +1040,39 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 106,
+  "total_seen": 110,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of bilateral partners and information on the IN.TUNE alliance. No specific total number of partners is explicitly stated.",
+  "coverage_note": "The evidence provides a comprehensive list of bilateral partners and details regarding the IN.TUNE alliance. No specific total number of partners is explicitly stated.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 31.0,
-  "ai_calls": 6,
+  "discover_s": 0.0,
+  "crawl_s": 38.0,
+  "ai_calls": 7,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 29.8,
+  "model_s": 19.6,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 4,
-    "accepted": 4
+    "returned": 6,
+    "accepted": 6
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
@@ -1041,19 +1087,18 @@
      561,
      700
     ],
-    "returned": 51,
-    "accepted": 51
+    "returned": 39,
+    "accepted": 39
    },
    {
     "lines": [
      701,
-     806
+     827
     ],
-    "returned": 51,
-    "accepted": 51
+    "returned": 63,
+    "accepted": 63
    }
   ],
-  "total_seconds": 63.1
- },
- "rechecked": true
+  "total_seconds": 60.7
+ }
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r423",
- "scraped_at": "2026-10-12T05:55:12Z",
+ "scraped_at": "2026-10-22T13:55:07Z",
  "contacts": {
   "row_id": "r423",
   "institution_name": "Ecole Supérieure d'Ingénieurs des Travaux de la Construction de Caen",
@@ -8,8 +8,8 @@
   "official_website": "https://builders-ingenieurs.fr/",
   "country": {
    "value": "France",
-   "source_url": "https://builders-ingenieurs.fr/",
-   "evidence_quote": "Retrouvez-nous sur les salons étudiants à partir du mois de septembre et dans toute la France."
+   "source_url": "https://builders-ingenieurs.fr/en/school/governance/",
+   "evidence_quote": "1 rue Pierre et Marie Curie, 14610 Epron, France"
   },
   "phone": {
    "value": "02 31 46 23 00",
@@ -17,6 +17,8 @@
    "evidence_quote": "Campus Normandie : 02 31 46 23 00"
   },
   "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -24,13 +26,64 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
+   {
+    "partner_name": "Université des Métiers du Nucléaire",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/",
+    "evidence_quote": "BUILDERS signe un partenariat avec l’Université des Métiers du Nucléaire",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Spie batignolles",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/",
+    "evidence_quote": "BUILDERS École d’Ingénieurs lance le parrainage de la promotion 2027 avec Spie batignolles",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université Caen Normandie",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/ecole/gouvernance/",
+    "evidence_quote": "L'Université Caen Normandie, représentée par son Président M. Lamri ADOUI",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ENSICAEN",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/ecole/gouvernance/",
+    "evidence_quote": "L'ENSICAEN, représentée par son Directeur M. Gilles BAN",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "INSA ROUEN",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/ecole/gouvernance/",
+    "evidence_quote": "L'INSA ROUEN, représenté par son Directeur M. Mourad BOUKHALFA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ENTPE",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/ecole/gouvernance/",
+    "evidence_quote": "L'ENTPE, représentée par sa Directrice Mme Cécile DELOLME",
+    "confidence": 0.9
+   },
    {
     "partner_name": "EGIS",
     "partner_country": "unknown",
@@ -338,6 +391,24 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Master Erasmus Mundus COMEM+ - Coastal and Marine Engineering and Management",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/contact/",
+    "evidence_quote": "Master Erasmus Mundus COMEM+ - Coastal and Marine Engineering and Management",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pôle Mer Bretagne Atlantique",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/masteres-specialises/mastere-specialise-smart-port-and-marine-environment/",
+    "evidence_quote": "Cette formation est labellisée par le Pôle Mer Bretagne Atlantique, renforçant ainsi sa reconnaissance auprès des acteurs du secteur.",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "PIANC",
     "partner_country": "unknown",
     "partner_type": "network",
@@ -347,30 +418,57 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Conférence des Grandes Ecoles",
+    "partner_name": "AIMCC",
     "partner_country": "France",
     "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://builders-ingenieurs.fr/",
-    "evidence_quote": "BUILDERS École d'ingénieurs est un établissement d'intérêt général (Label EESPIG), reconnu par l’État, membre de la Conférence des Grandes Ecoles. (CGE) BUILDERS École d'ingénieurs est habilitée par la Commission des Titres d'Ingénieurs (CTI) à délivrer le diplôme d'ingénieur sous statut étudiant et apprenti.",
+    "source_url": "https://builders-ingenieurs.fr/en/school/governance/",
+    "evidence_quote": "Chairman of the AIMCC (French Association of Construction Products Industries)",
     "confidence": 0.9
    },
    {
-    "partner_name": "Commission des Titres d'Ingénieurs",
-    "partner_country": "France",
+    "partner_name": "Agyre",
+    "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://builders-ingenieurs.fr/",
-    "evidence_quote": "BUILDERS École d'ingénieurs est un établissement d'intérêt général (Label EESPIG), reconnu par l’État, membre de la Conférence des Grandes Ecoles. (CGE) BUILDERS École d'ingénieurs est habilitée par la Commission des Titres d'Ingénieurs (CTI) à délivrer le diplôme d'ingénieur sous statut étudiant et apprenti.",
+    "source_url": "https://builders-ingenieurs.fr/en/school/governance/",
+    "evidence_quote": "Chairman of Agyre",
     "confidence": 0.9
    },
    {
-    "partner_name": "Pôle Mer Bretagne Atlantique",
+    "partner_name": "SEEL",
     "partner_country": "unknown",
-    "partner_type": "network",
+    "partner_type": "company",
     "mobility_type": "unknown",
-    "source_url": "https://builders-ingenieurs.fr/masteres-specialises/mastere-specialise-smart-port-and-marine-environment/",
-    "evidence_quote": "Cette formation est labellisée par le Pôle Mer Bretagne Atlantique, renforçant ainsi sa reconnaissance auprès des acteurs du secteur.",
+    "source_url": "https://builders-ingenieurs.fr/en/school/governance/",
+    "evidence_quote": "Managing Director SEEL",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Eiffage Génie Civil",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/en/school/governance/",
+    "evidence_quote": "Chief Executive Officer of Eiffage Génie Civil and Eiffage Rail",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Eiffage Rail",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/en/school/governance/",
+    "evidence_quote": "Chief Executive Officer of Eiffage Génie Civil and Eiffage Rail",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Partenord Habitat",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://builders-ingenieurs.fr/en/school/governance/",
+    "evidence_quote": "Real Estate Director of Partenord Habitat",
     "confidence": 0.9
    }
   ],
@@ -396,21 +494,22 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 38,
+  "total_seen": 49,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of industrial and institutional partners for a specific master's program, but does not provide a comprehensive list of Erasmus+ or international academic mobility partners. No specific contact person for international relations is named.",
+  "coverage_note": "The evidence provides a list of corporate and institutional partners, but does not explicitly list Erasmus+ university partners or a total count of international agreements.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.5,
-  "crawl_s": 21.4,
-  "ai_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 31.4,
+  "ai_calls": 5,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 8.5,
+  "model_s": 11.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
@@ -425,19 +524,19 @@
      281,
      420
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      421,
-     538
+     560
     ],
-    "returned": 37,
-    "accepted": 36
+    "returned": 43,
+    "accepted": 42
    }
   ],
-  "total_seconds": 32.4
+  "total_seconds": 44.9
  },
  "rechecked": true
 }
