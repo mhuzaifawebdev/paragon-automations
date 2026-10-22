@@ -1,6 +1,6 @@
 {
  "row_id": "r002",
- "scraped_at": "2026-10-07T07:22:48Z",
+ "scraped_at": "2026-10-22T11:04:30Z",
  "contacts": {
   "row_id": "r002",
   "institution_name": "ECOLE NATIONALE SUPERIEURE DES ARTS DECORATIFS",
@@ -13,6 +13,8 @@
   },
   "phone": null,
   "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,7 +22,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -61,7 +63,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Ecole des Mines Paris Tech",
+    "partner_name": "Laboratoire Mécatronique de l’Ecole des Mines Paris Tech",
     "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -70,7 +72,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Sorbonne Université",
+    "partner_name": "ISIR de Sorbonne Université",
     "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -79,7 +81,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Université de Franche-Comté",
+    "partner_name": "FEMTO de l’Université de Franche-Comté",
     "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -88,7 +90,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Université Technologique de Compiègne",
+    "partner_name": "COSTECH de l’Université Technologique de Compiègne",
     "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -97,7 +99,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Université Paris 8 Vincennes Saint Denis",
+    "partner_name": "L’Université Paris 8 Vincennes Saint Denis",
     "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -152,7 +154,7 @@
    },
    {
     "partner_name": "IBM",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensad.fr/fr/partenaires",
@@ -196,12 +198,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "École Normale Supérieure",
+    "partner_name": "Conseil Départemental de Seine Saint Denis",
     "partner_country": "France",
-    "partner_type": "university",
+    "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://www.ensad.fr/fr/salt-steam-le-sel-et-la-vapeur",
-    "evidence_quote": "Ce projet a bénéficié du soutien de la Chaire Vulnérabilités & Capabilités, Vivre avec une maladie génétique – Design, sciences et humanités au service du soin, en partenariat avec l'École Normale Supérieure et l'Institut Imagine. La chaire est soutenue par le Richard Mille Fund et la Fondation Groupama.",
+    "source_url": "https://www.ensad.fr/fr/partenaires",
+    "evidence_quote": "Des collectivités locales : Conseil Départemental de Seine Saint Denis",
     "confidence": 0.9
    },
    {
@@ -209,53 +211,8 @@
     "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://www.ensad.fr/fr/salt-steam-le-sel-et-la-vapeur",
-    "evidence_quote": "Ce projet a bénéficié du soutien de la Chaire Vulnérabilités & Capabilités, Vivre avec une maladie génétique – Design, sciences et humanités au service du soin, en partenariat avec l'École Normale Supérieure et l'Institut Imagine. La chaire est soutenue par le Richard Mille Fund et la Fondation Groupama.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "ADAGP",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ensad.fr/fr",
-    "evidence_quote": "10e édition du prix Révélation Design ADAGP x École des Arts Décoratifs – PSL : exposition des finalistes",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Mobilier national",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ensad.fr/fr",
-    "evidence_quote": "« Référence / Irrévérence » : Exposition Prix Mobilier National & Jeune Création 2026",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Galerie Wilde",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ensad.fr/fr",
-    "evidence_quote": "Galerie Wilde",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "CAC La Traverse",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ensad.fr/fr",
-    "evidence_quote": "CAC La Traverse - 9 rue Traversière, 94140 Alfortville",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Conseil Départemental de Seine Saint Denis",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
     "source_url": "https://www.ensad.fr/fr/partenaires",
-    "evidence_quote": "Des collectivités locales : Conseil Départemental de Seine Saint Denis",
+    "evidence_quote": "Des hôpitaux et instituts de recherche médicaux : Institut Imagine, Hôpital Necker, Hôpital Pitié Salpêtrière et Hôpital Cochin",
     "confidence": 0.9
    },
    {
@@ -286,6 +243,114 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "École Normale Supérieure",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr/salt-steam-le-sel-et-la-vapeur",
+    "evidence_quote": "Ce projet a bénéficié du soutien de la Chaire Vulnérabilités & Capabilités, Vivre avec une maladie génétique – Design, sciences et humanités au service du soin, en partenariat avec l'École Normale Supérieure et l'Institut Imagine. La chaire est soutenue par le Richard Mille Fund et la Fondation Groupama.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Richard Mille Fund",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr/salt-steam-le-sel-et-la-vapeur",
+    "evidence_quote": "Ce projet a bénéficié du soutien de la Chaire Vulnérabilités & Capabilités, Vivre avec une maladie génétique – Design, sciences et humanités au service du soin, en partenariat avec l'École Normale Supérieure et l'Institut Imagine. La chaire est soutenue par le Richard Mille Fund et la Fondation Groupama.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fondation Groupama",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr/salt-steam-le-sel-et-la-vapeur",
+    "evidence_quote": "Ce projet a bénéficié du soutien de la Chaire Vulnérabilités & Capabilités, Vivre avec une maladie génétique – Design, sciences et humanités au service du soin, en partenariat avec l'École Normale Supérieure et l'Institut Imagine. La chaire est soutenue par le Richard Mille Fund et la Fondation Groupama.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "PSL",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr",
+    "evidence_quote": "Lieu de foisonnement intellectuel, créatif et artistique depuis plus de 260 ans, l’École des Arts Décoratifs - PSL a pour vocation de former les futur·es artistes et designers à être les créateur·ices du décor contemporain et les “transformateur·ices” du monde de demain.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ADAGP",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr",
+    "evidence_quote": "10e édition du prix Révélation Design ADAGP x École des Arts Décoratifs – PSL : exposition des finalistes",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mobilier national",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr",
+    "evidence_quote": "« Référence / Irrévérence » : Exposition Prix Mobilier National & Jeune Création 2026",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "L'Ecole Polytechnique",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr/partenaires",
+    "evidence_quote": "La chaire Arts et Sciences en partenariat avec L’Ecole Polytechnique et la Fondation Daniel et Nina Carasso ;",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ecole des Mines Paris Tech",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr/partenaires",
+    "evidence_quote": "Laboratoire Mécatronique de l’Ecole des Mines Paris Tech,",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sorbonne Université",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr/partenaires",
+    "evidence_quote": "L’Institut des systèmes intelligents et de robotique (ISIR) de Sorbonne Université,",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université de Franche-Comté",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr/partenaires",
+    "evidence_quote": "Laboratoire Electronique Mécanique Thermique et Optique – Sciences et Technologies –FEMTO de l’Université de Franche-Comté",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université Technologique de Compiègne",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr/partenaires",
+    "evidence_quote": "Laboratoire Connaissance Organisation et Systèmes TECHniques (COSTECH) de l’Université Technologique de Compiègne",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université Paris 8 Vincennes Saint Denis",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensad.fr/fr/partenaires",
+    "evidence_quote": "Laboratoire Image Numérique &Réalité Virtuelle de L’Université Paris 8 Vincennes Saint Denis",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "académie de Paris",
     "partner_country": "France",
     "partner_type": "other",
@@ -302,34 +367,16 @@
     "source_url": "https://www.ensad.fr/fr/campus-mode-metiers-dart-et-design",
     "evidence_quote": "Porté depuis 2023 par l’École des Arts Décoratifs – PSL, le Campus Mode, Métiers d’Art & Design - MoMADe est implanté au cœur de la manufacture des Gobelins du Mobilier national, cofondateur aux côtés de l’académie de Paris et de la Région Île-de-France.",
     "confidence": 0.9
-   },
-   {
-    "partner_name": "Richard Mille Fund",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ensad.fr/fr/salt-steam-le-sel-et-la-vapeur",
-    "evidence_quote": "Ce projet a bénéficié du soutien de la Chaire Vulnérabilités & Capabilités, Vivre avec une maladie génétique – Design, sciences et humanités au service du soin, en partenariat avec l'École Normale Supérieure et l'Institut Imagine. La chaire est soutenue par le Richard Mille Fund et la Fondation Groupama.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Fondation Groupama",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ensad.fr/fr/salt-steam-le-sel-et-la-vapeur",
-    "evidence_quote": "Ce projet a bénéficié du soutien de la Chaire Vulnérabilités & Capabilités, Vivre avec une maladie génétique – Design, sciences et humanités au service du soin, en partenariat avec l'École Normale Supérieure et l'Institut Imagine. La chaire est soutenue par le Richard Mille Fund et la Fondation Groupama.",
-    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "École des Arts Décoratifs – PSL",
+    "campus_name": "École des Arts Décoratifs",
     "city": "Paris",
     "country": "France",
     "role": "main",
     "source_url": "https://www.ensad.fr/fr",
-    "evidence_quote": "École des Arts Décoratifs – PSL"
+    "evidence_quote": "École des Arts Décoratifs - PSL, Paris 5e"
    }
   ],
   "stated_total": 50,
@@ -338,17 +385,37 @@
   "truncated": true,
   "total_seen": 50,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of research and teaching partners but does not contain a dedicated list of Erasmus+ mobility partners. No specific international relations office contact details are provided.",
+  "coverage_note": "The evidence provides a list of research and institutional partners but does not contain a specific list of Erasmus+ mobility partners. No dedicated international relations office contact is listed.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.8,
-  "crawl_s": 15.4,
+  "discover_s": 0.0,
+  "crawl_s": 11.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 8.9,
+  "model_s": 39.3,
   "mode": "gemini",
-  "total_seconds": 26.1
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 12,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     260
+    ],
+    "returned": 32,
+    "accepted": 30
+   }
+  ],
+  "total_seconds": 50.3
  },
  "rechecked": true
 }

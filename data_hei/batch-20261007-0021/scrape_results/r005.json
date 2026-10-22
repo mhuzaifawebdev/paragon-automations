@@ -1,13 +1,13 @@
 {
  "row_id": "r005",
- "scraped_at": "2026-10-07T07:24:00Z",
+ "scraped_at": "2026-10-22T11:04:36Z",
  "contacts": {
   "row_id": "r005",
   "institution_name": "HOCHSCHULE FUER MUSIK UND THEATER HAMBURG",
   "institution_type": "university",
   "official_website": "https://www.hfmt-hamburg.de/",
   "country": {
-   "value": "Germany",
+   "value": "Deutschland",
    "source_url": "https://www.hfmt-hamburg.de/",
    "evidence_quote": "Mit rund 1400 Studierenden ist die Hochschule für Musik und Theater Hamburg eine der großen künstlerischen Hochschulen in Deutschland und bietet eine künstlerisch-wissenschaftliche Ausbildung in allen Bereichen der Musik und des Theaters an."
   },
@@ -17,14 +17,25 @@
    "evidence_quote": "Tel. +49 40 209494-100 /-200"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dr. Rebekka Fleiner",
+   "designation": "Head of Quality Management Office",
+   "designation_local": "",
+   "email": "rebekka.fleiner@hfmt-hamburg.de",
+   "office_email": "",
+   "phone": "+49 040 491737232149",
+   "source_url": "https://www.hfmt-hamburg.de/hochschule/ueber-uns/qualitaetsmanagement",
+   "evidence_quote": "Dr. Rebekka Fleiner ... Leitung Stabsstelle Qualitätsmanagement+49 040 491737232149 <tel +49 040 491737232149>rebekka.fleiner@hfmt-hamburg.de <rebekka.fleiner@hfmt-hamburg.de>"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Secretary / administration (last resort). She is a named administrative head at the institution.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.45,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: Wikidata. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -480,12 +491,32 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.1,
-  "crawl_s": 15.4,
+  "discover_s": 0.0,
+  "crawl_s": 9.4,
+  "ai_calls": 3,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 79.2,
+  "model_s": 47.0,
   "mode": "gemini",
-  "total_seconds": 97.7
- },
- "rechecked": true
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 35,
+    "accepted": 35
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 56.4
+ }
 }

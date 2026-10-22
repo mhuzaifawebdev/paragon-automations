@@ -20,7 +20,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 9,
-  "notes": "site found via: Wikidata. mode: gemini."
+  "notes": "site found via: Wikidata. mode: gemini.",
+  "generic_email": "erasmus@cu.bas.bg",
+  "generic_email_url": "https://www.bas.bg/?page_id=48356"
  },
  "network": {
   "external_collaboration": [
@@ -415,12 +417,24 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 5.6,
-  "crawl_s": 15.3,
+  "discover_s": 0.0,
+  "crawl_s": 18.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 228.9,
+  "model_s": 40.7,
   "mode": "gemini",
-  "total_seconds": 249.8
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 59.3
  },
  "rechecked": true
 }
