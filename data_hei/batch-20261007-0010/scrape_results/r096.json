@@ -1,0 +1,122 @@
+{
+ "row_id": "r096",
+ "scraped_at": "2026-10-22T22:18:57Z",
+ "contacts": {
+  "row_id": "r096",
+  "institution_name": "OGEC St Joseph",
+  "institution_type": "school",
+  "official_website": "https://www.saintjoseph-cognac.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretariat@saintjoseph-cognac.fr",
+  "generic_email_url": "https://www.saintjoseph-cognac.fr/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Éducation Nationale",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.saintjoseph-cognac.fr/",
+    "evidence_quote": "Éducation Nationale",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Académie de Poitiers",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.saintjoseph-cognac.fr/",
+    "evidence_quote": "Académie de Poitiers",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ministère de l'Éducation Nationale",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.saintjoseph-cognac.fr/",
+    "evidence_quote": "Ministère de l'Éducation Nationale",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ONISEP",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.saintjoseph-cognac.fr/",
+    "evidence_quote": "ONISEP",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "École Sainte Colette La Providence",
+    "city": "Cognac",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.saintjoseph-cognac.fr/",
+    "evidence_quote": "L’école Sainte Colette La Providence située rue de la Providence compte 16 classes et accueille 432 élèves (maternelle et élémentaire)"
+   },
+   {
+    "campus_name": "Collège Saint Joseph",
+    "city": "Cognac",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.saintjoseph-cognac.fr/",
+    "evidence_quote": "Le collège Saint Joseph situé rue Magdeleine, compte 410 élèves"
+   },
+   {
+    "campus_name": "Lycée Beaulieu",
+    "city": "Cognac",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.saintjoseph-cognac.fr/",
+    "evidence_quote": "Le lycée Beaulieu situé place Beaulieu offre 8 spécialités et compte 239 élèves."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 3,
+  "coverage_note": "The institution mentions international exchanges in its pedagogical project but does not provide a list of specific partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 74.7,
+  "crawl_s": 15.0,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 115.9
+ },
+ "rechecked": 4
+}
