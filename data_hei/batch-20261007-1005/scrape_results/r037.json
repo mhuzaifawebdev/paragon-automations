@@ -1,13 +1,13 @@
 {
  "row_id": "r037",
- "scraped_at": "2026-10-22T11:13:23Z",
+ "scraped_at": "2026-10-22T13:14:13Z",
  "contacts": {
   "row_id": "r037",
   "institution_name": "UNIVERSITA DEGLI STUDI DEL SANNIO",
   "institution_type": "university",
   "official_website": "https://www.unisannio.it/it",
   "country": {
-   "value": "ITALY",
+   "value": "Italy",
    "source_url": "https://www.unisannio.it/it",
    "evidence_quote": "Università degli Studi del Sannio di Benevento - Piazza Guerrazzi, 82100 Benevento, ITALY P.IVA: 01114010620"
   },
@@ -15,14 +15,23 @@
   "phone_alt": [],
   "generic_email": "erasmus@unisannio.it",
   "generic_email_url": "https://www.unisannio.it/it/articoli/partecipa-all-erasmus-italiano",
-  "contact": null,
+  "contact": {
+   "name": "Ernesto Fabiani",
+   "designation": "Director DEMM",
+   "designation_local": "",
+   "email": "segrdir.demm@unisannio.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.unisannio.it/it/sito-dipartimentale/dipartimento-demm",
+   "evidence_quote": "Responsabile: Direttore DEMM - Prof. Ernesto Fabiani"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Principal / director (no Erasmus contact found). He is the Director of the DEMM department and serves as a primary contact point for the department.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.6,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -101,12 +110,12 @@
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Università degli Studi del Sannio di Benevento",
+    "campus_name": "Università degli Studi del Sannio",
     "city": "Benevento",
     "country": "Italy",
     "role": "main",
     "source_url": "https://www.unisannio.it/it",
-    "evidence_quote": "Università degli Studi del Sannio di Benevento"
+    "evidence_quote": "Esplora la posizione dell'Università degli Studi del Sannio nel centro storico di Benevento."
    }
   ],
   "stated_total": null,
@@ -115,18 +124,20 @@
   "truncated": false,
   "total_seen": 8,
   "pages_read": 10,
-  "coverage_note": "The evidence provides information on the general Erasmus programs and national agreements (Erasmus Italiano), but does not list an extensive international partner university database.",
+  "coverage_note": "The evidence provides a list of Italian partner universities for the 'Erasmus Italiano' program, but does not provide a comprehensive list of international Erasmus+ partners. No specific international mobility coordinator is named.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 9.5,
+  "crawl_s": 17.1,
   "ai_calls": 3,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 63.2,
+  "model_s": 6.1,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.7,
   "slices": [
    {
     "lines": [
@@ -145,7 +156,6 @@
     "accepted": 8
    }
   ],
-  "total_seconds": 72.6
- },
- "rechecked": 2
+  "total_seconds": 24.9
+ }
 }

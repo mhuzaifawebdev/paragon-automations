@@ -1,28 +1,60 @@
 {
  "row_id": "r067",
- "scraped_at": "2026-10-07T18:14:33Z",
+ "scraped_at": "2026-10-22T13:14:25Z",
  "contacts": {
   "row_id": "r067",
   "institution_name": "SKUPNOST VISJIH STROKOVNIH SOL REPUBLIKE SLOVENIJE",
   "institution_type": "college",
   "official_website": "https://www.skupnost-vss.si/",
   "country": {
-   "value": "Slovenija",
+   "value": "Slovenia",
    "source_url": "https://www.skupnost-vss.si/",
    "evidence_quote": "Mariborska cesta 2, 3000 Celje, Slovenija, Evropa"
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini.",
   "generic_email": "sekretariat@skupnost-vss.si",
-  "generic_email_url": "https://www.skupnost-vss.si/"
+  "generic_email_url": "https://www.skupnost-vss.si/",
+  "contact": {
+   "name": "Natalija Klepej Gržanič",
+   "designation": "Head of Development",
+   "designation_local": "",
+   "email": "natalija.klepej@skupnost-vss.si",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.skupnost-vss.si/secretariat/?lang=en",
+   "evidence_quote": "Natalija Klepej Gržanič ... Head of Development"
+  },
+  "alternates": [
+   {
+    "name": "Nejc Gajšek",
+    "designation": "Researcher",
+    "designation_local": "",
+    "email": "nejc.gajsek@skupnost-vss.si",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.skupnost-vss.si/secretariat/?lang=en",
+    "evidence_quote": "Nejc Gajšek ... Researcher",
+    "why_chosen": "Mobility coordinator. He is listed as a contact for Erasmus+ KA1 mobility."
+   },
+   {
+    "name": "Dr. Vesna Novak",
+    "designation": "Office Associate",
+    "designation_local": "",
+    "email": "vesna.novak@skupnost-vss.si",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.skupnost-vss.si/secretariat/?lang=en",
+    "evidence_quote": "Dr. Vesna Novak ... Office Associate",
+    "why_chosen": "Mobility coordinator. She provides expert support for international projects including Erasmus+."
+   }
+  ],
+  "rung": "Head of international relations. She oversees the area of international cooperation and manages Erasmus+ (KA2) projects.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -346,23 +378,24 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 19.8,
+  "crawl_s": 16.5,
   "ai_calls": 2,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 69.1,
+  "model_s": 3.2,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      701,
      840
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    }
   ],
-  "total_seconds": 88.9
- },
- "rechecked": 2
+  "total_seconds": 19.7
+ }
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r047",
- "scraped_at": "2026-10-07T17:53:36Z",
+ "scraped_at": "2026-10-22T13:14:13Z",
  "contacts": {
   "row_id": "r047",
   "institution_name": "Akademia Ignatianum w Krakowie",
@@ -17,16 +17,25 @@
    "evidence_quote": "lub telefonicznie: 12 399 95 90"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini.",
   "generic_email": "erasmus@ignatianum.edu.pl",
-  "generic_email_url": "https://www.ignatianum.edu.pl/pracownicy"
+  "generic_email_url": "https://www.ignatianum.edu.pl/pracownicy",
+  "contact": {
+   "name": "Jacek Poznański",
+   "designation": "Contact person",
+   "designation_local": "",
+   "email": "jacek.poznanski@ignatianum.edu.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ignatianum.edu.pl/artykul/info-z-kircher-network-jezuickiej-sieci-uczelni-wyzszych-w-europie-i-na-bliskim-wschodzie",
+   "evidence_quote": "More info: jacek.poznanski@ignatianum.edu.pl <jacek.poznanski@ignatianum.edu.pl>"
+  },
+  "alternates": [],
+  "rung": "Other role. He is listed as a contact person for theological symposium inquiries.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -1115,12 +1124,15 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 4.1,
-  "ai_calls": 7,
+  "crawl_s": 3.0,
+  "ai_calls": 8,
   "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 89.4,
+  "model_s": 15.1,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -1135,8 +1147,8 @@
      141,
      280
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 2,
+    "accepted": 2
    },
    {
     "lines": [
@@ -1165,13 +1177,12 @@
    {
     "lines": [
      701,
-     755
+     754
     ],
     "returned": 4,
     "accepted": 4
    }
   ],
-  "total_seconds": 93.6
- },
- "rechecked": 2
+  "total_seconds": 19.5
+ }
 }

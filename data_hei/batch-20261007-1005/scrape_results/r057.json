@@ -1,6 +1,6 @@
 {
  "row_id": "r057",
- "scraped_at": "2026-10-22T11:13:23Z",
+ "scraped_at": "2026-10-22T13:14:23Z",
  "contacts": {
   "row_id": "r057",
   "institution_name": "Kodolanyi Janos Egyetem",
@@ -11,20 +11,29 @@
   "phone_alt": [],
   "generic_email": "erasmus@kodolanyi.hu",
   "generic_email_url": "https://www.kodolanyi.hu/erasmus/",
-  "contact": null,
+  "contact": {
+   "name": "Prof. Dr. Obádovics Csilla",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.kodolanyi.hu/szintet-lepett-az-egyuttmukodes/",
+   "evidence_quote": "„Egyetemünk hosszú távú célja, hogy a MI6-tal való együttműködésre is épülve a fenntarthatóság területén országosan meghatározó tudásközponttá válhassunk. A MI6 szakmai tapasztalataival és országos kapcsolatrendszerével olyan együttműködés jöhet létre, amely jelentős értéket teremthet hallgatóink, kutatóink és partnereink számára egyaránt” – hangsúlyozta Prof. Dr. Obádovics Csilla, a Kodolányi János Egyetem rektora."
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Principal / director (no Erasmus contact found). She is the rector of Kodolányi János University.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini. 1 page(s) could not be read."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "more than 100 partner universities",
-    "partner_country": "30 countries",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.kodolanyi.hu/erasmus/",
@@ -54,7 +63,7 @@
     "campus_name": "Székesfehérvári Oktatási Központ",
     "city": "Székesfehérvár",
     "country": "Hungary",
-    "role": "branch",
+    "role": "main",
     "source_url": "https://www.kodolanyi.hu/",
     "evidence_quote": "Székesfehérvári Oktatási Központ"
    }
@@ -65,19 +74,21 @@
   "truncated": true,
   "total_seen": 100,
   "pages_read": 10,
-  "coverage_note": "The evidence mentions over 100 partner universities but does not provide a specific list of names. Contact details for specific Erasmus staff are limited to a general email address. 1 page(s) could not be read.",
+  "coverage_note": "The evidence mentions over 100 partner universities but does not provide a specific list of their names. Contact details for specific international staff are limited to a general email address. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 9.1,
-  "ai_calls": 1,
+  "crawl_s": 18.6,
+  "ai_calls": 2,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 21.4,
+  "model_s": 2.0,
   "mode": "gemini",
-  "total_seconds": 30.6
- },
- "rechecked": 2
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.2,
+  "total_seconds": 23.3
+ }
 }

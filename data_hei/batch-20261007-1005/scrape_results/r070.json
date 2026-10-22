@@ -1,6 +1,6 @@
 {
  "row_id": "r070",
- "scraped_at": "2026-10-22T11:16:47Z",
+ "scraped_at": "2026-10-22T13:14:30Z",
  "contacts": {
   "row_id": "r070",
   "institution_name": "UNIVERSITAT FUR KUNSTLERISCHE UND INDUSTRIELLE GESTALTUNG LINZ",
@@ -13,7 +13,7 @@
   },
   "phone": {
    "value": "+43 (0) 732 7898 2269",
-   "source_url": "https://www.kunstuni-linz.at/studium/international/staff-mobilitaet-/-outgoing/staff-mobilitaet-/-outgoing-/-erasmus",
+   "source_url": "https://www.kunstuni-linz.at/studium/international/staff-mobilitaet-/-outgoing",
    "evidence_quote": "T: +43 (0) 732 7898 2269 <tel +4373278982269>"
   },
   "phone_alt": [],
@@ -26,10 +26,46 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
+   {
+    "partner_name": "IFK",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kunstuni-linz.at/",
+    "evidence_quote": "Diskussionsveranstaltung von IFK und Kunstuniversität Linz 11/2011",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UniKid-UniCare Austria",
+    "partner_country": "Austria",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kunstuni-linz.at/",
+    "evidence_quote": "UniKid-UniCare Austria",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GÖD",
+    "partner_country": "Austria",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kunstuni-linz.at/",
+    "evidence_quote": "Vorteile für GÖD Mitglieder",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UniKid UniCare Austria",
+    "partner_country": "Austria",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kunstuni-linz.at/",
+    "evidence_quote": "UniKid UniCare Austria",
+    "confidence": 0.9
+   },
    {
     "partner_name": "ifk Internationales Forschungszentrum Kulturwissenschaften",
     "partner_country": "Austria",
@@ -43,18 +79,9 @@
     "partner_name": "ASEAN-European Academic University Network / ASEA-UNINET",
     "partner_country": "unknown",
     "partner_type": "network",
-    "mobility_type": "unknown",
+    "mobility_type": "staff",
     "source_url": "https://www.kunstuni-linz.at/studium/international/staff-mobilitaet-/-outgoing",
     "evidence_quote": "Mobilitäten im ERASMUS+ Programm und über das ASEAN-European Academic University Network / ASEA-UNINET werden vom International Office betreut.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Ars Electronica Festival",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.kunstuni-linz.at/studium/international/staff-mobilitaet-/-incoming",
-    "evidence_quote": "Ars Electronica Festival",
     "confidence": 0.9
    }
   ],
@@ -71,7 +98,7 @@
     "campus_name": "Hauptplatz 8",
     "city": "Linz",
     "country": "Austria",
-    "role": "branch",
+    "role": "main",
     "source_url": "https://www.kunstuni-linz.at/",
     "evidence_quote": "Hauptplatz 8"
    },
@@ -92,26 +119,10 @@
     "evidence_quote": "Tabakfabrik Linz"
    },
    {
-    "campus_name": "Dependance Hauptplatz 23",
-    "city": "Linz",
-    "country": "Austria",
-    "role": "branch",
-    "source_url": "https://www.kunstuni-linz.at/",
-    "evidence_quote": "Dependance Hauptplatz 23"
-   },
-   {
-    "campus_name": "Dependance Seilerstätte 1",
-    "city": "Linz",
-    "country": "Austria",
-    "role": "branch",
-    "source_url": "https://www.kunstuni-linz.at/",
-    "evidence_quote": "Dependance Seilerstätte 1"
-   },
-   {
     "campus_name": "Reichsratsstraße 17",
     "city": "Wien",
     "country": "Austria",
-    "role": "branch",
+    "role": "international",
     "source_url": "https://www.kunstuni-linz.at/",
     "evidence_quote": "Reichsratsstraße 17"
    }
@@ -120,20 +131,22 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 3,
+  "total_seen": 6,
   "pages_read": 10,
-  "coverage_note": "The evidence mentions partner universities exist and references an International Office, but does not list the individual names of partner institutions.",
+  "coverage_note": "The evidence does not contain a list of partner universities, although it mentions that Erasmus+ agreements exist.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 10.0,
-  "ai_calls": 7,
+  "crawl_s": 7.0,
+  "ai_calls": 8,
   "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 172.0,
+  "model_s": 4.2,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
@@ -148,16 +161,16 @@
      421,
      560
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 2,
+    "accepted": 2
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 3,
+    "accepted": 2
    },
    {
     "lines": [
@@ -178,13 +191,13 @@
    {
     "lines": [
      981,
-     1120
+     1062
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 0,
+    "accepted": 0
    }
   ],
-  "total_seconds": 182.1
+  "total_seconds": 12.4
  },
  "rechecked": 2
 }
