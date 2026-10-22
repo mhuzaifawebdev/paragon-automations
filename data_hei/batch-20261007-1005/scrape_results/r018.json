@@ -1,6 +1,6 @@
 {
  "row_id": "r018",
- "scraped_at": "2026-10-07T17:11:37Z",
+ "scraped_at": "2026-10-22T13:14:02Z",
  "contacts": {
   "row_id": "r018",
   "institution_name": "EVANGELISCHE HOCHSCHULE DARMSTADT EHD",
@@ -9,19 +9,37 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "erasmus@h-da.de",
+  "generic_email_url": "https://h-da.de/hochschule/eut/eut-mobilitaet",
+  "contact": {
+   "name": "Martin Loder",
+   "designation": "Head of the department for Research and Development",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://h-da.de/hochschule/eut/eut-mobilitaet",
+   "evidence_quote": "Zusatzfinanzierung für Forschung & Transfer: Bei Reisen mit einem konkreten Bezug zu Forschung oder Wissenstransfer kann unter bestimmten Bedingungen eine Zusatzfinanzierung erfolgen. Bitte richten Sie Ihre Anfrage direkt an den Sachgebietsleiter für Forschung und Entwicklung, Dr. Martin Loder."
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Other role. He is the head of the department for Research and Development and handles requests for additional funding for research-related travel.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.3,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini.",
-  "generic_email": "erasmus@h-da.de",
-  "generic_email_url": "https://h-da.de/hochschule/eut/eut-mobilitaet"
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
+   {
+    "partner_name": "Cyprus University of...",
+    "partner_country": "Cyprus",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://international.h-da.de/en/",
+    "evidence_quote": "The EUt+ partner university, Cyprus University of…",
+    "confidence": 0.9
+   },
    {
     "partner_name": "Universität Coventry",
     "partner_country": "Großbritannien",
@@ -43,7 +61,7 @@
    {
     "partner_name": "Hochschule für Technik und Wirtschaft Luzern",
     "partner_country": "Schweiz",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://h-da.de/forschung/allianzen/global-partners-european-alliance",
     "evidence_quote": "Hochschule für Technik und Wirtschaft Luzern, Luzern, Schweiz",
@@ -86,7 +104,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "The United Nations Institute for Training and Research (UNITAR)",
+    "partner_name": "The United Nations Institute for Training and Research (\"UNITAR\")",
     "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
@@ -131,15 +149,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Erasmus Student Network (ESN)",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://h-da.de/",
-    "evidence_quote": "Newbie-Events Erasmus Student Network (ESN)",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "eut+",
     "partner_country": "unknown",
     "partner_type": "network",
@@ -176,6 +185,33 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "ORCID",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://h-da.de/",
+    "evidence_quote": "[Das ORCID Logo]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TYPO3",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://h-da.de/",
+    "evidence_quote": "[Das TYPO3 Gold-Member Logo]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Weltoffene Hochschulen",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://h-da.de/",
+    "evidence_quote": "[Logo Weltoffene Hochschulen]",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Cyprus University of Technology",
     "partner_country": "Cyprus",
     "partner_type": "university",
@@ -185,19 +221,10 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Erasmus+",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://international.h-da.de/en/",
-    "evidence_quote": "🤝 Programs & Partners → Erasmus+, EUt+ & global networks.",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "OAMK",
     "partner_country": "Finland",
     "partner_type": "university",
-    "mobility_type": "staff",
+    "mobility_type": "unknown",
     "source_url": "https://international.h-da.de/wege-ins-ausland/mitarbeitenden-lehrenden",
     "evidence_quote": "[Besuch an der OAMK Finnland]",
     "confidence": 0.9
@@ -221,21 +248,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Global Partners European Alliance",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://h-da.de/forschung/allianzen/global-partners-european-alliance",
-    "evidence_quote": "Global Partners European Alliance – h_da",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Erasmus Student Network (ESN) Darmstadt",
     "partner_country": "Germany",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://h-da.de/en/about-us/research/alliances/european-university-of-technology/translate-to-english-eut-mobilitaet",
     "evidence_quote": "The Erasmus Student Network (ESN) Darmstadt supports the needs of international students, organizes events, and connects exchange students with local students.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The United Nations Institute for Training and Research (UNITAR)",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://h-da.de/hochschule/eut/partner-unterstuetzer",
+    "evidence_quote": "The United Nations Institute for Training and Research (“UNITAR”) - MoU TUDublin",
     "confidence": 0.9
    }
   ],
@@ -245,52 +272,54 @@
     "city": "Darmstadt",
     "country": "Germany",
     "role": "main",
-    "source_url": "https://h-da.de/hochschule/standorte",
-    "evidence_quote": "Die Hochschule Darmstadt hat mehrere Standorte im Darmstädter Stadtgebiet. Viele Fachbereiche befinden sich rund um das Hochhaus in der Schöfferstraße, in der Adelungstraße und auf der Mathildenhöhe."
+    "source_url": "https://h-da.de/",
+    "evidence_quote": "Darmstadt"
    },
    {
-    "campus_name": "Mediencampus Dieburg",
+    "campus_name": "Campus Dieburg",
     "city": "Dieburg",
     "country": "Germany",
     "role": "branch",
-    "source_url": "https://h-da.de/hochschule/standorte",
-    "evidence_quote": "In Dieburg, etwa 15 km von Darmstadt entfernt, befindet sich ein weiterer Standort der h_da: der Mediencampus der Hochschule Darmstadt. Fast 2000 Studierende lernen dort in modern ausgestalteten Hörsälen und Laboren. Die Fachbereiche Media und Wirtschaft befinden sich auf dem Dieburger Campus."
+    "source_url": "https://h-da.de/",
+    "evidence_quote": "Dieburg"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 24,
+  "total_seen": 26,
   "pages_read": 10,
-  "coverage_note": "The evidence provides specific partner names for the GPEA alliance and EUT+ supporters, but does not contain a comprehensive list of all Erasmus+ partner universities. Friederike Luther was not found in the provided text.",
+  "coverage_note": "The evidence provides general locations and select strategic partners, but lacks a complete, exhaustive directory of all Erasmus partner universities.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 14.1,
-  "ai_calls": 4,
+  "crawl_s": 14.7,
+  "ai_calls": 5,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 59.4,
+  "model_s": 33.3,
   "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 1.1,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 6,
-    "accepted": 6
+    "returned": 8,
+    "accepted": 8
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 13,
-    "accepted": 11
+    "returned": 10,
+    "accepted": 10
    },
    {
     "lines": [
@@ -301,7 +330,6 @@
     "accepted": 7
    }
   ],
-  "total_seconds": 73.5
- },
- "rechecked": 2
+  "total_seconds": 51.0
+ }
 }
