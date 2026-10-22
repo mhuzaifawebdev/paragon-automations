@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-10-22T22:10:47.875471+00:00",
+ "generated_at": "2026-10-22T22:12:46.887748+00:00",
  "totals": {
   "institutes": 1470,
-  "with_contact": 1111,
-  "with_email": 934,
-  "personal_email": 750,
-  "generic_email": 625,
-  "partners": 50094,
-  "campuses": 2347,
-  "no_website": 240,
-  "with_website": 1230,
+  "with_contact": 1114,
+  "with_email": 937,
+  "personal_email": 753,
+  "generic_email": 628,
+  "partners": 50238,
+  "campuses": 2365,
+  "no_website": 237,
+  "with_website": 1233,
   "batches": 11
  },
  "days": [
   {
    "day": "2026-09-30",
-   "institutes": 14,
+   "institutes": 11,
    "with_contact": 11,
    "with_email": 7,
    "personal_email": 7,
    "generic_email": 0,
    "partners": 370,
    "campuses": 23,
-   "no_website": 3,
+   "no_website": 0,
    "with_website": 11
   },
   {
@@ -99,18 +99,34 @@
   },
   {
    "day": "2026-10-22",
-   "institutes": 430,
-   "with_contact": 389,
-   "with_email": 333,
-   "personal_email": 234,
-   "generic_email": 288,
-   "partners": 17307,
-   "campuses": 792,
+   "institutes": 433,
+   "with_contact": 392,
+   "with_email": 336,
+   "personal_email": 237,
+   "generic_email": 291,
+   "partners": 17451,
+   "campuses": 810,
    "no_website": 13,
-   "with_website": 417
+   "with_website": 420
   }
  ],
  "batches": [
+  {
+   "batch": "batch-20260930-0124",
+   "status": "done",
+   "total_rows": 10,
+   "done": 10,
+   "updated": "2026-10-22T22:12:42.201581+00:00",
+   "institutes": 10,
+   "with_contact": 10,
+   "with_email": 8,
+   "personal_email": 8,
+   "generic_email": 5,
+   "partners": 346,
+   "campuses": 30,
+   "no_website": 0,
+   "with_website": 10
+  },
   {
    "batch": "batch-20260930-0015",
    "status": "done",
@@ -270,22 +286,6 @@
    "campuses": 9,
    "no_website": 0,
    "with_website": 5
-  },
-  {
-   "batch": "batch-20260930-0124",
-   "status": "running",
-   "total_rows": 10,
-   "done": 10,
-   "updated": "2026-10-22T10:31:37.213824+00:00",
-   "institutes": 10,
-   "with_contact": 7,
-   "with_email": 5,
-   "personal_email": 5,
-   "generic_email": 2,
-   "partners": 202,
-   "campuses": 12,
-   "no_website": 3,
-   "with_website": 7
   }
  ]
 }
