@@ -1,6 +1,6 @@
 {
  "row_id": "r002",
- "scraped_at": "2026-10-08T18:28:30Z",
+ "scraped_at": "2026-10-22T11:32:59Z",
  "contacts": {
   "row_id": "r002",
   "institution_name": "Państwowa Akademia Nauk Stosowanych w Chełmie",
@@ -17,14 +17,25 @@
    "evidence_quote": "Tel: 82 562 06 13"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "rektorat@panschelm.edu.pl",
+  "generic_email_url": "https://panschelm.edu.pl/",
+  "contact": {
+   "name": "Piotr Różański",
+   "designation": "Head of the Center for Engineering Studies",
+   "designation_local": "",
+   "email": "prozanski@panschelm.edu.pl",
+   "office_email": "",
+   "phone": "602 188 173",
+   "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+   "evidence_quote": "mgr inż. Piotr Różański ... Kierownik Centrum Studiów Inżynierskich"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Other role. Piotr Różański is listed as a primary contact for institutional collaboration and partnerships.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.35,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -128,30 +139,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Instytut Ochrony Roślin – PIB",
-    "partner_country": "Polska",
-    "partner_type": "other",
+    "partner_name": "Erasmus Student Network",
+    "partner_country": "",
+    "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://panschelm.edu.pl/",
-    "evidence_quote": "[Nowa współpraca PANS w Chełmie z Instytutem Ochrony Roślin – PIB]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Zespół Szkół nr 3 w Kraśniku",
-    "partner_country": "Poland",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://panschelm.edu.pl/wspolpraca-z-zespolem-szkol-nr-3-w-krasniku/",
-    "evidence_quote": "W dniu 28 lutego 2024 roku Państwowa Akademia Nauk Stosowanych w Chełmie reprezentowana przez JM Rektora – prof. PANS dr hab. inż. Arkadiusza Tofila podpisała porozumienie o współpracy z Zespołem Szkół nr 3 w Kraśniku reprezentowanym przez Dyrektora – mgr Annę Gromek.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "UM w Lublinie",
-    "partner_country": "Poland",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://panschelm.edu.pl/i-konferencja-naukowo-szkoleniowa-integracja-dla-zdrowia-efektywnosc-zespolu-interdyscyplinarnego/",
-    "evidence_quote": "Studenckie Koło Naukowe przy Katedrze Rozwoju Pielęgniarstwa UM w Lublinie",
+    "source_url": "https://panschelm.edu.pl/erasmus/mobilnosc-studentow/",
+    "evidence_quote": "W poszukiwaniu ofert można skorzystać między innymi z portalu ErasmusIntern.org, prowadzonego przez Erasmus Student Network (ESN).",
     "confidence": 0.9
    },
    {
@@ -179,6 +172,15 @@
     "mobility_type": "unknown",
     "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
     "evidence_quote": "Podpisanie listu intencyjnego z firmą Finder Polska – nowy etap współpracy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zespół Szkół nr 3 w Kraśniku",
+    "partner_country": "Poland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "Warsztaty Zespół Szkół nr 3 w Kraśniku",
     "confidence": 0.9
    },
    {
@@ -218,6 +220,15 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Zespołem Szkół nr 3 w Kraśniku",
+    "partner_country": "Poland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "Współpraca z Zespołem Szkół nr 3 w Kraśniku",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "PROSOLUTIONS",
     "partner_country": "Poland",
     "partner_type": "company",
@@ -227,7 +238,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Agro Antoniko Plus Sp. z o.o.",
+    "partner_name": "Spółką Agro Antoniko Plus Sp. z o.o.",
     "partner_country": "Poland",
     "partner_type": "company",
     "mobility_type": "unknown",
@@ -242,6 +253,15 @@
     "mobility_type": "unknown",
     "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
     "evidence_quote": "Rozwijamy współpracę z Recykl O. O. S.A.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Recykl Organizacja Odzysku S.A.",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "Wizyta studyjna: Recykl Organizacja Odzysku S.A.",
     "confidence": 0.9
    },
    {
@@ -263,12 +283,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Recykl Organizacja Odzysku S.A.",
+    "partner_name": "Agro Antoniko Plus Sp. z o.o.",
     "partner_country": "Poland",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
-    "evidence_quote": "[Recykl Organizacja Odzysku S.A.]",
+    "evidence_quote": "[Agro Antoniko Plus Sp. z o.o.]",
     "confidence": 0.9
    },
    {
@@ -288,13 +308,58 @@
     "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
     "evidence_quote": "[Katedra i Klinika Otorynolaryngologii, Chirurgii Głowy i Szyi Warszawskiego Uniwersytetu Medycznego]",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "Muzeum Ziemi Chełmskiej im. Wiktora Ambroziewicza w Chełmie",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "[Muzeum Ziemi Chełmskiej im. Wiktora Ambroziewicza w Chełmie]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Centrum Medyczne Aurismed",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "[Centrum Medyczne Aurismed]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Muzeum Regionalne w Krasnymstawie",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "[Muzeum Regionalne w Krasnymstawie]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Haber",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "[Haber]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sigma",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://panschelm.edu.pl/uczelnia/wspolpraca/",
+    "evidence_quote": "[Sigma]",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
     "campus_name": "Państwowa Akademia Nauk Stosowanych w Chełmie",
     "city": "Chełm",
-    "country": "Poland",
+    "country": "Polska",
     "role": "main",
     "source_url": "https://panschelm.edu.pl/",
     "evidence_quote": "ul. Pocztowa 54"
@@ -304,21 +369,55 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 29,
+  "total_seen": 35,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of Erasmus+ partners, but does not state a total number of partners. Contact information for the Erasmus+ coordinator is clearly provided.",
+  "coverage_note": "The evidence contains a partial list of Erasmus partner universities and general contact information.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.4,
-  "crawl_s": 19.9,
+  "discover_s": 0.0,
+  "crawl_s": 6.6,
   "ai_calls": 5,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 29.9,
+  "model_s": 17.7,
   "mode": "gemini",
-  "total_seconds": 53.3
- },
- "rechecked": true
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 9,
+    "accepted": 9
+   },
+   {
+    "lines": [
+     841,
+     943
+    ],
+    "returned": 32,
+    "accepted": 23
+   }
+  ],
+  "total_seconds": 24.3
+ }
 }
