@@ -147,6 +147,9 @@ def apply_mode(data_dir, cfg):
     pipeline.llm.FALLBACK["prefer"] = paid
     fast_cap = float(cfg.get("max_fast_usd_per_batch", 10.0))
     discover.BUDGET["limit"] = float(cfg.get("max_paid_usd_per_batch", 3.0)) + (fast_cap if mode == "fast" else 0.0)
+    cap = recheck_cap(data_dir)
+    if cap is not None:                             # a re-check: one total for all batches, reading and email search
+        discover.BUDGET["limit"] = cap
     pipeline.llm.FALLBACK["enabled"] = mode == "fast"
     pipeline.llm.SIMULATE_EXHAUSTED = (Path(data_dir) / "SIMULATE_EXHAUSTED").exists()     # zero-cost test switch
     if mode == "fast" and STATS["mode"] != "fast":
@@ -243,8 +246,19 @@ def keep_better(results_dir, rid, res):
 
 
 def paid_usage_file(data_dir):
-    """A re-check keeps its own spending record, so the batch's earlier spending does not block it (and its cap)."""
-    return Path(data_dir) / ("paid_usage_recheck.json" if (Path(data_dir) / "RECHECK").exists() else "paid_usage.json")
+    """A re-check keeps its own spending record, ONE for all batches (data_hei/paid_usage_recheck.json), so the
+    batch's earlier spending does not block it and its cap is a single total."""
+    if (Path(data_dir) / "RECHECK").exists():
+        return Path(data_dir).parent / "paid_usage_recheck.json"
+    return Path(data_dir) / "paid_usage.json"
+
+
+def recheck_cap(data_dir):
+    """The re-check's total spending cap in US dollars (scripts/recheck_no_contact.py --cap), or None."""
+    try:
+        return float(json.loads((Path(data_dir) / "RECHECK").read_text(encoding="utf-8"))["cap_usd"])
+    except Exception:
+        return None
 
 
 def run_chunk(rows, cfg, workers, results_dir, on_row_done=None, data_dir=None):

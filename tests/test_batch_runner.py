@@ -293,5 +293,21 @@ check("finish puts the batch's reader choice back", (rc.finish(rb), json.loads((
       (rb / "RECHECK").exists()), (True, "fast", False))
 check("no re-check: the batch's own spending record", br.paid_usage_file(rb).name, "paid_usage.json")
 
+# paid re-check: free reader first, then paid Gemini; ONE spending total for all batches, capped
+rb2 = rb.parent / "b2"
+(rb2 / "scrape_results").mkdir(parents=True)
+(rb2 / "numbers_clean.csv").write_text("row_id\nr001\n", encoding="utf-8")
+(rb2 / "progress.json").write_text(json.dumps({"status": "waiting", "resume_at": "2026-10-23T08:05:00+00:00"}), encoding="utf-8")
+(rb2 / "scrape_results" / "r001.json").write_text(json.dumps(res_(None, 1)), encoding="utf-8")
+check("paid re-check sets one batch aside", rc.prepare(rb2, "paid", 10), 1)
+check("paid: fast mode with the paid Gemini reader",
+      json.loads((rb2 / "reader.json").read_text()), {"mode": "fast", "paid": "gemini"})
+check("the spending record is shared by all batches", br.paid_usage_file(rb2), rb.parent / "paid_usage_recheck.json")
+check("the cap is the re-check total, not the batch's own", br.recheck_cap(rb2), 10.0)
+check("a waiting batch is taken over by the re-check (the resume job leaves it alone)",
+      json.loads((rb2 / "progress.json").read_text())["status"], "running")
+br.apply_mode(rb2, {"max_paid_usd_per_batch": 6, "max_fast_usd_per_batch": 15})
+check("the running limit is the re-check cap ($10), not $6 + $15", br.discover.BUDGET["limit"], 10.0)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
