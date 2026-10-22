@@ -1,6 +1,6 @@
 {
  "row_id": "r771",
- "scraped_at": "2026-10-12T06:52:36Z",
+ "scraped_at": "2026-10-22T21:29:15Z",
  "contacts": {
   "row_id": "r771",
   "institution_name": "Akademia Nauk Stosowanych im. Hipolita Cegielskiego w Gnieźnie Uczelnia Państwowa",
@@ -8,22 +8,30 @@
   "official_website": "https://ans-gniezno.edu.pl/",
   "country": null,
   "phone": {
-   "value": "61 424 29 42",
+   "value": "+48 61 424 29 42",
    "source_url": "https://ans-gniezno.edu.pl/",
-   "evidence_quote": "61 424 29 42 wew. 324"
+   "evidence_quote": "Telefon: tel. +48 61 424 29 42"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "sekretariat@ans-gniezno.edu.pl",
   "generic_email_url": "https://ans-gniezno.edu.pl/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Paweł Chęciński",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+48 61 424 29 42",
+   "source_url": "https://bip.ans-gniezno.edu.pl/",
+   "evidence_quote": "Rektor ... prof. dr hab. n. med. Paweł Chęciński"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Rector, he is the head of the institution and the primary contact point for official matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -131,15 +139,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 6.8,
-  "ai_calls": 2,
-  "partner_calls": 0,
+  "crawl_s": 118.3,
+  "ai_calls": 1,
+  "model_s": 1.6,
   "cost_usd_estimate": 0.0,
-  "model_s": 1.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "total_seconds": 9.2
- },
- "rechecked": 3
+  "email_search_s": 3.7,
+  "total_seconds": 123.6
+ }
 }
