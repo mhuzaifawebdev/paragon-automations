@@ -1,25 +1,33 @@
 {
  "row_id": "r720",
- "scraped_at": "2026-10-12T06:44:36Z",
+ "scraped_at": "2026-10-22T14:07:03Z",
  "contacts": {
   "row_id": "r720",
   "institution_name": "KUNGLIGA KONSTHOGSKOLAN",
   "institution_type": "university",
-  "official_website": "https://kkh.se/",
+  "official_website": "https://kkh.se/sv/",
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "info@kkh.se",
   "generic_email_url": "https://kkh.se/sv/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Åsa Andersson",
+   "designation": "Research Administrator",
+   "designation_local": "",
+   "email": "asa.andersson@kkh.se",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://kkh.se/sv/om/personal/",
+   "evidence_quote": "Åsa Andersson ... Forskningshandläggare"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Secretary / administration (last resort). Åsa Andersson is listed as a research administrator and was the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -30,15 +38,6 @@
     "mobility_type": "unknown",
     "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
     "evidence_quote": "HDK-Valand, Göteborgs universitet, och KKH samarbetar kring Centrum för konst och det politiska imaginära (CAPIm) vilket ägnar sig åt tvärvetenskaplig praktik och forskning i mötet mellan samtidskonst och politikens framtid. Centrumet syftar till att främja kopplingar mellan forskning och utbildning genom ett engagemang i experimentella metoder. (CAPIm finansieras av Vetenskapsrådet.)",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Kultivator",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
-    "evidence_quote": "Kultivator",
     "confidence": 0.9
    },
    {
@@ -69,7 +68,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "LUX",
+    "partner_name": "LUX, London",
     "partner_country": "United Kingdom",
     "partner_type": "other",
     "mobility_type": "unknown",
@@ -105,7 +104,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "KUNO",
+    "partner_name": "KUNO network",
     "partner_country": "Nordic-Baltic region",
     "partner_type": "network",
     "mobility_type": "unknown",
@@ -168,12 +167,30 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Lunds universitet",
+    "partner_name": "HDK-Valand",
     "partner_country": "Sweden",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
-    "evidence_quote": "Konstnärliga fakulteten, Lunds universitet",
+    "evidence_quote": "HDK-Valand, Göteborgs universitet, och KKH samarbetar kring Centrum för konst och det politiska imaginära (CAPIm) vilket ägnar sig åt tvärvetenskaplig praktik och forskning i mötet mellan samtidskonst och politikens framtid. Centrumet syftar till att främja kopplingar mellan forskning och utbildning genom ett engagemang i experimentella metoder. (CAPIm finansieras av Vetenskapsrådet.)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Göteborgs universitet",
+    "partner_country": "Sweden",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
+    "evidence_quote": "HDK-Valand, Göteborgs universitet, och KKH samarbetar kring Centrum för konst och det politiska imaginära (CAPIm) vilket ägnar sig åt tvärvetenskaplig praktik och forskning i mötet mellan samtidskonst och politikens framtid. Centrumet syftar till att främja kopplingar mellan forskning och utbildning genom ett engagemang i experimentella metoder. (CAPIm finansieras av Vetenskapsrådet.)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kultivator",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
+    "evidence_quote": "Kultivator",
     "confidence": 0.9
    },
    {
@@ -201,15 +218,6 @@
     "mobility_type": "unknown",
     "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
     "evidence_quote": "MISTRA",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "NAVET",
-    "partner_country": "Sweden",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
-    "evidence_quote": "NAVET",
     "confidence": 0.9
    },
    {
@@ -241,7 +249,7 @@
    },
    {
     "partner_name": "ELIA",
-    "partner_country": "International",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
@@ -249,8 +257,26 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Erasmus",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "study",
+    "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
+    "evidence_quote": "Erasmus",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Nordplus",
-    "partner_country": "International",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
+    "evidence_quote": "Nordplus och Kuno",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kuno",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
@@ -259,7 +285,7 @@
    },
    {
     "partner_name": "Accelerator",
-    "partner_country": "Sweden",
+    "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
@@ -408,15 +434,6 @@
     "mobility_type": "unknown",
     "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
     "evidence_quote": "Nationalmuseum",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Nordmak",
-    "partner_country": "International",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://kkh.se/sv/om/samverkan/#samarbeten-och-strategiska-partnerskap",
-    "evidence_quote": "Nordmak (Nordisk Master i Arkitektoniskt Kulturarv i samarbete med Arkitektskolen Aarhus, Alvar Aalto Foundation og Aalto Universitetet och Arkitektur- og designhøgskolen i Oslo)",
     "confidence": 0.9
    },
    {
@@ -611,7 +628,7 @@
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Huvudbyggnad",
+    "campus_name": "Huvudbyggnad (Kasern III)",
     "city": "Stockholm",
     "country": "Sweden",
     "role": "main",
@@ -631,32 +648,32 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 65,
+  "total_seen": 66,
   "pages_read": 10,
-  "coverage_note": "The institution mentions Erasmus+ partnerships but does not provide a specific list of partner universities. The list of partners provided is compiled from various sections mentioning collaborations and networks.",
+  "coverage_note": "The institution lists several networks and specific partner universities, but does not provide a comprehensive list of all Erasmus+ partner institutions.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.5,
-  "crawl_s": 22.3,
+  "discover_s": 0.0,
+  "crawl_s": 20.4,
   "ai_calls": 2,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 11.1,
+  "model_s": 12.4,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      421,
-     551
+     560
     ],
-    "returned": 63,
-    "accepted": 62
+    "returned": 66,
+    "accepted": 65
    }
   ],
-  "total_seconds": 34.9
- },
- "rechecked": true
+  "total_seconds": 32.8
+ }
 }

@@ -1,25 +1,41 @@
 {
  "row_id": "r718",
- "scraped_at": "2026-10-12T06:44:16Z",
+ "scraped_at": "2026-10-22T14:07:05Z",
  "contacts": {
   "row_id": "r718",
   "institution_name": "ECAM-EPMI",
   "institution_type": "university",
   "official_website": "https://www.ecam-epmi.fr/",
-  "country": null,
-  "phone": null,
+  "country": {
+   "value": "France",
+   "source_url": "https://www.ecam-epmi.fr/en-about-ecam-epmi/useful-contacts-in-ecam-epmi/",
+   "evidence_quote": "13 Boulevard de l’Hautil 95092 Cergy-Pontoise Cedex, France"
+  },
+  "phone": {
+   "value": "+33 1.30.75.69.17",
+   "source_url": "https://www.ecam-epmi.fr/en-about-ecam-epmi/useful-contacts-in-ecam-epmi/",
+   "evidence_quote": "Head of International Relations and European Projects – +33 1.30.75.69.17"
+  },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 7,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 6 page(s) could not be read.",
   "generic_email": "contact@ecam-epmi.fr",
   "generic_email_url": "https://www.ecam-epmi.fr/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Mohanad ALMOUSA",
+   "designation": "Head of International Relations and European Projects",
+   "designation_local": "",
+   "email": "contactinternational@ecam-epmi.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ecam-epmi.fr/contact/",
+   "evidence_quote": "Mohanad ALMOUSA – Responsable – 01.30.75.69.17"
+  },
+  "alternates": [],
+  "rung": "Head of international relations. He is the Head of International Relations and European Projects and is the primary contact for international mobility.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -294,6 +310,123 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Heriot-Watt University",
+    "partner_country": "Ecosse",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "ECOSSE : Heriot-Watt University, Ecosse",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université Pontificia Comillas",
+    "partner_country": "Espagne",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "ESPAGNE : Université Pontificia Comillas, Madrid, Espagne",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deakin University",
+    "partner_country": "Australie",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "AUSTRALIE : Deakin University, Melbourne, Australie ; University of Western Australia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Western Australia",
+    "partner_country": "Australie",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "AUSTRALIE : Deakin University, Melbourne, Australie ; University of Western Australia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université de Laval",
+    "partner_country": "Canada",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "CANADA : Université de Laval, Canada",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UNIVERSITI PUTRA",
+    "partner_country": "Malaisie",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "MALAISIE : https://asiaexchange.org/study-destinations/kuala-lumpur-malaysia/universiti-putra-malaysia/ ; UPM – UNIVERSITI PUTRA, Kuala Lumpur, Malaisie",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HANYANG UNIVERSITY",
+    "partner_country": "Corée du Sud",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "CORÉE DU SUD : HYU – HANYANG UNIVERSITY, Ansan (Séoul), Corée du Sud",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cranfield University",
+    "partner_country": "Royaume Uni",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "ROYAUME UNI : Cranfield University ; Heriot Watt",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Heriot Watt",
+    "partner_country": "Royaume Uni",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "ROYAUME UNI : Cranfield University ; Heriot Watt",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sherbrooke University",
+    "partner_country": "Canada",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "CANADA : Sherbrooke University",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Manhattan College",
+    "partner_country": "Etats-Unis",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "ETATS-UNIS : Manhattan College ; University of California – Riverside",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of California – Riverside",
+    "partner_country": "Etats-Unis",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "ETATS-UNIS : Manhattan College ; University of California – Riverside",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hong Kong City University",
+    "partner_country": "Chine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "CHINE : Hong Kong City University",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "cerfal",
     "partner_country": "unknown",
     "partner_type": "other",
@@ -438,15 +571,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Paris Cergy Université",
-    "partner_country": "France",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ecam-epmi.fr/les-reseaux-et-partenariats/",
-    "evidence_quote": "Membre de CY Alliance (Paris Cergy Université)",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "ICP – Institut Catholique de Paris",
     "partner_country": "France",
     "partner_type": "university",
@@ -465,12 +589,21 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "PSA",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/les-reseaux-et-partenariats/",
+    "evidence_quote": "École créée à l’initiative de 4 grands groupes (EDF, PSA, Schneider, Philips) et forte de son ancrage industriel, ECAM-EPMI peut s’enorgueillir de ses liens avec le monde de l’entreprise et de son fort ancrage industriel.",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Schneider",
     "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ecam-epmi.fr/les-reseaux-et-partenariats/",
-    "evidence_quote": "Les travaux de Recherche comme les activités de Formation initiale bénéficient du soutien d’entreprises de renom – EDF, Schneider, Safran, Suez, Thales, Vinci, Saint-Gobain, Cisco, 3com, Cap-Gemini, Orange, Bouygues, Microsoft, IBM France, EADS, Spie, DGA, Cegelec… Ainsi que de nombreuses ETI, PME/PMI.",
+    "evidence_quote": "École créée à l’initiative de 4 grands groupes (EDF, PSA, Schneider, Philips) et forte de son ancrage industriel, ECAM-EPMI peut s’enorgueillir de ses liens avec le monde de l’entreprise et de son fort ancrage industriel.",
     "confidence": 0.9
    },
    {
@@ -628,7 +761,7 @@
    },
    {
     "partner_name": "Cubis Helios Consulting",
-    "partner_country": "unknown",
+    "partner_country": "Unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ecam-epmi.fr/les-reseaux-et-partenariats/",
@@ -645,9 +778,18 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Groupe ECAM",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/les-reseaux-et-partenariats/",
+    "evidence_quote": "ECAM-EPMI est membre du groupe d’écoles d’ingénieurs ECAM, et partage avec les 3 autres écoles du groupe, ses valeurs, ses méthodes et ses process.",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "ENSEA",
     "partner_country": "France",
-    "partner_type": "school",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ecam-epmi.fr/les-reseaux-et-partenariats/",
     "evidence_quote": "Notre école d’ingénieurs est également partenaire de plusieurs établissements nationaux, grandes écoles d’ingénieurs et universités (ENSEA, Sup’Elec, UVSQ, UPMC) notamment en matière de formation par la recherche via les Masters de recherche.",
@@ -656,7 +798,7 @@
    {
     "partner_name": "Sup’Elec",
     "partner_country": "France",
-    "partner_type": "school",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ecam-epmi.fr/les-reseaux-et-partenariats/",
     "evidence_quote": "Notre école d’ingénieurs est également partenaire de plusieurs établissements nationaux, grandes écoles d’ingénieurs et universités (ENSEA, Sup’Elec, UVSQ, UPMC) notamment en matière de formation par la recherche via les Masters de recherche.",
@@ -718,7 +860,7 @@
    },
    {
     "partner_name": "Université de Newcastle",
-    "partner_country": "United Kingdom",
+    "partner_country": "UK",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ecam-epmi.fr/les-reseaux-et-partenariats/",
@@ -753,12 +895,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "EDHEC Business School",
+    "partner_name": "Réseau n+i",
     "partner_country": "France",
-    "partner_type": "school",
+    "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://www.ecam-epmi.fr/en-about-ecam-epmi/the-new-campus-of-grasse/",
-    "evidence_quote": "A brand new Campus carried by the City of Grasse and the territory of the Country of Grasse, and deployed in a natural, historical and cultural setting out of the ordinary, where renowned schools such as EDHEC Business School have already found their place.",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "Réseau « n+i »",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universiti Putra Malaysia",
+    "partner_country": "Malaysia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecam-epmi.fr/international/destinations-partenaires-internationaux/",
+    "evidence_quote": "MALAISIE : https://asiaexchange.org/study-destinations/kuala-lumpur-malaysia/universiti-putra-malaysia/ ; UPM – UNIVERSITI PUTRA, Kuala Lumpur, Malaisie",
     "confidence": 0.9
    }
   ],
@@ -793,20 +944,21 @@
   "stated_total_url": "https://www.ecam-epmi.fr/les-reseaux-et-partenariats/",
   "truncated": true,
   "total_seen": 250,
-  "pages_read": 7,
-  "coverage_note": "The evidence mentions over 250 international partners but does not provide a comprehensive list of them. No specific Erasmus+ coordinator contact is named. 6 page(s) could not be read.",
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of specific international partners and mentions a total of over 250 partners, but does not provide a comprehensive, single list of all 250+ partners. 2 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.6,
-  "crawl_s": 18.7,
-  "ai_calls": 4,
-  "partner_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 19.0,
+  "ai_calls": 5,
+  "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 14.8,
+  "model_s": 14.9,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.8,
   "slices": [
    {
     "lines": [
@@ -827,13 +979,20 @@
    {
     "lines": [
      421,
-     484
+     560
     ],
-    "returned": 40,
-    "accepted": 40
+    "returned": 53,
+    "accepted": 53
+   },
+   {
+    "lines": [
+     561,
+     578
+    ],
+    "returned": 1,
+    "accepted": 1
    }
   ],
-  "total_seconds": 36.1
- },
- "rechecked": true
+  "total_seconds": 35.7
+ }
 }

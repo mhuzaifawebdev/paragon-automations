@@ -1,6 +1,6 @@
 {
  "row_id": "r691",
- "scraped_at": "2026-10-12T06:39:56Z",
+ "scraped_at": "2026-10-22T14:06:29Z",
  "contacts": {
   "row_id": "r691",
   "institution_name": "Brest Business School - ESC Force Ouest",
@@ -9,17 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 9,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "contact@brest-bs.com",
   "generic_email_url": "https://brest-bs.com/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Béatrice Sommier",
+   "designation": "Teacher-researcher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://brest-bs.com/",
+   "evidence_quote": "Béatrice Sommier, enseignante-chercheuse à BBS, participera au 21e Congrès du RIODD à Reims du 19 au 21 octobre 2026."
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Béatrice Sommier is a named teacher-researcher at Brest Business School.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -35,15 +43,42 @@
    {
     "partner_name": "ISEN",
     "partner_country": "France",
-    "partner_type": "school",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://brest-bs.com/",
     "evidence_quote": "Le parcours Ingénieur d’Affaires, réalisé en partenariat avec l’école d’ingénieurs ISEN, m’a permis d’allier théorie et pratique grâce à l’alternance chez ARTTEC. Ces expériences m’ont donné toutes les clés pour évoluer vers une carrière en développement d’affaires.",
     "confidence": 0.9
    },
    {
+    "partner_name": "Leclerc Gouesnou",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://brest-bs.com/",
+    "evidence_quote": "Brest Business School partenaire de la Leclerc Gouesnou 2026",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Crédit Agricole Finistère",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://brest-bs.com/",
+    "evidence_quote": "Intervention de la directrice générale adjointe du Crédit Agricole Finistère",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "RIODD",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://brest-bs.com/",
+    "evidence_quote": "Congrès du RIODD 2026",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "ARTTEC",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "traineeship",
     "source_url": "https://brest-bs.com/",
@@ -69,7 +104,61 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "AACSB",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://brest-bs.com/",
+    "evidence_quote": "[AACSB - Logo]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://brest-bs.com/",
+    "evidence_quote": "[Erasmus-Logo]",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Conférence des Grandes Écoles",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://brest-bs.com/",
+    "evidence_quote": "[Conférence-des-Grandes-Écoles-Logo]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CCI Finistère",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://brest-bs.com/",
+    "evidence_quote": "[CCI Finistère]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Produit en Bretagne",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://brest-bs.com/",
+    "evidence_quote": "[Produit en Bretagne]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "PRME",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://brest-bs.com/",
+    "evidence_quote": "[PRME]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conférence des Grandes Écoles (CGE)",
     "partner_country": "France",
     "partner_type": "network",
     "mobility_type": "unknown",
@@ -177,21 +266,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "universités",
-    "partner_country": "unknown",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://brest-bs.com/brest-business-school/#campus-partenaires",
-    "evidence_quote": "60+ universités partenaires",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "universités partenaires",
+    "partner_name": "60 universités partenaires",
     "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://brest-bs.com/formation/bachelor-en-management/",
     "evidence_quote": "Échanges avec 60 universités partenaires",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "universités",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://brest-bs.com/formation/bachelor-en-management/",
+    "evidence_quote": "40+ universités partenaires",
     "confidence": 0.9
    },
    {
@@ -220,27 +309,29 @@
   "truncated": true,
   "total_seen": 60,
   "pages_read": 9,
-  "coverage_note": "The evidence does not provide a specific list of international partner universities or names of international relations staff. The contact information provided is limited to a general email and phone number.",
+  "coverage_note": "The evidence mentions 60+ partner universities but does not provide a full list of their names. No specific international relations staff members are named in the provided text.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.8,
-  "crawl_s": 14.5,
-  "ai_calls": 6,
+  "discover_s": 0.0,
+  "crawl_s": 17.9,
+  "ai_calls": 7,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.8,
+  "model_s": 5.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.9,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 5,
-    "accepted": 5
+    "returned": 15,
+    "accepted": 14
    },
    {
     "lines": [
@@ -255,8 +346,8 @@
      281,
      420
     ],
-    "returned": 4,
-    "accepted": 1
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
@@ -269,13 +360,12 @@
    {
     "lines": [
      561,
-     657
+     664
     ],
     "returned": 2,
     "accepted": 2
    }
   ],
-  "total_seconds": 22.1
- },
- "rechecked": true
+  "total_seconds": 26.7
+ }
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r689",
- "scraped_at": "2026-10-12T06:39:57Z",
+ "scraped_at": "2026-10-22T14:06:30Z",
  "contacts": {
   "row_id": "r689",
   "institution_name": "Conservatorio Statale di Musica Guido Cantelli",
@@ -13,17 +13,48 @@
    "evidence_quote": "Tel.: 0321.31252 <tel +39032131252> – 0321.392629 <tel +390321392629>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Francesco Barbuto",
+   "designation": "Teacher of Direzione di coro e repertorio corale per didattica della musica",
+   "designation_local": "",
+   "email": "francesco.barbuto@consno.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://consno.it/docenti/",
+   "evidence_quote": "Francesco Barbuto ... Direzione di coro e repertorio corale per didattica della musica"
+  },
+  "alternates": [
+   {
+    "name": "Antonio Abete",
+    "designation": "Teacher of Canto and Canto barocco",
+    "designation_local": "",
+    "email": "antonio.abete@consno.it",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://consno.it/docenti/",
+    "evidence_quote": "Antonio Abete ... Canto e Canto barocco",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Antonio Abete is a teacher at the Conservatorio Cantelli who can be contacted via his institutional email."
+   },
+   {
+    "name": "Giovanni Agosti",
+    "designation": "Teacher of Teoria ritmica e percezione musicale",
+    "designation_local": "",
+    "email": "giovanni.agosti@consno.it",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://consno.it/docenti/",
+    "evidence_quote": "Giovanni Agosti ... Teoria ritmica e percezione musicale",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Giovanni Agosti is a teacher at the Conservatorio Cantelli who can be contacted via his institutional email."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. English / language or EU-project teacher (no Erasmus contact found). Francesco Barbuto is a teacher at the Conservatorio Cantelli who can be contacted via his institutional email.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -336,7 +367,7 @@
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Conservatorio Statale di Musica Guido Cantelli",
+    "campus_name": "Conservatorio Guido Cantelli",
     "city": "Novara",
     "country": "Italy",
     "role": "main",
@@ -350,38 +381,31 @@
   "truncated": false,
   "total_seen": 34,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of Erasmus partners with contact details. No specific total number of partners is stated.",
+  "coverage_note": "The evidence provides a list of Erasmus partners, but does not name a specific Erasmus coordinator or international relations officer.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 5.0,
-  "crawl_s": 18.6,
+  "discover_s": 0.0,
+  "crawl_s": 19.3,
   "ai_calls": 3,
-  "partner_calls": 2,
+  "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 8.4,
+  "model_s": 10.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 5,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
-     141,
-     280
+     421,
+     551
     ],
-    "returned": 19,
-    "accepted": 19
-   },
-   {
-    "lines": [
-     281,
-     357
-    ],
-    "returned": 15,
-    "accepted": 15
+    "returned": 31,
+    "accepted": 31
    }
   ],
   "total_seconds": 31.9
- },
- "rechecked": true
+ }
 }

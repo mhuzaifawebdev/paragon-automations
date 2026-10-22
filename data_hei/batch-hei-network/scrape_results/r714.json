@@ -1,6 +1,6 @@
 {
  "row_id": "r714",
- "scraped_at": "2026-10-12T06:44:00Z",
+ "scraped_at": "2026-10-22T14:06:57Z",
  "contacts": {
   "row_id": "r714",
   "institution_name": "IST-HOCHSCHULE FUR MANAGEMENT GMBH",
@@ -13,17 +13,37 @@
    "evidence_quote": "+49 211 86668 0 <tel +49211866680>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "info@ist-hochschule.de",
   "generic_email_url": "https://www.ist-hochschule.de/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Til Frinken",
+   "designation": "Study Counseling",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ist-hochschule.de/studium-sport-und-management/beraterteam",
+   "evidence_quote": "Til Frinken ... Til Frinken hat an der IST-Hochschule das duale Studium Sportbusiness Management absolviert. Dabei arbeitete er in einem Sportfreizeitbetrieb, der auf Wintersport spezialisiert ist. Nach seinem Studium war er als Operations Manager im Wintersportbereich tätig. Am IST ist er in der Studienberatung tätig."
+  },
+  "alternates": [
+   {
+    "name": "David Frankenhauser",
+    "designation": "Head of Department & Conception",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ist-hochschule.de/studium-sport-und-management/beraterteam",
+    "evidence_quote": "David Frankenhauser ... Leitung Fachbereich & Konzeption",
+    "why_chosen": "Other role. He is the head of the Sport & Management department."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). He works in study counseling for the Sport & Management department.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -1093,14 +1113,16 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 14.0,
-  "ai_calls": 5,
+  "discover_s": 0.0,
+  "crawl_s": 15.8,
+  "ai_calls": 6,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 14.8,
+  "model_s": 14.4,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 2.3,
   "slices": [
    {
     "lines": [
@@ -1123,19 +1145,18 @@
      701,
      840
     ],
-    "returned": 43,
-    "accepted": 40
+    "returned": 34,
+    "accepted": 32
    },
    {
     "lines": [
      981,
-     1094
+     1089
     ],
-    "returned": 11,
-    "accepted": 11
+    "returned": 9,
+    "accepted": 9
    }
   ],
-  "total_seconds": 31.1
- },
- "rechecked": true
+  "total_seconds": 34.9
+ }
 }
