@@ -1,14 +1,20 @@
 {
  "row_id": "r003",
- "scraped_at": "2026-10-08T17:44:28Z",
+ "scraped_at": "2026-10-22T11:23:05Z",
  "contacts": {
   "row_id": "r003",
   "institution_name": "University of Europe for Applied Sciences GmbH",
   "institution_type": "university",
   "official_website": "https://www.ue-germany.com/",
-  "country": null,
+  "country": {
+   "value": "Germany",
+   "source_url": "https://www.ue-germany.com/contact-us",
+   "evidence_quote": "Dessauer Str. 3-5, 10963 Berlin, Germany"
+  },
   "phone": null,
   "phone_alt": [],
+  "generic_email": "student.advice@ue-germany.com",
+  "generic_email_url": "https://www.ue-germany.com/contact-us",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -16,7 +22,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -31,7 +37,7 @@
    },
    {
     "partner_name": "Canon",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/",
@@ -40,7 +46,7 @@
    },
    {
     "partner_name": "Merck",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/",
@@ -49,7 +55,7 @@
    },
    {
     "partner_name": "RTL",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/",
@@ -58,7 +64,7 @@
    },
    {
     "partner_name": "DHL",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/",
@@ -66,8 +72,17 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Vispa",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/",
+    "evidence_quote": "[Vispa logo]",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Axel Springer",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/",
@@ -75,8 +90,17 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Student Partout",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/",
+    "evidence_quote": "[Student Partout Logo]",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "BASF",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/",
@@ -85,11 +109,38 @@
    },
    {
     "partner_name": "Reporters without Borders",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/",
     "evidence_quote": "[Celebrating Reporters without Borders for Press Freedom]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidad Autónoma Metropolitana, Lerma",
+    "partner_country": "Mexico",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/",
+    "evidence_quote": "UE students Exhibit their work at Rectoría de la Universidad Autónoma Metropolitana, Lerma in Mexico",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BSH Middle East",
+    "partner_country": "United Arab Emirates",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/",
+    "evidence_quote": "UE Dubai and BSH Middle East Celebrate Young Sustainability Innovators at the Green Genius Challenge Awards Ceremony",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GUS Germany GmbH (GGG)",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/",
+    "evidence_quote": "University of Europe for Applied Sciences (UE) is part of GUS Germany GmbH (GGG), a dynamic network of higher education institutions with more than 18,000 students at locations in Germany, Europe and beyond.",
     "confidence": 0.9
    },
    {
@@ -103,7 +154,7 @@
    },
    {
     "partner_name": "UI Path",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/programmes/dual/cooperation-partner",
@@ -121,7 +172,7 @@
    },
    {
     "partner_name": "Adesso",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/programmes/dual/cooperation-partner",
@@ -130,7 +181,7 @@
    },
    {
     "partner_name": "Flying Steps",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/programmes/dual/cooperation-partner",
@@ -139,7 +190,7 @@
    },
    {
     "partner_name": "OMMAX",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/programmes/dual/cooperation-partner",
@@ -148,7 +199,7 @@
    },
    {
     "partner_name": "WAELZHOLZ",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/programmes/dual/cooperation-partner",
@@ -156,8 +207,17 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Global University Systems (GUS)",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
+    "evidence_quote": "We are also offering the opportunity to collaborate with Global University Systems (GUS), one of the largest global education providers.",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "SAP",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
@@ -166,7 +226,7 @@
    },
    {
     "partner_name": "Aroundtown",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
@@ -174,7 +234,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "BDE (Berlin Design Events)",
+    "partner_name": "Berlin Design Events",
     "partner_country": "Germany",
     "partner_type": "network",
     "mobility_type": "unknown",
@@ -183,35 +243,35 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "G2 ESPORTS",
-    "partner_country": "unknown",
+    "partner_name": "G2 Esports",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
-    "evidence_quote": "G2 ESPORTS",
+    "evidence_quote": "[G2 Esports Logo]",
     "confidence": 0.9
    },
    {
     "partner_name": "HORBACH",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
-    "evidence_quote": "HORBACH",
+    "evidence_quote": "[Horbach Logo]",
     "confidence": 0.9
    },
    {
     "partner_name": "Lovehoney Group",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
-    "evidence_quote": "Lovehoney Group",
+    "evidence_quote": "[LOVEHONEY GROUP LOGO]",
     "confidence": 0.9
    },
    {
     "partner_name": "JobTeaser",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
@@ -220,7 +280,7 @@
    },
    {
     "partner_name": "Phaidon International",
-    "partner_country": "unknown",
+    "partner_country": "United Kingdom",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
@@ -238,7 +298,7 @@
    },
    {
     "partner_name": "Odoo",
-    "partner_country": "unknown",
+    "partner_country": "Belgium",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
@@ -247,7 +307,7 @@
    },
    {
     "partner_name": "Statista",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
@@ -256,7 +316,7 @@
    },
    {
     "partner_name": "Wooga",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
@@ -264,8 +324,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Xcellent-Talents",
-    "partner_country": "unknown",
+    "partner_name": "Xcellent Talents",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
@@ -274,20 +334,20 @@
    },
    {
     "partner_name": "Ventura Travel",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
-    "evidence_quote": "Ventura Travel",
+    "evidence_quote": "[Ventura Travel Logo]",
     "confidence": 0.9
    },
    {
     "partner_name": "Bettermile",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
-    "evidence_quote": "Bettermile",
+    "evidence_quote": "[Bettermile Logo]",
     "confidence": 0.9
    },
    {
@@ -297,6 +357,132 @@
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
     "evidence_quote": "Studentpartout",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UEFA",
+    "partner_country": "Switzerland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Clubs, federations (e.g., UEFA, FIFA) and leagues (e.g. Beko Basketball Bundesliga)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FIFA",
+    "partner_country": "Switzerland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Clubs, federations (e.g., UEFA, FIFA) and leagues (e.g. Beko Basketball Bundesliga)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SportFive",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Sports marketing agencies (e.g.,SportFive and Infront)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Infront",
+    "partner_country": "Switzerland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Sports marketing agencies (e.g.,SportFive and Infront)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Vok Dams",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Event agencies (e.g., Vok Dams or Jack Morton Worldwide)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Jack Morton Worldwide",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Event agencies (e.g., Vok Dams or Jack Morton Worldwide)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Red Bull",
+    "partner_country": "Austria",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Sponsorship, PR and event marketing departments in big companies (e.g., Red Bull, VW, Bayer or Carlsberg)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bayer",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Sponsorship, PR and event marketing departments in big companies (e.g., Red Bull, VW, Bayer or Carlsberg)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Carlsberg",
+    "partner_country": "Denmark",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Sponsorship, PR and event marketing departments in big companies (e.g., Red Bull, VW, Bayer or Carlsberg)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nike",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Sporting goods industry (e.g., Nike, Adidas, Puma)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Adidas",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Sporting goods industry (e.g., Nike, Adidas, Puma)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Puma",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "- Sporting goods industry (e.g., Nike, Adidas, Puma)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Blu Mediengruppe",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "[Blu Mediengruppe]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fuchse Berlin",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
+    "evidence_quote": "[Fuchse Berlin]",
     "confidence": 0.9
    },
    {
@@ -310,7 +496,7 @@
    },
    {
     "partner_name": "Adina",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/programmes/bachelor/hotel-management",
@@ -336,129 +522,39 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Vispa",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/",
-    "evidence_quote": "[Vispa logo]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Student Partout",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/",
-    "evidence_quote": "[Student Partout Logo]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Universidad Autónoma Metropolitana",
-    "partner_country": "Mexico",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/",
-    "evidence_quote": "UE students Exhibit their work at Rectoría de la Universidad Autónoma Metropolitana, Lerma in Mexico",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "BSH Middle East",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/",
-    "evidence_quote": "UE Dubai and BSH Middle East Celebrate Young Sustainability Innovators at the Green Genius Challenge Awards Ceremony",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "GUS Germany GmbH (GGG)",
+    "partner_name": "BVB",
     "partner_country": "Germany",
-    "partner_type": "network",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/",
+    "evidence_quote": "UE becomes university partner of BVB",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GUS Germany GmbH",
+    "partner_country": "",
+    "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/",
     "evidence_quote": "University of Europe for Applied Sciences (UE) is part of GUS Germany GmbH (GGG), a dynamic network of higher education institutions with more than 18,000 students at locations in Germany, Europe and beyond.",
     "confidence": 0.9
    },
    {
-    "partner_name": "companies",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/about-us/our-university/quality-management",
-    "evidence_quote": "We firmly anchor our teaching and research in real-world practice. Project-based learning formats, research-driven collaboration, and close partnerships with companies, universities, cultural institutions, and public stakeholders ensure strong practical connections. We combine global perspectives with regional impact to make knowledge immediately applicable and to drive innovation in society and the economy.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "universities",
-    "partner_country": "unknown",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/about-us/our-university/quality-management",
-    "evidence_quote": "We firmly anchor our teaching and research in real-world practice. Project-based learning formats, research-driven collaboration, and close partnerships with companies, universities, cultural institutions, and public stakeholders ensure strong practical connections. We combine global perspectives with regional impact to make knowledge immediately applicable and to drive innovation in society and the economy.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "cultural institutions",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/about-us/our-university/quality-management",
-    "evidence_quote": "We firmly anchor our teaching and research in real-world practice. Project-based learning formats, research-driven collaboration, and close partnerships with companies, universities, cultural institutions, and public stakeholders ensure strong practical connections. We combine global perspectives with regional impact to make knowledge immediately applicable and to drive innovation in society and the economy.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "public stakeholders",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/about-us/our-university/quality-management",
-    "evidence_quote": "We firmly anchor our teaching and research in real-world practice. Project-based learning formats, research-driven collaboration, and close partnerships with companies, universities, cultural institutions, and public stakeholders ensure strong practical connections. We combine global perspectives with regional impact to make knowledge immediately applicable and to drive innovation in society and the economy.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "industry partners",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/about-us/our-university/quality-management",
-    "evidence_quote": "Practical relevance is reflected in application-oriented teaching content, project-based learning, and close collaboration with companies and industry partners,",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Global University Systems",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/about-us/corporate-partners",
-    "evidence_quote": "Contact us or make an appointment with one of our experts. We can advise you on possible partnerships with the UE or Global University Systems – tailored to your needs and goals.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Blu Mediengruppe",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
-    "evidence_quote": "[Blu Mediengruppe]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Fuchse Berlin",
-    "partner_country": "Germany",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ue-germany.com/programmes/bachelor/sport-event-management",
-    "evidence_quote": "[Fuchse Berlin]",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Hotel Adlon Kempinski Berlin",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ue-germany.com/programmes/bachelor/hotel-management",
     "evidence_quote": "[Hotel Adlon Kempinski Berlin]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Global University Systems",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-germany.com/locations/hamburg",
+    "evidence_quote": "Entrepreneurial thinking and independent action are the two pillars that form the foundation of our teaching. Our content is taught in a practical manner and in personal exchange with our teachers. Numerous practical projects prepare students for the time after their graduation. As a member of the Global University Systems network, which connects students on all continents, the University of Europe for Applied Sciences (UE) guarantees a global exchange, which enables us to offer our students sem",
     "confidence": 0.9
    }
   ],
@@ -475,15 +571,15 @@
     "campus_name": "Hamburg Campus",
     "city": "Hamburg",
     "country": "Germany",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ue-germany.com/",
     "evidence_quote": "Hamburg"
    },
    {
-    "campus_name": "Innovation Hub",
+    "campus_name": "UE Innovation Hub",
     "city": "Potsdam",
     "country": "Germany",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ue-germany.com/",
     "evidence_quote": "A campus located in Potsdam with a focus on tech and digital innovation, where students shape the future of applied sciences."
    },
@@ -491,7 +587,7 @@
     "campus_name": "Iserlohn Campus",
     "city": "Iserlohn",
     "country": "Germany",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ue-germany.com/",
     "evidence_quote": "Iserlohn"
    },
@@ -508,21 +604,63 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 49,
+  "total_seen": 59,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of corporate and industry partners but does not contain a formal list of Erasmus+ partner universities. Specific contact details for an Erasmus coordinator are not provided.",
+  "coverage_note": "The evidence provides extensive information regarding the institution's campuses, programmes, and various corporate partners and networks, but lacks an explicit dedicated list of international Erasmus partner universities.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 12.9,
+  "discover_s": 0.0,
+  "crawl_s": 15.5,
   "ai_calls": 6,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 26.4,
+  "model_s": 27.5,
   "mode": "gemini",
-  "total_seconds": 41.6
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 17,
+    "accepted": 15
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 9,
+    "accepted": 8
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 7,
+    "accepted": 6
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 43.0
  },
  "rechecked": true
 }

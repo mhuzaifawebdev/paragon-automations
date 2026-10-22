@@ -1,6 +1,6 @@
 {
  "row_id": "r014",
- "scraped_at": "2026-10-08T17:50:54Z",
+ "scraped_at": "2026-10-22T11:23:01Z",
  "contacts": {
   "row_id": "r014",
   "institution_name": "IPAC",
@@ -8,11 +8,13 @@
   "official_website": "https://www.ipac-france.com/",
   "country": {
    "value": "France",
-   "source_url": "https://www.ipac-france.com/ecoles-du-groupe-eduservices",
-   "evidence_quote": "L’IPAC s’appuie sur l’expertise d’Eduservices, groupe de référence dans l’enseignement supérieur privé en France. Un réseau qui réunit plus de 2 500 intervenants et collaborateurs mobilisés au quotidien pour accompagner les étudiants vers la réussite."
+   "source_url": "https://www.ipac-france.com/",
+   "evidence_quote": "© 2026 IPAC France"
   },
   "phone": null,
   "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,51 +22,42 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
    {
-    "partner_name": "L'armée de l'air",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "L'IPAC et l'armée de l'air, un partenariat engagé",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "ILSC Greystone Collège",
-    "partner_country": "Canada",
+    "partner_country": "CANADA",
     "partner_type": "college",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "ILSC Greystone Collège, Vancouver",
     "confidence": 0.9
    },
    {
     "partner_name": "ULACIT",
-    "partner_country": "Costa Rica",
+    "partner_country": "COSTA RICA",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "ULACIT, San José",
     "confidence": 0.9
    },
    {
     "partner_name": "Anahuac",
-    "partner_country": "Mexique",
+    "partner_country": "MEXIQUE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Anahuac, Cancun",
     "confidence": 0.9
    },
    {
     "partner_name": "Universidad de Leon",
-    "partner_country": "Mexique",
+    "partner_country": "MEXIQUE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Universidad de Leon, Leon",
     "confidence": 0.9
@@ -73,7 +66,7 @@
     "partner_name": "MIM Manhattan institute of management",
     "partner_country": "USA",
     "partner_type": "college",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "MIM Manhattan institute of management, New York",
     "confidence": 0.9
@@ -82,7 +75,7 @@
     "partner_name": "Hillsborough Community College",
     "partner_country": "USA",
     "partner_type": "college",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Hillsborough Community College, Tampa",
     "confidence": 0.9
@@ -91,7 +84,7 @@
     "partner_name": "Santa Barbara city College",
     "partner_country": "USA",
     "partner_type": "college",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Santa Barbara city College, Santa Barbara",
     "confidence": 0.9
@@ -100,7 +93,7 @@
     "partner_name": "Fullerton California state uni",
     "partner_country": "USA",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Fullerton California state uni, Fullerton",
     "confidence": 0.9
@@ -109,7 +102,7 @@
     "partner_name": "Berkeley College",
     "partner_country": "USA",
     "partner_type": "college",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Berkeley College, New York",
     "confidence": 0.9
@@ -118,7 +111,7 @@
     "partner_name": "San Francisco State University",
     "partner_country": "USA",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "San Francisco State University, San Francisco",
     "confidence": 0.9
@@ -127,441 +120,504 @@
     "partner_name": "San Diego State",
     "partner_country": "USA",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "San Diego State, San Diego",
     "confidence": 0.9
    },
    {
     "partner_name": "Solbridge Business School",
-    "partner_country": "Corée",
-    "partner_type": "college",
-    "mobility_type": "unknown",
+    "partner_country": "CORÉE",
+    "partner_type": "university",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Solbridge Business School, Deajeon",
     "confidence": 0.9
    },
    {
     "partner_name": "Endicott Collège of International Studies",
-    "partner_country": "Corée",
+    "partner_country": "CORÉE",
     "partner_type": "college",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Endicott Collège of International Studies, Deajeon",
     "confidence": 0.9
    },
    {
     "partner_name": "Hankuk University of Foreign Studies",
-    "partner_country": "Corée",
+    "partner_country": "CORÉE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Hankuk University of Foreign Studies, Seoul",
     "confidence": 0.9
    },
    {
     "partner_name": "Temple University",
-    "partner_country": "Japon",
+    "partner_country": "JAPON",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Temple University, Tokyo",
     "confidence": 0.9
    },
    {
     "partner_name": "Unika Atma Jaya",
-    "partner_country": "Indonesie",
+    "partner_country": "INDONESIE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Unika Atma Jaya, Jakarta",
     "confidence": 0.9
    },
    {
     "partner_name": "Kasetsart Uni",
-    "partner_country": "Thaïlande",
+    "partner_country": "THAÏLANDE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Kasetsart Uni, Bangkok",
     "confidence": 0.9
    },
    {
     "partner_name": "Hochschule Kempten",
-    "partner_country": "Allemagne",
+    "partner_country": "ALLEMAGNE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Hochschule Kempten, Kempten",
     "confidence": 0.9
    },
    {
     "partner_name": "American University of Richmond",
-    "partner_country": "Angleterre",
+    "partner_country": "ANGLETERRE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "American University of Richmond, Londres",
     "confidence": 0.9
    },
    {
     "partner_name": "UCB",
-    "partner_country": "Angleterre",
+    "partner_country": "ANGLETERRE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "UCB, Birmingham",
     "confidence": 0.9
    },
    {
     "partner_name": "Coventry University",
-    "partner_country": "Angleterre",
+    "partner_country": "ANGLETERRE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Coventry University, Coventry",
     "confidence": 0.9
    },
    {
     "partner_name": "IMC",
-    "partner_country": "Autriche",
+    "partner_country": "AUTRICHE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "IMC, Krems",
     "confidence": 0.9
    },
    {
     "partner_name": "FH Kufstein Tirol",
-    "partner_country": "Autriche",
+    "partner_country": "AUTRICHE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "FH Kufstein Tirol, Kufstein",
     "confidence": 0.9
    },
    {
     "partner_name": "HSSE",
-    "partner_country": "Bulgarie",
+    "partner_country": "BULGARIE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "HSSE, Plovdiv",
     "confidence": 0.9
    },
    {
     "partner_name": "Neapolis University Paphos",
-    "partner_country": "Chypre",
+    "partner_country": "CHYPRE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Neapolis University Paphos, Paphos",
     "confidence": 0.9
    },
    {
     "partner_name": "Uni Huelva",
-    "partner_country": "Espagne",
+    "partner_country": "ESPAGNE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Uni Huelva, Huelva",
     "confidence": 0.9
    },
    {
     "partner_name": "Uvic",
-    "partner_country": "Espagne",
+    "partner_country": "ESPAGNE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Uvic, Barcelone",
     "confidence": 0.9
    },
    {
     "partner_name": "HAMK University",
-    "partner_country": "Finlande",
+    "partner_country": "FINLANDE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "HAMK University, Valkeaoski",
     "confidence": 0.9
    },
    {
     "partner_name": "IBSU",
-    "partner_country": "Géorgie",
+    "partner_country": "GÉORGIE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "IBSU, Tbilisi",
     "confidence": 0.9
    },
    {
     "partner_name": "IBS",
-    "partner_country": "Hongrie",
+    "partner_country": "HONGRIE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "IBS, Budapest",
     "confidence": 0.9
    },
    {
     "partner_name": "American College",
-    "partner_country": "Irlande",
+    "partner_country": "IRLANDE",
     "partner_type": "college",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "American College, Dublin",
     "confidence": 0.9
    },
    {
     "partner_name": "Griffith College",
-    "partner_country": "Irlande",
+    "partner_country": "IRLANDE",
     "partner_type": "college",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Griffith College, Dublin",
     "confidence": 0.9
    },
    {
     "partner_name": "MTU Kerry",
-    "partner_country": "Irlande",
+    "partner_country": "IRLANDE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "MTU Kerry, Tralee",
     "confidence": 0.9
    },
    {
     "partner_name": "Università Carlo Cattaneo LIUC",
-    "partner_country": "Italie",
+    "partner_country": "ITALIE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Università Carlo Cattaneo LIUC, Castellanza",
     "confidence": 0.9
    },
    {
     "partner_name": "International University",
-    "partner_country": "Italie",
+    "partner_country": "ITALIE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "International University, Rome",
     "confidence": 0.9
    },
    {
     "partner_name": "LUMSA Università",
-    "partner_country": "Italie",
+    "partner_country": "ITALIE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "LUMSA Università, Rome",
     "confidence": 0.9
    },
    {
     "partner_name": "Kauno Kolegija",
-    "partner_country": "Lituanie",
+    "partner_country": "LITUANIE",
     "partner_type": "college",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Kauno Kolegija, Kaunas",
     "confidence": 0.9
    },
    {
     "partner_name": "INN",
-    "partner_country": "Norvège",
+    "partner_country": "NORVEGE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "INN, Lillehammer",
     "confidence": 0.9
    },
    {
     "partner_name": "Hanze Hogeschool",
-    "partner_country": "Pays-Bas",
-    "partner_type": "university",
-    "mobility_type": "unknown",
+    "partner_country": "PAYS-BAS",
+    "partner_type": "college",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Hanze Hogeschool, Groningen",
     "confidence": 0.9
    },
    {
     "partner_name": "Universidade Europeia",
-    "partner_country": "Portugal",
+    "partner_country": "PORTUGAL",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Universidade Europeia, Lisbonne",
     "confidence": 0.9
    },
    {
     "partner_name": "IPP",
-    "partner_country": "Portugal",
+    "partner_country": "PORTUGAL",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "IPP, Porto",
     "confidence": 0.9
    },
    {
     "partner_name": "IPS",
-    "partner_country": "Portugal",
+    "partner_country": "PORTUGAL",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "IPS, Setubal",
     "confidence": 0.9
    },
    {
     "partner_name": "Vysoká Škola Finančí a Správní",
-    "partner_country": "République Tchèque",
+    "partner_country": "RÉPUBLIQUE TCHÈQUE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Vysoká Škola Finančí a Správní, Prague",
     "confidence": 0.9
    },
    {
     "partner_name": "CEVRO University",
-    "partner_country": "République Tchèque",
+    "partner_country": "RÉPUBLIQUE TCHÈQUE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "CEVRO University, Prague",
     "confidence": 0.9
    },
    {
     "partner_name": "University of New York in Prague",
-    "partner_country": "République Tchèque",
+    "partner_country": "RÉPUBLIQUE TCHÈQUE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "University of New York in Prague, Prague",
     "confidence": 0.9
    },
    {
     "partner_name": "Charles University Faculty of Physical Education and Sport",
-    "partner_country": "République Tchèque",
+    "partner_country": "RÉPUBLIQUE TCHÈQUE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Charles University Faculty of Physical Education and Sport , Prague",
     "confidence": 0.9
    },
    {
     "partner_name": "Edith Cowan University",
-    "partner_country": "Australie",
+    "partner_country": "AUSTRALIE",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.ipac-france.com/universites-partenaires",
     "evidence_quote": "Edith Cowan University, Perth",
     "confidence": 0.9
    },
    {
-    "partner_name": "Alliance Eduservices",
-    "partner_country": "France",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/ecoles-du-groupe-eduservices",
-    "evidence_quote": "L'alliance Eduservices",
+    "partner_name": "ILSC Greystone Collège, Vancouver",
+    "partner_country": "CANADA",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "ILSC Greystone Collège, Vancouver",
     "confidence": 0.9
    },
    {
-    "partner_name": "escadrille air jeunesse",
-    "partner_country": "",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "L'IPAC accueille la première rentrée de l'escadrille air jeunesse à Chambéry",
+    "partner_name": "ULACIT, San José",
+    "partner_country": "COSTA RICA",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "ULACIT, San José",
     "confidence": 0.9
    },
    {
-    "partner_name": "Maped",
-    "partner_country": "",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "[Logo_Maped]",
+    "partner_name": "Anahuac, Cancun",
+    "partner_country": "MEXIQUE",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Anahuac, Cancun",
     "confidence": 0.9
    },
    {
-    "partner_name": "Decathlon",
-    "partner_country": "",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "[Logo_Decathlon]",
+    "partner_name": "Universidad de Leon, Leon",
+    "partner_country": "MEXIQUE",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Universidad de Leon, Leon",
     "confidence": 0.9
    },
    {
-    "partner_name": "Ministère de l'Armée",
-    "partner_country": "",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "[Logo_MinistèreArmée]",
+    "partner_name": "MIM Manhattan institute of management, New York",
+    "partner_country": "USA",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "MIM Manhattan institute of management, New York",
     "confidence": 0.9
    },
    {
-    "partner_name": "UTMB",
-    "partner_country": "",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "[Logo_UTMB]",
+    "partner_name": "Hillsborough Community College, Tampa",
+    "partner_country": "USA",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Hillsborough Community College, Tampa",
     "confidence": 0.9
    },
    {
-    "partner_name": "NTN",
-    "partner_country": "",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "[Logo_NTN]",
+    "partner_name": "Santa Barbara city College, Santa Barbara",
+    "partner_country": "USA",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Santa Barbara city College, Santa Barbara",
     "confidence": 0.9
    },
    {
-    "partner_name": "Salomon",
-    "partner_country": "",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "[Logo_Salomon]",
+    "partner_name": "Fullerton California state uni, Fullerton",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Fullerton California state uni, Fullerton",
     "confidence": 0.9
    },
    {
-    "partner_name": "Somfy",
-    "partner_country": "",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "[Logo_Somfy]",
+    "partner_name": "Berkeley College, New York",
+    "partner_country": "USA",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Berkeley College, New York",
     "confidence": 0.9
    },
    {
-    "partner_name": "Migros",
-    "partner_country": "",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "[Logo_Migros]",
+    "partner_name": "San Francisco State University, San Francisco",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "San Francisco State University, San Francisco",
     "confidence": 0.9
    },
    {
-    "partner_name": "Foncia",
-    "partner_country": "",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "[Logo_Foncia]",
+    "partner_name": "San Diego State, San Diego",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "San Diego State, San Diego",
     "confidence": 0.9
    },
    {
-    "partner_name": "Fournier",
-    "partner_country": "",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "[Logo_Fournier]",
+    "partner_name": "Solbridge Business School, Deajeon",
+    "partner_country": "CORÉE",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Solbridge Business School, Deajeon",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Endicott Collège of International Studies, Deajeon",
+    "partner_country": "CORÉE",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Endicott Collège of International Studies, Deajeon",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hankuk University of Foreign Studies, Seoul",
+    "partner_country": "CORÉE",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Hankuk University of Foreign Studies, Seoul",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Temple University, Tokyo",
+    "partner_country": "JAPON",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Temple University, Tokyo",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Unika Atma Jaya, Jakarta",
+    "partner_country": "INDONESIE",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Unika Atma Jaya, Jakarta",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kasetsart Uni, Bangkok",
+    "partner_country": "THAÏLANDE",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Kasetsart Uni, Bangkok",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hochschule Kempten, Kempten",
+    "partner_country": "ALLEMAGNE",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "Hochschule Kempten, Kempten",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "American University of Richmond, Londres",
+    "partner_country": "ANGLETERRE",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ipac-france.com/universites-partenaires",
+    "evidence_quote": "American University of Richmond, Londres",
     "confidence": 0.9
    },
    {
@@ -673,7 +729,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "BurgerKing",
+    "partner_name": "Burger King",
     "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
@@ -709,7 +765,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "CreditAgricole",
+    "partner_name": "Credit Agricole",
     "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
@@ -923,51 +979,6 @@
     "source_url": "https://www.ipac-france.com/tous-les-partenaires",
     "evidence_quote": "[Logo_Orange]",
     "confidence": 0.9
-   },
-   {
-    "partner_name": "Peugeot",
-    "partner_country": "France",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/tous-les-partenaires",
-    "evidence_quote": "[Logo_Peugeot]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "schneider",
-    "partner_country": "France",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/tous-les-partenaires",
-    "evidence_quote": "[Logo_schneider]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "SNCF",
-    "partner_country": "France",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/tous-les-partenaires",
-    "evidence_quote": "[Logo_SNCF]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Staubli",
-    "partner_country": "France",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/tous-les-partenaires",
-    "evidence_quote": "[Logo_Staubli]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "ThomasLePrince",
-    "partner_country": "France",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ipac-france.com/tous-les-partenaires",
-    "evidence_quote": "[Logo_ThomasLePrince]",
-    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
@@ -991,46 +1002,56 @@
     "campus_name": "Chambéry",
     "city": "Chambéry",
     "country": "France",
-    "role": "branch",
+    "role": "main",
     "source_url": "https://www.ipac-france.com/",
     "evidence_quote": "Chambéry"
    },
    {
     "campus_name": "Grand Genève",
-    "city": "Grand Genève",
-    "country": "France",
-    "role": "branch",
-    "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "Grand Genève"
-   },
-   {
-    "campus_name": "Ville La Grand",
     "city": "Ville La Grand",
     "country": "France",
     "role": "branch",
     "source_url": "https://www.ipac-france.com/",
-    "evidence_quote": "IPAC, école de commerce à Albertville, Annecy, Chambéry et Ville La Grand"
+    "evidence_quote": "Grand Genève"
    }
   ],
   "stated_total": 15000,
-  "stated_total_quote": "L'IPAC est le premier acteur de l'enseignement supérieur privé pour l'alternance dans l'Arc Alpin. Concrètement, ça veut dire un réseau de 15 000 entreprises partenaires, une équipe dédiée à la recherche d'alternance et un suivi personnalisé. Trouver LA bonne entreprise fait partie intégrante de la formation.",
-  "stated_total_url": "https://www.ipac-france.com/",
+  "stated_total_quote": "L'IPAC collabore avec plus de 15 000 entreprises partenaires, ancrées dans les territoires où nos campus sont implantés. TPE, PME, collectivités locales ou cabinets indépendants : ce tissu économique de proximité accueille nos étudiants en alternance et contribue directement à leur formation sur le terrain.",
+  "stated_total_url": "https://www.ipac-france.com/tous-les-partenaires",
   "truncated": true,
   "total_seen": 15000,
   "pages_read": 10,
-  "coverage_note": "The evidence lists over 50 international partner universities across Europe, America, Asia, and Oceania, but does not provide contact details (names, emails, or phone numbers) for the international relations office or Erasmus coordinators.",
+  "coverage_note": "The evidence provides a list of international partner universities and mentions an international office, but no specific contact persons with names and email addresses are listed on the pages.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.7,
-  "crawl_s": 14.5,
-  "ai_calls": 4,
-  "partner_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 16.7,
+  "ai_calls": 3,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 176.2,
+  "model_s": 22.8,
   "mode": "gemini",
-  "total_seconds": 192.4
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 19,
+    "accepted": 19
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 69,
+    "accepted": 68
+   }
+  ],
+  "total_seconds": 39.5
  },
  "rechecked": true
 }
