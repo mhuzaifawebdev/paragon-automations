@@ -562,6 +562,28 @@ def scrape(row, cfg):
                     "reason": str(e), "timing": timing}
         except llm.LLMError:
             pass                                        # the full read's result stands
+    if not contacts and mode == provider and provider != "rules" and cfg.get("staff_search_when_no_contact") \
+            and not cfg.get("staff_search"):
+        # still nobody: search the site's own leadership/staff pages and read just those, contacts only
+        try:
+            known = {fetch_pages._url_key(p["url"]) for p in cr["pages"]}
+            urls = [u for u in discover.staff_pages(inst["name"], crawl._host(cr["site"]))
+                    if fetch_pages._url_key(u) not in known]
+            got, _ = crawl._fetch_many(urls, int(cfg.get("page_workers", 5))) if urls else ([], [])
+            if got:
+                staff_pack = evidence.build_pack([crawl._slim(r) for r in got], budget_chars=int(cfg.get("evidence_chars", 90000)))
+                with LLM_SLOTS:
+                    more, meta3 = llm.extract_contacts(inst, staff_pack, provider, cfg.get("model") or None)
+                contacts = resolve_contacts(more, staff_pack)
+                timing["ai_calls"] += 1
+                timing["staff_pages"] = len(got)
+                timing["cost_usd_estimate"] = round(timing.get("cost_usd_estimate", 0) + meta3.get("cost_usd_estimate", 0), 4)
+        except llm.QuotaExhausted as e:
+            timing["total_seconds"] = round(time.time() - t_all, 1)
+            return {"row_id": row["row_id"], "retry": True, "quota": True, "resume_at": e.resume_at, "daily": e.daily,
+                    "reason": str(e), "timing": timing}
+        except Exception as e:                          # a failed search or page never loses the result so far
+            print(f"(staff-page search skipped: {str(e)[:120]})", file=sys.stderr, flush=True)
     if cfg.get("alternatives"):
         contacts, n_alt = put_on_file_last(contacts, inst["contact"], inst["email"]), 3
     else:

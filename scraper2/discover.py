@@ -353,13 +353,14 @@ def _resolve(url):
         return ""
 
 
-def _gemini_paid_urls(prompt, limit=5):
-    """One Google-search-grounded call with the paid Gemini key. Returns the pages it found (real addresses). Its
-    answer is never trusted as data: the caller opens each page and reads names and addresses from it."""
+def _gemini_paid_urls(prompt, limit=5, with_text=False):
+    """One Google-search-grounded call with the paid Gemini key. Returns the pages it found (real addresses), and
+    with with_text=True also the answer's text. The answer is never trusted as data: the caller opens each page and
+    reads names and addresses from it."""
     import os
     key = os.environ.get("GEMINI_PAID_API_KEY")
     if not key or not budget_left():
-        return []
+        return ([], "") if with_text else []
     body = json.dumps({"contents": [{"role": "user", "parts": [{"text": prompt}]}],
                        "tools": [{"google_search": {}}], "generationConfig": {"temperature": 0}}).encode("utf-8")
     req = urllib.request.Request(
@@ -370,7 +371,7 @@ def _gemini_paid_urls(prompt, limit=5):
             resp = json.loads(r.read().decode())
     except Exception as e:
         print(f"(Gemini search unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
-        return []
+        return ([], "") if with_text else []
     use = resp.get("usageMetadata") or {}
     p = GEMINI_SEARCH_PRICE
     with _usage_lock:
@@ -380,7 +381,7 @@ def _gemini_paid_urls(prompt, limit=5):
         _save_usage()
     cand = (resp.get("candidates") or [{}])[0]
     text = " ".join(x.get("text", "") for x in (cand.get("content") or {}).get("parts", []))
-    urls = [u.rstrip(".,;") for u in re.findall(r"https?://[^\s\"'<>)\]]+", text)]
+    urls = [u.rstrip(".,;:") for u in re.findall(r"https?://[^\s\"'<>)\]*`|]+", text)]     # no markdown ** or ` around it
     urls += [(c.get("web") or {}).get("uri", "") for c in (cand.get("groundingMetadata") or {}).get("groundingChunks", [])]
     out = []
     for u in dict.fromkeys(u for u in urls if u):
@@ -389,7 +390,7 @@ def _gemini_paid_urls(prompt, limit=5):
             out.append(real)
         if len(out) >= limit:
             break
-    return out
+    return (out, text) if with_text else out
 
 
 def _claude_urls(prompt, limit=5):
@@ -540,14 +541,34 @@ def _claude_sites(row, limit=4):
     return roots[:limit]
 
 
+def _gemini_paid_sites(row, limit=4):
+    """Candidate official sites from one Google search through the paid Gemini key. Each is still proved by
+    check_site() (the homepage must name the institution) and _country_ok() before it is used."""
+    """Returns (homepage URLs, the institution's official name in its own language or "")."""
+    found, text = _gemini_paid_urls(
+        f"Search Google for the OFFICIAL website of this educational institution: {row.get('name')} "
+        f"({row.get('country') or 'country unknown'}). Answer in exactly two lines:\nURL: <its own site, not a directory, "
+        f"social page or news site>\nLOCAL NAME: <its official name in its own language, as written on that site>",
+        limit * 2, with_text=True)
+    m = re.search(r"LOCAL NAME:\s*\**\s*([^\n*]{3,120})", text or "")
+    local = m.group(1).strip() if m else ""
+    homes, seen = [], set()
+    for u in found:
+        p = urllib.parse.urlparse(u)
+        if not p.netloc or any(h in p.netloc.lower() for h in SKIP_HOSTS) or p.netloc in seen:
+            continue
+        seen.add(p.netloc)
+        homes.append(f"{p.scheme or 'https'}://{p.netloc}/")
+    return homes[:limit], local
+
+
 def find_website(row, use_search=False, search_provider="claude_cli", paid_search=False, gemini_search=False):
     """row: {name, country, phone, email, website_override}. Returns (url, how, note); url None if unresolved.
     paid_search adds one Claude web search after the free one. It is OFF by default: in a 25-institute trial it
     recovered 3 sites for 23 paid searches, and one of the 3 was a university directory that passed check_site
     because it mentions the institution's name.
-    gemini_search is the Google-grounded Gemini call. Also OFF by default: it found no site at all in 165
-    institutes (this key is refused for grounded search) while spending calls from the same free allowance the
-    reading needs."""
+    gemini_search: one Google search through the PAID Gemini key (GEMINI_PAID_API_KEY; the free key has no search),
+    counted against the batch cap. Every site it suggests must still pass check_site and the country check."""
     tried = []
 
     def attempt(url, how):
@@ -597,6 +618,20 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
     if use_search and not searchable(row.get("name")):
         tried.append("no web search: the institution name is not a usable name")
     elif use_search:
+        import os
+        if gemini_search and os.environ.get("GEMINI_PAID_API_KEY"):
+            homes, local = _gemini_paid_sites(row)
+            for u in homes:
+                hit = attempt(u, "web search (Google via Gemini)")
+                if not hit and local and _n(local) != _n(row.get("name")):
+                    # the site names itself in its own language ('Univerzita Komenského' for Comenius University)
+                    ok, why, _ = check_site(u, {**row, "name": local})
+                    tried.append(f"same site under its own name '{local}' -> {'ok' if ok else why}")
+                    hit = (u, f"web search (Google via Gemini), named '{local}' on the site", why) if ok else None
+                if hit and _country_ok(hit[0], row.get("country"), hit[2]):
+                    return hit
+                if hit:
+                    tried.append(f"{u} rejected: country {row.get('country')} not shown")
         sources = [("web search (DuckDuckGo)", _ddg_search)] + ([("web search (Claude)", _claude_sites)] if paid_search else [])
         for how, candidates in sources:
             for u in candidates(row):                 # the paid Claude search only runs if the free one proved nothing
@@ -605,9 +640,9 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
                     return hit
                 if hit:
                     tried.append(f"{u} rejected: country {row.get('country')} not shown")
-        if search_provider != "gemini" or gemini_search:
-            found = _gemini_search(row) if search_provider == "gemini" else _claude_search(row)
-            hit = attempt(found, "web search (" + ("Gemini" if search_provider == "gemini" else "Claude") + ")")
+        if search_provider != "gemini":
+            found = _claude_search(row)
+            hit = attempt(found, "web search (Claude)")
             if hit:
                 return hit
     return None, "unresolved", "; ".join(tried) or "no website source available (add one in the 'Website override' column)"

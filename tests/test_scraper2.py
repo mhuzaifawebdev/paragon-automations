@@ -361,12 +361,20 @@ calls.clear()
 site, how, _note = discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True)
 check("the paid website search is off unless asked for", (site, len(calls)), (None, 0))
 asked_gemini = []
-discover._gemini_search = lambda row: asked_gemini.append(1) or ""
+real_gps = discover._gemini_paid_sites
+discover._gemini_paid_sites = lambda row, limit=4: asked_gemini.append(1) or ([], "")
 discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True, search_provider="gemini")
-check("the Gemini website search (never found a site, spends reading allowance) is off unless asked for", asked_gemini, [])
+check("the Google (paid Gemini) website search is off unless asked for", asked_gemini, [])
+os.environ.pop("GEMINI_PAID_API_KEY", None)
 discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True, search_provider="gemini",
                       gemini_search=True)
-check("and still runs when switched on", asked_gemini, [1])
+check("switched on but no paid Gemini key: no search (the free key has none)", asked_gemini, [])
+os.environ["GEMINI_PAID_API_KEY"] = "test"
+discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True, search_provider="gemini",
+                      gemini_search=True)
+check("and runs when switched on with the paid key", asked_gemini, [1])
+os.environ.pop("GEMINI_PAID_API_KEY", None)
+discover._gemini_paid_sites = real_gps
 discover._ddg_search = lambda row, limit=4: ["https://real.edu/"]
 check("with it off, the free DuckDuckGo search still finds the site",
       discover.find_website({"row_id": "t1", "name": "Real College", "country": ""}, use_search=True, search_provider="gemini")[:2],
@@ -672,6 +680,24 @@ check("a named person with their OWN email beside their name counts; a bare capt
       [(c["name"], c["email"]) for c in picked], [("Charlotte Morantin", "cmorantin@itg.be")])
 check("the contacts-only second read exists and asks only for contacts", (callable(llm.extract_contacts),
       list(llm.SCHEMA_CONTACTS["properties"])), (True, ["contacts"]))
+
+# ---- missing website: Google search through the paid Gemini key, site still proved by its homepage ----
+real_gpu, real_cs, real_co = discover._gemini_paid_urls, discover.check_site, discover._country_ok
+discover._gemini_paid_urls = lambda prompt, limit=5, with_text=False: (
+    ["https://uniba.sk/fakulty", "https://en.wikipedia.org/wiki/Comenius_University"],
+    "URL: **https://uniba.sk/**\nLOCAL NAME: **Univerzita Komenského v Bratislave**")
+discover.check_site = lambda url, row: ((("komensk" in discover._n(row["name"])), "name shown", None))
+discover._country_ok = lambda url, country, why: True
+os.environ["GEMINI_PAID_API_KEY"] = "test"
+homes, local = discover._gemini_paid_sites({"name": "Comenius University Bratislava", "country": "Slovakia"})
+check("search results become homepages; directories like Wikipedia are dropped", homes, ["https://uniba.sk/"])
+check("the official name in its own language is read from the answer", local, "Univerzita Komenského v Bratislave")
+got_site = discover.find_website({"row_id": "x", "name": "Comenius University Bratislava", "country": "Slovakia", "phone": "",
+                                  "email": ""}, use_search=True, search_provider="gemini", gemini_search=True)
+check("a site that names itself only in its own language is accepted under that name",
+      (got_site[0], "Univerzita" in got_site[1]), ("https://uniba.sk/", True))
+discover._gemini_paid_urls, discover.check_site, discover._country_ok = real_gpu, real_cs, real_co
+os.environ.pop("GEMINI_PAID_API_KEY", None)
 
 # ---- the institute's general inbox: own domain only, shared inboxes only, international ones first ----
 gpages = [{"url": "https://www.ph-weingarten.de/", "text": "poststelle(at)ph-weingarten.de · Tim Kaiser kaisert@ph-weingarten.de "
