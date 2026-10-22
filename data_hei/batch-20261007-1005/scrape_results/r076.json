@@ -1,10 +1,10 @@
 {
  "row_id": "r076",
- "scraped_at": "2026-10-22T11:17:01Z",
+ "scraped_at": "2026-10-22T20:40:07Z",
  "contacts": {
   "row_id": "r076",
   "institution_name": "FLORIDA CENTRE DE FORMACIÓ, COOP. V.",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.florida.es/",
   "country": null,
   "phone": {
@@ -15,14 +15,23 @@
   "phone_alt": [],
   "generic_email": "",
   "generic_email_url": "",
-  "contact": null,
+  "contact": {
+   "name": "Mercedes Aznar",
+   "designation": "President",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.florida.es/2022/09/14/benvinguda-al-nou-equip-de-florida-grup-educatiu/?lang=es",
+   "evidence_quote": "Enrique García, Mercedes Aznar, y Myriam Montes, director general, presidenta y directora de Recursos Humanos de Florida Grup Educatiu, comentaron con los nuevos equipos los valores, misión y visión del grupo. Presentaron cada una de las empresas de la cooperativa valenciana y los proyectos en los que se estaba trabajando. Además, explicaron la importancia del trabajo colaborativo, de ser cooperativa y de cuidar al alumnado dentro y fuera del aula."
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Mercedes Aznar is the President of the institution and was identified as a key contact in the provided evidence.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini."
+  "pages_read": 15,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -264,14 +273,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 8.0,
-  "ai_calls": 2,
-  "model_s": 1.8,
+  "crawl_s": 30.2,
+  "ai_calls": 1,
+  "model_s": 10.4,
   "cost_usd_estimate": 0.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "total_seconds": 10.9
- },
- "rechecked": 4
+  "email_search_s": 7.8,
+  "total_seconds": 48.3
+ }
 }
