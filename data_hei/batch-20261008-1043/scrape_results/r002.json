@@ -1,6 +1,6 @@
 {
  "row_id": "r002",
- "scraped_at": "2026-10-08T17:46:18Z",
+ "scraped_at": "2026-10-22T11:23:43Z",
  "contacts": {
   "row_id": "r002",
   "institution_name": "HOCHSCHULE KAISERSLAUTERN",
@@ -9,14 +9,48 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Tanja Kuntz",
+   "designation": "Head of Personnel Department",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+49 631 3724-5128",
+   "source_url": "https://www.hs-kl.de/hochschule/dezernate/dezernat-personal",
+   "evidence_quote": "Tanja Kuntz ... Leitung Dezernat Personal"
+  },
+  "alternates": [
+   {
+    "name": "Laura Galenczowski",
+    "designation": "Deputy Head of Personnel Department",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+49 631 3724-2398",
+    "source_url": "https://www.hs-kl.de/hochschule/dezernate/dezernat-personal",
+    "evidence_quote": "Laura Galenczowski ... Stellvertretende Leitung Dezernat Personal",
+    "why_chosen": "Secretary / administration (last resort). Laura Galenczowski is the deputy head of personnel and is listed with a direct email and phone number."
+   },
+   {
+    "name": "Karin Schmitt",
+    "designation": "Personnel Department Staff Member",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+49 631 3724-2102",
+    "source_url": "https://www.hs-kl.de/hochschule/dezernate/dezernat-personal",
+    "evidence_quote": "Karin Schmitt, Dipl. Verww. (FH) ... Mitarbeiterin Dezernat Personal",
+    "why_chosen": "Secretary / administration (last resort). Karin Schmitt is an administrative staff member in the personnel department with direct contact details."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Tanja Kuntz is the head of the personnel department and a primary administrative contact listed with direct contact details.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.3,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini. 2 page(s) could not be read."
+  "notes": "site found via: remembered from an earlier run. mode: gemini. 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -1156,14 +1190,64 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 13.8,
-  "ai_calls": 7,
-  "partner_calls": 6,
+  "discover_s": 0.0,
+  "crawl_s": 20.4,
+  "ai_calls": 8,
+  "partner_calls": 7,
   "cost_usd_estimate": 0.0,
-  "model_s": 135.0,
+  "model_s": 58.9,
   "mode": "gemini",
-  "total_seconds": 151.1
- },
- "rechecked": true
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 48,
+    "accepted": 46
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 36,
+    "accepted": 35
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 46,
+    "accepted": 45
+   },
+   {
+    "lines": [
+     1121,
+     1156
+    ],
+    "returned": 16,
+    "accepted": 16
+   }
+  ],
+  "total_seconds": 80.7
+ }
 }
