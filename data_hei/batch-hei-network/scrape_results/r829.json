@@ -1,0 +1,124 @@
+{
+ "row_id": "r829",
+ "scraped_at": "2026-10-22T21:35:47Z",
+ "contacts": {
+  "row_id": "r829",
+  "institution_name": "LYCEE VALERY LARBAUD",
+  "institution_type": "school",
+  "official_website": "https://valery-larbaud-cusset.ent.auvergnerhonealpes.fr/",
+  "country": null,
+  "phone": {
+   "value": "04.70.96.54.00",
+   "source_url": "https://valery-larbaud-cusset.ent.auvergnerhonealpes.fr/",
+   "evidence_quote": "Téléphone : 04.70.96.54.00"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "BOHEME Christophe",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://valery-larbaud-cusset.ent.auvergnerhonealpes.fr/l-etablissement/les-services/",
+   "evidence_quote": "Proviseur : M. BOHEME Christophe"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the head of the institution and is explicitly mentioned as the proviseur.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CREPS Vichy-Auvergne",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://valery-larbaud-cusset.ent.auvergnerhonealpes.fr/lectureFichiergw.do?ID_FICHIER=14061",
+    "evidence_quote": "santé » avec le CREPS Vi chy-Auvergne et l’UCA (Université Clermont Auvergne), labellisé",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université Clermont Auvergne",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://valery-larbaud-cusset.ent.auvergnerhonealpes.fr/lectureFichiergw.do?ID_FICHIER=14061",
+    "evidence_quote": "santé » avec le CREPS Vi chy-Auvergne et l’UCA (Université Clermont Auvergne), labellisé",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "lycées François Rabelais de Brassac les Mines",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://valery-larbaud-cusset.ent.auvergnerhonealpes.fr/lectureFichiergw.do?ID_FICHIER=14061",
+    "evidence_quote": "• Un Pré -Bac avec les lycées François Rabelais de Brassac les Mines et Raymond Cortat",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Raymond Cortat d’Aurillac",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://valery-larbaud-cusset.ent.auvergnerhonealpes.fr/lectureFichiergw.do?ID_FICHIER=14061",
+    "evidence_quote": "• Un Pré -Bac avec les lycées François Rabelais de Brassac les Mines et Raymond Cortat",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "lycées Albert Londres de Cusset",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://valery-larbaud-cusset.ent.auvergnerhonealpes.fr/lectureFichiergw.do?ID_FICHIER=14061",
+    "evidence_quote": "• Un Post-Bac avec les lycées Albert Londres de Cusset et Jean Zay de Thiers.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Jean Zay de Thiers",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://valery-larbaud-cusset.ent.auvergnerhonealpes.fr/lectureFichiergw.do?ID_FICHIER=14061",
+    "evidence_quote": "• Un Post-Bac avec les lycées Albert Londres de Cusset et Jean Zay de Thiers.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Polyvalent Valéry Larbaud",
+    "city": "Cusset",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://valery-larbaud-cusset.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "8 boulevard Gabriel Peronnet 03300 Cusset"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 20,
+  "coverage_note": "The evidence provides a list of consortium partners and regional institutions but does not contain a comprehensive list of international Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 152.6,
+  "ai_calls": 1,
+  "model_s": 2.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 5.0,
+  "total_seconds": 159.7
+ }
+}
