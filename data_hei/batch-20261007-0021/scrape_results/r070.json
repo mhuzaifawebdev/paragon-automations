@@ -24,7 +24,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: email domain. mode: gemini.",
+  "generic_email": "international.office@kunstuni-linz.at",
+  "generic_email_url": "https://www.kunstuni-linz.at/studium/international/staff-mobilitaet-/-outgoing"
  },
  "network": {
   "external_collaboration": [
@@ -244,12 +246,64 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.2,
-  "crawl_s": 20.4,
+  "discover_s": 0.0,
+  "crawl_s": 10.4,
+  "ai_calls": 7,
+  "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 256.0,
+  "model_s": 64.9,
   "mode": "gemini",
-  "total_seconds": 280.6
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 3,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 3,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 75.4
  },
  "rechecked": true
 }
