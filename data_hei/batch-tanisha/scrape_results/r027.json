@@ -1,6 +1,6 @@
 {
  "row_id": "r027",
- "scraped_at": "2026-10-04T07:58:46Z",
+ "scraped_at": "2026-10-22T13:18:52Z",
  "contacts": {
   "row_id": "r027",
   "institution_name": "Stiching hogeschool viaa",
@@ -13,6 +13,8 @@
   },
   "phone": null,
   "phone_alt": [],
+  "generic_email": "info@viaa.nl",
+  "generic_email_url": "https://www.viaa.nl/",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,9 +22,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: web search (DuckDuckGo). mode: gemini.",
-  "generic_email": "info@viaa.nl",
-  "generic_email_url": "https://www.viaa.nl/"
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -56,7 +56,7 @@
    {
     "partner_name": "Christelijke Hogeschool Windesheim",
     "partner_country": "Netherlands",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.viaa.nl/samenwerkingspartners/regiocampus/",
     "evidence_quote": "De Regiocampus is een coöperatie waarin de leden Zorggroep Noorderboog, Isala Diaconessenhuis en de onderwijspartners Deltion College, Christelijke Hogeschool Windesheim, Drenthe college en Hogeschool Viaa hun krachten bundelen. De coöperatie werkt ook samen met de gemeente Meppel, Gemeente Steenwijkerland, RSG Stad & Esch, De ZorgZaak en de Rabobank. Naast de eerste zes partijen, is het voor ieder ander bedrijf, onderwijs- en onderzoeksinstelling mogelijk om deel te nemen in de coöperatie.",
@@ -128,7 +128,7 @@
    {
     "partner_name": "Menso Alting Zwolle",
     "partner_country": "Netherlands",
-    "partner_type": "other",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.viaa.nl/samenwerkingspartners/campus-kind-en-educatie/",
     "evidence_quote": "Hogeschool Viaa, Hogeschool KPZ, Landstede mbo, Menso Alting Zwolle en Prokino werken samen in de Campus Kind en Educatie. De Campus Kind en Educatie is onderdeel van het Innovatiecluster Kind en Educatie waar ook Deltion College en Windesheim deel van uit maken.",
@@ -146,7 +146,7 @@
    {
     "partner_name": "Windesheim",
     "partner_country": "Netherlands",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.viaa.nl/samenwerkingspartners/campus-kind-en-educatie/",
     "evidence_quote": "Hogeschool Viaa, Hogeschool KPZ, Landstede mbo, Menso Alting Zwolle en Prokino werken samen in de Campus Kind en Educatie. De Campus Kind en Educatie is onderdeel van het Innovatiecluster Kind en Educatie waar ook Deltion College en Windesheim deel van uit maken.",
@@ -164,7 +164,7 @@
    {
     "partner_name": "Pädagogische Hochschule Freiburg",
     "partner_country": "Germany",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.viaa.nl/en/nett-devise-erasmus-helps-practising-what-we-preach/",
     "evidence_quote": "Facilitating increased virtual exchange will discontinue putting a strain on the environment and will be more inclusive because it will offer opportunities to those students excluded from exchange programmes so far. In this process, Viaa cooperates with Uniwersytet Pedagogiczny in Komisji Edukaji Narodowej Krakowie, Pädagogische Hochschule Freiburg, Pädagogische Hochschule Ludwigsburg and Arnhem and Nijmegen University of Applied Sciences (HAN).",
@@ -173,7 +173,7 @@
    {
     "partner_name": "Pädagogische Hochschule Ludwigsburg",
     "partner_country": "Germany",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.viaa.nl/en/nett-devise-erasmus-helps-practising-what-we-preach/",
     "evidence_quote": "Facilitating increased virtual exchange will discontinue putting a strain on the environment and will be more inclusive because it will offer opportunities to those students excluded from exchange programmes so far. In this process, Viaa cooperates with Uniwersytet Pedagogiczny in Komisji Edukaji Narodowej Krakowie, Pädagogische Hochschule Freiburg, Pädagogische Hochschule Ludwigsburg and Arnhem and Nijmegen University of Applied Sciences (HAN).",
@@ -277,6 +277,15 @@
     "source_url": "https://www.viaa.nl/samenwerkingspartners/",
     "evidence_quote": "Campus Kind en Educatie",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "Uniwersytet Pedagogiczny in Komisji Edukaji Narodowej Krakowie",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.viaa.nl/en/nett-devise-erasmus-helps-practising-what-we-preach/",
+    "evidence_quote": "Facilitating increased virtual exchange will discontinue putting a strain on the environment and will be more inclusive because it will offer opportunities to those students excluded from exchange programmes so far. In this process, Viaa cooperates with Uniwersytet Pedagogiczny in Komisji Edukaji Narodowej Krakowie, Pädagogische Hochschule Freiburg, Pädagogische Hochschule Ludwigsburg and Arnhem and Nijmegen University of Applied Sciences (HAN).",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
@@ -286,26 +295,26 @@
     "country": "Netherlands",
     "role": "main",
     "source_url": "https://www.viaa.nl/",
-    "evidence_quote": "Wethouder Alferinkweg 2"
+    "evidence_quote": "Hogeschool Viaa in Zwolle - Beste middelgrote hogeschool van NL"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 28,
+  "total_seen": 29,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of local and regional partners and some international project partners, but does not contain a comprehensive list of Erasmus+ mobility partners.",
+  "coverage_note": "No named staff members or specific contact persons with email addresses are explicitly listed in the evidence. Several institutional partners and networks are mentioned.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 17.2,
+  "crawl_s": 17.9,
   "ai_calls": 3,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 18.7,
+  "model_s": 31.1,
   "mode": "gemini",
   "contact_pass": 0,
   "slices": [
@@ -314,11 +323,11 @@
      1,
      140
     ],
-    "returned": 20,
-    "accepted": 18
+    "returned": 30,
+    "accepted": 28
    }
   ],
-  "total_seconds": 43.0
+  "total_seconds": 49.7
  },
  "rechecked": 2
 }
