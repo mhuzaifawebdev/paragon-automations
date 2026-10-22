@@ -20,7 +20,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: Wikidata. mode: gemini."
+  "notes": "site found via: Wikidata. mode: gemini.",
+  "generic_email": "international@lacambre.be",
+  "generic_email_url": "http://www.lacambre.be/en/international/exchange-programmes/staff"
  },
  "network": {
   "external_collaboration": [
@@ -108,12 +110,24 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.7,
-  "crawl_s": 18.5,
+  "discover_s": 0.0,
+  "crawl_s": 21.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 55.2,
+  "model_s": 36.1,
   "mode": "gemini",
-  "total_seconds": 78.4
+  "slices": [
+   {
+    "lines": [
+     1,
+     119
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 57.2
  },
  "rechecked": true
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r099",
- "scraped_at": "2026-10-07T07:54:12Z",
+ "scraped_at": "2026-10-22T11:09:50Z",
  "contacts": {
   "row_id": "r099",
   "institution_name": "SVEUCILISTE SJEVER",
@@ -17,14 +17,25 @@
    "evidence_quote": "Phone: +385 42 493 380"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "info@unin.hr",
+  "generic_email_url": "https://www.unin.hr/en/about-us/general-information/",
+  "contact": {
+   "name": "Patricia Soldatek",
+   "designation": "Erasmus+ coordinator",
+   "designation_local": "",
+   "email": "mobilnost@unin.hr",
+   "office_email": "",
+   "phone": "+385 42 493 380",
+   "source_url": "https://www.unin.hr/wp-content/uploads/Erasmus-2026-KA171-Call-for-Staff-mobilities1.pdf",
+   "evidence_quote": "Erasmus+ coordinator ... Patricia Soldatek, mag. oec."
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Institutional Erasmus+ coordinator. She is listed as an Erasmus+ coordinator and contact for mobility inquiries.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.95,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -61,7 +72,7 @@
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.unin.hr/wp-content/uploads/Erasmus-2026-KA171-Call-for-Staff-mobilities1.pdf",
-    "evidence_quote": "BOSNIA AND HERZEGOVINA UNIVERSITY OF BANJA LUKA",
+    "evidence_quote": "BOSNIA AND HERZEGOVINA UNIVERSITY OF BANJA LUKA UNIVERSITY OF MOSTAR",
     "confidence": 0.9
    },
    {
@@ -70,7 +81,7 @@
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.unin.hr/wp-content/uploads/Erasmus-2026-KA171-Call-for-Staff-mobilities1.pdf",
-    "evidence_quote": "UNIVERSITY OF MOSTAR",
+    "evidence_quote": "BOSNIA AND HERZEGOVINA UNIVERSITY OF BANJA LUKA UNIVERSITY OF MOSTAR",
     "confidence": 0.9
    },
    {
@@ -250,7 +261,7 @@
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.unin.hr/wp-content/uploads/Erasmus-2026-KA171-Call-for-Staff-mobilities1.pdf",
-    "evidence_quote": "UZBEKISTAN BUKHARA BRANCH OF TASHKENT INSTITUTE OF IRRIGATION AND",
+    "evidence_quote": "UZBEKISTAN BUKHARA BRANCH OF TASHKENT INSTITUTE OF IRRIGATION AND AGRICULTURAL MECHANIZATION ENGINEERS",
     "confidence": 0.9
    },
    {
@@ -260,6 +271,15 @@
     "mobility_type": "unknown",
     "source_url": "https://www.unin.hr/wp-content/uploads/Erasmus-2026-KA171-Call-for-Staff-mobilities1.pdf",
     "evidence_quote": "VIETNAM UNIVERSITY OF EDUCATION, THE UNIVERSITY OF DA NANG",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Croatian Rector’s Conference",
+    "partner_country": "Croatia",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unin.hr/en/about-us/general-information/",
+    "evidence_quote": "Croatian Rector’s Conference",
     "confidence": 0.9
    },
    {
@@ -288,15 +308,6 @@
     "source_url": "https://www.unin.hr/wp-content/uploads/Erasmus-2026-KA171-Call-for-Staff-mobilities1.pdf",
     "evidence_quote": "University North, participating partner HEIs, Croatian National Agency (AMPEU) and the European Commiss ion",
     "confidence": 0.9
-   },
-   {
-    "partner_name": "Agency for Mobility and EU Programs",
-    "partner_country": "Croatia",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.unin.hr/wp-content/uploads/Erasmus-2026-KA171-Call-for-Staff-mobilities1.pdf",
-    "evidence_quote": "the European Commission, the Agency for Mobility and EU Programs, the database of the Ministry of the Interior,",
-    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
@@ -323,17 +334,61 @@
   "truncated": false,
   "total_seen": 30,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of partner institutions for the KA171 project, but a comprehensive list of all Erasmus+ bilateral partners is only referenced as an external Excel file.",
+  "coverage_note": "The evidence provides a list of partner institutions for the KA171 project, but a comprehensive list of all Erasmus+ bilateral partners is only available via an external Excel file link.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.4,
-  "crawl_s": 24.4,
+  "discover_s": 0.0,
+  "crawl_s": 10.7,
+  "ai_calls": 6,
+  "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 68.4,
+  "model_s": 39.7,
   "mode": "gemini",
-  "total_seconds": 97.3
- },
- "rechecked": true
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 26,
+    "accepted": 26
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 51.7
+ }
 }
