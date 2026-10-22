@@ -1,6 +1,6 @@
 {
  "row_id": "r236",
- "scraped_at": "2026-10-12T06:12:42Z",
+ "scraped_at": "2026-10-22T13:48:15Z",
  "contacts": {
   "row_id": "r236",
   "institution_name": "Haute Ecole Libre de Bruxelles - Ilya Prigogine",
@@ -9,17 +9,37 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "international@helb-prigogine.be",
   "generic_email_url": "https://www.helb-prigogine.be/cooperation-internationale/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Etienne Coppin",
+   "designation": "Head of IRO",
+   "designation_local": "",
+   "email": "etienne.coppin@helb-prigogine.be",
+   "office_email": "",
+   "phone": "+32(0)2 560.29.19",
+   "source_url": "https://www.helb-prigogine.be/contacts-iro-2/",
+   "evidence_quote": "Head of IRO : ... Etienne Coppin"
+  },
+  "alternates": [
+   {
+    "name": "Michael Robert",
+    "designation": "International Coordinator (Health and social departments)",
+    "designation_local": "",
+    "email": "michael.robert@helb-prigogine.be",
+    "office_email": "",
+    "phone": "+32(0)2 560.29.19",
+    "source_url": "https://www.helb-prigogine.be/contacts-iro-2/",
+    "evidence_quote": "International Coordinator (Health and social departments) : ... Michael Robert",
+    "why_chosen": "Mobility coordinator. He is the designated international coordinator for health and social departments and the contact person for ARES mobility programs."
+   }
+  ],
+  "rung": "Head of international relations. He is the Head of the International Relations Office.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -197,14 +217,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.5,
-  "crawl_s": 14.5,
+  "discover_s": 0.0,
+  "crawl_s": 19.8,
   "ai_calls": 2,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.9,
+  "model_s": 4.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -215,7 +236,6 @@
     "accepted": 8
    }
   ],
-  "total_seconds": 20.9
- },
- "rechecked": true
+  "total_seconds": 24.0
+ }
 }

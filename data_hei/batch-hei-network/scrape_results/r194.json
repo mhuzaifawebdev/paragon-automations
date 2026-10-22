@@ -1,6 +1,6 @@
 {
  "row_id": "r194",
- "scraped_at": "2026-10-11T12:01:18Z",
+ "scraped_at": "2026-10-22T13:47:26Z",
  "contacts": {
   "row_id": "r194",
   "institution_name": "POLSKO JAPONSKA AKADEMIA TECHNIK KOMPUTEROWYCH PJWSTK",
@@ -9,17 +9,48 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable).",
   "generic_email": "pjatk@pja.edu.pl",
   "generic_email_url": "https://pja.edu.pl/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Aldona Drabik",
+   "designation": "Vice-Rector",
+   "designation_local": "",
+   "email": "prorektor_ds_studenckich@pja.edu.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://pja.edu.pl/o-uczelni/",
+   "evidence_quote": "Prorektor, dr Aldona Drabik,"
+  },
+  "alternates": [
+   {
+    "name": "Jerzy Paweł Nowacki",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://pja.edu.pl/o-uczelni/",
+    "evidence_quote": "Rektor PJATK ... dr hab. Jerzy Paweł Nowacki, profesor PJATK",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the Rector of the institution."
+   },
+   {
+    "name": "Anna Koniuszewska",
+    "designation": "Rector's Office Manager",
+    "designation_local": "",
+    "email": "rektorat@pja.edu.pl",
+    "office_email": "",
+    "phone": "+22 58 44 515",
+    "source_url": "https://pja.edu.pl/o-uczelni/",
+    "evidence_quote": "Biuro Rektora ... mgr Anna Koniuszewska",
+    "why_chosen": "Secretary / administration (last resort). She works in the Rector's Office and handles administrative communication."
+   }
+  ],
+  "rung": "Vice-rector for international affairs. She is a Vice-Rector and also holds a position as a plenipotentiary for equality.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -808,54 +839,48 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.2,
-  "crawl_s": 20.4,
+  "discover_s": 0.0,
+  "crawl_s": 25.6,
   "ai_calls": 8,
-  "partner_calls": 7,
+  "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 60.3,
+  "model_s": 19.2,
   "mode": "gemini",
-  "reader": "claude-haiku-4-5",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 7,
-    "accepted": 7
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 4,
-    "accepted": 3
+    "returned": 2,
+    "accepted": 2
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 77,
-    "accepted": 72
-   },
-   {
-    "lines": [
-     561,
-     700
-    ],
-    "returned": 5,
-    "accepted": 5
+    "returned": 76,
+    "accepted": 73
    },
    {
     "lines": [
      701,
      840
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
@@ -868,13 +893,12 @@
    {
     "lines": [
      981,
-     1055
+     1053
     ],
     "returned": 1,
     "accepted": 1
    }
   ],
-  "total_seconds": 84.0
- },
- "rechecked": true
+  "total_seconds": 48.0
+ }
 }

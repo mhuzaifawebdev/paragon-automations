@@ -54,57 +54,9 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.6,
-  "crawl_s": 14.8,
-  "ai_calls": 6,
-  "partner_calls": 5,
-  "cost_usd_estimate": 0.0,
-  "model_s": 11.2,
-  "mode": "gemini",
-  "reader": "claude-haiku-4-5",
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     841,
-     980
-    ],
-    "returned": 1,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     981,
-     1120
-    ],
-    "returned": 0,
-    "accepted": 0
-   }
-  ],
-  "total_seconds": 28.6
+  "discover_s": 0.0,
+  "crawl_s": 1.1,
+  "total_seconds": 1.1
  },
  "rechecked": true
 }

@@ -1,25 +1,33 @@
 {
  "row_id": "r201",
- "scraped_at": "2026-10-11T12:01:54Z",
+ "scraped_at": "2026-10-22T13:47:36Z",
  "contacts": {
   "row_id": "r201",
   "institution_name": "ECOLE NATIONALE SUPERIEURE DES ARTS DECORATIFS",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.ensad.fr/fr",
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Isabelle de Ponfilly",
+   "designation": "President of the Board of Directors",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ensad.fr/fr/nomination-demmanuel-tibloux-la-direction-de-lecole-des-arts-decoratifs",
+   "evidence_quote": "Emmanuel Tibloux succèdera à Marc Partouche dont la Ministre tient à saluer l’action remarquable qu’il a menée au bénéfice de l’école depuis 2014 avec le soutien avisé d’Isabelle de Ponfilly, présidente du conseil d’administration de l’École des Arts Décoratifs et directrice générale de Vitra France."
+  },
+  "alternates": [],
+  "rung": "Other role. Isabelle de Ponfilly is the president of the board of directors of the École des Arts Décoratifs.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -503,33 +511,26 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.2,
-  "crawl_s": 18.8,
+  "discover_s": 0.0,
+  "crawl_s": 19.5,
   "ai_calls": 3,
-  "partner_calls": 2,
+  "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 39.8,
+  "model_s": 3.5,
   "mode": "gemini",
-  "reader": "claude-haiku-4-5",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.4,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     141,
-     260
-    ],
-    "returned": 39,
-    "accepted": 38
+    "returned": 12,
+    "accepted": 3
    }
   ],
-  "total_seconds": 60.7
- },
- "rechecked": true
+  "total_seconds": 25.6
+ }
 }
