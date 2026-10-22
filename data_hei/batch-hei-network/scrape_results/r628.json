@@ -1,33 +1,37 @@
 {
  "row_id": "r628",
- "scraped_at": "2026-10-12T06:31:02Z",
+ "scraped_at": "2026-10-22T21:13:38Z",
  "contacts": {
   "row_id": "r628",
   "institution_name": "Stichting Hogeschool Viaa",
   "institution_type": "college",
   "official_website": "https://www.viaa.nl/",
-  "country": {
-   "value": "Netherlands",
-   "source_url": "https://www.viaa.nl/en/erasmus/",
-   "evidence_quote": "8012 EG Zwolle, The Netherlands"
-  },
+  "country": null,
   "phone": {
    "value": "0384255542",
    "source_url": "https://www.viaa.nl/",
    "evidence_quote": "Telefoon: 0384255542 <tel 0384255542>"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "internationaloffice@viaa.nl",
+  "generic_email_url": "https://www.viaa.nl/en/erasmus/international-course-catalogue/",
+  "contact": {
+   "name": "Rudolf Schaaf",
+   "designation": "Graduation coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.viaa.nl/werkveldpartners-verpleegkunde/adviesproject-verpleegkunde/voorbeeld-adviesproject/",
+   "evidence_quote": "Dit brengt andere afdelingen op het idee om ook een dergelijk project te op te pakken. Bijvoorbeeld rondom medicijnverstrekking, intercollegiale toetsing, zingeving of positieve gezondheid. Natuurlijk zijn er nog veel andere onderwerpen te bedenken. Ze nemen contact op met de afstudeercoördinator Rudolf Schaaf of gaan in gesprek met de stagiaires van Viaa die op hun afdeling zijn. Willen zij niet zo’n mooi project uitvoeren op hun afdeling?"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Other role. Rudolf Schaaf is identified as the graduation coordinator at the institution.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.3,
   "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "info@viaa.nl",
-  "generic_email_url": "https://www.viaa.nl/",
-  "generic_checked": "2026-10-22"
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -306,25 +310,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 19.4,
-  "ai_calls": 3,
-  "partner_calls": 1,
+  "crawl_s": 133.7,
+  "ai_calls": 2,
+  "model_s": 2.3,
   "cost_usd_estimate": 0.0,
-  "model_s": 7.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 26,
-    "accepted": 24
-   }
-  ],
-  "total_seconds": 27.5
- },
- "rechecked": 3
+  "contact_pass": 1,
+  "email_search_s": 12.2,
+  "total_seconds": 149.9
+ }
 }

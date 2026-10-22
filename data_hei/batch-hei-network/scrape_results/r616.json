@@ -1,10 +1,10 @@
 {
  "row_id": "r616",
- "scraped_at": "2026-10-22T14:03:04Z",
+ "scraped_at": "2026-10-22T21:12:38Z",
  "contacts": {
   "row_id": "r616",
   "institution_name": "ESITC DE METZ",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.esitc-metz.com/",
   "country": {
    "value": "France",
@@ -19,13 +19,35 @@
   "phone_alt": [],
   "generic_email": "international@esitc-metz.com",
   "generic_email_url": "https://www.esitc-metz.com/international/venir-etudier-a-lesitc-de-metz/",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Marcel POINSIGNON",
+   "designation": "Directeur",
+   "designation_local": "",
+   "email": "mpoinsignon@esitc-metz.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.esitc-metz.com/ecole/presentation-de-lecole/",
+   "evidence_quote": "Marcel POINSIGNON ... Directeur",
+   "email_source_url": "https://www.esitc-metz.com/wp-content/uploads/2025/11/ESITC-METZ-FICHE-DE-POSTE-ENSEIGNANT-CHERCHEUR.pdf"
+  },
+  "alternates": [
+   {
+    "name": "Daniela BÖCKMANN",
+    "designation": "Responsable des relations internationales",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.esitc-metz.com/ecole/presentation-de-lecole/",
+    "evidence_quote": "Daniela BÖCKMANN ... Responsable des relations internationales",
+    "why_chosen": "Head of international relations. She is the head of international relations and the primary contact for Erasmus+ mobility."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the director of the institution and was the contact on file. Own work email found on a page naming them.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 18,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -404,41 +426,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 18.6,
-  "ai_calls": 5,
-  "partner_calls": 3,
+  "crawl_s": 145.0,
+  "ai_calls": 1,
+  "model_s": 3.1,
   "cost_usd_estimate": 0.0,
-  "model_s": 6.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 9,
-    "accepted": 9
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 24,
-    "accepted": 21
-   },
-   {
-    "lines": [
-     421,
-     490
-    ],
-    "returned": 11,
-    "accepted": 11
-   }
-  ],
-  "total_seconds": 25.9
- },
- "rechecked": 3
+  "email_search_s": 5.3,
+  "total_seconds": 153.4
+ }
 }
