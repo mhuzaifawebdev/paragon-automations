@@ -1,6 +1,6 @@
 {
  "row_id": "r001",
- "scraped_at": "2026-09-30T07:21:10Z",
+ "scraped_at": "2026-10-22T20:04:40Z",
  "contacts": {
   "row_id": "r001",
   "institution_name": "Cologne Business School",
@@ -9,14 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Katrin Steinhoff",
+   "designation": "Executive Education",
+   "designation_local": "",
+   "email": "katrin.steinhoff@uni-koeln.de",
+   "office_email": "",
+   "phone": "+49 (0)221 470 76345",
+   "source_url": "https://business-school.uni-koeln.de/de/seminare/leadership-change-management",
+   "evidence_quote": "Katrin Steinhoff ... Executive Education"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Secretary / administration (last resort). Katrin Steinhoff works in Executive Education with a listed email and phone number.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 7,
-  "notes": "site found via: web search (DuckDuckGo). mode: gemini. 6 page(s) could not be read."
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: remembered from an earlier run. mode: gemini. 23 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -88,8 +99,12 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 5.0,
-  "total_seconds": 5.0
- },
- "rechecked": 3
+  "crawl_s": 70.6,
+  "ai_calls": 1,
+  "model_s": 16.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 86.7
+ }
 }
