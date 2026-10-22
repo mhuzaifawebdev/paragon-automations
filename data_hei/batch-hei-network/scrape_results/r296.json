@@ -1,25 +1,61 @@
 {
  "row_id": "r296",
- "scraped_at": "2026-10-12T06:12:47Z",
+ "scraped_at": "2026-10-22T20:29:59Z",
  "contacts": {
   "row_id": "r296",
   "institution_name": "UNIVERSITAT MOZARTEUM SALZBURG",
   "institution_type": "university",
   "official_website": "https://www.moz.ac.at/en",
-  "country": null,
+  "country": {
+   "value": "Austria",
+   "source_url": "https://www.moz.ac.at/de/studium/internationales-erasmus/welcome-guide-fuer-incoming-studierende",
+   "evidence_quote": "Österreich"
+  },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "international@moz.ac.at",
+  "generic_email_url": "https://www.moz.ac.at/de/studium/internationales-erasmus",
+  "contact": {
+   "name": "Elisabeth Zelch",
+   "designation": "Employee",
+   "designation_local": "",
+   "email": "elisabeth.zelch@moz.ac.at",
+   "office_email": "international@moz.ac.at",
+   "phone": "+43 676 88122 418",
+   "source_url": "https://www.moz.ac.at/en/study/international-affairs-erasmus",
+   "evidence_quote": "Employee ... Elisabeth Zelch",
+   "email_source_url": "https://www.moz.ac.at/de/personen/service/internationales/elisabeth-zelch?image="
+  },
+  "alternates": [
+   {
+    "name": "Sara Johanna Bahmou",
+    "designation": "Employee",
+    "designation_local": "",
+    "email": "international@moz.ac.at",
+    "office_email": "",
+    "phone": "+43 676 88122 418",
+    "source_url": "https://www.moz.ac.at/en/study/international-affairs-erasmus",
+    "evidence_quote": "Employee ... Sara Johanna Bahmou",
+    "why_chosen": "International relations officer. Sara Johanna Bahmou is an employee in the Department of International Affairs."
+   },
+   {
+    "name": "Caroline Maria Hasenschwandtner",
+    "designation": "Employee",
+    "designation_local": "",
+    "email": "international@moz.ac.at",
+    "office_email": "",
+    "phone": "+43 676 88122 418",
+    "source_url": "https://www.moz.ac.at/en/study/international-affairs-erasmus",
+    "evidence_quote": "Employee ... Caroline Maria Hasenschwandtner",
+    "why_chosen": "International relations officer. Caroline Maria Hasenschwandtner is an employee in the Department of International Affairs."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. International relations officer. Elisabeth Zelch is an employee in the Department of International Affairs. Own work email found on a page naming them.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -217,15 +253,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 8.8,
+  "crawl_s": 171.6,
   "ai_calls": 2,
-  "partner_calls": 0,
+  "model_s": 2.9,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "total_seconds": 12.6
- },
- "rechecked": 3
+  "contact_pass": 3,
+  "email_search_s": 0.9,
+  "total_seconds": 177.7
+ }
 }
