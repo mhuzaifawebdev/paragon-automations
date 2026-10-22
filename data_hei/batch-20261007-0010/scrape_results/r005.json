@@ -1,26 +1,49 @@
 {
  "row_id": "r005",
- "scraped_at": "2026-10-07T07:14:53Z",
+ "scraped_at": "2026-10-22T13:10:09Z",
  "contacts": {
   "row_id": "r005",
   "institution_name": "HOCHSCHULE FUER MUSIK UND THEATER HAMBURG",
   "institution_type": "university",
   "official_website": "https://www.hfmt-hamburg.de/",
   "country": {
-   "value": "Germany",
+   "value": "Deutschland",
    "source_url": "https://www.hfmt-hamburg.de/",
    "evidence_quote": "Mit rund 1400 Studierenden ist die Hochschule für Musik und Theater Hamburg eine der großen künstlerischen Hochschulen in Deutschland und bietet eine künstlerisch-wissenschaftliche Ausbildung in allen Bereichen der Musik und des Theaters an."
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dr. Bilinc Ercan",
+   "designation": "Vice President for Diversity, Social Responsibility, Committee and Legal Affairs",
+   "designation_local": "",
+   "email": "bilinc.ercan@hfmt-hamburg.de",
+   "office_email": "",
+   "phone": "+49 40 209494123",
+   "source_url": "https://www.hfmt-hamburg.de/hochschule/organisation/kontakt",
+   "evidence_quote": "Dr. Bilinc Ercan ... Vizepräsidentin für Diversity, gesellschaftliche Verantwortung, Gremien- und Rechtsangelegenheiten+49 40 209494123 <tel +49 40 209494123>bilinc.ercan@hfmt-hamburg.de <bilinc.ercan@hfmt-hamburg.de>"
+  },
+  "alternates": [
+   {
+    "name": "Dr. Rebekka Fleiner",
+    "designation": "Head of Quality Management Office",
+    "designation_local": "",
+    "email": "rebekka.fleiner@hfmt-hamburg.de",
+    "office_email": "",
+    "phone": "+49 040 491737232149",
+    "source_url": "https://www.hfmt-hamburg.de/hochschule/ueber-uns/qualitaetsmanagement",
+    "evidence_quote": "Dr. Rebekka Fleiner ... Leitung Stabsstelle Qualitätsmanagement+49 040 491737232149 <tel +49 040 491737232149>rebekka.fleiner@hfmt-hamburg.de <rebekka.fleiner@hfmt-hamburg.de>",
+    "why_chosen": "Other role. She manages the quality management office and has listed contact information."
+   }
+  ],
+  "rung": "Vice-rector for international affairs. She is a member of the presidential board holding a vice president role.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.75,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: Wikidata. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -477,12 +500,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 18.8,
+  "crawl_s": 15.4,
   "ai_calls": 3,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 35.6,
+  "model_s": 104.9,
   "mode": "gemini",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -497,11 +521,10 @@
      141,
      280
     ],
-    "returned": 6,
-    "accepted": 6
+    "returned": 5,
+    "accepted": 5
    }
   ],
-  "total_seconds": 54.4
- },
- "rechecked": 2
+  "total_seconds": 120.4
+ }
 }
