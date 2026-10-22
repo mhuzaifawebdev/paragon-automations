@@ -58,3 +58,6 @@ Sheet6_Magento_Attributes.tsv
 fetch_attribute_options.json
 attributes.txt
 _transform_wf02.js
+
+# a running batch's lock: never committed, or a stopped run would block the batch forever
+data_hei/*/.lock
