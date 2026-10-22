@@ -1,0 +1,67 @@
+{
+ "row_id": "r057",
+ "scraped_at": "2026-10-22T20:20:59Z",
+ "contacts": {
+  "row_id": "r057",
+  "institution_name": "LAPIN YLIOPISTO",
+  "institution_type": "university",
+  "official_website": "https://ulapland.fi/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UArctic",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://ulapland.fi/yliopisto/kansainvalisyys/arktinen-yliopistoverkosto-uarctic/",
+    "evidence_quote": "Arktinen yliopistoverkosto UArctic - Lapin yliopisto",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "University of Lapland",
+    "city": "Rovaniemi",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://ulapland.fi/en/art-and-design/art-on-our-campus/",
+    "evidence_quote": "Art on our campus - University of Lapland"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 20,
+  "coverage_note": "The provided evidence does not contain specific contact names or a list of partner universities. The city of the campus was inferred from general knowledge as it is not explicitly stated in the provided lines.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 44.2,
+  "ai_calls": 2,
+  "model_s": 1.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 46.4
+ },
+ "rechecked": 3
+}

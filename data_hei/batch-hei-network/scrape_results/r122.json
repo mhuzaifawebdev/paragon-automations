@@ -1,6 +1,6 @@
 {
  "row_id": "r122",
- "scraped_at": "2026-10-22T13:44:06Z",
+ "scraped_at": "2026-10-22T20:21:33Z",
  "contacts": {
   "row_id": "r122",
   "institution_name": "POLITECHNIKA CZESTOCHOWSKA",
@@ -11,13 +11,22 @@
   "phone_alt": [],
   "generic_email": "erasmus@pcz.pl",
   "generic_email_url": "https://pcz.pl/pracownik/erasmus/wykaz-uczelni-partnerskich",
-  "contact": null,
+  "contact": {
+   "name": "Tomasz Nitkiewicz",
+   "designation": "Coordinator of the Erasmus+ KA171 project",
+   "designation_local": "",
+   "email": "nitkiewicz.erasmus@pcz.pl",
+   "office_email": "",
+   "phone": "+48 34 3250 484",
+   "source_url": "https://pcz.pl/pracownik/erasmus/ka171---polnam/kontakt",
+   "evidence_quote": "Koordynatorem projektu Erasmus+ KA171 2023-1-PL01-KA171-HED-000146969 jest dr hab. inż. Tomasz Nitkiewicz, prof. PCz."
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Mobility coordinator. He is the coordinator for the Erasmus+ KA171 project and is explicitly listed as a contact for Erasmus+ mobility.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 20,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -135,57 +144,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 17.1,
-  "ai_calls": 7,
-  "partner_calls": 5,
+  "crawl_s": 30.9,
+  "ai_calls": 1,
+  "model_s": 2.5,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 1,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 5,
-    "accepted": 5
-   },
-   {
-    "lines": [
-     701,
-     840
-    ],
-    "returned": 4,
-    "accepted": 4
-   },
-   {
-    "lines": [
-     841,
-     980
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     981,
-     999
-    ],
-    "returned": 0,
-    "accepted": 0
-   }
-  ],
-  "total_seconds": 24.6
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 33.4
+ }
 }
