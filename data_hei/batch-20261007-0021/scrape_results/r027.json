@@ -1,6 +1,6 @@
 {
  "row_id": "r027",
- "scraped_at": "2026-10-07T07:30:51Z",
+ "scraped_at": "2026-10-22T11:05:04Z",
  "contacts": {
   "row_id": "r027",
   "institution_name": "PRIVATE PADAGOGISCHE HOCHSCHULE DER DIOZESE LINZ",
@@ -9,14 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Sabine Reindl",
+   "designation": "Head of Centre for International Relations",
+   "designation_local": "",
+   "email": "sabine.reindl@ph-linz.at",
+   "office_email": "",
+   "phone": "+43 676 8776-4336",
+   "source_url": "https://www.phdl.at/international/outgoings/outgoing_teachers",
+   "evidence_quote": "[Sabine Reindl] ... Head of Centre for International Relations"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. She is the Head of Centre for International Relations and oversees outgoing staff and Erasmus+ activities.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.9,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -111,6 +122,15 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Pädagogische Hochschule Freiburg",
+    "partner_country": "Deutschland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Freiburg- Pädagogische Hochschule | https://www.ph-freiburg.de/ | D FREIBUR02 |",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Martin-Luther-Universität",
     "partner_country": "Deutschland",
     "partner_type": "university",
@@ -129,7 +149,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Duale Hochschule",
+    "partner_name": "Duale Hochschule Karlsruhe",
     "partner_country": "Deutschland",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -219,7 +239,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "INSPÉ",
+    "partner_name": "INSPÉ Straßburg",
     "partner_country": "Frankreich",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -336,7 +356,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Siauliai Academy",
+    "partner_name": "Vilnius - Siauliai Academy",
     "partner_country": "Litauen",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -356,7 +376,7 @@
    {
     "partner_name": "P.c. Hogeschooel Marnix Academie",
     "partner_country": "Niederlande",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
     "evidence_quote": "Utrecht - P.c. Hogeschooel Marnix Academie | https://www.marnixacademie.nl/ | NL UTRECHT27 |",
@@ -369,6 +389,15 @@
     "mobility_type": "unknown",
     "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
     "evidence_quote": "Zwolle - Viaa Christian University of Applied Sciences | https://www.viaa.nl/en/ | NL ZWOLLE10 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universität Bergen",
+    "partner_country": "Norwegen",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Universität Bergen* | https://www.uib.no/en | N BERGEN01 |",
     "confidence": 0.9
    },
    {
@@ -410,7 +439,7 @@
    {
     "partner_name": "Instituto Politecnico de Coimbra IPC",
     "partner_country": "Portugal",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
     "evidence_quote": "Instituto Politecnico de Coimbra IPC | https://www.ipc.pt/en/ | P COIMBRA02 |",
@@ -437,7 +466,7 @@
    {
     "partner_name": "Instituto Polytecnico do Porto",
     "partner_country": "Portugal",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
     "evidence_quote": "Instituto Polytecnico do Porto | https://www.ipp.pt | P PORTO05 |",
@@ -446,7 +475,7 @@
    {
     "partner_name": "Instituto Politécnico de Setúbal",
     "partner_country": "Portugal",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
     "evidence_quote": "Instituto Politécnico de Setúbal | https://ips.pt/ | P SETUBAL01 |",
@@ -489,7 +518,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Philosoph Konstantin Universität",
+    "partner_name": "Philosoph Konstantin Universität Nitra",
     "partner_country": "Slowakei",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -498,7 +527,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "St. Cyril and Methodius Universität",
+    "partner_name": "St. Cyril and Methodius Universität Trnava",
     "partner_country": "Slowakei",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -563,7 +592,7 @@
    {
     "partner_name": "Escuni Madrid",
     "partner_country": "Spanien",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
     "evidence_quote": "Escuni Madrid | https://www.escuni.es | E MADRID258 |",
@@ -599,7 +628,7 @@
    {
     "partner_name": "Hochschule Budweis",
     "partner_country": "Tschechien",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
     "evidence_quote": "Budweis - Hochschule | https://www.vstecb.cz/en/ | CZ CESKE04 |",
@@ -624,7 +653,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Karls-Universität Prag",
+    "partner_name": "Karls-Universität",
     "partner_country": "Tschechien",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -680,69 +709,15 @@
    {
     "partner_name": "Katholische Hochschule Apor Vilmos",
     "partner_country": "Ungarn",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
     "evidence_quote": "Katholische Hochschule Apor Vilmos | https://avkf.hu/ | HU ZSAMBEK01 |",
     "confidence": 0.9
    },
    {
-    "partner_name": "Fachhochschule Wiener Neustadt",
-    "partner_country": "Austria",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Fachhochschule Wiener Neustadt, Studiengang Logopädie",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Humboldt Universität Berlin",
-    "partner_country": "Germany",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Humboldt Universität Berlin - Institut für Romanistik",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "JKU",
-    "partner_country": "Austria",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "JKU, Abteilung für Sozialpsychologie, Personalentwicklung und Erwachsenenbildung",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Ludwig Maximilians Universität München",
-    "partner_country": "Germany",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Ludwig Maximilians Universität München: Institut für Romanische Philologie, Abteilung Sprachwissenschaft",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Paris Lodron Universität Salzburg",
-    "partner_country": "Austria",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Paris Lodron Universität Salzburg - Fachbereich Romanistik",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Private Pädagogische Hochschule Wien/Krems",
-    "partner_country": "Austria",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Private Pädagogische Hochschule Wien/Krems",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Austrian Association for American Studies (AAAS)",
-    "partner_country": "Austria",
+    "partner_country": "",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.phdl.at/",
@@ -750,25 +725,340 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "OÖ. Presseclub",
+    "partner_name": "Johannes Kepler Universität",
     "partner_country": "Austria",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/",
-    "evidence_quote": "Eine Veranstaltung des OÖ. Presseclubs",
+    "source_url": "https://www.phdl.at/studium/ausbildung/paedagogisch_praktische_studien/pps_sekundarstufe/team_pps_und_buerozeiten",
+    "evidence_quote": "Maga. Sonja Lenz MA (Johannes Kepler Universität)",
     "confidence": 0.9
    },
    {
-    "partner_name": "Vilnius - Siauliai Academy",
-    "partner_country": "Litauen",
+    "partner_name": "University of Western Macedonia",
+    "partner_country": "Greece",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/forschung/forschungsprojekte/prove",
+    "evidence_quote": "The PROVE project (Promoting Values Education in South Caucasus Higher Education Institutions) study visit has officially kicked off at the University of Western Macedonia (UoWM)!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TeSaU",
+    "partner_country": "Georgia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/forschung/forschungsprojekte/prove",
+    "evidence_quote": "Our first day was packed with productive energy as we held our Consortium Meeting. Partners from Georgia, Armenia, and Europe came together to share updates on project implementation and midterm reporting. It was inspiring to see the progress made by each institution -TeSaU, CU, YSU, AvaKE, ASPU, PHDL, ISU, and our hosts at UoWM - in integrating values education into higher education.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "YSU",
+    "partner_country": "Armenia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/forschung/forschungsprojekte/prove",
+    "evidence_quote": "Our first day was packed with productive energy as we held our Consortium Meeting. Partners from Georgia, Armenia, and Europe came together to share updates on project implementation and midterm reporting. It was inspiring to see the progress made by each institution -TeSaU, CU, YSU, AvaKE, ASPU, PHDL, ISU, and our hosts at UoWM - in integrating values education into higher education.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AvaKE",
+    "partner_country": "Armenia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/forschung/forschungsprojekte/prove",
+    "evidence_quote": "Our first day was packed with productive energy as we held our Consortium Meeting. Partners from Georgia, Armenia, and Europe came together to share updates on project implementation and midterm reporting. It was inspiring to see the progress made by each institution -TeSaU, CU, YSU, AvaKE, ASPU, PHDL, ISU, and our hosts at UoWM - in integrating values education into higher education.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ASPU",
+    "partner_country": "Armenia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/forschung/forschungsprojekte/prove",
+    "evidence_quote": "Our first day was packed with productive energy as we held our Consortium Meeting. Partners from Georgia, Armenia, and Europe came together to share updates on project implementation and midterm reporting. It was inspiring to see the progress made by each institution -TeSaU, CU, YSU, AvaKE, ASPU, PHDL, ISU, and our hosts at UoWM - in integrating values education into higher education.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ISU",
+    "partner_country": "Georgia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/forschung/forschungsprojekte/prove",
+    "evidence_quote": "Our first day was packed with productive energy as we held our Consortium Meeting. Partners from Georgia, Armenia, and Europe came together to share updates on project implementation and midterm reporting. It was inspiring to see the progress made by each institution -TeSaU, CU, YSU, AvaKE, ASPU, PHDL, ISU, and our hosts at UoWM - in integrating values education into higher education.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Aarhus - VIA University College",
+    "partner_country": "Denmark",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Aarhus - VIA University College (nur Wintersemester) | https://en.via.dk/ | DK RISSKOV06 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kopenhagen - University College Copenhagen",
+    "partner_country": "Denmark",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Kopenhagen - University College Copenhagen | https://www.kp.dk/en/ | DK KOBENHA55 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Odense - University College Lillebælt",
+    "partner_country": "Denmark",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Odense - University College Lillebælt | https://www.ucl.dk/ | DK ODENSE23 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Augsburg - Universität Augsburg",
+    "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
-    "evidence_quote": "Vilnius - Siauliai Academy | https://www.sa.vu.lt/en/ | LT VILNIUS01 |",
+    "evidence_quote": "Augsburg - Universität Augsburg | https://www.uni-augsburg.de/en/ | D AUGSBUR01 |",
     "confidence": 0.9
    },
    {
-    "partner_name": "Lucian Blaga Universität",
+    "partner_name": "Berlin - Freie Universität",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Berlin - Freie Universität | https://www.fu-berlin.de/ | D BERLIN01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Dresden - Technische Universität",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Dresden - Technische Universität | https://tu-dresden.de/ | D DRESDEN02 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Frankfurt - Goethe-Universität",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Frankfurt - Goethe-Universität | https://www.uni-frankfurt.de | D FRANKFU01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Freiburg- Pädagogische Hochschule",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Freiburg- Pädagogische Hochschule | https://www.ph-freiburg.de/ | D FREIBUR02 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Halle - Martin-Luther-Universität",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Halle - Martin-Luther-Universität | https://www.philfak3.uni-halle.de/ | D HALLE01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Jena - Friedrich-Schiller-Universität",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Jena - Friedrich-Schiller-Universität | https://www.fsv.uni-jena.de | D JENA01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Karlsruhe - Duale Hochschule",
+    "partner_country": "Germany",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Karlsruhe - Duale Hochschule | www.iu-dualesstudium.de | D KARLSRU07 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kassel - Universität Kassel",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Kassel - Universität Kassel | https://www.uni-kassel.de/uni/ | D KASSEL01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Koblenz - University of Koblenz",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Koblenz - University of Koblenz | https://www.uni-koblenz.de | D KOBLENZ02 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lüneburg - Leuphana Universität",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Lüneburg - Leuphana Universität | https://www.leuphana.de/ | D LUNEBUR01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Weingarten - Pädagogische Hochschule Weingarten",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Weingarten - Pädagogische Hochschule Weingarten; | https://www.ph-weingarten.de | D WEINGAR01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Würzburg - Universität Würzburg",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Würzburg - Universität Würzburg | https://www.uni-wuerzburg.de | D WURZBUR01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Turku - University of Turku Faculty of Education",
+    "partner_country": "Finland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Turku - University of Turku Faculty of Education | https://www.utu.fi/en | SF TURKU01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Versaille – INSPÉ, University Cergy Pontoise",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Versaille – INSPÉ, University Cergy Pontoise | https://inspe.ac-versailles.fr/ | F CERGY-P11 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Straßburg - INSPÉ",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Straßburg - INSPÉ | https://inspe.unistra.fr/ | F STRASBO48 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Patras - Universität",
+    "partner_country": "Greece",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Patras - Universität | https://www.upatras.gr/ | G PATRA01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bologna - Universität",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Bologna - Universität | https://www.unibo.it/it | I BOLOGNA01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Florenz - Universität",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Florenz - Universität | https://www.unifi.it/ | I FIRENZE01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Neapel - Universität",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Neapel - Universität | https://www.unisob.na.it/ | I NAPOLI04 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rom - Universität",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Rom - Universität | https://www.uniroma1.it/en/pagina-strutturale/home | I ROMA01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rijeka - University of Rijeka",
+    "partner_country": "Croatia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Rijeka - University of Rijeka | https://uniri.hr/en/ | HR RIJEKA01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zadar - University of Zadar",
+    "partner_country": "Croatia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Zadar - University of Zadar | https://www.unizd.hr/eng/ | HR ZADAR01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Utrecht - P.c. Hogeschooel Marnix Academie",
+    "partner_country": "Netherlands",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Utrecht - P.c. Hogeschooel Marnix Academie | https://www.marnixacademie.nl/ | NL UTRECHT27 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zwolle - Viaa Christian University of Applied Sciences",
+    "partner_country": "Netherlands",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Zwolle - Viaa Christian University of Applied Sciences | https://www.viaa.nl/en/ | NL ZWOLLE10 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidade Nova de Lisboa (Musik)",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Universidade Nova de Lisboa (Musik) | https://www.unl.pt/en/ | P LISBOA03 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Klausenburg - Babeș-Bolyai Universität",
+    "partner_country": "Rumänien",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Klausenburg - Babeș-Bolyai Universität | https://www.ubbcluj.ro/en/ | RO CLUJNAP01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sibiu - \"Lucian Blaga\" Universität",
     "partner_country": "Rumänien",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -777,7 +1067,88 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Karls-Universität",
+    "partner_name": "Gävle - Universität",
+    "partner_country": "Schweden",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Gävle - Universität | https://www.hig.se/ | S GAVLE01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Malmö - Universität",
+    "partner_country": "Schweden",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Malmö - Universität | https://mau.se/ | S MALMO01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nitra - Philosoph Konstantin Universität",
+    "partner_country": "Slowakei",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Nitra - Philosoph Konstantin Universität | www.ukf.sk | SK NITRA01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Trnava - St. Cyril and Methodius Universität",
+    "partner_country": "Slowakei",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Trnava - St. Cyril and Methodius Universität | www.ucm.sk | SK TRNAVA02 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universität Cádiz – Campus Bay of Algeciras*",
+    "partner_country": "Spanien",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Universität Cádiz – Campus Bay of Algeciras* | www.uca.es/the-campuses/bay-of-algeciras/ | E CADIZ01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Brünn - Masaryk-Universität",
+    "partner_country": "Tschechien",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Brünn - Masaryk-Universität | https://www.muni.cz/en | CZ BRNO05 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Budweis - Hochschule",
+    "partner_country": "Tschechien",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Budweis - Hochschule | https://www.vstecb.cz/en/ | CZ CESKE04 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Olmütz - Universität",
+    "partner_country": "Tschechien",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Olmütz - Universität | https://www.upol.cz/en/ | CZ OLOMOUC01 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ostrava - Universität",
+    "partner_country": "Tschechien",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Ostrava - Universität | https://www.osu.eu/ | CZ OSTRAVA02 |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Prag - Karls-Universität",
     "partner_country": "Tschechien",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -786,203 +1157,96 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Diakoniezentrum Spattstraße",
-    "partner_country": "Österreich",
-    "partner_type": "other",
+    "partner_name": "Ústí - Universität",
+    "partner_country": "Tschechien",
+    "partner_type": "university",
     "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Diakoniezentrum Spattstraße",
+    "source_url": "https://www.phdl.at/international/destinationen/erasmus_destinationen",
+    "evidence_quote": "Ústí - Universität | https://en.ff.ujep.cz/ | CZ USTINAD01 |",
     "confidence": 0.9
    },
    {
-    "partner_name": "Kidszentrum TURBINe",
-    "partner_country": "Österreich",
-    "partner_type": "other",
+    "partner_name": "ÖKOLOG",
+    "partner_country": "",
+    "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Kidszentrum TURBINe",
+    "source_url": "https://www.phdl.at/lehrer_innengesundheit/partner",
+    "evidence_quote": "[ÖKOLOG]",
     "confidence": 0.9
    },
    {
-    "partner_name": "BIMM",
-    "partner_country": "Österreich",
-    "partner_type": "other",
+    "partner_name": "PILGRIM",
+    "partner_country": "",
+    "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "BIMM - Sprachliche Bildung im Kontext von Migration und Mehrsprachigkeit",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Polnische Akademie der Wissenschaften",
-    "partner_country": "Polen",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Polnische Akademie der Wissenschaften - Institut für Psychologie",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Barmherzige Brüder Linz",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Barmherzige Brüder Linz - Institut für Sinnes- und Sprachneurologie",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Bildungsdirektion für Oberösterreich",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Bildungsdirektion für Oberösterreich, Zentrum Sprachliche Bildung",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "BILY",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "BILY - Verein für Jugend-, Familien- und Sexualberatung",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Courage",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Courage - Beratungsstelle",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Gewaltschutzzentrum",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Gewaltschutzzentrum",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "HOSI Linz",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "HOSI Linz",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Institut für Suchtprävention",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Institut für Suchtprävention",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Jugendamt Linz",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Jugendamt Linz",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Krisenhilfe OÖ",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Krisenhilfe OÖ",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Mobbing- und Gewaltpräventionsstelle",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Mobbing- und Gewaltpräventionsstelle",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "PIA",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "PIA - Hilfe für Opfer sexueller Gewalt",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Rainbows Linz",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Rainbows Linz",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Therapeutisches Zentrum Spattstraße",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Therapeutisches Zentrum Spattstraße",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Verein startklar Wiener Neustadt",
-    "partner_country": "Österreich",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.phdl.at/ueber_uns/zentren/dib/netzwerkpartnerinnen",
-    "evidence_quote": "Verein startklar Wiener Neustadt",
+    "source_url": "https://www.phdl.at/lehrer_innengesundheit/partner",
+    "evidence_quote": "[PILGRIM]",
     "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Salesianumweg 3",
+    "campus_name": "Private Pädagogische Hochschule der Diözese Linz",
     "city": "Linz",
     "country": "Austria",
     "role": "main",
     "source_url": "https://www.phdl.at/",
     "evidence_quote": "Salesianumweg 3, 4020 Linz"
-   },
-   {
-    "campus_name": "Salesianumweg 5",
-    "city": "Linz",
-    "country": "Austria",
-    "role": "main",
-    "source_url": "https://www.phdl.at/service/orientierung/campus_raumplan",
-    "evidence_quote": "Adresse Gebäude C/D: Salesianumweg 5, 4020 Linz"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 103,
+  "total_seen": 128,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of Erasmus partner institutions and some network partners. No total number of partners is explicitly stated.",
+  "coverage_note": "The evidence provides a complete list of Erasmus destination partner institutions across various countries, along with contact details for the Head of Centre for International Relations.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 5.5,
-  "crawl_s": 18.2,
+  "discover_s": 0.0,
+  "crawl_s": 22.0,
+  "ai_calls": 5,
+  "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 61.1,
+  "model_s": 26.8,
   "mode": "gemini",
-  "total_seconds": 84.8
- },
- "rechecked": true
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 4,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 52,
+    "accepted": 51
+   },
+   {
+    "lines": [
+     421,
+     498
+    ],
+    "returned": 33,
+    "accepted": 33
+   }
+  ],
+  "total_seconds": 48.8
+ }
 }
