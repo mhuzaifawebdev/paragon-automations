@@ -1,18 +1,24 @@
 {
  "row_id": "r052",
- "scraped_at": "2026-10-07T07:36:52Z",
+ "scraped_at": "2026-10-22T11:06:00Z",
  "contacts": {
   "row_id": "r052",
   "institution_name": "WROCLAWSKA AKADEMIA BIZNESU W NAUKACH STOSOWANYCH",
   "institution_type": "university",
   "official_website": "https://wab.edu.pl/",
-  "country": null,
+  "country": {
+   "value": "Poland",
+   "source_url": "https://akademiata.pl/kontakt/#cct-wroclaw",
+   "evidence_quote": "[Polska - Logo]"
+  },
   "phone": {
    "value": "+48 71 333 11 15",
    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/",
    "evidence_quote": "tel. +48 71 333 11 15 <tel +48713331115>"
   },
   "phone_alt": [],
+  "generic_email": "erasmus@wab.edu.pl",
+  "generic_email_url": "https://wab.edu.pl/dla-studenta/erasmus/",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,91 +26,10 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini. 1 page(s) could not be read."
+  "notes": "site found via: remembered from an earlier run. mode: gemini. 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
-   {
-    "partner_name": "European University",
-    "partner_country": "Georgia",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
-    "evidence_quote": "Projekt KA107 z European University – Tibilisi, Gruzja",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Baku Engineering University",
-    "partner_country": "Azerbaijan",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
-    "evidence_quote": "Projekt KA107 z Baku Engineering University (BEU) – Baku, Azerbejdżan",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Kolegji Biznesi",
-    "partner_country": "Kosovo",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
-    "evidence_quote": "Projekt KA171 z Kolegji Biznesi – Pristina, Kosovo",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Almaty Management University",
-    "partner_country": "Kazakhstan",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
-    "evidence_quote": "Projekt KA171 z Almaty Management University – Almaty, Kazachstan",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Universidad de las Américas Ecuador",
-    "partner_country": "Ecuador",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
-    "evidence_quote": "Projekt KA171 z Universidad de las Américas Ecuador – Quito, Ekwador",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "University of Pannonia",
-    "partner_country": "Hungary",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/en/for-student/erasmus/slow-tourism-management-emdm/",
-    "evidence_quote": "WAB, together with 6 partner universities from Hungary, the Czech Republic, Georgia, Turkey and Azerbaijan, is now starting the implementation of the Erasmus Mundus Design Measures program. The program will be implemented for 15 months from September 2022 to the end of November 2023. The aim of the program is to prepare Erasmus Mundus Joint Master Degree and be ready to launch it in the upcoming academic years. Together with partner universities: University of Pannonia (Hungary), European Univer",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "College of Polytechnics Jihlava",
-    "partner_country": "Czech Republic",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/en/for-student/erasmus/slow-tourism-management-emdm/",
-    "evidence_quote": "WAB wraz z 6 uniwersytetami partnerskimi z Węgier, Czech, Gruzji, Turcji i Azerbejdżanu rozpoczyna realizację programu Erasmus Mundus Design Measures. Program potrwa 15 miesięcy od września 2022 do końca listopada 2023. Celem programu jest przygotowanie wspólnych studiów magisterskich Erasmus Mundus i gotowość do ich uruchomienia w kolejnych latach akademickich. Wraz w uczelniami partnerskimi: University of Pannonia (Węgry), European University Tbilisi (Gruzja), College of Polytechnics Jihlava (",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Batumi Shota Rustaveli State University",
-    "partner_country": "Georgia",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/slow-tourism-management-emdm/",
-    "evidence_quote": "The meeting was attended by staff from all 7 member universities, namely Marta Drozdowska, Izabela Gruszka, Paulina Graczyk and Justyna Bagińska (Wrocław Business University of Applied Sciences, Poland), Katalin Formadi and Eszter Madarasz (Pannonia University, Hungary), Stanislava Pachrova (College of Polytechnics in Jihlava, Czech Republic), Ekaterine Bakhtadze (Batumi Shota Rustaveli State University, Georgia), Rasimov Abutalibov (Baku Engineering University, Azarbaijan), Asli Ersoy (Alanya H",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Alanya HEP University",
-    "partner_country": "Turkey",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/slow-tourism-management-emdm/",
-    "evidence_quote": "The meeting was attended by staff from all 7 member universities, namely Marta Drozdowska, Izabela Gruszka, Paulina Graczyk and Justyna Bagińska (Wrocław Business University of Applied Sciences, Poland), Katalin Formadi and Eszter Madarasz (Pannonia University, Hungary), Stanislava Pachrova (College of Polytechnics in Jihlava, Czech Republic), Ekaterine Bakhtadze (Batumi Shota Rustaveli State University, Georgia), Rasimov Abutalibov (Baku Engineering University, Azarbaijan), Asli Ersoy (Alanya H",
-    "confidence": 0.9
-   },
    {
     "partner_name": "HOGESCHOOL PXL – PXL University College",
     "partner_country": "Belgium",
@@ -151,7 +76,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Danish Academy of Business and Technology",
+    "partner_name": "Dania Danish Academy of Business and Technology",
     "partner_country": "Denmark",
     "partner_type": "college",
     "mobility_type": "unknown",
@@ -178,9 +103,9 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Y SCHOOLS",
+    "partner_name": "Y SCHOOLS (ex-Groupe ESC Troyes)",
     "partner_country": "France",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "Y SCHOOLS (ex-Groupe ESC Troyes) – F TROYES07",
@@ -189,7 +114,7 @@
    {
     "partner_name": "Ecole de Commerce Europeenne Bordeaux",
     "partner_country": "France",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "Ecole de Commerce Europeenne Bordeaux – F BORDEAU45",
@@ -198,8 +123,8 @@
    {
     "partner_name": "INSEEC School of Business and Economic Paris",
     "partner_country": "France",
-    "partner_type": "university",
-    "mobility_type": "unknown",
+    "partner_type": "school",
+    "mobility_type": "study",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "INSEEC School of Business and Economic Paris – F Paris 244 (only master’s degree)",
     "confidence": 0.9
@@ -207,7 +132,7 @@
    {
     "partner_name": "ECOLE DE COMMERCE EUROPEENNE",
     "partner_country": "France",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "ECOLE DE COMMERCE EUROPEENNE – F LYON71",
@@ -217,7 +142,7 @@
     "partner_name": "HHL – Leipzig Gaduate School of Management",
     "partner_country": "Germany",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "HHL – Leipzig Gaduate School of Management – D LEIPZIG09 (only master’s degree)",
     "confidence": 0.9
@@ -261,7 +186,7 @@
    {
     "partner_name": "Institue of Technology Tralee",
     "partner_country": "Ireland",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "Institue of Technology Tralee – IRL TRALEE01",
@@ -288,16 +213,16 @@
    {
     "partner_name": "INSTITUTO POLITECNICO DE BRAGANCA",
     "partner_country": "Portugal",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "INSTITUTO POLITECNICO DE BRAGANCA – P BRAGANCA01",
     "confidence": 0.9
    },
    {
-    "partner_name": "ISCAC CIOMBRA BUSINESS SCHOOL",
+    "partner_name": "ISCAC CIOMBRA BUSINESS SCHOOL (INSTITUTO POLITECNICO DE COIMBRA)",
     "partner_country": "Portugal",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "ISCAC CIOMBRA BUSINESS SCHOOL (INSTITUTO POLITECNICO DE COIMBRA) – P COIMBRA02",
@@ -306,7 +231,7 @@
    {
     "partner_name": "Instituto Politecnico de Santarem",
     "partner_country": "Portugal",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "Instituto Politecnico de Santarem – P SANTARE01",
@@ -385,6 +310,15 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Alanya HEP University",
+    "partner_country": "Turkey",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
+    "evidence_quote": "Alanya HEP University – Faculty of Tourism/ Department of Tourism Management – TR ANTALYA04",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Kocaeli Universitesi",
     "partner_country": "Turkey",
     "partner_type": "university",
@@ -441,7 +375,7 @@
    {
     "partner_name": "ASPIRA",
     "partner_country": "Croatia",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "ASPIRA – HR SPLIT02",
@@ -505,32 +439,266 @@
     "partner_name": "University of Girona",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
     "evidence_quote": "University of Girona – E GIRONA 02 (only bachelor’s degree)",
     "confidence": 0.9
    },
    {
-    "partner_name": "Talents for Tech",
-    "partner_country": "unknown",
-    "partner_type": "company",
+    "partner_name": "Akademia Techniczno-Artystyczna Nauk Stosowanych",
+    "partner_country": "Poland",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/",
-    "evidence_quote": "ATA rozpoczyna współpracę z Talents for Tech!",
+    "evidence_quote": "Wrocławska Akademia Biznesu stała się częścią Akademii Techniczno-Artystycznej Nauk Stosowanych!",
     "confidence": 0.9
    },
    {
-    "partner_name": "Altera University",
+    "partner_name": "Legia Warszawa",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "ATA i Legia Warszawa rozpoczynają współpracę",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Blachy Pruszyński",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "Studenci ATA z wizytą w firmie Blachy Pruszyński",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "National Liberal Club",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "Przedstawiciele londyńskiego National Liberal Club z wizytą w ATA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CEEMAN",
     "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/",
-    "evidence_quote": "Informatyka w ATA w programie Altera University",
+    "evidence_quote": "ATA na 34. Dorocznej Konferencji CEEMAN w Bukareszcie",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gmina Piaseczno",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "Współpraca ATA z Gminą Piaseczno | Kolejne projekty architektoniczne przed nami",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Aptean",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Aptean]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CCIG Group",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[CCIG Group]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ATM Grupa",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[ATM Grupa]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Momentum",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Momentum]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Konceptika",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Konceptika]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "XPO Logistics",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[XPO Logistics]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CORE – tax and more",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[CORE – tax and more]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MBA Lean Management",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[MBA Lean Management]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nokia",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Nokia]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Centrum Fizjoterapeuty",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Centrum Fizjoterapeuty]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zec Service",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Zec Service]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ryanair Labs Wrocław",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Ryanair Labs Wrocław]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VOLVO Maszyny Budowlane",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[VOLVO Maszyny Budowlane]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LTB",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[LTB]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "POLBUS",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[POLBUS]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Centrum Historii Zajezdnia",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Centrum Historii Zajezdnia]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Enterprise IT",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Enterprise IT]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Historyczne Hotele Wrocławia",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Historyczne Hotele Wrocławia]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Polsko-Gruzińska Izba Przemysłowo-Handlowa",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Polsko-Gruzińska Izba Przemysłowo-Handlowa]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Panthers Wrocław",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[Panthers Wrocław]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UNIT4",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "[UNIT4]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MOOQ",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/",
+    "evidence_quote": "MOOQ",
     "confidence": 0.9
    },
    {
     "partner_name": "Vistula Universities Group",
-    "partner_country": "unknown",
+    "partner_country": "",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/en/",
@@ -538,52 +706,115 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "College of Polytechnics in Jihlava",
-    "partner_country": "Czech Republic",
-    "partner_type": "college",
+    "partner_name": "European University",
+    "partner_country": "Georgia",
+    "partner_type": "university",
     "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/slow-tourism-management-emdm/",
-    "evidence_quote": "The last point of the meeting was devoted to Joint Degree Policy presented by Agnieszka Faron, PhD (Vice-Rector’s Proxy for Students Affairs at Wroclaw Business University of Applied Sciences) where representatives agreed on naming the consortium of 7 partners (CPU): 3 full partners incl. the leader (WAB, University of Pannonia, European University) and 4 academic associate partners (College of Polytechnics in Jihlava, Batumi State University, Alanya University and BEU University). After present",
+    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
+    "evidence_quote": "Projekt KA107 z European University – Tibilisi, Gruzja",
     "confidence": 0.9
    },
    {
-    "partner_name": "Batumi State University",
+    "partner_name": "Baku Engineering University (BEU)",
+    "partner_country": "Azerbaijan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
+    "evidence_quote": "Projekt KA107 z Baku Engineering University (BEU) – Baku, Azerbejdżan",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BEU",
+    "partner_country": "Azerbaijan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
+    "evidence_quote": "Zgodnie z zatwierdzonym projektem WAB oraz BEU będą realizowały wymianę studentów i pracowników:",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "European Univeristy",
+    "partner_country": "Georgia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
+    "evidence_quote": "W ramach projektu KA171 Wrocławska Akademia Biznesu uzyskała dofinansowanie na realizację mobilności akademickiej z European Univeristy.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kolegji Biznesi",
+    "partner_country": "Kosovo",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
+    "evidence_quote": "Projekt KA171 z Kolegji Biznesi – Pristina, Kosovo",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Almaty Management University",
+    "partner_country": "Kazakhstan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
+    "evidence_quote": "Projekt KA171 z Almaty Management University – Almaty, Kazachstan",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidad de las Américas Ecuador",
+    "partner_country": "Ecuador",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
+    "evidence_quote": "Projekt KA171 z Universidad de las Américas Ecuador – Quito, Ekwador",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidad de las Américas Ecuadorbędą",
+    "partner_country": "Ecuador",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/erasmus-ka-171/",
+    "evidence_quote": "Zgodnie z zatwierdzonym projektem WAB oraz Universidad de las Américas Ecuadorbędą realizowały wymianę pracowników:",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Pannonia",
+    "partner_country": "Hungary",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/en/for-student/erasmus/slow-tourism-management-emdm/",
+    "evidence_quote": "WAB, together with 6 partner universities from Hungary, the Czech Republic, Georgia, Turkey and Azerbaijan, is now starting the implementation of the Erasmus Mundus Design Measures program. The program will be implemented for 15 months from September 2022 to the end of November 2023. The aim of the program is to prepare Erasmus Mundus Joint Master Degree and be ready to launch it in the upcoming academic years. Together with partner universities: University of Pannonia (Hungary), European Univer",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "College of Polytechnics Jihlava",
+    "partner_country": "Czech Republic",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://wab.edu.pl/en/for-student/erasmus/slow-tourism-management-emdm/",
+    "evidence_quote": "WAB wraz z 6 uniwersytetami partnerskimi z Węgier, Czech, Gruzji, Turcji i Azerbejdżanu rozpoczyna realizację programu Erasmus Mundus Design Measures. Program potrwa 15 miesięcy od września 2022 do końca listopada 2023. Celem programu jest przygotowanie wspólnych studiów magisterskich Erasmus Mundus i gotowość do ich uruchomienia w kolejnych latach akademickich. Wraz w uczelniami partnerskimi: University of Pannonia (Węgry), European University Tbilisi (Gruzja), College of Polytechnics Jihlava (",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Batumi Shota Rustaveli State University",
     "partner_country": "Georgia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/dla-studenta/erasmus/slow-tourism-management-emdm/",
-    "evidence_quote": "The last point of the meeting was devoted to Joint Degree Policy presented by Agnieszka Faron, PhD (Vice-Rector’s Proxy for Students Affairs at Wroclaw Business University of Applied Sciences) where representatives agreed on naming the consortium of 7 partners (CPU): 3 full partners incl. the leader (WAB, University of Pannonia, European University) and 4 academic associate partners (College of Polytechnics in Jihlava, Batumi State University, Alanya University and BEU University). After present",
+    "evidence_quote": "The meeting was attended by staff from all 7 member universities, namely Marta Drozdowska, Izabela Gruszka, Paulina Graczyk and Justyna Bagińska (Wrocław Business University of Applied Sciences, Poland), Katalin Formadi and Eszter Madarasz (Pannonia University, Hungary), Stanislava Pachrova (College of Polytechnics in Jihlava, Czech Republic), Ekaterine Bakhtadze (Batumi Shota Rustaveli State University, Georgia), Rasimov Abutalibov (Baku Engineering University, Azarbaijan), Asli Ersoy (Alanya H",
     "confidence": 0.9
    },
    {
-    "partner_name": "Alanya University",
-    "partner_country": "Turkey",
+    "partner_name": "Baku Engineering University",
+    "partner_country": "Azerbaijan",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://wab.edu.pl/dla-studenta/erasmus/slow-tourism-management-emdm/",
-    "evidence_quote": "The last point of the meeting was devoted to Joint Degree Policy presented by Agnieszka Faron, PhD (Vice-Rector’s Proxy for Students Affairs at Wroclaw Business University of Applied Sciences) where representatives agreed on naming the consortium of 7 partners (CPU): 3 full partners incl. the leader (WAB, University of Pannonia, European University) and 4 academic associate partners (College of Polytechnics in Jihlava, Batumi State University, Alanya University and BEU University). After present",
+    "evidence_quote": "The meeting was attended by staff from all 7 member universities, namely Marta Drozdowska, Izabela Gruszka, Paulina Graczyk and Justyna Bagińska (Wrocław Business University of Applied Sciences, Poland), Katalin Formadi and Eszter Madarasz (Pannonia University, Hungary), Stanislava Pachrova (College of Polytechnics in Jihlava, Czech Republic), Ekaterine Bakhtadze (Batumi Shota Rustaveli State University, Georgia), Rasimov Abutalibov (Baku Engineering University, Azarbaijan), Asli Ersoy (Alanya H",
     "confidence": 0.9
    },
    {
-    "partner_name": "BEU University",
-    "partner_country": "unknown",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/dla-studenta/erasmus/slow-tourism-management-emdm/",
-    "evidence_quote": "The last point of the meeting was devoted to Joint Degree Policy presented by Agnieszka Faron, PhD (Vice-Rector’s Proxy for Students Affairs at Wroclaw Business University of Applied Sciences) where representatives agreed on naming the consortium of 7 partners (CPU): 3 full partners incl. the leader (WAB, University of Pannonia, European University) and 4 academic associate partners (College of Polytechnics in Jihlava, Batumi State University, Alanya University and BEU University). After present",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Dania Danish Academy of Business and Technology",
-    "partner_country": "Denmark",
-    "partner_type": "college",
-    "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
-    "evidence_quote": "Dania Danish Academy of Business and Technology – DK RANDERS04",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Y SCHOOLS (ex-Groupe ESC Troyes)",
+    "partner_name": "Y SCHOOLS",
     "partner_country": "France",
     "partner_type": "school",
     "mobility_type": "unknown",
@@ -592,50 +823,102 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "ISCAC CIOMBRA BUSINESS SCHOOL (INSTITUTO POLITECNICO DE COIMBRA)",
-    "partner_country": "Portugal",
-    "partner_type": "school",
+    "partner_name": "Agencje rekrutacyjne",
+    "partner_country": "unknown",
+    "partner_type": "company",
     "mobility_type": "unknown",
-    "source_url": "https://wab.edu.pl/en/for-student/erasmus/partner-universities/",
-    "evidence_quote": "ISCAC CIOMBRA BUSINESS SCHOOL (INSTITUTO POLITECNICO DE COIMBRA) – P COIMBRA02",
+    "source_url": "https://akademiata.pl/kontakt/#cct-wroclaw",
+    "evidence_quote": "Agencje rekrutacyjne:",
     "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Wrocławska Akademia Biznesu",
+    "campus_name": "Wrocławska Akademia Biznesu w Naukach Stosowanych",
     "city": "Wrocław",
     "country": "Poland",
     "role": "main",
     "source_url": "https://wab.edu.pl/",
     "evidence_quote": "53-238 Wrocław"
-   },
-   {
-    "campus_name": "Akademia Techniczno-Artystyczna Nauk Stosowanych w Warszawie",
-    "city": "Warszawa",
-    "country": "Poland",
-    "role": "main",
-    "source_url": "https://akademiata.pl/kontakt/#cct-wroclaw",
-    "evidence_quote": "ul. Olszewska 12, 00-792 Warszawa"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 64,
+  "total_seen": 89,
   "pages_read": 10,
-  "coverage_note": "The institution is a branch of the Akademia Techniczno-Artystyczna Nauk Stosowanych (ATA) in Warsaw. The partner list is extensive but may not be exhaustive as it is presented as a selection of universities for specific study programs. 1 page(s) could not be read.",
+  "coverage_note": "The evidence provides specific Erasmus partner lists for management, computer engineering, and tourism and leisure, alongside details on projects like Erasmus Mundus Design Measures and KA171. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.2,
-  "crawl_s": 16.8,
+  "discover_s": 0.0,
+  "crawl_s": 7.9,
+  "ai_calls": 8,
+  "partner_calls": 7,
   "cost_usd_estimate": 0.0,
-  "model_s": 18.2,
+  "model_s": 67.4,
   "mode": "gemini",
-  "total_seconds": 38.3
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 28,
+    "accepted": 28
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 32,
+    "accepted": 9
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 52,
+    "accepted": 51
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 75.4
  },
  "rechecked": true
 }
