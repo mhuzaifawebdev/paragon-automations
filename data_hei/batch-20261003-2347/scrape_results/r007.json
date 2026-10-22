@@ -1,6 +1,6 @@
 {
  "row_id": "r007",
- "scraped_at": "2026-10-04T06:48:45Z",
+ "scraped_at": "2026-10-22T12:27:10Z",
  "contacts": {
   "row_id": "r007",
   "institution_name": "PRINS LEOPOLD INSTITUUT VOOR TROPISCHE GENEESKUND\nEscuela Superior de Arte Dramático de Valencia",
@@ -13,46 +13,51 @@
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini.",
   "generic_email": "erasmusplusmobility@itg.be",
-  "generic_email_url": "https://www.itg.be/nl/study/mobiliteit"
+  "generic_email_url": "https://www.itg.be/nl/study/mobiliteit",
+  "contact": {
+   "name": "Charlotte Morantin",
+   "designation": "ITM Education Office",
+   "designation_local": "",
+   "email": "cmorantin@itg.be",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
+   "evidence_quote": "Interested? Contact the ITM Education Office (Charlotte Morantin – cmorantin@itg.be <cmorantin@itg.be>) to discuss the existing possibilities."
+  },
+  "alternates": [
+   {
+    "name": "Jared Howes",
+    "designation": "Ethics and Compliance Officer",
+    "designation_local": "",
+    "email": "jhowes@itg.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.itg.be/en/institutional-review-board",
+    "evidence_quote": "Jared Howes (Ethics and Compliance Officer)",
+    "why_chosen": "Secretary / administration (last resort). Jared Howes is the Ethics and Compliance Officer."
+   },
+   {
+    "name": "Raffaella Ravinetto",
+    "designation": "Chair of the Institutional Review Board",
+    "designation_local": "",
+    "email": "rravinetto@itg.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.itg.be/en/institutional-review-board",
+    "evidence_quote": "Raffaella Ravinetto (Chair)",
+    "why_chosen": "Other role. Raffaella Ravinetto is the Chair of the Institutional Review Board."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Charlotte Morantin is a contact in the ITM Education Office handling outgoing staff mobility options.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
-   {
-    "partner_name": "Institut National de Recherche Biomédicale (INRB)",
-    "partner_country": "DRC",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.itg.be/nl",
-    "evidence_quote": "Toen de huidige ebola-uitbraak in Bundibugyo in DRC de kop opstak, kwamen onderzoekers van ITG-partner Institut National de Recherche Biomédicale (INRB) onmiddellijk in actie. ITG-professor Koen Vercauteren vertelt over de rol van langetermijninvesteringen in sequencing-technologieën en wetenschappelijke samenwerkingsverbanden.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Armauer Hansen Research Institute",
-    "partner_country": "unknown",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.itg.be/nl",
-    "evidence_quote": "In de aanloop naar het 66e ITG-colloquium bespreken wetenschappelijke leiders prof. dr. Johan van Griensven (Instituut voor Tropische Geneeskunde) en dr. Endalamaw Gadisa (Armauer Hansen Research Institute) waarom mobiliteit een cruciale rol speelt in het begrijpen van infectieziekten en waarom onderzoekers verder moeten kijken dan hun eigen discipline.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Africalia",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.itg.be/nl",
-    "evidence_quote": "Om te blijven reflecteren op ons koloniaal erfgoed en onze institutionele geschiedenis, lanceert het ITG een artist residency in samenwerking met Africalia. We zoeken een kunstenaar uit de Democratische Republiek Congo om kritisch te reflecteren op de kunstwerken van Fernand Allard l'Olivier en de bredere vragen die ze oproepen over institutioneel geheugen, koloniaal erfgoed en de blijvende impact van kolonialisme op het heden. Stel je kandidaat vóór 20 augustus.",
-    "confidence": 0.9
-   },
    {
     "partner_name": "Instituto de Medicina Tropical “Pedro Kourí”",
     "partner_country": "Cuba",
@@ -63,10 +68,10 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Bernhard Nocht Institute for Tropical Medicine (BNITM)",
+    "partner_name": "Bernhard Nocht Institute for Tropical Medicine",
     "partner_country": "Germany",
     "partner_type": "university",
-    "mobility_type": "staff",
+    "mobility_type": "study",
     "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
     "evidence_quote": "In 2024, ITM junior researcher and PhD student Johanna Bouckaert attended a training at the Bernhard Nocht Institute for Tropical Medicine (BNITM) in Hamburg, with the support of an Erasmus+ mobility grant.",
     "confidence": 0.9
@@ -93,7 +98,7 @@
     "partner_name": "Institute of International Health Charité",
     "partner_country": "Germany",
     "partner_type": "university",
-    "mobility_type": "staff",
+    "mobility_type": "study",
     "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
     "evidence_quote": "From 3 to 14 June 2024, ITM junior researcher and part-time MPH student Luciana Lepore followed a tropEd-accredited training on Qualitative Research Methods and Data Management at the Institute of International Health Charité in Berlin, supported by an Erasmus+ mobility grant.",
     "confidence": 0.9
@@ -102,16 +107,16 @@
     "partner_name": "McGill Summer Institute",
     "partner_country": "Canada",
     "partner_type": "university",
-    "mobility_type": "staff",
+    "mobility_type": "study",
     "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
     "evidence_quote": "From 3 to 7 June 2024, PhD student Jens Cornelis (at ITM and UGent) attended a training on Global Health Diagnostics at the McGill Summer Institute in Montréal, Canada, with the support of an Erasmus+ mobility grant.",
     "confidence": 0.9
    },
    {
-    "partner_name": "National Reference Center for Rickettsioses (NRCR)",
+    "partner_name": "National Reference Center for Rickettsioses",
     "partner_country": "France",
     "partner_type": "university",
-    "mobility_type": "staff",
+    "mobility_type": "study",
     "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
     "evidence_quote": "From 4 to 15 March 2024, ITM PhD student Carl Boodman participated in a training programme at the National Reference Center for Rickettsioses (NRCR) in Marseille, France, affiliated with Aix-Marseille University. His participation was supported by an Erasmus+ mobility grant.",
     "confidence": 0.9
@@ -120,7 +125,7 @@
     "partner_name": "Aix-Marseille University",
     "partner_country": "France",
     "partner_type": "university",
-    "mobility_type": "staff",
+    "mobility_type": "unknown",
     "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
     "evidence_quote": "From 4 to 15 March 2024, ITM PhD student Carl Boodman participated in a training programme at the National Reference Center for Rickettsioses (NRCR) in Marseille, France, affiliated with Aix-Marseille University. His participation was supported by an Erasmus+ mobility grant.",
     "confidence": 0.9
@@ -207,35 +212,17 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "European Society of Mycobacteriology",
-    "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_name": "UAntwerpen",
+    "partner_country": "",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.itg.be/nl",
-    "evidence_quote": "Professor Bouke de Jong ontvangt de Gardner Middlebrook Award 2026 van de European Society of Mycobacteriology",
+    "evidence_quote": "UAntwerpen (TBD)",
     "confidence": 0.9
    },
    {
-    "partner_name": "Fonds Wetenschappelijk Onderzoek Vlaanderen",
-    "partner_country": "Belgium",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.itg.be/nl",
-    "evidence_quote": "Vier ITG-onderzoekers ontvangen postdoctoraal mandaat van het Fonds Wetenschappelijk Onderzoek Vlaanderen",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Nova Academy",
-    "partner_country": "Belgium",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.itg.be/nl",
-    "evidence_quote": "Nova Academy groeit uit tot een breed partnerschap van tien hogeronderwijsinstellingen en versterkt de levenslanglerenmindset in Vlaanderen",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Bernhard Nocht Institute for Tropical Medicine",
-    "partner_country": "Germany",
+    "partner_name": "Bernhard Nocht Institute for Tropical Medicine (BNITM)",
+    "partner_country": "",
     "partner_type": "university",
     "mobility_type": "staff",
     "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
@@ -244,53 +231,153 @@
    },
    {
     "partner_name": "tropEd",
-    "partner_country": "unknown",
+    "partner_country": "",
     "partner_type": "network",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
     "evidence_quote": "Do you want to follow a (blended) course at one of the tropEd partner institutions? Or would you like to do a traineeship at one of ITM’s international partner institutions to strengthen your lab skills or to collect field data for your thesis?",
     "confidence": 0.9
    },
    {
-    "partner_name": "UGent",
-    "partner_country": "Belgium",
+    "partner_name": "Goethe University in Frankfurt",
+    "partner_country": "",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
+    "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
+    "evidence_quote": "From 1 to 5 July 2024, PhD candidate Adwine Vanslembrouck had the opportunity to follow a field training with Goethe University in Frankfurt, supported by an Erasmus+ mobility grant",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institute of International Health Charité in Berlin",
+    "partner_country": "",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
+    "evidence_quote": "From 3 to 14 June 2024, ITM junior researcher and part-time MPH student Luciana Lepore followed a tropEd-accredited training on Qualitative Research Methods and Data Management at the Institute of International Health Charité in Berlin, supported by an Erasmus+ mobility grant.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "McGill Summer Institute in Montréal",
+    "partner_country": "Canada",
+    "partner_type": "university",
+    "mobility_type": "study",
     "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
     "evidence_quote": "From 3 to 7 June 2024, PhD student Jens Cornelis (at ITM and UGent) attended a training on Global Health Diagnostics at the McGill Summer Institute in Montréal, Canada, with the support of an Erasmus+ mobility grant.",
     "confidence": 0.9
    },
    {
-    "partner_name": "Universitair Ziekenhuis Antwerpen (UZA)",
+    "partner_name": "UGent",
+    "partner_country": "",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
+    "evidence_quote": "From 3 to 7 June 2024, PhD student Jens Cornelis (at ITM and UGent) attended a training on Global Health Diagnostics at the McGill Summer Institute in Montréal, Canada, with the support of an Erasmus+ mobility grant.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "National Reference Center for Rickettsioses (NRCR)",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://www.itg.be/en/study/mobility#erasmus-plus",
+    "evidence_quote": "From 4 to 15 March 2024, ITM PhD student Carl Boodman participated in a training programme at the National Reference Center for Rickettsioses (NRCR) in Marseille, France, affiliated with Aix-Marseille University. His participation was supported by an Erasmus+ mobility grant.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nova Academy",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itg.be/nl/health-stories/artikels/nieuw-partnerschap-versterkt-levenslang-leren-in-Vlaanderen",
+    "evidence_quote": "Op vrijdag 29 mei 2026 vond de officiële lancering van de vernieuwde Nova Academy plaats aan de Erasmushogeschool in Brussel. Wat in 2021 begon als een samenwerking tussen drie universiteiten, is uitgegroeid tot een sterk partnerschap van tien Vlaamse instellingen voor hoger onderwijs die samen inzetten op levenslang leren. Ook het Instituut voor Tropische Geneeskunde (ITG) maakt deel uit van de samenwerking. Algemeen beheerder Ann Peters vertegenwoordigde het ITG tijdens dit feestelijke eveneme",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmushogeschool",
+    "partner_country": "",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itg.be/nl/health-stories/artikels/nieuw-partnerschap-versterkt-levenslang-leren-in-Vlaanderen",
+    "evidence_quote": "Op vrijdag 29 mei 2026 vond de officiële lancering van de vernieuwde Nova Academy plaats aan de Erasmushogeschool in Brussel. Wat in 2021 begon als een samenwerking tussen drie universiteiten, is uitgegroeid tot een sterk partnerschap van tien Vlaamse instellingen voor hoger onderwijs die samen inzetten op levenslang leren. Ook het Instituut voor Tropische Geneeskunde (ITG) maakt deel uit van de samenwerking. Algemeen beheerder Ann Peters vertegenwoordigde het ITG tijdens dit feestelijke eveneme",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Belgische Directoraat-Generaal voor Ontwikkelingssamenwerking en Humanitaire Hulp (DGD)",
     "partner_country": "Belgium",
     "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://www.itg.be/nl/contact",
-    "evidence_quote": "Universitair Ziekenhuis Antwerpen (UZA)",
+    "source_url": "https://www.itg.be/nl/internationale-samenwerking",
+    "evidence_quote": "Het ITG werkt samen met 24 partners, verspreid over drie continenten. De partnerschappen worden gefinancierd met een vijfjarensubsidie van het Belgische Directoraat-Generaal voor Ontwikkelingssamenwerking en Humanitaire Hulp (DGD). De Vlaamse Regering financiert daarnaast nog twee partnerschappen in Mozambique.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Vlaamse Regering",
+    "partner_country": "Belgium",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itg.be/nl/internationale-samenwerking",
+    "evidence_quote": "Het ITG werkt samen met 24 partners, verspreid over drie continenten. De partnerschappen worden gefinancierd met een vijfjarensubsidie van het Belgische Directoraat-Generaal voor Ontwikkelingssamenwerking en Humanitaire Hulp (DGD). De Vlaamse Regering financiert daarnaast nog twee partnerschappen in Mozambique.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Be-cause Health",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itg.be/nl/internationale-samenwerking",
+    "evidence_quote": "Be-cause Health",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LINQED",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itg.be/nl/internationale-samenwerking",
+    "evidence_quote": "LINQED",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Emerging Voices for Global Health",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itg.be/nl/internationale-samenwerking",
+    "evidence_quote": "Emerging Voices for Global Health",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fiabel",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itg.be/nl/internationale-samenwerking",
+    "evidence_quote": "Fiabel",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "International Health Policies",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itg.be/nl/internationale-samenwerking",
+    "evidence_quote": "International Health Policies",
     "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Hoofdgebouw",
+    "campus_name": "Instituut voor Tropische Geneeskunde",
     "city": "Antwerpen",
     "country": "België",
     "role": "main",
     "source_url": "https://www.itg.be/nl",
-    "evidence_quote": "Haal je exemplaar aan het onthaal in het hoofdgebouw (Nationalestraat 155, 2000 Antwerpen) of via Standaard Boekhandel."
+    "evidence_quote": "Het Instituut voor Tropische Geneeskunde (ITG) in Antwerpen (België) zet zich sinds 1906 in voor de vooruitgang van wetenschap en gezondheid voor iedereen, via innovatief onderzoek, geavanceerd onderwijs, professionele medische dienstverlening en capaciteitsuitwisseling met partnerinstellingen in Afrika, Azië en Latijns-Amerika. Ons doel is de wereldwijde impact van ziekten en gezondheidsproblemen op bevolkingsgroepen te verminderen."
    },
    {
-    "campus_name": "ITM Campus Rochus",
-    "city": "Antwerp",
-    "country": "Belgium",
-    "role": "branch",
-    "source_url": "https://www.itg.be/nl",
-    "evidence_quote": "Aula Janssens, ITM Campus Rochus, Sint-Rochusstraat 43, 2000 Antwerp"
-   },
-   {
-    "campus_name": "ITG-DRC",
-    "city": "DRC",
-    "country": "DRC",
+    "campus_name": "Vestiging ITG-DRC",
+    "city": "Kinshasa",
+    "country": "Democratische Republiek Congo",
     "role": "international",
     "source_url": "https://www.itg.be/nl/internationale-samenwerking",
     "evidence_quote": "Vestiging ITG-DRC"
@@ -302,45 +389,45 @@
   "truncated": false,
   "total_seen": 24,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of specific partners in various contexts, but does not contain a comprehensive master list of all Erasmus+ partner institutions.",
+  "coverage_note": "The evidence lists several partner institutions and networks such as Nova Academy and partner universities, but does not contain a comprehensive, exhaustive list of all individual partner institutions.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 23.4,
+  "crawl_s": 23.7,
   "ai_calls": 4,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 21.7,
+  "model_s": 6.8,
   "mode": "gemini",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      141,
      280
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 18,
-    "accepted": 18
+    "returned": 21,
+    "accepted": 20
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 7,
+    "accepted": 7
    }
   ],
-  "total_seconds": 45.2
- },
- "rechecked": 2
+  "total_seconds": 30.5
+ }
 }
