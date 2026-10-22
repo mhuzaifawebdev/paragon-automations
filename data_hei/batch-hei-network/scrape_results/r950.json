@@ -1,34 +1,209 @@
 {
  "row_id": "r950",
- "scraped_at": "2026-10-12T07:32:44Z",
+ "scraped_at": "2026-10-22T22:45:40Z",
  "contacts": {
   "row_id": "r950",
   "institution_name": "GROUPE EAC - ING",
   "institution_type": "college",
   "official_website": "https://ecole-eac.com/",
-  "country": {
-   "value": "France",
-   "source_url": "https://ecole-eac.com/",
-   "evidence_quote": "À la sortie, nos diplômés occupent des postes dans les musées, les galeries, les maisons de ventes et les institutions culturelles, en France comme à l’étranger."
-  },
+  "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 9,
-  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini. 1 page(s) could not be read.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Didier Zerath",
+   "designation": "Artist management & Music industry consultant",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ecole-eac.com/actualites/decouverte-des-formations-a-leac-paris/",
+   "evidence_quote": "· Filière Culture : Le secteur de la culture par Didier Zerath, Artist management & Music industry consultant, President AMA-France, IMMF Board Member"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). He is a teacher at the institution who shares his vision of the professional sector.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
    {
-    "partner_name": "Le Réseau AD Education",
+    "partner_name": "Ministère des Affaires Étrangères",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://ecole-eac.com/erasmus/",
+    "evidence_quote": "L’École EAC a signé une convention de partenariat avec le ministère des Affaires Étrangères, qui permet aux étudiants d’effectuer un stage d’application conventionné dans de nombreuses ambassades, Centres culturels et Alliances françaises.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École Supérieure du Parfum & de la Cosmétique",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut National de Gemmologie",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ecole Supérieure de Publicité",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ecole Supérieure du Digital",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École de Condé",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ECV",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Animum",
+    "partner_country": "Spain",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SAE",
+    "partner_country": "unknown",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ICMP",
+    "partner_country": "unknown",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CEV",
+    "partner_country": "unknown",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CES",
+    "partner_country": "unknown",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Visiplus",
+    "partner_country": "unknown",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Iscod",
+    "partner_country": "unknown",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Asfored",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IAAD",
+    "partner_country": "Italy",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Accademia Italiana",
+    "partner_country": "Italy",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HMKW",
+    "partner_country": "Germany",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Barreira Arte+Diseño",
+    "partner_country": "Spain",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
+    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Réseau AD Education",
     "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
@@ -64,15 +239,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Ministère des Affaires étrangères",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "traineeship",
-    "source_url": "https://ecole-eac.com/erasmus/",
-    "evidence_quote": "Conventionnement avec le Ministère des Affaires étrangères",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Alliances françaises",
     "partner_country": "unknown",
     "partner_type": "other",
@@ -97,168 +263,6 @@
     "mobility_type": "unknown",
     "source_url": "https://ecole-eac.com/formation/mastere-management-des-organisations-artistiques-et-culturelles/",
     "evidence_quote": "Ce mastère conduit au titre RNCP40153 Editeur Multisupport (certification de niveau 7). Cette certification a été obtenue le 21/12/2023 par les organismes certificateurs MEDIASCHOOL PARIS et MEDIASCHOOL GROUP.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "École Supérieure du Parfum & de la Cosmétique",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Institut National de Gemmologie",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Ecole Supérieure de Publicité",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Ecole Supérieure du Digital",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "École de Condé",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "ECV",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Animum",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "SAE",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "ICMP",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "CEV",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "CES",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Visiplus",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Iscod",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "l’Asfored",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "l’IAAD",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Accademia Italiana",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "HMKW",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Barreira Arte+Diseño",
-    "partner_country": "unknown",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://ecole-eac.com/le-reseau-ad-education/",
-    "evidence_quote": "Les écoles membres du réseau sont : l’EAC, l’École Supérieure du Parfum & de la Cosmétique, l’Institut National de Gemmologie, l’Ecole Supérieure de Publicité, l’Ecole Supérieure du Digital, l’École de Condé, l’ECV, Animum, SAE, ICMP, CEV, CES, Visiplus, Iscod, l’Asfored, l’IAAD, Accademia Italiana, HMKW et Barreira Arte+Diseño.",
     "confidence": 0.9
    },
    {
@@ -291,28 +295,28 @@
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Paris",
+    "campus_name": "Campus de Paris",
     "city": "Paris",
     "country": "France",
     "role": "main",
     "source_url": "https://ecole-eac.com/",
-    "evidence_quote": "Paris"
+    "evidence_quote": "Campus de Paris"
    },
    {
-    "campus_name": "Lyon",
+    "campus_name": "Campus de Lyon",
     "city": "Lyon",
     "country": "France",
-    "role": "branch",
+    "role": "main",
     "source_url": "https://ecole-eac.com/",
-    "evidence_quote": "Lyon"
+    "evidence_quote": "Campus de Lyon"
    },
    {
-    "campus_name": "Shanghai",
+    "campus_name": "Campus de Shanghai",
     "city": "Shanghai",
     "country": "China",
     "role": "international",
     "source_url": "https://ecole-eac.com/",
-    "evidence_quote": "Shanghai"
+    "evidence_quote": "Campus de Shanghai"
    }
   ],
   "stated_total": 19,
@@ -321,20 +325,22 @@
   "truncated": false,
   "total_seen": 19,
   "pages_read": 9,
-  "coverage_note": "The evidence mentions Erasmus and international programs, but does not list specific named Erasmus mobility coordinators or individual partner universities with names. 1 page(s) could not be read.",
+  "coverage_note": "The evidence does not provide a specific list of Erasmus+ partner universities. Contact information for international mobility coordinators is missing. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 18.3,
-  "ai_calls": 5,
+  "crawl_s": 16.4,
+  "ai_calls": 6,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 7.4,
+  "model_s": 6.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
   "contact_pass": 0,
+  "staff_pages": 2,
+  "email_search_s": 14.9,
   "slices": [
    {
     "lines": [
@@ -361,7 +367,6 @@
     "accepted": 21
    }
   ],
-  "total_seconds": 26.6
- },
- "rechecked": 3
+  "total_seconds": 144.1
+ }
 }
