@@ -1,0 +1,70 @@
+{
+ "row_id": "r086",
+ "scraped_at": "2026-10-22T10:57:38Z",
+ "contacts": {
+  "row_id": "r086",
+  "institution_name": "STICHTING AMSTERDAMSE HOGESCHOOL VOOR DE KUNSTEN",
+  "institution_type": "college",
+  "official_website": "https://www.ahk.nl/",
+  "country": {
+   "value": "Nederland",
+   "source_url": "https://www.ahk.nl/",
+   "evidence_quote": "[Header CVA] Het grootste en meest veelzijdige conservatorium van Nederland"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@ahk.nl",
+  "generic_email_url": "https://www.ahk.nl/contact/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Amsterdamse Hogeschool voor de Kunsten",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.ahk.nl/",
+    "evidence_quote": "Jodenbreestraat 3"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence provides general institutional details and contact points for individual academies, but lacks a specific international mobility coordinator and partner lists.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 8.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 17.0,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 27.4
+ },
+ "rechecked": 2
+}

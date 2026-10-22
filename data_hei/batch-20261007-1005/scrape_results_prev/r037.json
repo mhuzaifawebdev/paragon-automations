@@ -1,0 +1,151 @@
+{
+ "row_id": "r037",
+ "scraped_at": "2026-10-22T11:13:23Z",
+ "contacts": {
+  "row_id": "r037",
+  "institution_name": "UNIVERSITA DEGLI STUDI DEL SANNIO",
+  "institution_type": "university",
+  "official_website": "https://www.unisannio.it/it",
+  "country": {
+   "value": "ITALY",
+   "source_url": "https://www.unisannio.it/it",
+   "evidence_quote": "Università degli Studi del Sannio di Benevento - Piazza Guerrazzi, 82100 Benevento, ITALY P.IVA: 01114010620"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "erasmus@unisannio.it",
+  "generic_email_url": "https://www.unisannio.it/it/articoli/partecipa-all-erasmus-italiano",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Politecnico di Bari",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.unisannio.it/it/articoli/partecipa-all-erasmus-italiano",
+    "evidence_quote": "Politecnico di Bari",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Università degli Studi di Napoli Federico II",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.unisannio.it/it/articoli/partecipa-all-erasmus-italiano",
+    "evidence_quote": "Università degli Studi di Napoli Federico II",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Università degli Studi di Brescia",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.unisannio.it/it/articoli/partecipa-all-erasmus-italiano",
+    "evidence_quote": "Università degli Studi di Brescia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Università di Sassari",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.unisannio.it/it/articoli/partecipa-all-erasmus-italiano",
+    "evidence_quote": "Università di Sassari",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Università degli Studi di Cassino e del Lazio Meridionale",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.unisannio.it/it/articoli/partecipa-all-erasmus-italiano",
+    "evidence_quote": "Università degli Studi di Cassino e del Lazio Meridionale",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Politecnico di Torino",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.unisannio.it/it/articoli/partecipa-all-erasmus-italiano",
+    "evidence_quote": "Politecnico di Torino",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Università degli Studi dell’Aquila",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.unisannio.it/it/articoli/partecipa-all-erasmus-italiano",
+    "evidence_quote": "Università degli Studi dell’Aquila",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Università degli Studi del Molise",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.unisannio.it/it/articoli/partecipa-all-erasmus-italiano",
+    "evidence_quote": "Università degli Studi del Molise",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Università degli Studi del Sannio di Benevento",
+    "city": "Benevento",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.unisannio.it/it",
+    "evidence_quote": "Università degli Studi del Sannio di Benevento"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 8,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information on the general Erasmus programs and national agreements (Erasmus Italiano), but does not list an extensive international partner university database.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 9.5,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 63.2,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     270
+    ],
+    "returned": 8,
+    "accepted": 8
+   }
+  ],
+  "total_seconds": 72.6
+ },
+ "rechecked": 2
+}

@@ -1,0 +1,142 @@
+{
+ "row_id": "r081",
+ "scraped_at": "2026-10-12T06:11:38Z",
+ "contacts": {
+  "row_id": "r081",
+  "institution_name": "UNIVERSITE DE NAMUR ASBL",
+  "institution_type": "university",
+  "official_website": "https://www.unamur.be/fr",
+  "country": {
+   "value": "Belgique",
+   "source_url": "https://www.unamur.be/fr",
+   "evidence_quote": "UNamur • Université de Namur Rue de Bruxelles 61, B-5000 Namur, Belgique"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
+  "generic_email": "international-relations@unamur.be",
+  "generic_email_url": "https://www.unamur.be/fr/international/reseaux-partenariats",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universeh",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unamur.be/fr",
+    "evidence_quote": "[Universeh]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kircher Network",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unamur.be/fr",
+    "evidence_quote": "[Kircher Network]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pole académique de Namur",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unamur.be/fr",
+    "evidence_quote": "[Pole académique de Namur]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Euraxess",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unamur.be/fr",
+    "evidence_quote": "[Euraxess]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Uniservitate",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unamur.be/fr",
+    "evidence_quote": "[Uniservitate, service-learning in Catholic Higher Education]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Réseau Kircher",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unamur.be/en/international/networks-partnerships",
+    "evidence_quote": "[Réseau Kircher 2023]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Université de Namur",
+    "city": "Namur",
+    "country": "Belgique",
+    "role": "main",
+    "source_url": "https://www.unamur.be/fr",
+    "evidence_quote": "UNamur • Université de Namur Rue de Bruxelles 61, B-5000 Namur, Belgique"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a specific list of individual partner universities, only mentions of networks and the existence of bilateral agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 19.7,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 27.2,
+  "mode": "gemini",
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 6,
+    "accepted": 6
+   },
+   {
+    "lines": [
+     281,
+     345
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 46.9
+ },
+ "rechecked": 2
+}
