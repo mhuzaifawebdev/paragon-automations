@@ -1,25 +1,49 @@
 {
  "row_id": "r554",
- "scraped_at": "2026-10-12T06:19:54Z",
+ "scraped_at": "2026-10-22T14:00:35Z",
  "contacts": {
   "row_id": "r554",
   "institution_name": "ECOLE SUPERIEURE DE CHIMIE ORGANIQUE ET MINERALE",
   "institution_type": "college",
   "official_website": "https://www.escom.fr/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "03.44.23.88.00",
+   "source_url": "https://www.escom.fr/nous-contacter/",
+   "evidence_quote": "03.44.23.88.00"
+  },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "international@escom.fr",
+  "generic_email_url": "https://www.escom.fr/mobilite-internationale/international-partnerships/",
+  "contact": {
+   "name": "Sandra LUQUET",
+   "designation": "Responsable des Relations Internationales",
+   "designation_local": "",
+   "email": "s.luquet@escom.fr",
+   "office_email": "",
+   "phone": "03.44.23.88.29",
+   "source_url": "https://www.escom.fr/nous-contacter/",
+   "evidence_quote": "Sandra LUQUET ... Responsable des Relations Internationales"
+  },
+  "alternates": [
+   {
+    "name": "Alexia LEFEBVRE",
+    "designation": "assistante Relations internationales",
+    "designation_local": "",
+    "email": "%61.lefe%62%76r%65@e%73com.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.escom.fr/nous-contacter/",
+    "evidence_quote": "Alexia LEFEBVRE ... assistante Relations internationales",
+    "why_chosen": "International relations officer. She is an assistant in the international relations department."
+   }
+  ],
+  "rung": "Head of international relations. She is the head of international relations at the institution.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.9,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -549,21 +573,22 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.8,
-  "crawl_s": 18.5,
+  "discover_s": 0.0,
+  "crawl_s": 20.2,
   "ai_calls": 4,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 8.9,
+  "model_s": 8.8,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 12,
+    "returned": 11,
     "accepted": 11
    },
    {
@@ -571,19 +596,18 @@
      281,
      420
     ],
-    "returned": 37,
-    "accepted": 37
+    "returned": 35,
+    "accepted": 35
    },
    {
     "lines": [
      421,
-     537
+     560
     ],
-    "returned": 20,
-    "accepted": 11
+    "returned": 14,
+    "accepted": 10
    }
   ],
-  "total_seconds": 32.2
- },
- "rechecked": true
+  "total_seconds": 29.0
+ }
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r578",
- "scraped_at": "2026-10-12T06:23:48Z",
+ "scraped_at": "2026-10-22T14:01:02Z",
  "contacts": {
   "row_id": "r578",
   "institution_name": "STOCKHOLMS KONSTNARLIGA HOGSKOLA",
@@ -9,6 +9,8 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -16,10 +18,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -438,6 +437,24 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Kungl. Musikhögskolan",
+    "partner_country": "Sweden",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.skh.se/",
+    "evidence_quote": "Välkommen till en kväll fylld av vacker operamusik när nio sångare från SKH och Kungl. Musikhögskolan möter KTH:s Akademiska Kapell. Det blir musik av Mozart, Verdi, Puccini, Bernstein och Strauss d y.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "KTH:s Akademiska Kapell",
+    "partner_country": "Sweden",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.skh.se/",
+    "evidence_quote": "Välkommen till en kväll fylld av vacker operamusik när nio sångare från SKH och Kungl. Musikhögskolan möter KTH:s Akademiska Kapell. Det blir musik av Mozart, Verdi, Puccini, Bernstein och Strauss d y.",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Erasmus+",
     "partner_country": "unknown",
     "partner_type": "network",
@@ -467,7 +484,7 @@
    {
     "partner_name": "Society for Artistic Research (SAR)",
     "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.skh.se/english/about-skh/international-cooperation/about-international-cooperation-at-skh/international-networks/",
     "evidence_quote": "Society for Artistic Research (SAR)",
@@ -476,7 +493,7 @@
    {
     "partner_name": "dance and the Child international (daCi)",
     "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.skh.se/english/about-skh/international-cooperation/about-international-cooperation-at-skh/international-networks/",
     "evidence_quote": "dance and the Child international (daCi)",
@@ -512,7 +529,7 @@
    {
     "partner_name": "Nordic Forum for Dance Research (NOFOD)",
     "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.skh.se/english/about-skh/international-cooperation/about-international-cooperation-at-skh/international-networks/",
     "evidence_quote": "Nordic Forum for Dance Research (NOFOD)",
@@ -521,10 +538,19 @@
    {
     "partner_name": "World Dance Alliance (WDA)",
     "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.skh.se/english/about-skh/international-cooperation/about-international-cooperation-at-skh/international-networks/",
     "evidence_quote": "World Dance Alliance (WDA)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AEC",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.skh.se/english/about-skh/international-cooperation/about-international-cooperation-at-skh/international-networks/",
+    "evidence_quote": "AEC",
     "confidence": 0.9
    },
    {
@@ -549,7 +575,7 @@
     "partner_name": "NordOpera",
     "partner_country": "unknown",
     "partner_type": "network",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.skh.se/english/about-skh/international-cooperation/about-international-cooperation-at-skh/international-networks/",
     "evidence_quote": "NordOpera",
     "confidence": 0.9
@@ -566,7 +592,7 @@
    {
     "partner_name": "Centre International de Liaison des Ecoles de Cinéma et de Tèlèvision (CILECT)",
     "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.skh.se/english/about-skh/international-cooperation/about-international-cooperation-at-skh/international-networks/",
     "evidence_quote": "Centre International de Liaison des Ecoles de Cinéma et de Tèlèvision (CILECT)",
@@ -575,7 +601,7 @@
    {
     "partner_name": "Groupement Européen des Ecoles de Cinéma et de Télévision (GEECT)",
     "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.skh.se/english/about-skh/international-cooperation/about-international-cooperation-at-skh/international-networks/",
     "evidence_quote": "Groupement Européen des Ecoles de Cinéma et de Télévision (GEECT)",
@@ -609,94 +635,54 @@
     "confidence": 0.9
    }
   ],
-  "internal_collaboration": [
-   {
-    "campus_name": "Brinellvägen 34",
-    "city": "Stockholm",
-    "country": "Sweden",
-    "role": "main",
-    "source_url": "https://www.skh.se/kontakta-oss/",
-    "evidence_quote": "Brinellvägen 34, 114 28 Stockholm"
-   },
-   {
-    "campus_name": "Brinellvägen 58",
-    "city": "Stockholm",
-    "country": "Sweden",
-    "role": "main",
-    "source_url": "https://www.skh.se/kontakta-oss/",
-    "evidence_quote": "Brinellvägen 58, 114 28 Stockholm"
-   },
-   {
-    "campus_name": "Teknikringen 35",
-    "city": "Stockholm",
-    "country": "Sweden",
-    "role": "main",
-    "source_url": "https://www.skh.se/kontakta-oss/",
-    "evidence_quote": "Teknikringen 35, 114 28 Stockholm"
-   },
-   {
-    "campus_name": "Valhallavägen 189",
-    "city": "Stockholm",
-    "country": "Sweden",
-    "role": "main",
-    "source_url": "https://www.skh.se/kontakta-oss/",
-    "evidence_quote": "Valhallavägen 189, 115 53 Stockholm"
-   },
-   {
-    "campus_name": "Valhallavägen 193",
-    "city": "Stockholm",
-    "country": "Sweden",
-    "role": "main",
-    "source_url": "https://www.skh.se/kontakta-oss/",
-    "evidence_quote": "Valhallavägen 193, 115 53 Stockholm"
-   }
-  ],
+  "internal_collaboration": [],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 65,
+  "total_seen": 68,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of partner universities and international networks. No specific contact person for Erasmus+ is named, only a functional email address.",
+  "coverage_note": "The evidence provides a list of partner universities but does not explicitly list the institution's own campus locations.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.4,
-  "crawl_s": 13.4,
-  "ai_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 13.9,
+  "ai_calls": 5,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 11.7,
+  "model_s": 11.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 36,
-    "accepted": 35
+    "returned": 39,
+    "accepted": 39
    },
    {
     "lines": [
      281,
-     387
+     347
     ],
-    "returned": 29,
-    "accepted": 29
+    "returned": 26,
+    "accepted": 26
    }
   ],
-  "total_seconds": 28.5
+  "total_seconds": 26.6
  },
  "rechecked": true
 }

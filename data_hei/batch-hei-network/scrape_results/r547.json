@@ -1,6 +1,6 @@
 {
  "row_id": "r547",
- "scraped_at": "2026-10-12T06:19:09Z",
+ "scraped_at": "2026-10-22T14:00:13Z",
  "contacts": {
   "row_id": "r547",
   "institution_name": "WYZSZA SZKOLA BIZNESU - NATIONAL-LOUIS UNIVERSITY W NOWYM SACZU",
@@ -17,17 +17,48 @@
    "evidence_quote": "tel. 18/44 99 107 or visit room 022, building C"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "erasmus@wsb-nlu.edu.pl",
   "generic_email_url": "https://www.wsb-nlu.edu.pl/pl/kontakt",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "dr Dariusz Woźniak",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.wsb-nlu.edu.pl/pl/wpisy/wsb-nlu-i-zespol-szkol-ekonomicznych-w-nowym-saczu-podpisaly-porozumienie-o-wspolpracy",
+   "evidence_quote": "dr Dariusz Woźniak, prof. WSB-NLU – Rektor Wyższej Szkoły Biznesu – National Louis University."
+  },
+  "alternates": [
+   {
+    "name": "International Relations Office",
+    "designation": "International Relations Office",
+    "designation_local": "",
+    "email": "bwz@wsb-nlu.edu.pl",
+    "office_email": "",
+    "phone": "18/44 99 107",
+    "source_url": "https://www.wsb-nlu.edu.pl/en/staff-mobility",
+    "evidence_quote": "For more information, please contact International Relations Office of WSB-NLU: bwz@wsb-nlu.edu.pl",
+    "why_chosen": "Head of international relations. This office handles international relations and staff mobility inquiries."
+   },
+   {
+    "name": "mgr Sławomir Piętka",
+    "designation": "Managing Director",
+    "designation_local": "",
+    "email": "rektorat@wsb-nlu.edu.pl",
+    "office_email": "",
+    "phone": "+48 18 44 99 112",
+    "source_url": "https://www.wsb-nlu.edu.pl/pl/kontakt",
+    "evidence_quote": "Dyrektor Zarządzający - mgr Sławomir Piętka",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the Managing Director in the Office of the Rector and Chancellor."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the Rector of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -250,7 +281,7 @@
    {
     "partner_name": "Vilniaus Kooperacijos Kolegija",
     "partner_country": "Lithuania",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.wsb-nlu.edu.pl/en/erasmus",
     "evidence_quote": "Vilniaus Kooperacijos Kolegija",
@@ -392,57 +423,57 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Partner Universities",
+    "partner_name": "Uczelnie partnerskie",
     "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
-    "source_url": "https://www.wsb-nlu.edu.pl/en",
-    "evidence_quote": "Partner Universities 3",
+    "source_url": "https://www.wsb-nlu.edu.pl/",
+    "evidence_quote": "Uczelnie partnerskie 32",
     "confidence": 0.9
    },
    {
-    "partner_name": "Erasmus+",
+    "partner_name": "Partnerzy Erasmus+",
     "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://www.wsb-nlu.edu.pl/en",
-    "evidence_quote": "Erasmus+ Partners 31",
+    "source_url": "https://www.wsb-nlu.edu.pl/",
+    "evidence_quote": "Partnerzy Erasmus+ 31",
     "confidence": 0.9
    },
    {
-    "partner_name": "Business Partners",
+    "partner_name": "Firmy partnerskie",
     "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
-    "source_url": "https://www.wsb-nlu.edu.pl/en",
-    "evidence_quote": "Business Partners 36",
+    "source_url": "https://www.wsb-nlu.edu.pl/",
+    "evidence_quote": "Firmy partnerskie 37",
     "confidence": 0.9
    },
    {
-    "partner_name": "Partner Schools",
+    "partner_name": "Szkoły partnerskie",
     "partner_country": "unknown",
     "partner_type": "school",
     "mobility_type": "unknown",
-    "source_url": "https://www.wsb-nlu.edu.pl/en",
-    "evidence_quote": "Partner Schools 77",
+    "source_url": "https://www.wsb-nlu.edu.pl/",
+    "evidence_quote": "Szkoły partnerskie 77",
     "confidence": 0.9
    },
    {
-    "partner_name": "International Partners",
+    "partner_name": "Partnerzy międzynarodowi",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wsb-nlu.edu.pl/",
+    "evidence_quote": "Partnerzy międzynarodowi 1",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institute of Biofeedback and Noo-Psychosomatic",
     "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.wsb-nlu.edu.pl/en",
-    "evidence_quote": "International Partners 1",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "University of Madeira",
-    "partner_country": "Portugal",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.wsb-nlu.edu.pl/en",
-    "evidence_quote": "Representatives of Wyższa Szkoła Biznesu – National Louis University (WSB-NLU) participated in the IX Leipzig–Évora Scientific Meeting in Psychology and Health Sciences / I European Scientific Meeting in Psychology and Health Sciences, held at the University of Madeira in Funchal, Portugal.",
+    "evidence_quote": "[WSB-NLU establishes cooperation with the Institute of Biofeedback and Noo-Psychosomatic]",
     "confidence": 0.9
    },
    {
@@ -473,30 +504,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Małopolska Agencja Rozwoju Edukacji Przedsiębiorczości i Innowacji Sp. z o.o. – MAREPII",
-    "partner_country": "Poland",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.wsb-nlu.edu.pl/pl/wpisy/slowa-maja-moc-wsb-nlu-partnerem-konferencji-poswieconej-przeciwdzialaniu-hejtowi",
-    "evidence_quote": "Wyższa Szkoła Biznesu – National Louis University w Nowym Sączu została partnerem konferencji organizowanej przez Małopolską Agencję Rozwoju Edukacji Przedsiębiorczości i Innowacji Sp. z o.o. – MAREPII w ramach projektu „Słowa Mają Moc”",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "R-SEC",
+    "partner_name": "Erasmus+",
     "partner_country": "unknown",
-    "partner_type": "company",
+    "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://www.wsb-nlu.edu.pl/pl/wpisy/slowa-maja-moc-wsb-nlu-partnerem-konferencji-poswieconej-przeciwdzialaniu-hejtowi",
-    "evidence_quote": "„Cyberhigiena: chroń siebie, szanuj innych” – Wojciech Bobak, Prezes R-SEC,",
+    "source_url": "https://www.wsb-nlu.edu.pl/en",
+    "evidence_quote": "[Erasmus+]",
     "confidence": 0.9
    },
    {
-    "partner_name": "Komenda Miejska Policji w Nowym Sączu",
-    "partner_country": "Poland",
+    "partner_name": "Eduniversal",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://www.wsb-nlu.edu.pl/pl/wpisy/slowa-maja-moc-wsb-nlu-partnerem-konferencji-poswieconej-przeciwdzialaniu-hejtowi",
-    "evidence_quote": "„Odpowiedzialność prawna nieletnich” – mł. asp. mgr Radosław Koział, specjalista Zespołu ds. Prewencji Kryminalnej Nieletnich i Patologii Wydziału Prewencji Komendy Miejskiej Policji w Nowym Sączu,",
+    "source_url": "https://www.wsb-nlu.edu.pl/en",
+    "evidence_quote": "Eduniversal Ranking 2023 Business School",
     "confidence": 0.9
    },
    {
@@ -505,7 +527,7 @@
     "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.wsb-nlu.edu.pl/pl/wpisy/wsb-nlu-i-zespol-szkol-ekonomicznych-w-nowym-saczu-podpisaly-porozumienie-o-wspolpracy",
-    "evidence_quote": "[WSB-NLU i Zespół Szkół Ekonomicznych w Nowym Sączu podpisały porozumienie o współpracy] 22 września 2026 r. WSB-NLU i Zespół Szkół Ekonomicznych w Nowym Sączu podpisały porozumienie o współpracy",
+    "evidence_quote": "Współpraca z Zespołem Szkół Ekonomicznych w Nowym Sączu pozwoli na wykorzystanie potencjału obu instytucji i stworzenie uczniom dodatkowych możliwości rozwoju, zdobywania nowych doświadczeń oraz poznawania zagadnień, z którymi mogą spotkać się w przyszłości podczas studiów i w życiu zawodowym.",
     "confidence": 0.9
    },
    {
@@ -514,16 +536,16 @@
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.wsb-nlu.edu.pl/pl/wpisy/wsb-nlu-i-zespol-szkol-ekonomicznych-w-nowym-saczu-podpisaly-porozumienie-o-wspolpracy",
-    "evidence_quote": "26.09.2026 Władze WSB-NLU z wizytą na META University. Podpisanie Memorandum of Understanding.",
+    "evidence_quote": "Współprace [Władze WSB-NLU z wizytą na META University. Podpisanie Memorandum of Understanding.]",
     "confidence": 0.9
    },
    {
     "partner_name": "EFMD",
-    "partner_country": "Serbia",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.wsb-nlu.edu.pl/pl/wpisy/wsb-nlu-i-zespol-szkol-ekonomicznych-w-nowym-saczu-podpisaly-porozumienie-o-wspolpracy",
-    "evidence_quote": "24.09.2026 Przedstawiciele WSB-NLU na EFMD Forum 2026 w Belgradzie",
+    "evidence_quote": "Współprace [Przedstawiciele WSB-NLU na EFMD Forum 2026 w Belgradzie]",
     "confidence": 0.9
    },
    {
@@ -532,18 +554,54 @@
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.wsb-nlu.edu.pl/pl/wpisy/wsb-nlu-i-zespol-szkol-ekonomicznych-w-nowym-saczu-podpisaly-porozumienie-o-wspolpracy",
-    "evidence_quote": "22.09.2026 Władze WSB-NLU z wizytą na Almaty Humanitarian and Economic University. Kolejny etap współpracy międzynarodowej",
+    "evidence_quote": "Współprace [Władze WSB-NLU z wizytą na Almaty Humanitarian and Economic University. Kolejny etap współpracy międzynarodowej]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Google",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wsb-nlu.edu.pl/pl/people-and-culture-management",
+    "evidence_quote": "Pobierz Ta witryna jest chroniona przez reCAPTCHA oraz politykę prywatności i warunki usług Google.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Google Cloud",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wsb-nlu.edu.pl/pl/people-and-culture-management",
+    "evidence_quote": "Google Cloud",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Polska Agencja Rozwoju Przedsiębiorczości",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wsb-nlu.edu.pl/pl/people-and-culture-management",
+    "evidence_quote": "Baza Usług Rozwojowych (BUR) to ogólnopolska platforma prowadzona przez Polską Agencję Rozwoju Przedsiębiorczości (PARP), oferująca dostęp do szkoleń, kursów, usług doradczych oraz innych form podnoszenia kwalifikacji i rozwoju kompetencji. Z platformy korzystają zarówno osoby indywidualne, jak i przedsiębiorcy, również w celu wyboru usług objętych możliwością dofinansowania.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Complex of Economic Schools in Nowy Sącz",
+    "partner_country": "Poland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wsb-nlu.edu.pl/en/nws/wsb-nlu-and-the-complex-of-economic-schools-in-nowy-sacz-signed-a-cooperation-agreement",
+    "evidence_quote": "[WSB-NLU and the Complex of Economic Schools in Nowy Sącz Signed a Cooperation Agreement] 22 September 2026 r. WSB-NLU and the Complex of Economic Schools in Nowy Sącz Signed a Cooperation Agreement",
     "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Main Campus",
+    "campus_name": "Akademia WSB-NLU",
     "city": "Nowy Sącz",
     "country": "Poland",
     "role": "main",
     "source_url": "https://www.wsb-nlu.edu.pl/",
-    "evidence_quote": "[bip] Wyższa Szkoła Biznesu (WSB NLU) w Nowym Sączu ul. Grunwaldzka 17, 33-300 Nowy Sącz"
+    "evidence_quote": "[bip] Akademia WSB-NLU ul. Grunwaldzka 17, 33-300 Nowy Sącz"
    },
    {
     "campus_name": "Filia w Krakowie",
@@ -568,54 +626,71 @@
   "truncated": false,
   "total_seen": 31,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of Erasmus+ partners and some international cooperation partners, but it is not exhaustive of all institutional agreements.",
+  "coverage_note": "The evidence provides a list of Erasmus+ partners and some international cooperation partners, but does not provide a comprehensive list of all institutional agreements.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.6,
-  "crawl_s": 15.2,
-  "ai_calls": 5,
-  "partner_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 16.7,
+  "ai_calls": 8,
+  "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 17.1,
+  "model_s": 11.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 4,
+  "email_search_s": 1.3,
   "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 5
+   },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 10,
-    "accepted": 9
+    "returned": 6,
+    "accepted": 6
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 12,
-    "accepted": 12
+    "returned": 9,
+    "accepted": 9
    },
    {
     "lines": [
      701,
      840
     ],
-    "returned": 4,
-    "accepted": 4
+    "returned": 7,
+    "accepted": 7
    },
    {
     "lines": [
      841,
-     895
+     980
     ],
-    "returned": 31,
-    "accepted": 31
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     981,
+     1072
+    ],
+    "returned": 32,
+    "accepted": 32
    }
   ],
-  "total_seconds": 34.9
- },
- "rechecked": true
+  "total_seconds": 31.4
+ }
 }
