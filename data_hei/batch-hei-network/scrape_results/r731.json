@@ -1,6 +1,6 @@
 {
  "row_id": "r731",
- "scraped_at": "2026-10-12T06:47:07Z",
+ "scraped_at": "2026-10-22T21:23:36Z",
  "contacts": {
   "row_id": "r731",
   "institution_name": "École d'Hôtellerie et de Tourisme du Luxembourg",
@@ -8,26 +8,57 @@
   "official_website": "https://www.ehtl.lu/",
   "country": {
    "value": "Luxembourg",
-   "source_url": "https://www.ehtl.lu/wp-content/uploads/ehtl-docs/erasmus/strategie_erasmus_ehtl.pdf",
-   "evidence_quote": "L’École d’Hôtellerie et de Tourisme du Luxembourg e st la seule institution à proposer un"
+   "source_url": "https://www.ehtl.lu/",
+   "evidence_quote": "École d'Hôtellerie et de Tourisme du Luxembourg | École d'Hôtellerie et de Tourisme du Luxembourg"
   },
   "phone": {
-   "value": "+352) 80 87 91",
-   "source_url": "https://www.ehtl.lu/contact/",
-   "evidence_quote": "Tél. : (+352) 80 87 91 – 407 | (+352) 80 87 91 – 404"
+   "value": "80 87 91-404",
+   "source_url": "https://www.ehtl.lu/ecole/departements/direction/",
+   "evidence_quote": "Tél. 80 87 91-404"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 8,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 4 page(s) could not be read.",
   "generic_email": "secretariat.direction@ehtl.lu",
   "generic_email_url": "https://www.ehtl.lu/contact/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "LANNERS Michel",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "directeur@ehtl.lu",
+   "office_email": "",
+   "phone": "80 87 91-404",
+   "source_url": "https://www.ehtl.lu/ecole/departements/direction/",
+   "evidence_quote": "LANNERS Michel ... Directeur"
+  },
+  "alternates": [
+   {
+    "name": "PRETTI Sylvie",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "directrice.adjointe@ehtl.lu",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ehtl.lu/ecole/departements/direction/",
+    "evidence_quote": "PRETTI Sylvie ... Directrice adjointe",
+    "why_chosen": "Principal / director (no Erasmus contact found). Sylvie Pretti is the Deputy Director of the institution."
+   },
+   {
+    "name": "PÜTZ Evelyne",
+    "designation": "Student Secretary",
+    "designation_local": "",
+    "email": "evelyne.putz@ehtl.lu",
+    "office_email": "",
+    "phone": "80 87 91 402",
+    "source_url": "https://www.ehtl.lu/ecole/departements/secretariat-des-eleves/",
+    "evidence_quote": "PÜTZ Evelyne ... Secrétaire des élèves",
+    "why_chosen": "Secretary / administration (last resort). Evelyne Pütz is a secretary at the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Michel Lanners is the Director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 18,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 5 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -179,33 +210,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 26.3,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 183.3,
+  "ai_calls": 1,
+  "model_s": 2.6,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 8,
-    "accepted": 8
-   },
-   {
-    "lines": [
-     141,
-     222
-    ],
-    "returned": 2,
-    "accepted": 2
-   }
-  ],
-  "total_seconds": 32.0
- },
- "rechecked": 3
+  "email_search_s": 6.6,
+  "total_seconds": 192.5
+ }
 }
