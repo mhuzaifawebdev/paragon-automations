@@ -1,29 +1,33 @@
 {
  "row_id": "r770",
- "scraped_at": "2026-10-12T06:52:23Z",
+ "scraped_at": "2026-10-22T14:09:04Z",
  "contacts": {
   "row_id": "r770",
   "institution_name": "Veleuciliste u Karlovcu",
   "institution_type": "college",
   "official_website": "https://www.vuka.hr/",
-  "country": {
-   "value": "Croatia",
-   "source_url": "https://www.vuka.hr/medunarodna_suradnja/erasmus_program",
-   "evidence_quote": "We’re excited to invite you to the BIP \"Flavors of Croatia\", taking place at the Karlovac University of Applied Sciences (VUKA) from June 16th to 20th, 2025!"
-  },
+  "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "dekanat@vuka.hr",
   "generic_email_url": "https://www.vuka.hr/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Ivana Varičak",
+   "designation": "Erasmus coordinator",
+   "designation_local": "",
+   "email": "ivana.varicak@vuka.hr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.vuka.hr/medunarodna_suradnja/erasmus_program",
+   "evidence_quote": "📧 Contact us: ivana.varicak@vuka.hr <ivana.varicak@vuka.hr> or mblazic@vuka.hr <mblazic@vuka.hr>"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. Ivana Varičak is explicitly named as the Erasmus coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -301,33 +305,33 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.7,
-  "crawl_s": 11.6,
+  "discover_s": 0.0,
+  "crawl_s": 14.1,
   "ai_calls": 3,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 6.8,
+  "model_s": 7.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      141,
      280
     ],
-    "returned": 15,
-    "accepted": 15
+    "returned": 14,
+    "accepted": 14
    },
    {
     "lines": [
      281,
-     391
+     395
     ],
-    "returned": 12,
-    "accepted": 12
+    "returned": 13,
+    "accepted": 13
    }
   ],
-  "total_seconds": 20.1
- },
- "rechecked": true
+  "total_seconds": 21.2
+ }
 }
