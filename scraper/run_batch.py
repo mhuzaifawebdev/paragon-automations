@@ -332,6 +332,7 @@ def merge(rows):
             "designation_local": ct.get("designation_local") or "",
             "email_scraped": ct.get("email") or "",
             "office_email": ct.get("office_email") or "",
+            "generic_email": c.get("generic_email") or "",
             "contact_phone": ct.get("phone") or "",
             "contact_source_url": ct.get("source_url") or "",
             "contact_evidence": ct.get("evidence_quote") or "",

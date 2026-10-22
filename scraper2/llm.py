@@ -23,7 +23,7 @@ import urllib.request
 
 ROLE_CLASSES = ["institutional_erasmus_coordinator", "international_relations_head",
                 "international_relations_officer", "mobility_coordinator", "vice_rector_international",
-                "faculty_coordinator", "principal_or_director", "secretary_or_admin", "other"]
+                "faculty_coordinator", "principal_or_director", "language_or_project_teacher", "secretary_or_admin", "other"]
 
 
 def _int():
@@ -77,9 +77,9 @@ SYSTEM = (
 RULES = """TASK. From the evidence below return:
 1. institution_type: university (awards degrees), college (vocational/professional/further education), school (primary/secondary), or unknown. country: name + the line that shows it (an address or the country named).
 2. contacts (up to {NCONTACTS}, best first): the people to call about Erasmus+ / international mobility at THIS institution. Rank by relevance to Erasmus+ partnerships:
-   institutional_erasmus_coordinator > international_relations_head > international_relations_officer > mobility_coordinator > vice_rector_international > faculty_coordinator > principal_or_director > secretary_or_admin.
+   institutional_erasmus_coordinator > international_relations_head > international_relations_officer > mobility_coordinator > vice_rector_international > faculty_coordinator > principal_or_director > language_or_project_teacher > secretary_or_admin.
    Prefer a NAMED person who has their own email on the same page as their name. Prefer institution-level roles over faculty/department roles.
-   If no Erasmus/international person exists you MUST still return the principal/director and any named secretary/administrator (role_class principal_or_director / secretary_or_admin), best first. Return an empty list ONLY if no named person with a role appears anywhere in the evidence.
+   If no Erasmus/international person exists you MUST still return, best first: the head of the institution (principal, director, head teacher, headmaster/headmistress: role_class principal_or_director); then an English or other foreign-language teacher, or a teacher who runs EU / Erasmus+ / eTwinning / international projects (role_class language_or_project_teacher); then any named secretary/administrator (role_class secretary_or_admin). Schools and colleges often list only teachers: a named English or language teacher is a good contact. Return an empty list ONLY if no named person with a role appears anywhere in the evidence.
    {ONFILE_RULE}
    A person qualifies only if a line STATES their role or job title. A name on its own (a byline, a caption, a date line) is not a contact.
    name_line = the line containing the person's name; role_line = the line stating their role (may be the same line); email_line / phone_line = a line on the SAME page containing their own email / phone (0 if none). designation_english = their role in English; why = one plain-English sentence on why this person is the right contact.

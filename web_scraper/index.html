@@ -170,6 +170,7 @@
     <a href="#scraper" data-view="scraper"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0-12 4 4m-4-4-4 4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>Scraper</a>
     <a href="#dashboard" data-view="dashboard"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10m6 10V4m6 16v-7m4 7H2"/></svg>Dashboard</a>
     <a href="#batches" data-view="batches"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Batches</a>
+    <a href="#institutes" data-view="institutes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg>Institutes</a>
   </nav>
   <div class="side-foot" id="d-updated">Loading figures…</div>
 </aside>
@@ -276,6 +277,19 @@
       <div class="scroll"><table class="data" id="d-batches"></table></div>
     </div>
   
+  </section>
+  <section class="view" id="view-institutes" hidden>
+    <div class="tiles" id="i-tiles"></div>
+    <div class="card">
+      <h2>Campuses and partners per institute</h2>
+      <div class="hint">Counts only. Search by name or country, pick a batch, and click a column to sort.</div>
+      <div class="row2" style="margin-bottom:14px">
+        <input type="text" id="i-search" placeholder="Search institute or country" aria-label="Search institute or country">
+        <select id="i-batch" aria-label="Batch"><option value="">All batches</option></select>
+      </div>
+      <div class="scroll" style="max-height:620px;overflow-y:auto"><table class="data" id="i-table"></table></div>
+      <div class="hint" id="i-count" style="margin:10px 0 0"></div>
+    </div>
   </section>
 </main>
 <footer>Runs on GitHub Actions in chunks — safe to close this tab, progress keeps going. A large batch pauses when the free AI allowance runs out and resumes by itself. Refreshes every 20s while running, every 2 min while paused.</footer>
@@ -813,13 +827,16 @@ function dayLabel(iso, long) {
   const d = new Date(iso + "T00:00:00Z");
   return d.toLocaleDateString("en-GB", long ? { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" } : { day: "numeric", month: "short", timeZone: "UTC" });
 }
+const avg = (a, b) => b ? (a / b).toLocaleString("en-GB", { maximumFractionDigits: 1 }) : "–";
 function renderTiles(t) {
+  const site = t.with_website ?? (t.institutes - (t.no_website || 0));
   const tiles = [
     [fmtN(t.institutes), "Institutes scraped", fmtN(t.batches) + " batches"],
-    [fmtN(t.with_contact), "Contacts found", pct(t.with_contact, t.institutes) + " of institutes"],
-    [fmtN(t.with_email), "With an email", pct(t.with_email, t.with_contact) + " of contacts"],
-    [fmtN(t.partners), "Partners found", "across all institutes"],
-    [fmtN(t.campuses), "Campuses found", "own sites and branches"],
+    [fmtN(t.with_contact), "Contacts found", pct(t.with_contact, site) + " of institutes with a website"],
+    [fmtN(t.with_email), "With an email", t.personal_email != null ? `${fmtN(t.personal_email)} work · ${fmtN(t.generic_email)} generic`
+      : pct(t.with_email, t.institutes) + " of institutes"],
+    [avg(t.partners, site), "Partners per institute", "average · " + fmtN(t.partners) + " in all"],
+    [avg(t.campuses, site), "Campuses per institute", "average · " + fmtN(t.campuses) + " in all"],
     [fmtN(t.no_website), "Website not found", pct(t.no_website, t.institutes) + " of institutes"],
   ];
   $("d-tiles").innerHTML = tiles.map(([n, l, s]) => `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div></div>`).join("");
@@ -890,11 +907,59 @@ async function loadStats() {
 loadStats();
 setInterval(loadStats, 60000);
 
+// ---------------- Institutes view: campuses and partners per institute (counts only) ----------------
+let instRows = null, instSort = { key: "partners", dir: -1 };
+async function loadInstitutes() {
+  if (instRows) return renderInstitutes();
+  $("i-table").innerHTML = `<tr><td class="empty">Loading…</td></tr>`;
+  try {
+    const d = await (await fetch("/api/stats?view=institutes", { cache: "no-store" })).json();
+    instRows = d.institutes || [];
+    const batches = [...new Set(instRows.map(r => r.batch))].sort();
+    $("i-batch").innerHTML = `<option value="">All batches</option>` + batches.map(b => `<option>${esc(b)}</option>`).join("");
+    renderInstitutes();
+  } catch (e) {
+    $("i-table").innerHTML = `<tr><td class="empty">Could not load the list: ${esc(e.message)}</td></tr>`;
+  }
+}
+function renderInstitutes() {
+  const q = $("i-search").value.trim().toLowerCase(), b = $("i-batch").value;
+  const rows = instRows.filter(r => (!b || r.batch === b) && (!q || (r.name + " " + r.country).toLowerCase().includes(q)));
+  const k = instSort.key, dir = instSort.dir;
+  rows.sort((x, y) => (typeof x[k] === "number" ? x[k] - y[k] : String(x[k]).localeCompare(String(y[k]))) * dir);
+  const site = rows.filter(r => r.website);
+  const sum = key => site.reduce((s, r) => s + r[key], 0);
+  $("i-tiles").innerHTML = [
+    [fmtN(rows.length), "Institutes", b || "all batches"],
+    [avg(sum("campuses"), site.length), "Campuses per institute", "average · " + fmtN(sum("campuses")) + " in all"],
+    [avg(sum("partners"), site.length), "Partners per institute", "average · " + fmtN(sum("partners")) + " in all"],
+    [fmtN(site.filter(r => r.partners > 0).length), "With partners found", pct(site.filter(r => r.partners > 0).length, site.length) + " of institutes with a website"],
+  ].map(([n, l, s]) => `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${esc(s)}</div></div>`).join("");
+  const cols = [["name", "Institute"], ["country", "Country"], ["batch", "Batch"], ["campuses", "Campuses", "r"], ["partners", "Partners", "r"]];
+  const arrow = key => key === k ? (dir > 0 ? " ▲" : " ▼") : "";
+  const shown = rows.slice(0, 1000);
+  $("i-table").innerHTML = rows.length
+    ? `<tr>${cols.map(([key, l, c]) => `<th class="${c || ""}" data-key="${key}" style="cursor:pointer">${l}${arrow(key)}</th>`).join("")}</tr>` +
+      shown.map(r => `<tr><td style="white-space:normal">${esc(r.name)}</td><td>${esc(r.country)}</td><td class="mono">${esc(r.batch)}</td>` +
+        `<td class="r">${r.website ? fmtN(r.campuses) : "–"}</td><td class="r">${r.website ? fmtN(r.partners) : "–"}</td></tr>`).join("")
+    : `<tr><td class="empty">No institute matches.</td></tr>`;
+  $("i-count").textContent = rows.length > shown.length ? `Showing the first ${fmtN(shown.length)} of ${fmtN(rows.length)}. Search or pick a batch to narrow it.`
+    : "– = website not found, nothing to count.";
+  document.querySelectorAll("#i-table th[data-key]").forEach(th => th.onclick = () => {
+    const key = th.dataset.key;
+    instSort = { key, dir: key === instSort.key ? -instSort.dir : (key === "campuses" || key === "partners" ? -1 : 1) };
+    renderInstitutes();
+  });
+}
+$("i-search").addEventListener("input", () => instRows && renderInstitutes());
+$("i-batch").addEventListener("change", () => instRows && renderInstitutes());
+
 // ---------------- side menu: one section at a time; the address remembers it (#scraper, #dashboard, #batches) ----------------
 const VIEWS = {
   scraper: ["Scraper", "Upload a list of institutes, follow the run, download the results."],
   dashboard: ["Dashboard", "Totals and daily figures across every batch."],
-  batches: ["Batches", "Every batch run so far."]
+  batches: ["Batches", "Every batch run so far."],
+  institutes: ["Institutes", "Campuses and partners found for each institute."]
 };
 function showView(name) {
   if (!VIEWS[name]) name = "scraper";
@@ -906,6 +971,7 @@ function showView(name) {
   });
   $("view-title").textContent = VIEWS[name][0];
   $("view-sub").textContent = VIEWS[name][1];
+  if (name === "institutes") loadInstitutes();
   try { if (location.hash !== "#" + name) history.replaceState(null, "", location.pathname + location.search + "#" + name); } catch {}
 }
 document.querySelectorAll(".menu a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); showView(a.dataset.view); }));

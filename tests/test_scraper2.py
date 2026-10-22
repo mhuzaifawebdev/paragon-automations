@@ -647,5 +647,40 @@ check("both list-like slices are read, as before", (extra["calls"], missed, [p["
 check("each slice records its lines and what it returned",
       extra["slices"], [{"lines": [1, 140], "names": ["University of Town 3"]}, {"lines": [141, 280], "names": []}])
 
+# ---- schools and colleges: language / EU-project teachers are a contact when no Erasmus person is named ----
+import rank  # noqa: E402
+
+check("English teacher is a language_or_project_teacher", rank._role_of("Nauczyciel języka angielskiego"), "language_or_project_teacher")
+check("teacher of English (word order reversed)", rank._role_of("Teacher of English"), "language_or_project_teacher")
+check("eTwinning project teacher", rank._role_of("eTwinning project teacher"), "language_or_project_teacher")
+check("Erasmus+ project coordinator stays the Erasmus contact", rank._role_of("Erasmus+ project coordinator"),
+      "institutional_erasmus_coordinator")
+check("head teacher stays the head of the institution", rank._role_of("Head teacher"), "principal_or_director")
+check("a maths teacher is not a language teacher", rank._role_of("Mathematics teacher"), None)
+check("teacher ranks after the principal and before the secretary",
+      pl.ROLE_ORDER.index("principal_or_director") < pl.ROLE_ORDER.index("language_or_project_teacher")
+      < pl.ROLE_ORDER.index("secretary_or_admin"), True)
+check("the model may answer with the teacher role", "language_or_project_teacher" in llm.ROLE_CLASSES, True)
+
+# ---- the institute's general inbox: own domain only, shared inboxes only, international ones first ----
+gpages = [{"url": "https://www.ph-weingarten.de/", "text": "poststelle(at)ph-weingarten.de · Tim Kaiser kaisert@ph-weingarten.de "
+           "· iod@ph-weingarten.de · webmaster@ph-weingarten.de · info@gmail.com"},
+          {"url": "https://www.ph-weingarten.de/int", "text": "International Office <international@ph-weingarten.de>"}]
+check("international inbox beats the general one", pl.pick_generic_email(gpages, "https://www.ph-weingarten.de/"),
+      ("international@ph-weingarten.de", "https://www.ph-weingarten.de/int"))
+check("obfuscated (at) address is read; personal, privacy, webmaster and other domains are not",
+      pl.pick_generic_email(gpages[:1], "https://www.ph-weingarten.de/"), ("poststelle@ph-weingarten.de", "https://www.ph-weingarten.de/"))
+check("a site that redirected: its pages' domain counts as its own",
+      pl.pick_generic_email([{"url": "https://akp.bydgoszcz.pl/", "text": "internationaloffice@akp.bydgoszcz.pl"}], "https://kpsw.edu.pl/")[0],
+      "internationaloffice@akp.bydgoszcz.pl")
+check("an inbox named after the site counts", pl.pick_generic_email(
+      [{"url": "https://www.accademiadibrera.milano.it/", "text": "accademia@accademiadibrera.milano.it"}],
+      "https://www.accademiadibrera.milano.it/")[0], "accademia@accademiadibrera.milano.it")
+check("a neighbour on the same city domain does not", pl.pick_generic_email(
+      [{"url": "https://www.accademiadibrera.milano.it/", "text": "info@comune.milano.it"}], "https://www.accademiadibrera.milano.it/"),
+      ("", ""))
+check("only personal addresses: no inbox", pl.pick_generic_email(
+      [{"url": "https://x.edu/", "text": "anna.kowalska@x.edu, j.nowak@x.edu"}], "https://x.edu/"), ("", ""))
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

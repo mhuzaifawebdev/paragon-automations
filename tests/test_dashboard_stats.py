@@ -33,5 +33,20 @@ check("one row per day", [(x["day"], x["institutes"]) for x in s["days"]], [("20
 check("the batch list uses progress.json for status and progress", (s["batches"][0]["status"], s["batches"][0]["done"], s["batches"][0]["total_rows"]), ("running", 2, 3))
 check("no names or emails are copied into the figures", "a@x.edu" in json.dumps(s) or '"A"' in json.dumps(s), False)
 
+# a generic inbox counts as an email too, so 'With an email' = work email OR generic inbox
+g = r("2026-10-20", None, 2)
+g["contacts"].update(generic_email="info@y.edu", institution_name=' "Y  College " ', country={"value": "Malta"})
+g["network"]["internal_collaboration"] = [{}] * 3
+(d / "b1" / "scrape_results" / "r003.json").write_text(json.dumps(g))
+rows = []
+s = bds.build(d, rows=rows)
+check("email = work or generic, with the split kept",
+      {k: s["totals"][k] for k in ("with_email", "personal_email", "generic_email", "with_website")},
+      {"with_email": 2, "personal_email": 1, "generic_email": 1, "with_website": 2})
+check("one Institutes line per result, name cleaned, counts only",
+      sorted((x["name"], x["country"], x["campuses"], x["partners"], x["website"]) for x in rows),
+      [("", "", 0, 0, 0), ("", "", 0, 4, 1), ("Y College", "Malta", 3, 2, 1)])
+check("the Institutes lines carry no email", "info@y.edu" in json.dumps(rows), False)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

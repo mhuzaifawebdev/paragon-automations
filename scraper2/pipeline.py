@@ -45,13 +45,14 @@ ROLE_LABEL = {
     "vice_rector_international": "Vice-rector for international affairs",
     "faculty_coordinator": "Faculty-level Erasmus/international coordinator",
     "principal_or_director": "Principal / director (no Erasmus contact found)",
+    "language_or_project_teacher": "English / language or EU-project teacher (no Erasmus contact found)",
     "secretary_or_admin": "Secretary / administration (last resort)",
     "other": "Other role",
 }
 ROLE_ORDER = list(ROLE_LABEL)
 ROLE_CONF = {"institutional_erasmus_coordinator": 0.9, "international_relations_head": 0.85,
              "international_relations_officer": 0.8, "mobility_coordinator": 0.8, "vice_rector_international": 0.7,
-             "faculty_coordinator": 0.6, "principal_or_director": 0.55, "secretary_or_admin": 0.4, "other": 0.3}
+             "faculty_coordinator": 0.6, "principal_or_director": 0.55, "language_or_project_teacher": 0.5, "secretary_or_admin": 0.4, "other": 0.3}
 
 COUNTRY_ALIASES = {
     "spain": ["spain", "espana", "espagne", "spanien", "spagna", "hiszpania"],
@@ -413,6 +414,54 @@ def unresolved(row, note, timing):
             "network": None, "network_skipped": "website not found", "timing": timing}
 
 
+# The institute's own general inbox (info@, office@, international@ ...), read from the pages already downloaded, so
+# operators have an address to write to even when no person is named. International/Erasmus inboxes come first.
+GENERIC_INTL = re.compile(r"^(international|internacional|internazional|intl|erasmus|mobility|mobilit|io(?![a-z])|"
+                          r"iro(?![a-z])|relint|ri(?![a-z])|exchange|incoming|outgoing|auslandsamt|ausland|global|abroad)")
+NOT_GENERIC = re.compile(r"^(iod|dpo|gdpr|rodo|privacy|datenschutz|dataprotection|data\.protection|protecciondatos|webmaster|"
+                         r"web(?![a-z])|personalrat|jobs|job(?![a-z])|career|karriere|hr(?![a-z])|press|presse|marketing|"
+                         r"noreply|no-reply|donotreply|abuse|postmaster|hostmaster|helpdesk|it(?![a-z])|support)")
+GENERIC_OFFICE = re.compile(r"^(info|office|contact|kontakt|contacto|contatti|mail|post|poststelle|admin|administration|"
+                            r"secretariat|secretaria|secretary|sekretariat|segreteria|sekretariaat|rektorat|rectorat|rectorado|"
+                            r"rektor|dekanat|reception|enquiries|enquiry|inquiries|hello|general|school|skola|szkola|iskola|"
+                            r"scuola|escola|ecole|direction|direccion|dyrekcja|ravnatelj|riaditel|reditel|kancelaria|kancelar|"
+                            r"titkarsag|studienberatung|admissions|registry|registrar|studentservice|studyinfo|kanslia|kirjaamo|"
+                            r"study|studies|studie|studij|studium|studien|student|rekrutacja|recruit|admission|protocollo|"
+                            r"didattica|ufficio|biuro|dziekanat|recepce|podatelna|uradovna|tajnistvo|referat|zentrale|"
+                            r"segretaria|accueil|scolarite|inscription|matricula|informacion|informacje)")
+OBFUSCATED_AT = re.compile(r"\s*[\(\[\{]\s*(?:at|@|arroba|chez)\s*[\)\]\}]\s*", re.I)
+OBFUSCATED_DOT = re.compile(r"\s*[\(\[\{]\s*(?:dot|punkt|point|punto)\s*[\)\]\}]\s*", re.I)
+
+
+def _page_emails(text):
+    text = OBFUSCATED_DOT.sub(".", OBFUSCATED_AT.sub("@", text or ""))
+    found = evidence.emails_in(text) + [evidence.clean_email(m) for m in evidence.EMAIL_RE.findall(text)]
+    return [e.lower() for e in dict.fromkeys(found) if e and "@" in e]
+
+
+def pick_generic_email(pages, site):
+    """(email, page url) of the institute's shared inbox on its own mail domain, or ("", ""). Its own domain = the
+    site's, or one its pages were served from (a site that redirects to a new name)."""
+    hosts = {h for h in {crawl._host(site)} | {crawl._host(p.get("url", "")) for p in pages if p.get("url")} if h}
+    names = {h.split(".")[0] for h in hosts}          # an inbox named after the site: accademia@accademiadibrera.milano.it
+    best = {}
+    for i, page in enumerate(pages):
+        for e in _page_emails(page.get("text", "")):
+            local, dom = e.split("@", 1)
+            if NOT_GENERIC.match(local) or not any(dom == h or dom.endswith("." + h) or h.endswith("." + dom) for h in hosts):
+                continue
+            named = len(local) >= 3 and any(local in n or n in local for n in names)
+            tier = 0 if GENERIC_INTL.match(local) else 1 if (GENERIC_OFFICE.match(local) or named) else None
+            if tier is None:
+                continue
+            seen = best.get(e)
+            best[e] = (tier, (seen[1] if seen else 0) - 1, seen[2] if seen else i, seen[3] if seen else page.get("url", ""))
+    if not best:
+        return "", ""
+    e, v = min(best.items(), key=lambda kv: kv[1][:3])
+    return e, v[3]
+
+
 def scrape(row, cfg):
     """row: a numbers_clean.csv row (+ optional website_override). cfg: config.yaml `scraper` section."""
     t_all, timing = time.time(), {}
@@ -511,9 +560,11 @@ def scrape(row, cfg):
                              "accepted": len({_n(x) for x in s["names"]} & kept)} for s in slices]
 
     unread = f" {len(cr['errors'])} page(s) could not be read." if cr["errors"] else ""
+    generic, generic_url = pick_generic_email(cr["pages"], cr["site"])
     contact_obj = {"row_id": row["row_id"], "institution_name": name,
                    "institution_type": data.get("institution_type") or "unknown", "official_website": cr["site"],
                    "country": country_claim, "phone": _institution_phone(pack, inst["phone"]), "phone_alt": [],
+                   "generic_email": generic, "generic_email_url": generic_url,
                    "contact": ({k: v for k, v in primary.items() if k not in ("role_class", "why_chosen", "confidence")}
                                if primary else None),
                    "alternates": [{k: v for k, v in a.items() if k not in ("role_class", "confidence")} for a in alternates],

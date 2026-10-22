@@ -49,7 +49,7 @@ HYPERLINK_FONT = Font(color="0563C1", underline="single")
 # order, appended after these.
 PRIORITY_COLUMNS = [
     "institution_scraped", "person_scraped", "designation_scraped", "email_scraped", "office_email",
-    "phone_scraped", "confidence", "contact_verified", "needs_human_check",
+    "generic_email", "phone_scraped", "confidence", "contact_verified", "needs_human_check",
     "official_website", "institution_type", "country_scraped",
     "partners_found", "campuses_found", "row_id",
 ]
@@ -104,7 +104,7 @@ FRIENDLY_LABELS = {
     "duplicate_of": "Duplicate Of", "country_source_url": "Country Source",
     "phone_source_url": "Phone Source", "phone_verified": "Phone Verified?",
     "phone_alt": "Alternate Phone", "designation_local": "Designation (local language)",
-    "office_email": "Department Email (general)", "contact_phone": "Contact's Direct Phone",
+    "office_email": "Department Email (general)", "generic_email": "Generic Email (institute)", "contact_phone": "Contact's Direct Phone",
     "contact_source_url": "Contact Source", "contact_evidence": "Contact Evidence Quote",
     "contact_verify_note": "Contact Verification Note", "rung": "Contact Seniority",
     "country_verified": "Country Verified?", "changed_vs_sheet": "Changed vs Original Sheet",

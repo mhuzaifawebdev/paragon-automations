@@ -14,7 +14,8 @@ from evidence import EMAIL_RE
 ROLE_PATTERNS = [
     ("institutional_erasmus_coordinator", [r"erasmus\+?\s*(institutional\s*)?(coordinat|koordinat|officer|responsable|referent)",
         r"(coordinat\w*|responsable|referent\w*|koordinat\w*)\s+(institucional\s+)?(de\s+|del\s+|for\s+)?erasmus",
-        r"erasmus\s*(\+)?\s*(coordinator|koordinator|coordinador|coordinateur)", r"institutional coordinator"]),
+        r"erasmus\s*(\+)?\s*(coordinator|koordinator|coordinador|coordinateur)", r"institutional coordinator",
+        r"erasmus\s*\+?\s*projects?\s*(coordinat|koordinat)"]),
     ("international_relations_head", [r"head of (the )?international", r"director\w*\s+(of\s+)?(the\s+)?international",
         r"(responsable|directeur|directrice|jefe|jefa|leiter\w*)\s+(des?\s+|del?\s+)?(relations|relaciones|internationale|auslands)",
         r"international relations (office )?(head|manager|director)"]),
@@ -27,6 +28,13 @@ ROLE_PATTERNS = [
     ("faculty_coordinator", [r"faculty.*(erasmus|international)", r"department.*erasmus", r"faculte.*erasmus"]),
     ("principal_or_director", [r"\bprincipal\b", r"head ?master", r"head ?teacher", r"\bdirector(a)?\b", r"directeur", r"proviseur",
         r"schulleiter", r"riaditel", r"igazgat", r"dyrektor", r"direktor"]),
+    ("language_or_project_teacher", [
+        r"(english|language|languages|anglais|ingles|inglese|englisch|angielsk|anglick|angol|fremdsprach|langues|lingue|idiomas)\w*"
+        r"\W+(\w+\W+)?(teacher|lehrer|lehrkraft|enseignant|profesor|professeur|docente|insegnant|nauczyciel|ucitel|tanar)",
+        r"(teacher|lehrer|lehrkraft|enseignant|profesor|professeur|docente|insegnant|nauczyciel|ucitel|tanar)\w*\W+(\w+\W+)?"
+        r"(of\s+)?(english|language|anglais|ingles|inglese|englisch|angielsk|anglick|angol|fremdsprach|langues|lingue|idiomas)",
+        r"(eu|european|erasmus\+?|etwinning|international)\s+projects?\s+(teacher|coordinat|koordinat|leader|manager)",
+        r"projekt\w*\s*(koordinat|leiter)"]),
     ("secretary_or_admin", [r"secretar", r"secrétariat", r"reception", r"administration"]),
 ]
 NAME_WORD = r"[A-ZÀ-ÖØ-ÞĀ-Ž][^\W\d_]+(?:['’\-][^\W\d_]+)*"

@@ -204,6 +204,7 @@ jobs:
           python scripts/build_dashboard_stats.py || echo "(dashboard figures not updated, non-fatal)"
           git add "data_hei/$BATCH" "data_hei/uploads"
           [ -f data_hei/dashboard_stats.json ] && git add data_hei/dashboard_stats.json
+          [ -f data_hei/institute_counts.json ] && git add data_hei/institute_counts.json
           git diff --cached --quiet || git commit -m "scrape $BATCH: chunk done [automated]"
           git pull --rebase --autostash -q
           git push
