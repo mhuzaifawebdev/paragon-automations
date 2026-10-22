@@ -1,6 +1,6 @@
 {
  "row_id": "r033",
- "scraped_at": "2026-10-11T10:32:52Z",
+ "scraped_at": "2026-10-22T11:36:24Z",
  "contacts": {
   "row_id": "r033",
   "institution_name": "TECHNICKA UNIVERZITA VO ZVOLENE",
@@ -17,17 +17,37 @@
    "evidence_quote": "T: +421 455 206 108 <tel +421 455 206 108>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "info@tuzvo.sk",
   "generic_email_url": "https://www.tuzvo.sk/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "PhDr. Lenka Halušková, PhD.",
+   "designation": "External Relations Department Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+421 455 206 108",
+   "source_url": "https://www.tuzvo.sk/sk/erasmus-pre-zamestnancov",
+   "evidence_quote": "PRIHLASOVANIE NA MOBILITY: formulár Prihláška na mobilitu - Výučba, Prihláška na mobilitu - Školenie, Prihláška na mobilitu - Kurz anglického jazyka - vyplnený, podpísaný a doručený na Referát pre vonkajšie vzťahy ... PhDr. Lenka Halušková, PhD."
+  },
+  "alternates": [
+   {
+    "name": "prof. Dr. Ing. Jaroslav Šálka",
+    "designation": "Vice-Rector for External Relations",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+421 455 206 327",
+    "source_url": "https://www.tuzvo.sk/sk/vedenie-univerzity",
+    "evidence_quote": "prof. Dr. Ing. Jaroslav Šálka ... E: <>prorektor pre vonkajšie vzťahy",
+    "why_chosen": "Vice-rector for international affairs. He is the Vice-Rector overseeing external relations and international partnerships."
+   }
+  ],
+  "rung": "International relations officer. She is listed as a contact on the Erasmus+ staff mobility page under the External Relations Department.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -341,29 +361,30 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.6,
-  "crawl_s": 13.4,
-  "ai_calls": 6,
-  "partner_calls": 5,
+  "discover_s": 0.0,
+  "crawl_s": 23.5,
+  "ai_calls": 5,
+  "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 316.9,
+  "model_s": 80.2,
   "mode": "gemini",
+  "email_search_s": 6.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 4,
-    "accepted": 4
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 11,
-    "accepted": 11
+    "returned": 5,
+    "accepted": 5
    },
    {
     "lines": [
@@ -378,19 +399,10 @@
      421,
      560
     ],
-    "returned": 8,
-    "accepted": 8
-   },
-   {
-    "lines": [
-     561,
-     593
-    ],
-    "returned": 8,
-    "accepted": 8
+    "returned": 15,
+    "accepted": 15
    }
   ],
-  "total_seconds": 332.9
- },
- "rechecked": true
+  "total_seconds": 110.0
+ }
 }

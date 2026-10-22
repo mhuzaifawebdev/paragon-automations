@@ -1326,12 +1326,12 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.1,
-  "crawl_s": 15.7,
+  "discover_s": 0.0,
+  "crawl_s": 19.2,
   "ai_calls": 10,
   "partner_calls": 9,
   "cost_usd_estimate": 0.0,
-  "model_s": 124.8,
+  "model_s": 148.3,
   "mode": "gemini",
   "slices": [
    {
@@ -1339,7 +1339,7 @@
      1,
      140
     ],
-    "returned": 3,
+    "returned": 2,
     "accepted": 2
    },
    {
@@ -1347,8 +1347,8 @@
      141,
      280
     ],
-    "returned": 9,
-    "accepted": 7
+    "returned": 13,
+    "accepted": 5
    },
    {
     "lines": [
@@ -1363,15 +1363,15 @@
      561,
      700
     ],
-    "returned": 4,
-    "accepted": 3
+    "returned": 5,
+    "accepted": 2
    },
    {
     "lines": [
      701,
      840
     ],
-    "returned": 2,
+    "returned": 5,
     "accepted": 1
    },
    {
@@ -1392,22 +1392,14 @@
    },
    {
     "lines": [
-     1261,
-     1400
-    ],
-    "returned": 6,
-    "accepted": 5
-   },
-   {
-    "lines": [
      1541,
      1680
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 9,
+    "accepted": 6
    }
   ],
-  "total_seconds": 142.6
+  "total_seconds": 167.5
  },
  "rechecked": true
 }
