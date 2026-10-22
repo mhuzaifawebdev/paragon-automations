@@ -1,0 +1,83 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-10-22T10:41:59Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "Kodolanyi Janos Egyetem",
+  "institution_type": "university",
+  "official_website": "https://www.kodolanyi.hu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "erasmus@kodolanyi.hu",
+  "generic_email_url": "https://www.kodolanyi.hu/erasmus/",
+  "contact": {
+   "name": "Nemzetközi Kapcsolati Központ",
+   "designation": "International Relations Center",
+   "designation_local": "",
+   "email": "erasmus@kodolanyi.hu",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.kodolanyi.hu/erasmus/",
+   "evidence_quote": "Személyes tájékoztatást a Nemzetközi Kapcsolati Központ (Budapest Fr. 005-ös iroda) munkatársai tudnak nyújtani előzetes időpont egyeztetést követően."
+  },
+  "alternates": [],
+  "rung": "Head of international relations. The International Relations Center is the primary point of contact for international mobility and Erasmus+ inquiries.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Magyar Innováció és Hatékonyság Nonprofit Kft.",
+    "partner_country": "Hungary",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kodolanyi.hu/szintet-lepett-az-egyuttmukodes/",
+    "evidence_quote": "Stratégiai együttműködési megállapodást írt alá a Kodolányi János Egyetem (KJE) és a Virtuális Erőmű Programot (VEP) üzemeltető Magyar Innováció és Hatékonyság Nonprofit Kft. az 5 éve megkezdett, a fenntartható fejlődéshez kapcsolódó, egymást támogató, közös és kölcsönös tudásfejlesztés intézményesítése és magasabb szintre emelése érdekében.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Budapesti Nemzetközi Campus",
+    "city": "Budapest",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://www.kodolanyi.hu/",
+    "evidence_quote": "Budapesti Nemzetközi Campus"
+   },
+   {
+    "campus_name": "Székesfehérvári Oktatási Központ",
+    "city": "Székesfehérvár",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://www.kodolanyi.hu/",
+    "evidence_quote": "Székesfehérvári Oktatási Központ"
+   }
+  ],
+  "stated_total": 100,
+  "stated_total_quote": "Intézményünk a világ több, mint 30 országában, több mint 100 partneregyetemmel áll kapcsolatban.",
+  "stated_total_url": "https://www.kodolanyi.hu/erasmus/",
+  "truncated": true,
+  "total_seen": 100,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that the institution has over 100 partner universities, but it does not provide a specific list of these partner institutions. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 19.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 51.6,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 75.1
+ }
+}
