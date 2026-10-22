@@ -211,25 +211,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 15.1,
-  "ai_calls": 3,
-  "partner_calls": 1,
+  "crawl_s": 28.0,
+  "ai_calls": 2,
+  "model_s": 3.1,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.9,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
   "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 12,
-    "accepted": 12
-   }
-  ],
-  "total_seconds": 22.1
+  "total_seconds": 33.5
  },
  "rechecked": 3
 }

@@ -1,23 +1,48 @@
 {
  "row_id": "r173",
- "scraped_at": "2026-10-22T13:45:57Z",
+ "scraped_at": "2026-10-22T20:22:54Z",
  "contacts": {
   "row_id": "r173",
   "institution_name": "OSTBAYERISCHE TECHNISCHE HOCHSCHULEAMBERG-WEIDEN",
   "institution_type": "university",
   "official_website": "https://www.oth-aw.de/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "+49 (9621) 482-3131",
+   "source_url": "https://www.oth-aw.de/international/internationales-profil/international-office/",
+   "evidence_quote": "+49 (9621) 482-3131"
+  },
   "phone_alt": [],
-  "generic_email": "",
-  "generic_email_url": "",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "kontakt@runningsnail.oth-aw.de",
+  "generic_email_url": "https://www.oth-aw.de/studium/engagement/running-snail-racing-team/kontakt/",
+  "contact": {
+   "name": "Annabelle Wolff",
+   "designation": "Head of International Office",
+   "designation_local": "",
+   "email": "a.wolff@oth-aw.de",
+   "office_email": "",
+   "phone": "+49 (9621) 482-3131",
+   "source_url": "https://www.oth-aw.de/international/internationales-profil/international-office/",
+   "evidence_quote": "Leitung International Office ... [Annabelle Wolff]"
+  },
+  "alternates": [
+   {
+    "name": "Cornelia Eichinger",
+    "designation": "Deputy Head of International Office",
+    "designation_local": "",
+    "email": "c.eichinger@oth-aw.de",
+    "office_email": "",
+    "phone": "+49 (9621) 482-3138",
+    "source_url": "https://www.oth-aw.de/international/internationales-profil/international-office/",
+    "evidence_quote": "Stellv. Leitung International Office ... [Cornelia Eichinger]",
+    "why_chosen": "International relations officer. Cornelia Eichinger is the Deputy Head of the International Office and manages Erasmus+ exchange programs."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. Dr. Annabelle Wolff is the Head of the International Office and the primary contact for international mobility.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 20,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -583,49 +608,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 23.2,
-  "ai_calls": 6,
-  "partner_calls": 4,
+  "crawl_s": 40.2,
+  "ai_calls": 1,
+  "model_s": 4.0,
   "cost_usd_estimate": 0.0,
-  "model_s": 10.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 8,
-    "accepted": 8
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 14,
-    "accepted": 14
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 3,
-    "accepted": 3
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 33,
-    "accepted": 33
-   }
-  ],
-  "total_seconds": 35.5
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 44.2
+ }
 }
