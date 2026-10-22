@@ -1,6 +1,6 @@
 {
  "row_id": "r732",
- "scraped_at": "2026-10-12T06:47:08Z",
+ "scraped_at": "2026-10-22T14:07:25Z",
  "contacts": {
   "row_id": "r732",
   "institution_name": "Istituto ad ordinamento universitario \"Scuola Superiore Carolina Albasio\"",
@@ -13,17 +13,37 @@
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "international@albasio.eu",
+  "generic_email_url": "https://www.albasio.eu/wp-content/uploads/BANDO-ERASMUS-2024-2025.pdf",
+  "contact": {
+   "name": "Antonio Colombo",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.albasio.eu/docenti/",
+   "evidence_quote": "Magnifico Rettore Professore Antonio Colombo"
+  },
+  "alternates": [
+   {
+    "name": "Valentina Baroni",
+    "designation": "Professor of English and Spanish",
+    "designation_local": "",
+    "email": "valentina.baroni@docenti.albasio.eu",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.albasio.eu/docenti/",
+    "evidence_quote": "Professoressa Valentina Baroni ... Docente di Mediazione Scritta e Orale - Inglese e Spagnolo",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is a language professor involved in the institution's international and linguistic activities."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the Rector, he is the head of the institution and responsible for signing mobility agreements.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "segreteria@albasio.eu",
-  "generic_email_url": "https://www.albasio.eu/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -166,14 +186,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.0,
-  "crawl_s": 25.3,
+  "discover_s": 0.0,
+  "crawl_s": 15.1,
   "ai_calls": 5,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 11.4,
+  "model_s": 5.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.8,
   "slices": [
    {
     "lines": [
@@ -196,19 +217,18 @@
      561,
      700
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      701,
-     753
+     765
     ],
-    "returned": 6,
-    "accepted": 6
+    "returned": 5,
+    "accepted": 5
    }
   ],
-  "total_seconds": 40.7
- },
- "rechecked": true
+  "total_seconds": 21.9
+ }
 }

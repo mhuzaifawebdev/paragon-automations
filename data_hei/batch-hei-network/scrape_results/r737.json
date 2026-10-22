@@ -1,6 +1,6 @@
 {
  "row_id": "r737",
- "scraped_at": "2026-10-12T06:47:25Z",
+ "scraped_at": "2026-10-22T14:08:04Z",
  "contacts": {
   "row_id": "r737",
   "institution_name": "Universitat Internacional Valenciana-Valencian International University",
@@ -13,17 +13,25 @@
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "María Escat Cortés",
+   "designation": "Professor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.universidadviu.com/es/actualidad/nuestros-expertos/los-gansos-y-el-trabajo-en-equipo-en-el-mundo-de-la-empresa",
+   "evidence_quote": "Dra. María Escat Cortés ... Autora: Dra. María Escat Cortés .- Profesora del Máster Universitario en Administración y Dirección de Empresas (MBA) de VIU."
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Other role. She is a professor of the Master in Business Administration and Marketing at the university.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -39,7 +47,7 @@
    {
     "partner_name": "Political Intelligence",
     "partner_country": "unknown",
-    "partner_type": "company",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/grado-relaciones-internacionales",
     "evidence_quote": "[Political Intelligence Logo]",
@@ -127,6 +135,24 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Fundación BBVA",
+    "partner_country": "España",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.universidadviu.com/es/",
+    "evidence_quote": "El U-Ranking de Fundación BBVA y el Ivie ha vuelto a destacar, por segundo año consecutivo, a VIU como la mejor universidad online en este apartado",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ivie",
+    "partner_country": "España",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.universidadviu.com/es/",
+    "evidence_quote": "El U-Ranking de Fundación BBVA y el Ivie ha vuelto a destacar, por segundo año consecutivo, a VIU como la mejor universidad online en este apartado",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Circuit Ricardo Tormo",
     "partner_country": "unknown",
     "partner_type": "other",
@@ -137,7 +163,7 @@
    },
    {
     "partner_name": "Ministerio de Ciencia, Innovaciones y Universidades",
-    "partner_country": "España",
+    "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/",
@@ -146,7 +172,7 @@
    },
    {
     "partner_name": "GVA",
-    "partner_country": "España",
+    "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/",
@@ -155,7 +181,7 @@
    },
    {
     "partner_name": "CRUE",
-    "partner_country": "España",
+    "partner_country": "Spain",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/",
@@ -173,7 +199,7 @@
    },
    {
     "partner_name": "ANECA",
-    "partner_country": "España",
+    "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/",
@@ -182,7 +208,7 @@
    },
    {
     "partner_name": "Agència Valenciana d'Avaluació I Prospectiva",
-    "partner_country": "España",
+    "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/",
@@ -191,7 +217,7 @@
    },
    {
     "partner_name": "RUEPEP",
-    "partner_country": "unknown",
+    "partner_country": "Spain",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/",
@@ -218,7 +244,7 @@
    },
    {
     "partner_name": "SEPIE Educación Superior",
-    "partner_country": "España",
+    "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/movilidad-internacional-erasmus",
@@ -236,7 +262,7 @@
    },
    {
     "partner_name": "Agencia Española de cooperación internacional",
-    "partner_country": "España",
+    "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/movilidad-internacional-erasmus",
@@ -263,11 +289,20 @@
    },
    {
     "partner_name": "Ministerio de Educación y Ciencia",
-    "partner_country": "España",
+    "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/movilidad-internacional-erasmus",
     "evidence_quote": "EuropaPass CV | European Commision ERASMUS + | Ministerio de Educación y Ciencia |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Randstad",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.universidadviu.com/es/grado-relaciones-internacionales",
+    "evidence_quote": "[Brand Randstad]",
     "confidence": 0.9
    },
    {
@@ -276,7 +311,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/campus-virtual",
-    "evidence_quote": "Blackboard era una de las compañías líderes en tecnología para educación online. A finales de 2021 pasó a ser parte de Anthology, empresa líder en el mundo de las soluciones de software de educación superior, creando de esta forma una compañía conjunta que se establece como referencia del sector. Los premios anuales Catalyst, que otorga la compañía, son uno de los galardones más prestigiosos del sector de la educación superior online, y premian la innovación y la excelencia en el uso de la tecno",
+    "evidence_quote": "¿Qué es Anthology y Blackboard?",
     "confidence": 0.9
    },
    {
@@ -285,7 +320,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.universidadviu.com/es/campus-virtual",
-    "evidence_quote": "Blackboard era una de las compañías líderes en tecnología para educación online. A finales de 2021 pasó a ser parte de Anthology, empresa líder en el mundo de las soluciones de software de educación superior, creando de esta forma una compañía conjunta que se establece como referencia del sector. Los premios anuales Catalyst, que otorga la compañía, son uno de los galardones más prestigiosos del sector de la educación superior online, y premian la innovación y la excelencia en el uso de la tecno",
+    "evidence_quote": "¿Qué es Anthology y Blackboard?",
     "confidence": 0.9
    },
    {
@@ -305,28 +340,30 @@
     "country": "Spain",
     "role": "main",
     "source_url": "https://www.universidadviu.com/es/contacta-con-viu",
-    "evidence_quote": "Calle Pintor sorolla, 21"
+    "evidence_quote": "46002, Valencia (España)"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 30,
+  "total_seen": 33,
   "pages_read": 10,
-  "coverage_note": "The evidence does not provide a specific list of Erasmus+ partner universities, only general mentions of the program and some corporate/institutional partners for internships.",
+  "coverage_note": "The evidence does not provide a specific list of Erasmus+ partner universities, only general mentions of the program and a list of collaborators for the International Relations degree.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 0.7,
-  "crawl_s": 12.3,
-  "ai_calls": 8,
+  "discover_s": 0.0,
+  "crawl_s": 12.6,
+  "ai_calls": 9,
   "partner_calls": 7,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.6,
+  "model_s": 7.3,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.9,
   "slices": [
    {
     "lines": [
@@ -341,8 +378,8 @@
      141,
      280
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 2,
+    "accepted": 2
    },
    {
     "lines": [
@@ -379,13 +416,12 @@
    {
     "lines": [
      981,
-     993
+     990
     ],
     "returned": 0,
     "accepted": 0
    }
   ],
-  "total_seconds": 18.7
- },
- "rechecked": true
+  "total_seconds": 23.6
+ }
 }

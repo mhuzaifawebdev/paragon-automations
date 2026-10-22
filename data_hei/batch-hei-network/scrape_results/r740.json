@@ -342,33 +342,16 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.6,
-  "crawl_s": 13.5,
-  "ai_calls": 3,
-  "partner_calls": 2,
+  "discover_s": 0.0,
+  "crawl_s": 19.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 6.1,
+  "model_s": 1.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 20,
-    "accepted": 19
-   },
-   {
-    "lines": [
-     141,
-     263
-    ],
-    "returned": 21,
-    "accepted": 18
-   }
-  ],
-  "total_seconds": 24.2
+  "contact_pass": 0,
+  "total_seconds": 21.3
  },
  "rechecked": true
 }
