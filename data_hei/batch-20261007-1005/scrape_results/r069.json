@@ -1,13 +1,13 @@
 {
  "row_id": "r069",
- "scraped_at": "2026-10-07T18:18:37Z",
+ "scraped_at": "2026-10-22T11:15:14Z",
  "contacts": {
   "row_id": "r069",
   "institution_name": "Veleuciliste u Bjelovaru",
   "institution_type": "college",
   "official_website": "https://vub.hr/",
   "country": {
-   "value": "Hrvatska",
+   "value": "HRVATSKA",
    "source_url": "https://vub.hr/",
    "evidence_quote": "43000 BJELOVAR - HRVATSKA"
   },
@@ -17,6 +17,8 @@
    "evidence_quote": "tel: +385 (0)43 241 204"
   },
   "phone_alt": [],
+  "generic_email": "studentski.dom@vub.hr",
+  "generic_email_url": "https://vub.hr/studentski-dom-kontakt/",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -24,10 +26,28 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
+   {
+    "partner_name": "Afyonkarahisar University of Health Science",
+    "partner_country": "",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://vub.hr/",
+    "evidence_quote": "🌍 Ugostili smo kolegice Ezgi Eyiler i Beyzu Yavuz sa Afyonkarahisar University of Health Science…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "College of Applied Studies in Novi Sad",
+    "partner_country": "",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://vub.hr/en/",
+    "evidence_quote": "Erasmus - Iskustva s mobilnosti Student mobility from the College of Applied Studies in Novi Sad",
+    "confidence": 0.9
+   },
    {
     "partner_name": "Universidad de Las Palmas de Gran Canaria",
     "partner_country": "Spain",
@@ -59,7 +79,7 @@
     "partner_name": "Istanbul Arel University",
     "partner_country": "",
     "partner_type": "university",
-    "mobility_type": "staff",
+    "mobility_type": "unknown",
     "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
     "evidence_quote": "Veleučilište u Bjelovaru ugostilo je dvije profesorice s Istanbul Arel UniversityVeleučilište u Bjelovaru ugostilo je dvije profesorice s Istanbul Arel University",
     "confidence": 0.9
@@ -68,7 +88,7 @@
     "partner_name": "Tbilisi State University",
     "partner_country": "Georgia",
     "partner_type": "university",
-    "mobility_type": "staff",
+    "mobility_type": "unknown",
     "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
     "evidence_quote": "Boravak na 12. Međunarodnom tjednu za osoblje Tbilisi State University u GruzijiBoravak na 12. Međunarodnom tjednu za osoblje Tbilisi State University u Gruziji",
     "confidence": 0.9
@@ -92,30 +112,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Visoka strukovna škola iz Novog Sada",
-    "partner_country": "Serbia",
-    "partner_type": "college",
-    "mobility_type": "study",
-    "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
-    "evidence_quote": "Mobilnost studentice s Visoke strukovne škole iz Novog SadaMobilnost studentice s Visoke strukovne škole iz Novog Sada",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Instituto Superior de Administração e Línguas (ISAL)",
     "partner_country": "",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
     "evidence_quote": "Sjajna priča o dugogodišnjoj suradnji s Instituto Superior de Administração e Línguas (ISAL)Sjajna priča o dugogodišnjoj suradnji s Instituto Superior de Administração e Línguas (ISAL)",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Wroclaw University of Science and Technology",
-    "partner_country": "",
-    "partner_type": "university",
-    "mobility_type": "staff",
-    "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
-    "evidence_quote": "Sudjelovanje na međunarodnoj razmjeni nastavnika stranih jezika na Wroclaw University of Science and TechnologySudjelovanje na međunarodnoj razmjeni nastavnika stranih jezika na Wroclaw University of Science and Technology",
     "confidence": 0.9
    },
    {
@@ -155,15 +157,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Sveučilište u Sofiji “Sveti Kliment Ohridski”",
-    "partner_country": "Bulgaria",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
-    "evidence_quote": "Erasmus mobilnost na Sveučilištu u Sofiji “Sveti Kliment Ohridski”, BugarskaErasmus mobilnost na Sveučilištu u Sofiji “Sveti Kliment Ohridski”, Bugarska",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Institut Jožef Stefan",
     "partner_country": "",
     "partner_type": "other",
@@ -173,17 +166,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "CEPS Kiseljak",
-    "partner_country": "",
-    "partner_type": "college",
-    "mobility_type": "study",
-    "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
-    "evidence_quote": "Erasmus mobilnost na CEPS KiseljakErasmus mobilnost na CEPS Kiseljak",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Medical University Sofia",
-    "partner_country": "Bulgaria",
+    "partner_country": "",
     "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
@@ -191,12 +175,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Harran",
+    "partner_name": "Harran University",
     "partner_country": "Turkey",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
     "evidence_quote": "Erasmus tjedan u organizaciji sveučilišta Harran u TurskojErasmus tjedan u organizaciji sveučilišta Harran u Turskoj",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Univerza v Novem Mestu",
+    "partner_country": "Slovenia",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "https://vub.hr/sudjelovanje-na-staff-week-u-na-univerzitetu-u-novom-mestu/",
+    "evidence_quote": "📚✈️ Naši predavači Sabina Bis, Daliborka Vukmanić, Tomislav Pavlic i Tihomir Glatki sudjelovali su na međunarodnoj konferenciji u sklopu International Staff Week-a na Univerzi v Novem Mestu u Sloveniji.",
     "confidence": 0.9
    },
    {
@@ -209,12 +202,57 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Visoka strukovna škola iz Novog Sada",
+    "partner_country": "Serbia",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
+    "evidence_quote": "Mobilnost studentice s Visoke strukovne škole iz Novog SadaMobilnost studentice s Visoke strukovne škole iz Novog Sada",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Univerzitet u Novom Mestu",
     "partner_country": "Slovenia",
     "partner_type": "university",
     "mobility_type": "staff",
     "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
     "evidence_quote": "SUDJELOVANJE NA STAFF WEEK-U NA UNIVERZITETU U NOVOM MESTUSUDJELOVANJE NA STAFF WEEK-U NA UNIVERZITETU U NOVOM MESTU",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Wroclaw University of Science and Technology",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
+    "evidence_quote": "Sudjelovanje na međunarodnoj razmjeni nastavnika stranih jezika na Wroclaw University of Science and TechnologySudjelovanje na međunarodnoj razmjeni nastavnika stranih jezika na Wroclaw University of Science and Technology",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sveučilište u Sofiji “Sveti Kliment Ohridski”",
+    "partner_country": "Bulgaria",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
+    "evidence_quote": "Erasmus mobilnost na Sveučilištu u Sofiji “Sveti Kliment Ohridski”, BugarskaErasmus mobilnost na Sveučilištu u Sofiji “Sveti Kliment Ohridski”, Bugarska",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CEPS Kiseljak",
+    "partner_country": "Bosnia and Herzegovina",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
+    "evidence_quote": "Erasmus mobilnost na CEPS KiseljakErasmus mobilnost na CEPS Kiseljak",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Harran",
+    "partner_country": "Turkey",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://vub.hr/erasmus-iskustva-s-mobilnosti/",
+    "evidence_quote": "Erasmus tjedan u organizaciji sveučilišta Harran u TurskojErasmus tjedan u organizaciji sveučilišta Harran u Turskoj",
     "confidence": 0.9
    },
    {
@@ -259,19 +297,31 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 24,
+  "total_seen": 28,
   "pages_read": 10,
-  "coverage_note": "The evidence lists multiple partner institutions mentioned in news and mobility experience sections, but does not contain a comprehensive standalone bilateral agreements list page.",
+  "coverage_note": "The evidence lists several partner institutions mentioned in mobility news and reports, but does not provide a complete standalone bilateral agreements list or dedicated international office coordinator contact details.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 5.8,
-  "crawl_s": 15.2,
+  "discover_s": 0.0,
+  "crawl_s": 6.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 302.3,
+  "model_s": 98.7,
   "mode": "gemini",
-  "total_seconds": 323.3
+  "slices": [
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 35,
+    "accepted": 24
+   }
+  ],
+  "total_seconds": 104.8
  },
  "rechecked": true
 }

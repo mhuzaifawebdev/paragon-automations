@@ -20,7 +20,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: email domain. mode: gemini.",
+  "generic_email": "sekretariat@skupnost-vss.si",
+  "generic_email_url": "https://www.skupnost-vss.si/"
  },
  "network": {
   "external_collaboration": [
@@ -343,12 +345,24 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.5,
-  "crawl_s": 19.4,
+  "discover_s": 0.0,
+  "crawl_s": 19.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 100.3,
+  "model_s": 69.1,
   "mode": "gemini",
-  "total_seconds": 123.3
+  "slices": [
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 88.9
  },
  "rechecked": true
 }
