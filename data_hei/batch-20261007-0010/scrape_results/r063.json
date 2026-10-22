@@ -1,6 +1,6 @@
 {
  "row_id": "r063",
- "scraped_at": "2026-10-22T10:51:59Z",
+ "scraped_at": "2026-10-22T20:06:32Z",
  "contacts": {
   "row_id": "r063",
   "institution_name": "UNIVERSITAT FUR KUNSTLERISCHE UND INDUSTRIELLE GESTALTUNG LINZ",
@@ -15,14 +15,23 @@
   "phone_alt": [],
   "generic_email": "international.office@kunstuni-linz.at",
   "generic_email_url": "https://www.kunstuni-linz.at/studium/international/staff-mobilitaet-/-outgoing",
-  "contact": null,
+  "contact": {
+   "name": "Yulia Schachinger",
+   "designation": "International Office",
+   "designation_local": "",
+   "email": "yulia.schachinger@kunstuni-linz.at",
+   "office_email": "",
+   "phone": "+43 676 84 7898 2346",
+   "source_url": "https://www.kunstuni-linz.at/studium/international/kurzzeitmobilitaet-erasmus-programm",
+   "evidence_quote": "Yulia Schachinger MA ... International Office | Auslandsbüro"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "International relations officer. She is a contact person at the International Office for student mobility and Erasmus+ programs.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini."
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -160,65 +169,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 36.2,
-  "ai_calls": 8,
-  "partner_calls": 6,
+  "crawl_s": 50.8,
+  "ai_calls": 1,
+  "model_s": 2.5,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 2,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     561,
-     700
-    ],
-    "returned": 3,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     701,
-     840
-    ],
-    "returned": 1,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     841,
-     980
-    ],
-    "returned": 2,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     981,
-     1062
-    ],
-    "returned": 0,
-    "accepted": 0
-   }
-  ],
-  "total_seconds": 41.4
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 53.4
+ }
 }
