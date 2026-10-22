@@ -1,25 +1,60 @@
 {
  "row_id": "r437",
- "scraped_at": "2026-10-12T05:57:58Z",
+ "scraped_at": "2026-10-22T20:53:03Z",
  "contacts": {
   "row_id": "r437",
   "institution_name": "BSP Business & Law School",
   "institution_type": "university",
   "official_website": "https://www.businessschool-berlin.de/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "+49 151 53 51 03 34",
+   "source_url": "https://www.businessschool-berlin.de/about-us/team-bsp/hochschulmanagement/",
+   "evidence_quote": "Mobil: +49 151 53 51 03 34"
+  },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read.",
   "generic_email": "info@businessschool-berlin.de",
   "generic_email_url": "https://www.businessschool-berlin.de/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Carina Webermann",
+   "designation": "Head of International Office",
+   "designation_local": "",
+   "email": "carina.webermann@businessschool-berlin.de",
+   "office_email": "",
+   "phone": "+49 30 / 76 68 37 5 149",
+   "source_url": "https://www.businessschool-berlin.de/about-us/team-bsp/hochschulmanagement/",
+   "evidence_quote": "Leitung International Office ... Carina Webermann"
+  },
+  "alternates": [
+   {
+    "name": "Mariia Stojanovic",
+    "designation": "International Office",
+    "designation_local": "",
+    "email": "mariia.stojanovic@businessschool-berlin.de",
+    "office_email": "",
+    "phone": "+49 30 / 76 68 37 5 146",
+    "source_url": "https://www.businessschool-berlin.de/about-us/team-bsp/hochschulmanagement/",
+    "evidence_quote": "International Office ... Mariia Stojanovic",
+    "why_chosen": "International relations officer. She works in the International Office and supports international mobility."
+   },
+   {
+    "name": "Christin Kächele",
+    "designation": "International Office",
+    "designation_local": "",
+    "email": "christin.kaechele@businessschool-berlin.de",
+    "office_email": "",
+    "phone": "+49 30 / 76 68 37 5 145",
+    "source_url": "https://www.businessschool-berlin.de/about-us/team-bsp/hochschulmanagement/",
+    "evidence_quote": "[Christin Kächele BSP Business & Law School] ... Christin Kächele",
+    "why_chosen": "International relations officer. She works in the International Office and supports international mobility."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. She is the Head of the International Office and responsible for international mobility.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 9 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -826,65 +861,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 18.6,
-  "ai_calls": 8,
-  "partner_calls": 6,
+  "crawl_s": 150.3,
+  "ai_calls": 1,
+  "model_s": 8.7,
   "cost_usd_estimate": 0.0,
-  "model_s": 12.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 8,
-    "accepted": 8
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 2,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 4,
-    "accepted": 3
-   },
-   {
-    "lines": [
-     561,
-     700
-    ],
-    "returned": 56,
-    "accepted": 56
-   },
-   {
-    "lines": [
-     701,
-     764
-    ],
-    "returned": 16,
-    "accepted": 16
-   }
-  ],
-  "total_seconds": 31.9
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 159.0
+ }
 }
