@@ -1,6 +1,6 @@
 {
  "row_id": "r069",
- "scraped_at": "2026-10-22T10:52:26Z",
+ "scraped_at": "2026-10-22T13:10:54Z",
  "contacts": {
   "row_id": "r069",
   "institution_name": "Merz Akademie gGmbh",
@@ -11,14 +11,23 @@
   "phone_alt": [],
   "generic_email": "international.office@merz-akademie.de",
   "generic_email_url": "https://www.merz-akademie.de/kontakt/",
-  "contact": null,
+  "contact": {
+   "name": "Barbara M. Eggert",
+   "designation": "Rektorin",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.merz-akademie.de/kooperationen/",
+   "evidence_quote": "v.l.n.r: Oliver Hermann, Freies Radio für Stuttgart, Isabel Huber, Projektkoordinatorin MoMO, Barbara M. Eggert, Rektorin der Merz Akademie, Ahmed Özcan, ComputerSpielSchule im Stadtmedienzentrum"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Principal / director (no Erasmus contact found). Barbara M. Eggert is the Rector of the Merz Akademie.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -665,13 +674,16 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.8,
-  "crawl_s": 16.2,
-  "ai_calls": 5,
+  "discover_s": 0.0,
+  "crawl_s": 14.6,
+  "ai_calls": 6,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 92.3,
+  "model_s": 9.3,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.1,
   "slices": [
    {
     "lines": [
@@ -706,7 +718,6 @@
     "accepted": 1
    }
   ],
-  "total_seconds": 110.3
- },
- "rechecked": 2
+  "total_seconds": 27.7
+ }
 }

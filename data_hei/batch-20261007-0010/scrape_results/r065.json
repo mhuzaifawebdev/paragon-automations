@@ -1,6 +1,6 @@
 {
  "row_id": "r065",
- "scraped_at": "2026-10-22T10:50:43Z",
+ "scraped_at": "2026-10-22T13:10:40Z",
  "contacts": {
   "row_id": "r065",
   "institution_name": "UNIWERSYTET PAPIESKI JANA PAWLA II W KRAKOWIE",
@@ -15,14 +15,23 @@
   "phone_alt": [],
   "generic_email": "international@upjp2.edu.pl",
   "generic_email_url": "https://upjp2.edu.pl/en/contact",
-  "contact": null,
+  "contact": {
+   "name": "Tomasz Kniaź",
+   "designation": "International Cooperation Office",
+   "designation_local": "",
+   "email": "tomasz.kniaz@upjp2.edu.pl",
+   "office_email": "",
+   "phone": "+48 12 8898 214",
+   "source_url": "https://upjp2.edu.pl/kontakt",
+   "evidence_quote": "Biuro Współpracy Międzynarodowej | ... tomasz.kniaz@upjp2.edu.pl <tomasz.kniaz@upjp2.edu.pl>"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "International relations officer. Tomasz Kniaź is listed as the contact for the International Cooperation Office, which manages Erasmus+ mobility.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -138,13 +147,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.3,
-  "crawl_s": 16.7,
+  "discover_s": 0.0,
+  "crawl_s": 15.4,
   "ai_calls": 5,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 144.1,
+  "model_s": 3.8,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -179,7 +190,6 @@
     "accepted": 3
    }
   ],
-  "total_seconds": 165.1
- },
- "rechecked": 2
+  "total_seconds": 19.3
+ }
 }

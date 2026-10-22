@@ -1,6 +1,6 @@
 {
  "row_id": "r051",
- "scraped_at": "2026-10-22T10:46:20Z",
+ "scraped_at": "2026-10-22T13:10:27Z",
  "contacts": {
   "row_id": "r051",
   "institution_name": "ECOLE NATIONALE SUPERIEURE DES SCIENCES AGRONOMIQUES DE BORDEAUX AQUITAINE",
@@ -15,14 +15,46 @@
   "phone_alt": [],
   "generic_email": "international@mines-stetienne.fr",
   "generic_email_url": "https://www.mines-stetienne.fr/international/contact-et-equipe-des-relations-internationales",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Jacques Fayolle",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.mines-stetienne.fr/ecole/gouvernance/direction-de-l-ecole",
+   "evidence_quote": "Directeur ... Jacques Fayolle"
+  },
+  "alternates": [
+   {
+    "name": "Philippe Jaillon",
+    "designation": "Scientific Manager of the Future Networks Chair",
+    "designation_local": "",
+    "email": "philippe.jaillon@mines-stetienne.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.mines-stetienne.fr/innovation/projets-recherche-innovation-chaires/chaire-reseaux-du-futur-pour-les-services-de-demain",
+    "evidence_quote": "Responsables scientifiques ... Philippe Jaillon",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is the scientific manager of a research chair and can be contacted for partnerships."
+   },
+   {
+    "name": "Eric DUFLOT",
+    "designation": "Director of Performance and Valorisation",
+    "designation_local": "",
+    "email": "eric.duflot@mines-stetienne.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.mines-stetienne.fr/profil/entreprise-partenaire",
+    "evidence_quote": "Eric DUFLOT ... Directeur de la Performance et de la Valorisation",
+    "why_chosen": "Other role. He is the director of performance and valorisation and handles collaborations."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the director of the school.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -99,15 +131,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "PolyMontréal",
-    "partner_country": "Canada",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.mines-stetienne.fr/international/mobilite-et-stages-a-l-etranger",
-    "evidence_quote": "Possibilité d’obtenir un diplôme d’une université partenaire de renommée mondiale, comme PolyMontréal (Canada) ou Seoul National University (Corée du Sud).",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Télécom SudParis",
     "partner_country": "France",
     "partner_type": "university",
@@ -135,8 +158,17 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "PolyMontréal",
+    "partner_country": "Canada",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.mines-stetienne.fr/international/mobilite-et-stages-a-l-etranger",
+    "evidence_quote": "Possibilité d’obtenir un diplôme d’une université partenaire de renommée mondiale, comme PolyMontréal (Canada) ou Seoul National University (Corée du Sud).",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Fondation Mines-Télécom",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.mines-stetienne.fr/innovation/projets-recherche-innovation-chaires/chaire-reseaux-du-futur-pour-les-services-de-demain",
@@ -145,7 +177,7 @@
    },
    {
     "partner_name": "Bouygues Telecom",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.mines-stetienne.fr/innovation/projets-recherche-innovation-chaires/chaire-reseaux-du-futur-pour-les-services-de-demain",
@@ -154,7 +186,7 @@
    },
    {
     "partner_name": "CNS Communications",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.mines-stetienne.fr/innovation/projets-recherche-innovation-chaires/chaire-reseaux-du-futur-pour-les-services-de-demain",
@@ -163,7 +195,7 @@
    },
    {
     "partner_name": "NOKIA",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.mines-stetienne.fr/innovation/projets-recherche-innovation-chaires/chaire-reseaux-du-futur-pour-les-services-de-demain",
@@ -172,7 +204,7 @@
    },
    {
     "partner_name": "SPIE ICS",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.mines-stetienne.fr/innovation/projets-recherche-innovation-chaires/chaire-reseaux-du-futur-pour-les-services-de-demain",
@@ -181,7 +213,7 @@
    },
    {
     "partner_name": "SNCF Réseau",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.mines-stetienne.fr/innovation/projets-recherche-innovation-chaires/chaire-reseaux-du-futur-pour-les-services-de-demain",
@@ -189,39 +221,66 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Université Lumière Lyon 2",
+    "partner_name": "Institut Mines-Télécom",
     "partner_country": "France",
-    "partner_type": "university",
+    "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://www.mines-stetienne.fr/recherche/departements-fayol/management-responsable-et-innovation-mri",
-    "evidence_quote": "Le département Management Responsable et Innovation fait partie du laboratoire Coactis, l’Unité de Recherche en sciences de gestion et du management des Universités Lumière Lyon 2 et Jean Monnet de Saint-Étienne, qui rassemble 70 enseignants-chercheurs et une trentaine de doctorants. Les membres du département MRI sont impliqués dans deux des axes du laboratoire.",
+    "source_url": "https://www.mines-stetienne.fr/ecole/gouvernance",
+    "evidence_quote": "Mines Saint-Étienne fait partie de l’Institut Mines-Télécom (IMT), un acteur majeur de l’enseignement supérieur et de la recherche en France. L’IMT regroupe plusieurs grandes écoles d’ingénieurs et de management, et vise à accompagner les transitions économiques, industrielles, et sociétales à travers une approche innovante et collaborative. Cette appartenance permet à Mines Saint-Étienne de bénéficier d’un réseau national et international de partenaires académiques et industriels, renforçant ai",
     "confidence": 0.9
    },
    {
-    "partner_name": "Université Jean Monnet de Saint-Étienne",
+    "partner_name": "THALES",
     "partner_country": "France",
-    "partner_type": "university",
+    "partner_type": "company",
     "mobility_type": "unknown",
-    "source_url": "https://www.mines-stetienne.fr/recherche/departements-fayol/management-responsable-et-innovation-mri",
-    "evidence_quote": "Le département Management Responsable et Innovation fait partie du laboratoire Coactis, l’Unité de Recherche en sciences de gestion et du management des Universités Lumière Lyon 2 et Jean Monnet de Saint-Étienne, qui rassemble 70 enseignants-chercheurs et une trentaine de doctorants. Les membres du département MRI sont impliqués dans deux des axes du laboratoire.",
+    "source_url": "https://www.mines-stetienne.fr/ecole/gouvernance",
+    "evidence_quote": "Christine Caviglioli, vice-présidente Automotive & Mobility Services THALES",
     "confidence": 0.9
    },
    {
-    "partner_name": "CNRS",
+    "partner_name": "Orange Business",
     "partner_country": "France",
-    "partner_type": "other",
+    "partner_type": "company",
     "mobility_type": "unknown",
-    "source_url": "https://www.mines-stetienne.fr/recherche/departements-fayol/management-responsable-et-innovation-mri",
-    "evidence_quote": "UMR CNRS 5307 – LGF – Laboratoire Georges Friedel : Matériaux, Mécanique, Procédés",
+    "source_url": "https://www.mines-stetienne.fr/ecole/gouvernance",
+    "evidence_quote": "Yasmina Elahda, Head of strategic deals chez Orange Business",
     "confidence": 0.9
    },
    {
-    "partner_name": "INSERM",
+    "partner_name": "Groupe Aésio-Santé",
     "partner_country": "France",
-    "partner_type": "other",
+    "partner_type": "company",
     "mobility_type": "unknown",
-    "source_url": "https://www.mines-stetienne.fr/recherche/departements-fayol/management-responsable-et-innovation-mri",
-    "evidence_quote": "UMR INSERM U1059 – SAINBIOSE – Santé Ingénierie Biologie Saint-Étienne",
+    "source_url": "https://www.mines-stetienne.fr/ecole/gouvernance",
+    "evidence_quote": "Thierry Esmilaire, directeur général Groupe Aésio-Santé",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HEF",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mines-stetienne.fr/ecole/gouvernance",
+    "evidence_quote": "Alix Leroy, responsable R&D HEF",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SMILE",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mines-stetienne.fr/ecole/gouvernance",
+    "evidence_quote": "Marc Palazon, président-directeur général SMILE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EDF",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mines-stetienne.fr/ecole/gouvernance",
+    "evidence_quote": "Sylvain Vitet, conseiller auprès du directeur exécutif groupe EDF, direction production nucléaire et thermique",
     "confidence": 0.9
    }
   ],
@@ -247,20 +306,23 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 22,
+  "total_seen": 25,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of specific partner universities but does not contain a comprehensive list of all international partners. The institution is Mines Saint-Étienne, not the one mentioned in the user prompt.",
+  "coverage_note": "The institution is Mines Saint-Étienne (as per the evidence provided), not the one mentioned in the prompt's header. A comprehensive list of all Erasmus+ partners is not provided, only examples of partner universities.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.3,
-  "crawl_s": 42.0,
-  "ai_calls": 5,
+  "discover_s": 0.0,
+  "crawl_s": 20.9,
+  "ai_calls": 6,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 290.4,
+  "model_s": 114.3,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 1.1,
   "slices": [
    {
     "lines": [
@@ -291,11 +353,10 @@
      561,
      700
     ],
-    "returned": 6,
-    "accepted": 4
+    "returned": 7,
+    "accepted": 7
    }
   ],
-  "total_seconds": 335.7
- },
- "rechecked": 2
+  "total_seconds": 138.1
+ }
 }

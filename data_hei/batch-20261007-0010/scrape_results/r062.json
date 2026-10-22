@@ -1,6 +1,6 @@
 {
  "row_id": "r062",
- "scraped_at": "2026-10-22T10:49:22Z",
+ "scraped_at": "2026-10-22T13:10:31Z",
  "contacts": {
   "row_id": "r062",
   "institution_name": "Veleuciliste u Bjelovaru",
@@ -15,14 +15,23 @@
   "phone_alt": [],
   "generic_email": "studentski.dom@vub.hr",
   "generic_email_url": "https://vub.hr/studentski-dom-kontakt/",
-  "contact": null,
+  "contact": {
+   "name": "Slavko Došen",
+   "designation": "Associate for student accommodation and nutrition organization",
+   "designation_local": "",
+   "email": "sdosen@vub.hr",
+   "office_email": "",
+   "phone": "043 780 0517",
+   "source_url": "https://vub.hr/studentski-dom-kontakt/",
+   "evidence_quote": "Suradnik za poslove organizacije studentskog smještaja i prehrane ... Slavko Došen"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Secretary / administration (last resort). Slavko Došen is a named administrator with a specific role and contact information provided.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.45,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -282,13 +291,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.1,
-  "crawl_s": 15.0,
+  "discover_s": 0.0,
+  "crawl_s": 15.2,
   "ai_calls": 2,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 248.7,
+  "model_s": 6.9,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -299,7 +310,6 @@
     "accepted": 24
    }
   ],
-  "total_seconds": 265.9
- },
- "rechecked": 2
+  "total_seconds": 22.1
+ }
 }

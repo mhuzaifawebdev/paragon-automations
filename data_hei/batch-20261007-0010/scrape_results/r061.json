@@ -1,6 +1,6 @@
 {
  "row_id": "r061",
- "scraped_at": "2026-10-22T10:48:54Z",
+ "scraped_at": "2026-10-22T13:10:12Z",
  "contacts": {
   "row_id": "r061",
   "institution_name": "UNIWERSYTET MORSKI W GDYNI",
@@ -11,14 +11,46 @@
   "phone_alt": [],
   "generic_email": "erasmus@umg.edu.pl",
   "generic_email_url": "https://www.umg.edu.pl/koordynatorzy-erasmus",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Paulina Witt",
+   "designation": "Senior Specialist",
+   "designation_local": "",
+   "email": "p.witt@au.umg.edu.pl",
+   "office_email": "",
+   "phone": "58-5586-616",
+   "source_url": "https://www.umg.edu.pl/koordynatorzy-erasmus",
+   "evidence_quote": "starszy specjalista ... Paulina Witt"
+  },
+  "alternates": [
+   {
+    "name": "Anika Kapuścińska",
+    "designation": "Specialist",
+    "designation_local": "",
+    "email": "a.kapuscinska@au.umg.edu.pl",
+    "office_email": "",
+    "phone": "58-5586-493",
+    "source_url": "https://www.umg.edu.pl/koordynatorzy-erasmus",
+    "evidence_quote": "specjalista ... Anika Kapuścińska",
+    "why_chosen": "International relations officer. She is listed as a specialist dealing with administrative support for international students and Erasmus+."
+   },
+   {
+    "name": "Justyna Molenda",
+    "designation": "Coordinator for the Faculty of Mechanical Engineering",
+    "designation_local": "",
+    "email": "j.molenda@wm.umg.edu.pl",
+    "office_email": "",
+    "phone": "58-5586-249",
+    "source_url": "https://www.umg.edu.pl/koordynatorzy-erasmus",
+    "evidence_quote": "Wydział Mechaniczny - Koordynator WM ... Justyna Molenda",
+    "why_chosen": "Faculty-level Erasmus/international coordinator. She serves as the Erasmus+ coordinator for the Faculty of Mechanical Engineering."
+   }
+  ],
+  "rung": "International relations officer. She is an administrative staff member handling international students and the Erasmus+ programme.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+  "notes": "site found via: remembered from an earlier run. mode: gemini. 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -26,7 +58,7 @@
     "partner_name": "Hochschule Bremerhaven",
     "partner_country": "Germany",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
     "evidence_quote": "Szczególnie bliska i długoletnia współpraca łączy UMG z uczelniami: Hochschule Bremerhaven (HB) od 1978 r. i Shanghai Maritime University (SMU) od 1984 r.",
     "confidence": 0.9
@@ -35,14 +67,14 @@
     "partner_name": "Shanghai Maritime University",
     "partner_country": "China",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
     "evidence_quote": "Szczególnie bliska i długoletnia współpraca łączy UMG z uczelniami: Hochschule Bremerhaven (HB) od 1978 r. i Shanghai Maritime University (SMU) od 1984 r.",
     "confidence": 0.9
    },
    {
     "partner_name": "\"Ismail Qemali\" University of Vlora",
-    "partner_country": "Albania",
+    "partner_country": "ALBANIA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -51,7 +83,7 @@
    },
    {
     "partner_name": "Academy of Fishery and Marine Sciences in Namibe, University of Namibe",
-    "partner_country": "Angola",
+    "partner_country": "ANGOLA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -60,7 +92,7 @@
    },
    {
     "partner_name": "Australian Maritime College",
-    "partner_country": "Australia",
+    "partner_country": "AUSTRALIA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -69,7 +101,7 @@
    },
    {
     "partner_name": "Nikola Vaptsarov Naval Academy",
-    "partner_country": "Bulgaria",
+    "partner_country": "BUŁGARIA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -78,7 +110,7 @@
    },
    {
     "partner_name": "Dalian Maritime University",
-    "partner_country": "China",
+    "partner_country": "CHINY",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -87,7 +119,7 @@
    },
    {
     "partner_name": "University of Rijeka – Faculty of Maritime and Transport Studies",
-    "partner_country": "Croatia",
+    "partner_country": "CHORWACJA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -96,7 +128,7 @@
    },
    {
     "partner_name": "University of Split",
-    "partner_country": "Croatia",
+    "partner_country": "CHORWACJA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -105,7 +137,7 @@
    },
    {
     "partner_name": "Arab Academy for Science, Technology & Maritime Transport",
-    "partner_country": "Egypt",
+    "partner_country": "EGIPT",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -114,7 +146,7 @@
    },
    {
     "partner_name": "Batumi Maritime Academy",
-    "partner_country": "Georgia",
+    "partner_country": "GRUZJA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -123,7 +155,7 @@
    },
    {
     "partner_name": "Hochschule Bremen",
-    "partner_country": "Germany",
+    "partner_country": "NIEMCY",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -132,7 +164,7 @@
    },
    {
     "partner_name": "Institut of General Mechanic, RWTH-Aachen",
-    "partner_country": "Germany",
+    "partner_country": "NIEMCY",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -141,7 +173,7 @@
    },
    {
     "partner_name": "Fachhochschule Giessen-Friedberg",
-    "partner_country": "Germany",
+    "partner_country": "NIEMCY",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -150,7 +182,7 @@
    },
    {
     "partner_name": "Hochschule Wismar",
-    "partner_country": "Germany",
+    "partner_country": "NIEMCY",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -159,7 +191,7 @@
    },
    {
     "partner_name": "Sekolah Tinggi Ilmu Pelayaran",
-    "partner_country": "Indonesia",
+    "partner_country": "INDONEZJA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -168,7 +200,7 @@
    },
    {
     "partner_name": "Tokyo University of Marine Science and Technology",
-    "partner_country": "Japan",
+    "partner_country": "JAPONIA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -177,7 +209,7 @@
    },
    {
     "partner_name": "Kobe University-Faculty of Ocean Science and Technology, Graduate School of Maritime Sciences",
-    "partner_country": "Japan",
+    "partner_country": "JAPONIA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -186,7 +218,7 @@
    },
    {
     "partner_name": "Escola Náutica Infante D. Henrique",
-    "partner_country": "Portugal",
+    "partner_country": "PORTUGALIA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -195,7 +227,7 @@
    },
    {
     "partner_name": "\"Vasile Alecsandri\" University of Bacau",
-    "partner_country": "Romania",
+    "partner_country": "RUMUNIA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -204,7 +236,7 @@
    },
    {
     "partner_name": "“Gheorghe Asachi” Technical University of Iasi",
-    "partner_country": "Romania",
+    "partner_country": "RUMUNIA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -213,7 +245,7 @@
    },
    {
     "partner_name": "Dokuz Eylül University",
-    "partner_country": "Turkey",
+    "partner_country": "TURCJA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -222,7 +254,7 @@
    },
    {
     "partner_name": "Istanbul Technical University",
-    "partner_country": "Turkey",
+    "partner_country": "TURCJA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -231,7 +263,7 @@
    },
    {
     "partner_name": "Karadeniz Technical University",
-    "partner_country": "Turkey",
+    "partner_country": "TURCJA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -240,7 +272,7 @@
    },
    {
     "partner_name": "Pîrî Reis University",
-    "partner_country": "Turkey",
+    "partner_country": "TURCJA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -249,7 +281,7 @@
    },
    {
     "partner_name": "Kherson State Maritime Academy",
-    "partner_country": "Ukraine",
+    "partner_country": "UKRAINA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -258,7 +290,7 @@
    },
    {
     "partner_name": "Kyiv National University of Trade and Economics",
-    "partner_country": "Ukraine",
+    "partner_country": "UKRAINA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -267,7 +299,7 @@
    },
    {
     "partner_name": "Admiral Markov National University of Shipbuilding",
-    "partner_country": "Ukraine",
+    "partner_country": "UKRAINA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -276,7 +308,7 @@
    },
    {
     "partner_name": "Ternopil National Economic University",
-    "partner_country": "Ukraine",
+    "partner_country": "UKRAINA",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -285,7 +317,7 @@
    },
    {
     "partner_name": "Vietnam Maritime University",
-    "partner_country": "Vietnam",
+    "partner_country": "WIETNAM",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
@@ -294,11 +326,38 @@
    },
    {
     "partner_name": "Quang Binh University",
-    "partner_country": "Vietnam",
+    "partner_country": "WIETNAM",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
     "evidence_quote": "Quang Binh University, WIETNAM",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kaliningrad State Technical University",
+    "partner_country": "ROSJA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
+    "evidence_quote": "Kaliningrad State Technical University, ROSJA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Admiral Makarov State University of Maritime and Inland Shipping, St. Petersburg",
+    "partner_country": "ROSJA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
+    "evidence_quote": "Admiral Makarov State University of Maritime and Inland Shipping, St. Petersburg, ROSJA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Admiral Ushakov State Maritime University",
+    "partner_country": "ROSJA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
+    "evidence_quote": "Admiral Ushakov State Maritime University, ROSJA",
     "confidence": 0.9
    },
    {
@@ -336,59 +395,16 @@
     "source_url": "https://www.umg.edu.pl/",
     "evidence_quote": "[godło][logo UMG][logo hr][Marlins Test Centre]",
     "confidence": 0.9
-   },
-   {
-    "partner_name": "Kaliningrad State Technical University",
-    "partner_country": "Rosja",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
-    "evidence_quote": "Kaliningrad State Technical University, ROSJA",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Admiral Makarov State University of Maritime and Inland Shipping, St. Petersburg",
-    "partner_country": "Rosja",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
-    "evidence_quote": "Admiral Makarov State University of Maritime and Inland Shipping, St. Petersburg, ROSJA",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Admiral Ushakov State Maritime University",
-    "partner_country": "Rosja",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.umg.edu.pl/uczelnie-partnerskie",
-    "evidence_quote": "Admiral Ushakov State Maritime University, ROSJA",
-    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Main Campus",
+    "campus_name": "Uniwersytet Morski w Gdyni",
     "city": "Gdynia",
     "country": "Poland",
     "role": "main",
     "source_url": "https://www.umg.edu.pl/",
-    "evidence_quote": "Budynek główny Uniwersytetu mieści się przy najdłuższej ulicy w Gdyni - Morskiej. Na terenie kampusu stoi nowoczesne Centrum Sportu i Rekreacji, działa studencki klub \"Bukszpryt\" oraz uczelniany sklepik \"Kotwica\". W pobliżu stoją również studenckie akademiki."
-   },
-   {
-    "campus_name": "Wydział Nawigacyjny",
-    "city": "Gdynia",
-    "country": "Poland",
-    "role": "branch",
-    "source_url": "https://www.umg.edu.pl/",
-    "evidence_quote": "Sale wykładowe z widokiem na morze. Takie rzeczy tylko na Wydziale Nawigacyjnym, który mieści się na gdyńskim nabrzeżu na Molo Południowym. Naprzeciw budynku cumują nasze szkolne statki, \"Dar Młodzieży\" i \"Horyzont\", a w marinie jachtowej uczelniane jachty żaglowe. Tu, nad morzem, mieści się też uniwersyteckie Planetarium im. A. Ledóchowskiego oraz akademiki, w tym Studencki Dom Marynarza."
-   },
-   {
-    "campus_name": "Ośrodek Manewrowania Statkami",
-    "city": "Iława",
-    "country": "Poland",
-    "role": "branch",
-    "source_url": "https://www.umg.edu.pl/",
-    "evidence_quote": "Ośrodek Manewrowania Statkami w Iławie"
+    "evidence_quote": "UMG | Uniwersytet Morski w Gdyni"
    }
   ],
   "stated_total": null,
@@ -397,18 +413,19 @@
   "truncated": false,
   "total_seen": 38,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of partner universities but does not state a total number of partners. Contact details for Erasmus coordinators are provided by faculty. 2 page(s) could not be read.",
+  "coverage_note": "The evidence provides a comprehensive list of international partner institutions and faculty-specific Erasmus coordinators, alongside details about the university's main campus in Gdynia. 2 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.2,
+  "discover_s": 0.0,
   "crawl_s": 13.0,
   "ai_calls": 4,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 353.1,
+  "model_s": 110.2,
   "mode": "gemini",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -435,7 +452,6 @@
     "accepted": 34
    }
   ],
-  "total_seconds": 368.3
- },
- "rechecked": 2
+  "total_seconds": 123.2
+ }
 }
