@@ -1,0 +1,112 @@
+{
+ "row_id": "r052",
+ "scraped_at": "2026-10-22T22:51:05Z",
+ "contacts": {
+  "row_id": "r052",
+  "institution_name": "lycée Curie bonjour",
+  "institution_type": "school",
+  "official_website": "https://curie-corot.lycee.ac-normandie.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Damien GOUPIL",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://curie-corot.lycee.ac-normandie.fr/?Une-equipe-a-votre-service",
+   "evidence_quote": "Proviseur : ... Damien GOUPIL"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'Lycée Curie-Corot' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "NAVAL Groupe",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://curie-corot.lycee.ac-normandie.fr/",
+    "evidence_quote": "Partenariat avec NAVAL Groupe",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "lycée général de Szubin",
+    "partner_country": "Poland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://curie-corot.lycee.ac-normandie.fr/?Erasmus-France",
+    "evidence_quote": "C’est la deuxième fois que nous montons un projet avec le lycée général de Szubin en Pologne. Et nos collègues Magda et Ewa sont prêtes à renouveler cette coopération entre nos deux établissements, synonyme d’engagement et de beaux moments pour nos élèves.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GRETA Côtes normandes",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://curie-corot.lycee.ac-normandie.fr/?Horaires-Contact",
+    "evidence_quote": "GRETA Côtes normandes",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "LPO CURIE-COROT",
+    "city": "Saint-Lô",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://curie-corot.lycee.ac-normandie.fr/IMG/pdf/formations_2024_par_1.pdf",
+    "evidence_quote": "LYCEE POLYVALENT CURIE – COROT - 377, rue de l’Exode - BP 290 - 50010 SAINT -LO Cedex"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a formal list of Erasmus+ partners, only mentioning a specific cooperation with a school in Poland and a local industrial partnership.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.1,
+  "crawl_s": 26.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 13.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 52.8
+ }
+}
