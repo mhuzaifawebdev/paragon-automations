@@ -1,6 +1,6 @@
 {
  "row_id": "r078",
- "scraped_at": "2026-10-07T07:47:01Z",
+ "scraped_at": "2026-10-22T11:08:30Z",
  "contacts": {
   "row_id": "r078",
   "institution_name": "Det Jyske Musikkonservatorium",
@@ -9,10 +9,12 @@
   "country": {
    "value": "Denmark",
    "source_url": "https://musikkons.dk/",
-   "evidence_quote": "DJM er en statsinstitution under Kulturministeriet og varetager de højeste uddannelser inden for musik og bidrager i øvrigt til at fremme musikkulturen i Danmark."
+   "evidence_quote": "500+ årlige koncerter i Danmark"
   },
   "phone": null,
   "phone_alt": [],
+  "generic_email": "mail@musikkons.dk",
+  "generic_email_url": "https://musikkons.dk/",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,13 +22,13 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "AEC",
-    "partner_country": "unknown",
+    "partner_country": "Europe",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/",
@@ -35,7 +37,7 @@
    },
    {
     "partner_name": "GLOMUS",
-    "partner_country": "unknown",
+    "partner_country": "International",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/",
@@ -43,26 +45,17 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Genus project",
-    "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_name": "European Association of Music Conservatories (AEC)",
+    "partner_country": "Europe",
+    "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://musikkons.dk/en/what-else/cooperation/",
-    "evidence_quote": "The Academy is involved in a wide range of international projects, acticvites and cooperation, e.g. AEC, Erasmus+, the GLOMUS network, the Genus project, capacity building projects etc.",
+    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
+    "evidence_quote": "Furthermore RAMA is an active member of the European Association of Music Conservatories, AEC, with representation in the AEC Development group and previous chairing of a sub-group in the prestigious Polifonia EU project.",
     "confidence": 0.9
    },
    {
-    "partner_name": "SPOT festival",
-    "partner_country": "Denmark",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/capacity-building-projects/",
-    "evidence_quote": "The large scale cooperation with Mali also includes collaboration with Danish SPOT festival with the focus of creating a platform (“SPOT on MALI Music”) for talent development of young promising Mali musicians. The most visible result is an annual showcase festival in Bamako and a corresponding webpage and interactive Facebook group www.spotonmalimusic.org and www.facebook.com/spotonmalimusic",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "NordPULS network",
-    "partner_country": "unknown",
+    "partner_name": "NordPULS",
+    "partner_country": "Nordic/Baltic",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
@@ -70,17 +63,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "GLOMUS network",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
-    "evidence_quote": "GLOMUS network and Capacity building projects",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Act in Art",
-    "partner_country": "unknown",
+    "partner_country": "Nordic/Baltic",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
@@ -106,7 +90,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Oslo",
+    "partner_name": "music conservatories in Oslo",
     "partner_country": "Norway",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -115,7 +99,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Helsinki",
+    "partner_name": "music conservatories in Helsinki",
     "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -135,7 +119,7 @@
    {
     "partner_name": "Saint Louis College of Music",
     "partner_country": "Italy",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/harmony-festival-young-people-playing-for-young-people/",
     "evidence_quote": "Blandt de mange bands er Urban Quartet fra Saint Louis College of Music i Rom. Kvartetten blander klassisk jazz med andre elementer og eksperimenterer med rytme og harmonier.",
@@ -332,7 +316,7 @@
    },
    {
     "partner_name": "Erasmus+",
-    "partner_country": "unknown",
+    "partner_country": "",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/",
@@ -340,12 +324,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Gradus Junior College",
-    "partner_country": "unknown",
-    "partner_type": "college",
+    "partner_name": "Genus",
+    "partner_country": "",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/",
-    "evidence_quote": "Gradus Junior College",
+    "evidence_quote": "The Academy is involved in a wide range of international projects, acticvites and cooperation, e.g. AEC, Erasmus+, the GLOMUS network, the Genus project, capacity building projects etc.",
     "confidence": 0.9
    },
    {
@@ -358,16 +342,16 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Danish Embassy in Mali",
-    "partner_country": "Mali",
+    "partner_name": "Danish SPOT festival",
+    "partner_country": "Denmark",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/capacity-building-projects/",
-    "evidence_quote": "The program is supported by CKU (Danish Centre for Culture and Development) and the Danish Embassy in Mali.",
+    "evidence_quote": "The large scale cooperation with Mali also includes collaboration with Danish SPOT festival with the focus of creating a platform (“SPOT on MALI Music”) for talent development of young promising Mali musicians. The most visible result is an annual showcase festival in Bamako and a corresponding webpage and interactive Facebook group www.spotonmalimusic.org and www.facebook.com/spotonmalimusic",
     "confidence": 0.9
    },
    {
-    "partner_name": "European Association of Music Conservatories (AEC)",
+    "partner_name": "European Association of Music Conservatories, AEC",
     "partner_country": "Europe",
     "partner_type": "network",
     "mobility_type": "unknown",
@@ -376,27 +360,72 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "music conservatories in Oslo",
+    "partner_name": "Nordic Network for Jazz/Pop (“rhythmic”) music, the NordPULS network",
+    "partner_country": "Nordic",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
+    "evidence_quote": "Furthermore RAMA is coordinator for the Nordic Network for Jazz/Pop (“rhythmic”) music, the NordPULS network.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GLOMUS network",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
+    "evidence_quote": "RAMA is one of the founding partners of the global GLOMUS network, a highly ambitious network for proactive music and arts academies with an ambition to reach out to all continents. The activities range from exchanges and performances to the biannual GLOMUS Camps.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Oslo",
     "partner_country": "Norway",
-    "partner_type": "university",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
     "evidence_quote": "RAMA was a partner in the Renew project under the Erasmus+ education program. The program was working with a new platform for e learning and entrepreneurship. The program ended in 2018. The partnership included the music conservatories in The Hague, Oslo, Helsinki, the Guildhall Conservatory in London and AEC.",
     "confidence": 0.9
    },
    {
-    "partner_name": "music conservatories in Helsinki",
+    "partner_name": "Helsinki",
     "partner_country": "Finland",
-    "partner_type": "university",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
     "evidence_quote": "RAMA was a partner in the Renew project under the Erasmus+ education program. The program was working with a new platform for e learning and entrepreneurship. The program ended in 2018. The partnership included the music conservatories in The Hague, Oslo, Helsinki, the Guildhall Conservatory in London and AEC.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Guildhall Conservatory in London",
+    "partner_country": "United Kingdom",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/en/what-else/cooperation/international-projects/",
+    "evidence_quote": "RAMA was a partner in the Renew project under the Erasmus+ education program. The program was working with a new platform for e learning and entrepreneurship. The program ended in 2018. The partnership included the music conservatories in The Hague, Oslo, Helsinki, the Guildhall Conservatory in London and AEC.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Saint Louis College of Music in Rom",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/harmony-festival-young-people-playing-for-young-people/",
+    "evidence_quote": "Blandt de mange bands er Urban Quartet fra Saint Louis College of Music i Rom. Kvartetten blander klassisk jazz med andre elementer og eksperimenterer med rytme og harmonier.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Saint Louis in Rom",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/harmony-festival-young-people-playing-for-young-people/",
+    "evidence_quote": "Besøget er et eksempel på konservatoriets mange kontakter i udlandet, bl.a. til netop Saint Louis i Rom. De fire musikere er alle alumner fra Saint Louis, de har spillet på Italiens mest prestigefulde festivaler og fik flotte anmeldelser for deres debutalbum Sofà med jazzikonet Max Ionata. Urban Quartet spiller på Fjordscenen kl. 13.45.",
     "confidence": 0.9
    },
    {
     "partner_name": "Center for Kognitiv Semiotik ved Århus Universitet (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Center for Kognitiv Semiotik ved Århus Universitet (AU)",
@@ -405,7 +434,7 @@
    {
     "partner_name": "Center for Kulturforskning (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Center for Kulturforskning (AU)",
@@ -414,7 +443,7 @@
    {
     "partner_name": "Datalogisk Institut (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Datalogisk Institut (AU)",
@@ -423,7 +452,7 @@
    {
     "partner_name": "Center for Avanceret Visualisering og Interaktion (CAVI, AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Center for Avanceret Visualisering og Interaktion (CAVI, AU)",
@@ -432,16 +461,25 @@
    {
     "partner_name": "Center for digital Æstetikforskning (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Center for digital Æstetikforskning (AU)",
     "confidence": 0.9
    },
    {
+    "partner_name": "Institut for Design, Arkitektskolen i Århus",
+    "partner_country": "Denmark",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
+    "evidence_quote": "Institut for Design, Arkitektskolen i Århus",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Psykologisk Institut (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Psykologisk Institut (AU)",
@@ -450,7 +488,7 @@
    {
     "partner_name": "Institut for Antropologi (AU)",
     "partner_country": "Denmark",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Institut for Antropologi (AU)",
@@ -468,7 +506,7 @@
    {
     "partner_name": "Cognitive Brain Research Unit, Helsinki",
     "partner_country": "Finland",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Cognitive Brain Research Unit, Helsinki",
@@ -477,7 +515,7 @@
    {
     "partner_name": "BioMag Laboratory ved Helsinki University Central Hospital",
     "partner_country": "Finland",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "BioMag Laboratory ved Helsinki University Central Hospital",
@@ -486,10 +524,19 @@
    {
     "partner_name": "Functional Imaging Laboratory at the Wellcome Department of Imaging Neuroscience (London)",
     "partner_country": "United Kingdom",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
     "evidence_quote": "Functional Imaging Laboratory at the Wellcome Department of Imaging Neuroscience (London)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Durham, England",
+    "partner_country": "United Kingdom",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://musikkons.dk/det-laver-vi-ogsaa/forskning-og-udvikling/forskning/samarbejdspartnere/",
+    "evidence_quote": "University of Durham, England",
     "confidence": 0.9
    }
   ],
@@ -507,19 +554,39 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 52,
+  "total_seen": 57,
   "pages_read": 10,
-  "coverage_note": "The institution lists many research and project partners, but does not provide a comprehensive list of Erasmus+ mobility partners. No specific contact person for international relations is named in the provided text.",
+  "coverage_note": "The evidence provides a list of research and project partners, but does not contain a comprehensive list of Erasmus+ mobility partners. No specific contact person for international relations is named in the provided text.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 20.1,
+  "discover_s": 0.0,
+  "crawl_s": 11.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 13.2,
+  "model_s": 91.9,
   "mode": "gemini",
-  "total_seconds": 35.6
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 31,
+    "accepted": 31
+   }
+  ],
+  "total_seconds": 102.9
  },
  "rechecked": true
 }
