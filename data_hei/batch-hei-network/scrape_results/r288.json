@@ -1129,57 +1129,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 14.6,
-  "ai_calls": 7,
-  "partner_calls": 5,
+  "crawl_s": 147.7,
+  "ai_calls": 2,
+  "model_s": 1.4,
   "cost_usd_estimate": 0.0,
-  "model_s": 10.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
   "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 73,
-    "accepted": 73
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 17,
-    "accepted": 17
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 22,
-    "accepted": 22
-   },
-   {
-    "lines": [
-     561,
-     694
-    ],
-    "returned": 0,
-    "accepted": 0
-   }
-  ],
-  "total_seconds": 29.4
+  "total_seconds": 150.1
  },
  "rechecked": 3
 }
