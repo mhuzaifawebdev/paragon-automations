@@ -1,10 +1,10 @@
 {
  "row_id": "r517",
- "scraped_at": "2026-10-12T06:15:17Z",
+ "scraped_at": "2026-10-22T20:59:36Z",
  "contacts": {
   "row_id": "r517",
   "institution_name": "OGEC PHILIPPINE DUCHESNE ITECBOISFLEURY",
-  "institution_type": "college",
+  "institution_type": "school",
   "official_website": "https://philippine-duchesne.fr/",
   "country": null,
   "phone": {
@@ -13,17 +13,37 @@
    "evidence_quote": "04 76 90 12 16"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 9,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read.",
   "generic_email": "contact@philippine-duchesne.fr",
   "generic_email_url": "https://philippine-duchesne.fr/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Nelly Mouchet",
+   "designation": "Head of CPGE ECG",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://philippine-duchesne.fr/echange-erasmus-avec-lecole-officielle-de-langues-de-madrid/",
+   "evidence_quote": "Nelly Mouchet ... Responsable de CPGE ECG"
+  },
+  "alternates": [
+   {
+    "name": "Thierry Lambert",
+    "designation": "Spanish teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://philippine-duchesne.fr/echange-erasmus-24-25-ecole-madrid/",
+    "evidence_quote": "Thierry Lambert, professeur d’Espagnol",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is a teacher involved in the Erasmus+ exchange program and is mentioned as a key organizer of these opportunities."
+   }
+  ],
+  "rung": "Faculty-level Erasmus/international coordinator. She is explicitly named as the person responsible for the CPGE ECG program and is actively involved in organizing Erasmus+ exchanges.",
+  "source": "web",
+  "confidence": 0.5,
+  "needs_human_check": true,
+  "pages_read": 15,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -139,49 +159,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 20.9,
-  "ai_calls": 6,
-  "partner_calls": 4,
+  "crawl_s": 154.3,
+  "ai_calls": 1,
+  "model_s": 2.9,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 4,
-    "accepted": 4
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 1,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 5,
-    "accepted": 5
-   },
-   {
-    "lines": [
-     421,
-     449
-    ],
-    "returned": 0,
-    "accepted": 0
-   }
-  ],
-  "total_seconds": 25.7
- },
- "rechecked": 3
+  "email_search_s": 6.5,
+  "total_seconds": 163.7
+ }
 }
