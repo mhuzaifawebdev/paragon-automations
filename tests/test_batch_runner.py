@@ -317,6 +317,11 @@ br.discover._ddg_urls = lambda q, limit=5: ["https://www.x.edu/team", "https://o
 check("staff search keeps only pages on the institute's own site",
       br.discover.staff_pages("X University", "x.edu"), ["https://www.x.edu/team", "https://x.edu/rector"])
 br.discover._ddg_urls = real_ddg
+no_site = {"contacts": {"official_website": "", "contact": None, "notes": "Website not found (no website source available)"}}
+with_site = {"contacts": {"official_website": "https://x.edu/", "contact": None, "notes": "site found via: x"}}
+check("--websites takes only the institutes whose website was never found",
+      (rc.needs_recheck(no_site, websites=True), rc.needs_recheck(with_site, websites=True)), (True, False))
+check("the normal re-check leaves them out (nothing to read)", (rc.needs_recheck(no_site), rc.needs_recheck(with_site)), (False, True))
 os.environ.pop("GEMINI_PAID_API_KEY", None)
 check("no paid Gemini key: no Google search is made (and nothing is spent)", br.discover._gemini_paid_urls("x"), [])
 check("an ordinary address is used as it is; only Google's redirect links are followed",

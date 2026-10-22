@@ -28,11 +28,16 @@ def batches(data=DATA):
     return sorted(p for p in Path(data).iterdir() if p.is_dir() and p.name != "uploads" and (p / "numbers_clean.csv").exists())
 
 
-def needs_recheck(result):
+def needs_recheck(result, websites=False):
+    """websites=False: a website but no named contact. websites=True: no website was found at all (the scrape now
+    searches Google for it through the paid Gemini key)."""
     c = result.get("contacts") or {}
-    return (bool(c.get("official_website")) and not c.get("contact")
-            and not str(c.get("notes") or "").startswith("Website not found")
-            and int(result.get("rechecked") or 0) < ROUND)          # True (round 1) counts as 1
+    no_site = str(c.get("notes") or "").startswith("Website not found")
+    if int(result.get("rechecked") or 0) >= ROUND:                  # True (round 1) counts as 1
+        return False
+    if websites:
+        return no_site and not c.get("contact")
+    return bool(c.get("official_website")) and not c.get("contact") and not no_site
 
 
 def set_reader(bdir, reader="free", cap_usd=10.0, deep=False):
@@ -53,7 +58,7 @@ def set_reader(bdir, reader="free", cap_usd=10.0, deep=False):
             progress.write_text(json.dumps(p, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
-def prepare(bdir, reader="free", cap_usd=10.0, deep=False):
+def prepare(bdir, reader="free", cap_usd=10.0, deep=False, websites=False):
     """Returns how many institutes of this batch were set aside for the re-check."""
     prev = bdir / "scrape_results_prev"
     moved = []
@@ -62,7 +67,7 @@ def prepare(bdir, reader="free", cap_usd=10.0, deep=False):
             res = json.loads(f.read_text(encoding="utf-8"))
         except Exception:
             continue
-        if needs_recheck(res):
+        if needs_recheck(res, websites):
             prev.mkdir(exist_ok=True)
             res["rechecked"] = ROUND             # a second --prepare in the same round never sets it aside again
             (prev / f.name).write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -119,11 +124,12 @@ def main():
     g.add_argument("--list", action="store_true")
     ap.add_argument("--reader", choices=["free", "paid"], default="free")
     ap.add_argument("--cap", type=float, default=10.0, help="US dollars, all batches together")
+    ap.add_argument("--websites", action="store_true", help="the institutes whose website was never found")
     ap.add_argument("--deep", action="store_true", help="staff pages searched on the site, up to 20 pages; partner lists not read again")
     a = ap.parse_args()
     for b in batches():
         if a.prepare:
-            n = prepare(b, a.reader, a.cap, a.deep)
+            n = prepare(b, a.reader, a.cap, a.deep, a.websites)
             if n:
                 print(f"{b.name}: {n} institute(s) set aside for the re-check")
         elif a.finish:
