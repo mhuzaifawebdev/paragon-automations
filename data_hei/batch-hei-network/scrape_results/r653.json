@@ -1,10 +1,10 @@
 {
  "row_id": "r653",
- "scraped_at": "2026-10-12T06:34:07Z",
+ "scraped_at": "2026-10-22T21:17:38Z",
  "contacts": {
   "row_id": "r653",
   "institution_name": "ORPHEUS INSTITUUT VZW",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://orpheusinstituut.be/",
   "country": {
    "value": "Belgium",
@@ -17,17 +17,26 @@
    "evidence_quote": "+32 (0)9 330 40 81"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "info@orpheusinstituut.be",
   "generic_email_url": "https://orpheusinstituut.be/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Peter Dejans",
+   "designation": "founder and Director",
+   "designation_local": "",
+   "email": "peter.dejans@orpheusinstituut.be",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://orpheusinstituut.be/en/news/thirty-years-of-transforming-the-making-and-understanding-of-music",
+   "evidence_quote": "Peter Dejans - founder and director of Orpheus Instituut",
+   "email_source_url": "https://orpheusinstituut.be/en/about-us/organisation"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Peter Dejans is the founder and director of the institution. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 12,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -1053,49 +1062,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 57.0,
-  "ai_calls": 6,
-  "partner_calls": 4,
+  "crawl_s": 195.8,
+  "ai_calls": 1,
+  "model_s": 6.7,
   "cost_usd_estimate": 0.0,
-  "model_s": 15.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 18,
-    "accepted": 17
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 55,
-    "accepted": 55
-   },
-   {
-    "lines": [
-     561,
-     585
-    ],
-    "returned": 19,
-    "accepted": 19
-   }
-  ],
-  "total_seconds": 73.1
- },
- "rechecked": 3
+  "email_search_s": 6.1,
+  "total_seconds": 208.7
+ }
 }
