@@ -1,13 +1,13 @@
 {
  "row_id": "r060",
- "scraped_at": "2026-10-22T10:48:08Z",
+ "scraped_at": "2026-10-22T12:35:25Z",
  "contacts": {
   "row_id": "r060",
   "institution_name": "SKUPNOST VISJIH STROKOVNIH SOL REPUBLIKE SLOVENIJE",
   "institution_type": "college",
   "official_website": "https://www.skupnost-vss.si/",
   "country": {
-   "value": "Slovenia",
+   "value": "Slovenija",
    "source_url": "https://www.skupnost-vss.si/",
    "evidence_quote": "Mariborska cesta 2, 3000 Celje, Slovenija, Evropa"
   },
@@ -15,14 +15,46 @@
   "phone_alt": [],
   "generic_email": "sekretariat@skupnost-vss.si",
   "generic_email_url": "https://www.skupnost-vss.si/",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Nejc Gajšek",
+   "designation": "Researcher",
+   "designation_local": "",
+   "email": "nejc.gajsek@skupnost-vss.si",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.skupnost-vss.si/secretariat/?lang=en",
+   "evidence_quote": "Nejc Gajšek ... Researcher"
+  },
+  "alternates": [
+   {
+    "name": "Dr. Vesna Novak",
+    "designation": "Office Associate",
+    "designation_local": "",
+    "email": "vesna.novak@skupnost-vss.si",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.skupnost-vss.si/secretariat/?lang=en",
+    "evidence_quote": "Dr. Vesna Novak ... Office Associate",
+    "why_chosen": "Mobility coordinator. Dr. Vesna Novak is listed as a contact with KA2 responsibilities and Erasmus+ experience."
+   },
+   {
+    "name": "Miha Zimšek",
+    "designation": "Secretary General",
+    "designation_local": "",
+    "email": "miha.zimsek@skupnost-vss.si",
+    "office_email": "",
+    "phone": "+386 64 171 710",
+    "source_url": "https://www.skupnost-vss.si/secretariat/?lang=en",
+    "evidence_quote": "Miha Zimšek ... Secretary General",
+    "why_chosen": "Secretary / administration (last resort). Miha Zimšek is the Secretary General of the Association."
+   }
+  ],
+  "rung": "Mobility coordinator. Nejc Gajšek is listed as a contact with KA1 mobility responsibilities.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -102,24 +134,24 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.8,
-  "crawl_s": 24.8,
+  "discover_s": 0.0,
+  "crawl_s": 27.2,
   "ai_calls": 2,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 337.5,
+  "model_s": 408.6,
   "mode": "gemini",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      701,
      840
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 0,
+    "accepted": 0
    }
   ],
-  "total_seconds": 367.1
- },
- "rechecked": 2
+  "total_seconds": 435.8
+ }
 }
