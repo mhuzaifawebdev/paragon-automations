@@ -1,25 +1,60 @@
 {
  "row_id": "r399",
- "scraped_at": "2026-10-12T05:48:22Z",
+ "scraped_at": "2026-10-22T13:54:28Z",
  "contacts": {
   "row_id": "r399",
   "institution_name": "UNIVERSITAT FUR WEITERBILDUNG KREMS",
   "institution_type": "university",
   "official_website": "https://www.donau-uni.ac.at/de.html",
-  "country": null,
+  "country": {
+   "value": "Austria",
+   "source_url": "https://www.donau-uni.ac.at/de.html",
+   "evidence_quote": "Am 22. Oktober 2026 setzen die öffentlichen Universitäten Österreichs erneut gemeinsam ein Zeichen gegen die angekündigten Budgetkürzungen durch die Bundesregierung"
+  },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "international@donau-uni.ac.at",
   "generic_email_url": "https://www.donau-uni.ac.at/de/universitaet/service/servicecenter-fuer-internationale-beziehungen/mobilitaet/outgoing/erasmus-universitaetspersonal.html",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Eva Maria Stöckler",
+   "designation": "Dean",
+   "designation_local": "",
+   "email": "eva.stoeckler@donau-uni.ac.at",
+   "office_email": "",
+   "phone": "+43 2732 893-2574",
+   "source_url": "https://www.donau-uni.ac.at/de/universitaet/service/campus-cultur/team.html",
+   "evidence_quote": "Mag. Dr. Eva Maria Stöckler, MA-ME ... Dekanin"
+  },
+  "alternates": [
+   {
+    "name": "Andrea Kaufmann",
+    "designation": "Organizational Assistant",
+    "designation_local": "",
+    "email": "andrea.kaufmann@donau-uni.ac.at",
+    "office_email": "",
+    "phone": "+43 2732 893-2571",
+    "source_url": "https://www.donau-uni.ac.at/de/universitaet/service/campus-cultur/team.html",
+    "evidence_quote": "Andrea Kaufmann ... Organisationsassistentin",
+    "why_chosen": "Secretary / administration (last resort). Andrea Kaufmann is an organizational assistant."
+   },
+   {
+    "name": "Cornelia Pesendorfer",
+    "designation": "Center for Applied Music Research",
+    "designation_local": "",
+    "email": "cornelia.pesendorfer@donau-uni.ac.at",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.donau-uni.ac.at/de/universitaet/service/campus-cultur/team.html",
+    "evidence_quote": "Mag. Cornelia Pesendorfer ... Zentrum für Angewandte Musikforschung",
+    "why_chosen": "Other role. Cornelia Pesendorfer works at the Center for Applied Music Research."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. Eva Maria Stöckler is the Dean of the Faculty of Education, Arts and Architecture.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -709,7 +744,7 @@
    },
    {
     "partner_name": "Cube DX GmbH",
-    "partner_country": "Austria",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.donau-uni.ac.at/en/university/faculties/health-medicine/departments/biomedical-research/cooperations-and-networks.html",
@@ -718,7 +753,7 @@
    },
    {
     "partner_name": "CytoSorbents Europe GmbH",
-    "partner_country": "Austria",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.donau-uni.ac.at/en/university/faculties/health-medicine/departments/biomedical-research/cooperations-and-networks.html",
@@ -727,7 +762,7 @@
    },
    {
     "partner_name": "FMC Adsorber Tec Krems",
-    "partner_country": "Austria",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.donau-uni.ac.at/en/university/faculties/health-medicine/departments/biomedical-research/cooperations-and-networks.html",
@@ -736,7 +771,7 @@
    },
    {
     "partner_name": "Fresenius Medical Care",
-    "partner_country": "Austria",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.donau-uni.ac.at/en/university/faculties/health-medicine/departments/biomedical-research/cooperations-and-networks.html",
@@ -745,7 +780,7 @@
    },
    {
     "partner_name": "ASEV (Austrian Society for Extracellular Vesicles)",
-    "partner_country": "Austria",
+    "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.donau-uni.ac.at/en/university/faculties/health-medicine/departments/biomedical-research/cooperations-and-networks.html",
@@ -754,7 +789,7 @@
    },
    {
     "partner_name": "ESAO (European Society for Artificial Organs)",
-    "partner_country": "Europe",
+    "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.donau-uni.ac.at/en/university/faculties/health-medicine/departments/biomedical-research/cooperations-and-networks.html",
@@ -763,7 +798,7 @@
    },
    {
     "partner_name": "ESS (European Shock Society)",
-    "partner_country": "Europe",
+    "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.donau-uni.ac.at/en/university/faculties/health-medicine/departments/biomedical-research/cooperations-and-networks.html",
@@ -772,7 +807,7 @@
    },
    {
     "partner_name": "ISEV (International Society for Extracellular Vesicles)",
-    "partner_country": "International",
+    "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.donau-uni.ac.at/en/university/faculties/health-medicine/departments/biomedical-research/cooperations-and-networks.html",
@@ -781,7 +816,7 @@
    },
    {
     "partner_name": "ÖGMBT (Austrian Association of Molecular Life Sciences and Biotechnology)",
-    "partner_country": "Austria",
+    "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.donau-uni.ac.at/en/university/faculties/health-medicine/departments/biomedical-research/cooperations-and-networks.html",
@@ -805,19 +840,21 @@
   "truncated": false,
   "total_seen": 85,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of Erasmus+ partner universities with Inter-Institutional Agreements and some additional research partners, but does not state a total number of partners.",
+  "coverage_note": "The evidence provides a list of Inter-Institutional Agreements and some research partners, but does not explicitly state a total number of partners.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.8,
-  "crawl_s": 25.6,
-  "ai_calls": 5,
+  "discover_s": 0.0,
+  "crawl_s": 36.3,
+  "ai_calls": 6,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 18.2,
+  "model_s": 17.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 4,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -852,7 +889,6 @@
     "accepted": 75
    }
   ],
-  "total_seconds": 46.6
- },
- "rechecked": true
+  "total_seconds": 55.5
+ }
 }

@@ -25,8 +25,8 @@
   "needs_human_check": true,
   "pages_read": 10,
   "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read.",
-  "generic_email": "",
-  "generic_email_url": "",
+  "generic_email": "post@vid.no",
+  "generic_email_url": "https://www.vid.no/om/kontakt",
   "generic_checked": "2026-10-22"
  },
  "network": {
@@ -363,14 +363,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.7,
-  "crawl_s": 20.7,
-  "ai_calls": 2,
+  "discover_s": 0.0,
+  "crawl_s": 18.7,
+  "ai_calls": 3,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 8.1,
+  "model_s": 6.4,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
@@ -381,7 +382,7 @@
     "accepted": 28
    }
   ],
-  "total_seconds": 30.5
+  "total_seconds": 26.2
  },
  "rechecked": true
 }

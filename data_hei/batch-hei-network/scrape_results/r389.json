@@ -1,6 +1,6 @@
 {
  "row_id": "r389",
- "scraped_at": "2026-10-12T05:47:28Z",
+ "scraped_at": "2026-10-22T13:54:04Z",
  "contacts": {
   "row_id": "r389",
   "institution_name": "ECOLE NATIONALE SUPERIEURE DE L'ELECTRONIQUE ET DE SES APPLICATIONS",
@@ -13,23 +13,31 @@
    "evidence_quote": "+33 1 30 73 66 66 <tel +33 1 30 73 66 66>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Vincent MERVAL",
+   "designation": "Directeur de l’ENSEA",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ensea.fr/ecole/qui-sommes-nous/gouvernance",
+   "evidence_quote": "Vincent MERVAL, Directeur de l’ENSEA"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Vincent MERVAL is the Director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "American University in Cairo",
-    "partner_country": "Egypt",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -38,7 +46,7 @@
    },
    {
     "partner_name": "Aristotle University of Thessaloniki",
-    "partner_country": "Greece",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -47,7 +55,7 @@
    },
    {
     "partner_name": "AUDENCIA Nantes",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -56,7 +64,7 @@
    },
    {
     "partner_name": "Ben-Gurion University of the Negev",
-    "partner_country": "Israel",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -65,7 +73,7 @@
    },
    {
     "partner_name": "Bishop's University",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -74,7 +82,7 @@
    },
    {
     "partner_name": "Boise State University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -83,7 +91,7 @@
    },
    {
     "partner_name": "Cardiff University",
-    "partner_country": "UK",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -92,7 +100,7 @@
    },
    {
     "partner_name": "Case Western Reserve University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -101,7 +109,7 @@
    },
    {
     "partner_name": "City College of New York",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -110,7 +118,7 @@
    },
    {
     "partner_name": "Clemson University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -119,7 +127,7 @@
    },
    {
     "partner_name": "Drexel University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -128,7 +136,7 @@
    },
    {
     "partner_name": "Ecole de Technologie Supérieure ETS",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -137,7 +145,7 @@
    },
    {
     "partner_name": "Ecole Nationale Polytechnique",
-    "partner_country": "Algeria",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -146,7 +154,7 @@
    },
    {
     "partner_name": "Embry-Riddle Aeronautical University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -155,7 +163,7 @@
    },
    {
     "partner_name": "Escola tècnica superior d'enginyeria de telecomunicació de Barcelona",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -164,7 +172,7 @@
    },
    {
     "partner_name": "Escola Tècnica Superior d'Enginyeria Industrial de Barcelona",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -173,7 +181,7 @@
    },
    {
     "partner_name": "Escuela Superior de Ingenierías Industrial, Aeroespacial y Audiovisual de Terrassa",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -182,7 +190,7 @@
    },
    {
     "partner_name": "Escuela Técnica Superior de Ingenieros de Telecomunicación",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -191,7 +199,7 @@
    },
    {
     "partner_name": "Escuela Técnica Superior de Ingenieros Informáticos",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -200,7 +208,7 @@
    },
    {
     "partner_name": "Escuela Técnica Superior Ingenieros Industriales",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -209,7 +217,7 @@
    },
    {
     "partner_name": "Fachhochschule Kiel",
-    "partner_country": "Germany",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -218,7 +226,7 @@
    },
    {
     "partner_name": "Feng Chia University",
-    "partner_country": "Taiwan",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -227,7 +235,7 @@
    },
    {
     "partner_name": "GEM : Grenoble Ecole de Management",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -236,7 +244,7 @@
    },
    {
     "partner_name": "Georgia Institute of Technology",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -245,7 +253,7 @@
    },
    {
     "partner_name": "Huazhong University of Science and Technology",
-    "partner_country": "China",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -254,7 +262,7 @@
    },
    {
     "partner_name": "Illinois Institute of Technology",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -263,7 +271,7 @@
    },
    {
     "partner_name": "Imperial College London",
-    "partner_country": "UK",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -272,7 +280,7 @@
    },
    {
     "partner_name": "Institut Teknologi Bandung",
-    "partner_country": "Indonesia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -281,7 +289,7 @@
    },
    {
     "partner_name": "Korea Advanced Institute of Science & Technology (KAIST)",
-    "partner_country": "South Korea",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -290,7 +298,7 @@
    },
    {
     "partner_name": "La Universidad Tecnologica de Bolivar",
-    "partner_country": "Colombia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -299,7 +307,7 @@
    },
    {
     "partner_name": "Lehigh University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -308,7 +316,7 @@
    },
    {
     "partner_name": "Louisiana State University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -317,7 +325,7 @@
    },
    {
     "partner_name": "Michigan Technological University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -326,7 +334,7 @@
    },
    {
     "partner_name": "Mississippi State University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -335,7 +343,7 @@
    },
    {
     "partner_name": "Missouri University of Science & Technology",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -344,7 +352,7 @@
    },
    {
     "partner_name": "Munich University of Applied Sciences",
-    "partner_country": "Germany",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -353,7 +361,7 @@
    },
    {
     "partner_name": "Nanchang University",
-    "partner_country": "China",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -362,7 +370,7 @@
    },
    {
     "partner_name": "Nanyang Technological University",
-    "partner_country": "Singapore",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -371,7 +379,7 @@
    },
    {
     "partner_name": "National Central University",
-    "partner_country": "Taiwan",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -380,7 +388,7 @@
    },
    {
     "partner_name": "National Taiwan University",
-    "partner_country": "Taiwan",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -389,7 +397,7 @@
    },
    {
     "partner_name": "New Jersey Institute of Technology",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -398,7 +406,7 @@
    },
    {
     "partner_name": "New York University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -407,7 +415,7 @@
    },
    {
     "partner_name": "Norwegian University of Science & Technology NTNU",
-    "partner_country": "Norway",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -416,8 +424,8 @@
    },
    {
     "partner_name": "Olin College of Engineering",
-    "partner_country": "USA",
-    "partner_type": "college",
+    "partner_country": "unknown",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
     "evidence_quote": "[Olin College of Engineering]",
@@ -425,7 +433,7 @@
    },
    {
     "partner_name": "Oregon State University",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -434,7 +442,7 @@
    },
    {
     "partner_name": "Osaka University",
-    "partner_country": "Japan",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -443,7 +451,7 @@
    },
    {
     "partner_name": "Politecnico di Bari",
-    "partner_country": "Italy",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -452,7 +460,7 @@
    },
    {
     "partner_name": "Politecnico di Milano",
-    "partner_country": "Italy",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -461,7 +469,7 @@
    },
    {
     "partner_name": "Polytechnique Montréal",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -470,7 +478,7 @@
    },
    {
     "partner_name": "Pontificia Universidad Javeriana",
-    "partner_country": "Colombia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -479,7 +487,7 @@
    },
    {
     "partner_name": "Rensselaer Polytechnic Institute",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -488,7 +496,7 @@
    },
    {
     "partner_name": "Rose-Hulman Institute of Technology",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -497,7 +505,7 @@
    },
    {
     "partner_name": "RWTH Aachen University",
-    "partner_country": "Germany",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -506,7 +514,7 @@
    },
    {
     "partner_name": "Sapienza Università di Roma",
-    "partner_country": "Italy",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -515,7 +523,7 @@
    },
    {
     "partner_name": "SUNY Buffalo",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -524,7 +532,7 @@
    },
    {
     "partner_name": "Technical University of Liberec",
-    "partner_country": "Czech Republic",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -533,7 +541,7 @@
    },
    {
     "partner_name": "Technical University of Sofia",
-    "partner_country": "Bulgaria",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -542,7 +550,7 @@
    },
    {
     "partner_name": "Technion",
-    "partner_country": "Israel",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -551,7 +559,7 @@
    },
    {
     "partner_name": "Technische Universität Berlin",
-    "partner_country": "Germany",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -560,7 +568,7 @@
    },
    {
     "partner_name": "Technische Universität Darmstadt",
-    "partner_country": "Germany",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -569,7 +577,7 @@
    },
    {
     "partner_name": "Technische Universität Kaiserslautern",
-    "partner_country": "Germany",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -578,7 +586,7 @@
    },
    {
     "partner_name": "Technische Universitat Munchen",
-    "partner_country": "Germany",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -587,7 +595,7 @@
    },
    {
     "partner_name": "Tecnico Lisboa",
-    "partner_country": "Portugal",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -596,7 +604,7 @@
    },
    {
     "partner_name": "Tohoku University",
-    "partner_country": "Japan",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -605,7 +613,7 @@
    },
    {
     "partner_name": "UCD - University College Dublin",
-    "partner_country": "Ireland",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -614,7 +622,7 @@
    },
    {
     "partner_name": "Universidad de Cantabria",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -623,7 +631,7 @@
    },
    {
     "partner_name": "Universidad de Las Américas",
-    "partner_country": "Ecuador",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -632,7 +640,7 @@
    },
    {
     "partner_name": "Universidad de los Andes",
-    "partner_country": "Colombia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -641,7 +649,7 @@
    },
    {
     "partner_name": "Universidad del Norte",
-    "partner_country": "Colombia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -650,7 +658,7 @@
    },
    {
     "partner_name": "Universidad del Pais Vasco",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -659,7 +667,7 @@
    },
    {
     "partner_name": "Universidad Industrial de Santander",
-    "partner_country": "Colombia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -668,7 +676,7 @@
    },
    {
     "partner_name": "Universidad Nacional Arturo Jauretche",
-    "partner_country": "Argentina",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -677,7 +685,7 @@
    },
    {
     "partner_name": "Universidad Nacional de Colombia",
-    "partner_country": "Colombia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -686,7 +694,7 @@
    },
    {
     "partner_name": "Universidad Nacional de La Plata",
-    "partner_country": "Argentina",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -695,7 +703,7 @@
    },
    {
     "partner_name": "Universidad Nacional de San Martin",
-    "partner_country": "Argentina",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -704,7 +712,7 @@
    },
    {
     "partner_name": "Universidad Nacional del Sur",
-    "partner_country": "Argentina",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -713,7 +721,7 @@
    },
    {
     "partner_name": "Universidad Pontificia Comillas",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -722,7 +730,7 @@
    },
    {
     "partner_name": "Universidade de Brasilia",
-    "partner_country": "Brazil",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -731,7 +739,7 @@
    },
    {
     "partner_name": "Universidade de Porto",
-    "partner_country": "Portugal",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -740,7 +748,7 @@
    },
    {
     "partner_name": "Universidade Federal da Bahia",
-    "partner_country": "Brazil",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -749,7 +757,7 @@
    },
    {
     "partner_name": "Universidade Federal do Paraná",
-    "partner_country": "Brazil",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -758,7 +766,7 @@
    },
    {
     "partner_name": "Universidade Federal do Rio Grande do Sul",
-    "partner_country": "Brazil",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -767,7 +775,7 @@
    },
    {
     "partner_name": "Università degli studi di Parma",
-    "partner_country": "Italy",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -776,7 +784,7 @@
    },
    {
     "partner_name": "Universita degli Studi di Roma Tre",
-    "partner_country": "Italy",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -785,7 +793,7 @@
    },
    {
     "partner_name": "Universita degli Studi di Trento",
-    "partner_country": "Italy",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -794,7 +802,7 @@
    },
    {
     "partner_name": "Universita di Brescia",
-    "partner_country": "Italy",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -803,7 +811,7 @@
    },
    {
     "partner_name": "Università di Catania",
-    "partner_country": "Italy",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -812,7 +820,7 @@
    },
    {
     "partner_name": "Universita Politecnica delle Marche",
-    "partner_country": "Italy",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -821,7 +829,7 @@
    },
    {
     "partner_name": "Universitatea Politehnica din Bucureşti",
-    "partner_country": "Romania",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -830,7 +838,7 @@
    },
    {
     "partner_name": "Université d'Hanyang",
-    "partner_country": "South Korea",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -839,7 +847,7 @@
    },
    {
     "partner_name": "Université de Sherbrooke",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -848,7 +856,7 @@
    },
    {
     "partner_name": "Université du Québec à Chicoutimi UQAC",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -857,7 +865,7 @@
    },
    {
     "partner_name": "Université du Québec à Montréal UQAM",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -866,7 +874,7 @@
    },
    {
     "partner_name": "Université du Québec à Rimouski UQAR",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -875,7 +883,7 @@
    },
    {
     "partner_name": "Université du Québec à Trois-Rivières UQTR",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -884,7 +892,7 @@
    },
    {
     "partner_name": "Université du Québec en Abitibi-Témiscamingue UQAT",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -893,7 +901,7 @@
    },
    {
     "partner_name": "Université du Québec en Outaouais UQO",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -902,7 +910,7 @@
    },
    {
     "partner_name": "Université Galatasaray",
-    "partner_country": "Turkey",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -911,7 +919,7 @@
    },
    {
     "partner_name": "Université Laval",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -920,7 +928,7 @@
    },
    {
     "partner_name": "Université polytechnique de Saint-Pétersbourg Pierre-le-Grand",
-    "partner_country": "Russia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -929,7 +937,7 @@
    },
    {
     "partner_name": "Universiti Teknologi Malaysia",
-    "partner_country": "Malaysia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -938,7 +946,7 @@
    },
    {
     "partner_name": "Universiti Teknologi PETRONAS",
-    "partner_country": "Malaysia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -947,7 +955,7 @@
    },
    {
     "partner_name": "University College Cork",
-    "partner_country": "Ireland",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -956,7 +964,7 @@
    },
    {
     "partner_name": "University of Bergen",
-    "partner_country": "Norway",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -965,7 +973,7 @@
    },
    {
     "partner_name": "University of Bristol",
-    "partner_country": "UK",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -974,7 +982,7 @@
    },
    {
     "partner_name": "University of Canterbury",
-    "partner_country": "New Zealand",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -983,7 +991,7 @@
    },
    {
     "partner_name": "University of Crete",
-    "partner_country": "Greece",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -992,7 +1000,7 @@
    },
    {
     "partner_name": "University of Florida",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1001,7 +1009,7 @@
    },
    {
     "partner_name": "University of Illinois at Urbana Champaign",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1010,7 +1018,7 @@
    },
    {
     "partner_name": "University of l'Aquila",
-    "partner_country": "Italy",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1019,7 +1027,7 @@
    },
    {
     "partner_name": "University of Ljubljana",
-    "partner_country": "Slovenia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1028,7 +1036,7 @@
    },
    {
     "partner_name": "University of Maryland",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1037,7 +1045,7 @@
    },
    {
     "partner_name": "University of Melbourne",
-    "partner_country": "Australia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1046,7 +1054,7 @@
    },
    {
     "partner_name": "University of Miami",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1055,7 +1063,7 @@
    },
    {
     "partner_name": "University of Michigan",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1064,7 +1072,7 @@
    },
    {
     "partner_name": "University of Minnesota",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1073,7 +1081,7 @@
    },
    {
     "partner_name": "University of New Hampshire",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1082,7 +1090,7 @@
    },
    {
     "partner_name": "University of New South Wales",
-    "partner_country": "Australia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1091,7 +1099,7 @@
    },
    {
     "partner_name": "University of Newcastle",
-    "partner_country": "Australia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1100,7 +1108,7 @@
    },
    {
     "partner_name": "University of Northumbria",
-    "partner_country": "UK",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1109,7 +1117,7 @@
    },
    {
     "partner_name": "University of Oulu",
-    "partner_country": "Finland",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1118,7 +1126,7 @@
    },
    {
     "partner_name": "University of Pittsburgh",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1127,7 +1135,7 @@
    },
    {
     "partner_name": "University of Portland",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1136,7 +1144,7 @@
    },
    {
     "partner_name": "University of Rochester",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1145,7 +1153,7 @@
    },
    {
     "partner_name": "University of Tulsa",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1154,7 +1162,7 @@
    },
    {
     "partner_name": "University of Wisconsin, Madison",
-    "partner_country": "USA",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1163,7 +1171,7 @@
    },
    {
     "partner_name": "Ural Federal University",
-    "partner_country": "Russia",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1172,7 +1180,7 @@
    },
    {
     "partner_name": "Wuhan University of Technology",
-    "partner_country": "China",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1181,7 +1189,7 @@
    },
    {
     "partner_name": "Xiamen University",
-    "partner_country": "China",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
@@ -1190,38 +1198,11 @@
    },
    {
     "partner_name": "Yeditepe University",
-    "partner_country": "Turkey",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
     "evidence_quote": "[Yeditepe University]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "CY Alliance",
-    "partner_country": "France",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ensea.fr/",
-    "evidence_quote": "Des chercheuses de laboratoire ETIS distinguées : Prix Doctorante \"Des Femmes et des Sciences \"CY Alliance 2026 - lauréats des appels à projets ANR 2026.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Karunya Institute for Science and Technology",
-    "partner_country": "India",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ensea.fr/",
-    "evidence_quote": "L'ENSEA a reçu une délégation indienne du Karunya Institute for Science and Technology",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Net.Com",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ensea.fr/",
-    "evidence_quote": "Réalisation : Net.Com",
     "confidence": 0.9
    },
    {
@@ -1230,7 +1211,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "[Adentis]",
+    "evidence_quote": "Adentis",
     "confidence": 0.9
    },
    {
@@ -1239,7 +1220,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "[Alstom]",
+    "evidence_quote": "Alstom",
     "confidence": 0.9
    },
    {
@@ -1248,7 +1229,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "[ALTEN]",
+    "evidence_quote": "ALTEN",
     "confidence": 0.9
    },
    {
@@ -1257,7 +1238,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "[ArianeGroup]",
+    "evidence_quote": "ArianeGroup",
     "confidence": 0.9
    },
    {
@@ -1266,7 +1247,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "[Augmented Accoustics]",
+    "evidence_quote": "Augmented Accoustics",
     "confidence": 0.9
    },
    {
@@ -1275,16 +1256,16 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "[Capgemini]",
+    "evidence_quote": "Capgemini",
     "confidence": 0.9
    },
    {
     "partner_name": "Circet France",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "[Circet France]",
+    "evidence_quote": "Circet France",
     "confidence": 0.9
    },
    {
@@ -1293,7 +1274,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "[Dassault Aviation]",
+    "evidence_quote": "Dassault Aviation",
     "confidence": 0.9
    },
    {
@@ -1302,7 +1283,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Dassault Systemes",
+    "evidence_quote": "[Dassault Systemes]",
     "confidence": 0.9
    },
    {
@@ -1311,7 +1292,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "E-motors",
+    "evidence_quote": "[E-motors]",
     "confidence": 0.9
    },
    {
@@ -1320,7 +1301,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Elno Group",
+    "evidence_quote": "[Elno Group]",
     "confidence": 0.9
    },
    {
@@ -1329,7 +1310,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Groupe SII",
+    "evidence_quote": "[Groupe SII]",
     "confidence": 0.9
    },
    {
@@ -1338,7 +1319,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Hightekers",
+    "evidence_quote": "[Hightekers]",
     "confidence": 0.9
    },
    {
@@ -1347,7 +1328,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Huawei",
+    "evidence_quote": "[Huawei]",
     "confidence": 0.9
    },
    {
@@ -1356,7 +1337,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "IDEMIA",
+    "evidence_quote": "[IDEMIA]",
     "confidence": 0.9
    },
    {
@@ -1365,7 +1346,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "KNDS",
+    "evidence_quote": "[KNDS]",
     "confidence": 0.9
    },
    {
@@ -1374,7 +1355,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "MBDA Missile Systems",
+    "evidence_quote": "[MBDA Missile Systems]",
     "confidence": 0.9
    },
    {
@@ -1383,7 +1364,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Nexio",
+    "evidence_quote": "[Nexio]",
     "confidence": 0.9
    },
    {
@@ -1392,7 +1373,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Nexter",
+    "evidence_quote": "[Nexter]",
     "confidence": 0.9
    },
    {
@@ -1401,7 +1382,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Nokia",
+    "evidence_quote": "[Nokia]",
     "confidence": 0.9
    },
    {
@@ -1410,7 +1391,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Orange",
+    "evidence_quote": "[Orange]",
     "confidence": 0.9
    },
    {
@@ -1419,7 +1400,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "PSA groupe",
+    "evidence_quote": "[PSA groupe]",
     "confidence": 0.9
    },
    {
@@ -1428,7 +1409,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Qualcomm",
+    "evidence_quote": "[Qualcomm]",
     "confidence": 0.9
    },
    {
@@ -1437,7 +1418,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Randstad",
+    "evidence_quote": "[Randstad]",
     "confidence": 0.9
    },
    {
@@ -1446,7 +1427,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Renault",
+    "evidence_quote": "[Renault]",
     "confidence": 0.9
    },
    {
@@ -1455,7 +1436,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Sagemcom",
+    "evidence_quote": "[Sagemcom]",
     "confidence": 0.9
    },
    {
@@ -1464,7 +1445,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Semikron Danfoss",
+    "evidence_quote": "[Semikron Danfoss]",
     "confidence": 0.9
    },
    {
@@ -1473,7 +1454,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "SLB",
+    "evidence_quote": "[SLB]",
     "confidence": 0.9
    },
    {
@@ -1482,7 +1463,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Sopra Steria",
+    "evidence_quote": "[Sopra Steria]",
     "confidence": 0.9
    },
    {
@@ -1491,7 +1472,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Stellantis",
+    "evidence_quote": "[Stellantis]",
     "confidence": 0.9
    },
    {
@@ -1500,7 +1481,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "STMicroelectronics",
+    "evidence_quote": "[STMicroelectronics]",
     "confidence": 0.9
    },
    {
@@ -1509,7 +1490,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "TE Connectivity",
+    "evidence_quote": "[TE Connectivity]",
     "confidence": 0.9
    },
    {
@@ -1518,7 +1499,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Thales",
+    "evidence_quote": "[Thales]",
     "confidence": 0.9
    },
    {
@@ -1527,7 +1508,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Valeo",
+    "evidence_quote": "[Valeo]",
     "confidence": 0.9
    },
    {
@@ -1536,7 +1517,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Visteon",
+    "evidence_quote": "[Visteon]",
     "confidence": 0.9
    },
    {
@@ -1545,133 +1526,178 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0?categorie=entreprise-101",
-    "evidence_quote": "Wago",
+    "evidence_quote": "[Wago]",
     "confidence": 0.9
    },
    {
-    "partner_name": "@talentEgal",
+    "partner_name": "Capgemini Engineering",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensea.fr/ecole/qui-sommes-nous/gouvernance",
+    "evidence_quote": "Bertrand COMBALUZIER | Executive VP, Chief Global Operations Officer, Capgemini Engineering |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Seagate Technology",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensea.fr/ecole/qui-sommes-nous/gouvernance",
+    "evidence_quote": "Ludovic DANJEAN | Président d’ENSEA Alumni, Staff Software Engineer chez Seagate Technology |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Safran",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensea.fr/ecole/qui-sommes-nous/gouvernance",
+    "evidence_quote": "Yannick BONNAIRE | Executive VP Quality-Transformation-Compliance & Ethics chez Safran |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Enedis",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensea.fr/ecole/qui-sommes-nous/gouvernance",
+    "evidence_quote": "Layla AHDDAR | Directrice Cybersécurité chez Enedis |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "talentEgal",
     "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "@talentEgal",
+    "evidence_quote": "[@talentEgal]",
     "confidence": 0.9
    },
    {
     "partner_name": "Académie de Versailles",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "Académie de Versailles",
+    "evidence_quote": "[Académie de Versailles]",
     "confidence": 0.9
    },
    {
     "partner_name": "Bienvenue en France",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "Bienvenue en France",
+    "evidence_quote": "[Bienvenue en France]",
     "confidence": 0.9
    },
    {
     "partner_name": "CDEFI",
-    "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_country": "France",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "CDEFI",
+    "evidence_quote": "[CDEFI]",
     "confidence": 0.9
    },
    {
     "partner_name": "CFA Mécavenir",
-    "partner_country": "unknown",
-    "partner_type": "college",
+    "partner_country": "France",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "CFA Mécavenir",
+    "evidence_quote": "[CFA Mécavenir]",
     "confidence": 0.9
    },
    {
     "partner_name": "CFA Union",
-    "partner_country": "unknown",
-    "partner_type": "college",
+    "partner_country": "France",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "CFA Union",
+    "evidence_quote": "[CFA Union]",
     "confidence": 0.9
    },
    {
     "partner_name": "Charte d'Engagement Territoriale de la CACP",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "Charte d'Engagement Territoriale de la CACP",
+    "evidence_quote": "[Charte d'Engagement Territoriale de la CACP]",
     "confidence": 0.9
    },
    {
     "partner_name": "CNRS",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "CNRS",
+    "evidence_quote": "[CNRS]",
     "confidence": 0.9
    },
    {
     "partner_name": "Communauté d'Agglomération de Cergy-Pontoise",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "Communauté d'Agglomération de Cergy-Pontoise",
+    "evidence_quote": "[Communauté d'Agglomération de Cergy-Pontoise]",
     "confidence": 0.9
    },
    {
     "partner_name": "Conférences Des Grandes Ecoles",
-    "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_country": "France",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "Conférences Des Grandes Ecoles",
+    "evidence_quote": "[Conférences Des Grandes Ecoles]",
     "confidence": 0.9
    },
    {
     "partner_name": "CTI",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "CTI",
+    "evidence_quote": "[CTI]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CY Alliance",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
+    "evidence_quote": "[CY Alliance]",
     "confidence": 0.9
    },
    {
     "partner_name": "Département du Val d'Oise",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "Département du Val d'Oise",
+    "evidence_quote": "[Département du Val d'Oise]",
     "confidence": 0.9
    },
    {
     "partner_name": "Elles Bougent",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "Elles Bougent",
+    "evidence_quote": "[Elles Bougent]",
     "confidence": 0.9
    },
    {
     "partner_name": "ENSAT",
-    "partner_country": "unknown",
-    "partner_type": "university",
+    "partner_country": "France",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "ENSAT",
+    "evidence_quote": "[ENSAT]",
     "confidence": 0.9
    },
    {
@@ -1680,16 +1706,16 @@
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "Erasmus +",
+    "evidence_quote": "[Erasmus +]",
     "confidence": 0.9
    },
    {
     "partner_name": "ESPCI",
-    "partner_country": "unknown",
-    "partner_type": "university",
+    "partner_country": "France",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "ESPCI",
+    "evidence_quote": "[ESPCI]",
     "confidence": 0.9
    },
    {
@@ -1698,43 +1724,34 @@
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "EUR-ACE",
+    "evidence_quote": "[EUR-ACE]",
     "confidence": 0.9
    },
    {
     "partner_name": "France 2030",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "France 2030",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Grenoble Ecole de Management",
-    "partner_country": "France",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "GEM : Grenoble Ecole de Management",
+    "evidence_quote": "[France 2030]",
     "confidence": 0.9
    },
    {
     "partner_name": "INSTN",
     "partner_country": "France",
-    "partner_type": "other",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "INSTN",
+    "evidence_quote": "[INSTN]",
     "confidence": 0.9
    },
    {
     "partner_name": "La Turbine",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "La Turbine",
+    "evidence_quote": "[La Turbine]",
     "confidence": 0.9
    },
    {
@@ -1743,16 +1760,16 @@
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "Ministère de l'Enseignement Supérieur et de la Recherche",
+    "evidence_quote": "[Ministère de l'Enseignement Supérieur et de la Recherche]",
     "confidence": 0.9
    },
    {
     "partner_name": "MTI Dauphine",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "MTI Dauphine",
+    "evidence_quote": "[MTI Dauphine]",
     "confidence": 0.9
    },
    {
@@ -1761,7 +1778,7 @@
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.ensea.fr/ecole/notre-reseau-0",
-    "evidence_quote": "Parenthèse",
+    "evidence_quote": "[Parenthèse]",
     "confidence": 0.9
    },
    {
@@ -1799,54 +1816,63 @@
   "truncated": true,
   "total_seen": 300,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of academic partners, but does not explicitly list Erasmus+ mobility agreements or specific contact persons for international relations.",
+  "coverage_note": "The evidence provides a list of academic and corporate partners, but does not explicitly categorize them by mobility type (study, traineeship, staff) for each entry.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.5,
-  "crawl_s": 14.1,
-  "ai_calls": 5,
-  "partner_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 16.4,
+  "ai_calls": 7,
+  "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 40.0,
+  "model_s": 20.3,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 11,
-    "accepted": 11
+    "returned": 8,
+    "accepted": 8
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 70,
-    "accepted": 70
+    "returned": 36,
+    "accepted": 32
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 70,
-    "accepted": 70
+    "returned": 57,
+    "accepted": 57
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 89,
-    "accepted": 45
+    "returned": 70,
+    "accepted": 70
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 29,
+    "accepted": 29
    }
   ],
-  "total_seconds": 55.6
- },
- "rechecked": true
+  "total_seconds": 39.4
+ }
 }

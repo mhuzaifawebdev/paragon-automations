@@ -1,71 +1,66 @@
 {
  "row_id": "r409",
- "scraped_at": "2026-10-12T05:53:31Z",
+ "scraped_at": "2026-10-22T13:54:22Z",
  "contacts": {
   "row_id": "r409",
   "institution_name": "FUNDACIO PER A LA UNIVERSITAT OBERTA DE CATALUNYA",
   "institution_type": "university",
   "official_website": "https://www.uoc.edu/en",
   "country": {
-   "value": "España",
+   "value": "Spain",
    "source_url": "https://www.uoc.edu/es/estudios/diplomas/diploma-experto-gestion-logistica-cooperacion-internacional.html",
-   "evidence_quote": "España"
+   "evidence_quote": "Passeig de Gràcia, 5. 08007 Barcelona. Spain"
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Mariela Iglesias Costa",
+   "designation": "Expert professor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.uoc.edu/es/estudios/masters/master-formacion-permanente-cooperacion-internacional-accion-humanitaria",
+   "evidence_quote": "Mariela Iglesias Costa ... Socióloga experta en polí­ticas urbanas. Licenciada por la Universidad de Buenos Aires. Máster en Polí­ticas, Proyectos y Gestión de la Ciudad por la Universidad de Barcelona. Máster Universitario en Ciencia Polí­tica por la Universitat Autònoma de Barcelona. Su trayectoria vincula la perspectiva social y territorial en intervenciones y proyectos orientados por la gobernanza colaborativa en las ciudades. Actualmente es profesora experta de la Universitat Oberta de Catalunya, en los estudios de D"
+  },
+  "alternates": [
+   {
+    "name": "Ismael Peña López",
+    "designation": "Professor",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.uoc.edu/es/estudios/masters/master-formacion-permanente-cooperacion-internacional-accion-humanitaria",
+    "evidence_quote": "Ismael Peña López ... Doctor en Sociedad de la Información y el Conocimiento por la UOC y licenciado en Ciencias Económicas y Empresariales por la UAB. Ha sido director de la Escuela de Administración Pública de Catalunya y director general de Participación Ciudadana y Procesos Electorales en la Generalitat de Catalunya. Se ha especializado en la transformación de las instituciones políticas y educativas a raíz de la digitalización, especialmente en el que hace referencia a la organización, la innovación y las relaci",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is a doctor in Information and Knowledge Society and a professor at the UOC."
+   },
+   {
+    "name": "Mariona Cardona Vallès",
+    "designation": "Professor",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.uoc.edu/es/estudios/masters/master-formacion-permanente-cooperacion-internacional-accion-humanitaria",
+    "evidence_quote": "Mariona Cardona Vallès ... Doctora en Derecho Internacional Público por la Universitat Pompeu Fabra (UPF), Máster Derecho Internacional y Europeo, con especialización en Derecho del Comercio Internacional y de Inversiones por la Universidad de Ámsterdam (UvA) y Licenciada en Derecho (UPF). Ha sido directora del ámbito de formación y del Máster en Cooperación Internacional para el Desarrollo y Acción Humanitaria hasta 2023. Su investigación se enfoca en la intersección entre el derecho internacional de los derechos humanos",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is a doctor in Public International Law and a professor at the UOC."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). She is an expert professor at the UOC in the studies of Law and Political Science.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
-    "partner_name": "Cruz Roja",
-    "partner_country": "",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uoc.edu/es/estudios/diplomas/diploma-experto-gestion-logistica-cooperacion-internacional.html",
-    "evidence_quote": "Diploma de Experto en Gestión y Logística en Cooperación Internacional (UOC, Cruz Roja) | UOC",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Creu Roja",
-    "partner_country": "",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uoc.edu/es/estudios/diplomas/diploma-experto-gestion-logistica-cooperacion-internacional.html",
-    "evidence_quote": "[Creu Roja]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "OpenEU",
-    "partner_country": "Europe",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uoc.edu/en",
-    "evidence_quote": "Thanks to OpenEU, our community is growing and connecting with over 368,000 students and 24,000 academics and professionals across Europe to foster an international learning space with a transformative mission",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "OpenEU. The Open European University",
-    "partner_country": "unknown",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uoc.edu/en",
-    "evidence_quote": "[OpenEU. The Open European University]",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Associació Catalana d'Universitats Públiques (ACUP)",
-    "partner_country": "unknown",
+    "partner_country": "Spain",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.uoc.edu/en",
@@ -74,7 +69,7 @@
    },
    {
     "partner_name": "Xarxa Vives d'Universitats",
-    "partner_country": "unknown",
+    "partner_country": "Spain",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.uoc.edu/en",
@@ -101,7 +96,7 @@
    },
    {
     "partner_name": "European Universities Association (EUA)",
-    "partner_country": "Europe",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.uoc.edu/en",
@@ -118,30 +113,30 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "AGAUR",
-    "partner_country": "Spain",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uoc.edu/portal/es/compromis-social/ciutadania-global/mobilitat/index.html",
-    "evidence_quote": "AGAUR / MOBINT",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Ministerio de Educación",
-    "partner_country": "Spain",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uoc.edu/portal/es/compromis-social/ciutadania-global/mobilitat/index.html",
-    "evidence_quote": "Ministerio de Educaci�n",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Beca Santander",
+    "partner_name": "Creu Roja",
     "partner_country": "unknown",
-    "partner_type": "company",
+    "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://www.uoc.edu/portal/es/compromis-social/ciutadania-global/mobilitat/index.html",
-    "evidence_quote": "Beca Santander",
+    "source_url": "https://www.uoc.edu/es/estudios/diplomas/diploma-experto-gestion-logistica-cooperacion-internacional.html",
+    "evidence_quote": "[Creu Roja]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "1EdTech Europe",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uoc.edu/en",
+    "evidence_quote": "The UOC joins 1EdTech Europe's governing bodies to promote digital education standards",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "OpenEU",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uoc.edu/en",
+    "evidence_quote": "[OpenEU, the alliance for the first ever pan-European open university]",
     "confidence": 0.9
    },
    {
@@ -164,7 +159,7 @@
    },
    {
     "partner_name": "BBVA",
-    "partner_country": "unknown",
+    "partner_country": "Spain",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.uoc.edu/es/estudios/diplomas/diploma-experto-gestion-logistica-cooperacion-internacional.html",
@@ -173,7 +168,7 @@
    },
    {
     "partner_name": "CaixaBank",
-    "partner_country": "unknown",
+    "partner_country": "Spain",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.uoc.edu/es/estudios/diplomas/diploma-experto-gestion-logistica-cooperacion-internacional.html",
@@ -182,7 +177,7 @@
    },
    {
     "partner_name": "Santander",
-    "partner_country": "unknown",
+    "partner_country": "Spain",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.uoc.edu/es/estudios/diplomas/diploma-experto-gestion-logistica-cooperacion-internacional.html",
@@ -208,12 +203,57 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "OpenEU: The Open European University",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uoc.edu/es/estudios/diplomas/diploma-experto-gestion-logistica-cooperacion-internacional.html",
+    "evidence_quote": "[OpenEU: The Open European University]",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "FP Jesuïtes Educació",
     "partner_country": "Spain",
     "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.uoc.edu/es/estudios/diplomas/diploma-experto-gestion-logistica-cooperacion-internacional.html",
     "evidence_quote": "FP Jesuïtes Educació en colaboración con la UOC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UAB",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uoc.edu/portal/en/uneix-equip/diversitat-talent/personal-docent-colaborador/index.html",
+    "evidence_quote": "[Ernesto Pascual, UAB adjunct professor and UOC course instructor]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut Pedralbes",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uoc.edu/portal/en/uneix-equip/diversitat-talent/personal-docent-colaborador/index.html",
+    "evidence_quote": "[N�ria Vallduriola, Director of the Institut Pedralbes and UOC course instructor]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Granada",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uoc.edu/portal/en/uneix-equip/diversitat-talent/personal-docent-colaborador/index.html",
+    "evidence_quote": "Rafael Caparr�s, professor and member of the University of Granada's Applied Neuropsychology for Children, Adults and the Elderly research group, and course instructor for the UOC's Master's Degree in Neuropsychology",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cruz Roja",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uoc.edu/es/estudios/masters/master-formacion-permanente-cooperacion-internacional-accion-humanitaria",
+    "evidence_quote": "Máster de formación permanente online en Cooperación Internacional al Desarrollo y Acción Humanitaria (UOC, Cruz Roja)",
     "confidence": 0.9
    },
    {
@@ -241,15 +281,6 @@
     "mobility_type": "unknown",
     "source_url": "https://www.uoc.edu/es/estudios/masters/master-formacion-permanente-cooperacion-internacional-accion-humanitaria",
     "evidence_quote": "Doctor en Relaciones Internacionales por la Universidad Autónoma de Barcelona (UAB) y Máster en Derechos Humanos y Acción Humanitaria por Sciences Po Paris. Ha trabajado como investigador predoctoral y postdoctoral en el Instituto Barcelona de Estudios Internacionales (IBEI), donde es profesor afiliado. Su investigación trata sobre la política exterior de la Unión Europea, especialmente en el Mediterráneo, y sobre la política comparada en los países árabes, centrándose en cuestiones como los cam",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "UAB",
-    "partner_country": "Spain",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uoc.edu/es/estudios/masters/master-formacion-permanente-cooperacion-internacional-accion-humanitaria",
-    "evidence_quote": "Doctor en Sociedad de la Información y el Conocimiento por la UOC y licenciado en Ciencias Económicas y Empresariales por la UAB. Ha sido director de la Escuela de Administración Pública de Catalunya y director general de Participación Ciudadana y Procesos Electorales en la Generalitat de Catalunya. Se ha especializado en la transformación de las instituciones políticas y educativas a raíz de la digitalización, especialmente en el que hace referencia a la organización, la innovación y las relaci",
     "confidence": 0.9
    },
    {
@@ -323,18 +354,21 @@
   "truncated": false,
   "total_seen": 31,
   "pages_read": 10,
-  "coverage_note": "No specific contact persons with email addresses for international mobility or Erasmus+ are named in the provided evidence. A partner list is also absent.",
+  "coverage_note": "The evidence provides information about Erasmus+ mobility policies and general international networks, but does not contain a specific list of individual university partners. No specific contact persons for international relations are named in the provided text.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.0,
-  "crawl_s": 12.7,
-  "ai_calls": 6,
+  "discover_s": 0.0,
+  "crawl_s": 18.7,
+  "ai_calls": 7,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 29.1,
+  "model_s": 6.3,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 5,
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
@@ -349,8 +383,8 @@
      141,
      280
     ],
-    "returned": 9,
-    "accepted": 9
+    "returned": 6,
+    "accepted": 6
    },
    {
     "lines": [
@@ -365,19 +399,18 @@
      701,
      840
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 5,
+    "accepted": 5
    },
    {
     "lines": [
      841,
      980
     ],
-    "returned": 13,
-    "accepted": 13
+    "returned": 16,
+    "accepted": 12
    }
   ],
-  "total_seconds": 43.8
- },
- "rechecked": true
+  "total_seconds": 28.5
+ }
 }
