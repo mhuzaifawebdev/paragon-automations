@@ -1,6 +1,6 @@
 {
  "row_id": "r093",
- "scraped_at": "2026-10-11T10:53:57Z",
+ "scraped_at": "2026-10-22T11:42:22Z",
  "contacts": {
   "row_id": "r093",
   "institution_name": "UNIVERSITE DE BRETAGNE SUD",
@@ -9,17 +9,37 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Philippe Rauffet",
+   "designation": "Associate Professor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.univ-ubs.fr/en/index/chronicles/cooperation-between-ubs-and-unisa.html",
+   "evidence_quote": "They will be working on combining their knowledge on sleep with UBS’s expertise on operator fatigue to design collaborative projects in the maritime space.​ They are working with Philippe Rauffet, who is associate professor at the Lab-STICC laboratory."
+  },
+  "alternates": [
+   {
+    "name": "Claire Guéry",
+    "designation": "Doctor and Head of SSE",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www-actus.univ-ubs.fr/fr/index/articles-chroniques/medecine-preventive/etudiants-relais-sante-2.html",
+    "evidence_quote": "Les étudiantes et étudiants relais santé (ERS) travaillent avec le service de santé étudiante (SSE). « Ils nous aident à monter les actions de prévention puis ils ont pour mission d’aller vers les autres étudiants pour les encourager à participer » explique Claire Guéry, médecin et responsable du SSE.",
+    "why_chosen": "Secretary / administration (last resort). Named medical professional and responsible for student health services involved in international student welcome programs."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Named academic staff member collaborating on international research projects with visiting researchers.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini. 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -259,56 +279,56 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.1,
-  "crawl_s": 14.7,
+  "discover_s": 0.0,
+  "crawl_s": 17.7,
   "ai_calls": 6,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 32.7,
+  "model_s": 35.3,
   "mode": "gemini",
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 6,
+    "accepted": 5
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 5,
-    "accepted": 3
+    "returned": 6,
+    "accepted": 2
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 10,
+    "accepted": 4
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 9,
+    "returned": 10,
     "accepted": 6
    }
   ],
-  "total_seconds": 49.6
- },
- "rechecked": true
+  "total_seconds": 54.3
+ }
 }

@@ -118,40 +118,9 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 15.7,
-  "ai_calls": 4,
-  "partner_calls": 3,
-  "cost_usd_estimate": 0.0,
-  "model_s": 283.5,
-  "mode": "gemini",
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 5,
-    "accepted": 5
-   },
-   {
-    "lines": [
-     421,
-     492
-    ],
-    "returned": 0,
-    "accepted": 0
-   }
-  ],
-  "total_seconds": 301.5
+  "discover_s": 0.0,
+  "crawl_s": 3.5,
+  "total_seconds": 3.5
  },
  "rechecked": true
 }
