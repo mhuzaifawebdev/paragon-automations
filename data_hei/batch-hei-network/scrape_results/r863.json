@@ -1,6 +1,6 @@
 {
  "row_id": "r863",
- "scraped_at": "2026-10-12T07:11:59Z",
+ "scraped_at": "2026-10-22T21:37:35Z",
  "contacts": {
   "row_id": "r863",
   "institution_name": "Lycée général et technologique Marcelin Berthelot",
@@ -9,17 +9,37 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 3,
-  "notes": "site found via: web search (DuckDuckGo). mode: gemini.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Laure FUMERON",
+   "designation": "International Relations Referent",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lycee-berthelot.fr/sites/default/files/documents-uploaded/Organigramme%202021_2022.pdf",
+   "evidence_quote": "Référent relations internationales : Laure FUMERON"
+  },
+  "alternates": [
+   {
+    "name": "Pascal BOLLORÉ",
+    "designation": "Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lycee-berthelot.fr/sites/default/files/documents-uploaded/Organigramme%202021_2022.pdf",
+    "evidence_quote": "Proviseur ... Pascal BOLLORÉ",
+    "why_chosen": "Principal / director (no Erasmus contact found). Pascal BOLLORÉ is the head of the institution."
+   }
+  ],
+  "rung": "Head of international relations. Laure FUMERON is explicitly listed as the referent for international relations.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -100,25 +120,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 8.2,
-  "ai_calls": 3,
-  "partner_calls": 1,
+  "crawl_s": 131.6,
+  "ai_calls": 1,
+  "model_s": 2.2,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     129
-    ],
-    "returned": 6,
-    "accepted": 3
-   }
-  ],
-  "total_seconds": 12.2
- },
- "rechecked": 3
+  "email_search_s": 3.2,
+  "total_seconds": 137.1
+ }
 }
