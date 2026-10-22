@@ -1,13 +1,13 @@
 {
  "row_id": "r882",
- "scraped_at": "2026-10-12T07:17:13Z",
+ "scraped_at": "2026-10-22T14:13:09Z",
  "contacts": {
   "row_id": "r882",
   "institution_name": "Veleučilište u Virovitici",
   "institution_type": "college",
   "official_website": "https://vuv.hr/",
   "country": {
-   "value": "Hrvatska",
+   "value": "Croatia",
    "source_url": "https://vuv.hr/kontakt/",
    "evidence_quote": "Hrvatska"
   },
@@ -17,17 +17,48 @@
    "evidence_quote": "033/492-269"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "erasmus@vuv.hr",
+  "generic_email_url": "https://vuv.hr/erasmus/",
+  "contact": {
+   "name": "Danijela Vakanjac",
+   "designation": "Head of the Center for International Cooperation / Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "danijela.vakanjac@vuv.hr",
+   "office_email": "",
+   "phone": "033/492-251",
+   "source_url": "https://vuv.hr/o-visokoj-skoli/ustrojstvo/centri/centar-za-medunarodnu-suradnju/",
+   "evidence_quote": "Voditeljica Centra: Danijela Vakanjac, mag.oec., v.pred."
+  },
+  "alternates": [
+   {
+    "name": "Rikard Bakan",
+    "designation": "Vice Dean for Development / President of the Erasmus Mobility Committee",
+    "designation_local": "",
+    "email": "rikard.bakan@vuv.hr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://vuv.hr/o-visokoj-skoli/povjerenstva/povjerenstvo-za-odabir-kandidata-u-okviru-erasmus-mobilnosti-na-visokoj-skoli-virovitica/",
+    "evidence_quote": "dr.sc. Rikard Bakan, prof.struč.stud., prodekan za razvoj, predsjednik (e-mail: rikard.bakan@vuv.hr)",
+    "why_chosen": "Mobility coordinator. He serves as the President of the Erasmus Mobility Committee and is a member of the institution's leadership."
+   },
+   {
+    "name": "Irena Bosnić",
+    "designation": "Vice Dean for Teaching / Member of the Erasmus Mobility Committee",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://vuv.hr/o-visokoj-skoli/povjerenstva/povjerenstvo-za-odabir-kandidata-u-okviru-erasmus-mobilnosti-na-visokoj-skoli-virovitica/",
+    "evidence_quote": "dr.sc. Irena Bosnić, prof.struč.stud., prodekanica za nastavu, članica",
+    "why_chosen": "Mobility coordinator. She is a member of the Erasmus Mobility Committee and holds a senior academic leadership role."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. She is the Head of the Center for International Cooperation and the designated Erasmus+ coordinator for the institution.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.95,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
-  "generic_email": "info@vuv.hr",
-  "generic_email_url": "https://vuv.hr/kontakt/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -66,19 +97,20 @@
   "truncated": true,
   "total_seen": 150,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of local economic partners for internships but does not contain a comprehensive list of Erasmus+ academic partner universities.",
+  "coverage_note": "The evidence provides a list of local economic partners for internships but does not contain a comprehensive list of international Erasmus+ partner universities.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.8,
-  "crawl_s": 28.3,
+  "discover_s": 0.0,
+  "crawl_s": 33.2,
   "ai_calls": 1,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 21.8,
+  "model_s": 2.3,
   "mode": "gemini",
-  "total_seconds": 54.9
- },
- "rechecked": true
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 35.5
+ }
 }

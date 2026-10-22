@@ -1,6 +1,6 @@
 {
  "row_id": "r903",
- "scraped_at": "2026-10-12T07:21:16Z",
+ "scraped_at": "2026-10-22T14:13:33Z",
  "contacts": {
   "row_id": "r903",
   "institution_name": "INSTITUT POMPEU FABRA",
@@ -13,23 +13,31 @@
    "evidence_quote": "93 542 20 60 <tel 93 542 20 60>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini.",
   "generic_email": "secretaria.esup@upf.edu",
   "generic_email_url": "https://www.upf.edu/web/universitat/contacte",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Luis Rosso",
+   "designation": "Erasmus+ Project Promotion",
+   "designation_local": "",
+   "email": "luis.rosso@upf.edu",
+   "office_email": "",
+   "phone": "93 542 2162",
+   "source_url": "https://www.upf.edu/web/international/programa-erasmus-",
+   "evidence_quote": "Promoció de Projectes Erasmus+ ... luis.rosso@upf.eduluis.rosso@upf.edu <luis.rosso@upf.edu>"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. Luis Rosso is explicitly listed as the contact for the promotion of Erasmus+ projects.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "The Guild",
-    "partner_country": "Europe",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.upf.edu/",
@@ -38,7 +46,7 @@
    },
    {
     "partner_name": "ACUP",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.upf.edu/",
@@ -47,7 +55,7 @@
    },
    {
     "partner_name": "Alianza 4 Universidades",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.upf.edu/",
@@ -56,7 +64,7 @@
    },
    {
     "partner_name": "A4U",
-    "partner_country": "Spain",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.upf.edu/",
@@ -65,7 +73,7 @@
    },
    {
     "partner_name": "Eutopia",
-    "partner_country": "Europe",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.upf.edu/",
@@ -74,7 +82,7 @@
    },
    {
     "partner_name": "EUTOPIA Alliance of European Universities",
-    "partner_country": "Europe",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.upf.edu/web/international",
@@ -83,11 +91,29 @@
    },
    {
     "partner_name": "The EUROPAEUM",
-    "partner_country": "Europe",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.upf.edu/web/international",
     "evidence_quote": "The EUROPAEUM",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Reed College",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "https://www.upf.edu/web/international/mobilitat",
+    "evidence_quote": "La UPF i el Reed College enforteixen la seva aliança acadèmica mitjançant el programa d’intercanvi internacional de professorat",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Warburg Institute",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upf.edu/",
+    "evidence_quote": "Lliçó Memorial Haas: \"Tarot: Origins and Afterlives\", per Bill Sherman (Warburg Institute), i concert en homenatge a Haas",
     "confidence": 0.9
    },
    {
@@ -100,12 +126,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Reed College",
-    "partner_country": "United States",
-    "partner_type": "college",
-    "mobility_type": "staff",
-    "source_url": "https://www.upf.edu/web/international/mobilitat",
-    "evidence_quote": "La UPF i el Reed College enforteixen la seva aliança acadèmica mitjançant el programa d’intercanvi internacional de professorat",
+    "partner_name": "Programa Serra Húnter",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upf.edu/web/personal/ofertes-pdi",
+    "evidence_quote": "Filtra per tipusPersonal funcionariPersonal laboral- Catedràtic Contractat- Professorat Agregat- Professorat Associat- Professorat Lector- Professorat SubstitutPrograma Serra HúnterAltres",
     "confidence": 0.9
    }
   ],
@@ -141,18 +167,20 @@
   "truncated": true,
   "total_seen": 149,
   "pages_read": 10,
-  "coverage_note": "The evidence lists several international networks and a few specific partner institutions, but does not contain a comprehensive, itemized list of all bilateral or Erasmus partner universities.",
+  "coverage_note": "The evidence provides information on international mobility and Erasmus+ projects but does not contain a comprehensive list of all partner universities.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.0,
-  "crawl_s": 14.3,
-  "ai_calls": 6,
-  "partner_calls": 5,
+  "discover_s": 0.0,
+  "crawl_s": 15.2,
+  "ai_calls": 7,
+  "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 44.3,
+  "model_s": 4.6,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -167,16 +195,16 @@
      141,
      280
     ],
-    "returned": 8,
-    "accepted": 7
+    "returned": 10,
+    "accepted": 8
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
@@ -193,9 +221,16 @@
     ],
     "returned": 0,
     "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
    }
   ],
-  "total_seconds": 59.6
- },
- "rechecked": true
+  "total_seconds": 19.9
+ }
 }

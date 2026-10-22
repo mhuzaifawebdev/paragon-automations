@@ -1,6 +1,6 @@
 {
  "row_id": "r897",
- "scraped_at": "2026-10-12T07:20:53Z",
+ "scraped_at": "2026-10-22T14:13:39Z",
  "contacts": {
   "row_id": "r897",
   "institution_name": "Medizinische Hochschule Brandenburg",
@@ -13,17 +13,37 @@
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Victoria Sophie Kujat-Martens",
+   "designation": "Referentin für den Universitätsklinikverbund und strategische Hochschulkooperationen",
+   "designation_local": "",
+   "email": "victoria.kujat-martens@mhb-fontane.de",
+   "office_email": "",
+   "phone": "0 3391 39-14186",
+   "source_url": "https://www.mhb-fontane.de/de/",
+   "evidence_quote": "Victoria Sophie Kujat-Martens ... Referentin für den Universitätsklinikverbund und strategische Hochschulkooperationen"
+  },
+  "alternates": [
+   {
+    "name": "Kathrin Reißig",
+    "designation": "Leitung Dezernat für Wissenschaft und Forschung",
+    "designation_local": "",
+    "email": "forschungsdezernat@mhb-fontane.de",
+    "office_email": "",
+    "phone": "03381 218 22 11",
+    "source_url": "https://www.mhb-fontane.de/de/",
+    "evidence_quote": "Dr. rer. nat. Kathrin Reißig ... Leitung Dezernat für Wissenschaft &",
+    "why_chosen": "Secretary / administration (last resort). The department for research is the contact point for international cooperation inquiries."
+   }
+  ],
+  "rung": "International relations officer. She is responsible for strategic university cooperations.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -424,13 +444,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.6,
-  "crawl_s": 18.7,
-  "ai_calls": 5,
-  "partner_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 21.9,
+  "ai_calls": 7,
+  "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 103.4,
+  "model_s": 8.1,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -445,8 +467,8 @@
      141,
      280
     ],
-    "returned": 4,
-    "accepted": 4
+    "returned": 5,
+    "accepted": 5
    },
    {
     "lines": [
@@ -459,13 +481,28 @@
    {
     "lines": [
      421,
-     543
+     560
     ],
-    "returned": 23,
-    "accepted": 23
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 18,
+    "accepted": 17
    }
   ],
-  "total_seconds": 124.8
- },
- "rechecked": true
+  "total_seconds": 30.0
+ }
 }
