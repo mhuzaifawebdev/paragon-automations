@@ -1,6 +1,6 @@
 {
  "row_id": "r032",
- "scraped_at": "2026-10-04T06:59:15Z",
+ "scraped_at": "2026-10-22T10:32:01Z",
  "contacts": {
   "row_id": "r032",
   "institution_name": "GROUPE EAC - ING",
@@ -9,14 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "international-accreditation@ad-education.com",
+  "generic_email_url": "https://en.ad-education.com/contact-us/",
+  "contact": {
+   "name": "Aïda Diab",
+   "designation": "Executive Director of EAC ASFORED",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://en.ad-education.com/our-team/",
+   "evidence_quote": "Aïda Diab ... Executive Director of EAC ASFORED"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Principal / director (no Erasmus contact found). Aïda Diab is the Executive Director of EAC, which is the institution in question.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 8,
-  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -111,6 +122,15 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "EAC",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://en.ad-education.com/",
+    "evidence_quote": "EAC",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "École Supérieure du Parfum",
     "partner_country": "unknown",
     "partner_type": "school",
@@ -165,33 +185,36 @@
     "confidence": 0.9
    }
   ],
-  "internal_collaboration": [
-   {
-    "campus_name": "AD Education",
-    "city": "Paris",
-    "country": "France",
-    "role": "main",
-    "source_url": "https://en.ad-education.com/",
-    "evidence_quote": "30 rue Cambronne"
-   }
-  ],
+  "internal_collaboration": [],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 16,
+  "total_seen": 17,
   "pages_read": 8,
-  "coverage_note": "The evidence provides information about the AD Education network rather than specific international mobility contacts or Erasmus+ partners for the EAC and ING schools individually. No specific Erasmus+ partner list is provided.",
+  "coverage_note": "The evidence provides information about the AD Education network but does not list specific campuses or international mobility partners for the EAC institution itself.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.7,
-  "crawl_s": 8.2,
+  "discover_s": 0.0,
+  "crawl_s": 9.4,
+  "ai_calls": 2,
+  "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 9.7,
+  "model_s": 5.1,
   "mode": "gemini",
-  "total_seconds": 22.6
- },
- "rechecked": true
+  "email_search_s": 2.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 15,
+    "accepted": 15
+   }
+  ],
+  "total_seconds": 17.0
+ }
 }
