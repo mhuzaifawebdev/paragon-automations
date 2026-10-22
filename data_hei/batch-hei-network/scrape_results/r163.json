@@ -1,6 +1,6 @@
 {
  "row_id": "r163",
- "scraped_at": "2026-10-12T06:13:06Z",
+ "scraped_at": "2026-10-22T13:46:11Z",
  "contacts": {
   "row_id": "r163",
   "institution_name": "D. A. Tsenov Academy of Economics",
@@ -13,17 +13,37 @@
    "evidence_quote": "Тел.: 00359 631 66 376"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "erasmus@uni-svishtov.bg",
+  "generic_email_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/studentska-mobilnost",
+  "contact": {
+   "name": "M. Smokova",
+   "designation": "Institutional Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "m.smokova@uni-svishtov.bg",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/studentska-mobilnost",
+   "evidence_quote": "въпросите от административен и финансов характер, свързани с програма „Еразъм+“, се адресират към институционалния Еразъм+ координатор <m.smokova@uni-svishtov.bg>."
+  },
+  "alternates": [
+   {
+    "name": "M. Vakinova",
+    "designation": "Administrative Mentor",
+    "designation_local": "",
+    "email": "m.vakinova@uni-svishtov.bg",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/studentska-mobilnost",
+    "evidence_quote": "въпросите и проблемите от социален и личен характер, касаещи обмена по програма „Еразъм+“, се адресират към административния ментор <m.vakinova@uni-svishtov.bg>;",
+    "why_chosen": "Other role. M. Vakinova serves as the administrative mentor for social and personal issues concerning Erasmus+ exchanges."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. M. Smokova is the institutional Erasmus+ coordinator responsible for administrative and financial matters related to the Erasmus+ program.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.95,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "rectorat@uni-svishtov.bg",
-  "generic_email_url": "https://www.uni-svishtov.bg/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -930,7 +950,7 @@
    {
     "partner_name": "Academy of Technology and Recreational Law",
     "partner_country": "Ukraine",
-    "partner_type": "university",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
     "evidence_quote": "Academy of Technology and Recreational Law",
@@ -1128,7 +1148,7 @@
    {
     "partner_name": "Higher Institute for Specific Studies",
     "partner_country": "Египет",
-    "partner_type": "college",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
     "evidence_quote": "Higher Institute for Specific Studies, Nazilet Ell Batran, Giza",
@@ -1282,7 +1302,7 @@
     "partner_name": "Financial University under the Government of the Russian Federation",
     "partner_country": "Руска Федерация",
     "partner_type": "university",
-    "mobility_type": "staff",
+    "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
     "evidence_quote": "Financial University under the Government of the Russian Federation, Moscow (общ договор с клауза за обмен на преподаватели и учени, студенти и докторанти)",
     "confidence": 0.9
@@ -1361,7 +1381,7 @@
    },
    {
     "partner_name": "Giresun University",
-    "partner_country": "Турция",
+    "partner_country": "Turkiye",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1370,7 +1390,7 @@
    },
    {
     "partner_name": "Istanbul University Esenyurt",
-    "partner_country": "Турция",
+    "partner_country": "Turkiye",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1379,7 +1399,7 @@
    },
    {
     "partner_name": "Samarkand Agricultural Institute",
-    "partner_country": "Узбекистан",
+    "partner_country": "Uzbekistan",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1388,7 +1408,7 @@
    },
    {
     "partner_name": "Pryazovskyi State Technical University",
-    "partner_country": "Украйна",
+    "partner_country": "Ukraine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1396,8 +1416,17 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Banking University",
+    "partner_country": "Ukraine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
+    "evidence_quote": "Banking University, Kyiv",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Chernivtsi Institute of Trade and Economics of Kyiv National University of Trade and Economics",
-    "partner_country": "Украйна",
+    "partner_country": "Ukraine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1406,7 +1435,7 @@
    },
    {
     "partner_name": "Kharkiv National Automobile Highway University",
-    "partner_country": "Украйна",
+    "partner_country": "Ukraine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1414,8 +1443,17 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Ukraine",
+    "partner_country": "Ukraine",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
+    "evidence_quote": "“Ukraine”",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Mariupol State University",
-    "partner_country": "Украйна",
+    "partner_country": "Ukraine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1424,7 +1462,7 @@
    },
    {
     "partner_name": "University of Donja Gorica",
-    "partner_country": "Черна гора",
+    "partner_country": "Montenegro",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1442,7 +1480,7 @@
    },
    {
     "partner_name": "The Association of Chartered Certified Accountants (ACCA Romania)",
-    "partner_country": "unknown",
+    "partner_country": "Romania",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1451,7 +1489,7 @@
    },
    {
     "partner_name": "Institute of Knowledge Management, Skopje",
-    "partner_country": "unknown",
+    "partner_country": "North Macedonia",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1460,7 +1498,7 @@
    },
    {
     "partner_name": "International Network of Customs Universities (INCU)",
-    "partner_country": "Австралия",
+    "partner_country": "Australia",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1495,8 +1533,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Автономна нетърговска организация с допълнително и професионално обучение „Тюменски междурегионален център за обучение“",
-    "partner_country": "Руска Федерация",
+    "partner_name": "Тюменски междурегионален център за обучение",
+    "partner_country": "Russia",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1504,8 +1542,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Автономна нетърговска организация за допълнително професионално образование „Учебен център за безопасност на труда в Тверска област“",
-    "partner_country": "Руска Федерация",
+    "partner_name": "Учебен център за безопасност на труда в Тверска област",
+    "partner_country": "Russia",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1513,8 +1551,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Автономна нетърговска организация „Национален център за сертифициране на ръководни кадри“ АНО НЦСУ",
-    "partner_country": "Руска Федерация",
+    "partner_name": "Национален център за сертифициране на ръководни кадри",
+    "partner_country": "Russia",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1532,7 +1570,7 @@
    },
    {
     "partner_name": "European Strategic Partnerships Ltd.",
-    "partner_country": "Великобритания",
+    "partner_country": "United Kingdom",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1540,8 +1578,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "„Универсиум БГ“ ЕООД",
-    "partner_country": "България",
+    "partner_name": "Универсиум БГ ЕООД",
+    "partner_country": "Bulgaria",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1550,7 +1588,7 @@
    },
    {
     "partner_name": "Scholarlink",
-    "partner_country": "Португалия",
+    "partner_country": "Portugal",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1559,7 +1597,7 @@
    },
    {
     "partner_name": "SynergyFy Consultancy",
-    "partner_country": "Бангладеш",
+    "partner_country": "Bangladesh",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1568,7 +1606,7 @@
    },
    {
     "partner_name": "One World Education Ltd",
-    "partner_country": "България",
+    "partner_country": "Bulgaria",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-dvustranni-partnyori",
@@ -1576,8 +1614,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Haute Ecole “Robert Schuman”",
-    "partner_country": "Белгия",
+    "partner_name": "Haute Ecole Robert Schuman",
+    "partner_country": "Belgium",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1586,7 +1624,7 @@
    },
    {
     "partner_name": "Anhalt University of Applied Sciences",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1595,7 +1633,7 @@
    },
    {
     "partner_name": "Neubrandenburg University of Applied Sciences",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1604,7 +1642,7 @@
    },
    {
     "partner_name": "University of Passau",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1613,7 +1651,7 @@
    },
    {
     "partner_name": "West Saxon University of Applied Sciences of Zwickau",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1622,7 +1660,7 @@
    },
    {
     "partner_name": "University of Greifwald",
-    "partner_country": "unknown",
+    "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1631,7 +1669,7 @@
    },
    {
     "partner_name": "Technological Educational Institute of Epirus",
-    "partner_country": "unknown",
+    "partner_country": "Greece",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1640,7 +1678,7 @@
    },
    {
     "partner_name": "University of Macedonia",
-    "partner_country": "unknown",
+    "partner_country": "Greece",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1649,7 +1687,7 @@
    },
    {
     "partner_name": "UNIVERSITY OF PELOPONNESE",
-    "partner_country": "unknown",
+    "partner_country": "Greece",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1658,7 +1696,7 @@
    },
    {
     "partner_name": "University of Thessaly",
-    "partner_country": "unknown",
+    "partner_country": "Greece",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1667,7 +1705,7 @@
    },
    {
     "partner_name": "University of Huelva",
-    "partner_country": "Испания",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1676,7 +1714,7 @@
    },
    {
     "partner_name": "University of Malaga",
-    "partner_country": "Испания",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1685,7 +1723,7 @@
    },
    {
     "partner_name": "University of Vigo",
-    "partner_country": "Испания",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1694,7 +1732,7 @@
    },
    {
     "partner_name": "University of Granada",
-    "partner_country": "Испания",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1703,7 +1741,7 @@
    },
    {
     "partner_name": "University of Cosenza",
-    "partner_country": "unknown",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1712,7 +1750,7 @@
    },
    {
     "partner_name": "University of Modena and Reggio Emilia",
-    "partner_country": "unknown",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1721,7 +1759,7 @@
    },
    {
     "partner_name": "University of Milan",
-    "partner_country": "unknown",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1730,7 +1768,7 @@
    },
    {
     "partner_name": "University of Foggia",
-    "partner_country": "unknown",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1739,7 +1777,7 @@
    },
    {
     "partner_name": "University of Pavia",
-    "partner_country": "unknown",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1748,7 +1786,7 @@
    },
    {
     "partner_name": "University of Camerino",
-    "partner_country": "unknown",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1756,8 +1794,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "American College, Nicosia",
-    "partner_country": "unknown",
+    "partner_name": "American College",
+    "partner_country": "Cyprus",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1766,7 +1804,7 @@
    },
    {
     "partner_name": "Cyprus University of Technology",
-    "partner_country": "unknown",
+    "partner_country": "Cyprus",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1774,8 +1812,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "PA College, Larnaca",
-    "partner_country": "unknown",
+    "partner_name": "PA College",
+    "partner_country": "Cyprus",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1783,8 +1821,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Baltic International Academy, Riga",
-    "partner_country": "unknown",
+    "partner_name": "Baltic International Academy",
+    "partner_country": "Latvia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1792,8 +1830,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "ISMA University, Riga",
-    "partner_country": "unknown",
+    "partner_name": "ISMA University",
+    "partner_country": "Latvia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1802,7 +1840,7 @@
    },
    {
     "partner_name": "RISEBA University of Business, Arts and Technology",
-    "partner_country": "unknown",
+    "partner_country": "Latvia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1811,7 +1849,7 @@
    },
    {
     "partner_name": "University of Latvia",
-    "partner_country": "unknown",
+    "partner_country": "Latvia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1819,8 +1857,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "International School of Law and Business , Vilnius",
-    "partner_country": "Литва",
+    "partner_name": "International School of Law and Business",
+    "partner_country": "Lithuania",
     "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1829,7 +1867,7 @@
    },
    {
     "partner_name": "Kaunas University of Technology",
-    "partner_country": "Литва",
+    "partner_country": "Lithuania",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1838,7 +1876,7 @@
    },
    {
     "partner_name": "Marijampoles University of Applied Sciences",
-    "partner_country": "Литва",
+    "partner_country": "Lithuania",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1847,7 +1885,7 @@
    },
    {
     "partner_name": "Siauliai State College",
-    "partner_country": "Литва",
+    "partner_country": "Lithuania",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1856,7 +1894,7 @@
    },
    {
     "partner_name": "Vytautas Magnus University",
-    "partner_country": "Литва",
+    "partner_country": "Lithuania",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1864,8 +1902,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Goce Delcev University, Shtip",
-    "partner_country": "Северна Македония",
+    "partner_name": "Goce Delcev University",
+    "partner_country": "North Macedonia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1873,8 +1911,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "International Balkan University (IBU), Skopje",
-    "partner_country": "Северна Македония",
+    "partner_name": "International Balkan University (IBU)",
+    "partner_country": "North Macedonia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1882,8 +1920,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Mother Teresa University, Skopje",
-    "partner_country": "Северна Македония",
+    "partner_name": "Mother Teresa University",
+    "partner_country": "North Macedonia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1892,7 +1930,7 @@
    },
    {
     "partner_name": "University St Kliment Ohridski Bitola",
-    "partner_country": "Северна Македония",
+    "partner_country": "North Macedonia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1900,8 +1938,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Fontys International Business School, Venlo",
-    "partner_country": "Нидерландия",
+    "partner_name": "Fontys International Business School",
+    "partner_country": "Netherlands",
     "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1910,7 +1948,7 @@
    },
    {
     "partner_name": "Breda University of Applied Sciences",
-    "partner_country": "Нидерландия",
+    "partner_country": "Netherlands",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
@@ -1918,7 +1956,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "AGH University of Science and Technology, Krakow",
+    "partner_name": "AGH University of Science and Technology",
     "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -1929,7 +1967,7 @@
    {
     "partner_name": "Gdansk School of Banking",
     "partner_country": "Poland",
-    "partner_type": "college",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.uni-svishtov.bg/bg/international-affairs/mezhdunarodna-deynost-erazam-plus/mezhdunarodna-deynost-partnyori-po-erazam",
     "evidence_quote": "Gdansk School of Banking",
@@ -2850,28 +2888,30 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 312,
+  "total_seen": 314,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of bilateral partners and Erasmus+ partners, but does not explicitly state a total number of agreements.",
+  "coverage_note": "The evidence provides a comprehensive list of bilateral partners and Erasmus+ partners. No specific total number of partners is stated in the text.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.8,
-  "crawl_s": 18.1,
-  "ai_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 19.4,
+  "ai_calls": 5,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 25.8,
+  "model_s": 27.9,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      981,
      1120
     ],
-    "returned": 71,
+    "returned": 68,
     "accepted": 67
    },
    {
@@ -2879,19 +2919,18 @@
      1121,
      1260
     ],
-    "returned": 98,
-    "accepted": 98
+    "returned": 99,
+    "accepted": 99
    },
    {
     "lines": [
      1261,
      1400
     ],
-    "returned": 109,
-    "accepted": 109
+    "returned": 108,
+    "accepted": 108
    }
   ],
-  "total_seconds": 45.6
- },
- "rechecked": true
+  "total_seconds": 49.3
+ }
 }

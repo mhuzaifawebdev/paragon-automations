@@ -1,6 +1,6 @@
 {
  "row_id": "r149",
- "scraped_at": "2026-10-11T11:21:34Z",
+ "scraped_at": "2026-10-22T13:45:18Z",
  "contacts": {
   "row_id": "r149",
   "institution_name": "MEDIZINISCHE UNIVERSITAT GRAZ",
@@ -13,6 +13,8 @@
   },
   "phone": null,
   "phone_alt": [],
+  "generic_email": "international.office@medunigraz.at",
+  "generic_email_url": "https://www.medunigraz.at/internationale-personalmobilitaet",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,10 +22,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
-  "generic_email": "international.office@medunigraz.at",
-  "generic_email_url": "https://www.medunigraz.at/internationale-personalmobilitaet",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -1189,8 +1188,44 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "BioTechMed-Graz",
+    "partner_country": "Austria",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.medunigraz.at/",
+    "evidence_quote": "BioTechMed-Graz",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Science Park",
+    "partner_country": "Austria",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.medunigraz.at/",
+    "evidence_quote": "Science Park",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HTS",
+    "partner_country": "Austria",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.medunigraz.at/",
+    "evidence_quote": "HTS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LKH-Universitätsklinikum Graz",
+    "partner_country": "Austria",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.medunigraz.at/",
+    "evidence_quote": "LKH-Universitätsklinikum Graz",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Erasmus+",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "staff",
     "source_url": "https://www.medunigraz.at/internationale-personalmobilitaet",
@@ -1199,7 +1234,7 @@
    },
    {
     "partner_name": "CEEPUS",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "staff",
     "source_url": "https://www.medunigraz.at/internationale-personalmobilitaet",
@@ -1208,7 +1243,7 @@
    },
    {
     "partner_name": "Swiss-European Mobility Programme (SEMP)",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "staff",
     "source_url": "https://www.medunigraz.at/internationale-personalmobilitaet",
@@ -1219,14 +1254,14 @@
     "partner_name": "Austrian Marshall Plan Scholarship Host University",
     "partner_country": "USA",
     "partner_type": "university",
-    "mobility_type": "study",
+    "mobility_type": "staff",
     "source_url": "https://www.medunigraz.at/internationale-personalmobilitaet",
     "evidence_quote": "Mitarbeiter*innen der Med Uni Graz haben die Möglichkeit, im Rahmen der Mobilitätsprogramme Erasmus+, CEEPUS und Swiss-European Mobility Programme (SEMP) einen geförderten Lehr- oder Fortbildungsaufenthalt im Ausland zu absolvieren. Für Doktorats-/PhD-Studierende mit Med-Uni-Graz-Dienstverhältnis gibt es die Möglichkeit, sich für einen geförderten Forschungsaufenthalt an einer Austrian Marshall Plan Scholarship Host University in den USA zu bewerben. Das Angebot im Überblick:",
     "confidence": 0.9
    },
    {
     "partner_name": "Austrian Marshall Plan Foundation",
-    "partner_country": "",
+    "partner_country": "Austria",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/internationale-personalmobilitaet",
@@ -1235,16 +1270,16 @@
    },
    {
     "partner_name": "OeAD",
-    "partner_country": "",
+    "partner_country": "Austria",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/internationale-personalmobilitaet",
-    "evidence_quote": "[OeAD]",
+    "evidence_quote": "OeAD",
     "confidence": 0.9
    },
    {
     "partner_name": "Human.technology.styria",
-    "partner_country": "",
+    "partner_country": "Austria",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/netzwerke-cluster",
@@ -1253,7 +1288,7 @@
    },
    {
     "partner_name": "Science Park Graz",
-    "partner_country": "",
+    "partner_country": "Austria",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/netzwerke-cluster",
@@ -1262,7 +1297,7 @@
    },
    {
     "partner_name": "BioNanoNet",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/netzwerke-cluster",
@@ -1271,16 +1306,34 @@
    },
    {
     "partner_name": "International Clinical Trial Center Network",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/netzwerke-cluster",
-    "evidence_quote": "International Clinical Trial Center Network",
+    "evidence_quote": "[International Clinical Trial Center Network]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BBMRI.at",
+    "partner_country": "Austria",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.medunigraz.at/kooperationen-forschung/netzwerke-cluster",
+    "evidence_quote": "[BBMRI.at]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BBMRI-ERIC",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.medunigraz.at/kooperationen-forschung/netzwerke-cluster",
+    "evidence_quote": "[BBMRI-ERIC]",
     "confidence": 0.9
    },
    {
     "partner_name": "Technische Universität Graz",
-    "partner_country": "Österreich",
+    "partner_country": "Austria",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/universitaeten-hochschulen",
@@ -1289,7 +1342,7 @@
    },
    {
     "partner_name": "Africa-UniNet",
-    "partner_country": "Österreich",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/universitaeten-hochschulen",
@@ -1298,7 +1351,7 @@
    },
    {
     "partner_name": "ASEAN-European Academic University Network (ASEA-UNINET)",
-    "partner_country": "Europa und Südostasien",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/universitaeten-hochschulen",
@@ -1307,16 +1360,25 @@
    },
    {
     "partner_name": "CEEPUS Central European Exchange Program for University Students",
-    "partner_country": "Zentral- und Südosteuropa",
+    "partner_country": "unknown",
     "partner_type": "network",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/universitaeten-hochschulen",
     "evidence_quote": "CEEPUS Central European Exchange Program for University Students: wissenschaftliche Zusammenarbeit in Zentral- und Südosteuropa",
     "confidence": 0.9
    },
    {
+    "partner_name": "EU-Mobilitätsprogramm Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.medunigraz.at/kooperationen-forschung/universitaeten-hochschulen",
+    "evidence_quote": "EU-Mobilitätsprogramm Erasmus+: internationale Mobilität von Studierenden und Hochschulpersonal",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Eurasia-Pacific-Uninet",
-    "partner_country": "Ostasien, Zentralasien, Südasien und pazifischer Raum",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/universitaeten-hochschulen",
@@ -1325,16 +1387,16 @@
    },
    {
     "partner_name": "Netzwerk EURAXESS",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "network",
-    "mobility_type": "staff",
+    "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/universitaeten-hochschulen",
     "evidence_quote": "Netzwerk EURAXESS: Mobilität und Karriereentwicklung von Forschenden",
     "confidence": 0.9
    },
    {
-    "partner_name": "Horizon 2020",
-    "partner_country": "",
+    "partner_name": "EU-Rahmenprogramm Horizon 2020",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/universitaeten-hochschulen",
@@ -1343,7 +1405,7 @@
    },
    {
     "partner_name": "Fulbright",
-    "partner_country": "Österreich und die USA",
+    "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/universitaeten-hochschulen",
@@ -1352,9 +1414,9 @@
    },
    {
     "partner_name": "Swiss-European Mobility Programme",
-    "partner_country": "Schweiz",
+    "partner_country": "Switzerland",
     "partner_type": "network",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.medunigraz.at/kooperationen-forschung/universitaeten-hochschulen",
     "evidence_quote": "Swiss-European Mobility Programme: Studierenden- und Personalmobilität an Schweizer Hochschulen",
     "confidence": 0.9
@@ -1367,35 +1429,37 @@
     "country": "Österreich",
     "role": "main",
     "source_url": "https://www.medunigraz.at/",
-    "evidence_quote": "8010 Graz, Österreich"
+    "evidence_quote": "Neue Stiftingtalstraße 6"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 148,
+  "total_seen": 155,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of bilateral and Erasmus+ partner institutions worldwide and networks, but no specific named contacts with personal emails are stated in the text.",
+  "coverage_note": "The evidence provides a comprehensive list of bilateral and Erasmus+ partner institutions. No specific total number of partners is explicitly stated.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.4,
-  "crawl_s": 13.7,
-  "ai_calls": 6,
+  "discover_s": 0.0,
+  "crawl_s": 16.7,
+  "ai_calls": 7,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 282.5,
+  "model_s": 24.4,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
@@ -1410,8 +1474,8 @@
      281,
      420
     ],
-    "returned": 5,
-    "accepted": 5
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
@@ -1424,13 +1488,13 @@
    {
     "lines": [
      561,
-     693
+     696
     ],
-    "returned": 91,
-    "accepted": 91
+    "returned": 94,
+    "accepted": 94
    }
   ],
-  "total_seconds": 298.6
+  "total_seconds": 45.0
  },
  "rechecked": true
 }

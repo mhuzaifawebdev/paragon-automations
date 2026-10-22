@@ -1,18 +1,16 @@
 {
  "row_id": "r173",
- "scraped_at": "2026-10-11T11:29:57Z",
+ "scraped_at": "2026-10-22T13:45:57Z",
  "contacts": {
   "row_id": "r173",
   "institution_name": "OSTBAYERISCHE TECHNISCHE HOCHSCHULEAMBERG-WEIDEN",
   "institution_type": "university",
   "official_website": "https://www.oth-aw.de/",
-  "country": {
-   "value": "Germany",
-   "source_url": "https://www.oth-aw.de/international/wege-ins-ausland/foerderung-fuer-hochschulpersonal/",
-   "evidence_quote": "Gruppe 2: 160 Euro am Tag für Belgien, Deutschland, Frankreich, Griechenland, Italien, Malta, Niederlande, Österreich, Portugal, Spanien, Zypern"
-  },
+  "country": null,
   "phone": null,
   "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,10 +18,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -33,7 +28,7 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.oth-aw.de/forschung/forschungsschwerpunkte/energie-und-mobilitaet/",
-    "evidence_quote": "Im Forschungsvorhaben „Technologielösungen für hocheffiziente Zero-Emission H2-Motoren für KWK-Anwendungen“ (CH2P) entwickelt die OTH Amberg-Weiden über das Kompetenzzentrum für Kraft-Wärme-Kopplung (KoKWK) zusammen mit der 2G Energy AG und acht weiteren Partnern KWK-Anlagen der nächsten Generation, die aus reinem Wasserstoff hocheffizient und kostengünstig Strom und Wärme bereitzustellen.",
+    "evidence_quote": "Projektpartner: | 2G Energy AG (Koordinator)",
     "confidence": 0.9
    },
    {
@@ -178,6 +173,78 @@
     "mobility_type": "unknown",
     "source_url": "https://www.oth-aw.de/forschung/forschungseinrichtungen/team-automotive/team-automotive/",
     "evidence_quote": "Kooperative Promotionen mit Universität Passau, TUM, FAU",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ukraine-Netzwerk",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oth-aw.de/",
+    "evidence_quote": "OTH Amberg-Weiden tritt globalem Ukraine-Netzwerk bei",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Constantia Pirk GmbH & Co. KG",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oth-aw.de/",
+    "evidence_quote": "Constantia Pirk GmbH & Co. KG Pirkmühle 14 - 16 92712 Pirk-Pirkmühle",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Siemens",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oth-aw.de/",
+    "evidence_quote": "Veranstalter: OTH AW, Siemens, Wifam, IHK",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Wifam",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oth-aw.de/",
+    "evidence_quote": "Veranstalter: OTH AW, Siemens, Wifam, IHK",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IHK",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oth-aw.de/",
+    "evidence_quote": "Veranstalter: OTH AW, Siemens, Wifam, IHK",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Career4PROF",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oth-aw.de/",
+    "evidence_quote": "Veranstalter: Career4PROF & Zentrum für Gender und Diversity",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zentrum für Gender und Diversity",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oth-aw.de/",
+    "evidence_quote": "Veranstalter: Career4PROF & Zentrum für Gender und Diversity",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Familienpakt Bayern",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oth-aw.de/",
+    "evidence_quote": "[Familienpakt Bayern Logo]",
     "confidence": 0.9
    },
    {
@@ -433,27 +500,9 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Tschechien",
-    "partner_country": "Tschechien",
-    "partner_type": "other",
-    "mobility_type": "staff",
-    "source_url": "https://www.oth-aw.de/international/wege-ins-ausland/foerderung-fuer-hochschulpersonal/",
-    "evidence_quote": "So organisieren wir zum Beispiel immer wieder sogenannte Staff Weeks, vor allem mit unseren Kolleginnen und Kollegen in Tschechien oder in Finnland.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Finnland",
-    "partner_country": "Finnland",
-    "partner_type": "other",
-    "mobility_type": "staff",
-    "source_url": "https://www.oth-aw.de/international/wege-ins-ausland/foerderung-fuer-hochschulpersonal/",
-    "evidence_quote": "So organisieren wir zum Beispiel immer wieder sogenannte Staff Weeks, vor allem mit unseren Kolleginnen und Kollegen in Tschechien oder in Finnland.",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Fraunhofer UMSICHT",
     "partner_country": "Germany",
-    "partner_type": "university",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.oth-aw.de/hochschule/kooperationen/",
     "evidence_quote": "Fraunhofer UMSICHT",
@@ -462,7 +511,7 @@
    {
     "partner_name": "Fraunhofer AISEC",
     "partner_country": "Germany",
-    "partner_type": "university",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.oth-aw.de/hochschule/kooperationen/",
     "evidence_quote": "Fraunhofer AISEC",
@@ -509,9 +558,17 @@
     "campus_name": "Standort Weiden",
     "city": "Weiden",
     "country": "Germany",
-    "role": "branch",
+    "role": "main",
     "source_url": "https://www.oth-aw.de/",
     "evidence_quote": "Standort Weiden"
+   },
+   {
+    "campus_name": "Campus Neumarkt",
+    "city": "Neumarkt",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.oth-aw.de/hochschule/kooperationen/campus-neumarkt/campus-neumarkt/",
+    "evidence_quote": "Campus Neumarkt"
    }
   ],
   "stated_total": 30,
@@ -520,34 +577,44 @@
   "truncated": false,
   "total_seen": 30,
   "pages_read": 10,
-  "coverage_note": "The evidence provides information on regional and research partners, but specific partner lists or bilateral agreements for general student and staff Erasmus mobility are not explicitly detailed. 1 list slice(s) could not be read (model busy); the partner list may be incomplete.",
-  "needs_human_check": true,
+  "coverage_note": "The evidence provides a list of regional industry partners and specific research project partners, but does not contain a comprehensive list of Erasmus+ partner universities.",
+  "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.2,
-  "crawl_s": 14.3,
-  "ai_calls": 5,
+  "discover_s": 0.0,
+  "crawl_s": 23.2,
+  "ai_calls": 6,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 122.8,
+  "model_s": 10.2,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 8,
+    "accepted": 8
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 14,
+    "accepted": 14
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 5,
-    "accepted": 5
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
@@ -558,7 +625,7 @@
     "accepted": 33
    }
   ],
-  "total_seconds": 139.2
+  "total_seconds": 35.5
  },
  "rechecked": true
 }

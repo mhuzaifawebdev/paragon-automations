@@ -1,6 +1,6 @@
 {
  "row_id": "r137",
- "scraped_at": "2026-10-11T11:15:07Z",
+ "scraped_at": "2026-10-22T13:45:18Z",
  "contacts": {
   "row_id": "r137",
   "institution_name": "Tehnicko veleuciliste u Zagrebu",
@@ -13,17 +13,25 @@
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "erasmus@tvz.hr",
+  "generic_email_url": "https://www.tvz.hr/studiji/erasmus/erasmus-odlazna-mobilnost-studenti/",
+  "contact": {
+   "name": "International Relations Office",
+   "designation": "International Relations Office",
+   "designation_local": "",
+   "email": "erasmus@tvz.hr",
+   "office_email": "",
+   "phone": "+385 5603 9365",
+   "source_url": "https://www.tvz.hr/wp-content/uploads/2026/06/Erasmus-Call-for-mobility_KA171_2024_cooperation-with-Singapore-1.pdf",
+   "evidence_quote": "The International Relations Office of the Zagreb University of Applied Sciences is in charge for the ... International relations office, Zagreb University of Applied Sciences"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "International relations officer. The International Relations Office is in charge of the administration of all incoming and outgoing mobilities.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
-  "generic_email": "tvz@tvz.hr",
-  "generic_email_url": "https://www.tvz.hr/studiji/erasmus/erasmus-suradnja-sa-partnerskim-zemljama-ka-107/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -625,13 +633,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 5.4,
-  "crawl_s": 28.3,
+  "discover_s": 0.0,
+  "crawl_s": 42.2,
   "ai_calls": 6,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 165.6,
+  "model_s": 13.9,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -655,26 +665,25 @@
      420
     ],
     "returned": 15,
-    "accepted": 11
+    "accepted": 13
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 11,
-    "accepted": 10
+    "returned": 7,
+    "accepted": 7
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 43,
-    "accepted": 43
+    "returned": 44,
+    "accepted": 44
    }
   ],
-  "total_seconds": 199.3
- },
- "rechecked": true
+  "total_seconds": 56.2
+ }
 }

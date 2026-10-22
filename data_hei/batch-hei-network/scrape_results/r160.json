@@ -1,33 +1,37 @@
 {
  "row_id": "r160",
- "scraped_at": "2026-10-12T06:12:21Z",
+ "scraped_at": "2026-10-22T13:45:39Z",
  "contacts": {
   "row_id": "r160",
   "institution_name": "ASSOCIATION ISEP - EDOUARD BRANLY",
   "institution_type": "university",
   "official_website": "https://www.isep.fr/",
-  "country": {
-   "value": "France",
-   "source_url": "https://www.isep.fr/",
-   "evidence_quote": "9ᵉ École d'ingénieurs de France Catégorie : Professionnalisation et Emploi"
-  },
+  "country": null,
   "phone": {
    "value": "+33 (0) 1 49 54 52 24",
    "source_url": "https://www.isep.fr/en/contact-us/",
    "evidence_quote": "+33 (0) 1 49 54 52 24 <tel +33 (0) 1 49 54 52 24>"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "international@isep.fr",
+  "generic_email_url": "https://www.isep.fr/en/contact-us/",
+  "contact": {
+   "name": "Jean-Marie LE STUM",
+   "designation": "Directeur des Relations Entreprises & Partenariats",
+   "designation_local": "",
+   "email": "relations-entreprises@isep.fr",
+   "office_email": "",
+   "phone": "01 49 54 52 90",
+   "source_url": "https://www.isep.fr/entreprises/devenez-partenaire-de-lisep/",
+   "evidence_quote": "Jean-Marie LE STUM ... Directeur des Relations Entreprises & Partenariats"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Other role. Jean-Marie LE STUM is the Director of Corporate Relations and Partnerships at Isep.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.35,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "info@isep.fr",
-  "generic_email_url": "https://www.isep.fr/nous-contacter/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -276,41 +280,42 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.5,
-  "crawl_s": 17.5,
-  "ai_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 25.4,
+  "ai_calls": 5,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 21.9,
+  "model_s": 4.3,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 14,
-    "accepted": 14
+    "returned": 12,
+    "accepted": 12
    },
    {
     "lines": [
      421,
      509
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 6,
+    "accepted": 6
    }
   ],
-  "total_seconds": 40.9
- },
- "rechecked": true
+  "total_seconds": 33.1
+ }
 }
