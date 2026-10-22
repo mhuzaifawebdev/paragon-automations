@@ -1,26 +1,41 @@
 {
  "row_id": "r031",
- "scraped_at": "2026-10-08T17:55:09Z",
+ "scraped_at": "2026-10-22T13:16:36Z",
  "contacts": {
   "row_id": "r031",
   "institution_name": "ECOLE SUPERIEURE DE CHIMIE PHYSIQUE ELECTRONIQUE DE LYON",
-  "institution_type": "university",
+  "institution_type": "college",
   "official_website": "https://www.cpe.fr/",
-  "country": null,
+  "country": {
+   "value": "France",
+   "source_url": "https://www.cpe.fr/",
+   "evidence_quote": "[UIMM Lyon - France]"
+  },
   "phone": {
    "value": "33 (0)4 72 43 17 00",
    "source_url": "https://www.cpe.fr/",
    "evidence_quote": "Tél. : 33 (0)4 72 43 17 00"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Gérard Pignault",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.cpe.fr/article/ecole-locaux-et-equipements/",
+   "evidence_quote": "Remercions la région AURA, la Métropole de Lyon, l’Etat, qui dotent ainsi CPE Lyon d’un outil formidable, et remercions notre associé, l’université Claude Bernard Lyon 1 qui a œuvré pour que tout cela soit possible. » Gérard Pignault, Directeur"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Principal / director (no Erasmus contact found). Gérard Pignault is the Director of the institution and oversees its strategic international partnerships.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -659,20 +674,22 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 33.5,
-  "ai_calls": 6,
-  "partner_calls": 5,
+  "crawl_s": 28.1,
+  "ai_calls": 5,
+  "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 296.8,
+  "model_s": 6.6,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.1,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 19,
-    "accepted": 17
+    "returned": 21,
+    "accepted": 19
    },
    {
     "lines": [
@@ -680,34 +697,25 @@
      280
     ],
     "returned": 11,
-    "accepted": 11
+    "accepted": 10
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 12,
-    "accepted": 11
+    "returned": 25,
+    "accepted": 22
    },
    {
     "lines": [
      421,
-     560
+     527
     ],
-    "returned": 28,
-    "accepted": 21
-   },
-   {
-    "lines": [
-     561,
-     612
-    ],
-    "returned": 9,
-    "accepted": 9
+    "returned": 15,
+    "accepted": 13
    }
   ],
-  "total_seconds": 330.3
- },
- "rechecked": 2
+  "total_seconds": 35.8
+ }
 }

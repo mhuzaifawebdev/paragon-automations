@@ -1,10 +1,10 @@
 {
  "row_id": "r039",
- "scraped_at": "2026-10-22T11:30:13Z",
+ "scraped_at": "2026-10-22T13:16:28Z",
  "contacts": {
   "row_id": "r039",
   "institution_name": "Ecole nationale supérieure d'architecture et de paysage de Bordeaux",
-  "institution_type": "school",
+  "institution_type": "university",
   "official_website": "https://www.bordeaux.archi.fr/",
   "country": {
    "value": "France",
@@ -19,14 +19,35 @@
   "phone_alt": [],
   "generic_email": "international@bordeaux.archi.fr",
   "generic_email_url": "https://www.bordeaux.archi.fr/mobilites-erasmus/",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Lisa Casamajou",
+   "designation": "International Relations Officer",
+   "designation_local": "",
+   "email": "international@bordeaux.archi.fr",
+   "office_email": "",
+   "phone": "33 (0)5 57 35 11 24",
+   "source_url": "https://www.bordeaux.archi.fr/mobilites-erasmus/",
+   "evidence_quote": "Lisa Casamajou ... envoyer un e-mail <international@bordeaux.archi.fr>"
+  },
+  "alternates": [
+   {
+    "name": "Fabien Ansel",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bordeaux.archi.fr/wp-content/uploads/2026/03/organigramme-administratif_03_2026.pdf",
+    "evidence_quote": "DIRECTEUR : ... Fabien Ansel",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the director of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. International relations officer. She is the contact person for Erasmus+ and international mobility at the institution.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -692,39 +713,40 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 16.5,
+  "crawl_s": 14.1,
   "ai_calls": 4,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 291.2,
+  "model_s": 8.6,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.1,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 19,
-    "accepted": 13
+    "returned": 18,
+    "accepted": 11
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 63,
-    "accepted": 58
+    "returned": 52,
+    "accepted": 48
    }
   ],
-  "total_seconds": 307.8
- },
- "rechecked": 2
+  "total_seconds": 23.9
+ }
 }

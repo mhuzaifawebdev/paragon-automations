@@ -1,6 +1,6 @@
 {
  "row_id": "r051",
- "scraped_at": "2026-10-08T18:00:42Z",
+ "scraped_at": "2026-10-22T13:16:31Z",
  "contacts": {
   "row_id": "r051",
   "institution_name": "UNIVERSITA VITA-SALUTE SAN RAFFAELE",
@@ -13,28 +13,28 @@
    "evidence_quote": "+39 02 91751 500 <tel +39 02 91751 500>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: Wikidata. mode: gemini.",
   "generic_email": "mobility@unisr.it",
-  "generic_email_url": "https://www.unisr.it/servizi/internazionale"
+  "generic_email_url": "https://www.unisr.it/servizi/internazionale",
+  "contact": {
+   "name": "Segreteria Didattica",
+   "designation": "Educational Secretariat",
+   "designation_local": "",
+   "email": "segreteria.corsipostgraduate@unisr.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.unisr.it/offerta-formativa/corsi-formazione/strategic-biotech-innovation-management",
+   "evidence_quote": "CONTATTO SEGRETERIA DIDATTICA"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). This office provides information regarding postgraduate courses and educational programs.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
-   {
-    "partner_name": "Eureka Institute for Translational Medicine",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.unisr.it/ricerca/partnership-eureka",
-    "evidence_quote": "In qualità di partner ufficiale dell'Eureka Institute for Translational Medicine, UniSR ribadisce il proprio impegno nel promuovere l'innovazione medica a livello globale. Questa alleanza strategica con la più prestigiosa rete mondiale di medicina traslazionale permette ai nostri ricercatori e alle nostre ricercatrici di trasformare le scoperte scientifiche in soluzioni concrete per la salute.",
-    "confidence": 0.9
-   },
    {
     "partner_name": "University of Copenhagen",
     "partner_country": "Denmark",
@@ -93,7 +93,7 @@
     "partner_name": "University of Otago",
     "partner_country": "New Zealand",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "traineeship",
     "source_url": "https://www.unisr.it/servizi/internazionale",
     "evidence_quote": "Per gli studenti dei Corsi di Laurea Magistrale in Medicina e Chirurgia e International MD Program, in particolare negli anni dal terzo al sesto, è possibile svolgere tirocini di tipo osservativo presso istituzioni estere in Europa (vedi e anche in paesi extra Eu come la Nuova Zelanda (University of Otago), Kenya (Aga Khan University Hospital) e Canada (Douglas Mental Health University Institute, McGill University).",
     "confidence": 0.9
@@ -102,7 +102,7 @@
     "partner_name": "Aga Khan University Hospital",
     "partner_country": "Kenya",
     "partner_type": "other",
-    "mobility_type": "unknown",
+    "mobility_type": "traineeship",
     "source_url": "https://www.unisr.it/servizi/internazionale",
     "evidence_quote": "Per gli studenti dei Corsi di Laurea Magistrale in Medicina e Chirurgia e International MD Program, in particolare negli anni dal terzo al sesto, è possibile svolgere tirocini di tipo osservativo presso istituzioni estere in Europa (vedi e anche in paesi extra Eu come la Nuova Zelanda (University of Otago), Kenya (Aga Khan University Hospital) e Canada (Douglas Mental Health University Institute, McGill University).",
     "confidence": 0.9
@@ -111,7 +111,7 @@
     "partner_name": "Douglas Mental Health University Institute",
     "partner_country": "Canada",
     "partner_type": "other",
-    "mobility_type": "unknown",
+    "mobility_type": "traineeship",
     "source_url": "https://www.unisr.it/servizi/internazionale",
     "evidence_quote": "Per gli studenti dei Corsi di Laurea Magistrale in Medicina e Chirurgia e International MD Program, in particolare negli anni dal terzo al sesto, è possibile svolgere tirocini di tipo osservativo presso istituzioni estere in Europa (vedi e anche in paesi extra Eu come la Nuova Zelanda (University of Otago), Kenya (Aga Khan University Hospital) e Canada (Douglas Mental Health University Institute, McGill University).",
     "confidence": 0.9
@@ -120,18 +120,36 @@
     "partner_name": "McGill University",
     "partner_country": "Canada",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "traineeship",
     "source_url": "https://www.unisr.it/servizi/internazionale",
     "evidence_quote": "Per gli studenti dei Corsi di Laurea Magistrale in Medicina e Chirurgia e International MD Program, in particolare negli anni dal terzo al sesto, è possibile svolgere tirocini di tipo osservativo presso istituzioni estere in Europa (vedi e anche in paesi extra Eu come la Nuova Zelanda (University of Otago), Kenya (Aga Khan University Hospital) e Canada (Douglas Mental Health University Institute, McGill University).",
     "confidence": 0.9
    },
    {
-    "partner_name": "IRCCS Ospedale San Raffaele",
-    "partner_country": "Italy",
+    "partner_name": "Università di Oxford",
+    "partner_country": "Regno Unito",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unisr.it",
+    "evidence_quote": "La filosofa Amia Srinivasan, dell’Università di Oxford, esplora il tema della genealogia critica tra storia, conoscenza, politica ed etica.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "National Academy of Medicine",
+    "partner_country": "Stati Uniti",
     "partner_type": "other",
     "mobility_type": "unknown",
+    "source_url": "https://www.unisr.it",
+    "evidence_quote": "[Luigi Naldini membro della National Academy of Medicine degli Stati Uniti]Ateneo19 ottobre 2026Luigi Naldini membro della National Academy of Medicine degli Stati Uniti",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Eureka Institute for Translational Medicine",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
     "source_url": "https://www.unisr.it/ricerca/partnership-eureka",
-    "evidence_quote": "Le quattro posizioni – comprensive di tutti i costi associati al corso, all’esame e all’ospitalità a Ortigia (Siracusa) – saranno assegnate a ricercatrici e ricercatori / professoresse associate e professori associati di UniSR oppure a ricercatori post-doc di UniSR e IRCCS Ospedale San Raffaele.",
+    "evidence_quote": "In qualità di partner ufficiale dell'Eureka Institute for Translational Medicine, UniSR ribadisce il proprio impegno nel promuovere l'innovazione medica a livello globale. Questa alleanza strategica con la più prestigiosa rete mondiale di medicina traslazionale permette ai nostri ricercatori e alle nostre ricercatrici di trasformare le scoperte scientifiche in soluzioni concrete per la salute.",
     "confidence": 0.9
    },
    {
@@ -155,7 +173,7 @@
    {
     "partner_name": "LIUC Business School",
     "partner_country": "Italy",
-    "partner_type": "school",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.unisr.it/offerta-formativa/corsi-formazione/strategic-biotech-innovation-management",
     "evidence_quote": "Umberto Carlo Restelli, Direttore dell’Osservatorio sulla Value-Based Healthcare presso LIUC Business School.",
@@ -177,7 +195,7 @@
     "city": "Milano",
     "country": "Italy",
     "role": "main",
-    "source_url": "https://www.unisr.it/attachments/Piano-di-Studi_24-CFU_Strategic-Biotech-Innovation-Management-25-26/53625949-8c5a-4034-9108-b58a11c59bb0/795cd095-8a42-4274-be73-5ea3e1dca71c.pdf",
+    "source_url": "https://www.unisr.it/attachments/Piano-di-Studi_24-CFU_Strategic-Biotech-Innovation-Management/53625949-8c5a-4034-9108-b58a11c59bb0/d9f8ea6f-9f97-4ec1-bb09-6ec9f657a6c6.pdf",
     "evidence_quote": "Via Olgettina 58 – 20132 Milano"
    }
   ],
@@ -185,28 +203,31 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 16,
+  "total_seen": 17,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of specific international partners but does not state a total number of agreements. Contact details for specific Erasmus coordinators are not provided by name, only generic email addresses for faculties.",
+  "coverage_note": "The evidence provides a list of specific international cooperation agreements but does not provide a comprehensive list of all Erasmus+ partner universities.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 21.1,
-  "ai_calls": 5,
+  "crawl_s": 16.7,
+  "ai_calls": 6,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 242.3,
+  "model_s": 4.7,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 2,
+    "accepted": 2
    },
    {
     "lines": [
@@ -218,22 +239,21 @@
    },
    {
     "lines": [
-     701,
-     840
+     281,
+     420
     ],
-    "returned": 11,
-    "accepted": 11
+    "returned": 13,
+    "accepted": 13
    },
    {
     "lines": [
-     841,
-     977
+     981,
+     1102
     ],
     "returned": 2,
     "accepted": 2
    }
   ],
-  "total_seconds": 263.4
- },
- "rechecked": 2
+  "total_seconds": 23.1
+ }
 }
