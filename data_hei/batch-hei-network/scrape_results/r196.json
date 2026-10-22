@@ -1,25 +1,56 @@
 {
  "row_id": "r196",
- "scraped_at": "2026-10-11T12:09:34Z",
+ "scraped_at": "2026-10-22T13:47:09Z",
  "contacts": {
   "row_id": "r196",
   "institution_name": "Duale Hochschule Baden-Württemberg Mosbach",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.mosbach.dhbw.de/",
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader claude-haiku-4-5: free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Andreas Schramm",
+   "designation": "Erasmus Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.mosbach.dhbw.de/dhbw-mosbach/who-is-who/",
+   "evidence_quote": "Schramm, Andreas ... Europabeauftragter"
+  },
+  "alternates": [
+   {
+    "name": "Nadja Markof",
+    "designation": "Head of International Office",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.mosbach.dhbw.de/dhbw-mosbach/who-is-who/",
+    "evidence_quote": "Nadja Markof ... Leiterin International Office / Head of International Office",
+    "why_chosen": "Head of international relations. Nadja Markof is the Head of the International Office."
+   },
+   {
+    "name": "Chiara Beyer",
+    "designation": "International Office",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "06261 939-265",
+    "source_url": "https://www.mosbach.dhbw.de/personen-im-detail/chiara-beyer/",
+    "evidence_quote": "Chiara Beyer ... International Office",
+    "why_chosen": "International relations officer. Chiara Beyer works in the International Office and is a primary contact for international mobility."
+   }
+  ],
+  "rung": "Institutional Erasmus+ coordinator. Andreas Schramm is explicitly designated as the Erasmus coordinator (Europabeauftragter).",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -379,32 +410,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 18.5,
-  "ai_calls": 3,
-  "partner_calls": 2,
+  "crawl_s": 19.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 48.9,
+  "model_s": 2.2,
   "mode": "gemini",
-  "reader": "claude-haiku-4-5",
-  "slices": [
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 26,
-    "accepted": 26
-   },
-   {
-    "lines": [
-     421,
-     558
-    ],
-    "returned": 13,
-    "accepted": 12
-   }
-  ],
-  "total_seconds": 67.4
- },
- "rechecked": true
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.4,
+  "total_seconds": 23.8
+ }
 }

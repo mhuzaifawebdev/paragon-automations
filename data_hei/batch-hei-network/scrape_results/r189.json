@@ -1,29 +1,41 @@
 {
  "row_id": "r189",
- "scraped_at": "2026-10-11T11:59:57Z",
+ "scraped_at": "2026-10-22T13:46:55Z",
  "contacts": {
   "row_id": "r189",
   "institution_name": "Private Universitaet Witten/Herdecke gGmbH",
   "institution_type": "university",
   "official_website": "https://www.uni-wh.de/",
-  "country": null,
+  "country": {
+   "value": "Germany",
+   "source_url": "https://www.uni-wh.de/",
+   "evidence_quote": "[Siegel mit Schriftzug Top Universität in Deutschland Award 2025 StudyCheck]"
+  },
   "phone": {
    "value": "+49 2302 926-9702",
    "source_url": "https://www.uni-wh.de/studium/international/international-office",
    "evidence_quote": "+49 2302 926-9702 <tel +49 2302 926-9702>"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Raphaela Held",
+   "designation": "Incoming Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+49 2302 926-9704",
+   "source_url": "https://www.uni-wh.de/studium/international/international-office",
+   "evidence_quote": "[Portraitfoto von Raphaela Held] ... Incoming Coordinator"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Mobility coordinator. She is the Incoming Coordinator for international students.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.7,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini.",
-  "generic_email": "info@uni-wh.de",
-  "generic_email_url": "https://www.uni-wh.de/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -797,20 +809,22 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 17.4,
-  "ai_calls": 10,
-  "partner_calls": 9,
+  "crawl_s": 21.0,
+  "ai_calls": 8,
+  "partner_calls": 7,
   "cost_usd_estimate": 0.0,
-  "model_s": 44.6,
+  "model_s": 17.3,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
@@ -822,62 +836,45 @@
    },
    {
     "lines": [
-     281,
-     420
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
      421,
      560
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 5,
+    "accepted": 4
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 4,
+    "accepted": 3
    },
    {
     "lines": [
      701,
      840
     ],
-    "returned": 10,
-    "accepted": 10
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
      841,
      980
     ],
-    "returned": 10,
-    "accepted": 5
+    "returned": 46,
+    "accepted": 46
    },
    {
     "lines": [
      981,
-     1120
+     1067
     ],
-    "returned": 37,
-    "accepted": 36
-   },
-   {
-    "lines": [
-     1121,
-     1225
-    ],
-    "returned": 28,
-    "accepted": 28
+    "returned": 15,
+    "accepted": 15
    }
   ],
-  "total_seconds": 62.1
- },
- "rechecked": true
+  "total_seconds": 39.7
+ }
 }
