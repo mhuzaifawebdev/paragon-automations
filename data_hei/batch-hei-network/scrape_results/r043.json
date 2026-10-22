@@ -1,6 +1,6 @@
 {
  "row_id": "r043",
- "scraped_at": "2026-10-11T10:36:36Z",
+ "scraped_at": "2026-10-22T11:40:29Z",
  "contacts": {
   "row_id": "r043",
   "institution_name": "Hochschule fuer Technik und Wirtschaft Dresden",
@@ -13,23 +13,193 @@
    "evidence_quote": "Tel.: +49 (0)351 4620 <tel +493514620>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "info@htw-dresden.de",
   "generic_email_url": "https://www.htw-dresden.de/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Sophie Tietze",
+   "designation": "Team Lead Networks / Project Management Saxony5",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+49 351 462 3929",
+   "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+   "evidence_quote": "M.A. Sophie Tietze ... Teamleitung \"Netzwerke\" / Projektgeschäftsführung Saxony5"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Sophie Tietze manages networks and projects such as Saxony5 at the institution.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
    {
+    "partner_name": "Silicon Saxony e.V.",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "Silicon Saxony e.V.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Organic Electronics Saxony e.V.",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "Organic Electronics Saxony e.V.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HZwo e. V.",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "HZwo e. V.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Industrieverein Sachsen 1828 e.V.",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "Industrieverein Sachsen 1828 e.V.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Forschungsnetzwerk BiotroniS",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "Forschungsnetzwerk BiotroniS: Materialien und Systeme f. Bioelektronik",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Forschungsnetzwerk Smarte KI-basierte Robotik (SKR)",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "Forschungsnetzwerk Smarte KI-basierte Robotik (SKR)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zentrum für angewandte Forschung und Technologie e.V. (ZAFT)",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "Zentrum für angewandte Forschung und Technologie e.V. (ZAFT)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Saxony5 - Transferverbund der fünf sächsischen HAW",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "Saxony5 - Transferverbund der fünf sächsischen HAW",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Dresden exists",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "Dresden exists - von der Idee zum Unternehmen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "YETI",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "YETI",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "boOst",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "boOst",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TransferAllianz",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "TransferAllianz",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "DRESDEN-concept",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "DRESDEN-concept",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HAWTech",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "HAWTech",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FHnet",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "FHnet",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NFDI4Ing",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "NFDI4Ing",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsche Gesellschaft für Nachhaltigkeit an Hochschulen e.V. /DG HochN",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "Deutsche Gesellschaft für Nachhaltigkeit an Hochschulen e.V. /DG HochN",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lokale Agenda 21",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
+    "evidence_quote": "Lokale Agenda 21",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "University of Tirana",
-    "partner_country": "Albanien",
+    "partner_country": "Albania",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -38,7 +208,7 @@
    },
    {
     "partner_name": "RMIT University Melbourne",
-    "partner_country": "Australien",
+    "partner_country": "Australia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -47,7 +217,7 @@
    },
    {
     "partner_name": "International College of Management Sydney (ICMS)",
-    "partner_country": "Australien",
+    "partner_country": "Australia",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -56,7 +226,7 @@
    },
    {
     "partner_name": "Erasmus Brussels University of Applied Sciences and Arts",
-    "partner_country": "Belgien",
+    "partner_country": "Belgium",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -65,8 +235,8 @@
    },
    {
     "partner_name": "Karel de Grote-Hogeschool",
-    "partner_country": "Belgien",
-    "partner_type": "university",
+    "partner_country": "Belgium",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
     "evidence_quote": "Karel de Grote-Hogeschool",
@@ -74,8 +244,8 @@
    },
    {
     "partner_name": "Haute Ecole EPHEC",
-    "partner_country": "Belgien",
-    "partner_type": "university",
+    "partner_country": "Belgium",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
     "evidence_quote": "Haute Ecole EPHEC",
@@ -83,7 +253,7 @@
    },
    {
     "partner_name": "Artevelde University of Applied Sciences",
-    "partner_country": "Belgien",
+    "partner_country": "Belgium",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -92,7 +262,7 @@
    },
    {
     "partner_name": "Universidade Federal de Minas Gerais / UFMG",
-    "partner_country": "Brasilien",
+    "partner_country": "Brazil",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -101,7 +271,7 @@
    },
    {
     "partner_name": "Technical University of Sofia",
-    "partner_country": "Bulgarien",
+    "partner_country": "Bulgaria",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -173,7 +343,7 @@
    },
    {
     "partner_name": "Tallinn University of Technology",
-    "partner_country": "Estland",
+    "partner_country": "Estonia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -182,7 +352,7 @@
    },
    {
     "partner_name": "Metropolia University of Applied Sciences",
-    "partner_country": "Finnland",
+    "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -191,7 +361,7 @@
    },
    {
     "partner_name": "Karelia University of Applied Sciences",
-    "partner_country": "Finnland",
+    "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -200,7 +370,7 @@
    },
    {
     "partner_name": "Satakunta University of Applied Sciences",
-    "partner_country": "Finnland",
+    "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -209,7 +379,7 @@
    },
    {
     "partner_name": "VAMK University of Applied Sciences",
-    "partner_country": "Finnland",
+    "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -218,7 +388,7 @@
    },
    {
     "partner_name": "Seinäjoki University of Applied Sciences (SeAMK)",
-    "partner_country": "Finnland",
+    "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -227,7 +397,7 @@
    },
    {
     "partner_name": "University of Eastern Finland",
-    "partner_country": "Finnland",
+    "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -235,8 +405,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "NEOMA Business School (Rouen/Reims/Paris)",
-    "partner_country": "Frankreich",
+    "partner_name": "NEOMA Business School",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -245,7 +415,7 @@
    },
    {
     "partner_name": "ESAIP - Graduate School of Engineering",
-    "partner_country": "Frankreich",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -254,7 +424,7 @@
    },
    {
     "partner_name": "Université Grenoble Alpes",
-    "partner_country": "Frankreich",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -262,8 +432,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "IPAG Business School (Paris/Nizza)",
-    "partner_country": "Frankreich",
+    "partner_name": "IPAG Business School",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -272,7 +442,7 @@
    },
    {
     "partner_name": "Université Catholique de Lille (inkl. ESPAS ESTICE)",
-    "partner_country": "Frankreich",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -280,8 +450,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "ISCOM Paris (Institut Supérieur de Communication et de Publicité)",
-    "partner_country": "Frankreich",
+    "partner_name": "ISCOM Paris",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -289,8 +459,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "ESCE International Business School (Lyon/Paris)",
-    "partner_country": "Frankreich",
+    "partner_name": "ESCE International Business School",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -299,7 +469,7 @@
    },
    {
     "partner_name": "EPF École d'Ingénieurs",
-    "partner_country": "Frankreich",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -308,7 +478,7 @@
    },
    {
     "partner_name": "Université Paris Nanterre",
-    "partner_country": "Frankreich",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -317,7 +487,7 @@
    },
    {
     "partner_name": "Université de Tours",
-    "partner_country": "Frankreich",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -326,7 +496,7 @@
    },
    {
     "partner_name": "Université de Lille (FSJPS)",
-    "partner_country": "Frankreich",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -335,7 +505,7 @@
    },
    {
     "partner_name": "IAE Metz School of Management (Université de Lorraine)",
-    "partner_country": "Frankreich",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -344,7 +514,7 @@
    },
    {
     "partner_name": "International Black Sea University (IBSU)",
-    "partner_country": "Georgien",
+    "partner_country": "Georgia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -353,7 +523,7 @@
    },
    {
     "partner_name": "Georgian Technical University",
-    "partner_country": "Georgien",
+    "partner_country": "Georgia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -362,7 +532,7 @@
    },
    {
     "partner_name": "Akaki Tsereteli State University",
-    "partner_country": "Georgien",
+    "partner_country": "Georgia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -380,7 +550,7 @@
    },
    {
     "partner_name": "Hellenic Mediterranean University",
-    "partner_country": "Griechenland",
+    "partner_country": "Greece",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -389,7 +559,7 @@
    },
    {
     "partner_name": "Vellore Institute of Technology (VIT)",
-    "partner_country": "Indien",
+    "partner_country": "India",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -398,7 +568,7 @@
    },
    {
     "partner_name": "Indian Institute of Technology Roorkee",
-    "partner_country": "Indien",
+    "partner_country": "India",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -407,7 +577,7 @@
    },
    {
     "partner_name": "Kalinga Institute of Technology (KIIT)",
-    "partner_country": "Indien",
+    "partner_country": "India",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -416,7 +586,7 @@
    },
    {
     "partner_name": "Rashtreeya Vidyalaya College of Engineering (RVCE)",
-    "partner_country": "Indien",
+    "partner_country": "India",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -425,7 +595,7 @@
    },
    {
     "partner_name": "Nawroz University",
-    "partner_country": "Irak",
+    "partner_country": "Iraq",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -434,7 +604,7 @@
    },
    {
     "partner_name": "TU Dublin",
-    "partner_country": "Irland",
+    "partner_country": "Ireland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -443,7 +613,7 @@
    },
    {
     "partner_name": "Munster Technological University",
-    "partner_country": "Irland",
+    "partner_country": "Ireland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -453,7 +623,7 @@
    {
     "partner_name": "Bezalel Acadamy of Arts and Design",
     "partner_country": "Israel",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
     "evidence_quote": "Bezalel Acadamy of Arts and Design",
@@ -479,7 +649,7 @@
    },
    {
     "partner_name": "University of Rome \"Tor Vergata\"",
-    "partner_country": "Italien",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -488,7 +658,7 @@
    },
    {
     "partner_name": "University of Padova",
-    "partner_country": "Italien",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -497,7 +667,7 @@
    },
    {
     "partner_name": "Politecnico di Milano",
-    "partner_country": "Italien",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -506,7 +676,7 @@
    },
    {
     "partner_name": "University of Trento",
-    "partner_country": "Italien",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -515,7 +685,7 @@
    },
    {
     "partner_name": "University of Salerno",
-    "partner_country": "Italien",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -524,7 +694,7 @@
    },
    {
     "partner_name": "University of Pisa",
-    "partner_country": "Italien",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -533,7 +703,7 @@
    },
    {
     "partner_name": "Universita Degli Studi Di Napoli Federico II",
-    "partner_country": "Italien",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -542,7 +712,7 @@
    },
    {
     "partner_name": "Università degli Studi Mediterranea di Reggio Calabria",
-    "partner_country": "Italien",
+    "partner_country": "Italy",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -560,7 +730,7 @@
    },
    {
     "partner_name": "German-Jordanian University",
-    "partner_country": "Jordanien",
+    "partner_country": "Jordan",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -569,7 +739,7 @@
    },
    {
     "partner_name": "Vancouver Island University",
-    "partner_country": "Kanada",
+    "partner_country": "Canada",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -578,7 +748,7 @@
    },
    {
     "partner_name": "MacEwan University",
-    "partner_country": "Kanada",
+    "partner_country": "Canada",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -587,8 +757,8 @@
    },
    {
     "partner_name": "British Columbia Institute of Technology (BCIT)",
-    "partner_country": "Kanada",
-    "partner_type": "university",
+    "partner_country": "Canada",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
     "evidence_quote": "British Columbia Institute of Technology (BCIT)",
@@ -596,7 +766,7 @@
    },
    {
     "partner_name": "Taita Taveta University College",
-    "partner_country": "Kenia",
+    "partner_country": "Kenya",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -605,7 +775,7 @@
    },
    {
     "partner_name": "Riga Technical University",
-    "partner_country": "Lettland",
+    "partner_country": "Latvia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -614,7 +784,7 @@
    },
    {
     "partner_name": "Vilnius Gediminas Technical University - VILNIUS TECH",
-    "partner_country": "Litauen",
+    "partner_country": "Lithuania",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -632,7 +802,7 @@
    },
    {
     "partner_name": "Universidad Iberoamericana Ciudad de México",
-    "partner_country": "Mexiko",
+    "partner_country": "Mexico",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -641,7 +811,7 @@
    },
    {
     "partner_name": "National University of Mongolia",
-    "partner_country": "Mongolei",
+    "partner_country": "Mongolia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -650,7 +820,7 @@
    },
    {
     "partner_name": "Deutsch-Mongolische Hochschule für Rohstoffe und Technologie",
-    "partner_country": "Mongolei",
+    "partner_country": "Mongolia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -668,7 +838,7 @@
    },
    {
     "partner_name": "Victoria-Universität Wellington",
-    "partner_country": "Neuseeland",
+    "partner_country": "New Zealand",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -677,7 +847,7 @@
    },
    {
     "partner_name": "HAN University of Applied Sciences",
-    "partner_country": "Niederlande",
+    "partner_country": "Netherlands",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -686,7 +856,7 @@
    },
    {
     "partner_name": "Windesheim University of Applied Sciences",
-    "partner_country": "Niederlande",
+    "partner_country": "Netherlands",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -695,7 +865,7 @@
    },
    {
     "partner_name": "Rotterdam University of Applied Sciences",
-    "partner_country": "Niederlande",
+    "partner_country": "Netherlands",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -713,8 +883,8 @@
    },
    {
     "partner_name": "Fachhochschule Salzburg",
-    "partner_country": "Österreich",
-    "partner_type": "university",
+    "partner_country": "Austria",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
     "evidence_quote": "Fachhochschule Salzburg",
@@ -722,8 +892,8 @@
    },
    {
     "partner_name": "Hochschule Kärnten",
-    "partner_country": "Österreich",
-    "partner_type": "university",
+    "partner_country": "Austria",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
     "evidence_quote": "Hochschule Kärnten",
@@ -731,7 +901,7 @@
    },
    {
     "partner_name": "Vienna University of Technology",
-    "partner_country": "Österreich",
+    "partner_country": "Austria",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -740,8 +910,8 @@
    },
    {
     "partner_name": "Hochschule Burgenland",
-    "partner_country": "Österreich",
-    "partner_type": "university",
+    "partner_country": "Austria",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
     "evidence_quote": "Hochschule Burgenland",
@@ -749,7 +919,7 @@
    },
    {
     "partner_name": "New Design Universität",
-    "partner_country": "Österreich",
+    "partner_country": "Austria",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -758,7 +928,7 @@
    },
    {
     "partner_name": "Universität Graz",
-    "partner_country": "Österreich",
+    "partner_country": "Austria",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -776,7 +946,7 @@
    },
    {
     "partner_name": "University of Gdansk",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -785,7 +955,7 @@
    },
    {
     "partner_name": "Wroclaw University of Science and Technology",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -794,7 +964,7 @@
    },
    {
     "partner_name": "Warsaw University of Technology",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -803,7 +973,7 @@
    },
    {
     "partner_name": "Cracow University of Technology",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -812,7 +982,7 @@
    },
    {
     "partner_name": "University of Wroclaw",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -821,7 +991,7 @@
    },
    {
     "partner_name": "Adam Mickiewicz University",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -830,7 +1000,7 @@
    },
    {
     "partner_name": "Opole University of Technology",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -839,7 +1009,7 @@
    },
    {
     "partner_name": "Western University in Wrocław",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -848,7 +1018,7 @@
    },
    {
     "partner_name": "Wroclaw University of Environmental and Life Sciences",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -857,7 +1027,7 @@
    },
    {
     "partner_name": "Vistula University Warsaw",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -866,7 +1036,7 @@
    },
    {
     "partner_name": "Wroclaw University of Economics and Business",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -875,7 +1045,7 @@
    },
    {
     "partner_name": "University of Białystok",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -884,7 +1054,7 @@
    },
    {
     "partner_name": "Politechnika Swietokrzyska",
-    "partner_country": "Polen",
+    "partner_country": "Poland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -911,7 +1081,7 @@
    },
    {
     "partner_name": "Soongsil University",
-    "partner_country": "Republik Korea",
+    "partner_country": "Republic of Korea",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -920,7 +1090,7 @@
    },
    {
     "partner_name": "Sejong University",
-    "partner_country": "Republik Korea",
+    "partner_country": "Republic of Korea",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -929,7 +1099,7 @@
    },
    {
     "partner_name": "Russian University of Transport (RUT/MIIT)",
-    "partner_country": "Russische Föderation",
+    "partner_country": "Russian Federation",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -938,7 +1108,7 @@
    },
    {
     "partner_name": "St. Petersburg State University of Economics (UNECON)",
-    "partner_country": "Russische Föderation",
+    "partner_country": "Russian Federation",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -947,7 +1117,7 @@
    },
    {
     "partner_name": "Plekhanov Russian University of Economics (PRUE)",
-    "partner_country": "Russische Föderation",
+    "partner_country": "Russian Federation",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -956,7 +1126,7 @@
    },
    {
     "partner_name": "Peter the Great St. Petersburg Polytechnic University",
-    "partner_country": "Russische Föderation",
+    "partner_country": "Russian Federation",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -965,7 +1135,7 @@
    },
    {
     "partner_name": "Swedish University of Agricultural Sciences",
-    "partner_country": "Schweden",
+    "partner_country": "Sweden",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -974,7 +1144,7 @@
    },
    {
     "partner_name": "Luleå University of Technology",
-    "partner_country": "Schweden",
+    "partner_country": "Sweden",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -983,7 +1153,7 @@
    },
    {
     "partner_name": "Mid Sweden University",
-    "partner_country": "Schweden",
+    "partner_country": "Sweden",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -992,7 +1162,7 @@
    },
    {
     "partner_name": "Dalarna University",
-    "partner_country": "Schweden",
+    "partner_country": "Sweden",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1001,8 +1171,8 @@
    },
    {
     "partner_name": "Haute Ecole d'Ingenierie et de Gestion du Canton de Vaud (HEIG-VD)",
-    "partner_country": "Schweiz",
-    "partner_type": "university",
+    "partner_country": "Switzerland",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
     "evidence_quote": "Haute Ecole d'Ingenierie et de Gestion du Canton de Vaud (HEIG-VD)",
@@ -1010,8 +1180,8 @@
    },
    {
     "partner_name": "Fachhochschule Nordwestschweiz (FHNW)",
-    "partner_country": "Schweiz",
-    "partner_type": "university",
+    "partner_country": "Switzerland",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
     "evidence_quote": "Fachhochschule Nordwestschweiz (FHNW)",
@@ -1019,8 +1189,8 @@
    },
    {
     "partner_name": "Berner Fachhochschule",
-    "partner_country": "Schweiz",
-    "partner_type": "university",
+    "partner_country": "Switzerland",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
     "evidence_quote": "Berner Fachhochschule",
@@ -1028,7 +1198,7 @@
    },
    {
     "partner_name": "University of Zilina",
-    "partner_country": "Slowakei",
+    "partner_country": "Slovakia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1037,7 +1207,7 @@
    },
    {
     "partner_name": "Comenius University in Bratislava",
-    "partner_country": "Slowakei",
+    "partner_country": "Slovakia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1046,7 +1216,7 @@
    },
    {
     "partner_name": "University of Primorska",
-    "partner_country": "Slowenien",
+    "partner_country": "Slovenia",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1055,7 +1225,7 @@
    },
    {
     "partner_name": "University of Alicante",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1064,7 +1234,7 @@
    },
    {
     "partner_name": "University of Granada",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1073,7 +1243,7 @@
    },
    {
     "partner_name": "University of Barcelona",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1082,7 +1252,7 @@
    },
    {
     "partner_name": "University of Oviedo",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1091,7 +1261,7 @@
    },
    {
     "partner_name": "University of León",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1100,7 +1270,7 @@
    },
    {
     "partner_name": "University of Zaragoza",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1109,7 +1279,7 @@
    },
    {
     "partner_name": "University of Salamanca",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1118,7 +1288,7 @@
    },
    {
     "partner_name": "Polytechnic University of Valencia (UPV)",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1127,7 +1297,7 @@
    },
    {
     "partner_name": "Polytechnic University of Catalonia (UPC) - Barcelona Tech",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1136,7 +1306,7 @@
    },
    {
     "partner_name": "University of Malaga",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1145,7 +1315,7 @@
    },
    {
     "partner_name": "University of Almeria",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1154,7 +1324,7 @@
    },
    {
     "partner_name": "Universidad de Valladolid",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1163,7 +1333,7 @@
    },
    {
     "partner_name": "University of Valencia",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1172,7 +1342,7 @@
    },
    {
     "partner_name": "University of La Laguna",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1181,7 +1351,7 @@
    },
    {
     "partner_name": "Universität Jaume I",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1190,7 +1360,7 @@
    },
    {
     "partner_name": "Universidad del Pais Vasco/Euskal Herriko Unibertsitatea",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1199,7 +1369,7 @@
    },
    {
     "partner_name": "University of the Balearic Islands",
-    "partner_country": "Spanien",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1208,7 +1378,7 @@
    },
    {
     "partner_name": "Stellenbosch University",
-    "partner_country": "Südafrika",
+    "partner_country": "South Africa",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/international/internationales-profil/partnerschaften",
@@ -1531,17 +1701,26 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "HAWtech",
+    "partner_name": "Hochschule Mittweida",
     "partner_country": "Germany",
-    "partner_type": "network",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/",
-    "evidence_quote": "[Logo HAWtech][Weltoffene Hochschulen][Logo DGHochn][Logo Ge4][Logo Boost][Logo DRESDEN-concept][Logo TAItech]",
+    "evidence_quote": "Beim Jahrestreffen am 21. September an der Hochschule Mittweida kamen Mitarbeitende der fünf sächsischen Hochschulen für Angewandte Wissenschaften…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Georgische Technische Universität",
+    "partner_country": "Georgia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.htw-dresden.de/",
+    "evidence_quote": "Deutsch-georgische Studierendenkonferenz GGSC 2026 an der Georgischen Technischen Universität",
     "confidence": 0.9
    },
    {
     "partner_name": "Weltoffene Hochschulen",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/",
@@ -1550,7 +1729,7 @@
    },
    {
     "partner_name": "DGHochn",
-    "partner_country": "Germany",
+    "partner_country": "",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/",
@@ -1560,24 +1739,6 @@
    {
     "partner_name": "Ge4",
     "partner_country": "",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.htw-dresden.de/",
-    "evidence_quote": "[Logo HAWtech][Weltoffene Hochschulen][Logo DGHochn][Logo Ge4][Logo Boost][Logo DRESDEN-concept][Logo TAItech]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Boost",
-    "partner_country": "",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.htw-dresden.de/",
-    "evidence_quote": "[Logo HAWtech][Weltoffene Hochschulen][Logo DGHochn][Logo Ge4][Logo Boost][Logo DRESDEN-concept][Logo TAItech]",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "DRESDEN-concept",
-    "partner_country": "Germany",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/",
@@ -1603,157 +1764,94 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Silicon Saxony e.V.",
+    "partner_name": "Hochschulen für Angewandte Wissenschaften (HAW) in Dresden",
     "partner_country": "Germany",
-    "partner_type": "network",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "Silicon Saxony e.V.",
+    "evidence_quote": "Die sächsischen Hochschulen für Angewandte Wissenschaften (HAW) in Dresden, Leipzig, Mittweida, Zittau/Görlitz und Zwickau haben sich zum Transferverbund zusammengeschlossen, um den forschungsbasierten Wissens- und Technologietransfer zu stärken. Durch die Bündelung von Ressourcen, interdisziplinäre Zusammenarbeit und die Vernetzung von Projektteams soll eine neue Qualität im Transfer erreicht werden. Die HTW Dresden übernimmt die zentrale Projektgeschäftsführung und das Kommunikationsmanagement",
     "confidence": 0.9
    },
    {
-    "partner_name": "Organic Electronics Saxony e.V.",
+    "partner_name": "Hochschulen für Angewandte Wissenschaften (HAW) in Leipzig",
     "partner_country": "Germany",
-    "partner_type": "network",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "Organic Electronics Saxony e.V.",
+    "evidence_quote": "Die sächsischen Hochschulen für Angewandte Wissenschaften (HAW) in Dresden, Leipzig, Mittweida, Zittau/Görlitz und Zwickau haben sich zum Transferverbund zusammengeschlossen, um den forschungsbasierten Wissens- und Technologietransfer zu stärken. Durch die Bündelung von Ressourcen, interdisziplinäre Zusammenarbeit und die Vernetzung von Projektteams soll eine neue Qualität im Transfer erreicht werden. Die HTW Dresden übernimmt die zentrale Projektgeschäftsführung und das Kommunikationsmanagement",
     "confidence": 0.9
    },
    {
-    "partner_name": "HZwo e. V.",
+    "partner_name": "Hochschulen für Angewandte Wissenschaften (HAW) in Mittweida",
     "partner_country": "Germany",
-    "partner_type": "network",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "HZwo e. V.",
+    "evidence_quote": "Die sächsischen Hochschulen für Angewandte Wissenschaften (HAW) in Dresden, Leipzig, Mittweida, Zittau/Görlitz und Zwickau haben sich zum Transferverbund zusammengeschlossen, um den forschungsbasierten Wissens- und Technologietransfer zu stärken. Durch die Bündelung von Ressourcen, interdisziplinäre Zusammenarbeit und die Vernetzung von Projektteams soll eine neue Qualität im Transfer erreicht werden. Die HTW Dresden übernimmt die zentrale Projektgeschäftsführung und das Kommunikationsmanagement",
     "confidence": 0.9
    },
    {
-    "partner_name": "Industrieverein Sachsen 1828 e.V.",
+    "partner_name": "Hochschulen für Angewandte Wissenschaften (HAW) in Zittau/Görlitz",
     "partner_country": "Germany",
-    "partner_type": "network",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "Industrieverein Sachsen 1828 e.V.",
+    "evidence_quote": "Die sächsischen Hochschulen für Angewandte Wissenschaften (HAW) in Dresden, Leipzig, Mittweida, Zittau/Görlitz und Zwickau haben sich zum Transferverbund zusammengeschlossen, um den forschungsbasierten Wissens- und Technologietransfer zu stärken. Durch die Bündelung von Ressourcen, interdisziplinäre Zusammenarbeit und die Vernetzung von Projektteams soll eine neue Qualität im Transfer erreicht werden. Die HTW Dresden übernimmt die zentrale Projektgeschäftsführung und das Kommunikationsmanagement",
     "confidence": 0.9
    },
    {
-    "partner_name": "BiotroniS",
+    "partner_name": "Hochschulen für Angewandte Wissenschaften (HAW) in Zwickau",
     "partner_country": "Germany",
-    "partner_type": "network",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "Forschungsnetzwerk BiotroniS: Materialien und Systeme f. Bioelektronik",
+    "evidence_quote": "Die sächsischen Hochschulen für Angewandte Wissenschaften (HAW) in Dresden, Leipzig, Mittweida, Zittau/Görlitz und Zwickau haben sich zum Transferverbund zusammengeschlossen, um den forschungsbasierten Wissens- und Technologietransfer zu stärken. Durch die Bündelung von Ressourcen, interdisziplinäre Zusammenarbeit und die Vernetzung von Projektteams soll eine neue Qualität im Transfer erreicht werden. Die HTW Dresden übernimmt die zentrale Projektgeschäftsführung und das Kommunikationsmanagement",
     "confidence": 0.9
    },
    {
-    "partner_name": "Smarte KI-basierte Robotik (SKR)",
+    "partner_name": "FH Aachen",
     "partner_country": "Germany",
-    "partner_type": "network",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "Forschungsnetzwerk Smarte KI-basierte Robotik (SKR)",
+    "evidence_quote": "In der Hochschulallianz HAWtech haben sich sechs führende Hochschulen für Angewandte Wissenschaften im MINT-Bereich zusammengeschlossen, um durch exzellente Lehre sowie praxisorientierte Forschung und Entwicklung Innovationen am Wirtschaftsstandort Deutschland voranzubringen. Im Fokus stehen die Stärkung kleiner und mittlerer Unternehmen, gemeinsame Forschungs- und Entwicklungsprojekte sowie eine enge Zusammenarbeit in Lehre, Forschung und Verwaltung. Beteiligt sind die FH Aachen, HTW Berlin, Ho",
     "confidence": 0.9
    },
    {
-    "partner_name": "Zentrum für angewandte Forschung und Technologie e.V. (ZAFT)",
+    "partner_name": "HTW Berlin",
     "partner_country": "Germany",
-    "partner_type": "other",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "Zentrum für angewandte Forschung und Technologie e.V. (ZAFT)",
+    "evidence_quote": "In der Hochschulallianz HAWtech haben sich sechs führende Hochschulen für Angewandte Wissenschaften im MINT-Bereich zusammengeschlossen, um durch exzellente Lehre sowie praxisorientierte Forschung und Entwicklung Innovationen am Wirtschaftsstandort Deutschland voranzubringen. Im Fokus stehen die Stärkung kleiner und mittlerer Unternehmen, gemeinsame Forschungs- und Entwicklungsprojekte sowie eine enge Zusammenarbeit in Lehre, Forschung und Verwaltung. Beteiligt sind die FH Aachen, HTW Berlin, Ho",
     "confidence": 0.9
    },
    {
-    "partner_name": "Saxony5 - Transferverbund der fünf sächsischen HAW",
+    "partner_name": "Saxony5",
     "partner_country": "Germany",
     "partner_type": "network",
     "mobility_type": "unknown",
-    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "Saxony5 - Transferverbund der fünf sächsischen HAW",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "dresden|exists",
-    "partner_country": "Germany",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "Dresden exists - von der Idee zum Unternehmen",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "YETI",
-    "partner_country": "Germany",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "YETI",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "TransferAllianz",
-    "partner_country": "Germany",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "TransferAllianz",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "FHNet",
-    "partner_country": "Germany",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "FHnet",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "NFDI4Ing",
-    "partner_country": "Germany",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "NFDI4Ing",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Deutsche Gesellschaft für Nachhaltigkeit an Hochschulen e.V. /DG HochN",
-    "partner_country": "Germany",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "Deutsche Gesellschaft für Nachhaltigkeit an Hochschulen e.V. /DG HochN",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Lokale Agenda 21",
-    "partner_country": "Germany",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.htw-dresden.de/fut/netzwerke",
-    "evidence_quote": "Lokale Agenda 21",
+    "source_url": "https://www.htw-dresden.de/en/transfer/cooperations-and-networks",
+    "evidence_quote": "[Saxony5]",
     "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Campus Dresden",
+    "campus_name": "Hauptcampus Friedrich-List-Platz",
     "city": "Dresden",
     "country": "Germany",
     "role": "main",
     "source_url": "https://www.htw-dresden.de/studium/campusleben",
-    "evidence_quote": "Campus Dresden"
+    "evidence_quote": "Unsere Hochschule verfügt über einen Hauptcampus im Herzen von Dresden am Friedrich-List-Platz und einen weiteren Campus in Pillnitz. Beide Studienorte sind sehr gut mit den Öffentlichen Verkehrsmitteln erreichbar."
    },
    {
     "campus_name": "Campus Pillnitz",
-    "city": "Pillnitz",
+    "city": "Dresden",
     "country": "Germany",
     "role": "branch",
     "source_url": "https://www.htw-dresden.de/studium/campusleben",
-    "evidence_quote": "Campus Pillnitz"
+    "evidence_quote": "Unsere Hochschule verfügt über einen Hauptcampus im Herzen von Dresden am Friedrich-List-Platz und einen weiteren Campus in Pillnitz. Beide Studienorte sind sehr gut mit den Öffentlichen Verkehrsmitteln erreichbar."
    }
   ],
   "stated_total": 23,
@@ -1762,34 +1860,35 @@
   "truncated": false,
   "total_seen": 23,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of international partners and campus locations. No specific total number of partners is explicitly stated.",
+  "coverage_note": "The evidence provides an extensive list of international partner institutions and domestic networks, but does not list a dedicated institutional Erasmus coordinator by name.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.8,
-  "crawl_s": 18.5,
+  "discover_s": 0.0,
+  "crawl_s": 25.0,
   "ai_calls": 6,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 149.1,
+  "model_s": 211.0,
   "mode": "gemini",
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 12,
-    "accepted": 12
+    "returned": 11,
+    "accepted": 11
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 15,
-    "accepted": 15
+    "returned": 25,
+    "accepted": 24
    },
    {
     "lines": [
@@ -1804,19 +1903,18 @@
      421,
      560
     ],
-    "returned": 79,
-    "accepted": 79
+    "returned": 75,
+    "accepted": 75
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 86,
-    "accepted": 86
+    "returned": 91,
+    "accepted": 91
    }
   ],
-  "total_seconds": 170.4
- },
- "rechecked": true
+  "total_seconds": 237.4
+ }
 }

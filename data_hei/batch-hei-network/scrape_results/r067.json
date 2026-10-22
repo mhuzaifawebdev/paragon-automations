@@ -431,12 +431,12 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.9,
-  "crawl_s": 24.2,
-  "ai_calls": 7,
-  "partner_calls": 6,
+  "discover_s": 0.0,
+  "crawl_s": 31.5,
+  "ai_calls": 6,
+  "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 16.4,
+  "model_s": 118.2,
   "mode": "gemini",
   "slices": [
    {
@@ -460,35 +460,27 @@
      281,
      420
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 6,
-    "accepted": 6
+    "returned": 5,
+    "accepted": 5
    },
    {
     "lines": [
      561,
      700
     ],
-    "returned": 31,
-    "accepted": 31
-   },
-   {
-    "lines": [
-     701,
-     840
-    ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 26,
+    "accepted": 26
    }
   ],
-  "total_seconds": 44.5
+  "total_seconds": 149.7
  },
  "rechecked": true
 }
