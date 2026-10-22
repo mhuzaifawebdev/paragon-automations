@@ -1,6 +1,6 @@
 {
  "row_id": "r665",
- "scraped_at": "2026-10-12T06:35:48Z",
+ "scraped_at": "2026-10-22T14:05:38Z",
  "contacts": {
   "row_id": "r665",
   "institution_name": "Hochschule fuer Musik Nuernberg",
@@ -13,23 +13,31 @@
    "evidence_quote": "+49 911 / 215 22 - 102"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "info@hfm-nuernberg.de",
+  "generic_email_url": "https://www.hfm-nuernberg.de/en/opening-hours-and-contact",
+  "contact": {
+   "name": "Rainer Kotzian",
+   "designation": "Project Lead / Professor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+49 911 / 215 22 - 102",
+   "source_url": "https://www.hfm-nuernberg.de/forschung-innovation/kooperationsprojekte/relevel/projektuebersicht",
+   "evidence_quote": "Projektleitung ... Prof. Rainer Kotzian"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Rainer Kotzian is a professor and project lead at the institution and is the contact currently on file.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "Technische Hochschule Nürnberg",
-    "partner_country": "Germany",
+    "partner_country": "germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.hfm-nuernberg.de/studium/campus-angebote/leo-labs",
@@ -38,7 +46,7 @@
    },
    {
     "partner_name": "Akademie der Bildenden Künste Nürnberg",
-    "partner_country": "Germany",
+    "partner_country": "germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.hfm-nuernberg.de/studium/campus-angebote/leo-labs",
@@ -46,21 +54,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "indischen Universitäten",
-    "partner_country": "India",
-    "partner_type": "university",
+    "partner_name": "Studio Fluffy",
+    "partner_country": "unknown",
+    "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.hfm-nuernberg.de/forschung-innovation/kooperationsprojekte/relevel/projektuebersicht",
-    "evidence_quote": "Für das Projekt wurde mit indischen Universitäten kooperiert, um den Studierenden die Musiken Indiens aus erster Hand näherzubringen und einen gegenseitigen Austausch zu ermöglichen. Aufgrund der räumlichen Distanz fanden die gemeinsamen Seminareinheiten hybrid unter Einsatz einer 360°-Grad-Kamera statt.",
+    "evidence_quote": "Das RE|LEVEL-Team hat einen Programmierauftrag für eine Übe- und Musizierapp vergeben, der gemeinsam mit der Firma Studio Fluffy verwirklicht wurde. Seit Januar 2025 entwickelt die cultivate GmbH die App mit dem RE|LEVEL-Team weiter – so wurde das neue Tool „Übetipps“ umgesetzt. Die App TIO Music wird Studierende und Musizierende mit verschiedenen Tools, wie einem Metronom, Stimmgerät, Mediaplayer inkl. Anpassungsmöglichkeit der Tonhöhe und Abspielgeschwindigkeit, Piano, einem Looprecorder sowie",
     "confidence": 0.9
    },
    {
-    "partner_name": "LEONARDO",
-    "partner_country": "Germany",
-    "partner_type": "network",
+    "partner_name": "cultivate GmbH",
+    "partner_country": "unknown",
+    "partner_type": "company",
     "mobility_type": "unknown",
-    "source_url": "https://www.hfm-nuernberg.de/studium/campus-angebote/leo-labs",
-    "evidence_quote": "Die LEO Labs bestehen aus Werkstätten, Tonstudio, Soundlabor, XR Lab und Co-Working Spaces und sind in dieser Konstellation einzigartig in Bayern. Sie sind eine Initiative des Hochschulverbunds LEONARDO und können von allen Hochschulangehörigen der Technischen Hochschule Nürnberg, der Akademie der Bildenden Künste Nürnberg und der Hochschule für Musik Nürnberg genutzt werden.",
+    "source_url": "https://www.hfm-nuernberg.de/forschung-innovation/kooperationsprojekte/relevel/projektuebersicht",
+    "evidence_quote": "Das RE|LEVEL-Team hat einen Programmierauftrag für eine Übe- und Musizierapp vergeben, der gemeinsam mit der Firma Studio Fluffy verwirklicht wurde. Seit Januar 2025 entwickelt die cultivate GmbH die App mit dem RE|LEVEL-Team weiter – so wurde das neue Tool „Übetipps“ umgesetzt. Die App TIO Music wird Studierende und Musizierende mit verschiedenen Tools, wie einem Metronom, Stimmgerät, Mediaplayer inkl. Anpassungsmöglichkeit der Tonhöhe und Abspielgeschwindigkeit, Piano, einem Looprecorder sowie",
     "confidence": 0.9
    }
   ],
@@ -68,7 +76,7 @@
    {
     "campus_name": "Hochschule für Musik Nürnberg",
     "city": "Nürnberg",
-    "country": "Germany",
+    "country": "germany",
     "role": "main",
     "source_url": "https://www.hfm-nuernberg.de/",
     "evidence_quote": "Hochschule für Musik Nürnberg - Hochschule für Musik Nürnberg"
@@ -80,19 +88,20 @@
   "truncated": false,
   "total_seen": 4,
   "pages_read": 10,
-  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ or international mobility partners. Only a few specific project-based collaborations are mentioned.",
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ or international mobility partners. The contacts listed are project-based rather than dedicated international relations staff.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 15.8,
+  "discover_s": 0.0,
+  "crawl_s": 18.1,
   "ai_calls": 3,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.1,
+  "model_s": 5.6,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
@@ -107,11 +116,10 @@
      141,
      280
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 2,
+    "accepted": 2
    }
   ],
-  "total_seconds": 21.2
- },
- "rechecked": true
+  "total_seconds": 25.0
+ }
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r675",
- "scraped_at": "2026-10-12T06:36:51Z",
+ "scraped_at": "2026-10-22T14:06:12Z",
  "contacts": {
   "row_id": "r675",
   "institution_name": "IU Internationale Hochschule",
@@ -13,6 +13,8 @@
   },
   "phone": null,
   "phone_alt": [],
+  "generic_email": "contact-international@iu.org",
+  "generic_email_url": "https://www.iu.org/",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,10 +22,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "contact-international@iu.org",
-  "generic_email_url": "https://www.iu.org/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -31,32 +30,23 @@
     "partner_name": "Worcester College, University of Oxford",
     "partner_country": "United Kingdom",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://www.iu.org/about/our-partners/",
     "evidence_quote": "Elevate your academic journey with the IU Oxford Certificate Programme, an exclusive, intensive study abroad summer experience at Worcester College, University of Oxford. The one- to two-week programme is open to students with an interest in business management and computer science or AI-related programmes.",
     "confidence": 0.9
    },
    {
-    "partner_name": "UNESCO Global Education Coalition",
-    "partner_country": "International",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.iu.org/about/our-partners/",
-    "evidence_quote": "[Member of Global Education Coalition launched by UNESCO logo]",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "AACSB",
-    "partner_country": "International",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
-    "evidence_quote": "AACSB Educational Member",
+    "evidence_quote": "As a member of AACSB, the world’s leading business education alliance, IU collaborates globally to enhance the quality of business education and continuously improve teaching and research.",
     "confidence": 0.9
    },
    {
     "partner_name": "Association of African Universities (AAU)",
-    "partner_country": "International",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
@@ -70,6 +60,15 @@
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
     "evidence_quote": "Association of Indian Universities (AIU)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UNESCO's Global Education Coalition",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "UNESCO's Global Education Coalition",
     "confidence": 0.9
    },
    {
@@ -88,15 +87,6 @@
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
     "evidence_quote": "Canada Student Financial Assistance Program",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "UNESCO's Global Education Coalition",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.iu.org/about/our-partners/",
-    "evidence_quote": "UNESCO's Global Education Coalition",
     "confidence": 0.9
    },
    {
@@ -308,7 +298,7 @@
    },
    {
     "partner_name": "Air Alliance Flight Center GmbH",
-    "partner_country": "Germany",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
@@ -317,7 +307,7 @@
    },
    {
     "partner_name": "Akdogan Glaszner German Connectors GmbH",
-    "partner_country": "Germany",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
@@ -452,7 +442,7 @@
    },
    {
     "partner_name": "Arika GmbH",
-    "partner_country": "Germany",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
@@ -587,7 +577,7 @@
    },
    {
     "partner_name": "Bilimtech Uzbekistan",
-    "partner_country": "Uzbekistan",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
@@ -713,7 +703,7 @@
    },
    {
     "partner_name": "Canada Es",
-    "partner_country": "Canada",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
@@ -856,66 +846,66 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Kalba",
+    "partner_name": "Come Study International",
     "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
-    "evidence_quote": "Kalba",
+    "evidence_quote": "Come Study International",
     "confidence": 0.9
    },
    {
-    "partner_name": "Kalem for Studying Abroad",
+    "partner_name": "Conzept Connection",
     "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
-    "evidence_quote": "Kalem for Studying Abroad",
+    "evidence_quote": "Conzept Connection",
     "confidence": 0.9
    },
    {
-    "partner_name": "Kanata Educational Consultancy Inc",
+    "partner_name": "Craydel Inc.",
     "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
-    "evidence_quote": "Kanata Educational Consultancy Inc",
+    "evidence_quote": "Craydel Inc.",
     "confidence": 0.9
    },
    {
-    "partner_name": "KC Overseas Education Private Limited",
+    "partner_name": "CSP Education Services",
     "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
-    "evidence_quote": "KC Overseas Education Private Limited",
+    "evidence_quote": "CSP Education Services",
     "confidence": 0.9
    },
    {
-    "partner_name": "Keen Education",
+    "partner_name": "DALP Consultancy Services (Z) Ltd",
     "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
-    "evidence_quote": "Keen Education",
+    "evidence_quote": "DALP Consultancy Services (Z) Ltd",
     "confidence": 0.9
    },
    {
-    "partner_name": "Keystone Global Network Private Limited",
+    "partner_name": "Dasprom",
     "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
-    "evidence_quote": "Keystone Global Network Private Limited",
+    "evidence_quote": "Dasprom",
     "confidence": 0.9
    },
    {
-    "partner_name": "Kirpa Immigration Pvt Ltd",
+    "partner_name": "DB Tech International Inc",
     "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.iu.org/about/our-partners/",
-    "evidence_quote": "Kirpa Immigration Pvt Ltd",
+    "evidence_quote": "DB Tech International Inc",
     "confidence": 0.9
    },
    {
@@ -1772,6 +1762,411 @@
     "source_url": "https://www.iu.org/about/our-partners/",
     "evidence_quote": "SHB Personalservice GmbH",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "Shabuj Global Education",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Shabuj Global Education",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Shree Vallabh Consultancy",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Shree Vallabh Consultancy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Skymark Education",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Skymark Education",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Skylark Overseas Education Private Limited",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Skylark Overseas Education Private Limited",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Smart Center",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Smart Center",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Smarklinks Education Consultants Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Smarklinks Education Consultants Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SNY Cosmos Overseas Edu Consultants Pvt. Ltd.",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "SNY Cosmos Overseas Edu Consultants Pvt. Ltd.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Somaabroad Consultants",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Somaabroad Consultants",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sonya International Education Centre Pty Ltd (SIEC Education)",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Sonya International Education Centre Pty Ltd (SIEC Education)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sowrya Consultancy Pvt Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Sowrya Consultancy Pvt Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "STB - Student Travel Bureau",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "STB - Student Travel Bureau",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "STEDINOW Pvt Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "STEDINOW Pvt Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Storm International Group Pty Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Storm International Group Pty Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Student Connect Ltd.",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Student Connect Ltd.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Student Gator",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Student Gator",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Student Liaison Group (SLG) Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Student Liaison Group (SLG) Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Student World (Agent)",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Student World (Agent)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Students International Group Pty Ltd (Studinter)",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Students International Group Pty Ltd (Studinter)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Studee Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Studee Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Studiemaven International Education Private Limited",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Studiemaven International Education Private Limited",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Study Abroad Consultants Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Study Abroad Consultants Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Study Abroad Life",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Study Abroad Life",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Study Affairs",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Study Affairs",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Study Berg Pvt Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Study Berg Pvt Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Study Bridge (AGENT)",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Study Bridge (AGENT)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Study Globe",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Study Globe",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Study Metro Pvt Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Study Metro Pvt Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Study Net Uganda SMC Limited",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Study Net Uganda SMC Limited",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Study Now Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Study Now Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "StudyKöy",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "StudyKöy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Success Fetchers IND_IU",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Success Fetchers IND_IU",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Success Group",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Success Group",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sun Education",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Sun Education",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tajdid Education Consultants",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Tajdid Education Consultants",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Target Abroad LLC",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "Target Abroad LLC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TcollegedayZ Private Limited",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "TcollegedayZ Private Limited",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TERAVÍ - Educação Internacional",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "TERAVÍ - Educação Internacional",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Chopras Global Holdings Pte Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "The Chopras Global Holdings Pte Ltd",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Education Company",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "The Education Company",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Guimond and Vukovic Group LLC",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "The Guimond and Vukovic Group LLC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The IEIS",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "The IEIS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Ireland China Institute",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "The Ireland China Institute",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Passport Work & Travel Services Limited",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "The Passport Work & Travel Services Limited",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Germany Jobs",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "The Germany Jobs",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TIMES Consultant (Pvt.) Ltd",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iu.org/about/our-partners/",
+    "evidence_quote": "TIMES Consultant (Pvt.) Ltd",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
@@ -1808,25 +2203,26 @@
     "evidence_quote": "Our headquarters are located in Erfurt (Thuringia, Germany) and the campuses in Cologne, Bad Honnef and Berlin are branches. All programmes are accredited in the federal state of Thuringia by the German Council of Science and Humanities and the German Accreditation Council (System & Programme Accreditation), and have been awarded \"FIBAA Premium\" status by FIBAA and many more."
    }
   ],
-  "stated_total": null,
-  "stated_total_quote": "",
-  "stated_total_url": "",
-  "truncated": false,
-  "total_seen": 194,
+  "stated_total": 400,
+  "stated_total_quote": "Right now, the IU International University of Applied Sciences Agent Network is thriving with over 400+ passionate Agents dedicated to making education accessible worldwide! Leading the charge, most of our Agents hail from India, followed by Pakistan, and then the United Arab Emirates. Our agents assist with visa support, application processes, accommodation, airport assistance, study abroad loans, and preparation for the English Proficiency Test (EPT), providing support before and after arrival",
+  "stated_total_url": "https://www.iu.org/about/our-partners/",
+  "truncated": true,
+  "total_seen": 400,
   "pages_read": 10,
   "coverage_note": "The evidence provides a list of agent partners but does not contain a formal list of Erasmus+ or academic exchange university partners.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.0,
-  "crawl_s": 13.7,
-  "ai_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 14.7,
+  "ai_calls": 5,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 12.5,
+  "model_s": 17.4,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
@@ -1841,19 +2237,19 @@
      701,
      840
     ],
-    "returned": 91,
-    "accepted": 91
+    "returned": 98,
+    "accepted": 98
    },
    {
     "lines": [
      981,
-     1082
+     1120
     ],
-    "returned": 102,
-    "accepted": 102
+    "returned": 140,
+    "accepted": 140
    }
   ],
-  "total_seconds": 27.2
+  "total_seconds": 33.7
  },
  "rechecked": true
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r658",
- "scraped_at": "2026-10-12T06:35:17Z",
+ "scraped_at": "2026-10-22T14:05:38Z",
  "contacts": {
   "row_id": "r658",
   "institution_name": "MSH Medical School Hamburg GmbH",
@@ -13,17 +13,25 @@
    "evidence_quote": "Mobil: +49 151 728 927 74 <tel +4915172892774>"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "international-office@medicalschool-hamburg.de",
+  "generic_email_url": "https://www.medicalschool-hamburg.de/ueber-uns/international_office/",
+  "contact": {
+   "name": "Lisa Egbringhoff",
+   "designation": "International Office",
+   "designation_local": "",
+   "email": "lisa.egbringhoff@medicalschool-hamburg.de",
+   "office_email": "",
+   "phone": "+49 151 728 927 74",
+   "source_url": "https://www.medicalschool-hamburg.de/ueber-uns/international_office/",
+   "evidence_quote": "International Office - Medicalschool Hamburg ... Lisa Egbringhoff, B.Soc.Sc."
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Matches the contact your operators already spoke to. International relations officer. Lisa Egbringhoff is the contact person for the International Office and manages international mobility and Erasmus+ programs.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read.",
-  "generic_email": "info@medicalschool-hamburg.de",
-  "generic_email_url": "https://www.medicalschool-hamburg.de/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -227,49 +235,49 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.9,
-  "crawl_s": 15.4,
+  "discover_s": 0.0,
+  "crawl_s": 18.0,
   "ai_calls": 5,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 27.1,
+  "model_s": 6.8,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 9,
-    "accepted": 9
+    "returned": 5,
+    "accepted": 5
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 7,
-    "accepted": 7
+    "returned": 6,
+    "accepted": 6
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 15,
+    "accepted": 4
    },
    {
     "lines": [
      421,
-     476
+     478
     ],
     "returned": 0,
     "accepted": 0
    }
   ],
-  "total_seconds": 45.4
- },
- "rechecked": true
+  "total_seconds": 24.8
+ }
 }

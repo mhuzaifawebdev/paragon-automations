@@ -1,6 +1,6 @@
 {
  "row_id": "r684",
- "scraped_at": "2026-10-12T06:39:25Z",
+ "scraped_at": "2026-10-22T14:06:15Z",
  "contacts": {
   "row_id": "r684",
   "institution_name": "Institut d'Etudes Supérieures des Arts",
@@ -9,6 +9,8 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
+  "generic_email": "international@iesa.fr",
+  "generic_email_url": "https://www.iesa.fr/formation/mba-arts-cultural-management",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -16,10 +18,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 9,
-  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read.",
-  "generic_email": "international@iesa.fr",
-  "generic_email_url": "https://www.iesa.fr/formation/mba-arts-cultural-management",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -528,16 +527,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Cours Florent",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.iesa.fr/ecole/partenaires",
-    "evidence_quote": "Cours Florent et Cours Florent Musique (Paris/France)",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Cours Florent Musique",
+    "partner_name": "Cours Florent et Cours Florent Musique",
     "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
@@ -561,6 +551,15 @@
     "mobility_type": "unknown",
     "source_url": "https://www.iesa.fr/ecole/partenaires",
     "evidence_quote": "Tsinghua University (Pekin/Chine) et Université Paris-Sorbonne – UFR de littérature française et comparée (Paris/France)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ArtMYN",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesa.fr/vie-etudiante/media/artmyn-partenaire-l-iesa-artsculture-fete-100-ans-pierre-soulages",
+    "evidence_quote": "ArtMYN, partenaire de l'IESA arts&culture fête les 100 ans de Pierre Soulages ! | IESA",
     "confidence": 0.9
    },
    {
@@ -591,6 +590,24 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Lulia",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesa.fr/",
+    "evidence_quote": "Du 27 au 31 octobre 2026, la galerie de l’IESA, au cœur du 5e arrondissement de Paris, accueille Convergences, une exposition collective imaginée par l’agence Lulia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mobilier national",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesa.fr/",
+    "evidence_quote": "Conférence le 1er octobre 2026 à l'IESA : Emmanuel Pénicaut (Mobilier national) retrace l'histoire des tapisseries de Notre-Dame, du XVIIe au XXIe siècle.",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Galileo Global Education",
     "partner_country": "unknown",
     "partner_type": "network",
@@ -607,11 +624,29 @@
     "source_url": "https://www.iesa.fr/formation/mba-arts-cultural-management",
     "evidence_quote": "\"Ma quête m'a amené à m'inscrire au prestigieux programme de Msc in Arts & Cultural Management de l'IESA, une décision qui a depuis façonné ma trajectoire professionnelle. Actuellement, j'apporte mon expertise à Sotheby's dans le domaine dynamique du département Post Sales Luxury.\"",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "France Compétences",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesa.fr/formation/mba-arts-cultural-management",
+    "evidence_quote": "Ce titre est délivré par : ECAD Consultants - IESA arts&culture par décision du Directeur Général de France Compétences en date du 29/05/2026 pour une durée de 3 ans.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université Paris-Sorbonne – UFR de littérature française et comparée",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesa.fr/ecole/partenaires",
+    "evidence_quote": "Tsinghua University (Pekin/Chine) et Université Paris-Sorbonne – UFR de littérature française et comparée (Paris/France)",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Campus LE DELTA",
+    "campus_name": "LE DELTA",
     "city": "Paris",
     "country": "France",
     "role": "main",
@@ -623,21 +658,22 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 65,
+  "total_seen": 69,
   "pages_read": 9,
-  "coverage_note": "The evidence provides a comprehensive list of institutional, academic, and event partners. No specific total number of partners is stated. 2 page(s) could not be read.",
+  "coverage_note": "The evidence provides a comprehensive list of institutional, university, and scientific partners. No specific total number of partners is explicitly stated. 2 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.7,
-  "crawl_s": 12.5,
-  "ai_calls": 5,
+  "discover_s": 0.0,
+  "crawl_s": 13.1,
+  "ai_calls": 6,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 36.1,
+  "model_s": 15.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
@@ -652,27 +688,27 @@
      141,
      280
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 5,
+    "accepted": 5
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 2,
+    "accepted": 2
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 60,
-    "accepted": 58
+    "returned": 61,
+    "accepted": 59
    }
   ],
-  "total_seconds": 50.3
+  "total_seconds": 30.3
  },
  "rechecked": true
 }
