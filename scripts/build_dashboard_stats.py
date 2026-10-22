@@ -47,7 +47,11 @@ def build(data=DATA, rows=None):
     totals, by_day, batches = _empty(), defaultdict(_empty), []
     for bdir in sorted(p for p in Path(data).iterdir() if p.is_dir() and p.name != "uploads"):
         b = _empty()
-        for f in (bdir / "scrape_results").glob("r*.json"):
+        done = list((bdir / "scrape_results").glob("r*.json"))
+        names = {f.name for f in done}
+        # an institute set aside by a re-check (scripts/recheck_no_contact.py) still counts, with its old result
+        waiting = [f for f in (bdir / "scrape_results_prev").glob("r*.json") if f.name not in names]
+        for f in done + waiting:
             try:
                 r = json.loads(f.read_text(encoding="utf-8"))
             except Exception:

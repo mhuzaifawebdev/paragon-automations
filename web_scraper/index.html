@@ -66,8 +66,7 @@
   @media (max-width: 980px) { .tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
   @media (max-width: 520px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   .tile { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow); min-width: 0; }
-  .tile-link { font: inherit; color: inherit; text-align: left; cursor: pointer; transition: border-color .15s ease, box-shadow .15s ease;
-    display: flex; flex-direction: column; justify-content: flex-start; }
+  .tile-link { display: block; color: inherit; text-decoration: none; cursor: pointer; transition: border-color .15s ease, box-shadow .15s ease; }
   .tile-link:hover, .tile-link:focus-visible { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); outline: none; }
   .tile .go { color: var(--accent); font-size: 12px; font-weight: 600; margin-top: 8px; }
   .tile .n { font-size: 24px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
@@ -838,15 +837,16 @@ function renderTiles(t) {
     [fmtN(t.institutes), "Institutes scraped", fmtN(t.batches) + " batches"],
     [fmtN(t.with_contact), "Contacts found", pct(t.with_contact, site) + " of institutes with a website"],
     [fmtN(t.with_email), "With an email", pct(t.with_email, site) + " of institutes with a website"],
-    [avg(t.partners, site), "Partners per institute", "average · " + fmtN(t.partners) + " in all", "partners"],
-    [avg(t.campuses, site), "Campuses per institute", "average · " + fmtN(t.campuses) + " in all", "campuses"],
+    [fmtN(t.partners), "Partners found", avg(t.partners, site) + " per institute on average", "partners"],
+    [fmtN(t.campuses), "Campuses found", avg(t.campuses, site) + " per institute on average", "campuses"],
     [fmtN(t.no_website), "Website not found", pct(t.no_website, t.institutes) + " of institutes"],
   ];
   // Partners and Campuses open the Institutes view, sorted by that figure (most first)
   $("d-tiles").innerHTML = tiles.map(([n, l, s, go]) => go
-    ? `<button type="button" class="tile tile-link" data-sort="${go}"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div><div class="go">See each institute →</div></button>`
+    ? `<a href="#institutes" class="tile tile-link" data-sort="${go}"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div><div class="go">See each institute →</div></a>`
     : `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div></div>`).join("");
-  document.querySelectorAll("#d-tiles .tile-link").forEach(b => b.onclick = () => {
+  document.querySelectorAll("#d-tiles .tile-link").forEach(b => b.onclick = e => {
+    e.preventDefault();
     instSort = { key: b.dataset.sort, dir: -1 };
     showView("institutes");
   });
