@@ -21,8 +21,8 @@
   "needs_human_check": true,
   "pages_read": 10,
   "notes": "site found via: website column in the sheet. mode: gemini.",
-  "generic_email": "",
-  "generic_email_url": "",
+  "generic_email": "info@dmjx.dk",
+  "generic_email_url": "https://www.dmjx.dk/om-dmjx/kontakt",
   "generic_checked": "2026-10-22"
  },
  "network": {
@@ -912,12 +912,12 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.6,
-  "crawl_s": 15.9,
+  "discover_s": 0.0,
+  "crawl_s": 18.0,
   "ai_calls": 3,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 311.1,
+  "model_s": 89.9,
   "mode": "gemini",
   "slices": [
    {
@@ -925,8 +925,8 @@
      141,
      280
     ],
-    "returned": 40,
-    "accepted": 40
+    "returned": 43,
+    "accepted": 43
    },
    {
     "lines": [
@@ -937,7 +937,7 @@
     "accepted": 51
    }
   ],
-  "total_seconds": 328.6
+  "total_seconds": 107.8
  },
  "rechecked": true
 }
