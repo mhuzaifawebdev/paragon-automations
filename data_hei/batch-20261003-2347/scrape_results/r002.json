@@ -1,0 +1,108 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-22T22:13:35Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Escuela Agraria Instituto Don Bosco",
+  "institution_type": "school",
+  "official_website": "https://campus.don-bosco.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Sara Beltrán",
+   "designation": "Teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://campus.don-bosco.org/",
+   "evidence_quote": "Profesor: Sara Beltrán"
+  },
+  "alternates": [
+   {
+    "name": "Aniceto Herreros",
+    "designation": "Teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://campus.don-bosco.org/",
+    "evidence_quote": "Profesor: Aniceto Herreros",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Aniceto Herreros is a listed teacher at the institution involved in educational activities."
+   },
+   {
+    "name": "Beatriz Peiró",
+    "designation": "Teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://campus.don-bosco.org/",
+    "evidence_quote": "Profesor: Beatriz Peiró",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Beatriz Peiró is a listed teacher at the institution involved in educational activities."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Sara Beltrán is a listed teacher at the institution involved in educational activities.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Bosco Global",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://campus.don-bosco.org/",
+    "evidence_quote": "Educar para la convivencia y la diversidad - Bosco Global",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IVAJ",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://campus.don-bosco.org/",
+    "evidence_quote": "FORMACIÓN DISEÑADA Y PROMOVIDA POR EL IVAJ SOBRE HIGIENE Y PREVENCIÓN DEL COVID 19",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Don Bosco Escuela",
+    "city": "Godelleta",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://campus.don-bosco.org/",
+    "evidence_quote": "CURSO DE DIRECTORES DE ACTIVIDADES DE TIEMPO LIBRE INFANTIL Y JUVENIL DAT 112. Godelleta 2025"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 1,
+  "coverage_note": "The evidence provided is a Moodle course platform page and does not contain information regarding Erasmus+ partnerships or international mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.1,
+  "crawl_s": 3.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 9.3,
+  "total_seconds": 43.7
+ }
+}
