@@ -1,6 +1,6 @@
 {
  "row_id": "r117",
- "scraped_at": "2026-10-11T11:07:45Z",
+ "scraped_at": "2026-10-22T13:44:06Z",
  "contacts": {
   "row_id": "r117",
   "institution_name": "AKADEMIA SZTUK PIEKNYCH W GDANSKU",
@@ -13,23 +13,67 @@
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "erasmus@asp.gda.pl",
+  "generic_email_url": "https://asp.gda.pl/akademia/biuro-wspolpracy/erasmus-for-incoming-students-staff/application-procedures,901",
+  "contact": {
+   "name": "International Relations Office",
+   "designation": "International Relations Office",
+   "designation_local": "",
+   "email": "erasmus@asp.gda.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://asp.gda.pl/akademia/biuro-wspolpracy/erasmus-for-incoming-students-staff/application-procedures,901",
+   "evidence_quote": "Once you register, your Coordinator needs to log in to Akademus system through their Institution account and assign you a nomination. Should you have any questions, please contact our International Relations Office at erasmus@asp.gda.pl"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "International relations officer. The International Relations Office is the primary point of contact for Erasmus+ inquiries and student nominations.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read.",
-  "generic_email": "kontakt@asp.gda.pl",
-  "generic_email_url": "https://asp.gda.pl/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
    {
+    "partner_name": "institutions in Izrael",
+    "partner_country": "Israel",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://asp.gda.pl/akademia/biuro-wspolpracy/program-erasmus-dla-studentow,1524",
+    "evidence_quote": "inne państwa trzecie niestowarzyszone z programem (wśród partnerów gdańskiej ASP należy wymienić instytucje z takich krajów, jak Czarnogóra, Gruzja, Izrael, Malezja, Mongolia czy Ukraina).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "institutions in Malezja",
+    "partner_country": "Malaysia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://asp.gda.pl/akademia/biuro-wspolpracy/program-erasmus-dla-studentow,1524",
+    "evidence_quote": "inne państwa trzecie niestowarzyszone z programem (wśród partnerów gdańskiej ASP należy wymienić instytucje z takich krajów, jak Czarnogóra, Gruzja, Izrael, Malezja, Mongolia czy Ukraina).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "institutions in Mongolia",
+    "partner_country": "Mongolia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://asp.gda.pl/akademia/biuro-wspolpracy/program-erasmus-dla-studentow,1524",
+    "evidence_quote": "inne państwa trzecie niestowarzyszone z programem (wśród partnerów gdańskiej ASP należy wymienić instytucje z takich krajów, jak Czarnogóra, Gruzja, Izrael, Malezja, Mongolia czy Ukraina).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "institutions in Ukraina",
+    "partner_country": "Ukraine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://asp.gda.pl/akademia/biuro-wspolpracy/program-erasmus-dla-studentow,1524",
+    "evidence_quote": "inne państwa trzecie niestowarzyszone z programem (wśród partnerów gdańskiej ASP należy wymienić instytucje z takich krajów, jak Czarnogóra, Gruzja, Izrael, Malezja, Mongolia czy Ukraina).",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Mercedes",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -38,7 +82,7 @@
    },
    {
     "partner_name": "Centrum Designu Gdynia",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -46,8 +90,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Europejskie Centrum Solidarności, Gdańsk",
-    "partner_country": "",
+    "partner_name": "Europejskie Centrum Solidarności",
+    "partner_country": "Poland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -56,7 +100,7 @@
    },
    {
     "partner_name": "Gdańska Galeria Miejska",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -65,7 +109,7 @@
    },
    {
     "partner_name": "Gdyńska Szkoła Filmowa",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -74,7 +118,7 @@
    },
    {
     "partner_name": "Teatr Szekspirowski",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -83,7 +127,7 @@
    },
    {
     "partner_name": "Instytut Kultury Miejskiej",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -92,7 +136,7 @@
    },
    {
     "partner_name": "Muzeum Gdańsk",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -101,7 +145,7 @@
    },
    {
     "partner_name": "Muzeum Gdynia",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -110,7 +154,7 @@
    },
    {
     "partner_name": "Muzeum Sopotu",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -119,7 +163,7 @@
    },
    {
     "partner_name": "Państwowa Galeria Sztuki w Sopocie",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -128,7 +172,7 @@
    },
    {
     "partner_name": "Trójmiastp.pl",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -137,16 +181,16 @@
    },
    {
     "partner_name": "Grid Arthub",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
-    "evidence_quote": "Open Call: Rezydencja artystyczna w Grid Arthub dla osób studiujących na Wydziale Malarstwa",
+    "evidence_quote": "Rezydencja artystyczna Wydziału Malarstwa w Grid Arthub – ogłoszenie wyników",
     "confidence": 0.9
    },
    {
     "partner_name": "Filharmonia Pomorska w Bydgoszczy",
-    "partner_country": "",
+    "partner_country": "Poland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
@@ -154,12 +198,21 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Związek Uczelni Fahrenheita",
-    "partner_country": "",
-    "partner_type": "network",
+    "partner_name": "muzeum TYPA",
+    "partner_country": "unknown",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://asp.gda.pl/",
-    "evidence_quote": "Akademia dołącza do Związku Uczelni Fahrenheita",
+    "evidence_quote": "Projektowanie fontów i narzędzi cyfrowych we współpracy z muzeum TYPA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "stowarzyszenia absolwentów Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://asp.gda.pl/upload/tinymce/4e3c4cbc371e1d845a1b15cdf1bb6ea65837bff2.pdf",
+    "evidence_quote": "Erasmus+ oraz do organizacji studenckich i projektów",
     "confidence": 0.9
    }
   ],
@@ -193,20 +246,22 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 15,
+  "total_seen": 20,
   "pages_read": 10,
-  "coverage_note": "The evidence pages mention an international office and a general contact email, but do not contain any specific named persons with titles or individual contact details. A partner list download is referenced but the actual partner names are not listed in the provided text. 1 page(s) could not be read.",
+  "coverage_note": "The evidence mentions that the institution has several dozen partners but does not provide a comprehensive list of them. No specific named contact person was found in the provided text. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.1,
-  "crawl_s": 16.2,
+  "discover_s": 0.0,
+  "crawl_s": 20.0,
   "ai_calls": 4,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 90.9,
+  "model_s": 6.3,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -229,11 +284,10 @@
      421,
      560
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 2,
+    "accepted": 1
    }
   ],
-  "total_seconds": 109.2
- },
- "rechecked": true
+  "total_seconds": 26.3
+ }
 }

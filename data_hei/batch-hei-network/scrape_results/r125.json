@@ -1,6 +1,6 @@
 {
  "row_id": "r125",
- "scraped_at": "2026-10-11T11:09:12Z",
+ "scraped_at": "2026-10-22T13:44:05Z",
  "contacts": {
   "row_id": "r125",
   "institution_name": "Haute Ecole Provinciale de Hainaut - Condorcet",
@@ -9,17 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "International Relations Department",
+   "designation": "International Relations Department",
+   "designation_local": "",
+   "email": "bureau.mobilite@condorcet.be",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.condorcet.be/canditat-e-international-e/staffs/staff",
+   "evidence_quote": "If you are from the academic or administrative world and you wish to teach or train at Condorcet within the framework of the Erasmus+ programme, do not hesitate to contact the International Relations Department ( <bureau.mobilite@condorcet.be> <bureau.mobilite@condorcet.be>Cette adresse e-mail est protégée contre les robots spammeurs. Vous devez activer le JavaScript pour la visualiser.) specifying your teaching or training fields.."
+  },
+  "alternates": [],
+  "rung": "Head of international relations. This department is the primary contact point for staff and academic mobility within the Erasmus+ programme.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [],
@@ -30,7 +38,7 @@
     "country": "Belgium",
     "role": "main",
     "source_url": "https://www.condorcet.be/campus.html",
-    "evidence_quote": "Square Hiernaux, 2"
+    "evidence_quote": "Charleroi"
    },
    {
     "campus_name": "Gosselies",
@@ -38,7 +46,7 @@
     "country": "Belgium",
     "role": "branch",
     "source_url": "https://www.condorcet.be/campus.html",
-    "evidence_quote": "Chaussée de Fleurus,179"
+    "evidence_quote": "[Gosselies]Gosselies"
    },
    {
     "campus_name": "Marcinelle",
@@ -54,7 +62,7 @@
     "country": "Belgium",
     "role": "branch",
     "source_url": "https://www.condorcet.be/campus.html",
-    "evidence_quote": "Rue de l'Espérance, 95"
+    "evidence_quote": "[Montignies-s-Sambre]Montignies-s-Sambre"
    },
    {
     "campus_name": "Ath",
@@ -62,7 +70,7 @@
     "country": "Belgium",
     "role": "branch",
     "source_url": "https://www.condorcet.be/campus.html",
-    "evidence_quote": "Rue Paul Pastur, 11"
+    "evidence_quote": "[Ath]Ath"
    },
    {
     "campus_name": "Froyennes",
@@ -70,7 +78,7 @@
     "country": "Belgium",
     "role": "branch",
     "source_url": "https://www.condorcet.be/campus.html",
-    "evidence_quote": "Rue du Progrés, 24/2"
+    "evidence_quote": "[Froyennes]Froyennes"
    },
    {
     "campus_name": "Tournai",
@@ -78,7 +86,7 @@
     "country": "Belgium",
     "role": "branch",
     "source_url": "https://www.condorcet.be/campus.html",
-    "evidence_quote": "Rue Paul Pastur, 2-73"
+    "evidence_quote": "[Tournai]Tournai"
    },
    {
     "campus_name": "Mons",
@@ -86,7 +94,7 @@
     "country": "Belgium",
     "role": "branch",
     "source_url": "https://www.condorcet.be/campus.html",
-    "evidence_quote": "Chemin du Champ de Mars, 13-15"
+    "evidence_quote": "[Mons]Mons"
    },
    {
     "campus_name": "Saint-Ghislain",
@@ -94,7 +102,7 @@
     "country": "Belgium",
     "role": "branch",
     "source_url": "https://www.condorcet.be/campus.html",
-    "evidence_quote": "Place Albert-Elisabeth, 22"
+    "evidence_quote": "[Saint-Ghislain]Saint-Ghislain"
    },
    {
     "campus_name": "Morlanwelz",
@@ -102,7 +110,7 @@
     "country": "Belgium",
     "role": "branch",
     "source_url": "https://www.condorcet.be/campus.html",
-    "evidence_quote": "Rue de l'enseignement,14"
+    "evidence_quote": "[Morlanwelz]Morlanwelz"
    }
   ],
   "stated_total": null,
@@ -111,19 +119,20 @@
   "truncated": false,
   "total_seen": 0,
   "pages_read": 10,
-  "coverage_note": "The evidence does not list specific named contacts with personal titles or specific named partner institutions for mobility.",
+  "coverage_note": "The evidence does not provide a specific list of Erasmus+ partner institutions. Axelle Leroy was not found in the provided text.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.3,
-  "crawl_s": 11.8,
+  "discover_s": 0.0,
+  "crawl_s": 12.0,
   "ai_calls": 1,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 18.8,
+  "model_s": 4.0,
   "mode": "gemini",
-  "total_seconds": 32.9
- },
- "rechecked": true
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 16.1
+ }
 }

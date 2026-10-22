@@ -1,6 +1,6 @@
 {
  "row_id": "r098",
- "scraped_at": "2026-10-12T06:12:20Z",
+ "scraped_at": "2026-10-22T13:43:36Z",
  "contacts": {
   "row_id": "r098",
   "institution_name": "VIESOJI ISTAIGA SOCIALINIU MOKSLU KOLEGIJA",
@@ -13,17 +13,25 @@
    "evidence_quote": "+370 601 75094 <tel +37060175094>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read.",
   "generic_email": "info@smk.lt",
   "generic_email_url": "https://smk.lt/kontaktai/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Donata Dulkė",
+   "designation": "Project Manager",
+   "designation_local": "",
+   "email": "donata.dulke@smk.lt",
+   "office_email": "",
+   "phone": "+370 601 75094",
+   "source_url": "https://smk.lt/studentams-erasmus/",
+   "evidence_quote": "Donata Dulkė"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Donata Dulkė is the project manager responsible for Erasmus+ mobility and student consultations.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -435,7 +443,7 @@
    {
     "partner_name": "The Academy of Business and Health Sciences in Lodz",
     "partner_country": "Poland",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
     "evidence_quote": "PL LODZ21 The Academy of Business and Health Sciences in Lodz Aesthetic Cosmetology English B2",
@@ -444,7 +452,7 @@
    {
     "partner_name": "Bielska Wyższa Szkoła im. J. Tyszkiewicza",
     "partner_country": "Poland",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
     "evidence_quote": "PL BIELSKO01 Bielska Wyższa Szkoła im. J. Tyszkiewicza Aesthetic Cosmetology English B1",
@@ -453,7 +461,7 @@
    {
     "partner_name": "Szczecinska Szkola Wyzsza COLEGIUM BALTICUM",
     "partner_country": "Poland",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
     "evidence_quote": "PL SZCZECI12 Szczecinska Szkola Wyzsza COLEGIUM BALTICUM Aesthetic CosmetologyProgramming and Multimedia English B2",
@@ -471,7 +479,7 @@
    {
     "partner_name": "Wyższa Szkoła Europejska im. ks. Józefa Tischnera",
     "partner_country": "Poland",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
     "evidence_quote": "PL KRAKOW20 Wyższa Szkoła Europejska im. ks. Józefa Tischnera International BusinessInternational Business and Communication English B2",
@@ -606,7 +614,7 @@
    {
     "partner_name": "Instituto Superior Da Maia / Maia Institute of Higher Education",
     "partner_country": "Portugal",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
     "evidence_quote": "Instituto Superior Da Maia /",
@@ -660,7 +668,7 @@
    {
     "partner_name": "ISLA - Higher Institute of Management and Administration - Santarem",
     "partner_country": "Portugal",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
     "evidence_quote": "ISLA - Higher Institute of",
@@ -669,7 +677,7 @@
    {
     "partner_name": "ISAL - Instituto Superior de Administração e Língua",
     "partner_country": "Portugal",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
     "evidence_quote": "P FUNCHAL08 ISAL - Instituto Superior de Administração e Língua",
@@ -696,7 +704,7 @@
    {
     "partner_name": "IGS-RH",
     "partner_country": "France",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
     "evidence_quote": "75 FPARIS363 IGS-RH International Business English B2 or French B2",
@@ -759,7 +767,7 @@
    {
     "partner_name": "Faculty of Commercial and Business Science",
     "partner_country": "Slovenia",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
     "evidence_quote": "SI CELJE04 Faculty of Commercial and Business Science Tourism and RecreationInternational Business English B2",
@@ -1036,30 +1044,30 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "VU Tech Hub",
-    "partner_country": "Lithuania",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://smk.lt/",
-    "evidence_quote": "„SMK užmegztos pažintys man padėjo vystyti pirmą startuolį, dalyvauti VU „Tech Hub“ pre-akceleratoriuje ir užmegzti ryšius su kitų startuolių įkūrėjais. Studentas čia gali atrasti daug galimybių – nuo mentoriaus, iki patirties kaupimo renginių ar įvairių projektų organizavime. Tereikia rodyti iniciatyvą ir iš studijų pasiimti viską“.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Ecole Pratique Des Hautes",
-    "partner_country": "Belgium",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
-    "evidence_quote": "Ecole Pratique Des Hautes",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Universidad del Atlántico Medio",
     "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://smk.lt/wp-content/uploads/2026/09/EU-partners-of-Erasmus-according-to-countries-2026-1.pdf",
     "evidence_quote": "E LAS-PAL48 Universidad del Atlántico Medio International BusinessInternational Business and Communication English B1",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Instituto Superior Da Maia",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
+    "evidence_quote": "P MAIA01",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Maia Institute of Higher Education",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://smk.lt/file/manual/EU%20partners%20of%20Erasmus%20according%20to%20countries%202024.pdf",
+    "evidence_quote": "Maia Institute of Higher",
     "confidence": 0.9
    },
    {
@@ -1073,7 +1081,7 @@
    },
    {
     "partner_name": "AmberJob",
-    "partner_country": "unknown",
+    "partner_country": "Greece, Cyprus",
     "partner_type": "company",
     "mobility_type": "traineeship",
     "source_url": "https://smk.lt/studentams-erasmus/",
@@ -1082,7 +1090,7 @@
    },
    {
     "partner_name": "Job Trust",
-    "partner_country": "unknown",
+    "partner_country": "Greece, Cyprus, Austria, France",
     "partner_type": "company",
     "mobility_type": "traineeship",
     "source_url": "https://smk.lt/studentams-erasmus/",
@@ -1091,7 +1099,7 @@
    },
    {
     "partner_name": "iPractice Internships Management",
-    "partner_country": "unknown",
+    "partner_country": "Spain",
     "partner_type": "company",
     "mobility_type": "traineeship",
     "source_url": "https://smk.lt/studentams-erasmus/",
@@ -1100,7 +1108,7 @@
    },
    {
     "partner_name": "Interrex",
-    "partner_country": "unknown",
+    "partner_country": "Lithuania",
     "partner_type": "company",
     "mobility_type": "traineeship",
     "source_url": "https://smk.lt/studentams-erasmus/",
@@ -1136,7 +1144,7 @@
    },
    {
     "partner_name": "Placement in Portugal",
-    "partner_country": "unknown",
+    "partner_country": "Portugal",
     "partner_type": "company",
     "mobility_type": "traineeship",
     "source_url": "https://smk.lt/studentams-erasmus/",
@@ -1145,7 +1153,7 @@
    },
    {
     "partner_name": "Spain Internship",
-    "partner_country": "unknown",
+    "partner_country": "Spain",
     "partner_type": "company",
     "mobility_type": "traineeship",
     "source_url": "https://smk.lt/studentams-erasmus/",
@@ -1212,18 +1220,20 @@
   "truncated": false,
   "total_seen": 114,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of Erasmus+ partners in a PDF document. No other major partner lists are missing. 1 page(s) could not be read.",
+  "coverage_note": "The evidence provides a comprehensive list of Erasmus+ partners across various countries. No major information is missing. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 15.0,
+  "crawl_s": 14.3,
   "ai_calls": 5,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 90.0,
+  "model_s": 41.8,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -1238,8 +1248,8 @@
      421,
      560
     ],
-    "returned": 61,
-    "accepted": 53
+    "returned": 55,
+    "accepted": 54
    },
    {
     "lines": [
@@ -1251,14 +1261,13 @@
    },
    {
     "lines": [
-     841,
-     980
+     701,
+     840
     ],
     "returned": 0,
     "accepted": 0
    }
   ],
-  "total_seconds": 105.0
- },
- "rechecked": 2
+  "total_seconds": 56.2
+ }
 }
