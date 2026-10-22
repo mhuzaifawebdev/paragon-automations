@@ -512,14 +512,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.2,
-  "crawl_s": 11.3,
-  "ai_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 12.9,
+  "ai_calls": 4,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 43.5,
+  "model_s": 13.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
@@ -538,7 +539,7 @@
     "accepted": 51
    }
   ],
-  "total_seconds": 55.9
+  "total_seconds": 29.2
  },
  "rechecked": true
 }

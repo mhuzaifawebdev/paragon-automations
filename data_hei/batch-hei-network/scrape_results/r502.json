@@ -21,8 +21,8 @@
   "needs_human_check": true,
   "pages_read": 10,
   "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
+  "generic_email": "info@eurocollege.edu.mk",
+  "generic_email_url": "https://www.eurocollege.edu.mk/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82/",
   "generic_checked": "2026-10-22"
  },
  "network": {
@@ -112,14 +112,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.6,
-  "crawl_s": 16.8,
-  "ai_calls": 2,
+  "discover_s": 0.0,
+  "crawl_s": 19.8,
+  "ai_calls": 3,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.3,
+  "model_s": 4.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
@@ -130,7 +131,7 @@
     "accepted": 6
    }
   ],
-  "total_seconds": 24.7
+  "total_seconds": 26.5
  },
  "rechecked": true
 }

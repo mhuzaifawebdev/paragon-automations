@@ -1,6 +1,6 @@
 {
  "row_id": "r495",
- "scraped_at": "2026-10-12T06:05:56Z",
+ "scraped_at": "2026-10-22T13:56:51Z",
  "contacts": {
   "row_id": "r495",
   "institution_name": "HOCHSCHULE FUR DEN OFFENTLICHEN DIENST IN BAYERN",
@@ -9,17 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Monika Vogelmair",
+   "designation": "Contact person at the International Office",
+   "designation_local": "",
+   "email": "Monika.Vogelmair@hfoed.bayern.de",
+   "office_email": "",
+   "phone": "08151 9156-0",
+   "source_url": "https://www.hfoed.bayern.de/rpfl/studium/international/auslandsamt/index.html",
+   "evidence_quote": "Ansprechpartnerin: ... Frau Vogelmair <Monika.Vogelmair@hfoed.bayern.de>"
+  },
+  "alternates": [],
+  "rung": "International relations officer. She is the designated contact person for the International Office at the Faculty of Rechtspflege.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -206,33 +214,33 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.9,
-  "crawl_s": 12.3,
+  "discover_s": 0.0,
+  "crawl_s": 14.3,
   "ai_calls": 3,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 6.6,
+  "model_s": 6.9,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 16,
-    "accepted": 16
+    "returned": 1,
+    "accepted": 0
    },
    {
     "lines": [
      141,
-     280
+     271
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 11,
+    "accepted": 11
    }
   ],
-  "total_seconds": 20.8
- },
- "rechecked": true
+  "total_seconds": 21.2
+ }
 }
