@@ -1,6 +1,6 @@
 {
  "row_id": "r946",
- "scraped_at": "2026-10-22T14:15:48Z",
+ "scraped_at": "2026-10-22T22:44:39Z",
  "contacts": {
   "row_id": "r946",
   "institution_name": "Freie Hochschule Stuttgart Seminar für Waldorfpädagogik",
@@ -11,12 +11,44 @@
   "phone_alt": [],
   "generic_email": "studienberatung@freie-hochschule-stuttgart.de",
   "generic_email_url": "https://www.freie-hochschule-stuttgart.de/de/",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Iris Taggert",
+   "designation": "Pedagogy, Methodology-Didactics of the Class Teacher, Subject Didactics English",
+   "designation_local": "",
+   "email": "name@freie-hochschule-stuttgart.de",
+   "office_email": "",
+   "phone": "+49 711-210 94-16",
+   "source_url": "https://www.freie-hochschule-stuttgart.de/de/hochschule/die-fhs/personen",
+   "evidence_quote": "Iris Taggert ... Pädagogik, Methodik-Didaktik des Klassenlehrers, Fachdidaktik Englisch"
+  },
+  "alternates": [
+   {
+    "name": "Dr. Christian Eichert",
+    "designation": "Management",
+    "designation_local": "",
+    "email": "eichert@freie-hochschule-stuttgart.de",
+    "office_email": "",
+    "phone": "+49 711-21094-31",
+    "source_url": "https://www.freie-hochschule-stuttgart.de/de/hochschule/die-fhs/personen",
+    "evidence_quote": "Dr. Christian Eichert ... Geschäftsführung",
+    "why_chosen": "Principal / director (no Erasmus contact found). Dr. Christian Eichert is listed as part of the management of the institution."
+   },
+   {
+    "name": "Prof. Dr. Tatjana Pavlov-West",
+    "designation": "Head of English Department / Lecturer for English Methodology",
+    "designation_local": "",
+    "email": "pavlov-west@freie-hochschule-stuttgart.de",
+    "office_email": "",
+    "phone": "+49 711-21094-63",
+    "source_url": "https://www.freie-hochschule-stuttgart.de/de/hochschule/die-fhs/personen",
+    "evidence_quote": "Prof. Dr. Tatjana Pavlov-West ... Leitung Fachjahr Englisch / Dozentin für Methodik Englisch",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Prof. Dr. Tatjana Pavlov-West leads the English department and teaches English methodology."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. English / language or EU-project teacher (no Erasmus contact found). Iris Taggert teaches subject didactics for English.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.55,
+  "needs_human_check": false,
   "pages_read": 10,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
@@ -378,14 +410,16 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 15.5,
-  "ai_calls": 5,
+  "crawl_s": 15.7,
+  "ai_calls": 6,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.8,
+  "model_s": 5.9,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
   "contact_pass": 0,
+  "staff_pages": 3,
+  "email_search_s": 4.6,
   "slices": [
    {
     "lines": [
@@ -412,7 +446,6 @@
     "accepted": 15
    }
   ],
-  "total_seconds": 23.0
- },
- "rechecked": 3
+  "total_seconds": 113.9
+ }
 }
