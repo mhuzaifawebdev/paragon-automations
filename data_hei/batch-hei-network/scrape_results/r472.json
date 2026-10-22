@@ -77,41 +77,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 25.5,
-  "ai_calls": 5,
-  "partner_calls": 3,
+  "crawl_s": 153.6,
+  "ai_calls": 2,
+  "model_s": 1.6,
   "cost_usd_estimate": 0.0,
-  "model_s": 2.7,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
   "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 1,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 3,
-    "accepted": 2
-   }
-  ],
-  "total_seconds": 29.1
+  "total_seconds": 156.4
  },
  "rechecked": 3
 }
