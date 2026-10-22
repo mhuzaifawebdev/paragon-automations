@@ -1,6 +1,6 @@
 {
  "row_id": "r840",
- "scraped_at": "2026-10-12T07:04:35Z",
+ "scraped_at": "2026-10-22T14:11:02Z",
  "contacts": {
   "row_id": "r840",
   "institution_name": "LYCEE EDOUARD HERRIOT",
@@ -9,17 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 5,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Julie Brocard",
+   "designation": "Apprenticeship contact",
+   "designation_local": "",
+   "email": "julie.brocard@ac-grenoble.fr",
+   "office_email": "",
+   "phone": "04 80 56 91 06",
+   "source_url": "https://edouard-herriot-voiron.ent.auvergnerhonealpes.fr/sg.do?PROC=PAGE_REGLEMENTAIRE&ACTION=VALIDER&TYPE_PAGE=CONTACT",
+   "evidence_quote": "apprentissage : ... julie.brocard@ac-grenoble.fr <julie.brocard@ac-grenoble.fr>"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). This is a named individual with a specific administrative role at the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -46,7 +54,7 @@
    {
     "campus_name": "Lycée Édouard Herriot",
     "city": "Voiron",
-    "country": "France",
+    "country": "FRANCE",
     "role": "main",
     "source_url": "https://edouard-herriot-voiron.ent.auvergnerhonealpes.fr/sg.do?PROC=PAGE_REGLEMENTAIRE&ACTION=VALIDER&TYPE_PAGE=CONTACT",
     "evidence_quote": "Lycée Édouard Herriot"
@@ -58,29 +66,30 @@
   "truncated": false,
   "total_seen": 2,
   "pages_read": 5,
-  "coverage_note": "The website does not provide information regarding international partnerships or Erasmus+ agreements.",
+  "coverage_note": "The website does not provide information regarding international partnerships or Erasmus+ mobility programs. No specific international relations staff are listed.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.1,
-  "crawl_s": 7.6,
+  "discover_s": 0.0,
+  "crawl_s": 7.9,
   "ai_calls": 2,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 57.2,
+  "model_s": 3.5,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
-     135
+     130
     ],
     "returned": 2,
     "accepted": 2
    }
   ],
-  "total_seconds": 66.8
- },
- "rechecked": true
+  "total_seconds": 11.4
+ }
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r850",
- "scraped_at": "2026-10-12T07:06:37Z",
+ "scraped_at": "2026-10-22T14:11:15Z",
  "contacts": {
   "row_id": "r850",
   "institution_name": "Ecole Supérieure des Beaux-Arts de Nîmes",
@@ -17,23 +17,31 @@
    "evidence_quote": "+33 (0)4 30 06 12 00"
   },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "international@esba-nimes.fr",
+  "generic_email_url": "https://esba-nimes.fr/en/staff/",
+  "contact": {
+   "name": "Delphine Paul",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://esba-nimes.fr/en/team/",
+   "evidence_quote": "Director ... Delphine Paul"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Principal / director (no Erasmus contact found). Delphine Paul is the Director of the institution.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
-  "generic_email": "info@esba-nimes.fr",
-  "generic_email_url": "https://esba-nimes.fr/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "ANDEA",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://esba-nimes.fr/partenariats/",
@@ -42,7 +50,7 @@
    },
    {
     "partner_name": "L’École(s) du Sud",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://esba-nimes.fr/partenariats/",
@@ -50,8 +58,44 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Fondation Culture et Diversité",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://esba-nimes.fr/partenariats/",
+    "evidence_quote": "Fondation Culture et Diversité",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fondation des Artistes",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://esba-nimes.fr/partenariats/",
+    "evidence_quote": "Fondation des Artistes",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Air de Midi",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://esba-nimes.fr/partenariats/",
+    "evidence_quote": "Air de Midi",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bear",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://esba-nimes.fr/partenariats/",
+    "evidence_quote": "Bear",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "ELIA Artschool",
-    "partner_country": "International",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://esba-nimes.fr/partenariats/",
@@ -60,11 +104,20 @@
    },
    {
     "partner_name": "CampusArt",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://esba-nimes.fr/partenariats/",
     "evidence_quote": "CampusArt",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Réseau Peinture",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://esba-nimes.fr/partenariats/",
+    "evidence_quote": "Réseau Peinture",
     "confidence": 0.9
    },
    {
@@ -336,51 +389,6 @@
     "source_url": "https://esba-nimes.fr/partenariats/",
     "evidence_quote": "Le Sémaphore, Nîmes",
     "confidence": 0.9
-   },
-   {
-    "partner_name": "Fondation Culture et Diversité",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://esba-nimes.fr/partenariats/",
-    "evidence_quote": "Fondation Culture et Diversité",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Fondation des Artistes",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://esba-nimes.fr/partenariats/",
-    "evidence_quote": "Fondation des Artistes",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Air de Midi",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://esba-nimes.fr/partenariats/",
-    "evidence_quote": "Air de Midi",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Bear",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://esba-nimes.fr/partenariats/",
-    "evidence_quote": "Bear",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Réseau Peinture",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://esba-nimes.fr/partenariats/",
-    "evidence_quote": "Réseau Peinture",
-    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
@@ -399,18 +407,21 @@
   "truncated": false,
   "total_seen": 39,
   "pages_read": 10,
-  "coverage_note": "The evidence lists cultural and professional partners but does not provide a specific list of Erasmus+ university partners. The contact Daniel-Jean Valade mentioned in the prompt does not appear in the provided evidence.",
+  "coverage_note": "The evidence lists cultural and professional networks but does not provide a specific list of Erasmus+ partner universities.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.8,
-  "crawl_s": 13.2,
-  "ai_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 14.2,
+  "ai_calls": 4,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 28.9,
+  "model_s": 7.1,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.4,
   "slices": [
    {
     "lines": [
@@ -429,7 +440,6 @@
     "accepted": 39
    }
   ],
-  "total_seconds": 43.9
- },
- "rechecked": true
+  "total_seconds": 23.9
+ }
 }

@@ -21,8 +21,8 @@
   "needs_human_check": true,
   "pages_read": 2,
   "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini.",
-  "generic_email": "",
-  "generic_email_url": "",
+  "generic_email": "cifplorca@cifplorca.es",
+  "generic_email_url": "https://www.cifplorca.es/j32/index.php/calidad-caf",
   "generic_checked": "2026-10-22"
  },
  "network": {
@@ -48,14 +48,16 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.4,
-  "crawl_s": 3.8,
-  "ai_calls": 1,
+  "discover_s": 0.0,
+  "crawl_s": 5.7,
+  "ai_calls": 2,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 15.1,
+  "model_s": 1.4,
   "mode": "gemini",
-  "total_seconds": 20.4
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 8.1
  },
  "rechecked": true
 }
