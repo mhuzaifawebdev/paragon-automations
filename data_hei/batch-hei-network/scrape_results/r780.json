@@ -1,6 +1,6 @@
 {
  "row_id": "r780",
- "scraped_at": "2026-10-12T06:56:30Z",
+ "scraped_at": "2026-10-22T14:09:42Z",
  "contacts": {
   "row_id": "r780",
   "institution_name": "SRH Fernhochschule - The Mobile University",
@@ -13,6 +13,8 @@
   },
   "phone": null,
   "phone_alt": [],
+  "generic_email": "info@mobile-university.de",
+  "generic_email_url": "https://www.mobile-university.de/",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,10 +22,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "info@mobile-university.de",
-  "generic_email_url": "https://www.mobile-university.de/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -111,7 +110,7 @@
    {
     "partner_name": "Berufsverband Gesundheitsförderung e.V.",
     "partner_country": "Germany",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.mobile-university.de/ueber-uns/unsere-partner/",
     "evidence_quote": "Berufsverband Gesundheitsförderung e.V.",
@@ -192,7 +191,7 @@
    {
     "partner_name": "Hartmannbund",
     "partner_country": "Germany",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.mobile-university.de/ueber-uns/unsere-partner/",
     "evidence_quote": "Hartmannbund",
@@ -309,7 +308,7 @@
    {
     "partner_name": "IMB",
     "partner_country": "Germany",
-    "partner_type": "other",
+    "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.mobile-university.de/unternehmen/partner-werden/",
     "evidence_quote": "IMB",
@@ -361,6 +360,15 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Pädagogisches Kolleg Rostock",
+    "partner_country": "Germany",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mobile-university.de/",
+    "evidence_quote": "SRH Fernhochschule und Pädagogisches Kolleg Rostock starten gemeinsam in die akademische Pflegeausbildung",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "DRK-Kreisverband Böblingen e.V.",
     "partner_country": "Germany",
     "partner_type": "company",
@@ -370,18 +378,27 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Duden Institut für Lerntherapie",
-    "partner_country": "unknown",
+    "partner_name": "Albert Schweitzer",
+    "partner_country": "Germany",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.mobile-university.de/unternehmen/partner-werden/",
-    "evidence_quote": "[Duden Institut für Lerntherapie, gelbes Logo mit dem Wort \"Duden\" in schwarzer Schrift und rotem Unterstrich.]",
+    "evidence_quote": "Albert Schweitzer",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Microsoft",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mobile-university.de/fernstudium/e-campus/",
+    "evidence_quote": "Weil wir wissen, dass diese Art des Studierens Disziplin und Selbstorganisation erfordert, stellen wir Ihnen nützliche Tools wie Microsoft Teams und weitere Office 365 Apps zur Verfügung. Und dank Chat, Video-Calls, privatem Messaging und zentralem Cloud-Datenspeicher können Sie jederzeit mit Ihren Kommiliton:innen kommunizieren und wirksam zusammenarbeiten.",
     "confidence": 0.9
    },
    {
     "partner_name": "SPIEGEL Akademie",
-    "partner_country": "unknown",
-    "partner_type": "company",
+    "partner_country": "Germany",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.mobile-university.de/fernstudium/e-campus/",
     "evidence_quote": "E-Campus (SPIEGEL Akademie)",
@@ -393,37 +410,38 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 40,
+  "total_seen": 42,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of corporate partners but does not explicitly list academic Erasmus+ partners or specific campus locations beyond mentioning 29 sites.",
+  "coverage_note": "The evidence lists numerous corporate and institutional partners, but does not explicitly list international Erasmus+ university partners. No specific campus locations are detailed beyond the mention of 29 locations for exams.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.0,
-  "crawl_s": 23.1,
-  "ai_calls": 6,
+  "discover_s": 0.0,
+  "crawl_s": 18.2,
+  "ai_calls": 7,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 15.2,
+  "model_s": 10.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 2,
-    "accepted": 1
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
@@ -438,19 +456,19 @@
      701,
      840
     ],
-    "returned": 31,
-    "accepted": 29
+    "returned": 38,
+    "accepted": 36
    },
    {
     "lines": [
      841,
      980
     ],
-    "returned": 12,
-    "accepted": 12
+    "returned": 4,
+    "accepted": 3
    }
   ],
-  "total_seconds": 40.3
+  "total_seconds": 30.2
  },
  "rechecked": true
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r791",
- "scraped_at": "2026-10-12T06:57:07Z",
+ "scraped_at": "2026-10-22T14:10:24Z",
  "contacts": {
   "row_id": "r791",
   "institution_name": "IES La Pedrera Blanca",
@@ -13,17 +13,48 @@
    "evidence_quote": "Registro portátilesTwitterInstagramFotos <https://www.flickr.com/photos/ieslapedrerablanca/albums>Email <11700883@juntadeandalucia.com>956 243 651Acceso IPasenMoodle Centros Manual iPasen FamiliasManual nuevo profesorado OLS ErasmusPROA + MediadorPROA + GeneralPruebas de diagnósticoMatriculación"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Juana María Peregrino",
+   "designation": "Vice-Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ieslapedrerablanca.es/departamento-de-internacionalizacion/",
+   "evidence_quote": "Juana María Peregrino (profesora de Inglés y Vicedirectora)"
+  },
+  "alternates": [
+   {
+    "name": "Aurora Bastida",
+    "designation": "Head of Department and General Coordinator of Superior and VET",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ieslapedrerablanca.es/departamento-de-internacionalizacion/",
+    "evidence_quote": "Aurora Bastida (profesora de Formación Profesional, jefa del departamento y coordinadora general de Superior y VET)",
+    "why_chosen": "Head of international relations. She is the head of the internationalization department and coordinates Erasmus activities for higher education and VET."
+   },
+   {
+    "name": "Sergio Fernández",
+    "designation": "Erasmus School Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ieslapedrerablanca.es/departamento-de-internacionalizacion/",
+    "evidence_quote": "Sergio Fernández (profesor de Inglés y Alemán, coordinador general de Escolar)",
+    "why_chosen": "Mobility coordinator. He is explicitly identified as the Erasmus School Coordinator and the contact person for Erasmus mobility inquiries."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is a member of the school's leadership team and was identified as a contact person on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -85,25 +116,25 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.6,
-  "crawl_s": 17.6,
+  "discover_s": 0.0,
+  "crawl_s": 17.8,
   "ai_calls": 2,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.6,
+  "model_s": 3.2,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.8,
   "slices": [
    {
     "lines": [
-     1,
-     140
+     141,
+     280
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 1,
+    "accepted": 1
    }
   ],
-  "total_seconds": 24.8
- },
- "rechecked": true
+  "total_seconds": 22.7
+ }
 }

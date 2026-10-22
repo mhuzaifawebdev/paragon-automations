@@ -1,6 +1,6 @@
 {
  "row_id": "r793",
- "scraped_at": "2026-10-12T06:57:12Z",
+ "scraped_at": "2026-10-22T14:10:24Z",
  "contacts": {
   "row_id": "r793",
   "institution_name": "NOVA UNIVERZA, EVROPSKA PRAVNA FAKULTETA",
@@ -13,17 +13,25 @@
    "evidence_quote": "tel: 05/ 338 44 00"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "international@nova-uni.si",
   "generic_email_url": "https://epf.nova-uni.si/mednarodno-sodelovanje/erasmus-2/financna-pomoc/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Vito Bobek",
+   "designation": "Course holder",
+   "designation_local": "",
+   "email": "vito.bobek@guest.arnes.si",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://epf.nova-uni.si/predmet/osnove-managementa-2/",
+   "evidence_quote": "Nosilec predmeta: ... prof. dr. Vito Bobek"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Vito Bobek is listed as the course holder for the subject Osnove managementa and provides an email address for contact.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [],
@@ -51,20 +59,21 @@
   "truncated": false,
   "total_seen": 0,
   "pages_read": 10,
-  "coverage_note": "The evidence does not contain a list of partner institutions. The contact information provided is limited to a general international email address and the name of the contact on file.",
+  "coverage_note": "The evidence provides general information about Erasmus+ procedures and policies but does not contain a specific list of partner institutions.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 8.1,
-  "crawl_s": 16.7,
-  "ai_calls": 1,
+  "discover_s": 0.0,
+  "crawl_s": 19.5,
+  "ai_calls": 2,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
   "model_s": 1.7,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "total_seconds": 26.5
- },
- "rechecked": true
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 22.5
+ }
 }

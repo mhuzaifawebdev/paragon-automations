@@ -1,6 +1,6 @@
 {
  "row_id": "r782",
- "scraped_at": "2026-10-12T06:56:21Z",
+ "scraped_at": "2026-10-22T14:09:33Z",
  "contacts": {
   "row_id": "r782",
   "institution_name": "Conservatorio di Musica di Lecce - Tito Schipa",
@@ -13,6 +13,8 @@
    "evidence_quote": "Centralino: +39.0832.344267 <tel +39.0832.344267>"
   },
   "phone_alt": [],
+  "generic_email": "erasmus@conservatoriolecce.it",
+  "generic_email_url": "https://www.conservatoriolecce.it/bando-erasmus-docenti-e-staff-amministrativo-2026-2027/",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -20,10 +22,7 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "erasmus@conservatoriolecce.it",
-  "generic_email_url": "https://www.conservatoriolecce.it/bando-erasmus-docenti-e-staff-amministrativo-2026-2027/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -38,7 +37,7 @@
    },
    {
     "partner_name": "AEC – Associazione Europea dei Conservatori e Accademie di Musica",
-    "partner_country": "Europe",
+    "partner_country": "International",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.conservatoriolecce.it/wp-content/uploads/bandoerasmusStaff_Docenti-A.A.-2026_27-signed.prot_-1.pdf",
@@ -55,6 +54,42 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "BIP (Amsterdam/Tokat)",
+    "partner_country": "Netherlands/Turkey",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriolecce.it/wp-content/uploads/Training-Graduatoria-2026_27-signed.pdf",
+    "evidence_quote": "1 Piepoli Pasquale 16 BIP (Amsterdam/Tokat) 19/12/1971",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AEC Pop and Jazz Platform",
+    "partner_country": "International",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriolecce.it/wp-content/uploads/Training-Graduatoria-2026_27-signed.pdf",
+    "evidence_quote": "2 Santaniello Domenico 16 AEC Pop and Jazz Platform 06/05/1968",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Malaga",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriolecce.it/wp-content/uploads/Training-Graduatoria-2026_27-signed.pdf",
+    "evidence_quote": "4 Spedicati Giuseppe 16 Visita Istituzionale + invito (Malaga) 18/03/1963",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Corfù",
+    "partner_country": "Greece",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriolecce.it/wp-content/uploads/Training-Graduatoria-2026_27-signed.pdf",
+    "evidence_quote": "5 Cosi Luisa 16 Progetto Istituzionale (Corfù) 29/09/1958",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Grieg Academy",
     "partner_country": "Norway",
     "partner_type": "university",
@@ -66,7 +101,7 @@
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Conservatorio Tito Schipa",
+    "campus_name": "Conservatorio di Musica di Lecce - Tito Schipa",
     "city": "Lecce",
     "country": "Italy",
     "role": "main",
@@ -74,34 +109,35 @@
     "evidence_quote": "Indirizzo: via Ciardo, n. 2 73100 Lecce"
    },
    {
-    "campus_name": "Sezione staccata di Ceglie Messapica",
+    "campus_name": "Sede di Ceglie Messapica",
     "city": "Ceglie Messapica",
     "country": "Italy",
     "role": "branch",
-    "source_url": "https://www.conservatoriolecce.it/scuola/contatti/",
-    "evidence_quote": "SEGRETERIA SEZIONE STACCATA DI CEGLIE"
+    "source_url": "https://www.conservatoriolecce.it/",
+    "evidence_quote": "In questa sezione vengono pubblicati > CALENDARI DEGLI ESAMI (ammissione, curriculari, finali) > ELENCHI DEGLI ESAMINANDI – Sedi LECCE e CEGLIE MESSAPICA – per tutti i livelli di studio del Conservatorio (preaccacemici/propedeutici, trienni, bienni e dottorati). […]"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 4,
+  "total_seen": 8,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of Erasmus+ outgoing staff and student mobility procedures but does not contain a comprehensive list of partner institutions. The contact information for the Erasmus office is provided via a general email address rather than a specific named coordinator.",
+  "coverage_note": "The evidence provides information on Erasmus+ mobility procedures and lists specific partner institutions involved in staff mobility, but does not contain a comprehensive list of all bilateral agreements.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.6,
-  "crawl_s": 13.5,
-  "ai_calls": 1,
+  "discover_s": 0.0,
+  "crawl_s": 17.8,
+  "ai_calls": 2,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 15.0,
+  "model_s": 2.4,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "total_seconds": 31.0
+  "contact_pass": 0,
+  "total_seconds": 21.8
  },
  "rechecked": true
 }

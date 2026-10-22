@@ -1,6 +1,6 @@
 {
  "row_id": "r795",
- "scraped_at": "2026-10-12T06:57:32Z",
+ "scraped_at": "2026-10-22T14:10:33Z",
  "contacts": {
   "row_id": "r795",
   "institution_name": "INSTITUTO POLITÉCNICO DE PORTALEGRE",
@@ -17,6 +17,8 @@
    "evidence_quote": "T +351 245 301 500 | F +351 245 330 353"
   },
   "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
   "contact": null,
   "alternates": [],
   "rung": "",
@@ -24,16 +26,13 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "Instituto Federal do Acre",
-    "partner_country": "Brazil",
+    "partner_country": "Brasil",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.ipportalegre.pt/pt/",
@@ -66,25 +65,18 @@
     "source_url": "https://www.ipportalegre.pt/pt/internacionalizacao/cooperacao-e-mobilidade-internacional/programa-erasmus/",
     "evidence_quote": ". Consórcio CIM21",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmuscentro",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ipportalegre.pt/pt/internacionalizacao/cooperacao-e-mobilidade-internacional/",
+    "evidence_quote": "Ações do Programa Erasmus+, Consórcio Erasmuscentro, Lista de Instituições Parceiras do IPP em países do Programa Erasmus+, Projetos em Curso, European Policy Statement – Declaração de Política Europeia, Erasmus Charter for Higher Education – Carta Erasmus para o Ensino Superior, Mobilidade Entre Países do Programa Erasmus+ e Países Parceiros",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
-   {
-    "campus_name": "Residência de Estudantes de Portalegre",
-    "city": "Portalegre",
-    "country": "Portugal",
-    "role": "main",
-    "source_url": "https://www.ipportalegre.pt/pt/contactos/",
-    "evidence_quote": "Residência de Estudantes de Portalegre"
-   },
-   {
-    "campus_name": "Residências de Estudantes em Elvas",
-    "city": "Elvas",
-    "country": "Portugal",
-    "role": "branch",
-    "source_url": "https://www.ipportalegre.pt/pt/contactos/",
-    "evidence_quote": "Residências de Estudantes em Elvas"
-   },
    {
     "campus_name": "Escola Superior de Biociências de Elvas",
     "city": "Elvas",
@@ -97,7 +89,7 @@
     "campus_name": "Escola Superior de Educação e Ciências Sociais",
     "city": "Portalegre",
     "country": "Portugal",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ipportalegre.pt/pt/contactos/",
     "evidence_quote": "Escola Superior de Educação e Ciências Sociais"
    },
@@ -105,7 +97,7 @@
     "campus_name": "Escola Superior de Saúde",
     "city": "Portalegre",
     "country": "Portugal",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ipportalegre.pt/pt/contactos/",
     "evidence_quote": "Escola Superior de Saúde"
    },
@@ -113,7 +105,7 @@
     "campus_name": "Escola Superior de Tecnologia, Gestão e Design",
     "city": "Portalegre",
     "country": "Portugal",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ipportalegre.pt/pt/contactos/",
     "evidence_quote": "Escola Superior de Tecnologia, Gestão e Design"
    }
@@ -122,40 +114,41 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 4,
+  "total_seen": 5,
   "pages_read": 10,
-  "coverage_note": "The evidence mentions the existence of lists of partner institutions but does not provide the actual names of those partners, except for one specific protocol mentioned in a news item. No specific contact persons for international relations are named in the provided text.",
+  "coverage_note": "The evidence mentions that lists of partner institutions are available for consultation via links on the website, but the actual lists are not provided in the text. No specific named individuals were found with direct contact details.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.3,
-  "crawl_s": 17.6,
-  "ai_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 26.7,
+  "ai_calls": 4,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.6,
+  "model_s": 3.4,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 1,
+    "accepted": 1
    }
   ],
-  "total_seconds": 24.4
+  "total_seconds": 31.6
  },
  "rechecked": true
 }

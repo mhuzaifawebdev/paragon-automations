@@ -1,6 +1,6 @@
 {
  "row_id": "r789",
- "scraped_at": "2026-10-12T06:56:41Z",
+ "scraped_at": "2026-10-22T14:10:12Z",
  "contacts": {
   "row_id": "r789",
   "institution_name": "ECOLE SUPERIEURE D'ART ET DE DESIGN D'AMIENS METROPOLE",
@@ -9,17 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 1,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "C. Cresson",
+   "designation": "Information contact",
+   "designation_local": "",
+   "email": "c.cresson@amiens-metropole.com",
+   "office_email": "",
+   "phone": "33(0)3 22 66 49 90",
+   "source_url": "https://esad-amiens.fr/",
+   "evidence_quote": "renseignements : c.cresson@amiens-metropole.com"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). C. Cresson is listed as the contact for general information at the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 1,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [],
@@ -44,15 +52,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.6,
-  "crawl_s": 4.4,
+  "discover_s": 0.0,
+  "crawl_s": 9.3,
   "ai_calls": 1,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
   "model_s": 1.6,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "total_seconds": 7.6
- },
- "rechecked": true
+  "email_search_s": 0.0,
+  "total_seconds": 10.9
+ }
 }

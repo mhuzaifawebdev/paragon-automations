@@ -1,6 +1,6 @@
 {
  "row_id": "r794",
- "scraped_at": "2026-10-12T06:57:25Z",
+ "scraped_at": "2026-10-22T14:10:33Z",
  "contacts": {
   "row_id": "r794",
   "institution_name": "ECOLE NATIONALE DES CHARTES",
@@ -13,17 +13,25 @@
    "evidence_quote": "Tél. +33 (0)1 55 42 75 00"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 8,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Olivier PONCET",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+   "evidence_quote": "M. Olivier Poncet est directeur de l’École nationale des chartes - PSL, à compter du 1er septembre 2026. ... Olivier Poncet"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -208,21 +216,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Université de Lille",
-    "partner_country": "France",
+    "partner_name": "université Taras-Schevchenko",
+    "partner_country": "Ukraine",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/",
-    "evidence_quote": "Par Patrick Michel, professeur émérite d'histoire de l’art moderne à l’Université de Lille",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Archives nationales de France",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.chartes.psl.eu/",
-    "evidence_quote": "[Image décorative : salle des inventaires sur le site de Pierrefitte-sur-Seine © Carole Bauer/Archives nationales de France]",
+    "evidence_quote": "Par Maryna Paliienko et Rostyslav Konta de l’université Taras-Schevchenko (Kiev, Ukraine)",
     "confidence": 0.9
    },
    {
@@ -253,62 +252,206 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Médiathèque du patrimoine et de la photographie",
+    "partner_name": "PSL",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/",
+    "evidence_quote": "[École nationale des chartes - PSL]École nationale des chartes - PSL",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École des hautes études en sciences sociales",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Né le 2 mai 1969, Olivier Poncet est directeur d’études à l’École nationale des chartes - PSL et à l’École des hautes études en sciences sociales. Archiviste paléographe (prom. 1993) et docteur en histoire, ancien membre de l’École française de Rome, il a occupé divers postes de conservateur du patrimoine (spécialité archives) au plan local (Archives départementales du Pas-de-Calais) comme national (Archives nationales, CARAN et Section des archives privées), avant de rejoindre l’École des chart",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École française de Rome",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Né le 2 mai 1969, Olivier Poncet est directeur d’études à l’École nationale des chartes - PSL et à l’École des hautes études en sciences sociales. Archiviste paléographe (prom. 1993) et docteur en histoire, ancien membre de l’École française de Rome, il a occupé divers postes de conservateur du patrimoine (spécialité archives) au plan local (Archives départementales du Pas-de-Calais) comme national (Archives nationales, CARAN et Section des archives privées), avant de rejoindre l’École des chart",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ANR-DFG",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Historien de l’écrit documentaire et des pouvoirs dans les sociétés de l’époque moderne (France, Italie), il s’intéresse par ailleurs aux acteurs et aux institutions de la science historique du XVIe au XXe siècle. Il a dirigé le Centre Jean-Mabillon, laboratoire de l’École des chartes, de 2012 à 2017 et il est depuis 2023 l’un de deux coordinateurs de l’ANR-DFG franco-allemande GRACEFUL17 dédié aux archives de la Daterie apostolique au XVIIe siècle.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Académie des inscriptions et belles-lettres",
     "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://www.chartes.psl.eu/",
-    "evidence_quote": "Par Gilles Désiré dit Gosset, directeur de la Médiathèque du patrimoine et de la photographie",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Correspondant de l’Académie des inscriptions et belles-lettres depuis 2021, il est également membre du Comité des travaux historiques et scientifiques, du Comité d’histoire de la Cour des comptes et du Conseil scientifique du Musée de l’Armée. Il est l’auteur de plusieurs ouvrages dont La France et le pouvoir pontifical (1595-1661). L’esprit des institutions, (Rome, 2011), Mazarin, l’art de gouverner (Paris, 2021) et Alexandre Farnèse (1545-1592), prince et capitaine (Paris, 2025).",
     "confidence": 0.9
    },
    {
-    "partner_name": "Société française d’étude du seizième siècle (SFDES)",
+    "partner_name": "Comité des travaux historiques et scientifiques",
     "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://www.chartes.psl.eu/",
-    "evidence_quote": "Journée organisé par Christine Bénévent, professeur à l'École, avec le soutien de la Société française d’étude du seizième siècle (SFDES)",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Correspondant de l’Académie des inscriptions et belles-lettres depuis 2021, il est également membre du Comité des travaux historiques et scientifiques, du Comité d’histoire de la Cour des comptes et du Conseil scientifique du Musée de l’Armée. Il est l’auteur de plusieurs ouvrages dont La France et le pouvoir pontifical (1595-1661). L’esprit des institutions, (Rome, 2011), Mazarin, l’art de gouverner (Paris, 2021) et Alexandre Farnèse (1545-1592), prince et capitaine (Paris, 2025).",
     "confidence": 0.9
    },
    {
-    "partner_name": "université de Groningen",
-    "partner_country": "Pays-Bas",
-    "partner_type": "university",
+    "partner_name": "Comité d’histoire de la Cour des comptes",
+    "partner_country": "France",
+    "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://www.chartes.psl.eu/international/professeurs-invites",
-    "evidence_quote": "Professeure en humanités numériques à l'université de Groningen aux Pays-Bas.",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Correspondant de l’Académie des inscriptions et belles-lettres depuis 2021, il est également membre du Comité des travaux historiques et scientifiques, du Comité d’histoire de la Cour des comptes et du Conseil scientifique du Musée de l’Armée. Il est l’auteur de plusieurs ouvrages dont La France et le pouvoir pontifical (1595-1661). L’esprit des institutions, (Rome, 2011), Mazarin, l’art de gouverner (Paris, 2021) et Alexandre Farnèse (1545-1592), prince et capitaine (Paris, 2025).",
     "confidence": 0.9
    },
    {
-    "partner_name": "Université de Genève",
-    "partner_country": "unknown",
-    "partner_type": "university",
+    "partner_name": "Musée de l’Armée",
+    "partner_country": "France",
+    "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://www.chartes.psl.eu/international/professeurs-invites",
-    "evidence_quote": "Professeur d’Histoire de la langue française et de grammaire historique du français à l’Université de Genève",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Correspondant de l’Académie des inscriptions et belles-lettres depuis 2021, il est également membre du Comité des travaux historiques et scientifiques, du Comité d’histoire de la Cour des comptes et du Conseil scientifique du Musée de l’Armée. Il est l’auteur de plusieurs ouvrages dont La France et le pouvoir pontifical (1595-1661). L’esprit des institutions, (Rome, 2011), Mazarin, l’art de gouverner (Paris, 2021) et Alexandre Farnèse (1545-1592), prince et capitaine (Paris, 2025).",
     "confidence": 0.9
    },
    {
-    "partner_name": "École polytechnique fédérale de Lausanne (EPFL)",
-    "partner_country": "unknown",
-    "partner_type": "university",
+    "partner_name": "Institut",
+    "partner_country": "France",
+    "partner_type": "other",
     "mobility_type": "unknown",
-    "source_url": "https://www.chartes.psl.eu/international/professeurs-invites",
-    "evidence_quote": "Professeure à l’École polytechnique fédérale de Lausanne (EPFL)",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Mme Pascale Bourgain, membre de l’Institut (Académie des inscriptions et belles-lettres)",
     "confidence": 0.9
    },
    {
-    "partner_name": "université d’Aarhus",
-    "partner_country": "Danemark",
+    "partner_name": "École nationale supérieure des sciences de l’information et des bibliothèques",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Mme Nathalie Marcerou-Ramel, directrice de l'École nationale supérieure des sciences de l'information et des bibliothèques",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CTHS",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Mme Julia Castiglione, déléguée générale du CTHS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Urfist de Paris",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Mme Aline Bouchard, co-responsable de l’Urfist de Paris",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Paris Sciences et Lettres",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
-    "source_url": "https://www.chartes.psl.eu/international/professeurs-invites",
-    "evidence_quote": "Professeur à l’université d’Aarhus (Danemark)",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Fondé en 1834 par le ministre de l’Instruction publique François Guizot, rattaché à l’École nationale des chartes - PSL, membre de l’université de rang mondial Paris Sciences et Lettres, le Comité des travaux historiques et scientifiques est une institution unique dans le paysage de la recherche française. Il est à la tête d’un réseau composé de plus de 3 000 sociétés savantes avec lesquelles il échange à l’occasion de son Congrès annuel ou dans le cadre de projets de recherche numériques, colla",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université PSL",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "L’Université PSL",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Centre national de la recherche scientifique",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "L’École est membre fondateur du Campus Condorcet (Cité des humanités et sciences sociales), qui rassemble dix établissements et organismes en un pôle international de recherche et de formation en sciences humaines et sociales : le Centre national de la recherche scientifique, l’École des hautes études en sciences sociales, l’École pratique des hautes études, la Fondation maison des sciences de l’homme, l’Institut national d’études démographiques, l’université Paris I Panthéon-Sorbonne, l’univers",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École pratique des hautes études",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "L’École est membre fondateur du Campus Condorcet (Cité des humanités et sciences sociales), qui rassemble dix établissements et organismes en un pôle international de recherche et de formation en sciences humaines et sociales : le Centre national de la recherche scientifique, l’École des hautes études en sciences sociales, l’École pratique des hautes études, la Fondation maison des sciences de l’homme, l’Institut national d’études démographiques, l’université Paris I Panthéon-Sorbonne, l’univers",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fondation maison des sciences de l’homme",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "L’École est membre fondateur du Campus Condorcet (Cité des humanités et sciences sociales), qui rassemble dix établissements et organismes en un pôle international de recherche et de formation en sciences humaines et sociales : le Centre national de la recherche scientifique, l’École des hautes études en sciences sociales, l’École pratique des hautes études, la Fondation maison des sciences de l’homme, l’Institut national d’études démographiques, l’université Paris I Panthéon-Sorbonne, l’univers",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut national d’études démographiques",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "L’École est membre fondateur du Campus Condorcet (Cité des humanités et sciences sociales), qui rassemble dix établissements et organismes en un pôle international de recherche et de formation en sciences humaines et sociales : le Centre national de la recherche scientifique, l’École des hautes études en sciences sociales, l’École pratique des hautes études, la Fondation maison des sciences de l’homme, l’Institut national d’études démographiques, l’université Paris I Panthéon-Sorbonne, l’univers",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "université Paris I Panthéon-Sorbonne",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "L’École est membre fondateur du Campus Condorcet (Cité des humanités et sciences sociales), qui rassemble dix établissements et organismes en un pôle international de recherche et de formation en sciences humaines et sociales : le Centre national de la recherche scientifique, l’École des hautes études en sciences sociales, l’École pratique des hautes études, la Fondation maison des sciences de l’homme, l’Institut national d’études démographiques, l’université Paris I Panthéon-Sorbonne, l’univers",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut national d’histoire de l’art",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Depuis son installation, en 2014, au 65, rue de Richelieu (l’un des quartiers où fut implanté l’établissement à ses débuts), l’École nationale des chartes - PSL noue une relation privilégiée avec la Bibliothèque nationale de France (BnF) et l’Institut national d’histoire de l’art (INHA), partenaires de l’espace « Richelieu – bibliothèques, musée, galeries ».",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Centre André Chastel",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Elles organisent également conjointement le cycle de conférences « Trésors de Richelieu » et le programme de recherche « Histoire du quartier Richelieu », en collaboration avec le Centre André Chastel et le Centre allemand d’histoire de l’art.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Centre allemand d’histoire de l’art",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Elles organisent également conjointement le cycle de conférences « Trésors de Richelieu » et le programme de recherche « Histoire du quartier Richelieu », en collaboration avec le Centre André Chastel et le Centre allemand d’histoire de l’art.",
     "confidence": 0.9
    },
    {
     "partner_name": "Fondation Josée et René de Chambrun – La Fayette",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -317,7 +460,7 @@
    },
    {
     "partner_name": "Memorist",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -326,7 +469,7 @@
    },
    {
     "partner_name": "La Boîte Cauchard",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -335,7 +478,7 @@
    },
    {
     "partner_name": "Fondation Etrillard",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -344,7 +487,7 @@
    },
    {
     "partner_name": "Arkhênum",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -353,7 +496,7 @@
    },
    {
     "partner_name": "La Reliure du Limousin",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -362,7 +505,7 @@
    },
    {
     "partner_name": "Greenbirdie",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -371,7 +514,7 @@
    },
    {
     "partner_name": "Sahar",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -380,7 +523,7 @@
    },
    {
     "partner_name": "Tribvn",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -389,7 +532,7 @@
    },
    {
     "partner_name": "Perles d’histoire",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -398,7 +541,7 @@
    },
    {
     "partner_name": "Guénifey",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -407,7 +550,7 @@
    },
    {
     "partner_name": "Fondation La Poste",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -416,7 +559,7 @@
    },
    {
     "partner_name": "Dassault Systèmes La Fondation",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -425,7 +568,7 @@
    },
    {
     "partner_name": "Haas",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -434,7 +577,7 @@
    },
    {
     "partner_name": "Fondation Jan Michalski",
-    "partner_country": "unknown",
+    "partner_country": "Switzerland",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -443,7 +586,7 @@
    },
    {
     "partner_name": "Michelin / Fondation d'Entreprise",
-    "partner_country": "unknown",
+    "partner_country": "France",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
@@ -458,6 +601,42 @@
     "source_url": "https://www.chartes.psl.eu/fondation/partenaires-de-la-fondation",
     "evidence_quote": "[Bibliotheca]",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "université de Groningen",
+    "partner_country": "Pays-Bas",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/international/professeurs-invites",
+    "evidence_quote": "Professeure en humanités numériques à l'université de Groningen aux Pays-Bas.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université de Genève",
+    "partner_country": "Suisse",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/international/professeurs-invites",
+    "evidence_quote": "Professeur d’Histoire de la langue française et de grammaire historique du français à l’Université de Genève",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École polytechnique fédérale de Lausanne (EPFL)",
+    "partner_country": "Suisse",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/international/professeurs-invites",
+    "evidence_quote": "Professeure à l’École polytechnique fédérale de Lausanne (EPFL)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "université d’Aarhus",
+    "partner_country": "Danemark",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chartes.psl.eu/international/professeurs-invites",
+    "evidence_quote": "Professeur à l’université d’Aarhus (Danemark)",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
@@ -468,54 +647,71 @@
     "role": "main",
     "source_url": "https://www.chartes.psl.eu/",
     "evidence_quote": "65, rue de Richelieu 75002 Paris"
+   },
+   {
+    "campus_name": "Campus Condorcet",
+    "city": "Aubervilliers",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.chartes.psl.eu/ecole/gouvernance",
+    "evidence_quote": "Le CTHS et l’Urfist de Paris, instituts rattachés à l’École, et le Centre Jean-Mabillon, laboratoire de recherche, sont installés sur le Campus Condorcet (la Cité des humanités et sciences sociales), dans le bâtiment de recherche Nord, au 14, cours des Humanités, à Aubervilliers."
    }
   ],
-  "stated_total": 13,
-  "stated_total_quote": "13 résultats",
-  "stated_total_url": "https://www.chartes.psl.eu/recherche/centre-jean-mabillon/projets-de-recherche?title=&ongoing=All&person=All&cjm=1&partner=All",
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
   "truncated": false,
-  "total_seen": 13,
-  "pages_read": 8,
-  "coverage_note": "The evidence provides a list of research project partners but does not contain a formal list of Erasmus+ or international academic mobility partners. No specific international relations officer is named.",
+  "total_seen": 67,
+  "pages_read": 10,
+  "coverage_note": "The institution lists several research partners and institutional members, but does not provide a formal list of Erasmus+ mobility partners.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.2,
-  "crawl_s": 9.4,
-  "ai_calls": 4,
-  "partner_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 16.1,
+  "ai_calls": 6,
+  "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 6.6,
+  "model_s": 9.7,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 3.6,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 13,
-    "accepted": 13
+    "returned": 11,
+    "accepted": 10
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 22,
-    "accepted": 22
+    "returned": 17,
+    "accepted": 16
    },
    {
     "lines": [
      281,
-     390
+     420
     ],
-    "returned": 14,
-    "accepted": 14
+    "returned": 29,
+    "accepted": 29
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 4,
+    "accepted": 4
    }
   ],
-  "total_seconds": 18.2
- },
- "rechecked": true
+  "total_seconds": 31.2
+ }
 }
