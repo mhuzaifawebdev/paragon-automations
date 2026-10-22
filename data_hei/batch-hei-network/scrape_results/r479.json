@@ -1,25 +1,37 @@
 {
  "row_id": "r479",
- "scraped_at": "2026-10-12T06:03:05Z",
+ "scraped_at": "2026-10-22T13:56:15Z",
  "contacts": {
   "row_id": "r479",
   "institution_name": "ECOLE NATIONALE SUPERIEURE DES MINES DE PARIS",
   "institution_type": "university",
   "official_website": "https://www.imt-mines-ales.fr/",
-  "country": null,
+  "country": {
+   "value": "France",
+   "source_url": "https://www.imt-mines-ales.fr/ecole/campus/decouvrir-les-campus-dimt-mines-ales",
+   "evidence_quote": "Alès se trouve dans le Sud de la France, entre Cévennes et Méditerranée, à 45 km de Nîmes et 90 km de Montpellier. Capitale des Cévennes, sous-préfecture du Gard, Alès compte aujourd'hui environ 46000 habitants."
+  },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Assia Tria",
+   "designation": "Director of International Action (interim)",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.imt-mines-ales.fr/ecole/imt-mines-ales/strategie-gouvernance-et-organisation",
+   "evidence_quote": "Le directrice de l'école est Assia Tria, placé sous l’autorité de la directrice générale de l’IMT. ... Directrice de l’action internationale (DAI) par intérim : Mme Assia Tria : « Au service de tous les processus, acquérir l’expertise du milieu de l’enseignement supérieur et de la recherche à l’international dans le but d’élargir au monde les chances d’accomplissement professionnel des élèves. »"
+  },
+  "alternates": [],
+  "rung": "Head of international relations. She is the Director of International Action and is responsible for the international strategy of the school.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -60,7 +72,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Universités de Mons",
+    "partner_name": "Université de Mons",
     "partner_country": "Belgium",
     "partner_type": "university",
     "mobility_type": "study",
@@ -69,7 +81,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Universités de Liège",
+    "partner_name": "Université de Liège",
     "partner_country": "Belgium",
     "partner_type": "university",
     "mobility_type": "study",
@@ -141,12 +153,48 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Concordia",
+    "partner_name": "Concordia University",
     "partner_country": "Canada",
     "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
     "evidence_quote": "IMT Mines Alès a tissé un important réseau de coopération avec les universités québécoises : l’Ecole Polytechnique de Montréal, l’Ecole de Technologie Supérieure à Montréal et l'Université de Laval (Québec) accueillent nos élèves aussi bien en échange qu’en double diplôme. L’Université du Québec en Abitibi-Temiscamingue (UQAT) permet à nos étudiants de partir en échange. C’est également le cas de l’Université de Sherbrooke, reconnue pour ses méthodes pédagogiques innovantes. Concordia, une des d",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UFRGS",
+    "partner_country": "Brazil",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
+    "evidence_quote": "Les universités du réseau BRAFITEC (Brésil France Ingénierie et Technologie) accueillent nos élèves en séjour d’échange ou de double diplôme. De nombreux étudiants brésilien séjournent à l’école. Parmi de ce réseau important : l’UFRGS à Porto Alegre, la PUC Rio de Janeiro, l’UFMG à Belo Horizonte, l’UFES à Vitoria.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "PUC Rio de Janeiro",
+    "partner_country": "Brazil",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
+    "evidence_quote": "Les universités du réseau BRAFITEC (Brésil France Ingénierie et Technologie) accueillent nos élèves en séjour d’échange ou de double diplôme. De nombreux étudiants brésilien séjournent à l’école. Parmi de ce réseau important : l’UFRGS à Porto Alegre, la PUC Rio de Janeiro, l’UFMG à Belo Horizonte, l’UFES à Vitoria.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UFMG",
+    "partner_country": "Brazil",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
+    "evidence_quote": "Les universités du réseau BRAFITEC (Brésil France Ingénierie et Technologie) accueillent nos élèves en séjour d’échange ou de double diplôme. De nombreux étudiants brésilien séjournent à l’école. Parmi de ce réseau important : l’UFRGS à Porto Alegre, la PUC Rio de Janeiro, l’UFMG à Belo Horizonte, l’UFES à Vitoria.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UFES",
+    "partner_country": "Brazil",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
+    "evidence_quote": "Les universités du réseau BRAFITEC (Brésil France Ingénierie et Technologie) accueillent nos élèves en séjour d’échange ou de double diplôme. De nombreux étudiants brésilien séjournent à l’école. Parmi de ce réseau important : l’UFRGS à Porto Alegre, la PUC Rio de Janeiro, l’UFMG à Belo Horizonte, l’UFES à Vitoria.",
     "confidence": 0.9
    },
    {
@@ -242,15 +290,78 @@
    {
     "partner_name": "Erasmus",
     "partner_country": "unknown",
-    "partner_type": "network",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.imt-mines-ales.fr/formations/formation-dingenieur-generaliste/doubles-diplomes-mobilites-formation-dingenieur",
     "evidence_quote": "des aides financières possibles : Régions, Erasmus, Mécénat,…",
     "confidence": 0.9
    },
    {
+    "partner_name": "CFA FormaSup",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-mines-ales.fr/ecole/imt-mines-ales/strategie-gouvernance-et-organisation",
+    "evidence_quote": "le CFA FormaSup",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "fondation Mines-Télécom",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-mines-ales.fr/ecole/imt-mines-ales/strategie-gouvernance-et-organisation",
+    "evidence_quote": "la fondation Mines-Alès, hébergée par la fondation Mines-Télécom ;",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut Carnot M.I.N.E.S",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-mines-ales.fr/ecole/imt-mines-ales/strategie-gouvernance-et-organisation",
+    "evidence_quote": "l’Institut Carnot M.I.N.E.S, en partenariat avec les autres écoles des mines et l’école Polytechnique ;",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "école Polytechnique",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-mines-ales.fr/ecole/imt-mines-ales/strategie-gouvernance-et-organisation",
+    "evidence_quote": "l’Institut Carnot M.I.N.E.S, en partenariat avec les autres écoles des mines et l’école Polytechnique ;",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut Mines-Télécom",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-mines-ales.fr/formations/ingenieur-de-specialite-par-apprentissage/ingenieur-informatique-et-reseaux",
+    "evidence_quote": "du 02 février au 10 mars 2026 inclus : dépôt du dossier de candidature en ligne via le portail de l'Institut Mines-Télécom. Vous ne pouvez candidater qu'à l'un ou l'autre des parcours proposés dans la formation \"Informatique et Réseaux\" d'IMT Mines Alès.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Campus France",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-mines-ales.fr/formations/ingenieur-de-specialite-par-apprentissage/ingenieur-informatique-et-reseaux",
+    "evidence_quote": "Attention : aucune candidature via Campus France ne sera prise en compte.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IMT",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-mines-ales.fr/formations/ingenieur-de-specialite-par-apprentissage/ingenieur-informatique-et-reseaux",
+    "evidence_quote": "Des informations utiles peuvent être consultées sur le portail IMT dédié à l'alternance : https://alternance.imt.fr/admissions",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "EULiST",
-    "partner_country": "Europe",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
@@ -258,17 +369,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "ERASMUS+",
-    "partner_country": "Europe",
-    "partner_type": "network",
-    "mobility_type": "study",
-    "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
-    "evidence_quote": "Erasmus",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Université de Mons",
-    "partner_country": "Belgium",
+    "partner_name": "Universités de Mons",
+    "partner_country": "Belgique",
     "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
@@ -276,8 +378,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Université de Liège",
-    "partner_country": "Belgium",
+    "partner_name": "Universités de Liège",
+    "partner_country": "Belgique",
     "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
@@ -286,11 +388,20 @@
    },
    {
     "partner_name": "IIT Delhi",
-    "partner_country": "India",
+    "partner_country": "Inde",
     "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
     "evidence_quote": "IIT Delhi",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Seoul National University",
+    "partner_country": "Corée du Sud",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
+    "evidence_quote": "Situé dans un des pays les plus développé d’Asie, la Seoul National University accueille nos élèves pour un semestre d’échange et en double diplôme.",
     "confidence": 0.9
    },
    {
@@ -304,47 +415,11 @@
    },
    {
     "partner_name": "BRAFITEC",
-    "partner_country": "Brazil",
+    "partner_country": "Brésil",
     "partner_type": "network",
     "mobility_type": "study",
     "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
     "evidence_quote": "Brafitec",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "UFRGS",
-    "partner_country": "Brazil",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
-    "evidence_quote": "Les universités du réseau BRAFITEC (Brésil France Ingénierie et Technologie) accueillent nos élèves en séjour d’échange ou de double diplôme. De nombreux étudiants brésilien séjournent à l’école. Parmi de ce réseau important : l’UFRGS à Porto Alegre, la PUC Rio de Janeiro, l’UFMG à Belo Horizonte, l’UFES à Vitoria.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "PUC Rio de Janeiro",
-    "partner_country": "Brazil",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
-    "evidence_quote": "Les universités du réseau BRAFITEC (Brésil France Ingénierie et Technologie) accueillent nos élèves en séjour d’échange ou de double diplôme. De nombreux étudiants brésilien séjournent à l’école. Parmi de ce réseau important : l’UFRGS à Porto Alegre, la PUC Rio de Janeiro, l’UFMG à Belo Horizonte, l’UFES à Vitoria.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "UFMG",
-    "partner_country": "Brazil",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
-    "evidence_quote": "Les universités du réseau BRAFITEC (Brésil France Ingénierie et Technologie) accueillent nos élèves en séjour d’échange ou de double diplôme. De nombreux étudiants brésilien séjournent à l’école. Parmi de ce réseau important : l’UFRGS à Porto Alegre, la PUC Rio de Janeiro, l’UFMG à Belo Horizonte, l’UFES à Vitoria.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "UFES",
-    "partner_country": "Brazil",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.imt-mines-ales.fr/international/partenaires-internationaux-0",
-    "evidence_quote": "Les universités du réseau BRAFITEC (Brésil France Ingénierie et Technologie) accueillent nos élèves en séjour d’échange ou de double diplôme. De nombreux étudiants brésilien séjournent à l’école. Parmi de ce réseau important : l’UFRGS à Porto Alegre, la PUC Rio de Janeiro, l’UFMG à Belo Horizonte, l’UFES à Vitoria.",
     "confidence": 0.9
    }
   ],
@@ -366,7 +441,7 @@
     "evidence_quote": "Le campus technologique Louis Leprince Ringuet (situé 1A rue Jules Renard) où sont installés l’ensemble des centres de recherche dédiés aux matériaux (C2MA), à l'environnement (CREER) et à l’informatique & IA (CERIS)"
    },
    {
-    "campus_name": "Hélioparc",
+    "campus_name": "Campus Hélioparc",
     "city": "Pau",
     "country": "France",
     "role": "branch",
@@ -380,19 +455,20 @@
   "truncated": true,
   "total_seen": 96,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of some international partners but does not contain a comprehensive list of all 96 partners. No specific Erasmus coordinator contact details were found.",
+  "coverage_note": "The evidence provides a list of some international partners but does not contain a comprehensive list of all 96 partners mentioned. Contact details for the international office are limited to the director's role description.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.2,
-  "crawl_s": 15.1,
-  "ai_calls": 4,
-  "partner_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 4.9,
+  "ai_calls": 5,
+  "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 6.0,
+  "model_s": 6.9,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.4,
   "slices": [
    {
     "lines": [
@@ -407,19 +483,26 @@
      141,
      280
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 5,
+    "accepted": 5
    },
    {
     "lines": [
      421,
      560
     ],
-    "returned": 22,
-    "accepted": 21
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 20,
+    "accepted": 20
    }
   ],
-  "total_seconds": 25.4
- },
- "rechecked": true
+  "total_seconds": 13.3
+ }
 }
