@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-22T10:31:39.569195+00:00",
+ "generated_at": "2026-10-22T10:32:36.696782+00:00",
  "totals": {
-  "institutes": 1028,
-  "with_contact": 726,
-  "with_email": 579,
+  "institutes": 1034,
+  "with_contact": 728,
+  "with_email": 583,
   "personal_email": 520,
-  "generic_email": 315,
-  "partners": 31604,
-  "campuses": 1453,
+  "generic_email": 319,
+  "partners": 31670,
+  "campuses": 1461,
   "no_website": 300,
-  "with_website": 728,
+  "with_website": 734,
   "batches": 11
  },
  "days": [
@@ -27,15 +27,15 @@
   },
   {
    "day": "2026-10-04",
-   "institutes": 170,
+   "institutes": 173,
    "with_contact": 8,
-   "with_email": 6,
+   "with_email": 8,
    "personal_email": 6,
-   "generic_email": 0,
-   "partners": 290,
-   "campuses": 11,
+   "generic_email": 2,
+   "partners": 320,
+   "campuses": 16,
    "no_website": 162,
-   "with_website": 8
+   "with_website": 11
   },
   {
    "day": "2026-10-07",
@@ -99,18 +99,34 @@
   },
   {
    "day": "2026-10-22",
-   "institutes": 4,
-   "with_contact": 4,
-   "with_email": 4,
+   "institutes": 7,
+   "with_contact": 6,
+   "with_email": 6,
    "personal_email": 4,
-   "generic_email": 4,
-   "partners": 71,
-   "campuses": 10,
+   "generic_email": 6,
+   "partners": 107,
+   "campuses": 13,
    "no_website": 0,
-   "with_website": 4
+   "with_website": 7
   }
  ],
  "batches": [
+  {
+   "batch": "batch-20261003-2347",
+   "status": "done",
+   "total_rows": 28,
+   "done": 28,
+   "updated": "2026-10-22T10:32:30.041123+00:00",
+   "institutes": 28,
+   "with_contact": 5,
+   "with_email": 6,
+   "personal_email": 2,
+   "generic_email": 4,
+   "partners": 179,
+   "campuses": 12,
+   "no_website": 19,
+   "with_website": 9
+  },
   {
    "batch": "batch-20260930-0124",
    "status": "done",
@@ -270,22 +286,6 @@
    "campuses": 7,
    "no_website": 143,
    "with_website": 5
-  },
-  {
-   "batch": "batch-20261003-2347",
-   "status": "running",
-   "total_rows": 28,
-   "done": 28,
-   "updated": "2026-10-04T06:59:23.660612+00:00",
-   "institutes": 22,
-   "with_contact": 3,
-   "with_email": 2,
-   "personal_email": 2,
-   "generic_email": 0,
-   "partners": 113,
-   "campuses": 4,
-   "no_website": 19,
-   "with_website": 3
   }
  ]
 }
