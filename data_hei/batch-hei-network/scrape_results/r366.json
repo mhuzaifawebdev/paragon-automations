@@ -1,6 +1,6 @@
 {
  "row_id": "r366",
- "scraped_at": "2026-10-12T05:41:29Z",
+ "scraped_at": "2026-10-22T20:48:00Z",
  "contacts": {
   "row_id": "r366",
   "institution_name": "UNIVERSITE DE NOUVELLE CALEDONIE",
@@ -17,17 +17,25 @@
    "evidence_quote": "Contact usCampus de Nouville – BP R4 – 98851 Nouméa Cedex – Phone : (+687) 290 290© Université de la Nouvelle-Calédonie – Legal"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "international@unc.nc",
   "generic_email_url": "https://www.unc.nc/en/international-and-partnerships/outbound-mobility/student-applications/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Catherine Ris",
+   "designation": "President of the University",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.unc.nc/universite/gouvernance/",
+   "evidence_quote": "Catherine Ris, qui était jusque-là vice-présidente du conseil d’administration de l’UNC en charge des partenariats, est professeure d’économie à l’Université de la Nouvelle-Calédonie. Après un doctorat à l’Université de Lyon (France), elle a réalisé son post-doctorat au Research Center for Education and the Labour Market (ROA) à l’Université de Maastricht (Pays-Bas). Elle est titulaire d’une HDR – Habilitation à diriger des recherches – de l’Université de Paris-Est Marne-la-Vallée. ... Le 10 août 2021, Catherine Ris devient la première femme présidente d’université en Nouvelle-Calédonie."
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Catherine Ris is the President of the University and was previously the Vice-President in charge of partnerships.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -296,57 +304,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 21.9,
-  "ai_calls": 7,
-  "partner_calls": 5,
+  "crawl_s": 46.4,
+  "ai_calls": 1,
+  "model_s": 2.7,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 2,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 6,
-    "accepted": 5
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 15,
-    "accepted": 12
-   },
-   {
-    "lines": [
-     561,
-     700
-    ],
-    "returned": 6,
-    "accepted": 6
-   }
-  ],
-  "total_seconds": 28.6
- },
- "rechecked": 3
+  "email_search_s": 9.4,
+  "total_seconds": 58.6
+ }
 }

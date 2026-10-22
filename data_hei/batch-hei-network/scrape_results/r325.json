@@ -1,6 +1,6 @@
 {
  "row_id": "r325",
- "scraped_at": "2026-10-22T13:51:31Z",
+ "scraped_at": "2026-10-22T20:47:23Z",
  "contacts": {
   "row_id": "r325",
   "institution_name": "HOCHSCHULE FLENSBURG",
@@ -8,20 +8,30 @@
   "official_website": "https://hs-flensburg.de/",
   "country": {
    "value": "Germany",
-   "source_url": "https://hs-flensburg.de/en/hochschule/international-office/partnerhochschulen",
+   "source_url": "https://hs-flensburg.de/en/about-us/university-organisation/presidents-office",
    "evidence_quote": "Germany"
   },
   "phone": null,
   "phone_alt": [],
   "generic_email": "international@hs-flensburg.de",
-  "generic_email_url": "https://hs-flensburg.de/international/nach-flensburg-kommen/austauschstudierende",
-  "contact": null,
+  "generic_email_url": "https://hs-flensburg.de/en/about-us/university-organisation/presidents-office",
+  "contact": {
+   "name": "Ute Sachau",
+   "designation": "Erasmus+ Programme Coordinator",
+   "designation_local": "",
+   "email": "ute.sachau@hs-flensburg.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://hs-flensburg.de/international/nach-flensburg-kommen/austauschstudierende/bewerbung",
+   "evidence_quote": "Für Ihre Fragen zum Studium an der Hochschule Flensburg und Ihrer Bewerbung steht Ihnen unser International Office unter der Leitung unserer Erasmus+ Programm-Koordinatorin, Ute Sachau, gern zur Verfügung.",
+   "email_source_url": "https://hs-flensburg.de/sites/default/files/pdf/2020/Information_for_International_Students_2019.pdf"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Institutional Erasmus+ coordinator. Ute Sachau is identified as the head of the International Office and Erasmus+ Programme Coordinator. Own work email found on a page naming them.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
+  "confidence": 0.8,
+  "needs_human_check": false,
+  "pages_read": 20,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -769,57 +779,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 15.0,
-  "ai_calls": 7,
-  "partner_calls": 5,
+  "crawl_s": 40.5,
+  "ai_calls": 1,
+  "model_s": 7.3,
   "cost_usd_estimate": 0.0,
-  "model_s": 11.3,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 1,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 1,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 17,
-    "accepted": 17
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 36,
-    "accepted": 36
-   },
-   {
-    "lines": [
-     561,
-     643
-    ],
-    "returned": 8,
-    "accepted": 8
-   }
-  ],
-  "total_seconds": 28.1
- },
- "rechecked": 3
+  "email_search_s": 13.6,
+  "total_seconds": 61.5
+ }
 }

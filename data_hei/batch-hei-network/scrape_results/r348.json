@@ -1,6 +1,6 @@
 {
  "row_id": "r348",
- "scraped_at": "2026-10-22T13:52:25Z",
+ "scraped_at": "2026-10-22T20:47:35Z",
  "contacts": {
   "row_id": "r348",
   "institution_name": "INSTITUT PAUL BOCUSE ECOLE DE MANAGEMENT",
@@ -15,14 +15,46 @@
   "phone_alt": [],
   "generic_email": "",
   "generic_email_url": "",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "François Mary",
+   "designation": "CEO",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://en.institutlyfe.com/francois-mary-appointed-ceo-of-institut-lyfe/",
+   "evidence_quote": "[François Mary CEO Institut Lyfe]With an outstanding career in the hospitality and restaurant industry, François Mary brings to Institut Lyfe a well-established expertise in the strategic and operational management of complex projects, acquired in the restaurant, hospitality, and tourism sectors. After beginning his career in restaurant management, leading brasseries and Michelin-starred establishments in England and Switzerland, François Mary went on to manage major hotel complexes in France, A"
+  },
+  "alternates": [
+   {
+    "name": "Agnès GIBOREAU",
+    "designation": "DIRECTOR OF THE RESEARCH CENTRE",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://en.institutlyfe.com/institut-lyfe/faculty-and-research/faculty-directory-2/",
+    "evidence_quote": "DIRECTOR OF THE RESEARCH CENTRE ... Agnès GIBOREAU",
+    "why_chosen": "Other role. Agnès Giboreau is the Director of the Research Centre at Institut Lyfe."
+   },
+   {
+    "name": "Ksenia KIRILLOVA",
+    "designation": "Head of Faculty - Research / Full Professor",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://en.institutlyfe.com/institut-lyfe/faculty-and-research/faculty-directory-2/",
+    "evidence_quote": "Head of Faculty - Research / Full Professor ... Ksenia KIRILLOVA",
+    "why_chosen": "Other role. Ksenia Kirillova is the Head of Faculty - Research at Institut Lyfe."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). François Mary is the CEO of Institut Lyfe.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -912,57 +944,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 18.5,
-  "ai_calls": 7,
-  "partner_calls": 5,
+  "crawl_s": 35.6,
+  "ai_calls": 2,
+  "model_s": 7.6,
   "cost_usd_estimate": 0.0,
-  "model_s": 14.7,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 3,
-    "accepted": 3
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 7,
-    "accepted": 7
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 4,
-    "accepted": 3
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 40,
-    "accepted": 39
-   },
-   {
-    "lines": [
-     561,
-     700
-    ],
-    "returned": 42,
-    "accepted": 36
-   }
-  ],
-  "total_seconds": 36.0
- },
- "rechecked": 3
+  "contact_pass": 4,
+  "email_search_s": 9.7,
+  "total_seconds": 55.1
+ }
 }
