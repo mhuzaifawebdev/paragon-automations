@@ -1,6 +1,6 @@
 {
  "row_id": "r217",
- "scraped_at": "2026-10-22T13:48:10Z",
+ "scraped_at": "2026-10-22T20:26:21Z",
  "contacts": {
   "row_id": "r217",
   "institution_name": "FUNDACION CEIMAR",
@@ -15,13 +15,34 @@
   "phone_alt": [],
   "generic_email": "international.ceimar@campusdelmar.com",
   "generic_email_url": "https://campusdelmar.com/wp-content/uploads/2026/04/260430_Bases_Movilidad-Internacional-de-Personal_Erasmus_def.pdf",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Casimiro Mantell Serrano",
+   "designation": "President of the CEIMAR Foundation and Rector of the University of Cádiz",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://campusdelmar.com/el-ceimar-refuerza-la-cooperacion-eurocaribena-en-innovazul-caribe-2026-el-mar-que-nos-une/",
+   "evidence_quote": "La Universidad del Magdalena forma parte desde 2023 del Patronato de CEIMAR, liderado por la Universidad de Cádiz (UCA), fortaleciendo los vínculos entre el ecosistema andaluz y el Caribe colombiano. Durante la inauguración, el presidente de la Fundación CEIMAR y rector de la UCA, Casimiro Mantell Serrano, ha definido a ‘Innovazul Caribe’ como el “evento de eventos”, ya que conecta el conocimiento, la empresa y la sociedad. En este contexto, “la Universidad debe ser útil para la sociedad. Hablam"
+  },
+  "alternates": [
+   {
+    "name": "Eva Mena Medina",
+    "designation": "Managing Director of the CEIMAR Foundation",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://campusdelmar.com/ceimar-participa-en-la-jornada-de-acreditacion-erasmus-para-consorcios-de-movilidad-de-educacion-superior/",
+    "evidence_quote": "La jornada, a la que ha asistido la directora gerente de la Fundación CEIMAR, Eva Mena Medina, ha reunido a representantes y agentes vinculados a la coordinación de consorcios de movilidad de Educación Superior para abordar el contexto actual y futuro de Erasmus+, así como el papel que desempeñan estos consorcios en la internacionalización de las instituciones y de sus comunidades educativas y científicas.",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the Managing Director of the Foundation and is involved in the coordination of Erasmus+ mobility consortia."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the President of the CEIMAR Foundation and was identified as a key contact on file.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
-  "pages_read": 10,
+  "pages_read": 16,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -841,65 +862,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 29.3,
-  "ai_calls": 8,
-  "partner_calls": 6,
+  "crawl_s": 56.2,
+  "ai_calls": 1,
+  "model_s": 4.8,
   "cost_usd_estimate": 0.0,
-  "model_s": 13.4,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 30,
-    "accepted": 27
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 42,
-    "accepted": 40
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 6,
-    "accepted": 5
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     561,
-     700
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     701,
-     835
-    ],
-    "returned": 30,
-    "accepted": 30
-   }
-  ],
-  "total_seconds": 44.1
- },
- "rechecked": 3
+  "email_search_s": 146.9,
+  "total_seconds": 207.9
+ }
 }
