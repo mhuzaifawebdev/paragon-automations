@@ -1,6 +1,6 @@
 {
  "row_id": "r872",
- "scraped_at": "2026-10-12T07:14:44Z",
+ "scraped_at": "2026-10-22T22:40:08Z",
  "contacts": {
   "row_id": "r872",
   "institution_name": "LYCÉE LAMARTINE",
@@ -13,17 +13,48 @@
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 5,
-  "notes": "site found via: Wikidata. mode: gemini. 3 page(s) could not be read.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Patrick NOËL",
+   "designation": "Proviseur",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.lycee-tripoli.edu.lb/personnels-du-lflt/",
+   "evidence_quote": "Patrick NOËL ... Proviseur"
+  },
+  "alternates": [
+   {
+    "name": "Olivier MATHON",
+    "designation": "Directeur d’École",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.lycee-tripoli.edu.lb/personnels-du-lflt/",
+    "evidence_quote": "Olivier MATHON ... Directeur d’École",
+    "why_chosen": "Principal / director (no Erasmus contact found). Olivier MATHON is the school director."
+   },
+   {
+    "name": "Roland BAUDUIN",
+    "designation": "Proviseur Adjoint",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.lycee-tripoli.edu.lb/personnels-du-lflt/",
+    "evidence_quote": "Roland BAUDUIN ... Proviseur Adjoint",
+    "why_chosen": "Other role. Roland BAUDUIN serves as the deputy head of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Patrick NOËL is the head of the institution (Proviseur).",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -66,12 +97,12 @@
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Lycée Alphonse de Lamartine",
-    "city": "Kfar Kahel",
+    "campus_name": "Annexe de Tripoli",
+    "city": "Tripoli",
     "country": "Liban",
-    "role": "main",
-    "source_url": "https://www.lycee-tripoli.edu.lb/contact-us/",
-    "evidence_quote": "Kfar Kahel – Liban Nord"
+    "role": "branch",
+    "source_url": "https://www.lycee-tripoli.edu.lb",
+    "evidence_quote": "ANNEXE DE TRIPOLI"
    }
   ],
   "stated_total": null,
@@ -80,20 +111,22 @@
   "truncated": false,
   "total_seen": 4,
   "pages_read": 5,
-  "coverage_note": "The evidence does not provide a formal list of Erasmus+ or academic mobility partners. The contact information is limited to general phone numbers and does not include specific email addresses for staff. 3 page(s) could not be read.",
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ or international academic partners. The contacts section is limited as no specific names or email addresses for international relations staff were found in the provided text. 3 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 19.4,
-  "ai_calls": 3,
+  "crawl_s": 19.2,
+  "ai_calls": 4,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 3.3,
+  "model_s": 3.7,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
   "contact_pass": 0,
+  "staff_pages": 2,
+  "email_search_s": 12.5,
   "slices": [
    {
     "lines": [
@@ -104,7 +137,6 @@
     "accepted": 4
    }
   ],
-  "total_seconds": 23.6
- },
- "rechecked": 3
+  "total_seconds": 142.7
+ }
 }
