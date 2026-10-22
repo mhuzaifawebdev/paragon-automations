@@ -1,29 +1,37 @@
 {
  "row_id": "r172",
- "scraped_at": "2026-10-11T11:28:05Z",
+ "scraped_at": "2026-10-22T20:24:37Z",
  "contacts": {
   "row_id": "r172",
   "institution_name": "Scuola Superiore per Mediatori Linguistici CIELS",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.ciels.it/",
   "country": null,
   "phone": {
    "value": "+39 049774152",
    "source_url": "https://www.ciels.it/",
-   "evidence_quote": "Tel. +39 049774152 <tel +39 049774152>"
+   "evidence_quote": "Tel. +39 049774152 <tel +39%20049774152>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "erasmus@ciels.it",
   "generic_email_url": "https://www.ciels.it/erasmus-e-opportunita-allestero/erasmus-placement/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Veronica Piovan",
+   "designation": "Head of the International Relations Office",
+   "designation_local": "",
+   "email": "erasmus@ciels.it",
+   "office_email": "",
+   "phone": "049 774152",
+   "source_url": "https://www.ciels.it/wp-content/uploads/2025/03/BANDO-ERASMUS-SMP-mobilita-per-placement-A.A.-2025.2026.pdf",
+   "evidence_quote": "la Responsabile del Procedimento: ... Dott.ssa Veronica Piovan, via S. Venier 200 - Padova, tel. 049 774152 – interno 4, e-mail erasmus@ciels.it."
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. She is the designated contact person for Erasmus+ and international mobility at the institution.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -434,33 +442,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 26.7,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 39.2,
+  "ai_calls": 1,
+  "model_s": 6.0,
   "cost_usd_estimate": 0.0,
-  "model_s": 9.1,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     561,
-     700
-    ],
-    "returned": 22,
-    "accepted": 22
-   },
-   {
-    "lines": [
-     701,
-     840
-    ],
-    "returned": 17,
-    "accepted": 17
-   }
-  ],
-  "total_seconds": 37.5
- },
- "rechecked": 3
+  "email_search_s": 102.6,
+  "total_seconds": 147.8
+ }
 }
