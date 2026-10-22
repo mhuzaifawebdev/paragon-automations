@@ -1,6 +1,6 @@
 {
  "row_id": "r058",
- "scraped_at": "2026-10-07T17:58:36Z",
+ "scraped_at": "2026-10-22T20:15:52Z",
  "contacts": {
   "row_id": "r058",
   "institution_name": "ECOLE NATIONALE SUPERIEURE DES SCIENCES AGRONOMIQUES DE BORDEAUX AQUITAINE",
@@ -13,16 +13,25 @@
    "evidence_quote": "+33 (0)5 57 35 07 07"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini.",
   "generic_email": "international@agro-bordeaux.fr",
-  "generic_email_url": "https://www.agro-bordeaux.fr/international/programmes-dechanges/mobilite-entrante/"
+  "generic_email_url": "https://www.agro-bordeaux.fr/international/programmes-dechanges/mobilite-entrante/",
+  "contact": {
+   "name": "Marie-Pierre Ellies-Oury",
+   "designation": "Associate Director of Research, Professor in Animal Science",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.agro-bordeaux.fr/tous-les-enseignants-chercheurs/",
+   "evidence_quote": "ELLIES-OURY Marie-Pierre ... Associate Director of Research, Professor in Animal Science"
+  },
+  "alternates": [],
+  "rung": "Other role. She is listed as a contact in the institution's contact form email list and holds a senior academic position.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -220,33 +229,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 7.1,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 12.4,
+  "ai_calls": 1,
+  "model_s": 21.1,
   "cost_usd_estimate": 0.0,
-  "model_s": 4.3,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 3,
-    "accepted": 3
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 8,
-    "accepted": 6
-   }
-  ],
-  "total_seconds": 14.7
- },
- "rechecked": 3
+  "email_search_s": 3.0,
+  "total_seconds": 36.5
+ }
 }
