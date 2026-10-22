@@ -1,25 +1,37 @@
 {
  "row_id": "r707",
- "scraped_at": "2026-10-12T06:43:28Z",
+ "scraped_at": "2026-10-22T21:22:05Z",
  "contacts": {
   "row_id": "r707",
   "institution_name": "Hochschule für Philosophie München/ Philosophische Fakultät SJ",
   "institution_type": "university",
   "official_website": "https://hfph.de/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "+49 89 2386-2142",
+   "source_url": "https://hfph.de/en/international-office/",
+   "evidence_quote": "+49 89 2386-2142"
+  },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Sophie Wax",
+   "designation": "Study Counseling / International Office",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+49 89 2386-2142",
+   "source_url": "https://hfph.de/en/international-office/",
+   "evidence_quote": "Sophie Wax ... Studienberatung/ International Office"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Sophie Wax is the contact person for the International Office and Erasmus+ at the Munich School of Philosophy.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -271,49 +283,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 19.7,
-  "ai_calls": 6,
-  "partner_calls": 4,
+  "crawl_s": 130.2,
+  "ai_calls": 1,
+  "model_s": 2.4,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 3,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 4,
-    "accepted": 4
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 7,
-    "accepted": 7
-   },
-   {
-    "lines": [
-     421,
-     493
-    ],
-    "returned": 10,
-    "accepted": 10
-   }
-  ],
-  "total_seconds": 26.5
- },
- "rechecked": 3
+  "email_search_s": 9.4,
+  "total_seconds": 142.0
+ }
 }
