@@ -1,0 +1,92 @@
+{
+ "row_id": "r817",
+ "scraped_at": "2026-10-12T07:00:18Z",
+ "contacts": {
+  "row_id": "r817",
+  "institution_name": "Lycée technique nationalisé St Louis",
+  "institution_type": "school",
+  "official_website": "https://www.lyceesaintlouis.fr/",
+  "country": null,
+  "phone": {
+   "value": "05 56 69 35 95",
+   "source_url": "https://www.lyceesaintlouis.fr/",
+   "evidence_quote": "05 56 69 35 95 <tel 0556693595>"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
+  "generic_email": "",
+  "generic_email_url": "",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceesaintlouis.fr/",
+    "evidence_quote": "Les stages à l'étranger, le programme Erasmus+ et Aquitapro",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Aquitapro",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceesaintlouis.fr/",
+    "evidence_quote": "Les stages à l'étranger, le programme Erasmus+ et Aquitapro",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Saint Louis",
+    "city": "Bordeaux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lyceesaintlouis.fr/",
+    "evidence_quote": "Le lycée Saint Louis est un établissement public, situé dans le quartier de Bordeaux Maritime."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 1,
+  "coverage_note": "The evidence mentions the Erasmus+ program but does not provide a list of specific partner institutions. No specific international relations staff are named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 5.4,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 9.1
+ },
+ "rechecked": 3
+}

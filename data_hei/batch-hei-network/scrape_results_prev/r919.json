@@ -1,0 +1,82 @@
+{
+ "row_id": "r919",
+ "scraped_at": "2026-10-22T14:13:57Z",
+ "contacts": {
+  "row_id": "r919",
+  "institution_name": "IES FUENTESNUEVAS",
+  "institution_type": "school",
+  "official_website": "https://iesfuentesnuevas.centros.educa.jcyl.es/",
+  "country": null,
+  "phone": {
+   "value": "987455671",
+   "source_url": "https://iesfuentesnuevas.centros.educa.jcyl.es/sitio/index.cgi",
+   "evidence_quote": "987455671 <tel +34987455671>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "eTwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://iesfuentesnuevas.centros.educa.jcyl.es/sitio/index.cgi",
+    "evidence_quote": "eTwinning Schools 2026-2027",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES FUENTESNUEVAS",
+    "city": "Fuentesnuevas",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesfuentesnuevas.centros.educa.jcyl.es/sitio/index.cgi",
+    "evidence_quote": "C\\ La Dehesa, 23, 24411 Fuentesnuevas"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The website mentions Erasmus+ projects and mobility, but does not list any specific partner institutions or named contact persons for international relations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 8.1,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     121
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 11.2
+ },
+ "rechecked": 3
+}

@@ -1,0 +1,108 @@
+{
+ "row_id": "r608",
+ "scraped_at": "2026-10-12T06:29:25Z",
+ "contacts": {
+  "row_id": "r608",
+  "institution_name": "Akademija strukovnih studija Beograd",
+  "institution_type": "college",
+  "official_website": "https://assb.edu.rs/",
+  "country": null,
+  "phone": {
+   "value": "+381112698222",
+   "source_url": "https://assb.edu.rs/",
+   "evidence_quote": "<tel +381112698222>"
+  },
+  "phone_alt": [],
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
+  "generic_email": "erasmus@assb.edu.rs",
+  "generic_email_url": "https://assb.edu.rs/odlazna-mobilnost-zaposlenih/",
+  "generic_checked": "2026-10-22"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Univeristy Newton",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "https://assb.edu.rs/konkurs-za-mobilnost-zaposlenih-u-kombinovanom-intezivnom-programu-na-univerzitetu-newton-u-pragu-erasmus-plus-activities-within-eu-university-consortia/",
+    "evidence_quote": "комбиновани интезивни програм (Blended Intensive Programme – BIP) под називом ERASMUS PLUS ACTIVITIES WITHIN EU UNIVERSITY CONSORTIA од 11. априла до 18. априла 2025. године,на Универзитету Њутон у Прагу (Univeristy Newton). Више информација на: http://www.vskv.si/mednarodno_delovanje/international_summer_academy/index.php/",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Univerzitet Newton",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "https://assb.edu.rs/konkurs-za-mobilnost-zaposlenih-u-kombinovanom-intezivnom-programu-na-univerzitetu-newton-u-pragu-erasmus-plus-activities-within-eu-university-consortia/",
+    "evidence_quote": "КОНКУРС ЗА МОБИЛНОСТ ЗАПОСЛЕНИХ У КОМБИНОВАНОМ ИНТЕЗИВНОМ ПРОГРАМУ НА УНИВЕРЗИТЕТУ NEWTON У ПРАГУ: ERASMUS PLUS ACTIVITIES WITHIN EU UNIVERSITY CONSORTIA – Akademija",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Akademija strukovnih studija Beograd",
+    "city": "Beograd",
+    "country": "Serbia",
+    "role": "main",
+    "source_url": "https://assb.edu.rs/",
+    "evidence_quote": "11080 Београд"
+   },
+   {
+    "campus_name": "Организациона јединица Чачак",
+    "city": "Чачак",
+    "country": "Serbia",
+    "role": "branch",
+    "source_url": "https://assb.edu.rs/",
+    "evidence_quote": "школа - Организациона јединица Чачак"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ partners, only mentioning a specific university in Prague for a staff mobility program. Andrea Žerajić was not found in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 19.3,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     206
+    ],
+    "returned": 1,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 24.8
+ },
+ "rechecked": 3
+}
