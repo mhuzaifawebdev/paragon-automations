@@ -1,6 +1,6 @@
 {
  "row_id": "r865",
- "scraped_at": "2026-10-12T07:12:25Z",
+ "scraped_at": "2026-10-22T14:11:51Z",
  "contacts": {
   "row_id": "r865",
   "institution_name": "Latvijas Universitātes aģentūra \"Latvijas Universitātes Rīgas 1. medicīnas koledža\"",
@@ -9,17 +9,37 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Ineta Robiņa",
+   "designation": "Docent, Dr.paed.",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.rmk1.lv/lv/starptautiska-sadarbiba/erasmus/macibspeku-mobilitate/",
+   "evidence_quote": "Vārds, uzvārds: Ineta Robiņa, docente, Dr.paed."
+  },
+  "alternates": [
+   {
+    "name": "Agija Pāža",
+    "designation": "Scientific work coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.rmk1.lv/lv/starptautiska-sadarbiba/erasmus/macibspeku-mobilitate/",
+    "evidence_quote": "No 2017. gada 25. septembra līdz 29. septembrim koledžas zinātniskā darba koordinatore Agija Pāža un",
+    "why_chosen": "Other role. Agija Pāža is the college's scientific work coordinator who participated in Erasmus+ mobility."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Ineta Robiņa is a docent who participated in Erasmus+ mobility.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -756,32 +776,34 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.3,
-  "crawl_s": 22.2,
-  "ai_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 24.6,
+  "ai_calls": 4,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 63.0,
+  "model_s": 3.4,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 1.4,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
      141,
-     255
+     184
     ],
-    "returned": 79,
-    "accepted": 75
+    "returned": 5,
+    "accepted": 4
    }
   ],
-  "total_seconds": 88.5
- },
- "rechecked": true
+  "total_seconds": 31.3
+ }
 }
