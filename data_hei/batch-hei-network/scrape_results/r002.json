@@ -513,12 +513,12 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 8.7,
-  "crawl_s": 37.2,
-  "ai_calls": 7,
-  "partner_calls": 6,
+  "discover_s": 0.0,
+  "crawl_s": 25.5,
+  "ai_calls": 8,
+  "partner_calls": 7,
   "cost_usd_estimate": 0.0,
-  "model_s": 53.7,
+  "model_s": 59.6,
   "mode": "gemini",
   "slices": [
    {
@@ -526,16 +526,16 @@
      1,
      140
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 4,
-    "accepted": 4
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
@@ -558,19 +558,27 @@
      561,
      700
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 10,
+    "accepted": 10
    },
    {
     "lines": [
      841,
-     946
+     936
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 0,
+    "accepted": 0
    }
   ],
-  "total_seconds": 99.5
+  "total_seconds": 85.1
  },
  "rechecked": true
 }
