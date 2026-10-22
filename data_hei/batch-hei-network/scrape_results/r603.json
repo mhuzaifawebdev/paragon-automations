@@ -1,6 +1,6 @@
 {
  "row_id": "r603",
- "scraped_at": "2026-10-12T06:27:27Z",
+ "scraped_at": "2026-10-22T14:02:48Z",
  "contacts": {
   "row_id": "r603",
   "institution_name": "University of Music Carl Maria von Weber Dresden",
@@ -11,22 +11,232 @@
    "source_url": "https://www.hfmdd.de/kontakt",
    "evidence_quote": "Germany"
   },
-  "phone": null,
+  "phone": {
+   "value": "+49 351 4923-605",
+   "source_url": "https://www.hfmdd.de/hochschule/leitung-organisation",
+   "evidence_quote": "Telefon: +49 351 4923-605 <tel 00493514923605>"
+  },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "sekretariat.rektorat@hfmdd.de",
+  "generic_email_url": "https://www.hfmdd.de/hochschule/leitung-organisation",
+  "contact": {
+   "name": "Jessica Gründel",
+   "designation": "Erasmus Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+49 351 4923-605",
+   "source_url": "https://www.hfmdd.de/hochschule/leitung-organisation",
+   "evidence_quote": "Gründel, Jessica ... Erasmus-Koordinatorin"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. Jessica Gründel is explicitly listed as the Erasmus Coordinator.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.8,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "sekretariat.rektorat@hfmdd.de",
-  "generic_email_url": "https://www.hfmdd.de/kontakt",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
+   {
+    "partner_name": "Musikhochschulen Detmold",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/hochschule/partner",
+    "evidence_quote": "Musikhochschulen Detmold, Leipzig und Wroclaw",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Leipzig",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/hochschule/partner",
+    "evidence_quote": "Musikhochschulen Detmold, Leipzig und Wroclaw",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Wroclaw",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/hochschule/partner",
+    "evidence_quote": "Musikhochschulen Detmold, Leipzig und Wroclaw",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Norwegian Academy of Music",
+    "partner_country": "Norway",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.hfmdd.de/erasmus-aufenthalt-in-norwegen",
+    "evidence_quote": "Der Meisterklassenstudent Ole Hübner studiert seit März 2020 in der Klasse von Prof. Stefan Prins, Prof. Mark Andre und Prof. Manos Tsangaris an der Hochschule für Musik Dresden Komposition. Während des Wintersemesters 2021/22 war er von August bis Dezember 2021 an der Norwegian Academy of Music in Oslo im Rahmen des ERASMUS-Austauschprogramms. Im Interview spricht er über seine Erfahrungen und warum er einen Auslandsaufenthalt während des Studiums unbedingt empfehlen kann.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Semperoper",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/",
+    "evidence_quote": "Unser moderner Campus liegt in der Mitte der Musikstadt Dresden, in unmittelbarer Nähe zu unseren Partnerinstitutionen wie Semperoper, Staatsoperette und Philharmonie.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Staatsoperette",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/",
+    "evidence_quote": "Unser moderner Campus liegt in der Mitte der Musikstadt Dresden, in unmittelbarer Nähe zu unseren Partnerinstitutionen wie Semperoper, Staatsoperette und Philharmonie.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Philharmonie",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/",
+    "evidence_quote": "Unser moderner Campus liegt in der Mitte der Musikstadt Dresden, in unmittelbarer Nähe zu unseren Partnerinstitutionen wie Semperoper, Staatsoperette und Philharmonie.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Dresdner Philharmonie",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "Kooperation mit Kultureinrichtungen (wie der Dresdner Philharmonie, der Semperoper oder dem Theater",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Theater Chemnitz",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "Kooperation mit Kultureinrichtungen (wie der Dresdner Philharmonie, der Semperoper oder dem Theater",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sächsisches Landesgymnasium für Musik",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "Schülern am Sächsischen Landesgymnasium für Musik verantwortlich.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BMFTR",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "gefördert werden, deren Finanzierung zu gleichen Teilen vom Bund (BMFTR) und vom Land (SMWK)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SMWK",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "gefördert werden, deren Finanzierung zu gleichen Teilen vom Bund (BMFTR) und vom Land (SMWK)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kompetenzzentrum Sächsischer Hochschulen (KSH)",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "Hochschule steht ferner die Fortbildungsplattform des Kompetenzzentrums Sächsischer Hochschulen (KSH)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fortbildungsakademie Meißen",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "Fortbildungsakademie Meißen zu besuchen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hochschuldidaktik Sachsen",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "existieren. Dem soll über die Hochschuldidaktik Sachsen und durch die Besetzung eines Referenten für",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "European Association of Conservatoires (AEC)",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "European Association of Conservatoires (AEC) und International Association of Schools of Jazz (IASJ), noch",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "International Association of Schools of Jazz (IASJ)",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "European Association of Conservatoires (AEC) und International Association of Schools of Jazz (IASJ), noch",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Netzwerk 4.0",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "Das Netzwerk 4.0 als Weiterbildungs- und Austauschplattform für Lehrende organisiert noch bis Ende 2025",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Development Center (ADC)",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "Angebote des Development Centers (ADC) und von Dresden Concept ergänzt, die hochschuldidaktische",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Dresden Concept",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "Angebote des Development Centers (ADC) und von Dresden Concept ergänzt, die hochschuldidaktische",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Association Européenne des Conservatoires, Académies de Musique et Musikhochschulen (AEC)",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "Association Européenne des Conservatoires, Académies de Musique et Musikhochschulen (AEC) und der",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rektorenkonferenz der deutschen Musikhochschulen (RKM)",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfmdd.de/fileadmin/user_upload/Hochschuldokumente/Personalentwicklungskonzept_2025.pdf",
+    "evidence_quote": "Rektorenkonferenz der deutschen Musikhochschulen (RKM) weiterentwickeln.",
+    "confidence": 0.9
+   },
    {
     "partner_name": "Carl-Maria-von-Weber-Museum",
     "partner_country": "Germany",
@@ -172,15 +382,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Dresdner Philharmonie",
-    "partner_country": "Germany",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.hfmdd.de/hochschule/partner",
-    "evidence_quote": "Dresdner Philharmonie",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Dresdner Schulkonzerte",
     "partner_country": "Germany",
     "partner_type": "other",
@@ -280,15 +481,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Musikhochschulen Detmold",
-    "partner_country": "Germany",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.hfmdd.de/hochschule/partner",
-    "evidence_quote": "Musikhochschulen Detmold, Leipzig und Wroclaw",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Musikhochschulen Leipzig",
     "partner_country": "Germany",
     "partner_type": "university",
@@ -361,15 +553,6 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Sächsisches Landesgymnasium für Musik Dresden",
-    "partner_country": "Germany",
-    "partner_type": "school",
-    "mobility_type": "unknown",
-    "source_url": "https://www.hfmdd.de/hochschule/partner",
-    "evidence_quote": "Sächsisches Landesgymnasium für Musik Dresden",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Staatsoper Dresden - Semperoper",
     "partner_country": "Germany",
     "partner_type": "other",
@@ -413,78 +596,6 @@
     "source_url": "https://www.hfmdd.de/hochschule/partner",
     "evidence_quote": "Theater Meißen",
     "confidence": 0.9
-   },
-   {
-    "partner_name": "Norwegian Academy of Music",
-    "partner_country": "Norway",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.hfmdd.de/erasmus-aufenthalt-in-norwegen",
-    "evidence_quote": "Der Meisterklassenstudent Ole Hübner studiert seit März 2020 in der Klasse von Prof. Stefan Prins, Prof. Mark Andre und Prof. Manos Tsangaris an der Hochschule für Musik Dresden Komposition. Während des Wintersemesters 2021/22 war er von August bis Dezember 2021 an der Norwegian Academy of Music in Oslo im Rahmen des ERASMUS-Austauschprogramms. Im Interview spricht er über seine Erfahrungen und warum er einen Auslandsaufenthalt während des Studiums unbedingt empfehlen kann.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Semperoper",
-    "partner_country": "Germany",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.hfmdd.de/",
-    "evidence_quote": "Unser moderner Campus liegt in der Mitte der Musikstadt Dresden, in unmittelbarer Nähe zu unseren Partnerinstitutionen wie Semperoper, Staatsoperette und Philharmonie.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Staatsoperette",
-    "partner_country": "Germany",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.hfmdd.de/",
-    "evidence_quote": "Unser moderner Campus liegt in der Mitte der Musikstadt Dresden, in unmittelbarer Nähe zu unseren Partnerinstitutionen wie Semperoper, Staatsoperette und Philharmonie.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Philharmonie",
-    "partner_country": "Germany",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.hfmdd.de/",
-    "evidence_quote": "Unser moderner Campus liegt in der Mitte der Musikstadt Dresden, in unmittelbarer Nähe zu unseren Partnerinstitutionen wie Semperoper, Staatsoperette und Philharmonie.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Bundesministerium für Bildung und Forschung",
-    "partner_country": "Germany",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.hfmdd.de/hochschule/partner",
-    "evidence_quote": "Das Bundesministerium für Bildung und Forschung unterstützt die Hochschule für Musik Carl Maria von Weber Dresden im Rahmen des Qualitätspakts Lehre.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Musikhochschule Detmold",
-    "partner_country": "Germany",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.hfmdd.de/hochschule/partner",
-    "evidence_quote": "Musikhochschulen Detmold, Leipzig und Wroclaw",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Musikhochschule Leipzig",
-    "partner_country": "Germany",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.hfmdd.de/hochschule/partner",
-    "evidence_quote": "Musikhochschulen Detmold, Leipzig und Wroclaw",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Musikhochschule Wroclaw",
-    "partner_country": "Poland",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.hfmdd.de/hochschule/partner",
-    "evidence_quote": "Musikhochschulen Detmold, Leipzig und Wroclaw",
-    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
@@ -493,56 +604,96 @@
     "city": "Dresden",
     "country": "Germany",
     "role": "main",
-    "source_url": "https://www.hfmdd.de/kontakt",
-    "evidence_quote": "Wettiner Platz 13"
+    "source_url": "https://www.hfmdd.de/",
+    "evidence_quote": "Wettiner Platz 13, 01067 Dresden"
    }
   ],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 51,
+  "total_seen": 62,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of cultural and project partners, but does not contain a comprehensive list of Erasmus+ university partners.",
+  "coverage_note": "The evidence provides a list of cultural and project partners, but does not contain a comprehensive list of Erasmus+ partner universities.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.4,
-  "crawl_s": 20.3,
-  "ai_calls": 4,
-  "partner_calls": 3,
+  "discover_s": 0.0,
+  "crawl_s": 24.2,
+  "ai_calls": 9,
+  "partner_calls": 8,
   "cost_usd_estimate": 0.0,
-  "model_s": 11.0,
+  "model_s": 9.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
+    "returned": 7,
+    "accepted": 6
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
     "returned": 3,
     "accepted": 3
    },
    {
     "lines": [
-     841,
-     980
+     561,
+     700
     ],
-    "returned": 44,
-    "accepted": 44
+    "returned": 8,
+    "accepted": 8
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
      981,
      1120
     ],
+    "returned": 42,
+    "accepted": 42
+   },
+   {
+    "lines": [
+     1121,
+     1241
+    ],
     "returned": 1,
     "accepted": 1
    }
   ],
-  "total_seconds": 33.7
- },
- "rechecked": true
+  "total_seconds": 34.6
+ }
 }

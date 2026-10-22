@@ -1,6 +1,6 @@
 {
  "row_id": "r605",
- "scraped_at": "2026-10-12T06:29:28Z",
+ "scraped_at": "2026-10-22T14:02:39Z",
  "contacts": {
   "row_id": "r605",
   "institution_name": "Wyzsza Szkola Prawa i Administracji Rzeszowska Szkola Wyzsza",
@@ -13,17 +13,37 @@
    "evidence_quote": "tel. 17 867 04 00"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "erasmus@wspia.eu",
   "generic_email_url": "https://wspia.eu/pl/kontakt/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Magdalena Czech-Osowicz",
+   "designation": "Dyrektor Biura Rektora",
+   "designation_local": "",
+   "email": "magdalena.czech-osowicz@wspia.eu",
+   "office_email": "",
+   "phone": "17 867 04 43",
+   "source_url": "https://wspia.eu/pl/kontakt/",
+   "evidence_quote": "Dyrektor Biura Rektora - Magdalena Czech-Osowicz"
+  },
+  "alternates": [
+   {
+    "name": "Przemysław Pawlak",
+    "designation": "Pełnomocnik Rektora ds. Studenckich i komunikacji ze studentami, Rzecznik WSPiA",
+    "designation_local": "",
+    "email": "przemyslaw.pawlak@wspia.eu",
+    "office_email": "",
+    "phone": "17 867 04 72",
+    "source_url": "https://wspia.eu/pl/kontakt/",
+    "evidence_quote": "Pełnomocnik Rektora ds. Studenckich i komunikacji ze studentami, ... Rzecznik WSPiA - Przemysław Pawlak",
+    "why_chosen": "Other role. He is the Rector's Representative for Student Affairs and Communication, which is relevant for international student mobility."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). As the Director of the Rector's Office, she holds a key administrative role for the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -94,14 +114,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.3,
-  "crawl_s": 23.2,
+  "discover_s": 0.0,
+  "crawl_s": 22.0,
   "ai_calls": 2,
   "partner_calls": 1,
   "cost_usd_estimate": 0.0,
-  "model_s": 10.6,
+  "model_s": 3.9,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -112,7 +133,6 @@
     "accepted": 4
    }
   ],
-  "total_seconds": 38.1
- },
- "rechecked": true
+  "total_seconds": 25.9
+ }
 }
