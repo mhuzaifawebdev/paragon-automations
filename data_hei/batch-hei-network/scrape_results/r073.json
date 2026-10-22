@@ -1,6 +1,6 @@
 {
  "row_id": "r073",
- "scraped_at": "2026-10-11T10:50:02Z",
+ "scraped_at": "2026-10-22T20:43:28Z",
  "contacts": {
   "row_id": "r073",
   "institution_name": "RUBIKA",
@@ -9,17 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 5,
-  "notes": "site found via: email domain. mode: gemini. 1 page(s) could not be read.",
   "generic_email": "contact@rubika-edu.com",
   "generic_email_url": "https://rubika-edu.com/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Stéphane ANDRÉ",
+   "designation": "Directeur Général",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://rubika-edu.com/blog/rubika-et-l-ieseg-renforcent-leur-collaboration-en-signant-un-partenariat-global/",
+   "evidence_quote": "Caroline ROUSSEL, Directrice Générale de l’IÉSEG, & Stéphane ANDRÉ, Directeur Général de Rubika"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the General Director of Rubika.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 11,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -215,14 +223,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 14.5,
+  "crawl_s": 22.5,
   "ai_calls": 2,
-  "model_s": 1.8,
+  "model_s": 2.2,
   "cost_usd_estimate": 0.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "total_seconds": 17.4
- },
- "rechecked": 4
+  "contact_pass": 1,
+  "email_search_s": 7.1,
+  "total_seconds": 33.3
+ }
 }

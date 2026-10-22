@@ -1,25 +1,50 @@
 {
  "row_id": "r115",
- "scraped_at": "2026-10-11T11:06:44Z",
+ "scraped_at": "2026-10-22T20:44:07Z",
  "contacts": {
   "row_id": "r115",
   "institution_name": "SODERTORNS HOGSKOLA",
   "institution_type": "university",
   "official_website": "https://www.sh.se/",
-  "country": null,
+  "country": {
+   "value": "Sweden",
+   "source_url": "https://www.sh.se/",
+   "evidence_quote": "Polisvetenskap A bland de mest sökta kurserna i Sverige"
+  },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "exchange@sh.se",
+  "generic_email_url": "https://medarbetarwebben.sh.se/english/startpage/teaching/responsible-internationalisation-and-exchanges.html",
+  "contact": {
+   "name": "Felicia Fernelius",
+   "designation": "International Officer",
+   "designation_local": "",
+   "email": "felicia.fernelius@sh.se",
+   "office_email": "international@sh.se",
+   "phone": "",
+   "source_url": "https://medarbetarwebben.sh.se/english/startpage/teaching/responsible-internationalisation-and-exchanges.html",
+   "evidence_quote": "Felicia Fernelius ... The Chair of the Council is Professor Cecilia Sjöholm. And administrative support is provided by International Officer Felicia Fernelius.",
+   "email_source_url": "https://www.sh.se/om-oss/det-har-ar-sodertorns-hogskola/organisation/studentavdelningen/personal"
+  },
+  "alternates": [
+   {
+    "name": "Caroline Ljunggren",
+    "designation": "International Officer",
+    "designation_local": "",
+    "email": "exchange@sh.se",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://medarbetarwebben.sh.se/english/startpage/teaching/responsible-internationalisation-and-exchanges.html",
+    "evidence_quote": "Caroline Ljunggren ... Exchange matters, short-term mobility and BIP courses for students: exchange@sh.se <exchange@sh.se>",
+    "why_chosen": "International relations officer. She handles exchange matters and short-term mobility for students and staff."
+   }
+  ],
+  "rung": "International relations officer. She serves as an International Officer and provides administrative support for the Advisory Board for Internationalisation. Own work email found on a page naming them.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 6,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
-  "generic_email": "info@sh.se",
-  "generic_email_url": "https://www.sh.se/",
-  "generic_checked": "2026-10-22"
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -100,8 +125,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 6.0,
-  "total_seconds": 6.0
- },
- "rechecked": 4
+  "crawl_s": 25.3,
+  "ai_calls": 1,
+  "model_s": 2.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.4,
+  "total_seconds": 31.7
+ }
 }
