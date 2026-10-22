@@ -1,55 +1,40 @@
 {
  "row_id": "r015",
- "scraped_at": "2026-10-11T10:24:04Z",
+ "scraped_at": "2026-10-22T11:35:49Z",
  "contacts": {
   "row_id": "r015",
   "institution_name": "UNIVERSIDAD ALFONSO X EL SABIO",
   "institution_type": "university",
   "official_website": "https://www.uax.com/",
-  "country": null,
+  "country": {
+   "value": "Spain",
+   "source_url": "https://www.uax.com/",
+   "evidence_quote": "El prestigioso ranking de la Fundación BBVA y el IVIE nos reconoce como la universidad con la mejor inserción laboral de España en 2023, consolidando nuestro modelo centrado en la empleabilidad real de nuestros titulados."
+  },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini.",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Beatriz Faro",
+   "designation": "Director of Business Development, International and Lifelong Learning",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
+   "evidence_quote": "Beatriz Faro se incorpora al Grupo Educativo UAX como directora de Desarrollo de Negocio, Internacional y Lifelong Learning"
+  },
+  "alternates": [],
+  "rung": "Head of international relations. She is appointed as the Director for International and Business Development at the university group.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
-   {
-    "partner_name": "Avanade",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/grado-en-relaciones-internacionales",
-    "evidence_quote": "Compañías como Avanade, CIMPA o Sener ya desarrollan talento y proyectos junto a nuestros estudiantes.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "CIMPA",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/grado-en-relaciones-internacionales",
-    "evidence_quote": "Compañías como Avanade, CIMPA o Sener ya desarrollan talento y proyectos junto a nuestros estudiantes.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Sener",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/grado-en-relaciones-internacionales",
-    "evidence_quote": "Compañías como Avanade, CIMPA o Sener ya desarrollan talento y proyectos junto a nuestros estudiantes.",
-    "confidence": 0.9
-   },
    {
     "partner_name": "AACSB",
     "partner_country": "unknown",
@@ -60,75 +45,48 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "160 universities of Latin America",
-    "partner_country": "Latin America",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/sedes-internacionales-uax",
-    "evidence_quote": "La Universidad Alfonso X el Sabio cuenta con convenios de colaboración con más de 160 importantes universidades de América Latina.",
+    "partner_name": "Avanade",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.uax.com/titulaciones/grado-en-relaciones-internacionales",
+    "evidence_quote": "Compañías como Avanade, CIMPA o Sener ya desarrollan talento y proyectos junto a nuestros estudiantes.",
     "confidence": 0.9
    },
    {
-    "partner_name": "Rafa Nadal Academy",
+    "partner_name": "CIMPA",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.uax.com/titulaciones/grado-en-relaciones-internacionales",
+    "evidence_quote": "Compañías como Avanade, CIMPA o Sener ya desarrollan talento y proyectos junto a nuestros estudiantes.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sener",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.uax.com/titulaciones/grado-en-relaciones-internacionales",
+    "evidence_quote": "Compañías como Avanade, CIMPA o Sener ya desarrollan talento y proyectos junto a nuestros estudiantes.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ACB",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
+    "evidence_quote": "Aprende de quienes lideran hoy el negocio del deporte. Nuestro claustro está formado por directivos y expertos en activo en ACB, Sevilla FC, 2Playbook y otras grandes entidades del sector deportivo.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sevilla FC",
     "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
-    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "World Football Summit",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
-    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Deloitte",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
-    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "KPMG",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
-    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "BeOne",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
-    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "AFE",
-    "partner_country": "unknown",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
-    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Playtomic",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
-    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
+    "evidence_quote": "Aprende de quienes lideran hoy el negocio del deporte. Nuestro claustro está formado por directivos y expertos en activo en ACB, Sevilla FC, 2Playbook y otras grandes entidades del sector deportivo.",
     "confidence": 0.9
    },
    {
@@ -137,6 +95,69 @@
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
+    "evidence_quote": "Aprende de quienes lideran hoy el negocio del deporte. Nuestro claustro está formado por directivos y expertos en activo en ACB, Sevilla FC, 2Playbook y otras grandes entidades del sector deportivo.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rafa Nadal Academy",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
+    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "World Football Summit",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
+    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deloitte",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
+    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "KPMG",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
+    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BeOne",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
+    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AFE",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
+    "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Playtomic",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
     "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
     "confidence": 0.9
    },
@@ -144,7 +165,7 @@
     "partner_name": "Joma",
     "partner_country": "unknown",
     "partner_type": "company",
-    "mobility_type": "unknown",
+    "mobility_type": "traineeship",
     "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
     "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
     "confidence": 0.9
@@ -153,7 +174,7 @@
     "partner_name": "YouFirst",
     "partner_country": "unknown",
     "partner_type": "company",
-    "mobility_type": "unknown",
+    "mobility_type": "traineeship",
     "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
     "evidence_quote": "Accede a experiencias profesionales reales desde el primer día. Colabora con entidades referentes como Rafa Nadal Academy, World Football Summit, Deloitte, KPMG, BeOne, AFE, Playtomic, 2Playbook, Joma, AS o YouFirst.",
     "confidence": 0.9
@@ -165,24 +186,6 @@
     "mobility_type": "unknown",
     "source_url": "https://www.uax.com/titulaciones/mba-online-sport-management",
     "evidence_quote": "Partner académico: Atlético de Madrid",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Senn Ferrero Asociados",
-    "partner_country": "unknown",
-    "partner_type": "company",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/mba-in-sports-management",
-    "evidence_quote": "Senn Ferrero, líderes legales deportivos",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "University of Miami",
-    "partner_country": "USA",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.uax.com/titulaciones/mba-in-sports-management",
-    "evidence_quote": "Acceso directo a University of Miami",
     "confidence": 0.9
    },
    {
@@ -214,7 +217,7 @@
    },
    {
     "partner_name": "Mujeres por África",
-    "partner_country": "unknown",
+    "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
@@ -223,7 +226,7 @@
    },
    {
     "partner_name": "Red Madre",
-    "partner_country": "unknown",
+    "partner_country": "Spain",
     "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
@@ -276,6 +279,24 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "World Vision",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
+    "evidence_quote": "El proyecto ha sido presentado recientemente durante una jornada conmemorativa de UAX por el Día de África, que ha contado con representantes de las Embajadas de Ghana, de la República Islámica de Mauritania y del Reino de Marruecos, y la ONG World Vision. Las incubadoras solidarias se encuentran en su fase final de construcción y la idea inicial es que sea trasladada al destino por los estudiantes durante el próximo verano para poder formar al equipo local y dejarla operativa. Se trata de una e",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Repsol",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
+    "evidence_quote": "El Grupo Educativo UAX y Repsol se alían para impulsar el desarrollo del talento, la innovación y la transición energética a través de la formación y el aprendizaje",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Live Nation",
     "partner_country": "",
     "partner_type": "company",
@@ -285,7 +306,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Asociación Española de Directores de Recursos Humanos",
+    "partner_name": "asociacion espanola directores recursos humanos",
     "partner_country": "",
     "partner_type": "company",
     "mobility_type": "unknown",
@@ -294,7 +315,16 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Google",
+    "partner_name": "f49d2ea1309d-download-2-",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/",
+    "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/7/0/7/6/26707-466-esl-ES/f49d2ea1309d-download-2-.png.webp]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "google",
     "partner_country": "",
     "partner_type": "company",
     "mobility_type": "unknown",
@@ -305,7 +335,7 @@
    {
     "partner_name": "CSIC",
     "partner_country": "",
-    "partner_type": "other",
+    "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.uax.com/",
     "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/8/4/4/8/38448-260-esl-ES/7e95c8a94361-Logo-CSIC-UAX.png.webp]",
@@ -321,6 +351,15 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "8eab40b8880a-11",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/",
+    "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/6/0/0/7/27006-445-esl-ES/8eab40b8880a-11.png.webp]",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "bidafarma",
     "partner_country": "",
     "partner_type": "company",
@@ -330,7 +369,16 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Fundación SM",
+    "partner_name": "images",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/",
+    "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/7/3/6/6/46637-394-esl-ES/d1b20c65725a-images.jpg.webp]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fundacion SM",
     "partner_country": "",
     "partner_type": "company",
     "mobility_type": "unknown",
@@ -339,47 +387,173 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Altair",
+    "partner_name": "Imagen8",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/",
+    "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/2/0/0/0/290002-644-esl-ES/dce3b31c6274-Imagen8.jpg.webp]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Imagen16",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/",
+    "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/7/3/4/6/216437-649-esl-ES/cdb32f3ca34e-Imagen16.jpg.webp]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Abbott",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/",
+    "evidence_quote": "+ Certificado en Desnutrición en Atención Primaria (Abbott)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "aend",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/",
+    "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/2/1/6/4/24612-380-esl-ES/37f16dfe39e5-aend_cmyk_horizontal-Photoroom-1-.png.webp]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "altair",
     "partner_country": "",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.uax.com/",
     "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/6/3/3/2/22336-240-esl-ES/2ba862efa31c-uax-altair.JPG.webp]",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "tuv",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/",
+    "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/7/9/8/7/47897-84-esl-ES/logo_tuv.png.webp]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Diseno-sin-titulo-30-1",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/",
+    "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/5/1/0/4/24015-401-esl-ES/be4593ddc797-Diseno-sin-titulo-30-1.png.webp]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "logo_ms_vertical-web",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/",
+    "evidence_quote": "[https://d2kd1atb170pxv.cloudfront.net/var/site/storage/images/_aliases/uax_partner_logo/1/2/3/2/22321-124-esl-ES/fafb5c8977b2-logo_ms_vertical-web.png.webp]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Becas Santander",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "study",
+    "source_url": "https://www.uax.com/erasmus-plus",
+    "evidence_quote": "Becas Santander Erasmus: una ayuda económica extra para Erasmus+ Estudios.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Embajadas de Ghana",
+    "partner_country": "Ghana",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
+    "evidence_quote": "El proyecto ha sido presentado recientemente durante una jornada conmemorativa de UAX por el Día de África, que ha contado con representantes de las Embajadas de Ghana, de la República Islámica de Mauritania y del Reino de Marruecos, y la ONG World Vision. Las incubadoras solidarias se encuentran en su fase final de construcción y la idea inicial es que sea trasladada al destino por los estudiantes durante el próximo verano para poder formar al equipo local y dejarla operativa. Se trata de una e",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "República Islámica de Mauritania",
+    "partner_country": "Mauritania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
+    "evidence_quote": "El proyecto ha sido presentado recientemente durante una jornada conmemorativa de UAX por el Día de África, que ha contado con representantes de las Embajadas de Ghana, de la República Islámica de Mauritania y del Reino de Marruecos, y la ONG World Vision. Las incubadoras solidarias se encuentran en su fase final de construcción y la idea inicial es que sea trasladada al destino por los estudiantes durante el próximo verano para poder formar al equipo local y dejarla operativa. Se trata de una e",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Reino de Marruecos",
+    "partner_country": "Marruecos",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
+    "evidence_quote": "El proyecto ha sido presentado recientemente durante una jornada conmemorativa de UAX por el Día de África, que ha contado con representantes de las Embajadas de Ghana, de la República Islámica de Mauritania y del Reino de Marruecos, y la ONG World Vision. Las incubadoras solidarias se encuentran en su fase final de construcción y la idea inicial es que sea trasladada al destino por los estudiantes durante el próximo verano para poder formar al equipo local y dejarla operativa. Se trata de una e",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fundación Amigos de Monkole",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
+    "evidence_quote": "La Oficina de Voluntariado y Cooperación al Desarrollo impulsa durante todo el año acciones que conectan a la comunidad universitaria con retos sociales concretos y entidades de referencia. Entre las actividades recientes figuran la Campaña de Donación de Sangre junto a Cruz Roja Española (con 1245 beneficiarios durante el curso 2025/26), el I Torneo de Pádel Solidario UAX-Cruz Roja Española, en colaboración también con la Fundación Amigos de Monkole, o los encuentros con organizaciones del terc",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fundación ACOES Honduras",
+    "partner_country": "Honduras",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
+    "evidence_quote": "Asimismo, durante el presente curso se han puesto en marcha proyectos piloto que, debido al gran interés generado en la comunidad UAX, pasarán a consolidarse como programas estables en el próximo curso académico. Entre ellos destaca el programa de tutorías online con Fundación ACOES Honduras, en el que voluntarios de UAX ofrecen clases de apoyo a estudiantes de secundaria y universitarios en Honduras, a través de 12 sesiones semanales de una hora durante tres meses.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ayuntamiento de Villanueva de la Cañada",
+    "partner_country": "España",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uax.com/notas-de-prensa/uax-voluntariado-cooperacion-formacion-impacto-social",
+    "evidence_quote": "A estas acciones se suma también el tradicional Hackathon UAX de Innovación y Emprendimiento Social, que cada año organiza y coordina la Fundación Universidad Alfonso X el Sabio (FUAX) en colaboración con diferentes instituciones u organizaciones. En esta jornada, los estudiantes de diferentes titulaciones presentan soluciones tecnológicas, sociales y de comunicación para dar respuesta a retos reales planteados por administraciones públicas, como el Ayuntamiento de Villanueva de la Cañada, empre",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "UAX Madrid Villanueva",
+    "campus_name": "Campus de Villanueva de la Cañada",
     "city": "Villanueva de la Cañada",
     "country": "Spain",
     "role": "main",
-    "source_url": "https://www.uax.com/",
-    "evidence_quote": "UAX Madrid Villanueva"
+    "source_url": "https://www.uax.com/sedes-internacionales-uax",
+    "evidence_quote": "La Universidad Alfonso X el Sabio (UAX), además de sus campus de Villanueva de la Cañada, Chamberí y Chamartín en Madrid y el campus de Málaga, cuenta con numerosas sedes nacionales e internacionales, para que los estudiantes puedan realizar sus exámenes presenciales."
    },
    {
-    "campus_name": "UAX Madrid Chamberí",
+    "campus_name": "Sede Chamberí",
     "city": "Madrid",
     "country": "Spain",
     "role": "branch",
-    "source_url": "https://www.uax.com/",
-    "evidence_quote": "UAX Madrid Chamberí"
+    "source_url": "https://www.uax.com/sedes-internacionales-uax",
+    "evidence_quote": "La Universidad Alfonso X el Sabio (UAX), además de sus campus de Villanueva de la Cañada, Chamberí y Chamartín en Madrid y el campus de Málaga, cuenta con numerosas sedes nacionales e internacionales, para que los estudiantes puedan realizar sus exámenes presenciales."
    },
    {
-    "campus_name": "UAX Madrid Chamartín",
+    "campus_name": "Sede Chamartín",
     "city": "Madrid",
     "country": "Spain",
     "role": "branch",
-    "source_url": "https://www.uax.com/",
-    "evidence_quote": "UAX Madrid Chamartín"
+    "source_url": "https://www.uax.com/sedes-internacionales-uax",
+    "evidence_quote": "La Universidad Alfonso X el Sabio (UAX), además de sus campus de Villanueva de la Cañada, Chamberí y Chamartín en Madrid y el campus de Málaga, cuenta con numerosas sedes nacionales e internacionales, para que los estudiantes puedan realizar sus exámenes presenciales."
    },
    {
-    "campus_name": "UAX Málaga",
+    "campus_name": "Campus de Málaga",
     "city": "Málaga",
     "country": "Spain",
     "role": "branch",
-    "source_url": "https://www.uax.com/",
-    "evidence_quote": "UAX Málaga"
+    "source_url": "https://www.uax.com/sedes-internacionales-uax",
+    "evidence_quote": "La Universidad Alfonso X el Sabio (UAX), además de sus campus de Villanueva de la Cañada, Chamberí y Chamartín en Madrid y el campus de Málaga, cuenta con numerosas sedes nacionales e internacionales, para que los estudiantes puedan realizar sus exámenes presenciales."
    },
    {
     "campus_name": "UAX Oviedo",
@@ -391,23 +565,24 @@
    }
   ],
   "stated_total": 8800,
-  "stated_total_quote": "CONVENIOS CON EMPRESAS",
+  "stated_total_quote": "8800",
   "stated_total_url": "https://www.uax.com/",
   "truncated": true,
   "total_seen": 8800,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of some corporate and academic partners, but does not contain a comprehensive list of Erasmus+ partner universities. Contact details for the international office are provided.",
+  "coverage_note": "The evidence details general university information, campuses, programs, and international departments, but does not list specific individual Erasmus partner universities.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.0,
-  "crawl_s": 23.1,
-  "ai_calls": 5,
-  "partner_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 24.7,
+  "ai_calls": 7,
+  "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 44.1,
+  "model_s": 93.0,
   "mode": "gemini",
+  "email_search_s": 1.3,
   "slices": [
    {
     "lines": [
@@ -422,8 +597,8 @@
      421,
      560
     ],
-    "returned": 21,
-    "accepted": 7
+    "returned": 22,
+    "accepted": 17
    },
    {
     "lines": [
@@ -440,9 +615,24 @@
     ],
     "returned": 0,
     "accepted": 0
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     1121,
+     1188
+    ],
+    "returned": 19,
+    "accepted": 18
    }
   ],
-  "total_seconds": 68.3
- },
- "rechecked": true
+  "total_seconds": 119.2
+ }
 }
