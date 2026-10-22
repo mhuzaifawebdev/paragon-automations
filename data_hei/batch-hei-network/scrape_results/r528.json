@@ -1,10 +1,10 @@
 {
  "row_id": "r528",
- "scraped_at": "2026-10-12T06:16:21Z",
+ "scraped_at": "2026-10-22T13:58:11Z",
  "contacts": {
   "row_id": "r528",
   "institution_name": "ISTITUTO EUROPEO DI DESIGN SL",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.ied.edu/",
   "country": {
    "value": "Italy",
@@ -13,17 +13,48 @@
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Wouter Haspeslagh",
+   "designation": "Course Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ied.edu/courses/turin/master/mobility-design",
+   "evidence_quote": "Course Coordinator ... Wouter Haspeslagh"
+  },
+  "alternates": [
+   {
+    "name": "Lowie Vermeersch",
+    "designation": "Course Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ied.edu/courses/turin/master/mobility-design",
+    "evidence_quote": "Course Coordinator ... Lowie Vermeersch",
+    "why_chosen": "Other role. Lowie Vermeersch is a Course Coordinator for the Master in Mobility Design."
+   },
+   {
+    "name": "Marco Duò",
+    "designation": "Communication Strategist and Creative Director, Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ied.edu/openday#insede",
+    "evidence_quote": "Marco Duò — Communication Strategist and Creative Director, Coordinator.",
+    "why_chosen": "Other role. Marco Duò is a coordinator at IED Cagliari."
+   }
+  ],
+  "rung": "Other role. Wouter Haspeslagh is a Course Coordinator for the Master in Mobility Design.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -100,9 +131,90 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Accademia di Como Aldo Galli",
+    "partner_country": "ITALY",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ied.edu/",
+    "evidence_quote": "Accademia di Como Aldo Galli",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kunsthal",
+    "partner_country": "SPAIN",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ied.edu/",
+    "evidence_quote": "Kunsthal",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MAGIS",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ied.edu/",
+    "evidence_quote": "Playgrounds with MAGIS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bencore",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ied.edu/",
+    "evidence_quote": "Designing with Bencore",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Museu del Disseny-DHub",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ied.edu/",
+    "evidence_quote": "The projects created by IED Barcelona alumni Abdelaziz Moustafa (Product Design) and Violeta Mata (Fashion Design) have been selected to be part of this exhibition at the Museu del Disseny-DHub.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TAC! Festival of Urban Architecture",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ied.edu/",
+    "evidence_quote": "IED Kunsthal Bilbao participates as an academic partner in TAC! Festival of Urban Architecture",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fondazione Palazzo Strozzi",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ied.edu/",
+    "evidence_quote": "From 22 October to 23 December 2026, IED Firenze and Fondazione Palazzo Strozzi present The Ballad of the Blue Kind by artist Benni Bosetto, a new project specifically conceived for two venues: IED Firenze and Palazzo Strozzi.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Recreo Book Art Fair",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ied.edu/",
+    "evidence_quote": "IED Madrid in the 7th Edition of Recreo Book Art Fair",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mira Digital Arts Festival",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ied.edu/",
+    "evidence_quote": "Mira Digital Arts Festival 2026",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Digital Society School of Amsterdam",
     "partner_country": "Netherlands",
-    "partner_type": "other",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://www.ied.edu/cooperation-projects",
     "evidence_quote": "The Global Goals Jam is an international event organised by the Digital Society School of Amsterdam, in collaboration with the United Nations Development Programme.",
@@ -165,7 +277,7 @@
    {
     "partner_name": "Type Directors Club",
     "partner_country": "unknown",
-    "partner_type": "other",
+    "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.ied.edu/cooperation-projects",
     "evidence_quote": "The Universe of the Type Directors Club Arrives in Madrid with an Exhibition of 170 International Projects",
@@ -197,6 +309,15 @@
     "source_url": "https://www.ied.edu/subjects/interior-product-mobility",
     "evidence_quote": "The alumni of the 2025/26 Specialisation Course in Architectural Lighting Design took part in the international workshop held in Sweden thanks to IED Kunsthal Bilbao’s collaboration with Lightecture.",
     "confidence": 0.9
+   },
+   {
+    "partner_name": "AQU Catalunya",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ied.edu/subjects/interior-product-mobility",
+    "evidence_quote": "AQU Catalunya grants favourable accreditation to IED Barcelona’s Bachelor of Arts in Design",
+    "confidence": 0.9
    }
   ],
   "internal_collaboration": [
@@ -212,7 +333,7 @@
     "campus_name": "IED Barcelona",
     "city": "Barcelona",
     "country": "Spain",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ied.edu/",
     "evidence_quote": "BARCELONA"
    },
@@ -220,7 +341,7 @@
     "campus_name": "IED Bilbao",
     "city": "Bilbao",
     "country": "Spain",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ied.edu/",
     "evidence_quote": "BILBAO"
    },
@@ -228,7 +349,7 @@
     "campus_name": "IED Cagliari",
     "city": "Cagliari",
     "country": "Italy",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ied.edu/",
     "evidence_quote": "CAGLIARI"
    },
@@ -236,7 +357,7 @@
     "campus_name": "IED Florence",
     "city": "Florence",
     "country": "Italy",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ied.edu/",
     "evidence_quote": "FLORENCE"
    },
@@ -244,7 +365,7 @@
     "campus_name": "IED Rome",
     "city": "Rome",
     "country": "Italy",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ied.edu/",
     "evidence_quote": "ROME"
    },
@@ -252,7 +373,7 @@
     "campus_name": "IED Madrid",
     "city": "Madrid",
     "country": "Spain",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ied.edu/",
     "evidence_quote": "MADRID"
    },
@@ -260,7 +381,7 @@
     "campus_name": "IED Turin",
     "city": "Turin",
     "country": "Italy",
-    "role": "main",
+    "role": "branch",
     "source_url": "https://www.ied.edu/",
     "evidence_quote": "TURIN"
    }
@@ -269,32 +390,41 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 19,
+  "total_seen": 29,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a list of specific project-based partners but does not contain a comprehensive list of Erasmus+ or international mobility partners. No specific contact person for international mobility was identified in the provided text.",
+  "coverage_note": "The evidence provides a list of campuses and some specific project-based partners, but does not contain a comprehensive list of Erasmus+ or international mobility partners.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 0.7,
-  "crawl_s": 12.2,
-  "ai_calls": 2,
-  "partner_calls": 1,
+  "discover_s": 0.0,
+  "crawl_s": 15.5,
+  "ai_calls": 4,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.7,
+  "model_s": 5.9,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 1.3,
   "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 9,
+    "accepted": 9
+   },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 18,
-    "accepted": 18
+    "returned": 19,
+    "accepted": 19
    }
   ],
-  "total_seconds": 18.6
- },
- "rechecked": true
+  "total_seconds": 24.6
+ }
 }
