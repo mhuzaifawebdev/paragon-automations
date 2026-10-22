@@ -1,6 +1,6 @@
 {
  "row_id": "r276",
- "scraped_at": "2026-10-22T13:50:21Z",
+ "scraped_at": "2026-10-22T20:30:16Z",
  "contacts": {
   "row_id": "r276",
   "institution_name": "UNIVERSITA DEGLI STUDI DI ROMA FORO ITALICO",
@@ -11,18 +11,31 @@
    "source_url": "https://www.uniroma4.it/",
    "evidence_quote": "Piazza Lauro de Bosis, 15 00135 Roma – Italia"
   },
-  "phone": null,
+  "phone": {
+   "value": "+39 06 36733.385 /.405/.557",
+   "source_url": "https://www.uniroma4.it/index.php/relazioni-internazionali/erasmus-programme/erasmus-incoming-students/",
+   "evidence_quote": "ph. N. +39 06 36733.385 /.405/.557"
+  },
   "phone_alt": [],
   "generic_email": "",
   "generic_email_url": "",
-  "contact": null,
+  "contact": {
+   "name": "Emilia Angelillo",
+   "designation": "Director of the International Relations Office",
+   "designation_local": "",
+   "email": "relazioni.internazionali@uniroma4.it",
+   "office_email": "",
+   "phone": "+39 06 36733.385 /.405/.557",
+   "source_url": "https://www.uniroma4.it/index.php/relazioni-internazionali/erasmus-programme/erasmus-incoming-students/",
+   "evidence_quote": "Director of the International Relations Office | ... Emilia Angelillo |"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Head of international relations. She is the Director of the International Relations Office and oversees international mobility.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -2128,81 +2141,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 26.4,
-  "ai_calls": 10,
-  "partner_calls": 8,
+  "crawl_s": 194.3,
+  "ai_calls": 1,
+  "model_s": 7.6,
   "cost_usd_estimate": 0.0,
-  "model_s": 32.7,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     141,
-     280
-    ],
-    "returned": 2,
-    "accepted": 2
-   },
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 4,
-    "accepted": 4
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 59,
-    "accepted": 53
-   },
-   {
-    "lines": [
-     561,
-     700
-    ],
-    "returned": 66,
-    "accepted": 61
-   },
-   {
-    "lines": [
-     701,
-     840
-    ],
-    "returned": 4,
-    "accepted": 4
-   },
-   {
-    "lines": [
-     841,
-     980
-    ],
-    "returned": 9,
-    "accepted": 8
-   },
-   {
-    "lines": [
-     981,
-     1120
-    ],
-    "returned": 52,
-    "accepted": 52
-   },
-   {
-    "lines": [
-     1121,
-     1248
-    ],
-    "returned": 59,
-    "accepted": 59
-   }
-  ],
-  "total_seconds": 61.4
- },
- "rechecked": 3
+  "email_search_s": 134.0,
+  "total_seconds": 335.9
+ }
 }
