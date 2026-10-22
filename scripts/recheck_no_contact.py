@@ -16,6 +16,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data_hei"
+# Raised whenever the contact rules improve, so institutes re-checked under older rules are re-checked again.
+# Round 2: contacts-only second read, named staff with their own email accepted, leadership pages crawled.
+ROUND = 2
 
 
 def batches(data=DATA):
@@ -24,7 +27,9 @@ def batches(data=DATA):
 
 def needs_recheck(result):
     c = result.get("contacts") or {}
-    return bool(c.get("official_website")) and not c.get("contact") and not str(c.get("notes") or "").startswith("Website not found")
+    return (bool(c.get("official_website")) and not c.get("contact")
+            and not str(c.get("notes") or "").startswith("Website not found")
+            and int(result.get("rechecked") or 0) < ROUND)          # True (round 1) counts as 1
 
 
 def prepare(bdir):
@@ -36,9 +41,9 @@ def prepare(bdir):
             res = json.loads(f.read_text(encoding="utf-8"))
         except Exception:
             continue
-        if needs_recheck(res) and not res.get("rechecked"):
+        if needs_recheck(res):
             prev.mkdir(exist_ok=True)
-            res["rechecked"] = True              # a second --prepare never sets the same institute aside again
+            res["rechecked"] = ROUND             # a second --prepare in the same round never sets it aside again
             (prev / f.name).write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
             f.unlink()
             moved.append(f.stem)

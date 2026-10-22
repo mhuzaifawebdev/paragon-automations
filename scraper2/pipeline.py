@@ -271,16 +271,19 @@ def resolve_contacts(data, pack):
             continue                                    # model pointed at a line that does not contain this person
         rl = pack.get(c.get("role_line"))
         rl = rl if _same_page(nl, rl) else nl
-        if not ROLE_STEMS.search(_n(rl["text"] + " " + nl["text"])) and not topic_role_ok(nl, rl, c, pack):
+        el = pack.get(c.get("email_line"))
+        el = el if _same_page(nl, el) else None
+        email = _pick_email(name, [el["text"] if el else "", nl["text"], rl["text"]])
+        # their OWN address (it carries their name) beside their name is evidence enough that they work here:
+        # 'Contact the ITM Education Office (Charlotte Morantin – cmorantin@itg.be)' states no job title
+        own_mail = bool(email) and _matches_name(email, _name_toks(name)) and (el is None or abs(el["n"] - nl["n"]) <= 3)
+        if not ROLE_STEMS.search(_n(rl["text"] + " " + nl["text"])) and not topic_role_ok(nl, rl, c, pack) and not own_mail:
             continue                                    # no role is stated on the cited line(s): not evidence of a contact
         if rl["n"] == nl["n"]:
             quote = nl["text"]
         else:
             first, second = sorted([nl, rl], key=lambda x: x["n"])
             quote = first["text"] + " ... " + second["text"]
-        el = pack.get(c.get("email_line"))
-        el = el if _same_page(nl, el) else None
-        email = _pick_email(name, [el["text"] if el else "", nl["text"], rl["text"]])
         pl = pack.get(c.get("phone_line"))
         phone = evidence.first_phone(pl["text"]) if _same_page(nl, pl) else ""
         cls = c.get("role_class") if c.get("role_class") in ROLE_CONF else "other"
@@ -538,6 +541,21 @@ def scrape(row, cfg):
         timing["reader"] = meta.get("model_used")
 
     contacts = resolve_contacts(data, pack)
+    if not contacts and mode == provider and provider != "rules":
+        # nobody kept from the full read: one contacts-only read that takes any named staff member with a role
+        try:
+            with LLM_SLOTS:
+                more, meta2 = llm.extract_contacts(inst, pack, provider, cfg.get("model") or None)
+            contacts = resolve_contacts(more, pack)
+            timing["ai_calls"] += 1
+            timing["contact_pass"] = len(contacts)
+            timing["cost_usd_estimate"] = round(timing.get("cost_usd_estimate", 0) + meta2.get("cost_usd_estimate", 0), 4)
+        except llm.QuotaExhausted as e:
+            timing["total_seconds"] = round(time.time() - t_all, 1)
+            return {"row_id": row["row_id"], "retry": True, "quota": True, "resume_at": e.resume_at, "daily": e.daily,
+                    "reason": str(e), "timing": timing}
+        except llm.LLMError:
+            pass                                        # the full read's result stands
     if cfg.get("alternatives"):
         contacts, n_alt = put_on_file_last(contacts, inst["contact"], inst["email"]), 3
     else:

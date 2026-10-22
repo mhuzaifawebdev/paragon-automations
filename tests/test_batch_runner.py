@@ -280,7 +280,7 @@ check("the re-check reads with the free reader and has its own spending record",
       (json.loads((rb / "reader.json").read_text())["mode"], br.paid_usage_file(rb).name), ("free", "paid_usage_recheck.json"))
 kept = br.keep_better(rb / "scrape_results", "r001", res_(None, 2))
 check("nothing better found: the old result (5 partners, its inbox) stays",
-      (len(kept["network"]["external_collaboration"]), kept["contacts"].get("generic_email"), kept["rechecked"]), (5, "info@x.edu", True))
+      (len(kept["network"]["external_collaboration"]), kept["contacts"].get("generic_email"), kept["rechecked"]), (5, "info@x.edu", rc.ROUND))
 check("the set-aside copy is used up", rc.pending(rb), 0)
 (rb / "scrape_results_prev").mkdir(exist_ok=True)
 (rb / "scrape_results_prev" / "r001.json").write_text(json.dumps(res_(None, 5)), encoding="utf-8")

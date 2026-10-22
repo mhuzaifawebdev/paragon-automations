@@ -98,8 +98,31 @@ ALT_RULE = ("The CONTACT CURRENTLY ON FILE does NOT answer calls. Find OTHER peo
 RULES_PARTNERS ="""TASK. In the evidence below (one slice of a longer page) list EVERY institution or network this institution says it partners/cooperates with (Erasmus partners, agreements, alliances, networks, project partners). Give one entry per partner per line (several entries may share a line). Do not list the institution itself. mobility = study / traineeship / staff ONLY if the line says so, otherwise unknown. Go through the slice line by line and do not stop early: completeness matters more than brevity. If a line states the total number of partners/agreements, give it in partners_stated_total (else value 0, line 0). Return nothing that is not in this slice."""
 
 
+SCHEMA_CONTACTS = {"type": "object", "properties": {"contacts": SCHEMA["properties"]["contacts"]}, "required": ["contacts"]}
+
+# Second pass, only when the full read found nobody: any named person who works here and has a stated role or their
+# own email. Wider than RULES (which ranks for Erasmus+ first) because a school with no Erasmus person still has a head.
+RULES_CONTACTS = """TASK. The evidence below is from THIS institution's own website. List up to 5 NAMED people who WORK at this institution and could be contacted about international cooperation, best first:
+   Erasmus/international/mobility staff; then the head of the institution (rector, president, principal, director, head teacher, headmaster/headmistress: role_class principal_or_director); vice-rectors, deans, deputy heads, heads of departments or offices such as education, studies or admissions (role_class other); English, foreign-language or EU/Erasmus+/eTwinning project teachers (role_class language_or_project_teacher); then any other named staff member (secretary, administrator, office staff: role_class secretary_or_admin).
+   A person qualifies if a line states their role or job title, OR shows their own email address next to their name. Do NOT list people who do not work here: authors of articles, partners, guests quoted in news, alumni, students.
+   name_line = the line containing the person's name; role_line = the line stating their role (may be the same line); email_line / phone_line = a line on the SAME page containing their own email / phone (0 if none). designation_english = their role in English ('Contact person' if only an email is shown); why = one plain-English sentence."""
+
+
 class LLMError(Exception):
     pass
+
+
+def build_user_contacts(institute, pack):
+    return (f"INSTITUTION: {institute.get('name') or '(name unknown)'}\n\n" + RULES_CONTACTS +
+            "\n\nEVIDENCE (numbered lines, grouped by page):\n" + pack.prompt_text())
+
+
+def extract_contacts(institute, pack, provider, model=None, timeout=180):
+    """Contacts-only call, used when the full read returned nobody."""
+    if provider not in PROVIDERS:
+        raise LLMError(f"provider '{provider}' has no model call")
+    return PROVIDERS[provider](SYSTEM, build_user_contacts(institute, pack), model or DEFAULT_MODELS[provider],
+                               timeout, SCHEMA_CONTACTS)
 
 
 def build_user_partners(institute, window):

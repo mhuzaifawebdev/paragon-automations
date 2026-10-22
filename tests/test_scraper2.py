@@ -662,6 +662,17 @@ check("teacher ranks after the principal and before the secretary",
       < pl.ROLE_ORDER.index("secretary_or_admin"), True)
 check("the model may answer with the teacher role", "language_or_project_teacher" in llm.ROLE_CLASSES, True)
 
+own_pack = evidence.Pack()
+own_pack.add("https://itg.be/mobility", "Interested? Contact the ITM Education Office (Charlotte Morantin – cmorantin@itg.be)")
+own_pack.add("https://itg.be/news", "Photo: Anna Peeters")
+picked = pl.resolve_contacts({"contacts": [
+    {"name": "Charlotte Morantin", "role_class": "secretary_or_admin", "name_line": 1, "role_line": 1, "email_line": 1, "phone_line": 0},
+    {"name": "Anna Peeters", "role_class": "other", "name_line": 2, "role_line": 2, "email_line": 0, "phone_line": 0}]}, own_pack)
+check("a named person with their OWN email beside their name counts; a bare caption name does not",
+      [(c["name"], c["email"]) for c in picked], [("Charlotte Morantin", "cmorantin@itg.be")])
+check("the contacts-only second read exists and asks only for contacts", (callable(llm.extract_contacts),
+      list(llm.SCHEMA_CONTACTS["properties"])), (True, ["contacts"]))
+
 # ---- the institute's general inbox: own domain only, shared inboxes only, international ones first ----
 gpages = [{"url": "https://www.ph-weingarten.de/", "text": "poststelle(at)ph-weingarten.de · Tim Kaiser kaisert@ph-weingarten.de "
            "· iod@ph-weingarten.de · webmaster@ph-weingarten.de · info@gmail.com"},

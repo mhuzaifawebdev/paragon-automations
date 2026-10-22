@@ -38,6 +38,8 @@ KEYWORDS = [
          "darbuotoj", "personalul", "our staff", "our team", "staff", "equipo", "plantilla", "professeurs", "l'equipe",
          "equipe", "team", "personal", "direction", "vedenie", "vezetoseg", "leadership", "management", "secretariat",
          "titkarsag", "ugyintez", "administratie", "faculty and staff", "who we are", "people",
+         "gouvernance", "governance", "presidence", "presidency", "rectorat", "rectorado", "rektorat", "rectorate",
+         "leitung", "prasidium", "vedeni", "board", "organigram", "who is who", "ansprechpartner", "contacts",
          "teachers", "our teachers", "teaching staff", "nauczyciele", "lehrer", "lehrkrafte", "docenti", "profesores",
          "professores", "enseignants", "ucitele", "tanarok", "opettajat", "larare", "docenten", "languages",
          "προσωπικ", "επικοινων",                        # Greek: staff, contact

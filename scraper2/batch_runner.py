@@ -239,7 +239,7 @@ def keep_better(results_dir, rid, res):
     oc = other.get("contacts") or {}
     if oc.get("generic_email") and not c.get("generic_email"):
         c.update(generic_email=oc["generic_email"], generic_email_url=oc.get("generic_email_url", ""))
-    return {**keep, "contacts": c, "rechecked": True, "timing": res.get("timing") or old.get("timing") or {}}
+    return {**keep, "contacts": c, "rechecked": old.get("rechecked") or True, "timing": res.get("timing") or old.get("timing") or {}}
 
 
 def paid_usage_file(data_dir):
