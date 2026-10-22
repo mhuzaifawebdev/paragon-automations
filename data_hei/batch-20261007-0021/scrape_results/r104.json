@@ -32,12 +32,14 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.5,
-  "crawl_s": 3.8,
+  "discover_s": 0.0,
+  "crawl_s": 4.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.1,
+  "model_s": 16.6,
   "mode": "gemini",
-  "total_seconds": 10.5
+  "total_seconds": 20.7
  },
  "rechecked": true
 }
