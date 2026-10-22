@@ -16,7 +16,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 3,
-  "notes": "site found via: website column in the sheet. mode: gemini."
+  "notes": "site found via: website column in the sheet. mode: gemini.",
+  "generic_email": "postmottak@khio.no",
+  "generic_email_url": "https://khio.no/om-kunsthogskolen-i-oslo/kontaktinfo"
  },
  "network": {
   "external_collaboration": [],
@@ -41,14 +43,14 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.4,
-  "crawl_s": 31.2,
+  "discover_s": 0.0,
+  "crawl_s": 35.3,
   "ai_calls": 1,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 28.5,
+  "model_s": 9.4,
   "mode": "gemini",
-  "total_seconds": 62.1
+  "total_seconds": 44.7
  },
  "rechecked": true
 }
