@@ -1,23 +1,48 @@
 {
  "row_id": "r383",
- "scraped_at": "2026-10-22T13:53:45Z",
+ "scraped_at": "2026-10-22T20:49:07Z",
  "contacts": {
   "row_id": "r383",
   "institution_name": "LYCEE POLYVALENT GERVILLE REACHE",
   "institution_type": "school",
   "official_website": "https://gervillereache.lyc.ac-guadeloupe.fr/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "05.90.80.93.96",
+   "source_url": "http://gervillereache.lyc.ac-guadeloupe.fr/erasmus_plus/",
+   "evidence_quote": "Roseline EDOUARD 05.90.80.93.96 roseline.duhamel@ac-guadeloupe.fr"
+  },
   "phone_alt": [],
   "generic_email": "",
   "generic_email_url": "",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Roseline EDOUARD",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "roseline.duhamel@ac-guadeloupe.fr",
+   "office_email": "",
+   "phone": "05.90.80.93.96",
+   "source_url": "http://gervillereache.lyc.ac-guadeloupe.fr/erasmus_plus/",
+   "evidence_quote": "Coordinateur ERASMUS+ : ... Roseline EDOUARD 05.90.80.93.96 roseline.duhamel@ac-guadeloupe.fr"
+  },
+  "alternates": [
+   {
+    "name": "José VICTORIN",
+    "designation": "Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://gervillereache.lyc.ac-guadeloupe.fr/category/formations-post-bac/sts-mco/page/3/",
+    "evidence_quote": "M. José VICTORIN, Proviseur",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the head of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. She is explicitly named as the Erasmus+ coordinator for the institution.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 7,
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 20,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -315,33 +340,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 12.0,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 40.3,
+  "ai_calls": 1,
+  "model_s": 2.1,
   "cost_usd_estimate": 0.0,
-  "model_s": 5.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 14,
-    "accepted": 13
-   },
-   {
-    "lines": [
-     141,
-     210
-    ],
-    "returned": 17,
-    "accepted": 17
-   }
-  ],
-  "total_seconds": 21.0
- },
- "rechecked": 3
+  "email_search_s": 0.0,
+  "total_seconds": 42.5
+ }
 }

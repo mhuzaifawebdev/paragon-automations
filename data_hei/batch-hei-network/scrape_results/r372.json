@@ -1,6 +1,6 @@
 {
  "row_id": "r372",
- "scraped_at": "2026-10-12T05:41:58Z",
+ "scraped_at": "2026-10-22T20:48:38Z",
  "contacts": {
   "row_id": "r372",
   "institution_name": "Konstfack",
@@ -8,22 +8,43 @@
   "official_website": "https://www.konstfack.se/",
   "country": {
    "value": "Sweden",
-   "source_url": "https://www.konstfack.se/en/About-Konstfack/Contact-us/Staff-and-students/",
+   "source_url": "https://www.konstfack.se/en/About-Konstfack/This-is-Konstfack/Vice-Chancellor/",
    "evidence_quote": "126 26 Stockholm, Sweden"
   },
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "rektor@konstfack.se",
+  "generic_email_url": "https://www.konstfack.se/en/About-Konstfack/This-is-Konstfack/Vice-Chancellor/",
+  "contact": {
+   "name": "Anna Valtonen",
+   "designation": "Vice-Chancellor",
+   "designation_local": "",
+   "email": "Anna.Valtonen@konstfack.se",
+   "office_email": "rektor@konstfack.se",
+   "phone": "",
+   "source_url": "https://www.konstfack.se/en/About-Konstfack/This-is-Konstfack/Vice-Chancellor/",
+   "evidence_quote": "Anna Valtonen is the Vice-Chancellor of Konstfack since 1 August 2023. Konstfack has also a Pro-Vice-Chancellor. ... Anna Valtonen, rektor@konstfack.se <rektor@konstfack.se>",
+   "email_source_url": "https://www.konstfack.se/en/About-Konstfack/Contact-us/Staff-and-students/User/?show=28617"
+  },
+  "alternates": [
+   {
+    "name": "Hlin Helga Guðlaugsdottir",
+    "designation": "Green Leap Ambassador",
+    "designation_local": "",
+    "email": "hlin.helga@konstfack.se",
+    "office_email": "",
+    "phone": "08-450 41 98",
+    "source_url": "https://www.konstfack.se/sv/Om-Konstfack/Partnerskap/-Green-Leap-Kungliga-Tekniska-Hogskolan/",
+    "evidence_quote": "Kontakta Hlin Helga Guðlaugsdottir, Green Leaps ambassadör på Konstfack:",
+    "why_chosen": "Other role. Hlin Helga Guðlaugsdottir is the Green Leap ambassador at Konstfack."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Anna Valtonen is the Vice-Chancellor of Konstfack. Own work email found on a page naming them.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 19,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -1202,33 +1223,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 14.6,
-  "ai_calls": 4,
-  "partner_calls": 2,
+  "crawl_s": 39.7,
+  "ai_calls": 2,
+  "model_s": 26.0,
   "cost_usd_estimate": 0.0,
-  "model_s": 21.6,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     281,
-     420
-    ],
-    "returned": 82,
-    "accepted": 80
-   },
-   {
-    "lines": [
-     421,
-     560
-    ],
-    "returned": 11,
-    "accepted": 11
-   }
-  ],
-  "total_seconds": 37.8
- },
- "rechecked": 3
+  "contact_pass": 2,
+  "email_search_s": 5.9,
+  "total_seconds": 73.8
+ }
 }
