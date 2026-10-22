@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-22T10:30:25.534890+00:00",
+ "generated_at": "2026-10-22T10:31:39.569195+00:00",
  "totals": {
-  "institutes": 1026,
-  "with_contact": 724,
-  "with_email": 577,
-  "personal_email": 518,
-  "generic_email": 313,
-  "partners": 31569,
-  "campuses": 1449,
+  "institutes": 1028,
+  "with_contact": 726,
+  "with_email": 579,
+  "personal_email": 520,
+  "generic_email": 315,
+  "partners": 31604,
+  "campuses": 1453,
   "no_website": 300,
-  "with_website": 726,
+  "with_website": 728,
   "batches": 11
  },
  "days": [
@@ -99,18 +99,34 @@
   },
   {
    "day": "2026-10-22",
-   "institutes": 2,
-   "with_contact": 2,
-   "with_email": 2,
-   "personal_email": 2,
-   "generic_email": 2,
-   "partners": 36,
-   "campuses": 6,
+   "institutes": 4,
+   "with_contact": 4,
+   "with_email": 4,
+   "personal_email": 4,
+   "generic_email": 4,
+   "partners": 71,
+   "campuses": 10,
    "no_website": 0,
-   "with_website": 2
+   "with_website": 4
   }
  ],
  "batches": [
+  {
+   "batch": "batch-20260930-0124",
+   "status": "done",
+   "total_rows": 10,
+   "done": 10,
+   "updated": "2026-10-22T10:31:37.213824+00:00",
+   "institutes": 10,
+   "with_contact": 7,
+   "with_email": 5,
+   "personal_email": 5,
+   "generic_email": 2,
+   "partners": 202,
+   "campuses": 12,
+   "no_website": 3,
+   "with_website": 7
+  },
   {
    "batch": "batch-20260930-0015",
    "status": "done",
@@ -270,22 +286,6 @@
    "campuses": 4,
    "no_website": 19,
    "with_website": 3
-  },
-  {
-   "batch": "batch-20260930-0124",
-   "status": "running",
-   "total_rows": 10,
-   "done": 10,
-   "updated": "2026-09-30T08:28:32.102670+00:00",
-   "institutes": 8,
-   "with_contact": 5,
-   "with_email": 3,
-   "personal_email": 3,
-   "generic_email": 0,
-   "partners": 167,
-   "campuses": 8,
-   "no_website": 3,
-   "with_website": 5
   }
  ]
 }
