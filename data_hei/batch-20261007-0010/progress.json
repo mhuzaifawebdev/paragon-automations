@@ -1,14 +1,14 @@
 {
  "batch": "batch-20261007-0010",
- "status": "running",
- "generated_at": "2026-10-22T12:35:26.076921+00:00",
+ "status": "waiting",
+ "generated_at": "2026-10-22T12:35:49.513782+00:00",
  "chunk": 7,
- "total_chunks": 4,
+ "total_chunks": 7,
  "total_rows": 100,
- "done": 84,
- "pending": 16,
- "elapsed_seconds": 2417,
- "eta_seconds": 408,
+ "done": 85,
+ "pending": 15,
+ "elapsed_seconds": 2440,
+ "eta_seconds": 539,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 6.0,
@@ -16,7 +16,7 @@
  "paid_searches": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 291,
+ "ai_calls": 294,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -33,12 +33,12 @@
  ],
  "confidence": {
   "high": 35,
-  "medium": 15,
+  "medium": 16,
   "low": 0,
   "none": 34
  },
- "partners_found": 2889,
- "campuses_found": 105,
+ "partners_found": 2954,
+ "campuses_found": 106,
  "recent": [
   "r078",
   "r079",
@@ -61,5 +61,8 @@
   "r099",
   "r100"
  ],
- "drive_link": "https://docs.google.com/spreadsheets/d/1TML-aPE6kfgf_vSKB4FWRCziN7nITt9z/edit?usp=drivesdk&ouid=110268255454382366313&rtpof=true&sd=true"
+ "drive_link": "https://docs.google.com/spreadsheets/d/1TML-aPE6kfgf_vSKB4FWRCziN7nITt9z/edit?usp=drivesdk&ouid=110268255454382366313&rtpof=true&sd=true",
+ "waiting_kind": "daily",
+ "resume_at": "2026-10-23T08:05:00+00:00",
+ "waiting_reason": "Today's free AI allowance is used up."
 }

@@ -1,63 +1,52 @@
 {
  "row_id": "r052",
- "scraped_at": "2026-10-22T10:44:55Z",
+ "scraped_at": "2026-10-22T12:35:49Z",
  "contacts": {
   "row_id": "r052",
   "institution_name": "Kõrgem Kunstikool Pallas",
-  "institution_type": "university",
+  "institution_type": "college",
   "official_website": "https://pallasart.ee/",
-  "country": null,
+  "country": {
+   "value": "Eesti",
+   "source_url": "https://pallasart.ee/rahvusvaheline-koostoo/erasmus-uleilmne-opiranne/",
+   "evidence_quote": "Osalemiskõlblikud riigid on jagatud kaheks: programmiriikideks ja partnerriikideks. Eesti on programmiriik ja saab üleilmse õpirände raames teha koostööd partnerriikide tunustatud kõrgkoolidega."
+  },
   "phone": null,
   "phone_alt": [],
   "generic_email": "",
   "generic_email_url": "",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Lennart Mänd",
+   "designation": "Vice Rector for Academic Affairs",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://pallasart.ee/main-page/kontakt/",
+   "evidence_quote": "ÕPPE­PROREKTOR ... Lennart Mänd"
+  },
+  "alternates": [
+   {
+    "name": "Piret Viirpalu",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "5698 5486",
+    "source_url": "https://pallasart.ee/main-page/kontakt/",
+    "evidence_quote": "REKTOR ... Piret Viirpalu",
+    "why_chosen": "Principal / director (no Erasmus contact found). Piret Viirpalu is the Rector and head of the institution."
+   }
+  ],
+  "rung": "Vice-rector for international affairs. Lennart Mänd is the Vice Rector for Academic Affairs.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.6,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read."
+  "notes": "site found via: remembered from an earlier run. mode: gemini. 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
-   {
-    "partner_name": "KUNO",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://pallasart.ee/",
-    "evidence_quote": "Pallas võeti vastu rahvusvahelisse kunstikõrgkoolide võrgustikku KUNO",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Cumulus",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://pallasart.ee/rahvusvaheline-koostoo/erasmus-uleilmne-opiranne/",
-    "evidence_quote": "Cumulus",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Nordplus",
-    "partner_country": "unknown",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://pallasart.ee/rahvusvaheline-koostoo/erasmus-uleilmne-opiranne/",
-    "evidence_quote": "Nordplus",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Tbilisi State Academy of Art",
-    "partner_country": "Georgia",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://pallasart.ee/rahvusvaheline-koostoo/erasmus-uleilmne-opiranne/",
-    "evidence_quote": "Tbilisi State Academy of Art (Gruusia).",
-    "confidence": 0.9
-   },
    {
     "partner_name": "Kunstuniversität Linz",
     "partner_country": "Austria",
@@ -68,7 +57,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Artesis Plantijn University College Antwerpen",
+    "partner_name": "Artesis Plantijn University College Antwerpen/The Royal Academy of Fine Arts",
     "partner_country": "Belgium",
     "partner_type": "college",
     "mobility_type": "unknown",
@@ -86,7 +75,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Brno University of Technology",
+    "partner_name": "Brno University of Technology/Faculty of Fine Arts",
     "partner_country": "Czech Republic",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -149,7 +138,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Savonia University of Applied Sciences",
+    "partner_name": "Savonia University of Applied Sciences: Kuopio Academy of Design",
     "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -221,7 +210,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Hochschule Hannover",
+    "partner_name": "Hochschule Hannover: Medien, Information und Design",
     "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -248,7 +237,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Pforzheim University",
+    "partner_name": "Pforzheim University / Hochshule Pforzheim",
     "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -284,10 +273,10 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Cork Institute of Technology",
+    "partner_name": "Cork Institute of Technology – Munster campus",
     "partner_country": "Ireland",
-    "partner_type": "university",
-    "mobility_type": "unknown",
+    "partner_type": "college",
+    "mobility_type": "staff",
     "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
     "evidence_quote": "Cork Institute of Technology – Munster campus/ (Textile teachers only)",
     "confidence": 0.9
@@ -386,7 +375,7 @@
     "partner_name": "Oslo National Academy of the Arts",
     "partner_country": "Norway",
     "partner_type": "university",
-    "mobility_type": "unknown",
+    "mobility_type": "study",
     "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
     "evidence_quote": "Oslo National Academy of the Arts / The Academy of Fine Art (short-term blended mobility only)",
     "confidence": 0.9
@@ -412,7 +401,7 @@
    {
     "partner_name": "Escola Superior Artistica do Porto",
     "partner_country": "Portugal",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
     "evidence_quote": "Escola Superior Artistica do Porto / Arts",
@@ -421,7 +410,7 @@
    {
     "partner_name": "Polytechnic Institute of Bragança",
     "partner_country": "Portugal",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
     "evidence_quote": "Polytechnic Institute of Bragança",
@@ -457,7 +446,7 @@
    {
     "partner_name": "Escola Superior de Disseny i Arts Plàstiques de Catalunya",
     "partner_country": "Spain",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
     "evidence_quote": "Escola Superior de Disseny i Arts Plàstiques de Catalunya /",
@@ -466,7 +455,7 @@
    {
     "partner_name": "Escola d’Art i Superior de Disseny Pau Gargallo",
     "partner_country": "Spain",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
     "evidence_quote": "Escola d’Art i Superior de Disseny Pau Gargallo / Arts-Sculpture",
@@ -475,14 +464,14 @@
    {
     "partner_name": "Escola Superior de Conservació i Restauració de Béns Culturals de Catalunya",
     "partner_country": "Spain",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
     "evidence_quote": "Escola Superior de Conservació i Restauració",
     "confidence": 0.9
    },
    {
-    "partner_name": "Universitat de Barcelona",
+    "partner_name": "Universitat de Barcelona, Faculty of Fine Arts",
     "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -509,9 +498,9 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Escola d’Art i Superior de Disseny Serra i Abella",
+    "partner_name": "The Escola d’Art i Superior de Disseny Serra i Abella",
     "partner_country": "Spain",
-    "partner_type": "university",
+    "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
     "evidence_quote": "The Escola d’Art i Superior de Disseny Serra i Abella (Escola d’Art i Superior de Disseny Josep Serra i Abella)",
@@ -563,6 +552,15 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Tbilisi State Academy of Art",
+    "partner_country": "Georgia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
+    "evidence_quote": "Tbilisi State Academy of Art",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Zhetysu State University named after I. Zhansugurov",
     "partner_country": "Kazakhstan",
     "partner_type": "university",
@@ -572,7 +570,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "University of Pardubice",
+    "partner_name": "University of Pardubice, Faculty of Restoration",
     "partner_country": "Czech Republic",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -581,7 +579,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "University of the Arts Helsinki",
+    "partner_name": "University of the Arts Helsinki- Academy of Fine Arts",
     "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
@@ -599,12 +597,39 @@
     "confidence": 0.9
    },
    {
+    "partner_name": "Cork Institute of Technology",
+    "partner_country": "Ireland",
+    "partner_type": "college",
+    "mobility_type": "staff",
+    "source_url": "https://pallasart.ee/en/studies/erasmus/partner-institutions/",
+    "evidence_quote": "Cork Institute of Technology / (Textile teachers only)",
+    "confidence": 0.9
+   },
+   {
     "partner_name": "Polytechnic Institute of Bragnaca",
-    "partner_country": "unknown",
-    "partner_type": "university",
+    "partner_country": "Portugal",
+    "partner_type": "college",
     "mobility_type": "staff",
     "source_url": "https://pallasart.ee/en/studies/erasmus/partner-institutions/",
     "evidence_quote": "Polytechnic Institute of Bragnaca/ (Sculpture staff)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Oslo National Academy of the Arts / The Academy of Fine Art",
+    "partner_country": "NORWAY",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
+    "evidence_quote": "Oslo National Academy of the Arts / The Academy of Fine Art (short-term blended mobility only)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Marmara/Faculty of Fine Arts",
+    "partner_country": "TURKEY",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://pallasart.ee/oppimine/erasmus/partnerkoolid/",
+    "evidence_quote": "University of Marmara/Faculty of Fine Arts (photography)",
     "confidence": 0.9
    }
   ],
@@ -624,18 +649,19 @@
   "truncated": false,
   "total_seen": 52,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of Erasmus+ partner institutions and contact details for the International Relations Manager. No significant information is missing. 1 page(s) could not be read.",
+  "coverage_note": "The evidence includes detailed listings of partner institutions across various European and international countries, alongside general contact details and administration staff. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.1,
-  "crawl_s": 18.4,
+  "discover_s": 0.0,
+  "crawl_s": 20.2,
   "ai_calls": 3,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 230.1,
+  "model_s": 441.2,
   "mode": "gemini",
+  "email_search_s": 5.1,
   "slices": [
    {
     "lines": [
@@ -643,7 +669,7 @@
      280
     ],
     "returned": 63,
-    "accepted": 62
+    "accepted": 63
    },
    {
     "lines": [
@@ -654,7 +680,6 @@
     "accepted": 58
    }
   ],
-  "total_seconds": 250.6
- },
- "rechecked": 2
+  "total_seconds": 466.5
+ }
 }
