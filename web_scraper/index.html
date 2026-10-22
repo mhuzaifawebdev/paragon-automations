@@ -66,6 +66,9 @@
   @media (max-width: 980px) { .tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
   @media (max-width: 520px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   .tile { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow); min-width: 0; }
+  .tile-link { font: inherit; color: inherit; text-align: left; cursor: pointer; transition: border-color .15s ease, box-shadow .15s ease; }
+  .tile-link:hover, .tile-link:focus-visible { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); outline: none; }
+  .tile .go { color: var(--accent); font-size: 12px; font-weight: 600; margin-top: 8px; }
   .tile .n { font-size: 24px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
   .tile .l { color: var(--mut); font-size: 12px; margin-top: 2px; }
   .tile .s { color: var(--mut-2); font-size: 11.5px; margin-top: 4px; }
@@ -835,11 +838,18 @@ function renderTiles(t) {
     [fmtN(t.with_contact), "Contacts found", pct(t.with_contact, site) + " of institutes with a website"],
     [fmtN(t.with_email), "With an email", t.personal_email != null ? `${fmtN(t.personal_email)} personal · ${fmtN(t.generic_email)} department`
       : pct(t.with_email, t.institutes) + " of institutes"],
-    [avg(t.partners, site), "Partners per institute", "average · " + fmtN(t.partners) + " in all"],
-    [avg(t.campuses, site), "Campuses per institute", "average · " + fmtN(t.campuses) + " in all"],
+    [avg(t.partners, site), "Partners per institute", "average · " + fmtN(t.partners) + " in all", "partners"],
+    [avg(t.campuses, site), "Campuses per institute", "average · " + fmtN(t.campuses) + " in all", "campuses"],
     [fmtN(t.no_website), "Website not found", pct(t.no_website, t.institutes) + " of institutes"],
   ];
-  $("d-tiles").innerHTML = tiles.map(([n, l, s]) => `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div></div>`).join("");
+  // Partners and Campuses open the Institutes view, sorted by that figure (most first)
+  $("d-tiles").innerHTML = tiles.map(([n, l, s, go]) => go
+    ? `<button type="button" class="tile tile-link" data-sort="${go}"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div><div class="go">See each institute →</div></button>`
+    : `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div></div>`).join("");
+  document.querySelectorAll("#d-tiles .tile-link").forEach(b => b.onclick = () => {
+    instSort = { key: b.dataset.sort, dir: -1 };
+    showView("institutes");
+  });
 }
 function renderChart(days) {
   const byDay = Object.fromEntries((days || []).map(d => [d.day, d]));
