@@ -1,6 +1,6 @@
 {
  "row_id": "r178",
- "scraped_at": "2026-10-22T13:46:56Z",
+ "scraped_at": "2026-10-22T20:45:08Z",
  "contacts": {
   "row_id": "r178",
   "institution_name": "Pädagogische Hochschule Wien",
@@ -9,19 +9,28 @@
   "country": null,
   "phone": {
    "value": "+43 1 601 18-3860",
-   "source_url": "https://phwien.ac.at/centre-for-internationalization/",
+   "source_url": "https://phwien.ac.at/zentrum-internationalisierung/",
    "evidence_quote": "Telefon: +43 1 601 18-3860"
   },
   "phone_alt": [],
   "generic_email": "incoming@phwien.ac.at",
   "generic_email_url": "https://phwien.ac.at/centre-for-internationalization/incomings_en/",
-  "contact": null,
+  "contact": {
+   "name": "Birgit HÖFLER",
+   "designation": "Deputy head of the international office",
+   "designation_local": "",
+   "email": "birgit.hoefler@phwien.ac.at",
+   "office_email": "",
+   "phone": "+43 1 601 18-3863",
+   "source_url": "https://phwien.ac.at/zentrum-internationalisierung/",
+   "evidence_quote": "[HÖFLER Birgit]"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Head of international relations. Birgit Höfler is the Deputy Head of the International Office and handles staff mobility.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 20,
   "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
@@ -157,14 +166,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 38.6,
-  "ai_calls": 2,
-  "model_s": 2.7,
+  "crawl_s": 42.0,
+  "ai_calls": 1,
+  "model_s": 2.5,
   "cost_usd_estimate": 0.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "total_seconds": 43.6
- },
- "rechecked": 4
+  "email_search_s": 0.0,
+  "total_seconds": 44.5
+ }
 }
