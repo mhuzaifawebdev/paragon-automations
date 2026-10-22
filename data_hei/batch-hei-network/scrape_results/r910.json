@@ -1,6 +1,6 @@
 {
  "row_id": "r910",
- "scraped_at": "2026-10-12T07:23:53Z",
+ "scraped_at": "2026-10-22T14:14:46Z",
  "contacts": {
   "row_id": "r910",
   "institution_name": "NOVA EÒLIA S.L.",
@@ -13,22 +13,42 @@
    "evidence_quote": "Telèfon: +34 933 192 397 <tel +34 933 192 397>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "international@eolia.cat",
+  "generic_email_url": "https://www.eolia.cat/mobilitat-per-a-docents-deolia-csad/",
+  "contact": {
+   "name": "Sebastià Bover",
+   "designation": "Head of Mobility and Institutional Relations",
+   "designation_local": "",
+   "email": "international@eolia.cat",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.eolia.cat/mobilitat-per-a-docents-deolia-csad/",
+   "evidence_quote": "Cap de mobilitat: Sebastià Bover"
+  },
+  "alternates": [
+   {
+    "name": "Joan Vall",
+    "designation": "Incoming Mobility and Academic Procedures",
+    "designation_local": "",
+    "email": "international@eolia.cat",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.eolia.cat/mobilitat-per-a-docents-deolia-csad/",
+    "evidence_quote": "Mobilitat entrant i Tràmits acadèmics: Joan Vall",
+    "why_chosen": "Mobility coordinator. He is responsible for incoming mobility and academic procedures."
+   }
+  ],
+  "rung": "Mobility coordinator. He is the Head of Mobility and Institutional Relations and the primary contact for international mobility.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
-  "generic_email": "eolia@eolia.cat",
-  "generic_email_url": "https://www.eolia.cat/",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
-    "partner_name": "The Academy of Performing Arts (DAMU)",
+    "partner_name": "THE ACADEMY OF PERFORMING ARTS (DAMU)",
     "partner_country": "Czech Republic",
     "partner_type": "university",
     "mobility_type": "study",
@@ -37,43 +57,43 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "ESMAE – Escola Superior de Música e Artes do Espectáculo",
+    "partner_name": "ESMAE – ESCOLA SUPERIOR DE MÚSICA E ARTES DO ESPECTÁCULO",
     "partner_country": "Portugal",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "ESMAE – ESCOLA SUPERIOR DE MÚSICA E ARTES DO ESPECTÁCULO, PORTO (PORTUGAL)",
     "confidence": 0.9
    },
    {
-    "partner_name": "Accademia Nazionale d’Arte Drammatica Silvio D’Amico",
+    "partner_name": "ACCADEMIA NAZIONALE D’ARTE DRAMMATICA SILVIO D’AMICO",
     "partner_country": "Italy",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "ACCADEMIA NAZIONALE D’ARTE DRAMMATICA SILVIO D’AMICO, ROMA (ITALIA)",
     "confidence": 0.9
    },
    {
-    "partner_name": "Scuola del Teatro Musicale",
+    "partner_name": "SCUOLA DEL TEATRO MUSICALE",
     "partner_country": "Italy",
-    "partner_type": "school",
+    "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "SCUOLA DEL TEATRO MUSICALE, MILANO (ITALIA)",
     "confidence": 0.9
    },
    {
-    "partner_name": "ENSATT – École Nationale Supérieure des Arts et Techniques du Théâtre",
+    "partner_name": "ENSATT – ÉCOLE NATIONALE SUPÉRIEURE DES ARTS ET TECHNIQUES DU THÉÂTRE",
     "partner_country": "France",
-    "partner_type": "school",
+    "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "ENSATT – ÉCOLE NATIONALE SUPÉRIEURE DES ARTS ET TECHNIQUES DU THÉÂTRE, LYON (FRANCIA)",
     "confidence": 0.9
    },
    {
-    "partner_name": "Mimar Sinan Fine Arts University – State Conservatory of Istanbul",
+    "partner_name": "Mimar Sinan Fine Arts University",
     "partner_country": "Turkey",
     "partner_type": "university",
     "mobility_type": "study",
@@ -93,14 +113,14 @@
    {
     "partner_name": "Pôle Supérieur d’Enseignement Artistique",
     "partner_country": "France",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "Pôle Supérieur d’Enseignement Artistique (França)",
     "confidence": 0.9
    },
    {
-    "partner_name": "University of Illinois at Chicago",
+    "partner_name": "UNIVERSITY OF ILLINOIS AT CHICAGO",
     "partner_country": "USA",
     "partner_type": "university",
     "mobility_type": "study",
@@ -109,7 +129,7 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Rose Bruford College",
+    "partner_name": "ROSE BRUFORD COLLEGE",
     "partner_country": "United Kingdom",
     "partner_type": "college",
     "mobility_type": "study",
@@ -127,30 +147,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Universität für angewandte Kunst Wien",
-    "partner_country": "Austria",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
-    "evidence_quote": "EÒLIA Centre Superior d’Art Dramàtic obre el termini per presentar sol·licituds per participar al Blended Integrated Program (BIP) The Digital Body 2026-27, organitzat per la Universität für angewandte Kunst de Viema, dins el marc del programa Erasmus+ de la Unió Europea.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Die Akademie für Darstellende Kunst Baden-Württemberg",
+    "partner_name": "DIE AKADEMIE FÜR DARSTELLENDE KUNST BADEN-WÜRTTEMBERG",
     "partner_country": "Germany",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "DIE AKADEMIE FÜR DARSTELLENDE KUNST BADEN-WÜRTTEMBERG (ALEMANYA)",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Universitat de Viena",
-    "partner_country": "Àustria",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.eolia.cat/sessio-informativa-mobilitat-internacional-2027-28/",
-    "evidence_quote": "En aquesta sessió també s’ha presentat el BIP «The Digital Body» que és un projecte artístic i acadèmic interdisciplinari que connecta els àmbits de les arts digitals i la performance. Aquest programa de mobilitat que enguany estableix una convocatòria per a la Universitat de Viena, combina la formació online i l’estada curta presencial. Tens temps de presentar-te fins el 9 d’octubre.",
     "confidence": 0.9
    },
    {
@@ -163,57 +165,30 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Universidad Católica del Uruguay: UCU",
-    "partner_country": "URUGUAY",
+    "partner_name": "Universität für angewandte Kunst de Viema",
+    "partner_country": "unknown",
     "partner_type": "university",
     "mobility_type": "unknown",
-    "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
-    "evidence_quote": "Universidad Católica del Uruguay: UCU (URUGUAY)",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Universität für angewandte Kunst de Viema",
-    "partner_country": "Àustria",
-    "partner_type": "university",
-    "mobility_type": "study",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "EÒLIA Centre Superior d’Art Dramàtic obre el termini per presentar sol·licituds per participar al Blended Integrated Program (BIP) The Digital Body 2026-27, organitzat per la Universität für angewandte Kunst de Viema, dins el marc del programa Erasmus+ de la Unió Europea.",
     "confidence": 0.9
    },
    {
     "partner_name": "Stella Adler Studio of Acting",
-    "partner_country": "New York",
+    "partner_country": "USA",
     "partner_type": "school",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "En els últims anys alguns dels alumnes d’Eòlia (de totes les àrees formatives) han tingut l’oportunitat de viure experiències internacionals en centres com ara la Stella Adler Studio of Acting (New York) o HB Studio (New York). És per això que des de l’escola recomanem aquests centres per tal de tenir una experiència enriquidora ja sigui a l’estiu o un cop han acabat la formació al nostre centre (veure Mobilitats a l’estiu).",
     "confidence": 0.9
    },
    {
     "partner_name": "HB Studio",
-    "partner_country": "New York",
+    "partner_country": "USA",
     "partner_type": "school",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "En els últims anys alguns dels alumnes d’Eòlia (de totes les àrees formatives) han tingut l’oportunitat de viure experiències internacionals en centres com ara la Stella Adler Studio of Acting (New York) o HB Studio (New York). És per això que des de l’escola recomanem aquests centres per tal de tenir una experiència enriquidora ja sigui a l’estiu o un cop han acabat la formació al nostre centre (veure Mobilitats a l’estiu).",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "School of Theatre & Music, de la Universitat d’Illinois",
-    "partner_country": "EUA",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
-    "evidence_quote": "Fins el 2023, els nostres alumnes tenen l’oportunitat d’optar a una de les places per estudiar un semestre o un any sencer en anglès a l’School of Theatre & Music, de la Universitat d’Illinois (Chicago, EUA). a Rose Bruford College (Sidcup, Londres). Des del 2024 s’ha anat ampliant el mapa d’escoles sòcies i inclosa la Divadelní fakulta Akademie múzických umění v Praze, DAMU (Praga) també en la seva línia en anglès. Posteriorment s’han firmat convenis per a intercanvis en alemany amb la Kunstuni",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Divadelní fakulta Akademie múzických umění v Praze, DAMU",
-    "partner_country": "Praga",
-    "partner_type": "college",
-    "mobility_type": "study",
-    "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
-    "evidence_quote": "Fins el 2023, els nostres alumnes tenen l’oportunitat d’optar a una de les places per estudiar un semestre o un any sencer en anglès a l’School of Theatre & Music, de la Universitat d’Illinois (Chicago, EUA). a Rose Bruford College (Sidcup, Londres). Des del 2024 s’ha anat ampliant el mapa d’escoles sòcies i inclosa la Divadelní fakulta Akademie múzických umění v Praze, DAMU (Praga) també en la seva línia en anglès. Posteriorment s’han firmat convenis per a intercanvis en alemany amb la Kunstuni",
     "confidence": 0.9
    },
    {
@@ -226,39 +201,12 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Universidad Católica de Uruguay",
-    "partner_country": "Uruguay",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
-    "evidence_quote": "PSPBB (París-França) i explorant convenis amb la Universidad Católica de Uruguay (Montevideo), Akademia Teatralna Warszawie (Varsòvia-Polònia)",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Akademia Teatralna Warszawie",
     "partner_country": "Polònia",
-    "partner_type": "college",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "PSPBB (París-França) i explorant convenis amb la Universidad Católica de Uruguay (Montevideo), Akademia Teatralna Warszawie (Varsòvia-Polònia)",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "SCOOL OF THEATRE AND MUSIC, UNIVERISTY OF ILLINOIS",
-    "partner_country": "CHICAGO",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
-    "evidence_quote": "SCOOL OF THEATRE AND MUSIC, UNIVERISTY OF ILLINOIS (CHICAGO)",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "KUNSTUNIVERSITÄT GRAZ – UNIVERSITY OF MUSIC AND PERFORMING ARTS GRZ",
-    "partner_country": "ÀUSTRIA",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
-    "evidence_quote": "KUNSTUNIVERSITÄT GRAZ – UNIVERSITY OF MUSIC AND PERFORMING ARTS GRZ (ÀUSTRIA)",
     "confidence": 0.9
    },
    {
@@ -274,15 +222,6 @@
     "partner_name": "Universitat Pompeu Fabra",
     "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
-    "evidence_quote": "Contractació i Condicions L’assegurança ha d’estar contractada abans d’iniciar l’estada. Després de contrastar-ho amb els departaments d’internacionalització de la Universitat Politècnica de Catalunya i de la Universitat Pompeu Fabra, es recomana l’assegurança OnCampus Estudia, tot i que no s’exclouen altres opcions, com Ferrer & Ojeda, companyia amb la qual treballen la Universitat de Barcelona i l’Institut del Teatre.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Ferrer & Ojeda",
-    "partner_country": "Spain",
-    "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "Contractació i Condicions L’assegurança ha d’estar contractada abans d’iniciar l’estada. Després de contrastar-ho amb els departaments d’internacionalització de la Universitat Politècnica de Catalunya i de la Universitat Pompeu Fabra, es recomana l’assegurança OnCampus Estudia, tot i que no s’exclouen altres opcions, com Ferrer & Ojeda, companyia amb la qual treballen la Universitat de Barcelona i l’Institut del Teatre.",
@@ -308,9 +247,9 @@
    },
    {
     "partner_name": "NYU Tisch",
-    "partner_country": "United States",
-    "partner_type": "school",
-    "mobility_type": "study",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "NYU Tisch (Nova York): https://tisch.nyu.edu/special-programs/summer-at-tisch",
     "confidence": 0.9
@@ -319,56 +258,263 @@
     "partner_name": "Guildford School of Acting",
     "partner_country": "United Kingdom",
     "partner_type": "school",
-    "mobility_type": "study",
+    "mobility_type": "unknown",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "Guildford School of Acting (Guildford, Regne Unit) http://gsauk.org/courses/part-time-short-courses/summer-conservatoire",
     "confidence": 0.9
    },
    {
     "partner_name": "UIC School of Theatre and Music of Illinois at Chicago",
-    "partner_country": "United States",
-    "partner_type": "school",
+    "partner_country": "USA",
+    "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "L’alumnat del Grau en EAS d’Art Dramàtic Joan Garcia Torres i Noa Zapata, d’EÒLIA Centre Superior d’Art Dramàtic comencen el seu intercanvi internacional a la UIC School of Theatre and Music of Illinois at Chicago.",
     "confidence": 0.9
    },
    {
-    "partner_name": "Faculty of Theatre",
+    "partner_name": "Faculty of Theatre at Praga",
     "partner_country": "Czech Republic",
-    "partner_type": "school",
+    "partner_type": "university",
     "mobility_type": "study",
     "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
     "evidence_quote": "L’alumnat del Grau en EAS d’Art Dramàtic Helena Flor i Pere Vendrell, d’EÒLIA Centre Superior d’Art Dramàtic comencen el seu intercanvi internacional a la Faculty of Theatre a Praga.",
     "confidence": 0.9
    },
    {
-    "partner_name": "School of Theatre and Music, University of Illinois",
-    "partner_country": "United States",
-    "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
-    "evidence_quote": "Imatges dels alumnes Júlia Barragán, Andra Molina, Alexandre Rodríguez i Laura Salvador (esp. Interpretació) de la seva mobilitat a School of Theatre and Music, University of Illinois (Chicago, EUA).",
+    "partner_name": "CoNCA",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/campus-de-les-arts/",
+    "evidence_quote": "El Campus de les Arts va néixer com a projecte al 2018 promogut per la Universitat de Barcelona (UB) seguint una proposta del CoNCA (Consell Nacional per a la Cultura i les Arts) contemplada en el seu informe “L’educació superior en l’àmbit artístic a Catalunya. Estudi i proposta d’organització – 2018”.",
     "confidence": 0.9
    },
    {
-    "partner_name": "University of Chicago",
-    "partner_country": "United States",
+    "partner_name": "Facultat d’Educació de la Universitat de Barcelona",
+    "partner_country": "Spain",
     "partner_type": "university",
-    "mobility_type": "study",
-    "source_url": "https://www.eolia.cat/mobilitat-estudiants-eolia/",
-    "evidence_quote": "El 18 d’octubre de 2017 vam tenir la reunió per parlar de les Convocatòries de Mobilitat 2018 a University of Chicago (Illinois, USA) i Rose Bruford College (Sidcup, London, UK), amb els alumnes d’ESAD, el Director de l’escola Josep Galindo, la Cap de mobilitat Margaret Luppino i la Cap d’estudis Nuria Sánchez.",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/campus-de-les-arts/",
+    "evidence_quote": "Actualment, diverses universitats i les dinou facultats i centres d’ensenyament artístic universitari o superior formen part del Campus de les Arts, juntament amb la Facultat d’Educació de la Universitat de Barcelona, HANGAR (Centre de producció i recerca d’arts visuals) i el suport del CoNCA (Consell Nacional per a la Cultura i les Arts). Aquests centres corresponen amb els àmbits d’ensenyament determinats a partir del primer informe del CoNCA, sense limitar la possible evolució del conjunt per",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HANGAR",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/campus-de-les-arts/",
+    "evidence_quote": "Actualment, diverses universitats i les dinou facultats i centres d’ensenyament artístic universitari o superior formen part del Campus de les Arts, juntament amb la Facultat d’Educació de la Universitat de Barcelona, HANGAR (Centre de producció i recerca d’arts visuals) i el suport del CoNCA (Consell Nacional per a la Cultura i les Arts). Aquests centres corresponen amb els àmbits d’ensenyament determinats a partir del primer informe del CoNCA, sense limitar la possible evolució del conjunt per",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LCI Barcelona",
+    "partner_country": "Spain",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/campus-de-les-arts/",
+    "evidence_quote": "Divendres, 7 de març de 2025 al LCI Barcelona",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UAB",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/campus-de-les-arts/",
+    "evidence_quote": "Dimarts 26 de Novembre de 2024 a la Casa de Convalescència (UAB)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UOC",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/campus-de-les-arts/",
+    "evidence_quote": "Divendres 23 de febrer de 2024 al Campus Poblenou de la UOC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ESMUC",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/campus-de-les-arts/",
+    "evidence_quote": "Del 28 al 30 de novembre de 2019, les seus del congrés són UB i l’ESMUC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "INS Andreu Nin",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "INS Andreu Nin",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "INS Voltrera",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "INS Voltrera",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lestonnac",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Lestonnac",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "La Miranda",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "La Miranda",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Els Arcs",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Els Arcs",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Oficina de Català de Premià de Dalt",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Oficina de Català de Premià de Dalt",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escola Pérez Iborra",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Escola Pérez Iborra",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escola Monlau",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Escola Monlau",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escola Els Arcs",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Escola Els Arcs",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Temps d’Oci",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Temps d’Oci i Riverside College",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Riverside College",
+    "partner_country": "Spain",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Temps d’Oci i Riverside College",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut Escola d’Hoteleria i Turisme de Barcelona",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Institut Escola d’Hoteleria i Turisme de Barcelona",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut Escola Elisabets",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Institut Escola Elisabets",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Col·legi Natzaret",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Col·legi Natzaret",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escola Santa Teresa",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Escola Santa Teresa",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EASD Ondara",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "EASD Ondara",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escola La Miranda",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Escola La Miranda",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut Fonts del Glorieta",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eolia.cat/espectacles-tallers/",
+    "evidence_quote": "Institut Fonts del Glorieta",
     "confidence": 0.9
    }
   ],
   "internal_collaboration": [
    {
-    "campus_name": "Eòlia Superior Center of Dramatic Art",
+    "campus_name": "EÒLIA Centre Superior d’Art Dramàtic",
     "city": "Barcelona",
     "country": "Spain",
     "role": "main",
-    "source_url": "https://www.eolia.cat/en/contacte/",
-    "evidence_quote": "C / Casp 82, ground floor,"
+    "source_url": "https://www.eolia.cat/",
+    "evidence_quote": "C/ Casp 82, baixos, 08010 Barcelona"
    },
    {
     "campus_name": "Eòlia Theater",
@@ -383,39 +529,48 @@
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 37,
+  "total_seen": 51,
   "pages_read": 10,
-  "coverage_note": "The evidence provides an overview of exchange partners and Erasmus+ details, but some agreements are still under negotiation.",
+  "coverage_note": "The evidence provides a comprehensive list of international partners and mobility contacts. No specific total number of partners is stated.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.5,
-  "crawl_s": 29.5,
-  "ai_calls": 3,
-  "partner_calls": 2,
+  "discover_s": 0.0,
+  "crawl_s": 35.0,
+  "ai_calls": 4,
+  "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 36.9,
+  "model_s": 7.3,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 30.3,
   "slices": [
    {
     "lines": [
      141,
      280
     ],
-    "returned": 27,
-    "accepted": 23
+    "returned": 17,
+    "accepted": 17
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 25,
-    "accepted": 15
+    "returned": 11,
+    "accepted": 11
+   },
+   {
+    "lines": [
+     561,
+     637
+    ],
+    "returned": 27,
+    "accepted": 26
    }
   ],
-  "total_seconds": 68.9
- },
- "rechecked": true
+  "total_seconds": 72.5
+ }
 }

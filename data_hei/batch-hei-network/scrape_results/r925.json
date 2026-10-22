@@ -1,6 +1,6 @@
 {
  "row_id": "r925",
- "scraped_at": "2026-10-12T07:27:03Z",
+ "scraped_at": "2026-10-22T14:14:18Z",
  "contacts": {
   "row_id": "r925",
   "institution_name": "Munster Technological University",
@@ -17,17 +17,48 @@
    "evidence_quote": "Tel: +353 (0)21 432 6100 <tel +353214326100>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "infocork@mtu.ie",
   "generic_email_url": "https://www.mtu.ie/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Josette O’Mullane",
+   "designation": "Innovation & Enterprise Manager",
+   "designation_local": "",
+   "email": "josette.omullane@mtu.ie",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.mtu.ie/ieo/innovation-partnership-with-enterprise/",
+   "evidence_quote": "Josette O'Mullane ... Innovation & Enterprise Manager"
+  },
+  "alternates": [
+   {
+    "name": "Haithem Afli",
+    "designation": "Director of Human-Centred AI Research Group",
+    "designation_local": "",
+    "email": "haithem.afli@mtu.ie",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.mtu.ie/research/centres-groups/",
+    "evidence_quote": "Directed by Dr Haithem Afli – Senior IEEE Member, Principal Investigator at the ADAPT Centre, and Chair of the MTU Computer Science Postgraduate Research Board – the group plays a national leadership role in advancing AI that is inclusive, responsible, and aligned with European digital priorities.",
+    "why_chosen": "Other role. Dr Haithem Afli directs the Human-Centred AI Research Group and is a principal investigator at the ADAPT Centre."
+   },
+   {
+    "name": "Irene Sheridan",
+    "designation": "Contact person",
+    "designation_local": "",
+    "email": "irene.sheridan@mtu.ie",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.mtu.ie/research/centres-groups/",
+    "evidence_quote": "E3LRG – Enterprise Engagement and Experiential Learning Research ... Email: irene.sheridan@mtu.ie <irene.sheridan@mtu.ie>",
+    "why_chosen": "Other role. Irene Sheridan is the contact person for the Enterprise Engagement and Experiential Learning Research group."
+   }
+  ],
+  "rung": "Other role. Josette O'Mullane is the Innovation and Enterprise Manager at MTU and handles inquiries regarding potential project opportunities and partnerships.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -237,13 +268,16 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.6,
-  "crawl_s": 13.3,
-  "ai_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 13.9,
+  "ai_calls": 5,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 56.1,
+  "model_s": 4.4,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 5,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -258,19 +292,18 @@
      141,
      280
     ],
-    "returned": 10,
-    "accepted": 10
+    "returned": 8,
+    "accepted": 7
    },
    {
     "lines": [
      281,
-     420
+     400
     ],
-    "returned": 7,
-    "accepted": 6
+    "returned": 2,
+    "accepted": 2
    }
   ],
-  "total_seconds": 73.9
- },
- "rechecked": true
+  "total_seconds": 20.5
+ }
 }

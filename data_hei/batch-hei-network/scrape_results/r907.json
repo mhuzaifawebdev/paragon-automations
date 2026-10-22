@@ -1,33 +1,49 @@
 {
  "row_id": "r907",
- "scraped_at": "2026-10-12T07:23:47Z",
+ "scraped_at": "2026-10-22T14:14:02Z",
  "contacts": {
   "row_id": "r907",
   "institution_name": "Accademia della Moda",
   "institution_type": "college",
   "official_website": "https://www.accademiamoda.it/",
-  "country": {
-   "value": "Italia",
-   "source_url": "https://www.accademiamoda.it/",
-   "evidence_quote": "Italiano"
-  },
+  "country": null,
   "phone": {
    "value": "+39 081 554 0383",
    "source_url": "https://www.accademiamoda.it/contatti-accademia-della-moda-iuad/",
    "evidence_quote": "Tel +39 081 554 0383 <tel +390815540383>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "erasmus@accademiamoda.it",
+  "generic_email_url": "https://www.accademiamoda.it/contatti-accademia-della-moda-iuad/",
+  "contact": {
+   "name": "S. Bevilacqua",
+   "designation": "Contact person for exchange programs",
+   "designation_local": "",
+   "email": "s.bevilacqua@iuad.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.accademiamoda.it/exchange-programs/#partner-UE",
+   "evidence_quote": "sei uno studente IUAD? ... s.bevilacqua@iuad.it <s.bevilacqua@iuad.it>"
+  },
+  "alternates": [
+   {
+    "name": "M. Scebi",
+    "designation": "Contact person for events and activities",
+    "designation_local": "",
+    "email": "m.scebi@accademiamoda.it",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.accademiamoda.it/contatti-accademia-della-moda-iuad/",
+    "evidence_quote": "Per richieste e informazioni su eventi e attività dell’Accademia, scrivi a m.scebi@accademiamoda.itinfo@iuad.it <m.scebi@accademiamoda.it>.",
+    "why_chosen": "Other role. M. Scebi is the contact person for requests and information regarding events and activities of the Academy."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. S. Bevilacqua is listed as the contact for IUAD students interested in exchange programs.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.35,
+  "needs_human_check": false,
   "pages_read": 9,
-  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read.",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -646,13 +662,16 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.8,
-  "crawl_s": 22.3,
-  "ai_calls": 4,
+  "discover_s": 0.0,
+  "crawl_s": 19.0,
+  "ai_calls": 5,
   "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 37.5,
+  "model_s": 7.8,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -667,19 +686,18 @@
      141,
      280
     ],
-    "returned": 25,
+    "returned": 26,
     "accepted": 24
    },
    {
     "lines": [
      421,
-     510
+     511
     ],
-    "returned": 11,
-    "accepted": 11
+    "returned": 12,
+    "accepted": 12
    }
   ],
-  "total_seconds": 63.7
- },
- "rechecked": true
+  "total_seconds": 28.1
+ }
 }
