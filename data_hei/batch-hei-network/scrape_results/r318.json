@@ -1,25 +1,37 @@
 {
  "row_id": "r318",
- "scraped_at": "2026-10-12T05:34:02Z",
+ "scraped_at": "2026-10-22T13:51:11Z",
  "contacts": {
   "row_id": "r318",
   "institution_name": "Haute Ecole Francisco Ferrer",
   "institution_type": "college",
   "official_website": "https://www.he-ferrer.eu/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "+322 279 59 97",
+   "source_url": "https://www.he-ferrer.eu/international/mobilite-sortante",
+   "evidence_quote": "+322 279 59 97"
+  },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 4,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "",
   "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Ilias OUEHHABI",
+   "designation": "Responsable",
+   "designation_local": "",
+   "email": "heff.europe@he-ferrer.eu",
+   "office_email": "",
+   "phone": "+322 279 59 97",
+   "source_url": "https://www.he-ferrer.eu/international/mobilite-sortante",
+   "evidence_quote": "Ilias OUEHHABI ... Responsable"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. Ilias OUEHHABI is the head of the Bureau des Relations Internationales (BRI) and the primary contact for Erasmus mobility.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -143,15 +155,15 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.8,
-  "crawl_s": 6.3,
+  "discover_s": 0.0,
+  "crawl_s": 14.9,
   "ai_calls": 1,
   "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 2.3,
+  "model_s": 1.5,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "total_seconds": 10.3
- },
- "rechecked": true
+  "email_search_s": 1.3,
+  "total_seconds": 17.7
+ }
 }

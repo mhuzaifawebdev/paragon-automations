@@ -54,33 +54,9 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.0,
-  "crawl_s": 13.2,
-  "ai_calls": 3,
-  "partner_calls": 2,
-  "cost_usd_estimate": 0.0,
-  "model_s": 9.3,
-  "mode": "gemini",
-  "reader": "claude-haiku-4-5",
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 1,
-    "accepted": 1
-   },
-   {
-    "lines": [
-     141,
-     267
-    ],
-    "returned": 0,
-    "accepted": 0
-   }
-  ],
-  "total_seconds": 24.5
+  "discover_s": 0.0,
+  "crawl_s": 53.8,
+  "total_seconds": 53.8
  },
  "rechecked": true
 }
