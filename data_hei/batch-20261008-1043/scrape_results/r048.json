@@ -1,6 +1,6 @@
 {
  "row_id": "r048",
- "scraped_at": "2026-10-08T17:58:37Z",
+ "scraped_at": "2026-10-22T11:31:03Z",
  "contacts": {
   "row_id": "r048",
   "institution_name": "LCC International University",
@@ -17,14 +17,37 @@
    "evidence_quote": "+370 (46) 31 07 45"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "info@lcc.lt",
+  "generic_email_url": "https://lcc.lt/",
+  "contact": {
+   "name": "Julija Gaiduk",
+   "designation": "Academic Council Chair / Associate Professor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lcc.lt/",
+   "evidence_quote": "Julija Gaiduk, Ph.D. ... Academic Council Chair/Associate Professor"
+  },
+  "alternates": [
+   {
+    "name": "David Broersma",
+    "designation": "Professor",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lcc.lt/",
+    "evidence_quote": "David Broersma, Ph.D. ... Professor",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). David Broersma is listed as a professor at the university."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Julija Gaiduk is an Academic Council Chair and Associate Professor at the institution.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: Wikidata. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -572,14 +595,64 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 10.3,
-  "crawl_s": 20.1,
+  "discover_s": 0.0,
+  "crawl_s": 23.4,
   "ai_calls": 7,
   "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 74.2,
+  "model_s": 231.9,
   "mode": "gemini",
-  "total_seconds": 104.6
- },
- "rechecked": true
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 43,
+    "accepted": 43
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 256.5
+ }
 }
