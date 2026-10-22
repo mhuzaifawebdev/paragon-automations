@@ -1027,20 +1027,21 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 16.7,
-  "ai_calls": 3,
+  "crawl_s": 13.5,
+  "ai_calls": 4,
   "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 22.8,
+  "model_s": 42.4,
   "mode": "gemini",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
      141,
      280
     ],
-    "returned": 19,
-    "accepted": 19
+    "returned": 30,
+    "accepted": 30
    },
    {
     "lines": [
@@ -1051,7 +1052,7 @@
     "accepted": 68
    }
   ],
-  "total_seconds": 39.5
+  "total_seconds": 56.7
  },
  "rechecked": 2
 }

@@ -1,6 +1,6 @@
 {
  "row_id": "r005",
- "scraped_at": "2026-10-22T11:23:09Z",
+ "scraped_at": "2026-10-22T13:16:01Z",
  "contacts": {
   "row_id": "r005",
   "institution_name": "VYSOKÁ ŠKOLA EKONÓMIE A MANAŽMENTU V BRATISLAVE",
@@ -11,14 +11,46 @@
   "phone_alt": [],
   "generic_email": "international@vsemba.sk",
   "generic_email_url": "https://www.vsemba.sk/Kontakty",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Mgr. Serhii SMALIUHA",
+   "designation": "ERASMUS+ coordinator",
+   "designation_local": "",
+   "email": "serhii.smaliuha@vsemba.sk",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.vsemba.sk/ONas/OrganizacnaStruktura/Rektorat",
+   "evidence_quote": "Mgr. Serhii SMALIUHA - ERASMUS+ koordinátor |"
+  },
+  "alternates": [
+   {
+    "name": "Ing. Radka STRAKOVÁ, PhD.",
+    "designation": "Director of International Relations",
+    "designation_local": "",
+    "email": "radka.strakova@vsemba.sk",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.vsemba.sk/ONas/OrganizacnaStruktura/Rektorat",
+    "evidence_quote": "Ing. Radka STRAKOVÁ, PhD. - riaditeľka",
+    "why_chosen": "Head of international relations. She is the director of the international department."
+   },
+   {
+    "name": "Mgr. George SIBICHEN",
+    "designation": "International Relations Officer",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.vsemba.sk/ONas/OrganizacnaStruktura/Rektorat",
+    "evidence_quote": "Mgr. George SIBICHEN - referent |",
+    "why_chosen": "International relations officer. He is an officer in the international department."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. He is the designated Erasmus+ coordinator for the institution.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.95,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini. 2 page(s) could not be read."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -881,20 +913,22 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 18.3,
-  "ai_calls": 7,
-  "partner_calls": 6,
+  "crawl_s": 14.2,
+  "ai_calls": 6,
+  "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 28.5,
+  "model_s": 41.1,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 5,
-    "accepted": 2
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
@@ -909,8 +943,8 @@
      421,
      560
     ],
-    "returned": 47,
-    "accepted": 47
+    "returned": 46,
+    "accepted": 46
    },
    {
     "lines": [
@@ -922,22 +956,13 @@
    },
    {
     "lines": [
-     841,
-     980
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
      981,
-     1099
+     1120
     ],
     "returned": 0,
     "accepted": 0
    }
   ],
-  "total_seconds": 46.8
- },
- "rechecked": 2
+  "total_seconds": 55.3
+ }
 }
