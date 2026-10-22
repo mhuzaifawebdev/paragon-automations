@@ -1,30 +1,43 @@
 {
  "row_id": "r003",
- "scraped_at": "2026-10-22T11:33:50Z",
+ "scraped_at": "2026-10-22T13:41:35Z",
  "contacts": {
   "row_id": "r003",
   "institution_name": "ZACHODNIOPOMORSKI UNIWERSYTET TECHNOLOGICZNY W SZCZECINIE",
   "institution_type": "university",
   "official_website": "https://www.erasmusplus.zut.edu.pl/index.php?id=11441",
-  "country": null,
+  "country": {
+   "value": "Poland",
+   "source_url": "https://www.erasmusplus.zut.edu.pl/index.php?id=11441",
+   "evidence_quote": "PLPolska wersja językowa"
+  },
   "phone": null,
   "phone_alt": [],
   "generic_email": "international@zut.edu.pl",
   "generic_email_url": "https://www.erasmusplus.zut.edu.pl/pol/oferta-programu-erasmus.html",
-  "contact": null,
+  "contact": {
+   "name": "Agata Bruska",
+   "designation": "International Mobility Department",
+   "designation_local": "",
+   "email": "international@zut.edu.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.erasmusplus.zut.edu.pl/pol/oferta-programu-erasmus.html",
+   "evidence_quote": "Agata Bruska <international@zut.edu.pl>, Dział Zagranicznej Mobilności Dydaktycznej"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Matches the contact your operators already spoke to. International relations officer. Agata Bruska is the contact person for the International Mobility Department at the institution.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
    {
     "partner_name": "Babes-Bolay University",
-    "partner_country": "Rumunia",
+    "partner_country": "Romania",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -33,7 +46,7 @@
    },
    {
     "partner_name": "Hochschule Stralsund",
-    "partner_country": "Niemcy",
+    "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -42,7 +55,7 @@
    },
    {
     "partner_name": "Burgas Free University",
-    "partner_country": "Bułgaria",
+    "partner_country": "Bulgaria",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -51,7 +64,7 @@
    },
    {
     "partner_name": "Hochschule Bremen",
-    "partner_country": "Niemcy",
+    "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -60,7 +73,7 @@
    },
    {
     "partner_name": "Politecnico do Porto",
-    "partner_country": "Portugalia",
+    "partner_country": "Portugal",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -69,7 +82,7 @@
    },
    {
     "partner_name": "Universidad do Minho",
-    "partner_country": "Portugalia",
+    "partner_country": "Portugal",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -78,7 +91,7 @@
    },
    {
     "partner_name": "ESTP Paris",
-    "partner_country": "Francja",
+    "partner_country": "France",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -87,7 +100,7 @@
    },
    {
     "partner_name": "Lithuanian University of Health Sciences",
-    "partner_country": "Litwa",
+    "partner_country": "Lithuania",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -96,7 +109,7 @@
    },
    {
     "partner_name": "Universidad CEU San Pablo Madrid",
-    "partner_country": "Hiszpania",
+    "partner_country": "Spain",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -105,7 +118,7 @@
    },
    {
     "partner_name": "University of Applied Sciences Stralsund",
-    "partner_country": "Niemcy",
+    "partner_country": "Germany",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -114,7 +127,7 @@
    },
    {
     "partner_name": "Laurea University of Applied Sciences",
-    "partner_country": "Finlandia",
+    "partner_country": "Finland",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -123,7 +136,7 @@
    },
    {
     "partner_name": "ISCAP - Polytechnic of Porto",
-    "partner_country": "Portugalia",
+    "partner_country": "Portugal",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/wyjazdy-stypendialne-dla-studentow-i-doktorantow/mobilnosc-krotkoterminowa-programy-mieszane/bip-zut-jako-partner.html",
@@ -132,11 +145,20 @@
    },
    {
     "partner_name": "EUNICoast",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/index.php?id=11441",
     "evidence_quote": "Uniwersytet Europejski - EUNICoast",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ESN",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.erasmusplus.zut.edu.pl/index.php?id=11441",
+    "evidence_quote": "ESN i program \"BUDDY\"",
     "confidence": 0.9
    },
    {
@@ -146,15 +168,6 @@
     "mobility_type": "unknown",
     "source_url": "https://www.erasmusplus.zut.edu.pl/pol/oferta-programu-erasmus.html",
     "evidence_quote": "umiędzynarodowienie \"w domu\", w tym poprzez kontakt z zagranicznymi studentami i wykładowcami - dołącz do Erasmus Student Network Szczecin",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Uniwersytet Europejski EUNICoast",
-    "partner_country": "",
-    "partner_type": "network",
-    "mobility_type": "unknown",
-    "source_url": "https://www.erasmusplus.zut.edu.pl/pol/menu-poziome/aktualnosci/article/pracownicy-otwarty-nabor-na-wyjazdy-szkoleniowe-trwa-do-13-listopada.html",
-    "evidence_quote": "Zachęcamy w szczególności do nawiązywania kontaktów i wzajemnej wymiany szkoleniowej z uczelniami partnerskimi sojuszu Uniwersytetu Europejskiego EUNICoast.",
     "confidence": 0.9
    }
   ],
@@ -174,18 +187,21 @@
   "truncated": false,
   "total_seen": 15,
   "pages_read": 10,
-  "coverage_note": "The evidence lists several specific partner universities for Blended Intensive Programmes (BIP), but the complete bilateral Erasmus partner list is only referenced as downloadable PDF files per faculty rather than being fully spelled out in the text.",
+  "coverage_note": "The evidence provides a list of specific partners involved in Blended Intensive Programmes (BIP), but does not contain a comprehensive list of all Erasmus+ partner institutions.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 25.4,
-  "ai_calls": 6,
+  "crawl_s": 25.7,
+  "ai_calls": 7,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 13.7,
+  "model_s": 60.3,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 2.2,
   "slices": [
    {
     "lines": [
@@ -200,16 +216,16 @@
      141,
      280
     ],
-    "returned": 2,
-    "accepted": 1
+    "returned": 3,
+    "accepted": 2
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 0,
-    "accepted": 0
+    "returned": 1,
+    "accepted": 1
    },
    {
     "lines": [
@@ -224,11 +240,10 @@
      561,
      700
     ],
-    "returned": 11,
+    "returned": 12,
     "accepted": 9
    }
   ],
-  "total_seconds": 39.1
- },
- "rechecked": 2
+  "total_seconds": 90.9
+ }
 }

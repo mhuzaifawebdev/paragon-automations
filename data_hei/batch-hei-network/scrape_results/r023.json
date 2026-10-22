@@ -1,6 +1,6 @@
 {
  "row_id": "r023",
- "scraped_at": "2026-10-22T11:36:29Z",
+ "scraped_at": "2026-10-22T13:41:57Z",
  "contacts": {
   "row_id": "r023",
   "institution_name": "VILNIAUS DAILES AKADEMIJA",
@@ -15,14 +15,23 @@
   "phone_alt": [],
   "generic_email": "international@vda.lt",
   "generic_email_url": "https://www.vda.lt/lt/tarptautiniai-rysiai/destytojams-ir-darbuotojams",
-  "contact": null,
+  "contact": {
+   "name": "Lina Košeleva",
+   "designation": "International Relations Office",
+   "designation_local": "",
+   "email": "lina.koseleva@vda.lt",
+   "office_email": "",
+   "phone": "+37061579695",
+   "source_url": "https://www.vda.lt/lt/tarptautiniai-rysiai/naujienos/kvieciame-teikti-paraiskas-destymo-ir-ar-mokymosi-stazuociu-vizitams-pagal-erasmus-programa-6",
+   "evidence_quote": "lina.koseleva@vda.lt"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Matches the contact your operators already spoke to. International relations officer. Lina Košeleva is the contact person for Erasmus+ mobility and international partnerships at the institution.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.85,
+  "needs_human_check": false,
   "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini."
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
  },
  "network": {
   "external_collaboration": [
@@ -775,12 +784,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 16.6,
+  "crawl_s": 15.4,
   "ai_calls": 7,
   "partner_calls": 6,
   "cost_usd_estimate": 0.0,
-  "model_s": 105.1,
+  "model_s": 13.6,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
   "slices": [
    {
     "lines": [
@@ -803,8 +814,8 @@
      281,
      420
     ],
-    "returned": 5,
-    "accepted": 5
+    "returned": 9,
+    "accepted": 9
    },
    {
     "lines": [
@@ -819,19 +830,18 @@
      561,
      700
     ],
-    "returned": 33,
-    "accepted": 30
+    "returned": 32,
+    "accepted": 29
    },
    {
     "lines": [
      701,
      784
     ],
-    "returned": 12,
+    "returned": 6,
     "accepted": 6
    }
   ],
-  "total_seconds": 121.7
- },
- "rechecked": 2
+  "total_seconds": 29.0
+ }
 }

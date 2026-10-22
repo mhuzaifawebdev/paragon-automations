@@ -1,29 +1,64 @@
 {
  "row_id": "r014",
- "scraped_at": "2026-10-11T10:25:17Z",
+ "scraped_at": "2026-10-22T13:41:37Z",
  "contacts": {
   "row_id": "r014",
   "institution_name": "ECOLE DE DESIGN NANTES ATLANTIQUE",
   "institution_type": "college",
   "official_website": "https://lecolededesign.com/fr",
-  "country": null,
+  "country": {
+   "value": "France",
+   "source_url": "https://lecolededesign.com/fr/international/les-studios",
+   "evidence_quote": "Avec ses studios internationaux, L’École de design Nantes Atlantique permet aux futurs designers de se confronter à des réalités différentes de celles vécues en France."
+  },
   "phone": {
    "value": "02 51 13 50 70",
    "source_url": "https://lecolededesign.com/fr/nous-contacter",
    "evidence_quote": "Par téléphone : 02 51 13 50 70"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini.",
   "generic_email": "international-admission@lecolededesign.com",
   "generic_email_url": "https://lecolededesign.com/fr/la-une/lexperience-internationale-lecole-racontee-par-3-etudiantes-decoles-partenaires",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Jules Riché",
+   "designation": "Pedagogical coordinator of the Brazil Studio",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lecolededesign.com/fr/international/les-studios",
+   "evidence_quote": "Crédit photo : Jules Riché, coordinateur pédagogique du Brazil Studio"
+  },
+  "alternates": [
+   {
+    "name": "Florent Orsoni",
+    "designation": "Director of prospective and professionalization",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lecolededesign.com/fr/international/cumulus-nantes-2025-ethical-leadership",
+    "evidence_quote": "Florent Orsoni ... Directeur prospective et de la professionnalisation de l'école.",
+    "why_chosen": "Other role. Florent Orsoni is the director of prospective and professionalization at the school and is involved in international events like Cumulus."
+   },
+   {
+    "name": "Frédérique Krupa",
+    "designation": "Director of the Digital Design Lab",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lecolededesign.com/fr/international/cumulus-nantes-2025-ethical-leadership",
+    "evidence_quote": "« Le parcours « Éthique du numérique » invite designers, chercheurs et technologues à interroger de manière critique l’impact des technologies numériques - en particulier de l’intelligence artificielle - sur les valeurs sociales, les identités et les futurs possibles. Il souligne la responsabilité du design à questionner, anticiper et réorienter les trajectoires technologiques vers des résultats éthiques, inclusifs et centrés sur l’humain. » Frédérique Krupa, Directrice du Digital Design Lab de ",
+    "why_chosen": "Other role. Frédérique Krupa is the director of the Digital Design Lab, which is one of the school's research and innovation departments."
+   }
+  ],
+  "rung": "Mobility coordinator. Jules Riché is identified as the pedagogical coordinator of the Brazil Studio, which is part of the school's international mobility program.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
  },
  "network": {
   "external_collaboration": [
@@ -146,7 +181,7 @@
    },
    {
     "partner_name": "École Supérieure des Arts Saint-Luc Bruxelles",
-    "partner_country": "Belgique",
+    "partner_country": "school",
     "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr/international/les-ecoles-partenaires",
@@ -281,7 +316,7 @@
    },
    {
     "partner_name": "Shandong Art and design Academy",
-    "partner_country": "China",
+    "partner_country": "Chine",
     "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr/international/les-ecoles-partenaires",
@@ -335,7 +370,7 @@
    },
    {
     "partner_name": "USST College of Communication and Art Design",
-    "partner_country": "Chine",
+    "partner_country": "college",
     "partner_type": "college",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr/international/les-ecoles-partenaires",
@@ -470,7 +505,7 @@
    },
    {
     "partner_name": "Universitat Ramon Llull, Esdi, Barcelona",
-    "partner_country": "university",
+    "partner_country": "Espagne",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr/international/les-ecoles-partenaires",
@@ -749,7 +784,7 @@
    },
    {
     "partner_name": "Japan Advanced Institute of Science & Technology",
-    "partner_country": "Japon",
+    "partner_country": "university",
     "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr/international/les-ecoles-partenaires",
@@ -840,7 +875,7 @@
    {
     "partner_name": "Instituto tecnologico de monterrey",
     "partner_country": "Mexique",
-    "partner_type": "school",
+    "partner_type": "university",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr/international/les-ecoles-partenaires",
     "evidence_quote": "Instituto tecnologico de monterrey",
@@ -921,7 +956,7 @@
    {
     "partner_name": "University of Fine Arts Warsaw",
     "partner_country": "Pologne",
-    "partner_type": "university",
+    "partner_type": "school",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr/international/les-ecoles-partenaires",
     "evidence_quote": "University of Fine Arts Warsaw",
@@ -1126,17 +1161,8 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Audencia",
-    "partner_country": "France",
-    "partner_type": "college",
-    "mobility_type": "unknown",
-    "source_url": "https://lecolededesign.com/sites/default/files/medias/file/bachelor_management_projet_design_communication_0.pdf",
-    "evidence_quote": "Audencia",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Groupe Ragni",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr",
@@ -1145,11 +1171,20 @@
    },
    {
     "partner_name": "Le Figaro",
-    "partner_country": "",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr",
     "evidence_quote": "Un projet en partenariat avec Le Figaro pour simplifier le quotidien des journalistes",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "PICOBELLO",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lecolededesign.com/fr",
+    "evidence_quote": "Le projet pédagogique “Stratégie territoriale low-tech\", mené depuis 2025 dans le cadre du programme européen PICOBELLO, s’inscrit dans une démarche de recherche-action articulant plusieurs terrains d...",
     "confidence": 0.9
    },
    {
@@ -1191,10 +1226,19 @@
    {
     "partner_name": "WDO",
     "partner_country": "unknown",
-    "partner_type": "network",
+    "partner_type": "other",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr",
     "evidence_quote": "[WDO]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Audencia",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://lecolededesign.com/sites/default/files/medias/file/bachelor_management_projet_design_communication_0.pdf",
+    "evidence_quote": "Audencia",
     "confidence": 0.9
    },
    {
@@ -1208,7 +1252,7 @@
    },
    {
     "partner_name": "Studapart",
-    "partner_country": "France",
+    "partner_country": "unknown",
     "partner_type": "company",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/sites/default/files/medias/file/bachelor_management_projet_design_communication_0.pdf",
@@ -1279,21 +1323,30 @@
     "confidence": 0.9
    },
    {
-    "partner_name": "Motion Motion",
-    "partner_country": "France",
-    "partner_type": "other",
-    "mobility_type": "unknown",
-    "source_url": "https://lecolededesign.com/fr/la-une/lecole-de-design-nantes-atlantique-partenaire-de-motion-motion",
-    "evidence_quote": "L'École de design Nantes Atlantique partenaire de Motion Motion | L’École de design Nantes Atlantique",
-    "confidence": 0.9
-   },
-   {
     "partner_name": "Cumulus",
     "partner_country": "unknown",
     "partner_type": "network",
     "mobility_type": "unknown",
     "source_url": "https://lecolededesign.com/fr/international/cumulus-nantes-2025-ethical-leadership",
     "evidence_quote": "Membre actif du réseau Cumulus depuis plus de vingt-cinq ans, l’école incarne la volonté de faire du design un levier de transformation sociétale.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NACAA",
+    "partner_country": "China",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lecolededesign.com/fr/international/cumulus-nantes-2025-ethical-leadership",
+    "evidence_quote": "« Les designers doivent s'engager pleinement face aux crises climatiques, en assumant des responsabilités qui exigent plus de conscience que de créativité - elles appellent à une clarté éthique, une aisance interculturelle et un sens entrepreneurial affirmé. Ce parcours invite à explorer plus en profondeur comment l’entrepreneuriat porté par le design nécessite de cultiver un leadership éthique au service de futurs durables. » Joseph Press, Professor and Vice Dean of NACAA (Nantes Atlantique Chi",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Carousel",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "study",
+    "source_url": "https://lecolededesign.com/fr/international/cumulus-nantes-2025-ethical-leadership",
+    "evidence_quote": "Zoom sur le projet européen Carousel : il a réunit huit écoles de design qui, depuis 15 ans, organisent chaque année un échange d’étudiants autour d’ateliers d’une semaine. Ce projet favorise la collaboration internationale et l’échange culturel. Pour célébrer cet anniversaire, un atelier a eu lieu lors de la conférence Cumulus à Nantes, sur le thème « Communities make Humanity », soutenu par Erasmus+.",
     "confidence": 0.9
    }
   ],
@@ -1307,7 +1360,7 @@
     "evidence_quote": "L'école se situe au 61 boulevard de la Prairie au Duc - 44200 Nantes"
    },
    {
-    "campus_name": "Campus de Laval",
+    "campus_name": "L'École de design Nantes Atlantique Laval",
     "city": "Laval",
     "country": "France",
     "role": "branch",
@@ -1316,39 +1369,41 @@
    }
   ],
   "stated_total": 120,
-  "stated_total_quote": "Découvrez les 120 établissements d'enseignement supérieur partenaires de L’École de design Nantes Atlantique.",
+  "stated_total_quote": "L’École de design Nantes Atlantique bénéficie d’accords avec plus de 120 établissements d’enseignement supérieur, répartis dans 36 pays sur les 5 continents.",
   "stated_total_url": "https://lecolededesign.com/fr/international/les-ecoles-partenaires",
   "truncated": false,
   "total_seen": 120,
   "pages_read": 10,
-  "coverage_note": "The evidence provides a comprehensive list of partner institutions spanning multiple pages, alongside details on international studios and campuses.",
+  "coverage_note": "The evidence includes extensive information regarding partner institutions across multiple countries and international studios, alongside program details and campus locations.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 19.2,
-  "ai_calls": 10,
+  "crawl_s": 17.8,
+  "ai_calls": 11,
   "partner_calls": 9,
   "cost_usd_estimate": 0.0,
-  "model_s": 148.3,
+  "model_s": 67.0,
   "mode": "gemini",
+  "contact_pass": 5,
+  "email_search_s": 4.6,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 13,
-    "accepted": 5
+    "returned": 10,
+    "accepted": 7
    },
    {
     "lines": [
@@ -1363,7 +1418,7 @@
      561,
      700
     ],
-    "returned": 5,
+    "returned": 3,
     "accepted": 2
    },
    {
@@ -1371,7 +1426,7 @@
      701,
      840
     ],
-    "returned": 5,
+    "returned": 1,
     "accepted": 1
    },
    {
@@ -1392,14 +1447,21 @@
    },
    {
     "lines": [
+     1261,
+     1400
+    ],
+    "returned": 6,
+    "accepted": 5
+   },
+   {
+    "lines": [
      1541,
      1680
     ],
-    "returned": 9,
-    "accepted": 6
+    "returned": 3,
+    "accepted": 3
    }
   ],
-  "total_seconds": 167.5
- },
- "rechecked": 2
+  "total_seconds": 92.4
+ }
 }

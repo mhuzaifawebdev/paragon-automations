@@ -159,47 +159,48 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 22.1,
-  "ai_calls": 5,
+  "crawl_s": 20.8,
+  "ai_calls": 6,
   "partner_calls": 4,
   "cost_usd_estimate": 0.0,
-  "model_s": 16.4,
+  "model_s": 54.1,
   "mode": "gemini",
+  "contact_pass": 0,
   "slices": [
    {
     "lines": [
      1,
      140
     ],
-    "returned": 1,
-    "accepted": 1
+    "returned": 0,
+    "accepted": 0
    },
    {
     "lines": [
      141,
      280
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 2,
+    "accepted": 1
    },
    {
     "lines": [
      281,
      420
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 4,
+    "accepted": 4
    },
    {
     "lines": [
      421,
-     513
+     543
     ],
     "returned": 2,
     "accepted": 2
    }
   ],
-  "total_seconds": 38.5
+  "total_seconds": 82.9
  },
  "rechecked": 2
 }

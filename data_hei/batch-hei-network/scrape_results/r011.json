@@ -1,6 +1,6 @@
 {
  "row_id": "r011",
- "scraped_at": "2026-10-11T10:23:29Z",
+ "scraped_at": "2026-10-22T13:41:54Z",
  "contacts": {
   "row_id": "r011",
   "institution_name": "ERHVERVSAKADEMI DANIA",
@@ -9,17 +9,25 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini. 2 page(s) could not be read.",
   "generic_email": "eadania@eadania.dk",
   "generic_email_url": "https://eadania.dk/",
-  "generic_checked": "2026-10-22"
+  "contact": {
+   "name": "Morten Winther Hansen",
+   "designation": "Lecturer and study coordinator for Service and Experience Economy and International Hospitality Management",
+   "designation_local": "",
+   "email": "moha@eadania.dk",
+   "office_email": "",
+   "phone": "+4561952235",
+   "source_url": "https://eadania.dk/uddannelser/esport-management/",
+   "evidence_quote": "Morten Winther Hansen ... Lektor og studiekoordinator Service- og oplevelsesøkonom og International Hospitality Management"
+  },
+  "alternates": [],
+  "rung": "Faculty-level Erasmus/international coordinator. He is a study coordinator for international programs and manages international hospitality management.",
+  "source": "web",
+  "confidence": 0.65,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -607,12 +615,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 64.5,
+  "crawl_s": 93.2,
   "ai_calls": 6,
   "partner_calls": 5,
   "cost_usd_estimate": 0.0,
-  "model_s": 73.4,
+  "model_s": 15.0,
   "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.6,
   "slices": [
    {
     "lines": [
@@ -635,8 +645,8 @@
      281,
      420
     ],
-    "returned": 2,
-    "accepted": 2
+    "returned": 3,
+    "accepted": 3
    },
    {
     "lines": [
@@ -651,11 +661,10 @@
      701,
      801
     ],
-    "returned": 3,
-    "accepted": 3
+    "returned": 7,
+    "accepted": 7
    }
   ],
-  "total_seconds": 138.0
- },
- "rechecked": 2
+  "total_seconds": 109.8
+ }
 }
