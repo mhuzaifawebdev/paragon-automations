@@ -1,6 +1,6 @@
 {
  "row_id": "r675",
- "scraped_at": "2026-10-22T14:06:12Z",
+ "scraped_at": "2026-10-22T21:20:05Z",
  "contacts": {
   "row_id": "r675",
   "institution_name": "IU Internationale Hochschule",
@@ -9,20 +9,41 @@
   "country": {
    "value": "Germany",
    "source_url": "https://www.iu.org/",
-   "evidence_quote": "Our headquarters are located in Erfurt (Thuringia, Germany) and the campuses in Cologne, Bad Honnef and Berlin are branches. All programmes are accredited in the federal state of Thuringia by the German Council of Science and Humanities and the German Accreditation Council (System & Programme Accreditation), and have been awarded \"FIBAA Premium\" status by FIBAA and many more."
+   "evidence_quote": "Study 100% in English at Germany’s largest private university"
   },
   "phone": null,
   "phone_alt": [],
   "generic_email": "contact-international@iu.org",
   "generic_email_url": "https://www.iu.org/",
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "contact": {
+   "name": "Prof. Dr. Regina Cordes",
+   "designation": "Vice Rector International Affairs",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iu.org/about/academic-governance/",
+   "evidence_quote": "Prof. Dr. Regina Cordes ... Vice Rector International Affairs"
+  },
+  "alternates": [
+   {
+    "name": "Prof. Dr. Holger Sommerfeldt",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iu.org/about/academic-governance/",
+    "evidence_quote": "Prof. Dr. Holger Sommerfeldt ... Rector",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the Rector, he is the head of the institution and responsible for university management."
+   }
+  ],
+  "rung": "Vice-rector for international affairs. As Vice Rector International Affairs, she is the most relevant contact for international partnerships and mobility.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.6,
   "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+  "pages_read": 17,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -2215,41 +2236,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 14.7,
-  "ai_calls": 5,
-  "partner_calls": 3,
+  "crawl_s": 142.7,
+  "ai_calls": 1,
+  "model_s": 2.1,
   "cost_usd_estimate": 0.0,
-  "model_s": 17.4,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "slices": [
-   {
-    "lines": [
-     1,
-     140
-    ],
-    "returned": 0,
-    "accepted": 0
-   },
-   {
-    "lines": [
-     701,
-     840
-    ],
-    "returned": 98,
-    "accepted": 98
-   },
-   {
-    "lines": [
-     981,
-     1120
-    ],
-    "returned": 140,
-    "accepted": 140
-   }
-  ],
-  "total_seconds": 33.7
- },
- "rechecked": 3
+  "email_search_s": 9.0,
+  "total_seconds": 153.9
+ }
 }
