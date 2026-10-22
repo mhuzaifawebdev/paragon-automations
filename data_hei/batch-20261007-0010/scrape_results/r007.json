@@ -1,0 +1,154 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-22T22:15:18Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "ARKITEKTUR OG DESIGNHOGSKOLEN I OSLO",
+  "institution_type": "college",
+  "official_website": "https://www.aho.no/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "international-office@aho.no",
+  "generic_email_url": "https://www.aho.no/english/studies/exchange/erasmus.html",
+  "contact": {
+   "name": "International Office",
+   "designation": "International Office",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.aho.no/studier/utveksling/dokumenter/aho-erasmus-policy.pdf",
+   "evidence_quote": "administration and communication is handled by the International Office."
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. The International Office handles administration and communication for international mobility and partnerships.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universitetet i Tromsø",
+    "partner_country": "Norway",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aho.no/om/bygg-og-fasiliteter/campusprosjektet/2022-10-01_konseptvalgnotat_arkitektur-_og_designhogskolen_i_oslo.pdf",
+    "evidence_quote": "samarbeid med Universitetet i Tromsø",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Jarmund/Vigsnæs",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aho.no/om/bygg-og-fasiliteter/campusprosjektet/2022-10-01_konseptvalgnotat_arkitektur-_og_designhogskolen_i_oslo.pdf",
+    "evidence_quote": "Jarmund/Vigsnæs vant konkurransen og la til rette for å konvertere et verkstedbygg til en forsknings- og",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Byantikvaren",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aho.no/om/bygg-og-fasiliteter/campusprosjektet/2022-10-01_konseptvalgnotat_arkitektur-_og_designhogskolen_i_oslo.pdf",
+    "evidence_quote": "stor vekt på bevaringen av det opprinnelige. Bygget har verneverdi og står på Byantikvarens gule liste,",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kunsthøgskolen (KHiO)",
+    "partner_country": "Norway",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aho.no/om/bygg-og-fasiliteter/campusprosjektet/2022-10-01_konseptvalgnotat_arkitektur-_og_designhogskolen_i_oslo.pdf",
+    "evidence_quote": "utdanningsinstitusjoner. Kunsthøgskolen (KHiO) ligger",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kunnskapsdepartementet",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aho.no/om/bygg-og-fasiliteter/campusprosjektet/2022-10-01_konseptvalgnotat_arkitektur-_og_designhogskolen_i_oslo.pdf",
+    "evidence_quote": "Prognosene er forankret med Kunnskapsdepartementet i møte 30.september 2021. Bakgrunn for",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Arkitektur- og designhøgskolen i Oslo (AHO)",
+    "city": "Oslo",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://www.aho.no/",
+    "evidence_quote": "Galleriet, Arkitektur- og designhøgskolen i Oslo (AHO), Maridalsveien 29, Oslo."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain a comprehensive list of Erasmus or international partner universities, only mentioning general Nordic and European partnerships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 14.7,
+  "ai_calls": 7,
+  "partner_calls": 5,
+  "cost_usd_estimate": 0.0,
+  "model_s": 27.1,
+  "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 48.7
+ }
+}
