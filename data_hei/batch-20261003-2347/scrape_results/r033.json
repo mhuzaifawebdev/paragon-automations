@@ -1,6 +1,6 @@
 {
  "row_id": "r033",
- "scraped_at": "2026-10-22T10:32:16Z",
+ "scraped_at": "2026-10-22T20:35:29Z",
  "contacts": {
   "row_id": "r033",
   "institution_name": "UNIVERSITE GRENOBLE ALPES",
@@ -15,14 +15,23 @@
   "phone_alt": [],
   "generic_email": "",
   "generic_email_url": "",
-  "contact": null,
+  "contact": {
+   "name": "Samuel Vergès",
+   "designation": "Inserm Research Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.univ-grenoble-alpes.fr/l-equipe-scientifique-de-l-expedition-5300-etudie-pour-la-premiere-fois-la-sante-des-femmes-soumises-a-des-conditions-d-altitude-extremes-1831977.kjsp?RH=1767714450161",
+   "evidence_quote": "L’équipe scientifique d’Expédition 5300, menée par Samuel Vergès, directeur de recherche Inserm au sein du Laboratoire hypoxie et physiopathologies cardiovasculaires et respiratoires (HP2 - UGA/CHUGA/Inserm) et soutenue par la Fondation UGA, est de retour au Pérou. Cette nouvelle mission est entièrement consacrée à l'adaptation physiologique des femmes vivants dans la ville la plus haute du monde, La Rinconada."
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Other role. Samuel Vergès is an Inserm research director leading scientific expeditions and research teams at the institution.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.3,
   "needs_human_check": true,
-  "pages_read": 9,
-  "notes": "site found via: remembered from an earlier run. mode: gemini. 3 page(s) could not be read."
+  "pages_read": 15,
+  "notes": "site found via: remembered from an earlier run. mode: gemini. 4 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -228,14 +237,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 21.0,
+  "crawl_s": 28.9,
   "ai_calls": 2,
-  "model_s": 14.5,
+  "model_s": 8.8,
   "cost_usd_estimate": 0.0,
   "mode": "gemini",
-  "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "total_seconds": 36.6
- },
- "rechecked": 4
+  "contact_pass": 1,
+  "email_search_s": 14.4,
+  "total_seconds": 60.4
+ }
 }
