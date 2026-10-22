@@ -12,6 +12,7 @@ re-check its own spending record (paid_usage_recheck.json), capped like any batc
 """
 import argparse
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -28,6 +29,13 @@ def batches(data=DATA):
     return sorted(p for p in Path(data).iterdir() if p.is_dir() and p.name != "uploads" and (p / "numbers_clean.csv").exists())
 
 
+def clean_name(name):
+    """A broken row of the uploaded sheet is not worth a paid search: a phone number in the name column
+    ('34986419899'), or several institutes merged into one cell (the name runs over several lines)."""
+    name = (name or "").strip()
+    return "\n" not in name and len(re.findall(r"[^\W\d_]", name)) >= 4 and not re.match(r"\d{5,}", name)
+
+
 def needs_recheck(result, websites=False):
     """websites=False: a website but no named contact. websites=True: no website was found at all (the scrape now
     searches Google for it through the paid Gemini key)."""
@@ -36,7 +44,7 @@ def needs_recheck(result, websites=False):
     if int(result.get("rechecked") or 0) >= ROUND:                  # True (round 1) counts as 1
         return False
     if websites:
-        return no_site and not c.get("contact")
+        return no_site and not c.get("contact") and clean_name(c.get("institution_name"))
     return bool(c.get("official_website")) and not c.get("contact") and not no_site
 
 
