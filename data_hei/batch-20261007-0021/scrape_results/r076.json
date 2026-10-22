@@ -1,6 +1,6 @@
 {
  "row_id": "r076",
- "scraped_at": "2026-10-22T11:07:06Z",
+ "scraped_at": "2026-10-22T20:38:38Z",
  "contacts": {
   "row_id": "r076",
   "institution_name": "FLORIDA CENTRE DE FORMACIÓ, COOP. V.",
@@ -15,14 +15,23 @@
   "phone_alt": [],
   "generic_email": "",
   "generic_email_url": "",
-  "contact": null,
+  "contact": {
+   "name": "Mercedes Herrero",
+   "designation": "General Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.florida.es/estructura/",
+   "evidence_quote": "DIRECTOR GENERAL: ... Na Mercedes Herrero"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Mercedes Herrero is the General Director of the institution.",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.45,
   "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: remembered from an earlier run. mode: gemini."
+  "pages_read": 14,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -280,14 +289,14 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 7.4,
+  "crawl_s": 20.7,
   "ai_calls": 2,
-  "model_s": 1.7,
+  "model_s": 20.4,
   "cost_usd_estimate": 0.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "total_seconds": 10.1
- },
- "rechecked": 4
+  "contact_pass": 1,
+  "email_search_s": 8.3,
+  "total_seconds": 51.4
+ }
 }
