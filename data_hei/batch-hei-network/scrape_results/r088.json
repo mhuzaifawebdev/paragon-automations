@@ -1,13 +1,13 @@
 {
  "row_id": "r088",
- "scraped_at": "2026-10-11T10:53:17Z",
+ "scraped_at": "2026-10-22T20:45:37Z",
  "contacts": {
   "row_id": "r088",
   "institution_name": "Universidad Europea Miguel de Cervantes S.A.",
   "institution_type": "university",
   "official_website": "https://www.uemc.es/",
   "country": {
-   "value": "España",
+   "value": "Spain",
    "source_url": "https://www.uemc.es/formcontacts/show/contacto-es",
    "evidence_quote": "Puedes encontrarnos en C/Padre Julio Chevalier, nº 2. 47012 - Valladolid (España) o llamarnos al (+34) 983 00 1000"
   },
@@ -17,17 +17,38 @@
    "evidence_quote": "tel: 983001000 <tel 983001000>"
   },
   "phone_alt": [],
-  "contact": null,
-  "alternates": [],
-  "rung": "",
+  "generic_email": "rectorado@uemc.es",
+  "generic_email_url": "https://www.uemc.es/documents/download/162",
+  "contact": {
+   "name": "Estefanía Jerónimo Sánchez-Beato",
+   "designation": "Vice-Rector for Research and International Relations",
+   "designation_local": "",
+   "email": "ejeronimo@uemc.es",
+   "office_email": "investigacion@uemc.es",
+   "phone": "",
+   "source_url": "https://www.uemc.es/documents/download/162",
+   "evidence_quote": "Estefanía Jerónimo Sánchez-Beato ... Vicerrectora de Investigación",
+   "email_source_url": "https://servicios.uemc.es/GuiasDocentes17/GuiaDocente/Pdf/201"
+  },
+  "alternates": [
+   {
+    "name": "Juan Martín Hernández",
+    "designation": "Vice-Rector for Scientific Policy and Internationalization",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.uemc.es/noticias/la-uemc-celebra-el-acto-de-toma-de-posesion-del-rector-david-garcia-lopez",
+    "evidence_quote": "Vicerrectorado de Política Científica e Internacionalización ... Juan Martín Hernández será de nuevo Vicerrector de Política Científica e Internacionalización. Doctor Internacional Cum Laude en Ciencias de la Actividad Física y el Deporte por la Universidad de León y fue cofundador el Grupo de Investigación i+HeALTH de la UEMC. Profesor de la Universidad Europea Miguel de Cervantes desde 2012, fue director del Departamento de Ciencias de la Salud (2015-2017), coordinador Académico de Titulación de Ciencias de la Actividad Física y el Deporte (2017) y desde 20",
+    "why_chosen": "Vice-rector for international affairs. He is the Vice-Rector responsible for internationalization at the institution."
+   }
+  ],
+  "rung": "Vice-rector for international affairs. She is listed as the Vice-Rector for Research and International Relations. Own work email found on a page naming them.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 9,
-  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read.",
-  "generic_email": "uemcsomosdeporte@uemc.es",
-  "generic_email_url": "https://www.uemc.es/p/convenios-deportivos",
-  "generic_checked": "2026-10-22"
+  "confidence": 0.75,
+  "needs_human_check": false,
+  "pages_read": 13,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 9 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -261,14 +282,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 30.8,
-  "ai_calls": 2,
-  "model_s": 2.8,
+  "crawl_s": 128.9,
+  "ai_calls": 1,
+  "model_s": 3.2,
   "cost_usd_estimate": 0.0,
   "mode": "gemini",
   "reader": "gemini-3.1-flash-lite (paid key)",
-  "contact_pass": 0,
-  "total_seconds": 34.5
- },
- "rechecked": 4
+  "email_search_s": 13.8,
+  "total_seconds": 145.9
+ }
 }
