@@ -1,25 +1,41 @@
 {
  "row_id": "r424",
- "scraped_at": "2026-10-12T05:55:04Z",
+ "scraped_at": "2026-10-22T20:51:59Z",
  "contacts": {
   "row_id": "r424",
   "institution_name": "Panstwowa Wyzsza Szkola Zawodowa im. Jana Amosa Komenskiego w Lesznie",
-  "institution_type": "college",
+  "institution_type": "university",
   "official_website": "https://www.ansleszno.pl/",
-  "country": null,
-  "phone": null,
+  "country": {
+   "value": "Poland",
+   "source_url": "https://en.ansleszno.pl/About-our-University,61565.html",
+   "evidence_quote": "64-100 Leszno, Poland"
+  },
+  "phone": {
+   "value": "+48 65 528 78 78",
+   "source_url": "https://en.ansleszno.pl/About-our-University,61565.html",
+   "evidence_quote": "Phone: +48 65 528 78 78 / +48 65 525 01 56"
+  },
   "phone_alt": [],
-  "contact": null,
+  "generic_email": "rekrutacja@ansleszno.pl",
+  "generic_email_url": "https://www.ansleszno.pl/",
+  "contact": {
+   "name": "Edyta Chudzicka",
+   "designation": "International Relations Office staff",
+   "designation_local": "",
+   "email": "edyta.chudzicka@ansleszno.pl",
+   "office_email": "",
+   "phone": "65 528 78 78",
+   "source_url": "https://www.ansleszno.pl/Kontakt,60285.html",
+   "evidence_quote": "Dział Nauki i Współpracy z Zagranicą ... mgr Edyta Chudzicka |"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "International relations officer. She is a staff member in the Department of Science and International Cooperation handling Erasmus+ applications.",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
-  "generic_email": "",
-  "generic_email_url": "",
-  "generic_checked": "2026-10-22"
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 20,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [
@@ -136,8 +152,13 @@
  },
  "timing": {
   "discover_s": 0.0,
-  "crawl_s": 50.4,
-  "total_seconds": 50.4
- },
- "rechecked": 3
+  "crawl_s": 165.0,
+  "ai_calls": 1,
+  "model_s": 2.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 167.4
+ }
 }
