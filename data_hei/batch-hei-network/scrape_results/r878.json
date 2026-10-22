@@ -1,0 +1,119 @@
+{
+ "row_id": "r878",
+ "scraped_at": "2026-10-22T22:41:47Z",
+ "contacts": {
+  "row_id": "r878",
+  "institution_name": "Conservatorio Superior de Danza María de Ávila",
+  "institution_type": "university",
+  "official_website": "https://www.csdma.es/",
+  "country": {
+   "value": "Spain",
+   "source_url": "https://www.csdma.es/pdf2025/Ayudas%20econ%C3%B3micas%20personal%20STA-STT.pdf",
+   "evidence_quote": "Eslovaquia, Eslovenia, España, Estonia, Grecia, Letonia, Malta,"
+  },
+  "phone": {
+   "value": "914 22 09 79",
+   "source_url": "https://www.csdma.es/",
+   "evidence_quote": "914 22 09 79 <tel 0034914220979>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Eva López Crevillén",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.csdma.es/conservatorio/organigrama",
+   "evidence_quote": "Directora: Eva López Crevillén"
+  },
+  "alternates": [
+   {
+    "name": "María Jesús Barrios Peralbo",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.csdma.es/conservatorio/organigrama",
+    "evidence_quote": "Secretaria: María Jesús Barrios Peralbo",
+    "why_chosen": "Secretary / administration (last resort). María Jesús Barrios Peralbo is the Secretary of the institution."
+   },
+   {
+    "name": "Fátima Sánchez Beleña",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.csdma.es/conservatorio/organigrama",
+    "evidence_quote": "Vicedirectora: Fátima Sánchez Beleña",
+    "why_chosen": "Other role. Fátima Sánchez Beleña serves as the Deputy Director of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Eva López Crevillén is the Director of the Conservatorio Superior de Danza María de Ávila.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Países Bajos",
+    "partner_country": "Países Bajos",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.csdma.es/internacional/erasmus/movilidad-estudiantes",
+    "evidence_quote": "Convocatoria BIP “Rhythm” Países Bajos",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Conservatorio Superior de Danza de Madrid",
+    "city": "Madrid",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.csdma.es/",
+    "evidence_quote": "CONSERVATORIO SUPERIOR DE DANZA DE MADRID"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution mentions having bilateral agreements but does not provide a list of partner institutions in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 13.8,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "staff_pages": 3,
+  "email_search_s": 7.7,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 92.7
+ }
+}
