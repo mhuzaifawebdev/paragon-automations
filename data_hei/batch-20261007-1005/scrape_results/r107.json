@@ -16,7 +16,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: email domain. mode: gemini.",
+  "generic_email": "admission@umb.edu.pl",
+  "generic_email_url": "https://www.umb.edu.pl/rekrutacja/kontakt"
  },
  "network": {
   "external_collaboration": [
@@ -114,12 +116,32 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 1.9,
-  "crawl_s": 13.0,
+  "discover_s": 0.0,
+  "crawl_s": 177.9,
+  "ai_calls": 3,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 35.4,
+  "model_s": 6.1,
   "mode": "gemini",
-  "total_seconds": 50.3
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 184.0
  },
  "rechecked": true
 }
