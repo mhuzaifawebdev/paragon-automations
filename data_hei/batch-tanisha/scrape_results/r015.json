@@ -1,0 +1,104 @@
+{
+ "row_id": "r015",
+ "scraped_at": "2026-10-22T22:47:19Z",
+ "contacts": {
+  "row_id": "r015",
+  "institution_name": "Institut de formation en soins i",
+  "institution_type": "college",
+  "official_website": "https://www.ifsi.chu-lille.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secifsi@chu-lille.fr",
+  "generic_email_url": "https://www.ifsi.chu-lille.fr/",
+  "contact": {
+   "name": "Laurence LANGLOIS",
+   "designation": "Disability Referent",
+   "designation_local": "",
+   "email": "handicap@chu-lille.fr",
+   "office_email": "",
+   "phone": "03 20 44 52 03",
+   "source_url": "https://www.ifsi.chu-lille.fr/",
+   "evidence_quote": "Madame Laurence LANGLOIS ... Référent handicap : 03 20 44 52 03 <tel 0320445203>"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Laurence LANGLOIS is a named official contact listed for the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CHU de Lille",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ifsi.chu-lille.fr/",
+    "evidence_quote": "« Je suis actuellement étudiant en première année à L’IFSI. J’ai choisi d’intégrer cet institut de formation du fait de son partenariat avec le CHU de Lille : en effet, nous avons accès à une offre de stage très diversifiée dans des hôpitaux très réputés. Par ailleurs, nous avons la possibilité d’avoir une chambre à l’internat Gernez Rieux : n’étant pas originaire du Nord, c’est un véritable atout. »",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ufr3s",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ifsi.chu-lille.fr/",
+    "evidence_quote": "[logo HDF] [logo ufr3s] [univ-lille]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "univ-lille",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ifsi.chu-lille.fr/",
+    "evidence_quote": "[logo HDF] [logo ufr3s] [univ-lille]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut de formation en soins infirmiers du CHU de Lille",
+    "city": "Lille",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ifsi.chu-lille.fr/",
+    "evidence_quote": "L’Institut en Soins Infirmiers situé au sein de l’institut Gernez Rieux, sur campus du CHU de Lille, accueille en 1ère année, une promotion de 153 étudiants. Notre école partage les locaux de l’Institut Gernez Rieux (IGR) avec 8 autres écoles."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 2,
+  "coverage_note": "The website does not provide a list of international Erasmus+ partners or a dedicated international relations office contact. The institution is part of the CHU de Lille hospital complex.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.8,
+  "crawl_s": 6.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 10.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     115
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 27.3
+ }
+}
