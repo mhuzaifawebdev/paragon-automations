@@ -20,7 +20,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 10,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: email domain. mode: gemini.",
+  "generic_email": "info@fg.ull.es",
+  "generic_email_url": "https://fg.ull.es/"
  },
  "network": {
   "external_collaboration": [
@@ -142,12 +144,40 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 4.6,
-  "crawl_s": 14.0,
+  "discover_s": 0.0,
+  "crawl_s": 6.2,
+  "ai_calls": 4,
+  "partner_calls": 3,
   "cost_usd_estimate": 0.0,
-  "model_s": 50.2,
+  "model_s": 29.9,
   "mode": "gemini",
-  "total_seconds": 68.9
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 36.2
  },
  "rechecked": true
 }

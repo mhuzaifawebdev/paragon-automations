@@ -478,12 +478,32 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 2.0,
-  "crawl_s": 17.2,
+  "discover_s": 0.0,
+  "crawl_s": 10.2,
+  "ai_calls": 3,
+  "partner_calls": 2,
   "cost_usd_estimate": 0.0,
-  "model_s": 219.2,
+  "model_s": 16.8,
   "mode": "gemini",
-  "total_seconds": 238.4
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 12,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     260
+    ],
+    "returned": 32,
+    "accepted": 30
+   }
+  ],
+  "total_seconds": 27.0
  },
  "rechecked": true
 }

@@ -16,7 +16,9 @@
   "confidence": 0.2,
   "needs_human_check": true,
   "pages_read": 2,
-  "notes": "site found via: email domain. mode: gemini."
+  "notes": "site found via: email domain. mode: gemini.",
+  "generic_email": "post@nmh.no",
+  "generic_email_url": "https://nmh.no/kontakt-oss"
  },
  "network": {
   "external_collaboration": [],
@@ -41,12 +43,14 @@
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.0,
-  "crawl_s": 6.3,
+  "discover_s": 0.0,
+  "crawl_s": 5.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
   "cost_usd_estimate": 0.0,
-  "model_s": 55.6,
+  "model_s": 9.0,
   "mode": "gemini",
-  "total_seconds": 64.9
+  "total_seconds": 14.1
  },
  "rechecked": true
 }
