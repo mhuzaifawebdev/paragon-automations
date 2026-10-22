@@ -262,5 +262,36 @@ eta = br.write_progress(d, "t", "running", rows4 + [{"row_id": f"x{i}"} for i in
                         1, 1, [60.0] * 4, [0] * 4, br.time.time())["eta_seconds"]
 check("time remaining allows for institutes being read in parallel (4 left, 60s each, 2 at once)", eta, 120)
 
+# ---- re-check of institutes with no named contact: the new result never makes one worse ----
+sys.path.insert(0, str(ROOT / "scripts"))
+import recheck_no_contact as rc  # noqa: E402
+
+rb = Path(tempfile.mkdtemp()) / "b1"
+(rb / "scrape_results").mkdir(parents=True)
+(rb / "numbers_clean.csv").write_text("row_id\nr001\nr002\nr003\n", encoding="utf-8")
+(rb / "reader.json").write_text(json.dumps({"mode": "fast", "paid": "gemini"}), encoding="utf-8")
+res_ = lambda contact, partners, **c: {"row_id": "x", "contacts": {"official_website": "https://x.edu/", "contact": contact, **c},
+                                       "network": {"external_collaboration": [{}] * partners}, "timing": {}}
+(rb / "scrape_results" / "r001.json").write_text(json.dumps(res_(None, 5, generic_email="info@x.edu")), encoding="utf-8")
+(rb / "scrape_results" / "r002.json").write_text(json.dumps(res_({"name": "A"}, 3)), encoding="utf-8")
+(rb / "scrape_results" / "r003.json").write_text(json.dumps(res_(None, 0, notes="Website not found (x)")), encoding="utf-8")
+check("only the institute with a website and no contact is set aside", (rc.prepare(rb), rc.pending(rb)), (1, 1))
+check("the re-check reads with the free reader and has its own spending record",
+      (json.loads((rb / "reader.json").read_text())["mode"], br.paid_usage_file(rb).name), ("free", "paid_usage_recheck.json"))
+kept = br.keep_better(rb / "scrape_results", "r001", res_(None, 2))
+check("nothing better found: the old result (5 partners, its inbox) stays",
+      (len(kept["network"]["external_collaboration"]), kept["contacts"].get("generic_email"), kept["rechecked"]), (5, "info@x.edu", True))
+check("the set-aside copy is used up", rc.pending(rb), 0)
+(rb / "scrape_results_prev").mkdir(exist_ok=True)
+(rb / "scrape_results_prev" / "r001.json").write_text(json.dumps(res_(None, 5)), encoding="utf-8")
+won = br.keep_better(rb / "scrape_results", "r001", res_({"name": "Head Teacher B"}, 1))
+check("a contact found: the new contact with the longer old partner list",
+      (won["contacts"]["contact"]["name"], len(won["network"]["external_collaboration"])), ("Head Teacher B", 5))
+check("a second prepare does not set an already re-checked institute aside", (
+      (rb / "scrape_results" / "r001.json").write_text(json.dumps(kept), encoding="utf-8"), rc.prepare(rb))[1], 0)
+check("finish puts the batch's reader choice back", (rc.finish(rb), json.loads((rb / "reader.json").read_text())["mode"],
+      (rb / "RECHECK").exists()), (True, "fast", False))
+check("no re-check: the batch's own spending record", br.paid_usage_file(rb).name, "paid_usage.json")
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

@@ -1,0 +1,80 @@
+name: Re-check institutes with no contact
+
+# Scrapes again only the institutes that have a website but no named contact, with the newer contact rules
+# (head teacher / principal, then English, language or EU-project teacher). See scripts/recheck_no_contact.py.
+# Free reader; the personal-email search is paid (about 0.6 US cents an institute) and capped per batch.
+# Batches run one after another. If the free AI allowance runs out, that batch waits and resume_batches.yml
+# finishes it later; run this workflow again afterwards to finish any batch not reached yet.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recheck-no-contact
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+      DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+      GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+      GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Set the institutes with no contact aside for the re-check
+        run: |
+          git config user.name "paragon-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          python scripts/recheck_no_contact.py --finish
+          python scripts/recheck_no_contact.py --prepare
+          git add data_hei
+          git diff --cached --quiet || git commit -q -m "re-check: institutes with no contact set aside [automated]"
+          git pull --rebase --autostash -q && git push -q
+
+      - name: Re-check each batch, one after another
+        run: |
+          for B in $(python scripts/recheck_no_contact.py --list); do
+            echo "=== $B ==="
+            PARAGON_DATA="data_hei/$B" python scraper2/batch_runner.py --batch "$B" --chunk-size 25 --provider gemini &
+            PID=$!
+            while kill -0 $PID 2>/dev/null; do              # save results every 60s, so a crash loses little
+              for i in $(seq 12); do if kill -0 $PID 2>/dev/null; then sleep 5; fi; done
+              git add "data_hei/$B"
+              if ! git diff --cached --quiet; then
+                git commit -q -m "re-check $B: progress [automated]"
+                git pull --rebase --autostash -q || true
+                git push -q || true
+              fi
+            done
+            wait $PID || true
+            python scripts/build_dashboard_stats.py || true
+            STATUS=$(python -c "import json; print(json.load(open('data_hei/$B/progress.json')).get('status', ''))")
+            if [ "$(ls data_hei/$B/scrape_results_prev 2>/dev/null | wc -l)" = "0" ]; then
+              python scraper2/build_xlsx.py --batch "$B" &&
+              { python scraper2/drive_upload.py --batch "$B" || echo "($B: Drive upload failed, non-fatal)"; }
+              python scripts/recheck_no_contact.py --finish
+            fi
+            git add data_hei
+            git diff --cached --quiet || git commit -q -m "re-check $B: done [automated]"
+            git pull --rebase --autostash -q && git push -q
+            if [ "$STATUS" = "waiting" ]; then
+              echo "Free AI allowance used up: $B continues by itself later (resume job). Run this workflow again after that."
+              break
+            fi
+          done

@@ -216,6 +216,37 @@ def _read_csv(path):
         return list(csv.DictReader(f))
 
 
+def keep_better(results_dir, rid, res):
+    """A re-check (scripts/recheck_no_contact.py) moved this institute's old result to scrape_results_prev/. The new
+    result never makes it worse: no contact found -> the old result stays (with any new general inbox added); a
+    contact found but a shorter partner list -> the new contact with the old partner list."""
+    prev = Path(results_dir).parent / "scrape_results_prev" / f"{rid}.json"
+    if not prev.exists():
+        return res
+    try:
+        old = json.loads(prev.read_text(encoding="utf-8"))
+    except Exception:
+        old = None
+    prev.unlink()
+    if not old or not old.get("contacts"):
+        return res
+    partners = lambda x: len((x.get("network") or {}).get("external_collaboration") or [])
+    if (res.get("contacts") or {}).get("contact"):
+        return res if partners(res) >= partners(old) or not old.get("network") else {**res, "network": old["network"]}
+    keep = res if partners(res) > partners(old) and res.get("contacts") else old
+    other = old if keep is res else res
+    c = dict(keep["contacts"])
+    oc = other.get("contacts") or {}
+    if oc.get("generic_email") and not c.get("generic_email"):
+        c.update(generic_email=oc["generic_email"], generic_email_url=oc.get("generic_email_url", ""))
+    return {**keep, "contacts": c, "rechecked": True, "timing": res.get("timing") or old.get("timing") or {}}
+
+
+def paid_usage_file(data_dir):
+    """A re-check keeps its own spending record, so the batch's earlier spending does not block it (and its cap)."""
+    return Path(data_dir) / ("paid_usage_recheck.json" if (Path(data_dir) / "RECHECK").exists() else "paid_usage.json")
+
+
 def run_chunk(rows, cfg, workers, results_dir, on_row_done=None, data_dir=None):
     """Scrapes one chunk. Same per-row logic as scraper2/run.py's work(), reused not duplicated.
     on_row_done(timings, costs, done_ids), if given, fires after each row (not just once at the end
@@ -227,6 +258,7 @@ def run_chunk(rows, cfg, workers, results_dir, on_row_done=None, data_dir=None):
 
     def save(rid, res):
         with lock:
+            res = keep_better(results_dir, rid, res)
             (results_dir / f"{rid}.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
             timings.append(res["timing"].get("total_seconds", 0))
             costs.append(res["timing"].get("cost_usd_estimate", 0))
@@ -326,7 +358,7 @@ def main():
     results_dir.mkdir(parents=True, exist_ok=True)
     # Paid web searches are capped per BATCH, not per job: the total is kept in the batch folder so every chunk
     # (a separate GitHub job) continues from what the earlier ones already spent.
-    discover.set_budget(float(cfg.get("max_paid_usd_per_batch", 3.0)), data_dir / "paid_usage.json")
+    discover.set_budget(float(cfg.get("max_paid_usd_per_batch", 3.0)), paid_usage_file(data_dir))
     STATS.update(workers=a.workers, provider=a.provider, chunk_size=a.chunk_size)
     apply_mode(data_dir, cfg)          # free mode unless the upload page switched this batch to fast
 
