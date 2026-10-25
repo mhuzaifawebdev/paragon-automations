@@ -836,7 +836,8 @@ function renderTiles(t) {
   const tiles = [
     [fmtN(t.institutes), "Institutes scraped", fmtN(t.batches) + " batches"],
     [fmtN(t.with_contact), "Contacts found", pct(t.with_contact, site) + " of institutes with a website"],
-    [fmtN(t.with_email), "With an email", pct(t.with_email, site) + " of institutes with a website"],
+    [fmtN(t.with_email), "With an email", pct(t.with_email, site) + " of institutes with a website" +
+      (t.personal_email != null ? `<br>Professional work email: ${fmtN(t.personal_email)}<br>Generic dept email: ${fmtN(t.generic_email)}` : "")],
     [fmtN(t.partners), "Partners found", avg(t.partners, site) + " per institute on average", "partners"],
     [fmtN(t.campuses), "Campuses found", avg(t.campuses, site) + " per institute on average", "campuses"],
     [fmtN(t.no_website), "Website not found", pct(t.no_website, t.institutes) + " of institutes"],
