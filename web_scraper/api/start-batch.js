@@ -58,8 +58,11 @@ module.exports = async (req, res) => {
     });
     return;
   }
-  const allowedProviders = ["gemini", "claude_api", "rules"];
-  const p = allowedProviders.includes(provider) ? provider : "gemini";
+  // "gemini_paid" = the free Gemini reader first, the paid Gemini key once the free allowance is used up: the batch
+  // starts in "fast" mode with the paid Gemini reader (data_hei/<batch>/reader.json), capped like any fast batch.
+  const allowedProviders = ["gemini_paid", "gemini", "claude_api", "rules"];
+  const choice = allowedProviders.includes(provider) ? provider : "gemini_paid";
+  const p = choice === "gemini_paid" ? "gemini" : choice;
   const chunkSize = Math.max(5, Math.min(100, parseInt(chunk_size, 10) || 25));
 
   try {
@@ -70,6 +73,11 @@ module.exports = async (req, res) => {
     }
 
     await putFile(`data_hei/uploads/${batch}.csv`, csv, `scrape ${batch}: uploaded [automated]`);
+    if (choice === "gemini_paid") {
+      await putFile(`data_hei/${batch}/reader.json`,
+        JSON.stringify({ mode: "fast", paid: "gemini", set_at: new Date().toISOString() }) + "\n",
+        `scrape ${batch}: reader set to fast (gemini) [automated]`);
+    }
     await dispatch("scrape-start", { batch, provider: p, chunk_size: String(chunkSize) });
 
     res.status(200).json({ ok: true, batch, provider: p, chunk_size: chunkSize });

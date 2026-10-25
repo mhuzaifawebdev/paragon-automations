@@ -210,7 +210,8 @@
         <summary>Advanced</summary>
         <label>Provider</label>
         <select id="provider">
-          <option value="gemini">Gemini (free)</option>
+          <option value="gemini_paid" selected>Gemini (paid when the free allowance runs out, no waiting)</option>
+          <option value="gemini">Gemini (free only, pauses until the next day)</option>
           <option value="claude_api">Claude (paid, higher quality)</option>
           <option value="rules">Rules only (free, no AI)</option>
         </select>
