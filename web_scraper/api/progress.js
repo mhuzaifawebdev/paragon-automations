@@ -16,6 +16,21 @@ module.exports = async (req, res) => {
   try {
     const text = await getRawFile(`data_hei/${batch}/progress.json`);
     if (text === null) {
+      // Not started yet: waiting in the batch queue (data_hei/queue.json, or a page upload not yet taken in).
+      let queue = { items: [] };
+      try { queue = JSON.parse((await getRawFile("data_hei/queue.json")) || "{}"); } catch {}
+      const items = queue.items || [];
+      const it = items.find(i => i.batch === batch);
+      const requested = !it && (await getRawFile(`data_hei/_queue_requests/${batch}.json`)) !== null;
+      if ((it && it.state === "queued") || requested) {
+        const position = it ? items.filter(i => i.state === "queued").findIndex(i => i.batch === batch) + 1 : null;
+        res.status(200).json({ status: "queued", batch, position, paused: queue.paused || null });
+        return;
+      }
+      if (it && (it.state === "failed" || it.state === "cancelled")) {
+        res.status(200).json({ status: it.state, batch, error: it.reason || "" });
+        return;
+      }
       res.status(200).json({ status: "not_found", batch });
       return;
     }

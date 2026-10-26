@@ -33,6 +33,7 @@ sys.path.insert(0, str(ROOT / "scraper"))
 import discover  # noqa: E402
 import import_batch  # noqa: E402
 import pipeline  # noqa: E402
+import reuse  # noqa: E402
 import run_batch  # noqa: E402
 from run import load_cfg, load_env  # noqa: E402
 
@@ -245,6 +246,18 @@ def keep_better(results_dir, rid, res):
     return {**keep, "contacts": c, "rechecked": old.get("rechecked") or True, "timing": res.get("timing") or old.get("timing") or {}}
 
 
+_ROBOT = {}
+
+
+def fetch_archive(batch):
+    """A finished batch's results archive from Google Drive (scripts/queue_tick.py puts it there), or None."""
+    import drive_upload
+    if "svc" not in _ROBOT:
+        _ROBOT["svc"] = drive_upload.robot_service()
+    svc = _ROBOT["svc"]
+    return drive_upload.get_bytes(svc, f"{batch} data.json.gz", drive_upload.subfolder(svc, "_archive"))
+
+
 def paid_usage_file(data_dir):
     """A re-check keeps its own spending record, ONE for all batches (data_hei/paid_usage_recheck.json), so the
     batch's earlier spending does not block it and its cap is a single total."""
@@ -301,6 +314,14 @@ def run_chunk(rows, cfg, workers, results_dir, on_row_done=None, data_dir=None):
                 if on_row_done:
                     on_row_done(timings, costs, done_ids)
             return
+        if data_dir is not None and cfg.get("reuse_earlier_results", True):
+            # already scraped in an earlier batch (data_hei/_index.json): copied, nothing is paid again
+            prior = reuse.lookup(r, Path(data_dir).parent, Path(data_dir).name,
+                                 int(cfg.get("reuse_max_age_days", 180)), fetch_archive)
+            if prior:
+                save(rid, prior)
+                print(f"{rid}: reused from batch {prior['reused_from']['batch']} (no cost)", flush=True)
+                return
         if data_dir is not None:
             apply_mode(data_dir, cfg)
         if PAUSE["until"]:

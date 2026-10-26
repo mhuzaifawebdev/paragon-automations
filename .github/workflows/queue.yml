@@ -1,0 +1,53 @@
+name: Batch queue
+
+# Runs the client's batches one after another (scripts/queue_tick.py): picks up lists dropped into the Drive inbox
+# and uploads from the page, finishes the batch that just completed (Excel in Drive/Results, data archived to
+# Drive/_archive, working files out of GitHub) and starts the next one. Started every 10 minutes by
+# apps_script/Scheduler.gs, at once by a batch that finishes (event queue-tick), and by this schedule as a backup.
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [queue-tick]
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: batch-queue
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+      DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+      GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+      GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: One queue tick, then start what it chose (only after the queue state is pushed)
+        run: |
+          git config user.name "paragon-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          python scripts/queue_tick.py --dispatch-file /tmp/dispatch.json
+          git add -A data_hei
+          if ! git diff --cached --quiet; then
+            git commit -q -m "batch queue: update [automated]"
+            git pull --rebase --autostash -q
+            git push -q
+          fi
+          python scripts/queue_tick.py --send-dispatches /tmp/dispatch.json

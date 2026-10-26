@@ -50,31 +50,51 @@ def institute_row(result, batch):
             "website": n["with_website"]}
 
 
+def batch_figures(bdir):
+    """(counts, {day: counts}, Institutes view lines) of one batch, from its per-institute results; for a finished
+    batch whose working files were archived to Drive (scripts/queue_tick.py), from its summary.json."""
+    bdir = Path(bdir)
+    summary = bdir / "summary.json"
+    if summary.exists() and not (bdir / "scrape_results").exists():
+        try:
+            s = json.loads(summary.read_text(encoding="utf-8"))
+            return {**_empty(), **s.get("totals", {})}, s.get("days", {}), s.get("institutes", [])
+        except Exception:
+            pass
+    b, days, lines = _empty(), defaultdict(_empty), []
+    done = list((bdir / "scrape_results").glob("r*.json"))
+    names = {f.name for f in done}
+    # an institute set aside by a re-check (scripts/recheck_no_contact.py) still counts, with its old result
+    waiting = [f for f in (bdir / "scrape_results_prev").glob("r*.json") if f.name not in names]
+    for f in done + waiting:
+        try:
+            r = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if broken_row(r):
+            continue
+        n = institute_counts(r)
+        lines.append(institute_row(r, bdir.name))
+        day = str(r.get("scraped_at") or "")[:10]
+        for k, v in n.items():
+            b[k] += v
+            if day:
+                days[day][k] += v
+    return b, dict(days), lines
+
+
 def build(data=DATA, rows=None):
     """rows: if a list is given, the Institutes view lines are appended to it."""
     totals, by_day, batches = _empty(), defaultdict(_empty), []
-    for bdir in sorted(p for p in Path(data).iterdir() if p.is_dir() and p.name != "uploads"):
-        b = _empty()
-        done = list((bdir / "scrape_results").glob("r*.json"))
-        names = {f.name for f in done}
-        # an institute set aside by a re-check (scripts/recheck_no_contact.py) still counts, with its old result
-        waiting = [f for f in (bdir / "scrape_results_prev").glob("r*.json") if f.name not in names]
-        for f in done + waiting:
-            try:
-                r = json.loads(f.read_text(encoding="utf-8"))
-            except Exception:
-                continue
-            if broken_row(r):
-                continue
-            n = institute_counts(r)
-            if rows is not None:
-                rows.append(institute_row(r, bdir.name))
-            day = str(r.get("scraped_at") or "")[:10]
-            for k, v in n.items():
-                totals[k] += v
-                b[k] += v
-                if day:
-                    by_day[day][k] += v
+    for bdir in sorted(p for p in Path(data).iterdir() if p.is_dir() and p.name != "uploads" and not p.name.startswith("_")):
+        b, days, lines = batch_figures(bdir)
+        if rows is not None:
+            rows.extend(lines)
+        for k, v in b.items():
+            totals[k] += v
+        for day, counts in days.items():
+            for k, v in counts.items():
+                by_day[day][k] += v
         prog = {}
         if (bdir / "progress.json").exists():
             try:

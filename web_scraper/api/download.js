@@ -50,6 +50,16 @@ module.exports = async (req, res) => {
       return;
     }
 
+    // A finished queue batch keeps its Excel in Google Drive only (its working files left GitHub): send the user there.
+    try {
+      const link = JSON.parse((await getRawFile(`data_hei/${batch}/progress.json`)) || "{}").drive_link;
+      if (link) {
+        res.setHeader("Location", link);
+        res.status(302).send(`The results are in Google Drive: ${link}`);
+        return;
+      }
+    } catch {}
+
     const csv = await getRawFile(`data_hei/${batch}/${SHEETS.institutions}`);
     if (csv === null) {
       res.status(404).send(`No results yet for batch "${batch}".`);

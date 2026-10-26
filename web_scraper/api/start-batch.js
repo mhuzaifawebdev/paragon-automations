@@ -66,21 +66,21 @@ module.exports = async (req, res) => {
   const chunkSize = Math.max(5, Math.min(100, parseInt(chunk_size, 10) || 25));
 
   try {
-    const already = await getRawFile(`data_hei/${batch}/numbers_clean.csv`);
+    const already = (await getRawFile(`data_hei/${batch}/progress.json`)) ?? (await getRawFile(`data_hei/uploads/${batch}.csv`));
     if (already !== null) {
       res.status(409).json({ error: `Batch "${batch}" already exists. Pick a different name, or use "Check a batch" to see its progress.` });
       return;
     }
 
+    // The batch joins the queue (scripts/queue_tick.py), which runs one batch at a time and starts it in turn.
     await putFile(`data_hei/uploads/${batch}.csv`, csv, `scrape ${batch}: uploaded [automated]`);
-    if (choice === "gemini_paid") {
-      await putFile(`data_hei/${batch}/reader.json`,
-        JSON.stringify({ mode: "fast", paid: "gemini", set_at: new Date().toISOString() }) + "\n",
-        `scrape ${batch}: reader set to fast (gemini) [automated]`);
-    }
-    await dispatch("scrape-start", { batch, provider: p, chunk_size: String(chunkSize) });
+    await putFile(`data_hei/_queue_requests/${batch}.json`, JSON.stringify({
+      batch, source: "upload page", added: new Date().toISOString(), provider: p, chunk_size: chunkSize,
+      reader: choice === "gemini_paid" ? "paid" : "free"
+    }) + "\n", `scrape ${batch}: queued [automated]`);
+    await dispatch("queue-tick", {});
 
-    res.status(200).json({ ok: true, batch, provider: p, chunk_size: chunkSize });
+    res.status(200).json({ ok: true, batch, provider: p, chunk_size: chunkSize, queued: true });
   } catch (e) {
     res.status(500).json({ error: `Could not start the batch: ${e.message}` });
   }

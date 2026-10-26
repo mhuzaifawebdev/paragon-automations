@@ -178,6 +178,7 @@
     <a href="#dashboard" data-view="dashboard"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10m6 10V4m6 16v-7m4 7H2"/></svg>Dashboard</a>
     <a href="#batches" data-view="batches"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Batches</a>
     <a href="#institutes" data-view="institutes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg>Institutes</a>
+    <a href="#queue" data-view="queue"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 10h16M4 15h10M4 20h6M18 15v6m-3-3h6"/></svg>Queue</a>
   </nav>
   <div class="side-foot" id="d-updated">Loading figures…</div>
 </aside>
@@ -285,6 +286,17 @@
       <div class="scroll"><table class="data" id="d-batches"></table></div>
     </div>
   
+  </section>
+  <section class="view" id="view-queue" hidden>
+    <div class="tiles" id="q-tiles"></div>
+    <div class="card">
+      <h2>Batch queue</h2>
+      <div class="hint">Lists dropped into the Google Drive folder "Inbox" (or uploaded here) run one after another. Each
+        result lands in Drive as "&lt;batch name&gt; results.xlsx" in the Results folder; unusable files go to "Failed" with the reason.</div>
+      <div class="msg" id="q-paused"></div>
+      <div class="scroll" style="max-height:620px;overflow-y:auto"><table class="data" id="q-table"></table></div>
+      <div class="hint" id="q-updated" style="margin:10px 0 0"></div>
+    </div>
   </section>
   <section class="view" id="view-institutes" hidden>
     <div class="tiles" id="i-tiles"></div>
@@ -595,10 +607,10 @@ async function pollBatch(batch) {
     // "not_found" right after starting is normal - the GitHub Actions job hasn't written
     // progress.json yet (checkout + install deps alone takes 20-40s). Only stop polling once the
     // batch has genuinely finished one way or another; "not_found" keeps retrying like "running" does.
-    if (data.status === "done" || data.status === "error" || data.status === "cancelled") {
+    if (data.status === "done" || data.status === "error" || data.status === "cancelled" || data.status === "failed") {
       if (pollTimer) { clearInterval(pollTimer); pollTimer = null; }
     } else if (pollTimer) {
-      const want = data.status === "waiting" ? POLL_WAITING_MS : POLL_RUNNING_MS;
+      const want = data.status === "waiting" || data.status === "queued" ? POLL_WAITING_MS : POLL_RUNNING_MS;
       if (want !== pollEvery) {
         clearInterval(pollTimer);
         pollEvery = want;
@@ -618,7 +630,16 @@ function renderProgress(d) {
   pill.textContent = status === "loading" ? "loading" : status.replace("_", " ");
 
   const errEl = $("p-error");
-  if (status === "error") {
+  if (status === "queued") {                 // waiting its turn in the batch queue (one batch runs at a time)
+    $("p-body").style.display = "none";
+    errEl.style.display = "block";
+    errEl.className = "msg show ok";
+    errEl.textContent = (d.position ? `In the queue, number ${d.position}. ` : "In the queue. ") +
+      "It starts by itself when the batches before it have finished; the results go to Google Drive (Results folder)." +
+      (d.paused ? " The queue is paused: " + d.paused : "");
+    return;
+  }
+  if (status === "error" || status === "failed") {
     errEl.style.display = "block";
     errEl.textContent = d.error || "Something went wrong.";
     $("p-body").style.display = "none";
@@ -971,12 +992,41 @@ function renderInstitutes() {
 $("i-search").addEventListener("input", () => instRows && renderInstitutes());
 $("i-batch").addEventListener("change", () => instRows && renderInstitutes());
 
+// ---------------- Queue view: the batches dropped into Drive (or uploaded) and where each one stands ----------------
+const Q_LABEL = { queued: "waiting", running: "running", done: "done", failed: "failed", cancelled: "cancelled" };
+async function loadQueue() {
+  try {
+    const q = await (await fetch("/api/stats?view=queue", { cache: "no-store" })).json();
+    const items = q.items || [];
+    const n = s => items.filter(i => i.state === s).length;
+    $("q-tiles").innerHTML = [[n("queued"), "Waiting"], [n("running"), "Running"], [n("done"), "Done"], [n("failed") + n("cancelled"), "Failed or cancelled"]]
+      .map(([v, l]) => `<div class="tile"><div class="n">${fmtN(v)}</div><div class="l">${l}</div></div>`).join("");
+    const pausedEl = $("q-paused");
+    pausedEl.className = q.paused ? "msg show error" : "msg";
+    pausedEl.textContent = q.paused || "";
+    const order = { running: 0, queued: 1, failed: 2, cancelled: 3, done: 4 };
+    const rows = items.slice().sort((a, b) => (order[a.state] - order[b.state]) || String(b.finished || b.added || "").localeCompare(String(a.finished || a.added || "")));
+    const when = t => t ? new Date(t).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "–";
+    $("q-table").innerHTML = rows.length
+      ? `<tr><th>Batch</th><th>File</th><th>Status</th><th class="r">Institutes</th><th>Added</th><th>Finished</th><th>Result / reason</th></tr>` +
+        rows.map(i => `<tr><td class="mono">${esc(i.batch)}</td><td style="white-space:normal">${esc(i.source || "")}${i.part ? " (part " + esc(i.part) + ")" : ""}</td>` +
+          `<td><span class="status-pill ${i.state === "queued" ? "waiting" : i.state === "failed" ? "error" : esc(i.state)}">${Q_LABEL[i.state] || esc(i.state)}</span></td>` +
+          `<td class="r">${i.rows ? fmtN(i.rows) : "–"}</td><td>${when(i.added)}</td><td>${when(i.finished)}</td>` +
+          `<td style="white-space:normal">${i.drive_link ? `<a class="view" href="${esc(i.drive_link)}" target="_blank" rel="noopener">Open in Drive</a>` : esc(i.reason || i.note || "")}</td></tr>`).join("")
+      : `<tr><td class="empty">Nothing in the queue. Drop CSV or Excel files into the Drive folder "Inbox".</td></tr>`;
+    $("q-updated").textContent = q.updated ? "Queue checked " + when(q.updated) : "";
+  } catch (e) {
+    $("q-table").innerHTML = `<tr><td class="empty">Could not load the queue: ${esc(e.message)}</td></tr>`;
+  }
+}
+
 // ---------------- side menu: one section at a time; the address remembers it (#scraper, #dashboard, #batches) ----------------
 const VIEWS = {
   scraper: ["Scraper", "Upload a list of institutes, follow the run, download the results."],
   dashboard: ["Dashboard", "Totals and daily figures across every batch."],
   batches: ["Batches", "Every batch run so far."],
-  institutes: ["Institutes", "Campuses and partners found for each institute."]
+  institutes: ["Institutes", "Campuses and partners found for each institute."],
+  queue: ["Queue", "Batches dropped into Google Drive run one after another."]
 };
 function showView(name) {
   if (!VIEWS[name]) name = "scraper";
@@ -989,6 +1039,7 @@ function showView(name) {
   $("view-title").textContent = VIEWS[name][0];
   $("view-sub").textContent = VIEWS[name][1];
   if (name === "institutes") loadInstitutes();
+  if (name === "queue") loadQueue();
   try { if (location.hash !== "#" + name) history.replaceState(null, "", location.pathname + location.search + "#" + name); } catch {}
 }
 document.querySelectorAll(".menu a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); showView(a.dataset.view); }));

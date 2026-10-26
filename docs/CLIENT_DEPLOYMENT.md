@@ -84,3 +84,26 @@ run `setupScheduler`. The GitHub schedules stay as a backup; GitHub's concurrenc
 
 Once the new addresses work, remove the old Vercel projects on the developer's account (`paragon-scrapper`,
 `web`) so there is only one copy of each page.
+
+## 7. Bulk batches: the Drive inbox
+
+Drop institute lists (CSV, Excel .xlsx or a Google Sheet) into the **Inbox** folder inside the shared-drive folder the
+tool uses (DRIVE_FOLDER_ID). Every 10 minutes the queue (`.github/workflows/queue.yml`) takes them in and runs them one
+after another; nothing has to be uploaded by hand.
+
+| Folder | What is in it |
+|---|---|
+| Inbox | lists waiting to be picked up |
+| Processing | lists queued or running |
+| Done | lists whose batch finished (or a file dropped twice, with a note) |
+| Failed | unusable or cancelled lists, each with "<file> - why.txt" |
+| Results | "<batch name> results.xlsx", one per batch |
+| _archive | the full data of finished batches (kept out of GitHub; used to reuse institutes) |
+
+- The batch is named after the file. A list over 1,200 rows is split into parts of 1,000 (`name-p1`, `name-p2`, ...).
+- An institute already scraped in the last 180 days is copied from the earlier batch at no cost.
+- The paid Gemini reader takes over when the free allowance runs out; all queued batches together stop at
+  `max_queue_usd_per_month` in `config.yaml` (default $50) until the next month.
+- The scraper page's **Queue** menu shows waiting, running, done and failed batches with their Drive links.
+- Needs the robot account: GitHub secrets `GOOGLE_SERVICE_ACCOUNT_JSON` and `DRIVE_FOLDER_ID`, with the robot as
+  Content manager of the shared drive. Add the queue timer by running `setupScheduler` again in Apps Script.

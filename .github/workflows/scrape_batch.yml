@@ -57,6 +57,9 @@ jobs:
       # Optional: a second Gemini key with billing switched on. Used only by a batch switched to "fast" on the
       # upload page; without it fast mode uses Claude Haiku (about three times dearer).
       GEMINI_PAID_API_KEY: ${{ secrets.GEMINI_PAID_API_KEY }}
+      # Reusing an institute already scraped in an earlier batch reads that batch's archive from Drive/_archive.
+      DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
     steps:
       - uses: actions/checkout@v4
 
@@ -268,4 +271,9 @@ jobs:
             git pull --rebase --autostash -q
             git push
             echo "Batch $BATCH complete."
+            # The batch queue (queue.yml) finishes it (archive, Drive/Done) and starts the next one now.
+            curl -s -o /dev/null -w "Queue tick: HTTP %{http_code}\n" -X POST \
+              -H "Authorization: Bearer $DISPATCH_TOKEN" -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/dispatches" \
+              -d '{"event_type":"queue-tick"}' || echo "(queue tick not sent; the 10-minute tick will pick it up)"
           fi

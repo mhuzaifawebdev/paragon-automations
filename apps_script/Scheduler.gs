@@ -1,10 +1,11 @@
 /**
- * On-time starter for the two GitHub jobs, run by Google (free) instead of Vercel Cron, so the client's Vercel
+ * On-time starter for the GitHub jobs, run by Google (free) instead of Vercel Cron, so the client's Vercel
  * account does no scheduled work at all. GitHub's own schedule fires only every few hours, so this sends the
  * start signal on time; the work itself still runs on GitHub, for free.
  *
  *   every 10 minutes, 07:00-16:59 UTC  ->  .github/workflows/pause_monitor.yml   (auto-dialer: offline/idle, call gaps)
  *   every 15 minutes                   ->  .github/workflows/resume_batches.yml  (scraper: restart paused batches)
+ *   every 10 minutes                   ->  .github/workflows/queue.yml           (scraper: Drive inbox + batch queue)
  *
  * Install (once), in the same Apps Script project as LogoutWatch.gs (AutoDialer-Alerts sheet > Extensions > Apps Script):
  *   1. Add a file, paste this, save.
@@ -22,12 +23,13 @@ function setupScheduler() {
   stopScheduler();
   ScriptApp.newTrigger('startPauseMonitor').timeBased().everyMinutes(10).create();
   ScriptApp.newTrigger('startResumeBatches').timeBased().everyMinutes(15).create();
+  ScriptApp.newTrigger('startBatchQueue').timeBased().everyMinutes(10).create();
 }
 
 function stopScheduler() {
   ScriptApp.getProjectTriggers().forEach(function (t) {
     var f = t.getHandlerFunction();
-    if (f === 'startPauseMonitor' || f === 'startResumeBatches') ScriptApp.deleteTrigger(t);
+    if (f === 'startPauseMonitor' || f === 'startResumeBatches' || f === 'startBatchQueue') ScriptApp.deleteTrigger(t);
   });
 }
 
@@ -38,6 +40,10 @@ function startPauseMonitor() {
 
 function startResumeBatches() {
   dispatchWorkflow_('resume_batches.yml');
+}
+
+function startBatchQueue() {
+  dispatchWorkflow_('queue.yml');
 }
 
 function monitorHour(h) {

@@ -94,12 +94,13 @@ if not du.KEY_FILE.exists():
 drive = FakeDrive()
 link, err = du.upload(tmp, "b1", svc=drive, mode="robot")
 prog = json.loads((tmp / "progress.json").read_text(encoding="utf-8"))
-check("first upload creates one file in the configured folder",
-      (drive.creates, drive.updates, list(drive.items.values())), (1, 0, [("b1 results.xlsx", "FOLDER", None)]))
-check("its link is recorded for the upload page", (link, prog.get("drive_link"), err), ("https://drive.example/f1",) * 2 + (None,))
+check("first upload makes the Results folder in the configured folder and puts the file in it",
+      (drive.creates, drive.updates, list(drive.items.values())),
+      (2, 0, [("Results", "FOLDER", "application/vnd.google-apps.folder"), ("b1 results.xlsx", "f1", None)]))
+check("its link is recorded for the upload page", (link, prog.get("drive_link"), err), ("https://drive.example/f2",) * 2 + (None,))
 check("the rest of progress.json is untouched", (prog["status"], prog["pending"]), ("done", 0))
 du.upload(tmp, "b1", svc=drive, mode="robot")
-check("uploading the same batch again replaces the file instead of adding a second", (drive.creates, drive.updates), (1, 1))
+check("uploading the same batch again replaces the file, and the Results folder is made only once", (drive.creates, drive.updates), (2, 1))
 
 refused = FakeDrive(refuse="HttpError 403 storageQuotaExceeded: Service Accounts do not have storage quota")
 link, err = du.upload(tmp, "b2", svc=refused, mode="robot")
