@@ -1,0 +1,122 @@
+{
+ "row_id": "r042",
+ "scraped_at": "2026-10-27T19:01:40Z",
+ "contacts": {
+  "row_id": "r042",
+  "institution_name": "Javier",
+  "institution_type": "school",
+  "official_website": "https://eam.escoladartdemenorca.com/",
+  "country": {
+   "value": "Menorca",
+   "source_url": "https://eam.escoladartdemenorca.com/",
+   "evidence_quote": "Av. de J.M. Quadrado, 33 - 07703 Maó - Menorca - Telf.: 971 35 08 27"
+  },
+  "phone": {
+   "value": "971 35 08 27",
+   "source_url": "https://eam.escoladartdemenorca.com/",
+   "evidence_quote": "Av. de J.M. Quadrado, 33 - 07703 Maó - Menorca - Telf.: 971 35 08 27"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Javier Delgado",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "direccio@eamenorca.com",
+   "office_email": "",
+   "phone": "971 35 08 27",
+   "source_url": "https://eam.escoladartdemenorca.com/organigrama-i-contacte",
+   "evidence_quote": "Director ... Javier Delgado"
+  },
+  "alternates": [
+   {
+    "name": "Nuria Casillas",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "secretaria@eamenorca.com",
+    "office_email": "",
+    "phone": "971 35 08 27",
+    "source_url": "https://eam.escoladartdemenorca.com/organigrama-i-contacte",
+    "evidence_quote": "Secretària ... Nuria Casillas",
+    "why_chosen": "Secretary / administration (last resort). Nuria Casillas is the school secretary handling administrative matters."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Javier Delgado is the Director of the institution and is listed as the head contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Direcció General d’FP i Formació del Professorat de la Conselleria d’Educació i Universitat del Govern Balear",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://eam.escoladartdemenorca.com/erasmus-eam",
+    "evidence_quote": "L’Escola d’Art de Menorca ofereix als seus alumnes la possibilitat de gaudir de beques de mobilitat dins el programa europeu Erasmus+ per a FP, EuroFP Balears. El projecte EuroFP Balears està coordinat per la Direcció General d’FP i Formació del Professorat de la Conselleria d’Educació i Universitat del Govern Balear. Aquestes beques estan destinades a realitzar pràctiques d’empresa en països de la comunitat europea. Poden optar a una d’aquestes beques els alumnes de Cicles Formatius que complei",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Servei Espanyol per a la Internacionalització de l’Educació (SEPIE)",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://eam.escoladartdemenorca.com/erasmus-eam/erasmus-batxillerat",
+    "evidence_quote": "El projecte de curta durada per a la mobilitat d’alumnat i personal d’educació escolar (KA122-SCH), titulat Trashion Pioneers: Creatividad, sostenibilidad y valores europeos, ha estat concedit pel Servei Espanyol per a la Internacionalització de l’Educació (SEPIE) i es desenvoluparà durant el primer trimestre del curs 2026-2027 amb l’alumnat de 2n de batxillerat que sigui seleccionat.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola d'Art de Menorca",
+    "city": "Maó",
+    "country": "Menorca",
+    "role": "main",
+    "source_url": "https://eam.escoladartdemenorca.com/",
+    "evidence_quote": "Av. de J.M. Quadrado, 33 - 07703 Maó - Menorca - Telf.: 971 35 08 27"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 6,
+  "coverage_note": "The evidence details the school's participation in Erasmus+ mobility projects (EuroFP Balears) and lists internal staff and student mobility destinations, but does not list specific external partner universities or institutions by name.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 8.2,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 19.8,
+  "mode": "gemini",
+  "email_search_s": 22.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     187
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 50.7
+ }
+}
