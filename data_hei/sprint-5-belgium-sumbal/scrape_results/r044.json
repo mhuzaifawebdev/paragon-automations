@@ -1,0 +1,57 @@
+{
+ "row_id": "r044",
+ "scraped_at": "2026-10-27T20:11:59Z",
+ "contacts": {
+  "row_id": "r044",
+  "institution_name": "Homblé",
+  "institution_type": "school",
+  "official_website": "https://www.hombleux.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretariat@hombleux.fr",
+  "generic_email_url": "https://www.hombleux.fr/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mairie de Hombleux",
+    "city": "Hombleux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.hombleux.fr/",
+    "evidence_quote": "Adresse :3 rue de l'église, 80400 Hombleux"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence only provides municipal information for the commune of Hombleux rather than an educational institution, and there are no partner lists or international mobility details.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.2,
+  "crawl_s": 13.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 11.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 61.2
+ }
+}
