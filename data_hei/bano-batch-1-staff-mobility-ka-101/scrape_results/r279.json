@@ -1,0 +1,80 @@
+{
+ "row_id": "r279",
+ "scraped_at": "2026-10-27T20:20:40Z",
+ "contacts": {
+  "row_id": "r279",
+  "institution_name": "Jaakko",
+  "institution_type": "school",
+  "official_website": "https://www.vaasa.fi/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Emmi Herler-Westeråker",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.vaasa.fi/en/about-vaasa-and-the-vaasa-region/contact-us-city-of-vaasa/information-and-advisory-services/welcome-office/talent-coastline-employment/spouses-of-international-experts/",
+   "evidence_quote": "Suvilahti School – Emmi Herler-Westeråker, Principal"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Emmi Herler-Westeråker is listed as Principal of Suvilahti School.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch finland-sprint-5 (scraped 2026-10-27). site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Vaasan lyseon lukio",
+    "city": "Vaasa",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.vaasa.fi/koulutus-ja-tyo/lukiot-ja-ammatillinen-koulutus/lukiot/",
+    "evidence_quote": "Vaasassa toimii kolme kaupungin ylläpitämää lukiota: suomenkielinen Vaasan lyseon lukio ja ruotsinkieliset Vasa gymnasium ja Vasa svenska aftonläroverk. Vaasan lyseon lukiossa toimii myös aikuislinja."
+   },
+   {
+    "campus_name": "Vasa gymnasium",
+    "city": "Vaasa",
+    "country": "Finland",
+    "role": "branch",
+    "source_url": "https://www.vaasa.fi/koulutus-ja-tyo/lukiot-ja-ammatillinen-koulutus/lukiot/",
+    "evidence_quote": "Vaasassa toimii kolme kaupungin ylläpitämää lukiota: suomenkielinen Vaasan lyseon lukio ja ruotsinkieliset Vasa gymnasium ja Vasa svenska aftonläroverk. Vaasan lyseon lukiossa toimii myös aikuislinja."
+   },
+   {
+    "campus_name": "Vasa svenska aftonläroverk",
+    "city": "Vaasa",
+    "country": "Finland",
+    "role": "branch",
+    "source_url": "https://www.vaasa.fi/koulutus-ja-tyo/lukiot-ja-ammatillinen-koulutus/lukiot/",
+    "evidence_quote": "Vaasassa toimii kolme kaupungin ylläpitämää lukiota: suomenkielinen Vaasan lyseon lukio ja ruotsinkieliset Vasa gymnasium ja Vasa svenska aftonläroverk. Vaasan lyseon lukiossa toimii myös aikuislinja."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence primarily covers municipal and educational pages for the City of Vaasa, including upper secondary schools and project listings, but does not contain a dedicated partner list for international student mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "finland-sprint-5",
+  "row_id": "r043"
+ }
+}
