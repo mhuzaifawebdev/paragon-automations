@@ -1,0 +1,99 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-10-27T20:10:18Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "Venita",
+  "institution_type": "school",
+  "official_website": "https://lyceum-aalst.be/",
+  "country": null,
+  "phone": {
+   "value": "053 46 65 00",
+   "source_url": "https://lyceum-aalst.be/",
+   "evidence_quote": "[053 46 65 00]"
+  },
+  "phone_alt": [],
+  "generic_email": "secretariaat1stegraad@lyceum-aalst.be",
+  "generic_email_url": "https://lyceum-aalst.be/onze-school/schoolteam/",
+  "contact": {
+   "name": "Venita Van Cauter",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "directeur@lyceum-aalst.be",
+   "office_email": "",
+   "phone": "053 46 65 00",
+   "source_url": "https://lyceum-aalst.be/onze-school/schoolteam/",
+   "evidence_quote": "Venita Van Cauter ... Directeur"
+  },
+  "alternates": [
+   {
+    "name": "Steve Beurms",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "adjunctdirecteur@lyceum-aalst.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lyceum-aalst.be/onze-school/schoolteam/",
+    "evidence_quote": "Steve Beurms ... Adjunct-directeur",
+    "why_chosen": "Principal / director (no Erasmus contact found). Steve Beurms is the Deputy Director of the school."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Venita Van Cauter is the Director of the institution and is also currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lyceum Aalst",
+    "city": "Aalst",
+    "country": "België",
+    "role": "main",
+    "source_url": "https://lyceum-aalst.be/",
+    "evidence_quote": "Pontstraat 51, 9300 Aalst"
+   },
+   {
+    "campus_name": "Campus Zonnestraat",
+    "city": "Aalst",
+    "country": "België",
+    "role": "branch",
+    "source_url": "https://lyceum-aalst.be/",
+    "evidence_quote": "Ouders vertellen ons dat ze een warme band voelen met onze leerkrachten. Dat is geen toeval. Bij ons draait alles om menselijkheid en respect. Of je nu een sportieveling bent, een kunstliefhebber of gewoon iemand die graag lacht, bij ons is er voor elk wat wils. Speciaal voor onze leerlingen van de derde graad op weg naar hoger onderwijs hebben we onze Campus Zonnestraat. Hier bereiden we je voor op de grote stap naar het hoger onderwijs in een gloednieuw gebouw, zonder schoolbel maar met volle "
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The website provides general school and staff information, but no explicit list of partner institutions or Erasmus agreements was found in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 9.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "email_search_s": 7.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 21.7
+ }
+}

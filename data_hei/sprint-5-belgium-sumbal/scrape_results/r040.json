@@ -1,0 +1,116 @@
+{
+ "row_id": "r040",
+ "scraped_at": "2026-10-27T20:10:42Z",
+ "contacts": {
+  "row_id": "r040",
+  "institution_name": "De Makz",
+  "institution_type": "school",
+  "official_website": "https://www.makzsecundair.be/",
+  "country": null,
+  "phone": {
+   "value": "050 63 17 70",
+   "source_url": "https://www.makzsecundair.be/",
+   "evidence_quote": "-> Wil je inschrijven na de winterperiode neem dan contact op via telefoon 050 63 17 70."
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marnic Bos",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.makzsecundair.be/onze-school/schoolteam",
+   "evidence_quote": "Marnic Bos ... Directeur"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Marnic Bos is the Director of the institution and serves as the primary contact for leadership.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "WZC De Noordhinder en Polderparel",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.makzsecundair.be/",
+    "evidence_quote": "👉Lisa werkt op de HR-afdeling van WZC De Noordhinder en Polderparel.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Impact scholengroep",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.makzsecundair.be/",
+    "evidence_quote": "[Impact scholengroep]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GO! Onderwijs van de Vlaamse Gemeenschap",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.makzsecundair.be/",
+    "evidence_quote": "[GO! Onderwijs van de Vlaamse Gemeenschap]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Epos Vlaanderen",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.makzsecundair.be/onze-school/erasmus",
+    "evidence_quote": "Erasmus+ en Epos Vlaanderen",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "MAKZ Secundair",
+    "city": "Knokke-Heist",
+    "country": "België",
+    "role": "main",
+    "source_url": "https://www.makzsecundair.be/",
+    "evidence_quote": "A. Verweeplein"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not list specific partner institutions or universities cooperating for mobility programs, although it mentions participation in Erasmus+ for student internships in Barcelona.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 9.9,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.8,
+  "mode": "gemini",
+  "email_search_s": 3.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 23.0
+ }
+}
