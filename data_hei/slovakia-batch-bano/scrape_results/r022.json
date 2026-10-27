@@ -1,0 +1,91 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-10-27T19:45:00Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "Ján",
+  "institution_type": "school",
+  "official_website": "https://www.sosematej.sk/",
+  "country": null,
+  "phone": {
+   "value": "052 7731 696",
+   "source_url": "https://www.sosematej.sk/",
+   "evidence_quote": "tel.: 052 7731 696"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ing. Iveta Garbinská",
+   "designation": "Zástupca riaditeľa pre teoretické vyučovanie",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.sosematej.sk/kontakty/vedenie-skoly",
+   "evidence_quote": "Ing. Iveta Garbinská ... Zástupca riaditeľa pre teoretické vyučovanie"
+  },
+  "alternates": [
+   {
+    "name": "Ing. Peter Lešundák",
+    "designation": "Zástupca riaditeľa pre praktické vyučovanie",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sosematej.sk/kontakty/vedenie-skoly",
+    "evidence_quote": "Ing. Peter Lešundák ... Zástupca riaditeľa pre praktické vyučovanie",
+    "why_chosen": "Secretary / administration (last resort). Peter Lešundák is a deputy director for practical education."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Iveta Garbinská is a deputy director for theoretical education.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "V4 Gen Mini Grants",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "staff",
+    "source_url": "https://www.sosematej.sk/",
+    "evidence_quote": "Po septembrovej návšteve našich žiakov v Poľsku pokračoval projekt V4 Gen Mini Grants ďalšou mobilitou, tentokrát na Slovensku.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stredná odborná škola elektrotechnická Matejovce",
+    "city": "Poprad-Matejovce",
+    "country": "Slovakia",
+    "role": "main",
+    "source_url": "https://www.sosematej.sk/",
+    "evidence_quote": "Hlavná 1400/1, 059 51 Poprad-Matejovce"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The website does not provide a list of Erasmus+ partners or international mobility agreements. Contact emails are protected by scripts and not explicitly visible in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 51.5,
+  "crawl_s": 8.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "email_search_s": 10.1,
+  "total_seconds": 72.6
+ }
+}
