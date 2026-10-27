@@ -1,0 +1,79 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-27T19:28:57Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "Tomasz",
+  "institution_type": "school",
+  "official_website": "https://1lo.swidnik.pl/",
+  "country": null,
+  "phone": {
+   "value": "+48 81 751 57 13",
+   "source_url": "https://1lo.swidnik.pl/",
+   "evidence_quote": "tel./fax +48 81 751 57 13"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Tomasz Król",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://1lo.swidnik.pl/nauczyciel/kadra-1lo",
+   "evidence_quote": "Król Tomasz ... Ukończył Akademię Wychowania Fizycznego, Organizację i Zarządzanie Oświatą, Oligofrenopedagogikę. Od 1998 roku związany z oświatą, kulturą fizyczną i sportem. Od 2023 roku dyrektor I Liceum. Wieloletni trener piłki nożnej, Radny Rady Miasta Świdnik VI kadencji. Odznaczony przez Ministra Sportu i Turystyki odznaką ,,ZA ZASŁUGI DLA SPORTU\" oraz przez Burmistrza Miasta Świdnika medalem „NIL VIRTUTI CIVILI INVIUM\"."
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Tomasz Król is the director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Uniwersytet Medyczny w Lublinie",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://1lo.swidnik.pl/",
+    "evidence_quote": "25 września uczniowie klas czwartych wzięli udział w warsztatach na Uniwersytecie Medycznym w Lublinie. Zajęcia odbyły się w laboratoriach Collegium Medicum.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "I LO im. W. Broniewskiego",
+    "city": "Świdnik",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://1lo.swidnik.pl/",
+    "evidence_quote": "21-040 Świdnik ul. Okulickiego 13"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a formal list of Erasmus+ or international partners on its website. The evidence only mentions occasional educational workshops at a local university. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.8,
+  "crawl_s": 22.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "email_search_s": 9.3,
+  "total_seconds": 39.2
+ }
+}
