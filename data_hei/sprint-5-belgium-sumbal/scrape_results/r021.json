@@ -1,0 +1,100 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-10-27T20:09:26Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "Gunter",
+  "institution_type": "school",
+  "official_website": "https://www.gunterisd.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "ERIC DAVIS",
+   "designation": "PRINCIPAL",
+   "designation_local": "",
+   "email": "edavis@gunterisd.org",
+   "office_email": "",
+   "phone": "903-433-5315",
+   "source_url": "https://www.gunterisd.org/o/ges/staff/",
+   "evidence_quote": "ERIC DAVIS ... PRINCIPAL",
+   "email_source_url": "https://www.gunterisd.org/page/employment-opportunities"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Eric Davis is the principal of Gunter Elementary School. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gunter ISD Administration Office",
+    "city": "Gunter",
+    "country": "TX",
+    "role": "main",
+    "source_url": "https://www.gunterisd.org/",
+    "evidence_quote": "Gunter ISD213 N. Preston Road | Google Locator: 213 N. 8th StreetGunter, TX 75058903.433.4750 <tel 903.433.4750>903.433.1053 <tel 903.433.1053>"
+   },
+   {
+    "campus_name": "Gunter Elementary School",
+    "city": "Gunter",
+    "country": "Texas",
+    "role": "branch",
+    "source_url": "https://www.gunterisd.org/o/ges/staff/",
+    "evidence_quote": "Gunter Elementary School1351 Preston Crossing Dr.Gunter, Texas 75058903-433-5315 <tel 903-433-5315>903-433-1184 <tel 903-433-1184>"
+   },
+   {
+    "campus_name": "Gunter Middle School",
+    "city": "Gunter",
+    "country": "TX",
+    "role": "branch",
+    "source_url": "https://www.gunterisd.org/o/gms/staff/",
+    "evidence_quote": "Gunter Middle School410 Tiger LaneGunter, TX 75058903.433.1545 <tel 903.433.1545>903.433.9306 <tel 903.433.9306>"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence contains staff directories and contact information for Gunter ISD and its schools, but does not list any international partner institutions or Erasmus+ networks.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 54.1,
+  "crawl_s": 13.5,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 44.4,
+  "mode": "gemini",
+  "email_search_s": 4.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 116.8
+ }
+}
