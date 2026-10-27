@@ -1,0 +1,85 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-10-27T20:06:41Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "Dominique",
+  "institution_type": "school",
+  "official_website": "https://arfd.be/site2/",
+  "country": null,
+  "phone": {
+   "value": "+32(0)71/68.83.23",
+   "source_url": "https://arfd.be/site2/",
+   "evidence_quote": "+32(0)71/68.83.23direction@arfd.be <direction@arfd.be>"
+  },
+  "phone_alt": [],
+  "generic_email": "direction@arfd.be",
+  "generic_email_url": "https://arfd.be/site2/",
+  "contact": {
+   "name": "BOTTE Gontran",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "direction@arfd.be",
+   "office_email": "",
+   "phone": "+32(0)71/68.83.23",
+   "source_url": "https://arfd.be/site2/",
+   "evidence_quote": "BOTTE Gontran ... Directeur"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Gontran Botte is listed as the Director of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Athénée Royal Florennes",
+    "city": "Florennes",
+    "country": "Belgique",
+    "role": "main",
+    "source_url": "https://arfd.be/site2/",
+    "evidence_quote": "Athénée Royal Florennes • Doische • Mazée – Un avenir pour tous !"
+   },
+   {
+    "campus_name": "Doische",
+    "city": "Doische",
+    "country": "Belgique",
+    "role": "branch",
+    "source_url": "https://arfd.be/site2/",
+    "evidence_quote": "Athénée Royal Florennes • Doische • Mazée – Un avenir pour tous !"
+   },
+   {
+    "campus_name": "Mazée",
+    "city": "Mazée",
+    "country": "Belgique",
+    "role": "branch",
+    "source_url": "https://arfd.be/site2/",
+    "evidence_quote": "Athénée Royal Florennes • Doische • Mazée – Un avenir pour tous !"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The website mentions that the school is an accredited Erasmus+ institution offering mobility projects, but no specific partner list or names of partner institutions are provided in the evidence. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 30.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "email_search_s": 5.3,
+  "total_seconds": 42.2
+ }
+}

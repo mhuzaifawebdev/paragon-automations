@@ -1,0 +1,79 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-27T20:06:10Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Lucien",
+  "institution_type": "school",
+  "official_website": "https://www.liege1.be/",
+  "country": {
+   "value": "Belgique",
+   "source_url": "https://www.liege1.be/Mot-de-la-Direction~T-320-0-1",
+   "evidence_quote": "L’Athénée royal de Liège 1 doit son nom à Charles Rogier, son fondateur, qui en tant que ministre de l’Intérieur en 1851 créa les dix premiers Athénées royaux en Belgique. Notre école, forte de sa tradition plus que centenaire, est restée attachée à ses valeurs : Liberté, Tolérance, Culture. C’est grâce à elles que beaucoup de ses Anciens ont contribué au développement de notre société démocratique et se sont fait connaître dans de nombreux domaines. De génération en génération, nos Anciens cont"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "L. Arnould",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.liege1.be/Mot-de-la-Direction~T-320-0-1",
+   "evidence_quote": "L. Arnould ... Directeur"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). L. Arnould is the director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "MOSA Ballet School",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.liege1.be/Mot-de-la-Direction~T-320-0-1",
+    "evidence_quote": "Toute l’équipe pédagogique a toujours eu comme objectif d’amener, dans un harmonieux mélange de cordialité et de rigueur, les élèves à donner le meilleur d’eux-mêmes dans le respect de leur individualité. De nombreux projets pédagogiques qui y sont développés témoignent de son ouverture sur le monde et sa diversité. Comparé par sa taille à un mammouth, notre Athénée peut s’enorgueillir de posséder un cœur tout aussi grand. Notre partenariat avec la MOSA Ballet School nous permet d’avoir une ouve",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Athenee Royal Charles Rogier - Liege 1",
+    "city": "Liege",
+    "country": "Belgique",
+    "role": "main",
+    "source_url": "https://www.liege1.be/",
+    "evidence_quote": "Athenee Royal Charles Rogier - Liege 1"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ partners or specific international mobility contact details beyond the school director.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 5.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 12.1
+ }
+}

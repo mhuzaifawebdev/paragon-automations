@@ -1,0 +1,71 @@
+{
+ "row_id": "r009",
+ "scraped_at": "2026-10-27T20:06:47Z",
+ "contacts": {
+  "row_id": "r009",
+  "institution_name": "M. Laurent",
+  "institution_type": "school",
+  "official_website": "https://www.arjeanrostand.be/",
+  "country": null,
+  "phone": {
+   "value": "071 66 69 57",
+   "source_url": "https://www.arjeanrostand.be/",
+   "evidence_quote": "071 66 69 57"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Athénée Royal Jean Rostand",
+    "city": "Philippeville",
+    "country": "Belgique",
+    "role": "main",
+    "source_url": "https://www.arjeanrostand.be/",
+    "evidence_quote": "Avenue de Samart 2B - 5600 Philippeville"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence provides basic school information and address details for Athénée Royal Jean Rostand in Philippeville, but contains no specific named staff contacts, explicit partner lists, or total partner statistics.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 5.8,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.8,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     86
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 25.0
+ }
+}

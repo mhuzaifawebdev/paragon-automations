@@ -1,0 +1,122 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-27T20:06:50Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Rue Thil",
+  "institution_type": "school",
+  "official_website": "https://www.thillorrain.be/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "direction.fondamental@thillorrain.be",
+  "generic_email_url": "https://www.thillorrain.be/",
+  "contact": {
+   "name": "Mme Dahlia Wolf",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "direction@thillorrain.be",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.thillorrain.be/index.php/about-us-2/organigramme",
+   "evidence_quote": "Directrice : Mme Dahlia Wolf"
+  },
+  "alternates": [
+   {
+    "name": "M. Nicolas Guebel",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "proviseur@thillorrain.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.thillorrain.be/index.php/about-us-2/organigramme",
+    "evidence_quote": "Directeur adjoint : M. Nicolas Guebel (proviseur@thillorrain.be <proviseur@thillorrain.be>)",
+    "why_chosen": "Principal / director (no Erasmus contact found). M. Nicolas Guebel is listed as Directeur adjoint, serving in a leadership role."
+   },
+   {
+    "name": "Mme Valérie Brisco",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "direction.fondamental@thillorrain.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.thillorrain.be/index.php/about-us-2/organigramme",
+    "evidence_quote": "Directrice : Mme Valérie Brisco (direction.fondamental@thillorrain.be <direction.fondamental@thillorrain.be>)",
+    "why_chosen": "Principal / director (no Erasmus contact found). Mme Valérie Brisco is listed as Directrice for the fundamental section."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Mme Dahlia Wolf is listed as Directrice, making her the head of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fédération Wallonie-Bruxelles",
+    "partner_country": "Belgium",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.thillorrain.be/",
+    "evidence_quote": "[Fédération Wallonie-Bruxelles]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Athénée Royal Thil Lorrain (Primaire)",
+    "city": "Verviers",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.thillorrain.be/",
+    "evidence_quote": "Rue Thil Lorrain 7-9 4800, Verviers"
+   },
+   {
+    "campus_name": "Athénée Royal Thil Lorrain (Secondaire)",
+    "city": "Verviers",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.thillorrain.be/",
+    "evidence_quote": "Rue Thil Lorrain 1-3, 4800, Verviers"
+   },
+   {
+    "campus_name": "Athénée Royal Thil Lorrain (Maternelle)",
+    "city": "Heusy",
+    "country": "Belgium",
+    "role": "branch",
+    "source_url": "https://www.thillorrain.be/",
+    "evidence_quote": "Avenue du Chêne, 128, 4802 Heusy"
+   },
+   {
+    "campus_name": "Athénée Royal Thil Lorrain (Internat)",
+    "city": "Heusy",
+    "country": "Belgium",
+    "role": "branch",
+    "source_url": "https://www.thillorrain.be/",
+    "evidence_quote": "Avenue du Chêne,128 A, 4802 Heusy"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not contain any specific international mobility programs, Erasmus+ agreements, or foreign partner lists.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 5.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 16.4,
+  "mode": "gemini",
+  "email_search_s": 3.8,
+  "total_seconds": 26.9
+ }
+}
