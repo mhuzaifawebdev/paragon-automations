@@ -41,20 +41,30 @@
    "source": "BATCH-2[France]",
    "file_id": "1_VUesLFEnF0dL-7eid5JBKlghMxNL-2NpPVUB6i5vmM",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 49,
    "started": "2026-10-27T19:15:56Z",
    "last_start": "2026-10-27T19:15:56Z",
    "restarts": 0,
-   "cap_usd": 848.18
+   "cap_usd": 848.18,
+   "spend_recorded": true,
+   "cost_usd": 0.4663,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1zq5xMwCSIwbY6n69fBVUWjn3YaIZpprf/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 35,
+   "finished": "2026-10-27T19:27:35Z",
+   "reason": "41 institutes, 28 with a contact"
   },
   {
    "batch": "poland-batch",
    "source": "POLAND-BATCH-",
    "file_id": "1VEKku1DBUSIfq18GKUShHB7DbZ2Q3ix-9IL_B7rd0a4",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 51
+   "state": "running",
+   "rows": 51,
+   "started": "2026-10-27T19:27:35Z",
+   "last_start": "2026-10-27T19:27:35Z",
+   "restarts": 0,
+   "cap_usd": 847.72
   },
   {
    "batch": "slovakia-batch-bano",
@@ -1570,7 +1580,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-27T19:15:56Z",
+ "updated": "2026-10-27T19:27:35Z",
  "auto_queued_ids": [
   "1xdVps2t-dI8ilsW74w8qfaooUUyAigIVaaFZZo7cmt8",
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
