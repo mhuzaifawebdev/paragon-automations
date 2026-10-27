@@ -1,22 +1,22 @@
 {
  "batch": "bano-batch-1-staff-mobility-ka-101",
  "status": "running",
- "generated_at": "2026-10-27T20:38:46.324471+00:00",
+ "generated_at": "2026-10-27T20:39:43.127150+00:00",
  "chunk": 5,
  "total_chunks": 19,
  "total_rows": 464,
- "done": 96,
- "pending": 368,
- "elapsed_seconds": 647,
- "eta_seconds": 1591,
- "cost_usd_so_far": 1.1542,
- "paid_search_usd": 1.1542,
+ "done": 100,
+ "pending": 364,
+ "elapsed_seconds": 703,
+ "eta_seconds": 1857,
+ "cost_usd_so_far": 1.1994,
+ "paid_search_usd": 1.1994,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
  "haiku_fallback_calls": 60,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 189,
+ "ai_calls": 197,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,18 +37,14 @@
   }
  ],
  "confidence": {
-  "high": 25,
-  "medium": 19,
+  "high": 26,
+  "medium": 20,
   "low": 10,
-  "none": 42
+  "none": 44
  },
- "partners_found": 456,
- "campuses_found": 122,
+ "partners_found": 461,
+ "campuses_found": 124,
  "recent": [
-  "r078",
-  "r079",
-  "r080",
-  "r081",
   "r082",
   "r083",
   "r084",
@@ -63,8 +59,12 @@
   "r093",
   "r094",
   "r095",
+  "r096",
+  "r097",
+  "r098",
   "r099",
-  "r100"
+  "r100",
+  "r101"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1_pECOOsImxH4opeFillUWL6V3fOO3mlU/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
