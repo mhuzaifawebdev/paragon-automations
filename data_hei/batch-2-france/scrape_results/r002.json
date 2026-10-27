@@ -1,0 +1,139 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-27T19:17:05Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Elizabeth",
+  "institution_type": "school",
+  "official_website": "https://lpdiderot10.fr/index.php/contact/",
+  "country": null,
+  "phone": {
+   "value": "03 25 21 95 81",
+   "source_url": "https://lpdiderot10.fr/index.php/contact/",
+   "evidence_quote": "Téléphone: 03 25 21 95 81"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Elisabeth Henry",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "elisabeth.henry@ac-reims.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lpdiderot10.fr/index.php/presentation/organigramme/",
+   "evidence_quote": "Elisabeth Henry, proviseure : elisabeth.henry@ac-reims.fr <elisabeth.henry@ac-reims.fr>"
+  },
+  "alternates": [
+   {
+    "name": "Peggy Moricelly",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "peggy.gruget@ac-reims.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lpdiderot10.fr/index.php/presentation/organigramme/",
+    "evidence_quote": "Peggy Moricelly, proviseure adjointe : peggy.gruget@ac-reims.fr <peggy.gruget@ac-reims.fr>",
+    "why_chosen": "Principal / director (no Erasmus contact found). Peggy Moricelly serves as the deputy principal and supports the leadership of the institution."
+   },
+   {
+    "name": "Manon Hulin",
+    "designation": "Management Assistant",
+    "designation_local": "",
+    "email": "manon.hulin@ac-reims.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lpdiderot10.fr/index.php/presentation/organigramme/",
+    "evidence_quote": "Manon Hulin , assistante de direction : manon.hulin@ac-reims.fr <manon.hulin@ac-reims.fr>",
+    "why_chosen": "Secretary / administration (last resort). Manon Hulin is an administrative assistant who can facilitate communication with the management team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Elisabeth Henry is the principal of the institution and is the primary contact for administrative and leadership matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CFA GIP FCIP",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpdiderot10.fr/index.php/contact/",
+    "evidence_quote": "[CFA GIP FCIP] [Académie de Reims] [Région Grand Est] [Romilly-sur-Seine]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Académie de Reims",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpdiderot10.fr/index.php/contact/",
+    "evidence_quote": "[CFA GIP FCIP] [Académie de Reims] [Région Grand Est] [Romilly-sur-Seine]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Région Grand Est",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpdiderot10.fr/index.php/contact/",
+    "evidence_quote": "[CFA GIP FCIP] [Académie de Reims] [Région Grand Est] [Romilly-sur-Seine]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Romilly-sur-Seine",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpdiderot10.fr/index.php/contact/",
+    "evidence_quote": "[CFA GIP FCIP] [Académie de Reims] [Région Grand Est] [Romilly-sur-Seine]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée professionnel Denis DIDEROT",
+    "city": "Romilly-sur-Seine",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lpdiderot10.fr/index.php/contact/",
+    "evidence_quote": "Lycée professionnel Denis DIDEROT"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not provide a list of international partners or Erasmus+ agreements. The institution is a vocational high school.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.7,
+  "crawl_s": 12.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.1,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     51
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 26.8
+ }
+}
