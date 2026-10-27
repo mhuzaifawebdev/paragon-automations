@@ -102,8 +102,9 @@ after another; nothing has to be uploaded by hand.
 
 - The batch is named after the file. A list over 1,200 rows is split into parts of 1,000 (`name-p1`, `name-p2`, ...).
 - An institute already scraped in the last 180 days is copied from the earlier batch at no cost.
-- The paid Gemini reader takes over when the free allowance runs out; all queued batches together stop at
-  `max_queue_usd_per_month` in `config.yaml` (default $50) until the next month.
+- The paid Gemini reader takes over when the free allowance runs out. All queued batches together, over all months,
+  never spend more than `max_queue_usd_total` in `config.yaml` ($850): each batch may spend only what is left, and
+  once it is used up the remaining batches still run, on the free reader only, at $0 (slower).
 - The scraper page's **Queue** menu shows waiting, running, done and failed batches with their Drive links.
 - Needs the robot account: GitHub secrets `GOOGLE_SERVICE_ACCOUNT_JSON` and `DRIVE_FOLDER_ID`, with the robot as
   Content manager of the shared drive. Add the queue timer by running `setupScheduler` again in Apps Script.

@@ -151,6 +151,9 @@ def apply_mode(data_dir, cfg):
     cap = recheck_cap(data_dir)
     if cap is not None:                             # a re-check: one total for all batches, reading and email search
         discover.BUDGET["limit"] = cap
+    left = queue_cap(data_dir)
+    if left is not None:                            # the queue's total cap: never more than what is left of it
+        discover.BUDGET["limit"] = min(discover.BUDGET["limit"], left)
     pipeline.llm.FALLBACK["enabled"] = mode == "fast"
     pipeline.llm.SIMULATE_EXHAUSTED = (Path(data_dir) / "SIMULATE_EXHAUSTED").exists()     # zero-cost test switch
     if mode == "fast" and STATS["mode"] != "fast":
@@ -282,6 +285,14 @@ def recheck_cap(data_dir):
     """The re-check's total spending cap in US dollars (scripts/recheck_no_contact.py --cap), or None."""
     try:
         return float(json.loads((Path(data_dir) / "RECHECK").read_text(encoding="utf-8"))["cap_usd"])
+    except Exception:
+        return None
+
+
+def queue_cap(data_dir):
+    """What this batch may still spend of the queue's total cap (scripts/queue_tick.py writes BUDGET), or None."""
+    try:
+        return float(json.loads((Path(data_dir) / "BUDGET").read_text(encoding="utf-8"))["cap_usd"])
     except Exception:
         return None
 

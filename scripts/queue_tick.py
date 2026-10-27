@@ -9,6 +9,8 @@ batch finishes):
      no progress for STALE_MIN minutes -> started again (at most MAX_RESTARTS times);
   3. when nothing is running, the next queued batch starts (paid Gemini reader when the free allowance runs out),
      unless this month's spending reached the cap (config.yaml scraper.max_queue_usd_per_month).
+     A total cap over all months (scraper.max_queue_usd_total) is never exceeded: each batch may only spend what is
+     left of it (data_hei/<batch>/BUDGET), and once it is used up the remaining batches run on the free reader only.
 Only this script writes data_hei/queue.json, so two jobs never edit it at once.
 
     python scripts/queue_tick.py --dispatch-file /tmp/dispatch.txt     # one tick; batches to start are listed
@@ -81,8 +83,27 @@ def take_requests(q, data_root, now):
         f.unlink()
 
 
+SAFETY_USD = 1.0      # held back from the total cap: calls already under way when a batch reaches its limit
+
+
 def month_spent(data_root, month):
     return float(_read(Path(data_root) / "_spend.json", {}).get(month, 0))
+
+
+def total_spent(data_root):
+    return round(sum(float(v) for v in _read(Path(data_root) / "_spend.json", {}).values()), 4)
+
+
+def record_spend(data_root, it, now):
+    """Adds what this batch spent to _spend.json, once, whatever way it ended (done, failed or cancelled)."""
+    if it.get("spend_recorded"):
+        return float(it.get("cost_usd") or 0)
+    spent = float(_read(Path(data_root) / it["batch"] / "paid_usage.json", {}).get("spent_usd") or 0)
+    spend = _read(Path(data_root) / "_spend.json", {})
+    spend[now[:7]] = round(float(spend.get(now[:7], 0)) + spent, 4)
+    _write(Path(data_root) / "_spend.json", spend)
+    it.update(spend_recorded=True, cost_usd=round(spent, 4))
+    return spent
 
 
 def _source_settled(q, it):
@@ -96,8 +117,10 @@ def check_running(q, it, data_root, now, ops):
     p = _read(bdir / "progress.json", {})
     st = p.get("status") or ""
     if (bdir / "CANCELLED").exists() or st == "cancelled":
+        record_spend(data_root, it, now)
         return settle(q, it, "cancelled", "Cancelled on the upload page.", ops, now)
     if st == "error":
+        record_spend(data_root, it, now)
         return settle(q, it, "failed", p.get("error") or "The list could not be imported.", ops, now)
     total, pending = p.get("total_rows") or 0, p.get("pending")
     if st == "done" or (total and pending == 0):
@@ -109,6 +132,7 @@ def check_running(q, it, data_root, now, ops):
     if last and minutes_between(last, now) > STALE_MIN:
         it["restarts"] = it.get("restarts", 0) + 1
         if it["restarts"] > MAX_RESTARTS:
+            record_spend(data_root, it, now)
             return settle(q, it, "failed", f"Stopped making progress; restarted {MAX_RESTARTS} times without success.", ops, now)
         it["last_start"] = now
         ops.start(it)
@@ -148,8 +172,16 @@ def tick(data_root, now, cfg, ops):
                     log.append(settle(q, it, "cancelled", "Cancelled before it started.", ops, now))
                     continue
                 it.update(state="running", started=now, last_start=now, restarts=0)
+                total = float(cfg.get("max_queue_usd_total") or 0)
+                if total:                               # this batch may spend only what is left of the total
+                    left = round(max(0.0, total - SAFETY_USD - total_spent(data_root)), 2)
+                    if left < 0.5:
+                        left = 0.0
+                        it["reader"] = "free"
+                        it["note"] = f"The ${total:.0f} total is used up: this batch runs on the free reader only, $0."
+                    it["cap_usd"] = left
                 ops.start(it)
-                log.append(f"{it['batch']}: started")
+                log.append(f"{it['batch']}: started" + (f" (may spend up to ${it['cap_usd']:.2f})" if "cap_usd" in it else ""))
                 break
     q["updated"] = now
     _write(Path(data_root) / "queue.json", q)
@@ -174,6 +206,8 @@ class Ops:
         bdir = self.data_root / it["batch"]
         reader = {"mode": "fast", "paid": "gemini"} if it.get("reader", "paid") == "paid" else {"mode": "free"}
         _write(bdir / "reader.json", {**reader, "set_at": now_iso()})
+        if "cap_usd" in it:
+            _write(bdir / "BUDGET", {"cap_usd": it["cap_usd"]})
         self.to_start.append({"batch": it["batch"], "provider": it.get("provider") or "gemini",
                               "chunk_size": it.get("chunk_size") or 25})
 
@@ -214,10 +248,7 @@ class Ops:
         added = reuse.add_batch(index, batch, rows, results)
         (self.data_root / reuse.INDEX_NAME).write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")),
                                                        encoding="utf-8")
-        spent = float(_read(bdir / "paid_usage.json", {}).get("spent_usd") or 0)
-        spend = _read(self.data_root / "_spend.json", {})
-        spend[now[:7]] = round(float(spend.get(now[:7], 0)) + spent, 4)
-        _write(self.data_root / "_spend.json", spend)
+        spent = record_spend(self.data_root, it, now)
         totals, days, lines = bds.batch_figures(bdir)
         if self.drive and results:                      # only when the data is safely archived: leave GitHub small
             _write(bdir / "summary.json", {"totals": totals, "days": days, "institutes": lines, "spent_usd": spent,

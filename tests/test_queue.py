@@ -159,6 +159,32 @@ check("monthly cap reached -> nothing starts and the queue says why",
       (ops2.started, "cap" in (qt.load_queue(root2)["paused"] or "")), ([], True))
 qt.tick(root2, "2026-11-01T00:10:00Z", {"max_queue_usd_per_month": 50}, ops2)
 check("a new month -> the queue continues", ops2.started, ["b1"])
+# ---- the total cap over all months: never exceeded
+root3 = Path(tempfile.mkdtemp())
+qt._write(root3 / "queue.json", {"items": [{"batch": "t1", "state": "queued"}, {"batch": "t2", "state": "queued"}]})
+qt._write(root3 / "_spend.json", {"2026-10": 800.0, "2026-11": 30.0})
+ops3 = FakeOps()
+qt.tick(root3, "2026-11-02T10:00:00Z", {"max_queue_usd_total": 850}, ops3)
+t1 = qt.load_queue(root3)["items"][0]
+check("total cap: the batch may spend only what is left of all months together (850 - 830 - 1 held back)",
+      (ops3.started, t1["cap_usd"], t1.get("reader")), (["t1"], 19.0, None))
+qt._write(root3 / "t1" / "paid_usage.json", {"spent_usd": 18.7})
+qt._write(root3 / "t1" / "progress.json", {"status": "error", "error": "broken"})
+qt.tick(root3, "2026-11-02T11:00:00Z", {"max_queue_usd_total": 850}, ops3)
+t2 = qt.load_queue(root3)["items"][1]
+check("a failed batch's spending is counted too, and once the total is used up the next batch runs free with $0",
+      (qt.total_spent(root3), ops3.started[-1], t2["cap_usd"], t2["reader"]), (848.7, "t2", 0.0, "free"))
+qt._write(root3 / "t2" / "progress.json", {"status": "cancelled"})
+qt.tick(root3, "2026-11-02T12:00:00Z", {"max_queue_usd_total": 850}, ops3)
+qt.tick(root3, "2026-11-02T12:10:00Z", {"max_queue_usd_total": 850}, ops3)
+check("spending is recorded once per batch, however many ticks see it", qt.total_spent(root3), 848.7)
+real = qt.Ops(root3)
+real.start({"batch": "t3", "reader": "free", "cap_usd": 0.0})
+import batch_runner  # noqa: E402
+check("the batch runner reads the cap the queue gave it", batch_runner.queue_cap(root3 / "t3"), 0.0)
+batch_runner.apply_mode(root3 / "t3", {"max_paid_usd_per_batch": 6, "max_fast_usd_per_batch": 15})
+check("so its paid limit is $0, not the usual per-batch $6", batch_runner.discover.BUDGET["limit"], 0.0)
+
 (root2 / "_queue_requests").mkdir()
 qt._write(root2 / "_queue_requests" / "web1.json", {"batch": "web1", "reader": "free"})
 qt.tick(root2, "2026-11-01T00:20:00Z", {}, ops2)
