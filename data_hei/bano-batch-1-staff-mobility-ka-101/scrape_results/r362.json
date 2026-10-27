@@ -1,0 +1,76 @@
+{
+ "row_id": "r362",
+ "scraped_at": "2026-10-27T21:10:56Z",
+ "contacts": {
+  "row_id": "r362",
+  "institution_name": "Silvio",
+  "institution_type": "school",
+  "official_website": "https://www.kkg-zwickau.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sekretariat@kkg-zwickau.de",
+  "generic_email_url": "https://www.kkg-zwickau.de/",
+  "contact": {
+   "name": "Silvio Albani",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "0375 - 293010",
+   "source_url": "https://www.kkg-zwickau.de/",
+   "evidence_quote": "Schulleiter: Herr Silvio Albani"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Silvio Albani is the principal of the school and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Highschool No. 1/Yandu",
+    "partner_country": "China",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kkg-zwickau.de/",
+    "evidence_quote": "Schüleraustausch zwischen der Highschool No. 1/Yandu und dem KKG Zwickau 26.09.2026 bis 05.10.2026",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Käthe-Kollwitz-Gymnasium Zwickau",
+    "city": "Zwickau",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.kkg-zwickau.de/",
+    "evidence_quote": "Lassallestrasse 1, 08058 Zwickau"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ partners. The school mentions a specific partnership with a high school in China for student exchanges.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.5,
+  "crawl_s": 8.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 16.4,
+  "total_seconds": 30.9
+ }
+}
