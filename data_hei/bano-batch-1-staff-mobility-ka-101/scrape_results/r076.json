@@ -1,0 +1,77 @@
+{
+ "row_id": "r076",
+ "scraped_at": "2026-10-27T20:35:09Z",
+ "contacts": {
+  "row_id": "r076",
+  "institution_name": "K. (Klaas)",
+  "institution_type": "school",
+  "official_website": "https://www.laurentiusstichting.nl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@laurentiusstichting.nl",
+  "generic_email_url": "https://www.laurentiusstichting.nl/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Social Schools",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.laurentiusstichting.nl/",
+    "evidence_quote": "Powered by Social Schools",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Laurentius Stichting",
+    "city": "Delft",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.laurentiusstichting.nl/",
+    "evidence_quote": "Burgemeestersrand 59"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The evidence provided describes a foundation managing multiple schools and childcare locations in the Netherlands. No specific Erasmus+ or international mobility contacts are listed, nor are any international partners mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.3,
+  "crawl_s": 12.1,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     55
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 29.5
+ }
+}
