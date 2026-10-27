@@ -1,16 +1,16 @@
 {
  "batch": "slovakia-batch-bano",
- "status": "running",
- "generated_at": "2026-10-27T19:52:47.756033+00:00",
+ "status": "done",
+ "generated_at": "2026-10-27T19:54:30.531187+00:00",
  "chunk": 4,
- "total_chunks": 3,
+ "total_chunks": 4,
  "total_rows": 52,
- "done": 51,
- "pending": 1,
- "elapsed_seconds": 669,
- "eta_seconds": 18,
- "cost_usd_so_far": 0.3915,
- "paid_search_usd": 0.3915,
+ "done": 52,
+ "pending": 0,
+ "elapsed_seconds": 772,
+ "eta_seconds": null,
+ "cost_usd_so_far": 0.4056,
+ "paid_search_usd": 0.4056,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
@@ -40,12 +40,11 @@
   "high": 10,
   "medium": 7,
   "low": 9,
-  "none": 25
+  "none": 26
  },
  "partners_found": 302,
  "campuses_found": 38,
  "recent": [
-  "r033",
   "r034",
   "r035",
   "r036",
@@ -64,6 +63,7 @@
   "r050",
   "r051",
   "r052",
+  "r053",
   "r054"
  ]
 }
