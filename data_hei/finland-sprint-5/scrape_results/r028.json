@@ -1,0 +1,70 @@
+{
+ "row_id": "r028",
+ "scraped_at": "2026-10-27T20:19:43Z",
+ "contacts": {
+  "row_id": "r028",
+  "institution_name": "Pirkko",
+  "institution_type": "school",
+  "official_website": "https://oulun-steinerkoulu.fi/",
+  "country": null,
+  "phone": {
+   "value": "08 5542 875",
+   "source_url": "https://oulun-steinerkoulu.fi/",
+   "evidence_quote": "08 5542 875"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Earthrise:Live",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://oulun-steinerkoulu.fi/",
+    "evidence_quote": "Koulumme on mukana Earthrise:Live‑hankkeessa, maailmanlaajuisessa koulujen kohtaamishetkessä, jossa lapset eri maista tutustuvat, jakavat tarinoita ja oppivat toisistaan.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Oulun steinerkoulu",
+    "city": "Oulu",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://oulun-steinerkoulu.fi/",
+    "evidence_quote": "Kasarmintie 8H, 90130 Oulu"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 1,
+  "coverage_note": "The evidence does not list any specific staff members or Erasmus+ partners. The institution is a Steiner school in Oulu, Finland.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.4,
+  "crawl_s": 10.6,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.8,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 71.3
+ }
+}
