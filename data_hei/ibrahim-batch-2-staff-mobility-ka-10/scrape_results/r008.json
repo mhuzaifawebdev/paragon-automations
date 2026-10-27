@@ -1,0 +1,129 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-27T22:49:21Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Sabine Fredersdorf-",
+  "institution_type": "school",
+  "official_website": "http://chs-wolfsburg.de/kontakt/#schulleitung",
+  "country": null,
+  "phone": {
+   "value": "05361 30893-0",
+   "source_url": "http://chs-wolfsburg.de/kontakt/#schulleitung",
+   "evidence_quote": "05361 30893-0"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Sabine Fredersdorf-Crome",
+   "designation": "Headmistress",
+   "designation_local": "",
+   "email": "fredersdorf-crome@chs-wob.de",
+   "office_email": "",
+   "phone": "05361 30893",
+   "source_url": "http://chs-wolfsburg.de/kontakt/#schulleitung",
+   "evidence_quote": "Schulleiterin ... OStD‘ Sabine Fredersdorf-Crome"
+  },
+  "alternates": [
+   {
+    "name": "Phöbe Gille-Queck",
+    "designation": "Deputy Headmistress",
+    "designation_local": "",
+    "email": "gille-queck.phoebe@chs-wob.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "http://chs-wolfsburg.de/kontakt/#schulleitung",
+    "evidence_quote": "Ständige Vertreterin der Schulleiterin ... StD‘ Phöbe Gille-Queck",
+    "why_chosen": "Principal / director (no Erasmus contact found). She serves as the deputy head of the institution."
+   },
+   {
+    "name": "Britta Noack",
+    "designation": "Coordinator",
+    "designation_local": "",
+    "email": "noack.britta@chs-wob.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "http://chs-wolfsburg.de/kontakt/#schulleitung",
+    "evidence_quote": "Koordinatorin ... StD Britta Noack",
+    "why_chosen": "Secretary / administration (last resort). She is a coordinator at the school involved in reporting on Erasmus mobility."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the head of the institution and the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "English Matters",
+    "partner_country": "Iceland",
+    "partner_type": "company",
+    "mobility_type": "staff",
+    "source_url": "https://chs-wolfsburg.de/europaeische-dimension-der-bildung-mit-erasmus-nach-island/",
+    "evidence_quote": "Der Veranstalter English Matters organisierte ein abwechslungsreiches Programm mit Plenumsveranstaltungen an der University of Iceland, Schulbesuchen in Reykjavík und projektbasierten Exkursionen in die Umgebung.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Iceland",
+    "partner_country": "Iceland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://chs-wolfsburg.de/europaeische-dimension-der-bildung-mit-erasmus-nach-island/",
+    "evidence_quote": "Der Veranstalter English Matters organisierte ein abwechslungsreiches Programm mit Plenumsveranstaltungen an der University of Iceland, Schulbesuchen in Reykjavík und projektbasierten Exkursionen in die Umgebung.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stiftung Bildung & Handwerk",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://chs-wolfsburg.de/3-internationales-cafe-mit-erasmus/",
+    "evidence_quote": "In lockeren Café-Gesprächsrunden konnten alle Gäste besondere Einblicke in die Praktikumserfahrungen gewinnen. Interessierte Schülerinnen, Schüler sowie Ausbilderinnen stellten ihre Fragen. Sie kamen dabei u. a. auch ins Gespräch mit Gabriele Stampa von der „Stiftung Bildung & Handwerk“, welche als Projektträger unsere Schule seit einigen Jahren mit der Organisation und Durchführung von Erasmus+ Praktika unterstützt.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IHK Lüneburg-Wolfsburg",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://chs-wolfsburg.de/3-internationales-cafe-mit-erasmus/",
+    "evidence_quote": "Auch die IHK Lüneburg-Wolfsburg fördert die Bereitschaft zur internationalen beruflichen Mobilität, betonte Susanne Mügge-Erdinc. Denn wenn sich Auszubildende auf den Weg machen, um einmal „über den Tellerrand zu schauen“, ist die Bereicherung daraus für alle Beteiligten groß, auch für die Betriebe.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Carl-Hahn-Schule",
+    "city": "Wolfsburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "http://chs-wolfsburg.de/kontakt/#schulleitung",
+    "evidence_quote": "Carl-Hahn-Schule Schachtweg 2 38440 Wolfsburg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence details general contact details, staff listings, and several Erasmus blog posts about trips to Iceland, Sweden, and Portugal, but does not provide an exhaustive standalone partner institution list.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.2,
+  "crawl_s": 19.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 29.0
+ }
+}

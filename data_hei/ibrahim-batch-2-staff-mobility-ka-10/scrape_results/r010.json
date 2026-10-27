@@ -1,0 +1,125 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-27T22:49:36Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Mihály",
+  "institution_type": "school",
+  "official_website": "https://iskola.nejanet.hu/",
+  "country": null,
+  "phone": {
+   "value": "36) 536-070",
+   "source_url": "https://iskola.nejanet.hu/",
+   "evidence_quote": "tel.: (36) 536-070"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dr. Sipos Mihály",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "siposm@nejanet.hu",
+   "office_email": "",
+   "phone": "36/325-311",
+   "source_url": "https://iskola.nejanet.hu/news_view.php?id=56&neumann=elerhetosegek",
+   "evidence_quote": "Igazgató: Dr. Sipos Mihály",
+   "email_source_url": "https://neumanneger.hu/elerhetosegek/"
+  },
+  "alternates": [
+   {
+    "name": "Kocsis Emese",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "36/536088",
+    "source_url": "https://iskola.nejanet.hu/news_view.php?id=56&neumann=elerhetosegek",
+    "evidence_quote": "Igazgatóhelyettesek: ... Kocsis Emese (általános)",
+    "why_chosen": "Principal / director (no Erasmus contact found). Kocsis Emese serves as Deputy Director, handling general institutional management and coordination."
+   },
+   {
+    "name": "Tarnóczi Aranka",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "36/536070 (130",
+    "source_url": "https://iskola.nejanet.hu/news_view.php?id=56&neumann=elerhetosegek",
+    "evidence_quote": "Igazgatóhelyettesek: ... Tarnóczi Aranka (szakmai)",
+    "why_chosen": "Principal / director (no Erasmus contact found). Tarnóczi Aranka serves as Deputy Director for professional matters."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Dr. Sipos Mihály is the Director of the institution, making him the primary administrative contact. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Neumann János Gimnázium, Technikum és Kollégium",
+    "city": "Eger",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://iskola.nejanet.hu/",
+    "evidence_quote": "3300 Eger, Rákóczi út 48."
+   },
+   {
+    "campus_name": "Neumann Ifjúsági Vállalkozói Központ és Oktatási Centrum (NIVÁK)",
+    "city": "Eger",
+    "country": "Hungary",
+    "role": "branch",
+    "source_url": "https://iskola.nejanet.hu/news_view.php?id=56&neumann=elerhetosegek",
+    "evidence_quote": "Cím: 3300 Eger, Cifrakapu út 158."
+   },
+   {
+    "campus_name": "Pozsonyi úti kollégium",
+    "city": "Eger",
+    "country": "Hungary",
+    "role": "branch",
+    "source_url": "https://iskola.nejanet.hu/news_view.php?id=56&neumann=elerhetosegek",
+    "evidence_quote": "3300 Eger, Pozsonyi út 8."
+   },
+   {
+    "campus_name": "Servita úti kollégium",
+    "city": "Eger",
+    "country": "Hungary",
+    "role": "branch",
+    "source_url": "https://iskola.nejanet.hu/news_view.php?id=56&neumann=elerhetosegek",
+    "evidence_quote": "3300 Eger, Servita út 23."
+   },
+   {
+    "campus_name": "Mátyás király úti kollégium",
+    "city": "Eger",
+    "country": "Hungary",
+    "role": "branch",
+    "source_url": "https://iskola.nejanet.hu/news_view.php?id=56&neumann=elerhetosegek",
+    "evidence_quote": "3300 Eger, Mátyás király út 76."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not contain any lists of international or Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 5.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.6,
+  "mode": "gemini",
+  "email_search_s": 18.1,
+  "total_seconds": 34.8
+ }
+}
