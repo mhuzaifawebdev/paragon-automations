@@ -1,0 +1,56 @@
+{
+ "row_id": "r029",
+ "scraped_at": "2026-10-27T20:19:09Z",
+ "contacts": {
+  "row_id": "r029",
+  "institution_name": "Pirjo",
+  "institution_type": "unknown",
+  "official_website": "https://www.padasjoki.fi/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Padasjoen kunta",
+    "city": "Padasjoki",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.padasjoki.fi/",
+    "evidence_quote": "Kellosalmentie 20"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The provided evidence describes a municipal website for Padasjoki, Finland, rather than an educational institution. No information regarding Erasmus+ partnerships, international mobility, or specific educational staff is available. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 12.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 37.9
+ }
+}
