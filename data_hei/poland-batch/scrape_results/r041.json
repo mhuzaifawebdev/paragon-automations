@@ -1,0 +1,91 @@
+{
+ "row_id": "r041",
+ "scraped_at": "2026-10-27T19:36:22Z",
+ "contacts": {
+  "row_id": "r041",
+  "institution_name": "Joanna",
+  "institution_type": "school",
+  "official_website": "https://zsb.wloclawek.pl/",
+  "country": null,
+  "phone": {
+   "value": "54 232 32 04",
+   "source_url": "https://zsb.wloclawek.pl/",
+   "evidence_quote": "tel./fax. 54 232 32 04"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Joanna Wiewiórska",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://zsb.wloclawek.pl/nauczyciele/",
+   "evidence_quote": "Wiewiórska Joanna – dyrektor, język niemiecki"
+  },
+  "alternates": [
+   {
+    "name": "Paweł Kuczkowski",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://zsb.wloclawek.pl/nauczyciele/",
+    "evidence_quote": "Kuczkowski Paweł – wicedyrektor, matematyka",
+    "why_chosen": "Principal / director (no Erasmus contact found). Paweł Kuczkowski serves as the deputy director of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Joanna Wiewiórska is the director of the school and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "TMSYS Sp. z o.o.",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://zsb.wloclawek.pl/wspolpraca-edukacyjna-z-firma-tmsys-sp-z-o-o/",
+    "evidence_quote": "Współpraca edukacyjna z firmą TMSYS Sp. z o.o. | Zespół Szkół Budowlanych",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zespół Szkół Budowlanych",
+    "city": "Włocławek",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://zsb.wloclawek.pl/",
+    "evidence_quote": "ul. Nowomiejska 25"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The evidence mentions participation in the Erasmus+ program but does not provide a list of specific partner institutions. Contact emails for individual staff members are not provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.2,
+  "crawl_s": 16.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 10.6,
+  "mode": "gemini",
+  "email_search_s": 16.5,
+  "total_seconds": 48.3
+ }
+}
