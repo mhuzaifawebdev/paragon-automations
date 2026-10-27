@@ -152,6 +152,6 @@ scraper:
   max_paid_usd_per_batch: 6.0   # cap per batch on paid Claude use in free mode (the personal-email searches)
   max_fast_usd_per_batch: 15.0  # extra allowed per batch while it is in fast mode (paid reading)
   # The batch queue (scripts/queue_tick.py): Drive inbox -> one batch at a time -> results in Drive/Results.
-  max_queue_usd_per_month: 50.0  # all queued batches together; when reached the queue pauses until next month (0 = no cap)
+  max_queue_usd_per_month: 900.0 # all queued batches together; when reached the queue pauses until next month (0 = no cap)
   reuse_earlier_results: true    # an institute already scraped in an earlier batch is copied, not scraped and paid again
   reuse_max_age_days: 180        # ...unless that result is older than this
