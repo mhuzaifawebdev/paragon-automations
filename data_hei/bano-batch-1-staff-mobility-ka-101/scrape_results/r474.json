@@ -1,0 +1,119 @@
+{
+ "row_id": "r474",
+ "scraped_at": "2026-10-27T21:31:56Z",
+ "contacts": {
+  "row_id": "r474",
+  "institution_name": "Jiri",
+  "institution_type": "school",
+  "official_website": "https://stavtr.cz/",
+  "country": null,
+  "phone": {
+   "value": "568606412",
+   "source_url": "https://stavtr.cz/kontakty/",
+   "evidence_quote": "568606412;724229317"
+  },
+  "phone_alt": [],
+  "generic_email": "info@stavtr.cz",
+  "generic_email_url": "https://stavtr.cz/",
+  "contact": {
+   "name": "Jiří Kurka",
+   "designation": "Director of the school",
+   "designation_local": "",
+   "email": "kurka@stavtr.cz",
+   "office_email": "",
+   "phone": "568606412",
+   "source_url": "https://stavtr.cz/kontakty/",
+   "evidence_quote": "Ing. Jiří Kurka ... Ředitel školy"
+  },
+  "alternates": [
+   {
+    "name": "Alois Holčapek",
+    "designation": "Deputy Director for International Cooperation",
+    "designation_local": "",
+    "email": "holcapek@stavtr.cz",
+    "office_email": "",
+    "phone": "568606432",
+    "source_url": "https://stavtr.cz/kontakty/",
+    "evidence_quote": "Zástupce ředitele pro zahraniční spolupráci ... Ing. Alois Holčapek",
+    "why_chosen": "Mobility coordinator. He is the Deputy Director specifically responsible for international cooperation."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the director of the school and is listed as a contact.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Střední odborná škola stavební v Žilině",
+    "partner_country": "Slovakia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://stavtr.cz/",
+    "evidence_quote": "Naši žáci opět dokázali, že patří mezi špičku ve svých oborech! Na mezinárodní soutěži Mladý stavbár 2026, která se konala na Střední odborné škole stavební v Žilině na Slovensku, úspěšně reprezentovali naši školu a vybojovali dvě skvělá umístění. Účast našich žáků na této mezinárodní soutěži se uskutečnila za podpory programu Erasmus+, který přispívá k rozvoji odborných dovedností, mezinárodní spolupráce a získávání cenných zkušeností v evropském prostředí. V oboru tesař předvedli své odborné d",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "partnerská škola v německém Pfarrkirchenu",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://stavtr.cz/",
+    "evidence_quote": "V rámci programu Erasmus+ jsme na naší škole přivítali hosty z partnerské školy v německém Pfarrkirchenu. Jejich návštěva je příležitostí k získání nových odborných zkušeností,…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stredná odborná škola technická v Prešově",
+    "partner_country": "Slovakia",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://stavtr.cz/erasmus/",
+    "evidence_quote": "V rámci programu Erasmus+ se ve dnech 9.–12. června 2026 uskutečnilo stínování pedagogických pracovníků na partnerské škole Stredná odborná škola technická v Prešově. Program byl…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SOŠ drevársku ve Spišské Nové Vsi",
+    "partner_country": "Slovakia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://stavtr.cz/erasmus/",
+    "evidence_quote": "V prvním únorovém týdnu, od 2. do 6. února 2026, vyslala naše škola skupinu žáků a pracovníků na slovenskou partnerskou školu SOŠ drevársku ve Spišské…",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Střední škola stavební Třebíč",
+    "city": "Třebíč",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://stavtr.cz/",
+    "evidence_quote": "Střední škola stavební Třebíč"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The institution does not provide a comprehensive list of all partners, only mentions specific ones in news articles. The contact list is extensive but focuses on internal roles.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 8.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 31.5
+ }
+}
