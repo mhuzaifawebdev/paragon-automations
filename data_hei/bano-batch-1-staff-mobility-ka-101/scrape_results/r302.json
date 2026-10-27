@@ -1,0 +1,165 @@
+{
+ "row_id": "r302",
+ "scraped_at": "2026-10-27T21:04:27Z",
+ "contacts": {
+  "row_id": "r302",
+  "institution_name": "Frances",
+  "institution_type": "school",
+  "official_website": "https://francesking.com/",
+  "country": {
+   "value": "England",
+   "source_url": "https://francesking.com/",
+   "evidence_quote": "England"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Garth Younghusband",
+   "designation": "Director, Partner Relations",
+   "designation_local": "",
+   "email": "garth.younghusband@francesking.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://francesking.com/our-team/",
+   "evidence_quote": "Garth Younghusband ... Director, Partner Relations",
+   "email_source_url": "https://francesking.com/partners/"
+  },
+  "alternates": [
+   {
+    "name": "Claire Granados",
+    "designation": "Executive Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://francesking.com/our-team/",
+    "evidence_quote": "Claire Granados ... Executive Principal",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the Executive Principal of the institution."
+   }
+  ],
+  "rung": "Head of international relations. He is the Director of Partner Relations and handles international partnerships. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Quality English",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://francesking.com/",
+    "evidence_quote": "Frances King is a member of Quality English, the organisation of leading independent English language schools.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IALC",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://francesking.com/",
+    "evidence_quote": "Frances King is also a member of IALC, the International Association of Language Centres.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "English UK",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://francesking.com/",
+    "evidence_quote": "Frances King School of English – London is a member of English UK, the organisation of accredited teaching establishments.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Quest Professional",
+    "partner_country": "England",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://francesking.com/about/",
+    "evidence_quote": "Frances King is part of the Business Education Group, which also includes Quest Professional, a central London college offering business training programmes for school leavers and graduates.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The British Council",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://francesking.com/",
+    "evidence_quote": "Frances King School of English – London is accredited by The British Council for the teaching of English as a Foreign Language.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Business Education Group",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://francesking.com/about/",
+    "evidence_quote": "Frances King is part of the Business Education Group, which also includes Quest Professional, a central London college offering business training programmes for school leavers and graduates.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EnglishUK",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://francesking.com/about/",
+    "evidence_quote": "Frances King is a member of Quality English and IALC. The school is also accredited by The British Council and is a member of EnglishUK.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Frances King School of English – London",
+    "city": "London",
+    "country": "England",
+    "role": "main",
+    "source_url": "https://francesking.com/",
+    "evidence_quote": "Established in 1973, Frances King is a leading English language school, using teaching methods that focus on speaking. Our schools are fully accredited and offer students fine location in London."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 7,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partner universities, only the institution's memberships in professional networks and its internal group affiliation.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.6,
+  "crawl_s": 11.8,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 10.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     281,
+     299
+    ],
+    "returned": 6,
+    "accepted": 6
+   }
+  ],
+  "total_seconds": 31.4
+ }
+}
