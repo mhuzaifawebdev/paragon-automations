@@ -1,0 +1,107 @@
+{
+ "row_id": "r079",
+ "scraped_at": "2026-10-27T20:37:27Z",
+ "contacts": {
+  "row_id": "r079",
+  "institution_name": "Bruno E.",
+  "institution_type": "university",
+  "official_website": "https://www.ufl.edu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "worklife@hr.ufl.edu",
+  "generic_email_url": "https://worklife.hr.ufl.edu",
+  "contact": {
+   "name": "Win Phillips",
+   "designation": "Executive Chief of Staff",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "352) 392-3261",
+   "source_url": "https://statements.ufl.edu/issuer/executive-chief-of-staff/",
+   "evidence_quote": "Executive Chief of Staff ... Executive Chief of Staff Win Phillips"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Win Phillips is listed as the Executive Chief of Staff in executive statements for the university.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'University of Florida' on the site. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gainesville campus",
+    "city": "Gainesville",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.ufl.edu/",
+    "evidence_quote": "Various facilities throughout the state of Florida, including Gainesville, Jacksonville and Orlando."
+   },
+   {
+    "campus_name": "Jacksonville facility",
+    "city": "Jacksonville",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.ufl.edu/",
+    "evidence_quote": "Various facilities throughout the state of Florida, including Gainesville, Jacksonville and Orlando."
+   },
+   {
+    "campus_name": "Orlando facility",
+    "city": "Orlando",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.ufl.edu/",
+    "evidence_quote": "Various facilities throughout the state of Florida, including Gainesville, Jacksonville and Orlando."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain any international mobility partner lists or Erasmus bilateral agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.5,
+  "crawl_s": 8.5,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "email_search_s": 9.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     488
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 31.1
+ }
+}
