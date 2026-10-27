@@ -1,0 +1,88 @@
+{
+ "row_id": "r129",
+ "scraped_at": "2026-10-27T20:44:01Z",
+ "contacts": {
+  "row_id": "r129",
+  "institution_name": "Rita",
+  "institution_type": "school",
+  "official_website": "https://petzeltj.hu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@petzeltj.hu",
+  "generic_email_url": "https://petzeltj.hu/",
+  "contact": {
+   "name": "Énekes Rita",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://petzeltj.hu/",
+   "evidence_quote": "Énekes Rita ... igazgató"
+  },
+  "alternates": [
+   {
+    "name": "Ott Adrienne",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "ott.adrienne.igh@petzeltj.hu",
+    "office_email": "",
+    "phone": "+36 26 312-167",
+    "source_url": "https://petzeltj.hu/rolunk/munkatarsak",
+    "evidence_quote": "Ott Adrienne ... Igazgatóhelyettes",
+    "why_chosen": "Principal / director (no Erasmus contact found). Ott Adrienne is a deputy director at the school."
+   },
+   {
+    "name": "Garainé Hamar Éva",
+    "designation": "Professional Deputy Director",
+    "designation_local": "",
+    "email": "ighelyettes@petzeltj.hu",
+    "office_email": "",
+    "phone": "+36 26 312-167",
+    "source_url": "https://petzeltj.hu/rolunk/munkatarsak",
+    "evidence_quote": "Garainé Hamar Éva ... Szakmai igazgatóhelyettes",
+    "why_chosen": "Principal / director (no Erasmus contact found). Garainé Hamar Éva serves as a professional deputy director at the school."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Énekes Rita is the principal of the institution and the requested contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Petzelt József Technikum és Szakképző Iskola",
+    "city": "Szentendre",
+    "country": "Magyarország",
+    "role": "main",
+    "source_url": "https://petzeltj.hu/",
+    "evidence_quote": "2000 Szentendre, Római sánc köz 1."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence lists a section for dual partners, but the full partner list table is empty.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 7.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.2,
+  "mode": "gemini",
+  "email_search_s": 17.0,
+  "total_seconds": 34.8
+ }
+}
