@@ -1,0 +1,89 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-10-27T19:44:45Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "Jozef Doddy",
+  "institution_type": "school",
+  "official_website": "https://www.spmndag.sk/",
+  "country": null,
+  "phone": {
+   "value": "+421 2 4425 3892",
+   "source_url": "https://www.spmndag.sk/",
+   "evidence_quote": "+421 2 4425 3892 <tel +421 2 4425 3892>"
+  },
+  "phone_alt": [],
+  "generic_email": "skola@spmndag.sk",
+  "generic_email_url": "https://www.spmndag.sk/",
+  "contact": {
+   "name": "PaedDr. Jozef Doddy Cimra",
+   "designation": "school director",
+   "designation_local": "",
+   "email": "jozef.cimra@spmndag.sk",
+   "office_email": "",
+   "phone": "+421 2 4425 3892",
+   "source_url": "https://www.spmndag.sk/kontakt",
+   "evidence_quote": "PaedDr. Jozef Doddy Cimra - riaditeľ školy"
+  },
+  "alternates": [
+   {
+    "name": "Mgr. Andrea Rohaľová",
+    "designation": "coordinator of projects and ERASMUS+",
+    "designation_local": "",
+    "email": "andrea.rohalova@spmndag.sk",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.spmndag.sk/kontakt",
+    "evidence_quote": "Mgr. Andrea Rohaľová - koordinátor projektov a ERASMUS+",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is explicitly listed as the coordinator for projects and ERASMUS+."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the head of the institution and the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Škola pre mimoriadne nadané deti a Gymnázium",
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "role": "main",
+    "source_url": "https://www.spmndag.sk/",
+    "evidence_quote": "Teplická 7, 831 02 Bratislava"
+   },
+   {
+    "campus_name": "Elokované pracovisko - Gymnázium",
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "role": "branch",
+    "source_url": "https://www.spmndag.sk/kontakt",
+    "evidence_quote": "Skalická cesta č. 1, 831 02 Bratislava"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The website mentions a partnership with four schools but does not list their names. No specific list of Erasmus+ partner institutions is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 51.2,
+  "crawl_s": 5.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 59.2
+ }
+}
