@@ -1,0 +1,60 @@
+{
+ "row_id": "r018",
+ "scraped_at": "2026-10-27T19:57:57Z",
+ "contacts": {
+  "row_id": "r018",
+  "institution_name": "Xavier",
+  "institution_type": "school",
+  "official_website": "https://lycee-lavoisier-meru.fr/",
+  "country": null,
+  "phone": {
+   "value": "03 44 52 65 40",
+   "source_url": "https://lycee-lavoisier-meru.fr/",
+   "evidence_quote": "03 44 52 65 40"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée des métiers des services Lavoisier de Méru",
+    "city": "Méru",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lycee-lavoisier-meru.fr/",
+    "evidence_quote": "Le lycée des métiers des services Lavoisier de Méru est situé au sud de l’Oise et bénéficie de ce fait d’un contexte économique dynamique et attractif. La proximité de l’Ile de France, de l’autoroute A16, l’aéroport de Paris-Beauvais fait que de nombreuses entreprises tout secteur d’activité confondue on choisit de s’implanter sur ce territoire."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The evidence contains general information about the school, its address, and contact details, but does not name any specific contact persons or partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 6.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 20.2
+ }
+}

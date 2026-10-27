@@ -1,0 +1,75 @@
+{
+ "row_id": "r019",
+ "scraped_at": "2026-10-27T19:58:20Z",
+ "contacts": {
+  "row_id": "r019",
+  "institution_name": "Bertrand",
+  "institution_type": "school",
+  "official_website": "https://www.bertrandvikings.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Steve Bristol",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bertrandvikings.org/staff/",
+   "evidence_quote": "Steve Bristol ... Principal"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Steve Bristol is the Principal of the school.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bertrand Community School",
+    "city": "Bertrand",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.bertrandvikings.org/",
+    "evidence_quote": "Bertrand Community School 503 School Street Bertrand, NE 68927"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "No international partnerships or Erasmus-specific mobility coordinators are mentioned in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.2,
+  "crawl_s": 11.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "email_search_s": 10.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 31.7
+ }
+}

@@ -1,22 +1,22 @@
 {
  "batch": "france-batch-1-ayesha",
  "status": "running",
- "generated_at": "2026-10-27T19:57:48.469578+00:00",
+ "generated_at": "2026-10-27T19:58:43.861757+00:00",
  "chunk": 2,
  "total_chunks": 3,
  "total_rows": 52,
- "done": 12,
- "pending": 40,
- "elapsed_seconds": 118,
- "eta_seconds": 275,
- "cost_usd_so_far": 0.0859,
- "paid_search_usd": 0.0859,
+ "done": 19,
+ "pending": 33,
+ "elapsed_seconds": 174,
+ "eta_seconds": 226,
+ "cost_usd_so_far": 0.2013,
+ "paid_search_usd": 0.2013,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 20,
+ "ai_calls": 43,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,13 +37,13 @@
   }
  ],
  "confidence": {
-  "high": 3,
-  "medium": 1,
+  "high": 4,
+  "medium": 5,
   "low": 2,
-  "none": 6
+  "none": 8
  },
- "partners_found": 19,
- "campuses_found": 8,
+ "partners_found": 180,
+ "campuses_found": 16,
  "recent": [
   "r001",
   "r002",
@@ -55,7 +55,14 @@
   "r008",
   "r009",
   "r010",
+  "r013",
   "r014",
-  "r016"
+  "r015",
+  "r016",
+  "r018",
+  "r019",
+  "r020",
+  "r021",
+  "r022"
  ]
 }
