@@ -1,0 +1,117 @@
+{
+ "row_id": "r135",
+ "scraped_at": "2026-10-27T20:44:38Z",
+ "contacts": {
+  "row_id": "r135",
+  "institution_name": "Petr",
+  "institution_type": "school",
+  "official_website": "https://www.5zssumperk.cz/",
+  "country": null,
+  "phone": {
+   "value": "+420 608 841 323",
+   "source_url": "https://www.5zssumperk.cz/index.php/contact-us/",
+   "evidence_quote": "Mgr. Petr Málek - tel.: +420 608 841 323"
+  },
+  "phone_alt": [],
+  "generic_email": "skola@5zssumperk.cz",
+  "generic_email_url": "https://www.5zssumperk.cz/",
+  "contact": {
+   "name": "Petr Málek",
+   "designation": "School Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+420 608 841 323",
+   "source_url": "https://www.5zssumperk.cz/index.php/contact-us/",
+   "evidence_quote": "Ředitel školy ... Mgr. Petr Málek - tel.: +420 608 841 323"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Petr Málek is the school principal and is explicitly listed as the contact for Erasmus+ mobility criteria.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "3o Gymnasio Larisas",
+    "partner_country": "Greece",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.5zssumperk.cz/index.php/jazyky/",
+    "evidence_quote": "School: 3o Gymnasio Larisas",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agrupamento de Escolas de Santo André Barreiro",
+    "partner_country": "Portugal",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.5zssumperk.cz/index.php/jazyky/",
+    "evidence_quote": "School: Agrupamento de Escolas de Santo André Barreiro",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ORTAKOY 80.YIL MESLEKI VE TEKNIK ANADOLU LISESI",
+    "partner_country": "Turkey",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.5zssumperk.cz/index.php/jazyky/",
+    "evidence_quote": "School: ORTAKOY 80.YIL MESLEKI VE TEKNIK ANADOLU LISESI",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Istituto Tecnico Settore tecnologico - Liceo Scientifico \"E. Mattei\"",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.5zssumperk.cz/index.php/jazyky/",
+    "evidence_quote": "School: Istituto Tecnico Settore tecnologico - Liceo Scientifico \"E. Mattei\"",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Základní škola Šumperk",
+    "city": "Šumperk",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.5zssumperk.cz/",
+    "evidence_quote": "Základní škola Šumperk, Vrchlického 22 – Základní škola Šumperk, Vrchlického 22"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 6,
+  "coverage_note": "The institution lists several partner schools in the context of Erasmus+ projects, but does not provide a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 9.6,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 9.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 25.5
+ }
+}
