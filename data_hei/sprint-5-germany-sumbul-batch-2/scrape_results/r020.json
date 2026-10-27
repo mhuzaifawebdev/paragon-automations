@@ -1,0 +1,66 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-10-27T19:09:26Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "Dr. Holger",
+  "institution_type": "school",
+  "official_website": "https://www.jfs-bramstedt.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Osnovna škola Borovje",
+    "partner_country": "Croatia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.jfs-bramstedt.de/post/erasmus-austausch-mit-kroatien-6-12-10-2024",
+    "evidence_quote": "Dobro došli! Herzlich willkommen war eine Gruppe unserer Schülerinnen und Schüler aus den 8. Klassen bei der Osnovna škola Borovje, Zagreb, Kroatien. Im Erasmus+ Programm wurde uns ermöglicht, eine Woche mit unserer kroatischen Partnergruppe am gemeinsamen Thema „Nachhaltigkeit und Künstliche Intelligenz“ in Workshops in der Schule, bei Exkursionen und im gemeinsamen Austausch zu arbeiten.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Jürgen-Fuhlendorf-Schule",
+    "city": "Bad Bramstedt",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.jfs-bramstedt.de/",
+    "evidence_quote": "Düsternhoop 48, 24576 Bad Bramstedt"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The website mentions Erasmus+ projects with partners in Croatia and Spain, but does not provide a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 11.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 13.6,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 42.1
+ }
+}
