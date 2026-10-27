@@ -1,0 +1,89 @@
+{
+ "row_id": "r039",
+ "scraped_at": "2026-10-27T19:47:58Z",
+ "contacts": {
+  "row_id": "r039",
+  "institution_name": "Oľga",
+  "institution_type": "school",
+  "official_website": "https://sospg.edupage.org/",
+  "country": {
+   "value": "Slovakia",
+   "source_url": "https://sospg.edupage.org/",
+   "evidence_quote": "Slovakia"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES Perez Comendador",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://sospg.edupage.org/a/erasmus",
+    "evidence_quote": "IES Perez Comendador – Španielsko - koordinátor projektu",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gymnázium Jana Blahoslava a Střední pedagogická škola Přerov",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://sospg.edupage.org/a/erasmus",
+    "evidence_quote": "Gymnázium Jana Blahoslava a Střední pedagogická škola Přerov – Česká republika",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Istituto Istruzione Superiore di Aversa Leonardo Da Vinci",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://sospg.edupage.org/a/erasmus",
+    "evidence_quote": "Istituto Istruzione Superiore di Aversa Leonardo Da Vinci – Taliansko",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stredná odborná škola pedagogická",
+    "city": "Prešov",
+    "country": "Slovakia",
+    "role": "main",
+    "source_url": "https://sospg.edupage.org/",
+    "evidence_quote": "Stredná odborná škola pedagogická, Kmeťovo stromoradie 5, Prešov"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution lists specific project partners for the Erasmus+ KA220-SCH project, but does not provide a comprehensive list of all institutional Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 12.9,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "total_seconds": 39.8
+ }
+}

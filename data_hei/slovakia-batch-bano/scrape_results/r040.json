@@ -1,0 +1,97 @@
+{
+ "row_id": "r040",
+ "scraped_at": "2026-10-27T19:48:13Z",
+ "contacts": {
+  "row_id": "r040",
+  "institution_name": "Erika",
+  "institution_type": "school",
+  "official_website": "https://sosno.sk/",
+  "country": null,
+  "phone": {
+   "value": "+421(0)43 552 23 48",
+   "source_url": "https://sosno.sk/",
+   "evidence_quote": "Telefón: +421(0)43 552 23 48 <tel +421(0)435522348>"
+  },
+  "phone_alt": [],
+  "generic_email": "sosno@sosno.sk",
+  "generic_email_url": "https://sosno.sk/",
+  "contact": {
+   "name": "Ing. Erika Šušková",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "riaditel@sosno.sk",
+   "office_email": "",
+   "phone": "+421 43 552 23 48",
+   "source_url": "https://sosno.sk/kontakt/",
+   "evidence_quote": "riaditeľka školy: ... Ing. Erika Šušková"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Erika Šušková is the principal of the school and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Střední skola AHOL",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://sosno.sk/erasmus/?option=com_content&view=article&id=685;projektove-stretnutie-partnerov-v-taliansku&catid=13;aktuality-2018-2019",
+    "evidence_quote": "„Učíme se podnikat v Evropě“ – projekt s medzinárodnou účasťou (Střední skola AHOL, Ostrava – ČR, Zespół Szkół Gastronomiczno, Visla – PL, Instituto d´Istruzione Superiore „Frederiko Flora“, Pordenone – TAL a Stredná odborná škola, Námestovo – SR), ktorého cieľom je oboznámiť sa s rôznymi formami podnikania v rámci fungovania študentských spoločnosti a výmena informácií a praktických skúseností. Vytvorením medzinárodnej spoločnosti zameranej na aktivity rôznych oblastí podnikania, ktoré si partn",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zespół Szkół Gastronomiczno",
+    "partner_country": "Poland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://sosno.sk/erasmus/?option=com_content&view=article&id=685;projektove-stretnutie-partnerov-v-taliansku&catid=13;aktuality-2018-2019",
+    "evidence_quote": "„Učíme se podnikat v Evropě“ – projekt s medzinárodnou účasťou (Střední skola AHOL, Ostrava – ČR, Zespół Szkół Gastronomiczno, Visla – PL, Instituto d´Istruzione Superiore „Frederiko Flora“, Pordenone – TAL a Stredná odborná škola, Námestovo – SR), ktorého cieľom je oboznámiť sa s rôznymi formami podnikania v rámci fungovania študentských spoločnosti a výmena informácií a praktických skúseností. Vytvorením medzinárodnej spoločnosti zameranej na aktivity rôznych oblastí podnikania, ktoré si partn",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Instituto d´Istruzione Superiore Frederiko Flora",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://sosno.sk/erasmus/?option=com_content&view=article&id=685;projektove-stretnutie-partnerov-v-taliansku&catid=13;aktuality-2018-2019",
+    "evidence_quote": "„Učíme se podnikat v Evropě“ – projekt s medzinárodnou účasťou (Střední skola AHOL, Ostrava – ČR, Zespół Szkół Gastronomiczno, Visla – PL, Instituto d´Istruzione Superiore „Frederiko Flora“, Pordenone – TAL a Stredná odborná škola, Námestovo – SR), ktorého cieľom je oboznámiť sa s rôznymi formami podnikania v rámci fungovania študentských spoločnosti a výmena informácií a praktických skúseností. Vytvorením medzinárodnej spoločnosti zameranej na aktivity rôznych oblastí podnikania, ktoré si partn",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stredná odborná škola podnikania a služieb",
+    "city": "Námestovo",
+    "country": "Slovakia",
+    "role": "main",
+    "source_url": "https://sosno.sk/",
+    "evidence_quote": "Hattalova 968/33, 029 01 Námestovo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of local employers and partners for student internships, but does not provide a comprehensive list of international Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.4,
+  "crawl_s": 17.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "email_search_s": 9.1,
+  "total_seconds": 33.0
+ }
+}
