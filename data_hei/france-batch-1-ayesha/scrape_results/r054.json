@@ -1,0 +1,114 @@
+{
+ "row_id": "r054",
+ "scraped_at": "2026-10-27T19:24:49Z",
+ "contacts": {
+  "row_id": "r054",
+  "institution_name": "Yannick",
+  "institution_type": "school",
+  "official_website": "https://www.lyceeblaisepascal.com/",
+  "country": null,
+  "phone": {
+   "value": "02 54 53 55 00",
+   "source_url": "https://www.lyceeblaisepascal.com/",
+   "evidence_quote": "02 54 53 55 00"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Yannick LOISEAU",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.lyceeblaisepascal.com/administration/personnels-de-direction/",
+   "evidence_quote": "LE PROVISEUR : Yannick LOISEAU"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Yannick LOISEAU is the head of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "Reused from batch batch-2-france (scraped 2026-10-27). site found via: website column in the sheet. mode: gemini. 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "OZEWEB",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceeblaisepascal.com/",
+    "evidence_quote": "Création site Internet : OZEWEB",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Google",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceeblaisepascal.com/contact/",
+    "evidence_quote": "Ce site est protégé par reCAPTCHA. Les règles de confidentialité et les conditions d’utilisation de Google s’appliquent.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Greta de l’Indre",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceeblaisepascal.com/administration/personnels-de-direction/",
+    "evidence_quote": "CESUP (Chef d’établissement support de l’agence Greta de l’Indre).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Berri",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceeblaisepascal.com/administration/personnels-de-direction/",
+    "evidence_quote": "Politique sportive (AS) + relation avec la Berri et le rugby",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ENEDIS",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceeblaisepascal.com/administration/personnels-de-direction/",
+    "evidence_quote": "Campus ENEDIS /Label AERO",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Polyvalent Blaise Pascal",
+    "city": "Châteauroux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lyceeblaisepascal.com/",
+    "evidence_quote": "Lycée Polyvalent Blaise Pascal à Châteauroux : du CAP au BTS"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 4,
+  "coverage_note": "The website mentions a 'Projet Erasmus' but does not provide a list of partner institutions or specific international mobility contact details. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "batch-2-france",
+  "row_id": "r036"
+ }
+}
