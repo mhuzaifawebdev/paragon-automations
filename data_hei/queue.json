@@ -95,20 +95,30 @@
    "source": "France BATCH -1 [AYESHA]",
    "file_id": "1d6UxpB2qBIXn6hZpkPOovKp2BG0Uw3lQfcaWuPeH6RE",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 52,
    "started": "2026-10-27T19:55:04Z",
    "last_start": "2026-10-27T19:55:04Z",
    "restarts": 0,
-   "cap_usd": 846.63
+   "cap_usd": 846.63,
+   "spend_recorded": true,
+   "cost_usd": 0.5489,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1Cnxwm9rSFQocxlvkCNL2P8BQS__COu4h/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 40,
+   "finished": "2026-10-27T20:05:16Z",
+   "reason": "49 institutes, 24 with a contact"
   },
   {
    "batch": "sprint-5-belgium-sumbal",
    "source": "Sprint-5[BELGIUM]-Sumbal",
    "file_id": "1whYPQfAijNPBZJmsdLTKfPiZOMmsI1HWCYWOmwLYygg",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 48
+   "state": "running",
+   "rows": 48,
+   "started": "2026-10-27T20:05:16Z",
+   "last_start": "2026-10-27T20:05:16Z",
+   "restarts": 0,
+   "cap_usd": 846.08
   },
   {
    "batch": "finland-sprint-5",
@@ -1600,7 +1610,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-27T19:55:04Z",
+ "updated": "2026-10-27T20:05:16Z",
  "auto_queued_ids": [
   "1xdVps2t-dI8ilsW74w8qfaooUUyAigIVaaFZZo7cmt8",
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
