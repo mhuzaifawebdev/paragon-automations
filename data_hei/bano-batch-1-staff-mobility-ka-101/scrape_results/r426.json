@@ -1,0 +1,88 @@
+{
+ "row_id": "r426",
+ "scraped_at": "2026-10-27T21:19:21Z",
+ "contacts": {
+  "row_id": "r426",
+  "institution_name": "Joze",
+  "institution_type": "unknown",
+  "official_website": "http://www.joze.fr",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jean-François Ressot",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "04 73 70 20 24",
+   "source_url": "http://www.joze.fr",
+   "evidence_quote": "Secrétariat : Jean-François Ressot - Coralie Magnaud et Angélique Leveque"
+  },
+  "alternates": [
+   {
+    "name": "Coralie Magnaud",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "04 73 70 20 24",
+    "source_url": "http://www.joze.fr",
+    "evidence_quote": "Secrétariat : Jean-François Ressot - Coralie Magnaud et Angélique Leveque",
+    "why_chosen": "Secretary / administration (last resort). Coralie Magnaud is listed as a member of the secretariat at the municipal administration."
+   },
+   {
+    "name": "Angélique Leveque",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "04 73 70 20 24",
+    "source_url": "http://www.joze.fr",
+    "evidence_quote": "Secrétariat : Jean-François Ressot - Coralie Magnaud et Angélique Leveque",
+    "why_chosen": "Secretary / administration (last resort). Angélique Leveque is listed as a member of the secretariat at the municipal administration."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Jean-François Ressot is listed as a member of the secretariat at the municipal administration.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mairie de Joze",
+    "city": "Joze",
+    "country": "France",
+    "role": "main",
+    "source_url": "http://www.joze.fr",
+    "evidence_quote": "24 Rue Mal de Turenne, 63350 Joze"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The provided text comes from a municipal website (Mairie de Joze) rather than an educational institution, so no educational partners or academic mobility programs are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.1,
+  "crawl_s": 5.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.2,
+  "mode": "gemini",
+  "email_search_s": 7.0,
+  "total_seconds": 32.3
+ }
+}
