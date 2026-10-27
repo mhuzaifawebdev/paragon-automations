@@ -1,0 +1,83 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-27T19:48:57Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "Dalibor",
+  "institution_type": "school",
+  "official_website": "https://sossvit.edupage.org/",
+  "country": {
+   "value": "Slovakia",
+   "source_url": "https://sossvit.edupage.org/",
+   "evidence_quote": "Slovakia"
+  },
+  "phone": {
+   "value": "052/7756245",
+   "source_url": "https://sossvit.edupage.org/",
+   "evidence_quote": "052/7756245"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ing. Dalibor Enekeš",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://sossvit.edupage.org/teachers/",
+   "evidence_quote": "[Ing. Dalibor Enekeš] ... Ing. Dalibor EnekešRiaditeľ"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the director of the school and the primary contact person listed.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Střední průmyslová škola chemická a gymnázium",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://sossvit.edupage.org/a/erasmus?eqa=dGV4dD10ZXh0L3RleHQzMSZzdWJwYWdlPTYmc2tnZHllYXI9MjAyNg%3D%3D",
+    "evidence_quote": "V dňoch 20. – 29. januára 2026 sme sa zúčastnili skupinovej mobility v rámci programu Erasmus+ v partnerskej škole Střední průmyslová škola chemická a gymnázium v Brne. Mobilita bola zameraná na rozvoj odborných, praktických, jazykových a digitálnych kompetencií v oblasti chémie, farmácie, biotechnológií a prírodných vied.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stredná odborná škola polytechnická Jana Antonína Baťu",
+    "city": "Svit",
+    "country": "Slovakia",
+    "role": "main",
+    "source_url": "https://sossvit.edupage.org/",
+    "evidence_quote": "Svit"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The website mentions participation in Erasmus+ projects and lists one specific partner school in Brno, but does not provide a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 12.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 12.9,
+  "mode": "gemini",
+  "email_search_s": 9.2,
+  "total_seconds": 35.5
+ }
+}

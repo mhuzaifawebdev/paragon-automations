@@ -1,0 +1,92 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-10-27T19:49:16Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "Alena",
+  "institution_type": "school",
+  "official_website": "https://sps-snina.edupage.org/",
+  "country": {
+   "value": "Slovakia",
+   "source_url": "https://sps-snina.edupage.org/",
+   "evidence_quote": "Slovakia"
+  },
+  "phone": {
+   "value": "+421 577623813",
+   "source_url": "https://sps-snina.edupage.org/",
+   "evidence_quote": "+421 577623813"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Alena Romanová",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://sps-snina.edupage.org/",
+   "evidence_quote": "PaedDr. Alena Romanová, riaditeľka školy, v zmysle"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Alena Romanová is the principal of the school and is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "A ROCCA",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://sps-snina.edupage.org/",
+    "evidence_quote": "Sprostredkovateľom stáže je organizácia A ROCCA v meste Barcellona Pozzo di Gotto, ktorá žiakom pomáha pri adaptácii v novom prostredí a zabezpečuje plynulý priebeh ich pracovnej praxe.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TUKE (Technická univerzita v Košiciach)",
+    "partner_country": "Slovakia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://sps-snina.edupage.org/about/?eqa=dGV4dD10ZXh0L2Fib3V0JnN1YnBhZ2U9NSZza2dkeWVhcj0yMDI2",
+    "evidence_quote": "Memorandum o spolupráci s TUKE",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stredná priemyselná škola",
+    "city": "Snina",
+    "country": "Slovakia",
+    "role": "main",
+    "source_url": "https://sps-snina.edupage.org/",
+    "evidence_quote": "Stredná priemyselná škola, Partizánska 1059, Snina"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The website mentions Erasmus+ projects and a specific mobility partner in Italy, but does not provide a comprehensive list of all international partners or agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 12.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "email_search_s": 6.9,
+  "total_seconds": 22.7
+ }
+}
