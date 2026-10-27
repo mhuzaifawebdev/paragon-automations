@@ -1,0 +1,134 @@
+{
+ "row_id": "r014",
+ "scraped_at": "2026-10-27T19:18:55Z",
+ "contacts": {
+  "row_id": "r014",
+  "institution_name": "n/a",
+  "institution_type": "school",
+  "official_website": "https://lycee-joliot-curie-de-reims.fr/",
+  "country": null,
+  "phone": {
+   "value": "03 26 06 03 11",
+   "source_url": "https://lycee-joliot-curie-de-reims.fr/",
+   "evidence_quote": "T : 03 26 06 03 11"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marc Latché",
+   "designation": "Proviseur",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lycee-joliot-curie-de-reims.fr/",
+   "evidence_quote": "Le Mot du Proviseur du lycée Joliot-Curie, Marc Latché"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Marc Latché is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CREPS de Reims",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-joliot-curie-de-reims.fr/",
+    "evidence_quote": "-Certificat de spécialisation : MC AG2S (Mention Complémentaire Animation-Gestion de projets dans le Secteur Sportif) en partenariat avec le CREPS de Reims.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ecole de police de Reims",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-joliot-curie-de-reims.fr/",
+    "evidence_quote": "-Préparation au concours de gardien de la paix en partenariat avec l’Ecole de police de Reims (Cadets de la République)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NEOMA Business School",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-joliot-curie-de-reims.fr/",
+    "evidence_quote": "Le lycée Joliot Curie participe activement au dispositif des cordées de la Réussite en partenariat avec NEOMA Business School, permettant un accompagnement vers les études supérieures et la mise en place de réseaux.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ERASMUS+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "traineeship",
+    "source_url": "https://lycee-joliot-curie-de-reims.fr/",
+    "evidence_quote": "Le lycée Joliot-Curie, un lycée tourné vers l’Europe à travers la section Européenne Anglais, la mobilité avec les stages à l’étranger dans le cadre du programme ERASMUS+, « l’école ambassadrice », concours big challenge, projet Etwinning et la future labélisation Euroscol.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Etwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-joliot-curie-de-reims.fr/",
+    "evidence_quote": "Le lycée Joliot-Curie, un lycée tourné vers l’Europe à travers la section Européenne Anglais, la mobilité avec les stages à l’étranger dans le cadre du programme ERASMUS+, « l’école ambassadrice », concours big challenge, projet Etwinning et la future labélisation Euroscol.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ProTandem",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-joliot-curie-de-reims.fr/",
+    "evidence_quote": "VoyagesUn nouveau partenariat franco-allemand pour le lycée Joliot-Curie grâce au dispositif ProTandem !",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Joliot-Curie de Reims",
+    "city": "Reims",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lycee-joliot-curie-de-reims.fr/",
+    "evidence_quote": "4 Rue Joliot-Curie"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 3,
+  "coverage_note": "The institution mentions participation in the Erasmus+ program and ProTandem, but does not provide a specific list of international partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 6.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 40.2,
+  "mode": "gemini",
+  "email_search_s": 9.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     125
+    ],
+    "returned": 6,
+    "accepted": 6
+   }
+  ],
+  "total_seconds": 57.9
+ }
+}
