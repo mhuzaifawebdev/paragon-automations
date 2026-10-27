@@ -1,0 +1,59 @@
+{
+ "row_id": "r157",
+ "scraped_at": "2026-10-27T19:36:26Z",
+ "contacts": {
+  "row_id": "r157",
+  "institution_name": "Lucyna",
+  "institution_type": "school",
+  "official_website": "https://zsc.edu.bydgoszcz.pl:443/",
+  "country": null,
+  "phone": {
+   "value": "52 361-10-08",
+   "source_url": "https://zsc.edu.bydgoszcz.pl:443/kontakt-m1,150.html",
+   "evidence_quote": "Sekretariat 52 361-10-08,"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch poland-batch (scraped 2026-10-27). site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zespół Szkół Chemicznych",
+    "city": "Bydgoszcz",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://zsc.edu.bydgoszcz.pl:443/kontakt-m1,150.html",
+    "evidence_quote": "ul. Łukasiewicza 3"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution's partner list page is empty. No specific partner names are provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "poland-batch",
+  "row_id": "r042"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "row_id": "r162",
+ "scraped_at": "2026-10-27T20:47:42Z",
+ "contacts": {
+  "row_id": "r162",
+  "institution_name": "Barbora",
+  "institution_type": "school",
+  "official_website": "https://www.tznj.cz/",
+  "country": null,
+  "phone": {
+   "value": "556 706 302",
+   "source_url": "https://www.tznj.cz/kontakty",
+   "evidence_quote": "556 706 302, 775 615 795 <tel 556706302,775615795>"
+  },
+  "phone_alt": [],
+  "generic_email": "skola@tznj.cz",
+  "generic_email_url": "https://www.tznj.cz/",
+  "contact": {
+   "name": "Barbora Bezunková",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "bezunkova@tznj.cz",
+   "office_email": "",
+   "phone": "556 706 302",
+   "source_url": "https://www.tznj.cz/kontakty",
+   "evidence_quote": "Mgr. Barbora Bezunková ... ředitelka"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). As the director of the school, she is the primary contact for institutional leadership and international project oversight.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "U Jezu",
+    "city": "Nový Jičín",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.tznj.cz/",
+    "evidence_quote": "U Jezu 7, 74101 Nový Jičín"
+   },
+   {
+    "campus_name": "Šenov u Nového Jičína",
+    "city": "Šenov u Nového Jičína",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://www.tznj.cz/",
+    "evidence_quote": "Dřevo, kov, potrubí i malta. Další dva projektové dny na našem pracovišti v Šenově u Nového Jičína nabídly žákům z Příbora a Kunína možnost vzít do rukou nářadí, vyzkoušet si řemeslné postupy a poznat naše obory přímo při práci. Po boku jim stáli učitelé odborného výcviku i naši žáci."
+   },
+   {
+    "campus_name": "Jugoslávská",
+    "city": "Nový Jičín",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://www.tznj.cz/kontakty",
+    "evidence_quote": "Pracoviště: Šenovská, Jugoslávská"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The evidence mentions participation in Erasmus+ and international internships but does not provide a formal list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 9.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 16.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 26.8
+ }
+}
