@@ -1,0 +1,56 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-27T20:14:51Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Aleksi",
+  "institution_type": "unknown",
+  "official_website": "https://www.aanekoski.fi/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kirjaamo@aanekoski.fi",
+  "generic_email_url": "https://www.aanekoski.fi/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Äänekosken kaupunki",
+    "city": "Äänekoski",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.aanekoski.fi/",
+    "evidence_quote": "Hallintokatu 4, 44100 Äänekoski"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "The evidence provided is for a municipal website (Äänekoski city) and does not contain a list of Erasmus+ or international academic partners. No specific contact person for international mobility is listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 13.1,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 39.8
+ }
+}
