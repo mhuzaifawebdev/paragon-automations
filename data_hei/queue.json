@@ -149,20 +149,30 @@
    "source": "BANO BATCH-1 STAFF MOBILITY KA 101",
    "file_id": "1jkRaIWd7ZsP2rnuoYVVCkmKPCltkQJZcjMVMfvGIViE",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 464,
    "started": "2026-10-27T20:25:48Z",
    "last_start": "2026-10-27T20:25:48Z",
    "restarts": 0,
-   "cap_usd": 845.45
+   "cap_usd": 845.45,
+   "spend_recorded": true,
+   "cost_usd": 6.6345,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1_pECOOsImxH4opeFillUWL6V3fOO3mlU/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 421,
+   "finished": "2026-10-27T21:34:06Z",
+   "reason": "458 institutes, 294 with a contact"
   },
   {
    "batch": "ibrahim-batch-2-staff-mobility-ka-10",
    "source": "IBRAHIM BATCH-2 STAFF MOBILITY KA 101",
    "file_id": "1L0C4XYpr7ztvFllmfvbv0YmoSPrK5CQ8JEAuolNZgPM",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 570
+   "state": "running",
+   "rows": 570,
+   "started": "2026-10-27T21:34:06Z",
+   "last_start": "2026-10-27T21:34:06Z",
+   "restarts": 0,
+   "cap_usd": 838.81
   },
   {
    "batch": "copy-of-unique-legacy-database-4507",
@@ -1630,7 +1640,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-27T20:25:48Z",
+ "updated": "2026-10-27T21:34:06Z",
  "auto_queued_ids": [
   "1xdVps2t-dI8ilsW74w8qfaooUUyAigIVaaFZZo7cmt8",
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
