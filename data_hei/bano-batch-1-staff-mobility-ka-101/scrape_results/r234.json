@@ -1,0 +1,127 @@
+{
+ "row_id": "r234",
+ "scraped_at": "2026-10-27T20:58:14Z",
+ "contacts": {
+  "row_id": "r234",
+  "institution_name": "Wolf",
+  "institution_type": "college",
+  "official_website": "https://www.pmhs.de/",
+  "country": null,
+  "phone": {
+   "value": "07022 93253 0",
+   "source_url": "https://www.pmhs.de/",
+   "evidence_quote": "Telefon: 07022 93253 0"
+  },
+  "phone_alt": [],
+  "generic_email": "pmhs@pmhs.de",
+  "generic_email_url": "https://www.pmhs.de/",
+  "contact": {
+   "name": "Wolf Hofmann",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "hfm@pmhs.de",
+   "office_email": "",
+   "phone": "07022 93253 0",
+   "source_url": "https://www.pmhs.de/organisation-ablauf/schulleitung/",
+   "evidence_quote": "Schulleiter ... OStD Wolf Hofmann"
+  },
+  "alternates": [
+   {
+    "name": "Sarah Landsperger",
+    "designation": "Erasmus+ Coordinator",
+    "designation_local": "",
+    "email": "lan@pmhs.de",
+    "office_email": "",
+    "phone": "07022 93 253 141",
+    "source_url": "https://www.pmhs.de/erasmus/",
+    "evidence_quote": "Erasmus+-Koordination ... Sarah Landsperger",
+    "why_chosen": "Institutional Erasmus+ coordinator. She is explicitly listed as the Erasmus+ coordinator for the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the principal of the institution and was the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée Gutenberg",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.pmhs.de/",
+    "evidence_quote": "In der Woche vom 1. bis 5. Dezember erarbeiteten Schülerinnen des Lycée Gutenberg aus Straßburg und Schülerinnen unseres Technischen Gymnasiums mit dem Profil Gestaltungs- und Medientechnik eine neue Version des Logos der Akademie…Weiterlesen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Givatayim / Rama",
+    "partner_country": "Israel",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.pmhs.de/",
+    "evidence_quote": "Givatayim / Rama (Israel)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Wamba-Luadia",
+    "partner_country": "Congo",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.pmhs.de/",
+    "evidence_quote": "Wamba-Luadia (Kongo)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pruszkow",
+    "partner_country": "Poland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.pmhs.de/",
+    "evidence_quote": "Pruszkow (Polen)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "León",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.pmhs.de/erasmus/",
+    "evidence_quote": "Schulpartnerschaft mit León, Spanien erfolgreich gestartet (2025)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Philipp-Matthäus-Hahn-Schule Nürtingen",
+    "city": "Nürtingen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.pmhs.de/",
+    "evidence_quote": "Philipp-Matthäus-Hahn-Schule Nürtingen – PMHS – Technische Schule Nürtingen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The institution lists several specific partner schools in the projects section, but does not provide a comprehensive list of all Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 13.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.0,
+  "mode": "gemini",
+  "email_search_s": 8.9,
+  "total_seconds": 28.2
+ }
+}
