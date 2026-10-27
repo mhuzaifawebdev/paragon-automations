@@ -1,0 +1,92 @@
+{
+ "row_id": "r037",
+ "scraped_at": "2026-10-27T19:00:48Z",
+ "contacts": {
+  "row_id": "r037",
+  "institution_name": "Lasso",
+  "institution_type": "school",
+  "official_website": "https://colegiosanramonysanantonio.es/",
+  "country": null,
+  "phone": {
+   "value": "91 563 70 91",
+   "source_url": "https://colegiosanramonysanantonio.es/contacto/",
+   "evidence_quote": "91 563 70 91"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria@colegiosanramonysanantonio.es",
+  "generic_email_url": "https://colegiosanramonysanantonio.es/contacto/",
+  "contact": {
+   "name": "Pedro Concejero",
+   "designation": "Educational Area Director",
+   "designation_local": "",
+   "email": "%20pedroconcejero@colegiosanramonysanantonio.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://colegiosanramonysanantonio.es/colegio/organigrama/",
+   "evidence_quote": "Pedro Concejero ... Dirección del Área Educativa"
+  },
+  "alternates": [
+   {
+    "name": "Luis María Díaz",
+    "designation": "General Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://colegiosanramonysanantonio.es/colegio/organigrama/",
+    "evidence_quote": "Luis María Díaz ... Director General",
+    "why_chosen": "Principal / director (no Erasmus contact found). Luis María Díaz is the General Director, serving as the head of the institution."
+   },
+   {
+    "name": "Marisa Melara",
+    "designation": "Academic Secretary",
+    "designation_local": "",
+    "email": "%20marisamelara@colegiosanramonysanantonio.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://colegiosanramonysanantonio.es/colegio/organigrama/",
+    "evidence_quote": "Marisa Melara ... Secretaria Académica",
+    "why_chosen": "Secretary / administration (last resort). Marisa Melara is the Academic Secretary with a listed email address."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Pedro Concejero is the Educational Area Director with a listed email address.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegio San Ramón y San Antonio",
+    "city": "Madrid",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://colegiosanramonysanantonio.es/",
+    "evidence_quote": "C/Rodriguez Marín, 57, 28002, Madrid"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not mention any international mobility partners or Erasmus agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.4,
+  "crawl_s": 11.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 18.6
+ }
+}
