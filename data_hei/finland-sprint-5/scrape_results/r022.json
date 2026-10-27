@@ -1,0 +1,97 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-10-27T20:15:55Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "Jouni",
+  "institution_type": "school",
+  "official_website": "https://lauttasaarenyhteiskoulu.fi/",
+  "country": {
+   "value": "Finland",
+   "source_url": "https://lauttasaarenyhteiskoulu.fi/",
+   "evidence_quote": "00200 Helsinki, Finland"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Kirsi Lindström",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "kirsi.lindstrom@lykki.fi",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lauttasaarenyhteiskoulu.fi/erasmus/",
+   "evidence_quote": "Lykin espanjan opettajat, Elina Rögård ja Kirsi Lindström, kävivät syksyllä 2022 tutustumassa Espanjassa I.E.S. Carmen Martín Gaite koulun toimintaan ja huhtikuussa 2023 mukaan otettiin myös 14 A-espanjan lukijaa 9. luokalta. Nuoret sitoutuivat majoittamaan kotonaan espanjalaiset nuoret, jotka tulivat vastavuoroiselle vierailulle Lykkiin heti seuraavalla viikolla. Keväällä 2023 Espanjan opintomatkalle osallistuneet oppilaat ovat tavanneet espanjalaisia vaihtarikavereitaan myös opintomatkan jälke ... Mikäli sinulla on kysyttävää Erasmus+ -yhteistyöstä, ota yhteyttä Lauttasaaren yhteiskoulun Erasmus+ -koordinaattoriin: kirsi.lindstrom@lykki.fi."
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. Kirsi Lindström is explicitly named as the Erasmus+ coordinator for the school.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "I.E.S. Carmen Martín Gaite",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://lauttasaarenyhteiskoulu.fi/erasmus/",
+    "evidence_quote": "Lykin espanjan opettajat, Elina Rögård ja Kirsi Lindström, kävivät syksyllä 2022 tutustumassa Espanjassa I.E.S. Carmen Martín Gaite koulun toimintaan ja huhtikuussa 2023 mukaan otettiin myös 14 A-espanjan lukijaa 9. luokalta. Nuoret sitoutuivat majoittamaan kotonaan espanjalaiset nuoret, jotka tulivat vastavuoroiselle vierailulle Lykkiin heti seuraavalla viikolla. Keväällä 2023 Espanjan opintomatkalle osallistuneet oppilaat ovat tavanneet espanjalaisia vaihtarikavereitaan myös opintomatkan jälke",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Istituto Tecnico Euclide Caracciolo",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://lauttasaarenyhteiskoulu.fi/erasmus/",
+    "evidence_quote": "Syksyllä 2023 Erasmus+ -hanketta toteutettiin Italiassa, kun italian opettaja Heikki Kotilainen ja historian opettaja Mikael Björk-Winberg osallistuivat job shadowingiin sekä valmistelevalle vierailulle Istituto Tecnico Euclide Caracciolossa, joka sijaitsee Italian Barissa. Italian ryhmäliikkuvuuteen lähti seitsemän italiaa opiskelevaa abia. Vierailun aikana harjoiteltiin italiaa käytännössä ja opittiin lisää Italian historiasta. Lykin nuoret saivat Erasmus+ -hankkeen myötä uusia kokemuksia eri ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Laröds skola",
+    "partner_country": "Sweden",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://lauttasaarenyhteiskoulu.fi/erasmus/",
+    "evidence_quote": "Nordplus junior -hankkeessa Lykin oppilaita osallistuu oppilasvaihtoon ja yhteisiin oppitunteihin, joilla tutustutaan ruotsalaisiin nuoriin ja Ruotsiin, sekä tutkitaan yhdessä erilaisia ympäristöjä ja kestävän kehityksen kysymyksiä Helsingin ja Helsingborgin alueilla. Yhteistyökoulumme on Laröds skola. Hankeaika on 2025-2027. Larödsin koulun kanssa on tehty ja tehdään yhteistyötä myös kielikylpyluokkien kanssa.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lauttasaaren yhteiskoulu",
+    "city": "Helsinki",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://lauttasaarenyhteiskoulu.fi/",
+    "evidence_quote": "Isokaari 19,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 4,
+  "coverage_note": "The evidence lists specific partner schools involved in Erasmus+ and Nordplus junior projects, but does not provide a comprehensive list of all partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 8.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 12.2
+ }
+}

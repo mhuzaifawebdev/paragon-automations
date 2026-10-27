@@ -1,0 +1,100 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-27T20:15:21Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Jarkko",
+  "institution_type": "school",
+  "official_website": "https://www.joensuu.fi/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kirjaamo@joensuu.fi",
+  "generic_email_url": "https://www.joensuu.fi/",
+  "contact": {
+   "name": "Aatu Mustonen",
+   "designation": "Director of Education and Youth",
+   "designation_local": "",
+   "email": "aatu.mustonen@joensuu.fi",
+   "office_email": "",
+   "phone": "050 430 4359",
+   "source_url": "https://www.joensuu.fi/en/leisure/services-for-young-people/",
+   "evidence_quote": "Aatu Mustonen ... Director of Education and Youth"
+  },
+  "alternates": [
+   {
+    "name": "Tuula Halttunen",
+    "designation": "Service Specialist",
+    "designation_local": "",
+    "email": "tuula.halttunen@joensuu.fi",
+    "office_email": "",
+    "phone": "050 477 4237",
+    "source_url": "https://www.joensuu.fi/en/everyday-services/housing/waste-management/",
+    "evidence_quote": "Tuula Halttunen ... Service Specialist",
+    "why_chosen": "Secretary / administration (last resort). Tuula Halttunen works as a Service Specialist and handles inquiries."
+   },
+   {
+    "name": "Pirkko Ahola",
+    "designation": "Children's culture coordinator",
+    "designation_local": "",
+    "email": "pirkko.ahola@joensuu.fi",
+    "office_email": "",
+    "phone": "050 592 8111",
+    "source_url": "https://www.joensuu.fi/en/leisure/services-for-young-people/youth-card-and-benefits/",
+    "evidence_quote": "Pirkko Ahola ... Children's culture coordinator",
+    "why_chosen": "Other role. Pirkko Ahola is the Children's culture coordinator and manages related information."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Aatu Mustonen serves as the Director of Education and Youth.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "JOANNEUM RESEARCH",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.joensuu.fi/hankkeet/pioneer-photonics-and-quantum-interregional-open-network-for-european-excellence-and-resilience/",
+    "evidence_quote": "Hankkeessa on mukana kahdeksan eurooppalaista aluetta, joista yksi on Pohjois-Karjala. Hanketta koordinoi JOANNEUM RESEARCH.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Joensuun lyseon lukio",
+    "city": "Joensuu",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.joensuu.fi/arjen-palvelut/lukiot-ja-muut-oppilaitokset/lyseon-lukio/",
+    "evidence_quote": "Joensuun lyseon lukio on ihmisläheinen ja kansainvälinen kasvun yhteisö. Lyseo tarjoaa sinulle innostavan opiskeluympäristön, laadukkaat oppimismahdollisuudet ja vahvat tulevaisuustaidot. Lyseo toimii Joensuun Tiedepuistolla."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides general information about Lyseon lukio in Joensuu, its principal, teachers, and administration, but does not list international Erasmus partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.3,
+  "crawl_s": 12.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 8,
+  "email_search_s": 0.0,
+  "total_seconds": 33.9
+ }
+}
