@@ -153,7 +153,7 @@ def tick(data_root, now, cfg, ops):
     log = []
     take_requests(q, data_root, now)
     try:
-        log += ops.inbox_pickup(q)
+        log += ops.inbox_pickup(q, cfg)
     except Exception as e:
         log.append(f"Drive inbox not read: {str(e)[:200]}")
     for it in [i for i in q["items"] if i["state"] == "running"]:
@@ -196,11 +196,18 @@ class Ops:
         self.drive = drive
         self.to_start = []
 
-    def inbox_pickup(self, q):
+    def inbox_pickup(self, q, cfg=None):
         if not self.drive:
             return []
         import drive_inbox
-        return drive_inbox.pickup(self.drive, self.data_root, q, now_iso())
+        log = drive_inbox.pickup(self.drive, self.data_root, q, now_iso())
+        # auto-queue: Google Sheets listed in config.yaml are picked up without any manual drop
+        if cfg and cfg.get("auto_queue_sheets"):
+            def _dl(fid):
+                return self.drive.du.download(self.drive.svc,
+                                              {"id": fid, "mimeType": "application/vnd.google-apps.spreadsheet"})
+            log += drive_inbox.pickup_auto_sheets(_dl, self.data_root, q, cfg, now_iso())
+        return log
 
     def start(self, it):
         bdir = self.data_root / it["batch"]

@@ -7,6 +7,15 @@
 The batch is named after the file ("Spain schools.xlsx" -> spain-schools, -2 if that name is taken). A list longer
 than MAX_ROWS is split into parts (-p1, -p2, ...). CSV, Excel (.xlsx) and Google Sheets are read; the first sheet
 that has institute rows is used. Run by scripts/queue_tick.py; no Drive call is made in the pure helpers below.
+
+Auto-queue (zero intervention):
+    config.yaml  scraper.auto_queue_sheets:
+      - id: "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms"   # Drive file ID of the Google Sheet
+        name: "Jan batch"                                        # optional friendly name -> batch name
+      - id: "..."
+    The queue picks these up automatically on each tick without the client dropping anything into Inbox.
+    A sheet is only ever queued once per file ID; re-runs are ignored (already-done tracking in queue.json).
+    The sheets stay exactly where they are — nothing is moved or deleted.
 """
 import csv
 import io
@@ -152,6 +161,55 @@ def pickup(drive, data_root, queue, now):
             by_md5[f["md5Checksum"]] = names[0]
         drive.to_processing(f)
         log.append(f"{name}: queued as {', '.join(names)}")
+    return log
+
+
+def pickup_auto_sheets(svc_download, data_root, queue, cfg, now):
+    """Auto-queue Google Sheets listed in config.yaml scraper.auto_queue_sheets.
+    Each sheet is queued exactly once (tracked by Drive file ID). The sheet stays where it is — nothing is moved.
+    svc_download(file_id) -> bytes   (calls drive_upload.download with a fake file dict)
+    """
+    sheets = cfg.get("auto_queue_sheets") or []
+    if not sheets:
+        return []
+    data_root = Path(data_root)
+    # all file IDs already seen in the queue (any state) or uploads folder
+    seen_ids = {it.get("file_id") for it in queue["items"] if it.get("file_id")}
+    seen_ids |= {it.get("file_id") for it in queue.get("done_file_ids", []) if it.get("file_id")} if False else set()
+    seen_ids |= set(queue.get("auto_queued_ids", []))
+    taken = {p.name for p in data_root.iterdir() if p.is_dir()} | {it["batch"] for it in queue["items"]}
+    taken |= {p.stem for p in (data_root / "uploads").glob("*.csv")} if (data_root / "uploads").exists() else set()
+    log = []
+    for entry in sheets:
+        fid  = entry.get("id") if isinstance(entry, dict) else (entry if isinstance(entry, str) else None)
+        name = (entry.get("name") if isinstance(entry, dict) else None) or fid or "auto-sheet"
+        if not fid or fid in seen_ids:
+            continue
+        try:
+            data = svc_download(fid)
+            text, note = table_from_file(name + ".gsheet", "application/vnd.google-apps.spreadsheet", data)
+        except Unusable as e:
+            log.append(f"auto-sheet {name} ({fid}): skipped — {e}")
+            queue.setdefault("auto_queued_ids", []).append(fid)   # don't retry broken sheets
+            continue
+        except Exception as e:
+            log.append(f"auto-sheet {name} ({fid}): error reading — {str(e)[:150]}")
+            continue
+        parts = split(text)
+        base  = unique_name(slug(name), taken)
+        names = [base] if len(parts) == 1 else [
+            unique_name(f"{base[:NAME_MAX - 4].rstrip('-')}-p{i}", taken) for i in range(1, len(parts) + 1)]
+        (data_root / "uploads").mkdir(parents=True, exist_ok=True)
+        for i, (batch, part) in enumerate(zip(names, parts), 1):
+            (data_root / "uploads" / f"{batch}.csv").write_text(part, encoding="utf-8")
+            queue["items"].append({"batch": batch, "source": name, "file_id": fid, "added": now,
+                                   "state": "queued", "rows": institute_rows(part),
+                                   **({"part": f"{i}/{len(parts)}"} if len(parts) > 1 else {}),
+                                   **({"note": note} if note else {})})
+        queue.setdefault("auto_queued_ids", []).append(fid)
+        seen_ids.add(fid)
+        log.append(f"auto-sheet '{name}': queued as {', '.join(names)}" +
+                   (f" ({len(parts)} parts)" if len(parts) > 1 else ""))
     return log
 
 

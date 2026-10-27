@@ -157,3 +157,12 @@ scraper:
                                  # what is left; when used up, the remaining batches run on the free reader ($0)
   reuse_earlier_results: true    # an institute already scraped in an earlier batch is copied, not scraped and paid again
   reuse_max_age_days: 180        # ...unless that result is older than this
+  # Zero-intervention auto-queue: Google Sheets already in Drive are queued automatically, nothing to drop or move.
+  # Add each sheet once; it is queued exactly once and never again (the file ID is remembered in queue.json).
+  # Get the file ID from the sheet's URL: docs.google.com/spreadsheets/d/<FILE_ID>/edit
+  # The robot account (GOOGLE_SERVICE_ACCOUNT_JSON) must have Viewer access or above on each sheet / its parent drive.
+  auto_queue_sheets: []
+  # Example:
+  # auto_queue_sheets:
+  #   - id: "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms"
+  #     name: "clean-master-32494"

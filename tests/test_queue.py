@@ -178,6 +178,31 @@ qt._write(root3 / "t2" / "progress.json", {"status": "cancelled"})
 qt.tick(root3, "2026-11-02T12:00:00Z", {"max_queue_usd_total": 850}, ops3)
 qt.tick(root3, "2026-11-02T12:10:00Z", {"max_queue_usd_total": 850}, ops3)
 check("spending is recorded once per batch, however many ticks see it", qt.total_spent(root3), 848.7)
+# ---- auto_queue_sheets: Google Sheets queued automatically without any manual drop
+root_aq = Path(tempfile.mkdtemp())
+qt._write(root_aq / "queue.json", {"items": []})
+FAKE_CSV = "Institution Name,Country,Website\nUniversity of Malta,Malta,https://um.edu.mt\n" * 5
+downloads = []
+def _fake_dl(fid):
+    downloads.append(fid)
+    return FAKE_CSV.encode()
+import drive_inbox as di_mod
+q_aq = qt.load_queue(root_aq)
+log_aq = di_mod.pickup_auto_sheets(_fake_dl, root_aq, q_aq,
+    {"auto_queue_sheets": [{"id": "sheet-abc", "name": "master-list"}]}, "2026-11-01T00:00:00Z")
+qt._write(root_aq / "queue.json", q_aq)   # save so subsequent ticks see it
+check("auto_queue: sheet is downloaded and queued", downloads, ["sheet-abc"])
+check("auto_queue: batch is in the queue", len(q_aq["items"]) >= 1, True)
+check("auto_queue: log says queued", any("master-list" in l for l in log_aq), True)
+# second tick must NOT re-queue the same sheet
+log_aq2 = di_mod.pickup_auto_sheets(_fake_dl, root_aq, q_aq,
+    {"auto_queue_sheets": [{"id": "sheet-abc", "name": "master-list"}]}, "2026-11-01T00:10:00Z")
+check("auto_queue: same sheet ID is not queued a second time", len(log_aq2), 0)
+# a new sheet ID should be queued
+log_aq3 = di_mod.pickup_auto_sheets(_fake_dl, root_aq, q_aq,
+    {"auto_queue_sheets": [{"id": "sheet-abc"}, {"id": "sheet-xyz", "name": "second-list"}]}, "2026-11-01T00:20:00Z")
+check("auto_queue: a different sheet ID is queued", any("second-list" in l for l in log_aq3), True)
+
 real = qt.Ops(root3)
 real.start({"batch": "t3", "reader": "free", "cap_usd": 0.0})
 import batch_runner  # noqa: E402
