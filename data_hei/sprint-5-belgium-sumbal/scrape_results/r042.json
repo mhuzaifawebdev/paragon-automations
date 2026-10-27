@@ -1,0 +1,103 @@
+{
+ "row_id": "r042",
+ "scraped_at": "2026-10-27T20:11:36Z",
+ "contacts": {
+  "row_id": "r042",
+  "institution_name": "Jean-",
+  "institution_type": "school",
+  "official_website": "https://www.notredamedeschamps.be/",
+  "country": {
+   "value": "Uccle",
+   "source_url": "https://www.notredamedeschamps.be/",
+   "evidence_quote": "Notre-Dame des Champs Uccle – École maternelle et primaire catholique Aller au contenu Secrétariat +32 (0)2 374 79 00 <tel +3223747900> · Rue Roberts Jones 24 B, 1180 Uccle"
+  },
+  "phone": {
+   "value": "+32 (0)2 374 79 00",
+   "source_url": "https://www.notredamedeschamps.be/",
+   "evidence_quote": "Notre-Dame des Champs Uccle – École maternelle et primaire catholique Aller au contenu Secrétariat +32 (0)2 374 79 00 <tel +3223747900> · Rue Roberts Jones 24 B, 1180 Uccle"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Magali de France",
+   "designation": "Director of the fundamental school",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.notredamedeschamps.be/vade-mecum/qui-est-qui/corps-professoral/",
+   "evidence_quote": "Madame Magali de France ... Directrice de l’école fondamentale (cycles 2,5/8)"
+  },
+  "alternates": [
+   {
+    "name": "Christelle Mayné",
+    "designation": "Director of the primary school",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.notredamedeschamps.be/vade-mecum/qui-est-qui/corps-professoral/",
+    "evidence_quote": "Madame Christelle Mayné ... Directrice de l’école primaire (cycles 8/12)",
+    "why_chosen": "Principal / director (no Erasmus contact found). Christelle Mayné is the director of the primary school section and can be reached via the institutional contact details."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Magali de France is the director of the fundamental school section and can be reached via the institutional contact details.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Notre-Dame des Champs Uccle",
+    "city": "Uccle",
+    "country": "Belgique",
+    "role": "main",
+    "source_url": "https://www.notredamedeschamps.be/",
+    "evidence_quote": "Notre-Dame des Champs Uccle – École maternelle et primaire catholique Aller au contenu Secrétariat +32 (0)2 374 79 00 <tel +3223747900> · Rue Roberts Jones 24 B, 1180 Uccle"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not mention any international mobility partners or Erasmus agreements since this is a primary and fundamental school.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.2,
+  "crawl_s": 17.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.6,
+  "mode": "gemini",
+  "email_search_s": 11.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 53.6
+ }
+}

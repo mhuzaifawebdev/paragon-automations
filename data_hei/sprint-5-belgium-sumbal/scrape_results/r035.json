@@ -1,0 +1,171 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-10-27T20:10:58Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "Geers",
+  "institution_type": "school",
+  "official_website": "https://valitma.be/",
+  "country": {
+   "value": "Belgique",
+   "source_url": "https://valitma.be/",
+   "evidence_quote": "Belgique"
+  },
+  "phone": {
+   "value": "069 89 02 50",
+   "source_url": "https://valitma.be/",
+   "evidence_quote": "069 89 02 50"
+  },
+  "phone_alt": [],
+  "generic_email": "info@valitma.be",
+  "generic_email_url": "https://valitma.be/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Autodesk",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Autodesk",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Canva",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Canva",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cerbère",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Cerbère",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Duplidoc 4.0",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Duplidoc 4.0",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ecole en ligne",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Ecole en ligne",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Microsoft 365",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Microsoft 365",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Promethean",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Promethean",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "WBE School",
+    "partner_country": "",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "WBE School",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Site 1",
+    "city": "Tournai",
+    "country": "Belgique",
+    "role": "main",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Site 1"
+   },
+   {
+    "campus_name": "Site 2",
+    "city": "Tournai",
+    "country": "Belgique",
+    "role": "branch",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Site 2"
+   },
+   {
+    "campus_name": "Site 3",
+    "city": "Tournai",
+    "country": "Belgique",
+    "role": "branch",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Site 3"
+   },
+   {
+    "campus_name": "Site 4",
+    "city": "Antoing",
+    "country": "Belgique",
+    "role": "branch",
+    "source_url": "https://valitma.be/",
+    "evidence_quote": "Site 4"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 8,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not name any specific individuals for the contact roles or list any external partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 7.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 11.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     105
+    ],
+    "returned": 8,
+    "accepted": 8
+   }
+  ],
+  "total_seconds": 40.3
+ }
+}

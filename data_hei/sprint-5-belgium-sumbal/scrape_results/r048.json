@@ -1,0 +1,91 @@
+{
+ "row_id": "r048",
+ "scraped_at": "2026-10-27T20:11:57Z",
+ "contacts": {
+  "row_id": "r048",
+  "institution_name": "Inge",
+  "institution_type": "school",
+  "official_website": "https://www.sint-paulus.be/",
+  "country": null,
+  "phone": {
+   "value": "053 62 33 82",
+   "source_url": "https://www.sint-paulus.be/",
+   "evidence_quote": "Tel: 053 62 33 82"
+  },
+  "phone_alt": [],
+  "generic_email": "info@sint-paulus.be",
+  "generic_email_url": "https://www.sint-paulus.be/",
+  "contact": {
+   "name": "Inge De Laet",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "inge.delaet@sint-paulus.be",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.sint-paulus.be/team",
+   "evidence_quote": "Inge De Laet ... Directeur"
+  },
+  "alternates": [
+   {
+    "name": "Lena Quintyn",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "lena.quintyn@sint-paulus.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sint-paulus.be/team",
+    "evidence_quote": "Lena Quintyn ... Adjunct-directeur",
+    "why_chosen": "Principal / director (no Erasmus contact found). Lena Quintyn serves as deputy director in the leadership team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Inge De Laet is the director of the institution and is also the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sint-Paulusinstituut Herzele",
+    "city": "Herzele",
+    "country": "België",
+    "role": "main",
+    "source_url": "https://www.sint-paulus.be/",
+    "evidence_quote": "Burgemeester Matthijsstraat 5 9550 Herzele"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "No external partner list or Erasmus agreements are mentioned in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 6.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.1,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     136
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 27.9
+ }
+}
