@@ -1,0 +1,81 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-27T22:49:51Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Henk ter",
+  "institution_type": "school",
+  "official_website": "https://accentnijkerk.nl/",
+  "country": null,
+  "phone": {
+   "value": "033-245 88 19",
+   "source_url": "https://accentnijkerk.nl/",
+   "evidence_quote": "T: 033-245 88 19"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Meerscholen",
+    "partner_country": "Netherlands",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://accentnijkerk.nl/",
+    "evidence_quote": "Meerscholen",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Accent Nijkerk",
+    "city": "Nijkerk",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://accentnijkerk.nl/",
+    "evidence_quote": "Accent is gevestigd te Nijkerk, Dominee Kuyperstraat 1. Onze school werkt samen met maatschappelijke organisaties en bedrijven in de regio. Zo leer je hoe je zelfstandig functioneert in de maatschappij en hoe je er een waardevolle bijdrage aan levert."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The website does not list any specific staff members by name or role, nor does it provide a list of international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.0,
+  "crawl_s": 13.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     97
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 37.8
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-10-27T22:49:52Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "Maaike van",
+  "institution_type": "unknown",
+  "official_website": "https://www.vrijescholen.nl/",
+  "country": null,
+  "phone": {
+   "value": "0343-536060",
+   "source_url": "https://www.vrijescholen.nl/",
+   "evidence_quote": "0343-536060 <tel 0343-536060>vereniging@vrijescholen.nl <vereniging@vrijescholen.nl>Ontvang de nieuwsbrief"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "AViN",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vrijescholen.nl/",
+    "evidence_quote": "Afgelopen week zetten de vereniging, de AViN, BVS en de Vrije Hogeschool een handtekening onder de oprichting van Coöperatie De Villa. Een heuglijk moment!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BVS",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vrijescholen.nl/",
+    "evidence_quote": "Afgelopen week zetten de vereniging, de AViN, BVS en de Vrije Hogeschool een handtekening onder de oprichting van Coöperatie De Villa. Een heuglijk moment!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Vrije Hogeschool",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vrijescholen.nl/",
+    "evidence_quote": "Afgelopen week zetten de vereniging, de AViN, BVS en de Vrije Hogeschool een handtekening onder de oprichting van Coöperatie De Villa. Een heuglijk moment!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MBO Utrecht",
+    "partner_country": "Netherlands",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vrijescholen.nl/vacatures/administratieve-en-organisatorische-ondersteuner-zzp",
+    "evidence_quote": "School-vAK is de opleiding voor pedagogisch professionals in de antroposofische kinderopvang en voor onderwijsassistenten in het vrijeschoolonderwijs. Samen met MBO Utrecht bieden we BBL-opleidingen op mbo-niveau 4 aan. Daarnaast verzorgen we geaccrediteerde cursussen en verdiepingsdagen, die kinderopvangorganisaties ook rechtstreeks bij ons kunnen inkopen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Coöperatie De Villa",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vrijescholen.nl/",
+    "evidence_quote": "Afgelopen week zetten de vereniging, de AViN, BVS en de Vrije Hogeschool een handtekening onder de oprichting van Coöperatie De Villa. Een heuglijk moment!",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Villa de Reehorst",
+    "city": "Driebergen-Rijsenburg",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.vrijescholen.nl/contact",
+    "evidence_quote": "Villa de Reehorst"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 3,
+  "coverage_note": "The institution is an association of schools rather than a single educational institution, and no specific Erasmus+ or international mobility coordinator is listed. No formal list of international partners is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 6.4,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     86
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 16.1
+ }
+}
