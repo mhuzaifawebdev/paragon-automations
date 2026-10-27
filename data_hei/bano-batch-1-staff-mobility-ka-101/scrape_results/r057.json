@@ -1,0 +1,92 @@
+{
+ "row_id": "r057",
+ "scraped_at": "2026-10-27T20:33:13Z",
+ "contacts": {
+  "row_id": "r057",
+  "institution_name": "Benedetta",
+  "institution_type": "school",
+  "official_website": "https://www.fsveviamascalucia.edu.it/",
+  "country": {
+   "value": "Italia",
+   "source_url": "https://www.fsveviamascalucia.edu.it/servizi/personale-scolastico/formazione-docenti",
+   "evidence_quote": "Italia"
+  },
+  "phone": {
+   "value": "095 91 07 18",
+   "source_url": "https://www.fsveviamascalucia.edu.it/",
+   "evidence_quote": "Tel: 095 91 07 18"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Paul-Gerhardt-Schule",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.fsveviamascalucia.edu.it/erasmus/erasmus-azione-ka121-mobilita-lapprendimento-individuale",
+    "evidence_quote": "Somministrazione questionario iniziale Mobilità di gruppo di alunni presso l’istituzione Paul-Gerhardt-Schule, a Dassel (Germania) dal 01/06/2025 al 08/06/2025",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "College Errobi",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.fsveviamascalucia.edu.it/erasmus/erasmus-azione-ka121-mobilita-lapprendimento-individuale",
+    "evidence_quote": "Somministrazione questionario finale mobilità gruppo di studenti presso College Errobi , Cambo les Bains-Francia dal 08 maggio al 15 maggio 2025",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede centrale - IC FEDERICO II DI SVEVIA",
+    "city": "Mascalucia",
+    "country": "Italia",
+    "role": "main",
+    "source_url": "https://www.fsveviamascalucia.edu.it/servizi/personale-scolastico/formazione-docenti",
+    "evidence_quote": "Sede centrale - IC FEDERICO II DI SVEVIA"
+   },
+   {
+    "campus_name": "Sede di VIA M. D'AZEGLIO",
+    "city": "Mascalucia",
+    "country": "Italia",
+    "role": "branch",
+    "source_url": "https://www.fsveviamascalucia.edu.it/servizi/personale-scolastico/registro-elettronico-docenti",
+    "evidence_quote": "Sede di VIA M. D'AZEGLIO"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists several Erasmus mobility projects and a couple of partner schools involved in specific exchanges, but does not provide a comprehensive list of all institutional partner agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 15.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.6,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 40.9
+ }
+}

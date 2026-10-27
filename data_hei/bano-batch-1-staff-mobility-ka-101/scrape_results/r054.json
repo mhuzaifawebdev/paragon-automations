@@ -1,0 +1,83 @@
+{
+ "row_id": "r054",
+ "scraped_at": "2026-10-27T20:32:59Z",
+ "contacts": {
+  "row_id": "r054",
+  "institution_name": "Barbora Křížková",
+  "institution_type": "school",
+  "official_website": "https://www.zsgvodnany.cz/",
+  "country": {
+   "value": "Vodňany",
+   "source_url": "https://www.zsgvodnany.cz/",
+   "evidence_quote": "389 01 Vodňany"
+  },
+  "phone": {
+   "value": "383 311 310",
+   "source_url": "https://www.zsgvodnany.cz/stranky/vedeni-skoly",
+   "evidence_quote": "telefon: 383 311 310 <tel +420383311310>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@zsgvodnany.cz",
+  "generic_email_url": "https://www.zsgvodnany.cz/",
+  "contact": {
+   "name": "Barbora Křížková Louženská",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "barbora.krizkova@zsgvodnany.cz",
+   "office_email": "",
+   "phone": "383 311 310",
+   "source_url": "https://www.zsgvodnany.cz/stranky/vedeni-skoly",
+   "evidence_quote": "Ředitelka Základní školy a Gymnázia Vodňany | Mgr. Barbora Křížková Louženská"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the director of the school and appears in the evidence with contact details.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmus Campus Gymnasium Frankfurt",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.zsgvodnany.cz/stranky/spoluprace",
+    "evidence_quote": "Erasmus Campus Gymnasium Frankfurt | Erasmus Campus Gymnasium",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Základní škola a Gymnázium Vodňany",
+    "city": "Vodňany",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.zsgvodnany.cz/",
+    "evidence_quote": "Úvod | Základní škola a Gymnázium Vodňany"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence includes basic school information, management contacts, and an Erasmus project page, but does not contain a comprehensive list of all partner institutions. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 15.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.3,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 27.0
+ }
+}
