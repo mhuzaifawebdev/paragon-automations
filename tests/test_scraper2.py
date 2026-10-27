@@ -719,5 +719,33 @@ check("a neighbour on the same city domain does not", pl.pick_generic_email(
 check("only personal addresses: no inbox", pl.pick_generic_email(
       [{"url": "https://x.edu/", "text": "anna.kowalska@x.edu, j.nowak@x.edu"}], "https://x.edu/"), ("", ""))
 
+# ---- free staff / legal pages before any paid search
+asked = []
+real_fm = crawl._fetch_many
+pages_by_url = {
+    "https://ecole.fr/qui-sommes-nous": "Notre équipe\nMarie Dupont, Directrice de l'école\n" + "x" * 200,
+    "https://ecole.fr/mentions-legales": "Mentions légales\nDirecteur de la publication : Jean Martin\n" + "x" * 200,
+    "https://ecole.fr/equipe": "Photos of the campus\n" + "x" * 300,
+}
+
+
+def fake_fetch_many(urls, workers):
+    asked.extend(urls)
+    got = [{"url": u, "final_url": ("https://ecole.fr/" if u.endswith("/contact") else u), "text": pages_by_url.get(u, "Welcome " * 60), "links": []}
+           for u in urls]
+    return got, []
+
+
+crawl._fetch_many = fake_fetch_many
+free_cr = {"site": "https://ecole.fr/", "pages": [{"url": "https://ecole.fr/", "text": "home",
+           "links": [("Qui sommes-nous", "https://ecole.fr/qui-sommes-nous"), ("Facebook", "https://facebook.com/ecole")]}]}
+kept = pl.free_staff_pages(free_cr, limit=8)
+crawl._fetch_many = real_fm
+check("the site's own staff link is tried first, then the French legal page and the usual addresses",
+      asked[:3], ["https://ecole.fr/qui-sommes-nous", "https://ecole.fr/mentions-legales", "https://ecole.fr/equipe"])
+check("only pages naming a person next to a role are kept; a redirect home or a page with no names is dropped",
+      [p["url"] for p in kept], ["https://ecole.fr/qui-sommes-nous", "https://ecole.fr/mentions-legales"])
+check("never more than the page limit, never another site", (len(asked) <= 8, any("facebook" in u for u in asked)), (True, False))
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

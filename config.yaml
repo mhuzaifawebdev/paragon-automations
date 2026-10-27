@@ -140,7 +140,8 @@ scraper:
   evidence_chars: 90000
   discover_with_search: true    # free web search for sites the other free tiers cannot find
   gemini_site_search: true      # Google search through the PAID Gemini key for a missing website (each site still name- and country-checked); counted against the batch cap
-  staff_search_when_no_contact: true   # nobody found on the site: Google search (paid Gemini key) for its leadership/staff pages, then one contacts-only read of them
+  free_staff_pages: true               # nobody found: the site's own staff, contact and legal pages (Impressum, Mentions legales ...), free to fetch, then one contacts-only read
+  staff_search_when_no_contact: false  # still nobody: paid Google search (Gemini key) for staff pages. Off: the free step above covers much of it; the work-email search stays on
   claude_site_search: false     # paid Claude web search for missing websites. Off: a 25-row trial recovered few sites and accepted a directory
   email_web_search: true        # web search for a contact's own email when only a shared inbox was found
   # Free / fast is chosen per batch on the upload page (data_hei/<batch>/reader.json), free unless switched:

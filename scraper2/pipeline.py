@@ -465,6 +465,63 @@ def pick_generic_email(pages, site):
     return e, v[3]
 
 
+# Where staff names usually are, tried free before any paid search. Legal pages are required by law to name the
+# director / person responsible (Impressum in DE/AT/CH, Mentions legales in FR/BE, Aviso legal in ES, Note legali in IT).
+# In a test on 40 institutes with no contact, these pages named a person with a role on 16 of them (40%).
+STAFF_LINK = re.compile(r"impressum|imprint|mentions|aviso.?legal|note.?legali|legal.?notice|team|staff|people|leadership|"
+                        r"management|direction|direccion|equipe|kollegium|vedeni|o-nas|about|chi.?siamo|qui.?sommes|kontakt|"
+                        r"contact|erasmus|international|rektorat|rectorat|rectorado|dyrekcja|reditelstvi", re.I)
+PATHS_BY_TLD = {
+    "fr": ["mentions-legales", "equipe", "contact"], "be": ["mentions-legales", "equipe", "contact"],
+    "de": ["impressum", "kontakt", "team"], "at": ["impressum", "kontakt", "team"], "ch": ["impressum", "kontakt", "team"],
+    "es": ["aviso-legal", "direccion", "contacto"], "it": ["note-legali", "chi-siamo", "contatti"],
+    "pl": ["o-nas", "kontakt", "dyrekcja"], "cz": ["kontakty", "vedeni", "o-nas"], "sk": ["kontakty", "vedenie", "o-nas"],
+}
+COMMON_PATHS = ["erasmus", "contact", "about-us", "leadership", "management", "team", "staff"]
+_PERSON_LINE = re.compile(r"\b[A-ZÀ-Ž][a-zà-ž]+(?:[- ][A-ZÀ-Ž][a-zà-ž]+){1,2}\b")
+
+
+def free_staff_pages(cr, limit=8, workers=5):
+    """Pages of this site, not read yet, that name a person next to a role: first the staff/contact/legal links the
+    site itself shows, then the usual addresses for its country. Only real pages count (not a redirect home)."""
+    site = cr["site"]
+    known = {fetch_pages._url_key(p["url"]) for p in cr["pages"]}
+    cands = []
+    for p in cr["pages"]:
+        for label, url in p.get("links", []):
+            if url.startswith("http") and crawl.same_site(url, site) and STAFF_LINK.search(f"{label} {url}"):
+                cands.append(url)
+    base = site.rstrip("/")
+    tld = crawl._host(site).rsplit(".", 1)[-1]
+    cands += [f"{base}/{p}" for p in PATHS_BY_TLD.get(tld, []) + COMMON_PATHS]
+    seen, todo = set(known), []
+    for u in cands:
+        k = fetch_pages._url_key(u)
+        if k not in seen:
+            seen.add(k)
+            todo.append(u)
+    got, _ = crawl._fetch_many(todo[:limit], workers)
+    home = {fetch_pages._url_key(site), fetch_pages._url_key(base + "/")}
+    keep = []
+    for rec in got:
+        text = rec.get("text", "")
+        if fetch_pages._url_key(rec.get("final_url") or rec.get("url", "")) in home or len(text) < 200:
+            continue
+        if any(ROLE_STEMS.search(_n(l)) and _PERSON_LINE.search(l) for l in text.split("\n")):
+            keep.append(crawl._slim(rec))
+    return keep
+
+
+def _contacts_from(pages, inst, provider, cfg, timing):
+    """One contacts-only read of just these pages."""
+    pack = evidence.build_pack(pages, budget_chars=int(cfg.get("evidence_chars", 90000)))
+    with LLM_SLOTS:
+        more, meta = llm.extract_contacts(inst, pack, provider, cfg.get("model") or None)
+    timing["ai_calls"] += 1
+    timing["cost_usd_estimate"] = round(timing.get("cost_usd_estimate", 0) + meta.get("cost_usd_estimate", 0), 4)
+    return resolve_contacts(more, pack)
+
+
 def scrape(row, cfg):
     """row: a numbers_clean.csv row (+ optional website_override). cfg: config.yaml `scraper` section."""
     t_all, timing = time.time(), {}
@@ -562,28 +619,29 @@ def scrape(row, cfg):
                     "reason": str(e), "timing": timing}
         except llm.LLMError:
             pass                                        # the full read's result stands
-    if not contacts and mode == provider and provider != "rules" and cfg.get("staff_search_when_no_contact") \
-            and not cfg.get("staff_search"):
-        # still nobody: search the site's own leadership/staff pages and read just those, contacts only
-        try:
+    ai_reader = mode == provider and provider != "rules"
+    try:
+        if not contacts and ai_reader and cfg.get("free_staff_pages", True):
+            # still nobody: the site's own staff, contact and legal pages (Impressum, Mentions legales ...), free to fetch
+            got = free_staff_pages(cr, limit=int(cfg.get("free_staff_page_limit", 8)), workers=int(cfg.get("page_workers", 5)))
+            if got:
+                contacts = _contacts_from(got, inst, provider, cfg, timing)
+                timing["free_staff_pages"] = len(got)
+        if not contacts and ai_reader and cfg.get("staff_search_when_no_contact") and not cfg.get("staff_search"):
+            # still nobody: a paid Google search for the site's leadership/staff pages, read just those
             known = {fetch_pages._url_key(p["url"]) for p in cr["pages"]}
             urls = [u for u in discover.staff_pages(inst["name"], crawl._host(cr["site"]))
                     if fetch_pages._url_key(u) not in known]
             got, _ = crawl._fetch_many(urls, int(cfg.get("page_workers", 5))) if urls else ([], [])
             if got:
-                staff_pack = evidence.build_pack([crawl._slim(r) for r in got], budget_chars=int(cfg.get("evidence_chars", 90000)))
-                with LLM_SLOTS:
-                    more, meta3 = llm.extract_contacts(inst, staff_pack, provider, cfg.get("model") or None)
-                contacts = resolve_contacts(more, staff_pack)
-                timing["ai_calls"] += 1
+                contacts = _contacts_from([crawl._slim(r) for r in got], inst, provider, cfg, timing)
                 timing["staff_pages"] = len(got)
-                timing["cost_usd_estimate"] = round(timing.get("cost_usd_estimate", 0) + meta3.get("cost_usd_estimate", 0), 4)
-        except llm.QuotaExhausted as e:
-            timing["total_seconds"] = round(time.time() - t_all, 1)
-            return {"row_id": row["row_id"], "retry": True, "quota": True, "resume_at": e.resume_at, "daily": e.daily,
-                    "reason": str(e), "timing": timing}
-        except Exception as e:                          # a failed search or page never loses the result so far
-            print(f"(staff-page search skipped: {str(e)[:120]})", file=sys.stderr, flush=True)
+    except llm.QuotaExhausted as e:
+        timing["total_seconds"] = round(time.time() - t_all, 1)
+        return {"row_id": row["row_id"], "retry": True, "quota": True, "resume_at": e.resume_at, "daily": e.daily,
+                "reason": str(e), "timing": timing}
+    except Exception as e:                              # a failed search or page never loses the result so far
+        print(f"(staff-page step skipped: {str(e)[:120]})", file=sys.stderr, flush=True)
     if cfg.get("alternatives"):
         contacts, n_alt = put_on_file_last(contacts, inst["contact"], inst["email"]), 3
     else:
