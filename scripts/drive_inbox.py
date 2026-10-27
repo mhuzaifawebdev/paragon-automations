@@ -9,16 +9,15 @@ than MAX_ROWS is split into parts (-p1, -p2, ...). CSV, Excel (.xlsx) and Google
 that has institute rows is used. Run by scripts/queue_tick.py; no Drive call is made in the pure helpers below.
 
 Auto-queue (zero intervention):
-    config.yaml  scraper.auto_queue_sheets:
-      - id: "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms"   # Drive file ID of the Google Sheet
-        name: "Jan batch"                                        # optional friendly name -> batch name
-      - id: "..."
-    The queue picks these up automatically on each tick without the client dropping anything into Inbox.
-    A sheet is only ever queued once per file ID; re-runs are ignored (already-done tracking in queue.json).
-    The sheets stay exactly where they are — nothing is moved or deleted.
+    config.yaml  scraper.auto_queue_scan_drive: true
+    The queue scans the entire DRIVE_FOLDER_ID tree every tick, finds every Google Sheet, and queues any
+    that have not been queued before. Nothing is moved or deleted. Sheets with no institute columns are
+    skipped automatically. Each sheet is queued exactly once (file ID remembered in queue.json).
+    Optional: scraper.auto_queue_skip_ids — list of Drive file IDs to never queue (e.g. reference sheets).
 """
 import csv
 import io
+import os
 import re
 import sys
 import unicodedata
@@ -161,6 +160,58 @@ def pickup(drive, data_root, queue, now):
             by_md5[f["md5Checksum"]] = names[0]
         drive.to_processing(f)
         log.append(f"{name}: queued as {', '.join(names)}")
+    return log
+
+
+def pickup_scan_drive(svc, data_root, queue, cfg, now):
+    """Scan the whole Drive folder tree, find every Google Sheet not yet queued, queue it.
+    Called when config.yaml scraper.auto_queue_scan_drive: true.
+    Skip list: scraper.auto_queue_skip_ids (file IDs of reference sheets to never queue).
+    """
+    import drive_upload
+    root = os.environ.get("DRIVE_FOLDER_ID", "")
+    if not root:
+        return ["auto-scan: DRIVE_FOLDER_ID not set"]
+    skip = set(cfg.get("auto_queue_skip_ids") or [])
+    seen_ids = {it.get("file_id") for it in queue["items"] if it.get("file_id")}
+    seen_ids |= set(queue.get("auto_queued_ids", []))
+    data_root = Path(data_root)
+    taken = {p.name for p in data_root.iterdir() if p.is_dir()} | {it["batch"] for it in queue["items"]}
+    taken |= {p.stem for p in (data_root / "uploads").glob("*.csv")} if (data_root / "uploads").exists() else set()
+    log = []
+    try:
+        sheets = drive_upload.list_sheets_recursive(svc, root)
+    except Exception as e:
+        return [f"auto-scan: Drive listing failed — {str(e)[:200]}"]
+    for f in sheets:
+        fid, name = f["id"], f.get("name") or f["id"]
+        if fid in seen_ids or fid in skip:
+            continue
+        try:
+            data = drive_upload.download(svc, f)
+            text, note = table_from_file(name + ".gsheet", "application/vnd.google-apps.spreadsheet", data)
+        except Unusable:
+            queue.setdefault("auto_queued_ids", []).append(fid)   # no institute columns — skip forever
+            seen_ids.add(fid)
+            continue
+        except Exception as e:
+            log.append(f"auto-scan '{name}': error reading — {str(e)[:120]}")
+            continue
+        parts = split(text)
+        base  = unique_name(slug(name), taken)
+        names = [base] if len(parts) == 1 else [
+            unique_name(f"{base[:NAME_MAX - 4].rstrip('-')}-p{i}", taken) for i in range(1, len(parts) + 1)]
+        (data_root / "uploads").mkdir(parents=True, exist_ok=True)
+        for i, (batch, part) in enumerate(zip(names, parts), 1):
+            (data_root / "uploads" / f"{batch}.csv").write_text(part, encoding="utf-8")
+            queue["items"].append({"batch": batch, "source": name, "file_id": fid, "added": now,
+                                   "state": "queued", "rows": institute_rows(part),
+                                   **({"part": f"{i}/{len(parts)}"} if len(parts) > 1 else {}),
+                                   **({"note": note} if note else {})})
+        queue.setdefault("auto_queued_ids", []).append(fid)
+        seen_ids.add(fid)
+        log.append(f"auto-scan '{name}': queued as {', '.join(names)}" +
+                   (f" ({len(parts)} parts)" if len(parts) > 1 else ""))
     return log
 
 

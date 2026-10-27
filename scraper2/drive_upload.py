@@ -172,6 +172,28 @@ def list_files(svc, folder):
             return out
 
 
+def list_sheets_recursive(svc, folder, _depth=0):
+    """All Google Sheets anywhere inside `folder` (recursive, up to 8 levels deep).
+    Returns [{id, name, mimeType, createdTime}] — no md5 for sheets (Drive doesn't expose it)."""
+    if _depth > 8:
+        return []
+    out, token = [], None
+    while True:
+        resp = svc.files().list(
+            q=f"'{folder}' in parents and trashed = false",
+            fields="nextPageToken, files(id, name, mimeType, createdTime)",
+            pageSize=200, pageToken=token, supportsAllDrives=True,
+            includeItemsFromAllDrives=True).execute()
+        for f in resp.get("files", []):
+            if f["mimeType"] == SHEET_MIME:
+                out.append(f)
+            elif f["mimeType"] == FOLDER_MIME:
+                out += list_sheets_recursive(svc, f["id"], _depth + 1)
+        token = resp.get("nextPageToken")
+        if not token:
+            return out
+
+
 def download(svc, f):
     """A file's contents as bytes; a Google Sheet is exported as CSV (its first tab)."""
     import io

@@ -201,8 +201,11 @@ class Ops:
             return []
         import drive_inbox
         log = drive_inbox.pickup(self.drive, self.data_root, q, now_iso())
-        # auto-queue: Google Sheets listed in config.yaml are picked up without any manual drop
-        if cfg and cfg.get("auto_queue_sheets"):
+        # auto-scan: walks the whole Drive folder tree, queues every Google Sheet not yet seen
+        if cfg and cfg.get("auto_queue_scan_drive"):
+            log += drive_inbox.pickup_scan_drive(self.drive.svc, self.data_root, q, cfg, now_iso())
+        # fallback: specific sheet IDs listed in config (kept for backwards compat)
+        elif cfg and cfg.get("auto_queue_sheets"):
             def _dl(fid):
                 return self.drive.du.download(self.drive.svc,
                                               {"id": fid, "mimeType": "application/vnd.google-apps.spreadsheet"})
