@@ -1,0 +1,78 @@
+{
+ "row_id": "r049",
+ "scraped_at": "2026-10-27T20:32:03Z",
+ "contacts": {
+  "row_id": "r049",
+  "institution_name": "ROSA",
+  "institution_type": "unknown",
+  "official_website": "https://www.rosario.gob.ar/inicio/",
+  "country": {
+   "value": "Argentina",
+   "source_url": "https://www.rosario.gob.ar/inicio/",
+   "evidence_quote": "Todos los contenidos se presentan bajo licencia Creative Commons 4.0 salvo especificación contraria. Municipalidad de Rosario. Buenos Aires 711, Rosario, Santa Fe, Argentina (1997 - 2026)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Municipalidad de Rosario",
+    "city": "Rosario",
+    "country": "Argentina",
+    "role": "main",
+    "source_url": "https://www.rosario.gob.ar/inicio/",
+    "evidence_quote": "Todos los contenidos se presentan bajo licencia Creative Commons 4.0 salvo especificación contraria. Municipalidad de Rosario. Buenos Aires 711, Rosario, Santa Fe, Argentina (1997 - 2026)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The provided text contains municipal government pages and administrative information for the Municipality of Rosario, with no specific educational institution, partner agreements, or relevant international mobility contacts found.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 16.7,
+  "crawl_s": 17.7,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 19.9,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     534
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 66.7
+ }
+}
