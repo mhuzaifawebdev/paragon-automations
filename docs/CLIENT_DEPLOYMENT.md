@@ -107,3 +107,19 @@ after another; nothing has to be uploaded by hand.
 - The scraper page's **Queue** menu shows waiting, running, done and failed batches with their Drive links.
 - Needs the robot account: GitHub secrets `GOOGLE_SERVICE_ACCOUNT_JSON` and `DRIVE_FOLDER_ID`, with the robot as
   Content manager of the shared drive. Add the queue timer by running `setupScheduler` again in Apps Script.
+
+## 8. Careers page and applications (HR tool)
+
+The careers page is part of the scraper's Vercel project: `/careers` on leads.paragoninnovation.net, and the whole
+site of **careers.paragoninnovation.net** once that subdomain points to the same project (Settings > Domains > add it;
+CNAME `careers` in Rabhost, like `leads`). Each job page carries JobPosting markup for Google for Jobs; Indeed also reads
+public career pages. A sitemap for Google Search Console is at `/sitemap.xml` on the subdomain (`/careers/sitemap.xml` otherwise).
+
+1. HR sheet (Apps Script): add the file `Careers.gs`; Script Property `HR_FORM_SECRET` = a long random text;
+   Deploy > New deployment > Web app (Execute as: Me, Who has access: Anyone); copy the /exec URL.
+2. Vercel (paragon-leads) > Environment Variables: `HR_APPS_SCRIPT_URL` = that URL, `HR_FORM_SECRET` = the same text. Redeploy.
+3. In the sheet: run "⚙ Set up sheet", fill Settings > "Careers Page URL" (e.g. https://careers.paragoninnovation.net) and
+   "Company Website", tick "Open for Applications" on the roles to advertise, then "Write job ads". The Roles tab then has
+   the ad, a LinkedIn post and an Indeed ad per role, each with its tracked apply link, ready to post.
+4. Applications land on the role's tab (Source = LinkedIn ad / Indeed / Google Jobs / Careers page), with the CV in the
+   candidate folder and an acknowledgement email; they are scored like every other candidate. "Source Report" tab: daily.
