@@ -77,20 +77,30 @@
    "source": "SLOVAKIA BATCH-Bano-",
    "file_id": "1ZYE4ORnvTqzlF5ce2z5FxcOYC2EZh-3z0R7BJmLV5GI",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 52,
    "started": "2026-10-27T19:40:07Z",
    "last_start": "2026-10-27T19:40:07Z",
    "restarts": 0,
-   "cap_usd": 847.04
+   "cap_usd": 847.04,
+   "spend_recorded": true,
+   "cost_usd": 0.4056,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1Hn0wuNw6CYssEWnsV0EirNMEQjRGs5J2/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 41,
+   "finished": "2026-10-27T19:55:04Z",
+   "reason": "48 institutes, 26 with a contact"
   },
   {
    "batch": "france-batch-1-ayesha",
    "source": "France BATCH -1 [AYESHA]",
    "file_id": "1d6UxpB2qBIXn6hZpkPOovKp2BG0Uw3lQfcaWuPeH6RE",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 52
+   "state": "running",
+   "rows": 52,
+   "started": "2026-10-27T19:55:04Z",
+   "last_start": "2026-10-27T19:55:04Z",
+   "restarts": 0,
+   "cap_usd": 846.63
   },
   {
    "batch": "sprint-5-belgium-sumbal",
@@ -1590,7 +1600,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-27T19:40:07Z",
+ "updated": "2026-10-27T19:55:04Z",
  "auto_queued_ids": [
   "1xdVps2t-dI8ilsW74w8qfaooUUyAigIVaaFZZo7cmt8",
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
