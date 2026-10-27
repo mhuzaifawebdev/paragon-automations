@@ -1,0 +1,111 @@
+{
+ "row_id": "r335",
+ "scraped_at": "2026-10-27T21:07:00Z",
+ "contacts": {
+  "row_id": "r335",
+  "institution_name": "Lucas",
+  "institution_type": "school",
+  "official_website": "https://www.lucascubs.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Beaver Eastern High School",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lucascubs.org/",
+    "evidence_quote": "BEAVER EASTERN HIGH SCHOOL",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "eSchoolView",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lucascubs.org/",
+    "evidence_quote": "School CMS Created by eSchoolView",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MOESC",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lucascubs.org/StaffLinks.aspx",
+    "evidence_quote": "MOESC",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lucas High School",
+    "city": "Lucas",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.lucascubs.org/Staff.aspx",
+    "evidence_quote": "Lucas High School"
+   },
+   {
+    "campus_name": "Lucas Middle School",
+    "city": "Lucas",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.lucascubs.org/Staff.aspx",
+    "evidence_quote": "Lucas Middle School"
+   },
+   {
+    "campus_name": "Lucas Elementary School",
+    "city": "Lucas",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.lucascubs.org/Staff.aspx",
+    "evidence_quote": "Lucas Elementary School"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 4,
+  "coverage_note": "The website does not provide information regarding international partnerships, Erasmus+ programs, or specific staff contact details for international relations. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 6.9,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     111
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 20.7
+ }
+}
