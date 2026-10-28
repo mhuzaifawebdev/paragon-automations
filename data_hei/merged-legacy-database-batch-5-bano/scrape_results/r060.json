@@ -1,0 +1,86 @@
+{
+ "row_id": "r060",
+ "scraped_at": "2026-10-28T23:00:13Z",
+ "contacts": {
+  "row_id": "r060",
+  "institution_name": "EASD Ondara",
+  "institution_type": "college",
+  "official_website": "https://www.easdondara.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ondara@easdondara.com",
+  "generic_email_url": "https://www.easdondara.com/contacte/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lutkovno Gledališče",
+    "partner_country": "Slovenia",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.easdondara.com/international/experiencieserasmus/",
+    "evidence_quote": "L’Emma Serra Rius, estudiant d’Escultura per a l’Espectacle, va realitzar una estada Erasmus al Lutkovno Gledališče de Ljubljana, Eslovènia.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ESDAPC",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.easdondara.com/",
+    "evidence_quote": "ESDAPC",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "EASD Ondara",
+    "city": "Tàrrega",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.easdondara.com/",
+    "evidence_quote": "EA Ondara - EASD Ondara. Tàrrega"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The website does not list specific Erasmus+ coordinators or international relations staff. No formal list of partner institutions is provided, only individual student internship placements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 18.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 55.6
+ }
+}
