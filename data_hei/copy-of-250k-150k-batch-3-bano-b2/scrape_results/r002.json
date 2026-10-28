@@ -1,0 +1,76 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T19:01:36Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Asociación juvenil Club de debate universitario de Granada",
+  "institution_type": "unknown",
+  "official_website": "https://www.debateugr.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@debateugr.com",
+  "generic_email_url": "https://www.debateugr.com/",
+  "contact": {
+   "name": "Joaquín Mateo Martín",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.debateugr.com/sobre-el-club/nuestro-equipo",
+   "evidence_quote": "Joaquín Mateo Martín ... Secretario"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). As the Secretary, he handles administrative matters for the association.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Club de debate universitario de Granada",
+    "city": "La Zubia, Granada",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.debateugr.com/",
+    "evidence_quote": "Plaza San Antonio, nº1, La Zubia, Granada. 18140"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The institution is a student association rather than a degree-granting university, and no list of Erasmus+ or international partners is provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 4.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     38
+    ],
+    "returned": 1,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 27.6
+ }
+}
