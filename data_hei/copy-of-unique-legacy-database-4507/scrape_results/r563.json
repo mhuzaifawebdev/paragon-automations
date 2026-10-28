@@ -1,0 +1,103 @@
+{
+ "row_id": "r563",
+ "scraped_at": "2026-10-28T12:26:37Z",
+ "contacts": {
+  "row_id": "r563",
+  "institution_name": "Staatliches Berufsschulzentrum \"Heinrich Ehrhardt\" Eisenach",
+  "institution_type": "college",
+  "official_website": "https://sbsz-eisenach.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Daniel Kuhn",
+   "designation": "Coordinator - BVJ",
+   "designation_local": "",
+   "email": "kuhn@sbsz-eisenach.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://sbsz-eisenach.de/staatliches-berufsschulzentrum-ludwig-erhard/schulleitung/",
+   "evidence_quote": "Koordinator – BVJ: Daniel Kuhn"
+  },
+  "alternates": [],
+  "rung": "Other role. Daniel Kuhn is a coordinator at the institution.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée René Cassin",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://sbsz-eisenach.de/erasmus-une-semaine-avec-notre-lycee-partenaire-erasmus-eine-woche-mit-unserer-partnerschule/",
+    "evidence_quote": "http://www4.ac-nancy-metz.fr/lyc-cassin-metz/2017/04/projet-erasmus-une-semaine-a-eisenach/",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Standort Palmental",
+    "city": "Eisenach",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://sbsz-eisenach.de/",
+    "evidence_quote": "Standort Palmental"
+   },
+   {
+    "campus_name": "Standort Nordplatz",
+    "city": "Eisenach",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://sbsz-eisenach.de/",
+    "evidence_quote": "Standort Nordplatz"
+   },
+   {
+    "campus_name": "Standort Siebenborn",
+    "city": "Eisenach",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://sbsz-eisenach.de/",
+    "evidence_quote": "Standort Siebenborn"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects and a specific partnership with a French school, but does not provide a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.5,
+  "crawl_s": 11.1,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     135
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 21.5
+ }
+}
