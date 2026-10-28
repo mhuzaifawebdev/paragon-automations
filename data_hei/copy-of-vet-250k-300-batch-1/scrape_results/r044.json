@@ -1,0 +1,110 @@
+{
+ "row_id": "r044",
+ "scraped_at": "2026-10-28T18:15:48Z",
+ "contacts": {
+  "row_id": "r044",
+  "institution_name": "IES Alonso Sánchez",
+  "institution_type": "school",
+  "official_website": "https://www.iesalonsosanchez.es/",
+  "country": null,
+  "phone": {
+   "value": "+34) 959 524 848",
+   "source_url": "https://www.iesalonsosanchez.es/",
+   "evidence_quote": "(+34) 959 524 848 <tel (+34) 959 524 848>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Fidel Ledesma de Castro",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iesalonsosanchez.es/articulo.php/equipo-directivo/38",
+   "evidence_quote": "Fidel Ledesma de Castro Director"
+  },
+  "alternates": [
+   {
+    "name": "Juan Antonio Reina Pastor",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iesalonsosanchez.es/articulo.php/equipo-directivo/38",
+    "evidence_quote": "Juan Antonio Reina Pastor Secretario",
+    "why_chosen": "Secretary / administration (last resort). Juan Antonio Reina Pastor is the Secretary of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Fidel Ledesma de Castro is the Director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Brühl",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesalonsosanchez.es/",
+    "evidence_quote": "Erasmus +: Visita de Brühl (Alemania), Verona (Italia) y Cēsis (Letonia)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Verona",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesalonsosanchez.es/",
+    "evidence_quote": "Erasmus +: Visita de Brühl (Alemania), Verona (Italia) y Cēsis (Letonia)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cēsis",
+    "partner_country": "Latvia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesalonsosanchez.es/",
+    "evidence_quote": "Erasmus +: Visita de Brühl (Alemania), Verona (Italia) y Cēsis (Letonia)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Alonso Sánchez",
+    "city": "Huelva",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iesalonsosanchez.es/",
+    "evidence_quote": "Calle Joaquín de la Torre, 7, 21004 Huelva"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence confirms the institution is an Erasmus+ accredited school but does not provide a comprehensive list of all international partners beyond those mentioned in a specific mobility visit.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 12.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 18.5
+ }
+}

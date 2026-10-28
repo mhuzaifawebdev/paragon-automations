@@ -1,0 +1,96 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-28T18:15:55Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "CFP Verge de Cortes Sorolla",
+  "institution_type": "college",
+  "official_website": "https://cfpvergedecortes.es/en-gb/inicio-english/",
+  "country": null,
+  "phone": {
+   "value": "+34655697737",
+   "source_url": "https://cfpvergedecortes.es/contacto-y-localizacion/",
+   "evidence_quote": "<tel +34655697737>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Rosa María Romero Navarro",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://cfpvergedecortes.es/erasmus/",
+   "evidence_quote": "[/vc_column_text][vc_images_carousel images=»4035″][vc_column_text]Nuestra directora Rosa María Romero Navarro, junto al profesorado del CEI Virgen de Cortes solicitaron este curso un proyecto Erasmus+, resultando aprobado y consiguiendo un total de 6 movilidades para dirección y parte del profesorado a Helsinki, Finlandia, con el fin de aprender nuevas metodologías de trabajo y mejorar todavía más nuestro día a día educativo."
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the director of the institution and is explicitly mentioned as leading Erasmus+ project applications.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Istituto Comprensivo Anzio III",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://cfpvergedecortes.es/erasmus/",
+    "evidence_quote": "Para la realización de 6 movilidades por parte del personal de la Escuela infantil para la realización de Job Shadowing en la escuela italiana Istituto Comprensivo Anzio III, centro compañero en el proyecto eTwinning realizado durante el curso 2020-2021.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede Valencia",
+    "city": "Valencia",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://cfpvergedecortes.es/contacto-y-localizacion/",
+    "evidence_quote": "Sede Valencia"
+   },
+   {
+    "campus_name": "Sede Sorolla",
+    "city": "Valencia",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://cfpvergedecortes.es/contacto-y-localizacion/",
+    "evidence_quote": "Sede Sorolla"
+   },
+   {
+    "campus_name": "Sede Patraix",
+    "city": "Valencia",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://cfpvergedecortes.es/contacto-y-localizacion/",
+    "evidence_quote": "Sede Patraix"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions several Erasmus+ projects and partner countries but does not provide a comprehensive list of partner institutions. Contact details for international mobility are limited to the director.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 13.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 20.5
+ }
+}
