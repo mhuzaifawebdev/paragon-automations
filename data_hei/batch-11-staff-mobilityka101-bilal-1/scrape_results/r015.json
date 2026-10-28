@@ -1,0 +1,123 @@
+{
+ "row_id": "r015",
+ "scraped_at": "2026-10-28T10:00:58Z",
+ "contacts": {
+  "row_id": "r015",
+  "institution_name": "Mr.",
+  "institution_type": "school",
+  "official_website": "https://pgherne.de/",
+  "country": null,
+  "phone": {
+   "value": "02323 162213",
+   "source_url": "https://pgherne.de/",
+   "evidence_quote": "02323 162213"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "V. Gößling",
+   "designation": "Schulleiter",
+   "designation_local": "",
+   "email": "schulleitung@pgherne.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://pgherne.de/unsere-schule/unser-team/",
+   "evidence_quote": "Gößling | ... Schulleiter |"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the head of the institution and was the contact person on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "Reused from batch ibrahim-batch-2-staff-mobility-ka-10 (scraped 2026-10-28). site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Leonardo da Vinci Academy",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://pgherne.de/erasmus-austausch-in-tschechien-tag-12/",
+    "evidence_quote": "Ein herzliches Děkujeme! (Danke!) an die Leonardo da Vinci Academy für die Gastfreundschaft und die schöne Zeit. Wir hoffen sehr auf ein baldiges Wiedersehen, um unseren Austausch in Herne fortzusetzen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Metzgerei Schmidt",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://pgherne.de/unsere-schule/pestro-cafeteria/partner/",
+    "evidence_quote": "Metzgerei Schmidt",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Getränke Kern",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://pgherne.de/unsere-schule/pestro-cafeteria/partner/",
+    "evidence_quote": "Getränke Kern",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Schreinerei Nolting",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://pgherne.de/unsere-schule/pestro-cafeteria/partner/",
+    "evidence_quote": "Schreinerei Nolting",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Schreinerei Laufer",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://pgherne.de/unsere-schule/pestro-cafeteria/partner/",
+    "evidence_quote": "Schreinerei Laufer",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Parkhotel Herne",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://pgherne.de/unsere-schule/pestro-cafeteria/partner/",
+    "evidence_quote": "Parkhotel Herne",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Pestalozzi-Gymnasium Herne",
+    "city": "Herne",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://pgherne.de/kontakt/",
+    "evidence_quote": "Harpener Weg 6, 44629 Herne"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The institution lists several local business partners for its cafeteria association, but a comprehensive list of international Erasmus+ partner schools is not provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "ibrahim-batch-2-staff-mobility-ka-10",
+  "row_id": "r094"
+ }
+}

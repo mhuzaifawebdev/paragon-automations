@@ -1,0 +1,95 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-10-28T12:32:05Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "Max-Hachenburg-Schule Mannheim",
+  "institution_type": "college",
+  "official_website": "https://www.mhs-mannheim.com/web/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Helmut Frey-Zaby",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "name@email.com",
+   "office_email": "",
+   "phone": "0621/293-6000",
+   "source_url": "https://www.mhs-mannheim.com/web/schule/#schulleitung",
+   "evidence_quote": "Helmut Frey-Zaby ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Jochen Wurster",
+    "designation": "Department Head",
+    "designation_local": "",
+    "email": "j.wurster@mhs-mannheim.de",
+    "office_email": "",
+    "phone": "0621 293 6463",
+    "source_url": "https://www.mhs-mannheim.com/web/bueromanagement/",
+    "evidence_quote": "Abteilungsleiter: Jochen Wurster",
+    "why_chosen": "Secretary / administration (last resort). He is a department head and contact person for the business management department."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the principal of the school, he is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "Reused from batch copy-of-unique-legacy-database-4507 (scraped 2026-10-28). site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "HdWM",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mhs-mannheim.com/web/bueromanagement/",
+    "evidence_quote": "Die Max-Hachenburg-Schule Mannheim und die HdWM bieten eine ideale Lösung für alle Abiturienten und Fachhochschulreifeabsolventen, die Engagement, Ehrgeiz und eine überdurchschnittliche Einsatzbereitschaft mitbringen: die Kombination von klassischer kaufmännischer Ausbildung und BWL-Studium. Kaufmännisch-praktische und wissenschaftlich-theoretische Inhalte werden dabei in geradezu idealer Weise ergänzt.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IHK-Rhein-Neckar",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mhs-mannheim.com/web/bueromanagement/",
+    "evidence_quote": "In vielen Betrieben ist Projektarbeit Teil des betrieblichen Alltags. In Zusammenarbeit zwischen Ausbildungsbetrieben, IHK-Rhein-Neckar und der Max-Hachenburg-Schule wurde diese Zusatzqualifikation entwickelt, um Auszubildende im Bereich Büromanagement noch besser auf die betriebliche Wirklichkeit vorzubereiten.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Max-Hachenburg-Schule",
+    "city": "Mannheim",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.mhs-mannheim.com/web/schule/#schulleitung",
+    "evidence_quote": "Tattersallstr. 28 – 30"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 7,
+  "coverage_note": "The evidence mentions international contacts in several countries but does not provide a specific list of partner institutions. No specific Erasmus+ coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "copy-of-unique-legacy-database-4507",
+  "row_id": "r600"
+ }
+}
