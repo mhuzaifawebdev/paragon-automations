@@ -1,0 +1,141 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-28T17:17:32Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "YH Akademin AB",
+  "institution_type": "college",
+  "official_website": "https://yh.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Robert Johansson",
+   "designation": "Business Manager",
+   "designation_local": "",
+   "email": "robert.johansson@yh.se",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://yh.se/vi-ar-yh-akademin/",
+   "evidence_quote": "Robert Johansson ... Affärschef"
+  },
+  "alternates": [
+   {
+    "name": "Anna Munters",
+    "designation": "Education Manager",
+    "designation_local": "",
+    "email": "anna.munters@yh.se",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://yh.se/vi-ar-yh-akademin/",
+    "evidence_quote": "Anna Munters",
+    "why_chosen": "Principal / director (no Erasmus contact found). Anna Munters is an Education Manager involved in the development and coordination of professional programs."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. Robert Johansson is the Business Manager and is listed as the contact currently on file.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lena & Centrum trafikkskole",
+    "partner_country": "Norway",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://yh.se/norska-sofie-laste-till-trafiklarare-i-sverige/",
+    "evidence_quote": "Uppdragsutbildningen innebär att du är i utbildning på uppdrag för en trafikskola. Jag tog kontakt med Lena & Centrum trafikkskole här i Norge, där en av lärarna själv hade gått sin utbildning i Sverige. Trafikskolan ville hjälpa mig mot att jag ville jobba där efter utbildningens slut. Och då hade vi en deal, säger Sofie.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tsokkas Travel",
+    "partner_country": "Cyprus",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://yh.se/lia-i-cypern-erasmus/",
+    "evidence_quote": "Rehana gör sin praktik på Tsokkas Travel, en familjeägd resebyrå i Pafos Old Town på västra Cypern. På praktikplatsen arbetar hon med kundservice, bokningar och kundsamtal. Hon tar emot kunder på kontoret, uppdaterar företagets hemsida och lägger ut resepaket på sociala medier.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Roberts Trafikskola",
+    "partner_country": "Sweden",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://yh.se/pa-yhakademins-utbildning-for-trafiklarare-gor-alla-succe/",
+    "evidence_quote": "Stefan är utbildningsledare på YH Akademin men driver också, tillsammans med sin bror, Roberts Trafikskola, en av många företag knutna till utbildningen. Och det är just den täta kopplingen till trafikskolebranschen som är styrkan för YH Akademins utbildning.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "JJ GRUPPEN",
+    "partner_country": "Sweden",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://yh.se/",
+    "evidence_quote": "JJ GRUPPEN i ledningsgruppen för Kran- och traverstekniker! 🤩⁠",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "YH Akademin AB",
+    "city": "Falun",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://yh.se/",
+    "evidence_quote": "YH Akademin AB, Box 127, 791 23 Falun"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The institution provides information on Erasmus+ mobility for students but does not provide a comprehensive list of formal university or college partners. The listed partners are primarily companies where students perform their LIA (internship).",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 13.2,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 17.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 31.5
+ }
+}

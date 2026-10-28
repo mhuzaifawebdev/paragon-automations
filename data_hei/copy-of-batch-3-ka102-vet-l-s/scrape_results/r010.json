@@ -1,0 +1,107 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-28T17:17:46Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Städt. Berufsschule für Fertigungstechnik",
+  "institution_type": "school",
+  "official_website": "https://bs-fertigungstechnik.de/",
+  "country": {
+   "value": "München",
+   "source_url": "https://bs-fertigungstechnik.de/",
+   "evidence_quote": "80335 München"
+  },
+  "phone": {
+   "value": "+49 (0)89 / 233-35598",
+   "source_url": "https://bs-fertigungstechnik.de/kontakt/",
+   "evidence_quote": "Telefon: +49 (0)89 / 233-35598"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Peter Stengel",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "peter.stengel@muenchen.de",
+   "office_email": "",
+   "phone": "089 233 355 98",
+   "source_url": "https://bs-fertigungstechnik.de/kontakt/",
+   "evidence_quote": "Peter Stengel, OStD ... Schulleiter u. Koordinator der Sachverwaltung des Gebäudes Deroystr. 1"
+  },
+  "alternates": [
+   {
+    "name": "Daniel Brabec",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "daniel.brabec@muenchen.de",
+    "office_email": "",
+    "phone": "089 233 355 13",
+    "source_url": "https://bs-fertigungstechnik.de/kontakt/",
+    "evidence_quote": "Daniel Brabec, StD ... Stellvertretender Schulleiter",
+    "why_chosen": "Principal / director (no Erasmus contact found). Daniel Brabec serves as the deputy principal and is a key contact for institutional leadership."
+   },
+   {
+    "name": "Paul Zwick",
+    "designation": "Member of the school management",
+    "designation_local": "",
+    "email": "paul.zwick@muenchen.de",
+    "office_email": "",
+    "phone": "089 233 355 23",
+    "source_url": "https://bs-fertigungstechnik.de/kontakt/",
+    "evidence_quote": "Paul Zwick, StD ... Mitarbeiter der Schulleitung",
+    "why_chosen": "Principal / director (no Erasmus contact found). Paul Zwick is a member of the school management team and handles administrative coordination."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Peter Stengel is the principal of the institution and the primary contact for administrative matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Technische Universität München",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://bs-fertigungstechnik.de/lehrerbildung/",
+    "evidence_quote": "In der Ausbildung von Lehrkräften für berufliche Schulen kooperieren wir als Univeritätsschule sehr eng mit der Technischen Universität München und dem Lehrstuhl für Pädagogik.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Deroystraße",
+    "city": "München",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://bs-fertigungstechnik.de/",
+    "evidence_quote": "Campus Deroystraße"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ or international mobility partners. The institution focuses on local teacher training and university cooperation.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 6.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 9.6
+ }
+}
