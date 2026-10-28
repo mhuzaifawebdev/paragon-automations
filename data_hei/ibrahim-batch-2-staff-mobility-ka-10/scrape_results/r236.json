@@ -1,0 +1,137 @@
+{
+ "row_id": "r236",
+ "scraped_at": "2026-10-28T10:30:57Z",
+ "contacts": {
+  "row_id": "r236",
+  "institution_name": "LS van",
+  "institution_type": "school",
+  "official_website": "https://www.driestarwartburg.nl/",
+  "country": null,
+  "phone": {
+   "value": "0182 69 16 91",
+   "source_url": "https://www.driestarwartburg.nl/",
+   "evidence_quote": "0182 69 16 91 <tel 0182 69 16 91>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@driestarwartburg.nl",
+  "generic_email_url": "https://www.driestarwartburg.nl/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Nedbase",
+    "partner_country": "Netherlands",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.driestarwartburg.nl/",
+    "evidence_quote": "Nedbase",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Google",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.driestarwartburg.nl/contact/",
+    "evidence_quote": "Deze site wordt beschermd door reCAPTCHA en het Google Privacybeleid en er zijn Servicevoorwaarden van toepassing.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Driestar Gouda",
+    "city": "Gouda",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.driestarwartburg.nl/contact/",
+    "evidence_quote": "Ronsseplein 1, 2803 ZV Gouda"
+   },
+   {
+    "campus_name": "Driestar Leiden",
+    "city": "Leiden",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.driestarwartburg.nl/contact/",
+    "evidence_quote": "2334 DE Leiden"
+   },
+   {
+    "campus_name": "Driestar Lekkerkerk",
+    "city": "Lekkerkerk",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.driestarwartburg.nl/contact/",
+    "evidence_quote": "2941 GC Lekkerkerk"
+   },
+   {
+    "campus_name": "Guido de Brès",
+    "city": "Rotterdam-IJsselmonde",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.driestarwartburg.nl/contact/",
+    "evidence_quote": "3079 CR Rotterdam-IJsselmonde"
+   },
+   {
+    "campus_name": "Marnix",
+    "city": "Dordrecht",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.driestarwartburg.nl/contact/",
+    "evidence_quote": "3312 KM Dordrecht"
+   },
+   {
+    "campus_name": "Revius",
+    "city": "Rotterdam-Zevenkamp",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.driestarwartburg.nl/contact/",
+    "evidence_quote": "3068 TR Rotterdam-Zevenkamp"
+   },
+   {
+    "campus_name": "Beroepencollege De Swaef",
+    "city": "Rotterdam-Carnisse",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.driestarwartburg.nl/contact/",
+    "evidence_quote": "3084 NA Rotterdam-Carnisse"
+   }
+  ],
+  "stated_total": 9,
+  "stated_total_quote": "Scholengroep Driestar-Wartburg bestaat uit negen christelijke scholen voor voortgezet onderwijs op reformatorische grondslag. De grondslag van onze scholen is bepalend voor onze visie op onderwijs. Dat wat in de Bijbel en de gereformeerde belijdenisgeschriften wordt geleerd over wie God is en wie wij zijn te midden van Zijn schepping, stempelt ons onderwijs. We willen leerlingen in aanraking brengen met het ware, goede en schone in Gods schepping; dat wat onderzocht, gekend en gezegd is. Ook lat",
+  "stated_total_url": "https://www.driestarwartburg.nl/",
+  "truncated": true,
+  "total_seen": 9,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not mention any international partners or Erasmus+ agreements. No specific international relations staff are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 9.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 12.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     133
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 38.9
+ }
+}
