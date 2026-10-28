@@ -1,0 +1,70 @@
+{
+ "row_id": "r018",
+ "scraped_at": "2026-10-28T16:43:52Z",
+ "contacts": {
+  "row_id": "r018",
+  "institution_name": "Leo-von-Klenze-Schule, Staatliche Berufsschule II Ingolstadt",
+  "institution_type": "college",
+  "official_website": "https://www.bs2-in.de/",
+  "country": null,
+  "phone": {
+   "value": "+49 841 305 41100",
+   "source_url": "https://www.bs2-in.de/",
+   "evidence_quote": "+49 841 305 41100 <tel +4984130541100>"
+  },
+  "phone_alt": [],
+  "generic_email": "sekretariat@bs2-in.de",
+  "generic_email_url": "https://www.bs2-in.de/",
+  "contact": {
+   "name": "Johannes Dintenfelder",
+   "designation": "Project Manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bs2-in.de/index.php/bildungsangebot/erasmus/informationen-zu-erasmus.html",
+   "evidence_quote": "Projektleitung: Herr OStR Johannes Dintenfelder"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. He is the project manager for Erasmus+ at the institution.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Staatliche Berufsschule II Ingolstadt",
+    "city": "Ingolstadt",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bs2-in.de/",
+    "evidence_quote": "© 2026 staatliche Berufsschule II"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions Erasmus+ mobility to Malta but does not provide a specific list of partner institutions or organizations. Contact details for the Erasmus coordinator are provided by name and title but lack direct email addresses.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 13.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 18.5
+ }
+}
