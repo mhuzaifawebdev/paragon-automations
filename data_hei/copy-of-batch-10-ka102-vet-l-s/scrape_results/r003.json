@@ -1,0 +1,71 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-10-28T16:25:00Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "Berufskolleg des Rhein-Sieg-Kreises in Bonn Duisdorf",
+  "institution_type": "college",
+  "official_website": "https://www.berufskolleg-bonn-duisdorf.de/",
+  "country": null,
+  "phone": {
+   "value": "0228 526 800",
+   "source_url": "https://www.berufskolleg-bonn-duisdorf.de/",
+   "evidence_quote": "0228 526 800"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dirk Thomas",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "0228-526 800",
+   "source_url": "https://www.berufskolleg-bonn-duisdorf.de/schule/schulleitung",
+   "evidence_quote": "Schulleiter ... Dirk Thomas, Oberstudiendirektor"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Dirk Thomas is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufskolleg des Rhein-Sieg-Kreises",
+    "city": "Bonn",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.berufskolleg-bonn-duisdorf.de/schule/schulleitung",
+    "evidence_quote": "Rochusstraße 30"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The website mentions Erasmus+ partner countries (Ireland and Spain) but does not provide a specific list of partner institutions. No total number of partners is stated.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 6.8,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 5.4,
+  "total_seconds": 36.6
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T16:24:57Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Staatliches Berufliches Schulzentrum Lindau (B)",
+  "institution_type": "college",
+  "official_website": "https://bsz-lindau.de/",
+  "country": {
+   "value": "Deutschland",
+   "source_url": "https://bsz-lindau.de/",
+   "evidence_quote": "Aus fast allen Bundesländern Deutschlands kamen fast 40 Lehrer-/innen von Berufsschulen und Meister/-innen der Innungen…"
+  },
+  "phone": {
+   "value": "08382-94794-0",
+   "source_url": "https://bsz-lindau.de/bundes-lehrertreffen-der-kaeltetechnik-am-bsz-lindau/",
+   "evidence_quote": "Tel: 08382-94794-0 <tel +49 8382 94794 0>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@bsz-lindau.de",
+  "generic_email_url": "https://bsz-lindau.de/die-fos-ist-zdf-partnerschule/",
+  "contact": {
+   "name": "A. Albrecht",
+   "designation": "Secretariat staff",
+   "designation_local": "",
+   "email": "info@bsz-lindau.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://bsz-lindau.de/kontakt/",
+   "evidence_quote": "Das Sekretariat der Berufsschule / Technikerschule wird besetzt durch: ... Frau A. Albrecht, Frau C. Hiemer, Frau W. Lange, Frau H. Leuchtenberg und Frau M. Rampp"
+  },
+  "alternates": [
+   {
+    "name": "C. Hiemer",
+    "designation": "Secretariat staff",
+    "designation_local": "",
+    "email": "info@bsz-lindau.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://bsz-lindau.de/kontakt/",
+    "evidence_quote": "Das Sekretariat der Berufsschule / Technikerschule wird besetzt durch: ... Frau A. Albrecht, Frau C. Hiemer, Frau W. Lange, Frau H. Leuchtenberg und Frau M. Rampp",
+    "why_chosen": "Secretary / administration (last resort). Frau C. Hiemer is listed as part of the school secretariat handling administrative duties."
+   },
+   {
+    "name": "W. Lange",
+    "designation": "Secretariat staff",
+    "designation_local": "",
+    "email": "info@bsz-lindau.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://bsz-lindau.de/kontakt/",
+    "evidence_quote": "Das Sekretariat der Berufsschule / Technikerschule wird besetzt durch: ... Frau A. Albrecht, Frau C. Hiemer, Frau W. Lange, Frau H. Leuchtenberg und Frau M. Rampp",
+    "why_chosen": "Secretary / administration (last resort). Frau W. Lange works in the administrative secretariat of the vocational school."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Frau A. Albrecht works in the school secretariat responsible for general inquiries.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini. 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lindenberger Werkstätten",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://bsz-lindau.de/",
+    "evidence_quote": "In diesem Schuljahr hat der Fachbereich Gastronomie ein Projekt mit den Lindenberger Werkstätten durchgeführt. Jeden…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ZDF",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://bsz-lindau.de/",
+    "evidence_quote": "Die FOS-Lindau ist eine von nur 50 Schulen Deutschlands die für die Bildungsinitiative „ZDF goes…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AL-KO Airtech",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://bsz-lindau.de/",
+    "evidence_quote": "Die Technikerklassen TS1 und TS2 besuchten AL-KO Airtech.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufliches Schulzentrum Lindau (B)",
+    "city": "Lindau",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://bsz-lindau.de/kontakt/",
+    "evidence_quote": "Reutiner Straße 10, D-88131 Lindau (B)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 4,
+  "coverage_note": "The evidence lists general administrative staff and a few project partners like ZDF and AL-KO Airtech, but contains no dedicated international relations or Erasmus coordinator. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 15.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 16.9,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 33.5
+ }
+}
