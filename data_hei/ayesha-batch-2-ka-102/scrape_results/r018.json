@@ -1,0 +1,103 @@
+{
+ "row_id": "r018",
+ "scraped_at": "2026-10-28T15:48:16Z",
+ "contacts": {
+  "row_id": "r018",
+  "institution_name": "Kaufmännisches Berufskolleg Walther Rathenau - Städtische Schule für Sekundarstufe II und Fachschule, Duisburg",
+  "institution_type": "school",
+  "official_website": "https://kbwr.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@kbwr.de",
+  "generic_email_url": "https://kbwr.de/",
+  "contact": {
+   "name": "Alfred Schwemin",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "info@kbwr.de",
+   "office_email": "",
+   "phone": "0203 283 5110",
+   "source_url": "https://kbwr.de/information/schulleitung/",
+   "evidence_quote": "Alfred Schwemin, OStD ... Schulleiter"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the head of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lounais-Suomen Koulutuskuntayhtymä",
+    "partner_country": "Finland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://kbwr.de/zusatz-qualifikationen/erasmus/",
+    "evidence_quote": "Lounais-Suomen Koulutuskuntayhtymä (externer Link: www.novida.fi/Iskky/)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée Coëtlogon",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://kbwr.de/zusatz-qualifikationen/erasmus/",
+    "evidence_quote": "Lycée Coëtlogon (externer Link: www.lyceecoetlogon.fr)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée Turgot",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://kbwr.de/zusatz-qualifikationen/erasmus/",
+    "evidence_quote": "Lycée Turgot (externer Link: www.turgot.enthdf.fr)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HIZIR REIS TICARET MESLEK LISES",
+    "partner_country": "Turkey",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://kbwr.de/zusatz-qualifikationen/erasmus/",
+    "evidence_quote": "HIZIR REIS TICARET MESLEK LISES (externer Link: www.hizirreistml.meb.k12.tr)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Kaufmännisches Berufskolleg Walther Rathenau",
+    "city": "Duisburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://kbwr.de/",
+    "evidence_quote": "Kaufmännisches Berufskolleg Walther Rathenau"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of specific Erasmus+ partner schools in Finland, France, and Turkey, but does not state a total number of partners. Contact information for the international team is provided via a general email address and a specific staff member.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.6,
+  "crawl_s": 14.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.2,
+  "total_seconds": 29.5
+ }
+}
