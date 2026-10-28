@@ -1,0 +1,67 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-27T20:28:59Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Walter",
+  "institution_type": "school",
+  "official_website": "https://hhscholen.be/",
+  "country": {
+   "value": "Heverlee",
+   "source_url": "https://hhscholen.be/",
+   "evidence_quote": "3001 Heverlee"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "Reused from batch batch-1-bilal-24-10-2025-staff-mobil (scraped 2026-10-27). Reused from batch bano-batch-1-staff-mobility-ka-101 (scraped 2026-10-27). site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Heverlee",
+    "city": "Heverlee",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://hhscholen.be/",
+    "evidence_quote": "Campus Heverlee"
+   },
+   {
+    "campus_name": "Campus Kessel-Lo",
+    "city": "Kessel-Lo",
+    "country": "Belgium",
+    "role": "branch",
+    "source_url": "https://hhscholen.be/",
+    "evidence_quote": "Campus Kessel-Lo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The evidence does not contain any contact persons or international partners for the institution.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "batch-1-bilal-24-10-2025-staff-mobil",
+  "row_id": "r023"
+ }
+}

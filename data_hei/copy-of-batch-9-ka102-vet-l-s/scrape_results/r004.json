@@ -1,0 +1,84 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-10-28T17:43:58Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "Asociación Guayente",
+  "institution_type": "college",
+  "official_website": "https://www.guayente.org/",
+  "country": {
+   "value": "España",
+   "source_url": "https://www.guayente.org/contact/",
+   "evidence_quote": "Santuario S/N – Sahún – 22468 HUESCA, España"
+  },
+  "phone": {
+   "value": "974 552 896",
+   "source_url": "https://www.guayente.org/contact/",
+   "evidence_quote": "974 552 896"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Francisco Fuertes Monedero",
+   "designation": "Director of the Hospitality School",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.guayente.org/organigrama/",
+   "evidence_quote": "Director de la Escuela de Hostelería | Francisco Fuertes Monedero |"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the director of the Escuela de Hostelería, one of the institution's main projects.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Confederación de Centros de Desarrollo Rural (Coceder)",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.guayente.org/quienes-somos/",
+    "evidence_quote": "Forma parte, a nivel nacional, de la Confederación de Centros de Desarrollo Rural (Coceder).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Asociación Guayente",
+    "city": "Sahún",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.guayente.org/contact/",
+    "evidence_quote": "Santuario S/N – Sahún – 22468 HUESCA, España"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The website does not provide specific information regarding Erasmus+ partnerships or international mobility programs. No email addresses for individual staff members are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 7.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.1,
+  "total_seconds": 38.2
+ }
+}
