@@ -1,0 +1,78 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-28T19:55:25Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "IES Mare Nostrum",
+  "institution_type": "school",
+  "official_website": "https://portal.edu.gva.es/iesmarenostrum/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universitat d’Alacant",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://portal.edu.gva.es/iesmarenostrum/tag/erasmus-va/",
+    "evidence_quote": "L’IES Mare Nostrum col·labora amb la Universitat d’Alacant en el projecte Erasmus+ Observatory SOS Attendance.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Mare Nostrum",
+    "city": "Alicante",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://portal.edu.gva.es/iesmarenostrum/",
+    "evidence_quote": "IES MARE NOSTRUM – Beato Francisco Castelló Aleu, s/n – 03008 Alicante – Tlfno: 965936520"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of Erasmus+ partners, only mentioning a specific collaboration with the University of Alicante for a project.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 12.8,
+  "crawl_s": 21.3,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "slices": [
+   {
+    "lines": [
+     141,
+     220
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 48.9
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-28T19:55:17Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Associazione \"YES - Youth Europe and Solidarity\" APS-ETS",
+  "institution_type": "unknown",
+  "official_website": "https://yeseurope.org/",
+  "country": {
+   "value": "Europe",
+   "source_url": "https://yeseurope.org/",
+   "evidence_quote": "YES-Europe’s community spans across Europe with vibrant local communities in more than 25 countries."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Eric Balakrishnan",
+   "designation": "5th President",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://yeseurope.org/",
+   "evidence_quote": "Eric Balakrishnan (5th President, 2024-2026, YES-Europe Malta Country Representative, 2022-2024)"
+  },
+  "alternates": [
+   {
+    "name": "Evi Makri",
+    "designation": "Country Representative Lead",
+    "designation_local": "",
+    "email": "evi.makri@yeseurope.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://yeseurope.org/community/local-teams/",
+    "evidence_quote": "Evi Makri ... Country Representative Lead",
+    "why_chosen": "Mobility coordinator. Evi Makri is the Country Representative Lead and provides a direct contact email for local involvement."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Eric Balakrishnan is the 5th President of the organization and is listed as a contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cleantech ALPS",
+    "partner_country": "Switzerland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://yeseurope.org/partners/",
+    "evidence_quote": "Cleantech ALPS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "European Youth Energy Network",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://yeseurope.org/partners/",
+    "evidence_quote": "European Youth Energy Network",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": 10,
+  "stated_total_quote": "As we believe in collaboration and knowledge sharing, we are always looking to expand our network with new partners to share expertise, expand our reach and develop our network. With 10+ international and local partners as well as event sponsors, we position ourselves as part of the bigger movement tackling challenges faced by our society to become more sustainable.",
+  "stated_total_url": "https://yeseurope.org/partners/",
+  "truncated": true,
+  "total_seen": 10,
+  "pages_read": 10,
+  "coverage_note": "The institution is a youth-led organization operating as a network across Europe rather than a traditional university with physical campuses. A full list of all individual partners is not provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 21.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 40.6
+ }
+}
