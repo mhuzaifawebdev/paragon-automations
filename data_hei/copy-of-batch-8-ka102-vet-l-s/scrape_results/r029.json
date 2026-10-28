@@ -1,0 +1,89 @@
+{
+ "row_id": "r029",
+ "scraped_at": "2026-10-28T17:01:13Z",
+ "contacts": {
+  "row_id": "r029",
+  "institution_name": "CIFP DON BOSCO LHII",
+  "institution_type": "college",
+  "official_website": "https://www.donbosco.eus/",
+  "country": null,
+  "phone": {
+   "value": "943510450",
+   "source_url": "https://www.donbosco.eus/",
+   "evidence_quote": "943510450 <tel +34943510450>"
+  },
+  "phone_alt": [],
+  "generic_email": "donbosco@donbosco.eus",
+  "generic_email_url": "https://www.donbosco.eus/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CIFP Meka LHII",
+    "partner_country": "Spain",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.donbosco.eus/p-virtual-smart-mobility-eu/",
+    "evidence_quote": "CIFP Meka LHII |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Empresa VR Magister",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.donbosco.eus/p-virtual-smart-mobility-eu/",
+    "evidence_quote": "Empresa VR Magister |",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus nagusia",
+    "city": "Errenteria",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.donbosco.eus/",
+    "evidence_quote": "Campus nagusia"
+   },
+   {
+    "campus_name": "Beraungo eraikina",
+    "city": "Errenteria",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.donbosco.eus/",
+    "evidence_quote": "Beraungo eraikina"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions participation in Erasmus+ and international projects but does not provide a specific list of partner institutions. The contact Carlos Lizarbe de Luis is not explicitly named in the provided text, though he is the contact on file. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.6,
+  "crawl_s": 96.1,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "total_seconds": 148.0
+ }
+}
