@@ -1,0 +1,78 @@
+{
+ "row_id": "r009",
+ "scraped_at": "2026-10-28T17:58:57Z",
+ "contacts": {
+  "row_id": "r009",
+  "institution_name": "Club Deportivo Baloncesto Villamuriel",
+  "institution_type": "unknown",
+  "official_website": "https://www.fbcyl.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "José Alberto Martín Manjarrés",
+   "designation": "General Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.fbcyl.es/organigrama",
+   "evidence_quote": "José Alberto Martín Manjarrés ... DIRECTOR GENERAL"
+  },
+  "alternates": [
+   {
+    "name": "Pablo Val Rodríguez",
+    "designation": "General Secretary and Director of Arbitration",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.fbcyl.es/organigrama",
+    "evidence_quote": "Pablo Val Rodríguez ... SECRETARIO GENERAL Y DIRECTOR DE ARBITRAJE",
+    "why_chosen": "Secretary / administration (last resort). He serves as the General Secretary."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the General Director of the federation.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Federación de Baloncesto de Castilla y León",
+    "city": "Valladolid",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.fbcyl.es/",
+    "evidence_quote": "47014 Valladolid"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 4,
+  "coverage_note": "The institution is a sports federation, not an educational institution, and no international mobility or Erasmus+ partnerships are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 4.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 53.0,
+  "total_seconds": 60.6
+ }
+}
