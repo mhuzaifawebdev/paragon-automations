@@ -1,0 +1,89 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-10-28T18:20:21Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "Condrea Catalin",
+  "institution_type": "school",
+  "official_website": "https://liceulmoldova.ro/",
+  "country": null,
+  "phone": {
+   "value": "0232 / 710915",
+   "source_url": "https://liceulmoldova.ro/",
+   "evidence_quote": "0232 / 710915"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Verdes Cristina",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://liceulmoldova.ro/despre-liceu/echipa-noastra/personal-auxiliar/",
+   "evidence_quote": "Verdes Cristina ... Secretar"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). She is a named administrator at the institution who can be contacted for general inquiries.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Școala pentru Elevi cu Dizabilități Vizuale „Dimitar Vlahov”",
+    "partner_country": "Macedonia de Nord",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://liceulmoldova.ro/proiecte-si-parteneriate/proiecte-europene/erasmus-2024-2027/",
+    "evidence_quote": "Vizită pregătitoare la Școala pentru Elevi cu Dizabilități Vizuale „Dimitar Vlahov” – Skopje, Macedonia de Nord",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Școala pentru Elevi cu Dizabilități Vizuale „Veljko Ramadanović”",
+    "partner_country": "Serbia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://liceulmoldova.ro/proiecte-si-parteneriate/proiecte-europene/erasmus-2024-2027/",
+    "evidence_quote": "Mobilitate de grup pentru elevi la Școala pentru Elevi cu Dizabilități Vizuale „Veljko Ramadanović” – Belgrad, Serbia",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Liceul Special „Moldova”",
+    "city": "Târgu Frumos",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://liceulmoldova.ro/",
+    "evidence_quote": "Str. Cuza – Vodă nr. 24, Târgu Frumos, Iaşi"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of all Erasmus+ partners, only specific schools mentioned in the context of mobility projects. No specific Erasmus coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 14.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 21.8
+ }
+}
