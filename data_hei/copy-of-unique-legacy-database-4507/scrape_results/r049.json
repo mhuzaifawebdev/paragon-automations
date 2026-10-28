@@ -1,0 +1,88 @@
+{
+ "row_id": "r049",
+ "scraped_at": "2026-10-28T11:17:07Z",
+ "contacts": {
+  "row_id": "r049",
+  "institution_name": "Lauttasaaren musiikkiopiston kannatusyhdistys r.y.",
+  "institution_type": "school",
+  "official_website": "https://www.lmo.fi/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kanslia@lmo.fi",
+  "generic_email_url": "https://www.lmo.fi/",
+  "contact": {
+   "name": "Matti Jordman",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "matti.jordman@lmo.fi",
+   "office_email": "",
+   "phone": "040 5067 324",
+   "source_url": "https://www.lmo.fi/",
+   "evidence_quote": "Rehtori Matti Jordman"
+  },
+  "alternates": [
+   {
+    "name": "Sanna Rintala",
+    "designation": "Assistant Principal",
+    "designation_local": "",
+    "email": "sanna.rintala@lmo.fi",
+    "office_email": "",
+    "phone": "044 2355 065",
+    "source_url": "https://www.lmo.fi/",
+    "evidence_quote": "Apulaisrehtori Sanna Rintala",
+    "why_chosen": "Principal / director (no Erasmus contact found). Sanna Rintala serves as the assistant principal (apulaisrehtori)."
+   },
+   {
+    "name": "Jussi Pernu",
+    "designation": "Erasmus+ Coordinator",
+    "designation_local": "",
+    "email": "etunimi.sukunimi@lmo.fi",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.lmo.fi/opettajat",
+    "evidence_quote": "Pernu Jussi ... Erasmus+ koordinaattori",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Jussi Pernu is explicitly named as the Erasmus+ coordinator for the music school."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Matti Jordman is the principal (rehtori) of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lauttasaaren musiikkiopisto",
+    "city": "Helsinki",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.lmo.fi/",
+    "evidence_quote": "Lauttasaaren musiikkiopisto"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence provides contact information, staff lists, and address details, but no partner institutions or networks are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 6.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 104.5,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 112.5
+ }
+}
