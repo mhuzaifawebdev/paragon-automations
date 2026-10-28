@@ -1,0 +1,96 @@
+{
+ "row_id": "r158",
+ "scraped_at": "2026-10-28T11:36:22Z",
+ "contacts": {
+  "row_id": "r158",
+  "institution_name": "SZ Bürgermeister Smidt / Kaufmännische Lehranstalten",
+  "institution_type": "school",
+  "official_website": "https://www.kla-bremerhaven.de/startseite",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Arnd Höljes",
+   "designation": "Head of School",
+   "designation_local": "",
+   "email": "a.hoeljes@schulen.bremerhaven.de",
+   "office_email": "",
+   "phone": "0471 590-4651",
+   "source_url": "https://www.kla-bremerhaven.de/unsere-schule/schulleitung",
+   "evidence_quote": "Arnd Höljes ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Maren Schönwälder",
+    "designation": "Deputy Head of School",
+    "designation_local": "",
+    "email": "m.schoenwaelder@schulen.bremerhaven.de",
+    "office_email": "",
+    "phone": "0471 590-4653",
+    "source_url": "https://www.kla-bremerhaven.de/unsere-schule/schulleitung",
+    "evidence_quote": "Maren Schönwälder ... Stellvertretende Schulleiterin",
+    "why_chosen": "Principal / director (no Erasmus contact found). Maren Schönwälder serves as the deputy head of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Arnd Höljes is the head of the institution (Schulleiter).",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Partnerschule",
+    "partner_country": "Finnland",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.kla-bremerhaven.de/kla-innovativ/unesco-projekt-schule/allgemeine-informationen-1",
+    "evidence_quote": "Finnland – Austausch mit Partnerschule und Gegenbesuch (BGy)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erich-Gutenberg-Berufskolleg",
+    "partner_country": "Deutschland",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.kla-bremerhaven.de/kla-innovativ/schulentwicklung-und-qualitaetsmanagement/begegnungen",
+    "evidence_quote": "Bereits im November erfolgte durch das Trio Nadine Behme, Alexander Kluge und Christoph Schliemann eine 5-tägige Hospitation am Erich-Gutenberg-Berufskolleg in Bünde. Die dort gewonnenen vielfältigen Eindrücke konnten nun mit weiteren hospitierenden Schulen beim Perspektivtreffen gewürdigt werden.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Kaufmännische Lehranstalten Bremerhaven",
+    "city": "Bremerhaven",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://www.kla-bremerhaven.de/startseite",
+    "evidence_quote": "27568 Bremerhaven"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists specific partner countries for mobilities and a couple of partner schools (such as in Belgium and Finland, and a host school in Germany for job shadowing), but does not provide an exhaustive list of all partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.7,
+  "crawl_s": 13.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "email_search_s": 9.3,
+  "total_seconds": 29.2
+ }
+}

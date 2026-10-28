@@ -1,0 +1,88 @@
+{
+ "row_id": "r156",
+ "scraped_at": "2026-10-28T11:36:01Z",
+ "contacts": {
+  "row_id": "r156",
+  "institution_name": "Käpt'n Browser gGmbH - Käpt'n Browser gGmbH",
+  "institution_type": "school",
+  "official_website": "https://www.kaeptnbrowser.de/",
+  "country": {
+   "value": "Deutschland",
+   "source_url": "https://www.kaeptnbrowser.de/",
+   "evidence_quote": "Unsere Kitas in ganz Deutschland"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Tobias Milbrett",
+   "designation": "Head of FFAP",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.kaeptnbrowser.de/kooperationen/",
+   "evidence_quote": "Tobias Milbrett ... Leiter der FFAP"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Tobias Milbrett is listed as the head of a partner educational institution cooperating with Käpt'n Browser.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "HSAP",
+    "partner_country": "",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kaeptnbrowser.de/kooperationen/",
+    "evidence_quote": "Dozentin für Kindheitspädagogik HSAP",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FFAP",
+    "partner_country": "",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kaeptnbrowser.de/kooperationen/",
+    "evidence_quote": "Leiter der FFAP",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Käpt'n Browser gGmbH",
+    "city": "Berlin",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://www.kaeptnbrowser.de/",
+    "evidence_quote": "© 2026 Käpt'n Browser. Alt-Stralau 37-39, 10245 Berlin"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The evidence lists general partner institutions like HSAP and FFAP but does not provide direct staff contacts or an explicit total count of international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.2,
+  "crawl_s": 9.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.1,
+  "mode": "gemini",
+  "email_search_s": 11.6,
+  "total_seconds": 35.2
+ }
+}

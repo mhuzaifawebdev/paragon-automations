@@ -1,0 +1,76 @@
+{
+ "row_id": "r153",
+ "scraped_at": "2026-10-28T11:36:12Z",
+ "contacts": {
+  "row_id": "r153",
+  "institution_name": "St Fergal's College",
+  "institution_type": "school",
+  "official_website": "https://stfergalscollege.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Laois County Council",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://stfergalscollege.com/extra-curricular/steam-club/",
+    "evidence_quote": "Partnership with Laois County Council",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "St. Fergal’s College",
+    "city": "Rathdowney",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://stfergalscollege.com/",
+    "evidence_quote": "St. Fergal’s College,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "No named contacts with roles are present in the evidence. Partner list is limited to a regional council collaboration.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.9,
+  "crawl_s": 22.9,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     81
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 46.3
+ }
+}
