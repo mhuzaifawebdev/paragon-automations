@@ -1,0 +1,86 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-10-28T17:04:30Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "Staatliche Berufsschule I Traunstein",
+  "institution_type": "college",
+  "official_website": "https://bs1ts.schule/",
+  "country": {
+   "value": "Deutschland",
+   "source_url": "https://bs1ts.schule/",
+   "evidence_quote": "Deutschlandticket 43€"
+  },
+  "phone": {
+   "value": "0861 98979-0",
+   "source_url": "https://bs1ts.schule/",
+   "evidence_quote": "0861 98979-0 <tel 0861 98979-0>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Wolfgang Kurfer",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://bs1ts.schule/bs1/infothek/schulleitung/",
+   "evidence_quote": "[OStD Wolfgang Kurfer] OStD Wolfgang Kurfer ... Schulleiter: |"
+  },
+  "alternates": [
+   {
+    "name": "Peter Mittermeier",
+    "designation": "Coordinator for extracurricular contacts",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://bs1ts.schule/bs1/infothek/organigramm/Organigramm-BS1TS.pdf",
+    "evidence_quote": "Koordinator für ... Peter Mittermeier, OStR",
+    "why_chosen": "Other role. Peter Mittermeier serves as the coordinator for extracurricular contacts, which is the most relevant role for international cooperation found."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Wolfgang Kurfer is the principal of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Staatliche Berufsschule I Traunstein",
+    "city": "Traunstein",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://bs1ts.schule/bs1/ueber-uns/kontanktdaten/",
+    "evidence_quote": "Staatliche Berufsschule I Traunstein"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 6,
+  "coverage_note": "The evidence does not contain a list of international partners or Erasmus+ agreements. No specific international relations office or Erasmus coordinator is mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 8.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.4,
+  "total_seconds": 34.7
+ }
+}

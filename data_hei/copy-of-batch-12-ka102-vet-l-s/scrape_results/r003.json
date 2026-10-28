@@ -1,0 +1,98 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-10-28T17:04:25Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "Peter-Lenné-Schule",
+  "institution_type": "college",
+  "official_website": "https://www.peter-lenne-schule.de/",
+  "country": null,
+  "phone": {
+   "value": "030 - 81 49 0 140",
+   "source_url": "https://www.peter-lenne-schule.de/kontakt",
+   "evidence_quote": "030 - 81 49 0 140 <tel 030 - 81 49 0 140>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@peter-lenne-schule.de",
+  "generic_email_url": "https://www.peter-lenne-schule.de/kontakt",
+  "contact": {
+   "name": "Dr. Astrid Ahke",
+   "designation": "Coordination",
+   "designation_local": "",
+   "email": "astrid.ahke@peter-lenne-schule.de",
+   "office_email": "",
+   "phone": "030 - 81 49 0 116",
+   "source_url": "https://www.peter-lenne-schule.de/kontakt",
+   "evidence_quote": "Dr. Astrid Ahke ... Koordination"
+  },
+  "alternates": [],
+  "rung": "Other role. Dr. Astrid Ahke is listed as a coordinator for the Landesstelle für internationale nachhaltige Berufsbildung, which is relevant to international mobility.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée du Pflixbourg",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.peter-lenne-schule.de/",
+    "evidence_quote": "Anlässlich der über 40-jährigen deutsch-französischen Schulfreundschaft zwischen dem Lycée du Pflixbourg im elsässischen Wintzenheim und der Peter-Lenné- Schule fand auf dem Campus eine gemeinsame Baumpflanzaktion statt. Unsere Auszubildenden der Fachrichtung Baumschule, namentlich Jeanette Lettow, Max Sprenger und Brian Plathe durften den Baum im Rahmen Ihres vierwöchigen Erasmusausfenthalts im Baumschulbetrieb „Gissinger“ in Rouffach auswählen. Sie haben sich für die Korkei",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Baumschulbetrieb Gissinger",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.peter-lenne-schule.de/",
+    "evidence_quote": "Anlässlich der über 40-jährigen deutsch-französischen Schulfreundschaft zwischen dem Lycée du Pflixbourg im elsässischen Wintzenheim und der Peter-Lenné- Schule fand auf dem Campus eine gemeinsame Baumpflanzaktion statt. Unsere Auszubildenden der Fachrichtung Baumschule, namentlich Jeanette Lettow, Max Sprenger und Brian Plathe durften den Baum im Rahmen Ihres vierwöchigen Erasmusausfenthalts im Baumschulbetrieb „Gissinger“ in Rouffach auswählen. Sie haben sich für die Korkei",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tennisverein Zehlendorf 88",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.peter-lenne-schule.de/post/tennis-und-teamarbeit",
+    "evidence_quote": "Tennistraining und Teamarbeit – eine sportliche Kooperation mit Zehlendorf 88",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Peter-Lenné-Schule",
+    "city": "Berlin",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.peter-lenne-schule.de/kontakt",
+    "evidence_quote": "Hartmannsweilerweg 29"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partners, only specific examples of international and local cooperation.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 7.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 29.0
+ }
+}

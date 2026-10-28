@@ -1,0 +1,124 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-28T17:04:49Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Leopold-Hoesch-Berufskolleg der Stadt Dortmund",
+  "institution_type": "college",
+  "official_website": "https://lhb-do.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Moana Laue",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lhb-do.de/einblicke/erasmus",
+   "evidence_quote": "Ihre Erasmus+ Koordinatoren Moana Laue und Tim Freund"
+  },
+  "alternates": [
+   {
+    "name": "Tim Freund",
+    "designation": "Erasmus+ Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lhb-do.de/einblicke/erasmus",
+    "evidence_quote": "Ihre Erasmus+ Koordinatoren Moana Laue und Tim Freund",
+    "why_chosen": "Institutional Erasmus+ coordinator. Tim Freund is explicitly named as an Erasmus+ coordinator for the institution."
+   }
+  ],
+  "rung": "Institutional Erasmus+ coordinator. Moana Laue is explicitly named as an Erasmus+ coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Berufskollegs in Norwegen",
+    "partner_country": "Norway",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://lhb-do.de/images/Bilder/2015-01-Erasmus/Erasmus-Flyer_allgemein_v2.pdf",
+    "evidence_quote": "Berufskollegs in Norwegen, Spanien,",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Berufskollegs in Spanien",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://lhb-do.de/images/Bilder/2015-01-Erasmus/Erasmus-Flyer_allgemein_v2.pdf",
+    "evidence_quote": "Berufskollegs in Norwegen, Spanien,",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Berufskollegs in Frankreich",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://lhb-do.de/images/Bilder/2015-01-Erasmus/Erasmus-Flyer_allgemein_v2.pdf",
+    "evidence_quote": "Frankreich, Belgien und Ungarn Lernenden-",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Berufskollegs in Belgien",
+    "partner_country": "Belgium",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://lhb-do.de/images/Bilder/2015-01-Erasmus/Erasmus-Flyer_allgemein_v2.pdf",
+    "evidence_quote": "Frankreich, Belgien und Ungarn Lernenden-",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Berufskollegs in Ungarn",
+    "partner_country": "Hungary",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://lhb-do.de/images/Bilder/2015-01-Erasmus/Erasmus-Flyer_allgemein_v2.pdf",
+    "evidence_quote": "Frankreich, Belgien und Ungarn Lernenden-",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Leopold-Hoesch-Berufskolleg",
+    "city": "Dortmund",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://lhb-do.de/",
+    "evidence_quote": "Leopold-Hoesch-Berufskolleg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of countries for Erasmus+ partnerships but does not name the specific partner institutions. Contact emails are protected by anti-spam scripts on the website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 12.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 18.3
+ }
+}
