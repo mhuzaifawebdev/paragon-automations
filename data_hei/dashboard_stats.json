@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-28T23:49:14.695155+00:00",
+ "generated_at": "2026-10-28T23:53:57.169666+00:00",
  "totals": {
-  "institutes": 8032,
-  "with_contact": 5159,
-  "with_email": 4404,
+  "institutes": 8057,
+  "with_contact": 5165,
+  "with_email": 4405,
   "personal_email": 3039,
-  "generic_email": 3243,
-  "partners": 126151,
-  "campuses": 10626,
-  "no_website": 1286,
-  "with_website": 6746,
-  "batches": 119
+  "generic_email": 3244,
+  "partners": 126186,
+  "campuses": 10634,
+  "no_website": 1302,
+  "with_website": 6755,
+  "batches": 120
  },
  "days": [
   {
@@ -123,18 +123,34 @@
   },
   {
    "day": "2026-10-28",
-   "institutes": 5198,
-   "with_contact": 3075,
-   "with_email": 2637,
+   "institutes": 5223,
+   "with_contact": 3081,
+   "with_email": 2638,
    "personal_email": 1703,
-   "generic_email": 1999,
-   "partners": 62861,
-   "campuses": 6556,
-   "no_website": 1072,
-   "with_website": 4126
+   "generic_email": 2000,
+   "partners": 62896,
+   "campuses": 6564,
+   "no_website": 1088,
+   "with_website": 4135
   }
  ],
  "batches": [
+  {
+   "batch": "merged-legacy-database-batch-7-talha",
+   "status": "running",
+   "total_rows": 63,
+   "done": 25,
+   "updated": "2026-10-28T23:53:54.097147+00:00",
+   "institutes": 25,
+   "with_contact": 6,
+   "with_email": 1,
+   "personal_email": 0,
+   "generic_email": 1,
+   "partners": 35,
+   "campuses": 8,
+   "no_website": 16,
+   "with_website": 9
+  },
   {
    "batch": "merged-legacy-database-batch-8-sana",
    "status": "done",
