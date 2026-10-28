@@ -1,0 +1,80 @@
+{
+ "row_id": "r477",
+ "scraped_at": "2026-10-28T11:00:52Z",
+ "contacts": {
+  "row_id": "r477",
+  "institution_name": "Birgit",
+  "institution_type": "school",
+  "official_website": "https://www.os-ebersbach.de/",
+  "country": null,
+  "phone": {
+   "value": "035208-2230",
+   "source_url": "https://www.os-ebersbach.de/",
+   "evidence_quote": "035208-2230"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Schaar, Sabine",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.os-ebersbach.de/seite/546325/lehrerschaft.html",
+   "evidence_quote": "Schaar, Sabine | Sekretärin |"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Sabine Schaar is listed as the secretary (Sekretärin) on the staff page.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kelso High School",
+    "partner_country": "United Kingdom",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.os-ebersbach.de/seite/546320/erasmus.html",
+    "evidence_quote": "Seit Sommer 2018 findet das Projekt „Kultur schlägt Rassismus und Diskriminierung“ an der Oberschule Ebersbach und der Kelso High School statt. Dieses wird gefördert durch Mittel aus dem Erasmus+ Budget und endete am 31. August 2021. Im Mittelpunkt steht die Begegnung mit einer anderen Kultur und das Erkennen von Gemeinsamkeiten aber auch Unterschieden in diesen beiden Kulturen. In diesem Zusammenhang wurden Produkte erarbeitet, die im Unterricht an beiden Schulen verwendet werden.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Oberschule Ebersbach",
+    "city": "Ebersbach",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.os-ebersbach.de/",
+    "evidence_quote": "Oberschule Ebersbach"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence details an Erasmus partnership with Kelso High School and lists the school staff, but individual email addresses for staff members are not directly provided on the pages.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 11.8,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 4.3,
+  "total_seconds": 20.8
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "row_id": "r462",
+ "scraped_at": "2026-10-27T18:56:45Z",
+ "contacts": {
+  "row_id": "r462",
+  "institution_name": "Francisco",
+  "institution_type": "school",
+  "official_website": "https://www.altoguadalentin.es/",
+  "country": null,
+  "phone": {
+   "value": "968443727",
+   "source_url": "https://www.altoguadalentin.es/",
+   "evidence_quote": "<tel 968443727>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Bruno Acselrad",
+   "designation": "Math Teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.altoguadalentin.es/about/",
+   "evidence_quote": "Bruno Acselrad ... Math Teacher"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Bruno Acselrad is listed as a Math Teacher at the institution.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "Reused from batch spain-batch-1-aiman (scraped 2026-10-27). site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "SEDE LORCA",
+    "city": "Lorca",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.altoguadalentin.es/",
+    "evidence_quote": "SEDE LORCA:"
+   },
+   {
+    "campus_name": "SEDE MAZARRÓN",
+    "city": "Mazarrón",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.altoguadalentin.es/",
+    "evidence_quote": "SEDE MAZARRÓN:"
+   },
+   {
+    "campus_name": "SEDE PTO.LUMBRERAS",
+    "city": "Puerto Lumbreras",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.altoguadalentin.es/",
+    "evidence_quote": "SEDE PTO.LUMBRERAS:"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "No specific Erasmus+ or international relations staff are named in the provided evidence. The institution is an adult education center (CEA) and no partner list is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "spain-batch-1-aiman",
+  "row_id": "r003"
+ }
+}
