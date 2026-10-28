@@ -1,0 +1,95 @@
+{
+ "row_id": "r438",
+ "scraped_at": "2026-10-28T10:57:42Z",
+ "contacts": {
+  "row_id": "r438",
+  "institution_name": "Anika",
+  "institution_type": "unknown",
+  "official_website": "https://anika.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://anika.com/about/contact/",
+   "evidence_quote": "Bedford, MA 01730, USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Matt Hall",
+   "designation": "Executive Director, Corporate Development & Investor Relations",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ir.anika.com/Management-Team",
+   "evidence_quote": "Matt Hall ... Executive Director, Corporate Development & Investor Relations"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). He is the primary contact for corporate development and investor relations.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "J&J MedTech",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://anika.com/about/contact/",
+    "evidence_quote": "Please note that our U.S. sales representatives do not represent Orthovisc or Monovisc in the U.S. For any Orthovisc or Monovisc inquiries in the U.S., please reach out directly to J&J MedTech, the exclusive distributor of Orthovisc and Monovisc in the U.S. Select Orthovisc or Monovisc in the dropdown to access J&J MedTech’s contact information or complete our Contact Us form.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bedford Office (Headquarters)",
+    "city": "Bedford, MA",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://anika.com/about/contact/",
+    "evidence_quote": "Bedford Office (Headquarters):"
+   },
+   {
+    "campus_name": "Warsaw Office",
+    "city": "Warsaw, IN",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://anika.com/about/contact/",
+    "evidence_quote": "Warsaw Office:"
+   },
+   {
+    "campus_name": "Italy Office",
+    "city": "Padova",
+    "country": "Italy",
+    "role": "international",
+    "source_url": "https://anika.com/about/contact/",
+    "evidence_quote": "Italy Office:"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "Anika is a commercial medical technology company, not an educational institution. No Erasmus+ or academic mobility information is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.1,
+  "crawl_s": 13.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "email_search_s": 4.2,
+  "total_seconds": 26.8
+ }
+}
