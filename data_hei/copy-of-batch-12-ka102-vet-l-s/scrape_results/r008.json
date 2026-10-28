@@ -1,0 +1,126 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-28T17:05:58Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "I.E.S. LITORAL",
+  "institution_type": "school",
+  "official_website": "https://www.ieslitoral.es/",
+  "country": null,
+  "phone": {
+   "value": "951298400",
+   "source_url": "https://www.ieslitoral.es/",
+   "evidence_quote": "951298400 <tel 951298400>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES San Juan de la Cruz de Pozuelo de Alarcón",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ieslitoral.es/",
+    "evidence_quote": "El IES LITORAL participó junto al IES San Juan de la Cruz de Pozuelo de Alarcón (Madrid) y dos potentes empresas muy vinculadas a la Imagen para el Diagnóstico como son QuirónSalud Málaga y Siemens Healthineers en la Resolución de la Secretaría General de Formación Profesional, por la que se conceden ayudas destinadas a la realización de proyectos de innovación e investigación aplicadas y transferencia del conocimiento en la Formación Profesional.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "QuirónSalud Málaga",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ieslitoral.es/",
+    "evidence_quote": "El IES LITORAL participó junto al IES San Juan de la Cruz de Pozuelo de Alarcón (Madrid) y dos potentes empresas muy vinculadas a la Imagen para el Diagnóstico como son QuirónSalud Málaga y Siemens Healthineers en la Resolución de la Secretaría General de Formación Profesional, por la que se conceden ayudas destinadas a la realización de proyectos de innovación e investigación aplicadas y transferencia del conocimiento en la Formación Profesional.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Siemens Healthineers",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ieslitoral.es/",
+    "evidence_quote": "El IES LITORAL participó junto al IES San Juan de la Cruz de Pozuelo de Alarcón (Madrid) y dos potentes empresas muy vinculadas a la Imagen para el Diagnóstico como son QuirónSalud Málaga y Siemens Healthineers en la Resolución de la Secretaría General de Formación Profesional, por la que se conceden ayudas destinadas a la realización de proyectos de innovación e investigación aplicadas y transferencia del conocimiento en la Formación Profesional.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IES San Juan de la Cruz",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ieslitoral.es/",
+    "evidence_quote": "El IES LITORAL participó junto al IES San Juan de la Cruz de Pozuelo de Alarcón (Madrid) y dos potentes empresas muy vinculadas a la Imagen para el Diagnóstico como son QuirónSalud Málaga y Siemens Healthineers en la Resolución de la Secretaría General de Formación Profesional, por la que se conceden ayudas destinadas a la realización de proyectos de innovación e investigación aplicadas y transferencia del conocimiento en la Formación Profesional.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidad de Málaga",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ieslitoral.es/",
+    "evidence_quote": "Ha sido publicado en el siguiente enlace de la página web de la Universidad de Málaga…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Celinet Soluciones Informáticas",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ieslitoral.es/",
+    "evidence_quote": "Todos los derechos reservados | Política de Privacidad | Desarrollo Web: Celinet Soluciones Informáticas",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "I.E.S. Litoral",
+    "city": "Málaga",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.ieslitoral.es/",
+    "evidence_quote": "I.E.S. Litoral - Avda. de los Guindos 46 - 29004-Málaga | Teléfono: 951 29 84 00 - Fax: 951 29 84 03 -"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 2,
+  "coverage_note": "No specific Erasmus+ or international mobility coordinator is named on the website. The evidence does not provide a comprehensive list of international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.6,
+  "crawl_s": 35.9,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     86
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 93.7
+ }
+}
