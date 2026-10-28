@@ -1,0 +1,97 @@
+{
+ "row_id": "r057",
+ "scraped_at": "2026-10-28T18:06:22Z",
+ "contacts": {
+  "row_id": "r057",
+  "institution_name": "Desiree Tantsustuudio",
+  "institution_type": "school",
+  "official_website": "https://desireestuudio.ee/",
+  "country": null,
+  "phone": {
+   "value": "+372 509 25 41",
+   "source_url": "https://desireestuudio.ee/kontakt/",
+   "evidence_quote": "+372 509 25 41 (Signe)"
+  },
+  "phone_alt": [],
+  "generic_email": "info@desireestuudio.ee",
+  "generic_email_url": "https://desireestuudio.ee/kontakt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Eesti Tantsuhuvihariduse Liit",
+    "partner_country": "Estonia",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://desireestuudio.ee/",
+    "evidence_quote": "Desiree Stuudio kuulub Eesti Tantsuhuvihariduse Liitu ja Eesti Cheerleadingu Liitu.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Eesti Cheerleadingu Liit",
+    "partner_country": "Estonia",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://desireestuudio.ee/",
+    "evidence_quote": "Desiree Stuudio kuulub Eesti Tantsuhuvihariduse Liitu ja Eesti Cheerleadingu Liitu.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pike Dance Team",
+    "partner_country": "Slovenia",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://desireestuudio.ee/erasmus/",
+    "evidence_quote": "Desiree õpirände projekti raames külastasime novembris 2024 Pike Dance Teami Sloveenias ja vaatlesime nende treeninguid ning töömeetodeid. Erasmus+ Sport projektis on suurepärane võimalus saada rahvusvahelisi kogemusi ja kontakte. Oma projekti raames viisime läbi ka seminari, kus tutvustasime Erasmus+ projekti võimalusi, oma projekti ning jagasime oma õpirände kogemusi. Tutvu Erasmus+ Sport võimaluste, meie projekti ja meie kogemustega all presentatsioonis.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Põhja-Tallinn",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "role": "main",
+    "source_url": "https://desireestuudio.ee/",
+    "evidence_quote": "Põhja-Tallinn"
+   },
+   {
+    "campus_name": "Saku",
+    "city": "Saku",
+    "country": "Estonia",
+    "role": "branch",
+    "source_url": "https://desireestuudio.ee/",
+    "evidence_quote": "Saku"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not provide a comprehensive list of all Erasmus+ partners, only mentioning one specific project partner.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 8.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 22.3
+ }
+}
