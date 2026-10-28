@@ -1,0 +1,115 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-28T17:48:47Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "Vrij Technisch Instituut Lier",
+  "institution_type": "school",
+  "official_website": "https://www.tincplus.be/",
+  "country": {
+   "value": "Lier",
+   "source_url": "https://www.tincplus.be/",
+   "evidence_quote": "Kruisbogenhofstraat 7 Lier"
+  },
+  "phone": {
+   "value": "03 480 01 62",
+   "source_url": "https://www.tincplus.be/",
+   "evidence_quote": "03 480 01 62"
+  },
+  "phone_alt": [],
+  "generic_email": "info@tincplus.be",
+  "generic_email_url": "https://www.tincplus.be/",
+  "contact": {
+   "name": "Ilse Vandermot",
+   "designation": "Delegated Administrator",
+   "designation_local": "",
+   "email": "ilse.vandermot@kobaheli.be",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.tincplus.be/ons-schoolteam",
+   "evidence_quote": "Ilse Vandermot ... Afgevaardigd bestuurder"
+  },
+  "alternates": [
+   {
+    "name": "Gio De Weerd",
+    "designation": "General Director",
+    "designation_local": "",
+    "email": "gio.deweerd@tincplus.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.tincplus.be/ons-schoolteam",
+    "evidence_quote": "Gio De Weerd ... Algemeen Directeur",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the General Director, he is the primary contact for institutional matters."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the contact currently on file and holds a senior administrative role.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "VOKAN",
+    "partner_country": "Belgium",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tincplus.be/ons-schoolteam",
+    "evidence_quote": "VOKAN Schoolanker",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "PLUS Lier",
+    "partner_country": "Belgium",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tincplus.be/ons-schoolteam",
+    "evidence_quote": "PLUS Lier",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "TINC+ Lier",
+    "city": "Lier",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.tincplus.be/",
+    "evidence_quote": "Kruisbogenhofstraat 7 Lier"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 3,
+  "coverage_note": "The institution does not list any international Erasmus+ partners or mobility programs on its website. The listed partners are local care and support organizations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 6.4,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 10.7
+ }
+}

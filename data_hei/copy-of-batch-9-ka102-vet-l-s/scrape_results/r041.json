@@ -1,0 +1,26 @@
+{
+ "row_id": "r041",
+ "scraped_at": "2026-10-28T17:49:05Z",
+ "contacts": {
+  "row_id": "r041",
+  "institution_name": "ABB AG",
+  "institution_type": "unknown",
+  "official_website": "",
+  "country": null,
+  "phone": null,
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "none",
+  "confidence": 0,
+  "needs_human_check": true,
+  "pages_read": 0,
+  "notes": "Website not found (website column in the sheet: https://new.abb.com/ -> could not read https://new.abb.com/ (TimeoutError: The read operation timed out); email domain: https://www.us.abb.com/ -> could not read https://www.us.abb.com/ (URLError: <urlopen error [Errno -2] Name or service not known>); email domain: https://us.abb.com/ -> could not read https://us.abb.com/ (URLError: <urlopen error [Errno -5] No address associated with hostname>))"
+ },
+ "network": null,
+ "network_skipped": "website not found",
+ "timing": {
+  "discover_s": 51.4,
+  "total_seconds": 51.4
+ }
+}

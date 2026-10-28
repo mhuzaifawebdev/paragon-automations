@@ -1,0 +1,92 @@
+{
+ "row_id": "r040",
+ "scraped_at": "2026-10-28T17:48:27Z",
+ "contacts": {
+  "row_id": "r040",
+  "institution_name": "Gewerblich, Kaufmännisch, Landwirtschaftliche Schule Wangen",
+  "institution_type": "school",
+  "official_website": "https://www.bs-wangen.de/",
+  "country": null,
+  "phone": {
+   "value": "+49 7522 7073-0",
+   "source_url": "https://www.bs-wangen.de/kontakt-sekretariat",
+   "evidence_quote": "+49 7522 7073-0"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Patrick Well",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bs-wangen.de/schule/schulorganisation",
+   "evidence_quote": "Patrick Well ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Myriam Gompper",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bs-wangen.de/schule/schulorganisation",
+    "evidence_quote": "Myriam Gompper ... Stellvertretende Schulleiterin",
+    "why_chosen": "Principal / director (no Erasmus contact found). Myriam Gompper serves as the deputy principal and is involved in the school's leadership."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Patrick Well is the principal of the institution and is the primary contact for administrative inquiries.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufliches Schulzentrum Wangen",
+    "city": "Wangen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bs-wangen.de/berufsschule/kaufmaennische-berufsschule/gross-und-aussenhandelsmanagement",
+    "evidence_quote": "88239 Wangen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions international destinations like Dublin and Prato under 'Auslandsaufenthalte', but does not provide a formal list of partner institutions or agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 15.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 22.0
+ }
+}
