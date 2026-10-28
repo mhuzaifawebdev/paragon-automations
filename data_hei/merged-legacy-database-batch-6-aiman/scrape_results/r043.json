@@ -1,0 +1,117 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-10-28T23:21:36Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "Escola Profissional de Comércio Externo",
+  "institution_type": "college",
+  "official_website": "https://epce.pt/",
+  "country": null,
+  "phone": {
+   "value": "222 076 800",
+   "source_url": "https://epce.pt/",
+   "evidence_quote": "222 076 800"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Sassulo",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://epce.pt/erasmus-mais-20-21/",
+    "evidence_quote": "O projeto irá promover mobilidades de 30 dias em 2021 para 21 alunos do 3º ano, divididos em dois grupos: 10 alunos do Curso de Audiovisuais e de Fotografia irão para Sassulo em Itália, e 11 alunos dos Cursos de Comércio, Comunicação e Serviço Digital irão para Attard em Malta, para realizar estágios transnacionais de 28 dias;",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Attard",
+    "partner_country": "Malta",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://epce.pt/erasmus-mais-20-21/",
+    "evidence_quote": "O projeto irá promover mobilidades de 30 dias em 2021 para 21 alunos do 3º ano, divididos em dois grupos: 10 alunos do Curso de Audiovisuais e de Fotografia irão para Sassulo em Itália, e 11 alunos dos Cursos de Comércio, Comunicação e Serviço Digital irão para Attard em Malta, para realizar estágios transnacionais de 28 dias;",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Itália",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://epce.pt/erasmus-mais/erasmus-23-24/",
+    "evidence_quote": "Este ano letivo de 2023/2024 o nosso projeto irá promover mobilidades de curta e longa duração, para os alunos do 3º ano de todos os nossos cursos profissionais, nos países de Itália e Malta.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Malta",
+    "partner_country": "Malta",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://epce.pt/erasmus-mais/erasmus-23-24/",
+    "evidence_quote": "Este ano letivo de 2023/2024 o nosso projeto irá promover mobilidades de curta e longa duração, para os alunos do 3º ano de todos os nossos cursos profissionais, nos países de Itália e Malta.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Profissional de Comércio Externo",
+    "city": "Porto",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://epce.pt/",
+    "evidence_quote": "Rua de Gonçalo Cristóvão, 309"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions specific countries for student mobility but does not provide a formal list of partner institutions. No specific contact person with an email address is listed for international relations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 17.3,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 4,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 34.3
+ }
+}
