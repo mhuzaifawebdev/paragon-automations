@@ -1,0 +1,106 @@
+{
+ "row_id": "r039",
+ "scraped_at": "2026-10-28T15:35:42Z",
+ "contacts": {
+  "row_id": "r039",
+  "institution_name": "Centro de Estudios Ceinmark",
+  "institution_type": "college",
+  "official_website": "https://ceinmark.net/",
+  "country": null,
+  "phone": {
+   "value": "942 23 13 44",
+   "source_url": "https://ceinmark.net/",
+   "evidence_quote": "Llámanos: 942 23 13 44"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@ceinmark.net",
+  "generic_email_url": "https://ceinmark.net/wp-content/uploads/2025/09/ConvocatoriaErasmus25_26.pdf",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Servicio Público de Empleo",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ceinmark.net/agencia-de-colocacion/#contacto",
+    "evidence_quote": "Nuestra Agencia de Colocación tiene autorización del Servicio Público de Empleo. Todos nuestros servicios son gratuitos, tanto para los empleadores como para los demandantes de empleo.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centro de Estudios Ceinmark",
+    "city": "Santander",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://ceinmark.net/",
+    "evidence_quote": "C/ Vargas, 65 (Acceso C/ Puente Viesgo) Santander C.P.: 39010"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a list of specific partner universities or companies on its website, only mentioning that it collaborates with European companies for student traineeships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.3,
+  "crawl_s": 21.4,
+  "ai_calls": 7,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     604
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 41.7
+ }
+}
