@@ -1,0 +1,84 @@
+{
+ "row_id": "r226",
+ "scraped_at": "2026-10-28T11:43:49Z",
+ "contacts": {
+  "row_id": "r226",
+  "institution_name": "Friedrich-Bayer-Realschule",
+  "institution_type": "school",
+  "official_website": "https://fbrs.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marcus Dätig",
+   "designation": "Headmaster / Realschulrektor",
+   "designation_local": "",
+   "email": "marcus.daetig@stadt.wuppertal.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://fbrs.de/schulleitung/",
+   "evidence_quote": "Realschulrektor Herr Marcus Dätig | marcus.daetig@stadt.wuppertal.de |"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Marcus Dätig is the principal (Realschulrektor) of the school and the appropriate primary administrative contact.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Bergische Musikschule",
+    "partner_country": "Deutschland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://fbrs.de/profil/erweiterter-musikunterricht/kooperationspartner-musik/",
+    "evidence_quote": "Bergische Musikschule",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bläserforum Köln",
+    "partner_country": "Deutschland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://fbrs.de/profil/erweiterter-musikunterricht/kooperationspartner-musik/",
+    "evidence_quote": "Bläserforum Köln",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Friedrich-Bayer-Realschule",
+    "city": "Wuppertal",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://fbrs.de/",
+    "evidence_quote": "42349 Wuppertal"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions visits to schools in Iceland, Finland, Sweden, Tallinn, and Guadeloupe under an Erasmus+ project, but individual partner school names for those countries are not explicitly listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 12.2,
+  "crawl_s": 41.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 55.5
+ }
+}
