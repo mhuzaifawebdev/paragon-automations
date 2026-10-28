@@ -1,0 +1,85 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-10-28T15:47:17Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "C.I.F.P. EMILIO CAMPUZANO L.H.I.I.",
+  "institution_type": "college",
+  "official_website": "https://www.atxuri.net/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@atxuri.net",
+  "generic_email_url": "https://www.atxuri.net/",
+  "contact": {
+   "name": "Proyectos Europeos",
+   "designation": "European Projects Office",
+   "designation_local": "",
+   "email": "proyectos-europeos@atxuri.net",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.atxuri.net/erasmus/",
+   "evidence_quote": "Contacto <proyectos-europeos@atxuri.net>"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. This is the dedicated contact email for Erasmus+ and international projects at the institution.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Escola Artística de Soares dos Reis",
+    "partner_country": "Portugal",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.atxuri.net/erasmus-proyecto-ka210-2/",
+    "evidence_quote": "El proyecto reúne al CIFP Emilio Campuzano LHII de Bilbao, la Escola Artística de Soares dos Reis de Oporto y ColorADD en una colaboración centrada en el daltonismo, el diseño inclusivo y la aplicación del código ColorADD como herramienta para facilitar la identificación de los colores.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ColorADD",
+    "partner_country": "Portugal",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.atxuri.net/erasmus-proyecto-ka210-2/",
+    "evidence_quote": "El proyecto reúne al CIFP Emilio Campuzano LHII de Bilbao, la Escola Artística de Soares dos Reis de Oporto y ColorADD en una colaboración centrada en el daltonismo, el diseño inclusivo y la aplicación del código ColorADD como herramienta para facilitar la identificación de los colores.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "CIFP EMILIO CAMPUZANO L.H.I.I.",
+    "city": "Bilbao",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.atxuri.net/",
+    "evidence_quote": "Atxuri - 48006 BILBAO."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of all Erasmus+ partners, only those involved in specific projects like the KA210-VET initiative.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.9,
+  "crawl_s": 23.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 29.9
+ }
+}
