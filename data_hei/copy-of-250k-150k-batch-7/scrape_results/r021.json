@@ -1,0 +1,106 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-10-28T19:13:16Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "Fritz-Henßler-Berufskolleg",
+  "institution_type": "college",
+  "official_website": "https://www.fhbk.de/",
+  "country": null,
+  "phone": {
+   "value": "0231 50 231 54",
+   "source_url": "https://www.fhbk.de/das-fhbk/schulleitung",
+   "evidence_quote": "SchulleiterHerr M. Vorspohl0231 50 231 54 <tel 0231 50 231 54>verwaltung[at]fhbk.de"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@fhbk.de",
+  "generic_email_url": "https://www.fhbk.de/das-fhbk/erasmus",
+  "contact": {
+   "name": "M. Vorspohl",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "0231 50 231 54",
+   "source_url": "https://www.fhbk.de/das-fhbk/schulleitung",
+   "evidence_quote": "SchulleiterHerr M. Vorspohl0231 50 231 54 <tel 0231 50 231 54>verwaltung[at]fhbk.de"
+  },
+  "alternates": [
+   {
+    "name": "S. Becker",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "0231 50 231 54",
+    "source_url": "https://www.fhbk.de/das-fhbk/schulleitung",
+    "evidence_quote": "Stellvertretender SchulleiterHerr S. Becker0231 50 231 54 <tel 0231 50 231 54>verwaltung[at]fhbk.de",
+    "why_chosen": "Principal / director (no Erasmus contact found). S. Becker is the deputy principal of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). M. Vorspohl is the principal of the institution and was identified as a contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fritz-Henssler-Berufskolleg der Stadt Dortmund",
+    "city": "Dortmund",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.fhbk.de/",
+    "evidence_quote": "Fritz-Henssler-Berufskolleg der Stadt Dortmund"
+   },
+   {
+    "campus_name": "Abteilung Brauer und Mälzer, Brenner, Destillateure",
+    "city": "Dortmund",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.fhbk.de/",
+    "evidence_quote": "Abteilung Brauer und Mälzer, Brenner, Destillateure"
+   },
+   {
+    "campus_name": "Bildungszentrum Hansemann",
+    "city": "Dortmund",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.fhbk.de/",
+    "evidence_quote": "Abteilung Gerüstbau"
+   },
+   {
+    "campus_name": "Bauabteilung",
+    "city": "Dortmund",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.fhbk.de/",
+    "evidence_quote": "Bauabteilung"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides information about the institution's Erasmus+ program and internal departments, but does not list specific partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 9.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 13.5
+ }
+}
