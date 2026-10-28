@@ -1,0 +1,116 @@
+{
+ "row_id": "r434",
+ "scraped_at": "2026-10-28T10:56:42Z",
+ "contacts": {
+  "row_id": "r434",
+  "institution_name": "Gerry",
+  "institution_type": "school",
+  "official_website": "https://stfergalscollege.com/",
+  "country": null,
+  "phone": {
+   "value": "+353 (505) 46 357",
+   "source_url": "https://stfergalscollege.com/",
+   "evidence_quote": "+353 (505) 46 357 <tel +35350546357>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Laois County Council",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://stfergalscollege.com/extra-curricular/steam-club/",
+    "evidence_quote": "Partnership with Laois County Council",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LOETB",
+    "partner_country": "Ireland",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://stfergalscollege.com/",
+    "evidence_quote": "[LOETB S.T.E.A.M. Showcase at Portlaoise College]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Portlaoise College",
+    "partner_country": "Ireland",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://stfergalscollege.com/",
+    "evidence_quote": "[LOETB S.T.E.A.M. Showcase at Portlaoise College]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UniqueSchools",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://stfergalscollege.com/",
+    "evidence_quote": "Design by UniqueSchools",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ETB",
+    "partner_country": "Ireland",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://stfergalscollege.com/our-school/about-us/",
+    "evidence_quote": "We are an ETB school and our principles are based on the Values and pillars of the ETB:",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "St. Fergal’s College",
+    "city": "Rathdowney",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://stfergalscollege.com/",
+    "evidence_quote": "St. Fergal’s College,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 3,
+  "coverage_note": "The website does not list any specific staff members or Erasmus+ coordinators. There is no list of international partners provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.8,
+  "crawl_s": 32.7,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.4,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     81
+    ],
+    "returned": 6,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 68.4
+ }
+}
