@@ -1,0 +1,70 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-10-28T17:38:25Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "Berufsbildungszentrum Neuss Weingartstrasse, Berufskolleg für Wirtschaft und Informatik des Rhein-Kreises-Neuss",
+  "institution_type": "college",
+  "official_website": "https://www.berufskolleg-neuss.de/",
+  "country": null,
+  "phone": {
+   "value": "02131 7407-0",
+   "source_url": "https://www.berufskolleg-neuss.de/",
+   "evidence_quote": "Telefon: 02131 7407-0"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dieter Bullmann",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.berufskolleg-neuss.de/unsere-schule/schulleitung/",
+   "evidence_quote": "Dieter Bullmann ... (Schulleiter)"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Dieter Bullmann is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufsbildungszentrum Neuss-Weingartstraße",
+    "city": "Neuss",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.berufskolleg-neuss.de/",
+    "evidence_quote": "Berufsbildungszentrum Neuss-Weingartstraße"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 6,
+  "coverage_note": "The institution mentions international exchanges and internships in France, Austria, and China, but does not provide a formal list of partner institutions. No specific Erasmus+ coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 7.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.4,
+  "total_seconds": 32.9
+ }
+}

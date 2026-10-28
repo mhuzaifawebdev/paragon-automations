@@ -1,0 +1,89 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T17:38:26Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Adolf-Kolping-Schule Lohne, Berufsbildende Schulen II des Landkreises Vechta",
+  "institution_type": "college",
+  "official_website": "https://www.berufsschule-lohne.de/",
+  "country": null,
+  "phone": {
+   "value": "04442-951 0",
+   "source_url": "https://www.berufsschule-lohne.de/",
+   "evidence_quote": "Telefon: 04442-951 0 <tel 044429510>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@berufsschule-lohne.de",
+  "generic_email_url": "https://www.berufsschule-lohne.de/",
+  "contact": {
+   "name": "Janett Schmedes",
+   "designation": "Beauftragte für Auslandsaktivitäten/ Schüleraustausch/ Erasmus+",
+   "designation_local": "",
+   "email": "schmedes@berufsschule-lohne.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.berufsschule-lohne.de/erasmus/",
+   "evidence_quote": "Janett Schmedes ... Beauftragte für Auslandsaktivitäten/ Schüleraustausch/ Erasmus+ an der AKS"
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. She is the designated Erasmus+ coordinator and contact person for international mobility at the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Portugal",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.berufsschule-lohne.de/erasmus/",
+    "evidence_quote": "Portugal",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ungarn",
+    "partner_country": "Hungary",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.berufsschule-lohne.de/erasmus/",
+    "evidence_quote": "Ungarn",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Adolf-Kolping-Schule Lohne",
+    "city": "Lohne",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.berufsschule-lohne.de/",
+    "evidence_quote": "Adolf-Kolping-Schule Lohne"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution lists Portugal and Hungary as partner countries for Erasmus+ mobility, but does not provide a specific list of partner universities or companies.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 23.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 6.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 33.7
+ }
+}

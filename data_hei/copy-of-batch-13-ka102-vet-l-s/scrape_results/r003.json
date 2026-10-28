@@ -1,0 +1,83 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-10-28T17:38:25Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "BHAK/BHAS Gänserndorf",
+  "institution_type": "school",
+  "official_website": "https://www.hakgaenserndorf.ac.at/",
+  "country": null,
+  "phone": {
+   "value": "02282 2291-12",
+   "source_url": "https://www.hakgaenserndorf.ac.at/personen/schulleitung",
+   "evidence_quote": "02282 2291-12"
+  },
+  "phone_alt": [],
+  "generic_email": "office@hakgaenserndorf.ac.at",
+  "generic_email_url": "https://www.hakgaenserndorf.ac.at/",
+  "contact": {
+   "name": "Christoph Jank",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "christoph.jank@hakgaenserndorf.ac.at",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.hakgaenserndorf.ac.at/personen/umweltteam",
+   "evidence_quote": "Mag. Christoph Jank ... | Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Sabrina Tepely",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "office@hakgaenserndorf.ac.at",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.hakgaenserndorf.ac.at/personen/umweltteam",
+    "evidence_quote": "Sabrina Tepely ... | Sekretärin",
+    "why_chosen": "Secretary / administration (last resort). Sabrina Tepely is the secretary of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Christoph Jank is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bundeshandelsakademie und Bundeshandelsschule Gänserndorf",
+    "city": "Gänserndorf",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://www.hakgaenserndorf.ac.at/",
+    "evidence_quote": "Bundeshandelsakademie und Bundeshandelsschule Gänserndorf"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The website mentions Erasmus+ as a program, but does not provide a list of partner institutions or specific international mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 8.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 0.0,
+  "total_seconds": 32.6
+ }
+}

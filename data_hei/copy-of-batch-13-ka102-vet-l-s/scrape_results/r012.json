@@ -1,0 +1,88 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-28T17:38:47Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Stauffenbergschule",
+  "institution_type": "school",
+  "official_website": "https://www.stauffenbergschule-frankfurt.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Sven Schaudinn",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.stauffenbergschule-frankfurt.de/schule/schulleitung-kollegium.html",
+   "evidence_quote": "SVEN SCHAUDINN ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Dirk Schrapel",
+    "designation": "Erasmus+ Project Lead",
+    "designation_local": "",
+    "email": "Dirk.Schrapel@stauffenbergschule-frankfurt.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.stauffenbergschule-frankfurt.de/schule/erasmus.html",
+    "evidence_quote": "Durch einen Auslandsaufenthalt während der Berufsausbildung werden neben den fachlichen und sprachlichen Qualifikationen insbesondere die Schlüsselkompetenzen wie Flexibilität, Kommunikationsfähigkeit, Offenheit, Selbstorganisation und Eigenständigkeit gefördert. Dem folgt auch das Konzept des Erasmus+ Programms an der Stauffenbergschule. Mit der Unterstützung des Projektleiters und der Ausbildungsbetriebe organisieren die Auszubildenden ihren Aufenthalt weitgehend selbständig. Die eigenständige ... Sie benötigen hierfür Beratung und finanzielle Unterstützung? Wenden Sie sich an Dirk.Schrapel@stauffenbergschule-frankfurt.de <Dirk.Schrapel@stauffenbergschule-frankfurt.de>",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is explicitly identified as the project leader for Erasmus+ and the contact person for students seeking advice and support for international internships."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the head of the institution and was identified as a contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 6 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EU-Parlament",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stauffenbergschule-frankfurt.de/schule/erasmus.html",
+    "evidence_quote": "Außerdem besuchte im Schuljahr 2025/26 eine Klasse über eine Gruppenmobilität gemeinsam mit österreichischen Azubis das EU-Parlament in Straßburg.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stauffenbergschule",
+    "city": "Frankfurt am Main",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.stauffenbergschule-frankfurt.de/",
+    "evidence_quote": "Stauffenbergschule - Arnsburger Straße 44 - 60385 Frankfurt am Main - Impressum & Datenschutz"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not provide a formal list of partner institutions or a total count of agreements. Information regarding specific Erasmus+ partners is limited to the mention of an EU institution. 6 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 15.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 20.6
+ }
+}
