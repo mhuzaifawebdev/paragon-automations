@@ -1,0 +1,111 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-10-28T15:50:09Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "Stichting Regionaal Opleidingen Centrum Rivor",
+  "institution_type": "college",
+  "official_website": "https://www.rocrivor.nl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Koning Willem I College",
+    "partner_country": "Netherlands",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rocrivor.nl/",
+    "evidence_quote": "[Samen met het Koning Willem I College]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VNO-NCW Rivierenland",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rocrivor.nl/mbo-opleidingen/bbl/opleiding-logistiek-teamleider/",
+    "evidence_quote": "ROC Rivor heeft deze opleiding ontwikkeld in samenwerking met het bedrijfsleven uit regio Rivierenland en VNO-NCW Rivierenland.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "bedrijfsleven uit regio Rivierenland",
+    "partner_country": "Netherlands",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rocrivor.nl/mbo-opleidingen/bbl/opleiding-logistiek-teamleider/",
+    "evidence_quote": "ROC Rivor heeft deze opleiding ontwikkeld in samenwerking met het bedrijfsleven uit regio Rivierenland en VNO-NCW Rivierenland.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "ROC Rivor Tiel",
+    "city": "Tiel",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.rocrivor.nl/",
+    "evidence_quote": "ROC Rivor is dichtbij jou met locaties in Tiel en Geldermalsen."
+   },
+   {
+    "campus_name": "ROC Rivor Geldermalsen",
+    "city": "Geldermalsen",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.rocrivor.nl/",
+    "evidence_quote": "ROC Rivor is dichtbij jou met locaties in Tiel en Geldermalsen."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The evidence does not provide a formal list of international Erasmus+ partners or mobility agreements. The institution focuses on regional cooperation with local businesses and the Koning Willem I College.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 11.9,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     382
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 46.3
+ }
+}
