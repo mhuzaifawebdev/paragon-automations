@@ -1,0 +1,107 @@
+{
+ "row_id": "r042",
+ "scraped_at": "2026-10-28T16:39:16Z",
+ "contacts": {
+  "row_id": "r042",
+  "institution_name": "Berufskolleg des Rhein-Erft-Kreises in Bergheim",
+  "institution_type": "college",
+  "official_website": "https://www.berufskolleg-bergheim.de/",
+  "country": null,
+  "phone": {
+   "value": "+490227147910",
+   "source_url": "https://www.berufskolleg-bergheim.de/",
+   "evidence_quote": "Telefon: 02271 – 47910 <tel +490227147910>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@berufskolleg-bergheim.de",
+  "generic_email_url": "https://www.berufskolleg-bergheim.de/",
+  "contact": {
+   "name": "Anna Emmans",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "info@berufskolleg-bergheim.de",
+   "office_email": "",
+   "phone": "02271 4791-0",
+   "source_url": "https://www.berufskolleg-bergheim.de/schulleitung/",
+   "evidence_quote": "Anna Emmans ... Schulleiterin"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Anna Emmans is the principal of the institution and the primary contact person.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "biss akademie",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.berufskolleg-bergheim.de/",
+    "evidence_quote": "[cropped-biss_akademie_logo_header_big]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "matia-hilf-krankenhaus",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.berufskolleg-bergheim.de/",
+    "evidence_quote": "[matia-hilf-krankenhaus]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Standort Kettelerstraße",
+    "city": "Bergheim",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.berufskolleg-bergheim.de/",
+    "evidence_quote": "Anschrift: Kettelerstraße 2, 50126 Bergheim"
+   },
+   {
+    "campus_name": "Standort Kentener Wiesen",
+    "city": "Bergheim",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.berufskolleg-bergheim.de/",
+    "evidence_quote": "Kentener Wiesen 41"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 3,
+  "coverage_note": "The website mentions a section for cooperation partners but does not list specific names or details of these partners. No information regarding Erasmus+ or international mobility programs is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 6.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     138
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 12.3
+ }
+}
