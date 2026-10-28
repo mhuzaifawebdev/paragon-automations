@@ -1,0 +1,83 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-28T16:50:23Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "ISTITUTO OMNICOMPRENSIVO STATALE DI RICCIA",
+  "institution_type": "school",
+  "official_website": "https://www.omnicomprensivodelfortore.edu.it/",
+  "country": null,
+  "phone": {
+   "value": "0874/716801",
+   "source_url": "https://www.omnicomprensivodelfortore.edu.it/",
+   "evidence_quote": "0874/716801"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Eleonogia Perone",
+   "designation": "Person responsible for the transmission and publication of documents, information and data",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.omnicomprensivodelfortore.edu.it/",
+   "evidence_quote": "Responsabile della trasmissione e pubblicazione di documenti informazioni e dati ex. Art. 10 d.lgs 33/2013 ss.mm.ii. – d.lgs 97/2016 Dr.ssa Eleonogia Perone"
+  },
+  "alternates": [
+   {
+    "name": "Guido Palladino",
+    "designation": "Data Protection Officer",
+    "designation_local": "",
+    "email": "guido.palladino.dpo@gmail.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.omnicomprensivodelfortore.edu.it/",
+    "evidence_quote": "DPO: Guido Palladino",
+    "why_chosen": "Other role. He is the Data Protection Officer for the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. She is the designated official responsible for the transmission and publication of institutional documents and data.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Istituto Omnicomprensivo del Fortore",
+    "city": "Riccia",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.omnicomprensivodelfortore.edu.it/",
+    "evidence_quote": "Istituto Omnicomprensivo del Fortore Riccia - S.Elia"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions Erasmus+ projects and mobility activities but does not provide a specific list of partner institutions. No specific Erasmus coordinator contact is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.3,
+  "crawl_s": 23.3,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 1.2,
+  "total_seconds": 42.6
+ }
+}
