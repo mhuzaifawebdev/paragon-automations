@@ -1,0 +1,88 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-28T17:10:28Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "SKIVE COLLEGE",
+  "institution_type": "college",
+  "official_website": "https://skivecollege.dk/",
+  "country": null,
+  "phone": {
+   "value": "99 14 14 14",
+   "source_url": "https://skivecollege.dk/",
+   "evidence_quote": "T: 99 14 14 14 <tel 99141414>"
+  },
+  "phone_alt": [],
+  "generic_email": "skivecollege@skivecollege.dk",
+  "generic_email_url": "https://skivecollege.dk/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Skive College EUD/EUX",
+    "city": "Skive",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://skivecollege.dk/kontakt/",
+    "evidence_quote": "Kongsvingervej 1, 7800 Skive"
+   },
+   {
+    "campus_name": "Oplæringscenter",
+    "city": "Skive",
+    "country": "Denmark",
+    "role": "branch",
+    "source_url": "https://skivecollege.dk/kontakt/",
+    "evidence_quote": "H C Ørsteds Vej 30, 7800 Skive"
+   },
+   {
+    "campus_name": "Skive College HHX og HTX",
+    "city": "Skive",
+    "country": "Denmark",
+    "role": "branch",
+    "source_url": "https://skivecollege.dk/kontakt/",
+    "evidence_quote": "Arvikavej 2B, 7800 Skive"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The website does not list any specific international relations staff or a list of partner institutions. The contact person mentioned in the prompt was not found in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 5.3,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     115
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 20.4
+ }
+}
