@@ -1,0 +1,611 @@
+{
+ "row_id": "r029",
+ "scraped_at": "2026-10-28T17:40:54Z",
+ "contacts": {
+  "row_id": "r029",
+  "institution_name": "Deutsche Angestellten-Akademie GmbH Aalen",
+  "institution_type": "college",
+  "official_website": "https://daa.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Carmen Grabenhorst",
+   "designation": "Managing Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://daa.de/ueber-uns/unser-management",
+   "evidence_quote": "Carmen Grabenhorst ... Geschäftsleiterin"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Carmen Grabenhorst is a Managing Director at the DAA with long-standing experience in the institution's management and processes.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "BAMF",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://daa.de/",
+    "evidence_quote": "[Logo BAMF]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HFH",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://daa.de/",
+    "evidence_quote": "[Logo HFH]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "DAA Technikum",
+    "partner_country": "Germany",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://daa.de/",
+    "evidence_quote": "[Logo DAA Technikum]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "DATEV",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://daa.de/",
+    "evidence_quote": "[Logo DATEV Bildungspartner]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TOEIC",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://daa.de/",
+    "evidence_quote": "[Logo TOEIC]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Der Paritätische",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://daa.de/",
+    "evidence_quote": "[Logo Der Paritätische]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Microsoft",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://daa.de/",
+    "evidence_quote": "[Logo Microsoft]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SAP",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://daa.de/",
+    "evidence_quote": "[Logo SAP Bildungspartner]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "DAA Ostwürttemberg",
+    "city": "Aalen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Ostwürttemberg"
+   },
+   {
+    "campus_name": "DAA Albstadt",
+    "city": "Albstadt",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Albstadt"
+   },
+   {
+    "campus_name": "DAA Bad Säckingen",
+    "city": "Bad Säckingen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Bad Säckingen"
+   },
+   {
+    "campus_name": "DAA Balingen",
+    "city": "Balingen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Balingen"
+   },
+   {
+    "campus_name": "DAA Böblingen",
+    "city": "Böblingen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Böblingen"
+   },
+   {
+    "campus_name": "DAA Schwäbisch Hall",
+    "city": "Crailsheim",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Schwäbisch Hall"
+   },
+   {
+    "campus_name": "DAA Landkreis Esslingen",
+    "city": "Esslingen am Neckar",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Landkreis Esslingen"
+   },
+   {
+    "campus_name": "DAA Freiburg",
+    "city": "Freiburg im Breisgau",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Freiburg"
+   },
+   {
+    "campus_name": "DAA Göppingen",
+    "city": "Göppingen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Göppingen"
+   },
+   {
+    "campus_name": "DAA Heidelberg",
+    "city": "Heidelberg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Heidelberg"
+   },
+   {
+    "campus_name": "DAA Karlsruhe",
+    "city": "Karlsruhe",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Karlsruhe"
+   },
+   {
+    "campus_name": "DAA Konstanz",
+    "city": "Konstanz",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Konstanz"
+   },
+   {
+    "campus_name": "DAA Lörrach",
+    "city": "Lörrach",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Lörrach"
+   },
+   {
+    "campus_name": "DAA Lottstetten",
+    "city": "Lottstetten",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Lottstetten"
+   },
+   {
+    "campus_name": "DAA Ludwigsburg",
+    "city": "Ludwigsburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Ludwigsburg"
+   },
+   {
+    "campus_name": "DAA Mannheim",
+    "city": "Mannheim",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Mannheim"
+   },
+   {
+    "campus_name": "DAA Nürtingen",
+    "city": "Nürtingen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Nürtingen"
+   },
+   {
+    "campus_name": "DAA Offenburg",
+    "city": "Offenburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Offenburg"
+   },
+   {
+    "campus_name": "DAA Pforzheim",
+    "city": "Pforzheim",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Pforzheim"
+   },
+   {
+    "campus_name": "DAA Radolfzell",
+    "city": "Radolfzell am Bodensee",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Radolfzell"
+   },
+   {
+    "campus_name": "DAA Rastatt",
+    "city": "Rastatt",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Rastatt"
+   },
+   {
+    "campus_name": "DAA Reutlingen",
+    "city": "Reutlingen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Reutlingen"
+   },
+   {
+    "campus_name": "DAA Singen",
+    "city": "Singen (Hohentwiel)",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Singen"
+   },
+   {
+    "campus_name": "DAA Steißlingen",
+    "city": "Steißlingen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Steißlingen"
+   },
+   {
+    "campus_name": "DAA Stuttgart",
+    "city": "Stuttgart",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Stuttgart"
+   },
+   {
+    "campus_name": "DAA Tengen",
+    "city": "Tengen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Tengen"
+   },
+   {
+    "campus_name": "DAA Waiblingen",
+    "city": "Waiblingen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Baden-W%C3%BCrttemberg&cHash=9857ec9ba8638ca3e5f49566a8a45c0f",
+    "evidence_quote": "DAA Waiblingen"
+   },
+   {
+    "campus_name": "DAA Altötting",
+    "city": "Altötting",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Altötting"
+   },
+   {
+    "campus_name": "DAA Augsburg",
+    "city": "Augsburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Augsburg"
+   },
+   {
+    "campus_name": "DAA Bad Tölz",
+    "city": "Bad Tölz",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Bad Tölz"
+   },
+   {
+    "campus_name": "DAA Bamberg",
+    "city": "Bamberg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Bamberg"
+   },
+   {
+    "campus_name": "DAA Bayreuth",
+    "city": "Bayreuth",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Bayreuth"
+   },
+   {
+    "campus_name": "DAA Coburg",
+    "city": "Coburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Coburg"
+   },
+   {
+    "campus_name": "DAA Donauwörth",
+    "city": "Donauwörth",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Donauwörth"
+   },
+   {
+    "campus_name": "DAA Erlangen",
+    "city": "Erlangen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Erlangen"
+   },
+   {
+    "campus_name": "DAA Forchheim",
+    "city": "Forchheim",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Forchheim"
+   },
+   {
+    "campus_name": "DAA Freyung",
+    "city": "Freyung",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Freyung"
+   },
+   {
+    "campus_name": "DAA Fürstenfeldbruck",
+    "city": "Fürstenfeldbruck",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Fürstenfeldbruck"
+   },
+   {
+    "campus_name": "DAA Fürth",
+    "city": "Fürth",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Fürth"
+   },
+   {
+    "campus_name": "DAA Füssen",
+    "city": "Füssen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Füssen"
+   },
+   {
+    "campus_name": "DAA Grafenau",
+    "city": "Grafenau",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Grafenau"
+   },
+   {
+    "campus_name": "DAA Illertissen",
+    "city": "Illertissen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Illertissen"
+   },
+   {
+    "campus_name": "DAA Ingolstadt",
+    "city": "Ingolstadt",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Ingolstadt"
+   },
+   {
+    "campus_name": "DAA Kaufbeuren",
+    "city": "Kaufbeuren",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Kaufbeuren"
+   },
+   {
+    "campus_name": "DAA Regensburg",
+    "city": "Kelheim",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Regensburg"
+   },
+   {
+    "campus_name": "DAA Kempten",
+    "city": "Kempten (Allgäu)",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Kempten"
+   },
+   {
+    "campus_name": "DAA Kronach",
+    "city": "Kronach",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Kronach"
+   },
+   {
+    "campus_name": "DAA Memmingen",
+    "city": "Memmingen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Memmingen"
+   },
+   {
+    "campus_name": "DAA Nürnberg",
+    "city": "Nürnberg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Nürnberg"
+   },
+   {
+    "campus_name": "DAA Passau",
+    "city": "Passau",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Passau"
+   },
+   {
+    "campus_name": "DAA Pfarrkirchen",
+    "city": "Pfarrkirchen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Pfarrkirchen"
+   },
+   {
+    "campus_name": "DAA Rosenheim",
+    "city": "Rosenheim",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Rosenheim"
+   },
+   {
+    "campus_name": "DAA Schwabach",
+    "city": "Schwabach",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Schwabach"
+   },
+   {
+    "campus_name": "DAA Sonthofen",
+    "city": "Sonthofen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Sonthofen"
+   },
+   {
+    "campus_name": "DAA Traunstein",
+    "city": "Traunstein",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Traunstein"
+   },
+   {
+    "campus_name": "DAA Waldkirchen",
+    "city": "Waldkirchen",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Waldkirchen"
+   },
+   {
+    "campus_name": "DAA Waldkraiburg",
+    "city": "Waldkraiburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Waldkraiburg"
+   },
+   {
+    "campus_name": "DAA Wasserburg",
+    "city": "Wasserburg a. Inn",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Bstate%5D=Bayern&cHash=136f03218b977c87b6c1d8132bc27dfb",
+    "evidence_quote": "DAA Wasserburg"
+   },
+   {
+    "campus_name": "DAA Berlin",
+    "city": "Berlin",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Blocation%5D=Berlin&cHash=62ec7e719fba22b174565a2aa749a0fc",
+    "evidence_quote": "DAA Berlin"
+   },
+   {
+    "campus_name": "DAA Dresden",
+    "city": "Dresden",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://daa.de/kontakt/daa-standorte?tx_smediacourse_location%5Baction%5D=detail&tx_smediacourse_location%5Bcontroller%5D=Location&tx_smediacourse_location%5Blocation%5D=Dresden&cHash=025f99370cc5ac261fe4f6cb9f26be90",
+    "evidence_quote": "DAA Dresden"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 8,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of many DAA branch locations across Germany but does not contain a specific list of international Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 13.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 27.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 44.2
+ }
+}

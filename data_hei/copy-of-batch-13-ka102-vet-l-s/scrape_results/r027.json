@@ -1,0 +1,80 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-10-28T17:40:42Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "Berufsbildende Schulen Kirchdorf",
+  "institution_type": "school",
+  "official_website": "https://www.hakhlw-kirchdorf.at/",
+  "country": null,
+  "phone": {
+   "value": "07582606810",
+   "source_url": "https://www.hakhlw-kirchdorf.at/",
+   "evidence_quote": "<tel 07582606810>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Claudia Trinko",
+   "designation": "Head of the school",
+   "designation_local": "",
+   "email": "c.trinko@bbs-kirchdorf.at",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.hakhlw-kirchdorf.at/lebensraum-schule/schulpersonal",
+   "evidence_quote": "Mag. Claudia Trinko ... Leiterin des Bundesschulverbunds"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Claudia Trinko is the head of the institution and is listed as a contact for international mobility.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "HAK Trutnov",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hakhlw-kirchdorf.at/ausbildung/erasmus",
+    "evidence_quote": "Es gibt eine schon lange bestehende, erfolgreiche Schulpartnerschaft mit der HAK Trutnov aus Tschechien, mit der wir schon viel erlebt haben und viel gereist sind.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "HAK | HLW Kirchdorf",
+    "city": "Kirchdorf",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://www.hakhlw-kirchdorf.at/",
+    "evidence_quote": "HAK | HLW Kirchdorf"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 9,
+  "coverage_note": "The evidence mentions an intention to initiate new partnerships in Spain, Italy, or Sweden, but does not provide a comprehensive list of current Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 11.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 32.3
+ }
+}
