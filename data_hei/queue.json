@@ -167,21 +167,31 @@
    "source": "IBRAHIM BATCH-2 STAFF MOBILITY KA 101",
    "file_id": "1L0C4XYpr7ztvFllmfvbv0YmoSPrK5CQ8JEAuolNZgPM",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 570,
    "started": "2026-10-27T21:34:06Z",
    "last_start": "2026-10-28T01:57:06Z",
    "restarts": 2,
    "cap_usd": 838.81,
-   "note": "Today's free AI allowance is used up."
+   "note": "Today's free AI allowance is used up.",
+   "spend_recorded": true,
+   "cost_usd": 2.6505,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1tlRajD5XoseyZ2Be63zCSYj-ePdr6XkF/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 468,
+   "finished": "2026-10-28T11:09:17Z",
+   "reason": "474 institutes, 315 with a contact"
   },
   {
    "batch": "copy-of-unique-legacy-database-4507",
    "source": "Copy of UNiQUE Legacy Database-4507+KA101",
    "file_id": "1uM1SfccqOuyjrjEyioYsvy6Lmr4I0b-NHljFKuOsJpM",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 657
+   "state": "running",
+   "rows": 657,
+   "started": "2026-10-28T11:09:17Z",
+   "last_start": "2026-10-28T11:09:17Z",
+   "restarts": 0,
+   "cap_usd": 836.16
   },
   {
    "batch": "batch-1-bilal-24-10-2025-staff-mobil",
@@ -1913,10 +1923,50 @@
    "state": "queued",
    "rows": 43,
    "note": "Read the sheet 'Clean_Unique_Leads'."
+  },
+  {
+   "batch": "merged-legacy-database-unccc-5533-p1",
+   "source": "Merged Legacy Database UNCCC-5533",
+   "file_id": "1h7GXfzi7q5LI67orYOBA3O6jUqFkDzgOYaZjQwGa3OE",
+   "added": "2026-10-28T11:09:18Z",
+   "state": "queued",
+   "rows": 999,
+   "part": "1/4",
+   "note": "Read the sheet 'Clean_Unique_Leads'."
+  },
+  {
+   "batch": "merged-legacy-database-unccc-5533-p2",
+   "source": "Merged Legacy Database UNCCC-5533",
+   "file_id": "1h7GXfzi7q5LI67orYOBA3O6jUqFkDzgOYaZjQwGa3OE",
+   "added": "2026-10-28T11:09:18Z",
+   "state": "queued",
+   "rows": 1000,
+   "part": "2/4",
+   "note": "Read the sheet 'Clean_Unique_Leads'."
+  },
+  {
+   "batch": "merged-legacy-database-unccc-5533-p3",
+   "source": "Merged Legacy Database UNCCC-5533",
+   "file_id": "1h7GXfzi7q5LI67orYOBA3O6jUqFkDzgOYaZjQwGa3OE",
+   "added": "2026-10-28T11:09:18Z",
+   "state": "queued",
+   "rows": 1000,
+   "part": "3/4",
+   "note": "Read the sheet 'Clean_Unique_Leads'."
+  },
+  {
+   "batch": "merged-legacy-database-unccc-5533-p4",
+   "source": "Merged Legacy Database UNCCC-5533",
+   "file_id": "1h7GXfzi7q5LI67orYOBA3O6jUqFkDzgOYaZjQwGa3OE",
+   "added": "2026-10-28T11:09:18Z",
+   "state": "queued",
+   "rows": 367,
+   "part": "4/4",
+   "note": "Read the sheet 'Clean_Unique_Leads'."
   }
  ],
  "paused": null,
- "updated": "2026-10-28T08:46:35Z",
+ "updated": "2026-10-28T11:09:17Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
@@ -2144,6 +2194,7 @@
   "1VDzZd2T9eLyFSO6ADEJk0W5MLv_kZoF70DAy0dm9kNg",
   "1UovjFMW3tcIQarNMZShc9KBLqHqtRs_9mUXLmTkii-k",
   "1FpCvcenP7D2kDnRzUHDIXlzJs59YDsbnv36p8VY2_5Q",
-  "1KRAMUIDQXHuop-9lhFhgAXrNfG8iXLWgX_LRyk2YfMA"
+  "1KRAMUIDQXHuop-9lhFhgAXrNfG8iXLWgX_LRyk2YfMA",
+  "1h7GXfzi7q5LI67orYOBA3O6jUqFkDzgOYaZjQwGa3OE"
  ]
 }
