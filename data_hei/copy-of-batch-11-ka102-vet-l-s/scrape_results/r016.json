@@ -1,0 +1,98 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-10-28T16:35:16Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "Helene-Engelbrecht_Schule",
+  "institution_type": "college",
+  "official_website": "https://helene-engelbrecht-schule.de/",
+  "country": null,
+  "phone": {
+   "value": "0531 4704184",
+   "source_url": "https://helene-engelbrecht-schule.de/",
+   "evidence_quote": "Telefon: 0531 4704184"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Constantin Haußmann",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "constantin.haussmann@braunschweig.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://helene-engelbrecht-schule.de/menschen-unserer-schule/erweiterte-schulleitung/",
+   "evidence_quote": "Constantin Haußmann ... Schulleiter"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Constantin Haußmann is the principal of the institution and is listed as the contact on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ålholmhjemmet",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://helene-engelbrecht-schule.de/schulleben/daenemarkeinsatz-erasmus-2019/",
+    "evidence_quote": "Wir: Aliya, Finja und Linda (Auszubildende der Altenpflege) und Moritz (Auszubildender der Heilerziehungspflege), durften (wie die Schüler in den vergangenen Jahren auch), in das kleine Städtchen Hillerød reisen. Dort arbeiten wir 5 Wochen im Pflegeheim ‚Ålholmhjemmet‘.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Egebo",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://helene-engelbrecht-schule.de/schulleben/daenemarkeinsatz-erasmus-2019/",
+    "evidence_quote": "Chantal, John und Tim (Auszubildende der Pflegeassistenz) arbeiten für diese Zeit in den Pflegeheimen ‚Egebo‘ und ‚Bispebjerghjemmet‘ in Kopenhagen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bispebjerghjemmet",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://helene-engelbrecht-schule.de/schulleben/daenemarkeinsatz-erasmus-2019/",
+    "evidence_quote": "Chantal, John und Tim (Auszubildende der Pflegeassistenz) arbeiten für diese Zeit in den Pflegeheimen ‚Egebo‘ und ‚Bispebjerghjemmet‘ in Kopenhagen.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Helene-Engelbrecht-Schule",
+    "city": "Braunschweig",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://helene-engelbrecht-schule.de/",
+    "evidence_quote": "Salzdahlumer Straße 84"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 7,
+  "coverage_note": "The institution mentions participation in Erasmus+ but does not provide a formal list of partner institutions. The partners listed were identified from student mobility reports.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 10.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 15.6
+ }
+}
