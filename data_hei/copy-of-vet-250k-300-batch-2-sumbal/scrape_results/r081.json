@@ -1,0 +1,76 @@
+{
+ "row_id": "r081",
+ "scraped_at": "2026-10-28T18:09:28Z",
+ "contacts": {
+  "row_id": "r081",
+  "institution_name": "Società Dante Alighieri - Comitato di Graz",
+  "institution_type": "unknown",
+  "official_website": "https://www.dantegraz.at/",
+  "country": {
+   "value": "Österreich",
+   "source_url": "https://www.dantegraz.at/",
+   "evidence_quote": "Società Dante Alighieri Elisabethstr. 16, Elisabethstraße 16, 8010 Graz, Österreich"
+  },
+  "phone": {
+   "value": "0650 4464216",
+   "source_url": "https://www.dantegraz.at/",
+   "evidence_quote": "Anrufen <tel 0650 4464216>"
+  },
+  "phone_alt": [],
+  "generic_email": "office@dantegraz.at",
+  "generic_email_url": "https://www.dantegraz.at/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "iVents Kulturagentur Graz",
+    "partner_country": "Austria",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dantegraz.at/",
+    "evidence_quote": "[Logo iVents Kulturagentur Graz – Partner der Dante Alighieri Gesellschaft]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Società Dante Alighieri - Comitato di Graz",
+    "city": "Graz",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://www.dantegraz.at/",
+    "evidence_quote": "Elisabethstraße 16/II"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The institution is a cultural association rather than a degree-granting university. A formal list of Erasmus+ partner universities is not provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 8.5,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 40.9
+ }
+}
