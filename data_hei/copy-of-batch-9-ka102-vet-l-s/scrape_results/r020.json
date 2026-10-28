@@ -1,0 +1,89 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-10-28T17:44:51Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "Srednja sola Jesenice",
+  "institution_type": "school",
+  "official_website": "https://ssj-jesenice.si/",
+  "country": null,
+  "phone": {
+   "value": "04) 581 31 00",
+   "source_url": "https://ssj-jesenice.si/",
+   "evidence_quote": "(04) 581 31 00 <tel 045813100>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ines Rajgelj",
+   "designation": "mobility project coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ssj-jesenice.si/novice/razpis-za-erasmus-mobilnost/",
+   "evidence_quote": "Ines Rajgelj, koordinatorica projektov mobilnosti"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. She is explicitly identified as the coordinator of mobility projects.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Tellus Education Group",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://ssj-jesenice.si/erasmus-plus/",
+    "evidence_quote": "Po treh delovnih tednih v Angliji je v petek sledilo še zaključno dejanje – podelitev certifikatov o opravljeni praksi, ki jo je organizirala partnerska organizacija Tellus Education Group. Dijaki so se dobro odrezali in bili prav vsi za svoje delo pohvaljeni. Čestitke vsem!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Univerza Alicante",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ssj-jesenice.si/novice/uvodno-partnersko-srecanje/",
+    "evidence_quote": "Petra Alič in Monika Lotrič sta se v Španiji na Univerzi Alicante udeležili uvodnega partnerskega srečanja v okviru projekta Erasmus+ z naslovom CARE-ABILITY. Projekt je namenjen krepitvi zaposlitvenih možnosti ranljivih skupin prebivalstva. S pomočjo inovativnih pristopov k poklicnemu usposabljanju v socialno-zdravstvenih ustanovah bodo partnerji razvijali rešitve, ki bodo udeležencem omogočile pridobivanje konkretnih znanj, veščin in kompetenc za uspešnejšo vključitev na trg dela. Srečanja so ",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Srednja šola Jesenice",
+    "city": "Jesenice",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://ssj-jesenice.si/",
+    "evidence_quote": "Ulica bratov Rupar 2"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The evidence does not provide a comprehensive list of all Erasmus+ partners, only those mentioned in specific project reports.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 14.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 22.0
+ }
+}
