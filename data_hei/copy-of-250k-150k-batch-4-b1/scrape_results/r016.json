@@ -1,0 +1,90 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-10-28T19:41:24Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "EOI Huelva",
+  "institution_type": "college",
+  "official_website": "https://eoihuelva.es/",
+  "country": null,
+  "phone": {
+   "value": "671592723",
+   "source_url": "https://eoihuelva.es/",
+   "evidence_quote": "671592723"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Nepomucenum Gymnasium",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://eoihuelva.es/la-escuela/erasmusplus/",
+    "evidence_quote": "Se visitó la institución alemana Nepomucenum Gymnasium para aprender de sus buenas prácticas organizativas y metodológicas (aprendizaje por observación)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Heriburg Gymnasium",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://eoihuelva.es/la-escuela/erasmusplus/jobshadowing/",
+    "evidence_quote": "La institución de educación secundaria Nepomucenum Gymnasium fue fundada en 1627 y, actualmente, sus 70 docentes imparten docencia a unos 1000 alumnos y alumnas, siendo el centro educativo más grande de la ciudad. El centro mantiene una estrecha colaboración con el también centro educativo Heriburg Gymnasium, con el cual llevan a cabo numerosos «cursos cooperativos» desde hace años, coordinando asignaturas cursadas por alumnado de ambas escuelas.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Münster",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://eoihuelva.es/la-escuela/erasmusplus/jobshadowing/",
+    "evidence_quote": "Asimismo, el Nepomucenum Gymnasium desarrolla diversos proyectos culturales, sociales, deportivos y científicos en los que los estudiantes, orientados por el profesorado, participan en competiciones nacionales e internacionales. También a nivel local, la escuela participa en varios proyectos coordinando el intercambio con alumnado extranjero y cooperando con la universidad de Münster.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "EOI Huelva",
+    "city": "Huelva",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://eoihuelva.es/",
+    "evidence_quote": "Avda. de La Orden, s/n, 21005 Huelva."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ partners, but mentions specific institutions visited or collaborated with in the context of projects. No specific Erasmus coordinator contact details are provided beyond a general project email address.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 7.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 22.7
+ }
+}
