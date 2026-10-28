@@ -1,0 +1,66 @@
+{
+ "row_id": "r634",
+ "scraped_at": "2026-10-28T12:37:01Z",
+ "contacts": {
+  "row_id": "r634",
+  "institution_name": "Staatliche Berufsschule Wiesau",
+  "institution_type": "college",
+  "official_website": "https://www.bsz-wiesau.de/beruflicher-bildungscampus",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@bsz-wiesau.de",
+  "generic_email_url": "https://www.bsz-wiesau.de/beruflicher-bildungscampus",
+  "contact": {
+   "name": "Thomas Metzler",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bsz-wiesau.de/beruflicher-bildungscampus",
+   "evidence_quote": "Thomas Metzler, OStD ... Schulleiter"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the Schulleiter (Principal) of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Staatliches Berufliches Schulzentrum Wiesau",
+    "city": "Wiesau",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bsz-wiesau.de/beruflicher-bildungscampus",
+    "evidence_quote": "Pestalozzistraße 2"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions that networks with companies and schools in various countries exist, but it does not provide a specific list of partner names.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 16.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.9,
+  "total_seconds": 28.5
+ }
+}
