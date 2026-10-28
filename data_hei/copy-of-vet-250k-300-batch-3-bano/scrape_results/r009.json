@@ -1,0 +1,105 @@
+{
+ "row_id": "r009",
+ "scraped_at": "2026-10-28T18:18:11Z",
+ "contacts": {
+  "row_id": "r009",
+  "institution_name": "Zdravko",
+  "institution_type": "unknown",
+  "official_website": "http://novo.dec-kroatio.hr/hr/",
+  "country": {
+   "value": "Hrvatska",
+   "source_url": "http://novo.dec-kroatio.hr/hr/",
+   "evidence_quote": "Bana Jelačića 138 A, HR-48350 Đurđevac, Hrvatska"
+  },
+  "phone": {
+   "value": "+385 48 733 297",
+   "source_url": "http://novo.dec-kroatio.hr/hr/",
+   "evidence_quote": "+385 48 733 297"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Zdravko Seleš",
+   "designation": "President of DEC",
+   "designation_local": "",
+   "email": "zdravko.seles@skole.hr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://novo.dec-kroatio.hr/hr/kontakt/",
+   "evidence_quote": "Predsjednik DEC-a: ... Zdravko Seleš"
+  },
+  "alternates": [
+   {
+    "name": "Josip Pleadin",
+    "designation": "Secretary of DEC",
+    "designation_local": "",
+    "email": "josip.pleadin@gmail.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "http://novo.dec-kroatio.hr/hr/kontakt/",
+    "evidence_quote": "Tajnik DEC-a: ... Josip Pleadin",
+    "why_chosen": "Secretary / administration (last resort). Josip Pleadin is the Secretary of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Zdravko Seleš is the President of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Društvo esperantista Bjelovara",
+    "partner_country": "Croatia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://novo.dec-kroatio.hr/hr/europski-horizonti-za-rast/",
+    "evidence_quote": "sudionike sedam ranijih mobilnosti te za suradnike iz Društva esperantista Bjelovara i",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Udruga predavača esperanta",
+    "partner_country": "Croatia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://novo.dec-kroatio.hr/hr/europski-horizonti-za-rast/",
+    "evidence_quote": "Udruge predavača esperanta iz Zagreba, radi diseminacije rezultata projekta. Pozvani",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Dokumentacijski esperantski centar",
+    "city": "Đurđevac",
+    "country": "Hrvatska",
+    "role": "main",
+    "source_url": "http://novo.dec-kroatio.hr/hr/o-nama/",
+    "evidence_quote": "Sjedište: Bana Jelačića 138A, HR-48350 Đurđevac, Hrvatska"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The institution is an archive and cultural association rather than a traditional university or school. A formal list of Erasmus+ partners is not provided, though several collaborating organizations are mentioned in the project reports.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.7,
+  "crawl_s": 16.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 29.0
+ }
+}
