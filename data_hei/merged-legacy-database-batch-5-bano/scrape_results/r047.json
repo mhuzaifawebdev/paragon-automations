@@ -1,0 +1,147 @@
+{
+ "row_id": "r047",
+ "scraped_at": "2026-10-28T22:58:33Z",
+ "contacts": {
+  "row_id": "r047",
+  "institution_name": "Cristal 1",
+  "institution_type": "unknown",
+  "official_website": "https://www.eastman.com/en",
+  "country": {
+   "value": "USA",
+   "source_url": "https://www.eastman.com/en/careers/featured-locations",
+   "evidence_quote": "Tennessee, USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Amanda Allman",
+   "designation": "Health, Safety, Environment and Energy",
+   "designation_local": "",
+   "email": "aallman@eastman.com",
+   "office_email": "",
+   "phone": "1-423-229-1025",
+   "source_url": "https://www.eastman.com/en/media-center/media-contacts",
+   "evidence_quote": "Health, Safety, Environment and Energy ... Amanda Allman"
+  },
+  "alternates": [
+   {
+    "name": "Betty Payne",
+    "designation": "Corporate Communications",
+    "designation_local": "",
+    "email": "bpayne@eastman.com",
+    "office_email": "",
+    "phone": "1-423-229-4965",
+    "source_url": "https://www.eastman.com/en/media-center/media-contacts",
+    "evidence_quote": "Betty Payne ... Corporate Communications",
+    "why_chosen": "Other role. She is a corporate communications contact for the institution."
+   },
+   {
+    "name": "Tracy Kilgore Addington",
+    "designation": "Corporate financial",
+    "designation_local": "",
+    "email": "tracy@eastman.com",
+    "office_email": "",
+    "phone": "1-423-224-0498",
+    "source_url": "https://www.eastman.com/en/media-center/media-contacts",
+    "evidence_quote": "Corporate financial ... Tracy Kilgore Addington",
+    "why_chosen": "Other role. She is a corporate financial contact for the institution."
+   }
+  ],
+  "rung": "Other role. She is listed as a media contact for Health, Safety, Environment and Energy.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SOS Mata Atlântica",
+    "partner_country": "Brazil",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eastman.com/en",
+    "evidence_quote": "Eastman, SOS Mata Atlântica renew partnership to advance restoration in Brazil",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Patagonia",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eastman.com/en",
+    "evidence_quote": "Eastman and Patagonia join forces to tackle global textile waste crisis",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Food City",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eastman.com/en/sustainability/environmental/circularity/community-partnerships",
+    "evidence_quote": "[A Food City and Eastman logo of a bottle with the message Shop Recycle Repeat logo.]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tri-Cities Airport",
+    "partner_country": "USA",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eastman.com/en/sustainability/environmental/circularity/community-partnerships",
+    "evidence_quote": "[Blue logo for Tri-Cities Airport.]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Doloop",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eastman.com/en/sustainability/sustainable-solutions/plastics/eastman-pet-renew/personal-care",
+    "evidence_quote": "Doloop and Eastman in PETnology",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Eastman Headquarters",
+    "city": "Kingsport",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.eastman.com/en/sustainability/environmental/circularity/site-locations",
+    "evidence_quote": "Kingsport, Tennessee"
+   },
+   {
+    "campus_name": "Normandy plant",
+    "city": "Port-Jérôme-sur-Seine",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.eastman.com/en/sustainability/environmental/circularity/site-locations",
+    "evidence_quote": "Normandy, France"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The institution is a chemical company, not an educational institution, and therefore does not have Erasmus+ mobility programs or academic partners. The listed partners are corporate or community collaborators.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 16.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 20.5
+ }
+}

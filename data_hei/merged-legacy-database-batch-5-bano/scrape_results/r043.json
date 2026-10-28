@@ -1,0 +1,78 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-10-28T22:58:19Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "CPIFP LA SALLE SANTO ÁNGEL     37",
+  "institution_type": "college",
+  "official_website": "https://lasallesantoangel.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Red de Centros La Salle",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lasallesantoangel.es/wp-content/uploads/2019/01/politica-erasmus.pdf",
+    "evidence_quote": "Somos un centro educativo cristiano, perteneciente a la Red de Centros La Salle",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "CPIFP La Salle Santo Ángel",
+    "city": "Zaragoza",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://lasallesantoangel.es/",
+    "evidence_quote": "C. de Tomás Anzano 1, 50012 Zaragoza"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 6,
+  "coverage_note": "The evidence mentions the institution belongs to the La Salle network and a consortium, but does not provide a specific list of partner institutions. No specific contact names or emails are provided in the documents.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 10.4,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 31.9
+ }
+}
