@@ -1,0 +1,136 @@
+{
+ "row_id": "r029",
+ "scraped_at": "2026-10-28T19:51:30Z",
+ "contacts": {
+  "row_id": "r029",
+  "institution_name": "OGEC GROUPE MONT ROLAND",
+  "institution_type": "college",
+  "official_website": "https://glpmr.info/",
+  "country": {
+   "value": "France",
+   "source_url": "https://glpmr.info/etablissement/1/contact",
+   "evidence_quote": "France"
+  },
+  "phone": {
+   "value": "03 84 72 23 79",
+   "source_url": "https://glpmr.info/",
+   "evidence_quote": ": 03 84 72 23 79"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Olivier BAILLY",
+   "designation": "Webmaster",
+   "designation_local": "",
+   "email": "obailly@groupemontroland.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://glpmr.info/mentions/legales/1",
+   "evidence_quote": "Webmaster : M BAILLY Olivier – obailly@groupemontroland.fr"
+  },
+  "alternates": [
+   {
+    "name": "Catherine LAURAIN",
+    "designation": "Publication manager",
+    "designation_local": "",
+    "email": "claurain@groupemontroland.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://glpmr.info/mentions/legales/1",
+    "evidence_quote": "Responsable publication : Mme LAURAIN Catherine et M GIRARDET Jérôme – claurain@groupemontroland.fr , jgirardet@groupemontroland.fr",
+    "why_chosen": "Other role. She is listed as a publication manager for the institution."
+   },
+   {
+    "name": "Jérôme GIRARDET",
+    "designation": "Publication manager",
+    "designation_local": "",
+    "email": "jgirardet@groupemontroland.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://glpmr.info/mentions/legales/1",
+    "evidence_quote": "Responsable publication : Mme LAURAIN Catherine et M GIRARDET Jérôme – claurain@groupemontroland.fr , jgirardet@groupemontroland.fr",
+    "why_chosen": "Other role. He is listed as a publication manager for the institution."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). He is the webmaster for the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmus +",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://glpmr.info/",
+    "evidence_quote": "Erasmus + |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LA SALLE DOLE",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://glpmr.info/",
+    "evidence_quote": "LA SALLE DOLE",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "LA SALLE DOLE",
+    "city": "Dole",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://glpmr.info/",
+    "evidence_quote": "LA SALLE DOLE"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 3,
+  "coverage_note": "The website mentions Erasmus+ and international stages but does not list specific partner institutions or provide contact details for an international coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.7,
+  "crawl_s": 9.1,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     233
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 42.7
+ }
+}
