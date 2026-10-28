@@ -1,0 +1,108 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-10-28T20:17:49Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "Centro Integrado de Formación profesional CONSTRUCCION BIZKAIA",
+  "institution_type": "college",
+  "official_website": "https://www.construccionbizkaia.com/",
+  "country": null,
+  "phone": {
+   "value": "944 013 840",
+   "source_url": "https://www.construccionbizkaia.com/",
+   "evidence_quote": "Más info: 944 013 840 / administracion@construccionbizkaia.eu"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ander Etxeandia",
+   "designation": "International Coordinator",
+   "designation_local": "",
+   "email": "europrojects@construccionbizkaia.eu",
+   "office_email": "",
+   "phone": "0034 94 4013840",
+   "source_url": "https://www.construccionbizkaia.com/proyectos/internacionalizacion/",
+   "evidence_quote": "Responsable de Proyectos Internacionales / International Coordinator: Ander Etxeandia"
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. Ander Etxeandia is explicitly named as the International Coordinator and contact for international projects.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Grafschap College",
+    "partner_country": "Netherlands",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.construccionbizkaia.com/",
+    "evidence_quote": "VISITA AL GRAFSCHAP COLLEGE DE PAÍSES BAJOS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EMEU Network",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.construccionbizkaia.com/proyectos/internacionalizacion/",
+    "evidence_quote": "EMEU NETWORK",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EMEU",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.construccionbizkaia.com/proyectos/internacionalizacion/",
+    "evidence_quote": "EMEU NETWORK",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "CIFP Construcción Bizkaia LHII",
+    "city": "Arrigorriaga",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.construccionbizkaia.com/",
+    "evidence_quote": "C/ El Progreso s/n 48003 Ollargan (Arrigorriaga)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The institution mentions partnering with various institutions in France, Denmark, Italy, Germany, Holland, Czech Republic, and Finland, but does not provide a comprehensive list of these partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 19.6,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.9,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 32.3
+ }
+}
