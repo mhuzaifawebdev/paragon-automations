@@ -1,0 +1,92 @@
+{
+ "row_id": "r017",
+ "scraped_at": "2026-10-28T20:56:40Z",
+ "contacts": {
+  "row_id": "r017",
+  "institution_name": "Forsvarshogskolan",
+  "institution_type": "university",
+  "official_website": "https://www.fhs.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "exchange@fhs.se",
+  "generic_email_url": "https://www.fhs.se/om-forsvarshogskolan/kontakta-oss.html",
+  "contact": {
+   "name": "Robert Egnell",
+   "designation": "Rektor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.fhs.se/",
+   "evidence_quote": "Rektor Robert Egnell har meddelat styrelsens ordförande att han inte står till förfogande för ytterligare en förlängning av förordnandet som rektor. Det innebär att han slutar som rektor den..."
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Robert Egnell is the Rector of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Sciences Po",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.fhs.se/",
+    "evidence_quote": "Aizad Noor läser det internationella masterprogrammet Politik, säkerhet och kris. Han valde att plugga en termin vid Sciences Po i Paris genom Erasmusutbyte.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Försvarshögskolan Stockholm",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.fhs.se/om-forsvarshogskolan/kontakta-oss.html",
+    "evidence_quote": "Försvarshögskolan Stockholm"
+   },
+   {
+    "campus_name": "Försvarshögskolan Karlberg",
+    "city": "Solna",
+    "country": "Sweden",
+    "role": "branch",
+    "source_url": "https://www.fhs.se/om-forsvarshogskolan/kontakta-oss.html",
+    "evidence_quote": "Försvarshögskolan Karlberg"
+   },
+   {
+    "campus_name": "Försvarshögskolan Karlstad",
+    "city": "Karlstad",
+    "country": "Sweden",
+    "role": "branch",
+    "source_url": "https://www.fhs.se/om-forsvarshogskolan/kontakta-oss.html",
+    "evidence_quote": "Försvarshögskolan Karlstad"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The evidence provides a general contact email for exchange students (exchange@fhs.se) but does not list specific names of international relations staff. A comprehensive list of Erasmus+ partners is not provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 6.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.8,
+  "total_seconds": 10.9
+ }
+}
