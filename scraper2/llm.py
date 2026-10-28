@@ -326,7 +326,7 @@ def _paid_fallback(system, user, timeout, schema, why):
         t0 = time.time()
         try:
             data, resp = _gemini_once(os.environ["GEMINI_PAID_API_KEY"], PAID_GEMINI["model"], system, user, schema, timeout)
-        except LLMError as e:           # not handed on to the dearer Haiku: the batch pauses instead
+        except LLMError as e:           # paid key failed — do not cascade, let the caller handle it
             print(f"(paid Gemini reader failed: {str(e)[:160]})", file=sys.stderr, flush=True)
             return None
         use = resp.get("usageMetadata") or {}
