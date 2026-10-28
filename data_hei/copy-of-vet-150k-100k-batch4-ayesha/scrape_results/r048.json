@@ -1,0 +1,101 @@
+{
+ "row_id": "r048",
+ "scraped_at": "2026-10-28T19:58:39Z",
+ "contacts": {
+  "row_id": "r048",
+  "institution_name": "LYCEE ADRIENNE BOLLAND",
+  "institution_type": "school",
+  "official_website": "https://lyceeadriennebolland.fr/",
+  "country": null,
+  "phone": {
+   "value": "01 30 06 38 48",
+   "source_url": "https://lyceeadriennebolland.fr/",
+   "evidence_quote": "01 30 06 38 48"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Rose Bénezet",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lyceeadriennebolland.fr/mentions-legales/",
+   "evidence_quote": "Proviseure : Mme Rose Bénezet"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Rose Bénezet is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "lycées Le Corbusier",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeadriennebolland.fr/",
+    "evidence_quote": "Après une première édition en 2024, la Villa Savoye ouvre de nouveau ses portes à la formation DN MADe des lycées Le Corbusier et Adrienne Bolland à Poissy, pour la présentation des projets de diplômes de la 3ème promotion. L'exposition aura lieu du 2 au 14...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "crèche Babylou de Pontoise",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeadriennebolland.fr/",
+    "evidence_quote": "Une commande solidaire pour la crèche Babylou de Pontoise",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Adrienne Bolland",
+    "city": "Poissy",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceeadriennebolland.fr/",
+    "evidence_quote": "Vous êtes dans l’une des 37 classes du lycée Adrienne Bolland, à dix minutes à pied de la gare RER et routière de Poissy, en centre-ville."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The website does not list specific names of Erasmus+ coordinators or international relations staff. The evidence mentions that teachers organize international mobility projects, but no individual names are provided in those contexts.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 11.6,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 27.6
+ }
+}

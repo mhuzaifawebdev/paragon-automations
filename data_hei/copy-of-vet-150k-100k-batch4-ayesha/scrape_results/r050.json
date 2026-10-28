@@ -1,0 +1,152 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-10-28T19:58:48Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "Lycée Porte Océane",
+  "institution_type": "school",
+  "official_website": "https://porte-oceane.lycee.ac-normandie.fr/",
+  "country": null,
+  "phone": {
+   "value": "02.35.21.30.08",
+   "source_url": "https://porte-oceane.lycee.ac-normandie.fr/",
+   "evidence_quote": "Tél. : 02.35.21.30.08 <tel 0235213008>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marie-José CHERAGA",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ce.0760054w@ac-rouen.fr",
+   "office_email": "",
+   "phone": "02.35.21.30.03",
+   "source_url": "https://porte-oceane.lycee.ac-normandie.fr/spip.php?rubrique203",
+   "evidence_quote": "Composition du Bureau des Relations Internationales : Proviseur : Mme Marie-José CHERAGA Agent Comptable Gestionnaire : Mme Géraldine JOIGNANT CARROT BTS : Mme Isabelle VALOGNES BACCALAURÉAT PROFESSIONNEL : Mme Christelle PETIT"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). She is the head of the institution and a member of the Bureau des Relations Internationales.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée Claude Monet",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://porte-oceane.lycee.ac-normandie.fr/spip.php?rubrique202",
+    "evidence_quote": "C’est dans le cadre d’un consortium de 3 lycées havrais : Claude Monet, Porte Océane, et Saint Vincent de Paul, que des élèves de première en Baccalauréat professionnel peuvent effectuer une de leur période de stage à l’étranger comme cela se produit couramment dans l’enseignement supérieur.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée Saint Vincent de Paul",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://porte-oceane.lycee.ac-normandie.fr/spip.php?rubrique202",
+    "evidence_quote": "C’est dans le cadre d’un consortium de 3 lycées havrais : Claude Monet, Porte Océane, et Saint Vincent de Paul, que des élèves de première en Baccalauréat professionnel peuvent effectuer une de leur période de stage à l’étranger comme cela se produit couramment dans l’enseignement supérieur.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ROTARY",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://porte-oceane.lycee.ac-normandie.fr/",
+    "evidence_quote": "CONCOURS ROTARY",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CCI Seine Estuaire",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://porte-oceane.lycee.ac-normandie.fr/",
+    "evidence_quote": "Le Havre, CCI Seine Estuaire",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université Le Havre Normandie",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://porte-oceane.lycee.ac-normandie.fr/",
+    "evidence_quote": "L’Université Le Havre Normandie propose un cycle de 9 conférences thématiques pour découvrir ses formations et mieux préparer son orientation.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "lycée Leclerc Navarre",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://porte-oceane.lycee.ac-normandie.fr/",
+    "evidence_quote": "Cliquez ici Tuto vidéo réalisé par le lycée Leclerc Navarre",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rectorat de l’académie de Normandie",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://porte-oceane.lycee.ac-normandie.fr/",
+    "evidence_quote": "Rectorat de l’académie de Normandie",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Porte-Océane",
+    "city": "Le Havre",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://porte-oceane.lycee.ac-normandie.fr/",
+    "evidence_quote": "44 rue Emile Zola - BP 40217 - 76053 Le Havre Cedex"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 7,
+  "pages_read": 5,
+  "coverage_note": "The website mentions international partnerships and a consortium, but does not provide a comprehensive list of all international partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 13.5,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 5
+   },
+   {
+    "lines": [
+     141,
+     209
+    ],
+    "returned": 3,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 21.1
+ }
+}
