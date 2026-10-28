@@ -1,0 +1,119 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-10-28T19:44:34Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "Katedralskolan",
+  "institution_type": "school",
+  "official_website": "https://katedralskolan.uppsala.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Gamelha Mohammed",
+   "designation": "School host",
+   "designation_local": "",
+   "email": "gamelha.mohammed@uppsala.se",
+   "office_email": "",
+   "phone": "018 - 727 91 22",
+   "source_url": "https://katedralskolan.uppsala.se/kontakt/ovrig-personal/",
+   "evidence_quote": "Gamelha Mohammed ... Skolvärd"
+  },
+  "alternates": [
+   {
+    "name": "Camilla Mattsson",
+    "designation": "Institution technician",
+    "designation_local": "",
+    "email": "camilla.mattsson2@skola.uppsala.se",
+    "office_email": "",
+    "phone": "018-727 91 29",
+    "source_url": "https://katedralskolan.uppsala.se/kontakt/ovrig-personal/",
+    "evidence_quote": "Camilla Mattsson ... Institutionstekniker",
+    "why_chosen": "Secretary / administration (last resort). Camilla Mattsson is an institution technician at the school."
+   },
+   {
+    "name": "Anneli Swedén",
+    "designation": "Property technician",
+    "designation_local": "",
+    "email": "anneli.sweden@uppsala.se",
+    "office_email": "",
+    "phone": "018-727 29 32",
+    "source_url": "https://katedralskolan.uppsala.se/kontakt/ovrig-personal/",
+    "evidence_quote": "Anneli Swedén ... Fastighetstekniker",
+    "why_chosen": "Secretary / administration (last resort). Anneli Swedén is a property technician at the school."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Gamelha Mohammed is listed as a school host with contact details.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Goethe-institutet",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://katedralskolan.uppsala.se/",
+    "evidence_quote": "Goethe-institutet och Katedralskolan bjöd in till alumniträff",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Uppsala universitet",
+    "partner_country": "Sweden",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://katedralskolan.uppsala.se/",
+    "evidence_quote": "[Uppsala_universitet_logo.jpg]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Katedralskolan",
+    "city": "Uppsala",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://katedralskolan.uppsala.se/",
+    "evidence_quote": "Katedralskolan, Skolgatan 2, Uppsala"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ partners or specific international mobility coordinators. The institution is a secondary school offering the International Baccalaureate program.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 8.2,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 25.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 4,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 37.0
+ }
+}

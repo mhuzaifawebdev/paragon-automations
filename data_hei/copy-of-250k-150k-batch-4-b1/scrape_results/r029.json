@@ -1,0 +1,115 @@
+{
+ "row_id": "r029",
+ "scraped_at": "2026-10-28T19:44:34Z",
+ "contacts": {
+  "row_id": "r029",
+  "institution_name": "Kijuga e.V.",
+  "institution_type": "unknown",
+  "official_website": "https://kijuga.org/",
+  "country": null,
+  "phone": {
+   "value": "+49 (0) 30 81 45 38 89",
+   "source_url": "https://kijuga.org/kontakt/",
+   "evidence_quote": "+49 (0) 30 81 45 38 89"
+  },
+  "phone_alt": [],
+  "generic_email": "info@kijuga.org",
+  "generic_email_url": "https://kijuga.org/kontakt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ECCO",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kijuga.org/",
+    "evidence_quote": "Kijuga betreibt mit dem Verein ECCO einen deutsch-französischen Jugendwebradio.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsch-Französisches Jugendwerk",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kijuga.org/partner/",
+    "evidence_quote": "Deutsch-Französisches Jugendwerk",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsch-Türkische Jugendbrücke",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kijuga.org/partner/",
+    "evidence_quote": "Deutsch-Türkische Jugendbrücke",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsch-Polnisches Jugendwerk",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kijuga.org/partner/",
+    "evidence_quote": "Deutsch-Polnisches Jugendwerk",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsch-Französischer Bürgerfond",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kijuga.org/partner/",
+    "evidence_quote": "Deutsch-Französischer Bürgerfond",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Klubhaus-Spandau",
+    "city": "Berlin",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://kijuga.org/kontakt/",
+    "evidence_quote": "13589 Berlin"
+   },
+   {
+    "campus_name": "Strombad",
+    "city": "Cottbus",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://kijuga.org/kontakt/",
+    "evidence_quote": "03046 Cottbus"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 3,
+  "coverage_note": "The institution is an association for youth exchange rather than a formal educational institution. No specific contact persons are named on the website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 7.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 37.0
+ }
+}
