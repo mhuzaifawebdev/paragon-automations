@@ -1,0 +1,149 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-28T16:34:43Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Bezauer Wirtschaftsschulen",
+  "institution_type": "school",
+  "official_website": "https://www.bws.ac.at/",
+  "country": {
+   "value": "ÖSTERREICH",
+   "source_url": "https://www.bws.ac.at/",
+   "evidence_quote": "ÖSTERREICH"
+  },
+  "phone": {
+   "value": "05514 2402",
+   "source_url": "https://www.bws.ac.at/",
+   "evidence_quote": "Montag bis Freitag, 7:30 – 12 Uhr und 13 – 17 Uhr tel. 05514 2402 per Mail info(at)bws.ac.at <info@bws.ac.at>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@bws.ac.at",
+  "generic_email_url": "https://www.bws.ac.at/",
+  "contact": {
+   "name": "Mario Hammerer",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "mario.hammerer@bws.ac.at",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bws.ac.at/about-us/",
+   "evidence_quote": "Mag. Mario Hammerer, Schulclusterleiter der Bezauer WirtschaftsSchulen ... Direktor",
+   "email_source_url": "https://www.bws.ac.at/teachers/mag-mario-hammerer/"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Mario Hammerer is the Director of the institution and the main contact person for the crisis and emergency team. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "FHV Fachhochschule Vorarlberg",
+    "partner_country": "Österreich",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bws.ac.at/",
+    "evidence_quote": "FHV Fachhochschule Vorarlberg",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universität Liechtenstein",
+    "partner_country": "Liechtenstein",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bws.ac.at/",
+    "evidence_quote": "Universität Liechtenstein",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MCI Innsbruck",
+    "partner_country": "Österreich",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bws.ac.at/",
+    "evidence_quote": "MCI Innsbruck",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Werkraum Bregenzerwald",
+    "partner_country": "Österreich",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bws.ac.at/",
+    "evidence_quote": "Werkraum Bregenzerwald",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MINT Vorarlberg",
+    "partner_country": "Österreich",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bws.ac.at/",
+    "evidence_quote": "MINT Vorarlberg",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "vetafab Software gmbh",
+    "partner_country": "Österreich",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bws.ac.at/",
+    "evidence_quote": "vetafab Software gmbh",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GASCHT",
+    "partner_country": "Österreich",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bws.ac.at/krisen-und-notfallteam/",
+    "evidence_quote": "GASCHT Partnerschule: Nicole Okhowat, Leitung",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bezauer Wirtschaftsschulen",
+    "city": "Bezau",
+    "country": "Österreich",
+    "role": "main",
+    "source_url": "https://www.bws.ac.at/",
+    "evidence_quote": "Greben 178, 6870 Bezau"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 7,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of local business partners and some academic partners, but does not contain a comprehensive list of Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.3,
+  "crawl_s": 18.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 10.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 7,
+    "accepted": 7
+   }
+  ],
+  "total_seconds": 35.1
+ }
+}
