@@ -1,0 +1,116 @@
+{
+ "row_id": "r047",
+ "scraped_at": "2026-10-28T20:36:55Z",
+ "contacts": {
+  "row_id": "r047",
+  "institution_name": "Institut National Des Sciences Appliquees Centre Val De Loire",
+  "institution_type": "university",
+  "official_website": "https://www.insa-centrevaldeloire.fr/",
+  "country": null,
+  "phone": {
+   "value": "+33 (0)2 54 55 84 00",
+   "source_url": "https://www.insa-centrevaldeloire.fr/",
+   "evidence_quote": "Tél. : +33 (0)2 54 55 84 00"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Colleen Legrand",
+   "designation": "International Relations",
+   "designation_local": "",
+   "email": "colleen.legrand@insa-cvl.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.insa-centrevaldeloire.fr/en/international/incoming-mobility",
+   "evidence_quote": "(colleen.legrand@insa-cvl.fr <colleen.legrand@insa-cvl.fr>)"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. International relations officer. Colleen Legrand is listed as a contact for international mobility and scholarships.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université d’Orléans",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.insa-centrevaldeloire.fr/",
+    "evidence_quote": "L’INSA Centre Val de Loire renforce sa coopération avec les universités d’Orléans et de Tours",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université de Tours",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.insa-centrevaldeloire.fr/",
+    "evidence_quote": "L’INSA Centre Val de Loire renforce sa coopération avec les universités d’Orléans et de Tours",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut national de l'environnement industriel et des risques (Ineris)",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.insa-centrevaldeloire.fr/",
+    "evidence_quote": "Recherche, innovation et formation : l'INSA CVL et l'Ineris prolongent et amplifient leur coopération",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus de Blois",
+    "city": "Blois",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.insa-centrevaldeloire.fr/",
+    "evidence_quote": "2 campus à Blois et Bourges"
+   },
+   {
+    "campus_name": "Campus de Bourges",
+    "city": "Bourges",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.insa-centrevaldeloire.fr/",
+    "evidence_quote": "2 campus à Blois et Bourges"
+   }
+  ],
+  "stated_total": 100,
+  "stated_total_quote": "L'INSA Centre Val de Loire dispose de 100 accords de partenariats dans 34 pays à travers le monde. Ces accords permettent aux étudiants d'effectuer une mobilité d'études à l'étranger et d'accueillir chaque année de nouveaux étudiants internationaux.",
+  "stated_total_url": "https://www.insa-centrevaldeloire.fr/fr/international/partenaires-internationaux",
+  "truncated": true,
+  "total_seen": 100,
+  "pages_read": 9,
+  "coverage_note": "The evidence mentions that there are 100 international partnership agreements but does not provide the actual list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.3,
+  "crawl_s": 10.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 6.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 18.3
+ }
+}
