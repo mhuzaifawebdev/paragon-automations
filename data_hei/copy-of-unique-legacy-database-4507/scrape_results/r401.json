@@ -1,0 +1,66 @@
+{
+ "row_id": "r401",
+ "scraped_at": "2026-10-28T12:07:38Z",
+ "contacts": {
+  "row_id": "r401",
+  "institution_name": "Oberschule Ebersbach",
+  "institution_type": "school",
+  "official_website": "https://www.os-ebersbach.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kelso High School",
+    "partner_country": "Schottland",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.os-ebersbach.de/seite/546320/erasmus.html",
+    "evidence_quote": "Seit Sommer 2018 findet das Projekt „Kultur schlägt Rassismus und Diskriminierung“ an der Oberschule Ebersbach und der Kelso High School statt. Dieses wird gefördert durch Mittel aus dem Erasmus+ Budget und endete am 31. August 2021. Im Mittelpunkt steht die Begegnung mit einer anderen Kultur und das Erkennen von Gemeinsamkeiten aber auch Unterschieden in diesen beiden Kulturen. In diesem Zusammenhang wurden Produkte erarbeitet, die im Unterricht an beiden Schulen verwendet werden.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Oberschule Ebersbach",
+    "city": "Ebersbach",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://www.os-ebersbach.de/",
+    "evidence_quote": "Oberschule Ebersbach"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution is a secondary school. One partner school (Kelso High School) is mentioned in connection with Erasmus+ activities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 10.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 36.8
+ }
+}
