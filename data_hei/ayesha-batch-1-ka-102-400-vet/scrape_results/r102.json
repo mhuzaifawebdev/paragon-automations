@@ -1,0 +1,115 @@
+{
+ "row_id": "r102",
+ "scraped_at": "2026-10-28T16:09:52Z",
+ "contacts": {
+  "row_id": "r102",
+  "institution_name": "Berufliches Schulzentrum für Wirtschaft und Datenverarbeitung der Stadt Würzburg",
+  "institution_type": "college",
+  "official_website": "https://www.dv-schulen.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Johannes Sieber",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.dv-schulen.de/schulzentrum/schulleitung/index.html",
+   "evidence_quote": "Pauline Keck, weitere stellvertretende Schulleiterin, Johannes Sieber, Schulleiter, Claudia Dees, stellvertretende Schulleiterin"
+  },
+  "alternates": [
+   {
+    "name": "Pauline Keck",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.dv-schulen.de/schulzentrum/schulleitung/index.html",
+    "evidence_quote": "Pauline Keck, weitere stellvertretende Schulleiterin, Johannes Sieber, Schulleiter, Claudia Dees, stellvertretende Schulleiterin",
+    "why_chosen": "Principal / director (no Erasmus contact found). Pauline Keck is a member of the school leadership team."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Johannes Sieber is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "tectake",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dv-schulen.de/",
+    "evidence_quote": "[Logo Kooperation mit tectake]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cisco",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dv-schulen.de/",
+    "evidence_quote": "[Logo Cisco]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Oracle",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dv-schulen.de/",
+    "evidence_quote": "[Logo Oracle]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SAP",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dv-schulen.de/",
+    "evidence_quote": "[Logo SAP]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufliches Schulzentrum für Wirtschaft und Datenverarbeitung",
+    "city": "Würzburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.dv-schulen.de/",
+    "evidence_quote": "Stettiner Straße 1, 97072 Würzburg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions participation in the Erasmus+ program but does not provide a formal list of partner institutions. The listed partners are corporate sponsors or cooperation partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 13.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 38.9
+ }
+}
