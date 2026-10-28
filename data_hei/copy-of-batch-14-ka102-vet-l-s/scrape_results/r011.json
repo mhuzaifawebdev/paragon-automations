@@ -1,0 +1,112 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-28T17:25:32Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Berufliches Schulzentrum Amberg",
+  "institution_type": "school",
+  "official_website": "https://www.bszam.de/willkommen.html",
+  "country": null,
+  "phone": {
+   "value": "09621 1050-00",
+   "source_url": "https://www.bszam.de/willkommen.html",
+   "evidence_quote": "Tel.: 09621 1050-00"
+  },
+  "phone_alt": [],
+  "generic_email": "infofosbos@bszam.de",
+  "generic_email_url": "https://www.bszam.de/willkommen.html",
+  "contact": {
+   "name": "Niels John",
+   "designation": "Coordinator for vocational integration and preparation classes",
+   "designation_local": "",
+   "email": "Niels.John@bszam.de",
+   "office_email": "",
+   "phone": "09621 10 50-62",
+   "source_url": "https://www.bszam.de/ansprech-und-kooperationspartner-731.html",
+   "evidence_quote": "Koordinator für Berufsintegrations- und Berufsvorbereitungsklassen ... Niels John"
+  },
+  "alternates": [
+   {
+    "name": "Wolfgang Prebeck",
+    "designation": "Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bszam.de/schulleitung.html",
+    "evidence_quote": "Wolfgang Prebeck ... Schulleiter BSZ Amberg, OStD",
+    "why_chosen": "Principal / director (no Erasmus contact found). Wolfgang Prebeck is the principal of the institution."
+   },
+   {
+    "name": "Josef Eckert",
+    "designation": "Permanent representative of the principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bszam.de/schulleitung.html",
+    "evidence_quote": "Josef Eckert ... Ständiger Vertreter des Schulleiters, StD",
+    "why_chosen": "Principal / director (no Erasmus contact found). Josef Eckert is the permanent representative of the principal."
+   }
+  ],
+  "rung": "Mobility coordinator. Niels John serves as a coordinator for specific student programs.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kolping-Bildungswerk Ostbayern",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bszam.de/ansprech-und-kooperationspartner-731.html",
+    "evidence_quote": "Kooperationspartner Kolping-Bildungswerk Ostbayern",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kolping Bildungswerk Ostbayern",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bszam.de/ansprech-und-kooperationspartner.html",
+    "evidence_quote": "Kooperationspartner Kolping Bildungswerk Ostbayern",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufliches Schulzentrum Amberg",
+    "city": "Amberg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bszam.de/willkommen.html",
+    "evidence_quote": "Raigeringer Straße 27"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partners or international agreements. The listed partners are local cooperation partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 21.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 25.3
+ }
+}

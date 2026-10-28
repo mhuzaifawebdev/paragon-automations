@@ -1,0 +1,70 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-10-28T17:26:03Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "IES Juan Rubio Ortiz",
+  "institution_type": "school",
+  "official_website": "https://iesjuanrubioortiz.es/",
+  "country": null,
+  "phone": {
+   "value": "950639570",
+   "source_url": "https://iesjuanrubioortiz.es/",
+   "evidence_quote": "[telefono] Teléfono <tel 950639570>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "María del Carmen Cervantes Martín",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iesjuanrubioortiz.es/presentacion/organigrama/",
+   "evidence_quote": "DIRECTORA. Dña. MARÍA DEL CARMEN CERVANTES MARTÍN"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). She is the Director of the institution and a member of the Erasmus+ selection committee.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "I.E.S. Juan Rubio Ortiz",
+    "city": "Macael",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesjuanrubioortiz.es/contacto/",
+    "evidence_quote": "IES Juan Rubio Ortiz"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 9,
+  "coverage_note": "The institution does not provide a list of partner organizations on its website. The evidence confirms participation in the Erasmus+ program but does not name specific partner schools or universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 16.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 23.6
+ }
+}
