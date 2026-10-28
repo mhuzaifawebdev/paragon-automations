@@ -1050,20 +1050,30 @@
    "source": "Copy of VET 250k-300 BATCH-1",
    "file_id": "1WEjOPw6z6d1nHuV2x7iDZWMT7YRf4Z0J0QtPsrPOauY",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 35,
    "started": "2026-10-28T18:10:18Z",
    "last_start": "2026-10-28T18:10:18Z",
    "restarts": 0,
-   "cap_usd": 806.94
+   "cap_usd": 806.94,
+   "spend_recorded": true,
+   "cost_usd": 0.1409,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1kPt3TsmhfFHXL8lCk_iTH9cW1wWxUHFj/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 41,
+   "finished": "2026-10-28T18:16:51Z",
+   "reason": "49 institutes, 22 with a contact"
   },
   {
    "batch": "copy-of-vet-250k-300-batch-3-bano",
    "source": "Copy of VET 250k-300 BATCH-3 BANO",
    "file_id": "1rShrVRZgwQiRITpRub5afIp3bGJ75B6aSEEpweQaj3w",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 43
+   "state": "running",
+   "rows": 43,
+   "started": "2026-10-28T18:16:51Z",
+   "last_start": "2026-10-28T18:16:51Z",
+   "restarts": 0,
+   "cap_usd": 806.8
   },
   {
    "batch": "copy-of-vet-250k-300-batch-4-ibrahim",
@@ -2513,7 +2523,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-28T18:10:18Z",
+ "updated": "2026-10-28T18:16:51Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
