@@ -1752,20 +1752,30 @@
    "source": "Batch-3_1,277",
    "file_id": "1KSaBjW5OmhILPL8LeoBpD9y16QrMOEEA5Yw1q83h6KA",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 51,
    "started": "2026-10-28T22:38:34Z",
    "last_start": "2026-10-28T22:38:34Z",
    "restarts": 0,
-   "cap_usd": 795.48
+   "cap_usd": 795.48,
+   "spend_recorded": true,
+   "cost_usd": 0.1351,
+   "drive_link": "https://docs.google.com/spreadsheets/d/137rE8PpdUvXG2RHkn_494WApTOveSI-3/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 41,
+   "finished": "2026-10-28T22:44:35Z",
+   "reason": "48 institutes, 38 with a contact"
   },
   {
    "batch": "merged-legacy-database-trial-batch-s",
    "source": "Merged Legacy Database-Trial Batch Shair Ali",
    "file_id": "1sqHJVAML9WaituOv-r0trwjeMPBrPac7hZYIl52NhrA",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 3
+   "state": "running",
+   "rows": 3,
+   "started": "2026-10-28T22:44:35Z",
+   "last_start": "2026-10-28T22:44:35Z",
+   "restarts": 0,
+   "cap_usd": 795.34
   },
   {
    "batch": "merged-legacy-database-batch-5-trial",
@@ -2903,7 +2913,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-28T22:38:34Z",
+ "updated": "2026-10-28T22:44:35Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
