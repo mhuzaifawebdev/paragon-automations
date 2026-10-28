@@ -1,0 +1,126 @@
+{
+ "row_id": "r032",
+ "scraped_at": "2026-10-28T19:36:37Z",
+ "contacts": {
+  "row_id": "r032",
+  "institution_name": "LYCEE PROFFESSIONNEL HEINLEX - LYCEE DES METIERS",
+  "institution_type": "college",
+  "official_website": "https://heinlex.paysdelaloire.e-lyco.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 40 70 49 28",
+   "source_url": "https://heinlex.paysdelaloire.e-lyco.fr/",
+   "evidence_quote": "Tél : 02 40 70 49 28"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Madame Colin",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://heinlex.paysdelaloire.e-lyco.fr/archives/restitution-du-sejour-en-italie-echange-scolaire-erasmus-au-c-d-i-vendredi-20-decembre-2019/",
+   "evidence_quote": "Une projection du montage vidéo sur le séjour en Italie des élèves de 1ère MMV (+2 élèves de Terminale MMV) qui s’est déroulé du 2 au 8 décembre dernier à Carpi en Italie, a eu lieu au C.D.I ce vendredi à 13 h en présence des élèves, de parents, de l’équipe pédagogique (Mmes Mariani -mode, Delbarre -Français H/G , David -Anglais, Berthou -Arts appliqués), de Madame Colin -Proviseur, ainsi que d’autres élèves et membres de la communauté éducative et personnels de l’établissement, suivi d’un momen"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Madame Colin is identified as the Proviseur (Principal) of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ipsia Vallauri",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://heinlex.paysdelaloire.e-lyco.fr/formations-et-matieres-enseignees/relations-internationales-partenariat-europeen/",
+    "evidence_quote": "Ce programme financé par l’Union Européenne s’intitule » la mode franco-italienne sous toutes ses coutures ». Il est établi avec le lycée Ipsia Vallauri de Carpi en Italie.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Royal Mer",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://heinlex.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "La classe de 1 MCC (Métiers de la Couture et de la Confection) a pu visiter jeudi 7 mai l'atelier de fabrication de l'entreprise Royal Mer. Mme Grebonval (Bureau des entreprises)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "André Renault",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://heinlex.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "Le jeudi 7 mai 2026, les élèves de première Métiers de la Couture et de la Confection ont eu le privilège de visiter les ateliers de l'entreprise André Renault, située à Saint-Gildas-des-Bois. Une plongée passionnante dans l'univers de la literie de luxe et du...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ligia Garrido",
+    "partner_country": "Portugal",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://heinlex.paysdelaloire.e-lyco.fr/non-categorise/erasmus-portugal-decembre-2024/",
+    "evidence_quote": "Les élèves ont bénéficié d’une bourse Erasmus+, Apolline, Kessee et Leia ont ainsi pu découvrir la région de Lisbonne et renforcer leurs compétences professionnelles dans la boutique de Ligia Garrido.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Professionnel Heinlex",
+    "city": "Saint-Nazaire",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://heinlex.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "15 rue Albert Einstein"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions specific Erasmus+ projects and a partnership with an Italian school, but does not provide a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 16.3,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 24.1
+ }
+}

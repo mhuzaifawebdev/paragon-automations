@@ -1,0 +1,121 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-28T19:36:19Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "Lycee des métiers Armand Guillaumin",
+  "institution_type": "school",
+  "official_website": "https://lyceearmandguillaumin.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "David FALGUERA",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lyceearmandguillaumin.fr/partenaires/entreprises-taxe-dapprentissage?view=category&id=11",
+   "evidence_quote": "David FALGUERA, ... Proviseur du lycée Armand Guillaumin d'Orly"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). David FALGUERA is the principal of the institution and is responsible for its overall management.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "école élémentaire Romain Rolland B",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceearmandguillaumin.fr/",
+    "evidence_quote": "Nos élèves de Terminale ASSP ont accompagné avec enthousiasme des élèves de CM1 de l’école élémentaire Romain Rolland B lors de plusieurs ateliers de sensibilisation à la biodiversité : tri des déchets, compostage, fabrication du miel, observation des oiseaux et préservation de la ressource en eau. Une belle journée d’échanges, de transmission et d’engagement au service de la biodiversité !",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "association des petits frères des pauvres",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceearmandguillaumin.fr/",
+    "evidence_quote": "Cet après-midi festif, placé sous le thème « Rouge, Blanc & Paillettes », a une nouvelle fois permis de créer des moments magiques, moments de partage entre les générations. À travers le défilé, les sourires, la musique et les échanges, élèves, enfants, personnes âgées et bénévoles de l’association des petits frères des pauvres ont vécu un moment rempli d’émotions, de bienveillance et de convivialité.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Greta Val-de-Marne",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceearmandguillaumin.fr/",
+    "evidence_quote": "Le lycée Armand Guillaumin d'Orly est adhérent au Greta Val-de-Marne.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GRETA du Val-de-Marne",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceearmandguillaumin.fr/partenaires/entreprises-taxe-dapprentissage?view=category&id=11",
+    "evidence_quote": "Nous accueillons également des élèves de 3ème Prépa-Métiers, après une classe de quatrième en collège, et des adultes dans le cadre de la formation continue avec le GRETA du Val-de-Marne pour préparer le CAP coiffure et le CAP esthétique. Enfin, nous proposons, pour des élèves décrocheurs ayant un parcours scolaire compliqué, mais ayant validé une première année en lycée, un CAP Esthétique en 1 an.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Armand Guillaumin",
+    "city": "Orly",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceearmandguillaumin.fr/partenaires/entreprises-taxe-dapprentissage?view=category&id=11",
+    "evidence_quote": "Le lycée Armand Guillaumin est situé au 10 rue Pierre Corneille à Orly (94310)."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The website mentions that the school has international projects and Erasmus projects, but it does not provide a list of specific partners or a dedicated international office contact.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 13.1,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     242
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 38.7
+ }
+}

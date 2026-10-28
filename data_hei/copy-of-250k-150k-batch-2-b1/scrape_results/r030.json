@@ -1,0 +1,99 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-10-28T19:36:13Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "Lycée professionnel François Mansart",
+  "institution_type": "school",
+  "official_website": "https://lyceemansart.fr/",
+  "country": null,
+  "phone": {
+   "value": "01.48.83.48.80",
+   "source_url": "https://lyceemansart.fr/",
+   "evidence_quote": "01.48.83.48.80 <tel 01.48.83.48.80>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. LEMONNIER",
+   "designation": "Administrative Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lyceemansart.fr/index.php?id_menu=14938913",
+   "evidence_quote": "Secrétariat de direction : M. LEMONNIER"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). He handles administrative matters and can direct international mobility inquiries to the appropriate department.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Rotary Club de Lagny",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceemansart.fr/",
+    "evidence_quote": "BPC : Les élèves de Bac Pro Constructeur mis à l’honneur par le Rotary Club de Lagny",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "région Île-de-France",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceemansart.fr/",
+    "evidence_quote": "Grand événement sportif organisé par la région Île-de-France à la base de [...]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Polyvalent François MANSART",
+    "city": "Saint-Maur-des-Fossés",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceemansart.fr/",
+    "evidence_quote": "Lycée Polyvalent François MANSART, 25 avenue de la Banque, 94210 Saint-Maur-des-Fossés"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The website does not provide a list of international partners or specific Erasmus+ coordinators. Information regarding international mobility is limited to general project mentions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 8.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     111
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 32.8
+ }
+}
