@@ -1,0 +1,89 @@
+{
+ "row_id": "r099",
+ "scraped_at": "2026-10-28T10:01:55Z",
+ "contacts": {
+  "row_id": "r099",
+  "institution_name": "Sinéad Nic",
+  "institution_type": "school",
+  "official_website": "https://www.ColaisteanEachreidh.ie/",
+  "country": null,
+  "phone": {
+   "value": "091-874590",
+   "source_url": "https://www.ColaisteanEachreidh.ie/",
+   "evidence_quote": "091-874590 <tel 091-874590>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Comhairle Náisiúnta na dTuismitheoirí",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ColaisteanEachreidh.ie/",
+    "evidence_quote": "Comhairle Náisiúnta na dTuismitheoirí",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "iClassCMS.com",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ColaisteanEachreidh.ie/",
+    "evidence_quote": "Powered by [iClassCMS.com]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Coláiste an Eachréidh",
+    "city": "Baile Átha an Rí",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.ColaisteanEachreidh.ie/",
+    "evidence_quote": "Bóthar Thuama, Baile Átha an Rí, Co. na Gaillimhe. H65 WD54."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 2,
+  "coverage_note": "The provided evidence does not contain information regarding international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 19.2,
+  "crawl_s": 6.8,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 12.4,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     122
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 82.5
+ }
+}
