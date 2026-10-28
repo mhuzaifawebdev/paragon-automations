@@ -1,0 +1,127 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-10-28T21:08:01Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "Ecole Nationale Veterinaire D'alfort",
+  "institution_type": "university",
+  "official_website": "https://www.vet-alfort.fr/",
+  "country": null,
+  "phone": {
+   "value": "01 43 96 73 73",
+   "source_url": "https://www.vet-alfort.fr/",
+   "evidence_quote": "01 43 96 73 73"
+  },
+  "phone_alt": [],
+  "generic_email": "direction@vet-alfort.fr",
+  "generic_email_url": "https://www.vet-alfort.fr/acces-au-campus-et-au-plan-de-l-ecole",
+  "contact": {
+   "name": "Christophe Degueurce",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "01 43 96 71 00",
+   "source_url": "https://www.vet-alfort.fr/legals/mentions-legales",
+   "evidence_quote": "Responsable de la publication : Pr Christophe Degueurce, Directeur"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Christophe Degueurce is the Director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "COVETO",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vet-alfort.fr/nos-partenaires",
+    "evidence_quote": "COVETO, partenaire pédagogique de l’EnvA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "réseau des centres de soin de la faune sauvage",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vet-alfort.fr/services-cliniques/faune-sauvage/l-equipe",
+    "evidence_quote": "Pour plus d'informations, vous pouvez consulter les sites de Faune Alfort, partenaire de l'EnvA, et du réseau des centres de soin de la faune sauvage dont l'EnvA est membre.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Faune Alfort",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vet-alfort.fr/services-cliniques/faune-sauvage/l-equipe",
+    "evidence_quote": "Les soins sont gratuits ; c'est pourquoi les dons sont nécessaires pour permettre son fonctionnement. L'association Faune Alfort, partenaire de l'École nationale vétérinaire d'Alfort, est habilitée à les recevoir.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Brigade des Sapeurs pompiers de Paris",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vet-alfort.fr/",
+    "evidence_quote": "[Collaboration avec la Brigade des Sapeurs pompiers de Paris]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus de Maisons-Alfort",
+    "city": "Maisons-Alfort",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.vet-alfort.fr/",
+    "evidence_quote": "7, avenue du Général de Gaulle, 94700 Maisons-Alfort - 01 43 96 71 00"
+   },
+   {
+    "campus_name": "Campus équin en Normandie",
+    "city": "Goustranville",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.vet-alfort.fr/",
+    "evidence_quote": "Le campus équin en Normandie"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ or international academic partners. No specific contact person for international relations is named in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 14.2,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 29.0
+ }
+}

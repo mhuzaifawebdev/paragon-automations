@@ -1,0 +1,110 @@
+{
+ "row_id": "r045",
+ "scraped_at": "2026-10-28T21:08:21Z",
+ "contacts": {
+  "row_id": "r045",
+  "institution_name": "Conservatorio Di Musica Luca Marenzio",
+  "institution_type": "college",
+  "official_website": "https://www.consbs.it/",
+  "country": null,
+  "phone": {
+   "value": "+39.030.2886711",
+   "source_url": "https://www.consbs.it/",
+   "evidence_quote": "Tel. +39.030.2886711"
+  },
+  "phone_alt": [],
+  "generic_email": "international@consbs.it",
+  "generic_email_url": "https://www.consbs.it/ufficio-erasmus/",
+  "contact": {
+   "name": "Pierangelo Pelucchi",
+   "designation": "Erasmus and International Office",
+   "designation_local": "",
+   "email": "pierangelo.pelucchi@consbs.it",
+   "office_email": "international@consbs.it",
+   "phone": "",
+   "source_url": "https://www.consbs.it/ufficio-erasmus/",
+   "evidence_quote": "Erasmus and International Offices ... M° Pierangelo Pelucchi – international@consbs.it <international@consbs.it>",
+   "email_source_url": "https://www.consbs.it/docente/pelucchi-pierangelo/"
+  },
+  "alternates": [
+   {
+    "name": "Sara Zubini",
+    "designation": "Erasmus and International Office",
+    "designation_local": "",
+    "email": "international@consbs.it",
+    "office_email": "",
+    "phone": "+390302886780",
+    "source_url": "https://www.consbs.it/ufficio-erasmus/",
+    "evidence_quote": "Erasmus and International Offices ... Sig.ra Sara Zubini – international@consbs.it <international@consbs.it> +390302886780",
+    "why_chosen": "International relations officer. Sara Zubini is listed as a contact for the Erasmus and International Office."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. Pierangelo Pelucchi is listed as a contact for the Erasmus and International Office. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Conservatorio Graz",
+    "partner_country": "Austria",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.consbs.it/erasmus-accordi-bilaterali-con-altre-istituzioni/",
+    "evidence_quote": "Scadenze Domanda Conservatorio Graz Austria. (169.61 Kb)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conservatorio LEIPZIG",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.consbs.it/erasmus-accordi-bilaterali-con-altre-istituzioni/",
+    "evidence_quote": "Scadenze Domanda Conservatorio LEIPZIG GERMANIA (183.57 Kb)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede di Brescia",
+    "city": "Brescia",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.consbs.it/",
+    "evidence_quote": "Sede di Brescia:"
+   },
+   {
+    "campus_name": "Sede di Darfo",
+    "city": "Darfo Boario Terme",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://www.consbs.it/",
+    "evidence_quote": "Sede di Darfo:"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution provides a link to download a list of bilateral agreements, but the full list is not contained within the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 25.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.5,
+  "total_seconds": 32.7
+ }
+}
