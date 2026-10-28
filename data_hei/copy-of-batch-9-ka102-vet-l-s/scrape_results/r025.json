@@ -1,0 +1,151 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-28T17:45:28Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "BBS Herman-Nohl-Schule Hildesheim",
+  "institution_type": "college",
+  "official_website": "https://www.herman-nohl-schule.de/",
+  "country": null,
+  "phone": {
+   "value": "05121 76 80 0",
+   "source_url": "https://www.herman-nohl-schule.de/",
+   "evidence_quote": "Fon: 05121 76 80 0"
+  },
+  "phone_alt": [],
+  "generic_email": "sekretariat@herman-nohl-schule.de",
+  "generic_email_url": "https://www.herman-nohl-schule.de/",
+  "contact": {
+   "name": "Martina Reinhardt",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.herman-nohl-schule.de/wp-content/uploads/Organigramm_HNS_Veroeffentlicht_Stand_04_01_2024.pdf",
+   "evidence_quote": "Schulleiterin ... Martina Reinhardt"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the principal of the institution and was identified as the contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Savon College",
+    "partner_country": "Finland",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.herman-nohl-schule.de/erasmus/",
+    "evidence_quote": "Savon College (Finnland)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ZBC Roskilde",
+    "partner_country": "Denmark",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.herman-nohl-schule.de/erasmus/",
+    "evidence_quote": "ZBC Roskilde (Dänemark)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Seniorenheim Partschins Johann Nepomuk Schoepf – A.P.S.P.",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.herman-nohl-schule.de/erasmus/",
+    "evidence_quote": "Seniorenheim Partschins Johann Nepomuk Schoepf – A.P.S.P. (Südtirol/ Italien)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Instituto de Educación Secundaria Jacarandá",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.herman-nohl-schule.de/erasmus/",
+    "evidence_quote": "Instituto de Educación Secundaria Jacarandá (Spanien)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Asociaţia româno-germană Alsterdorf",
+    "partner_country": "Romania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.herman-nohl-schule.de/erasmus/",
+    "evidence_quote": "Asociaţia româno-germană Alsterdorf (Rumänien)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Schule für Sozialbetreuungsberufe /Behindertenarbeit & Behindertenbegleitung Gallneukirchen",
+    "partner_country": "Austria",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.herman-nohl-schule.de/erasmus/",
+    "evidence_quote": "Schule für Sozialbetreuungsberufe /Behindertenarbeit & Behindertenbegleitung Gallneukirchen (Österreich)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hauptstelle",
+    "city": "Hildesheim",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.herman-nohl-schule.de/",
+    "evidence_quote": "Hauptstelle"
+   },
+   {
+    "campus_name": "Außenstelle",
+    "city": "Hildesheim",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.herman-nohl-schule.de/",
+    "evidence_quote": "Außenstelle"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The institution lists specific Erasmus partners on their website, but does not provide a comprehensive total count of all international agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 17.1,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     315
+    ],
+    "returned": 1,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 25.1
+ }
+}
