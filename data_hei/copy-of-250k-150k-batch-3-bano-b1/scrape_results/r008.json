@@ -1,0 +1,104 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-28T18:50:21Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Aveyron Basketball Académie",
+  "institution_type": "school",
+  "official_website": "https://www.aveyronbasketballacademie.com/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.aveyronbasketballacademie.com/",
+   "evidence_quote": "Aveyron, Occitanie, France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marie DE MANHEULLE",
+   "designation": "French teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.aveyronbasketballacademie.com/staff",
+   "evidence_quote": "Marie DE MANHEULLE ... PROFESSEUR DE FRANCAIS"
+  },
+  "alternates": [
+   {
+    "name": "NOELIE BRAZ",
+    "designation": "Physics and Chemistry teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.aveyronbasketballacademie.com/staff",
+    "evidence_quote": "NOELIE BRAZ ... PROFESSEUR PHYSIQUE CHIMIE",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Noelie Braz is employed as a Physics and Chemistry teacher at the academy."
+   },
+   {
+    "name": "CLARA LIMINET",
+    "designation": "Mathematics teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.aveyronbasketballacademie.com/staff",
+    "evidence_quote": "CLARA LIMINET ... PROFESSEUR MATHEMATIQUES",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Clara Liminet is employed as a Mathematics teacher at the academy."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Marie De Manheulle is employed as a French teacher at the academy.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Elan Aveyron Basket",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aveyronbasketballacademie.com/partenaires",
+    "evidence_quote": "Les entreprises du territoire aveyronnais sont au cœur du projet de l'Aveyron Basketball Académie. Les partenaires et mécènes de l'ABA et de l'Elan Aveyron Basket sont regroupés au cœur d'un \"club partenaires\" qui propose des évènements réguliers.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Aveyron Basketball Académie",
+    "city": "Rodez",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.aveyronbasketballacademie.com/contact",
+    "evidence_quote": "Académie Basketball | Aveyron Basketball Académie| Rodez"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The institution is a sports academy focused on basketball training and does not appear to have an Erasmus+ program or international mobility agreements listed. The partner list provided on the website consists of local commercial sponsors and institutional sports bodies.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 8.0,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 1.2,
+  "total_seconds": 13.3
+ }
+}
