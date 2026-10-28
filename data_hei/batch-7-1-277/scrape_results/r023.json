@@ -1,0 +1,133 @@
+{
+ "row_id": "r023",
+ "scraped_at": "2026-10-28T22:11:57Z",
+ "contacts": {
+  "row_id": "r023",
+  "institution_name": "Istituto Italiano Arte Artigianato e Restauro s.r.l.",
+  "institution_type": "college",
+  "official_website": "https://www.istitutorestauroroma.it/",
+  "country": null,
+  "phone": {
+   "value": "+39 06 86.20.56.30",
+   "source_url": "https://www.istitutorestauroroma.it/",
+   "evidence_quote": "Telefono: +39 06 86.20.56.30 <tel +390686205630>"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@istitutorestauroroma.it",
+  "generic_email_url": "https://www.istitutorestauroroma.it/istituto-restauro-roma/92-erasmus.html",
+  "contact": {
+   "name": "Cinzia Pierantonelli",
+   "designation": "Erasmus Coordinator",
+   "designation_local": "",
+   "email": "erasmus@istitutorestauroroma.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.istitutorestauroroma.it/contatti",
+   "evidence_quote": "Resp. Erasmus: Prof.ssa Cinzia Pierantonelli"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Cinzia Pierantonelli is identified as the Erasmus coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SSML Gregorio VII",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.istitutorestauroroma.it/istituto-restauro-roma/92-erasmus.html",
+    "evidence_quote": "SSML Gregorio VII",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus Without Paper",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.istitutorestauroroma.it/foto-articoli/92/varie/IRRECHE.pdf",
+    "evidence_quote": "in the future Erasmus Programme, we will have the responsibility to use the Erasmus Without",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Istituto Restauro Roma",
+    "city": "Roma",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.istitutorestauroroma.it/",
+    "evidence_quote": "Via Licinio Murena,49 - 00175 Roma"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that the institution has institutional partners but does not provide a specific list of these partners. The institution is a new member of the Erasmus programme.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 15.6,
+  "ai_calls": 8,
+  "partner_calls": 5,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 2,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 35.5
+ }
+}

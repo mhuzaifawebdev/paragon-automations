@@ -1,0 +1,164 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-10-28T22:11:21Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "DOLNOŚLĄSKA SZKOŁA WYŻSZA",
+  "institution_type": "university",
+  "official_website": "https://www.ideis.pl/wroclaw/",
+  "country": null,
+  "phone": {
+   "value": "+48 693 010 160",
+   "source_url": "https://www.ideis.pl/wroclaw/kontakt",
+   "evidence_quote": "+48 693 010 160"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@ideis.pl",
+  "generic_email_url": "https://www.ideis.pl/wroclaw/kontakt",
+  "contact": {
+   "name": "Joanna Tatar",
+   "designation": "Dyrektor Działu Współpracy Międzynarodowej",
+   "designation_local": "",
+   "email": "erasmus@ideis.plerasmus",
+   "office_email": "",
+   "phone": "+48 693 010 160",
+   "source_url": "https://www.ideis.pl/wroclaw/kontakt",
+   "evidence_quote": "Joanna Tatar - Dyrektor Działu Współpracy Międzynarodowej"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. Joanna Tatar is the Director of the International Cooperation Department and is the contact person currently on file for international mobility.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Komisja Europejska",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ideis.pl/wroclaw/sites/ideis_wroclaw/files/2026-07/zr_26_05_60-regulamin-pracownicy-erasmus-szkoleniowe.pdf",
+    "evidence_quote": "przez Komisję Europejską oraz NA.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Narodowa Agencja Programu Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ideis.pl/wroclaw/sites/ideis_wroclaw/files/2026-07/zr_26_05_60-regulamin-pracownicy-erasmus-szkoleniowe.pdf",
+    "evidence_quote": "Wysokość stypendium ustalana jest przez Narodową Agencję Programu Erasmus+. Ustalone kwoty dofinansowania nie ulegną",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Portugal",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ideis.pl/wroclaw/strefa-studenta/poznaj-erasmus",
+    "evidence_quote": "Co semestr przyjmujemy w DSW Ideis studentów z partnerskich z uczelni z Portugalii, Hiszpanii, Rumunii, Bułgarii, Turcji, Niemiec, Szwecji...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Uniwersytet DSW Ideis Wrocław",
+    "city": "Wrocław",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://www.ideis.pl/wroclaw/kontakt",
+    "evidence_quote": "53-611 Wrocław"
+   },
+   {
+    "campus_name": "Filia w Krakowie",
+    "city": "Kraków",
+    "country": "Poland",
+    "role": "branch",
+    "source_url": "https://www.ideis.pl/wroclaw/sites/ideis_wroclaw/files/2026-07/zr_26_05_60-regulamin-pracownicy-erasmus-szkoleniowe.pdf",
+    "evidence_quote": "ramach programu Erasmus+ w Uniwersytecie DSW Ideis w tym w filii w Krakowie stanowiący załącznik nr 1"
+   }
+  ],
+  "stated_total": 100,
+  "stated_total_quote": "W ramach stale nawiązywanych partnerstw dysponujemy ponad 100 umowami z uczelniami zagranicznymi",
+  "stated_total_url": "https://www.ideis.pl/wroclaw/strefa-studenta/poznaj-erasmus",
+  "truncated": true,
+  "total_seen": 100,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions having over 100 partner agreements but does not provide a specific list of partner institution names. Contact details for Erasmus+ are well-documented.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 15.8,
+  "ai_calls": 8,
+  "partner_calls": 7,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 5,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 2,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     1261,
+     1400
+    ],
+    "returned": 7,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     1401,
+     1482
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 26.3
+ }
+}
