@@ -1,0 +1,91 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T20:11:03Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Agrupamento de Escolas Gabriel Pereira",
+  "institution_type": "school",
+  "official_website": "https://aegp.edu.pt/web/pt-pt",
+  "country": null,
+  "phone": {
+   "value": "266 745 600",
+   "source_url": "https://aegp.edu.pt/web/pt-pt/contact",
+   "evidence_quote": "266 745 600"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Pão e Paz",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://aegp.edu.pt/web/pt-pt/dia-internacional-para-erradicacao-da-pobreza-0",
+    "evidence_quote": "A par desta manifestação simbólica, a generosidade da nossa comunidade traduziu-se em gestos concretos. Graças ao envolvimento das famílias, dos alunos e do Clube GDRAR reuniu-se uma oferta expressiva de bens alimentares não perecíveis, fruto de uma recolha solidária extraordinária. Os alimentos angariados foram entregues à Instituição Pão e Paz.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Clube GDRAR",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://aegp.edu.pt/web/pt-pt/dia-internacional-para-erradicacao-da-pobreza-0",
+    "evidence_quote": "A par desta manifestação simbólica, a generosidade da nossa comunidade traduziu-se em gestos concretos. Graças ao envolvimento das famílias, dos alunos e do Clube GDRAR reuniu-se uma oferta expressiva de bens alimentares não perecíveis, fruto de uma recolha solidária extraordinária. Os alimentos angariados foram entregues à Instituição Pão e Paz.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Gabriel Pereira",
+    "city": "Évora",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://aegp.edu.pt/web/pt-pt/contact",
+    "evidence_quote": "Escola Gabriel Pereira"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ partners or specific international mobility coordinators. The contact information is limited to a social worker mentioned in a news article.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.5,
+  "crawl_s": 9.8,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     113
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 44.7
+ }
+}
