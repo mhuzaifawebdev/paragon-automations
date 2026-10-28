@@ -1,0 +1,139 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T11:10:29Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Committee of Dublin West Education Centre",
+  "institution_type": "college",
+  "official_website": "https://www.dwec.ie/",
+  "country": {
+   "value": "Ireland",
+   "source_url": "https://www.dwec.ie/",
+   "evidence_quote": "The ESCI (Education Support Centres Ireland website lists all available courses and events from Education Support Centres nationwide."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "reception@dwec.ie",
+  "generic_email_url": "https://www.dwec.ie/",
+  "contact": {
+   "name": "Ultan Mac Mathúna",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "01 - 4528000",
+   "source_url": "https://www.dwec.ie/contact-and-location-dwec.html",
+   "evidence_quote": "| Ultan Mac Mathúna ... | Stiúrthóir | Director"
+  },
+  "alternates": [
+   {
+    "name": "Anne Fay-Plunkett",
+    "designation": "Administrative Assistant",
+    "designation_local": "",
+    "email": "afayplunkett@dwec.ie",
+    "office_email": "",
+    "phone": "01-4528000",
+    "source_url": "https://www.dwec.ie/contact-and-location-dwec.html",
+    "evidence_quote": "| Anne Fay-Plunkett ... | Cúntóir Riaracháin | Administrative Assistant",
+    "why_chosen": "Secretary / administration (last resort). Anne Fay-Plunkett is a named administrative assistant with her own direct contact details listed on the site."
+   },
+   {
+    "name": "Doireann Quinn",
+    "designation": "Oide Administrator",
+    "designation_local": "",
+    "email": "doireann.quinn@oide.ie",
+    "office_email": "",
+    "phone": "01-4528000",
+    "source_url": "https://www.dwec.ie/contact-and-location-dwec.html",
+    "evidence_quote": "| Doireann Quinn ... | Riarthóir Oide | Oide Administrator",
+    "why_chosen": "Secretary / administration (last resort). Doireann Quinn is an administrator with a listed role and direct email contact."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Ultan Mac Mathúna is the Director of the institution and serves as the primary administrative head contact.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "NEPS",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dwec.ie/",
+    "evidence_quote": "ESCI NEPS: Supporting School Attendance through understanding inclusion and partnership",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ESCI",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dwec.ie/",
+    "evidence_quote": "[ESCI]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Oide",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dwec.ie/",
+    "evidence_quote": "Oide",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ESCI NEPS",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dwec.ie/cpd-courses-dwec/primary-courses-dwec/2957-esci-neps-supporting-school-attendance-through-understanding-inclusion-and-partnership.html",
+    "evidence_quote": "[ESCI NEPS: Supporting School Attendance through understanding inclusion and partnership]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Dublin West Education Centre",
+    "city": "Tallaght, Dublin 24",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.dwec.ie/contact-and-location-dwec.html",
+    "evidence_quote": "Tallaght, Dublin 24"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 4,
+  "coverage_note": "No international partnerships or Erasmus agreements were mentioned in the provided evidence pages.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 5.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 10.0,
+  "mode": "gemini",
+  "email_search_s": 3.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 7,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 22.5
+ }
+}

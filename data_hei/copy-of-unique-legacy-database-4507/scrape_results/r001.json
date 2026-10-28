@@ -1,0 +1,151 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-28T11:10:31Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Coordinating organisation name",
+  "institution_type": "university",
+  "official_website": "https://www.dcu.ie/",
+  "country": {
+   "value": "Ireland",
+   "source_url": "https://www.dcu.ie/",
+   "evidence_quote": "Centre for Talented Youth, Ireland"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "student.support@dcu.ie",
+  "generic_email_url": "https://www.dcu.ie/sites/default/files/inline-files/guide-for-dcu-staff-july-2025.pdf",
+  "contact": {
+   "name": "Claire Bohan",
+   "designation": "Dean of Students",
+   "designation_local": "",
+   "email": "Claire.bohan@dcu.ie",
+   "office_email": "",
+   "phone": "01-7005164",
+   "source_url": "https://www.dcu.ie/sites/default/files/inline-files/guide-for-dcu-staff-july-2025.pdf",
+   "evidence_quote": "Claire Bohan ... Dean of Students"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Claire Bohan is listed as Dean of Students with direct contact details.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'Dublin City University' on the site. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Glasnevin campus",
+    "city": "Dublin",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.dcu.ie/",
+    "evidence_quote": "The ceremony took place in The Helix on DCU’s Glasnevin campus"
+   },
+   {
+    "campus_name": "St Patrick’s campus",
+    "city": "Dublin",
+    "country": "Ireland",
+    "role": "branch",
+    "source_url": "https://www.dcu.ie/sites/default/files/inline-files/guide-for-dcu-staff-july-2025.pdf",
+    "evidence_quote": "the services on the Glasnevin campus, and St Patrick’s and All Hallows"
+   },
+   {
+    "campus_name": "All Hallows Campus",
+    "city": "Dublin",
+    "country": "Ireland",
+    "role": "branch",
+    "source_url": "https://www.dcu.ie/people/dcu-events/2026/oct/living-our-values-staff-sessions-all-staff-st-patricks-campus-all",
+    "evidence_quote": "For All Staff (St Patrick's and All Hallows Campus)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information on Dublin City University's general structure, student support services, and internal policies, but lacks any explicit mention of partner institutions, student mobility agreements, or dedicated international/Erasmus coordinators. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.6,
+  "crawl_s": 16.4,
+  "ai_calls": 9,
+  "partner_calls": 8,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.4,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     1121,
+     1260
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     1261,
+     1359
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 25.3
+ }
+}
