@@ -1,0 +1,134 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T18:31:33Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Etablissement Public Local d'Enseignement et de Formation Professionnelle Agricoles- Louis Giraud",
+  "institution_type": "college",
+  "official_website": "https://epl.carpentras.educagri.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://epl.carpentras.educagri.fr/fileadmin/user_upload/Coop_Inter/Taux_applicables_pour_les_contibutions_unitaires_des_mobilites_de_l_enseignement_superieur.pdf",
+   "evidence_quote": "France, Grèce, Italie, Malte, Pays-Bas, Portugal"
+  },
+  "phone": {
+   "value": "04 90 60 80 80",
+   "source_url": "https://epl.carpentras.educagri.fr/",
+   "evidence_quote": "Tél. : 04 90 60 80 80 <tel 0490608080>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Estelle Servais",
+   "designation": "in charge of communication on the campus",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://epl.carpentras.educagri.fr/nos-formations/la-radio-du-campus",
+   "evidence_quote": "Gestion : Florian Giraudi animateur radio - Estelle Servais en charge de la communication sur le campus"
+  },
+  "alternates": [
+   {
+    "name": "Florian Giraudi",
+    "designation": "radio host",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://epl.carpentras.educagri.fr/nos-formations/la-radio-du-campus",
+    "evidence_quote": "Gestion : Florian Giraudi animateur radio - Estelle Servais en charge de la communication sur le campus",
+    "why_chosen": "Other role. Florian Giraudi is a radio host at the campus."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Estelle Servais is in charge of communication on the campus.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "RTV FM – Radio Territoire Ventoux",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://epl.carpentras.educagri.fr/nos-formations/la-radio-du-campus",
+    "evidence_quote": "Le Campus Provence Ventoux collabore avec RTV FM – Radio Territoire Ventoux, qui émet sur la fréquence 102.2 FM et en DAB+.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EACEA",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://epl.carpentras.educagri.fr/nos-formations/cooperation-internationale",
+    "evidence_quote": "EACEA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agence Exécutive Education, Audiovisuel et Culture",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://epl.carpentras.educagri.fr/nos-formations/cooperation-internationale",
+    "evidence_quote": "Agence Exécutive Education, Audiovisuel et Culture",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "eTwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://epl.carpentras.educagri.fr/nos-formations/cooperation-internationale",
+    "evidence_quote": "eTwinning :",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Provence Ventoux",
+    "city": "Carpentras",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://epl.carpentras.educagri.fr/",
+    "evidence_quote": "CAMPUS PROVENCE VENTOUX (LYCEE, UFA, CFPPA)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions participation in the Erasmus+ program but does not provide a specific list of partner institutions. No specific international relations staff are named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 14.8,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 35.5
+ }
+}

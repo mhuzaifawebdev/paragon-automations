@@ -1,0 +1,84 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-28T18:31:29Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Bürgerstiftung Stuttgart",
+  "institution_type": "unknown",
+  "official_website": "https://www.buergerstiftung-stuttgart.de/",
+  "country": {
+   "value": "Germany",
+   "source_url": "https://www.buergerstiftung-stuttgart.de/",
+   "evidence_quote": "Germany"
+  },
+  "phone": {
+   "value": "+49 (0)711 722 351 24",
+   "source_url": "https://www.buergerstiftung-stuttgart.de/",
+   "evidence_quote": "+49 (0)711 722 351 24"
+  },
+  "phone_alt": [],
+  "generic_email": "info@buergerstiftung-stuttgart.de",
+  "generic_email_url": "https://www.buergerstiftung-stuttgart.de/",
+  "contact": {
+   "name": "Jürgen Langerfeld",
+   "designation": "Public Relations & Social Media Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+49 (0)711 722 351 22",
+   "source_url": "https://www.buergerstiftung-stuttgart.de/kontakt-1",
+   "evidence_quote": "Jürgen Langerfeld ... Referent für Öffentlichkeitsarbeit & Social Media"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Jürgen Langerfeld is the contact person for media inquiries and public relations.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Mercedes-Benz",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.buergerstiftung-stuttgart.de/mittendrin-kooperationspartner",
+    "evidence_quote": "Die Förderinitiative „Mittendrin – Chancen für morgen gestalten“ ist eine große Chance für zivilgesellschaftliche Gruppen in Stuttgart. Sie konnten sich um Fördermittel mit einer Laufzeit von bis zu fünf Jahren in drei Bereichen bewerben: „Teilhabe von Kindern und Jugendlichen“, „Integration“ sowie „Wege aus der Armut“. Die Mittel stellt Mercedes-Benz zur Verfügung, die Bürgerstiftung Stuttgart koordiniert als langjähriger Kooperationspartner des Automobilherstellers den Ausschreibungsprozess. D",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bürgerstiftung Stuttgart",
+    "city": "Stuttgart",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.buergerstiftung-stuttgart.de/kontakt",
+    "evidence_quote": "Olgastraße 57a"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution is a community foundation rather than an educational institution, so it does not have Erasmus+ mobility programs or a list of academic partners. The provided contacts are the foundation's leadership and public relations staff.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 7.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.2,
+  "total_seconds": 30.6
+ }
+}
