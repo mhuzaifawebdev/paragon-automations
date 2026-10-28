@@ -1,0 +1,55 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-27T20:55:11Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "Mark",
+  "institution_type": "unknown",
+  "official_website": "https://www.mark.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kontaktcenter@mark.se",
+  "generic_email_url": "https://www.mark.se/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch bano-batch-1-staff-mobility-ka-101 (scraped 2026-10-27). site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Kommunhuset",
+    "city": "Kinna",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.mark.se/kommun-och-politik/kontakta-oss/kontaktcenter",
+    "evidence_quote": "Har du några funderingar eller behöver hjälp med en viss fråga, tveka inte att ringa eller besöka oss i kontaktcenter i kommunhuset på Boråsvägen 40 i Kinna. Informationsassistenterna hjälper dig med din fråga direkt eller ser till att du kommer i kontakt med rätt person och förvaltning."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a municipality (Marks kommun) rather than a specific educational institution, though it oversees local schools. No specific Erasmus+ or international mobility coordinator is listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "bano-batch-1-staff-mobility-ka-101",
+  "row_id": "r209"
+ }
+}
