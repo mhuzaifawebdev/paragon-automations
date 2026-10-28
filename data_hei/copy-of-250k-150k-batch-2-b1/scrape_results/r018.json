@@ -1,0 +1,76 @@
+{
+ "row_id": "r018",
+ "scraped_at": "2026-10-28T19:31:37Z",
+ "contacts": {
+  "row_id": "r018",
+  "institution_name": "HLT Semmering",
+  "institution_type": "school",
+  "official_website": "https://www.houseoftourism.at/tourismusschule-semmering/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jürgen Kürner",
+   "designation": "Schulleiter",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.houseoftourism.at/tourismusschule-semmering/menschen/team/",
+   "evidence_quote": "[Dir. HR Mag. Jürgen Kürner] ... Schulleiter"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Jürgen Kürner is the head of the institution and was the contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Partnerschule in Montpellier",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.houseoftourism.at/erasmus/2026/zwei-monate-die-verbinden-lernen-ueber-grenzen-hinweg/",
+    "evidence_quote": "Im Rahmen des Erasmus+ Programms verbrachten Klara und Felix (Schüler:innen des ITB-Zweigs) zwei spannende Monate an unserer Partnerschule in Montpellier, Frankreich. Dort nahmen sie sowohl am Theorie- als auch am Praxisunterricht teil und konnten ihr Fachwissen in einem internationalen Umfeld vertiefen. Neben dem schulischen Alltag lernten sie eine neue Kultur kennen, verbesserten deutlich ihre Französischkenntnisse und knüpften viele neue Freundschaften. Die Zeit in Montpellier war nicht nur f",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Tourismusschule Semmering",
+    "city": "Semmering",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://www.houseoftourism.at/tourismusschule-semmering/",
+    "evidence_quote": "Tourismusschule Semmering"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 6,
+  "coverage_note": "The website mentions Erasmus+ partnerships but does not provide a comprehensive list of partner institutions. Contact emails for specific staff members are not listed on the team page.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.2,
+  "crawl_s": 15.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.5,
+  "total_seconds": 24.7
+ }
+}

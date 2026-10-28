@@ -1,0 +1,85 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-28T19:32:11Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "La Bardal",
+  "institution_type": "unknown",
+  "official_website": "https://labardal.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "La Ortiga Colectiva",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://labardal.es/",
+    "evidence_quote": "Se buscan vecinos para ocho innovadoras propuestas culturales. Un laboratorio ciudadano en torno a la cultura comunitaria junto a La Ortiga Colectiva, Red Cambera y Tanea Arqueología.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Red Cambera",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://labardal.es/",
+    "evidence_quote": "Se buscan vecinos para ocho innovadoras propuestas culturales. Un laboratorio ciudadano en torno a la cultura comunitaria junto a La Ortiga Colectiva, Red Cambera y Tanea Arqueología.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tanea Arqueología",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://labardal.es/",
+    "evidence_quote": "Se buscan vecinos para ocho innovadoras propuestas culturales. Un laboratorio ciudadano en torno a la cultura comunitaria junto a La Ortiga Colectiva, Red Cambera y Tanea Arqueología.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede-laboratorio",
+    "city": "Valle de Cabuérniga",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://labardal.es/",
+    "evidence_quote": "Estamos en los pueblos de Cantabria. Nuestra sede-laboratorio se encuentra en el Valle de Cabuérniga."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 3,
+  "coverage_note": "La Bardal is an association rather than a traditional educational institution, so it does not have Erasmus+ partners or academic campuses. The evidence does not provide specific contact emails for the individuals listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 7.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 20.8
+ }
+}
