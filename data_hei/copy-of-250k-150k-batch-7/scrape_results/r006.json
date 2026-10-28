@@ -1,0 +1,70 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-28T19:11:42Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "Asociación REVE",
+  "institution_type": "unknown",
+  "official_website": "https://www.reves.fr/",
+  "country": null,
+  "phone": {
+   "value": "04 74 06 30 00",
+   "source_url": "https://www.reves.fr/",
+   "evidence_quote": "04 74 06 30 00"
+  },
+  "phone_alt": [],
+  "generic_email": "reves01@reves.fr",
+  "generic_email_url": "https://www.reves.fr/qui-sommes-nous/les-contacts-locaux/",
+  "contact": {
+   "name": "Josiane GONNOT",
+   "designation": "President",
+   "designation_local": "",
+   "email": "josiane.gonnot@reves.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.reves.fr/qui-sommes-nous/equipe/le-conseil-dadministration/",
+   "evidence_quote": "Josiane GONNOT <josiane.gonnot@reves.fr> ... Présidente"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Josiane Gonnot is the President of the association and is listed as a contact on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Siège National",
+    "city": "Villefranche sur Saône",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.reves.fr/",
+    "evidence_quote": "69651 Villefranche sur Saône Cedex"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a charitable association rather than an educational institution, so it does not have Erasmus+ mobility partners. The evidence provides a list of local delegations but no formal list of international academic partners. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 18.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 28.7
+ }
+}
