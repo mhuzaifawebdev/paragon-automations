@@ -1,0 +1,78 @@
+{
+ "row_id": "r473",
+ "scraped_at": "2026-10-28T12:14:29Z",
+ "contacts": {
+  "row_id": "r473",
+  "institution_name": "Mornewegschule",
+  "institution_type": "school",
+  "official_website": "https://www.mornewegschule-darmstadt.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ulrike Mertins",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.mornewegschule-darmstadt.de/index.php?id=11",
+   "evidence_quote": "Direktorin Ulrike Mertins ... Schulleiterin"
+  },
+  "alternates": [
+   {
+    "name": "Frau S. Brunner",
+    "designation": "Coordination Europaschule",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.mornewegschule-darmstadt.de/index.php?id=12",
+    "evidence_quote": "Frau S. Brunner ... Koordination Europaschule",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is the coordinator for the Europaschule program, which oversees international activities."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). She is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mornewegschule",
+    "city": "Darmstadt",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.mornewegschule-darmstadt.de/index.php?id=8",
+    "evidence_quote": "Mornewegschule"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions participation in Erasmus+ projects but does not provide a list of partner institutions. Contact information for international mobility is limited to the Europaschule coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 12.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.2,
+  "total_seconds": 25.8
+ }
+}
