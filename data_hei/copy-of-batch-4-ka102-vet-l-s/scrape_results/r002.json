@@ -1,0 +1,93 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T16:12:00Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Powiatowy Zespol Szkol nr 1 w Sieradzu",
+  "institution_type": "school",
+  "official_website": "https://mechaniksieradz.edu.pl/",
+  "country": null,
+  "phone": {
+   "value": "43 822 40 22",
+   "source_url": "https://mechaniksieradz.edu.pl/",
+   "evidence_quote": "tel : 43 822 40 22, tel: 43 827 17 85,"
+  },
+  "phone_alt": [],
+  "generic_email": "sekretariat@mechaniksieradz.edu.pl",
+  "generic_email_url": "https://mechaniksieradz.edu.pl/",
+  "contact": {
+   "name": "Michał Kluba",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "sekretariat@mechaniksieradz.edu.pl",
+   "office_email": "",
+   "phone": "43 822 40 22",
+   "source_url": "https://mechaniksieradz.edu.pl/",
+   "evidence_quote": "Dyrektor – mgr inż. Michał Kluba"
+  },
+  "alternates": [
+   {
+    "name": "Justyna Gmerek",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "sekretariat@mechaniksieradz.edu.pl",
+    "office_email": "",
+    "phone": "43 822 40 22",
+    "source_url": "https://mechaniksieradz.edu.pl/",
+    "evidence_quote": "Wicedyrektor – mgr Justyna Gmerek",
+    "why_chosen": "Principal / director (no Erasmus contact found). Justyna Gmerek serves as a Deputy Director and is part of the school leadership team."
+   },
+   {
+    "name": "Maciej Mess",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "sekretariat@mechaniksieradz.edu.pl",
+    "office_email": "",
+    "phone": "43 822 40 22",
+    "source_url": "https://mechaniksieradz.edu.pl/",
+    "evidence_quote": "Wicedyrektor –mgr Maciej Mess",
+    "why_chosen": "Principal / director (no Erasmus contact found). Maciej Mess serves as a Deputy Director and is part of the school leadership team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Michał Kluba is the Director of the institution and is the primary contact for administrative inquiries.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Powiatowy Zespół Szkół nr 1 w Sieradzu",
+    "city": "Sieradz",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://mechaniksieradz.edu.pl/",
+    "evidence_quote": "98-200 Sieradz, ul. Piłsudskiego 5,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The evidence mentions international vocational internships but does not provide a list of specific partner institutions or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 11.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 36.0
+ }
+}

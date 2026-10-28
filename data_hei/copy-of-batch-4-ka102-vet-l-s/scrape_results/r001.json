@@ -1,0 +1,100 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-28T16:11:57Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Staatliches Berufliches Schulzentrum Herzogenaurach-Höchstadt",
+  "institution_type": "college",
+  "official_website": "https://www.sbs-herzogenaurach.de/schulzentrum/schulleitung",
+  "country": null,
+  "phone": {
+   "value": "09132 8023",
+   "source_url": "https://www.sbs-herzogenaurach.de/schulzentrum/schulleitung",
+   "evidence_quote": "Tel: 09132 8023 <tel 091328023>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Annette Körber",
+   "designation": "Permanent Representative of the Headmistress",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "09132 8023",
+   "source_url": "https://www.sbs-herzogenaurach.de/schulzentrum/schulleitung",
+   "evidence_quote": "| Annette Körber ... | Ständige Vertreterin der Schulleiterin"
+  },
+  "alternates": [
+   {
+    "name": "Evelina Del Popolo",
+    "designation": "Assistant to the School Management",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sbs-herzogenaurach.de/ueber-uns/erasmus/lehrermobilitaeten/island",
+    "evidence_quote": "Ein Bericht von Evelina Del Popolo, Assistenz der Schulleitung",
+    "why_chosen": "Secretary / administration (last resort). She authored a detailed report on her Erasmus+ job shadowing mobility in 2024."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). She is a member of the school leadership team and has a direct email address.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Borgarholtsskóli",
+    "partner_country": "Iceland",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.sbs-herzogenaurach.de/ueber-uns/erasmus/lehrermobilitaeten/island",
+    "evidence_quote": "Jobshadowing an der Borgarholtsskóli in Island (09. – 15. März 2024)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Standort Herzogenaurach",
+    "city": "Herzogenaurach",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.sbs-herzogenaurach.de/schulzentrum/schulleitung",
+    "evidence_quote": "Standort Herzogenaurach"
+   },
+   {
+    "campus_name": "Standort Höchstadt a. d. Aisch",
+    "city": "Höchstadt a. d. Aisch",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.sbs-herzogenaurach.de/schulzentrum/schulleitung",
+    "evidence_quote": "Standort Höchstadt a. d. Aisch"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of Erasmus+ partners, only mentioning specific schools or organizations visited during mobility activities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 15.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 13.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 32.7
+ }
+}
