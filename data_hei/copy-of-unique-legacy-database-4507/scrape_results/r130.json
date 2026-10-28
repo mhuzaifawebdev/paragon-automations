@@ -1,0 +1,134 @@
+{
+ "row_id": "r130",
+ "scraped_at": "2026-10-28T11:33:16Z",
+ "contacts": {
+  "row_id": "r130",
+  "institution_name": "Gymnázium",
+  "institution_type": "school",
+  "official_website": "https://www.gtr.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Alice Burešová",
+   "designation": "Head of School",
+   "designation_local": "",
+   "email": "buresova.reditelka@gtr.cz",
+   "office_email": "",
+   "phone": "+420 568 844 679",
+   "source_url": "https://www.gtr.cz/kontakty/",
+   "evidence_quote": "Ředitelka školy ... RNDr. Alice Burešová"
+  },
+  "alternates": [
+   {
+    "name": "Monika Peroutková",
+    "designation": "French Language Teacher",
+    "designation_local": "",
+    "email": "peroutkovam@gtr.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.gtr.cz/kontakty/",
+    "evidence_quote": "Peroutková Monika, Mgr. ... FJ-Z",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Monika Peroutková is a language teacher who participates in Erasmus+ mobility and job shadowing."
+   },
+   {
+    "name": "Lucie Machová",
+    "designation": "French Language, Social Sciences, and Physical Education Teacher",
+    "designation_local": "",
+    "email": "machoval@gtr.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.gtr.cz/kontakty/",
+    "evidence_quote": "Machová Lucie, Mgr. ... FJ-ZSV-TV",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Lucie Machová is a language teacher involved in Erasmus+ mobility activities abroad."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Alice Burešová is the head of the institution and the primary contact for leadership and administrative matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Tampereen klassillinen lukio",
+    "partner_country": "Finland",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.gtr.cz/zahranicni-pobyty/",
+    "evidence_quote": "Na přelomu dubna a května jsem měl možnost absolvovat stínování na finské střední škole Tampereen klassillinen lukio v rámci programu Erasmus+.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bar-sur-Aube",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.gtr.cz/zahranicni-pobyty/",
+    "evidence_quote": "Krátkodobá vzdělávací mobilita v partnerské škole ve francouzském Bar-sur-Aube",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rive-de-Gier",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.gtr.cz/zahranicni-pobyty/",
+    "evidence_quote": "Ve druhém pololetí jsme uskutečnili výměnný pobyt našich a francouzských studentů. Vybraní žáci a žákyně nejprve po dobu jednoho týdne hostili své korespondenty z města Rive-de-Gier v regionu Auvergne–Rhône–Alpes.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gymnázium Feldmoching",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.gtr.cz/zahranicni-pobyty/",
+    "evidence_quote": "Ve dnech od 5. října do 10. Října 2025 jsme se zúčastnili výměnného pobytu s Gymnáziem Feldmoching v Mnichově. Celý první den jsme strávili na cestě a do Mnichova jsme se dostali až ve večerních hodinách.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tartu Jaan Poska Gümnaasium",
+    "partner_country": "Estonia",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.gtr.cz/zahranicni-pobyty/",
+    "evidence_quote": "Brzy po zahájení nového školního roku jsme dne 14. září odletěli na skupinovou mobilitu z Prahy přes Helsinky do estonského města Tartu, kde se nachází partnerská škola Tartu Jaan Poska Gümnaasium.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gymnázium Třebíč",
+    "city": "Třebíč",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.gtr.cz/",
+    "evidence_quote": "Gymnázium Třebíč"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 7,
+  "coverage_note": "The evidence lists several partner schools in countries like Finland, France, Germany, and Estonia involved in Erasmus+ exchanges, but does not provide a comprehensive standalone partner directory.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 11.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.8,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 23.0
+ }
+}
