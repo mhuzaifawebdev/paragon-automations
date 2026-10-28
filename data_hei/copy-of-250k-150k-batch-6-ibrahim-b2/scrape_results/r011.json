@@ -1,0 +1,66 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-28T18:32:03Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "ATEMPO BETRIEBSGESELLSCHAFT MBH",
+  "institution_type": "college",
+  "official_website": "https://www.atempo.at/de/",
+  "country": {
+   "value": "Österreich",
+   "source_url": "https://www.atempo.at/de/",
+   "evidence_quote": "Dabei sind wir immer auf Augenhöhe und voll mit innovativen Ideen. Das macht uns zu einem der führenden Sozialunternehmen in Österreich und zu einem Wegweiser für viele junge Menschen."
+  },
+  "phone": {
+   "value": "0043 316 814 716",
+   "source_url": "https://www.atempo.at/de/kontakt",
+   "evidence_quote": "0043 316 814 716 <tel 00316814716> (Verwaltung)"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "atempo",
+    "city": "Graz",
+    "country": "Österreich",
+    "role": "main",
+    "source_url": "https://www.atempo.at/de/kontakt",
+    "evidence_quote": "Heinrichstraße 145, 8010, Graz"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not list any specific staff members or Erasmus+ partners. The institution is a social enterprise providing education and vocational training. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 16.9,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 29.9
+ }
+}

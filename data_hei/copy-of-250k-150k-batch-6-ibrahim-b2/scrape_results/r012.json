@@ -1,0 +1,89 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-28T18:31:59Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "The Convent Centre of Language and Art",
+  "institution_type": "school",
+  "official_website": "https://www.conventcentre.com/",
+  "country": null,
+  "phone": {
+   "value": "+39 3494059581",
+   "source_url": "https://www.conventcentre.com/",
+   "evidence_quote": "+39 3494059581 <tel +39 3494059581>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Aida Bruni",
+   "designation": "Director and Erasmus+ Project Manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.conventcentre.com/our-team/",
+   "evidence_quote": "Aida Bruni ... Aida is an experienced europroject designer and Project Manager, specialized in writing European projects within the Erasmus+ program and European Solidarity Corps."
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. Aida Bruni is the director of the institution and the primary contact for Erasmus+ projects and international partnerships.",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Matera HUB",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conventcentre.com/erasmus-for-young-entrepreneurs/",
+    "evidence_quote": "As part of the Erasmus for Young Entrepreneurs program, the local contact point with whom we collaborate is Matera HUB.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Education in Progress",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conventcentre.com/enneagramma-delle-personalita/",
+    "evidence_quote": "Il progetto di Convent Centre, grazie alla solida collaborazione con Education In Progress SPAIN, ha raggiunto risultati straordinari. La bellezza delle attività proposte ha creato un forte legame tra i partecipanti. Tutti sono stati affascinati dal nostro eccezionale formatore Theo, che ha saputo introdurre con grande competenza e professionalità l’Enneagramma delle personalità. Questo strumento ha permesso ai partecipanti di esplorare le diverse sfaccettature della natura umana, superare le sf",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Convent Centre",
+    "city": "Amantea",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.conventcentre.com/",
+    "evidence_quote": "Gradinata Cappuccini, 19"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of all its Erasmus+ partners, only mentioning specific collaborators for certain projects.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 16.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 24.1
+ }
+}
