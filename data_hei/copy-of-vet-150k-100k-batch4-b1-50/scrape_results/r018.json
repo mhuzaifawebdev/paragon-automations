@@ -1,0 +1,112 @@
+{
+ "row_id": "r018",
+ "scraped_at": "2026-10-28T20:18:38Z",
+ "contacts": {
+  "row_id": "r018",
+  "institution_name": "IES Cañada Real",
+  "institution_type": "school",
+  "official_website": "https://iescanadareal.com/",
+  "country": null,
+  "phone": {
+   "value": "918 183 106",
+   "source_url": "https://iescanadareal.com/",
+   "evidence_quote": "918 183 106 <tel 918183106>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marina Nuria Escobar Sanz-Dranguet",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iescanadareal.com/equipo-directivo/",
+   "evidence_quote": "Directora: Marina Nuria Escobar Sanz-Dranguet."
+  },
+  "alternates": [
+   {
+    "name": "Isabel Acedo del Barrio",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://iescanadareal.com/equipo-directivo/",
+    "evidence_quote": "Secretaria: Isabel Acedo del Barrio.",
+    "why_chosen": "Secretary / administration (last resort). She is a member of the school's management team."
+   },
+   {
+    "name": "José Luis Hurtado Agudo",
+    "designation": "Head of Studies",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://iescanadareal.com/equipo-directivo/",
+    "evidence_quote": "Jefe de Estudios: José Luis Hurtado Agudo.",
+    "why_chosen": "Secretary / administration (last resort). He is a member of the school's management team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the director of the institution and the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES de Teis",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://iescanadareal.com/wp-content/uploads/2026/10/RESENA-MOVILIDAD-VALMOJADO.pdf",
+    "evidence_quote": "Teis (Vigo), el IES Vicente Espinel (Málaga) y de",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IES Vicente Espinel",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://iescanadareal.com/wp-content/uploads/2026/10/RESENA-MOVILIDAD-VALMOJADO.pdf",
+    "evidence_quote": "Teis (Vigo), el IES Vicente Espinel (Málaga) y de",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "I.E.S. Cañada Real",
+    "city": "Valmojado",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iescanadareal.com/",
+    "evidence_quote": "I.E.S. \"Cañada Real\" – C/ Alameda del Fresno, 18. Valmojado (Toledo)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The institution lists national school partners involved in mobility projects, but does not provide a formal list of international Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 13.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 19.8
+ }
+}

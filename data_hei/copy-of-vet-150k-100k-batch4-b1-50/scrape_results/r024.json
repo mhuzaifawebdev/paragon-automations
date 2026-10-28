@@ -1,0 +1,80 @@
+{
+ "row_id": "r024",
+ "scraped_at": "2026-10-28T20:18:54Z",
+ "contacts": {
+  "row_id": "r024",
+  "institution_name": "Kindermitte - Bündnis für Soziales Unternehmertum und Qualität in der Kindertagesbetreuung e.V.",
+  "institution_type": "unknown",
+  "official_website": "https://kindermitte.org/",
+  "country": null,
+  "phone": {
+   "value": "+49 (0)40 30 72 60 90",
+   "source_url": "https://kindermitte.org/",
+   "evidence_quote": "+49 (0)40 30 72 60 90 <tel +49%204030726090>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@kindermitte.org",
+  "generic_email_url": "https://kindermitte.org/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "FOBU",
+    "partner_country": "Denmark",
+    "partner_type": "network",
+    "mobility_type": "staff",
+    "source_url": "https://kindermitte.org/spielerisches-lernen-und-die-daenische-offenheit-unser-erasmus-austausch-in-kopenhagen/",
+    "evidence_quote": "Wir haben eine weitere Reise im Rahmen unserer Erasmus-Akkreditierung unternommen und waren mit einer Delegation aus 18 Menschen bei unserem dänischen Partner-Verband FOBU in Kopenhagen zu Besuch. Was wir dort kennenlernen durften und welche Erkenntnisse wir beim Austausch gesammelt haben, erfahrt ihr in unserem kleinen Reisebericht.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kopenhagen Professionshøjskole",
+    "partner_country": "Denmark",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "https://kindermitte.org/spielerisches-lernen-und-die-daenische-offenheit-unser-erasmus-austausch-in-kopenhagen/",
+    "evidence_quote": "Im Austausch mit unseren Gastgebern von FOBU, den besuchten Einrichtungen und der Kopenhagen Professionshøjskole wollten wir diesen Klischees auf den Grund gehen. So viel vorweg: Nicht alle Annahmen bestätigten sich, doch wir konnten viele neue und inspirierende Eindrücke mit nach Hamburg nehmen.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Kindermitte",
+    "city": "Hamburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://kindermitte.org/",
+    "evidence_quote": "Ackermannstraße 36 (Innenhof) 22087 Hamburg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not provide a comprehensive list of all partners, only those mentioned in the context of Erasmus mobility. No specific Erasmus coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 6.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 19.7
+ }
+}
