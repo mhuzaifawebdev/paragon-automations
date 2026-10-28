@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-28T23:08:22.328668+00:00",
+ "generated_at": "2026-10-28T23:12:42.906591+00:00",
  "totals": {
-  "institutes": 7538,
-  "with_contact": 5031,
-  "with_email": 4297,
-  "personal_email": 2977,
-  "generic_email": 3161,
-  "partners": 123216,
-  "campuses": 10320,
-  "no_website": 955,
-  "with_website": 6583,
-  "batches": 116
+  "institutes": 7563,
+  "with_contact": 5039,
+  "with_email": 4306,
+  "personal_email": 2984,
+  "generic_email": 3165,
+  "partners": 123393,
+  "campuses": 10340,
+  "no_website": 967,
+  "with_website": 6596,
+  "batches": 117
  },
  "days": [
   {
@@ -123,18 +123,34 @@
   },
   {
    "day": "2026-10-28",
-   "institutes": 4705,
-   "with_contact": 2947,
-   "with_email": 2530,
-   "personal_email": 1641,
-   "generic_email": 1917,
-   "partners": 59929,
-   "campuses": 6250,
-   "no_website": 741,
-   "with_website": 3964
+   "institutes": 4730,
+   "with_contact": 2955,
+   "with_email": 2539,
+   "personal_email": 1648,
+   "generic_email": 1921,
+   "partners": 60106,
+   "campuses": 6270,
+   "no_website": 753,
+   "with_website": 3977
   }
  ],
  "batches": [
+  {
+   "batch": "merged-legacy-database-batch-3-bano",
+   "status": "running",
+   "total_rows": 67,
+   "done": 25,
+   "updated": "2026-10-28T23:12:37.220778+00:00",
+   "institutes": 25,
+   "with_contact": 8,
+   "with_email": 9,
+   "personal_email": 7,
+   "generic_email": 4,
+   "partners": 177,
+   "campuses": 20,
+   "no_website": 12,
+   "with_website": 13
+  },
   {
    "batch": "merged-legacy-database-batch-2-sumba",
    "status": "done",
