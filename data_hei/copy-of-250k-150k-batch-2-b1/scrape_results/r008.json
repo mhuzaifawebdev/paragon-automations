@@ -1,0 +1,101 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-28T19:30:51Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "BBS III des Landkreises Vechta",
+  "institution_type": "school",
+  "official_website": "https://www.bbs-vechta.de/",
+  "country": null,
+  "phone": {
+   "value": "(+49)4441 9313 0",
+   "source_url": "https://www.bbs-vechta.de/uber-uns/schulleitung",
+   "evidence_quote": "Telefon: 04441 – 9313 0"
+  },
+  "phone_alt": [],
+  "generic_email": "info@bbs-vechta.de",
+  "generic_email_url": "https://www.bbs-vechta.de/ansprechpartner-korperpflege",
+  "contact": {
+   "name": "Rainer Engelmann",
+   "designation": "Permanent Representative of the Principal",
+   "designation_local": "",
+   "email": "engelmann@bbs-vechta.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bbs-vechta.de/uber-uns/schulleitung",
+   "evidence_quote": "Rainer Engelmann ... Ständiger Vertreter der Schulleiterin"
+  },
+  "alternates": [
+   {
+    "name": "Marion Jänen",
+    "designation": "Principal",
+    "designation_local": "",
+    "email": "jaenen@bbs-vechta.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bbs-vechta.de/uber-uns/schulleitung",
+    "evidence_quote": "Marion Jänen ... Schulleiterin",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the principal of the school, she is the primary contact for institutional matters."
+   }
+  ],
+  "rung": "Mobility coordinator. He is explicitly responsible for the implementation of student exchange programs.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Berufsschule Sampo",
+    "partner_country": "Finland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bbs-vechta.de/pflege-2/erasmus-projekt-in-finnland-und-ungarn-schuelerinnen-und-schueler-der-justus-von-liebig-schule-sammeln-wertvolle-erfahrungen",
+    "evidence_quote": "Als Einstieg in den Austausch und die Praktikumszeit besuchte die deutsche Lerngruppe aus Vechta in Lappeenranta die Berufsschule Sampo, eine renommierte Bildungseinrichtung in Finnland. Die deutschen Gäste hatten die Gelegenheit, im Unterricht der Pflegeklassen zu hospitieren und konnten gemeinsam mit einer finnischen Lerngruppe Übungen zur Mobilisation und zum Transfer durchführen. Dieser Austausch bot den deutschen Schülerinnen die Möglichkeit, neue und landestypische Pflegetechniken zu erler",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universität Jászberény",
+    "partner_country": "Hungary",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bbs-vechta.de/pflege-2/erasmus-projekt-in-finnland-und-ungarn-schuelerinnen-und-schueler-der-justus-von-liebig-schule-sammeln-wertvolle-erfahrungen",
+    "evidence_quote": "Am zweiten Tag fand ein Gespräch am „runden Tisch“ in der Universität Jászberény statt. Mit Dozenten und Studierenden der Universität Jászberény, Vertretern der örtlichen Praxisbetriebe und den Lehrkräften sowie Schülerinnen und Schülern der Justus-von-Liebig-Schule wurden die Ausbildungssysteme bezogen auf den Elementarbereich verglichen und Gemeinsamkeiten und Unterschiede der Arbeitswelten von Erzieherinnen und Erziehern festgestellt. Außerdem nutzten die deutschen Schülerinnen und Schüler im",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Justus-von-Liebig-Schule",
+    "city": "Vechta",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bbs-vechta.de/",
+    "evidence_quote": "Justus-von-Liebig-Schule – Die Justus-von-Liebig-Schule, BBS III des Landkreises Vechta,ist das Kompetenzzentrum für berufliche Bildung im Bereich Agrar, Gesundheit und Soziales"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The website does not provide a formal list of Erasmus+ partners, though specific partner institutions are mentioned in project reports.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 17.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 25.6
+ }
+}
