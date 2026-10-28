@@ -1,0 +1,80 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-28T17:08:14Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "Gewerbeschule Mosbach",
+  "institution_type": "school",
+  "official_website": "https://gewerbeschule-mosbach.de/",
+  "country": null,
+  "phone": {
+   "value": "+49 6261 8908 0",
+   "source_url": "https://gewerbeschule-mosbach.de/",
+   "evidence_quote": "Telefon: +49 6261 8908 0 <tel +49626189080>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Rebecca Denz",
+   "designation": "Erasmus+ contact person",
+   "designation_local": "",
+   "email": "r_denz@gsm-mos.de",
+   "office_email": "",
+   "phone": "+49 6261 8908-96",
+   "source_url": "https://gewerbeschule-mosbach.de/schulleben/schueleraustausch-ueber-erasmus/",
+   "evidence_quote": "Ansprechpartnerin ... Rebecca Denz"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). She is explicitly named as the contact person for Erasmus+ student exchanges.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CAREERIA",
+    "partner_country": "Finland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://gewerbeschule-mosbach.de/schulleben/schueleraustausch-ueber-erasmus/gruppenaustausch-porvoo-erasmus/",
+    "evidence_quote": "Seit mehr als einem Jahrzehnt findet ein Gruppenaustausch mit unserer Partnerschule CAREERIA im finnischen Porvoo statt. Eine Gruppe von ca. 12 Schüler*innen aus der Berufs(fach)schule Kfz- bzw. Farbtechnik und dem AVdual fliegt für zwei Wochen in den Süden Finnlands. Wir wohnen dort gemeinsam in einer Herberge, man wird also nicht in Gastfamilien untergebracht. Dennoch lernt man viel über die finnische Lebensweise, erfährt die Natur, probiert finnische Spezialitäten oder kann sich in der Sauna ",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gewerbeschule Mosbach",
+    "city": "Mosbach",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://gewerbeschule-mosbach.de/",
+    "evidence_quote": "74821 Mosbach"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The institution lists one specific Erasmus+ partner in Finland. No comprehensive list of all international partners is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.7,
+  "crawl_s": 35.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 42.0
+ }
+}
