@@ -1,0 +1,108 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T19:40:44Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "ADPEP69/ML",
+  "institution_type": "unknown",
+  "official_website": "https://www.lespep69.org/",
+  "country": null,
+  "phone": {
+   "value": "04 37 43 14 14",
+   "source_url": "https://www.lespep69.org/contact/",
+   "evidence_quote": "Téléphone : 04 37 43 14 14"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jean-François Maris",
+   "designation": "Directeur Général",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://www.lespep69.org/wp-content/uploads/sites/7/2026/10/Organigramme-Octobre-2026.pdf",
+   "evidence_quote": "Directeur Général ... Jean-François Maris"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Jean-François Maris is the General Director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Defoin",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lespep69.org/2025/10/un-erasmus-pour-tous-le-pari-reussi-du-projet-dis-abilities/",
+    "evidence_quote": "Pour y remédier, les PEP 69/ML se sont entourés de partenaires européens – Defoin, Sciara Progetti et Action Synergy – afin de créer un projet commun qui favorise l’inclusion et le partage de compétences entre les différents acteurs.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sciara Progetti",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lespep69.org/2025/10/un-erasmus-pour-tous-le-pari-reussi-du-projet-dis-abilities/",
+    "evidence_quote": "Pour y remédier, les PEP 69/ML se sont entourés de partenaires européens – Defoin, Sciara Progetti et Action Synergy – afin de créer un projet commun qui favorise l’inclusion et le partage de compétences entre les différents acteurs.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Action Synergy",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lespep69.org/2025/10/un-erasmus-pour-tous-le-pari-reussi-du-projet-dis-abilities/",
+    "evidence_quote": "Pour y remédier, les PEP 69/ML se sont entourés de partenaires européens – Defoin, Sciara Progetti et Action Synergy – afin de créer un projet commun qui favorise l’inclusion et le partage de compétences entre les différents acteurs.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CEGEP du Vieux Montréal",
+    "partner_country": "Canada",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lespep69.org/qui-sommes-nous/nos-partenaires/",
+    "evidence_quote": "CEGEP du Vieux Montréal,",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Siège social",
+    "city": "Vaulx-en-Velin",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lespep69.org/contact/",
+    "evidence_quote": "69120 Vaulx-en-Velin"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 7,
+  "coverage_note": "The institution is an association managing various social and medico-social services rather than a traditional university. While it mentions international mobility projects, a formal list of Erasmus+ partners is not provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 13.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 13.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.2,
+  "total_seconds": 32.0
+ }
+}

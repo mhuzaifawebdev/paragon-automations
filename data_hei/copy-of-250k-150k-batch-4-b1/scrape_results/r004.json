@@ -1,0 +1,110 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-10-28T19:40:45Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "ASOCIACION BRUJULA INTERCULTURAL",
+  "institution_type": "unknown",
+  "official_website": "https://asociacionbrujula.es/",
+  "country": {
+   "value": "Spain",
+   "source_url": "https://asociacionbrujula.es/en/contacts/",
+   "evidence_quote": "Calle La Fuente 12 - 09342 - Santa María del Campo (Burgos) - Spain"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@asociacionbrujula.es",
+  "generic_email_url": "https://asociacionbrujula.es/",
+  "contact": {
+   "name": "Laura Dall'Omo",
+   "designation": "President",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://asociacionbrujula.es/quienes-somos/",
+   "evidence_quote": "LAURA DALL'OMO ... Presidenta de la Asociación Brújula Intercultural, licenciada en Relaciones Públicas y Publicidad, en la Universidad IULM de Milán, en 2010. Trabaja desde 2016 en el ámbito de los proyectos europeos, tras un voluntariado europeo en Hungría. Trabaja en comunicación web y diseño, además de ser coordinadora y facilitadora de proyectos europeos. Forma parte de la bolsa de formadores de la Agencia Nacional Española."
+  },
+  "alternates": [
+   {
+    "name": "Beatriz Barbero Martínez",
+    "designation": "Project coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://asociacionbrujula.es/quienes-somos/",
+    "evidence_quote": "BEATRIZ BARBERO MARTÍNEZ ... Coordinadora de proyectos de la Asociación Brújula Intercultural. Ha estado involucrada en realidades sociales y programas de inclusión desde 2010, cuando comenzó sus estudios en Trabajo Social. Participó en un proyecto de voluntariado europeo en Debrecen, Hungría, trabajando en un Centro Juvenil. Ha participado en el programa Erasmus para emprendedores en Italia. Forma parte de la bolsa de formadores de la Agencia Nacional Española.",
+    "why_chosen": "Mobility coordinator. Beatriz Barbero Martínez is the project coordinator for the association and manages Erasmus+ projects."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Laura Dall'Omo is the President of the association and is responsible for European projects.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Udruga Prizma",
+    "partner_country": "Croatia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://asociacionbrujula.es/2024/11/13/relit-2024-alfabetizacion-religiosa-y-dialogo-la-experiencia-de-ana-nuria-y-amaia/",
+    "evidence_quote": "En octubre, Nuria, Ana y Amaia participaron en el curso de formación Erasmus+ «ReLit 2024» (puedes descargar el leaflet del curso aquí) coordinado por la asociación croata Udruga Prizma. Así nos cuentan su experiencia.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Asociación Ábrego",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://asociacionbrujula.es/",
+    "evidence_quote": "Matteo ha participado en un voluntariado europeo CES de un año, en la Asociación Ábrego, en Burgos y aquí nos…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escuela Activa Magea",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://asociacionbrujula.es/",
+    "evidence_quote": "Arianna ha pasado un año en Escuela Activa Magea, participando a un voluntariado europeo CES de un año. Aquí nos…",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Asociación Brújula Intercultural",
+    "city": "Santa María del Campo",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://asociacionbrujula.es/",
+    "evidence_quote": "Calle La Fuente, 12 - 09342 Santa María del Campo (Burgos)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of partners, only mentions a few specific organizations in the context of project descriptions. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.5,
+  "crawl_s": 23.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.9,
+  "total_seconds": 33.1
+ }
+}
