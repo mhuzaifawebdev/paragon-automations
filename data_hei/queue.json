@@ -600,20 +600,30 @@
    "source": "Batch-2 KA 103-L&S",
    "file_id": "1up29DMH49hJxWfHRmUjLJ2X7xCMtXkG8C2SNttmsOeM",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 39,
    "started": "2026-10-28T14:54:43Z",
    "last_start": "2026-10-28T14:54:43Z",
    "restarts": 0,
-   "cap_usd": 816.49
+   "cap_usd": 816.49,
+   "spend_recorded": true,
+   "cost_usd": 0.325,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1DDJ_wZVvrXDI4-S7Lavr6Towzp9Piyna/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 38,
+   "finished": "2026-10-28T15:00:16Z",
+   "reason": "39 institutes, 23 with a contact"
   },
   {
    "batch": "batch-7-ka-103-l-s",
    "source": "Batch-7 KA 103-L&S",
    "file_id": "1fOawZlsk3GzrCq0naFJIqgaXaTslj9l9_ej8nIoScUw",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 46
+   "state": "running",
+   "rows": 46,
+   "started": "2026-10-28T15:00:16Z",
+   "last_start": "2026-10-28T15:00:16Z",
+   "restarts": 0,
+   "cap_usd": 816.17
   },
   {
    "batch": "batch-9-ka-103-l-s",
@@ -2263,7 +2273,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-28T14:54:43Z",
+ "updated": "2026-10-28T15:00:16Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
