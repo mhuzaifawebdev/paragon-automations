@@ -1302,20 +1302,30 @@
    "source": "Copy of VET 150K - 100K BATCH 2(B1)-50",
    "file_id": "1KSNJmxnBS9MayEPUcfIMGWedlop1-xdc1qsIWs8vUSk",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 47,
    "started": "2026-10-28T20:00:02Z",
    "last_start": "2026-10-28T20:00:02Z",
    "restarts": 0,
-   "cap_usd": 804.63
+   "cap_usd": 804.63,
+   "spend_recorded": true,
+   "cost_usd": 0.2223,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1chZgFM9mY_1FGWdU5w3Ytd3803IcmPuw/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 49,
+   "finished": "2026-10-28T20:09:40Z",
+   "reason": "60 institutes, 28 with a contact"
   },
   {
    "batch": "copy-of-vet-150k-100k-batch-8-ibrahi",
    "source": "Copy of VET 150K - 100K Batch 8 _ Ibrahim (B1) Tehreem",
    "file_id": "1LQ-CiRQUGQeg0BGDlKeKyNpw7qHZtxPfQpgYZ5dKEOE",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 48
+   "state": "running",
+   "rows": 48,
+   "started": "2026-10-28T20:09:40Z",
+   "last_start": "2026-10-28T20:09:40Z",
+   "restarts": 0,
+   "cap_usd": 804.41
   },
   {
    "batch": "copy-of-vet-150k-100k-batch4-b1-50",
@@ -2653,7 +2663,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-28T20:00:02Z",
+ "updated": "2026-10-28T20:09:40Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
