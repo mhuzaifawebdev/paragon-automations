@@ -1,0 +1,96 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-10-28T22:57:49Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "Collège, Lycée général et technologique",
+  "institution_type": "school",
+  "official_website": "https://bretagne.paysdelaloire.e-lyco.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fédération Sportive et Culturelle de France",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://bretagne.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "Journée d'intégration : les lycéens jouent collectivement, dans l'établissement ! Pour lancer l'année en beauté, tous les lycéens de l'établissement ont vécu une journée d'intégration sur place, animée en coopération avec la Fédération Sportive et Culturelle de France...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CEMÉA Pays de la Loire",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://bretagne.paysdelaloire.e-lyco.fr/sorties-scolaires-du-college/les-reseaux-sociaux-expliques-aux-collegiens/",
+    "evidence_quote": "Agréés par l’Éducation Nationale, les CEMÉA Pays de la Loire est venu au sein du collège de Bretagne pour aborder avec les collégiens la question des réseaux sociaux et de leur utilisation.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AccroCamp",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://bretagne.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "Les 4èmes et 3èmes en pleine aventure à l’AccroCamp de l’île de Nantes",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée de Bretagne",
+    "city": "Nantes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://bretagne.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "Lycée de Bretagne"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 7,
+  "coverage_note": "The institution does not list formal Erasmus+ or international mobility partners. The provided list includes local organizations mentioned in school activities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 10.9,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     113
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 44.4
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-10-28T22:57:42Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "conservatorio.nicolini@gmail.com",
+  "institution_type": "university",
+  "official_website": "https://www.conservatorionicolini.com/",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://www.conservatorionicolini.com/",
+   "evidence_quote": "Via Santa Franca, 35, 29121 Piacenza PC, Italy"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Maria Grazia Petrali",
+   "designation": "Director of the Conservatory",
+   "designation_local": "",
+   "email": "direction@conservatorio.piacenza.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.conservatorionicolini.com/en/contatti",
+   "evidence_quote": "Maria Grazia Petrali ... Director of the Conservatory:direction@conservatorio.piacenza.it <direction@conservatorio.piacenza.it>"
+  },
+  "alternates": [
+   {
+    "name": "Turba Alessandro",
+    "designation": "Erasmus Coordinator",
+    "designation_local": "",
+    "email": "jospeh.cardas@conservatorio.piacenza.it",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.conservatorionicolini.com/ufficio-relazioni-internazionali",
+    "evidence_quote": "Turba Alessandro <jospeh.cardas@conservatorio.piacenza.it> ... Erasmus Coordinator",
+    "why_chosen": "Institutional Erasmus+ coordinator. Turba Alessandro is explicitly designated as the Erasmus Coordinator for the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Maria Grazia Petrali is the Director of the Conservatory and is listed as a member of the Board of Directors.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmus student network",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatorionicolini.com/mobilitastudenti",
+    "evidence_quote": "Erasmus student network​",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmusintern",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.conservatorionicolini.com/mobilitastudenti",
+    "evidence_quote": "Erasmusintern (marketplace dove trovare occasioni di mobilità per traineeship)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GARAGERASMUS",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatorionicolini.com/mobilitastudenti",
+    "evidence_quote": "GARAGERASMUS",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Giuseppe Nicolini Conservatory of Music",
+    "city": "Piacenza",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.conservatorionicolini.com/en/contatti",
+    "evidence_quote": "Via Santa Franca 35 - PIACENZA 29121 (Italy)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The website mentions the existence of interinstitutional agreements but does not provide a list of specific partner institutions. No total number of partners is stated.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 16.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 16.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     260
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 34.3
+ }
+}
