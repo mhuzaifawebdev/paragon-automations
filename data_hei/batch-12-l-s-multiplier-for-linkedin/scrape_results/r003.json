@@ -1,0 +1,81 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-10-28T21:11:48Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "Fakulteta Za Varstvo Okolja",
+  "institution_type": "college",
+  "official_website": "https://fvo.si/",
+  "country": null,
+  "phone": {
+   "value": "+386 3 898 64 15",
+   "source_url": "https://fvo.si/mobilnost-zaposlenih/",
+   "evidence_quote": "Tel.: +386 3 898 64 15 <tel +386 3 898 64 15>"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@fvo.si",
+  "generic_email_url": "https://fvo.si/mobilnost-zaposlenih/",
+  "contact": {
+   "name": "Lea Komerički Kotnik",
+   "designation": "Head of International Office",
+   "designation_local": "",
+   "email": "lea.komericki.kotnik@fvo.si",
+   "office_email": "",
+   "phone": "+386 3 898 64 15",
+   "source_url": "https://fvo.si/mobilnost-zaposlenih/",
+   "evidence_quote": "Lea Komerički Kotnik, vodja mednarodne pisarne"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Head of international relations. She is the head of the international office and the Erasmus+ coordinator.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Politechnica University Timisoara",
+    "partner_country": "Romania",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "https://fvo.si/en/erasmus-mobility-sharing-knowledge-and-good-practices/",
+    "evidence_quote": "In the last week of August, the Faculty of Environmental Protection hosted, in the framework of the Erasmus+ mobility training programme, assoc. prof. dr. Aniela Pop and prof. univ. dr. ing, Florica Manea from the partner Faculty of Industrial Chemistry and Environmental Engineering, Politechnica University Timisoara, Romania. The visit was part of a short training course to exchange knowledge and experience in the field of environmental protection.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fakulteta Za Varstvo Okolja",
+    "city": "Velenje",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://fvo.si/",
+    "evidence_quote": "Trg mladosti 7"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of all Erasmus+ partners, only mentioning one specific partner in the context of a staff mobility visit.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 18.1,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 40.0
+ }
+}
