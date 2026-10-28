@@ -1,0 +1,120 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-28T23:10:05Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "Lycée des Métiers Pierre Doriole",
+  "institution_type": "college",
+  "official_website": "https://lycee-doriole.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marie Guillaume",
+   "designation": "Mathematics-physics chemistry teacher, ERAEI referent for European exchanges and Franco-German exchanges",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lycee-doriole.fr/lycee-pierre-doriole-a-linternational/echanges-franco-allemands/vivre-une-mobilite-apprennante-pour-renforcer-sa-formation-professionnelle/",
+   "evidence_quote": "Autrice de l’article : Marie Guillaume – Enseignante mathématiques-physique chimie, ERAEI référente des échanges européens et échanges franco-allemands"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. English / language or EU-project teacher (no Erasmus contact found). Marie Guillaume is listed as the ERAEI referent for European and Franco-German exchanges, making her directly relevant for international mobility and Erasmus+.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Mango Beaulieu",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-doriole.fr/",
+    "evidence_quote": "Mardi 29 septembre, les élèves de 1MCV1 option A ont accueilli au lycée M. Cornu, responsable du rayon Homme chez Mango Beaulieu et mentor de la classe pour les deux années de formation. Cette rencontre s’inscrit dans un projet « parcours avenir mentor »mené par Mme Pourrias, déléguée aux entreprises Mme Thinon, enseignante, Mme Pourrias, déléguée aux […]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ProTandem",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-doriole.fr/lycee-pierre-doriole-a-linternational/echanges-franco-allemands/vivre-une-mobilite-apprennante-pour-renforcer-sa-formation-professionnelle/",
+    "evidence_quote": "Page 2 – Le principe de l’échange franco-allemand soutenu par ProTandem",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "OFAJ",
+    "partner_country": "France/Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-doriole.fr/lycee-pierre-doriole-a-linternational/echanges-franco-allemands/vivre-une-mobilite-apprennante-pour-renforcer-sa-formation-professionnelle/le-contexte-detablissement/",
+    "evidence_quote": "En 2016/2017 et 2017/2018 deux nouveaux établissements, allemands cette fois, viennent compléter l’échange avec notre partenaire historique hongrois pour les deux classes successivement concernées. C’est l’occasion d’enrichir et diversifier notre expérience : ces échanges franco-allemands sont accompagnés par l’OFAJ. Le cadre proposé par l’Office Franco-Allemand pour la Jeunesse permet le maintien du format habituel de nos échanges européens – effectifs, modalités d’accueil et de mobilité, PFMP ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "eTwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-doriole.fr/lycee-pierre-doriole-a-linternational/echanges-franco-allemands/vivre-une-mobilite-apprennante-pour-renforcer-sa-formation-professionnelle/le-contexte-detablissement/",
+    "evidence_quote": "eTwinning pour proposer son projet et travailler à distance",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée des métiers Pierre DORIOLE",
+    "city": "La Rochelle",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lycee-doriole.fr/",
+    "evidence_quote": "Lycée des métiers Pierre DORIOLE"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions partner categories like a historical Hungarian partner and German establishments, but specific partner institution names are not listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 14.6,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.5,
+  "mode": "gemini",
+  "email_search_s": 1.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     269
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 33.8
+ }
+}
