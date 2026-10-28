@@ -1,0 +1,94 @@
+{
+ "row_id": "r057",
+ "scraped_at": "2026-10-28T15:53:11Z",
+ "contacts": {
+  "row_id": "r057",
+  "institution_name": "Berufsbildende Schulen Varel",
+  "institution_type": "school",
+  "official_website": "https://www.bbs-varel.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@bbs-varel.de",
+  "generic_email_url": "https://www.bbs-varel.de/",
+  "contact": {
+   "name": "Gitta Virgin",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "virgin@bbs-varel.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bbs-varel.de/schulleitung/",
+   "evidence_quote": "OStD’n Gitta Virgin ... Schulleiterin"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the principal, she holds overall responsibility for the school, including international programs.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Leeuwarden",
+    "partner_country": "Netherlands",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bbs-varel.de/",
+    "evidence_quote": "Auszubildende aus Leeuwarden (NL) besuchen die BBS Varel",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hauptstandort",
+    "city": "Varel",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bbs-varel.de/kontakt/",
+    "evidence_quote": "Stettiner Straße 3 Arngaster Straße 9"
+   },
+   {
+    "campus_name": "Außenstelle",
+    "city": "Varel",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.bbs-varel.de/kontakt/",
+    "evidence_quote": "Stettiner Straße 3 Arngaster Straße 9"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The website mentions participation in Erasmus+ programs but does not provide a formal list of partner institutions. Specific contact information for an international coordinator is not provided, so the principal is listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 13.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 30.4
+ }
+}
