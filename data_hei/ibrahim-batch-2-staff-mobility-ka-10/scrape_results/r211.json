@@ -1,0 +1,138 @@
+{
+ "row_id": "r211",
+ "scraped_at": "2026-10-28T10:28:29Z",
+ "contacts": {
+  "row_id": "r211",
+  "institution_name": "drs. HJ van",
+  "institution_type": "school",
+  "official_website": "https://vanlodenstein.nl/",
+  "country": null,
+  "phone": {
+   "value": "085 483 80 06",
+   "source_url": "https://vanlodenstein.nl/contact/",
+   "evidence_quote": "085 483 80 06 <tel 0031854838006>"
+  },
+  "phone_alt": [],
+  "generic_email": "secretariaat@vanlodenstein.nl",
+  "generic_email_url": "https://vanlodenstein.nl/contact/",
+  "contact": {
+   "name": "E. Kooij (Eduard)",
+   "designation": "Teacher of Mobility and Transport",
+   "designation_local": "",
+   "email": "kje@vanlodenstein.nl",
+   "office_email": "",
+   "phone": "0639213351",
+   "source_url": "https://werkenbij.vanlodenstein.nl/vacatures/docent-mobiliteit-en-transport-vlh/",
+   "evidence_quote": "Docent Mobiliteit en Transport ... E. Kooij (Eduard)"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). He is a named teacher at the institution with contact details provided.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "RBO scholen",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://werkenbij.vanlodenstein.nl/vacatures/docent-mobiliteit-en-transport-vlh/",
+    "evidence_quote": "RBO scholen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Progressus",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://werkenbij.vanlodenstein.nl/vacatures/docent-mobiliteit-en-transport-vlh/",
+    "evidence_quote": "Communicatie- medewerker Progressus",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Locatie Amersfoort",
+    "city": "Amersfoort",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://vanlodenstein.nl/",
+    "evidence_quote": "Amersfoort"
+   },
+   {
+    "campus_name": "Locatie Barneveld",
+    "city": "Barneveld",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://vanlodenstein.nl/",
+    "evidence_quote": "Barneveld"
+   },
+   {
+    "campus_name": "Locatie Ede",
+    "city": "Ede",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://vanlodenstein.nl/",
+    "evidence_quote": "Ede"
+   },
+   {
+    "campus_name": "Locatie Hoevelaken",
+    "city": "Hoevelaken",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://vanlodenstein.nl/",
+    "evidence_quote": "Hoevelaken"
+   },
+   {
+    "campus_name": "Locatie Kesteren",
+    "city": "Kesteren",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://vanlodenstein.nl/",
+    "evidence_quote": "Kesteren"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 3,
+  "coverage_note": "The institution is a secondary school and does not list Erasmus+ or international mobility partners in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 10.8,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 6.0,
+  "mode": "gemini",
+  "email_search_s": 10.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     273
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 28.7
+ }
+}
