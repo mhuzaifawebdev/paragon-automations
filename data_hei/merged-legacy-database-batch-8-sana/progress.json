@@ -1,14 +1,14 @@
 {
  "batch": "merged-legacy-database-batch-8-sana",
- "status": "running",
- "generated_at": "2026-10-28T23:48:42.988700+00:00",
- "chunk": 13,
- "total_chunks": 13,
+ "status": "done",
+ "generated_at": "2026-10-28T23:49:11.330382+00:00",
+ "chunk": 14,
+ "total_chunks": 14,
  "total_rows": 305,
- "done": 303,
- "pending": 2,
- "elapsed_seconds": 772,
- "eta_seconds": 3,
+ "done": 305,
+ "pending": 0,
+ "elapsed_seconds": 776,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.5034,
  "paid_search_usd": 0.5034,
  "paid_search_limit_usd": 21.0,
@@ -39,14 +39,12 @@
  "confidence": {
   "high": 18,
   "medium": 21,
-  "low": 7,
+  "low": 9,
   "none": 257
  },
- "partners_found": 1184,
- "campuses_found": 115,
+ "partners_found": 1198,
+ "campuses_found": 119,
  "recent": [
-  "r284",
-  "r285",
   "r286",
   "r287",
   "r288",
@@ -64,7 +62,9 @@
   "r300",
   "r301",
   "r302",
-  "r303"
+  "r303",
+  "r304",
+  "r305"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/16IfgN9KudI1FUzUEG30wkHd4Lm9bLUOZ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
