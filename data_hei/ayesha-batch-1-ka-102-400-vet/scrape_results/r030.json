@@ -1,0 +1,57 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-10-28T16:01:33Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "Bildungshaus Heideland HVHS",
+  "institution_type": "college",
+  "official_website": "https://www.auslandspraktikum-hvhs.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bildungshaus Heideland",
+    "city": "Pressel",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.auslandspraktikum-hvhs.de/",
+    "evidence_quote": "Bildungshaus Heideland"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The website does not provide a list of international partners or specific Erasmus+ coordinators. Contact information is limited to a general phone number and a contact form.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 7.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 37.4
+ }
+}
