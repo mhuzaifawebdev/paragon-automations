@@ -1,0 +1,96 @@
+{
+ "row_id": "r034",
+ "scraped_at": "2026-10-28T17:14:25Z",
+ "contacts": {
+  "row_id": "r034",
+  "institution_name": "Instituto Profissional da Sertã, Lda.",
+  "institution_type": "college",
+  "official_website": "https://etps.pt/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "criativatek.com",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://etps.pt/pt/erasmus",
+    "evidence_quote": "[criativatek.com]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "União Europeia",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://etps.pt/pt/erasmus",
+    "evidence_quote": "Financiado pela União Europeia. No entanto, os pontos de vista e as opiniões expressas são as do(s) autor(es) e não refletem necessariamente a posição da União Europeia ou da Agência Nacional para a Gestão do Programa Erasmus+ Educação e Formação. Nem a União Europeia nem a autoridade que concede a subvenção podem ser tidos como responsáveis por essas opiniões.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agência Nacional para a Gestão do Programa Erasmus+ Educação e Formação",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://etps.pt/pt/erasmus",
+    "evidence_quote": "Financiado pela União Europeia. No entanto, os pontos de vista e as opiniões expressas são as do(s) autor(es) e não refletem necessariamente a posição da União Europeia ou da Agência Nacional para a Gestão do Programa Erasmus+ Educação e Formação. Nem a União Europeia nem a autoridade que concede a subvenção podem ser tidos como responsáveis por essas opiniões.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Tecnológica e Profissional da Sertã",
+    "city": "Sertã",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://etps.pt/",
+    "evidence_quote": "Rua Escola da Abegoaria, n.º8, 6100-601 - Sertã"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 6,
+  "coverage_note": "The website mentions participation in Erasmus+ projects but does not provide a specific list of partner institutions or a named coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 9.1,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     129
+    ],
+    "returned": 6,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 35.1
+ }
+}

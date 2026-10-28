@@ -1,0 +1,89 @@
+{
+ "row_id": "r033",
+ "scraped_at": "2026-10-28T17:14:13Z",
+ "contacts": {
+  "row_id": "r033",
+  "institution_name": "Staatliches Berufliches Schulzentrum Freising",
+  "institution_type": "school",
+  "official_website": "https://www.bsz-fs.de/",
+  "country": null,
+  "phone": {
+   "value": "08161 48880",
+   "source_url": "https://www.bsz-fs.de/",
+   "evidence_quote": "08161 48880 <tel 0816148880>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ingrid Link",
+   "designation": "OStDin",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "08161 4888 0",
+   "source_url": "https://www.bsz-fs.de/",
+   "evidence_quote": "Schulleitung: ... OStDin Ingrid Link"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Technische Universität München",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bsz-fs.de/schulentwicklung/partnerschaften.html",
+    "evidence_quote": "[tum]Zwischen der Technischen Universität München und der Staatlichen Berufsschule Freising besteht seit dem 26. Juli 2007 ein Kooperationsvertrag. Die Berufsschule Freising ist damit Referenzschule der Technischen Universität München.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Flughafen München GmbH",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bsz-fs.de/schulentwicklung/partnerschaften.html",
+    "evidence_quote": "[muc]In einer Absichtserklärung zur Intensivierung der Kooperation haben die Berufsschule Freising und die Flughafen München GmbH am 26. Juli 2001 ihre Partnerschaft manifestiert.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Staatliches Berufliches Schulzentrum Freising",
+    "city": "Freising",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bsz-fs.de/",
+    "evidence_quote": "Staatliches Berufliches Schulzentrum Freising"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution lists specific Erasmus+ project activities but does not provide a comprehensive list of all international partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 11.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 9.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.1,
+  "total_seconds": 24.7
+ }
+}
