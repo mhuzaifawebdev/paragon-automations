@@ -1,0 +1,103 @@
+{
+ "row_id": "r014",
+ "scraped_at": "2026-10-28T17:38:53Z",
+ "contacts": {
+  "row_id": "r014",
+  "institution_name": "Budapesti Komplex Szakképzési Centrum Kaesz Gyula Faipari Szakgimnáziuma és Szakközépiskolája",
+  "institution_type": "school",
+  "official_website": "https://kaesz.hu/",
+  "country": null,
+  "phone": {
+   "value": "+3612521000",
+   "source_url": "https://kaesz.hu/",
+   "evidence_quote": "<kaesz@kaesz.hu> <tel +3612521000>"
+  },
+  "phone_alt": [],
+  "generic_email": "kaesz@kaesz.hu",
+  "generic_email_url": "https://kaesz.hu/",
+  "contact": {
+   "name": "Litresits Gábor",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "litresitsgabor@kaesz.hu",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://kaesz.hu/rolunk/munkatarsak",
+   "evidence_quote": "Litresits Gábor ... igazgató"
+  },
+  "alternates": [
+   {
+    "name": "Dósa Balázs",
+    "designation": "Deputy Director responsible for practical training",
+    "designation_local": "",
+    "email": "dosabalazs@kaesz.hu",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://kaesz.hu/rolunk/munkatarsak",
+    "evidence_quote": "Dósa Balázs ... gyakorlati oktatásért felelős igazgatóhelyettes",
+    "why_chosen": "Principal / director (no Erasmus contact found). Dósa Balázs is a member of the leadership team responsible for practical training."
+   },
+   {
+    "name": "Tóth Judit",
+    "designation": "Deputy Director responsible for professional training",
+    "designation_local": "",
+    "email": "tothjudit@kaesz.hu",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://kaesz.hu/rolunk/munkatarsak",
+    "evidence_quote": "Tóth Judit ... szakmai oktatásért felelős igazgatóhelyettes",
+    "why_chosen": "Principal / director (no Erasmus contact found). Tóth Judit is a member of the leadership team responsible for professional training."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Litresits Gábor is the director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Avezzano",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kaesz.hu/p/erasmus",
+    "evidence_quote": "Avezzano, Olaszország",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Budapesti Komplex SZC Kaesz Gyula Faipari Technikum és Szakképző Iskola",
+    "city": "Budapest",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://kaesz.hu/",
+    "evidence_quote": "1149 Budapest, Egressy út 36."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The evidence mentions an Erasmus page but does not provide a list of Erasmus partners, only a single location in Italy. The dual partners list is referenced as a downloadable file but is not contained within the text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 7.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 11.5
+ }
+}
