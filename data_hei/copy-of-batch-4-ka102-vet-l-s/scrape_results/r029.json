@@ -1,0 +1,92 @@
+{
+ "row_id": "r029",
+ "scraped_at": "2026-10-28T16:14:43Z",
+ "contacts": {
+  "row_id": "r029",
+  "institution_name": "Obchodní akademie a Jazyková škola s právem státní jazykové zkoušky, Přerov, Bartošova 24",
+  "institution_type": "school",
+  "official_website": "https://www.oaprerov.cz/",
+  "country": null,
+  "phone": {
+   "value": "+420 581 215 002",
+   "source_url": "https://www.oaprerov.cz/kontakty",
+   "evidence_quote": "+420 581 215 002 <tel +420581215002>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@oaprerov.cz",
+  "generic_email_url": "https://www.oaprerov.cz/",
+  "contact": {
+   "name": "Mgr. Irena Kajnarová",
+   "designation": "School coordinator of international projects",
+   "designation_local": "",
+   "email": "%20kajnarovai@oaprerov.cz",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.oaprerov.cz/akreditace-erasmus",
+   "evidence_quote": "Bližší informace k mezinárodním projektům podá školní koordinátorka mezinárodních projektů Mgr. Irena Kajnarová <%20kajnarovai@oaprerov.cz>."
+  },
+  "alternates": [
+   {
+    "name": "Ing. Ladislav Abrahám",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "reditel@oaprerov.cz",
+    "office_email": "",
+    "phone": "+420 581 215 002",
+    "source_url": "https://www.oaprerov.cz/kontakty",
+    "evidence_quote": "Ředitel ... Ing. Ladislav Abrahám",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the director of the institution and the primary contact for leadership matters."
+   }
+  ],
+  "rung": "Mobility coordinator. She is explicitly named as the school coordinator for international projects and Erasmus+.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "OA Topolčany",
+    "partner_country": "Slovakia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oaprerov.cz/fotogalerie/spoluprace-s-oa-topolcany-2026",
+    "evidence_quote": "Setkání s OA Topolčany 2026 | OA Přerov",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Obchodní akademie a Jazyková škola s právem státní jazykové zkoušky",
+    "city": "Přerov",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.oaprerov.cz/",
+    "evidence_quote": "Bartošova 24"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects in countries like Ireland, Spain, and Malta, but does not provide a specific list of partner institutions. Only one specific partner school (OA Topolčany) is identified in the photo gallery. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 17.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 40.3
+ }
+}
