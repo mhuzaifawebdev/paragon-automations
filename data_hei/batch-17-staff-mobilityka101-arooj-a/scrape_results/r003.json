@@ -1,0 +1,88 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-10-28T10:45:30Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "Jochen",
+  "institution_type": "school",
+  "official_website": "https://arnoldinum.de/",
+  "country": null,
+  "phone": {
+   "value": "02552/925610",
+   "source_url": "https://arnoldinum.de/",
+   "evidence_quote": "Steinfurt: 02552/925610 <tel 02552925610> | steinfurt@arnoldinum.de <steinfurt@arnoldinum.de>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Heinz Stienhenser",
+   "designation": "Deputy Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://arnoldinum.de/team/kollegium/",
+   "evidence_quote": "Heinz Stienhenser ... Stellvertretender Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Karin Schnieder",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "steinfurt@arnoldinum.de",
+    "office_email": "",
+    "phone": "02552/925-610",
+    "source_url": "https://arnoldinum.de/kontakt/",
+    "evidence_quote": "Ihr habt was auf dem Herzen? Sie haben Fragen zur Anmeldung, zum Schulalltag oder ein anderes Anliegen? Das Sekretariat ist die erste Anlaufstelle und hilft gerne weiter oder vermittelt die richtige Ansprechperson. Organisation und Verwaltung gehören dabei ebenso zu seinen Aufgaben wie die vielen kleinen Dinge des Schulalltags – oft sind es gerade diese, bei denen die Mitarbeiterinnen Schülerinnen und Schülern mit Rat und Tat zur Seite stehen. ... Karin Schnieder (Steinfurt)",
+    "why_chosen": "Secretary / administration (last resort). Karin Schnieder is a member of the school secretariat, which serves as the primary contact point for inquiries."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Heinz Stienhenser is the deputy principal and part of the school leadership team.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "Reused from batch ibrahim-batch-2-staff-mobility-ka-10 (scraped 2026-10-28). site found via: email domain. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Standort Steinfurt",
+    "city": "Steinfurt",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://arnoldinum.de/arnoldinum/standorte/",
+    "evidence_quote": "Standort Steinfurt"
+   },
+   {
+    "campus_name": "Standort Horstmar",
+    "city": "Horstmar",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://arnoldinum.de/arnoldinum/standorte/",
+    "evidence_quote": "Standort Horstmar"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 6,
+  "coverage_note": "The evidence mentions the school is an 'Europaschule' and participates in Erasmus Days, but does not provide a specific list of partner institutions. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "ibrahim-batch-2-staff-mobility-ka-10",
+  "row_id": "r334"
+ }
+}
