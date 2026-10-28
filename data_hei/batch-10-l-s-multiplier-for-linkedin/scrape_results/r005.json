@@ -1,0 +1,86 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-10-28T20:55:55Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "Uniwersytet Medyczny W Bialymstoku",
+  "institution_type": "university",
+  "official_website": "https://www.umb.edu.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rekrutacja@umb.edu.pl",
+  "generic_email_url": "https://www.umb.edu.pl/rekrutacja/kontakt",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ANPCDEFP",
+    "partner_country": "Romania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.umb.edu.pl/umiedzynarodowienie/aktualnosci/29377,Koordynator_projektu_PreciseMed_wzial_udzial_w_warsztatach_projektowych_z_programu_Erasmus+_w_Bukareszcie",
+    "evidence_quote": "Autor: Dział Współpracy MiędzynarodowejW terminie 19-21 czerwca 2024 r. Koordynator Projektu PreciseMed dr Witold Bauer z Centrum Badań Klinicznych UMB miał niesamowitą okazję uczestniczyć w wydarzeniu Erasmus+ zorganizowanym przez ANPCDEFP (Rumuńską Narodową Agencję Programów Wspólnotowych w Dziedzinie Edukacji i Szkolenia Zawodowego), które odbyło się w tętniącym życiem Bukareszcie. Wyjazd przedstawiciela UMB był sfinansowany przez Fundację Rozwoju Systemu Edukacji. To dynamiczne spotkanie poś",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Pałac Branickich",
+    "city": "Białystok",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://www.umb.edu.pl/",
+    "evidence_quote": "Aula Magna Pałacu Branickich, ul. Jana Kilińskiego 1"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a specific list of international Erasmus+ partner universities. Contact information for specific individuals is limited to department-level email addresses.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 14.3,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 18.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 47.9
+ }
+}
