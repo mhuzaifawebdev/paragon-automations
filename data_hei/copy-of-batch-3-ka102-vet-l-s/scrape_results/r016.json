@@ -1,0 +1,101 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-10-28T17:18:29Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "Nagykun Baptista Oktatási Kozpont Altalános Iskola, Gimnázium, Technikum, Szakkepzo Iskola és Kollegium Illessy Sandor Technikum es Szakkepzo Iskola Tagintezmenye",
+  "institution_type": "school",
+  "official_website": "https://illessy.baptistaoktatas.hu/",
+  "country": null,
+  "phone": {
+   "value": "59/321-329",
+   "source_url": "https://illessy.baptistaoktatas.hu/",
+   "evidence_quote": "59/321-329"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Toldi Attila",
+   "designation": "Director General",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://illessy.baptistaoktatas.hu/igazgatoi-koszonto",
+   "evidence_quote": "Toldi Attila főigazgató"
+  },
+  "alternates": [
+   {
+    "name": "Tóth László",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://illessy.baptistaoktatas.hu/hirek/palyazat/erasmus-szakmai-mobilitas-finnorszagban-jo-gyakorlatok-a-jovo-szakkepzeseert",
+    "evidence_quote": "Tóth László ... igazgatóhelyettes",
+    "why_chosen": "Principal / director (no Erasmus contact found). Tóth László is a Deputy Director who actively reports on Erasmus+ mobility projects."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Toldi Attila is the Director General of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Associação Intercultural Amigos da Mobilidade",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://illessy.baptistaoktatas.hu/kulfoldi-partnereink",
+    "evidence_quote": "Associação Intercultural Amigos da Mobilidade",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Handwerkskammer Dresden",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://illessy.baptistaoktatas.hu/kulfoldi-partnereink",
+    "evidence_quote": "Handwerkskammer Dresden",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Illéssy Sándor Technikum és Szakképző Iskola",
+    "city": "Kisújszállás",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://illessy.baptistaoktatas.hu/",
+    "evidence_quote": "5310 Kisújszállás, Arany János u. 1/A"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution lists specific Erasmus+ project partners in the text, but a comprehensive list of all institutional partners is not provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 14.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.0,
+  "total_seconds": 22.6
+ }
+}

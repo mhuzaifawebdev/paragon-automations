@@ -1,0 +1,119 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-28T17:18:08Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "Friedrich-List-Schule Darmstadt",
+  "institution_type": "college",
+  "official_website": "https://fls-da.de/",
+  "country": null,
+  "phone": {
+   "value": "06151 13-489700",
+   "source_url": "https://fls-da.de/",
+   "evidence_quote": "06151 13-489700"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Norbert Leist",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "06151 13-489700",
+   "source_url": "https://fls-da.de/schulleitung-2/",
+   "evidence_quote": "Schulleiter ... Oberstudiendirektor Norbert Leist"
+  },
+  "alternates": [
+   {
+    "name": "Christof Wilde",
+    "designation": "Training Officer",
+    "designation_local": "",
+    "email": "Christof.Wilde@fls-da.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://fls-da.de/hbfs-profil-bueromanagement/",
+    "evidence_quote": "Ausbildungsbeauftragter kaufmännische Assistent-/in Bürowirtschaft mit dem Profil Büromanagement: ... Christof Wilde",
+    "why_chosen": "Mobility coordinator. Christof Wilde is an Ausbildungsbeauftragter (training officer) involved in the Erasmus+ program."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Norbert Leist is the principal of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Dublin",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://fls-da.de/erasmus/",
+    "evidence_quote": "Es werden Praktika von sechs Wochen während bzw. Praktika von vier oder sechs Monaten nach der Ausbildung angeboten. Die Zielorte sind aktuell Dublin und Cork in Irland, Toulouse in Frankreich und San Sebastián in Spanien.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cork",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://fls-da.de/erasmus/",
+    "evidence_quote": "Es werden Praktika von sechs Wochen während bzw. Praktika von vier oder sechs Monaten nach der Ausbildung angeboten. Die Zielorte sind aktuell Dublin und Cork in Irland, Toulouse in Frankreich und San Sebastián in Spanien.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Toulouse",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://fls-da.de/erasmus/",
+    "evidence_quote": "Es werden Praktika von sechs Wochen während bzw. Praktika von vier oder sechs Monaten nach der Ausbildung angeboten. Die Zielorte sind aktuell Dublin und Cork in Irland, Toulouse in Frankreich und San Sebastián in Spanien.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "San Sebastián",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://fls-da.de/erasmus/",
+    "evidence_quote": "Es werden Praktika von sechs Wochen während bzw. Praktika von vier oder sechs Monaten nach der Ausbildung angeboten. Die Zielorte sind aktuell Dublin und Cork in Irland, Toulouse in Frankreich und San Sebastián in Spanien.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Friedrich-List-Schule Darmstadt",
+    "city": "Darmstadt",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://fls-da.de/kontakt/",
+    "evidence_quote": "Ab dem Schuljahr 2024/25 findet der gesamte Unterricht am Standort “Alsfelder Straße” statt. Außerdem befinden sich am diesem Standort das Übungslager und die Übungsfirma der Friedrich-List-Schule Darmstadt."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions specific cities for Erasmus+ internships but does not provide a formal list of partner institutions. The institution is a vocational school (Berufsschule) and the contact list focuses on internal staff.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.2,
+  "crawl_s": 17.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 12.8,
+  "total_seconds": 36.0
+ }
+}
