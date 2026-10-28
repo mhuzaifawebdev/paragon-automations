@@ -1,0 +1,122 @@
+{
+ "row_id": "r527",
+ "scraped_at": "2026-10-28T12:23:10Z",
+ "contacts": {
+  "row_id": "r527",
+  "institution_name": "Beethoven Gymnasium Bonn",
+  "institution_type": "school",
+  "official_website": "http://www.beethoven-gymnasium.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Uwe Bramstedt",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "uwe.bramstedt@beethoven-gymnasium.de",
+   "office_email": "",
+   "phone": "0228 77-7430",
+   "source_url": "http://www.beethoven-gymnasium.de/kontakt",
+   "evidence_quote": "Schulleiter ... Uwe Bramstedt, OStD",
+   "email_source_url": "https://www.beethoven-gymnasium.de/sites/default/files/2019-02/InformationenDatenerhebungamBG.pdf"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Uwe Bramstedt is the principal of the institution and oversees its leadership. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Colegio Ludwig van Beethoven",
+    "partner_country": "Peru",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "http://www.beethoven-gymnasium.de/schulpartnerschaften",
+    "evidence_quote": "Schule hilft Schule - Partnerschaft mit dem Colegio Ludwig van Beethoven in Arequipa, Peru",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Orchestre symphonique du Lycée Hoche",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "http://www.beethoven-gymnasium.de/",
+    "evidence_quote": "Orchestre symphonique du Lycée Hoche (Paris)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bonner Zentrum für Lehrerbildung der Rheinischen Friedrich-Wilhelms-Universität",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "http://www.beethoven-gymnasium.de/lehrerinnenausbildung",
+    "evidence_quote": "In enger Zusammenarbeit mit dem Bonner Zentrum für Lehrerbildung der Rheinischen Friedrich-Wilhelms-Universität (BZL) und dem Zentrum für schulpraktische Lehrerausbildung Bonn (ZfsL) geben wir künftigen Lehrkräften Gelegenheit, sich als Lernende und Lehrende im Handlungsfeld Schule zu erfahren. Sie erhalten die Möglichkeit, ihre schulfachlichen Kenntnisse auf die Praxis zu beziehen und ihre schulpraktischen Kompetenzen zu entwickeln, durch",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zentrum für schulpraktische Lehrerausbildung Bonn",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.beethoven-gymnasium.de/lehrerinnenausbildung",
+    "evidence_quote": "In enger Zusammenarbeit mit dem Bonner Zentrum für Lehrerbildung der Rheinischen Friedrich-Wilhelms-Universität (BZL) und dem Zentrum für schulpraktische Lehrerausbildung Bonn (ZfsL) geben wir künftigen Lehrkräften Gelegenheit, sich als Lernende und Lehrende im Handlungsfeld Schule zu erfahren. Sie erhalten die Möglichkeit, ihre schulfachlichen Kenntnisse auf die Praxis zu beziehen und ihre schulpraktischen Kompetenzen zu entwickeln, durch",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Beethoven-Gymnasium",
+    "city": "Bonn",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "http://www.beethoven-gymnasium.de/kontakt",
+    "evidence_quote": "Beethoven-Gymnasium"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 9,
+  "coverage_note": "The institution lists one specific school partnership in Peru. No formal Erasmus+ partner list is provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 12.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     218
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 45.1
+ }
+}
