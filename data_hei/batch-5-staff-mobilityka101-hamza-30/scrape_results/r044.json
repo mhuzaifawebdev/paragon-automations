@@ -1,0 +1,101 @@
+{
+ "row_id": "r044",
+ "scraped_at": "2026-10-28T13:11:03Z",
+ "contacts": {
+  "row_id": "r044",
+  "institution_name": "Karstorpskolan, Norra",
+  "institution_type": "school",
+  "official_website": "https://lomma.se/",
+  "country": null,
+  "phone": {
+   "value": "0733-41 16 22",
+   "source_url": "https://lomma.se/barnochutbildning/grundskola/grundskolor/karstorpskolan.788.html",
+   "evidence_quote": "Telefon: 0733-41 16 22 <tel 0733-411622>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@lomma.se",
+  "generic_email_url": "https://lomma.se/",
+  "contact": {
+   "name": "Cornelia Malm Wendel",
+   "designation": "Principal F-9",
+   "designation_local": "",
+   "email": "cornelia.malmwendel@lomma.se",
+   "office_email": "",
+   "phone": "0733-41 16 22",
+   "source_url": "https://lomma.se/barnochutbildning/grundskola/grundskolor/karstorpskolan.788.html",
+   "evidence_quote": "Cornelia Malm Wendel, rektor F-9"
+  },
+  "alternates": [
+   {
+    "name": "Annika Ziegler Kruse",
+    "designation": "Assistant Principal 6-9",
+    "designation_local": "",
+    "email": "nnika.zieglerkruse@lomma.se",
+    "office_email": "",
+    "phone": "0709-41 31 05",
+    "source_url": "https://lomma.se/barnochutbildning/grundskola/grundskolor/karstorpskolan.788.html",
+    "evidence_quote": "Annika Ziegler Kruse, biträdande rektor 6-9",
+    "why_chosen": "Principal / director (no Erasmus contact found). Annika Ziegler Kruse is an assistant principal and part of the school leadership team."
+   },
+   {
+    "name": "Dorota Falke",
+    "designation": "Administrator 6-9",
+    "designation_local": "",
+    "email": "dorota.falke@lomma.se",
+    "office_email": "",
+    "phone": "040-641 14 22",
+    "source_url": "https://lomma.se/barnochutbildning/grundskola/grundskolor/karstorpskolan.788.html",
+    "evidence_quote": "Dorota Falke, administratör 6-9",
+    "why_chosen": "Secretary / administration (last resort). Dorota Falke is an administrator at the school and can assist with administrative inquiries."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Cornelia Malm Wendel is the principal of the school and is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Karstorpskolan F-5",
+    "city": "Lomma",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://lomma.se/barnochutbildning/grundskola/grundskolor/karstorpskolan.788.html",
+    "evidence_quote": "Skolskeppsgatan 5, 234 43 Lomma"
+   },
+   {
+    "campus_name": "Karstorpskolan 6-9",
+    "city": "Lomma",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://lomma.se/barnochutbildning/grundskola/grundskolor/karstorpskolan.788.html",
+    "evidence_quote": "Skolskeppsgatan 15, 234 43 Lomma"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not mention any international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 6.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 29.2
+ }
+}
