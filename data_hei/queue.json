@@ -1842,20 +1842,30 @@
    "source": "Merged Legacy Database Batch-5 BANO-2nd Batch",
    "file_id": "1Jf9oW5jpizvQ19LQIzlSR7Qy_NSd0Q2eWc7p_4FZt04",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 68,
    "started": "2026-10-28T22:53:15Z",
    "last_start": "2026-10-28T22:53:15Z",
    "restarts": 0,
-   "cap_usd": 795.16
+   "cap_usd": 795.16,
+   "spend_recorded": true,
+   "cost_usd": 0.3064,
+   "drive_link": "https://docs.google.com/spreadsheets/d/13cHlGul51Nx5ECicNLApVrBVssyYm6i4/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 53,
+   "finished": "2026-10-28T23:01:17Z",
+   "reason": "68 institutes, 39 with a contact"
   },
   {
    "batch": "merged-legacy-database-batch-1-ayesh",
    "source": "Merged Legacy Database Batch-1 AYESHA",
    "file_id": "1PAKj9DS63xVFbEtk9cg5QA0xESw9s_-LOq4jqkv1uRw",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 34
+   "state": "running",
+   "rows": 34,
+   "started": "2026-10-28T23:01:17Z",
+   "last_start": "2026-10-28T23:01:17Z",
+   "restarts": 0,
+   "cap_usd": 794.86
   },
   {
    "batch": "merged-legacy-database-batch-2-sumba",
@@ -2953,7 +2963,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-28T22:53:15Z",
+ "updated": "2026-10-28T23:01:17Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
