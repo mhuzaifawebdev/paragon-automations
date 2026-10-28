@@ -1158,20 +1158,30 @@
    "source": "Copy of 250K-150K Batch 2 Talha B2",
    "file_id": "1TCEr-T6T4VepFp1NjmMhdwnvwkcMSwWo-RH1VhGdRLs",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 29,
    "started": "2026-10-28T18:55:10Z",
    "last_start": "2026-10-28T18:55:10Z",
    "restarts": 0,
-   "cap_usd": 805.88
+   "cap_usd": 805.88,
+   "spend_recorded": true,
+   "cost_usd": 0.1077,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1yV20ikGvxGTfnWwnTEIGGTDMHA92XZ7U/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 31,
+   "finished": "2026-10-28T19:00:26Z",
+   "reason": "36 institutes, 16 with a contact"
   },
   {
    "batch": "copy-of-250k-150k-batch-3-bano-b2",
    "source": "Copy of 250K-150K Batch 3 _BANO B2",
    "file_id": "17lWMsgNIyiXA7oivx7QQ0MNl_5o36neiThmdNmqw_aA",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 36
+   "state": "running",
+   "rows": 36,
+   "started": "2026-10-28T19:00:26Z",
+   "last_start": "2026-10-28T19:00:26Z",
+   "restarts": 0,
+   "cap_usd": 805.77
   },
   {
    "batch": "copy-of-250k-150k-batch-4-sumbul-b2",
@@ -2573,7 +2583,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-28T18:55:10Z",
+ "updated": "2026-10-28T19:00:26Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
