@@ -1,0 +1,101 @@
+{
+ "row_id": "r042",
+ "scraped_at": "2026-10-28T17:00:11Z",
+ "contacts": {
+  "row_id": "r042",
+  "institution_name": "Debreceni Szakképzési Centrum Kereskedelmi és Vendéglátóipari Technikum és Szakképző Iskola",
+  "institution_type": "school",
+  "official_website": "https://www.dszckereskedelmi.hu/",
+  "country": null,
+  "phone": {
+   "value": "+3652/413-113",
+   "source_url": "https://www.dszckereskedelmi.hu/",
+   "evidence_quote": "<kereskedelmi.debrecen@gmail.com> <tel +3652/413-113, +3652/413-255 (Iskolai ügyintézés)>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Deák Anita",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "igazgato.keri@gmail.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.dszckereskedelmi.hu/rolunk/munkatarsak",
+   "evidence_quote": "Deák Anita ... Igazgató"
+  },
+  "alternates": [
+   {
+    "name": "Kovácsi Roland",
+    "designation": "Professional Deputy Principal",
+    "designation_local": "",
+    "email": "szakmaiigh.kereskedelmi@gmail.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.dszckereskedelmi.hu/rolunk/munkatarsak",
+    "evidence_quote": "Kovácsi Roland ... Szakmai igazgatóhelyettes",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is a deputy principal who has been involved in Erasmus+ staff mobility reports."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the principal of the institution and the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SHW",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.dszckereskedelmi.hu/projektek/2020-1-hu-01-ka-102-078025-szamu-tiz-eve-partnerek-a-kuelfoeldi-gyakorlatert-cimu-projekt",
+    "evidence_quote": "2022. január 25-én a 2020-1-HU01-KA102-078025 számú „Tíz éve partnerek a külföldi gyakorlatért” című projekt lezárásaként vette át ünnepélyes keretek között nemzetközi Europass bizonyítványát iskolánk 12 vendéglátós és 2 kereskedő tanulója. A diákok kiváló munkáját elismerő okleveleket iskolánk igazgatónője Makai Mária és a német fogadópartner, az SHW tulajdonosa Ramona Herzog adták el.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CFA Européen Luis Prioux",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.dszckereskedelmi.hu/projektek/erasmus-2022-1-hu-01-ka-121-vet-000056054",
+    "evidence_quote": "Beszámoló a CFA Européen Luis Prioux intézményben tett szakmai látogatásról",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Debreceni SZC Kereskedelmi és Vendéglátóipari Technikum és Szakképző Iskola",
+    "city": "Debrecen",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://www.dszckereskedelmi.hu/",
+    "evidence_quote": "4027 Debrecen, Vénkert u. 2."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution lists several Erasmus+ projects and mentions partner countries like Germany, France, Turkey, and Portugal, but does not provide a comprehensive list of partner institutions. The dual partner list is currently empty on the website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 12.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 17.8
+ }
+}

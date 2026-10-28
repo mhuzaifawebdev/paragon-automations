@@ -1,0 +1,97 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-10-28T17:00:19Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "Tatabanyai SZC Kultsar István Technikum és Szakgimnazium",
+  "institution_type": "school",
+  "official_website": "http://www.kultsar.hu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Maróti László",
+   "designation": "English teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://www.kultsar.hu/documents/tanarok.pdf",
+   "evidence_quote": "14. Maróti László ... angol szakos tanár"
+  },
+  "alternates": [
+   {
+    "name": "Meretei Ágnes",
+    "designation": "English teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "http://www.kultsar.hu/documents/tanarok.pdf",
+    "evidence_quote": "16. Meretei Ágnes ... angoltanár",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Meretei Ágnes is an English teacher, which is a relevant role for international mobility projects."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Maróti László is an English teacher, which is a relevant role for international mobility projects.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Granada",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.kultsar.hu/index.php?action=erasmus",
+    "evidence_quote": "Granada",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mallorca",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.kultsar.hu/index.php?action=erasmus",
+    "evidence_quote": "Mallorca",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Tatabányai SZC Kultsár István Technikum",
+    "city": "Tatabánya",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "http://www.kultsar.hu/",
+    "evidence_quote": "TATABÁNYAI SZC KULTSÁR ISTVÁN TECHNIKUM"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 3,
+  "coverage_note": "The website mentions Erasmus+ but does not provide a formal list of partner institutions or specific contact details for an international coordinator. The contact list is derived from the staff list provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 6.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 10.5
+ }
+}

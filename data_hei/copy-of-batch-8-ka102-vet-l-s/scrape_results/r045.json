@@ -1,0 +1,93 @@
+{
+ "row_id": "r045",
+ "scraped_at": "2026-10-28T17:00:28Z",
+ "contacts": {
+  "row_id": "r045",
+  "institution_name": "Berufsbildende Schulen Bad Harzburg",
+  "institution_type": "school",
+  "official_website": "https://www.bbs-bad-harzburg.de/",
+  "country": null,
+  "phone": {
+   "value": "05322 - 9638-41",
+   "source_url": "https://www.bbs-bad-harzburg.de/unser-team",
+   "evidence_quote": "05322 - 9638-41"
+  },
+  "phone_alt": [],
+  "generic_email": "info@bbs-bad-harzburg.de",
+  "generic_email_url": "https://www.bbs-bad-harzburg.de/kontakt",
+  "contact": {
+   "name": "Silke Jachalsky",
+   "designation": "Head of Nutrition Department",
+   "designation_local": "",
+   "email": "silke.jachalsky@bbs-harzburg.de",
+   "office_email": "",
+   "phone": "05322 - 9638-41",
+   "source_url": "https://www.bbs-bad-harzburg.de/unser-team",
+   "evidence_quote": "Silke Jachalsky ... Abteilungsleiterin Ernährung"
+  },
+  "alternates": [
+   {
+    "name": "Rebecca Mrziglod",
+    "designation": "Erasmus+ Contact Person",
+    "designation_local": "",
+    "email": "rebecca.mrziglod@bbs-harzburg.de",
+    "office_email": "",
+    "phone": "05322-9638-0",
+    "source_url": "https://www.bbs-bad-harzburg.de/newpageddb1a3ab",
+    "evidence_quote": "Erasmus+ ... Rebecca Mrziglod",
+    "why_chosen": "Mobility coordinator. Rebecca Mrziglod is explicitly listed as the contact person for Erasmus+."
+   },
+   {
+    "name": "Jens Büsing",
+    "designation": "Principal",
+    "designation_local": "",
+    "email": "jens.buesing@bbs-harzburg.de",
+    "office_email": "",
+    "phone": "05322 - 9638-15",
+    "source_url": "https://www.bbs-bad-harzburg.de/unser-team",
+    "evidence_quote": "Jens Büsing ... Schulleiter",
+    "why_chosen": "Principal / director (no Erasmus contact found). Jens Büsing is the head of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Secretary / administration (last resort). Silke Jachalsky is a department head and was identified as a contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "BBS Bad Harzburg",
+    "city": "Bad Harzburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bbs-bad-harzburg.de/kontakt",
+    "evidence_quote": "BBS Bad Harzburg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not provide a list of partner institutions or international agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 5.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 8.6
+ }
+}
