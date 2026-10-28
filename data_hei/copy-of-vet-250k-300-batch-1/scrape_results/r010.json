@@ -1,0 +1,82 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-28T18:11:58Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Union des Maisons des Jeunes et de la Culture de la Vienne",
+  "institution_type": "unknown",
+  "official_website": "https://frmjcna.fr/",
+  "country": null,
+  "phone": {
+   "value": "06 26 56 55 90",
+   "source_url": "https://frmjcna.fr/ud-vienne/",
+   "evidence_quote": "06 26 56 55 90"
+  },
+  "phone_alt": [],
+  "generic_email": "contact@frmjcna.fr",
+  "generic_email_url": "https://frmjcna.fr/",
+  "contact": {
+   "name": "Anita Madavane",
+   "designation": "Director of the Regional Federation of MJC Nouvelle-Aquitaine",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://frmjcna.fr/equipe-federale/",
+   "evidence_quote": "Anita Madavane ... Directrice de la Fédération Régionale des MJC Nouvelle-Aquitaine"
+  },
+  "alternates": [
+   {
+    "name": "Delphine Caubet",
+    "designation": "Coordinator of the Union of MJC of the Vienne",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://frmjcna.fr/equipe-federale/",
+    "evidence_quote": "Delphine Caubet ... Coordinatrice Union des MJC de la Vienne",
+    "why_chosen": "Mobility coordinator. Delphine Caubet serves as a coordinator for the Union des MJC de la Vienne."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Anita Madavane is the director of the regional federation overseeing the Union des MJC de la Vienne.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Union des MJC de la Vienne",
+    "city": "Lussac-Les-Châteaux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://frmjcna.fr/ud-vienne/",
+    "evidence_quote": "86320 Lussac-Les-Châteaux"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a network of youth and culture associations rather than a traditional university. No specific list of international partners is provided in the evidence. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 9.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 16.8
+ }
+}
