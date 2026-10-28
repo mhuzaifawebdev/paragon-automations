@@ -289,6 +289,11 @@
   </section>
   <section class="view" id="view-queue" hidden>
     <div class="tiles" id="q-tiles"></div>
+    <!-- cost budget card -->
+    <div class="card" id="q-budget-card" style="display:none">
+      <h2>Budget tracker</h2>
+      <div id="q-budget-body"></div>
+    </div>
     <div class="card">
       <h2>Batch queue</h2>
       <div class="hint">Lists dropped into the Google Drive folder "Inbox" (or uploaded here) run one after another. Each
@@ -994,13 +999,49 @@ $("i-batch").addEventListener("change", () => instRows && renderInstitutes());
 
 // ---------------- Queue view: the batches dropped into Drive (or uploaded) and where each one stands ----------------
 const Q_LABEL = { queued: "waiting", running: "running", done: "done", failed: "failed", cancelled: "cancelled" };
+
+function renderBudget(items, cap) {
+  const spent = items.reduce((s, i) => s + parseFloat(i.cost_usd || 0), 0);
+  const remaining = Math.max(0, cap - spent);
+  const pct = cap ? Math.min(100, (spent / cap) * 100) : 0;
+  const usd = v => "$" + v.toFixed(2);
+  const doneRows  = items.filter(i => i.state === "done").reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
+  const allRows   = items.reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
+  const costPer   = doneRows ? spent / doneRows : 0;
+  const projected = allRows && costPer ? costPer * allRows : 0;
+  const barColor  = pct > 85 ? "var(--bad)" : pct > 60 ? "var(--warn)" : "var(--ok)";
+  $("q-budget-card").style.display = "";
+  $("q-budget-body").innerHTML = `
+    <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px">
+      <div class="tile"><div class="n" style="color:var(--bad)">${usd(spent)}</div><div class="l">Spent so far</div></div>
+      <div class="tile"><div class="n" style="color:var(--ok)">${usd(remaining)}</div><div class="l">Remaining of ${usd(cap)}</div></div>
+      <div class="tile"><div class="n">${costPer ? "$" + costPer.toFixed(4) : "–"}</div><div class="l">Cost / institute</div></div>
+      <div class="tile"><div class="n">${projected ? usd(projected) : "–"}</div><div class="l">Projected total</div></div>
+    </div>
+    <div style="background:var(--line-2);border-radius:99px;height:10px;overflow:hidden">
+      <div style="width:${pct.toFixed(1)}%;height:100%;background:${barColor};border-radius:99px;transition:width .4s"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:11.5px;color:var(--mut);margin-top:5px">
+      <span>${usd(spent)} used (${pct.toFixed(1)}%)</span><span>${usd(cap)} cap</span>
+    </div>`;
+}
+
 async function loadQueue() {
   try {
     const q = await (await fetch("/api/stats?view=queue", { cache: "no-store" })).json();
     const items = q.items || [];
     const n = s => items.filter(i => i.state === s).length;
-    $("q-tiles").innerHTML = [[n("queued"), "Waiting"], [n("running"), "Running"], [n("done"), "Done"], [n("failed") + n("cancelled"), "Failed or cancelled"]]
-      .map(([v, l]) => `<div class="tile"><div class="n">${fmtN(v)}</div><div class="l">${l}</div></div>`).join("");
+    const totalRows = items.reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
+    const doneRows  = items.filter(i => i.state === "done").reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
+    $("q-tiles").innerHTML = [
+      [n("queued"), "Waiting"],
+      [n("running"), "Running"],
+      [n("done"), "Done"],
+      [n("failed") + n("cancelled"), "Failed / cancelled"],
+      [fmtN(doneRows) + " / " + fmtN(totalRows), "Institutes"],
+    ].map(([v, l]) => `<div class="tile"><div class="n">${typeof v === "number" ? fmtN(v) : v}</div><div class="l">${l}</div></div>`).join("");
+    const cap = q.budget_cap || 0;
+    if (cap) renderBudget(items, cap);
     const pausedEl = $("q-paused");
     pausedEl.className = q.paused ? "msg show error" : "msg";
     pausedEl.textContent = q.paused || "";
@@ -1008,10 +1049,11 @@ async function loadQueue() {
     const rows = items.slice().sort((a, b) => (order[a.state] - order[b.state]) || String(b.finished || b.added || "").localeCompare(String(a.finished || a.added || "")));
     const when = t => t ? new Date(t).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "–";
     $("q-table").innerHTML = rows.length
-      ? `<tr><th>Batch</th><th>File</th><th>Status</th><th class="r">Institutes</th><th>Added</th><th>Finished</th><th>Result / reason</th></tr>` +
+      ? `<tr><th>Batch</th><th>File</th><th>Status</th><th class="r">Institutes</th><th>Added</th><th>Finished</th><th class="r">Cost</th><th>Result / reason</th></tr>` +
         rows.map(i => `<tr><td class="mono">${esc(i.batch)}</td><td style="white-space:normal">${esc(i.source || "")}${i.part ? " (part " + esc(i.part) + ")" : ""}</td>` +
           `<td><span class="status-pill ${i.state === "queued" ? "waiting" : i.state === "failed" ? "error" : esc(i.state)}">${Q_LABEL[i.state] || esc(i.state)}</span></td>` +
           `<td class="r">${i.rows ? fmtN(i.rows) : "–"}</td><td>${when(i.added)}</td><td>${when(i.finished)}</td>` +
+          `<td class="r num">${i.cost_usd != null ? "$" + parseFloat(i.cost_usd).toFixed(2) : "–"}</td>` +
           `<td style="white-space:normal">${i.drive_link ? `<a class="view" href="${esc(i.drive_link)}" target="_blank" rel="noopener">Open in Drive</a>` : esc(i.reason || i.note || "")}</td></tr>`).join("")
       : `<tr><td class="empty">Nothing in the queue. Drop CSV or Excel files into the Drive folder "Inbox".</td></tr>`;
     $("q-updated").textContent = q.updated ? "Queue checked " + when(q.updated) : "";

@@ -9,9 +9,19 @@ const { getRawFile } = require("./_github");
 module.exports = async (req, res) => {
   try {
     if ((req.query || {}).view === "queue") {
-      const q = JSON.parse((await getRawFile("data_hei/queue.json")) || '{"items":[]}');
+      const [qText, cfgText] = await Promise.all([
+        getRawFile("data_hei/queue.json"),
+        getRawFile("config.yaml"),
+      ]);
+      const q = JSON.parse(qText || '{"items":[]}');
+      let budgetCap = 0;
+      if (cfgText) {
+        const m = cfgText.match(/max_queue_usd_total\s*:\s*([\d.]+)/);
+        if (m) budgetCap = parseFloat(m[1]);
+      }
       res.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
       res.status(200).json({ updated: q.updated || null, paused: q.paused || null,
+        budget_cap: budgetCap,
         items: (q.items || []).map(({ file_id, md5, ...rest }) => rest) });
       return;
     }
