@@ -1,0 +1,88 @@
+{
+ "row_id": "r140",
+ "scraped_at": "2026-10-28T11:33:58Z",
+ "contacts": {
+  "row_id": "r140",
+  "institution_name": "Základní škola a Gymnázium Vodňany",
+  "institution_type": "school",
+  "official_website": "https://www.zsgvodnany.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@zsgvodnany.cz",
+  "generic_email_url": "https://www.zsgvodnany.cz/",
+  "contact": {
+   "name": "Mgr. Barbora Křížková Louženská",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "barbora.krizkova@zsgvodnany.cz",
+   "office_email": "",
+   "phone": "383 311 310",
+   "source_url": "https://www.zsgvodnany.cz/stranky/vedeni-skoly",
+   "evidence_quote": "Ředitelka Základní školy a Gymnázia Vodňany | Mgr. Barbora Křížková Louženská"
+  },
+  "alternates": [
+   {
+    "name": "Doc. PhDr. Martin Schacherl Ph.D.",
+    "designation": "Deputy Head for Gymnasium",
+    "designation_local": "",
+    "email": "martin.schacherl@zsgvodnany.cz",
+    "office_email": "",
+    "phone": "383 313 432",
+    "source_url": "https://www.zsgvodnany.cz/stranky/vedeni-skoly",
+    "evidence_quote": "Zástupce pro Gymnázium Vodňany | Doc. PhDr. Martin Schacherl Ph.D.",
+    "why_chosen": "Other role. Doc. PhDr. Martin Schacherl Ph.D. is the deputy head for the gymnasium."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Mgr. Barbora Křížková Louženská is the head of the school (Ředitelka).",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmus Campus Gymnasium Frankfurt",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.zsgvodnany.cz/stranky/spoluprace",
+    "evidence_quote": "Erasmus Campus Gymnasium Frankfurt | Erasmus Campus Gymnasium",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Základní škola a Gymnázium Vodňany",
+    "city": "Vodňany",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.zsgvodnany.cz/",
+    "evidence_quote": "Úvod | Základní škola a Gymnázium Vodňany"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence shows general pages, partner mentions, and project details, but specific email addresses for the project teachers are missing. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.5,
+  "crawl_s": 12.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "contact_pass": 2,
+  "email_search_s": 0.0,
+  "total_seconds": 21.4
+ }
+}
