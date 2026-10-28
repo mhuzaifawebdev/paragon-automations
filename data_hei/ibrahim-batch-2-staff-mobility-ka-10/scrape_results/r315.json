@@ -1,0 +1,65 @@
+{
+ "row_id": "r315",
+ "scraped_at": "2026-10-28T10:43:13Z",
+ "contacts": {
+  "row_id": "r315",
+  "institution_name": "Ann",
+  "institution_type": "unknown",
+  "official_website": "https://www.trosa.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "trosa@trosa.se",
+  "generic_email_url": "https://www.trosa.se/",
+  "contact": {
+   "name": "Emina Salkic",
+   "designation": "Administrator LSS",
+   "designation_local": "",
+   "email": "emina.salkic@trosa.se",
+   "office_email": "",
+   "phone": "0156-521 86",
+   "source_url": "https://www.trosa.se/omsorg-och-stod/funktionsvariation/kontaktperson/",
+   "evidence_quote": "Emina Salkic ... Administratör LSS"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Emina Salkic is a named administrator within the municipality who provides contact information for inquiries.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Trosa kommun",
+    "city": "Trosa",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.trosa.se/",
+    "evidence_quote": "Adress: Västra Långgatan 4, 619 80 Trosa"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a municipality (Trosa kommun) rather than a traditional educational institution, though it manages local schools. No international mobility or Erasmus+ partner lists are provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 19.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 23.5
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "row_id": "r312",
+ "scraped_at": "2026-10-28T10:43:01Z",
+ "contacts": {
+  "row_id": "r312",
+  "institution_name": "drs. BCBM",
+  "institution_type": "school",
+  "official_website": "https://www.sintjan-lvo.nl/",
+  "country": null,
+  "phone": {
+   "value": "06-34592697",
+   "source_url": "https://www.sintjan-lvo.nl/contact/",
+   "evidence_quote": "tel. 06-34592697 – b.hamans@stichtinglvo.nl"
+  },
+  "phone_alt": [],
+  "generic_email": "info@sintjan-lvo.nl",
+  "generic_email_url": "https://www.sintjan-lvo.nl/",
+  "contact": {
+   "name": "S. Meijer-Mendes",
+   "designation": "Coordinator Bilingual Education (TTO)",
+   "designation_local": "",
+   "email": "s.meijer@stichtinglvo.nl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.sintjan-lvo.nl/contact/",
+   "evidence_quote": "- coördinatoren TweeTalig Onderwijs (TTO): ... mevrouw S. Meijer-Mendes s.meijer@stichtinglvo.nl de heer M.Hillen - m.hillen@stichtinglvo.nl"
+  },
+  "alternates": [
+   {
+    "name": "M. Hillen",
+    "designation": "Coordinator Bilingual Education (TTO)",
+    "designation_local": "",
+    "email": "m.hillen@stichtinglvo.nl",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sintjan-lvo.nl/contact/",
+    "evidence_quote": "- coördinatoren TweeTalig Onderwijs (TTO): ... mevrouw S. Meijer-Mendes s.meijer@stichtinglvo.nl de heer M.Hillen - m.hillen@stichtinglvo.nl",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is a coordinator for the bilingual education department, which is relevant to internationalization."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). She is a coordinator for the bilingual education department, which is relevant to internationalization.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: web search (Google via Gemini), named 'Sint-Janscollege' on the site. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Stichting LVO",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sintjan-lvo.nl/contact/",
+    "evidence_quote": "Het Sint-Janscollege maakt deel uit van Stichting LVO. Het college van bestuur vertegenwoordigt LVO. LVO kent ook een raad van toezicht.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sint-Janscollege",
+    "city": "Hoensbroek",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.sintjan-lvo.nl/",
+    "evidence_quote": "Amstenraderweg 122"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not provide a list of international partners or Erasmus+ agreements. The institution focuses on internationalization but does not explicitly list partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.8,
+  "crawl_s": 5.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 26.9,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     136
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 38.5
+ }
+}
