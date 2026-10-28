@@ -1,0 +1,87 @@
+{
+ "row_id": "r168",
+ "scraped_at": "2026-10-28T10:24:03Z",
+ "contacts": {
+  "row_id": "r168",
+  "institution_name": "Johannes",
+  "institution_type": "school",
+  "official_website": "https://www.jgs-heidelberg.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Johannes Laule",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.jgs-heidelberg.de/ueber-uns/schulleitung",
+   "evidence_quote": "Johannes LauleSchulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Sabrina Hisgen",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.jgs-heidelberg.de/ueber-uns/schulleitung",
+    "evidence_quote": "Sabrina HisgenStellv. Schulleiterin",
+    "why_chosen": "Principal / director (no Erasmus contact found). Sabrina Hisgen is the deputy principal and part of the school leadership team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Johannes Laule is the principal of the school and is listed as the contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "Sweden",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://www.jgs-heidelberg.de/",
+    "evidence_quote": "[Mit Erasmus+ nach Schweden]Mit Erasmus+ nach Schweden",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Johannes-Gutenberg-Schule Heidelberg",
+    "city": "Heidelberg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.jgs-heidelberg.de/",
+    "evidence_quote": "Wieblinger Weg 24/7"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The website mentions Erasmus+ projects but does not provide a formal list of partner institutions. No specific international relations office contact is listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 7.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 26.8,
+  "mode": "gemini",
+  "email_search_s": 10.6,
+  "total_seconds": 47.0
+ }
+}
