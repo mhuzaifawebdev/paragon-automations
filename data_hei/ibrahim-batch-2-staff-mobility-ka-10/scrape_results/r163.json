@@ -1,0 +1,55 @@
+{
+ "row_id": "r163",
+ "scraped_at": "2026-10-27T20:15:40Z",
+ "contacts": {
+  "row_id": "r163",
+  "institution_name": "Juha",
+  "institution_type": "school",
+  "official_website": "https://www.kuhmoinen.fi/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kirjaamo@kuhmoinen.fi",
+  "generic_email_url": "https://www.kuhmoinen.fi/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "Reused from batch finland-sprint-5 (scraped 2026-10-27). site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Kuhmoisten kunta",
+    "city": "Kuhmoinen",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.kuhmoinen.fi/",
+    "evidence_quote": "Toritie 34 A, 17800 Kuhmoinen (Navigoi)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The provided text is from a municipal website and mentions a local school and administrative contacts, but contains no details about Erasmus partnerships or international mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "finland-sprint-5",
+  "row_id": "r019"
+ }
+}
