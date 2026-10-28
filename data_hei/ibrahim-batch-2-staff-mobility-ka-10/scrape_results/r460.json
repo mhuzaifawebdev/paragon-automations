@@ -1,0 +1,126 @@
+{
+ "row_id": "r460",
+ "scraped_at": "2026-10-28T10:58:56Z",
+ "contacts": {
+  "row_id": "r460",
+  "institution_name": "Uwe",
+  "institution_type": "school",
+  "official_website": "https://www.beethoven-gymnasium.de/",
+  "country": null,
+  "phone": {
+   "value": "0228 77-7430",
+   "source_url": "https://www.beethoven-gymnasium.de/",
+   "evidence_quote": "Beethoven-Gymnasium Bonn T 0228 77-7430 <tel 0049228777430>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Uwe Bramstedt",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "uwe.bramstedt@beethoven-gymnasium.de",
+   "office_email": "sekretariat@beethoven-gymnasium.nrw.schule",
+   "phone": "0228 77-7430",
+   "source_url": "https://www.beethoven-gymnasium.de/kontakt",
+   "evidence_quote": "Schulleiter ... Uwe Bramstedt, OStD",
+   "email_source_url": "https://www.beethoven-gymnasium.de/sites/default/files/2019-02/InformationenDatenerhebungamBG.pdf"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Uwe Bramstedt is the principal of the school and is the contact currently on file. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Colegio Ludwig van Beethoven",
+    "partner_country": "Peru",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.beethoven-gymnasium.de/schulpartnerschaften",
+    "evidence_quote": "Schule hilft Schule - Partnerschaft mit dem Colegio Ludwig van Beethoven in Arequipa, Peru",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Orchestre symphonique du Lycée Hoche (Paris)",
+    "partner_country": "Frankreich",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.beethoven-gymnasium.de/",
+    "evidence_quote": "Orchestre symphonique du Lycée Hoche (Paris)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BEETHOVIANOS INTERNACIONAL – Schule hilft Schule e. V.",
+    "partner_country": "Deutschland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.beethoven-gymnasium.de/schulpartnerschaften",
+    "evidence_quote": "Empfänger: BEETHOVIANOS INTERNACIONAL – Schule hilft Schule e. V.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bonner Zentrum für Lehrerbildung der Rheinischen Friedrich-Wilhelms-Universität (BZL)",
+    "partner_country": "Deutschland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.beethoven-gymnasium.de/lehrerinnenausbildung",
+    "evidence_quote": "In enger Zusammenarbeit mit dem Bonner Zentrum für Lehrerbildung der Rheinischen Friedrich-Wilhelms-Universität (BZL) und dem Zentrum für schulpraktische Lehrerausbildung Bonn (ZfsL) geben wir künftigen Lehrkräften Gelegenheit, sich als Lernende und Lehrende im Handlungsfeld Schule zu erfahren. Sie erhalten die Möglichkeit, ihre schulfachlichen Kenntnisse auf die Praxis zu beziehen und ihre schulpraktischen Kompetenzen zu entwickeln, durch",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zentrum für schulpraktische Lehrerausbildung Bonn (ZfsL)",
+    "partner_country": "Deutschland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.beethoven-gymnasium.de/lehrerinnenausbildung",
+    "evidence_quote": "In enger Zusammenarbeit mit dem Bonner Zentrum für Lehrerbildung der Rheinischen Friedrich-Wilhelms-Universität (BZL) und dem Zentrum für schulpraktische Lehrerausbildung Bonn (ZfsL) geben wir künftigen Lehrkräften Gelegenheit, sich als Lernende und Lehrende im Handlungsfeld Schule zu erfahren. Sie erhalten die Möglichkeit, ihre schulfachlichen Kenntnisse auf die Praxis zu beziehen und ihre schulpraktischen Kompetenzen zu entwickeln, durch",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Beethoven-Gymnasium",
+    "city": "Bonn",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.beethoven-gymnasium.de/kontakt",
+    "evidence_quote": "Beethoven-Gymnasium"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 9,
+  "coverage_note": "The institution is a secondary school (Gymnasium) and does not participate in the Erasmus+ program, therefore no Erasmus-specific partners are listed. The only listed partnership is a long-standing school partnership with a school in Peru.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 13.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 10.2,
+  "mode": "gemini",
+  "email_search_s": 7.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 6,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 31.9
+ }
+}
