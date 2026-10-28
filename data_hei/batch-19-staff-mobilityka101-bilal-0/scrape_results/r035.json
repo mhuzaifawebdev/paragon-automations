@@ -1,0 +1,78 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-10-28T11:03:19Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "Dr. Volker",
+  "institution_type": "school",
+  "official_website": "https://www.fsg-marbach.de/",
+  "country": null,
+  "phone": {
+   "value": "0 71 44 84 58 11",
+   "source_url": "https://www.fsg-marbach.de/impressum",
+   "evidence_quote": "Tel. 0 71 44 84 58 11"
+  },
+  "phone_alt": [],
+  "generic_email": "poststelle@fsg-marbach.de",
+  "generic_email_url": "https://www.fsg-marbach.de/",
+  "contact": {
+   "name": "Dr. Volker Müller",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "0 71 44 84 58 11",
+   "source_url": "https://www.fsg-marbach.de/impressum",
+   "evidence_quote": "OStD Dr. Volker Müller, Schulleiter"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Dr. Volker Müller is the principal of the school and the primary contact person listed in the official impressum.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "Reused from batch ibrahim-batch-2-staff-mobility-ka-10 (scraped 2026-10-28). site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "al JABR",
+    "partner_country": "Morocco",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fsg-marbach.de/artikel/schleraustausch-mit-casablanca-2026",
+    "evidence_quote": "An unserem ersten Tag in Marokko ging es gemeinsam mit unseren Austauschpartnern an den Strand. Hingekommen sind wir mit den Schulbussen von der Schule „al JABR“. Am Strand angekommen, haben wir uns in zwei Gruppen aufgeteilt.Die erste Gruppe hat direkt Neoprenanzüge bekommen und ist mit Surfbrettern losgelaufen. Nach ca. 1h30 war dann die andere Gruppe mit dem Surfkurs dran. Nach dem Surfen haben wir alle zusammen im Schatten Mittag gegessen. Danach haben wir uns gesonnt, gebadet oder Beachvoll",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Friedrich-Schiller-Gymnasium",
+    "city": "Marbach am Neckar",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.fsg-marbach.de/",
+    "evidence_quote": "Friedrich-Schiller-Gymnasium"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The institution does not list a formal Erasmus+ coordinator or international office, as it is a secondary school. Partner information was extracted from reports on student exchange programs. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "ibrahim-batch-2-staff-mobility-ka-10",
+  "row_id": "r490"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-10-28T13:52:04Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "Karl-Schiller-Berufskolleg der Stadt Dortmund",
+  "institution_type": "college",
+  "official_website": "https://www.ksbk-do.de/",
+  "country": {
+   "value": "Germany",
+   "source_url": "https://www.ksbk-do.de/beratung-chancen/erasmus/",
+   "evidence_quote": "Weitere Informationen zum Programm finden Sie auf dem gemeinsamen Portal der nationalen Agenturen (NA) beim Bundesinstitut für Berufsbildung (BIBB) in Deutschland."
+  },
+  "phone": {
+   "value": "02315023172",
+   "source_url": "https://www.ksbk-do.de/personen/",
+   "evidence_quote": "Vorzimmer Schulleitung 02315023172 <tel Vorzimmer Schulleitung 02315023172>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dr. Uwe Wiemann",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "wiemann@ksbk-do.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ksbk-do.de/personen/",
+   "evidence_quote": "Dr. Uwe Wiemann ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Katharina Meseck",
+    "designation": "Contact person for student teachers and Erasmus+ internship abroad",
+    "designation_local": "",
+    "email": "meseck@ksbk-do.de",
+    "office_email": "",
+    "phone": "02315023175",
+    "source_url": "https://www.ksbk-do.de/beratung-chancen/erasmus/",
+    "evidence_quote": "Katharina Meseck ... Ansprechpartnerin Referendar*innen und Auslandspraktikum Erasmus+",
+    "why_chosen": "Mobility coordinator. Katharina Meseck is a primary contact for Erasmus+ internships abroad."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Dr. Uwe Wiemann is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Karl-Schiller-Berufskolleg der Stadt Dortmund",
+    "city": "Dortmund",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.ksbk-do.de/",
+    "evidence_quote": "Startseite - KSBK Dortmund"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a specific list of partner universities or organizations on its website, only general mentions of Erasmus+ and school partnerships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 17.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 41.6
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "row_id": "r032",
+ "scraped_at": "2026-10-28T11:03:21Z",
+ "contacts": {
+  "row_id": "r032",
+  "institution_name": "Dr.",
+  "institution_type": "school",
+  "official_website": "https://www.mprbretten.de/",
+  "country": null,
+  "phone": {
+   "value": "07252 94400",
+   "source_url": "https://www.mprbretten.de/",
+   "evidence_quote": "Kontakt: 07252 94400 <tel 0725294400>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Herr B. Stäblein",
+   "designation": "Consulting Teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.mprbretten.de/beratungslehrer/",
+   "evidence_quote": "Beratungslehrer – Max Planck Realschule Bretten ... Herr B. Stäblein"
+  },
+  "alternates": [],
+  "rung": "Other role. He is a consulting teacher at the school.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "Reused from batch ibrahim-batch-2-staff-mobility-ka-10 (scraped 2026-10-28). site found via: website column in the sheet. mode: gemini. 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Berufliche Schulen Bretten",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mprbretten.de/kooperationspartner/",
+    "evidence_quote": "Es wurden Kooperationsvereinbarungen mit Industrie- und Handwerksbetrieben, den Beruflichen Schulen Bretten u.a. unterzeichnet. Die vereinbarten Ziele und Projekte in verschiedenen Arbeitsbereichen werden erfolgreich umgesetzt.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Max-Planck-Realschule Bretten",
+    "city": "Bretten",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.mprbretten.de/",
+    "evidence_quote": "Max-Planck-Realschule Bretten"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not list specific Erasmus+ or international mobility partners, only general local cooperation agreements. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "ibrahim-batch-2-staff-mobility-ka-10",
+  "row_id": "r487"
+ }
+}
