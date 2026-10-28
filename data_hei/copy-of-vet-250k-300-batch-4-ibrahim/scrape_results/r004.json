@@ -1,0 +1,80 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-10-28T18:24:27Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "Berufliches Schulzentrum Wertheim",
+  "institution_type": "school",
+  "official_website": "https://bsz-wertheim.de/",
+  "country": null,
+  "phone": {
+   "value": "09342 9659 0",
+   "source_url": "https://bsz-wertheim.de/",
+   "evidence_quote": "Tel. 09342 9659 0 <tel 123-456-7890>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@bsz-wertheim.de",
+  "generic_email_url": "https://bsz-wertheim.de/",
+  "contact": {
+   "name": "Mirco Göbel",
+   "designation": "Team Leader",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://bsz-wertheim.de/",
+   "evidence_quote": "Das erfolgreiche BSZ-Team unter Leitung von Teamchef StD Mirco Göbel."
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Mirco Göbel is identified as the team leader of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hauptgebäude / Fachraumzentrum / Werkstatt",
+    "city": "Wertheim",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://bsz-wertheim.de/kontakt-und-anfahrt/",
+    "evidence_quote": "Hauptgebäude / Fachraumzentrum / Werkstatt"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The provided evidence does not contain information regarding international partnerships or Erasmus+ mobility programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 6.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     86
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 35.5
+ }
+}

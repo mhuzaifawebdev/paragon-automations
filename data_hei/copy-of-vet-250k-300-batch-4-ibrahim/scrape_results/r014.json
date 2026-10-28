@@ -1,0 +1,71 @@
+{
+ "row_id": "r014",
+ "scraped_at": "2026-10-28T18:24:45Z",
+ "contacts": {
+  "row_id": "r014",
+  "institution_name": "POEL-PODOSFAIRIKH OMOSPONDIA EPARXIAS LEFKOSIAS",
+  "institution_type": "unknown",
+  "official_website": "https://poelcy.com/",
+  "country": null,
+  "phone": {
+   "value": "+357 22-374274",
+   "source_url": "https://poelcy.com/",
+   "evidence_quote": "+357 22-374274"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Yianis Christodoulou Foundation",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://poelcy.com/",
+    "evidence_quote": "Παρουσίαση της Συμφωνίας Χορηγίας μεταξύ της ΠΟΕΛ και του Yianis Christodoulou Foundation (Φωτογραφίες)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "POEL Headquarters",
+    "city": "Lefkosia",
+    "country": "Cyprus",
+    "role": "main",
+    "source_url": "https://poelcy.com/",
+    "evidence_quote": "Παναγίας 22, 1040 Λευκωσία"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The institution is a football federation rather than an educational institution. No Erasmus+ or international mobility contacts are listed, and no formal partner list is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.3,
+  "crawl_s": 4.0,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 13.8
+ }
+}
