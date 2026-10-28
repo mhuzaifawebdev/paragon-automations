@@ -1,0 +1,61 @@
+{
+ "row_id": "r023",
+ "scraped_at": "2026-10-28T20:12:26Z",
+ "contacts": {
+  "row_id": "r023",
+  "institution_name": "I.E.S. Pablo Ruiz Picasso",
+  "institution_type": "school",
+  "official_website": "https://secretaria.iespicasso.com/",
+  "country": null,
+  "phone": {
+   "value": "671 530 806-956 243 747",
+   "source_url": "https://secretaria.iespicasso.com/",
+   "evidence_quote": "Tfno: 671 530 806-956 243 747"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria@iespicasso.com",
+  "generic_email_url": "https://secretaria.iespicasso.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "I.E.S. Pablo Ruiz Picasso",
+    "city": "Chiclana de la Frontera",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://secretaria.iespicasso.com/",
+    "evidence_quote": "Secretaría del I.E.S. Pablo Ruiz Picasso (Chiclana)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The provided evidence does not list any specific staff members, Erasmus+ coordinators, or partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 4.0,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 12.6
+ }
+}

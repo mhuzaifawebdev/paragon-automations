@@ -1,0 +1,101 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-28T20:12:36Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "IES Hermanos Machado",
+  "institution_type": "school",
+  "official_website": "https://ieshnosmachado.org/",
+  "country": null,
+  "phone": {
+   "value": "955 622 418",
+   "source_url": "https://ieshnosmachado.org/",
+   "evidence_quote": "955 622 418"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "José Eduardo Navarro Molina",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ieshnosmachado.org/equipo-directivo/",
+   "evidence_quote": "Director D. José Eduardo Navarro Molina"
+  },
+  "alternates": [
+   {
+    "name": "Raquel Costa Andrés",
+    "designation": "Bilingual and EPAS Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ieshnosmachado.org/equipo-directivo/",
+    "evidence_quote": "Coordinación Bilingüe y EPAS Dña. Raquel Costa Andrés",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is responsible for the Bilingual and EPAS (European Parliament Ambassador School) coordination, which is closely linked to international projects."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the Director of the institution and the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Winschoten",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://ieshnosmachado.org/tema/erasmus/",
+    "evidence_quote": "Hoy empieza nuestra primera movilidad de grupo en FP. Alumnos de 1°SMR viajan a Winschoten(Holanda) dónde se encontrarán también con estudiantes de Leer(Alemania) para desarrollar un proyecto sobre Realidad Virtual.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Leer",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://ieshnosmachado.org/tema/erasmus/",
+    "evidence_quote": "Hoy empieza nuestra primera movilidad de grupo en FP. Alumnos de 1°SMR viajan a Winschoten(Holanda) dónde se encontrarán también con estudiantes de Leer(Alemania) para desarrollar un proyecto sobre Realidad Virtual.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Hermanos Machado",
+    "city": "Dos Hermanas, Sevilla",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://ieshnosmachado.org/",
+    "evidence_quote": "Via Flaminia, s/n, 41089 Dos Hermanas, Sevilla"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The website does not provide a formal list of Erasmus+ partners, only mentions specific mobility destinations in news articles. Contact emails are generic institutional addresses rather than personal ones.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 13.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 18.4
+ }
+}
