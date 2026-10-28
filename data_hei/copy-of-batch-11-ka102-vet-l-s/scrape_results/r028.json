@@ -1,0 +1,89 @@
+{
+ "row_id": "r028",
+ "scraped_at": "2026-10-28T16:38:22Z",
+ "contacts": {
+  "row_id": "r028",
+  "institution_name": "Odborné učilistě Cvrčovice, přispěvková organizace",
+  "institution_type": "school",
+  "official_website": "https://www.oucvrcovice.cz/",
+  "country": null,
+  "phone": {
+   "value": "519424829",
+   "source_url": "https://www.oucvrcovice.cz/",
+   "evidence_quote": "519424829 <tel 519424829>"
+  },
+  "phone_alt": [],
+  "generic_email": "skola@oucvrcovice.cz",
+  "generic_email_url": "https://www.oucvrcovice.cz/",
+  "contact": {
+   "name": "Mgr. Lenka Matoušová",
+   "designation": "Director of the school",
+   "designation_local": "",
+   "email": "lenka.matousova@oucvrcovice.cz",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.oucvrcovice.cz/zamestnanci-skoly/",
+   "evidence_quote": "Mgr. Lenka Matoušová ... ředitelka školy, statutární orgán"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the director of the school and the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Stredná odborná škola technológií a remesiel v Bratislavě",
+    "partner_country": "Slovakia",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.oucvrcovice.cz/l/zahranicni-mobilita-v-ramci-programu-erasmus/",
+    "evidence_quote": "Ve dnech 11. až 24. května 2025 se skupina našich deseti žáků z oboru Malířské práce za doprovodu dvou pedagogů zúčastnila zahraniční mobility v rámci programu Erasmus+. Hostitelskou organizací byla Stredná odborná škola technológií a remesiel v Bratislavě. Cílem pobytu bylo prohloubit odborné znalosti, získat praktické zkušenosti s moderními technologiemi, navázat kontakty se slovenskými žáky a poznat nové pracovní i kulturní prostředí.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Schülervertretung HLW19 Strassergasse",
+    "partner_country": "Austria",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.oucvrcovice.cz/l/vedeni-ou-cvrcovice-na-zahranicni-mobilite-ve-vidni/",
+    "evidence_quote": "Vedení školy OU Cvrčovice se v rámci projektu Erasmus+ zúčastnilo zahraniční mobility typu job shadowing ve Vídni. Cílem této mobility byla návštěva školy Schülervertretung HLW19 Strassergasse, která se dlouhodobě zaměřuje na moderní přístupy ve vzdělávání a efektivní řízení školních procesů.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Odborné učiliště Cvrčovice",
+    "city": "Cvrčovice",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.oucvrcovice.cz/",
+    "evidence_quote": "Cvrčovice 131, 691 23 Cvrčovice"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The institution does not provide a formal list of Erasmus+ partners. The partners listed were identified through project descriptions in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 10.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 32.9
+ }
+}
