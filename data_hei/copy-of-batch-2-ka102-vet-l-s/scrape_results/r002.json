@@ -1,0 +1,71 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T16:18:49Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Unione Regionale cuochi Lucani",
+  "institution_type": "unknown",
+  "official_website": "https://cuochilucani.com/",
+  "country": null,
+  "phone": {
+   "value": "+39 338 8773606",
+   "source_url": "https://cuochilucani.com/informazioni/contatti.html",
+   "evidence_quote": "Antonio Zazzerini +39 338 8773606 (Presidente Unione Cuochi Lucani)"
+  },
+  "phone_alt": [],
+  "generic_email": "segreteria@cuochilucani.com",
+  "generic_email_url": "https://cuochilucani.com/informazioni/contatti.html",
+  "contact": {
+   "name": "Giuseppe Furone",
+   "designation": "DSE Manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://cuochilucani.com/informazioni/organigramma.html",
+   "evidence_quote": "Giuseppe Furone ... Responsabile DSE |"
+  },
+  "alternates": [],
+  "rung": "Other role. Giuseppe Furone is the DSE Manager for the Unione Regionale Cuochi Lucani.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Unione Regionale Cuochi Lucani",
+    "city": "Potenza",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://cuochilucani.com/informazioni/contatti.html",
+    "evidence_quote": "c/o I.P.S.S.E.O.A. Via Anzio, 4 - Potenza"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The institution is a professional association of chefs rather than a traditional educational institution. No information regarding international mobility partners or Erasmus+ agreements is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 7.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 4.5,
+  "total_seconds": 38.4
+ }
+}
