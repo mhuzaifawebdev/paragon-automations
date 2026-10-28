@@ -86,7 +86,7 @@ def _map_headers(fieldnames):
     # Fallback for headerless sheets: if the first column's value is longer than any
     # plausible column name (>12 chars) it is almost certainly an institution name
     # sitting in what csv.DictReader mistook for the header row.  Map it directly.
-    if "institution_name" not in mapping and fieldnames and len((fieldnames[0] or "").strip()) > 12:
+    if "institution_name" not in mapping and fieldnames and len((fieldnames[0] or "").strip()) >= 12:
         mapping["institution_name"] = fieldnames[0]
         missing = [m for m in missing if not m.startswith("institution_name")]
     if missing:
