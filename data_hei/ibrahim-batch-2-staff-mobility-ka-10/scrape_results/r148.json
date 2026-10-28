@@ -1,0 +1,128 @@
+{
+ "row_id": "r148",
+ "scraped_at": "2026-10-28T10:08:01Z",
+ "contacts": {
+  "row_id": "r148",
+  "institution_name": "Manuel de",
+  "institution_type": "school",
+  "official_website": "https://realcolegio.pt/",
+  "country": {
+   "value": "Portugal",
+   "source_url": "https://realcolegio.pt/",
+   "evidence_quote": "1600-435 Lisboa, Portugal."
+  },
+  "phone": {
+   "value": "21 757 19 57",
+   "source_url": "https://realcolegio.pt/",
+   "evidence_quote": "21 757 19 57"
+  },
+  "phone_alt": [],
+  "generic_email": "informacoes@realcolegio.pt",
+  "generic_email_url": "https://realcolegio.pt/",
+  "contact": {
+   "name": "Manuel de Almeida Damásio",
+   "designation": "President of the Board of Administration",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://realcolegio.pt/",
+   "evidence_quote": "Professor Doutor Manuel de Almeida Damásio, ... Presidente do Conselho de Administração da Real Academia de Portugal"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Manuel de Almeida Damásio is the head of the institution and is currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Instituto Eduardo Pondal",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://realcolegio.pt/2026/10/23/alunos-do-ensino-secundario-em-mobilidade-erasmus-em-espanha/",
+    "evidence_quote": "Durante a mobilidade, visitaram o Instituto Eduardo Pondal, onde puderam contactar com outra realidade educativa, e partiram à descoberta da Galiza!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidade Nova IMS",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://realcolegio.pt/",
+    "evidence_quote": "Atualmente a Luana estuda Gestão de Informação na Universidade Nova IMS e o Pedro estuda Business Administration & Management na Universidade Católica de Lisboa 🙌",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidade Católica de Lisboa",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://realcolegio.pt/",
+    "evidence_quote": "Atualmente a Luana estuda Gestão de Informação na Universidade Nova IMS e o Pedro estuda Business Administration & Management na Universidade Católica de Lisboa 🙌",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidade Lusófona",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://realcolegio.pt/",
+    "evidence_quote": "Atualmente, o Luiz estuda Ciência Política e Relações Internacionais na Universidade Lusófona.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Real Colégio de Portugal",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://realcolegio.pt/",
+    "evidence_quote": "1600-435 Lisboa, Portugal."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The evidence mentions active Erasmus+ projects with schools, NGOs, and universities in Italy, Spain, Hungary, Latvia, and Estonia, but only names Instituto Eduardo Pondal as an individual partner institution.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.1,
+  "crawl_s": 12.9,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.7,
+  "mode": "gemini",
+  "email_search_s": 17.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 47.3
+ }
+}

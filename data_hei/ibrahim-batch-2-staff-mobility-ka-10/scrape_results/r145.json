@@ -1,0 +1,89 @@
+{
+ "row_id": "r145",
+ "scraped_at": "2026-10-28T10:07:36Z",
+ "contacts": {
+  "row_id": "r145",
+  "institution_name": "Bart",
+  "institution_type": "school",
+  "official_website": "https://werenfridus.nl/",
+  "country": null,
+  "phone": {
+   "value": "0229-285828",
+   "source_url": "https://werenfridus.nl/",
+   "evidence_quote": "Telefoon: 0229-285828 <tel +31229285828>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "d’Ampte",
+    "partner_country": "",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://werenfridus.nl/",
+    "evidence_quote": "Op het Tabor College vinden we sport en creativiteit heel belangrijk. Daarom is er voor alle leerlingen van d’Ampte, Oscar Romero en Werenfridus het buitenschoolse activiteitenprogramma Tabor X-Tra!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Oscar Romero",
+    "partner_country": "",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://werenfridus.nl/",
+    "evidence_quote": "Op het Tabor College vinden we sport en creativiteit heel belangrijk. Daarom is er voor alle leerlingen van d’Ampte, Oscar Romero en Werenfridus het buitenschoolse activiteitenprogramma Tabor X-Tra!",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Tabor College Werenfridus",
+    "city": "Hoorn",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://werenfridus.nl/",
+    "evidence_quote": "De Keyzerstraat 1, 1624 BX Hoorn"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not mention any international mobility partners or specific Erasmus agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 8.2,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     70
+    ],
+    "returned": 4,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 25.2
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "row_id": "r147",
+ "scraped_at": "2026-10-28T10:07:49Z",
+ "contacts": {
+  "row_id": "r147",
+  "institution_name": "Kyriakos",
+  "institution_type": "school",
+  "official_website": "https://dim-dromolaxia1-lar.schools.ac.cy/",
+  "country": null,
+  "phone": {
+   "value": "357 24 422125; 357 24 422126",
+   "source_url": "https://dim-dromolaxia1-lar.schools.ac.cy/",
+   "evidence_quote": "Τηλέφωνα: 24422125, 24422126"
+  },
+  "phone_alt": [],
+  "generic_email": "dim-dromolaxia1-lar@schools.ac.cy",
+  "generic_email_url": "https://dim-dromolaxia1-lar.schools.ac.cy/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ITC International Training Center",
+    "partner_country": "Czech Republic",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://dim-dromolaxia1-lar.schools.ac.cy/programmata/erasmus-1/",
+    "evidence_quote": "Το ευρωπαϊκό πρόγραμμα «Encourage Creative Thinking» πραγματοποιήθηκε από τον οργανισμό ITC International Training Center από τις 2-6 Αυγούστου 2021 στην Πράγα.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Europass Teachers Academy Prague",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://dim-dromolaxia1-lar.schools.ac.cy/programmata/erasmus-1/",
+    "evidence_quote": "Europass Teachers Academy Prague 10th to 15th of July 2023",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Europass Teachers Academy",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://dim-dromolaxia1-lar.schools.ac.cy/programmata/erasmus-1/",
+    "evidence_quote": "Το σεμινάριο «Effective Pedagogies for 21st – Century learning» πραγματοποιήθηκε στην Ακαδημία Europass Teachers Academy στην Πράγα από τις 10 έως τις 15 Ιουλίου 2023.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Δημοτικό Σχολείο Δρομολαξιάς Α'",
+    "city": "Δρομολαξιά",
+    "country": "Κύπρος",
+    "role": "main",
+    "source_url": "https://dim-dromolaxia1-lar.schools.ac.cy/",
+    "evidence_quote": "Δημοτικό Σχολείο Δρομολαξιάς Α'"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The evidence lists several countries where mobility took place, but specific partner school names are not explicitly mentioned except for one training center.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 12.0,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.7,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     235
+    ],
+    "returned": 4,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 37.0
+ }
+}
