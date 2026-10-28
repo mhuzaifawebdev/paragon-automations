@@ -1,0 +1,93 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-28T16:29:35Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "Staatliche Fachschule für Mechatroniktechnik Kempten (Allgäu)",
+  "institution_type": "college",
+  "official_website": "https://bs1-kempten.de/",
+  "country": null,
+  "phone": {
+   "value": "+49 831 25385 - 110",
+   "source_url": "https://bs1-kempten.de/",
+   "evidence_quote": "+49 831 25385 - 110 <tel %2B49%20831%2025385%20-%20110>"
+  },
+  "phone_alt": [],
+  "generic_email": "bs1@bs1-kempten.de",
+  "generic_email_url": "https://bs1-kempten.de/",
+  "contact": {
+   "name": "Quirinus Deutz",
+   "designation": "Seminar teacher for metal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://bs1-kempten.de/berufsschule/internationale-kooperationen",
+   "evidence_quote": "Seminarlehrer für Metall: Herr StR Quirinus Deutz"
+  },
+  "alternates": [
+   {
+    "name": "Maximilian Stocker",
+    "designation": "Seminar teacher for politics and society",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://bs1-kempten.de/berufsschule/internationale-kooperationen",
+    "evidence_quote": "Seminarlehrer für Politik und Gesellschaft: Herr StR Maximilian Stocker",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is a seminar teacher for politics and society at the institution."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). He is a seminar teacher for metal at the institution.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Leeds City College",
+    "partner_country": "England",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://bs1-kempten.de/",
+    "evidence_quote": "England-Austausch „Exchange2Change“ mit dem Leeds City College",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Staatliche Berufsschule 1 Kempten",
+    "city": "Kempten",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://bs1-kempten.de/",
+    "evidence_quote": "Kotterner Straße 43"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The website mentions an international exchange program with Leeds City College, but does not provide a comprehensive list of Erasmus+ partners or a dedicated international office contact.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 7.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 1.2,
+  "total_seconds": 13.4
+ }
+}

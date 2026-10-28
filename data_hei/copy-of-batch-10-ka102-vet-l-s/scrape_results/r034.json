@@ -1,0 +1,119 @@
+{
+ "row_id": "r034",
+ "scraped_at": "2026-10-28T16:29:10Z",
+ "contacts": {
+  "row_id": "r034",
+  "institution_name": "Robert Bosch Berufskolleg Duisburg",
+  "institution_type": "college",
+  "official_website": "https://rbbk-duisburg.de/",
+  "country": null,
+  "phone": {
+   "value": "0203 - 283 - 5486",
+   "source_url": "https://rbbk-duisburg.de/",
+   "evidence_quote": "0203 - 283 - 5486"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Simone Peeters",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://rbbk-duisburg.de/",
+   "evidence_quote": "Schulleitung – Simone Peeters"
+  },
+  "alternates": [
+   {
+    "name": "Amelie Sachnik",
+    "designation": "Coordinator for International and School Development",
+    "designation_local": "",
+    "email": "a.sachnik@rbbk-duisburg.de",
+    "office_email": "",
+    "phone": "0203 283 5485",
+    "source_url": "https://rbbk-duisburg.de/unsere-schule/fokus-unserer-arbeit/erasmus/",
+    "evidence_quote": "Amelie Sachnik ... Koordinatorin für internationales und Schulentwicklung",
+    "why_chosen": "Mobility coordinator. She is the coordinator for international affairs and Erasmus+ and is explicitly listed as a contact for Erasmus inquiries."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the principal of the institution and is involved in international partnerships.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Dalane videregående skole",
+    "partner_country": "Norway",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://rbbk-duisburg.de/unsere-schule/fokus-unserer-arbeit/erasmus/",
+    "evidence_quote": "Praktikum im europäischen Ausland zu absolvieren. Seit 2016 besteht eine feste Kooperation mit der Dalane videregäende skole in Egersund (Norwegen), seit 2022 mit der HTL Mödling bei Wien (Österreich) und seit 2023 mit der VTMC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HTL Mödling",
+    "partner_country": "Austria",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://rbbk-duisburg.de/unsere-schule/fokus-unserer-arbeit/erasmus/",
+    "evidence_quote": "Praktikum im europäischen Ausland zu absolvieren. Seit 2016 besteht eine feste Kooperation mit der Dalane videregäende skole in Egersund (Norwegen), seit 2022 mit der HTL Mödling bei Wien (Österreich) und seit 2023 mit der VTMC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VTMC",
+    "partner_country": "Lithuania",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://rbbk-duisburg.de/unsere-schule/fokus-unserer-arbeit/erasmus/",
+    "evidence_quote": "Praktikum im europäischen Ausland zu absolvieren. Seit 2016 besteht eine feste Kooperation mit der Dalane videregäende skole in Egersund (Norwegen), seit 2022 mit der HTL Mödling bei Wien (Österreich) und seit 2023 mit der VTMC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Normandie Niemen",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://rbbk-duisburg.de/unsere-schule/fokus-unserer-arbeit/erasmus/",
+    "evidence_quote": "nach Frankreich gefahren sind, um vor Ort in einem Friedensprojekt beim Wiederaufbau der Kathedrale tatkräftig mitzuhelfen. Dies wurde seitdem gefestigt und mit der Partnerschule Normandie Niemen ausgebaut.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Robert-Bosch-Berufskolleg",
+    "city": "Duisburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://rbbk-duisburg.de/",
+    "evidence_quote": "August-Thyssen-Str. 45, 47166 Duisburg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of all partners, only those involved in specific Erasmus+ or local cooperation projects.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.5,
+  "crawl_s": 28.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 39.8
+ }
+}
