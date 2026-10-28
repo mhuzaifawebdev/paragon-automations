@@ -267,6 +267,107 @@ def pickup_auto_sheets(svc_download, data_root, queue, cfg, now):
     return log
 
 
+def _names(csv_text):
+    try:
+        return {import_batch._norm(r["institution_name"]) for r in import_batch.rows_from_csv_text(csv_text)}
+    except Exception:
+        return set()
+
+
+def refresh_queue(fetch, data_root, queue, now, drop_ids=(), dry_run=False):
+    """Re-reads every sheet already in the queue with today's importer, so a sheet queued under older rules is
+    not stuck with the rows those rules found. fetch(file_id) -> CSV text of the sheet (first tab with institutes).
+      - queued, not yet imported: the upload is replaced when the sheet now gives more rows;
+      - already started or done: the rows it lacks become a new batch '<batch>-extra' (names it already has are
+        left out, so nothing is scraped twice);
+      - items from drop_ids (directories, not institute lists) are removed, with their uploads.
+    Multi-part items are left alone. Returns one line per change."""
+    data_root, log = Path(data_root), []
+    uploads = data_root / "uploads"
+    taken = {it["batch"] for it in queue["items"]}
+    for it in list(queue["items"]):
+        if it.get("file_id") in drop_ids and it.get("state") == "queued":
+            log.append(f"{it['batch']}: removed (not an institute list, {it.get('rows')} rows)")
+            if not dry_run:
+                queue["items"].remove(it)
+                (uploads / f"{it['batch']}.csv").unlink(missing_ok=True)
+    for it in list(queue["items"]):
+        fid, batch = it.get("file_id"), it["batch"]
+        if not fid or it.get("part") or batch.endswith("-extra") or fid in drop_ids:
+            continue
+        try:
+            text = fetch(fid)
+        except Exception as e:
+            log.append(f"{batch}: could not be read - {str(e)[:100]}")
+            continue
+        now_rows, had = institute_rows(text), it.get("rows") or 0
+        if now_rows <= had:
+            continue
+        started = it.get("state") != "queued" or (data_root / batch / "numbers_clean.csv").exists()
+        if not started:
+            if len(split(text)) > 1:
+                log.append(f"{batch}: now {now_rows} rows, too long for one batch - left as is")
+                continue
+            log.append(f"{batch}: {had} -> {now_rows} rows (re-read)")
+            if not dry_run:
+                (uploads / f"{batch}.csv").write_text(text, encoding="utf-8")
+                it["rows"] = now_rows
+            continue
+        extra_name = f"{batch[:NAME_MAX - 6].rstrip('-')}-extra"
+        if extra_name in taken:
+            continue
+        old = uploads / f"{batch}.csv"
+        have = _names(old.read_text(encoding="utf-8")) if old.exists() else set()
+        rows = [r for r in import_batch.rows_from_csv_text(text)
+                if r.get("institution_name") and import_batch._norm(r["institution_name"]) not in have]
+        if not rows:
+            continue
+        log.append(f"{extra_name}: {len(rows)} institutes {batch} lacks")
+        taken.add(extra_name)
+        if dry_run:
+            continue
+        out = io.StringIO()
+        fields = sorted({k for r in rows for k in r})
+        w = csv.DictWriter(out, fieldnames=fields)
+        w.writeheader()
+        w.writerows(rows)
+        (uploads / f"{extra_name}.csv").write_text(out.getvalue(), encoding="utf-8")
+        queue["items"].append({"batch": extra_name, "source": it.get("source", ""), "file_id": fid, "added": now,
+                               "state": "queued", "rows": len(rows), "note": f"Rows missing from {batch}."})
+    return log
+
+
+def _refresh_main(argv):
+    """python scripts/drive_inbox.py --refresh [--dry-run] [--drop ID ...] [--retry ID ...]
+    Local, one-off: needs credentials/google_service_account.json."""
+    import json
+    from datetime import datetime, timezone
+    from google.oauth2 import service_account
+    from googleapiclient.discovery import build
+    import drive_upload
+    ids = lambda flag: [argv[i + 1] for i, a in enumerate(argv) if a == flag and i + 1 < len(argv)]   # noqa: E731
+    svc = build("drive", "v3", credentials=service_account.Credentials.from_service_account_file(
+        str(drive_upload.KEY_FILE), scopes=["https://www.googleapis.com/auth/drive.readonly"]))
+
+    def fetch(fid):
+        meta = svc.files().get(fileId=fid, fields="id,name,mimeType", supportsAllDrives=True).execute()
+        return table_from_file(meta["name"] + ".xlsx", drive_upload.XLSX, drive_upload.download_xlsx(svc, meta))[0]
+
+    qpath = ROOT / "data_hei" / "queue.json"
+    queue = json.loads(qpath.read_text(encoding="utf-8"))
+    before = sum(it.get("rows") or 0 for it in queue["items"])
+    dry = "--dry-run" in argv
+    log = refresh_queue(fetch, ROOT / "data_hei", queue, datetime.now(timezone.utc).isoformat(), set(ids("--drop")), dry)
+    retry = set(ids("--retry"))
+    if retry and not dry:
+        queue["auto_queued_ids"] = [f for f in queue.get("auto_queued_ids", []) if f not in retry]
+    print("\n".join(log) or "nothing to change")
+    print(f"queued institutes: {before} -> {sum(it.get('rows') or 0 for it in queue['items'])}"
+          + (" (dry run, nothing written)" if dry else ""))
+    if not dry:
+        qpath.write_text(json.dumps(queue, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
 class DriveInbox:
     """The real Drive behind pickup() and the queue: the shared-drive tree of scraper2/drive_upload.py."""
 
@@ -296,3 +397,7 @@ class DriveInbox:
     def to_failed(self, f, note):
         self.du.move(self.svc, f["id"], self.f["Failed"])
         self._note(f, "Failed", note)
+
+
+if __name__ == "__main__" and "--refresh" in sys.argv:
+    _refresh_main(sys.argv)

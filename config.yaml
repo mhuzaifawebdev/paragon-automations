@@ -162,4 +162,4 @@ scraper:
   # Sheets with no institute columns are silently skipped. Each sheet is queued exactly once.
   # To exclude a sheet (e.g. a reference/lookup sheet), add its Drive file ID to auto_queue_skip_ids.
   auto_queue_scan_drive: true
-  auto_queue_skip_ids: []   # Drive file IDs of sheets to never queue (dashboards, reference lists, etc.)
+  auto_queue_skip_ids: ["1xdVps2t-dI8ilsW74w8qfaooUUyAigIVaaFZZo7cmt8", "1VDzZd2T9eLyFSO6ADEJk0W5MLv_kZoF70DAy0dm9kNg", "1UovjFMW3tcIQarNMZShc9KBLqHqtRs_9mUXLmTkii-k"]   # Drive file IDs of sheets to never queue (dashboards, reference lists, etc.)

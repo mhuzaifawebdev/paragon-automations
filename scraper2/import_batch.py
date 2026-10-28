@@ -73,6 +73,10 @@ def _norm(s):
     return re.sub(r"[^a-z0-9]", "", s)
 
 
+NAME_HEADER_WORDS = ("institution", "university", "organisation", "organization", "school", "college", "augstskola")
+NOT_NAME_HEADER_WORDS = ("type", "country", "city", "code", "website", "email", "phone", "address", "size", "category")
+
+
 def _map_headers(fieldnames):
     """Returns {out_field: source_header_name}. Raises ImportError_ naming any missing required field."""
     normed = {_norm(h): h for h in fieldnames}
@@ -83,22 +87,111 @@ def _map_headers(fieldnames):
             mapping[out_field] = found
         elif out_field in REQUIRED:
             missing.append(f"{out_field} (tried: {', '.join(aliases)})")
-    # Fallback for headerless sheets: if the first column's value is longer than any
-    # plausible column name (>12 chars) it is almost certainly an institution name
-    # sitting in what csv.DictReader mistook for the header row.  Map it directly.
-    if "institution_name" not in mapping and fieldnames and len((fieldnames[0] or "").strip()) >= 12:
-        mapping["institution_name"] = fieldnames[0]
-        missing = [m for m in missing if not m.startswith("institution_name")]
+    if "institution_name" not in mapping:
+        # a header that merely contains an institution word, e.g. "Augstskola / Institution"
+        found = next((h for n, h in normed.items() if any(w in n for w in NAME_HEADER_WORDS)
+                      and not any(w in n for w in NOT_NAME_HEADER_WORDS)), None)
+        # a place list (Google Maps export): "title" is the place's name when the sheet also has city/street
+        if not found and "title" in normed and ("city" in normed or "street" in normed):
+            found = normed["title"]
+            if mapping.get("designation") == found:
+                del mapping["designation"]
+        if found:
+            mapping["institution_name"] = found
+            missing = [m for m in missing if not m.startswith("institution_name")]
+    if "seed_urls" not in mapping:
+        site = next((h for n, h in normed.items() if "website" in n), None)
+        if site:
+            mapping["seed_urls"] = site
     if missing:
         raise ImportError_("Missing required column(s) in your file - none of the expected header spellings "
                            "were found: " + "; ".join(missing) + f". Headers seen: {', '.join(fieldnames)}")
     return mapping
 
 
+NAME_WORDS = ("univers", "colleg", "kolegij", "school", "schule", "scuola", "escuela", "escola", "lyc", "gymnas",
+              "akadem", "academ", "instit", "istitut", "hochschule", "conservator", "polytech", "politec", "facult",
+              "fakult", "agrupamento", "centro", "centre", "center", "bildung", "liceo", "szkol", "uniwersytet",
+              "egyetem", "koulu", "skola", "skole", "hogeschool", "hogskola", "consorzi", "stichting", "verein",
+              "association", "foundation", "fundac", "ministry", "committee", "board")
+ERASMUS_SITE = "erasmus-plus.ec.europa.eu"
+
+
+def _cell_kind(v):
+    v = (v or "").strip()
+    if not v:
+        return ""
+    low = v.lower()
+    if low.startswith(("http", "www.")) or "@" in v:
+        return "link"
+    if re.fullmatch(r"[\d\s.,+()#/:-]+", v) or v.startswith("#"):
+        return "number"
+    return "text"
+
+
+def _name_like(v):
+    v = (v or "").strip()
+    return (_cell_kind(v) == "text" and len(v) >= 8 and v.lower() != "erasmus+"
+            and sum(c.isalpha() for c in v) >= len(v) / 2)
+
+
+def _looks_like_data(first_row):
+    """A header row holds labels; a data row holds a number, a link or an email somewhere."""
+    return any(_cell_kind(c) in ("link", "number") for c in first_row)
+
+
+def _rows_headerless(text):
+    """A sheet with no header row: row 1 is already an institute. The name column is picked from the data
+    (most name-like values, institution words count extra). Erasmus+ project exports are read by position:
+    a project row starts 'Erasmus+' with the coordinator in col 12 and its country in col 13, and is followed by
+    a summary row naming the same institute in col 1, so names are de-duplicated."""
+    table = [r for r in csv.reader(io.StringIO(text)) if any(c.strip() for c in r)]
+    erasmus = lambda r: (r[0] or "").strip().lower() == "erasmus+" and len(r) >= 13   # noqa: E731
+    plain = [r for r in table if not erasmus(r)]
+    width = max((len(r) for r in plain), default=0)
+    best, best_score = None, 0.0
+    for j in range(width):
+        vals = [(r[j] if j < len(r) else "").strip() for r in plain]
+        filled = [v for v in vals if v]
+        if not filled:
+            continue
+        like = sum(_name_like(v) for v in vals) / len(plain)
+        words = sum(any(w in v.lower() for w in NAME_WORDS) for v in filled) / len(plain)
+        distinct = len(set(v.lower() for v in filled)) / len(filled)
+        score = like * 0.5 + words + distinct * 0.5 if like >= 0.4 else 0.0
+        if score > best_score:
+            best, best_score = j, score
+    if best is None and len(plain) > len(table) / 2:
+        raise ImportError_("No column of institute names was found (the sheet has no header row and no column "
+                           "where most values look like institution names).")
+    out, seen, pairs = [], set(), len(plain) < len(table)
+    for r in table:
+        country = ""
+        if erasmus(r):
+            name, country = r[11].strip(), r[12].strip()
+        else:
+            name = (r[best] if best is not None and best < len(r) else "").strip()
+            if _cell_kind(name) != "text":
+                name = next((c.strip() for c in r if _name_like(c) and any(w in c.lower() for w in NAME_WORDS)), "")
+        key = _norm(name)
+        if not name or (pairs and key in seen):     # only an Erasmus+ export names each institute twice
+            continue
+        seen.add(key)
+        site = next((c.strip() for c in r if c.strip().lower().startswith(("http", "www."))
+                     and ERASMUS_SITE not in c), "")
+        if site.lower().startswith("www."):
+            site = "https://" + site
+        out.append({"institution_name": name, "country_sheet": country, "seed_urls": site})
+    return out
+
+
 def rows_from_csv_text(text):
     reader = csv.DictReader(io.StringIO(text))
     if not reader.fieldnames:
         raise ImportError_("File has no header row / is empty.")
+    known = {_norm(a) for a in ALIASES["institution_name"]}
+    if _looks_like_data(reader.fieldnames) and not any(_norm(h) in known for h in reader.fieldnames):
+        return _rows_headerless(text)
     mapping = _map_headers(reader.fieldnames)
     first_col = None if "contact_name" in mapping else _find_header(reader.fieldnames, FIRST_NAME_ALIASES)
     last_col = None if "contact_name" in mapping else _find_header(reader.fieldnames, LAST_NAME_ALIASES)
@@ -185,7 +278,7 @@ def rows_from_sheet(sheet_url, tab):
 def build_rows(raw_rows):
     numbers = []
     for k, r in enumerate(raw_rows, start=1):
-        if not r.get("institution_name"):
+        if _cell_kind(r.get("institution_name")) in ("", "number"):
             continue
         rid = f"r{k:03d}"
         seeds = " ".join(u for u in re.split(r"[\s,;]+", r.get("seed_urls") or "") if u.startswith("http"))

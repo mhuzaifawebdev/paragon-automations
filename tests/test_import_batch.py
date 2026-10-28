@@ -155,5 +155,46 @@ check("and it is not flagged as a split", multi[0].get("flags"), None)
 check("both links still reach the scraper as seed pages",
       ib.build_rows(multi)[0]["seed_urls"], "https://ipac.fr/ https://facebook.com/ipac")
 
+# ---- sheets with no header row, and unusual headers (real Drive sheets) ----
+def names(text):
+    return [r["institution_name"] for r in ib.build_rows(ib.rows_from_csv_text(text))]
+
+
+erasmus_export = (
+    "Erasmus+,Learning Mobility,HE mobility,2020.0,2020-1-ES01-KA103-078493,,,t,d,,https://erasmus-plus.ec.europa.eu/p,"
+    "Musikene Centro Superior de Musica,ES,ES,30132.0,Yes\n"
+    "Musikene Centro Superior de Musica,30132.0,2020-1-ES01-KA103-078493\n"
+    "Conservatorio Superior de Musica de Vigo,124225.0,2020-1-ES01-KA103-078534\n")
+check("an Erasmus+ export's project row and summary row become one institute",
+      names(erasmus_export), ["Musikene Centro Superior de Musica", "Conservatorio Superior de Musica de Vigo"])
+check("the project row's country is kept",
+      ib.rows_from_csv_text(erasmus_export)[0]["country_sheet"], "ES")
+
+katalog = ("1.0,NORWEGIA,Tromso,University of Tromso,Education,N TROMSO01,https://uit.no/\n"
+           "5.0,ESTONIA,Tartu,University of Tartu,Education,EE TARTU02,https://ut.ee/en/\n"
+           "6.0,LOTWA,Riga,Baltijas Starptautiska Akademija,Social Science,LV RIGA28,https://bsa.edu.lv/\n")
+kat = ib.build_rows(ib.rows_from_csv_text(katalog))
+check("headerless: the name column is found from the data, and row 1 is kept",
+      [r["institution_name"] for r in kat], ["University of Tromso", "University of Tartu", "Baltijas Starptautiska Akademija"])
+check("headerless: the row's website becomes a seed page", kat[0]["seed_urls"], "https://uit.no/")
+
+jvlma = "Nr,Augstskola / Institution,City,Majas lapa / Website\n1,Universitat Mozarteum Salzburg,Salzburg,www.moz.ac.at\n"
+check("a header that only contains 'Institution' is the name column", names(jvlma), ["Universitat Mozarteum Salzburg"])
+
+places = "title,totalScore,reviewsCount,street,city\nAcme Bakery Ltd,4.5,12,Main St,Valletta\n"
+pl = ib.rows_from_csv_text(places)
+check("a place list's 'title' is the name when the sheet has city/street", pl[0]["institution_name"], "Acme Bakery Ltd")
+check("...and is not also read as a job title", pl[0].get("designation"), None)
+
+try:
+    ib.rows_from_csv_text("DATE,FULL NAME,AREA,Email ,PHONE NO\n2025-01-01,Ali Khan,Lahore,a@b.com,123\n")
+    raised = False
+except ib.ImportError_:
+    raised = True
+check("an event list of people (header row, no organisation column) is still rejected", raised, True)
+
+check("a pure number in the name column is not an institute",
+      names("University,Country\nExample College,Malta\n14.5125,Malta\n"), ["Example College"])
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
