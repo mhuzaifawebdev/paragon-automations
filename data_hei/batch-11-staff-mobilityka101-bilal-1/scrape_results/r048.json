@@ -1,0 +1,86 @@
+{
+ "row_id": "r048",
+ "scraped_at": "2026-10-28T12:20:47Z",
+ "contacts": {
+  "row_id": "r048",
+  "institution_name": "Salier-Gemeinschaftsschule",
+  "institution_type": "school",
+  "official_website": "https://salier-gms.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@salier-gms.de",
+  "generic_email_url": "https://salier-gms.de/",
+  "contact": {
+   "name": "Katrin Binggeser-Brenner",
+   "designation": "acting principal",
+   "designation_local": "",
+   "email": "katrin.binggeser@salier-gms.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://salier-gms.de/schulleitungsteam/",
+   "evidence_quote": "Katrin Binggeser-Brenner ... kommissarische Schulleiterin"
+  },
+  "alternates": [
+   {
+    "name": "Patrick Krewedl",
+    "designation": "teacher",
+    "designation_local": "",
+    "email": "patrick.krewedl@salier-gms.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://salier-gms.de/kollegium/",
+    "evidence_quote": "patrick.krewedl@salier-gms.de",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is a teacher at the school who is explicitly mentioned as participating in international Erasmus project activities."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). She is the acting principal of the school and oversees its leadership.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "Reused from batch copy-of-unique-legacy-database-4507 (scraped 2026-10-28). site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "AERES Almere",
+    "partner_country": "Netherlands",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://salier-gms.de/",
+    "evidence_quote": "Erasmus Almere, Segelprojekt",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Salier-Gemeinschaftsschule",
+    "city": "Waiblingen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://salier-gms.de/",
+    "evidence_quote": "Im Sämann 76, 71334 Waiblingen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The website mentions international projects and Erasmus activities but does not provide a comprehensive list of all formal partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "copy-of-unique-legacy-database-4507",
+  "row_id": "r509"
+ }
+}

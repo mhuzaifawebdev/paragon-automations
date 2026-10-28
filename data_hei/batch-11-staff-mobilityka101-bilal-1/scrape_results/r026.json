@@ -1,0 +1,78 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-28T10:03:27Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "Uwe",
+  "institution_type": "school",
+  "official_website": "https://www.erasmus-reinhold-gymnasium.de/",
+  "country": null,
+  "phone": {
+   "value": "03671) 672235",
+   "source_url": "https://www.erasmus-reinhold-gymnasium.de/",
+   "evidence_quote": "(03671) 672235 <tel +493671672235>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@erasmus-reinhold-gymnasium.de",
+  "generic_email_url": "https://www.erasmus-reinhold-gymnasium.de/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "Reused from batch ibrahim-batch-2-staff-mobility-ka-10 (scraped 2026-10-28). site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UNESCO",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.erasmus-reinhold-gymnasium.de/",
+    "evidence_quote": "UNESCO-Projekt-Schule",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kindergärten in der Umgebung",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.erasmus-reinhold-gymnasium.de/",
+    "evidence_quote": "Zusammenarbeit mit zahlreichen Kindergärten in der Umgebung",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Erasmus-Reinhold-Gymnasium",
+    "city": "Saalfeld",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://www.erasmus-reinhold-gymnasium.de/",
+    "evidence_quote": "Das Erasmus-Reinhold-Gymnasium ist ein Gymnasium im Stadtteil Gorndorf von Saalfeld."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 2,
+  "coverage_note": "No named staff or specific partner organizations are listed in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "ibrahim-batch-2-staff-mobility-ka-10",
+  "row_id": "r105"
+ }
+}
