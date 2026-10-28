@@ -1,0 +1,152 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-10-28T15:45:14Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "UNIVERSIDAD DE GRANADA",
+  "institution_type": "university",
+  "official_website": "https://www.ugr.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Mercedes Martínez Martínez",
+   "designation": "Administration",
+   "designation_local": "",
+   "email": "mmartinez_5@ugr.es",
+   "office_email": "",
+   "phone": "958 244244",
+   "source_url": "https://ve.ugr.es/servicios/asistencia-estudiantil/contactos",
+   "evidence_quote": "Administración ... Mercedes Martínez Martínez"
+  },
+  "alternates": [
+   {
+    "name": "Adela Salvadora Durán Guzmán",
+    "designation": "Head of Service",
+    "designation_local": "",
+    "email": "adeladuran@ugr.es",
+    "office_email": "",
+    "phone": "958 243133",
+    "source_url": "https://ve.ugr.es/servicios/asistencia-estudiantil/contactos",
+    "evidence_quote": "Jefa del servicio ... Adela Salvadora Durán Guzmán",
+    "why_chosen": "Other role. She is the head of the Student Assistance Service at the University of Granada."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). She works in the administration department of the Student Assistance Service.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Arqus Alliance",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ugr.es/",
+    "evidence_quote": "[Logo Arqus alliance]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universia",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ugr.es/",
+    "evidence_quote": "[Logo Universia]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lactalis Puleva",
+    "partner_country": "España",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ugr.es/",
+    "evidence_quote": "La UGR y Lactalis Puleva celebran la cuarta edición del mayor Hackathon de Innovación en España",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidades Públicas de Andalucía",
+    "partner_country": "España",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ugr.es/",
+    "evidence_quote": "[Logo Universidades Públicas de Andalucía]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Arqus",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://canal.ugr.es/UGR2031/ejes-y-lineas-estrategicas/universidad-internacional/",
+    "evidence_quote": "Consolidar la Alianza Arqus como instrumento de alto prestigio y visibilidad internacional para la transformación y mejora de la docencia, la investigación e innovación, la transferencia y el servicio a la sociedad, así como la internacionalización y la proyección exterior",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus de Ceuta",
+    "city": "Ceuta",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.ugr.es/",
+    "evidence_quote": "[imagen aerea del Campus de Ceuta]"
+   },
+   {
+    "campus_name": "Campus de Fuentenueva",
+    "city": "Granada",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.ugr.es/",
+    "evidence_quote": "[Estudiantes por los paseillos universitarios en el campus de Fuentenueva]"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of specific partner universities or contact details for international relations staff. The contact list is empty because no named individuals with roles were found in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 15.4,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     230
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 27.9
+ }
+}
