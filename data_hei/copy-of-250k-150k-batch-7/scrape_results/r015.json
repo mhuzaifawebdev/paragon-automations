@@ -1,0 +1,134 @@
+{
+ "row_id": "r015",
+ "scraped_at": "2026-10-28T19:12:44Z",
+ "contacts": {
+  "row_id": "r015",
+  "institution_name": "Centro Provinciale per l'Istruzione degli Adulti 1 Pisa",
+  "institution_type": "school",
+  "official_website": "https://cpia1pisa.edu.it/",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://cpia1pisa.edu.it/wp-content/uploads/2024/04/ERASMUS-23.24-1.pdf",
+   "evidence_quote": "ADULTI IN ITALIA"
+  },
+  "phone": {
+   "value": "0587 299 512",
+   "source_url": "https://cpia1pisa.edu.it/",
+   "evidence_quote": "Centralino: Pontedera (PI) 0587 299 512- Pisa 050 554050 <tel Pontedera(PI)0587299512-Pisa050554050>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CPIA di Lucca",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://cpia1pisa.edu.it/erasmus-3/",
+    "evidence_quote": "Finalizzato alla crescita delle competenze professionali dello staff, all’innovazione di pratiche educative e alla gestione organizzativa dell’istituzione scolastica in partenariato con il CPIA di Lucca e Livorno (Progetto I) e con l’USR e la Rete dei CPIA della Toscana (Progetto II).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CPIA di Livorno",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://cpia1pisa.edu.it/erasmus-3/",
+    "evidence_quote": "Finalizzato alla crescita delle competenze professionali dello staff, all’innovazione di pratiche educative e alla gestione organizzativa dell’istituzione scolastica in partenariato con il CPIA di Lucca e Livorno (Progetto I) e con l’USR e la Rete dei CPIA della Toscana (Progetto II).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "USR Toscana",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://cpia1pisa.edu.it/erasmus-3/",
+    "evidence_quote": "Finalizzato alla crescita delle competenze professionali dello staff, all’innovazione di pratiche educative e alla gestione organizzativa dell’istituzione scolastica in partenariato con il CPIA di Lucca e Livorno (Progetto I) e con l’USR e la Rete dei CPIA della Toscana (Progetto II).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rete dei CPIA della Toscana",
+    "partner_country": "Italy",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://cpia1pisa.edu.it/erasmus-3/",
+    "evidence_quote": "Finalizzato alla crescita delle competenze professionali dello staff, all’innovazione di pratiche educative e alla gestione organizzativa dell’istituzione scolastica in partenariato con il CPIA di Lucca e Livorno (Progetto I) e con l’USR e la Rete dei CPIA della Toscana (Progetto II).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede centrale (Legale e Amministrativa)",
+    "city": "Pontedera",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://cpia1pisa.edu.it/",
+    "evidence_quote": "Sede centrale (Legale e Amministrativa) – Pontedera"
+   },
+   {
+    "campus_name": "Sede associata di Pisa",
+    "city": "Pisa",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://cpia1pisa.edu.it/",
+    "evidence_quote": "Sede associata di Pisa – “L. Fibonacci” (ex Perodi)"
+   },
+   {
+    "campus_name": "Sede associata di Pontedera",
+    "city": "Pontedera",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://cpia1pisa.edu.it/",
+    "evidence_quote": "Sede associata di Pontedera – “E. Vecchi”"
+   },
+   {
+    "campus_name": "Sede associata di San Miniato / Ponte a Egola",
+    "city": "San Miniato",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://cpia1pisa.edu.it/",
+    "evidence_quote": "Sede associata di San Miniato / Ponte a Egola – “M. Buonarroti”"
+   },
+   {
+    "campus_name": "Sede associata di Volterra",
+    "city": "Volterra",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://cpia1pisa.edu.it/",
+    "evidence_quote": "Sede associata di Volterra – “Jacopo da Volterra”"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of local network partners and regional educational authorities but does not contain a comprehensive list of international Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 18.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 33.9
+ }
+}

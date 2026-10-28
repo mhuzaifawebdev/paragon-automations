@@ -1,0 +1,94 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-28T19:12:22Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "CENTRO DE FP SAN FRANCISCO DE SALES-EL BUEN AMIGO",
+  "institution_type": "college",
+  "official_website": "https://cordoba.salesianos.edu/",
+  "country": {
+   "value": "Spain",
+   "source_url": "https://cordoba.salesianos.edu/",
+   "evidence_quote": "[Salesianos en España]"
+  },
+  "phone": {
+   "value": "957 48 20 00",
+   "source_url": "https://cordoba.salesianos.edu/colegio/admisiones-ccff/",
+   "evidence_quote": "TELÉFONO (Información)| 957 48 20 00 <tel //952251541>"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria.malaga@salesianos.edu",
+  "generic_email_url": "https://cordoba.salesianos.edu/colegio/admisiones-ccff/",
+  "contact": {
+   "name": "Rosa Bellido",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://cordoba.salesianos.edu/colegio/personal/",
+   "evidence_quote": "Rosa Bellido ... Directora, Colegio San Francisco de Sales"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Rosa Bellido is the Director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SEPIE",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://cordoba.salesianos.edu/colegio/ciclos-formativos/erasmus/",
+    "evidence_quote": "Para encontrar más información visita la página http://sepie.es/",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegio Salesiano San Francisco de Sales",
+    "city": "Córdoba",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://cordoba.salesianos.edu/contacto/",
+    "evidence_quote": "Calle Santo Domingo Savio, 2 14002 Córdoba"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The website mentions Erasmus+ projects and mobility but does not provide a specific list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 19.9,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 27.0
+ }
+}
