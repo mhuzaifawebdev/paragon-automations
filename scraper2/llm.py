@@ -280,7 +280,7 @@ FALLBACK = {"enabled": False, "model": "claude-haiku-4-5", "prefer": None}
 # The cheapest paid reader is the SAME Gemini model on a key with billing switched on (GEMINI_PAID_API_KEY):
 # about 2 cents an institute against about 6 for Claude Haiku, and the answers are the ones the free run gives.
 # Only this one model is used on the paid key; the dearer Gemini models are never paid for.
-PAID_GEMINI = {"model": "gemini-3.1-flash-lite", "price": (0.25, 1.50)}     # USD per million tokens (input, output)
+PAID_GEMINI = {"model": "gemini-3.1-flash-lite", "price": (0.25, 1.50)}     # USD per million tokens (input, output); billing key only
 _fallback_said = {"until": 0.0}
 
 
