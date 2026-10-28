@@ -1,0 +1,115 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-28T16:28:23Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "Oberstufenzentrum II Potsdam - Wirtschaft und Verwaltung",
+  "institution_type": "college",
+  "official_website": "https://www.osz2-potsdam.de/de/home",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Anne Musil",
+   "designation": "Head of Department 3",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "0331 28972-14",
+   "source_url": "https://www.osz2-potsdam.de/de/fos-lehrkraefte",
+   "evidence_quote": "Leitung der Abteilung 3 ... Frau Anne Musil"
+  },
+  "alternates": [
+   {
+    "name": "Volker Lück",
+    "designation": "Head of Department 1",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "0331 28972-13",
+    "source_url": "https://www.osz2-potsdam.de/de/unsere-bildungsgaenge/abteilung-1/kaufmannkauffrau-fuer-bueromanagement/lehrerteam",
+    "evidence_quote": "Leitung der Abteilung 1 ... Herr Volker Lück",
+    "why_chosen": "Principal / director (no Erasmus contact found). Volker Lück is a head of department at the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Anne Musil is a head of department at the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Dublin",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.osz2-potsdam.de/de/wir-in-europa/auslandspraktika",
+    "evidence_quote": "Mit unserem Erasmus+ Projekt „Live and Learn in Europe“ haben Auszubildende des OSZ 2 Potsdam die Chance auf ein dreiwöchiges Auslandspraktikum in Dublin (Irland), Bordeaux (Frankreich) oder Vicenza (Italien).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bordeaux",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.osz2-potsdam.de/de/wir-in-europa/auslandspraktika",
+    "evidence_quote": "Mit unserem Erasmus+ Projekt „Live and Learn in Europe“ haben Auszubildende des OSZ 2 Potsdam die Chance auf ein dreiwöchiges Auslandspraktikum in Dublin (Irland), Bordeaux (Frankreich) oder Vicenza (Italien).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Vicenza",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.osz2-potsdam.de/de/wir-in-europa/auslandspraktika",
+    "evidence_quote": "Mit unserem Erasmus+ Projekt „Live and Learn in Europe“ haben Auszubildende des OSZ 2 Potsdam die Chance auf ein dreiwöchiges Auslandspraktikum in Dublin (Irland), Bordeaux (Frankreich) oder Vicenza (Italien).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ICI-College",
+    "partner_country": "Iceland",
+    "partner_type": "college",
+    "mobility_type": "staff",
+    "source_url": "https://www.osz2-potsdam.de/de/wir-in-europa/lehrer-in-europa",
+    "evidence_quote": "Eine erste besuchte Fortbildung fand in Reykjavik am ICI-College statt, bei der ein tolles einwöchiges Sensibilisierungstraining für Diversität durchgeführt wurde.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Oberstufenzentrum 2 Potsdam",
+    "city": "Potsdam",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.osz2-potsdam.de/de/unsere-schule/kontakt",
+    "evidence_quote": "Oberstufenzentrum 2 Potsdam"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions participation in Erasmus+ and specific project locations, but does not provide a comprehensive list of partner institutions. Contact information for the Erasmus+ team is mentioned as existing but no specific named coordinator is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 15.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 34.5
+ }
+}
