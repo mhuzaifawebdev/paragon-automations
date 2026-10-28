@@ -1,0 +1,95 @@
+{
+ "row_id": "r196",
+ "scraped_at": "2026-10-28T10:28:02Z",
+ "contacts": {
+  "row_id": "r196",
+  "institution_name": "Rüdiger ,",
+  "institution_type": "school",
+  "official_website": "https://ulricianum-aurich.net/",
+  "country": null,
+  "phone": {
+   "value": "04941-92280",
+   "source_url": "https://ulricianum-aurich.net/",
+   "evidence_quote": "Tel: 04941-92280"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Rüdiger Musolf",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "04941-92280",
+   "source_url": "https://ulricianum-aurich.net/",
+   "evidence_quote": "Rüdiger Musolf (Schulleiter)"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the Schulleiter (principal) and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hauptstelle",
+    "city": "Aurich",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://ulricianum-aurich.net/",
+    "evidence_quote": "Hauptstelle"
+   },
+   {
+    "campus_name": "Außenstelle",
+    "city": "Aurich",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://ulricianum-aurich.net/",
+    "evidence_quote": "Außenstelle"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions Erasmus+ accreditation and participation in international exchanges but does not provide a specific list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 16.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 6.7,
+  "mode": "gemini",
+  "email_search_s": 6.2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     336
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 33.1
+ }
+}
