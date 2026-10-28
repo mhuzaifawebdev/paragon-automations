@@ -1,0 +1,120 @@
+{
+ "row_id": "r224",
+ "scraped_at": "2026-10-28T10:30:01Z",
+ "contacts": {
+  "row_id": "r224",
+  "institution_name": "Wolfram",
+  "institution_type": "school",
+  "official_website": "https://ggems.de/",
+  "country": null,
+  "phone": {
+   "value": "04524-7022-0",
+   "source_url": "https://ggems.de/ueber-uns/schulleitungsteam",
+   "evidence_quote": "04524-7022-0"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Wolfram Henkies",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "schule.poenitz@schule.landsh.de",
+   "office_email": "",
+   "phone": "04524-7022-0",
+   "source_url": "https://ggems.de/ueber-uns/schulleitungsteam",
+   "evidence_quote": "Wolfram Henkies ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Bettina Zöllner",
+    "designation": "Coordinator Primary School",
+    "designation_local": "",
+    "email": "zoellner.b@schulepoenitz.de",
+    "office_email": "",
+    "phone": "04524-7022-29",
+    "source_url": "https://ggems.de/ueber-uns/schulleitungsteam",
+    "evidence_quote": "Bettina Zöllner ... Koordinatorin Grundschule",
+    "why_chosen": "Faculty-level Erasmus/international coordinator. Bettina Zöllner is a coordinator at the school and manages international language subjects."
+   },
+   {
+    "name": "Patricia Treptow",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "treptow.p@schulepoenitz.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ggems.de/ueber-uns/schulleitungsteam",
+    "evidence_quote": "Patricia Treptow ... Konrektorin",
+    "why_chosen": "Principal / director (no Erasmus contact found). Patricia Treptow is the deputy principal and part of the school leadership team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Wolfram Henkies is the principal of the school and is listed as the primary contact for the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ESPAMOL",
+    "partner_country": "Portugal",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://ggems.de/",
+    "evidence_quote": "Im Rahmen des Projektes \"erasmus+\" ist es uns möglich, seit 2017 einen Schüleraustausch mit der portugiesischen Schule \"ESPAMOL\" durchzuführen und auch zukünftig unsere musikbegeisterten Schüler*innen dorthin reisen zu lassen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Partnerschulen in Lagoa",
+    "partner_country": "Portugal",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://ggems.de/unser-schulleben/schueleraustausch/portugal/erasmus",
+    "evidence_quote": "In den letzten sechs Jahren fanden mehrere Projekte mit den Partnerschulen in Lagoa (Portugal) und Mäntyharju (Finnland) statt. Weitere Projekte in Polen und Österreich sind in Planung.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Partnerschulen in Mäntyharju",
+    "partner_country": "Finland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://ggems.de/unser-schulleben/schueleraustausch/portugal/erasmus",
+    "evidence_quote": "In den letzten sechs Jahren fanden mehrere Projekte mit den Partnerschulen in Lagoa (Portugal) und Mäntyharju (Finnland) statt. Weitere Projekte in Polen und Österreich sind in Planung.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Emmi-Bonhoeffer-Schule",
+    "city": "Pönitz",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://ggems.de/kontakt",
+    "evidence_quote": "23684 Pönitz"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The evidence provides information about specific Erasmus+ partnerships in Portugal and Finland, but does not list a comprehensive total number of international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 11.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.1,
+  "mode": "gemini",
+  "email_search_s": 4.1,
+  "total_seconds": 22.8
+ }
+}
