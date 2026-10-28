@@ -1,0 +1,101 @@
+{
+ "row_id": "r024",
+ "scraped_at": "2026-10-28T18:18:54Z",
+ "contacts": {
+  "row_id": "r024",
+  "institution_name": "Mara Becerril",
+  "institution_type": "college",
+  "official_website": "https://alaun.es/",
+  "country": null,
+  "phone": {
+   "value": "976 61 13 74",
+   "source_url": "https://alaun.es/",
+   "evidence_quote": "976 61 13 74 <tel //+34976611374>"
+  },
+  "phone_alt": [],
+  "generic_email": "centroalaun@alaun.es",
+  "generic_email_url": "https://alaun.es/",
+  "contact": {
+   "name": "Centro Alaún Formación Profesional",
+   "designation": "Contact person",
+   "designation_local": "",
+   "email": "centroalaun@alaun.es",
+   "office_email": "",
+   "phone": "976 61 13 74",
+   "source_url": "https://alaun.es/aviso-legal",
+   "evidence_quote": "Denominación social: Centro Alaún Formación Profesional"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). The institution is managed by Centro Alaún Formación Profesional, which provides a general contact email and phone number for inquiries.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Portugal",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://alaun.es/",
+    "evidence_quote": "Nuestros alumnos de FP en PORTUGAL realizando su movilidad ERASMUS+",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Empresa italiana",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://alaun.es/erasmus-centro-alaun",
+    "evidence_quote": "“La mejor experiencia que he vivido. He podido visitar lugares que nunca había estado y las prácticas en una empresa italiana me han aportado nuevos conocimientos y aprender a vivir en otro lugar”.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centro de Formación Alaún",
+    "city": "Alagón",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://alaun.es/",
+    "evidence_quote": "Calle Ramón y Cajal, 10, 50630, Alagón, Zaragoza"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a formal list of partner institutions, only mentions of countries and general company types where students perform traineeships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 15.3,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 32.5
+ }
+}
