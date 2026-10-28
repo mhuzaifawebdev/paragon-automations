@@ -1,0 +1,72 @@
+{
+ "row_id": "r024",
+ "scraped_at": "2026-10-28T16:56:41Z",
+ "contacts": {
+  "row_id": "r024",
+  "institution_name": "AYUNTAMIENTO DE LA RINCONADA",
+  "institution_type": "unknown",
+  "official_website": "https://www.larinconada.es/en/",
+  "country": null,
+  "phone": {
+   "value": "+34) 955794300",
+   "source_url": "https://www.larinconada.es/en/contact-us/city-council",
+   "evidence_quote": "Tel.: (+34) 955794300"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UNED",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.larinconada.es/es/",
+    "evidence_quote": "Ayuntamiento la UNED renuevan su acuerdo para impulsar la educación superior y el acceso a la universidad",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ayuntamiento de La Rinconada",
+    "city": "La Rinconada",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.larinconada.es/en/",
+    "evidence_quote": "La Rinconada"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The institution is a municipal government (Town Hall) rather than an educational institution, though it lists various local schools and training centers. No specific Erasmus+ or international mobility coordinator is identified.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 18.6,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 7,
+  "total_seconds": 32.6
+ }
+}

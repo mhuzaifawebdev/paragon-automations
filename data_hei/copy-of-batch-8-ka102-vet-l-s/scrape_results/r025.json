@@ -1,0 +1,135 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-28T16:56:22Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "Szent István Katolikus Technikum és Gimnázium",
+  "institution_type": "school",
+  "official_website": "https://katolikuskeri.hu/",
+  "country": null,
+  "phone": {
+   "value": "+36-30-7869473",
+   "source_url": "https://katolikuskeri.hu/",
+   "evidence_quote": "+36-30-7869473"
+  },
+  "phone_alt": [],
+  "generic_email": "info@osztalyterem.katolikuskeri.hu",
+  "generic_email_url": "https://katolikuskeri.hu/",
+  "contact": {
+   "name": "Szaláncziné Tamás Ilona",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "info@osztalyterem.katolikuskeri.hu",
+   "office_email": "",
+   "phone": "+36-30-7869473",
+   "source_url": "https://katolikuskeri.hu/",
+   "evidence_quote": "Igazgató: ... Szaláncziné Tamás Ilona"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the director of the institution, she is the primary contact for administrative and partnership inquiries.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Pénziránytű Bázisiskola",
+    "partner_country": "Hungary",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://katolikuskeri.hu/",
+    "evidence_quote": "Pénziránytű Bázisiskola",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cisco Networking Academy",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://katolikuskeri.hu/",
+    "evidence_quote": "Cisco Networking Academy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Python Institute",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://katolikuskeri.hu/",
+    "evidence_quote": "Python Institute",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ICDL vizsgaközpont",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://katolikuskeri.hu/",
+    "evidence_quote": "ICDL vizsgaközpont",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pénziránytű",
+    "partner_country": "Hungary",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://katolikuskeri.hu/",
+    "evidence_quote": "Pénziránytű Bázisiskola",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ICDL",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://katolikuskeri.hu/",
+    "evidence_quote": "ICDL vizsgaközpont",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Szent István Katolikus Technikum és Gimnázium",
+    "city": "Sátoraljaújhely",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://katolikuskeri.hu/",
+    "evidence_quote": "3980 Sátoraljaújhely, Kazinczy u. 12. Szent István Katolikus Technikum és Gimnázium"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 2,
+  "coverage_note": "The evidence mentions Erasmus+ programs but does not provide a specific list of international partner institutions. Contact details for an Erasmus coordinator are not explicitly provided, so the director is listed as the primary contact.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 3.6,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 9.9
+ }
+}
