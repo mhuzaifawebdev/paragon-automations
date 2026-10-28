@@ -1,0 +1,109 @@
+{
+ "row_id": "r417",
+ "scraped_at": "2026-10-28T10:55:19Z",
+ "contacts": {
+  "row_id": "r417",
+  "institution_name": "Michaela Gerlach-",
+  "institution_type": "school",
+  "official_website": "https://gesamtschule-duisburg-mitte.de/",
+  "country": null,
+  "phone": {
+   "value": "203-283 49 14",
+   "source_url": "https://gesamtschule-duisburg-mitte.de/",
+   "evidence_quote": "Tel. 0203/283 – 4914"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ewa Otto",
+   "designation": "Stellvertretende Schulleitung",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "0203-300 48 102",
+   "source_url": "https://gesamtschule-duisburg-mitte.de/schulleitung/",
+   "evidence_quote": "Ewa Otto ... stv. Schulleitung"
+  },
+  "alternates": [
+   {
+    "name": "Kristian Albermann",
+    "designation": "Didaktische Leitung",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "0203-300 48 100",
+    "source_url": "https://gesamtschule-duisburg-mitte.de/schulleitung/",
+    "evidence_quote": "Kristian Albermann ... Didaktische Leitung",
+    "why_chosen": "Other role. Kristian Albermann holds the position of didactic director."
+   }
+  ],
+  "rung": "Other role. Ewa Otto serves as the deputy head of the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Vlado Taveski – Schule in Skopje",
+    "partner_country": "North Macedonia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://gesamtschule-duisburg-mitte.de/erasmus/",
+    "evidence_quote": "Diese Auszeichnung eröffnet uns die Möglichkeit regelmäßig an europäischen Austausch- und Fortbildungsprogrammen teilzunehmen, insbesondere können wir so unsere Partnerschaft zur Vlado Taveski – Schule in Skopje weiter stärken.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ruhr-Universität Bochum",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://gesamtschule-duisburg-mitte.de/kooperation-mit-der-sportfakultaet-der-ruhr-universitaet-bochum/",
+    "evidence_quote": "Kooperation mit der Sportfakultät der Ruhr-Universität Bochum – Gesamtschule Duisburg-Mitte",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gesamtschule Duisburg-Mitte Standort Pappenstraße",
+    "city": "Duisburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://gesamtschule-duisburg-mitte.de/",
+    "evidence_quote": "Kontakt Pappenstraße"
+   },
+   {
+    "campus_name": "Gesamtschule Duisburg-Mitte Standort Falkstraße",
+    "city": "Duisburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://gesamtschule-duisburg-mitte.de/",
+    "evidence_quote": "Kontakt Falkstraße"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The institution does not provide a comprehensive list of all Erasmus+ partners, only mentioning one specific school in Skopje and a local university cooperation.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.7,
+  "crawl_s": 41.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 6.7,
+  "mode": "gemini",
+  "contact_pass": 2,
+  "email_search_s": 4.0,
+  "total_seconds": 71.1
+ }
+}
