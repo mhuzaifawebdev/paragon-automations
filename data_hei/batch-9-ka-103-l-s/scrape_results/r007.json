@@ -1,0 +1,112 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-28T15:13:03Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "Univerzita Jana Amose Komenského Praha s.r.o./Jan Amos Komenský University Prague Ltd.",
+  "institution_type": "university",
+  "official_website": "https://www.ujak.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "AMBIS vysoká škola, a.s.",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ujak.cz/",
+    "evidence_quote": "Univerzita Jana Amose Komenského Praha je od roku 2023 součástí AMBIS vysoká škola, a.s.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "COGNOS AG",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ujak.cz/",
+    "evidence_quote": "Zaleží nám na tom, aby naši studenti ihned po ukončení studia získali uplatnění, a studium na Ambis proto orientujeme především na praxi. Od roku 2001 jsme připravili více než 18000 studentů na kariéru v podnikové sféře i ve veřejném sektoru. Jsme součástí COGNOS AG - jedné z největších nezávislých soukromých vzdělávacích skupin v Německu a v České republice máme ze všech soukromých škol nejdelší historii.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Česká konference rektorů",
+    "partner_country": "Czech Republic",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ujak.cz/",
+    "evidence_quote": "Česká konference rektorů",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Pobočka Praha",
+    "city": "Praha",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://www.ujak.cz/kontakt",
+    "evidence_quote": "Pobočka Praha"
+   },
+   {
+    "campus_name": "Pobočka Bratislava",
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "role": "branch",
+    "source_url": "https://www.ujak.cz/kontakt",
+    "evidence_quote": "Pobočka Bratislava"
+   },
+   {
+    "campus_name": "Pobočka Brno",
+    "city": "Brno",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://www.ujak.cz/kontakt",
+    "evidence_quote": "Pobočka Brno"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 7,
+  "coverage_note": "The website does not provide a list of Erasmus+ or international partners. Contact information is limited to general study department administrative staff.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 10.8,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 25.5
+ }
+}
