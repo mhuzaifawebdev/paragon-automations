@@ -1,0 +1,98 @@
+{
+ "row_id": "r056",
+ "scraped_at": "2026-10-28T19:28:29Z",
+ "contacts": {
+  "row_id": "r056",
+  "institution_name": "uniT GmbH",
+  "institution_type": "unknown",
+  "official_website": "https://www.uni-t.org/web",
+  "country": {
+   "value": "Österreich",
+   "source_url": "https://www.uni-t.org/contact",
+   "evidence_quote": "Steiermark, Österreich"
+  },
+  "phone": {
+   "value": "+43 (0)316 / 380 7480",
+   "source_url": "https://www.uni-t.org/contact",
+   "evidence_quote": "Tel.: +43 (0)316 / 380 7480 <tel +433163807480>"
+  },
+  "phone_alt": [],
+  "generic_email": "office@uni-t.org",
+  "generic_email_url": "https://www.uni-t.org/contact",
+  "contact": {
+   "name": "Edith Zeier-Draxl",
+   "designation": "Artistic Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.uni-t.org/team",
+   "evidence_quote": "Edith Zeier-Draxl ... Künstlerische Leitung"
+  },
+  "alternates": [
+   {
+    "name": "Hanna Gries",
+    "designation": "Contact person",
+    "designation_local": "",
+    "email": "hanna.gries@uni-t.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.uni-t.org/team",
+    "evidence_quote": "Hanna Gries",
+    "why_chosen": "Secretary / administration (last resort). Hanna Gries is listed as a staff member with a direct email address."
+   },
+   {
+    "name": "Kristina Stocker",
+    "designation": "Contact person",
+    "designation_local": "",
+    "email": "kristina.stocker@uni-t.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.uni-t.org/team",
+    "evidence_quote": "Kristina Stocker",
+    "why_chosen": "Secretary / administration (last resort). Kristina Stocker is listed as a staff member with a direct email address."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. Edith Zeier-Draxl serves as the artistic director of the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "uniT Graz",
+    "city": "Graz",
+    "country": "Österreich",
+    "role": "main",
+    "source_url": "https://www.uni-t.org/contact",
+    "evidence_quote": "8010 Graz"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The website does not provide a list of international partners or Erasmus+ mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 11.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 13.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 4,
+  "email_search_s": 10.6,
+  "total_seconds": 40.8
+ }
+}
