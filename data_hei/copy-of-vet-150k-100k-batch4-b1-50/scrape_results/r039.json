@@ -1,0 +1,132 @@
+{
+ "row_id": "r039",
+ "scraped_at": "2026-10-28T20:21:41Z",
+ "contacts": {
+  "row_id": "r039",
+  "institution_name": "Solidarités Jeunesses Auvergne/Rhône Alpes Le Créneau",
+  "institution_type": "unknown",
+  "official_website": "https://www.creneausolidarites.com/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.creneausolidarites.com/",
+   "evidence_quote": "Chantiers internationaux | Le Créneau | France"
+  },
+  "phone": {
+   "value": "+33 4 70 99 60 35",
+   "source_url": "https://www.creneausolidarites.com/",
+   "evidence_quote": "+33 4 70 99 60 35"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Adeline Serrand",
+   "designation": "Hosting and volunteering coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.creneausolidarites.com/en/une-equipe-plurielle",
+   "evidence_quote": "Adeline Serrand, ... Hosting and volunteering coordinator"
+  },
+  "alternates": [
+   {
+    "name": "Sandrine Trabouyer",
+    "designation": "Social and educational coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.creneausolidarites.com/en/une-equipe-plurielle",
+    "evidence_quote": "Sandrine Trabouyer, ... Social and educational coordinator",
+    "why_chosen": "Secretary / administration (last resort). Sandrine Trabouyer is a social and educational coordinator involved in the organization's activities."
+   }
+  ],
+  "rung": "Mobility coordinator. Adeline Serrand is the hosting and volunteering coordinator, which is the most relevant role for international mobility.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "l'Alliance",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.creneausolidarites.com/des-aprtenaires-de-confiance",
+    "evidence_quote": "Au niveau international : l'Alliance, le CCIVS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CCIVS",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.creneausolidarites.com/des-aprtenaires-de-confiance",
+    "evidence_quote": "Au niveau international : l'Alliance, le CCIVS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Commission européenne",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.creneausolidarites.com/des-aprtenaires-de-confiance",
+    "evidence_quote": "Au niveau européen : Commission européenne / Agence Erasmus + / OFAJ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agence Erasmus +",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.creneausolidarites.com/des-aprtenaires-de-confiance",
+    "evidence_quote": "Au niveau européen : Commission européenne / Agence Erasmus + / OFAJ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "OFAJ",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.creneausolidarites.com/des-aprtenaires-de-confiance",
+    "evidence_quote": "Au niveau européen : Commission européenne / Agence Erasmus + / OFAJ",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Château des Prureaux",
+    "city": "Montcombroux les Mines",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.creneausolidarites.com/",
+    "evidence_quote": "Château des Prureaux"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 5,
+  "coverage_note": "The evidence lists several categories of partners but does not provide a comprehensive list of individual partner institutions. The institution is an association rather than a traditional university or school.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 10.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 15.1
+ }
+}
