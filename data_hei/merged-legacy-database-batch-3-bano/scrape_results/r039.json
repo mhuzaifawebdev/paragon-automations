@@ -1,0 +1,61 @@
+{
+ "row_id": "r039",
+ "scraped_at": "2026-10-28T23:13:44Z",
+ "contacts": {
+  "row_id": "r039",
+  "institution_name": "Pedago Lda.",
+  "institution_type": "unknown",
+  "official_website": "https://www.pedago.pt/",
+  "country": {
+   "value": "PORTUGAL",
+   "source_url": "https://www.pedago.pt/",
+   "evidence_quote": "2620-379 Ramada (Odivelas) | PORTUGAL"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "pedago@pedago.pt",
+  "generic_email_url": "https://www.pedago.pt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Grupo Pedago",
+    "city": "Ramada (Odivelas)",
+    "country": "PORTUGAL",
+    "role": "main",
+    "source_url": "https://www.pedago.pt/",
+    "evidence_quote": "2620-379 Ramada (Odivelas) | PORTUGAL"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence provides contact information for the group but does not list any specific individuals with roles, nor does it provide a list of partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 22.2,
+  "crawl_s": 4.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 37.5
+ }
+}
