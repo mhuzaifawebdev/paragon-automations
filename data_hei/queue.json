@@ -1266,20 +1266,30 @@
    "source": "Copy of 250K-150K Batch-1",
    "file_id": "1jxXxRqTU1oOi3_FHuZEkxQq60Gk1LDiIDPs19YAmPug",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 44,
    "started": "2026-10-28T19:46:14Z",
    "last_start": "2026-10-28T19:46:14Z",
    "restarts": 0,
-   "cap_usd": 804.99
+   "cap_usd": 804.99,
+   "spend_recorded": true,
+   "cost_usd": 0.1887,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1TosTK7XNFP-nE7W0aV8CkTUkuqCdnXpA/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 38,
+   "finished": "2026-10-28T19:53:54Z",
+   "reason": "44 institutes, 25 with a contact"
   },
   {
    "batch": "copy-of-vet-150k-100k-batch4-ayesha",
    "source": "Copy of VET 150K - 100K BATCH4_Ayesha(B2) -59",
    "file_id": "1TEDleAtDbjNZXqmJ7jlCuHdpdJmXCW6IYAQ3t1g60B8",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 50
+   "state": "running",
+   "rows": 50,
+   "started": "2026-10-28T19:53:54Z",
+   "last_start": "2026-10-28T19:53:54Z",
+   "restarts": 0,
+   "cap_usd": 804.8
   },
   {
    "batch": "copy-of-vet-150k-100k-batch-2-b1-50",
@@ -2633,7 +2643,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-28T19:46:14Z",
+ "updated": "2026-10-28T19:53:54Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
