@@ -1,0 +1,116 @@
+{
+ "row_id": "r023",
+ "scraped_at": "2026-10-28T16:13:02Z",
+ "contacts": {
+  "row_id": "r023",
+  "institution_name": "Fachakademie für Sozialpädagogik der Christlichen Jugendhilfe Kempten des Schulwerks der Diözese Augsburg",
+  "institution_type": "college",
+  "official_website": "https://faks-kempten.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Mathias Kreul",
+   "designation": "Deputy Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://faks-kempten.de/fachakademie/schulleitung/",
+   "evidence_quote": "Stell­vertrende Schulleitung ... Mathias Kreul"
+  },
+  "alternates": [
+   {
+    "name": "Tamara Wirthensohn",
+    "designation": "Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://faks-kempten.de/fachakademie/schulleitung/",
+    "evidence_quote": "Schulleitung ... Tamara Wirthensohn, StRin i.K.",
+    "why_chosen": "Principal / director (no Erasmus contact found). Tamara Wirthensohn is the head of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Mathias Kreul is the deputy principal of the institution and is listed as a contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Sligo College of Further Education",
+    "partner_country": "Ireland",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://faks-kempten.de/lehrkraefte-staff-mobility/",
+    "evidence_quote": "Besuch in der Partnerstadt Sligo und Erasmus-Partner Sligo College of Further Education. Hier: Empfang durch die Bürgermeisterin Marie Casserly (vorne links) im Rathaus von Sligo",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Partnercollege in Newport",
+    "partner_country": "UK",
+    "partner_type": "college",
+    "mobility_type": "staff",
+    "source_url": "https://faks-kempten.de/lehrkraefte-staff-mobility/",
+    "evidence_quote": "Lehrkräfte der Fachakademie auf Fortbildung am Partnercollege in Newport (UK) Hier: Kulturtag mit Ausflug an die wilde Küste von Wales.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Partnerkindergarten in Sopron",
+    "partner_country": "Hungary",
+    "partner_type": "school",
+    "mobility_type": "traineeship",
+    "source_url": "https://faks-kempten.de/auslandspraktikum-erasmus/",
+    "evidence_quote": "1- Blick durch den Zaun auf den Partnerkindergarten in Sopron (Ungarn)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fachakademie für Sozialpädagogik Kempten",
+    "city": "Kempten",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://faks-kempten.de/",
+    "evidence_quote": "Herzlich willkommen an der Fachakademie für Sozialpädagogik Kempten!"
+   }
+  ],
+  "stated_total": 8,
+  "stated_total_quote": "1st year of Fachakademie: 4-week placement in one of our eight partner institutions all over Europe (see list below).",
+  "stated_total_url": "https://faks-kempten.de/auslandspraktikum-erasmus/",
+  "truncated": true,
+  "total_seen": 8,
+  "pages_read": 8,
+  "coverage_note": "The evidence mentions eight partner institutions in Europe but does not provide a complete list of their names. No specific email addresses for the listed contacts are provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 11.4,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     121
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 18.9
+ }
+}
