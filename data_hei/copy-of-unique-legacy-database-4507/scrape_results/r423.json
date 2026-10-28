@@ -1,0 +1,133 @@
+{
+ "row_id": "r423",
+ "scraped_at": "2026-10-28T12:09:11Z",
+ "contacts": {
+  "row_id": "r423",
+  "institution_name": "Istituto Tecnico Statale del Settore Tecnologico \"Alessandro Volta\"",
+  "institution_type": "college",
+  "official_website": "https://www.itsvolta.it/",
+  "country": {
+   "value": "Italia",
+   "source_url": "https://www.itsvolta.it/",
+   "evidence_quote": "Via Giovanni e Sebastiano Caboto, 27 – 34147 Trieste (Italia)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@itsvolta.it",
+  "generic_email_url": "https://www.itsvolta.it/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Unione Europea",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itsvolta.it/",
+    "evidence_quote": "Finanziato dall’Unione Europea – NextGenerationEU.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Regione autonoma Friuli Venezia Giulia",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itsvolta.it/",
+    "evidence_quote": "Si è beneficiato del sostegno cofinanziato dal Fondo sociale europeo Plus della Regione autonoma Friuli Venezia Giulia.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agenzia Nazionale Erasmus + INDIRE",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itsvolta.it/wp-content/uploads/2026/10/Bando-mobilita-Erasmus-2026-2027_signed.pdf",
+    "evidence_quote": "A fronte dei finanziamenti assegnati alla Fondazione dall’Agenzia Nazionale Erasmus + INDIRE, è",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EU Academy",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itsvolta.it/wp-content/uploads/2026/10/Bando-mobilita-Erasmus-2026-2027_signed.pdf",
+    "evidence_quote": "dall'ente ospitante. Il test sarà svolto tramite la piattaforma EU Academy – OLS (Online Linguistic",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "LifeTech ITS Academy",
+    "city": "Trieste",
+    "country": "Italia",
+    "role": "main",
+    "source_url": "https://www.itsvolta.it/",
+    "evidence_quote": "Via Giovanni e Sebastiano Caboto, 27 – 34147 Trieste (Italia)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 9,
+  "coverage_note": "The evidence does not provide a list of partner institutions. It only mentions that the foundation collaborates with companies for internships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.8,
+  "crawl_s": 13.6,
+  "ai_calls": 7,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 33.4
+ }
+}
