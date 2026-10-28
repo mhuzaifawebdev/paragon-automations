@@ -1,0 +1,90 @@
+{
+ "row_id": "r105",
+ "scraped_at": "2026-10-28T10:03:27Z",
+ "contacts": {
+  "row_id": "r105",
+  "institution_name": "Uwe",
+  "institution_type": "school",
+  "official_website": "https://www.erasmus-reinhold-gymnasium.de/",
+  "country": null,
+  "phone": {
+   "value": "03671) 672235",
+   "source_url": "https://www.erasmus-reinhold-gymnasium.de/",
+   "evidence_quote": "(03671) 672235 <tel +493671672235>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@erasmus-reinhold-gymnasium.de",
+  "generic_email_url": "https://www.erasmus-reinhold-gymnasium.de/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UNESCO",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.erasmus-reinhold-gymnasium.de/",
+    "evidence_quote": "UNESCO-Projekt-Schule",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kindergärten in der Umgebung",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.erasmus-reinhold-gymnasium.de/",
+    "evidence_quote": "Zusammenarbeit mit zahlreichen Kindergärten in der Umgebung",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Erasmus-Reinhold-Gymnasium",
+    "city": "Saalfeld",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://www.erasmus-reinhold-gymnasium.de/",
+    "evidence_quote": "Das Erasmus-Reinhold-Gymnasium ist ein Gymnasium im Stadtteil Gorndorf von Saalfeld."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 2,
+  "coverage_note": "No named staff or specific partner organizations are listed in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 5.8,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 39.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     120
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 106.3
+ }
+}

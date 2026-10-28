@@ -1,0 +1,111 @@
+{
+ "row_id": "r117",
+ "scraped_at": "2026-10-28T10:03:51Z",
+ "contacts": {
+  "row_id": "r117",
+  "institution_name": "Torge",
+  "institution_type": "school",
+  "official_website": "https://dfg-lfa.hamburg.de/sekretariat-7/",
+  "country": null,
+  "phone": {
+   "value": "+49 40 42 87 651 22",
+   "source_url": "https://dfg-lfa.hamburg.de/sekretariat-7/",
+   "evidence_quote": "Tel. +49 40 42 87 651 22 / anne-claire.morin(at)bsfb.hamburg.de <anne-claire.morin(at)bsb.hamburg.de>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Torge Lorenzen",
+   "designation": "Proviseur et responsable du LFA",
+   "designation_local": "",
+   "email": "torge.lorenzen@bsb.hamburg.de",
+   "office_email": "",
+   "phone": "+49 40 42 87 65 122",
+   "source_url": "https://dfg-lfa.hamburg.de/direction/",
+   "evidence_quote": "Proviseur et responsable du LFA : ... Torge Lorenzen"
+  },
+  "alternates": [
+   {
+    "name": "Philipp Fensky",
+    "designation": "Erasmus Coordinator",
+    "designation_local": "",
+    "email": "p.fensky@dfg-hamburg.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://dfg-lfa.hamburg.de/erasmus/",
+    "evidence_quote": "Bei Rückfragen zum Erasmus+ Programm, wenden Sie sich gerne jederzeit an die Erasmus-Koordination: ... Philipp Fensky <p.fensky@dfg-hamburg.de>",
+    "why_chosen": "Mobility coordinator. Philipp Fensky is explicitly listed as the Erasmus coordinator for the institution."
+   },
+   {
+    "name": "Christina Finck",
+    "designation": "Erasmus Coordinator",
+    "designation_local": "",
+    "email": "c.finck@dfg-hamburg.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://dfg-lfa.hamburg.de/erasmus/",
+    "evidence_quote": "Bei Rückfragen zum Erasmus+ Programm, wenden Sie sich gerne jederzeit an die Erasmus-Koordination: ... Christina Finck <c.finck@dfg-hamburg.de>",
+    "why_chosen": "Mobility coordinator. Christina Finck is explicitly listed as the Erasmus coordinator for the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Torge Lorenzen is the head of the institution and is currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Collège international Vauban",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://dfg-lfa.hamburg.de/tag/erasmus/",
+    "evidence_quote": "Unsere SchülerInnen der 7. Klassen und 5èmes freuen sich sehr, diese Woche endlich ihre AustauschpartnerInnen aus Straßburg begrüßen zu dürfen – herzlich willkommen! Im Rahmen unseres Erasmus-Programms mit dem „Collège international Vauban et Lycée...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée Français de Vienne",
+    "partner_country": "Austria",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://dfg-lfa.hamburg.de/erasmus-2/",
+    "evidence_quote": "Cette année comme l´année dernière, des élèves de 4e ont eu l’occasion unique de se rendre dans notre LFA partenaire à Strasbourg et d’accueillir un partenaire d’échange chez eux à Hambourg – pendant toute une semaine ! L´année dernière, nous avons également accompagné les élèves de 3e à Vienne. Là-bas, nos élèves ont passé un après-midi ensemble au Lycée Français de Vienne, suivi de visites guidées inspirantes sur le thème de l’Art Nouveau par les élèves partenaires viennois. Ils ont également ",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Struenseestraße",
+    "city": "Hamburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://dfg-lfa.hamburg.de/sekretariat-7/",
+    "evidence_quote": "Campus Struenseestraße"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution mentions partnerships with schools in Strasbourg, Lyon, and Vienna, but does not provide a comprehensive list of all Erasmus+ partners. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.8,
+  "crawl_s": 16.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 25.2,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 47.5
+ }
+}
