@@ -1,0 +1,84 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-28T19:02:12Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "DUBLIN CITY COUNCIL",
+  "institution_type": "unknown",
+  "official_website": "https://www.dublincity.ie/",
+  "country": {
+   "value": "Ireland",
+   "source_url": "https://www.dublincity.ie/",
+   "evidence_quote": "Ireland"
+  },
+  "phone": {
+   "value": "01 222 2222",
+   "source_url": "https://www.dublincity.ie/",
+   "evidence_quote": "01 222 2222 <tel 012222222>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Celina Barrett",
+   "designation": "Assistant Chief Executive",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.dublincity.ie/your-city-council/how-council-makes-decisions/strategic-policy-committees/mobility-and-public-realm-spc",
+   "evidence_quote": "Celina Barrett, Assistant Chief Executive, has administrative responsibility for this committee."
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Celina Barrett has administrative responsibility for the Mobility and Public Realm Strategic Policy Committee.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Trinity College Dublin",
+    "partner_country": "Ireland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dublincity.ie/dublin-city-development-plan-2022-2028/written-statement/chapter-13-strategic-development-regeneration-areas/1316-sdra-14-st-jamess-healthcare-campus",
+    "evidence_quote": "The healthcare campus provides a major health and knowledge base within the city, partnered with Trinity College Dublin. Plans to consolidate and enhance these uses are supported by the Dublin Area Metropolitan Strategic Plan which identifies the hospital as a key employment zone and enabler in the delivery of the Regional Spatial and Economic Strategy. St. James’s Healthcare Campus has identified the following programme of works over the course of the development plan: (i) Trinity St. James’s C",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Civic Offices",
+    "city": "Dublin",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.dublincity.ie/",
+    "evidence_quote": "Civic Offices"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution is a municipal government body rather than an educational institution, and no information regarding Erasmus+ or international mobility partnerships is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 15.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 18.9
+ }
+}

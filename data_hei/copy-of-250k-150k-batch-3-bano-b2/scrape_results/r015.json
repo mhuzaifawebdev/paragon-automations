@@ -1,0 +1,78 @@
+{
+ "row_id": "r015",
+ "scraped_at": "2026-10-28T19:02:18Z",
+ "contacts": {
+  "row_id": "r015",
+  "institution_name": "Expression o.z.",
+  "institution_type": "unknown",
+  "official_website": "https://ozexpression.sk/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "office@ozexpression.sk",
+  "generic_email_url": "https://ozexpression.sk/",
+  "contact": {
+   "name": "Ing. Lenka Rusnáková",
+   "designation": "Coordinator of Pôjd",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ozexpression.sk/o-nas",
+   "evidence_quote": "Ing. Lenka Rusnáková ... Koordinátorka Pôjdu"
+  },
+  "alternates": [
+   {
+    "name": "Jakub Varga",
+    "designation": "Face Club Coordinator, Vice-chairman of the civic association",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ozexpression.sk/o-nas",
+    "evidence_quote": "Jakub Varga ... Koordinátor Face Clubu, podpredseda občianskeho združenia",
+    "why_chosen": "Secretary / administration (last resort). He is the coordinator of the Face Club and vice-chairman of the association."
+   }
+  ],
+  "rung": "Mobility coordinator. She is responsible for searching for partnerships and organizing educational activities.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Expression o.z.",
+    "city": "Spišská Belá",
+    "country": "Slovakia",
+    "role": "main",
+    "source_url": "https://ozexpression.sk/",
+    "evidence_quote": "Družstevná 36, Spišská Belá"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not provide a list of partner institutions. The organization is a civic association rather than a traditional educational institution.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 4.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 9.4
+ }
+}
