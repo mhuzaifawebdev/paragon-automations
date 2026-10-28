@@ -1,0 +1,151 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-28T23:06:38Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "LGT Jean VILAR",
+  "institution_type": "school",
+  "official_website": "https://jeanvilar.net/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. VINATIER",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ce.0301722j@ac-montpellier.fr",
+   "office_email": "",
+   "phone": "04 90 14 22 00",
+   "source_url": "https://jeanvilar.net/contacts.asp",
+   "evidence_quote": "● M. VINATIER, PROVISEUR"
+  },
+  "alternates": [
+   {
+    "name": "M. FADAT",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "ce.0301722j@ac-montpellier.fr",
+    "office_email": "",
+    "phone": "04 90 14 22 00",
+    "source_url": "https://jeanvilar.net/contacts.asp",
+    "evidence_quote": "● M. FADAT, PROVISEUR ADJOINT",
+    "why_chosen": "Principal / director (no Erasmus contact found). M. FADAT is the deputy principal and is part of the executive leadership team."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). M. VINATIER is the principal of the institution and oversees its general administration.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "FRAC",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://jeanvilar.net/",
+    "evidence_quote": "• Alchimie (FRAC 2018)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UNSS",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://jeanvilar.net/",
+    "evidence_quote": "• Cross UNSS (2025)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BU d'Avignon",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://jeanvilar.net/",
+    "evidence_quote": "• Visite de la BU d'Avignon",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FCPE",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://jeanvilar.net/",
+    "evidence_quote": "• FCPE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université d'Avignon",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://jeanvilar.net/",
+    "evidence_quote": "• Portes ouvertes Université d'Avignon",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://jeanvilar.net/",
+    "evidence_quote": "• Erasmus+",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Jean Vilar",
+    "city": "Villeneuve Lez Avignon",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://jeanvilar.net/contacts.asp",
+    "evidence_quote": "Lycée Jean Vilar"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 3,
+  "coverage_note": "The website mentions Erasmus+ and various international exchanges, but does not provide a specific list of partner institutions or a dedicated international coordinator contact.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 5.9,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 7,
+    "accepted": 5
+   },
+   {
+    "lines": [
+     141,
+     259
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 11.2
+ }
+}
