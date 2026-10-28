@@ -202,6 +202,11 @@ def _pdf_to_text(data):
     return "\n".join(parts), []
 
 
+# Hosts that serve many schools under one domain (site.educa.madrid.org/ies.humanejos.parla/): each school's site
+# is its first path folder, and the domain root is the portal's own page.
+PORTAL_HOSTS = ("site.educa.madrid.org", "sites.google.com", "portal.edu.gva.es", "agora.xtec.cat", "blocs.xtec.cat")
+
+
 def fetch(url, refresh=False):
     if urlparse(url).scheme not in ("http", "https"):
         raise FetchError("only http(s) URLs are allowed")
@@ -224,12 +229,17 @@ def fetch(url, refresh=False):
         # urllib wraps certificate failures inside URLError(reason=SSLCertVerificationError). Some institution
         # sites (seen: fernuni-hagen.de, univ-lemans.fr) serve an incomplete certificate chain: retry once
         # without verification for THAT failure only, and mark the record so a human knows the check was weaker.
-        if not isinstance(getattr(e, "reason", None), ssl.SSLCertVerificationError):
+        # Regional government school servers (educarex.es, educastur.es) also fail the handshake itself: old TLS,
+        # weak DH keys, legacy renegotiation. Those get the same one lenient retry.
+        if not isinstance(getattr(e, "reason", None), ssl.SSLError):
             raise FetchError(f"{type(e).__name__}: {e}")
         try:
             ctx = ssl.create_default_context()
             ctx.check_hostname = False
             ctx.verify_mode = ssl.CERT_NONE
+            ctx.minimum_version = ssl.TLSVersion.TLSv1
+            ctx.options |= getattr(ssl, "OP_LEGACY_SERVER_CONNECT", 0x4)
+            ctx.set_ciphers("DEFAULT:@SECLEVEL=0")
             req = urllib.request.Request(iri_to_uri(url), headers={"User-Agent": UA, "Accept": "*/*"})
             with urllib.request.urlopen(req, timeout=TIMEOUT, context=ctx) as r:
                 final_url = r.geturl()

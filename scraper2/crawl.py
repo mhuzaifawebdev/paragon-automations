@@ -124,6 +124,9 @@ def _host(u):
 
 def same_site(a, b):
     ha, hb = _host(a), _host(b)
+    if ha == hb and ha in fetch_pages.PORTAL_HOSTS:     # one school's folder on a many-schools portal
+        seg = lambda u: next((s for s in urlparse(u).path.split("/") if s), "")   # noqa: E731
+        return seg(a) == seg(b)
     return ha == hb or ha.endswith("." + hb) or hb.endswith("." + ha)
 
 

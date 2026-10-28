@@ -90,6 +90,15 @@ def name_tokens(name):
     return [t for t in re.findall(r"[a-z0-9]{4,}", _n(name)) if t not in STOP]
 
 
+def _home(u):
+    """The site's home: the domain root, or on a many-schools portal the school's own first path folder."""
+    p = urllib.parse.urlparse(u)
+    seg = next((s for s in p.path.split("/") if s), "")
+    if seg and p.netloc.lower() in fetch_pages.PORTAL_HOSTS:
+        return f"{p.scheme or 'https'}://{p.netloc}/{seg}/"
+    return f"{p.scheme or 'https'}://{p.netloc}/"
+
+
 def check_site(url, row):
     """True only if the homepage is demonstrably this institution."""
     try:
@@ -213,7 +222,7 @@ def _ddg_search(row, limit=4):
         pu = urllib.parse.urlparse(u)
         if not pu.netloc or any(h in pu.netloc.lower() for h in SKIP_HOSTS):
             continue
-        root = f"{pu.scheme or 'https'}://{pu.netloc}/"
+        root = _home(u)
         if root not in out:
             out.append(root)
         if len(out) >= limit:
@@ -535,7 +544,7 @@ def _claude_sites(row, limit=4):
     roots = []
     for u in urls:
         pu = urllib.parse.urlparse(u)
-        root = f"{pu.scheme or 'https'}://{pu.netloc}/"
+        root = _home(u)
         if pu.netloc and root not in roots and not any(h in pu.netloc.lower() for h in SKIP_HOSTS):
             roots.append(root)
     return roots[:limit]
@@ -555,10 +564,11 @@ def _gemini_paid_sites(row, limit=4):
     homes, seen = [], set()
     for u in found:
         p = urllib.parse.urlparse(u)
-        if not p.netloc or any(h in p.netloc.lower() for h in SKIP_HOSTS) or p.netloc in seen:
+        home = _home(u)
+        if not p.netloc or any(h in p.netloc.lower() for h in SKIP_HOSTS) or home in seen:
             continue
-        seen.add(p.netloc)
-        homes.append(f"{p.scheme or 'https'}://{p.netloc}/")
+        seen.add(home)
+        homes.append(home)
     return homes[:limit], local
 
 
@@ -596,7 +606,7 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
     if pu and pu.netloc and not any(h in pu.netloc.lower() for h in SKIP_HOSTS):
         host = pu.netloc.lower()[4:] if pu.netloc.lower().startswith("www.") else pu.netloc.lower()
         agrees = any(host == d or host.endswith("." + d) or d.endswith("." + host) for d in _emails_domain(row))
-        for u in dict.fromkeys((f"{pu.scheme}://{pu.netloc}/", urllib.parse.urlunparse(pu))):
+        for u in dict.fromkeys((_home(urllib.parse.urlunparse(pu)), urllib.parse.urlunparse(pu))):
             hit = attempt(u, "website column in the sheet")
             if hit:
                 return hit
