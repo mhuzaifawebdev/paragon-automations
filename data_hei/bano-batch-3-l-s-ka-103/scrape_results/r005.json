@@ -1,0 +1,110 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-10-28T14:16:16Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "ESE, Ensino Superior Empresarial, LDA.",
+  "institution_type": "university",
+  "official_website": "https://www.isag.pt/en",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "isag@isag.pt",
+  "generic_email_url": "https://www.isag.pt/en",
+  "contact": {
+   "name": "Marco Bagheri",
+   "designation": "Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.isag.pt/en/category/bachelor-management-en",
+   "evidence_quote": "Coordinator: MARCO BAGHERI"
+  },
+  "alternates": [],
+  "rung": "Faculty-level Erasmus/international coordinator. He is the coordinator for the Management degree and is a named faculty member.",
+  "source": "web",
+  "confidence": 0.5,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Turismo de Portugal, I. P.",
+    "partner_country": "Portugal",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.isag.pt/en/category/bachelor-management-en",
+    "evidence_quote": "- Courses within the sector of the Turismo de Portugal, I. P. network of schools;",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Salazares/Ramalde Campus",
+    "city": "Porto",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://www.isag.pt/en/campus-en",
+    "evidence_quote": "SALAZARES/RAMALDE CAMPUS"
+   }
+  ],
+  "stated_total": 200,
+  "stated_total_quote": "Interinstitutional Agreements",
+  "stated_total_url": "https://www.isag.pt/en/internacional-en",
+  "truncated": true,
+  "total_seen": 200,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides statistics on the number of international partnerships but does not list the names of specific partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.2,
+  "crawl_s": 22.5,
+  "ai_calls": 5,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 43.9
+ }
+}
