@@ -1,0 +1,105 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-28T20:02:37Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "CONSERVATORIO PROFESIONAL DE MÚSICA DE CIUDAD REAL \" MARCOS REDONDO\"",
+  "institution_type": "college",
+  "official_website": "https://www.conservatoriociudadreal.es/",
+  "country": {
+   "value": "SPAIN",
+   "source_url": "https://www.conservatoriociudadreal.es/staff-and-contact/",
+   "evidence_quote": "SPAIN"
+  },
+  "phone": {
+   "value": "+34 926274154",
+   "source_url": "https://www.conservatoriociudadreal.es/staff-and-contact/",
+   "evidence_quote": "+34 926274154"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmusplus@conservatoriociudadreal.es",
+  "generic_email_url": "https://www.conservatoriociudadreal.es/staff-and-contact/",
+  "contact": {
+   "name": "Blanca Samper",
+   "designation": "Erasmus Coordinator",
+   "designation_local": "",
+   "email": "erasmusplus@conservatoriociudadreal.es",
+   "office_email": "",
+   "phone": "+34 926274154",
+   "source_url": "https://www.conservatoriociudadreal.es/staff-and-contact/",
+   "evidence_quote": "Erasmus Coordinator ... Blanca Samper"
+  },
+  "alternates": [
+   {
+    "name": "Raúl Moya",
+    "designation": "teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.conservatoriociudadreal.es/category/erasmus/aula-erasmus/",
+    "evidence_quote": "Nuestras alumnas seleccionadas para realizar movilidades en el Helsinki Conservatory, Ana y Laura, y los estudiantes que quedaron en los primeros puestos de la lista de espera, Miguel, Noel y Sandra, reciben clases de conversación en lengua inglesa, enfocadas a aprender a utilizar el vocabulario musical, por parte del profesor Raúl Moya.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Raúl Moya is a teacher providing English conversation classes to students selected for Erasmus+ mobility."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. Blanca Samper is explicitly listed as the Erasmus Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Helsinki Conservatory",
+    "partner_country": "Finland",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriociudadreal.es/",
+    "evidence_quote": "Joel Crespo Navas accede a la Academia Sibelius de Helsinki, uno de los centros superiores de música más reconocidos a nivel internacional. Joel ha sido seleccionado como único aspirante admitido en la…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conservatorio de Vienne",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriociudadreal.es/",
+    "evidence_quote": "Publicamos la convocatoria del proyecto de orquesta Erasmus+ que organiza el Conservatorio de Vienne (Francia). Toda la información se encuentra en el siguiente archivo: NEO 2026 Información a tener en…",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Conservatorio Profesional de Música de Ciudad Real \"Marcos Redondo\"",
+    "city": "Ciudad Real",
+    "country": "SPAIN",
+    "role": "main",
+    "source_url": "https://www.conservatoriociudadreal.es/staff-and-contact/",
+    "evidence_quote": "C/ Pantano del Vicario, 1"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of all Erasmus+ partners, only mentioning specific institutions in the context of projects.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 17.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.7,
+  "total_seconds": 26.3
+ }
+}

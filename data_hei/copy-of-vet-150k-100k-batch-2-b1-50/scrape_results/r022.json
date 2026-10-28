@@ -1,0 +1,106 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-10-28T20:02:30Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "FUNDATIA ROMANIAN ANGEL APPEAL - APELUL INGERULUI ROMAN",
+  "institution_type": "unknown",
+  "official_website": "https://raa.ro/",
+  "country": {
+   "value": "Romania",
+   "source_url": "https://raa.ro/",
+   "evidence_quote": "[raa-logo] Adresa: Str. Rodiei nr. 52, cod 030956, Sector 3, Bucuresti, Romania"
+  },
+  "phone": {
+   "value": "+40 21 323 6868",
+   "source_url": "https://raa.ro/",
+   "evidence_quote": "+40 21 323 6868"
+  },
+  "phone_alt": [],
+  "generic_email": "office@raa.ro",
+  "generic_email_url": "https://raa.ro/",
+  "contact": {
+   "name": "Ionela Pleșan",
+   "designation": "Youth Hub Coordinator",
+   "designation_local": "",
+   "email": "ionela.plesan@raa.ro",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://raa.ro/en/team/",
+   "evidence_quote": "Ionela Pleșan ... Youth Hub Coordinator",
+   "email_source_url": "https://raa.ro/en/echipa/ionela-plesan/"
+  },
+  "alternates": [
+   {
+    "name": "Adelaide Tarpan",
+    "designation": "General Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://raa.ro/en/team/",
+    "evidence_quote": "General Director ... Adelaide Tarpan",
+    "why_chosen": "Principal / director (no Erasmus contact found). As General Director, she holds a leadership role within the organization."
+   }
+  ],
+  "rung": "Mobility coordinator. She coordinates the Youth Hub, which manages youth mobility and Erasmus projects. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "NRC - Consiliul Norvegian pentru Refugiați",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://raa.ro/proiect/mobilitati-de-tineret/",
+    "evidence_quote": "De mai bine de un an, Fundația Romanian Angel Appeal, împreună cu NRC - Consiliul Norvegian pentru Refugiați, și cu partenerii săi, oferă tinerilor …",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UNICEF",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://raa.ro/formarea-personalului-scolar-pt-bunastare-socio-emotionala/",
+    "evidence_quote": "La Casa Corpului Didactic, Gabriela Bărbulescu și Andreea Ciocâlteu au pilotat cursul „Ghid pentru starea de bine și sănătatea mintală”, dedicat personalului din școli, elaborat de Institutul pentru Studiul și Tratamentul Traumei în cadrul proiectului „Crearea unui model funcțional de intervenție pentru sănătate mintală și sprijin psihosocial pentru copii și adolescenți”, derulat de UNICEF în parteneriat cu Fundația Romanian Angel Appeal.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fundatia Romanian Angel Appeal",
+    "city": "Bucuresti",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://raa.ro/",
+    "evidence_quote": "[raa-logo] Adresa: Str. Rodiei nr. 52, cod 030956, Sector 3, Bucuresti, Romania"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partners, only mentioning a few specific project collaborators. Contact emails are provided generally for the organization rather than for specific individuals.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.2,
+  "crawl_s": 22.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.0,
+  "total_seconds": 29.9
+ }
+}
