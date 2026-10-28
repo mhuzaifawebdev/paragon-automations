@@ -1,0 +1,90 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-10-28T17:28:25Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "TALLINNA TERVISHOIU KÕRGKOOL",
+  "institution_type": "college",
+  "official_website": "https://www.ttk.ee/et",
+  "country": {
+   "value": "Eesti",
+   "source_url": "https://www.ttk.ee/et",
+   "evidence_quote": "Kännu 67, 13418 Tallinn, Eesti"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@ttk.ee",
+  "generic_email_url": "https://www.ttk.ee/et",
+  "contact": {
+   "name": "Ülle Ernits",
+   "designation": "Kaasprofessor",
+   "designation_local": "",
+   "email": "ylle.ernits@ttk.ee",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ttk.ee/et/kontaktileht",
+   "evidence_quote": "Kaasprofessor ... Ülle Ernits"
+  },
+  "alternates": [
+   {
+    "name": "Paula Pajo",
+    "designation": "Erasmus+ koordinaator",
+    "designation_local": "",
+    "email": "paula.pajo@ttk.ee",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ttk.ee/et/kontaktileht",
+    "evidence_quote": "Paula Pajo ... Erasmus+ koordinaator",
+    "why_chosen": "Institutional Erasmus+ coordinator. Paula Pajo is explicitly listed as the Erasmus+ coordinator."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. Ülle Ernits is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Tallinna Tervishoiu Kõrgkool",
+    "city": "Tallinn",
+    "country": "Eesti",
+    "role": "main",
+    "source_url": "https://www.ttk.ee/et",
+    "evidence_quote": "Kännu 67, 13418 Tallinn, Eesti"
+   },
+   {
+    "campus_name": "Kohtla-Järve struktuuriüksus",
+    "city": "Kohtla-Järve",
+    "country": "Eesti",
+    "role": "branch",
+    "source_url": "https://www.ttk.ee/et/kontaktileht",
+    "evidence_quote": "Lehe 12, 30621 Kohtla-Järve, Ida-Virumaa"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a comprehensive staff directory and information about Erasmus+ programs, but does not contain a specific list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 16.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 33.3
+ }
+}
