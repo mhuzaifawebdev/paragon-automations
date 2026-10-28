@@ -1,0 +1,156 @@
+{
+ "row_id": "r491",
+ "scraped_at": "2026-10-28T11:03:48Z",
+ "contacts": {
+  "row_id": "r491",
+  "institution_name": "Nina",
+  "institution_type": "school",
+  "official_website": "https://are-gymnasium.de/",
+  "country": {
+   "value": "Grafschaft",
+   "source_url": "https://are-gymnasium.de/kontakt/",
+   "evidence_quote": "53501 Grafschaft"
+  },
+  "phone": {
+   "value": "02641 75060",
+   "source_url": "https://are-gymnasium.de/schulgemeinschaft/schulleitung/",
+   "evidence_quote": "<juede@are-gymnasium.de> <tel 02641 75060>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Nina Pfeil",
+   "designation": "Head of School",
+   "designation_local": "",
+   "email": "pfeil@are-gymnasium.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://are-gymnasium.de/schulgemeinschaft/schulleitung/",
+   "evidence_quote": "Nina Pfeil ... Schulleiterin",
+   "email_source_url": "https://are-gymnasium.de/2025/09/26/newsletter-07-2025-26/"
+  },
+  "alternates": [
+   {
+    "name": "Anika Jüde",
+    "designation": "Deputy Head of School",
+    "designation_local": "",
+    "email": "juede@are-gymnasium.de",
+    "office_email": "",
+    "phone": "02641 75060",
+    "source_url": "https://are-gymnasium.de/schulgemeinschaft/schulleitung/",
+    "evidence_quote": "Anika Jüde ... Ständige Vertreterin der Schulleiterin",
+    "why_chosen": "Principal / director (no Erasmus contact found). Anika Jüde is the deputy head of the school and has a direct email and phone listed."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Nina Pfeil is the head of the institution and appears as the contact currently on file. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Gymnazium Pribram",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://are-gymnasium.de/schulprofil/erasmus/",
+    "evidence_quote": "Seit Oktober 2020 ist das Are Gymnasium Erasmus Schule. Im Rahmen des triregionalen Literaturprojekts, das unsere Schule mit dem Gymnazium Pribram und dem Lycée international Charles de Gaulle in Dijon durchführt, beschäftigen sich deutsche, französische und tschechische SchülerInnen mit einem Autor des jeweiligen Gastgeberlandes in französischer Sprache.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée international Charles de Gaulle in Dijon",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://are-gymnasium.de/schulprofil/erasmus/",
+    "evidence_quote": "Seit Oktober 2020 ist das Are Gymnasium Erasmus Schule. Im Rahmen des triregionalen Literaturprojekts, das unsere Schule mit dem Gymnazium Pribram und dem Lycée international Charles de Gaulle in Dijon durchführt, beschäftigen sich deutsche, französische und tschechische SchülerInnen mit einem Autor des jeweiligen Gastgeberlandes in französischer Sprache.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée international Charles de Gaulle",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://are-gymnasium.de/schulprofil/erasmus/",
+    "evidence_quote": "Seit Oktober 2020 ist das Are Gymnasium Erasmus Schule. Im Rahmen des triregionalen Literaturprojekts, das unsere Schule mit dem Gymnazium Pribram und dem Lycée international Charles de Gaulle in Dijon durchführt, beschäftigen sich deutsche, französische und tschechische SchülerInnen mit einem Autor des jeweiligen Gastgeberlandes in französischer Sprache.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Are-Gymnasium",
+    "city": "Grafschaft",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://are-gymnasium.de/",
+    "evidence_quote": "Are-Gymnasium"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The evidence lists specific Erasmus partner schools involved in the triregional project, but does not provide a comprehensive standalone partner list.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.1,
+  "crawl_s": 13.3,
+  "ai_calls": 6,
+  "partner_calls": 5,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.8,
+  "mode": "gemini",
+  "email_search_s": 17.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     681
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 56.0
+ }
+}
