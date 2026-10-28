@@ -1,0 +1,125 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-28T17:05:54Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "Colegio Nuestra Señora de Montesión",
+  "institution_type": "school",
+  "official_website": "https://colegiomontesion.es/web/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretaria@colegiomontesion.es",
+  "generic_email_url": "https://colegiomontesion.es/web/",
+  "contact": {
+   "name": "Carlos González Martínez",
+   "designation": "Director of the Center",
+   "designation_local": "",
+   "email": "cgonzalez@colegiomontesion.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://colegiomontesion.es/web/colegio/organigrama-y-consells-escolars/",
+   "evidence_quote": "Director del Centro | ... Carlos González Martínez |"
+  },
+  "alternates": [
+   {
+    "name": "R. Navarro",
+    "designation": "Erasmus coordinator",
+    "designation_local": "",
+    "email": "rnavarro@colegiomontesion.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://colegiomontesion.es/web/wp-content/uploads/2023/01/Convocatoria-Erasmus-Curso-2022-2023.pdf",
+    "evidence_quote": "Envío al correo: rnavarro@colegiomontesion.es ... entrega de la documentación física a la tutora o coordinadora Erasmus.",
+    "why_chosen": "Mobility coordinator. R. Navarro is explicitly identified as the Erasmus coordinator for the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Carlos González Martínez is the Director of the Center and was the contact on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cambridge ESOL",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://colegiomontesion.es/web/",
+    "evidence_quote": "[Te preparamos para el Cambridge ESOL Exam]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Projecte Home Balears",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://colegiomontesion.es/web/",
+    "evidence_quote": "[Colaboramos con Projecte Home Balears]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Asisa Somos Médicos",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://colegiomontesion.es/web/",
+    "evidence_quote": "[Trabajamos con Asisa Somos Médicos]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cambridge ESOL Exam",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://colegiomontesion.es/web/",
+    "evidence_quote": "[Te preparamos para el Cambridge ESOL Exam]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegio Ntra. Sra. de Montesión",
+    "city": "Palma de Mallorca",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://colegiomontesion.es/web/",
+    "evidence_quote": "Carrer d'Andalusia, 2"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partner universities or institutions. The contacts listed are based on the internal organigram and the specific Erasmus call document.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.0,
+  "crawl_s": 17.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 26.6
+ }
+}

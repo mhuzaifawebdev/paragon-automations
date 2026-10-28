@@ -1,0 +1,93 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-10-28T17:05:43Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "Staatliche Berufsschule II Bayreuth",
+  "institution_type": "college",
+  "official_website": "https://kbs-bth.de/",
+  "country": {
+   "value": "Germany",
+   "source_url": "https://kbs-bth.de/",
+   "evidence_quote": "Erstmals in Deutschland!"
+  },
+  "phone": {
+   "value": "09 21 / 79 22 0 - 0",
+   "source_url": "https://kbs-bth.de/datenschutzhinweise/",
+   "evidence_quote": "Telefon: 09 21 / 79 22 0 - 0"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Stefan Mahnke",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://kbs-bth.de/ansprechpartner/schulleitung/",
+   "evidence_quote": "Schulleiter ... Stefan Mahnke, Oberstudiendirektor"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Stefan Mahnke is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universität Bamberg",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://kbs-bth.de/",
+    "evidence_quote": "Als Universitätsschule arbeiten wir eng mit dem Lehrstuhl für Wirtschaftspädagogik der Universität Bamberg zusammen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tallinna Majanduskool",
+    "partner_country": "Estonia",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://kbs-bth.de/allgemein/international/comenius-mobility-2009-2011/",
+    "evidence_quote": "Tallinna Majanduskool (unsere estnische Partnerschule)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Staatliche Berufsschule II Bayreuth",
+    "city": "Bayreuth",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://kbs-bth.de/datenschutzhinweise/",
+    "evidence_quote": "Äußere Badstr. 32"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information on specific cooperation projects but does not contain a comprehensive list of Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 13.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 19.6
+ }
+}

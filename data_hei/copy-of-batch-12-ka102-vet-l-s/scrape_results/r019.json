@@ -1,0 +1,131 @@
+{
+ "row_id": "r019",
+ "scraped_at": "2026-10-28T17:05:26Z",
+ "contacts": {
+  "row_id": "r019",
+  "institution_name": "Berufskolleg der AWO",
+  "institution_type": "college",
+  "official_website": "https://www.awo-berufskolleg.de/",
+  "country": null,
+  "phone": {
+   "value": "05221 3460810",
+   "source_url": "https://www.awo-berufskolleg.de/ueber-uns/team/team-herford/",
+   "evidence_quote": "Fon: 05221 3460810"
+  },
+  "phone_alt": [],
+  "generic_email": "sekretariat.hf@awo-berufskolleg.de",
+  "generic_email_url": "https://www.awo-berufskolleg.de/ueber-uns/team/team-herford/",
+  "contact": {
+   "name": "Andreas Jürgens",
+   "designation": "School Management, Head of FOS course",
+   "designation_local": "",
+   "email": "a.juergens@awo-berufskolleg.de",
+   "office_email": "",
+   "phone": "05221 3460810",
+   "source_url": "https://www.awo-berufskolleg.de/ueber-uns/team/team-herford/",
+   "evidence_quote": "Andreas Jürgens Schulleitung, Bildungsgangsleitung FOS"
+  },
+  "alternates": [
+   {
+    "name": "Matthias Rinke",
+    "designation": "Deputy School Management, Head of Educator course",
+    "designation_local": "",
+    "email": "m.rinke@awo-berufskolleg.de",
+    "office_email": "",
+    "phone": "05221 3460821",
+    "source_url": "https://www.awo-berufskolleg.de/ueber-uns/team/team-herford/",
+    "evidence_quote": "Matthias Rinke Stellvertretende Schulleitung, Bildungsgangleitung Erzieher",
+    "why_chosen": "Principal / director (no Erasmus contact found). Matthias Rinke is the deputy head of the institution."
+   },
+   {
+    "name": "Elke Ruthenberg",
+    "designation": "Secretariat",
+    "designation_local": "",
+    "email": "sekretariat.hf@awo-berufskolleg.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.awo-berufskolleg.de/ueber-uns/team/team-herford/",
+    "evidence_quote": "Elke Ruthenberg Sekretariat",
+    "why_chosen": "Secretary / administration (last resort). Elke Ruthenberg is the administrative contact for the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Andreas Jürgens is the head of the institution and is listed as a primary contact.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 14 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fachhochschule des Mittelstandes",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.awo-berufskolleg.de/ueber-uns/kooperationspartner/",
+    "evidence_quote": "Fachhochschule des Mittelstandes",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hochschule der Diakonie gem. GmbH",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.awo-berufskolleg.de/ueber-uns/kooperationspartner/",
+    "evidence_quote": "Hochschule der Diakonie gem. GmbH",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsche Akademie für Psychomotorik",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.awo-berufskolleg.de/ueber-uns/kooperationspartner/",
+    "evidence_quote": "Deutsche Akademie für Psychomotorik",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufskolleg der AWO",
+    "city": "Herford",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.awo-berufskolleg.de/",
+    "evidence_quote": "32052 Herford"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 3,
+  "coverage_note": "The evidence provides a list of cooperation partners but does not explicitly mention Erasmus+ or international mobility agreements. No specific international coordinator role is identified. 14 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 19.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     91
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 25.9
+ }
+}
