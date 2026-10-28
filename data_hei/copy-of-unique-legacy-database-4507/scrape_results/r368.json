@@ -1,0 +1,78 @@
+{
+ "row_id": "r368",
+ "scraped_at": "2026-10-28T12:00:07Z",
+ "contacts": {
+  "row_id": "r368",
+  "institution_name": "Szkoła Podstawowa nr 2 im. Adama Mickiewicza w Drawsku Pomorskim",
+  "institution_type": "school",
+  "official_website": "https://sp2.drawsko.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Anna Kozera",
+   "designation": "English teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://sp2.drawsko.pl/nauczyciele.html",
+   "evidence_quote": "Nauczyciele języka angielskiego: ... s. Anna Kozera"
+  },
+  "alternates": [
+   {
+    "name": "Maciej Jonak",
+    "designation": "Physics teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://sp2.drawsko.pl/nauczyciele.html",
+    "evidence_quote": "Nauczyciele fizyki: ... Maciej Jonak",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is a teacher who has actively participated in Erasmus+ international training courses."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). She is an English teacher and has participated in Erasmus+ mobility projects.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Szkoła Podstawowa nr 2 im. Adama Mickiewicza",
+    "city": "Drawsko Pomorskie",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://sp2.drawsko.pl/",
+    "evidence_quote": "ul. Dworcowa 2a, 78-500 Drawsko Pomorskie"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website provides information about Erasmus+ projects and participating teachers, but does not list specific partner institutions or a total number of partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.5,
+  "crawl_s": 14.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.5,
+  "total_seconds": 28.8
+ }
+}
