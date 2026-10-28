@@ -1,0 +1,151 @@
+{
+ "row_id": "r015",
+ "scraped_at": "2026-10-28T15:42:05Z",
+ "contacts": {
+  "row_id": "r015",
+  "institution_name": "escola tecnica girona",
+  "institution_type": "college",
+  "official_website": "https://escolatecnicagirona.com/",
+  "country": null,
+  "phone": {
+   "value": "972 20 83 16",
+   "source_url": "https://escolatecnicagirona.com/",
+   "evidence_quote": "T. 972 20 83 16 <tel 972 20 83 16>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jordi Moncanut López",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://escolatecnicagirona.com/files/Resolucio%20proces%20seleccio%20erasmus2019.pdf",
+   "evidence_quote": "Signatura coordinador/a programes mobilitat Signatura del Director/a ... Maria Miralpeix Ripoll Jordi Moncanut López"
+  },
+  "alternates": [
+   {
+    "name": "Maria Miralpeix Ripoll",
+    "designation": "Mobility programs coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://escolatecnicagirona.com/files/Resolucio%20proces%20seleccio%20erasmus2019.pdf",
+    "evidence_quote": "Signatura coordinador/a programes mobilitat Signatura del Director/a ... Maria Miralpeix Ripoll Jordi Moncanut López",
+    "why_chosen": "Mobility coordinator. Maria Miralpeix Ripoll is explicitly identified as the coordinator for mobility programs."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Jordi Moncanut López is the Director of the institution and is listed as a signatory for mobility programs.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CTA",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://escolatecnicagirona.com/",
+    "evidence_quote": "ETG / CTA / CTV",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CTV",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://escolatecnicagirona.com/",
+    "evidence_quote": "ETG / CTA / CTV",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Tècnica Girona",
+    "city": "Girona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://escolatecnicagirona.com/",
+    "evidence_quote": "17005 GIRONA"
+   },
+   {
+    "campus_name": "Centre Tècnic d'Automoció",
+    "city": "Figueres",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://escolatecnicagirona.com/",
+    "evidence_quote": "17600 FIGUERES"
+   },
+   {
+    "campus_name": "Centre Tècnic Vallès",
+    "city": "Les Franqueses",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://escolatecnicagirona.com/",
+    "evidence_quote": "LES FRANQUESES VALLÈS (V. Oriental)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a specific list of partner institutions, although it mentions that the school belongs to a network of international mobility and cooperation. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 16.4,
+  "ai_calls": 5,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     1401,
+     1540
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 26.2
+ }
+}
