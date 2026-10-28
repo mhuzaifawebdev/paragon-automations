@@ -1,0 +1,118 @@
+{
+ "row_id": "r170",
+ "scraped_at": "2026-10-28T11:36:52Z",
+ "contacts": {
+  "row_id": "r170",
+  "institution_name": "Oberstufenzentrum \"Johanna Just\"",
+  "institution_type": "school",
+  "official_website": "https://oszj.de/",
+  "country": {
+   "value": "Potsdam",
+   "source_url": "https://oszj.de/",
+   "evidence_quote": "0331-289 73 00 <tel +493312897300> | Berliner Str. 114-115, 14467 Potsdam | info@osz-j-just.de"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jörg Georgi",
+   "designation": "Head of School",
+   "designation_local": "",
+   "email": "joerg.georgi@osz-j-just.de",
+   "office_email": "",
+   "phone": "0331-289 73 00",
+   "source_url": "https://oszj.de/",
+   "evidence_quote": "Schulleiter ... Jörg Georgi"
+  },
+  "alternates": [
+   {
+    "name": "Jörg Bölke",
+    "designation": "Deputy Head of School",
+    "designation_local": "",
+    "email": "joerg.boelke@osz-j-just.de",
+    "office_email": "",
+    "phone": "0331-289 73 02",
+    "source_url": "https://oszj.de/",
+    "evidence_quote": "stellv. Schulleiter ... Jörg Bölke",
+    "why_chosen": "Principal / director (no Erasmus contact found). Jörg Bölke is the deputy head of the institution and assists with general school leadership."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Jörg Georgi is the head of the institution and the primary contact for leadership and administrative inquiries.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Handwerkskammer",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://oszj.de/wp-content/uploads/2023/12/Erasmus_Celina_Philipp.pdf",
+    "evidence_quote": "Bei der Handwerkskammer erreichte ich direkt Frau Kuplin, die zusammen mit Antonio, den",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CFA Médéric Paris",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://oszj.de/schulpartnerschaft-mit-cfa-mederic-paris-im-februar-maerz-2023/",
+    "evidence_quote": "Schulpartnerschaft mit CFA Médéric Paris im Februar & März 2023 – OBERSTUFENZENTRUM JOHANNA JUST",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CFA- Médéric in Paris",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://oszj.de/schulpartnerschaft-mit-der-cfa-mederic-in-paris/",
+    "evidence_quote": "Schulpartnerschaft mit der CFA- Médéric in Paris – OBERSTUFENZENTRUM JOHANNA JUST",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CAFÈ RICHARD",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://oszj.de/schulpartnerschaft-mit-der-cfa-mederic-in-paris/",
+    "evidence_quote": "Unser Gruppenfoto entstand bei einem Besuch der CAFÈ RICHARD Rösterei in Paris.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Oberstufenzentrum \"Johanna Just\"",
+    "city": "Potsdam",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://oszj.de/",
+    "evidence_quote": "0331-289 73 00 <tel +493312897300> | Berliner Str. 114-115, 14467 Potsdam | info@osz-j-just.de"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 8,
+  "coverage_note": "The evidence details school structure, news, and some partner mentions like CFA Médéric Paris, but does not provide an exhaustive standalone partner list or a dedicated international relations office contact.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.6,
+  "crawl_s": 15.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 23.1
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "row_id": "r173",
+ "scraped_at": "2026-10-28T11:37:19Z",
+ "contacts": {
+  "row_id": "r173",
+  "institution_name": "Stadtteilschule Horn",
+  "institution_type": "school",
+  "official_website": "https://stshorn.hamburg.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Sven Volpert",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "sven.volpert@bsb.hamburg.de",
+   "office_email": "",
+   "phone": "040 / 428872",
+   "source_url": "https://stshorn.hamburg.de/2023/05/27/schulleitung/",
+   "evidence_quote": "Sven Volpert"
+  },
+  "alternates": [
+   {
+    "name": "Torsten Schulz",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "torsten.schulz@bsb.hamburg.de",
+    "office_email": "",
+    "phone": "040 / 428872",
+    "source_url": "https://stshorn.hamburg.de/2023/05/27/schulleitung/",
+    "evidence_quote": "Stellvertretender Schulleiter ... Torsten Schulz",
+    "why_chosen": "Principal / director (no Erasmus contact found). Torsten Schulz is the deputy head of the institution with direct contact details."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Sven Volpert is the head of the institution and is listed with direct contact details.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Schulen in England",
+    "partner_country": "England",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://stshorn.hamburg.de/2023/05/27/erasmus/",
+    "evidence_quote": "Im Zentrum des EU-Programms steht die Förderung länderübergreifender Schulpartnerschaften. Für das Projekt Unserer Schule haben wir Partnerschaften mit Schulen in England, Spanien und der Türkei geschlossen und arbeiteten mit diesen Schulen in einem Zeitraum von zwei Jahren gemeinsam an unserem Song4Europe.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Schulen in Spanien",
+    "partner_country": "Spanien",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://stshorn.hamburg.de/2023/05/27/erasmus/",
+    "evidence_quote": "Im Zentrum des EU-Programms steht die Förderung länderübergreifender Schulpartnerschaften. Für das Projekt Unserer Schule haben wir Partnerschaften mit Schulen in England, Spanien und der Türkei geschlossen und arbeiteten mit diesen Schulen in einem Zeitraum von zwei Jahren gemeinsam an unserem Song4Europe.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Schulen in der Türkei",
+    "partner_country": "Türkei",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://stshorn.hamburg.de/2023/05/27/erasmus/",
+    "evidence_quote": "Im Zentrum des EU-Programms steht die Förderung länderübergreifender Schulpartnerschaften. Für das Projekt Unserer Schule haben wir Partnerschaften mit Schulen in England, Spanien und der Türkei geschlossen und arbeiteten mit diesen Schulen in einem Zeitraum von zwei Jahren gemeinsam an unserem Song4Europe.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stadtteilschule Horn",
+    "city": "Hamburg",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://stshorn.hamburg.de/wp-content/uploads/sites/441/2025/09/6.-Organigramm.pdf",
+    "evidence_quote": "Wolfgang Fien Stadtteilschule Horn"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists partner countries (England, Spain, Turkey) involved in the Erasmus+ Song4Europe project, but does not provide a complete itemized list of all partner institutions or a total partner count.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.5,
+  "crawl_s": 19.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 26.9
+ }
+}
