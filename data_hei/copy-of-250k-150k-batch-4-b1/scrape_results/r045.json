@@ -1,0 +1,84 @@
+{
+ "row_id": "r045",
+ "scraped_at": "2026-10-28T19:45:32Z",
+ "contacts": {
+  "row_id": "r045",
+  "institution_name": "Wojewódzka Biblioteka Publiczna w Krakowie",
+  "institution_type": "unknown",
+  "official_website": "https://www.rajska.info/",
+  "country": {
+   "value": "Kraków",
+   "source_url": "https://www.rajska.info/",
+   "evidence_quote": "ul. Rajska 1, Kraków"
+  },
+  "phone": {
+   "value": "12 375 22 00",
+   "source_url": "https://www.rajska.info/",
+   "evidence_quote": "12 375 22 00 <tel 123752200>"
+  },
+  "phone_alt": [],
+  "generic_email": "informatorium@rajska.info",
+  "generic_email_url": "https://www.rajska.info/biblioteka-bez-barier-kontakt",
+  "contact": {
+   "name": "Jerzy Woźniakiewicz",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "jerzy.wozniakiewicz@rajska.info",
+   "office_email": "",
+   "phone": "12 37-52-202",
+   "source_url": "https://www.rajska.info/kadra-zarzadzajaca",
+   "evidence_quote": "Dyrektor WBP w Krakowie: ... Jerzy Woźniakiewicz"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Jerzy Woźniakiewicz is the Director of the institution and is the primary contact for management.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Stowarzyszenie Rozwoju i Integracji Młodzieży STRIM",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rajska.info/erasmusplus",
+    "evidence_quote": "Projekt „EVS: Together = Furhter – Meet me in the library 2019-2020” realizowany jest w porozumieniu partnerskim Wojewódzkiej Biblioteki Publicznej w Krakowie ze Stowarzyszeniem Rozwoju i Integracji Młodzieży STRIM. Ze strony biblioteki projektem koordynuje Dział Edukacji, Nauki i Badań.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Wojewódzka Biblioteka Publiczna w Krakowie",
+    "city": "Kraków",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://www.rajska.info/",
+    "evidence_quote": "ul. Rajska 1, Kraków"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The institution is a public library, not a university or school, and does not list formal Erasmus+ university partners. The provided partner list refers to local cultural and library institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.5,
+  "crawl_s": 10.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 16.5
+ }
+}

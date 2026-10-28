@@ -1,0 +1,81 @@
+{
+ "row_id": "r034",
+ "scraped_at": "2026-10-28T19:45:04Z",
+ "contacts": {
+  "row_id": "r034",
+  "institution_name": "Maria-Merian-Schule",
+  "institution_type": "school",
+  "official_website": "https://maria-merian-schule.de/",
+  "country": null,
+  "phone": {
+   "value": "07151 . 5003-200",
+   "source_url": "https://maria-merian-schule.de/",
+   "evidence_quote": "Telefon: 07151 . 5003-200"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Landeshotelfachschule Bruneck",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://maria-merian-schule.de/kooperationen/erasmusplus/",
+    "evidence_quote": "Job-Shadowing in Südti­rol / Itali­en (2019 – 2021): die Landes­ho­tel­fach­schu­le in Bruneck",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Collège Victor Schoelcher",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://maria-merian-schule.de/kooperationen/erasmusplus/",
+    "evidence_quote": "Job-Shadowing im Elsass / Frank­reich (2018 – 2020): das Collè­ge Victor Schoel­cher in Ensisheim",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Maria-Merian-Schule Waiblingen",
+    "city": "Waiblingen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://maria-merian-schule.de/",
+    "evidence_quote": "Maria-Merian-Schule Waiblingen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of all Erasmus+ partners, only those mentioned in specific project reports. No total number of partners is stated.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 14.6,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "total_seconds": 30.2
+ }
+}
