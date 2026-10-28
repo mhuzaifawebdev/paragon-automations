@@ -1140,20 +1140,30 @@
    "source": "Copy of 250K-150K Batch 3 _BANO B1",
    "file_id": "13_3FLVmR106SsjxFen7HMNLBP8bkurB0YTyDYApg4PY",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 47,
    "started": "2026-10-28T18:48:52Z",
    "last_start": "2026-10-28T18:48:52Z",
    "restarts": 0,
-   "cap_usd": 806.06
+   "cap_usd": 806.06,
+   "spend_recorded": true,
+   "cost_usd": 0.1876,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1RzDBDZmNK-Mwpk-xaJE429Eyz0lkixJb/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 39,
+   "finished": "2026-10-28T18:55:10Z",
+   "reason": "47 institutes, 28 with a contact"
   },
   {
    "batch": "copy-of-250k-150k-batch-2-talha-b2",
    "source": "Copy of 250K-150K Batch 2 Talha B2",
    "file_id": "1TCEr-T6T4VepFp1NjmMhdwnvwkcMSwWo-RH1VhGdRLs",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 29
+   "state": "running",
+   "rows": 29,
+   "started": "2026-10-28T18:55:10Z",
+   "last_start": "2026-10-28T18:55:10Z",
+   "restarts": 0,
+   "cap_usd": 805.88
   },
   {
    "batch": "copy-of-250k-150k-batch-3-bano-b2",
@@ -2563,7 +2573,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-28T18:48:52Z",
+ "updated": "2026-10-28T18:55:10Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
