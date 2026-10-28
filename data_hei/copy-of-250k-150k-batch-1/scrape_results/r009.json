@@ -1,0 +1,79 @@
+{
+ "row_id": "r009",
+ "scraped_at": "2026-10-28T19:48:07Z",
+ "contacts": {
+  "row_id": "r009",
+  "institution_name": "CLUB NATACIÓ POBLENOU",
+  "institution_type": "unknown",
+  "official_website": "https://www.cnpoblenou.cat/",
+  "country": null,
+  "phone": {
+   "value": "933 086 095",
+   "source_url": "https://www.cnpoblenou.cat/contacte/",
+   "evidence_quote": "933 086 095"
+  },
+  "phone_alt": [],
+  "generic_email": "info@cnpoblenou.cat",
+  "generic_email_url": "https://www.cnpoblenou.cat/",
+  "contact": {
+   "name": "Jordi Garcia",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.cnpoblenou.cat/en/board-of-directors/",
+   "evidence_quote": "Secretary: ... Jordi Garcia"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Secretary / administration (last resort). He serves as the Secretary of the Board of Directors.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "CEM Can Felipa",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.cnpoblenou.cat/en/board-of-directors/",
+    "evidence_quote": "We are now in the final moments of the Can Felipa concession, which we have managed from its inception 34 years ago. The City Council has made the decision, which we welcome, to dedicate the entire building to sports uses and completely renew the pool basin, transforming it into a 33-meter pool suitable for high-level competition. Needless to say, we are thrilled and will work hard to continue managing the concession."
+   },
+   {
+    "campus_name": "CEM Besòs",
+    "city": "Sant Adrià",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.cnpoblenou.cat/en/board-of-directors/",
+    "evidence_quote": "The equipment of the CEM Besòs in Sant Adrià continues its slow consolidation after having suffered considerably the effects of the closure caused by the pandemic. Thanks to its water surface, we can accommodate the training and competition of our two aquatic sections. We aspire to continue carrying out the social, sporting, and educational work in this facility located in a very complex socio-economic area, and therefore very much in need of engaging projects that help to unite the territory wh"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a sports club and does not appear to have an Erasmus+ or international mobility program. No partner list is provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.9,
+  "crawl_s": 23.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.2,
+  "total_seconds": 33.6
+ }
+}
