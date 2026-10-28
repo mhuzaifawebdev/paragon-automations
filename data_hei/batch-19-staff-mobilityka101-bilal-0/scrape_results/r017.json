@@ -1,0 +1,99 @@
+{
+ "row_id": "r017",
+ "scraped_at": "2026-10-27T19:26:55Z",
+ "contacts": {
+  "row_id": "r017",
+  "institution_name": "Anja",
+  "institution_type": "school",
+  "official_website": "https://strojna.scptuj.si/",
+  "country": {
+   "value": "Slovenija",
+   "source_url": "https://strojna.scptuj.si/kontakt/",
+   "evidence_quote": "Slovenija"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "strojnasola@scptuj.si",
+  "generic_email_url": "https://strojna.scptuj.si/kontakt/",
+  "contact": {
+   "name": "Anja Jesenek Grašič",
+   "designation": "prof. fiz. in mat.",
+   "designation_local": "",
+   "email": "anja.jesenek@scptuj.si",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://scptuj.si/kontakt/",
+   "evidence_quote": "Anja Jesenek Grašič, prof. fiz. in mat.,"
+  },
+  "alternates": [
+   {
+    "name": "Darja Harb",
+    "designation": "Ravnateljica",
+    "designation_local": "",
+    "email": "darja.harb@scptuj.si",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://scptuj.si/kontakt/",
+    "evidence_quote": "Ravnateljica ... mag. Darja Harb, univ. dipl. ekon.,",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the principal of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. English / language or EU-project teacher (no Erasmus contact found). She is the contact person listed for the Strojna šola Ptuj and matches the name provided in the client's file.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "Reused from batch ibrahim-batch-2-staff-mobility-ka-10 (scraped 2026-10-27). Reused from batch batch-2-france (scraped 2026-10-27). site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Srednja škola Ivanec",
+    "partner_country": "Hrvaška",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://strojna.scptuj.si/erasmus-job-shadowing-obisk-predstavnikov-srednje-skole-ivanec/",
+    "evidence_quote": "V okviru projekta Erasmus+ Job Shadowing sta 25. in 26. avgusta 2026 Strojno šolo Šolskega centra Ptuj obiskala predstavnika Srednje škole Ivanec – ravnateljica Lidija Kozina in učitelj strokovnoteoretičnih predmetov Zvonko Bedenik.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TALUM, d. o. o.",
+    "partner_country": "Slovenija",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://strojna.scptuj.si/erasmus-job-shadowing-obisk-predstavnikov-srednje-skole-ivanec/",
+    "evidence_quote": "Pomemben del obiska je bil tudi ogled podjetja TALUM, d. o. o., kjer sta se gosta seznanila z delovanjem podjetja ter spoznala pomen povezovanja izobraževanja z gospodarstvom in prenosa znanja v prakso.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Strojna šola Ptuj",
+    "city": "Ptuj",
+    "country": "Slovenija",
+    "role": "main",
+    "source_url": "https://strojna.scptuj.si/kontakt/",
+    "evidence_quote": "Volkmerjeva cesta 19"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific Erasmus+ project examples and contacts for the Strojna šola Ptuj, but does not contain a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "ibrahim-batch-2-staff-mobility-ka-10",
+  "row_id": "r463"
+ }
+}
