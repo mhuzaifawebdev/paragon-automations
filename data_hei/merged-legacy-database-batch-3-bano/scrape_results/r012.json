@@ -1,0 +1,126 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-28T23:10:50Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "LYCEE POLYV REGIONAL DROITS DE L'HOMME",
+  "institution_type": "school",
+  "official_website": "https://lyceedesdroitsdelhomme.fr/",
+  "country": {
+   "value": "Guadeloupe",
+   "source_url": "https://lyceedesdroitsdelhomme.fr/",
+   "evidence_quote": "Le Lycée des Droits de l’Homme en Guadeloupe a été fondé en 1985 avec pour mission de former les jeunes de la région en leur enseignant les valeurs universelles telles que les droits de l’homme et la démocratie. Au fil des ans, le lycée a évolué pour devenir un établissement scolaire reconnu pour son enseignement de qualité et sa contribution à la communauté."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lisbonne",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceedesdroitsdelhomme.fr/mobilite-portugal-avril-2026",
+    "evidence_quote": "Visite de Lisbonne du 18 au 25 avril 2026",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Neuenbrurg am Rhein",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceedesdroitsdelhomme.fr/voyage-erasmus-allemagne-neuenbrurg-am-rhein-27-fevrier-au-08-mars-2026",
+    "evidence_quote": "VOYAGE ERASMUS ALLEMAGNE NEUENBRURG AM RHEIN 27 Février au 08 Mars 2026 - DDH",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sint Maarten",
+    "partner_country": "Sint Maarten",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceedesdroitsdelhomme.fr/voyage-erasmus-sint-maarten",
+    "evidence_quote": "Voyage Eramus à Sint Maarten du 14 Mars au 17 Mars 2026",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Callosa d'En Sarria",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceedesdroitsdelhomme.fr/voyage-erasmus-espagne-callosa-den-sarria",
+    "evidence_quote": "Voyage ESPAGNE Callosa d'En Sarria du 15 Avril au 23 Avril 2026",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Berlin",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceedesdroitsdelhomme.fr/voyage-erasmus-allemagne-berlin-3-mai-au-12-mai-2026",
+    "evidence_quote": "VOYAGE ERASMUS ALLEMAGNE BERLIN 3 mai au 12 mai 2026 - DDH",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Portugal",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://lyceedesdroitsdelhomme.fr/mobilite-portugal-avril-2026",
+    "evidence_quote": "Mobilité Portugal avril 2026 - DDH",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée des Droits de l'Homme",
+    "city": "Petit-Bourg",
+    "country": "Guadeloupe",
+    "role": "main",
+    "source_url": "https://lyceedesdroitsdelhomme.fr/",
+    "evidence_quote": "Rue du Lycée, Pointe à Bacchus, 97170, Petit-Bourg, Guadeloupe"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 9,
+  "coverage_note": "The website lists several Erasmus mobility destinations but does not provide a formal list of partner institutions or contact details for an Erasmus coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 13.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 27.6
+ }
+}
