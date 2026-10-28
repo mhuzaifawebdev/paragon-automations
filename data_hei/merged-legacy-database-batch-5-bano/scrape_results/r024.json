@@ -1,0 +1,124 @@
+{
+ "row_id": "r024",
+ "scraped_at": "2026-10-28T22:55:24Z",
+ "contacts": {
+  "row_id": "r024",
+  "institution_name": "COLEGIO SALESIANO SAN LUIS REY",
+  "institution_type": "school",
+  "official_website": "https://palmadelrio.salesianos.edu/",
+  "country": null,
+  "phone": {
+   "value": "957 710 792",
+   "source_url": "https://palmadelrio.salesianos.edu/contactar/",
+   "evidence_quote": "Teléfonos: 957 710 792 – 626 296 207"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria.palmadelrio@salesianos.edu",
+  "generic_email_url": "https://palmadelrio.salesianos.edu/contactar/",
+  "contact": {
+   "name": "Juan Antonio Gutierrez",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://palmadelrio.salesianos.edu/personal/",
+   "evidence_quote": "Juan Antonio Gutierrez ... Director, Colegio San Luis Rey"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the director of the institution and oversees the center.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Comisión europea",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://palmadelrio.salesianos.edu/colegio/wp-content/uploads/sites/2/2021/06/ERASMUS-POLICY-STATEMENT-2021-27.pdf",
+    "evidence_quote": "herramientas creadas por la Comisión europea.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "European Commission",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://palmadelrio.salesianos.edu/colegio/wp-content/uploads/sites/2/2021/06/ERASMUS-POLICY-STATEMENT-2021-27.pdf",
+    "evidence_quote": "created by the European Commission.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SEPIE",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://palmadelrio.salesianos.edu/colegio/wp-content/uploads/sites/2/2021/06/ERASMUS-POLICY-STATEMENT-2021-27.pdf",
+    "evidence_quote": "de los créditos ECTS adquiridos a través de la movilidad, expedido por el SEPIE (agencia nacional",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegio Salesiano San Luis Rey",
+    "city": "Palma del Río",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://palmadelrio.salesianos.edu/contactar/",
+    "evidence_quote": "Dirección: Avda. María Auxiliadora, 2, 14700 Palma del Río – Córdoba"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The website mentions that the institution has a large number of partners and collaborating companies, but it does not provide a specific list of names of these partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 16.1,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     421,
+     547
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 22.4
+ }
+}

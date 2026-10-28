@@ -1,0 +1,85 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-28T22:55:01Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "IRTS",
+  "institution_type": "unknown",
+  "official_website": "https://www.irts.ie/cgi/index.cgi",
+  "country": {
+   "value": "Ireland",
+   "source_url": "https://www.irts.ie/cgi/index.cgi",
+   "evidence_quote": "IRTS – Amateur Radio in Ireland, Irish Radio Transmitters Society"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "David Gardiner",
+   "designation": "Membership Records Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "087-8334803",
+   "source_url": "https://www.irts.ie/cgi/contact.cgi?Membership_Records_Officer",
+   "evidence_quote": "Name: | Membership Records Officer: David Gardiner (EI3IXB) |"
+  },
+  "alternates": [
+   {
+    "name": "Mark Condon",
+    "designation": "Contest Manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.irts.ie/cgi/contact.cgi?Contest_Manager",
+    "evidence_quote": "Name: | Contest Manager: Mark Condon (EI6JK) |",
+    "why_chosen": "Other role. Mark Condon is listed as the Contest Manager for the Irish Radio Transmitters Society."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). David Gardiner serves as the Membership Records Officer for the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "International Amateur Radio Union (IARU)",
+    "partner_country": "International",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.irts.ie/cgi/index.cgi",
+    "evidence_quote": "IRTS is the member for Ireland of the International Amateur Radio Union (IARU), which",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": 160,
+  "stated_total_quote": "has over 160 national amateur radio societies as members and",
+  "stated_total_url": "https://www.irts.ie/cgi/index.cgi",
+  "truncated": true,
+  "total_seen": 160,
+  "pages_read": 2,
+  "coverage_note": "The IRTS is an amateur radio society rather than an educational institution, and no specific campus or international mobility program information is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 6.2,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 1.2,
+  "total_seconds": 22.1
+ }
+}
