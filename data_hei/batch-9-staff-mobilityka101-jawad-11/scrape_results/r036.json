@@ -1,0 +1,65 @@
+{
+ "row_id": "r036",
+ "scraped_at": "2026-10-27T21:26:41Z",
+ "contacts": {
+  "row_id": "r036",
+  "institution_name": "Tolarová Pavlína",
+  "institution_type": "school",
+  "official_website": "https://www.kameniceskola.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@kameniceskola.cz",
+  "generic_email_url": "https://www.kameniceskola.cz/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "Reused from batch bano-batch-1-staff-mobility-ka-101 (scraped 2026-10-27). site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Perifereiako Gymnasio Kokkinotrimithias",
+    "partner_country": "Cyprus",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.kameniceskola.cz/",
+    "evidence_quote": "Ve dnech 6.–9. října 2026 jsme se v rámci programu Erasmus+ zúčastnily stínování na kyperské škole Perifereiako Gymnasio Kokkinotrimithias, která vzdělává žáky ve věku 13–15 let. Společně s námi se stínování účastnily také učitelky z Norska, což nám umožnilo sdílet zkušenosti a porovnat vzdělávací systémy několika evropských zemí. Během návštěvy jsme měly možnost nahlédnout do ...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Základní škola Kamenice",
+    "city": "Kamenice",
+    "country": "Česká republika",
+    "role": "main",
+    "source_url": "https://www.kameniceskola.cz/",
+    "evidence_quote": "Základní škola Kamenice"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 1,
+  "coverage_note": "The evidence shows a primary school in Kamenice with Erasmus mobility activities, but individual staff names are generally not listed with explicit roles on the website except for the contact on file.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "bano-batch-1-staff-mobility-ka-101",
+  "row_id": "r452"
+ }
+}
