@@ -1,0 +1,80 @@
+{
+ "row_id": "r036",
+ "scraped_at": "2026-10-28T19:04:33Z",
+ "contacts": {
+  "row_id": "r036",
+  "institution_name": "Zespol Szkol Nr 9 im. dr Mikolaja Witczaka",
+  "institution_type": "school",
+  "official_website": "https://zssp9.jastrzebie.pl/",
+  "country": null,
+  "phone": {
+   "value": "+48 32 47 61 389",
+   "source_url": "https://zssp9.jastrzebie.pl/",
+   "evidence_quote": "+48 32 47 61 389 <tel +48324761389>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Andrzej Komorowki",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "poczta@zssp9.jastrzebie.pl",
+   "office_email": "",
+   "phone": "+48 32 4761389",
+   "source_url": "https://zssp9.jastrzebie.pl/kontakt/",
+   "evidence_quote": "Dyrektor ... mgr Andrzej Komorowki"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the director of the institution and the primary contact for administrative matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Vitalis Betreuungsgesellschaft fur Modellprojekte mbH",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://zssp9.jastrzebie.pl/erasmus-lipsk-i-pierwszy-dzien-praktyk/",
+    "evidence_quote": "zawodowych w miejscowości Gut Wehlitz, w ramach programu Erasmus+ uzyskanej w sektorze „Kształcenie i szkolenia zawodowe”. Organizacją partnerską, goszczącą naszych wychowanków jest Vitalis Betreuungsgesellschaft fur Modellprojekte mbH.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zespół Szkół nr 9 im. dr. Mikołaja Witczaka",
+    "city": "Jastrzębie-Zdrój",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://zssp9.jastrzebie.pl/",
+    "evidence_quote": "Zespół Szkół nr 9 im. dr. Mikołaja Witczaka – w Jastrzębiu-Zdroju"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects but does not provide a comprehensive list of all institutional partners. The contact information for the Erasmus coordinator is not explicitly stated, so the school director and a project coordinator were provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 16.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.8,
+  "total_seconds": 22.5
+ }
+}
