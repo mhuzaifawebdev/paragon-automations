@@ -1,0 +1,76 @@
+{
+ "row_id": "r072",
+ "scraped_at": "2026-10-28T18:37:35Z",
+ "contacts": {
+  "row_id": "r072",
+  "institution_name": "Musan Salama ry.",
+  "institution_type": "unknown",
+  "official_website": "https://musansalama.fi/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Kari Löytökorpi",
+   "designation": "Executive Director",
+   "designation_local": "",
+   "email": "kari.loytokorpi@musansalama.fi",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://musansalama.fi/",
+   "evidence_quote": "Toiminnanjohtaja ... Kari Löytökorpi"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Kari Löytökorpi is the Executive Director of the institution and is the primary contact person listed.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "FC Swieqi",
+    "partner_country": "Malta",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://musansalama.fi/musalaiset-tekivat-erasmus-vierailun-maltalle-timo-suontaka-naki-paikan-paalla-millaisia-oppeja-porilaiseen-arkeen-kannattaa-ottaa/",
+    "evidence_quote": "Musan Salaman edustajat pääsivät viikon aikana tutustumaan FC Swieqin arkeen. Kuvassa ensimmäisenä oikealta Musan Salaman naisten edustusjoukkueen tuleva vastuuvalmentaja Timo Suontaka, joka oli tyytyväinen matkan antiin.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Toimisto",
+    "city": "Pori",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://musansalama.fi/",
+    "evidence_quote": "Rinteentie 1"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The institution is a sports club (football) rather than a traditional educational institution. No formal list of Erasmus partners is provided, only a specific Erasmus visit to FC Swieqi.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 11.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 15.6
+ }
+}
