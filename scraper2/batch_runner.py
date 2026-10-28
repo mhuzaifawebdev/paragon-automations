@@ -250,15 +250,18 @@ def keep_better(results_dir, rid, res):
 
 
 _ROBOT = {}
+_ROBOT_LOCK = threading.Lock()
 
 
 def fetch_archive(batch):
     """A finished batch's results archive from Google Drive (scripts/queue_tick.py puts it there), or None."""
     import drive_upload
-    if "svc" not in _ROBOT:
-        _ROBOT["svc"] = drive_upload.robot_service()
-    svc = _ROBOT["svc"]
-    return drive_upload.get_bytes(svc, f"{batch} data.json.gz", drive_upload.subfolder(svc, "_archive"))
+    # the Drive client (httplib2) is not thread-safe: shared by several workers it crashes the process (segfault)
+    with _ROBOT_LOCK:
+        if "svc" not in _ROBOT:
+            _ROBOT["svc"] = drive_upload.robot_service()
+        svc = _ROBOT["svc"]
+        return drive_upload.get_bytes(svc, f"{batch} data.json.gz", drive_upload.subfolder(svc, "_archive"))
 
 
 def paid_usage_file(data_dir):
