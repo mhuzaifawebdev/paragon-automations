@@ -1,0 +1,118 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-10-28T16:15:07Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "Střední odborná škola Jarov",
+  "institution_type": "college",
+  "official_website": "https://skolajarov.cz/",
+  "country": null,
+  "phone": {
+   "value": "266 106 254",
+   "source_url": "https://skolajarov.cz/kontakty/",
+   "evidence_quote": "266 106 254"
+  },
+  "phone_alt": [],
+  "generic_email": "reditel@skolajarov.cz",
+  "generic_email_url": "https://skolajarov.cz/kontakty/",
+  "contact": {
+   "name": "Miloslav Janeček",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "reditel@skolajarov.cz",
+   "office_email": "",
+   "phone": "266 106 620",
+   "source_url": "https://skolajarov.cz/kontakty/",
+   "evidence_quote": "Janeček Miloslav, Mgr. ... ředitel školy"
+  },
+  "alternates": [
+   {
+    "name": "Noha Pavel",
+    "designation": "International Relations Office",
+    "designation_local": "",
+    "email": "noha@skolajarov.cz",
+    "office_email": "",
+    "phone": "266 106 308",
+    "source_url": "https://skolajarov.cz/kontakty/",
+    "evidence_quote": "Noha Pavel, Mgr. ... kancelář zahraničních vztahů",
+    "why_chosen": "International relations officer. He is explicitly listed as the contact for the international relations office."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the director of the institution and the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ČVUT",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://skolajarov.cz/dlouhodoba-spoluprace-s-partnerskou-vysokou-skolou-cvut/",
+    "evidence_quote": "DLOUHODOBÁ SPOLUPRÁCE S PARTNERSKOU VYSOKOU ŠKOLOU ČVUT – Střední odborná škola Jarov – Unikátní školou v mnoha směrech.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Boerma Instituut",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://skolajarov.cz/erasmus-v-nizozemsku-zkusenosti-z-boerma-institutu/",
+    "evidence_quote": "V květnu jsme měli jedinečnou příležitost zúčastnit se zahraničního pracovního pobytu v rámci programu Erasmus+. Naší cílovou destinací bylo nizozemské město Aalsmeer, kde sídlí renomovaný Boerma Instituut, který se specializuje na pořádání floristických kurzů pro začátečníky i profesionály z celého světa. Současně Boerma Instituut spolupracuje s řadou květinářství v Aalsmeeru a Amsterdamu.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ShipCon",
+    "partner_country": "Cyprus",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://skolajarov.cz/dosud-nejvetsi-skupina-v-ramci-erasmus-odletela-na-kypr/",
+    "evidence_quote": "V rámci dalšího projektu Erasmus+ (KA1) absolvují dvoutýdenní pracovní stáž ve firmách za spolupráce našeho tamního partnera – agentury ShipCon.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Střední odborná škola Jarov",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://skolajarov.cz/",
+    "evidence_quote": "Učňovská 100/1 190 00 Praha 9"
+   },
+   {
+    "campus_name": "Odloučené pracoviště Pod Táborem 17",
+    "city": "Praha",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://skolajarov.cz/kontakty/",
+    "evidence_quote": "zahradnických oborů a pro odloučené pracoviště Pod Táborem 17"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of all Erasmus+ partners, only mentioning specific ones in news articles. Contact information for international mobility is limited to the international relations office.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 15.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 23.4,
+  "total_seconds": 64.0
+ }
+}
