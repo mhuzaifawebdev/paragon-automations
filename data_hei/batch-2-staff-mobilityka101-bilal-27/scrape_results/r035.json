@@ -1,0 +1,90 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-10-27T20:38:00Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "Pier Paolo",
+  "institution_type": "school",
+  "official_website": "https://itspasolini.edu.it/",
+  "country": {
+   "value": "Italia",
+   "source_url": "https://itspasolini.edu.it/servizi/registro-elettronico-spaggiari-personale-scolastico/",
+   "evidence_quote": "Eccetto dove diversamente specificato, questo articolo è stato rilasciato sotto Licenza Creative Commons Attribuzione 4.0 Italia."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Azzurra Pagano",
+   "designation": "Teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://media.scuola.cloud/prod/itspasolini/documents/graduatorie_erasmus_2.pdf",
+   "evidence_quote": "OGGETTO: Decreto di pubblicazione delle Graduatorie Provvisorie per la selezione di n. 2 docenti (n. 1 di ... 1° PAGANO Azzurra 95 / 100 Selezionata"
+  },
+  "alternates": [
+   {
+    "name": "Antonella Balestra",
+    "designation": "Teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://media.scuola.cloud/prod/itspasolini/documents/graduatorie_erasmus_2.pdf",
+    "evidence_quote": "OGGETTO: Decreto di pubblicazione delle Graduatorie Provvisorie per la selezione di n. 2 docenti (n. 1 di ... 2° BALESTRA Antonella 90 / 100 Idonea",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Antonella Balestra is a teacher listed in the provisional Erasmus selection ranking."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Azzurra Pagano is a teacher listed in the provisional Erasmus selection ranking.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch bano-batch-1-staff-mobility-ka-101 (scraped 2026-10-27). site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Arenas de San Pedro",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://media.scuola.cloud/prod/itspasolini/documents/graduatorie_erasmus_2.pdf",
+    "evidence_quote": "Inglese e n. 1 di Sostegno) per attività di Job Shadowing in Spagna (Arenas de San Pedro - Ávila).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Istituto Tecnico Statale Pier Paolo Pasolini",
+    "city": "Milano",
+    "country": "Italia",
+    "role": "main",
+    "source_url": "https://itspasolini.edu.it/",
+    "evidence_quote": "Istituto Tecnico Statale Pier Paolo Pasolini, Via L. Bistolfi 15 - 20134 Milano (MI) - Tel. 022 104001 - Fax. 02 26415178"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions project activities in Spain but does not provide a complete list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "bano-batch-1-staff-mobility-ka-101",
+  "row_id": "r085"
+ }
+}
