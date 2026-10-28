@@ -1,0 +1,70 @@
+{
+ "row_id": "r505",
+ "scraped_at": "2026-10-28T12:20:21Z",
+ "contacts": {
+  "row_id": "r505",
+  "institution_name": "De Vinse School",
+  "institution_type": "school",
+  "official_website": "https://vinseschool.nl/",
+  "country": {
+   "value": "NEDERLAND",
+   "source_url": "https://vinseschool.nl/contact.html",
+   "evidence_quote": "AMSTERDAM, NEDERLAND"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "De Vinse School",
+    "city": "AMSTERDAM",
+    "country": "NEDERLAND",
+    "role": "main",
+    "source_url": "https://vinseschool.nl/contact.html",
+    "evidence_quote": "AMSTERDAM, NEDERLAND"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "No named staff contacts or partner institutions are mentioned in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 3.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.4,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     31
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 37.5
+ }
+}
