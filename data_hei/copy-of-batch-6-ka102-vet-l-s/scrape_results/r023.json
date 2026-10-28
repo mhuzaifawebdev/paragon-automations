@@ -1,0 +1,108 @@
+{
+ "row_id": "r023",
+ "scraped_at": "2026-10-28T17:11:08Z",
+ "contacts": {
+  "row_id": "r023",
+  "institution_name": "TechniGO! campus Ledebaan Aalst",
+  "institution_type": "school",
+  "official_website": "https://campusledebaan.be/",
+  "country": null,
+  "phone": {
+   "value": "053 46 70 00",
+   "source_url": "https://campusledebaan.be/",
+   "evidence_quote": "053 46 70 00 <tel 053467000>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@campusledebaan.be",
+  "generic_email_url": "https://campusledebaan.be/",
+  "contact": {
+   "name": "Mevr. Verbeeren",
+   "designation": "Deputy Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://campusledebaan.be/over-ons/team/",
+   "evidence_quote": "Dhr. Van Cauter & Mevr. Verbeeren ... Directeur & Adjunct-directeur Campus Ledebaan"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Mevr. Verbeeren is the deputy director and part of the school leadership team.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SODA+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://campusledebaan.be/",
+    "evidence_quote": "[2022.05.05 Bezoek Lycée]SODA+",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Schoonheidssalon Belleza",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://campusledebaan.be/",
+    "evidence_quote": "Schoonheidssalon Belleza",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conversal",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://campusledebaan.be/",
+    "evidence_quote": "Wordpress website door Conversal",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Ledebaan",
+    "city": "Aalst",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://campusledebaan.be/",
+    "evidence_quote": "CAMPUS Ledebaan"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The institution mentions Erasmus+ activities and international internships in La Réunion, Nice, and the Netherlands, but does not provide a specific list of partner institutions. The dedicated partners page is currently under construction.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 10.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 17.7
+ }
+}

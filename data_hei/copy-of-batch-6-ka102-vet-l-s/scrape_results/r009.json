@@ -1,0 +1,134 @@
+{
+ "row_id": "r009",
+ "scraped_at": "2026-10-28T17:10:50Z",
+ "contacts": {
+  "row_id": "r009",
+  "institution_name": "Instituto das Artes e da Imagem - Ensino, Investigação e Formação Tecnológica, Lda",
+  "institution_type": "college",
+  "official_website": "http://iai.pt/web/",
+  "country": null,
+  "phone": {
+   "value": "222 000 757",
+   "source_url": "http://iai.pt/web/",
+   "evidence_quote": "222 000 757 (ch. rede fixa nacional)"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria@iai.pt",
+  "generic_email_url": "http://iai.pt/web/contact-us",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Barreira A+D (Barreira Arte + Diseño)",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://iai.pt/web/erasmus-2025",
+    "evidence_quote": "Durante as reuniões, foi igualmente apresentado o programa geral da mobilidade, incluindo algumas das atividades, visitas e contactos previstos em instituições, museus, empresas e espaços culturais, com especial destaque para a visita à Barreira A+D (Barreira Arte + Diseño), instituição de ensino superior espanhola ligada às áreas das artes, do design e de outras áreas criativas.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidade Lusófona do Porto",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "http://iai.pt/web/",
+    "evidence_quote": "No dia 13 de outubro, os alunos do Instituto das Artes e da Imagem participaram no OPM Day, uma iniciativa do Grupo Casais que proporcionou uma visita ao estaleiro da obra de ampliação do Campus da Universidade Lusófona do Porto, com projeto de arquitetura de Eduardo...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rotary Club de Arouca",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://iai.pt/web/",
+    "evidence_quote": "Os alunos do 10.º ano do Curso Profissional de Técnico de Design Gráfico viram o seu trabalho reconhecido no Concurso Internacional Dreams4all, promovido pelo Rotary Club de Arouca. No passado 18 de julho, durante a cerimónia de divulgação dos resultados e entrega de...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Comissão Europeia",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iai.pt/web/wp-content/uploads/2026/03/Regulamento_Erasmus_2025-2026.pdf",
+    "evidence_quote": "2. O financiamento do Programa tem como base as dotações atribuídas para o efeito pela Comissão Europeia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agência Nacional Erasmus+ Educação e Formação",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iai.pt/web/wp-content/uploads/2026/03/Regulamento_Erasmus_2025-2026.pdf",
+    "evidence_quote": "e pela Agência Nacional Erasmus+ Educação e Formação, doravante designada AN.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Instituto das Artes e da Imagem",
+    "city": "V.N.Gaia",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "http://iai.pt/web/",
+    "evidence_quote": "Travessa General Torres, 20"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides detailed information on the Erasmus+ program management and internal procedures, but does not contain a comprehensive list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.3,
+  "crawl_s": 16.0,
+  "ai_calls": 6,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 37.8
+ }
+}
