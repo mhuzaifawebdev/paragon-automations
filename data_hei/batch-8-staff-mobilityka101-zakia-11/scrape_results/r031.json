@@ -1,0 +1,127 @@
+{
+ "row_id": "r031",
+ "scraped_at": "2026-10-28T13:28:51Z",
+ "contacts": {
+  "row_id": "r031",
+  "institution_name": "Staatliches Gymnasium Georgianum",
+  "institution_type": "school",
+  "official_website": "https://gymgeorg.de/de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Robby Krämer",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "robby.kraemer@schule.thueringen.de",
+   "office_email": "",
+   "phone": "0 36 85/6791150",
+   "source_url": "https://gymgeorg.de/images/content/sek_OG/E-Mail-AdressenLe(seit03_2020)_akt.09_25.pdf",
+   "evidence_quote": "1 KÄ Schulleiter Krämer Robby robby.kraemer@schule.thueringen.de"
+  },
+  "alternates": [
+   {
+    "name": "Andreas Roßt",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "andreas.rosst@schule.thueringen.de",
+    "office_email": "",
+    "phone": "0 36 85/6791150",
+    "source_url": "https://gymgeorg.de/images/content/sek_OG/E-Mail-AdressenLe(seit03_2020)_akt.09_25.pdf",
+    "evidence_quote": "2 RT Stellv. SL Roßt Andreas andreas.rosst@schule.thueringen.de",
+    "why_chosen": "Principal / director (no Erasmus contact found). Andreas Roßt is the deputy principal of the school."
+   },
+   {
+    "name": "Stefan Fischer",
+    "designation": "Head of Upper School",
+    "designation_local": "",
+    "email": "stefan.fischer@schule.thueringen.de",
+    "office_email": "",
+    "phone": "0 36 85/6791150",
+    "source_url": "https://gymgeorg.de/images/content/sek_OG/E-Mail-AdressenLe(seit03_2020)_akt.09_25.pdf",
+    "evidence_quote": "3 FR Oberstufenl. Fischer Stefan stefan.fischer@schule.thueringen.de",
+    "why_chosen": "Principal / director (no Erasmus contact found). Stefan Fischer is the head of the upper school."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Robby Krämer is the principal of the school and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Süd-Thüringen-Bahn",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://gymgeorg.de/de/",
+    "evidence_quote": "Fortführung Tarifkooperation Süd-Thüringen-Bahn - LK HBN - WerraBus GmbH",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LK HBN",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://gymgeorg.de/de/",
+    "evidence_quote": "Fortführung Tarifkooperation Süd-Thüringen-Bahn - LK HBN - WerraBus GmbH",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "WerraBus GmbH",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://gymgeorg.de/de/",
+    "evidence_quote": "Fortführung Tarifkooperation Süd-Thüringen-Bahn - LK HBN - WerraBus GmbH",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gymnasium Georgianum Hildburghausen",
+    "city": "Hildburghausen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://gymgeorg.de/images/content/sek_OG/E-Mail-AdressenLe(seit03_2020)_akt.09_25.pdf",
+    "evidence_quote": "Geschwister-Scholl-Straße 15 Internet: www.gymgeorg.de"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 2,
+  "coverage_note": "The evidence provides a staff directory but does not list any international partners or Erasmus+ agreements. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 10.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     119
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 34.4
+ }
+}
