@@ -29,8 +29,13 @@ ALIASES = {
     # the CONTACT person's first name (as this real sheet does: University + ...+ Name + Surname),
     # not the institution. Specific institutional terms must win that collision; "name" only
     # applies as a last resort when nothing more specific is present.
-    "institution_name": ["institution_name", "institution", "university", "school", "college", "name"],
-    "country_sheet": ["country_sheet", "country", "hei_country"],
+    "institution_name": ["institution_name", "institution", "university", "school", "college",
+                         "hei", "hei_name", "hei name", "organization", "organisation",
+                         "partner", "partner_name", "partner name", "institute", "institute_name",
+                         "erasmus_institution", "beneficiary", "applicant", "applicant_name",
+                         "sending_institution", "receiving_institution", "name"],
+    "country_sheet": ["country_sheet", "country", "hei_country", "hei_country_name",
+                      "partner_country", "country_of_hei"],
     "phone_1": ["phone_1", "phone", "phone1", "generic_phone", "contact_phone", "primary_phone",
                 "contact_work_phone_number", "work_phone_number"],
     "phone_2": ["phone_2", "phone2", "work_phone", "secondary_phone", "contact_generic_phone_number"],
