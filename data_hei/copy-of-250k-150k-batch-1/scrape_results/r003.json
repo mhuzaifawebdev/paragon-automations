@@ -1,0 +1,62 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-10-28T19:47:39Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "Asociacion Autismo Sevilla",
+  "institution_type": "unknown",
+  "official_website": "https://www.autismosevilla.org/",
+  "country": null,
+  "phone": {
+   "value": "954 405 446",
+   "source_url": "https://www.autismosevilla.org/",
+   "evidence_quote": "Teléfono: 954 405 446"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Autismo Sevilla",
+    "city": "Sevilla",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.autismosevilla.org/",
+    "evidence_quote": "Dirección: Avda. del Deporte, 3. Acc A. 41020 - Sevilla"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not list any specific staff members or international partners. The institution appears to be an association focused on autism support rather than a traditional academic institution.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 7.9,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 40.8
+ }
+}
