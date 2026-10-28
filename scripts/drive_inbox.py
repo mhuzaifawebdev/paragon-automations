@@ -188,9 +188,12 @@ def pickup_scan_drive(svc, data_root, queue, cfg, now):
         if fid in seen_ids or fid in skip:
             continue
         try:
-            data = drive_upload.download(svc, f)
-            text, note = table_from_file(name + ".gsheet", "application/vnd.google-apps.spreadsheet", data)
-        except Unusable:
+            # Export as XLSX so all tabs are available (table_from_file tries each tab for xlsx).
+            # Falls back gracefully if the sheet has only one tab.
+            data = drive_upload.download_xlsx(svc, f)
+            text, note = table_from_file(name + ".xlsx", drive_upload.XLSX, data)
+        except Unusable as e:
+            log.append(f"auto-scan '{name}' ({fid}): skipped — {e}")
             queue.setdefault("auto_queued_ids", []).append(fid)   # no institute columns — skip forever
             seen_ids.add(fid)
             continue

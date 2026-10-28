@@ -207,6 +207,19 @@ def download(svc, f):
     return buf.getvalue()
 
 
+def download_xlsx(svc, f):
+    """Export a Google Sheet as XLSX (all tabs preserved). Falls back to CSV download for non-sheets."""
+    import io
+    from googleapiclient.http import MediaIoBaseDownload
+    req = (svc.files().export_media(fileId=f["id"], mimeType=XLSX) if f.get("mimeType") == SHEET_MIME
+           else svc.files().get_media(fileId=f["id"], supportsAllDrives=True))
+    buf, done = io.BytesIO(), False
+    dl = MediaIoBaseDownload(buf, req)
+    while not done:
+        _, done = dl.next_chunk()
+    return buf.getvalue()
+
+
 def move(svc, file_id, to_folder):
     parents = svc.files().get(fileId=file_id, fields="parents", supportsAllDrives=True).execute().get("parents", [])
     svc.files().update(fileId=file_id, addParents=to_folder, removeParents=",".join(parents), fields="id",
