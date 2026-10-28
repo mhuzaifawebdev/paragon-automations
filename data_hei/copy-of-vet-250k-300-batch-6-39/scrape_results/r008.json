@@ -1,0 +1,70 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-28T17:51:49Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Ludwig Erhard - Schule",
+  "institution_type": "school",
+  "official_website": "https://www.les-frankfurt.de/",
+  "country": null,
+  "phone": {
+   "value": "069 - 212 43900",
+   "source_url": "https://www.les-frankfurt.de/",
+   "evidence_quote": "069 - 212 43900"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Suna Sengün",
+   "designation": "Liaison teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.les-frankfurt.de/index.php/beratungsteam2",
+   "evidence_quote": "Suna Sengün - Verbindungslehrkraft"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Suna Sengün is a liaison teacher and contact person for student concerns and student representation.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ludwig-Erhard-Schule",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.les-frankfurt.de/",
+    "evidence_quote": "Ludwig-Erhard-Schule"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The provided evidence does not contain any information regarding international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.5,
+  "crawl_s": 13.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "total_seconds": 26.5
+ }
+}
