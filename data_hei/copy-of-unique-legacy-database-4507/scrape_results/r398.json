@@ -1,0 +1,121 @@
+{
+ "row_id": "r398",
+ "scraped_at": "2026-10-28T12:05:20Z",
+ "contacts": {
+  "row_id": "r398",
+  "institution_name": "Campus FLX",
+  "institution_type": "school",
+  "official_website": "https://www.campusflx.be/",
+  "country": {
+   "value": "België",
+   "source_url": "https://www.campusflx.be/evenementgegevens/multiplier-event-erasmus-dont-drop-me-out-project-tegen-schooluitval",
+   "evidence_quote": "Leopoldsburg, Kastanjedreef 1, 3970 Leopoldsburg, België"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@campusflx.be",
+  "generic_email_url": "https://www.campusflx.be/secundair-onderwijs-partners",
+  "contact": {
+   "name": "Loore Schreurs",
+   "designation": "Director Basisonderwijs",
+   "designation_local": "",
+   "email": "loore.schreurs@campusflx.be",
+   "office_email": "info@campusflx.be",
+   "phone": "+32 11 34 11 49",
+   "source_url": "https://www.campusflx.be/ons-team",
+   "evidence_quote": "Mevr. Loore Schreurs ... Directeur Basisonderwijs",
+   "email_source_url": "https://www.leopoldsburg.be/vereniging-flx-connect"
+  },
+  "alternates": [
+   {
+    "name": "Johan Schepkens",
+    "designation": "Directeur Secundair Onderwijs",
+    "designation_local": "",
+    "email": "info@campusflx.be",
+    "office_email": "",
+    "phone": "+32 11 34 11 49",
+    "source_url": "https://www.campusflx.be/ons-team",
+    "evidence_quote": "Dhr. Johan Schepkens ... Directeur Secundair Onderwijs",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the director of secondary education, he is a key leadership contact for the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the director of the primary education department, she is a key leadership contact for the institution. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Xpert",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.campusflx.be/secundair-onderwijs-partners",
+    "evidence_quote": "[Logo Xpert.png]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Epos",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.campusflx.be/secundair-onderwijs-partners",
+    "evidence_quote": "[epos.png]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Leefhuis Connect",
+    "partner_country": "België",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.campusflx.be/contacteer-flx",
+    "evidence_quote": "Kom je van ver? Geen probleem! Leefhuis Connect ligt op wandelafstand van Campus FLX. In dit internaat groeien jongeren op in een warme leer- en leefomgeving.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus FLX",
+    "city": "Leopoldsburg",
+    "country": "België",
+    "role": "main",
+    "source_url": "https://www.campusflx.be/ons-team",
+    "evidence_quote": "Atheneumstraat 2"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The institution lists general partners but does not provide a specific list of Erasmus+ partner universities or schools. No specific international relations office or coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 20.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 15.3,
+  "slices": [
+   {
+    "lines": [
+     281,
+     389
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 41.3
+ }
+}
