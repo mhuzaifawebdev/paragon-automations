@@ -1,0 +1,86 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-28T19:55:46Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "MFR VENANSAULT",
+  "institution_type": "college",
+  "official_website": "https://www.formations-venansault.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Maison Familiale Rurale de Vendée",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.formations-venansault.com/page-151-nos-partenaires.html",
+    "evidence_quote": "Maison Familiale Rurale de Vendée |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Maison Familiale Rurale",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.formations-venansault.com/page-151-nos-partenaires.html",
+    "evidence_quote": "Maison Familiale Rurale",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Enseignement Agricole",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.formations-venansault.com/page-151-nos-partenaires.html",
+    "evidence_quote": "Enseignement Agricole |",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "MFR Venansault - Les Hermitans",
+    "city": "Venansault",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.formations-venansault.com/",
+    "evidence_quote": "MFR Venansault - Les Hermitans - 85190 Venansault"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The evidence does not provide a specific list of international Erasmus+ partner institutions, only general destination countries and types of organizations visited during mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 10.0,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "total_seconds": 22.8
+ }
+}

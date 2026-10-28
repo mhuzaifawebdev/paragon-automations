@@ -1,0 +1,96 @@
+{
+ "row_id": "r009",
+ "scraped_at": "2026-10-28T19:55:47Z",
+ "contacts": {
+  "row_id": "r009",
+  "institution_name": "LPP LA FONTAINE",
+  "institution_type": "school",
+  "official_website": "https://lpp-lafontaine.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@lpp-lafontaine.com",
+  "generic_email_url": "https://lpp-lafontaine.com/contact.html",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Espagne",
+    "partner_country": "Espagne",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpp-lafontaine.com/infos-pratiques/erasmus.html",
+    "evidence_quote": "Nous avons des partenaires en Espagne, en Italie, en Belgique (en fonction de la filière professionnelle) et nous organisons le séjour des élèves avec l’aide de ces partenaires.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Italie",
+    "partner_country": "Italie",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpp-lafontaine.com/infos-pratiques/erasmus.html",
+    "evidence_quote": "Nous avons des partenaires en Espagne, en Italie, en Belgique (en fonction de la filière professionnelle) et nous organisons le séjour des élèves avec l’aide de ces partenaires.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Belgique",
+    "partner_country": "Belgique",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpp-lafontaine.com/infos-pratiques/erasmus.html",
+    "evidence_quote": "Nous avons des partenaires en Espagne, en Italie, en Belgique (en fonction de la filière professionnelle) et nous organisons le séjour des élèves avec l’aide de ces partenaires.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée La Fontaine",
+    "city": "Faverges",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lpp-lafontaine.com/",
+    "evidence_quote": "Tous droits réservés Lycée La Fontaine - Chemin des Prés d'Enfer, Est - CS 60064 - 74210 Faverges - Tél. 04 50 44 50 01"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The evidence mentions that the institution has partners in Spain, Italy, and Belgium, but does not provide a specific list of names of these partner institutions. No specific Erasmus coordinator is named. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 14.1,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 29.8
+ }
+}

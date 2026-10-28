@@ -1,0 +1,95 @@
+{
+ "row_id": "r024",
+ "scraped_at": "2026-10-28T19:56:30Z",
+ "contacts": {
+  "row_id": "r024",
+  "institution_name": "Felobel",
+  "institution_type": "unknown",
+  "official_website": "https://felobel.be/",
+  "country": null,
+  "phone": {
+   "value": "+32 470 01 40 30",
+   "source_url": "https://felobel.be/",
+   "evidence_quote": "info@felobel.be <info@felobel.be> · +32 470 01 40 30 <tel +32470014030>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@felobel.be",
+  "generic_email_url": "https://felobel.be/",
+  "contact": {
+   "name": "Romain Ducenne",
+   "designation": "Coordinator/Founder",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://felobel.be/apropos",
+   "evidence_quote": "Romain Ducenne ... Coordinateur/Fondateur"
+  },
+  "alternates": [
+   {
+    "name": "Guillaume Beeckman",
+    "designation": "Head of Pedagogy",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://felobel.be/apropos",
+    "evidence_quote": "Guillaume Beeckman ... Responsable Pédagogie",
+    "why_chosen": "Other role. Guillaume Beeckman is the person responsible for pedagogy at the institution."
+   },
+   {
+    "name": "Yosra Bakali",
+    "designation": "Head of People",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://felobel.be/apropos",
+    "evidence_quote": "Yosra Bakali ... Responsable people",
+    "why_chosen": "Other role. Yosra Bakali is the person responsible for people management at the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Romain Ducenne is listed as the Coordinator and Founder of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Felobel",
+    "city": "Schaerbeek",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://felobel.be/contact",
+    "evidence_quote": "AdresseRue des Palais 34, 1030 Schaerbeek"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "Felobel is an association (ASBL) rather than a traditional educational institution, and no specific staff members or Erasmus+ partners are listed on their website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 3.9,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 1.5,
+  "total_seconds": 18.6
+ }
+}
