@@ -1932,20 +1932,30 @@
    "source": "Merged Legacy Database Batch-8 SANA-633",
    "file_id": "1_UBy8PZyjIpeUKii-pvj2n9-PitsxeK-GMkY50OkZv8",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 305,
    "started": "2026-10-28T23:30:29Z",
    "last_start": "2026-10-28T23:30:29Z",
    "restarts": 0,
-   "cap_usd": 793.93
+   "cap_usd": 793.93,
+   "spend_recorded": true,
+   "cost_usd": 0.5034,
+   "drive_link": "https://docs.google.com/spreadsheets/d/16IfgN9KudI1FUzUEG30wkHd4Lm9bLUOZ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 61,
+   "finished": "2026-10-28T23:49:49Z",
+   "reason": "295 institutes, 48 with a contact"
   },
   {
    "batch": "merged-legacy-database-batch-7-talha",
    "source": "Merged Legacy Database Batch-7 TALHA-500",
    "file_id": "1URuDFo5V5gmrr0ch8ALDOWHs8ObVKzYmVlmo1rHwUPA",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 63
+   "state": "running",
+   "rows": 63,
+   "started": "2026-10-28T23:49:49Z",
+   "last_start": "2026-10-28T23:49:49Z",
+   "restarts": 0,
+   "cap_usd": 793.42
   },
   {
    "batch": "merged-legacy-database-batch-7-a-mar",
@@ -3003,7 +3013,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-28T23:30:29Z",
+ "updated": "2026-10-28T23:49:49Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
