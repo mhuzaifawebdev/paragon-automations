@@ -1,0 +1,64 @@
+{
+ "row_id": "r557",
+ "scraped_at": "2026-10-28T12:25:59Z",
+ "contacts": {
+  "row_id": "r557",
+  "institution_name": "Brüder Grimm Schule",
+  "institution_type": "school",
+  "official_website": "https://brueder-grimm-schule.hamburg.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Standort Steinadlerweg",
+    "city": "Hamburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://brueder-grimm-schule.hamburg.de/",
+    "evidence_quote": "Standort Steinadlerweg"
+   },
+   {
+    "campus_name": "Standort Querkamp",
+    "city": "Hamburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://brueder-grimm-schule.hamburg.de/",
+    "evidence_quote": "Standort Querkamp"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The provided text contains only basic homepage info with campus locations; no staff contacts or international mobility partners are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 4.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.1,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 36.2
+ }
+}
