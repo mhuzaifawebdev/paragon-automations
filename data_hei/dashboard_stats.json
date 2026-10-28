@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-28T19:45:47.924606+00:00",
+ "generated_at": "2026-10-28T19:50:24.041680+00:00",
  "totals": {
-  "institutes": 6379,
-  "with_contact": 4196,
-  "with_email": 3548,
-  "personal_email": 2484,
-  "generic_email": 2547,
-  "partners": 90129,
-  "campuses": 8377,
-  "no_website": 805,
-  "with_website": 5574,
-  "batches": 81
+  "institutes": 6404,
+  "with_contact": 4208,
+  "with_email": 3559,
+  "personal_email": 2490,
+  "generic_email": 2555,
+  "partners": 90194,
+  "campuses": 8401,
+  "no_website": 810,
+  "with_website": 5594,
+  "batches": 82
  },
  "days": [
   {
@@ -111,30 +111,46 @@
   },
   {
    "day": "2026-10-27",
-   "institutes": 1348,
-   "with_contact": 870,
-   "with_email": 748,
-   "personal_email": 522,
+   "institutes": 1350,
+   "with_contact": 871,
+   "with_email": 749,
+   "personal_email": 523,
    "generic_email": 547,
    "partners": 8827,
-   "campuses": 1501,
+   "campuses": 1503,
    "no_website": 70,
-   "with_website": 1278
+   "with_website": 1280
   },
   {
    "day": "2026-10-28",
-   "institutes": 3561,
-   "with_contact": 2122,
-   "with_email": 1790,
-   "personal_email": 1153,
-   "generic_email": 1309,
-   "partners": 26978,
-   "campuses": 4325,
-   "no_website": 591,
-   "with_website": 2970
+   "institutes": 3584,
+   "with_contact": 2133,
+   "with_email": 1800,
+   "personal_email": 1158,
+   "generic_email": 1317,
+   "partners": 27043,
+   "campuses": 4347,
+   "no_website": 596,
+   "with_website": 2988
   }
  ],
  "batches": [
+  {
+   "batch": "copy-of-250k-150k-batch-1",
+   "status": "running",
+   "total_rows": 44,
+   "done": 25,
+   "updated": "2026-10-28T19:50:19.145252+00:00",
+   "institutes": 25,
+   "with_contact": 12,
+   "with_email": 11,
+   "personal_email": 6,
+   "generic_email": 8,
+   "partners": 65,
+   "campuses": 24,
+   "no_website": 5,
+   "with_website": 20
+  },
   {
    "batch": "copy-of-250k-150k-batch-4-b1",
    "status": "done",
