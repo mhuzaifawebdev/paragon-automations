@@ -1,0 +1,80 @@
+{
+ "row_id": "r009",
+ "scraped_at": "2026-10-28T21:12:16Z",
+ "contacts": {
+  "row_id": "r009",
+  "institution_name": "Colegio Nuestra Señora Del Pilar",
+  "institution_type": "unknown",
+  "official_website": "https://www.cnp.fr/particuliers",
+  "country": null,
+  "phone": {
+   "value": "01 42 18 88 88",
+   "source_url": "https://www.cnp.fr/en/the-cnp-assurances-group/candidates/contacts",
+   "evidence_quote": "01 42 18 88 88 <tel 01%2042%2018%2088%2088>"
+  },
+  "phone_alt": [],
+  "generic_email": "cnp.recrutement-mobilite@cnp.fr",
+  "generic_email_url": "https://www.cnp.fr/en/the-cnp-assurances-group/candidates/contacts",
+  "contact": {
+   "name": "Marie-Aude Thépaut",
+   "designation": "Chief Executive Officer, President of the Foundation",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.cnp.fr/le-groupe-cnp-assurances/qui-sommes-nous/la-fondation-cnp-assurances/gouvernance-de-la-fondation",
+   "evidence_quote": "Marie-Aude Thépaut, directrice générale, présidente de la Fondation"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Chief Executive Officer and President of the Foundation, she holds the highest leadership position within the organization.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Net-Zero Asset Owner Alliance",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cnp.fr/le-groupe-cnp-assurances/nos-engagements/fonctionnement-responsable/nos-partenaires-et-engagements-internationaux",
+    "evidence_quote": "la Net-Zero Asset Owner Alliance pour la décarbonation des portefeuilles,",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Headquarters",
+    "city": "Issy-les-Moulineaux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.cnp.fr/le-groupe-cnp-assurances/nos-engagements/fonctionnement-responsable/mobilites-batiments-et-sobriete",
+    "evidence_quote": "En matière de bâtiments, nous privilégions des sites performants et limitons les surfaces occupées. Notre siège d’Issy-les‑Moulineaux rassemble l’ensemble des équipes franciliennes dans un bâtiment certifié HQE Exceptionnel, BREEAM Outstanding et BEPOS. Des certifications qui contribuent à réduire significativement l’énergie consommée. L’optimisation des espaces, grâce au flex office, permet de diminuer les besoins énergétiques, en France comme dans les principales implantations internationales."
+   }
+  ],
+  "stated_total": 350,
+  "stated_total_quote": "partenaires :",
+  "stated_total_url": "https://www.cnp.fr/particuliers",
+  "truncated": true,
+  "total_seen": 350,
+  "pages_read": 10,
+  "coverage_note": "The institution is an insurance company, not an educational institution, and therefore does not have Erasmus+ mobility programs or academic partners. The provided evidence focuses on corporate partnerships and business operations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 16.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.4,
+  "total_seconds": 20.0
+ }
+}
