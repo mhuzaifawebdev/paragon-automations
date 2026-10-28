@@ -1,0 +1,104 @@
+{
+ "row_id": "r037",
+ "scraped_at": "2026-10-28T19:58:03Z",
+ "contacts": {
+  "row_id": "r037",
+  "institution_name": "Lycée polyvalent Jean Moulin",
+  "institution_type": "school",
+  "official_website": "https://lyceejeanmoulinlbm.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UNSS",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceejeanmoulinlbm.com/",
+    "evidence_quote": "7 élèves de 2 MRC1 de la section foot/futsal ont participé à une journée sportive organisée par le service régional de l’UNSS. Ils ont pu…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université de la Sorbonne",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceejeanmoulinlbm.com/",
+    "evidence_quote": "Les élèves de 1MA ont visité l’Université de la Sorbonne le mercredi 7 mai afin de préparer l’accueil évènementiel du 22 mai à l’occasion de…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "université de Paris 8",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceejeanmoulinlbm.com/",
+    "evidence_quote": "Samedi 9 mai, les élèves de TAGORA2 ont participé à la simulation de la République : le budget de l’Etat 2026 à l’université de Paris 8. Cet…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "collège Cotton",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceejeanmoulinlbm.com/",
+    "evidence_quote": "Jeudi 09 avril, lors d’une cérémonie organisée au collège Cotton, le lycée s’est vu remettre le diplôme E3D du niveau « expertise », acquis grâce…",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée polyvalent Jean Moulin",
+    "city": "Le Blanc-Mesnil",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceejeanmoulinlbm.com/",
+    "evidence_quote": "Lycée polyvalent Jean Moulin – LE BLANC MESNIL"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 4,
+  "coverage_note": "The evidence confirms the institution is an Erasmus+ accredited school but does not name any specific staff members responsible for international mobility or provide a list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.1,
+  "crawl_s": 7.8,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     96
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 17.1
+ }
+}

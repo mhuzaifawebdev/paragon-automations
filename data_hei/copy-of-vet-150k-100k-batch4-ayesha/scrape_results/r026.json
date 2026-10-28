@@ -1,0 +1,82 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-28T19:57:51Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "Ayuntamiento de Fuente Palmera",
+  "institution_type": "unknown",
+  "official_website": "https://fuentepalmera.es/",
+  "country": null,
+  "phone": {
+   "value": "957 63 70 03",
+   "source_url": "https://fuentepalmera.es/",
+   "evidence_quote": "email: alcaldia@fuentepalmera.es <alcaldia@fuentepalmera.es> | Tfno: 957 63 70 03"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "David M. Yubero Rey",
+   "designation": "Data Protection Officer",
+   "designation_local": "",
+   "email": "protecciondedatos@dipucordoba.es",
+   "office_email": "",
+   "phone": "957160050",
+   "source_url": "https://fuentepalmera.es/aviso-legal/",
+   "evidence_quote": "Delegado de Protección de Datos: ... Contacto: David M. Yubero Rey"
+  },
+  "alternates": [],
+  "rung": "Other role. David M. Yubero Rey is the Data Protection Officer for the institution.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Diputación Provincial de Córdoba",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://fuentepalmera.es/publicidad-subvenciones-plan-provincial-de-cooperacion-economica-para-la-realizacion-de-obras-y-servicios-municipales-2014/",
+    "evidence_quote": "Primero: Mediante la presente se hace público las subvenciones concedidas por la Excma. Diputación Provincial de Córdoba dentro del PLAN PROVINCIAL DE COOPERACION ECONOMICA PARA LA REALIZACION DE OBRAS Y SERVICIOS MUNICIPALES 2014, publicado BOP núm. 51 de 14/03/2014.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ayuntamiento de Fuente Palmera",
+    "city": "Fuente Palmera",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://fuentepalmera.es/",
+    "evidence_quote": "Plaza Real 1, 14120 Fuente Palmera (Córdoba)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The institution is a municipal government body rather than an educational institution, so it does not have a list of Erasmus+ partners. Information regarding international mobility is limited to general municipal cooperation.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 13.6,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 1.9,
+  "total_seconds": 44.5
+ }
+}
