@@ -1,0 +1,143 @@
+{
+ "row_id": "r015",
+ "scraped_at": "2026-10-28T14:38:57Z",
+ "contacts": {
+  "row_id": "r015",
+  "institution_name": "AGE ASSOMPTION SAINTE CLOTILDE",
+  "institution_type": "college",
+  "official_website": "https://assomption-bordeaux.com/",
+  "country": null,
+  "phone": {
+   "value": "+33(0) 5 56 48 77 77",
+   "source_url": "https://assomption-bordeaux.com/",
+   "evidence_quote": "+33(0) 5 56 48 77 77"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "RICHARD GRILLE",
+   "designation": "Coordinating Head of Establishment",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+33(0) 5 56 48 77 77",
+   "source_url": "https://assomption-bordeaux.com/",
+   "evidence_quote": "RICHARD GRILLE, Chef d’établissement coordinateur"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). RICHARD GRILLE is the Coordinating Head of Establishment and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "San Valero",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://assomption-bordeaux.com/erasmus/",
+    "evidence_quote": "Mettre en place et/ou renforcer les partenariats entre établissements (conventions en cours de signature : San Valero à Saragosse (ESP), Antipolo aux philippines et UBC (CAN),",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Antipolo",
+    "partner_country": "Philippines",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://assomption-bordeaux.com/erasmus/",
+    "evidence_quote": "Mettre en place et/ou renforcer les partenariats entre établissements (conventions en cours de signature : San Valero à Saragosse (ESP), Antipolo aux philippines et UBC (CAN),",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UBC",
+    "partner_country": "Canada",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://assomption-bordeaux.com/erasmus/",
+    "evidence_quote": "Mettre en place et/ou renforcer les partenariats entre établissements (conventions en cours de signature : San Valero à Saragosse (ESP), Antipolo aux philippines et UBC (CAN),",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UGSEL",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://assomption-bordeaux.com/",
+    "evidence_quote": "Retour sur le Championnat National de Raid UGSEL",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lego League",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://assomption-bordeaux.com/",
+    "evidence_quote": "Au collège, des ateliers d’informatique et de robotique sont proposés afin de s’initier aux logiciels à la sécurité mais également à la programmation et construction de robots en vue de participer à la Lego League.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "réseau national et international de l’Assomption",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://assomption-bordeaux.com/",
+    "evidence_quote": "Situé dans le centre de Bordeaux, l’ensemble scolaire Assomption Sainte Clotilde fait partie du réseau national et international de l’Assomption. Fondé en 1875 par Sainte Marie Eugénie, l’établissement s’inscrit dans le projet apostolique et éducatif, en contrat d’association avec l’État, tout en portant les valeurs humanistes et spirituelles qui ont forgé son histoire.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Wilson",
+    "city": "Bordeaux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://assomption-bordeaux.com/accueil-campus/",
+    "evidence_quote": "Campus Wilson Assomption Bordeaux"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 7,
+  "coverage_note": "The evidence mentions participation in Erasmus+ consortiums and partnerships with various international institutions, but does not provide a comprehensive list of all partner institutions. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.8,
+  "crawl_s": 14.4,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 9.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     421,
+     501
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 33.4
+ }
+}
