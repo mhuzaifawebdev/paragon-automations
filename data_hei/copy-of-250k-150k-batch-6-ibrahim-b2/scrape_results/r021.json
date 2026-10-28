@@ -1,0 +1,93 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-10-28T18:33:06Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "Grad Kastav",
+  "institution_type": "unknown",
+  "official_website": "https://kastav.hr/",
+  "country": {
+   "value": "HR",
+   "source_url": "https://kastav.hr/",
+   "evidence_quote": "Adresa: Grad Kastav, Trg svete Lucije 1, 51215 Kastav, HR - 51215 KASTAV"
+  },
+  "phone": {
+   "value": "051/688-206",
+   "source_url": "https://kastav.hr/adresar-gradske-uprave/",
+   "evidence_quote": "051/688-206 <tel 051688206>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@kastav.hr",
+  "generic_email_url": "https://kastav.hr/adresar-gradske-uprave/",
+  "contact": {
+   "name": "Krešimir Vidović",
+   "designation": "Head of the Administrative Department for Finance and Development",
+   "designation_local": "",
+   "email": "kresimir.vidovic@kastav.hr",
+   "office_email": "",
+   "phone": "051/688-206",
+   "source_url": "https://kastav.hr/adresar-gradske-uprave/",
+   "evidence_quote": "PROČELNIK UPRAVNOG ODJELA ZA FINANCIJE I RAZVOJ ... Krešimir Vidović, dipl.oec."
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Other role. Krešimir Vidović is the Head of the Administrative Department for Finance and Development and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Dječji vrtić Poneštrica",
+    "partner_country": "HR",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://kastav.hr/",
+    "evidence_quote": "Grad Kastav je u partnerstvu s Dječjim vrtićem Poneštrica dovršio obnovu objekta Kockica, u sklopu projekta ''Skockana Kockica – unaprjeđenje...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hrvatski zavod za zapošljavanje",
+    "partner_country": "HR",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kastav.hr/potpisan-sporazum-o-suradnji-izmedu-grada-kastva-i-hrvatskog-zavoda-za-zaposljavanje/",
+    "evidence_quote": "U utorak je u sklopu Dana otvorenih vrata poduzetničkog inkubatora KASPI svečano potpisan sporazum o suradnji između Grada Kastva i Hrvatskog zavoda za zapošljavanje. Sporazum su potpisali Matej Mostarac, gradonačelnik Grada Kastva, i Željko Marković, predstojnik Hrvatskog zavoda za zapošljavanja – područna služba Rijeka.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Grad Kastav",
+    "city": "Kastav",
+    "country": "HR",
+    "role": "main",
+    "source_url": "https://kastav.hr/",
+    "evidence_quote": "Adresa: Grad Kastav, Trg svete Lucije 1, 51215 Kastav, HR - 51215 KASTAV"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The evidence provides information about the municipal administration of Kastav and its local departments, but does not contain a list of international Erasmus+ partners or mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.1,
+  "crawl_s": 59.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 66.9
+ }
+}
