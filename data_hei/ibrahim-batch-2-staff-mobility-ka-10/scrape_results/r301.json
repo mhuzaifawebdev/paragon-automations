@@ -1,0 +1,117 @@
+{
+ "row_id": "r301",
+ "scraped_at": "2026-10-28T10:42:23Z",
+ "contacts": {
+  "row_id": "r301",
+  "institution_name": "Ivan",
+  "institution_type": "school",
+  "official_website": "https://os-bedekovcina.skole.hr/",
+  "country": {
+   "value": "Hrvatska",
+   "source_url": "https://os-bedekovcina.skole.hr/",
+   "evidence_quote": "Hrvatska psihološka komora"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "admin@os-bedekovcina.skole.hr",
+  "generic_email_url": "https://os-bedekovcina.skole.hr/",
+  "contact": {
+   "name": "Ivan Paradi",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ivan.paradi@skole.hr",
+   "office_email": "",
+   "phone": "0995882110",
+   "source_url": "https://os-bedekovcina.skole.hr/",
+   "evidence_quote": "Ivan Paradi, ravnatelj"
+  },
+  "alternates": [
+   {
+    "name": "Marica Celjak",
+    "designation": "Erasmus coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://os-bedekovcina.skole.hr/projekti/erasmus-akreditacija/",
+    "evidence_quote": "uređuje stranicu::Marica Celjak, Erasmus koordinatorica",
+    "why_chosen": "Mobility coordinator. Marica Celjak is explicitly named as the Erasmus coordinator for the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Ivan Paradi is the principal of the school and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Osnovna šola Bršljin",
+    "partner_country": "Slovenia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://os-bedekovcina.skole.hr/projekti/erasmus-akreditacija/",
+    "evidence_quote": "Pripremni osjet Osnovnoj školi Bršljin (Osnovna šola Bršljin, Novo mesto)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "OŠ Matija Gubec Tavankut",
+    "partner_country": "Serbia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://os-bedekovcina.skole.hr/4-godina-erasmus/",
+    "evidence_quote": "Sastanak sa partnerskom školom Matije Gupca Tavankut, Vojvodina",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Základná škola Pavla Országha Hviezdoslava",
+    "partner_country": "Slovakia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://os-bedekovcina.skole.hr/4-godina-erasmus/",
+    "evidence_quote": "Sastanak s partnerskom školom Pavla Országha Hviezdoslava iz Trstene",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Osnovna škola Bedekovčina",
+    "city": "Bedekovčina",
+    "country": "Hrvatska",
+    "role": "main",
+    "source_url": "https://os-bedekovcina.skole.hr/",
+    "evidence_quote": "Gajeva 13"
+   },
+   {
+    "campus_name": "Područna škola Poznanovec",
+    "city": "Poznanovec",
+    "country": "Hrvatska",
+    "role": "branch",
+    "source_url": "https://os-bedekovcina.skole.hr/",
+    "evidence_quote": "U Područnoj školi Poznanovec obilježen Dan kruha i zahvalnosti za plodove zemlje"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The institution lists several partners in the text, but does not provide a comprehensive list of all Erasmus+ partners. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.5,
+  "crawl_s": 16.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 24.7
+ }
+}
