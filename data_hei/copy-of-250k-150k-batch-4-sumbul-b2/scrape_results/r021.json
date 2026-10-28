@@ -1,0 +1,104 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-10-28T19:07:45Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "Lycée Henri Sainte Claire Deville",
+  "institution_type": "school",
+  "official_website": "https://henri-sainte-claire-deville-issoire.ent.auvergnerhonealpes.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cie Méli mélo",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://henri-sainte-claire-deville-issoire.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "Les élèves se sont rendus à la salle du Strapontin pour assister au spectacle Une mémoire sous le sable de la Cie Méli mélo. Cela leur a permis d'appréhender un épisode méconnu de notre histoire.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Les Légumes de Clairette",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://henri-sainte-claire-deville-issoire.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "Les élèves de la classe de troisième prépa-métiers ont visité l'exploitation « Les Légumes de Clairette », route de Perrier. Une immersion riche en enseignements et en perspectives d'orientation.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Académie de Clermont-Ferrand",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://henri-sainte-claire-deville-issoire.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "[Académie de Clermont-Ferrand]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Région Auvergne-Rhône-Alpes",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://henri-sainte-claire-deville-issoire.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "[Région Auvergne-Rhône-Alpes]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Professionnel Henri Sainte Claire Deville",
+    "city": "Issoire",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://henri-sainte-claire-deville-issoire.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "Lycée Professionnel Henri Sainte Claire Deville - ISSOIRE"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 6,
+  "coverage_note": "The website does not provide a list of international partners or specific contact information for an Erasmus+ coordinator. The contact page is empty.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 7.5,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     136
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 20.9
+ }
+}
