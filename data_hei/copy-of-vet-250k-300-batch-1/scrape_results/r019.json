@@ -1,0 +1,81 @@
+{
+ "row_id": "r019",
+ "scraped_at": "2026-10-28T18:12:17Z",
+ "contacts": {
+  "row_id": "r019",
+  "institution_name": "Colegio Rafaela Ybarra",
+  "institution_type": "school",
+  "official_website": "https://colegiorafaelaybarra.com/",
+  "country": null,
+  "phone": {
+   "value": "915 69 12 05",
+   "source_url": "https://colegiorafaelaybarra.com/contacto/",
+   "evidence_quote": "915 69 12 05 <tel 915691205>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Unión Europea",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://colegiorafaelaybarra.com/",
+    "evidence_quote": "Proyecto acogido al programa de incentivos ligados al autoconsumo y almacenamiento, con fuentes de energía renovable, así como a la implantación de sistemas térmicos renobales en el sector residencial en el marco del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea - NextGenerationEU",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegio Rafaela Ybarra",
+    "city": "Madrid",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://colegiorafaelaybarra.com/",
+    "evidence_quote": "Av. de Rafaela Ybarra, 73,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The website mentions participation in Erasmus+ programs but does not provide a list of partner institutions or specific contact persons for international mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 5.4,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     114
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 18.3
+ }
+}
