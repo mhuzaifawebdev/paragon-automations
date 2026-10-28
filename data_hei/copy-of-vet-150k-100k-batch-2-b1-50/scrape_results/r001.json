@@ -1,0 +1,62 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-28T20:01:20Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "CEPA Artà",
+  "institution_type": "college",
+  "official_website": "https://www.cepaarta.cat/",
+  "country": null,
+  "phone": {
+   "value": "971 829 300",
+   "source_url": "https://www.cepaarta.cat/",
+   "evidence_quote": "Telèfon: 971 829 300"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "CEPA Artà",
+    "city": "Artà",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.cepaarta.cat/oferta-educativa/formaci%C3%B3-professional/cp2-atenci%C3%B3-sociosanit%C3%A0ria-en-insititucions-i-en-el-domicili",
+    "evidence_quote": "Ubicació: CEPA Artà"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "No specific contact persons are named on the website. The institution mentions participating in Erasmus+ mobility activities but does not provide a list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 12.1,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 13.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 34.5
+ }
+}

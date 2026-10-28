@@ -1,0 +1,113 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-28T20:01:43Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Lycée professionnel Auguste Perdonnet",
+  "institution_type": "school",
+  "official_website": "https://perdonnet.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. Camus",
+   "designation": "Webmaster",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://perdonnet.fr/",
+   "evidence_quote": "© Directrice de la publication : Mme Bérard, proviseure / Webmestre : M. Camus"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). He is the webmaster of the institution's website.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Union européenne",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://perdonnet.fr/",
+    "evidence_quote": "Il a reçu les labels E3D, Euroscol, Erasmus+ et participe au programme Ecole ambassadrice de l’Union européenne.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Italie",
+    "partner_country": "Italie",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://perdonnet.fr/mobilite-erasmus-2026/",
+    "evidence_quote": "Mobilité Erasmus+ 2026 : Italie & Portugal (nouvelles photos) – LP Auguste Perdonnet",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Portugal",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://perdonnet.fr/mobilite-erasmus-2026/",
+    "evidence_quote": "Mobilité Erasmus+ 2026 : Italie & Portugal (nouvelles photos) – LP Auguste Perdonnet",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée professionnel Auguste Perdonnet",
+    "city": "Thorigny-sur-Marne",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://perdonnet.fr/",
+    "evidence_quote": "LP Auguste Perdonnet – 1 allée du Château, 77400 Thorigny-sur-Marne"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a list of specific partner schools, only mentioning general Erasmus+ mobility activities with Italy and Portugal.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 13.4,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     228
+    ],
+    "returned": 4,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 20.3
+ }
+}

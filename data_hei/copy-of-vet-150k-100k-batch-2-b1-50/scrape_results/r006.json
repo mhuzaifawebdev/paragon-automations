@@ -1,0 +1,117 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-28T20:01:17Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "Lycée Professionnel Privé ENCIA",
+  "institution_type": "school",
+  "official_website": "https://www.encia.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 40 48 40 24",
+   "source_url": "https://www.encia.fr/",
+   "evidence_quote": "02 40 48 40 24"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Danièle MEVEL",
+   "designation": "Sales teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.encia.fr/",
+   "evidence_quote": "Témoignage de Danièle MEVEL, pour l'Association ELA ! ... 👪 À l'occasion de la Cérémonie de Remise du Prix Ambassadeur ELA, qui se tiendra le mercredi 7 juin, à la Cité des Sciences et de l'Industrie à Paris, Danièle MEVEL, professeur en vente, témoigne s"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Danièle MEVEL is a teacher at the institution who is explicitly named in the evidence.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Dublin",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.encia.fr/nos-formations/section-europeenne-erasmus",
+    "evidence_quote": "Une immersion en langue anglaise pendant un mois dans le cadre d’un stage en entreprise à l’étranger, notamment à Dublin, en Irlande, dans le cadre du programme Erasmus+.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ENC Ecoles Nantaises de Commerce",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.encia.fr/",
+    "evidence_quote": "Le lycée permet de nombreuses poursuites d'études supérieures au sein du groupe ENC Ecoles Nantaises de Commerce.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Association ELA",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.encia.fr/",
+    "evidence_quote": "Témoignage de Danièle MEVEL, pour l'Association ELA !",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sostrenegrene",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.encia.fr/",
+    "evidence_quote": "🎬 Découvrez le témoignage d'Adam, élève de terminale, en stage chez Sostrenegrene",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Professionnel Privé ENCIA",
+    "city": "Nantes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.encia.fr/",
+    "evidence_quote": "6 rue Crébillon - 9 rue Rubens"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ partners or a specific contact person for international mobility. The contact provided is a teacher mentioned in the context of school activities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 4.9,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     117
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 31.7
+ }
+}
