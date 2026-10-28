@@ -1,0 +1,81 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-28T18:35:15Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "Holavedsgymnasiet",
+  "institution_type": "school",
+  "official_website": "https://tranas.se/",
+  "country": {
+   "value": "Sweden",
+   "source_url": "https://tranas.se/",
+   "evidence_quote": "Tranås utsedd till Sveriges miljöbästa landsbygdskommun 2026"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "tranas_kommun@tranas.se",
+  "generic_email_url": "https://tranas.se/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Väderstad",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://holavedsgymnasiet.se/",
+    "evidence_quote": "Sökord för intern sökning: Startsida, Välkommen tillHolavedsgymnasiet, Rek-ai förslag, Snabblänkar, Våra utbildningar, SchoolSoft, Läsårstider & frånvaro, Restaurang Novisen, Aktuellt, Studenten i Tranås, Idrottsprofil, Nyheter, Kängurutävlingen 2026, Nu lanseras Holavedsgymnasiets uppdaterade webbplats, Elever inom svetsteknik på studiebesök hos Väderstad, Ett nytt pedagogiskt klassrum i Kenya, Evenemang, Student 2026, Karneval 2026, Studentbal",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Holavedsgymnasiet",
+    "city": "Tranås",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://holavedsgymnasiet.se/",
+    "evidence_quote": "Gillesgatan 4, 573 35"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not list any Erasmus+ or international mobility coordinators, nor does it provide a list of international partners. The contact information provided is for the school's general office.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.7,
+  "crawl_s": 16.2,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 29.9
+ }
+}
