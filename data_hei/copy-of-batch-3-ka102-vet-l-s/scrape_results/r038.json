@@ -1,0 +1,107 @@
+{
+ "row_id": "r038",
+ "scraped_at": "2026-10-28T17:21:49Z",
+ "contacts": {
+  "row_id": "r038",
+  "institution_name": "Bildungswerk der Hessischen Wirtschaft e.V.",
+  "institution_type": "college",
+  "official_website": "https://bildungswerk-hessen.de/",
+  "country": null,
+  "phone": {
+   "value": "0611 41187 0",
+   "source_url": "https://bildungswerk-hessen.de/",
+   "evidence_quote": "Telefon: 0611 41187 0"
+  },
+  "phone_alt": [],
+  "generic_email": "info@bildungswerk-hessen.de",
+  "generic_email_url": "https://bildungswerk-hessen.de/",
+  "contact": {
+   "name": "R. Schneider",
+   "designation": "Contact person",
+   "designation_local": "",
+   "email": "r.schneider@bildungswerk-hessen.de",
+   "office_email": "",
+   "phone": "0611 41187 22",
+   "source_url": "https://bildungswerk-hessen.de/",
+   "evidence_quote": "Ausbildung Wiesbaden ... Mail: r.schneider@bildungswerk-hessen.de"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). R. Schneider is listed as a contact person for the training department in Wiesbaden.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Paritätisches Bildungswerk Hessen e. V.",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://bildungswerk-hessen.de/",
+    "evidence_quote": "Paritätisches Bildungswerk Hessen e. V.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LAG Arbeit in Hessen e. V.",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://bildungswerk-hessen.de/",
+    "evidence_quote": "LAG Arbeit in Hessen e. V.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Verein Weiterbildung Hessen e. V",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://bildungswerk-hessen.de/",
+    "evidence_quote": "Verein Weiterbildung Hessen e. V",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Geschäftsstelle Wiesbaden",
+    "city": "Wiesbaden",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://bildungswerk-hessen.de/",
+    "evidence_quote": "Geschäftsstelle Wiesbaden"
+   },
+   {
+    "campus_name": "Ausbildung Hanau",
+    "city": "Hanau",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://bildungswerk-hessen.de/",
+    "evidence_quote": "Ausbildung Hanau"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not mention any international mobility programs or Erasmus+ partnerships. The listed partners are local professional associations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 7.1,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 12.8
+ }
+}

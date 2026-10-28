@@ -1,0 +1,125 @@
+{
+ "row_id": "r031",
+ "scraped_at": "2026-10-28T17:21:31Z",
+ "contacts": {
+  "row_id": "r031",
+  "institution_name": "Gimnazija in srednja sola Rudolfa Maistra Kamnik",
+  "institution_type": "school",
+  "official_website": "https://www.gssrm.si/",
+  "country": {
+   "value": "Slovenija",
+   "source_url": "https://www.gssrm.si/",
+   "evidence_quote": "SI – Slovenija"
+  },
+  "phone": {
+   "value": "01 830 32 14",
+   "source_url": "https://www.gssrm.si/o-soli/kontakt",
+   "evidence_quote": "01 830 32 14"
+  },
+  "phone_alt": [],
+  "generic_email": "info@gssrm.si",
+  "generic_email_url": "https://www.gssrm.si/o-soli/kontakt",
+  "contact": {
+   "name": "Branislav Rauter",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "brane.rauter@gssrm.si",
+   "office_email": "",
+   "phone": "01 830 32 14",
+   "source_url": "https://www.gssrm.si/o-soli/kontakt",
+   "evidence_quote": "Ravnatelj ... dr. Branislav Rauter"
+  },
+  "alternates": [
+   {
+    "name": "Marija Gere",
+    "designation": "German teacher",
+    "designation_local": "",
+    "email": "marija.gere@gssrm.si",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.gssrm.si/o-soli/kontakt",
+    "evidence_quote": "Gere Marija ... nemščina, ustvarjalno izražanje",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). As a German teacher, she is involved in international language projects and mobility."
+   },
+   {
+    "name": "Karmen Belina",
+    "designation": "Administrator",
+    "designation_local": "",
+    "email": "karmen.belina@gssrm.si",
+    "office_email": "",
+    "phone": "01 830 32 12",
+    "source_url": "https://www.gssrm.si/o-soli/kontakt",
+    "evidence_quote": "Karmen Belina ... administratorka",
+    "why_chosen": "Secretary / administration (last resort). She is an administrator at the institution and handles general inquiries."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Branislav Rauter is the principal of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ctgm.ro",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gssrm.si/dejavnosti/erasmus/erasmus-ka2/erasmus-ka229-ittp-21cs-2018-2021",
+    "evidence_quote": "ctgm.ro (koordinatorska šola)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "epcg.pt",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gssrm.si/dejavnosti/erasmus/erasmus-ka2/erasmus-ka229-ittp-21cs-2018-2021",
+    "evidence_quote": "epcg.pt",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "sataturkmtal.meb.k12.tr",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gssrm.si/dejavnosti/erasmus/erasmus-ka2/erasmus-ka229-ittp-21cs-2018-2021",
+    "evidence_quote": "sataturkmtal.meb.k12.tr",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "GSŠRM Kamnik",
+    "city": "Kamnik",
+    "country": "Slovenija",
+    "role": "main",
+    "source_url": "https://www.gssrm.si/",
+    "evidence_quote": "GSŠRM Kamnik"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution lists specific Erasmus+ project partners in the context of KA2 projects, but does not provide a comprehensive list of all Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 14.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 31.8
+ }
+}
