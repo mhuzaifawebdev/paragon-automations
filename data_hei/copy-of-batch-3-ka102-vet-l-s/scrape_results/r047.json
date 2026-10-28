@@ -1,0 +1,104 @@
+{
+ "row_id": "r047",
+ "scraped_at": "2026-10-28T17:22:33Z",
+ "contacts": {
+  "row_id": "r047",
+  "institution_name": "Elternverein der Höheren Bundeslehr-und Forschungsanstalt für Gartenbau",
+  "institution_type": "school",
+  "official_website": "https://www.gartenbau.at/",
+  "country": {
+   "value": "Österreich",
+   "source_url": "https://www.gartenbau.at/",
+   "evidence_quote": "1130 Wien, Österreich"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "office@gartenbau.at",
+  "generic_email_url": "https://www.gartenbau.at/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Gartenbauschule Bernolákovo",
+    "partner_country": "Slowakei",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gartenbau.at/",
+    "evidence_quote": "Besuch der Gartenbauschule Bernolákovo nahe Bratislava",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Friedl Steinwerke GmbH",
+    "partner_country": "Österreich",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gartenbau.at/",
+    "evidence_quote": "Die 3GLG und 4GLG besuchten die Friedl Steinwerke GmbH in Weppersdorf",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hauptstandort",
+    "city": "Wien",
+    "country": "Österreich",
+    "role": "main",
+    "source_url": "https://www.gartenbau.at/",
+    "evidence_quote": "Grünbergstraße 24"
+   },
+   {
+    "campus_name": "Außenstelle Kammermeierei",
+    "city": "Wien",
+    "country": "Österreich",
+    "role": "branch",
+    "source_url": "https://www.gartenbau.at/Wir-ueber-uns/Die-HBLFA-als-Gesch-ftspartner.html",
+    "evidence_quote": "Außenstelle Kammermeierei"
+   },
+   {
+    "campus_name": "Außenstelle Jägerhausgasse",
+    "city": "Wien",
+    "country": "Österreich",
+    "role": "branch",
+    "source_url": "https://www.gartenbau.at/Wir-ueber-uns/Die-HBLFA-als-Gesch-ftspartner.html",
+    "evidence_quote": "Außenstelle Jägerhausgasse"
+   },
+   {
+    "campus_name": "Außenstelle Zinsenhof",
+    "city": "Ruprechtshofen",
+    "country": "Österreich",
+    "role": "branch",
+    "source_url": "https://www.gartenbau.at/Wir-ueber-uns/Die-HBLFA-als-Gesch-ftspartner.html",
+    "evidence_quote": "Außenstelle Zinsenhof"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not list any specific Erasmus+ or international relations staff members. No formal partner list is provided, only incidental mentions of school visits and company excursions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 12.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 24.7
+ }
+}
