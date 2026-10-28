@@ -1,0 +1,105 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-10-28T15:58:31Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "ProSena - Empresa Promotora de Serviços de Ensino, S.A.",
+  "institution_type": "college",
+  "official_website": "https://epse.pt/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CLDS5GDesenvolverSeia",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://epse.pt/",
+    "evidence_quote": "[Os nossos futuros Técnicos Auxiliares de Saúde e o CLDS5GDesenvolverSeia!]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Museu do Pão",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://epse.pt/",
+    "evidence_quote": "[Dia Mundial do Pão com o Museu do Pão em Seia!]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CINEECO",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://epse.pt/",
+    "evidence_quote": "[\"Água Mãe\" - o nosso afilhado CINEECO 2026!]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CISE",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://epse.pt/",
+    "evidence_quote": "[Dia Internacional do Enfermeiro de Emergência no CISE]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Profissional Serra da Estrela",
+    "city": "Seia",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://epse.pt/",
+    "evidence_quote": "Avenida dos Hermínios, nº10 6270-480 Seia"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 7,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects and mobility to cities like Alcaniz and Málaga, but does not provide a specific list of partner institutions or a named contact person for international relations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 9.9,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 21.7
+ }
+}

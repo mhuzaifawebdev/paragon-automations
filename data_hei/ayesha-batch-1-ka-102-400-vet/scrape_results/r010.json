@@ -1,0 +1,122 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-28T15:58:09Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Escola Técnica e Profissional do Ribatejo SA",
+  "institution_type": "college",
+  "official_website": "https://etpr.pt/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Scholas Occurrentes",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://etpr.pt/",
+    "evidence_quote": "[A ETPR participou no projeto internacional Scholas Occurrentes em Santarém]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Teatro Figura",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://etpr.pt/",
+    "evidence_quote": "[Oficina de Marionetas “Poéticas dos Objetos” - José Ramalho | Teatro Figura]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CM-Santarém",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://etpr.pt/",
+    "evidence_quote": "[ETPR colabora com CM-Santarém e CNEMA no dia do Município.]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CNEMA",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://etpr.pt/",
+    "evidence_quote": "[ETPR colabora com CM-Santarém e CNEMA no dia do Município.]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escola Superior Agrária de Santarém",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://etpr.pt/",
+    "evidence_quote": "[Alunos da ETPR Vivem Semana Imersiva na Escola Superior Agrária de Santarém 🌱💻]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "ETPR Santarém",
+    "city": "Santarém",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://etpr.pt/",
+    "evidence_quote": "ETPR | Santarém (SEDE)"
+   },
+   {
+    "campus_name": "ETPR Pólo Alenquer",
+    "city": "Alenquer",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://etpr.pt/",
+    "evidence_quote": "ETPR | Pólo Alenquer"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 6,
+  "coverage_note": "The website mentions participation in Erasmus+ projects but does not list specific partner institutions or provide contact details for an international relations coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 8.5,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 21.1
+ }
+}

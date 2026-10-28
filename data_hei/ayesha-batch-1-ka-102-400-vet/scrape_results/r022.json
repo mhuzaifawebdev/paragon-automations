@@ -1,0 +1,108 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-10-28T15:58:58Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "Stredna zdravotnicka skola",
+  "institution_type": "school",
+  "official_website": "https://moyzeska.sk",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "PhDr. Karolína Vranaiová, PhD. MBA",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "vranaiova1@szske.eu",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://moyzeska.sk/index.php/vedenie-skoly/",
+   "evidence_quote": "Riaditeľka školy: | PhDr. Karolína Vranaiová, PhD. MBA"
+  },
+  "alternates": [
+   {
+    "name": "RNDr. Ladislav Bertko",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "bertko1@szske.eu",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://moyzeska.sk/index.php/vedenie-skoly/",
+    "evidence_quote": "Zástupca riaditeľky školy: | RNDr. Ladislav Bertko",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is a deputy principal of the school."
+   },
+   {
+    "name": "Ing. Alexandra Bartošová",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://moyzeska.sk/index.php/tech-hosp-pracovnici-skoly/",
+    "evidence_quote": "Sekretárka: | Ing. Alexandra Bartošová |",
+    "why_chosen": "Secretary / administration (last resort). She serves as the school secretary."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). She is the principal of the school and the primary contact for institutional leadership.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Faf",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://moyzeska.sk",
+    "evidence_quote": "[Faf] [UPJS]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UPJS",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://moyzeska.sk",
+    "evidence_quote": "[Faf] [UPJS]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stredná zdravotnícka škola",
+    "city": "Košice",
+    "country": "Slovakia",
+    "role": "main",
+    "source_url": "https://moyzeska.sk",
+    "evidence_quote": "Stredná zdravotnícka škola, Moyzesova 17, Košice -"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The website does not explicitly list Erasmus+ partners or an international coordinator. The partners listed are identified from a general 'Partneri' section on the website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 12.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 18.6
+ }
+}
