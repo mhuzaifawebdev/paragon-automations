@@ -1,0 +1,87 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-28T14:48:08Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "TAIDEYLIOPISTO",
+  "institution_type": "university",
+  "official_website": "https://www.uniarts.fi:443/",
+  "country": {
+   "value": "Finland",
+   "source_url": "https://www.uniarts.fi:443/",
+   "evidence_quote": "Suomi"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IN.TUNE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uniarts.fi:443/",
+    "evidence_quote": "IN.TUNE",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Kuvataideakatemia",
+    "city": "unknown",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.uniarts.fi:443/",
+    "evidence_quote": "Kuvataideakatemia"
+   },
+   {
+    "campus_name": "Sibelius-Akatemia",
+    "city": "unknown",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.uniarts.fi:443/",
+    "evidence_quote": "Sibelius-Akatemia"
+   },
+   {
+    "campus_name": "Teatterikorkeakoulu",
+    "city": "unknown",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.uniarts.fi:443/",
+    "evidence_quote": "Teatterikorkeakoulu"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 1,
+  "coverage_note": "The provided evidence does not contain specific contact information for Erasmus+ or international mobility staff, nor does it provide a comprehensive list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.3,
+  "crawl_s": 0.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 7.2
+ }
+}
