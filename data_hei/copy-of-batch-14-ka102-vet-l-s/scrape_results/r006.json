@@ -1,0 +1,92 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-28T17:25:04Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "Maria-Lenssen Berufskolleg",
+  "institution_type": "college",
+  "official_website": "https://www.maria-lenssen-berufskolleg.de/",
+  "country": null,
+  "phone": {
+   "value": "02166 / 628770",
+   "source_url": "https://www.maria-lenssen-berufskolleg.de/",
+   "evidence_quote": "02166 / 628770 <tel +492166628770>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Wolfgang Postler",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "0 21 66 / 628 77 0",
+   "source_url": "https://www.maria-lenssen-berufskolleg.de/home/schulverwaltung-und-schulleitung",
+   "evidence_quote": "[Wolfgang Postler] [Tanja Tessmer web] ... Schulleiter stellv. Schulleiterin"
+  },
+  "alternates": [
+   {
+    "name": "Tanja Teßmer",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "0 21 66 / 628 77 0",
+    "source_url": "https://www.maria-lenssen-berufskolleg.de/home/schulverwaltung-und-schulleitung",
+    "evidence_quote": "[Wolfgang Postler] [Tanja Tessmer web] ... Schulleiter stellv. Schulleiterin",
+    "why_chosen": "Principal / director (no Erasmus contact found). Tanja Teßmer is the deputy principal and part of the school leadership team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Wolfgang Postler is the principal of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Hochschule Niederrhein",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.maria-lenssen-berufskolleg.de/",
+    "evidence_quote": "Die Klassen B1‑K51 und B2‑K51 besuchten am Montag, 22. Juni 2026, die Hochschule Niederrhein. Dabei wurden sie von den Lehrerinnen Frau Kelzenberg und Frau Schramm begleitet. Nach…",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Maria-Lenssen-Berufskolleg",
+    "city": "Mönchengladbach",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.maria-lenssen-berufskolleg.de/",
+    "evidence_quote": "Werner-Gilles-Str. 20-32"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The website does not provide a list of international Erasmus+ partners. Contact information for specific international mobility coordinators is not explicitly stated. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 13.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.1,
+  "total_seconds": 40.1
+ }
+}

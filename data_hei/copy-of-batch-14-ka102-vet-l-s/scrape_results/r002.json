@@ -1,0 +1,100 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T17:25:16Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Landeshauptstadt Wiesbaden - Rathaus",
+  "institution_type": "unknown",
+  "official_website": "https://www.wiesbaden.de/",
+  "country": null,
+  "phone": {
+   "value": "+49-611-310",
+   "source_url": "https://www.wiesbaden.de/",
+   "evidence_quote": "Telefonzentrale <tel +49-611-310>Kontakt <telefonzentrale%E2%9A%B9wiesbaden%E2%97%A6de>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Duale Hochschule Baden-Württemberg",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wiesbaden.de/rathaus/karriereportal/ausbildung-studium/ba-bwl-messe-kongress-eventmanagement",
+    "evidence_quote": "Theoretische Ausbildung: Duale Hochschule Baden-Württemberg (Öffnet in einem neuen Tab) in Mannheim (Blockunterricht)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Berufliches Fortbildungszentrum der Wirtschaft (BWHW)",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wiesbaden.de/ar/wirtschaft/netzwerke-kooperationen/fachkraefteinitiative/hessenmetall",
+    "evidence_quote": "برامج التدريب المستمر وإعادة التأهيل المهني في مؤسستنا التعليمية التابعة لقطاع الأعمال في ولاية هيسن (BWHW)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Wiesbaden Congress & Marketing GmbH",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wiesbaden.de/rathaus/karriereportal/ausbildung-studium/ba-bwl-messe-kongress-eventmanagement",
+    "evidence_quote": "Praktische Ausbildung: Wiesbaden Congress & Marketing GmbH (Öffnet in einem neuen Tab)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Rathaus Landeshauptstadt Wiesbaden",
+    "city": "Wiesbaden",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.wiesbaden.de/",
+    "evidence_quote": "Rathaus Landeshauptstadt Wiesbaden"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution is a municipal administration (Landeshauptstadt Wiesbaden) rather than a traditional university, though it offers dual study programs. No formal Erasmus+ partner list is provided. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 18.9,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     281,
+     418
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 52.0
+ }
+}
