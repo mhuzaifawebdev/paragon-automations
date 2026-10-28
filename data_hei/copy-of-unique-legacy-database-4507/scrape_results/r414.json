@@ -1,0 +1,89 @@
+{
+ "row_id": "r414",
+ "scraped_at": "2026-10-28T12:08:13Z",
+ "contacts": {
+  "row_id": "r414",
+  "institution_name": "I.C.FEDERICO II DI SVEVIA",
+  "institution_type": "school",
+  "official_website": "https://www.fsveviamascalucia.edu.it/",
+  "country": {
+   "value": "Italia",
+   "source_url": "https://www.fsveviamascalucia.edu.it/servizi/personale-scolastico/formazione-docenti",
+   "evidence_quote": "Italia"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Paul-Gerhardt-Schule",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.fsveviamascalucia.edu.it/erasmus/erasmus-azione-ka121-mobilita-lapprendimento-individuale",
+    "evidence_quote": "Somministrazione questionario iniziale Mobilità di gruppo di alunni presso l’istituzione Paul-Gerhardt-Schule, a Dassel (Germania) dal 01/06/2025 al 08/06/2025",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "College Errobi",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.fsveviamascalucia.edu.it/erasmus/erasmus-azione-ka121-mobilita-lapprendimento-individuale",
+    "evidence_quote": "Somministrazione questionario finale mobilità gruppo di studenti presso College Errobi , Cambo les Bains-Francia dal 08 maggio al 15 maggio 2025",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede centrale",
+    "city": "Mascalucia",
+    "country": "Italia",
+    "role": "main",
+    "source_url": "https://www.fsveviamascalucia.edu.it/",
+    "evidence_quote": "La sede centrale dell'I.C.S. \"Federico II di Svevia\" è ubicata in via Del Sole, s.n. - Frazione di Massannuziata - Mascalucia (CT)"
+   },
+   {
+    "campus_name": "Plesso di via M. D'Azeglio",
+    "city": "Mascalucia",
+    "country": "Italia",
+    "role": "branch",
+    "source_url": "https://www.fsveviamascalucia.edu.it/",
+    "evidence_quote": "Dell'istituto fa anche parte il plesso di via M. D'Azeglio che ospita sezioni di scuola dell'infanzia, classi di scuola primaria e secondaria di primo grado."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a consolidated list of Erasmus partners, only mentions specific schools in the context of individual mobility projects.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 12.0,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 26.7
+ }
+}
