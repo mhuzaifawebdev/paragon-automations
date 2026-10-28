@@ -1,0 +1,127 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-28T14:19:37Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "groupement hospitalier Eaubonne Montmorency",
+  "institution_type": "unknown",
+  "official_website": "https://www.hopital-simoneveil.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.hopital-simoneveil.fr/un-professionnel/partenaires/",
+   "evidence_quote": "Agence régionale de santé Ile-de-France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Nathalie SANCHEZ",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "sec.dg@ch-simoneveil.fr",
+   "office_email": "",
+   "phone": "01 34 06 60 01",
+   "source_url": "https://www.hopital-simoneveil.fr/menu-haut/centre-hospitalier-simone-veil/equipes-et-organisation/gouvernance/",
+   "evidence_quote": "| Directrice ... Madame Nathalie SANCHEZ"
+  },
+  "alternates": [
+   {
+    "name": "Tony BRANDO",
+    "designation": "DIRECTOR OF GENERAL AFFAIRS, COMMUNICATION, TRANSFORMATIONS, USERS AND PARTNERSHIPS",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "01 34 06 60 40",
+    "source_url": "https://www.hopital-simoneveil.fr/menu-haut/centre-hospitalier-simone-veil/equipes-et-organisation/gouvernance/",
+    "evidence_quote": "| DIRECTEUR DES AFFAIRES GENERALES, DE COMMUNICATION, DES TRANSFORMATIONS, DES USAGERS ET DES PARTENARIATS (DACTUP) ... Tony BRANDO",
+    "why_chosen": "Other role. He is the director responsible for partnerships, which is the most relevant role for international cooperation."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). She is the head of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ville d'Eaubonne",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hopital-simoneveil.fr/un-professionnel/partenaires/",
+    "evidence_quote": "Ville d'Eaubonne",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ville de Montmorency",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hopital-simoneveil.fr/un-professionnel/partenaires/",
+    "evidence_quote": "Ville de Montmorency",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agence régionale de santé Ile-de-France",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hopital-simoneveil.fr/un-professionnel/partenaires/",
+    "evidence_quote": "Agence régionale de santé Ile-de-France",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fédération Hospitalière de France - FHF",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hopital-simoneveil.fr/un-professionnel/partenaires/",
+    "evidence_quote": "Fédération Hospitalière de France - FHF",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Site d'Eaubonne",
+    "city": "Eaubonne",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.hopital-simoneveil.fr/",
+    "evidence_quote": "Site d'Eaubonne"
+   },
+   {
+    "campus_name": "Site de Montmorency",
+    "city": "Montmorency",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.hopital-simoneveil.fr/",
+    "evidence_quote": "Site de Montmorency"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 4,
+  "coverage_note": "The institution is a hospital group and does not appear to have an Erasmus+ program or international mobility office. No specific international partners are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 55.0,
+  "crawl_s": 7.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 12.1,
+  "total_seconds": 76.8
+ }
+}
