@@ -33,7 +33,11 @@ ALIASES = {
                          "hei", "hei_name", "hei name", "organization", "organisation",
                          "partner", "partner_name", "partner name", "institute", "institute_name",
                          "erasmus_institution", "beneficiary", "applicant", "applicant_name",
-                         "sending_institution", "receiving_institution", "name"],
+                         "sending_institution", "receiving_institution",
+                         "company_name", "company name", "companyname", "company",
+                         "coordinating organisation name", "coordinator organisation name",
+                         "retail stores", "retail_stores",
+                         "name"],
     "country_sheet": ["country_sheet", "country", "hei_country", "hei_country_name",
                       "partner_country", "country_of_hei"],
     "phone_1": ["phone_1", "phone", "phone1", "generic_phone", "contact_phone", "primary_phone",
@@ -79,6 +83,12 @@ def _map_headers(fieldnames):
             mapping[out_field] = found
         elif out_field in REQUIRED:
             missing.append(f"{out_field} (tried: {', '.join(aliases)})")
+    # Fallback for headerless sheets: if the first column's value is longer than any
+    # plausible column name (>12 chars) it is almost certainly an institution name
+    # sitting in what csv.DictReader mistook for the header row.  Map it directly.
+    if "institution_name" not in mapping and fieldnames and len((fieldnames[0] or "").strip()) > 12:
+        mapping["institution_name"] = fieldnames[0]
+        missing = [m for m in missing if not m.startswith("institution_name")]
     if missing:
         raise ImportError_("Missing required column(s) in your file - none of the expected header spellings "
                            "were found: " + "; ".join(missing) + f". Headers seen: {', '.join(fieldnames)}")
