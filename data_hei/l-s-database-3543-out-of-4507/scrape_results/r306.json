@@ -1,0 +1,108 @@
+{
+ "row_id": "r306",
+ "scraped_at": "2026-10-29T06:54:19Z",
+ "contacts": {
+  "row_id": "r306",
+  "institution_name": "Ecole nationale supérieure d'architecture de Paris-Belleville",
+  "institution_type": "university",
+  "official_website": "https://www.paris-belleville.archi.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Violaine Duval",
+   "designation": "In charge of admissions for foreign students outside Europe and transfer admissions",
+   "designation_local": "",
+   "email": "violaine.duval@paris-belleville.archi.fr",
+   "office_email": "",
+   "phone": "01 53 38 50 30",
+   "source_url": "https://www.paris-belleville.archi.fr/vie-etudiante/sinformer/contacts-utiles/",
+   "evidence_quote": "Violaine Duval ... Chargée des admissions des étudiants étrangers hors Europe et des admissions en transfert, dpe/vap"
+  },
+  "alternates": [
+   {
+    "name": "Laureine Attygalage",
+    "designation": "Administrative manager in charge of travel for studios and PFE",
+    "designation_local": "",
+    "email": "laureine.attygalage@paris-belleville.archi.fr",
+    "office_email": "",
+    "phone": "01 53 38 50 07",
+    "source_url": "https://www.paris-belleville.archi.fr/vie-etudiante/sinformer/contacts-utiles/",
+    "evidence_quote": "Laureine Attygalage ... Gestionnaire administrative chargée des voyages dans le cadre des studios et PFE.",
+    "why_chosen": "Mobility coordinator. She is the administrative manager in charge of student travel and mobility."
+   },
+   {
+    "name": "Alexis Markovics",
+    "designation": "Director of Studies",
+    "designation_local": "",
+    "email": "alexis.markovics@paris-belleville.archi.fr",
+    "office_email": "",
+    "phone": "01 53 38 50 22",
+    "source_url": "https://www.paris-belleville.archi.fr/vie-etudiante/sinformer/contacts-utiles/",
+    "evidence_quote": "Alexis Markovics ... Directeur des études",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the Director of Studies, he oversees the academic programs and student mobility."
+   }
+  ],
+  "rung": "International relations officer. She handles admissions for international students, which is a key part of international relations.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Hanyang University",
+    "partner_country": "South Korea",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.paris-belleville.archi.fr/",
+    "evidence_quote": "En septembre 2025, l’ENSA Paris-Belleville a accueilli les étudiants et enseignants de l’université Hanyang de Séoul et du Shibaura Institute of Technology de Tokyo pour un workshop consacré à l’habitat étudiant.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Shibaura Institute of Technology",
+    "partner_country": "Japan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.paris-belleville.archi.fr/",
+    "evidence_quote": "En septembre 2025, l’ENSA Paris-Belleville a accueilli les étudiants et enseignants de l’université Hanyang de Séoul et du Shibaura Institute of Technology de Tokyo pour un workshop consacré à l’habitat étudiant.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "ENSA Paris-Belleville",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.paris-belleville.archi.fr/",
+    "evidence_quote": "60 Boulevard de la Villette"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The website mentions a 'partenaires' page, but the content of that page is not provided in the evidence. Specific Erasmus+ partner lists are missing.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 25.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 36.6
+ }
+}
