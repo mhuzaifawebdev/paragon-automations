@@ -1,0 +1,80 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-29T13:29:39Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Powiatowy Zespol Szkol w Redzie",
+  "institution_type": "school",
+  "official_website": "http://pzsreda.edu.pl/",
+  "country": null,
+  "phone": {
+   "value": "058) 678-70-80",
+   "source_url": "http://pzsreda.edu.pl/",
+   "evidence_quote": "(058) 678-70-80 <tel 0586787080>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dorota Nowicka – Klimowicz",
+   "designation": "School Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://pzsreda.edu.pl/o-szkole/kadra-pedagogiczna/",
+   "evidence_quote": "Dyrektor szkoły ... Dorota Nowicka – Klimowicz"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the school director and was identified as a contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Teachersrise",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://pzsreda.edu.pl/kategoria/projekty-zagraniczne/zagraniczna-mobilnosc-edukacyjna-uczniow-i-kadry-edukacji-szkolnej/",
+    "evidence_quote": "Projekt FERS KA122-SCH „Kluczowe kompetencje otwierają drzwi do sukcesu – kadra szkoły drogowskazem młodego Europejczyka” Numer przedsięwzięcia: 2024-1-PL01-KA122-SCH-000240188 Program: FERS • Akcja KA122-SCH • Europejski Fundusz Społeczny Plus (EFS+) • FERS 2021–2027 Realizator: Powiatowy Zespół Szkół w Redzie, ul. Łąkowa 38, 84-240 Reda Instytucja przyjmująca: Teachersrise, Viale della Navigazione Interna 51b, 35129 Czytaj więcej…",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Powiatowy Zespół Szkół w Redzie",
+    "city": "Reda",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "http://pzsreda.edu.pl/",
+    "evidence_quote": "Powiatowy Zespół Szkół w Redzie – im. Maurycego Mochnackiego"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions several partner countries (Italy, Germany, Romania, Turkey, Bulgaria, Spain, Portugal) but does not provide a comprehensive list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 16.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 15.2,
+  "total_seconds": 36.8
+ }
+}
