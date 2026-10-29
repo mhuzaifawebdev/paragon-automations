@@ -21,10 +21,19 @@ import sys
 from pathlib import Path
 
 from openpyxl import Workbook
+from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
 from openpyxl.styles import Font
 from openpyxl.worksheet.hyperlink import Hyperlink
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def _clean(row):
+    """Scraped text sometimes carries raw control characters (from a PDF, a broken page encoding, a
+    stray form-feed) that the xlsx format itself cannot hold - openpyxl raises IllegalCharacterError
+    and the whole file build crashes. Strip only those characters; everything else (including other
+    Unicode) is left exactly as scraped."""
+    return [ILLEGAL_CHARACTERS_RE.sub("", v) if isinstance(v, str) else v for v in row]
 
 SHEETS = {
     "Institutions": "institutions_enriched.csv",
@@ -216,7 +225,7 @@ def _institute_sheets(wb, sheets):
         titles[rid] = ws.title
         for col, (_f, _l, width) in zip("ABCDEFG", PARTNER_VIEW):
             ws.column_dimensions[col].width = width
-        ws.append([name])
+        ws.append(_clean([name]))
         ws["A1"].font = TITLE_FONT
         ws.append(["← Back to all institutes"])
         ws["A2"].hyperlink = Hyperlink(ref="A2", location=f"'Institutions'!A{n}", display=ws["A2"].value)
@@ -232,7 +241,7 @@ def _institute_sheets(wb, sheets):
             for c in ws[ws.max_row]:
                 c.font = BOLD
             for item in items:
-                ws.append([item.get(f, "") if f else "" for f, _l, _w in view])
+                ws.append(_clean([item.get(f, "") if f else "" for f, _l, _w in view]))
                 url = item.get("source_url", "")
                 if url.startswith("http"):
                     cell = ws.cell(row=ws.max_row, column=len(view))
@@ -273,7 +282,7 @@ def build(data_dir):
         ws = wb.create_sheet(name)
         ws.append([FRIENDLY_LABELS.get(h, _prettify(h)) for h in data["header"]])
         for row in data["rows"]:
-            ws.append(row)
+            ws.append(_clean(row))
         ws_objs[name] = ws
         # Any column that IS a real URL (the website itself, or a "source" page used to verify a
         # claim) gets made a real clickable hyperlink here - previously these were only plain text,

@@ -115,5 +115,33 @@ unk = {"Partners": {"header": unk_h, "rows": [["r1", "X", "Unknown"], ["r1", "Y"
 bx._drop_national(unk)
 check("a partner with no country stated is kept, and labelled so", unk["Partners"]["rows"], [["r1", "X", "Country not stated"]])
 
+# ---- a control character in scraped text used to crash the whole build (openpyxl IllegalCharacterError) ----
+check("_clean strips xlsx-illegal control characters but keeps tab/newline and non-strings",
+      bx._clean(["note\x0bwith a vertical tab", "page\x0cbreak", 42, None]),
+      ["notewith a vertical tab", "pagebreak", 42, None])
+
+tmp2 = Path(tempfile.mkdtemp())
+
+
+def write2(name, hdr, data):
+    with open(tmp2 / name, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.writer(f)
+        w.writerow(hdr)
+        w.writerows(data)
+
+
+write2("institutions_enriched.csv", ["row_id", "institution_scraped", "institution_original", "partners_found", "campuses_found"],
+      [["r001", "A College\x0bwith a stray control char", "A", "", ""]])
+write2("partners.csv", [], [])
+write2("campuses.csv", [], [])
+write2("contacts.csv", ["row_id", "name"], [])
+write2("needs_review.csv", ["row_id", "item"], [])
+try:
+    bx.build(tmp2)
+    raised = False
+except Exception:
+    raised = True
+check("a control character in a scraped field no longer crashes the whole xlsx build", raised, False)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
