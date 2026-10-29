@@ -1,0 +1,104 @@
+{
+ "row_id": "r402",
+ "scraped_at": "2026-10-29T03:25:25Z",
+ "contacts": {
+  "row_id": "r402",
+  "institution_name": "Freelancer Com",
+  "institution_type": "unknown",
+  "official_website": "https://www.freelancer.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Laurent Goudet",
+   "designation": "Chief Technology Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.freelancer.com/about/management",
+   "evidence_quote": "Laurent Goudet ... Chief Technology Officer"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Other role. Laurent Goudet is the Chief Technology Officer at Freelancer and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Escrow.com",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.freelancer.com/",
+    "evidence_quote": "Escrow.com Loadshift Warrior Forum",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Loadshift",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.freelancer.com/",
+    "evidence_quote": "Escrow.com Loadshift Warrior Forum",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Warrior Forum",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.freelancer.com/",
+    "evidence_quote": "Escrow.com Loadshift Warrior Forum",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NASA",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.freelancer.com/about/management",
+    "evidence_quote": "Trisha leads the innovation team at Freelancer, managing research programs for NASA and other government and enterprise clients across space exploration, biotech, environmental solutions, and emerging technologies. She specializes in strategic planning and unlocking solutions to complex challenges through global talent networks. Trisha holds an MSc in Geophysics from Caltech and a BSc in Honours Physics and Philosophy from the University of British Columbia. She is a certified Project Management",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The institution is a global freelance marketplace and does not operate as a traditional educational institution with campuses or Erasmus+ mobility programs. No partner list for educational mobility is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 12.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 17.7
+ }
+}
