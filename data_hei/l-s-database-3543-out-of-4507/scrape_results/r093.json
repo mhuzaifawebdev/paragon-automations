@@ -1,0 +1,99 @@
+{
+ "row_id": "r093",
+ "scraped_at": "2026-10-29T06:22:27Z",
+ "contacts": {
+  "row_id": "r093",
+  "institution_name": "UNIVERSIDADE DE AVEIRO",
+  "institution_type": "university",
+  "official_website": "https://masspec.web.ua.pt",
+  "country": {
+   "value": "Portugal",
+   "source_url": "https://masspec.web.ua.pt",
+   "evidence_quote": "da Universidade de Aveiro, Portugal"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "National Mass Spectrometry Network",
+    "partner_country": "Portugal",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://masspec.web.ua.pt",
+    "evidence_quote": "the National Facility, under the National Mass Spectrometry Network,",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "RNEM- Portuguese Mass Spectrometry Network",
+    "partner_country": "Portugal",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://masspec.web.ua.pt",
+    "evidence_quote": "Members of RNEM- Portuguese Mass Spectrometry Network",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "QOPNA research Unit",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://masspec.web.ua.pt",
+    "evidence_quote": "QOPNA research Unit",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Universitário de Santiago",
+    "city": "Aveiro",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://masspec.web.ua.pt/contacts.html",
+    "evidence_quote": "Campus Universitário de Santiago"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 2,
+  "coverage_note": "The provided evidence is limited to a specific research center (Mass Spectrometry Centre) within the University of Aveiro and does not contain information regarding Erasmus+ coordinators or a comprehensive list of international partners. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.4,
+  "crawl_s": 3.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     65
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 20.7
+ }
+}
