@@ -1,0 +1,70 @@
+{
+ "row_id": "r520",
+ "scraped_at": "2026-10-29T07:31:03Z",
+ "contacts": {
+  "row_id": "r520",
+  "institution_name": "OGEC LYCEE SAINT JOSEPH",
+  "institution_type": "school",
+  "official_website": "https://www.ecole-saintjoseph.com/",
+  "country": null,
+  "phone": {
+   "value": "05 59 33 41 59",
+   "source_url": "https://www.ecole-saintjoseph.com/",
+   "evidence_quote": "05 59 33 41 59"
+  },
+  "phone_alt": [],
+  "generic_email": "contact@ecole-saintjoseph.com",
+  "generic_email_url": "https://www.ecole-saintjoseph.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "École St-Joseph",
+    "city": "Morlaas",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ecole-saintjoseph.com/",
+    "evidence_quote": "École St-Joseph"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence provides general school information and contact details, but does not list any named staff members, specific Erasmus/international coordinators, or partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 5.8,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     54
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 33.7
+ }
+}
