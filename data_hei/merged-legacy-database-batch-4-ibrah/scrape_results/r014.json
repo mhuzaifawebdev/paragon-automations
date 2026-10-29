@@ -1,0 +1,104 @@
+{
+ "row_id": "r014",
+ "scraped_at": "2026-10-29T00:13:02Z",
+ "contacts": {
+  "row_id": "r014",
+  "institution_name": "SIIRT UNIVERSITESI",
+  "institution_type": "university",
+  "official_website": "https://siirt.edu.tr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Nihat Şındak",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://siirt.edu.tr/",
+   "evidence_quote": "[Rektörümüz Prof. Dr. Nihat Şındak, Tıp Fakültesi Morfoloji Binasında İncelemelerde Bulundu]Rektörümüz Prof. Dr. Nihat Şındak, Tıp Fakültesi Morfoloji Binasında İncelemelerde Bulundu"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Rector, he is the head of the institution and oversees its international activities.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EuroDesk",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://siirt.edu.tr/",
+    "evidence_quote": "[Siirt Üniversitesi] Üniversitemiz EuroDesk Akreditasyonu ile Avrupa Temas Noktası Oldu",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TSE",
+    "partner_country": "Turkey",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://siirt.edu.tr/",
+    "evidence_quote": "[Üniversitemizde TSE Dış Tetkik Süreci Başladı]Üniversitemizde TSE Dış Tetkik Süreci Başladı",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Türk Loydu Vakfı",
+    "partner_country": "Turkey",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://siirt.edu.tr/",
+    "evidence_quote": "Türk Loydu Vakfı Burs/Eğitim Desteği Programı Hk.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Kezer Yerleşkesi",
+    "city": "Siirt",
+    "country": "Turkey",
+    "role": "main",
+    "source_url": "https://siirt.edu.tr/",
+    "evidence_quote": "Kezer Yerleşkesi Veysel Karani Mah. Üniversite Cad. No:1 56100 Merkez/SİİRT"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 2,
+  "coverage_note": "The website lists an International Relations Coordination office but does not provide specific contact names or email addresses for the staff. No list of partner institutions is available in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.2,
+  "crawl_s": 8.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 19.5
+ }
+}
