@@ -1,0 +1,90 @@
+{
+ "row_id": "r017",
+ "scraped_at": "2026-10-29T13:45:33Z",
+ "contacts": {
+  "row_id": "r017",
+  "institution_name": "LYCEE POLYVALENT GABRIEL FAURE",
+  "institution_type": "school",
+  "official_website": "https://gabriel-faure-tournon.ent.auvergnerhonealpes.fr/",
+  "country": null,
+  "phone": {
+   "value": "+33 4 75 08 21 33",
+   "source_url": "https://gabriel-faure-tournon.ent.auvergnerhonealpes.fr/",
+   "evidence_quote": "Téléphone : +33 4 75 08 21 33"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Anahita BIANQUIS",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://gabriel-faure-tournon.ent.auvergnerhonealpes.fr/",
+   "evidence_quote": "Anahita BIANQUIS ... Proviseure"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Anahita Bianquis is the principal of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Office franco-allemand pour la Jeunesse (OFAJ)",
+    "partner_country": "France/Germany",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://gabriel-faure-tournon.ent.auvergnerhonealpes.fr/mobilite-internationale-erasmus-et-ofaj/",
+    "evidence_quote": "L'Office franco-allemand pour la Jeunesse (OFAJ)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Gabriel Faure",
+    "city": "Tournon-sur-Rhône",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://gabriel-faure-tournon.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "PLACE MALLARME 07301 TOURNON SUR RHONE CEDEX"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution does not list specific Erasmus+ partners or a total number of agreements in the provided evidence. Contact information for international mobility is not explicitly provided beyond the general school contact details.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 12.4,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 20.0
+ }
+}

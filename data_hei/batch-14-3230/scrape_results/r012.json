@@ -1,0 +1,100 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-29T13:44:57Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Escuela Superior de Diseño y Moda, S.L.",
+  "institution_type": "university",
+  "official_website": "https://www.paris.edu/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.paris.edu/",
+   "evidence_quote": "75017 Paris France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Paris College of Art",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.paris.edu/",
+    "evidence_quote": "Paris College of Art",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Accent Global Learning",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.paris.edu/",
+    "evidence_quote": "Accent Global Learning",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Center for University Programs Abroad",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.paris.edu/",
+    "evidence_quote": "Center for University Programs Abroad",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Paris University",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.paris.edu/",
+    "evidence_quote": "Paris University (ParisU) is an international institution of higher education accredited by NECHE with five locations in Europe (Paris, Rome, Florence, Madrid, and London). Its mission is to prepare the next generation to be globally aware, engaged, and open-minded citizens, equipped with the critical thinking and creative skills necessary to address complex challenges. The institution fulfills its mission by offering US-accredited degrees in English at the undergraduate and graduate levels, lan"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ or international university partners. No specific contact person for international mobility is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 6.3,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     52
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 19.4
+ }
+}
