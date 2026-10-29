@@ -1,0 +1,108 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-29T10:18:59Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "OGEC Providence Sainte Thérèse",
+  "institution_type": "school",
+  "official_website": "https://www.providencesaintetherese.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 32 08 17 32",
+   "source_url": "https://www.providencesaintetherese.fr/contact/",
+   "evidence_quote": "Tel : 02 32 08 17 32 ou 02 35 74 58 44 <tel 02 32 08 17 32>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée La Châtaigneraie",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.providencesaintetherese.fr/",
+    "evidence_quote": "[Logo Lycée La Châtaigneraie]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycées Providence Miséricorde de Rouen",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.providencesaintetherese.fr/reseau-anciens-eleves/",
+    "evidence_quote": "L’association Les Amis De La Pro’ a pour objet de dégager une synergie des relations intergénérationnelles entre les différents membres de l’association (anciens élèves, anciens professeurs, anciens salariés OGEC des lycées Providence Miséricorde de Rouen, Sainte Thérèse de Maromme, Providence Sainte Thérèse de Rouen et membres d’honneur), les apprenants de l’ensemble scolaire Providence Sainte Thérèse et entre les membres de l’association eux-mêmes.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sainte Thérèse de Maromme",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.providencesaintetherese.fr/reseau-anciens-eleves/",
+    "evidence_quote": "L’association Les Amis De La Pro’ a pour objet de dégager une synergie des relations intergénérationnelles entre les différents membres de l’association (anciens élèves, anciens professeurs, anciens salariés OGEC des lycées Providence Miséricorde de Rouen, Sainte Thérèse de Maromme, Providence Sainte Thérèse de Rouen et membres d’honneur), les apprenants de l’ensemble scolaire Providence Sainte Thérèse et entre les membres de l’association eux-mêmes.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ensemble scolaire Providence Sainte Thérèse",
+    "city": "Rouen",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.providencesaintetherese.fr/contact/",
+    "evidence_quote": "42 rue le Nostre"
+   },
+   {
+    "campus_name": "École maternelle et primaire",
+    "city": "Maromme",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.providencesaintetherese.fr/contact/",
+    "evidence_quote": "34 rue Ferdinand Cartier"
+   }
+  ],
+  "stated_total": 5000,
+  "stated_total_quote": "Son implantation géographique, son intégration dans le tissu économique et institutionnel local puis régional, son utilisation forte du numérique au service de la pédagogie et des membres de sa communauté éducative permettent à chacun d’accéder à des formations de qualité et reconnues. Notre établissement se veut être le trait d’union entre les études et le monde professionnel. Nos partenaires présents dans un réseau de plus de 5000 entreprises aiment accompagner les jeunes qui nous sont confiés",
+  "stated_total_url": "https://www.providencesaintetherese.fr/",
+  "truncated": true,
+  "total_seen": 5000,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not provide a list of international Erasmus+ partners or specific international mobility coordinators.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 13.0,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 29.1
+ }
+}

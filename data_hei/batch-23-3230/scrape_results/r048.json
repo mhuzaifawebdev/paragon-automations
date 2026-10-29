@@ -1,0 +1,109 @@
+{
+ "row_id": "r048",
+ "scraped_at": "2026-10-29T10:18:54Z",
+ "contacts": {
+  "row_id": "r048",
+  "institution_name": "FUNDACION DE LA UNIVERSIDAD DE ALMERIA",
+  "institution_type": "university",
+  "official_website": "https://www.fundacionual.es/",
+  "country": null,
+  "phone": {
+   "value": "950 015 975",
+   "source_url": "https://www.fundacionual.es/",
+   "evidence_quote": "950 015 975"
+  },
+  "phone_alt": [],
+  "generic_email": "info@fundacionual.es",
+  "generic_email_url": "https://www.fundacionual.es/",
+  "contact": {
+   "name": "Verónica Zurano Blázquez",
+   "designation": "Director of Administration and HR",
+   "designation_local": "",
+   "email": "vzurano@fundacionual.es",
+   "office_email": "",
+   "phone": "950 214 178",
+   "source_url": "https://www.fundacionual.es/",
+   "evidence_quote": "Verónica Zurano Blázquez ... Directora de Administración y RRHH"
+  },
+  "alternates": [],
+  "rung": "Other role. She is the director of administration and human resources.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Red FUE",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fundacionual.es/el-plan-ualtransfiere-2023-apuesta-firmemente-por-la-internacionalizacion/",
+    "evidence_quote": "La Red FUE fija su posición sobre el buzón de denuncias y el Estatuto de las prácticas no laborales",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Grupo de Trabajo de Fundaciones Universitarias Andaluzas",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fundacionual.es/",
+    "evidence_quote": "La Fundación de la Universidad de Almería participa en el Grupo de Trabajo de Fundaciones Universitarias Andaluzas",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ISEP",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fundacionual.es/servicios-internacional-isep-summer/",
+    "evidence_quote": "Gestión Programa ISEP SUMMER de la Universidad de Almería.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fundación de la Universidad de Almería",
+    "city": "Almería",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.fundacionual.es/",
+    "evidence_quote": "Ctra. Sacramento, s/n, 04120 La Cañada, Almería"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ partner universities. It focuses on the administrative and support services provided by the Foundation for the University of Almería.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 14.9,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     281,
+     359
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 22.8
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "row_id": "r044",
+ "scraped_at": "2026-10-29T10:18:32Z",
+ "contacts": {
+  "row_id": "r044",
+  "institution_name": "IES JACARANDA",
+  "institution_type": "school",
+  "official_website": "https://iesjacaranda.com/",
+  "country": {
+   "value": "España",
+   "source_url": "https://iesjacaranda.com/",
+   "evidence_quote": "© 2026 IES JACARANDA. MÁLAGA, ESPAÑA."
+  },
+  "phone": {
+   "value": "+34 951 29 38 16",
+   "source_url": "https://iesjacaranda.com/",
+   "evidence_quote": "+34 951 29 38 16"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Pedro Méndez",
+   "designation": "Professor of Service / Erasmus Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iesjacaranda.com/experiencias-erasmus/",
+   "evidence_quote": "Pedro Méndez ... Profesor de Servicio / Coordinador Erasmus"
+  },
+  "alternates": [
+   {
+    "name": "Alejandro Urdiales Molina",
+    "designation": "Professor of Service / Erasmus Collaborator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://iesjacaranda.com/experiencias-erasmus/",
+    "evidence_quote": "Alejandro Urdiales Molina ... Profesor de Servicio / Colaborador Erasmus",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Alejandro Urdiales Molina is listed as an Erasmus collaborator involved in international mobility."
+   }
+  ],
+  "rung": "Mobility coordinator. Pedro Méndez is explicitly identified as the Erasmus Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "BrosWorld Restaurante",
+    "partner_country": "Italia",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://iesjacaranda.com/erasmus/",
+    "evidence_quote": "BrosWorld Restaurante. Cuna del arte y la gastronomía profesional.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Le Moulin de Connelles",
+    "partner_country": "Francia",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjacaranda.com/erasmus/",
+    "evidence_quote": "Le Moulin de Connelles. Excelencia técnica en el corazón industrial europeo.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tribenl",
+    "partner_country": "Holanda",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjacaranda.com/erasmus/",
+    "evidence_quote": "Tribenl. Dinamismo y oportunidades en economías emergentes.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Jacaranda",
+    "city": "Málaga",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://iesjacaranda.com/",
+    "evidence_quote": "C. Gaspar Sanz, 1, Churriana, 29140 Málaga"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The evidence provides specific examples of Erasmus partners but does not contain a comprehensive list of all institutional partners. Contact emails and phone numbers for specific individuals are not provided in the text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 10.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.1,
+  "total_seconds": 17.7
+ }
+}
