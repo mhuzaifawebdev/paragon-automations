@@ -1,0 +1,98 @@
+{
+ "row_id": "r601",
+ "scraped_at": "2026-10-29T07:49:20Z",
+ "contacts": {
+  "row_id": "r601",
+  "institution_name": "IES SANTA MARIA DE ALARCOS",
+  "institution_type": "school",
+  "official_website": "https://iesalarcos.com/",
+  "country": null,
+  "phone": {
+   "value": "926 23 06 47",
+   "source_url": "https://iesalarcos.com/",
+   "evidence_quote": "926 23 06 47"
+  },
+  "phone_alt": [],
+  "generic_email": "info@iesalarcos.com",
+  "generic_email_url": "https://iesalarcos.com/contacto/",
+  "contact": {
+   "name": "Julio Gómez García",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iesalarcos.com/centro-educativo/equipo-directivo/",
+   "evidence_quote": "Director ... Julio Gómez García"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Julio Gómez García is the Director of the institution and is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Unión Europea",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesalarcos.com/impulsando-internacionalizacion-5-estudiantes-inician-experiencia-erasmus-bruselas-roma-y-florencia/",
+    "evidence_quote": "Programa: Erasmus+ de la Unión Europea",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SEPIE",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesalarcos.com/impulsando-internacionalizacion-5-estudiantes-inician-experiencia-erasmus-bruselas-roma-y-florencia/",
+    "evidence_quote": "El IHES Santa María de Alarcos participa en las Jornadas Erasmus+ de Educación Superior del SEPIE en Toledo",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Santa María de Alarcos",
+    "city": "Ciudad Real",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesalarcos.com/",
+    "evidence_quote": "Ronda Granada, 2"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The website mentions participation in Erasmus+ projects and mobility, but does not provide a specific list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 13.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.2,
+  "mode": "gemini",
+  "email_search_s": 7.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 30.2
+ }
+}

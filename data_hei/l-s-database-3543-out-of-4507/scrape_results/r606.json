@@ -1,0 +1,85 @@
+{
+ "row_id": "r606",
+ "scraped_at": "2026-10-29T07:49:08Z",
+ "contacts": {
+  "row_id": "r606",
+  "institution_name": "IES DIEGO DE PRAVES",
+  "institution_type": "school",
+  "official_website": "https://iesdiegodepraves.centros.educa.jcyl.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Yolanda Cartón Sevilla",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iesdiegodepraves.centros.educa.jcyl.es/sitio/index.cgi?wid_seccion=1&wid_item=181",
+   "evidence_quote": "[Directora] | ... Yolanda Cartón Sevilla |"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Yolanda Cartón Sevilla is listed as part of the school's management team and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "eTwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://iesdiegodepraves.centros.educa.jcyl.es/sitio/index.cgi?wid_seccion=1&wid_item=181",
+    "evidence_quote": "eTwinning",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Diego de Praves",
+    "city": "Valladolid",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesdiegodepraves.centros.educa.jcyl.es/sitio/index.cgi?wid_seccion=1&wid_item=181",
+    "evidence_quote": "IES Diego de Praves"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The website mentions an Erasmus+ program and internationalization plan, but does not provide a specific list of partner institutions or contact details for an Erasmus coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 5.4,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.1,
+  "mode": "gemini",
+  "email_search_s": 5.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     121
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 19.0
+ }
+}

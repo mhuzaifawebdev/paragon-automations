@@ -1,0 +1,78 @@
+{
+ "row_id": "r608",
+ "scraped_at": "2026-10-27T19:00:50Z",
+ "contacts": {
+  "row_id": "r608",
+  "institution_name": "Juan Bosco",
+  "institution_type": "school",
+  "official_website": "https://cartagena.salesianos.edu/",
+  "country": {
+   "value": "Spain",
+   "source_url": "https://cartagena.salesianos.edu/",
+   "evidence_quote": "“Esta es tu Casa”, campaña pastoral de los Salesianos en España"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "cartagena@salesianos.edu",
+  "generic_email_url": "https://cartagena.salesianos.edu/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "Reused from batch spain-batch-1-aiman (scraped 2026-10-27). site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fundación Botín",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://cartagena.salesianos.edu/",
+    "evidence_quote": "Educación Responsable de la Fundación Botín",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fundación FISAT",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://cartagena.salesianos.edu/",
+    "evidence_quote": "El próximo domingo 25 de octubre, la Fundación FISAT y Salesianos Cartagena celebrarán la primera edición de FISAT Fest, un encuentro cultural y solidario abierto a toda la ciudadanía. Bajo el lema «Distintas voces. Un mismo lugar», la jornada recaudará fondos para...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Salesianos Cartagena Colegio San Juan Bosco",
+    "city": "Cartagena",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://cartagena.salesianos.edu/",
+    "evidence_quote": "Salesianos Cartagena Colegio \"San Juan Bosco\""
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 1,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ or international mobility partners. No specific contact person for international relations is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "spain-batch-1-aiman",
+  "row_id": "r035"
+ }
+}
