@@ -1,0 +1,96 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-10-29T00:08:15Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "SOLSKI CENTER CELJE",
+  "institution_type": "college",
+  "official_website": "https://www.sc-celje.si/",
+  "country": null,
+  "phone": {
+   "value": "03 428 58 26",
+   "source_url": "https://www.sc-celje.si/poklicno-in-strokovno-izobrazevanje/",
+   "evidence_quote": "T: 03 428 58 26"
+  },
+  "phone_alt": [],
+  "generic_email": "info@sc-celje.si",
+  "generic_email_url": "https://www.sc-celje.si/",
+  "contact": {
+   "name": "Andreja Leskovar",
+   "designation": "Mobility Coordinator",
+   "designation_local": "",
+   "email": "andreja.leskovar@sc-celje.si",
+   "office_email": "",
+   "phone": "03 428 58 14",
+   "source_url": "https://www.sc-celje.si/splosno-solsko-izobrazevanje/",
+   "evidence_quote": "Koordinatorica mobilnosti: ... Andreja Leskovar"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. She is explicitly listed as the mobility coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "Reused from batch legacy-db-ccc-merged-898 (scraped 2026-10-29). Reused from batch merged-legacy-db-380-budget-ibrahim (scraped 2026-10-29). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Language Xchange Ireland",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://www.sc-celje.si/prijavnica-osebje/",
+    "evidence_quote": "Gostiteljska organizacija/država: Language Xchange Ireland, Irska in Europa Direkt Dresden, Nemčija",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Europa Direkt Dresden",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://www.sc-celje.si/prijavnica-osebje/",
+    "evidence_quote": "Gostiteljska organizacija/država: Language Xchange Ireland, Irska in Europa Direkt Dresden, Nemčija",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IES Santa Lucia",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.sc-celje.si/prijavnica-osebje/",
+    "evidence_quote": "Gostiteljska organizacija/država: IES Santa Lucia, Kanarski otoki, Španija",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Šolski center Celje",
+    "city": "Celje",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://www.sc-celje.si/",
+    "evidence_quote": "Pot na Lavo 22"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific Erasmus+ mobility partners for staff and students, but does not provide a comprehensive list of all institutional partners. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "legacy-db-ccc-merged-898",
+  "row_id": "r954"
+ }
+}
