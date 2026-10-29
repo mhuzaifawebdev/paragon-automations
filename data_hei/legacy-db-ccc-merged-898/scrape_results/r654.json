@@ -1,0 +1,106 @@
+{
+ "row_id": "r654",
+ "scraped_at": "2026-10-29T01:47:03Z",
+ "contacts": {
+  "row_id": "r654",
+  "institution_name": "TECHNISCHE UNIVERSITAT CLAUSTHAL",
+  "institution_type": "university",
+  "official_website": "https://www.amw.gdynia.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "dr Monika Wysocka",
+   "designation": "Institutional Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+48 261 26 25 62",
+   "source_url": "https://www.amw.gdynia.pl/index.php/o-nas/kontakt1#biuro-rektora",
+   "evidence_quote": "Uczelniany Koordynator Erasmus+ ... dr Monika Wysocka"
+  },
+  "alternates": [
+   {
+    "name": "mgr Anna Kocoń",
+    "designation": "Deputy Institutional Erasmus+ Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+48 261 26 25 62",
+    "source_url": "https://www.amw.gdynia.pl/index.php/o-nas/kontakt1#biuro-rektora",
+    "evidence_quote": "Zastępca uczelnianego koordynatora Erasmus+ ... mgr Anna Kocoń",
+    "why_chosen": "Mobility coordinator. She serves as the deputy to the institutional Erasmus+ coordinator."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. She is explicitly listed as the Institutional Erasmus+ Coordinator for the university.",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "LionsWare",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.amw.gdynia.pl/",
+    "evidence_quote": "Projekt i realizacja stronyLionsWarePartner technologiczny Poznaj nas →",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Akademia Marynarki Wojennej",
+    "city": "Gdynia",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://www.amw.gdynia.pl/",
+    "evidence_quote": "81-127 Gdynia"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides contact information for the Erasmus+ office but does not contain a list of partner institutions or the total number of international agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.0,
+  "crawl_s": 15.1,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 24.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     257
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 52.2
+ }
+}
