@@ -1,0 +1,105 @@
+{
+ "row_id": "r052",
+ "scraped_at": "2026-10-29T00:24:37Z",
+ "contacts": {
+  "row_id": "r052",
+  "institution_name": "KATHOLIEKE UNIVERSITEIT LEUVEN",
+  "institution_type": "university",
+  "official_website": "https://feb.kuleuven.be/",
+  "country": {
+   "value": "Belgium",
+   "source_url": "https://feb.kuleuven.be/eng/contact/campuses",
+   "evidence_quote": "BELGIUM"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Eurometropolis",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://feb.kuleuven.be/contact/campus-kortrijk",
+    "evidence_quote": "Kortrijk is een warme campus, waar alle bezoekers welkom zijn. Het is een unieke omgeving, zowel gehuld in rust en stilte als bruisend van energie. De campus maakt deel uit van de wetenschappelijke, sociale, culturele, medische, economische en industriële netwerken van de regio en de omliggende Eurometropolis. De kleinschaligheid is een troef van deze campus. Op Campus Kulak Kortrijk volg je les in kleine groepen waardoor de persoonlijke betrokkenheid van professoren, assistenten en monitoren er",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Leuven",
+    "city": "Leuven",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://feb.kuleuven.be/contact",
+    "evidence_quote": "Campus Leuven"
+   },
+   {
+    "campus_name": "Campus Brussel",
+    "city": "Brussel",
+    "country": "Belgium",
+    "role": "branch",
+    "source_url": "https://feb.kuleuven.be/contact",
+    "evidence_quote": "Campus Brussel"
+   },
+   {
+    "campus_name": "Campussen Antwerpen",
+    "city": "Antwerpen",
+    "country": "Belgium",
+    "role": "branch",
+    "source_url": "https://feb.kuleuven.be/contact",
+    "evidence_quote": "Campussen Antwerpen"
+   },
+   {
+    "campus_name": "Campus Kulak Kortrijk",
+    "city": "Kortrijk",
+    "country": "Belgium",
+    "role": "branch",
+    "source_url": "https://feb.kuleuven.be/contact",
+    "evidence_quote": "Campus Kulak Kortrijk"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides contact information for general inquiries and corporate relations but does not list specific individuals responsible for Erasmus+ or international mobility. No list of partner institutions is provided. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.2,
+  "crawl_s": 13.5,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 43.9
+ }
+}
