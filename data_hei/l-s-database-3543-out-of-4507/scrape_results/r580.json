@@ -1,0 +1,134 @@
+{
+ "row_id": "r580",
+ "scraped_at": "2026-10-29T07:45:30Z",
+ "contacts": {
+  "row_id": "r580",
+  "institution_name": "CDP San Bartolomé",
+  "institution_type": "school",
+  "official_website": "https://malaga.salesianos.edu/",
+  "country": null,
+  "phone": {
+   "value": "952 25 15 41",
+   "source_url": "https://malaga.salesianos.edu/",
+   "evidence_quote": "Casa Salesiana | 952 25 15 41 <tel 952251541>"
+  },
+  "phone_alt": [],
+  "generic_email": "direcciontitular.malaga@salesianos.edu",
+  "generic_email_url": "https://malaga.salesianos.edu/contacta/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Viden Djurs",
+    "partner_country": "Denmark",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://malaga.salesianos.edu/",
+    "evidence_quote": "Salesianos Málaga ha recibido la visita de un grupo de estudiantes y docentes de Viden Djurs, centro educativo danés. Durante la jornada, y tras la recepción de nuestro director, pudieron conocer de primera mano nuestras instalaciones. El encuentro continuó con un...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Real Sociedad Matemática Española",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://malaga.salesianos.edu/",
+    "evidence_quote": "El próximo 30 de octubre, 17 estudiantes de bachillerato de nuestro colegio participarán en este gran reto convocado por la Real Sociedad Matemática Española, la Universidad de Málaga y la Sociedad Andaluza de Educación Matemática Thales. Esta prueba es la fase...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidad de Málaga",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://malaga.salesianos.edu/",
+    "evidence_quote": "El próximo 30 de octubre, 17 estudiantes de bachillerato de nuestro colegio participarán en este gran reto convocado por la Real Sociedad Matemática Española, la Universidad de Málaga y la Sociedad Andaluza de Educación Matemática Thales. Esta prueba es la fase...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sociedad Andaluza de Educación Matemática Thales",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://malaga.salesianos.edu/",
+    "evidence_quote": "El próximo 30 de octubre, 17 estudiantes de bachillerato de nuestro colegio participarán en este gran reto convocado por la Real Sociedad Matemática Española, la Universidad de Málaga y la Sociedad Andaluza de Educación Matemática Thales. Esta prueba es la fase...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fundación Don Bosco",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://malaga.salesianos.edu/contacta/",
+    "evidence_quote": "Fundación Don Bosco",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hermandad Salesiana de Málaga",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://malaga.salesianos.edu/contacta/",
+    "evidence_quote": "Hermandad Salesiana de Málaga",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegio Salesiano San Bartolomé",
+    "city": "Málaga",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://malaga.salesianos.edu/colegio/",
+    "evidence_quote": "Colegio Salesiano San Bartolomé | Salesianos Málaga"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ partners, only mentions of specific collaborative activities and visits. No specific Erasmus coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.5,
+  "crawl_s": 13.5,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.5,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     204
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 46.3
+ }
+}
