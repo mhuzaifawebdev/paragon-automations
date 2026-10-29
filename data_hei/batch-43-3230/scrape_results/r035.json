@@ -1,0 +1,94 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-10-29T12:17:34Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "LYCEE POLYVALENT CLEMENT ADER",
+  "institution_type": "school",
+  "official_website": "https://www.lyceeader.eu/",
+  "country": {
+   "value": "FRANCE",
+   "source_url": "https://www.lyceeader.eu/",
+   "evidence_quote": "Adresse: 76 rue Georges Clémenceau, 77220 Tournan-en-Brie FRANCE"
+  },
+  "phone": {
+   "value": "01.64.07.20.18",
+   "source_url": "https://www.lyceeader.eu/",
+   "evidence_quote": "Téléphone: 01.64.07.20.18"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES Domingo Rivero",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceeader.eu/index.php?id_menu=145",
+    "evidence_quote": "| Lycée Clément Ader – IES Domingo Rivero",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Polyvalent Clément Ader",
+    "city": "Tournan-en-Brie",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lyceeader.eu/",
+    "evidence_quote": "Lycée Polyvalent Clément Ader, 76 rue Georges Clémenceau, 77220 Tournan-en-Brie"
+   }
+  ],
+  "stated_total": 100,
+  "stated_total_quote": "Le lycée travail avec une centaine de partenaires qui s'étendent à l'EST jusqu'à la Ferté-Gaucher, à l'OUEST jusqu'à L'hay-les-Roses.",
+  "stated_total_url": "https://www.lyceeader.eu/index.php?id_menu=127",
+  "truncated": true,
+  "total_seen": 100,
+  "pages_read": 10,
+  "coverage_note": "The website does not list specific names or contact details for Erasmus+ or international relations staff. While a partner is mentioned in the context of an exchange, a comprehensive list of international partners is not provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 13.5,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     205
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 26.9
+ }
+}
