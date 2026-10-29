@@ -1,0 +1,71 @@
+{
+ "row_id": "r222",
+ "scraped_at": "2026-10-29T04:08:55Z",
+ "contacts": {
+  "row_id": "r222",
+  "institution_name": "Open Book Extracts",
+  "institution_type": "unknown",
+  "official_website": "https://openbookextracts.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://openbookextracts.com/policies/contact-information",
+   "evidence_quote": "Physical address: 317 Lucy Garrett Road, Roxboro NC 27574, United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@openbookextracts.com",
+  "generic_email_url": "https://openbookextracts.com/policies/contact-information",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Last Prisoner Project",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://openbookextracts.com/",
+    "evidence_quote": "In partnership with the Last Prisoner Project, Open Book Extracts actively supports the release of incarcerated citizens with nonviolent cannabis crimes.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Open Book Extracts",
+    "city": "Roxboro",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://openbookextracts.com/policies/contact-information",
+    "evidence_quote": "Physical address: 317 Lucy Garrett Road, Roxboro NC 27574, United States"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The institution is a commercial manufacturing company rather than an educational institution. No information regarding Erasmus+ or international mobility partnerships is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 6.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 16.4
+ }
+}
