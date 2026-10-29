@@ -1,0 +1,114 @@
+{
+ "row_id": "r523",
+ "scraped_at": "2026-10-29T07:32:39Z",
+ "contacts": {
+  "row_id": "r523",
+  "institution_name": "Lycée des métiers de l'Hôtellerie-Restauration et Boulangerie-Pâtisserie Georges Baptiste",
+  "institution_type": "college",
+  "official_website": "https://georgesbaptiste.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 32 12 55 00",
+   "source_url": "https://georgesbaptiste.fr/",
+   "evidence_quote": "02 32 12 55 00"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Stéphane CAVELAN",
+   "designation": "Teacher-cook",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://georgesbaptiste.fr/dernieres-publications-des-equipes-enseignantes/",
+   "evidence_quote": "Un grand merci à Stéphane CAVELAN, enseignant-cuisinier au lycée Georges-Baptiste, pour sa superbe démonstration du pâté en croûte supérieure !"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Stéphane CAVELAN is a named teacher at the institution involved in practical training and projects.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ANDES",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://georgesbaptiste.fr/",
+    "evidence_quote": "Partenariat avec l’ANDES",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ruban rose",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://georgesbaptiste.fr/dernieres-publications-des-equipes-enseignantes/",
+    "evidence_quote": "Les CAP 2 Pâtisserie et Boulangerie ont créé des cartes en linogravure afin de les offrir aux clients du restaurant qui feront un don pour l’association Ruban rose. Les cartes sont imprimées sur papier aquarelle et numérotées.]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Georges Baptiste",
+    "city": "Canteleu",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://georgesbaptiste.fr/strategie-erasmus-de-letablissement/",
+    "evidence_quote": "installation dans des locaux modernes en 2004 sur la commune de"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The website mentions a 'Partenaires' section, but the page content is empty (No posts found!). No specific list of Erasmus+ partners is provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 14.0,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 31.3,
+  "mode": "gemini",
+  "email_search_s": 34.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 83.1
+ }
+}
