@@ -1,0 +1,169 @@
+{
+ "row_id": "r045",
+ "scraped_at": "2026-10-29T12:25:13Z",
+ "contacts": {
+  "row_id": "r045",
+  "institution_name": "ÉCOLE RÉGIONALE D'ACTEURS DE CANNES ET MARSEILLE",
+  "institution_type": "college",
+  "official_website": "https://eracm.fr/",
+  "country": null,
+  "phone": {
+   "value": "04 93 38 73 30",
+   "source_url": "https://eracm.fr/",
+   "evidence_quote": "Tél : 04 93 38 73 30 <tel +33493387330>"
+  },
+  "phone_alt": [],
+  "generic_email": "contact06@eracm.fr",
+  "generic_email_url": "https://eracm.fr/",
+  "contact": {
+   "name": "Olivier QUÉRO",
+   "designation": "Mobility Reference Contact",
+   "designation_local": "",
+   "email": "production@eracm.fr",
+   "office_email": "",
+   "phone": "+33 4 26 78 12 79",
+   "source_url": "https://eracm.fr/international/erasmus",
+   "evidence_quote": "CONTACT RÉFÉRENT MOBILITÉ ... Olivier QUÉRO"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. He is explicitly listed as the contact for mobility at the institution.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée Bristol",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://eracm.fr/actus/ateliers/projets-lycees-partenaires",
+    "evidence_quote": "- Lycée Bristol (Cannes)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée Marseilleveyre",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://eracm.fr/actus/ateliers/projets-lycees-partenaires",
+    "evidence_quote": "- Lycée Marseilleveyre (Marseille)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "La Bibliothèque Armand Gatti - Le Pôle",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://eracm.fr/theatrotheque-barety/reseau-des-theatrotheques",
+    "evidence_quote": "La Bibliothèque Armand Gatti - Le Pôle, à La Seyne sur mer",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "La BNF - Maison Jean Vilar",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://eracm.fr/theatrotheque-barety/reseau-des-theatrotheques",
+    "evidence_quote": "La BNF - Maison Jean Vilar, à Avignon",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "La Bibliothèque du théâtre de la Joliette",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://eracm.fr/theatrotheque-barety/reseau-des-theatrotheques",
+    "evidence_quote": "La Bibliothèque du théâtre de la Joliette à Marseille",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "La Bibliothèque de la Chartreuse-CNES",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://eracm.fr/theatrotheque-barety/reseau-des-theatrotheques",
+    "evidence_quote": "La Bibliothèque de la Chartreuse-CNES à Villeneuve lès Avignon",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "La Théâtrothèque Gaston Baty, Sorbonne nouvelle",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://eracm.fr/theatrotheque-barety/reseau-des-theatrotheques",
+    "evidence_quote": "La Théâtrothèque Gaston Baty, Sorbonne nouvelle, Paris 3.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "réseau des écoles nationales supérieures à l'Art dramatique",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://eracm.fr/media/pages/international/erasmus/-699312912-1584967492/declaration-strategique-erasmus-plus.pdf",
+    "evidence_quote": "L'ERAC va cibler le réseau des écoles nationales supérieures à l'Art",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "École regionale d'acteurs de Cannes et Marseille",
+    "city": "Cannes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://eracm.fr/",
+    "evidence_quote": "06400 Cannes"
+   },
+   {
+    "campus_name": "IMMS - Friche La Belle de Mai",
+    "city": "Marseille",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://eracm.fr/",
+    "evidence_quote": "13003 Marseille"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 8,
+  "pages_read": 7,
+  "coverage_note": "The evidence provides information on the institution's international strategy and local cultural partnerships, but does not contain a comprehensive list of Erasmus+ partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 9.2,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 18.9
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-10-29T12:25:31Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "EPLEFPA DE SAINT-YRIEIX-LA-PERCHE",
+  "institution_type": "college",
+  "official_website": "https://www.eplefpa-saint-yrieix.fr/",
+  "country": null,
+  "phone": {
+   "value": "05 55 75 70 00",
+   "source_url": "https://www.eplefpa-saint-yrieix.fr/",
+   "evidence_quote": "Tél. : 05 55 75 70 00"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. BREYSSE",
+   "designation": "International cooperation referent",
+   "designation_local": "",
+   "email": "vincent.breysse@educagri.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.eplefpa-saint-yrieix.fr/cooperation-internationale/",
+   "evidence_quote": "Référents coopération internationale au lycée La Faye ... M. BREYSSE – vincent.breysse@educagri.fr <vincent.breysse@educagri.fr>"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. M. BREYSSE is explicitly listed as a resource person for international cooperation and mobility.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ecosse",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://www.eplefpa-saint-yrieix.fr/cooperation-internationale/",
+    "evidence_quote": "C’est aussi la possibilité de faire des voyages d’études à l’étranger (Ecosse et Allemagne actuellement) avec des établissements partenaires. A travers ces échanges, c’est recevoir les élèves et étudiants étrangers, leurs enseignants et partager notre culture avec eux.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Allemagne",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://www.eplefpa-saint-yrieix.fr/cooperation-internationale/",
+    "evidence_quote": "C’est aussi la possibilité de faire des voyages d’études à l’étranger (Ecosse et Allemagne actuellement) avec des établissements partenaires. A travers ces échanges, c’est recevoir les élèves et étudiants étrangers, leurs enseignants et partager notre culture avec eux.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée La Faye",
+    "city": "ST YRIEIX LA PERCHE",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.eplefpa-saint-yrieix.fr/",
+    "evidence_quote": "28 route de la Faye"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The evidence mentions international partners in Scotland and Germany but does not provide a formal list of partner institutions. No specific Erasmus+ institutional coordinator is named, but international cooperation referents are provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 13.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 18.3
+ }
+}
