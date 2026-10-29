@@ -1,0 +1,82 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-29T14:02:00Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "Ekonomska sola Novo mesto",
+  "institution_type": "school",
+  "official_website": "https://www.esnm.si/",
+  "country": null,
+  "phone": {
+   "value": "+386 (7) 393 32 60",
+   "source_url": "https://www.esnm.si/",
+   "evidence_quote": "+386 (7) 393 32 60 <tel +38673933260>"
+  },
+  "phone_alt": [],
+  "generic_email": "informacije@esnm.si",
+  "generic_email_url": "https://www.esnm.si/",
+  "contact": {
+   "name": "Katarina Udovč",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "katarina.udovc@esnm.si",
+   "office_email": "",
+   "phone": "07 39 33 264",
+   "source_url": "https://www.esnm.si/kontakt/",
+   "evidence_quote": "Ravnateljica ... Katarina Udovč"
+  },
+  "alternates": [
+   {
+    "name": "Katja Cimermančič",
+    "designation": "Assistant Principal",
+    "designation_local": "",
+    "email": "katja.cimermancic@esnm.si",
+    "office_email": "",
+    "phone": "07 39 33 283",
+    "source_url": "https://www.esnm.si/kontakt/",
+    "evidence_quote": "Pomočnica ravnateljice ... Katja Cimermančič",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is an assistant principal involved in the school's leadership and management."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the principal of the school, she holds the highest leadership position for institutional oversight.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ekonomska šola Novo mesto",
+    "city": "Novo mesto",
+    "country": "slovenia",
+    "role": "main",
+    "source_url": "https://www.esnm.si/",
+    "evidence_quote": "Ulica talcev 3a, 8000 Novo mesto"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions Erasmus+ mobility programs and projects but does not provide a specific list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.3,
+  "crawl_s": 18.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 28.2
+ }
+}
