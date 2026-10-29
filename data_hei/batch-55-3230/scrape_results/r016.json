@@ -1,0 +1,88 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-10-29T10:55:46Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "Direction Diocésaine de l'Enseignement Catholique de Nantes (DDEC)/Association Educative Ozanam",
+  "institution_type": "school",
+  "official_website": "https://www.ec44.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@ec44.fr",
+  "generic_email_url": "https://www.ec44.fr/",
+  "contact": {
+   "name": "Frédéric DELEMAZURE",
+   "designation": "Diocesan Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "02 51 81 64 00",
+   "source_url": "https://www.ec44.fr/mentions-legales/",
+   "evidence_quote": "Directeur de la publication : Frédéric DELEMAZURE – Directeur diocésain"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Frédéric DELEMAZURE is the Diocesan Director and the publication director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "APEL 44",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ec44.fr/",
+    "evidence_quote": "L'Enseignement privé Catholique 44 lance son site de l'orientation pour vous accompagner dans votre projet et vous guider dans votre choix, en partenariat avec l'APEL 44 !",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Direction Diocésaine de l'Enseignement Catholique de Nantes",
+    "city": "Nantes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ec44.fr/",
+    "evidence_quote": "15 rue Leglas-Maurice 44000 NANTES"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The institution is a diocesan administrative body managing 362 schools. No specific list of international Erasmus+ partners is provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.8,
+  "crawl_s": 7.4,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "email_search_s": 10.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 32.7
+ }
+}

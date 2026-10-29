@@ -1,0 +1,99 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-10-29T10:55:52Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "DvM htb",
+  "institution_type": "school",
+  "official_website": "https://www.dvmhtbaalst.be/",
+  "country": null,
+  "phone": {
+   "value": "053 72 96 80",
+   "source_url": "https://www.dvmhtbaalst.be/",
+   "evidence_quote": "Tel: 053 72 96 80 <tel +3253729680>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@dvmhtbaalst.be",
+  "generic_email_url": "https://www.dvmhtbaalst.be/",
+  "contact": {
+   "name": "Johnny Vandekerkhove",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.dvmhtbaalst.be/wie-is-wie/",
+   "evidence_quote": "Directeur DvM htb Dhr. Johnny Vandekerkhove"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Johnny Vandekerkhove is the director of the school and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "studieshop.be",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dvmhtbaalst.be/wie-is-wie/",
+    "evidence_quote": "Mevr. Trui Stassijns is verantwoordelijke voor de boeken, zij bewaakt het proces met onze partner hiervoor, studieshop.be. Met alle vragen hieromtrent kan je bij haar terecht maandag, dinsdag en woensdag.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VDAB leercentrum",
+    "partner_country": "Belgium",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.dvmhtbaalst.be/samen-op-weg-naar-malta-met-erasmus/",
+    "evidence_quote": "← De vorkheftruckopleiding van 6 Logistiek in het VDAB leercentrum in Zwijnaarde zit erop!",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "DvM htb Aalst",
+    "city": "Aalst",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.dvmhtbaalst.be/",
+    "evidence_quote": "Onderwijsstraat 5 - 9300 Aalst"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The website mentions Erasmus+ participation but does not provide a list of partner institutions. Contact information for international mobility is not explicitly listed, so the school director is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.2,
+  "crawl_s": 9.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     139
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 19.2
+ }
+}
