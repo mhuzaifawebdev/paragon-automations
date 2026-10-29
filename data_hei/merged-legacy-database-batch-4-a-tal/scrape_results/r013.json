@@ -1,0 +1,95 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-29T00:10:50Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "INSTITUTO DE ENSEÑANZA SECUNDARIA TORREON DEL ALCAZAR",
+  "institution_type": "school",
+  "official_website": "https://iestorreondelalcazar.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretaria@iestorreondelalcazar.org",
+  "generic_email_url": "https://iestorreondelalcazar.org/ies/contacto/",
+  "contact": {
+   "name": "Concepción Avilés Tortosa",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iestorreondelalcazar.org/wp-content/uploads/2023/01/PLAN-ERASMUS-IES-TORREON-DEL-ALCAZAR.pdf",
+   "evidence_quote": "Coordinadora Erasmus+: Concepción Avilés Tortosa"
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. She is explicitly identified as the Erasmus+ Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "British Council",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iestorreondelalcazar.org/erasmus-policy-statement/",
+    "evidence_quote": "En 1996 comenzó el Proyecto Bilingüe British Council-MEC para la ESO implicando la internalización de la vida académica de los alumnos y la participación en intercambios con Reino Unido, Irlanda y Francia, centros educativos con los que hemos establecido una muy estrecha colaboración en diversos proyectos. Para ampliar el carácter educativo europeo en 2009 obtiene la Carta Erasmus que renueva por la actual ECHE 2014-2020 participando desde 2009 con proyectos en la acción KA1 para Educación Super",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MEC",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iestorreondelalcazar.org/erasmus-policy-statement/",
+    "evidence_quote": "En 1996 comenzó el Proyecto Bilingüe British Council-MEC para la ESO implicando la internalización de la vida académica de los alumnos y la participación en intercambios con Reino Unido, Irlanda y Francia, centros educativos con los que hemos establecido una muy estrecha colaboración en diversos proyectos. Para ampliar el carácter educativo europeo en 2009 obtiene la Carta Erasmus que renueva por la actual ECHE 2014-2020 participando desde 2009 con proyectos en la acción KA1 para Educación Super",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Torreón del Alcázar",
+    "city": "Ciudad Real",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iestorreondelalcazar.org/ies/contacto/",
+    "evidence_quote": "Avda. del Torreón, 6, 13004 Ciudad Real"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions partnerships with institutions in the UK, Ireland, and France but does not provide a specific list of partner names. No individual email addresses for the contact person are provided in the evidence. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 16.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     128
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 37.6
+ }
+}
