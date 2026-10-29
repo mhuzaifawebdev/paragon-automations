@@ -1,0 +1,97 @@
+{
+ "row_id": "r514",
+ "scraped_at": "2026-10-29T07:32:03Z",
+ "contacts": {
+  "row_id": "r514",
+  "institution_name": "Instituto Educación Secundaria La Rosaleda",
+  "institution_type": "school",
+  "official_website": "https://ieslarosaleda.com/",
+  "country": null,
+  "phone": {
+   "value": "20952640035",
+   "source_url": "https://ieslarosaleda.com/",
+   "evidence_quote": "<tel %20952640035>"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@ieslarosaleda.com",
+  "generic_email_url": "https://ieslarosaleda.com/departamento-de-internacionalizacion-y-cooperacion/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini. 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "universidades de Málaga",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ieslarosaleda.com/premio-erasmus/",
+    "evidence_quote": "Algunos de los otros premiados han sido las universidades de Málaga y Granada o el Consorcio de La Comunidad Foral de Navarra.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "universidades de Granada",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ieslarosaleda.com/premio-erasmus/",
+    "evidence_quote": "Algunos de los otros premiados han sido las universidades de Málaga y Granada o el Consorcio de La Comunidad Foral de Navarra.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Consorcio de La Comunidad Foral de Navarra",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ieslarosaleda.com/premio-erasmus/",
+    "evidence_quote": "Algunos de los otros premiados han sido las universidades de Málaga y Granada o el Consorcio de La Comunidad Foral de Navarra.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LetmeRepair",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://ieslarosaleda.com/premio-erasmus/",
+    "evidence_quote": "Muchas fueron las anécdotas de aquellos días, pero entre ellas destaca en nuestra memoria una. En Marzo de 2021 había que estar confinado durante 5 días cuando se llegaba a Alemania. Dos alumnos fueron a hacer las prácticas a LetmeRepair en Bautzen. Había una dificultad evidente, si estabas confinado ¿cómo ibas a comprar para comer los 5 días que duraba el confinamiento? Petra Burkardt, La Directora de Operaciones en Europa, vamos la jefa, fue al supermercado y les llevó comida para esos primero",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES La Rosaleda",
+    "city": "Málaga",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://ieslarosaleda.com/",
+    "evidence_quote": "IES La Rosaleda (Málaga) es un colegio público fundado en 1947, pionero en Formación Profesional. Hoy integra ESO, Bachillerato, FP y adultos con más de 2.600 alumnos."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 6,
+  "coverage_note": "The evidence provides information about the international department and some specific partners, but does not contain a comprehensive list of all Erasmus+ partners. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 88.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 6.1,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 125.7
+ }
+}
