@@ -1,0 +1,111 @@
+{
+ "row_id": "r310",
+ "scraped_at": "2026-10-29T06:54:46Z",
+ "contacts": {
+  "row_id": "r310",
+  "institution_name": "Kungl. Musikhögskolan i Stockholm",
+  "institution_type": "university",
+  "official_website": "https://www.kmh.se/",
+  "country": null,
+  "phone": {
+   "value": "08 - 572 10 000",
+   "source_url": "https://www.kmh.se/",
+   "evidence_quote": "08 - 572 10 000 <tel +46857210000>"
+  },
+  "phone_alt": [],
+  "generic_email": "international@kmh.se",
+  "generic_email_url": "https://www.kmh.se/om-kmh/kontakta-oss.html",
+  "contact": {
+   "name": "Jenny Mattsson",
+   "designation": "Head of Communications Department",
+   "designation_local": "",
+   "email": "jenny.mattsson@kmh.se",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.kmh.se/om-kmh/kontakta-oss.html",
+   "evidence_quote": "Jenny Mattsson, chef Kommunikationsavdelningen"
+  },
+  "alternates": [
+   {
+    "name": "Elsy-Marie Tysk",
+    "designation": "Head of Service Department",
+    "designation_local": "",
+    "email": "elsy-marie.tysk@kmh.se",
+    "office_email": "",
+    "phone": "08-572 10 869",
+    "source_url": "https://www.kmh.se/om-kmh/pa-kmhs-campus/edsbergs-slott.html",
+    "evidence_quote": "Elsy-Marie Tysk ... Chef för serviceavdelningen",
+    "why_chosen": "Other role. She is the head of the service department at the institution."
+   }
+  ],
+  "rung": "Other role. She is the head of the communications department which manages cooperation with other higher education institutions.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "googlemaps.com",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kmh.se/om-kmh/pa-kmhs-campus/hitta-till-och-pa-campus.html",
+    "evidence_quote": "Öppna karta för vägbeskrivning (googlemaps.com) Länk till annan webbplats, öppnas i nytt fönster.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Valhallavägen",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.kmh.se/",
+    "evidence_quote": "Som student på KMH får du tillgång till fantastiska lokaler och faciliteter på Campus Valhallavägen i centrala Stockholm och Campus Edsberg i Sollentuna."
+   },
+   {
+    "campus_name": "Campus Edsberg",
+    "city": "Sollentuna",
+    "country": "Sweden",
+    "role": "branch",
+    "source_url": "https://www.kmh.se/",
+    "evidence_quote": "Som student på KMH får du tillgång till fantastiska lokaler och faciliteter på Campus Valhallavägen i centrala Stockholm och Campus Edsberg i Sollentuna."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of partner institutions. While the institution mentions international cooperation, specific partner names are not listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 11.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 17.8
+ }
+}

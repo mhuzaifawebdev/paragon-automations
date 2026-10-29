@@ -1,0 +1,92 @@
+{
+ "row_id": "r321",
+ "scraped_at": "2026-10-29T06:55:24Z",
+ "contacts": {
+  "row_id": "r321",
+  "institution_name": "ESCUELA SUPERIOR DE DISEÑO DE MADRID",
+  "institution_type": "college",
+  "official_website": "https://esdmadrid.es/",
+  "country": null,
+  "phone": {
+   "value": "+34 91 439 00 00",
+   "source_url": "https://esdmadrid.es/",
+   "evidence_quote": "+34 91 439 00 00 <tel +34 91 439 00 00>"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmuspracticas@esdmadrid.es",
+  "generic_email_url": "https://esdmadrid.es/internacional/",
+  "contact": {
+   "name": "Alejandro Montaner",
+   "designation": "Erasmus mobility coordinator",
+   "designation_local": "",
+   "email": "amontaner@esdmadrid.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://esdmadrid.es/internacional/",
+   "evidence_quote": "Si necesitas más información puedes escribir a Ana del Río <ana.del50@educa.madrid.org> o a Alejandro Montaner <amontaner@esdmadrid.es>"
+  },
+  "alternates": [
+   {
+    "name": "Brezo Alcoceba",
+    "designation": "Erasmus traineeship coordinator",
+    "designation_local": "",
+    "email": "erasmuspracticas@esdmadrid.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://esdmadrid.es/internacional/",
+    "evidence_quote": "Si necesitas más información puedes escribir a Brezo Alcoceba <erasmuspracticas@esdmadrid.es>",
+    "why_chosen": "Mobility coordinator. She is the contact person for Erasmus traineeship mobilities."
+   }
+  ],
+  "rung": "Mobility coordinator. He is explicitly identified as the coordinator for outgoing Erasmus mobilities.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cumulus",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://esdmadrid.es/internacional/",
+    "evidence_quote": "Desde su creación, la ESDM ha desarrollado una red internacional diversa y muy activa, colaborando con instituciones de diseño de Europa, Latinoamérica y otras regiones. Además, desde 2016, la escuela es miembro de Cumulus, la principal asociación internacional de las mejores universidades y escuelas de diseño del mundo",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escuela Superior de Diseño de Madrid",
+    "city": "Madrid",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://esdmadrid.es/",
+    "evidence_quote": "Camino de Vinateros 106"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The website does not provide a specific list of partner universities, only mentioning membership in the Cumulus network.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 14.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 17.2
+ }
+}
