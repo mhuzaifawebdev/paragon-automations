@@ -1,0 +1,124 @@
+{
+ "row_id": "r612",
+ "scraped_at": "2026-10-29T07:50:05Z",
+ "contacts": {
+  "row_id": "r612",
+  "institution_name": "Akademija strukovnih studija Sabac",
+  "institution_type": "college",
+  "official_website": "https://www.akademijasabac.edu.rs/",
+  "country": null,
+  "phone": {
+   "value": "015-342-171",
+   "source_url": "https://www.akademijasabac.edu.rs/kontakt/",
+   "evidence_quote": "Председник Академије: 015-342-171"
+  },
+  "phone_alt": [],
+  "generic_email": "akademija@akademijasabac.edu.rs",
+  "generic_email_url": "https://www.akademijasabac.edu.rs/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Univerzitet Adriatik",
+    "partner_country": "Montenegro",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "http://www.akademijasabac.edu.rs/wp-content/uploads/Erasmus/Javni_poziv_za_prijavu_KA171.pdf",
+    "evidence_quote": "Универзитет Адриатик",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ljubljana School of Business",
+    "partner_country": "Slovenia",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://www.akademijasabac.edu.rs/javni-pozivi-erasmus/",
+    "evidence_quote": "Ponovljeni javni poziv za stipendiranu odlaznu mobilnost studenata u okviru Erazmus+ projekta KA131 – Ljubljana School of Business, Slovenija (18.2.2026.)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Powiślański University",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.akademijasabac.edu.rs/javni-pozivi-erasmus/",
+    "evidence_quote": "Javni poziv za odlaznu mobilnost zaposlenih i studenata u okviru Erazmus+ projekta KA131 – Powiślański University, Poljska (4.2.2025.)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Фондација Темпус",
+    "partner_country": "Serbia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.akademijasabac.edu.rs/wp-content/uploads/Erasmus/Javni_poziv_za_prijavu_KA171.pdf",
+    "evidence_quote": "између Академије струковних студија Шабац и Фондације Темпус, Академија струковних",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Универзитет Адриатик",
+    "partner_country": "Montenegro",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "http://www.akademijasabac.edu.rs/wp-content/uploads/Erasmus/Javni_poziv_za_prijavu_KA171.pdf",
+    "evidence_quote": "Универзитет Адриатик",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Akademija strukovnih studija Šabac",
+    "city": "Šabac",
+    "country": "Serbia",
+    "role": "main",
+    "source_url": "https://www.akademijasabac.edu.rs/kontakt/",
+    "evidence_quote": "Адреса Академије: Добропољска 5, 15000 Шабац"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of all international partners. The contact information for the International Relations office is limited to a generic email address.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 13.7,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.8,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 4,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 40.2
+ }
+}
