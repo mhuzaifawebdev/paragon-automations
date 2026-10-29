@@ -1,0 +1,175 @@
+{
+ "row_id": "r114",
+ "scraped_at": "2026-10-29T08:20:54Z",
+ "contacts": {
+  "row_id": "r114",
+  "institution_name": "Andrea Athanasiou",
+  "institution_type": "university",
+  "official_website": "https://www.frederick.ac.cy/en/",
+  "country": {
+   "value": "Cyprus",
+   "source_url": "https://www.frederick.ac.cy/en/",
+   "evidence_quote": "Latest news & eventsAn exciting week for nuclear physics in Cyprus hosted by our University's CyNuclPhy Laboratory"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "adminfo@frederick.ac.cy",
+  "generic_email_url": "https://www.frederick.ac.cy/en/distance-learning/contact-us",
+  "contact": {
+   "name": "Athanasiou Andrea",
+   "designation": "Director, Studies and Student Welfare Service",
+   "designation_local": "",
+   "email": "a.athanasiou@frederick.ac.cy",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.frederick.ac.cy/en/about-us/faculty-staff/administrative-staff",
+   "evidence_quote": "Athanasiou Andrea | ... Director, Studies and Student Welfare Service |"
+  },
+  "alternates": [
+   {
+    "name": "Angelodimou Angellos",
+    "designation": "EU CONEXUS - Project Manager",
+    "designation_local": "",
+    "email": "ad.ang@frederick.ac.cy",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.frederick.ac.cy/en/about-us/faculty-staff/administrative-staff",
+    "evidence_quote": "Angelodimou Angellos | ... EU CONEXUS - Project Manager |",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is involved in EU-CONEXUS, which handles international university cooperation and networks."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Secretary / administration (last resort). The client requested this person currently on file, who serves as Director of Studies and Student Welfare.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'Πανεπιστήμιο Frederick' on the site. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EU-CONEXUS Plus",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frederick.ac.cy/en/",
+    "evidence_quote": "[Member of EU-CONEXUS]Member of EU-CONEXUS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EU-CONEXUS",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frederick.ac.cy/en/",
+    "evidence_quote": "Latest news & eventsEU-CONEXUS ENABLES Hackathon inspires students to develop sustainable port solutions",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EU CONEXUS - European University for Smart Urban Coastal Sustainability",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frederick.ac.cy/en/about-us/governance",
+    "evidence_quote": "Project Manager | EU CONEXUS - European University for Smart Urban Coastal Sustainability |",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Nicosia",
+    "city": "Nicosia",
+    "country": "Cyprus",
+    "role": "main",
+    "source_url": "https://www.frederick.ac.cy/en/",
+    "evidence_quote": "campuses Nicosia Limassol"
+   },
+   {
+    "campus_name": "Limassol",
+    "city": "Limassol",
+    "country": "Cyprus",
+    "role": "branch",
+    "source_url": "https://www.frederick.ac.cy/en/",
+    "evidence_quote": "campuses Nicosia Limassol"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists only the EU-CONEXUS network as a partner and does not contain a full partner list or bilateral agreement breakdown.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 12.4,
+  "crawl_s": 23.2,
+  "ai_calls": 8,
+  "partner_calls": 7,
+  "cost_usd_estimate": 0.0,
+  "model_s": 24.4,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     1121,
+     1220
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 60.1
+ }
+}
