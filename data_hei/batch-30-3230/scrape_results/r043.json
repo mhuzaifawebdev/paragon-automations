@@ -1,0 +1,161 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-10-29T12:32:40Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "Instituto de Educacion Secundaria \"El Bohio\"",
+  "institution_type": "school",
+  "official_website": "https://www.iesbohio.es/web/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Salvador García Espinosa",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iesbohio.es/web/index.php/home/equipo-directivo",
+   "evidence_quote": "DIRECTOR: D. Salvador García Espinosa"
+  },
+  "alternates": [
+   {
+    "name": "Alejandro Rodríguez Gallego",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iesbohio.es/web/index.php/home/equipo-directivo",
+    "evidence_quote": "SECRETARIO: D. Alejandro Rodríguez Gallego",
+    "why_chosen": "Secretary / administration (last resort). Alejandro Rodríguez Gallego serves as the Secretary of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Salvador García Espinosa is the Director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Red de Centros Educativos Promotores de la Salud",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesbohio.es/web/",
+    "evidence_quote": "[Red de Centros Educativos Promotores de la Salud]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SEF",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesbohio.es/web/",
+    "evidence_quote": "[SEF]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "RM Skills",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesbohio.es/web/",
+    "evidence_quote": "[RM Skills]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Spain Skills",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesbohio.es/web/",
+    "evidence_quote": "[Spain Skills]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesbohio.es/web/",
+    "evidence_quote": "[Erasmus]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "e-Twinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesbohio.es/web/",
+    "evidence_quote": "[e-Twinning]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fondo Social Europeo",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesbohio.es/web/",
+    "evidence_quote": "[Fondo Social Europeo]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SmartAddons.Com",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesbohio.es/web/",
+    "evidence_quote": "Copyright © 2025 IES El Bohio. All Rights Reserved. Designed by SmartAddons.Com",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES El Bohio",
+    "city": "Cartagena",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iesbohio.es/web/",
+    "evidence_quote": "[IES El Bohio]"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 8,
+  "pages_read": 2,
+  "coverage_note": "The website mentions Erasmus and e-Twinning projects but does not provide a list of partner institutions or specific contact details for international mobility coordinators. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.0,
+  "crawl_s": 9.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 12.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     114
+    ],
+    "returned": 8,
+    "accepted": 8
+   }
+  ],
+  "total_seconds": 28.2
+ }
+}
