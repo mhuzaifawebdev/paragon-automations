@@ -1,0 +1,112 @@
+{
+ "row_id": "r099",
+ "scraped_at": "2026-10-29T05:22:06Z",
+ "contacts": {
+  "row_id": "r099",
+  "institution_name": "Lycée technique nationalisé St Louis",
+  "institution_type": "school",
+  "official_website": "https://www.lyceesaintlouis.fr/",
+  "country": null,
+  "phone": {
+   "value": "05 56 69 35 95",
+   "source_url": "https://www.lyceesaintlouis.fr/",
+   "evidence_quote": "05 56 69 35 95 <tel 0556693595>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Mme Dessans Amélie",
+   "designation": "Conseillère Principale d’Education",
+   "designation_local": "",
+   "email": "viescosaintlouis@gmail.com",
+   "office_email": "",
+   "phone": "05 56 69 35 92 (8",
+   "source_url": "https://www.lyceesaintlouis.fr/",
+   "evidence_quote": "Il est composé de 2 Conseillères Principales d’Education : ... Mme Dessans Amélie"
+  },
+  "alternates": [
+   {
+    "name": "Mme Lamarcade Isabelle",
+    "designation": "Conseillère Principale d’Education",
+    "designation_local": "",
+    "email": "viescosaintlouis@gmail.com",
+    "office_email": "",
+    "phone": "05 56 69 35 92 (8",
+    "source_url": "https://www.lyceesaintlouis.fr/",
+    "evidence_quote": "Il est composé de 2 Conseillères Principales d’Education : ... Mme Lamarcade Isabelle",
+    "why_chosen": "Other role. She is a senior education advisor responsible for school life."
+   }
+  ],
+  "rung": "Other role. She is a senior education advisor responsible for school life.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceesaintlouis.fr/",
+    "evidence_quote": "Les stages à l'étranger, le programme Erasmus+ et Aquitapro",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Aquitapro",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceesaintlouis.fr/",
+    "evidence_quote": "Les stages à l'étranger, le programme Erasmus+ et Aquitapro",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Saint Louis",
+    "city": "Bordeaux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lyceesaintlouis.fr/",
+    "evidence_quote": "Le lycée Saint Louis est un établissement public, situé dans le quartier de Bordeaux Maritime."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 1,
+  "coverage_note": "The website mentions Erasmus+ in the international section but does not provide a list of partner institutions or a specific contact person for international mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 3.4,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 10.0
+ }
+}
