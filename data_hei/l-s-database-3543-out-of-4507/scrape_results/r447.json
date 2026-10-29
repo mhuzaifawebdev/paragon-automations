@@ -1,0 +1,99 @@
+{
+ "row_id": "r447",
+ "scraped_at": "2026-10-29T07:17:01Z",
+ "contacts": {
+  "row_id": "r447",
+  "institution_name": "Lycée des Glières",
+  "institution_type": "school",
+  "official_website": "https://glieres.ent.auvergnerhonealpes.fr/",
+  "country": null,
+  "phone": {
+   "value": "+33 4 50 43 93 20",
+   "source_url": "https://glieres.ent.auvergnerhonealpes.fr/",
+   "evidence_quote": "Téléphone : +33 4 50 43 93 20"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Académie de Grenoble",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://glieres.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "[Académie de Grenoble]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Région Auvergne-Rhône-Alpes",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://glieres.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "[Région Auvergne-Rhône-Alpes]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "27e BCA",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://glieres.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "Une rencontre enrichissante entre les élèves de la classe défense et les militaires du 27e BCA",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée des Glières",
+    "city": "Annemasse",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://glieres.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "2 A avenue de Verdun 74107 ANNEMASSE CEDEX"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The website does not provide a specific list of partner institutions. Contact information for international relations staff is not explicitly listed, only general school contact details.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.2,
+  "crawl_s": 13.0,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 80.9,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     139
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 122.3
+ }
+}
