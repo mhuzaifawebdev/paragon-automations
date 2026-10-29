@@ -1,0 +1,85 @@
+{
+ "row_id": "r558",
+ "scraped_at": "2026-10-29T07:42:04Z",
+ "contacts": {
+  "row_id": "r558",
+  "institution_name": "IES Campanillas",
+  "institution_type": "school",
+  "official_website": "https://iescampanillas.com/en/",
+  "country": {
+   "value": "España",
+   "source_url": "https://iescampanillas.com/en/",
+   "evidence_quote": "IES Campanillas C/ Fausto 45, 29590 Málaga (España)"
+  },
+  "phone": {
+   "value": "+34 952433272",
+   "source_url": "https://iescampanillas.com/en/",
+   "evidence_quote": "+34 952433272 <tel +34952433272>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Clemente López",
+   "designation": "Headmaster",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iescampanillas.com/en/management-team/",
+   "evidence_quote": "Headmaster: Clemente López"
+  },
+  "alternates": [
+   {
+    "name": "Jesús Martín",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://iescampanillas.com/en/management-team/",
+    "evidence_quote": "Secretary: Jesús Martín",
+    "why_chosen": "Secretary / administration (last resort). Jesús Martín serves as the secretary of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Clemente López is the headmaster of the institution and is listed as the contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini. 19 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Campanillas",
+    "city": "Málaga",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://iescampanillas.com/en/",
+    "evidence_quote": "IES Campanillas C/ Fausto 45, 29590 Málaga (España)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The website mentions Erasmus+ projects but does not provide a list of specific partner institutions. 19 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 29.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 16.7,
+  "mode": "gemini",
+  "email_search_s": 3.7,
+  "total_seconds": 52.0
+ }
+}

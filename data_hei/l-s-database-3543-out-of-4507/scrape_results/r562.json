@@ -1,0 +1,138 @@
+{
+ "row_id": "r562",
+ "scraped_at": "2026-10-29T07:42:26Z",
+ "contacts": {
+  "row_id": "r562",
+  "institution_name": "IES MAR DE ALBORAN",
+  "institution_type": "school",
+  "official_website": "https://maralboran.eu/",
+  "country": null,
+  "phone": {
+   "value": "951551096",
+   "source_url": "https://maralboran.eu/contacto/",
+   "evidence_quote": "951551096"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jesús Daniel Acosta Morales",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://maralboran.eu/equipo-directivo/",
+   "evidence_quote": "Director | ... Jesús Daniel Acosta Morales |"
+  },
+  "alternates": [
+   {
+    "name": "Mari Carmen Francés Montañés",
+    "designation": "Mobility Coordinator",
+    "designation_local": "",
+    "email": "erasmus@maralboran.es",
+    "office_email": "",
+    "phone": "+34951270969",
+    "source_url": "https://maralboran.eu/europa/responsable-de-movilidad/",
+    "evidence_quote": "Responsable de movilidad – Erasmus + ... Mari Carmen Francés Montañés",
+    "why_chosen": "Mobility coordinator. She is explicitly listed as the person responsible for mobility and Erasmus+."
+   },
+   {
+    "name": "Eva Tortosa Sánchez",
+    "designation": "Coordinator of Vocational Training and Dual Vocational Training",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://maralboran.eu/europa/",
+    "evidence_quote": "Nuestra FP participa en el Spanish-German Matching Event gracias a Eva Tortosa Sánchez. coordinadora FP y FP Dual y jefa del Departamento de Informática, y Rafael Piernagorda Albañil, profesor del...",
+    "why_chosen": "Faculty-level Erasmus/international coordinator. She coordinates vocational training and participates in international matching events."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the head of the institution and was identified as a contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ativ.ie",
+    "partner_country": "Ireland",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://maralboran.eu/europa/",
+    "evidence_quote": "Práticas Erasmus+ en www.ativ.ie La historia de éxito de Francisco Pablo Millán Ortiz. El programa Erasmus+ suele asociarse con viajar, mejorar el inglés y vivir una experiencia única. Sin embargo,...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SEPIE",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://maralboran.eu/europa/",
+    "evidence_quote": "El IES Mar de Alborán reafirma su compromiso con la internacionalización y la calidad educativa mediante su asistencia a las Jornadas Informativas Anuales del SEPIE (Servicio Español para la Internacionalización...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Europass Berlín",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://maralboran.eu/europa/",
+    "evidence_quote": "Nuestro compañero Rafael David Piernagorda Albañil acaba de terminar una formación increíble sobre el Sistema Dual de Formación Profesional en Alemania, en Europass Berlín ¡y qué viaje de aprendizaje! Durante...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Mar de Alborán",
+    "city": "Estepona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://maralboran.eu/contacto/",
+    "evidence_quote": "C/ Fuente de María Gil, 30 – 29680 – Estepona (Málaga)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The evidence provides specific contact information for Erasmus+ and lists some internship partners, but does not contain a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.5,
+  "crawl_s": 24.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 13.5,
+  "mode": "gemini",
+  "email_search_s": 8.2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     281,
+     392
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 54.3
+ }
+}
