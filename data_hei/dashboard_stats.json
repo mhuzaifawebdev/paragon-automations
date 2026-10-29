@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-29T02:42:47.087392+00:00",
+ "generated_at": "2026-10-29T02:45:40.158618+00:00",
  "totals": {
-  "institutes": 9373,
-  "with_contact": 5939,
-  "with_email": 5109,
-  "personal_email": 3573,
-  "generic_email": 3849,
-  "partners": 154410,
-  "campuses": 12266,
-  "no_website": 1732,
-  "with_website": 7641,
-  "batches": 125
+  "institutes": 9398,
+  "with_contact": 5953,
+  "with_email": 5117,
+  "personal_email": 3576,
+  "generic_email": 3854,
+  "partners": 154539,
+  "campuses": 12312,
+  "no_website": 1738,
+  "with_website": 7660,
+  "batches": 126
  },
  "days": [
   {
@@ -135,18 +135,34 @@
   },
   {
    "day": "2026-10-29",
-   "institutes": 947,
-   "with_contact": 476,
-   "with_email": 430,
-   "personal_email": 317,
-   "generic_email": 373,
-   "partners": 16754,
-   "campuses": 989,
-   "no_website": 405,
-   "with_website": 542
+   "institutes": 972,
+   "with_contact": 490,
+   "with_email": 438,
+   "personal_email": 320,
+   "generic_email": 378,
+   "partners": 16883,
+   "campuses": 1035,
+   "no_website": 411,
+   "with_website": 561
   }
  ],
  "batches": [
+  {
+   "batch": "dts-turnkey-services-merged",
+   "status": "running",
+   "total_rows": 625,
+   "done": 39,
+   "updated": "2026-10-29T02:45:36.371611+00:00",
+   "institutes": 25,
+   "with_contact": 14,
+   "with_email": 8,
+   "personal_email": 3,
+   "generic_email": 5,
+   "partners": 129,
+   "campuses": 46,
+   "no_website": 6,
+   "with_website": 19
+  },
   {
    "batch": "legacy-db-ccc-merged-898",
    "status": "done",
