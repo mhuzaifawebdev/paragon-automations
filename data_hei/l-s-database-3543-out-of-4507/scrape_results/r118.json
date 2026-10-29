@@ -1,0 +1,90 @@
+{
+ "row_id": "r118",
+ "scraped_at": "2026-10-29T06:28:50Z",
+ "contacts": {
+  "row_id": "r118",
+  "institution_name": "HAUTE ECOLE GALILEE",
+  "institution_type": "college",
+  "official_website": "https://www.galilee.be/",
+  "country": null,
+  "phone": {
+   "value": "+32 2 512 90 93",
+   "source_url": "https://www.galilee.be/",
+   "evidence_quote": "Tél. : +32 2 512 90 93"
+  },
+  "phone_alt": [],
+  "generic_email": "info@galilee.be",
+  "generic_email_url": "https://www.galilee.be/",
+  "contact": {
+   "name": "Luc De Meyer",
+   "designation": "Department Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+32 2 512 90 93",
+   "source_url": "https://www.galilee.be/contact-et-localisation",
+   "evidence_quote": "Directeur de département : Luc De Meyer"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Luc De Meyer is the department director and the contact currently on file for the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ARES",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.galilee.be/",
+    "evidence_quote": "Du 20 au 26 août dernier, Frédéric Moens s’est rendu à Madagascar dans le cadre d’une mission d’appui institutionnel développé par l’ARES",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Haute Ecole Galilée",
+    "city": "Schaerbeek",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.galilee.be/",
+    "evidence_quote": "80, Bd Auguste Reyers,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The website mentions an Erasmus program and policy but does not provide a list of partner institutions or a specific Erasmus coordinator contact. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.3,
+  "crawl_s": 28.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     59
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 41.4
+ }
+}

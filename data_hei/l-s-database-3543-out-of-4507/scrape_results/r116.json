@@ -1,0 +1,101 @@
+{
+ "row_id": "r116",
+ "scraped_at": "2026-10-29T06:28:17Z",
+ "contacts": {
+  "row_id": "r116",
+  "institution_name": "STIFTELSEN HANDELSHOYSKOLEN BI",
+  "institution_type": "university",
+  "official_website": "https://www.bi.no/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@bi.no",
+  "generic_email_url": "https://www.bi.no/en/about-bi/contact/",
+  "contact": {
+   "name": "Auke Hunneman",
+   "designation": "Associate Professor at the Marketing Department",
+   "designation_local": "",
+   "email": "auke.hunneman@bi.no",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bi.no/studier-og-kurs/kurs/masterprogram/ai-for-strategic-marketing-leadership/",
+   "evidence_quote": "Auke Hunneman ... Auke Hunneman is Associate Professor at the Marketing Department of BI Norwegian Business School. He also is one of the developers and Associate Dean for BI's Master in Business Analytics.",
+   "email_source_url": "https://www.bi.no/om-bi/ansatte/institutt-for-markedsforing/auke-hunneman/"
+  },
+  "alternates": [],
+  "rung": "Faculty-level Erasmus/international coordinator. Auke Hunneman is a faculty member at BI Norwegian Business School involved in master-level programs. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.5,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universitetet i Oslo",
+    "partner_country": "Norway",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bi.no/naeringsliv-og-alumni/partnerforum/",
+    "evidence_quote": "Partnerforum er et samarbeid mellom Handelshøyskolen BI, Universitetet i Oslo og virksomheter i statlig forvaltning.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "BI Oslo",
+    "city": "Oslo",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://www.bi.no/",
+    "evidence_quote": "Oslo"
+   },
+   {
+    "campus_name": "BI Bergen",
+    "city": "Bergen",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.bi.no/",
+    "evidence_quote": "Bergen"
+   },
+   {
+    "campus_name": "BI Trondheim",
+    "city": "Trondheim",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.bi.no/",
+    "evidence_quote": "Trondheim"
+   },
+   {
+    "campus_name": "BI Stavanger",
+    "city": "Stavanger",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.bi.no/",
+    "evidence_quote": "Stavanger"
+   }
+  ],
+  "stated_total": 30,
+  "stated_total_quote": "30 samarbeidspartnere",
+  "stated_total_url": "https://www.bi.no/naeringsliv-og-alumni/partnerforum/",
+  "truncated": true,
+  "total_seen": 30,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a specific list of Erasmus+ or international mobility partners, only a list of corporate and public sector partners for the Partnerforum and general business collaboration.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 12.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.1,
+  "total_seconds": 17.2
+ }
+}
