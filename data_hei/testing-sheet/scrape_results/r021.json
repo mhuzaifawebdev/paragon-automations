@@ -1,0 +1,69 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-10-29T09:15:14Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "Wyzsza Szkola Stosunkow Miedzynarodowych i Komunikacji Spolecznej",
+  "institution_type": "university",
+  "official_website": "https://wssmia.edu.pl/",
+  "country": {
+   "value": "Warszawa",
+   "source_url": "https://wssmia.edu.pl/",
+   "evidence_quote": "02-001 Warszawa"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "dziekanat@wssmia.edu.pl",
+  "generic_email_url": "https://wssmia.edu.pl/kontakt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Siedziba główna",
+    "city": "Warszawa",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://wssmia.edu.pl/",
+    "evidence_quote": "Adres siedziby głównej:"
+   },
+   {
+    "campus_name": "Dziekanat",
+    "city": "Warszawa",
+    "country": "Poland",
+    "role": "branch",
+    "source_url": "https://wssmia.edu.pl/kontakt/",
+    "evidence_quote": "Aleje Jerozolimskie 98, 00-807 Warszawa;"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 6,
+  "coverage_note": "The provided evidence does not contain any information regarding international partners or Erasmus+ agreements. No specific individuals are named as contacts, only administrative departments.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.8,
+  "crawl_s": 15.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 35.7
+ }
+}
