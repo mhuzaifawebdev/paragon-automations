@@ -1,0 +1,111 @@
+{
+ "row_id": "r533",
+ "scraped_at": "2026-10-29T07:36:25Z",
+ "contacts": {
+  "row_id": "r533",
+  "institution_name": "Centro Educativo Aloya",
+  "institution_type": "college",
+  "official_website": "https://aloya.es/",
+  "country": null,
+  "phone": {
+   "value": "986 420 722",
+   "source_url": "https://aloya.es/contacto/",
+   "evidence_quote": "986 420 722"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria@aloya.es",
+  "generic_email_url": "https://aloya.es/contacto/",
+  "contact": {
+   "name": "Estefanía Martínez-Brocal Ogáyar",
+   "designation": "Directora y Gerente",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://aloya.es/i-jornada-erasmus-convenio-sanidad/",
+   "evidence_quote": "Estefanía Martínez-Brocal Ogáyar, Directora y Gerente"
+  },
+  "alternates": [
+   {
+    "name": "Elena Galván Carballo",
+    "designation": "Subdirector-Jefe de Estudios y Responsable de Internacionalización KA171",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://aloya.es/i-jornada-erasmus-convenio-sanidad/",
+    "evidence_quote": "Elena Galván Carballo, Subdirectora-Jefe de Estudios y Responsable de Internacionalización KA171",
+    "why_chosen": "Head of international relations. She is explicitly identified as the person responsible for internationalization (KA171)."
+   },
+   {
+    "name": "Begoña Costas Comesaña",
+    "designation": "Profesora de Administración y Gestión y Responsable de Internacionalización KA131",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://aloya.es/i-jornada-erasmus-convenio-sanidad/",
+    "evidence_quote": "Begoña Costas Comesaña, Profesora de Administración y Gestión y Responsable de Internacionalización KA131",
+    "why_chosen": "Head of international relations. She is explicitly identified as the person responsible for internationalization (KA131)."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the director of the institution and was the contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini. 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universidad de York",
+    "partner_country": "United Kingdom",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://aloya.es/aloya-internacional/",
+    "evidence_quote": "CONVENIO UNIVERSIDAD DE YORK",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bancy Education",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://aloya.es/aloya-internacional/",
+    "evidence_quote": "NUEVO PROYECTO CON BANCY EDUCATION",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centro de Estudios Superiores Aloya",
+    "city": "Vigo",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://aloya.es/contacto/",
+    "evidence_quote": "Rúa Couto, 2 36203 Vigo (Pontevedra)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The evidence provides specific names for internationalization responsibilities but does not list a comprehensive partner directory. Contact emails are provided for departments but not for the specific individuals named in the Erasmus+ context. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 14.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 11.8,
+  "mode": "gemini",
+  "email_search_s": 6.5,
+  "total_seconds": 36.3
+ }
+}
