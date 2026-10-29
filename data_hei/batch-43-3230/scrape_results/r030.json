@@ -1,0 +1,80 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-10-29T12:17:07Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "FP SAN IGNACIO",
+  "institution_type": "college",
+  "official_website": "https://fpsanignacio.es/",
+  "country": null,
+  "phone": {
+   "value": "918591919",
+   "source_url": "https://fpsanignacio.es/",
+   "evidence_quote": "<tel 918591919>&nbsp <infofp@sanignaciotorrelodones.es>&nbsp"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "María Eugenia López De Vicuña Merino",
+   "designation": "Director of Vocational Training",
+   "designation_local": "",
+   "email": "infofp@sanignaciotorrelodones.es",
+   "office_email": "",
+   "phone": "918591919",
+   "source_url": "https://fpsanignacio.es/wp-content/uploads/2021/07/REQUISITOS-PARA-LA-SOLICITUD-DE-LA-BECA-ERASMUS.pdf",
+   "evidence_quote": "María Eugenia López De Vicuña Merino ... Directora de Formación Profesional"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Director of Vocational Training, she holds the highest leadership position at the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Centros anfitriones (Italia)",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://fpsanignacio.es/internacional-2/",
+    "evidence_quote": "Italia ha sido el país de destino de los últimos intercambios internacionales. La experiencia supone un viaje de ambos grupos a los respectivos países de los centros anfitriones (España e Italia en este caso) incluyendo en el plan de actividades previstas numerosas salidas culturales y de carácter lúdico.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "FP San Ignacio",
+    "city": "Torrelodones",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://fpsanignacio.es/",
+    "evidence_quote": "Paseo Andrés Vergara 5, 28250 Torrelodones, Madrid"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The institution does not provide a specific list of partner universities or schools, only mentioning general collaboration with companies for internships and past cultural exchanges with Italian centers.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 13.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.0,
+  "total_seconds": 41.7
+ }
+}

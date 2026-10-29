@@ -1,0 +1,121 @@
+{
+ "row_id": "r033",
+ "scraped_at": "2026-10-29T12:17:22Z",
+ "contacts": {
+  "row_id": "r033",
+  "institution_name": "Lycée des métiers Lazare de Schwendi",
+  "institution_type": "college",
+  "official_website": "https://www.lyceeschwendi.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Eric LOESCH",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.lyceeschwendi.fr/",
+   "evidence_quote": "Eric LOESCH ... Proviseur"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Eric LOESCH is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "GRETA Centre Alsace",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceeschwendi.fr/",
+    "evidence_quote": "GRETA CENTRE ALSACE La formation continue pour adultes. Le lycée Lazare de Schwendi fait partie des 43 établissements scolaires adhérents du GRETA Centre Alsace. Il contribue à travers ses compétences à la réussite des actions mises en place par le GRETA Centre Alsace pour les adultes salariés ou demandeurs d’emploi.…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "lycée Théodore Deck de Guebwiller",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceeschwendi.fr/la-plateforme-de-la-plasturgie-ses-activites-innovantes-et-son-reseau-dentreprises/",
+    "evidence_quote": "En effet, par l’intermédiaire de la plateforme de la plasturgie fonctionnant en réseau entre les établissements et les industriels, les élèves de Bac pro et BTS du lycée Lazare de Schwendi (et celui du lycée Théodore Deck de Guebwiller pour un des projets) ont planché l’année dernière sur trois projets de pièces en série très différents ; la réalisation de médiators de guitare, supports de téléphones portables et charnières pour montage de profilés. L’étude de chaque cahier des charges a eu son ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "200 entreprises",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.lyceeschwendi.fr/un-reseau-de-200-entreprises/",
+    "evidence_quote": "Grâce à un réseau de près de 200 entreprises partenaires, nous offrons à nos élèves :",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Avur",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceeschwendi.fr/la-plateforme-de-la-plasturgie-ses-activites-innovantes-et-son-reseau-dentreprises/",
+    "evidence_quote": "Comme dans une entreprise, ils ont connu des moments de doute, de stress, mais en fin de compte ils ont réussi dans un délai ne dépassant pas quatre mois à satisfaire le souhait des industriels. «Il faut faire confiance aux écoles et aux élèves, leur donner de quoi apprendre c’est la base de l’éducation nationale » a clamé Marc Raymond directeur de la société Avur. En effet, ces mises en situations réelles ont été très satisfaisantes car tous les élèves, acteurs de cette initiative ont réussi le",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Polyvalent Lazare de Schwendi",
+    "city": "Ingersheim",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lyceeschwendi.fr/",
+    "evidence_quote": "Lycée Polyvalent Lazare de Schwendi - Ingersheim"
+   }
+  ],
+  "stated_total": 200,
+  "stated_total_quote": "Un réseau de 200 entreprises",
+  "stated_total_url": "https://www.lyceeschwendi.fr/un-reseau-de-200-entreprises/",
+  "truncated": true,
+  "total_seen": 200,
+  "pages_read": 5,
+  "coverage_note": "The evidence mentions a network of 200 companies but does not provide a specific list of Erasmus+ partner institutions. The document at L120 appears to be a corrupted PDF file.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 13.2,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 14.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     173
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 53.0
+ }
+}
