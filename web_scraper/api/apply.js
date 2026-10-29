@@ -16,7 +16,8 @@ module.exports = async (req, res) => {
   if (!a.cv_base64 || String(a.cv_base64).length > MAX_B64) {
     res.status(400).json({ ok: false, error: "Please attach a CV of at most 3 MB." }); return;
   }
-  const fields = ["role_id", "name", "email", "phone", "linkedin", "source", "utm_source", "cv_name", "cv_base64"];
+  const fields = ["role_id", "name", "email", "phone", "linkedin", "source", "utm_source", "utm_campaign", "utm_content", "variant",
+    "cv_name", "cv_base64"];
   const clean = Object.fromEntries(fields.map(k => [k, String(a[k] ?? "").slice(0, k === "cv_base64" ? MAX_B64 : 300)]));
   try {
     const r = await sendApplication({ ...clean, consent: a.consent === true });

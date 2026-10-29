@@ -40,13 +40,32 @@ check("on the careers subdomain the job lives at /job/<id>", ld.url, "https://ca
 check("text from the sheet is escaped (no HTML injection)", [res.body.includes("Sales Manager &lt;b&gt;"), res.body.includes("Sales Manager <b>")], [true, false]);
 check("the apply form carries the role and the source", [res.body.includes('name="role_id" value="R-SAL-1"'), res.body.includes('name="source" value="indeed"')], [true, true]);
 res = mkRes();
+await careers({ headers: { host: "careers.paragoninnovation.net" },
+  query: { id: "R-SAL-1", src: "linkedin", v: "r-sal-1-v07", utm_campaign: "R-SAL-1", utm_content: "R-SAL-1-V07" } }, res);
+check("a tracked ad link: the variant and campaign go into the form, and the page reports the visit",
+  [res.body.includes('name="variant" value="R-SAL-1-V07"'), res.body.includes('name="utm_campaign" value="R-SAL-1"'),
+   res.body.includes("/api/careers?click=1")], [true, true, true]);
+res = mkRes();
+await careers({ headers: { host: "careers.paragoninnovation.net" }, query: { id: "R-SAL-1", v: "<script>" } }, res);
+check("a variant that is not an id is ignored", res.body.includes('name="variant" value=""'), true);
+const before = sent.length;
+res = mkRes(); res.end = () => res;
+await careers({ method: "POST", query: { click: "1" }, headers: { "x-forwarded-for": "203.0.113.9, 10.0.0.1", "user-agent": "UA" },
+  body: { role_id: "R-SAL-1", v: "R-SAL-1-V07", src: "linkedin" } }, res);
+const click = JSON.parse(sent[sent.length - 1].opt.body);
+check("a click goes to the HR sheet with an anonymous visitor hash, never the IP",
+  [sent.length - before, res.code, click.action, click.v, /^[a-f0-9]{32}$/.test(click.visitor), JSON.stringify(click).includes("203.0.113.9")],
+  [1, 204, "click", "R-SAL-1-V07", true, false]);
+res = mkRes();
 await careers({ headers: { host: "careers.paragoninnovation.net" }, query: { id: "R-GONE" } }, res);
 check("a closed job answers 404 with a friendly page", [res.code, res.body.includes("no longer open")], [404, true]);
 
 const apply = require("../web_scraper/api/apply.js");
 res = mkRes();
+const postsBefore = sent.filter(s => s.opt && s.opt.method === "POST").length;
 await apply({ method: "POST", body: { website: "spam" } }, res);
-check("honeypot: a bot gets 'ok' and nothing is sent", [res.body.ok, sent.filter(s => s.opt && s.opt.method === "POST").length], [true, 0]);
+check("honeypot: a bot gets 'ok' and nothing is sent",
+  [res.body.ok, sent.filter(s => s.opt && s.opt.method === "POST").length - postsBefore], [true, 0]);
 res = mkRes();
 await apply({ method: "POST", body: { name: "Amna", email: "a@x.com", role_id: "R-SAL-1", cv_base64: "A".repeat(4300000) } }, res);
 check("a CV over 3 MB is refused before it is sent", [res.code, res.body.ok], [400, false]);

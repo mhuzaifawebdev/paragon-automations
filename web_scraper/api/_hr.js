@@ -26,6 +26,24 @@ async function sendApplication(application) {
   return resp.json();
 }
 
+/** One visit through a tracked ad link (Careers.gs logClick_): the variant, its platform, and an anonymous visitor hash. */
+async function logClick(click) {
+  const { url, key } = hrCfg();
+  await fetch(url, {
+    method: "POST", redirect: "follow", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ ...click, action: "click", key }),
+  });
+}
+
+/** The HR figures for the dashboard (Careers.gs hrStatsCached_): counts and averages only, no personal data. */
+async function getHrStats() {
+  const { url, key } = hrCfg();
+  const resp = await fetch(`${url}?action=hr_stats&key=${encodeURIComponent(key)}`, { redirect: "follow" });
+  const data = await resp.json();
+  if (data.error) throw new Error(`The HR sheet refused the request: ${data.error}`);
+  return data;
+}
+
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 /** Careers on its own subdomain (careers.<domain>) lives at "/"; on any other host under "/careers". */
@@ -39,4 +57,4 @@ function origin(req) {
   return `https://${host}`;
 }
 
-module.exports = { hrCfg, getJobs, sendApplication, esc, basePath, origin };
+module.exports = { hrCfg, getJobs, sendApplication, logClick, getHrStats, esc, basePath, origin };

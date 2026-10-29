@@ -4,7 +4,10 @@
  * Each job page carries JobPosting markup, so Google for Jobs lists it (and Indeed, which reads public career pages).
  * The roles come from the HR Google Sheet (hr_cycle/Careers.gs, roles ticked "Open for Applications").
  */
-const { getJobs, esc, basePath, origin } = require("./_hr");
+const crypto = require("crypto");
+const { getJobs, logClick, esc, basePath, origin } = require("./_hr");
+
+const VARIANT_RE = /^[A-Z0-9-]{3,40}$/;
 
 function paragraphs(text) {
   return String(text || "").split(/\n{2,}/).map(p => p.trim()).filter(Boolean)
@@ -53,7 +56,7 @@ function listPage(data, base, src) {
 <p class="sub">Fully remote roles. Choose a job to read it and apply.</p>${jobs || `<div class="card">No open roles right now. Please check back soon.</div>`}`);
 }
 
-function jobPage(job, data, base, url, src, utm) {
+function jobPage(job, data, base, url, src, utm, track = {}) {
   const must = (job.must_haves || []).map(m => `<span class="pill">${esc(m)}</span>`).join("");
   const body = `<a class="back" href="${base || "/"}">← All jobs</a>
 <h1>${esc(job.title)}</h1><p class="sub">${esc(data.company)} · ${esc(job.department)} · Remote (${esc(data.country)})${job.salary ? " · " + esc(job.salary) : ""}</p>
@@ -61,6 +64,7 @@ function jobPage(job, data, base, url, src, utm) {
 <div class="card"><h2 style="margin:0 0 4px;font-size:19px">Apply for this job</h2><div class="meta">It takes about two minutes. We reply to every application.</div>
 <form id="apply" novalidate>
 <input type="hidden" name="role_id" value="${esc(job.id)}"><input type="hidden" name="source" value="${esc(src)}"><input type="hidden" name="utm_source" value="${esc(utm)}">
+<input type="hidden" name="variant" value="${esc(track.v || "")}"><input type="hidden" name="utm_campaign" value="${esc(track.campaign || "")}"><input type="hidden" name="utm_content" value="${esc(track.content || "")}">
 <div class="hp" aria-hidden="true"><label>Website</label><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
 <label for="name">Full name</label><input type="text" id="name" name="name" required autocomplete="name">
 <label for="email">Email</label><input type="email" id="email" name="email" required autocomplete="email">
@@ -72,6 +76,10 @@ function jobPage(job, data, base, url, src, utm) {
 </form></div>
 <script>
 const f=document.getElementById("apply"),msg=document.getElementById("msg"),send=document.getElementById("send");
+(()=>{const v=f.variant.value;if(!v)return;const k="pgi-click:"+v+":"+new Date().toISOString().slice(0,10);
+  try{if(localStorage.getItem(k))return;localStorage.setItem(k,"1");}catch(e){}
+  fetch("/api/careers?click=1",{method:"POST",keepalive:true,headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({role_id:f.role_id.value,v:v,src:f.source.value})}).catch(()=>{});})();
 const show=(t,ok)=>{msg.textContent=t;msg.className="msg "+(ok?"ok":"bad");};
 f.addEventListener("submit",async e=>{e.preventDefault();
   const file=document.getElementById("cv").files[0];
@@ -96,7 +104,27 @@ f.addEventListener("submit",async e=>{e.preventDefault();
 <script type="application/ld+json">${jobPosting(job, data, url)}</script>`);
 }
 
+/**
+ * POST /api/careers?click=1 {role_id, v, src}: one visit to a job page through a tracked ad link (the page itself is
+ * cached, so the browser reports it). The visitor is a hash of IP, browser and day: never stored in the clear.
+ */
+async function handleClick(req, res) {
+  let b = req.body;
+  if (typeof b === "string") { try { b = JSON.parse(b); } catch { b = {}; } }
+  b = b || {};
+  const v = String(b.v || "").toUpperCase().slice(0, 40);
+  if (!VARIANT_RE.test(v)) { res.status(204).end(); return; }
+  const ip = String(req.headers["x-forwarded-for"] || "").split(",")[0].trim();
+  const day = new Date().toISOString().slice(0, 10);
+  const visitor = crypto.createHash("sha256").update(`${ip}|${req.headers["user-agent"] || ""}|${day}`).digest("hex").slice(0, 32);
+  try {
+    await logClick({ v, visitor, role_id: String(b.role_id || "").slice(0, 40), src: String(b.src || "").slice(0, 30) });
+  } catch (e) { /* a lost click never breaks the page */ }
+  res.status(204).end();
+}
+
 module.exports = async (req, res) => {
+  if (req.method === "POST" && req.query && req.query.click) { await handleClick(req, res); return; }
   const base = basePath(req);
   const id = (req.query && req.query.id) || "";
   const src = String((req.query && req.query.src) || "").slice(0, 30);
@@ -112,7 +140,11 @@ module.exports = async (req, res) => {
       return;
     }
     const url = `${origin(req)}${base}/job/${encodeURIComponent(job.id)}`;
-    res.status(200).send(jobPage(job, data, base, url, src, utm));
+    const q = req.query || {};
+    const v = String(q.v || "").toUpperCase().slice(0, 40);
+    const track = { v: VARIANT_RE.test(v) ? v : "", campaign: String(q.utm_campaign || "").slice(0, 60),
+                    content: String(q.utm_content || "").slice(0, 60) };
+    res.status(200).send(jobPage(job, data, base, url, src, utm, track));
   } catch (e) {
     res.status(503).send(page("Careers", `<h1>Careers</h1><p class="sub">The job list is not available right now. Please try again later.</p><!-- ${esc(e.message)} -->`));
   }

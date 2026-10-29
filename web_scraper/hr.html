@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Paragon &middot; Hiring results</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Hiring results for the client: quantity (how many each ad brings in) and quality (how good they are). Counts only. */
+  :root {
+    color-scheme: light;
+    --bg: #f4f6f9; --panel: #ffffff; --panel-2: #f8fafc; --line: #e2e7ef; --line-2: #eef1f6;
+    --ink: #101828; --mut: #5d6778; --mut-2: #8b94a5;
+    --accent: #3b5bdb; --accent-soft: #edf2ff; --accent-ink: #2f4bc0;
+    --li: #0a66c2; --in: #2557a7; --other: #94a3b8; --src: #12b886;
+    --ok: #138a4b; --ok-soft: #e6f6ed; --warn: #b45309; --warn-soft: #fdf3e3; --bad: #c0283d;
+    --radius: 12px; --shadow: 0 1px 2px rgba(16,24,40,.05), 0 1px 3px rgba(16,24,40,.06);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 400 14px/1.55 "Inter", -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .num { font-variant-numeric: tabular-nums; }
+  header { background: var(--panel); border-bottom: 1px solid var(--line); }
+  header .in, main { max-width: 1180px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+  header .in { display: flex; align-items: center; gap: 12px; padding-block: 14px; flex-wrap: wrap; }
+  .mark { width: 32px; height: 32px; border-radius: 8px; background: var(--accent); color: #fff; font-weight: 800;
+    display: flex; align-items: center; justify-content: center; }
+  h1 { font-size: 16px; margin: 0; } .sub { font-size: 12px; color: var(--mut); }
+  .upd { margin-left: auto; font-size: 12px; color: var(--mut); }
+  main { padding-block: 20px 48px; display: grid; gap: 18px; }
+  h2 { font-size: 15px; margin: 0 0 4px; } .hint { font-size: 12.5px; color: var(--mut); margin: 0 0 12px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; min-width: 0; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+  .tile { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+  .tile .n { font-size: 24px; font-weight: 800; letter-spacing: -.02em; }
+  .tile .l { font-size: 12px; color: var(--mut); }
+  .tile .t { font-size: 11.5px; margin-top: 4px; font-weight: 600; }
+  .t.ok { color: var(--ok); } .t.low { color: var(--warn); }
+  .section-title { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--mut-2); margin: 6px 0 -6px; }
+  .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 18px; }
+  .filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  select, input { font: inherit; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+  button { font: inherit; font-weight: 700; padding: 8px 16px; border: 0; border-radius: 8px; background: var(--accent); color: #fff; cursor: pointer; }
+  .scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; font-size: 11.5px; color: var(--mut); font-weight: 600; border-bottom: 1px solid var(--line); padding: 8px; white-space: nowrap; }
+  td { border-bottom: 1px solid var(--line-2); padding: 8px; white-space: nowrap; }
+  td.r, th.r { text-align: right; }
+  .bar { height: 8px; border-radius: 99px; background: var(--line-2); min-width: 80px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; background: var(--accent); border-radius: 99px; }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--mut); margin-top: 8px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+  svg text { font: 11px Inter, sans-serif; fill: var(--mut); }
+  .msg { padding: 10px 12px; border-radius: 8px; background: var(--warn-soft); color: var(--warn); }
+  .gate { max-width: 380px; margin: 60px auto; }
+  [hidden] { display: none !important; }
+</style></head>
+<body>
+<header><div class="in"><div class="mark">P</div><div><h1>Hiring results</h1><div class="sub">Job ads, applicants and candidate quality</div></div>
+  <div class="upd" id="upd"></div></div></header>
+
+<div class="card gate" id="gate" hidden>
+  <h2>Access phrase</h2><p class="hint">The same phrase as the scraper page.</p>
+  <form id="gate-form" class="filters"><input type="password" id="phrase" autocomplete="current-password" style="flex:1"><button>Open</button></form>
+  <p class="msg" id="gate-msg" hidden></p>
+</div>
+
+<main id="main" hidden>
+  <div class="card filters">
+    <label>Role <select id="f-role"><option value="">All roles</option></select></label>
+    <label>Platform <select id="f-platform"><option value="">LinkedIn and Indeed</option><option>LinkedIn</option><option>Indeed</option></select></label>
+  </div>
+
+  <div class="section-title">Quantity: how many people the ads bring in</div>
+  <div class="tiles" id="q-tiles"></div>
+  <div class="card">
+    <h2>Applicants per week</h2><p class="hint">By platform, against the weekly target (all roles together).</p>
+    <div id="weekly"></div>
+    <div class="legend"><span><i style="background:var(--li)"></i>LinkedIn</span><span><i style="background:var(--in)"></i>Indeed</span>
+      <span><i style="background:var(--other)"></i>Other sources</span><span><i style="background:var(--src)"></i>Found by our search</span>
+      <span><i style="background:var(--bad)"></i>Target</span></div>
+  </div>
+  <div class="two">
+    <div class="card"><h2>Best ad variants</h2><p class="hint">Posted versions of the job ads, most applicants first.</p>
+      <div class="scroll"><table id="variants"></table></div></div>
+    <div class="card"><h2>Which angle works</h2><p class="hint">All variants written from the same angle, together.</p>
+      <div class="scroll"><table id="angles"></table></div></div>
+  </div>
+
+  <div class="section-title">Quality: how good they are</div>
+  <div class="tiles" id="k-tiles"></div>
+  <div class="card"><h2>Funnel per role</h2><p class="hint">Every candidate, applied or found by our search, through scoring to interview and selection.</p>
+    <div class="scroll"><table id="funnel"></table></div></div>
+  <div class="card"><h2>Quality by source</h2><p class="hint">Score out of 15 on the client's checklist (interview mark: <span id="mark"></span>), job fit and how complete each profile is.</p>
+    <div class="scroll"><table id="sources"></table></div></div>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmt = n => (n === null || n === undefined ? "–" : Number(n).toLocaleString("en-GB"));
+const pct = n => (n === null || n === undefined ? "–" : n + "%");
+let DATA = null;
+
+let PHRASE = "";
+function token() { if (PHRASE) return PHRASE; try { return localStorage.getItem("pgi-hr-phrase") || ""; } catch (e) { return ""; } }
+
+async function load() {
+  const r = await fetch("/api/stats?view=hr&token=" + encodeURIComponent(token()), { cache: "no-store" });
+  if (r.status === 401) { $("main").hidden = true; $("gate").hidden = false; return; }
+  const d = await r.json();
+  if (d.error) throw new Error(d.error);
+  DATA = d;
+  $("gate").hidden = true; $("main").hidden = false;
+  $("upd").textContent = "Updated " + new Date(d.updated).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+  $("mark").textContent = d.pass_mark + "/15";
+  const roles = [...new Map((d.funnel || []).map(f => [f.role, f.title])).entries()];
+  $("f-role").innerHTML = '<option value="">All roles</option>' + roles.map(([id, t]) => `<option value="${esc(id)}">${esc(t || id)}</option>`).join("");
+  render();
+}
+
+function tile(n, l, target) {
+  return `<div class="tile"><div class="n num">${n}</div><div class="l">${esc(l)}</div>${target || ""}</div>`;
+}
+function vsTarget(actual, target, unit = "") {
+  if (target === null || target === undefined || actual === null || actual === undefined) return "";
+  const ok = actual >= target;
+  return `<div class="t ${ok ? "ok" : "low"}">${ok ? "On target" : "Below target"} (${target}${unit})</div>`;
+}
+
+function render() {
+  const d = DATA, role = $("f-role").value, platform = $("f-platform").value;
+  const funnel = (d.funnel || []).filter(f => !role || f.role === role);
+  const variants = (d.variants || []).filter(v => v.status !== "draft" && (!role || v.role === role) && (!platform || v.platform === platform));
+  const sum = (arr, k) => arr.reduce((s, x) => s + (Number(x[k]) || 0), 0);
+  const t = d.totals || {}, week = (d.weekly || []).slice(-1)[0] || {};
+  const clicks = sum(variants, "clicks"), adApplicants = sum(variants, "applicants");
+  $("q-tiles").innerHTML = [
+    tile(fmt(role ? sum(funnel, "applied") : t.applicants), "Applied (all sources)"),
+    tile(fmt(role ? sum(funnel, "sourced") : t.sourced), "Found by our LinkedIn search"),
+    tile(fmt(week.applicants), "Applicants this week", vsTarget(week.applicants, week.target_applicants)),
+    tile(fmt(clicks), "Clicks on tracked ad links"),
+    tile(clicks ? Math.round(100 * adApplicants / clicks) + "%" : "–", "Clicks that became applications"),
+    tile(fmt(variants.filter(v => v.status === "live").length) + " / " + fmt(t.variants_written), "Ad variants live / written"),
+  ].join("");
+  const scored = sum(funnel, "scored"), passed = sum(funnel, "passed");
+  const avgOf = k => { const w = funnel.filter(f => f[k] !== null && f.candidates); const n = sum(w, "candidates");
+    return n ? Math.round(10 * w.reduce((s, f) => s + f[k] * f.candidates, 0) / n) / 10 : null; };
+  const passRate = scored ? Math.round(100 * passed / scored) : null;
+  $("k-tiles").innerHTML = [
+    tile(fmt(scored), "Candidates scored"),
+    tile(avgOf("avg_score") === null ? "–" : avgOf("avg_score") + "/15", "Average score"),
+    tile(pct(passRate), "Reached the interview mark", vsTarget(passRate, (d.targets || {}).pass_rate, "%")),
+    tile(avgOf("avg_completeness") === null ? "–" : avgOf("avg_completeness") + "/100", "Profile completeness"),
+    tile(fmt(sum(funnel, "interviewed")), "Interviewed", vsTarget(week.interviews, week.target_interviews, " a week")),
+    tile(fmt(sum(funnel, "selected")), "Selected"),
+  ].join("");
+  renderWeekly(d.weekly || []);
+  $("variants").innerHTML = '<tr><th>Variant</th><th>Platform</th><th>Angle</th><th class="r">Days</th><th class="r">Clicks</th>' +
+    '<th class="r">Applicants</th><th class="r">Apply rate</th><th class="r">Avg score</th><th class="r">Passed</th><th class="r">Interviewed</th></tr>' +
+    (variants.sort((a, b) => b.applicants - a.applicants || b.clicks - a.clicks).slice(0, 15).map(v =>
+      `<tr><td>${esc(v.variant)}<div class="sub">${esc(v.title)}</div></td><td>${esc(v.platform)}</td><td>${esc(v.angle)}</td>` +
+      `<td class="r num">${v.days_live}</td><td class="r num">${fmt(v.clicks)}</td><td class="r num"><b>${fmt(v.applicants)}</b></td>` +
+      `<td class="r num">${pct(v.apply_rate)}</td><td class="r num">${v.avg_score ?? "–"}</td><td class="r num">${fmt(v.passed)}</td>` +
+      `<td class="r num">${fmt(v.interviewed)}</td></tr>`).join("") || '<tr><td colspan="10">No variant posted yet.</td></tr>');
+  const angles = d.angles || [];
+  const maxA = Math.max(1, ...angles.map(a => a.applicants_per_variant));
+  $("angles").innerHTML = '<tr><th>Angle</th><th class="r">Variants</th><th>Applicants per variant</th><th class="r">Avg score</th><th class="r">Passed</th></tr>' +
+    (angles.map(a => `<tr><td>${esc(a.angle)}</td><td class="r num">${a.variants}</td>` +
+      `<td><div style="display:flex;gap:8px;align-items:center"><div class="bar"><i style="width:${Math.round(100 * a.applicants_per_variant / maxA)}%"></i></div><span class="num">${a.applicants_per_variant}</span></div></td>` +
+      `<td class="r num">${a.avg_score ?? "–"}</td><td class="r num">${fmt(a.passed)}</td></tr>`).join("") || '<tr><td colspan="5">No variant posted yet.</td></tr>');
+  $("funnel").innerHTML = '<tr><th>Role</th><th class="r">Candidates</th><th class="r">Applied</th><th class="r">Found</th><th class="r">Scored</th>' +
+    '<th class="r">Passed</th><th class="r">Pass rate</th><th class="r">Questionnaire</th><th class="r">Interviewed</th><th class="r">Selected</th><th class="r">Avg score</th></tr>' +
+    funnel.map(f => `<tr><td>${esc(f.title || f.role)}</td><td class="r num">${fmt(f.candidates)}</td><td class="r num">${fmt(f.applied)}</td>` +
+      `<td class="r num">${fmt(f.sourced)}</td><td class="r num">${fmt(f.scored)}</td><td class="r num">${fmt(f.passed)}</td><td class="r num">${pct(f.pass_rate)}</td>` +
+      `<td class="r num">${fmt(f.questionnaire)}</td><td class="r num">${fmt(f.interviewed)}</td><td class="r num">${fmt(f.selected)}</td>` +
+      `<td class="r num">${f.avg_score ?? "–"}</td></tr>`).join("");
+  $("sources").innerHTML = '<tr><th>Source</th><th class="r">Candidates</th><th class="r">Avg score</th><th class="r">Pass rate</th>' +
+    '<th class="r">Job fit</th><th class="r">Completeness</th><th class="r">Interviewed</th><th class="r">Selected</th></tr>' +
+    (d.sources || []).map(s => `<tr><td>${esc(s.source)}</td><td class="r num">${fmt(s.candidates)}</td><td class="r num">${s.avg_score ?? "–"}</td>` +
+      `<td class="r num">${pct(s.pass_rate)}</td><td class="r num">${s.avg_job_fit ?? "–"}</td><td class="r num">${s.avg_completeness ?? "–"}</td>` +
+      `<td class="r num">${fmt(s.interviewed)}</td><td class="r num">${fmt(s.selected)}</td></tr>`).join("");
+}
+
+function renderWeekly(weeks) {
+  const W = 760, H = 220, pad = { l: 34, r: 8, t: 10, b: 28 };
+  const parts = w => [w.by_platform.LinkedIn || 0, w.by_platform.Indeed || 0, w.by_platform.Other || 0, w.sourced || 0];
+  const max = Math.max(1, ...weeks.map(w => parts(w).reduce((a, b) => a + b, 0)), ...weeks.map(w => w.target_applicants || 0));
+  const bw = (W - pad.l - pad.r) / Math.max(1, weeks.length);
+  const y = v => pad.t + (H - pad.t - pad.b) * (1 - v / max);
+  const colors = ["var(--li)", "var(--in)", "var(--other)", "var(--src)"];
+  let svg = "";
+  [0, 0.5, 1].forEach(f => { const v = Math.round(max * f); svg += `<line x1="${pad.l}" x2="${W - pad.r}" y1="${y(v)}" y2="${y(v)}" stroke="#eef1f6"/><text x="${pad.l - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`; });
+  weeks.forEach((w, i) => {
+    let base = 0;
+    const x = pad.l + i * bw + bw * 0.18, width = bw * 0.64;
+    parts(w).forEach((v, k) => { if (!v) return; svg += `<rect x="${x}" y="${y(base + v)}" width="${width}" height="${y(base) - y(base + v)}" fill="${colors[k]}" rx="2"><title>${v}</title></rect>`; base += v; });
+    if (w.target_applicants) svg += `<line x1="${x - 3}" x2="${x + width + 3}" y1="${y(w.target_applicants)}" y2="${y(w.target_applicants)}" stroke="var(--bad)" stroke-width="2"/>`;
+    const d = new Date(w.week + "T12:00:00Z");
+    svg += `<text x="${x + width / 2}" y="${H - 8}" text-anchor="middle">${d.getUTCDate()} ${d.toLocaleString("en-GB", { month: "short", timeZone: "UTC" })}</text>`;
+  });
+  $("weekly").innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Applicants per week">${svg}</svg>`;
+}
+
+$("f-role").addEventListener("change", render);
+$("f-platform").addEventListener("change", render);
+$("gate-form").addEventListener("submit", e => {
+  e.preventDefault();
+  PHRASE = $("phrase").value;
+  try { localStorage.setItem("pgi-hr-phrase", PHRASE); } catch (x) {}
+  load().catch(err => { $("gate-msg").hidden = false; $("gate-msg").textContent = err.message; });
+});
+load().catch(err => { $("gate").hidden = false; $("gate-msg").hidden = false; $("gate-msg").textContent = "Could not load the figures: " + err.message; });
+</script>
+</body></html>
