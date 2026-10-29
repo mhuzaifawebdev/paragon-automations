@@ -2634,20 +2634,30 @@
    "source": "Batch-30_3230",
    "file_id": "1mlhd8KSLQLvAhzvH4vIKDLIMxVICoMStgx98cas4CcA",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 50,
    "started": "2026-10-29T12:26:42Z",
    "last_start": "2026-10-29T12:26:42Z",
    "restarts": 0,
-   "cap_usd": 758.09
+   "cap_usd": 758.09,
+   "spend_recorded": true,
+   "cost_usd": 0.6034,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1z-KKcd0mYcJ1_d0t57fgT4prLxcAJvA0/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 43,
+   "finished": "2026-10-29T12:35:14Z",
+   "reason": "50 institutes, 29 with a contact"
   },
   {
    "batch": "batch-21-3230-tehreem",
    "source": "Batch-21_3230 Tehreem",
    "file_id": "1O9pGy84lTrMuiBtEJg98W1jmLePYrB6q30jk7zPsRUg",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 50
+   "state": "running",
+   "rows": 50,
+   "started": "2026-10-29T12:35:14Z",
+   "last_start": "2026-10-29T12:35:14Z",
+   "restarts": 0,
+   "cap_usd": 757.49
   },
   {
    "batch": "batch-34-3230",
@@ -3393,7 +3403,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-29T12:26:42Z",
+ "updated": "2026-10-29T12:35:14Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
