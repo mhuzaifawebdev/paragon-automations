@@ -1,0 +1,127 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-10-29T10:14:59Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "INSTITUT NATIONAL DE L'AUDIOVISUEL",
+  "institution_type": "college",
+  "official_website": "https://www.ina.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.ina.fr/contact",
+   "evidence_quote": "France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "dpdina@ina.fr",
+  "generic_email_url": "https://www.ina.fr/contact",
+  "contact": {
+   "name": "Nicolas Hervé",
+   "designation": "Head of the team",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ina.fr/institut-national-audiovisuel/equipe-recherche",
+   "evidence_quote": "Nicolas Hervé - Responsable de l'équipe"
+  },
+  "alternates": [],
+  "rung": "Other role. Nicolas Hervé is the head of the research team at the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université Paris-Panthéon-Assas",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://campus.ina.fr/ina-campus/ina-campus",
+    "evidence_quote": "Avec 50 ans d’expérience dans la transmission des savoirs et une philosophie fondée sur la pratique et une approche métier, dispensée par des professionnels confirmés, INA campus, attachée à l’Université Paris-Panthéon-Assas, vous accompagne dans votre projet professionnel.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FIAT/IFTA",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ina.fr/institut-national-audiovisuel/international-affairs",
+    "evidence_quote": "In October 2027, the Institut National de l’Audiovisuel (INA) will host the World Conference of the International Federation of Television Archives (FIAT/IFTA) in Bry-sur-Marne and Paris.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FIAT",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ina.fr/institut-national-audiovisuel/international-affairs",
+    "evidence_quote": "Since 2010, INA has organized the annual FRAME training program dedicated to European and international professionals in audiovisual and digital heritage. Since its creation, FRAME has been supported by FIAT and the EBU Academy, and co-financed by the European Commission's Creative Europe program.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EBU Academy",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ina.fr/institut-national-audiovisuel/international-affairs",
+    "evidence_quote": "Since 2010, INA has organized the annual FRAME training program dedicated to European and international professionals in audiovisual and digital heritage. Since its creation, FRAME has been supported by FIAT and the EBU Academy, and co-financed by the European Commission's Creative Europe program.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "INA",
+    "city": "Bry-sur-Marne",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ina.fr/institut-national-audiovisuel/international-affairs",
+    "evidence_quote": "In October 2027, the Institut National de l’Audiovisuel (INA) will host the World Conference of the International Federation of Television Archives (FIAT/IFTA) in Bry-sur-Marne and Paris."
+   },
+   {
+    "campus_name": "Délégation INA Méditerranée",
+    "city": "Marseille",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://campus.ina.fr/",
+    "evidence_quote": "Du 7 au 11 décembre 2026, INA campus organise 2 nouvelles sessions de formation au sein de la délégation INA Méditerranée : l'une sur le financement de productions audiovisuelles, l'autre sur la recherche d'images."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The institution does not list specific Erasmus+ mobility partners or a dedicated international mobility coordinator in the provided evidence. Contacts are not listed with direct email addresses or specific roles related to Erasmus+.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 11.4,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "email_search_s": 22.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 63.0
+ }
+}
