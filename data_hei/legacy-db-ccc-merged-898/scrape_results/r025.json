@@ -1,0 +1,135 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-29T00:19:13Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "et Technologique François Arago",
+  "institution_type": "school",
+  "official_website": "https://lyceearago.net/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jeanne DUBOIS",
+   "designation": "Education assistant",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lyceearago.net/sortie-des-internes-a-team-break-ce-mercredi-7-fevrier-2024/",
+   "evidence_quote": "2 assistants d’éducation Jeanne DUBOIS et Nathan BINET ont organisé une sortie à l’escape game. Quinze de nos élèves internes ont essayé de s’échapper des salles Jurasik Room, Mission Bunker et Walking Dead."
+  },
+  "alternates": [
+   {
+    "name": "Nathan BINET",
+    "designation": "Education assistant",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lyceearago.net/sortie-des-internes-a-team-break-ce-mercredi-7-fevrier-2024/",
+    "evidence_quote": "2 assistants d’éducation Jeanne DUBOIS et Nathan BINET ont organisé une sortie à l’escape game. Quinze de nos élèves internes ont essayé de s’échapper des salles Jurasik Room, Mission Bunker et Walking Dead.",
+    "why_chosen": "Secretary / administration (last resort). Nathan BINET is an education assistant who organized a student outing."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Jeanne DUBOIS is an education assistant who organized a student outing.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EUROVIA",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceearago.net/visite-dun-chantier-de-refection-de-voirie-trottoirs-reseaux-voie-des-sacres-a-reims-entreprise-eurovia-bts-travaux-publics-du-lycee-arago/",
+    "evidence_quote": "Visite d’un chantier de réfection de voirie, trottoirs, réseaux - Voie des Sacres à REIMS – Entreprise EUROVIA – BTS Travaux Publics du lycée ARAGO - Lycée François Arago",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Entreprendre Pour Apprendre",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceearago.net/les-formations/seconde-option-management-et-gestion/",
+    "evidence_quote": "Pour encourager l’excellence et valoriser les réalisations des jeunes, Entreprendre Pour Apprendre organise des salons régionaux et nationaux.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "école Joliot-Curie",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceearago.net/",
+    "evidence_quote": "Le projet lecture avec l’école Joliot-Curie voisine a été reconduit cette année, avec jusqu’à huit",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UNSS",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceearago.net/lequipe-de-football-cadets/",
+    "evidence_quote": "L’équipe de FOOTBALL CADETS GARÇONS termine à la 7ème place du championnat de France UNSS (16 équipes en compétition) à Saint-Nazaire du 9 au 12 mai 2023.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CREPS",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceearago.net/rencontre-avec-les-structures-sportives-partenaires-du-lycee-arago19-septembre-2025/",
+    "evidence_quote": "avec la Direction du lycée, le responsable du service Haut Niveau du CREPS, les conseillères du suivi scolaire et les coordonnateurs des sections.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée François Arago",
+    "city": "Reims",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceearago.net/",
+    "evidence_quote": "1 rue François Arago"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not contain a list of Erasmus+ or international academic partners. The contacts listed are administrative or project-based as no specific international relations staff were identified.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 11.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 1.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 19.9
+ }
+}
