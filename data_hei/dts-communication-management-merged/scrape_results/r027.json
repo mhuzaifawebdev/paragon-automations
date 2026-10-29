@@ -1,0 +1,70 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-10-29T03:52:56Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "Hawk",
+  "institution_type": "unknown",
+  "official_website": "https://www.hawkinc.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://www.hawkinc.com/contact",
+   "evidence_quote": "Montgomery, AL 36124-1247, USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Andy Mills",
+   "designation": "Executive Vice President",
+   "designation_local": "",
+   "email": "AndyMills@HawkInc.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.hawkinc.com/alabama-based-foodservice-equipment-and-supply-distributor-makes-strategic-leadership-shifts",
+   "evidence_quote": "Andy Mills ... Executive Vice President | Hawk, Inc."
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Andy Mills is the Executive Vice President and serves as the media contact for the company.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hawk, Inc.",
+    "city": "Montgomery",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.hawkinc.com/contact",
+    "evidence_quote": "301 Hawk Place, Montgomery, AL 36117, USA"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "Hawk, Inc. is a commercial foodservice equipment distributor, not an educational institution. No academic partners or international mobility programs are mentioned in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 6.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 28.0
+ }
+}
