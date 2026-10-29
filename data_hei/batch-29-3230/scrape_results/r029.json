@@ -1,0 +1,92 @@
+{
+ "row_id": "r029",
+ "scraped_at": "2026-10-29T09:53:24Z",
+ "contacts": {
+  "row_id": "r029",
+  "institution_name": "Caisse Régionale Assurance Maladie Île-de-France",
+  "institution_type": "college",
+  "official_website": "https://www.cramif.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.cramif.fr/sites/default/files/2024-10/interlocuteurs-contacts-antennes-departementales-risques-professionnels-cramif-assurance-maladie-dte109.pdf",
+   "evidence_quote": "Île-de-France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "David Clair",
+   "designation": "General Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.cramif.fr/mentions-legales",
+   "evidence_quote": "Directeur de la publication : David Clair, directeur général"
+  },
+  "alternates": [
+   {
+    "name": "Clarisse Alves",
+    "designation": "Head of the Communication Department",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.cramif.fr/mentions-legales",
+    "evidence_quote": "Co-Directeur de la publication : Clarisse Alves, responsable du département communication",
+    "why_chosen": "Other role. Clarisse Alves is the head of the communication department and co-director of the publication."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). David Clair is the general director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "École de service social",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.cramif.fr/",
+    "evidence_quote": "17-19 place de l'Argonne 75019 Paris"
+   },
+   {
+    "campus_name": "Centre médical et dentaire Stalingrad",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.cramif.fr/",
+    "evidence_quote": "14 bis rue de Tanger - 2ème étage - 75954 Paris Cedex 19"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The institution is a regional health insurance fund (CRAMIF) that operates a social service school and medical centers. No information regarding Erasmus+ partnerships or international mobility contacts is provided in the evidence. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 9.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 8.3,
+  "total_seconds": 52.8
+ }
+}
