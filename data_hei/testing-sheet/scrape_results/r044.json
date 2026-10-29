@@ -1,0 +1,99 @@
+{
+ "row_id": "r044",
+ "scraped_at": "2026-10-29T09:19:40Z",
+ "contacts": {
+  "row_id": "r044",
+  "institution_name": "Kaszubsko Pomorska Szkola Wyzsza w Wejherowie",
+  "institution_type": "university",
+  "official_website": "https://kpsw.pl/",
+  "country": {
+   "value": "Poland",
+   "source_url": "https://kpsw.pl/",
+   "evidence_quote": "Poland"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "erasmus@kpsw.pl",
+  "generic_email_url": "https://kpsw.pl/biuro-karier-i-wspolpracy-miedzynarodowej/",
+  "contact": {
+   "name": "Marcin Pliński",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://kpsw.pl/kadra-dydaktyczna/",
+   "evidence_quote": "Naszym niewątpliwym atutem jest kadra naukowo-dydaktyczna. Na jej czele stoi Rektor Kaszubsko-Pomorskiej Szkoły Wyższej w Wejherowie, prof. zw. dr hab. Marcin Pliński, b. Rektor Uniwersytetu Gdańskiego."
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the Rector of the Kaszubsko-Pomorska Szkoła Wyższa w Wejherowie.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "KPH Group Sp. z o.o.",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://kpsw.pl/gazeta-morska-partnerem-kpsw/",
+    "evidence_quote": "Kaszubsko-Pomorska Szkoła Wyższa w Wejherowie podpisała porozumienie o współpracy z KPH Group Sp. z o.o., wydawcą „Gazety Morskiej”. To kolejny krok w kierunku wzmacniania współpracy uczelni z regionalnymi mediami oraz otoczeniem społeczno-gospodarczym.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Kaszubsko-Pomorska Szkoła Wyższa w Wejherowie",
+    "city": "Wejherowo",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://kpsw.pl/",
+    "evidence_quote": "ul. Dworcowa 7, 84-200 Wejherowo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The evidence provides a general description of international cooperation and Erasmus+ regulations but does not contain a specific list of partner universities. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.2,
+  "crawl_s": 19.6,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 9.1,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     683
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 39.2
+ }
+}
