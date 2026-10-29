@@ -1,0 +1,87 @@
+{
+ "row_id": "r575",
+ "scraped_at": "2026-10-29T09:03:13Z",
+ "contacts": {
+  "row_id": "r575",
+  "institution_name": "Bojana Drljaca",
+  "institution_type": "university",
+  "official_website": "https://malmostudenter.se/en/home/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "receptionen@malmostudenter.se",
+  "generic_email_url": "https://malmostudenter.se/en/home/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: web search (Google via Gemini), named 'Studentkåren Malmö' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "City of Malmö",
+    "partner_country": "Sweden",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://malmostudenter.se/en/home/",
+    "evidence_quote": "It’s official! Next year, the Student Union Malmö will move into new offices at Beijerskajen near Klaffbron. An agreement has been signed with the City of Malmö for the Sjöormen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Malmö University",
+    "partner_country": "Sweden",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://malmostudenter.se/en/english/contact/board/",
+    "evidence_quote": "The Presidium of the Student Union Malmö consists of a President and one Vice Presidents. While the President is in charge of running the daily operations and representing the organisation in the media, one Vice President deals with education monitoring and study-social questions. Together, we draw up proposals and discuss various important issues, ensuring high-quality education and a good environment for all students at Malmö University.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Studentkåren Malmö",
+    "city": "Malmö",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://malmostudenter.se/en/home/",
+    "evidence_quote": "Neptunigatan 20, 211 18, Malmö"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The evidence provided is for the Student Union of Malmö University, not the university itself. No list of international partners or Erasmus+ mobility agreements is included in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 13.1,
+  "crawl_s": 10.3,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     127
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 36.7
+ }
+}
