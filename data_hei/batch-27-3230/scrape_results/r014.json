@@ -1,0 +1,121 @@
+{
+ "row_id": "r014",
+ "scraped_at": "2026-10-29T10:45:17Z",
+ "contacts": {
+  "row_id": "r014",
+  "institution_name": "IES FRANCISCO TOMAS Y VALIENTE",
+  "institution_type": "school",
+  "official_website": "https://www.iesftv.com/",
+  "country": null,
+  "phone": {
+   "value": "917 59 41 52",
+   "source_url": "https://www.iesftv.com/",
+   "evidence_quote": "917 59 41 52"
+  },
+  "phone_alt": [],
+  "generic_email": "info@iesftv.com",
+  "generic_email_url": "https://www.iesftv.com/",
+  "contact": {
+   "name": "PURIFICACIÓN FERNÁNDEZ",
+   "designation": "Head of the English Department",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://www.iesftv.com/organigrama/",
+   "evidence_quote": "PURIFICACIÓN FERNÁNDEZ Jefa del Departamento de Inglés"
+  },
+  "alternates": [
+   {
+    "name": "D. Tomás Alonso Pérez",
+    "designation": "Principal",
+    "designation_local": "",
+    "email": "direccion@iesftv.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "http://www.iesftv.com/management/",
+    "evidence_quote": "D. Tomás Alonso Pérez ... Principal",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the principal of the institution."
+   },
+   {
+    "name": "Dña. Paloma de la Fuente",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "secretario@iesftv.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "http://www.iesftv.com/management/",
+    "evidence_quote": "Dña. Paloma de la Fuente ... Secretary",
+    "why_chosen": "Secretary / administration (last resort). She is the secretary of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. English / language or EU-project teacher (no Erasmus contact found). She is the head of the English department and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Dirección General de Formación Profesional de la Comunidad de Madrid",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.iesftv.com/erasmus/",
+    "evidence_quote": "COLABORACIÓN EN CONSORCIO DE LA DIR. GRAL. DE FORMACIÓN PROFESIONAL",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fundación INFORM",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.iesftv.com/erasmus/",
+    "evidence_quote": "COLABORACIÓN CON LA FUNDACIÓN INFORM",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Xarxa FP",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "http://www.iesftv.com/erasmus/",
+    "evidence_quote": "COLABORACIÓN CON LA FUNDACIÓN XARXA FP",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Francisco Tomás y Valiente",
+    "city": "Madrid",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "http://www.iesftv.com/contacto/",
+    "evidence_quote": "C/ Benita Ávila 3 (entrada por Agustín Calvo, 8) – 28043 (Madrid)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 6,
+  "coverage_note": "The evidence mentions several countries where students perform internships but does not provide a specific list of partner institutions by name, other than the mentioned foundations and networks.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 19.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.2,
+  "total_seconds": 27.4
+ }
+}

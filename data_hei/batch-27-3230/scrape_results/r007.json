@@ -1,0 +1,102 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-29T10:44:50Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "SALUS COOP. V",
+  "institution_type": "college",
+  "official_website": "https://www.coopsalus.com/",
+  "country": null,
+  "phone": {
+   "value": "964 21 86 17",
+   "source_url": "https://www.coopsalus.com/",
+   "evidence_quote": "LLámanos 964 21 86 17, 722 37 93 30"
+  },
+  "phone_alt": [],
+  "generic_email": "info@coopsalus.com",
+  "generic_email_url": "https://www.coopsalus.com/",
+  "contact": {
+   "name": "Nacho Tormo",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.coopsalus.com/nuestro-equipo/",
+   "evidence_quote": "Nacho Tormo ... Coordinador de Erasmus+ y Tutor de Formación en Empresa."
+  },
+  "alternates": [
+   {
+    "name": "Marta Aguilar",
+    "designation": "Erasmus+ Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.coopsalus.com/nuestro-equipo/",
+    "evidence_quote": "Marta Aguilar ... Coordinadora de Erasmus + y Responsable del Departamento de Orientación.",
+    "why_chosen": "Institutional Erasmus+ coordinator. Marta Aguilar is named as a coordinator for the Erasmus+ department."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. Nacho Tormo is explicitly named as the Erasmus+ Coordinator and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmobility",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.coopsalus.com/erasmus/",
+    "evidence_quote": "Estamos inscritos en diferentes plataformas, como Erasmobility, para buscar socios con los que poder ampliar y llevar a cabo nuevos proyectos. También estamos abiertos a la posibilidad de acoger a participantes de movilidades Erasmus+ del sector sociosanitario con el objetivo de crear una red de contactos a nivel europeo para seguir creciendo y adquiriendo dimensión europea.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Coop Salus",
+    "city": "Castelló de la Plana",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.coopsalus.com/",
+    "evidence_quote": "Castelló de la Plana"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a specific list of partner universities or organizations in the evidence, only mentioning that they use platforms like Erasmobility to find them.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 13.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.1,
+  "slices": [
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 26.1
+ }
+}
