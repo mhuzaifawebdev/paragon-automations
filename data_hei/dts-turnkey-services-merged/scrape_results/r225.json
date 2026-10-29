@@ -1,0 +1,70 @@
+{
+ "row_id": "r225",
+ "scraped_at": "2026-10-29T03:06:02Z",
+ "contacts": {
+  "row_id": "r225",
+  "institution_name": "Dl Wholesale",
+  "institution_type": "unknown",
+  "official_website": "https://www.dlw.co/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.dlw.co/contactus",
+   "evidence_quote": "Country *United StatesCanadaMexicoOther"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "West Coast Distribution",
+    "city": "Tracy",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.dlw.co/",
+    "evidence_quote": "3160 N Chrisman Rd Ste 100, Tracy, CA 95304"
+   },
+   {
+    "campus_name": "East Coast Distribution",
+    "city": "Romulus",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.dlw.co/",
+    "evidence_quote": "35790 Northline Road, Romulus, MI 48174"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The institution is a commercial wholesale distributor of hydroponic equipment and not an educational institution. No information regarding Erasmus+ or international mobility partnerships is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 8.0,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 29.5
+ }
+}
