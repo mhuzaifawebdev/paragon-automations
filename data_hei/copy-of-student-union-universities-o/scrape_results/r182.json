@@ -1,0 +1,80 @@
+{
+ "row_id": "r182",
+ "scraped_at": "2026-10-29T08:23:04Z",
+ "contacts": {
+  "row_id": "r182",
+  "institution_name": "Alexander Rein Robas",
+  "institution_type": "university",
+  "official_website": "https://taltech.ee/",
+  "country": {
+   "value": "Eesti",
+   "source_url": "https://taltech.ee/",
+   "evidence_quote": "Eesti"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@taltech.ee",
+  "generic_email_url": "https://taltech.ee/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: web search (Google via Gemini), named 'Tallinna Tehnikaülikool' on the site. mode: gemini. 16 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EuroTeQ Alliance",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://taltech.ee/en/staff-training-week",
+    "evidence_quote": "Tallinn University of Technology (TalTech) and the EuroTeQ Alliance invite you to Tallinn, Estonia to discuss best practices and challenges related to international collaboration.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mustamäe Campus",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "role": "main",
+    "source_url": "https://taltech.ee/en/campuses/mustamae/contacts",
+    "evidence_quote": "Contacts | Mustamäe Campus"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not name any specific contact persons with email addresses, nor does it list a comprehensive partner university directory. 16 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.9,
+  "crawl_s": 24.4,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.9,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     199
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 49.0
+ }
+}
