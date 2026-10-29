@@ -1,0 +1,99 @@
+{
+ "row_id": "r456",
+ "scraped_at": "2026-10-29T04:33:45Z",
+ "contacts": {
+  "row_id": "r456",
+  "institution_name": "Tampa Bay Rays",
+  "institution_type": "unknown",
+  "official_website": "https://www.mlb.com/rays",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "mlbnviewerfeedback@mlb.com",
+  "generic_email_url": "https://www.mlb.com/network/about/contact-us",
+  "contact": {
+   "name": "Giovanna Rodriguez",
+   "designation": "Senior Manager, Minor League & International Administration",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.mlb.com/rays/team/front-office",
+   "evidence_quote": "Giovanna Rodriguez | Senior Manager, Minor League & International Administration |"
+  },
+  "alternates": [
+   {
+    "name": "Steve Miller",
+    "designation": "Director, International Scouting",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.mlb.com/rays/team/front-office",
+    "evidence_quote": "Steve Miller | Director, International Scouting |",
+    "why_chosen": "Other role. Steve Miller serves as the Director of International Scouting for the institution."
+   },
+   {
+    "name": "Patrick Walters",
+    "designation": "Director, International Operations & Complex Development",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.mlb.com/rays/team/front-office",
+    "evidence_quote": "Patrick Walters | Director, International Operations & Complex Development |",
+    "why_chosen": "Other role. Patrick Walters is the Director of International Operations & Complex Development."
+   }
+  ],
+  "rung": "Other role. Giovanna Rodriguez is the Senior Manager of Minor League & International Administration at the Tampa Bay Rays.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Tropicana Field",
+    "city": "St. Petersburg",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.mlb.com/team",
+    "evidence_quote": "Tropicana Field"
+   },
+   {
+    "campus_name": "Charlotte Sports Park",
+    "city": "Port Charlotte",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.mlb.com/rays/ballpark/concessions/merchandise",
+    "evidence_quote": "Charlotte Sports Park"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a professional baseball team and does not have an international mobility or Erasmus+ program. No contact information for academic or international relations staff is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 19.9,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 1.2,
+  "total_seconds": 35.0
+ }
+}
