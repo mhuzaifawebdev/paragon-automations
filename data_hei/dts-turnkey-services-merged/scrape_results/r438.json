@@ -1,0 +1,85 @@
+{
+ "row_id": "r438",
+ "scraped_at": "2026-10-29T03:31:15Z",
+ "contacts": {
+  "row_id": "r438",
+  "institution_name": "Cbc America",
+  "institution_type": "unknown",
+  "official_website": "https://www.cbcamerica.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Credit Inquiry",
+   "designation": "Credit Inquiry",
+   "designation_local": "",
+   "email": "credit@cbcamerica.com",
+   "office_email": "",
+   "phone": "+1 919 230-8700",
+   "source_url": "https://www.cbcamerica.com/contact-us",
+   "evidence_quote": "Credit Inquiry <credit@cbcamerica.com>"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). This contact handles credit inquiries for the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kuraray",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cbcamerica.com/",
+    "evidence_quote": "CBC AMERICA LLC is a dynamic organization that encompasses a variety of innovative business divisions. Our divisions include Imaging and Information Technology, which focuses on cutting-edge optical and security solutions, and Life Sciences, dedicated to advancing the Agriculture and Pharmaceutical sectors. Additionally, our Chemical division specializes in Food Ingredients and Battery Solutions and collaborates with Kuraray to deliver exceptional products. With a commitment to quality and innov",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Corporate Headquarters",
+    "city": "New York",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.cbcamerica.com/cbc-america-locations",
+    "evidence_quote": "Corporate Headquarters"
+   },
+   {
+    "campus_name": "CBC AMERICA LLC",
+    "city": "Durham",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.cbcamerica.com/cbc-america-locations",
+    "evidence_quote": "North Carolina"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "CBC America is a commercial business organization, not an educational institution. No information regarding Erasmus+ or international academic mobility is present.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 12.8,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 29.3
+ }
+}
