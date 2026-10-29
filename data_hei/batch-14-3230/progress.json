@@ -1,1 +1,59 @@
-{"batch": "batch-14-3230", "status": "running", "generated_at": "2026-10-29T13:43:50.410758+00:00", "total_rows": 80, "done": 0, "pending": 80, "chunk": 1, "total_chunks": 4, "confidence": {"high": 0, "medium": 0, "low": 0, "none": 0}, "recent": []}
+{
+ "batch": "batch-14-3230",
+ "status": "running",
+ "generated_at": "2026-10-29T13:44:39.672795+00:00",
+ "chunk": 2,
+ "total_chunks": 4,
+ "total_rows": 80,
+ "done": 37,
+ "pending": 43,
+ "elapsed_seconds": 47,
+ "eta_seconds": 176,
+ "cost_usd_so_far": 0.0647,
+ "paid_search_usd": 0.0647,
+ "paid_search_limit_usd": 21.0,
+ "paid_search_limit_reached": false,
+ "paid_searches": 0,
+ "haiku_fallback_calls": 14,
+ "cost_usd_projected_total": 0.0,
+ "ai_calls": 14,
+ "reader_mode": "fast",
+ "fast_limit_usd": 15.0,
+ "provider": "gemini",
+ "chunk_size": 25,
+ "fast_reader": "paid Gemini",
+ "fast_reader_id": "gemini",
+ "fast_usd_per_institute": 0.015,
+ "fast_readers": [
+  {
+   "id": "gemini",
+   "name": "paid Gemini",
+   "usd_per_institute": 0.015
+  },
+  {
+   "id": "haiku",
+   "name": "Claude Haiku",
+   "usd_per_institute": 0.05
+  }
+ ],
+ "confidence": {
+  "high": 4,
+  "medium": 0,
+  "low": 2,
+  "none": 31
+ },
+ "partners_found": 144,
+ "campuses_found": 15,
+ "recent": [
+  "r001",
+  "r002",
+  "r003",
+  "r005",
+  "r007",
+  "r008",
+  "r010",
+  "r052",
+  "r053",
+  "r056"
+ ]
+}
