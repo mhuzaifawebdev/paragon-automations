@@ -1,0 +1,117 @@
+{
+ "row_id": "r031",
+ "scraped_at": "2026-10-29T13:47:51Z",
+ "contacts": {
+  "row_id": "r031",
+  "institution_name": "IES Virgen de la Paloma",
+  "institution_type": "college",
+  "official_website": "https://www.palomafp.org/",
+  "country": null,
+  "phone": {
+   "value": "913980374",
+   "source_url": "https://www.palomafp.org/nuestro-centro/#contactar",
+   "evidence_quote": "913980374 |"
+  },
+  "phone_alt": [],
+  "generic_email": "administracion.gestion@palomafp.org",
+  "generic_email_url": "https://www.palomafp.org/nuestro-centro/#contactar",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Empresas privadas",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.palomafp.org/nuestro-centro/programa-erasmus/",
+    "evidence_quote": "Empresas privadas.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "centros de formación profesional",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.palomafp.org/nuestro-centro/programa-erasmus/",
+    "evidence_quote": "Docentes deben presentar un proyecto de estancia en empresa o centros de formación profesional.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CISCO",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.palomafp.org/nuestro-centro/#contactar",
+    "evidence_quote": "Ofrecemos certificaciones de profesionalidad tales como CISCO.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.palomafp.org/nuestro-centro/#contactar",
+    "evidence_quote": "Participamos en el programa europeo Erasmus para Educación Superior.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Virgen de la Paloma",
+    "city": "Madrid",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.palomafp.org/nuestro-centro/#contactar",
+    "evidence_quote": "C/ Francos Rodríguez, 106. 28039. MADRID."
+   }
+  ],
+  "stated_total": 2900,
+  "stated_total_quote": "Tenemos más de 2.900 convenios firmados para el programa de Formación en Centros de Trabajo.",
+  "stated_total_url": "https://www.palomafp.org/nuestro-centro/#contactar",
+  "truncated": true,
+  "total_seen": 2900,
+  "pages_read": 7,
+  "coverage_note": "The institution mentions participating in Erasmus+ and having a mobility consortium, but does not provide a list of specific partner institutions. The contact provided is the office responsible for European programs. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 12.8,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 48.9
+ }
+}
