@@ -1,22 +1,22 @@
 {
  "batch": "batch-32-3230",
  "status": "running",
- "generated_at": "2026-10-29T12:20:47.689934+00:00",
+ "generated_at": "2026-10-29T12:21:30.085136+00:00",
  "chunk": 2,
  "total_chunks": 3,
  "total_rows": 51,
- "done": 7,
- "pending": 44,
- "elapsed_seconds": 49,
- "eta_seconds": 180,
- "cost_usd_so_far": 0.0821,
- "paid_search_usd": 0.0821,
+ "done": 12,
+ "pending": 39,
+ "elapsed_seconds": 91,
+ "eta_seconds": 165,
+ "cost_usd_so_far": 0.1833,
+ "paid_search_usd": 0.1833,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
- "haiku_fallback_calls": 15,
+ "haiku_fallback_calls": 33,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 13,
+ "ai_calls": 28,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,13 +37,13 @@
   }
  ],
  "confidence": {
-  "high": 1,
-  "medium": 1,
-  "low": 0,
-  "none": 5
+  "high": 3,
+  "medium": 2,
+  "low": 1,
+  "none": 6
  },
- "partners_found": 22,
- "campuses_found": 7,
+ "partners_found": 59,
+ "campuses_found": 12,
  "recent": [
   "r002",
   "r003",
@@ -51,6 +51,11 @@
   "r005",
   "r006",
   "r007",
-  "r009"
+  "r008",
+  "r009",
+  "r010",
+  "r012",
+  "r014",
+  "r015"
  ]
 }
