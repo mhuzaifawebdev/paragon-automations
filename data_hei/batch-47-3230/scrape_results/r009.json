@@ -1,0 +1,102 @@
+{
+ "row_id": "r009",
+ "scraped_at": "2026-10-29T13:29:02Z",
+ "contacts": {
+  "row_id": "r009",
+  "institution_name": "Powiatowy Zespol Szkol nr 2 im. Marii Dabrowskiej w Sieradzu",
+  "institution_type": "school",
+  "official_website": "https://zamkowa15.edu.pl/",
+  "country": null,
+  "phone": {
+   "value": "43 827-15-36 / 43 822-40-40",
+   "source_url": "https://zamkowa15.edu.pl/",
+   "evidence_quote": "43 827-15-36 / 43 822-40-40"
+  },
+  "phone_alt": [],
+  "generic_email": "sekretariat@zamkowa15.edu.pl",
+  "generic_email_url": "https://zamkowa15.edu.pl/",
+  "contact": {
+   "name": "Katarzyna Jaworska-Lisowska",
+   "designation": "School Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://zamkowa15.edu.pl/kadra-pedagogiczna/",
+   "evidence_quote": "Dyrektor Szkoły: mgr Katarzyna Jaworska-Lisowska"
+  },
+  "alternates": [
+   {
+    "name": "Marek Prokopowicz",
+    "designation": "Erasmus+ project coordinator and organizer",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://zamkowa15.edu.pl/konferencja-podsumowujaca-zagraniczne-praktyki-w-ramach-programu-erasmus/",
+    "evidence_quote": "W uroczystości uczestniczyli wicestarosta powiatu sieradzkiego, Kazimiera Gotkowicz, członek Zarządu Powiatu Sieradzkiego, Tomasz Baliński, dyrektor PZS nr 2 w Sieradzu, Patryk Kurpisz, Marek Prokopowicz, koordynator i organizator projektu ze strony Erasmusa+, uczestnicy projektu z grupy hiszpańskiej (18 uczniów z Saragossy) i grupy włoskiej (17 uczniów z Bolonii) oraz nauczyciele opiekujący się młodzieżą za granicą.",
+    "why_chosen": "Mobility coordinator. He is explicitly named as the coordinator and organizer of the Erasmus+ project."
+   },
+   {
+    "name": "Patryk Kurpisz",
+    "designation": "School Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://zamkowa15.edu.pl/sieradzka-firma-asclepios-rozpoczyna-wspolprace-z-powiatowym-zespolem-szkol/",
+    "evidence_quote": "Uczniowie kształcący się w zawodzie technik logistyk i technik spedytor w Powiatowym Zespole Szkół nr 2 im. Marii Dąbrowskiej w Sieradzu będą mogli zdobywać doświadczenie pod okiem zawodowców z sieradzkiej firmy Asclepios. Dyrektor szkoły Patryk Kurpisz podpisał porozumienie z prezesem zarządu Tomaszem Jóźwikiem.",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is identified as the director of the school and signs partnership agreements."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the director of the institution and the contact person on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Asclepios",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://zamkowa15.edu.pl/sieradzka-firma-asclepios-rozpoczyna-wspolprace-z-powiatowym-zespolem-szkol/",
+    "evidence_quote": "Uczniowie kształcący się w zawodzie technik logistyk i technik spedytor w Powiatowym Zespole Szkół nr 2 im. Marii Dąbrowskiej w Sieradzu będą mogli zdobywać doświadczenie pod okiem zawodowców z sieradzkiej firmy Asclepios. Dyrektor szkoły Patryk Kurpisz podpisał porozumienie z prezesem zarządu Tomaszem Jóźwikiem.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Powiatowy Zespół Szkół nr 2 im. Marii Dąbrowskiej w Sieradzu",
+    "city": "Sieradz",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://zamkowa15.edu.pl/",
+    "evidence_quote": "Powiatowy Zespół Szkół nr 2 im. Marii Dąbrowskiej w Sieradzu – ul. Zamkowej 15, 98-200 Sieradz"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The evidence mentions international partners from Spain and Italy in the context of Erasmus+ projects but does not provide a formal list of partner institutions. Contact emails are limited to the general secretariat address.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 14.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.4,
+  "mode": "gemini",
+  "email_search_s": 12.0,
+  "total_seconds": 36.4
+ }
+}
