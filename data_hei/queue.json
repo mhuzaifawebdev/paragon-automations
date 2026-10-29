@@ -2202,20 +2202,30 @@
    "source": "Merged Legacy Database CCC-4507",
    "file_id": "1r95AgtCLKgqCfVjDwNDO5mQh8FeebbryRxDDIS2sYnk",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 23,
    "started": "2026-10-29T06:07:31Z",
    "last_start": "2026-10-29T06:07:31Z",
    "restarts": 0,
-   "cap_usd": 781.16
+   "cap_usd": 781.16,
+   "spend_recorded": true,
+   "cost_usd": 0.0071,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1jjl8akbfqxlMRbgtQ0AMKEbjo5QVmVaz/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 2,
+   "finished": "2026-10-29T06:09:22Z",
+   "reason": "19 institutes, 2 with a contact"
   },
   {
    "batch": "l-s-database-3543-out-of-4507",
    "source": "L&S Database-3543 out of 4507",
    "file_id": "1N8rauCJM9zLCU2TDYhXOjM9qRvkz8BkUBGOX7C6Tk0I",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 658
+   "state": "running",
+   "rows": 658,
+   "started": "2026-10-29T06:09:22Z",
+   "last_start": "2026-10-29T06:09:22Z",
+   "restarts": 0,
+   "cap_usd": 781.15
   },
   {
    "batch": "batch-2-obaid-sales-zedarma-10",
@@ -3153,7 +3163,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-29T06:07:31Z",
+ "updated": "2026-10-29T06:09:22Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
