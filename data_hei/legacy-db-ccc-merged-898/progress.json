@@ -1,14 +1,14 @@
 {
  "batch": "legacy-db-ccc-merged-898",
  "status": "running",
- "generated_at": "2026-10-29T01:41:40.922404+00:00",
+ "generated_at": "2026-10-29T01:42:18.873928+00:00",
  "chunk": 26,
  "total_chunks": 47,
  "total_rows": 1155,
- "done": 619,
- "pending": 536,
- "elapsed_seconds": 4396,
- "eta_seconds": 583,
+ "done": 624,
+ "pending": 531,
+ "elapsed_seconds": 4434,
+ "eta_seconds": 1236,
  "cost_usd_so_far": 4.3941,
  "paid_search_usd": 4.3941,
  "paid_search_limit_usd": 21.0,
@@ -16,7 +16,7 @@
  "paid_searches": 0,
  "haiku_fallback_calls": 1468,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 1465,
+ "ai_calls": 1468,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,18 +37,14 @@
   }
  ],
  "confidence": {
-  "high": 194,
+  "high": 195,
   "medium": 92,
-  "low": 225,
-  "none": 108
+  "low": 226,
+  "none": 111
  },
- "partners_found": 19984,
- "campuses_found": 1079,
+ "partners_found": 20117,
+ "campuses_found": 1081,
  "recent": [
-  "r600",
-  "r601",
-  "r602",
-  "r603",
   "r605",
   "r606",
   "r607",
@@ -61,10 +57,14 @@
   "r615",
   "r616",
   "r617",
+  "r618",
   "r619",
   "r620",
   "r621",
-  "r623"
+  "r622",
+  "r623",
+  "r624",
+  "r625"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1X057NKEowEqEulPppy4EL3x9AZvmxi96/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
