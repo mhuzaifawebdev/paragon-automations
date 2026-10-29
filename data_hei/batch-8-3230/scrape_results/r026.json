@@ -1,0 +1,150 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-29T13:40:03Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "GIP FORINVAL",
+  "institution_type": "college",
+  "official_website": "https://monavenirpro-hdf.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://monavenirpro-hdf.fr/",
+   "evidence_quote": "[Logo de la Région Académique Hauts-de-France]"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Cellule Erasmus +",
+   "designation": "Erasmus+ Cell",
+   "designation_local": "",
+   "email": "europe.gip@ac-lille.fr",
+   "office_email": "",
+   "phone": "0616229456",
+   "source_url": "https://monavenirpro-hdf.fr/notre-reseau/gip-viapro/erasmus/",
+   "evidence_quote": "Cellule Erasmus +"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. The Cellule Erasmus + is the central unit responsible for managing Erasmus+ projects and mobility at the institution.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "lycée franco-allemand",
+    "partner_country": "France/Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://monavenirpro-hdf.fr/telechargement/485/gip-fcip/51736/les-consortia-erasmus",
+    "evidence_quote": "Qualifications et Campus d'excellence, lycée franco-allemand).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ONISEP",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://monavenirpro-hdf.fr/formation/bac-pro-systemes-numeriques-option-b-audiovisuels-reseau-et-equipement-domestiques/",
+    "evidence_quote": "https://www.onisep.fr/",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MINISTERE DE L'EDUCATION NATIONALE ET DE LA JEUNESSE",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://monavenirpro-hdf.fr/formation/bac-pro-systemes-numeriques-option-b-audiovisuels-reseau-et-equipement-domestiques/",
+    "evidence_quote": "Certificateur : MINISTERE DE L'EDUCATION NATIONALE ET DE LA JEUNESSE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CFA académique de Lille",
+    "partner_country": "France",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://monavenirpro-hdf.fr/formation/bac-pro-systemes-numeriques-option-b-audiovisuels-reseau-et-equipement-domestiques/",
+    "evidence_quote": "[Logo du CFA académique de Lille, symbole de l’apprentissage et de la formation en alternance.]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée Placide Courtoy",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://monavenirpro-hdf.fr/formation/bac-pro-systemes-numeriques-option-b-audiovisuels-reseau-et-equipement-domestiques/",
+    "evidence_quote": "Lycée Placide Courtoy – Hautmont",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Délégation de région académique aux relations européennes et internationales et à la coopération (DRAREIC)",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://monavenirpro-hdf.fr/notre-reseau/gip-viapro/erasmus/",
+    "evidence_quote": "Les projets Erasmus+ académiques sont copilotés par la Délégation de région académique aux relations européennes et internationales et à la coopération (DRAREIC) et le GIP ViaPro, qui assure le portage et la gestion administrative et financière de 9 projets et de 1 200 mobilités par an.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "GIP FCIP de Lille",
+    "city": "Lille",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://monavenirpro-hdf.fr/telechargement/485/gip-fcip/51736/les-consortia-erasmus",
+    "evidence_quote": "CS 10023 – 59009 Lille cedex"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information about the GIP FORINVAL/GIP ViaPro and its role in managing Erasmus+ consortia for the Lille academy, but does not list specific partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 16.0,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.5,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     981,
+     1081
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 42.6
+ }
+}
