@@ -1,0 +1,148 @@
+{
+ "row_id": "r023",
+ "scraped_at": "2026-10-29T12:47:20Z",
+ "contacts": {
+  "row_id": "r023",
+  "institution_name": "Centre hospitalier universitaire de NANCY IFSI LIONNOIS",
+  "institution_type": "college",
+  "official_website": "https://www.chru-nancy.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.chru-nancy.fr/formation/devenir-infirmier/",
+   "evidence_quote": "Légifrance (site externe, nouvelle fenêtre) | France Compétences (site externe, nouvelle fenêtre)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jean-Joseph SCHALK",
+   "designation": "Director of care and director of the Institute",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.chru-nancy.fr/ecole/ifsi/#adresse-et-contact",
+   "evidence_quote": "Jean-Joseph SCHALK ... Directeur des soins et directeur de l’Institut."
+  },
+  "alternates": [
+   {
+    "name": "Gaëlle PETITJEAN",
+    "designation": "Management assistant",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.chru-nancy.fr/ecole/ifsi/#adresse-et-contact",
+    "evidence_quote": "Gaëlle PETITJEAN, Assistante de direction",
+    "why_chosen": "Secretary / administration (last resort). She is an administrative assistant at the institute."
+   },
+   {
+    "name": "Emmanuelle CLEMENT",
+    "designation": "Senior health executive, pedagogical coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.chru-nancy.fr/ecole/ifsi/#adresse-et-contact",
+    "evidence_quote": "Emmanuelle CLEMENT ... Cadre supérieure de santé, coordinatrice pédagogique.",
+    "why_chosen": "Other role. She is a pedagogical coordinator at the institute."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the director of the Institut de formation aux soins infirmiers.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université de Lorraine",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chru-nancy.fr/formation/devenir-infirmier/",
+    "evidence_quote": "Le diplôme d’État d’infirmier est un diplôme de niveau 6 (niveau Licence) délivré par l’Université de Lorraine.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Doctolib",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chru-nancy.fr/chru-de-nancy/contacter-le-chru-de-nancy/",
+    "evidence_quote": "Prendre rendez-vous sur Doctolib est possible dans plusieurs de nos spécialités.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centre-ville de Nancy",
+    "city": "Nancy",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.chru-nancy.fr/",
+    "evidence_quote": "Le CHRU de Nancy est présent dans le centre-ville de Nancy et sur le technopôle de Nancy-Brabois à Vandœuvre-lès-Nancy."
+   },
+   {
+    "campus_name": "Technopôle de Nancy-Brabois",
+    "city": "Vandœuvre-lès-Nancy",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.chru-nancy.fr/",
+    "evidence_quote": "Le CHRU de Nancy est présent dans le centre-ville de Nancy et sur le technopôle de Nancy-Brabois à Vandœuvre-lès-Nancy."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution is a hospital-based nursing school (IFSI). While it mentions participating in an Erasmus+ consortium for the Grand Est region, it does not provide a specific list of partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 13.9,
+  "ai_calls": 6,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "email_search_s": 6.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 36.9
+ }
+}
