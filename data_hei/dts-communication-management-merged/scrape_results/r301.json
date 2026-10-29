@@ -1,0 +1,100 @@
+{
+ "row_id": "r301",
+ "scraped_at": "2026-10-29T04:18:27Z",
+ "contacts": {
+  "row_id": "r301",
+  "institution_name": "Anritsu",
+  "institution_type": "unknown",
+  "official_website": "https://www.anritsu.com/en-us/",
+  "country": {
+   "value": "Japan",
+   "source_url": "https://www.anritsu.com/en-us/contact-us/corporate-information",
+   "evidence_quote": "5-1-1 Onna, Atsugi-shi, Kanagawa 243-8555, Japan"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Hirokazu Hamada",
+   "designation": "Representative Director, President of Anritsu, Group CEO",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.anritsu.com/en-us/about-anritsu/corporate-information",
+   "evidence_quote": "Message from Hirokazu Hamada, Representative Director, President of Anritsu, Group CEO"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Hirokazu Hamada is the Representative Director and President of Anritsu.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SmartViser SAS",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.anritsu.com/en-us/",
+    "evidence_quote": "Notice on Completion of Additional Acquisition of Shares in SmartViser SAS (Consolidation as a Subsi...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Valeo",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.anritsu.com/en-us/",
+    "evidence_quote": "Valeo and Anritsu to Showcase Digital Twin Validation Solution for Software-Defined Vehicles at the ...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kioxia",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.anritsu.com/en-us/",
+    "evidence_quote": "Anritsu PCIe Measurement Solution Selected for High-Speed Interface Verification of Kioxia’s Next-Ge...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Anritsu Corporation Headquarters",
+    "city": "Atsugi-shi",
+    "country": "Japan",
+    "role": "main",
+    "source_url": "https://www.anritsu.com/en-us/contact-us/corporate-information",
+    "evidence_quote": "5-1-1 Onna, Atsugi-shi, Kanagawa 243-8555, Japan"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "Anritsu is a commercial corporation rather than an educational institution, and no information regarding Erasmus+ or academic mobility partnerships is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 14.1,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "email_search_s": 1.3,
+  "total_seconds": 26.6
+ }
+}
