@@ -1,0 +1,70 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-29T12:37:37Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "IES Cornelio Balbo",
+  "institution_type": "school",
+  "official_website": "https://iescorneliobalbo.com/",
+  "country": null,
+  "phone": {
+   "value": "956 24 32 16",
+   "source_url": "https://iescorneliobalbo.com/",
+   "evidence_quote": "956 24 32 16"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria@iescorneliobalbo.com",
+  "generic_email_url": "https://iescorneliobalbo.com/informacion-y-contacto/",
+  "contact": {
+   "name": "Almudena Manzano Iglesias",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iescorneliobalbo.com/equipo-directivo/",
+   "evidence_quote": "Secretaría | ... Almudena Manzano Iglesias |"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). She is the secretary of the institution and handles administrative inquiries.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Cornelio Balbo",
+    "city": "Cádiz",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iescorneliobalbo.com/informacion-y-contacto/",
+    "evidence_quote": "Cl. Nuevo Mundo s/n 11004 Cádiz"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The website mentions an Erasmus+ section but provides no specific list of partner institutions or international agreements. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.5,
+  "crawl_s": 78.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 12.5,
+  "total_seconds": 100.7
+ }
+}

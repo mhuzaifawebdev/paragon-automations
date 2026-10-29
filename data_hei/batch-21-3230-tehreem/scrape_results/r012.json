@@ -1,0 +1,125 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-29T12:37:08Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Institut Francesc Vidal i Barraquer",
+  "institution_type": "college",
+  "official_website": "https://www.vidalibarraquer.cat/",
+  "country": null,
+  "phone": {
+   "value": "977 21 28 36",
+   "source_url": "https://www.vidalibarraquer.cat/",
+   "evidence_quote": "Telèfon: 977 21 28 36 <tel +34977212836> · 977 21 41 32 <tel +34977214132>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Xavier Munté",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.vidalibarraquer.cat/",
+   "evidence_quote": "[Xavier Munté, director de l'institut, amb la menció d'honor dels Digital Skills Awards Spain 2026 a Madrid]"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Xavier Munté is the director of the institute and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 6 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Institution Robin de Vienne",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vidalibarraquer.cat/",
+    "evidence_quote": "L’Institut Francesc Vidal i Barraquer i la Institution Robin de Vienne (França) han compartit una experiència educativa europea en el […]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escola de Formació de la Cambra de Comerç de Tarragona",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vidalibarraquer.cat/",
+    "evidence_quote": "L’Institut Francesc Vidal i Barraquer és un Centre de Formació Professional Integrada que, en agrupació amb l’Escola de Formació de la Cambra de Comerç de Tarragona, ofereix una àmplia oferta de Formació Professional, estudis de Batxillerat en les modalitats de Ciències Socials i Humanístic, i de Ciències de la Natura i Tecnologia, així com formació contínua i ocupacional. El centre dona servei a més de 2.100 alumnes de les famílies professionals d’Administració i Finances, Comerç i Màrqueting, ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Quadis Autolica Mercedes-Benz",
+    "partner_country": "Espanya",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vidalibarraquer.cat/",
+    "evidence_quote": "Quadis Autolica Mercedes-Benz ens visita",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institution Robin",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vidalibarraquer.cat/erasmus-una-experiencia-compartida-entre-tarragona-i-vienne/",
+    "evidence_quote": "L’Institut Francesc Vidal i Barraquer i la Institution Robin de Vienne (França) han compartit una experiència educativa europea en el marc del programa Erasmus+.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut Francesc Vidal i Barraquer",
+    "city": "Tarragona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.vidalibarraquer.cat/",
+    "evidence_quote": "Adreça: Rambla President Lluís Companys, 3 · 43005 Tarragona"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 7,
+  "coverage_note": "The website mentions Erasmus+ mobility projects but does not provide a comprehensive list of all international partner institutions. Contact details for a specific Erasmus coordinator are not explicitly listed, so the director is provided as the primary contact. 6 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.2,
+  "crawl_s": 17.2,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     249
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 36.8
+ }
+}
