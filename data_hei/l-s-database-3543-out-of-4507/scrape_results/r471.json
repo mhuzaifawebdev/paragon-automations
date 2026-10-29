@@ -1,0 +1,141 @@
+{
+ "row_id": "r471",
+ "scraped_at": "2026-10-29T07:19:58Z",
+ "contacts": {
+  "row_id": "r471",
+  "institution_name": "LYCEE ISER BORDIER",
+  "institution_type": "college",
+  "official_website": "https://www.creefi.fr/",
+  "country": null,
+  "phone": {
+   "value": "04 76 22 05 97",
+   "source_url": "https://www.creefi.fr/",
+   "evidence_quote": "Tél. 04 76 22 05 97"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CFA Créap",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.creefi.fr/",
+    "evidence_quote": "notre Centre de Formation Professionnelle (partenaire du CFA Créap et d’ACTIFORMATION),",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ACTIFORMATION",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.creefi.fr/",
+    "evidence_quote": "notre Centre de Formation Professionnelle (partenaire du CFA Créap et d’ACTIFORMATION),",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Education Nationale",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.creefi.fr/allevard-le-breda/vie-etablissement/allevard-le-breda/vie-etablissement/college-lycee-partenaires_1082.html",
+    "evidence_quote": "[Education Nationale]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.creefi.fr/grenoble-iser-bordier/formations/grenoble-iser-bordier/formations/bts-mco-management-commercial-operationnel_31.html",
+    "evidence_quote": "Enseignants de l'Education Nationale et de l'Université...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "collège Marcel Chêne",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.creefi.fr/allevard-le-breda/vie-etablissement/allevard-le-breda/vie-etablissement/college-lycee-partenaires_1082.html",
+    "evidence_quote": "Des lycéens et apprentis investis afin de présenter leur filière pro.au sein du collège Marcel Chêne à Pontcharra.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée des Métiers ISER-Bordier",
+    "city": "GRENOBLE",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://www.creefi.fr/",
+    "evidence_quote": "GRENOBLE"
+   },
+   {
+    "campus_name": "Le Lycée des Métiers le Bréda",
+    "city": "ALLEVARD",
+    "country": "FRANCE",
+    "role": "branch",
+    "source_url": "https://www.creefi.fr/",
+    "evidence_quote": "ALLEVARD"
+   },
+   {
+    "campus_name": "Le Lycée des Métiers Les Gorges",
+    "city": "COUBLEVIE",
+    "country": "FRANCE",
+    "role": "branch",
+    "source_url": "https://www.creefi.fr/",
+    "evidence_quote": "COUBLEVIE"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "No specific contact person for Erasmus+ or international relations is named in the provided evidence. The evidence mentions student mobility to Italy but does not list specific partner institutions abroad.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 12.9,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 29.5,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 4,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 59.0
+ }
+}
