@@ -1,0 +1,95 @@
+{
+ "row_id": "r028",
+ "scraped_at": "2026-10-29T05:16:27Z",
+ "contacts": {
+  "row_id": "r028",
+  "institution_name": "ECOLE DES HAUTES ETUDES EN SCIENCES SOCIALES",
+  "institution_type": "university",
+  "official_website": "https://www.ehess.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretariat_fsssct@ehess.fr",
+  "generic_email_url": "https://www.ehess.fr/jcms/ehess_56454/fr/organisation-et-gouvernance",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Academia Sinica",
+    "partner_country": "Taiwan",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ehess.fr/jcms/ehess_30997/fr/mobilites-etudiantes-encadrees-m/jcms/ehess_49972/fr/accords-de-cooperation-internationale",
+    "evidence_quote": "15 juin - 18 septembre 2026 : séjours doctoraux de recherche et d'études à l'Academia Sinica (encadrement conjoint), départs entre mars et octobre 2026. Le formulaire de candidature est disponible ici.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The New School",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.ehess.fr/jcms/ehess_49972/en/accords-de-cooperation-internationale",
+    "evidence_quote": "Première rentrée du programme d’échange EHESS/The New School",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "EHESS Main Office",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ehess.fr/jcms/ehess_30997/fr/mobilites-etudiantes-encadrees-m/jcms/ehess_49972/fr/accords-de-cooperation-internationale",
+    "evidence_quote": "Bureau A907, 54 Boulevard Raspail, 75006 Paris"
+   },
+   {
+    "campus_name": "Campus Condorcet",
+    "city": "Aubervilliers",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ehess.fr/jcms/ehess_57033/fr/campus-condorcet",
+    "evidence_quote": "À Aubervilliers, les travaux démarrent en 2014 par la démolition d’entrepôts sur la future parcelle de l’EHESS, avant le début officiel du chantier en 2018. Un an et demi plus tard, les premiers Centres de recherche de l’EHESS s’installent sur deux bâtiments, l’un situé au nord, l’autre au sud. Au cours de l’année suivante, les étudiantes et les étudiants font leur rentrée sur le campus. Le bâtiment de l’EHESS, conçu par l’architecte Pierre-Louis Faloci avec le soutien de la région Ile de France"
+   }
+  ],
+  "stated_total": 60,
+  "stated_total_quote": "Ces partenariats, qui prennent différentes formes, permettent des circulations et des coopérations avec tous les continents. L'établissement compte par ailleurs plus d’une soixantaine d’accords dans le cadre du programme Erasmus+ qui favorise notamment la mobilité étudiante vers les pays européens.",
+  "stated_total_url": "https://www.ehess.fr/jcms/ehess_49972/en/accords-de-cooperation-internationale",
+  "truncated": true,
+  "total_seen": 60,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a general description of international cooperation and mentions the existence of a list of partners, but does not provide the full list of partner institutions. Contact emails for specific international relations staff are limited to a general department address.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 11.7,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 49.3
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-29T05:16:09Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "Det Kongelige Danske Kunstakademi Billedkunstskolerne",
+  "institution_type": "university",
+  "official_website": "https://kunstakademiet.dk/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Lars Bent Petersen",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "lars.bent.petersen@kunstakademiet.net",
+   "office_email": "",
+   "phone": "+45 33744600",
+   "source_url": "https://kunstakademiet.dk/en/staff",
+   "evidence_quote": "Lars Bent Petersen ... Rektor"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the rector of the institution and holds the highest leadership position.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kunsthal Spritten",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kunstakademiet.dk/",
+    "evidence_quote": "For første gang kan publikum opleve Kunstakademiets afgangsudstilling i Nord- og Sønderjylland. I samarbejde med Kunsthal Spritten og Augustiana Kunstpark + Kunsthal bringer Kunsthal Charlottenborg udstillingen ud i landet og udvider platformen for årets dimittender.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Augustiana Kunstpark + Kunsthal",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kunstakademiet.dk/",
+    "evidence_quote": "For første gang kan publikum opleve Kunstakademiets afgangsudstilling i Nord- og Sønderjylland. I samarbejde med Kunsthal Spritten og Augustiana Kunstpark + Kunsthal bringer Kunsthal Charlottenborg udstillingen ud i landet og udvider platformen for årets dimittender.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kunsthal Charlottenborg",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kunstakademiet.dk/",
+    "evidence_quote": "For første gang kan publikum opleve Kunstakademiets afgangsudstilling i Nord- og Sønderjylland. I samarbejde med Kunsthal Spritten og Augustiana Kunstpark + Kunsthal bringer Kunsthal Charlottenborg udstillingen ud i landet og udvider platformen for årets dimittender.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Det Kongelige Danske Kunstakademi Billedkunstskolerne",
+    "city": "København K",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://kunstakademiet.dk/",
+    "evidence_quote": "Kongens Nytorv 1"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ or international university partners. The listed partners are local art institutions involved in exhibition collaborations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 5.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     225
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 31.2
+ }
+}
