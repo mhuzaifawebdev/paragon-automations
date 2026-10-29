@@ -1,0 +1,75 @@
+{
+ "row_id": "r658",
+ "scraped_at": "2026-10-29T01:47:11Z",
+ "contacts": {
+  "row_id": "r658",
+  "institution_name": "ECOLE NATIONALE SUPERIEURE DE CREATION INDUSTRIELLE",
+  "institution_type": "university",
+  "official_website": "https://am.katowice.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "dziekanat1@am.katowice.pl",
+  "generic_email_url": "https://am.katowice.pl/kontakt",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Akademia Muzyczna im. Karola Szymanowskiego w Katowicach",
+    "city": "Katowice",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://am.katowice.pl/kontakt",
+    "evidence_quote": "ul. Zacisze 3"
+   },
+   {
+    "campus_name": "Dom Studenta",
+    "city": "Katowice",
+    "country": "Poland",
+    "role": "branch",
+    "source_url": "https://am.katowice.pl/kontakt",
+    "evidence_quote": "ul. Krasińskiego 27"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The provided evidence does not contain a list of international partners or Erasmus+ agreements. No specific international relations office or Erasmus coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 4.0,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     132
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 17.1
+ }
+}
