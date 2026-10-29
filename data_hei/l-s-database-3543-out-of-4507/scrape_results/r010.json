@@ -1,0 +1,160 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-29T06:11:07Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "NORGES TEKNISK-NATURVITENSKAPELIGE UNIVERSITET NTNU",
+  "institution_type": "university",
+  "official_website": "https://www.ntnu.no/",
+  "country": {
+   "value": "Norway",
+   "source_url": "https://www.ntnu.no/",
+   "evidence_quote": "NTNU: Norges teknisk-naturvitenskapelige universitet - NTNU"
+  },
+  "phone": {
+   "value": "73 59 50 00",
+   "source_url": "https://www.ntnu.no/kontakt",
+   "evidence_quote": "Telefon sentralbord: 73 59 50 00"
+  },
+  "phone_alt": [],
+  "generic_email": "postmottak@ntnu.no",
+  "generic_email_url": "https://www.ntnu.no/kontakt",
+  "contact": {
+   "name": "Torstein Hjelle",
+   "designation": "Contact person",
+   "designation_local": "",
+   "email": "torstein.hjelle@ntnu.no",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ntnu.no/idi/bedriftskontakt",
+   "evidence_quote": "Kontaktperson | ... Torstein Hjelle |",
+   "email_source_url": "https://www.ntnu.no/ansatte/torstein.hjelle"
+  },
+  "alternates": [
+   {
+    "name": "Grethe Sandstrak",
+    "designation": "Contact person",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ntnu.no/idi/bedriftskontakt",
+    "evidence_quote": "Kontaktperson | ... Grethe Sandstrak |",
+    "why_chosen": "Other role. Grethe Sandstrak is listed as the contact person for the Bachelor in Data Engineering program."
+   },
+   {
+    "name": "Alexander Holt",
+    "designation": "Contact person",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ntnu.no/idi/bedriftskontakt",
+    "evidence_quote": "Kontaktperson | ... Alexander Holt |",
+    "why_chosen": "Other role. Alexander Holt is listed as the contact person for the Project in Data Engineering program."
+   }
+  ],
+  "rung": "Other role. Torstein Hjelle is listed as the contact person for the Master in Digital Transformation program. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SINTEF",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ntnu.no/",
+    "evidence_quote": "Siste fra NTNU og forskningsnyheter fra NTNU og SINTEF.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NSD",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ntnu.no/idi/bedriftskontakt",
+    "evidence_quote": "Studentar er underlagt dei same generelle etiske retningslinjer som forskinga generelt (sjå www.ntnu.no/etikkportalen og www.nsd.uib.no) Verksemder kan avtale å bandlegge oppgåver i nokre år slik at arbeidet blir behandla fortruleg av undervisningsinstitusjonen. Oppdragsgivar kan også be studentar om eigen lovnad om å teie.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "NTNU i Gjøvik",
+    "city": "Gjøvik",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.ntnu.no/",
+    "evidence_quote": "NTNU i Gjøvik"
+   },
+   {
+    "campus_name": "NTNU i Trondheim",
+    "city": "Trondheim",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://www.ntnu.no/",
+    "evidence_quote": "NTNU i Trondheim"
+   },
+   {
+    "campus_name": "NTNU i Ålesund",
+    "city": "Ålesund",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.ntnu.no/",
+    "evidence_quote": "NTNU i Ålesund"
+   }
+  ],
+  "stated_total": 50,
+  "stated_total_quote": "Meir enn 50 verksemder gir oss kvart år oppgåver som studentane løyser i ulike delar av studia sine. Det kan vere bachelor- eller masteroppgåver, eller prosjektoppgåver undervegs. Eit oppgåvesamarbeid er ein \"vinn-vinn\" situasjon for verksemdene, studenten og instituttet.",
+  "stated_total_url": "https://www.ntnu.no/idi/bedriftskontakt",
+  "truncated": true,
+  "total_seen": 50,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain a list of Erasmus+ or international partners. No specific contact person for international mobility was identified in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 11.9,
+  "ai_calls": 5,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 5,
+  "email_search_s": 0.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 18.1
+ }
+}

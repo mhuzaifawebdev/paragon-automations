@@ -1,0 +1,86 @@
+{
+ "row_id": "r014",
+ "scraped_at": "2026-10-29T06:11:40Z",
+ "contacts": {
+  "row_id": "r014",
+  "institution_name": "UNIVERSITA DEGLI STUDI DI SASSARI",
+  "institution_type": "university",
+  "official_website": "https://www.uniss.it/it",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "VIVO",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://unifind.uniss.it/people",
+    "evidence_quote": "Realizzato con VIVO",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cineca",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://unifind.uniss.it/people",
+    "evidence_quote": "| Designed by Cineca",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Università degli Studi di Sassari",
+    "city": "Sassari",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.uniss.it/it",
+    "evidence_quote": "Home page | Università degli Studi di Sassari"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The provided evidence contains only general website navigation and administrative page titles for the University of Sassari. No contact information for international relations staff or lists of partner institutions are present in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 17.8,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     29
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 30.3
+ }
+}
