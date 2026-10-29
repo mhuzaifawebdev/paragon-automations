@@ -1,0 +1,84 @@
+{
+ "row_id": "r253",
+ "scraped_at": "2026-10-29T04:13:46Z",
+ "contacts": {
+  "row_id": "r253",
+  "institution_name": "Carmeuse",
+  "institution_type": "unknown",
+  "official_website": "https://www.carmeuse.com/eu-en",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jack Fahler",
+   "designation": "Chief Executive Officer, Carmeuse North America",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.carmeuse.com/eu-en/about-us/our-leadership-team",
+   "evidence_quote": "[Jack Fahler] ... Chief Executive Officer, Carmeuse North America"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Jack Fahler is a senior executive at the institution and was specifically requested as a contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "York Ag",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.carmeuse.com/na-en/references/case-studies-success-stories/partnership-built-communication-and-trust",
+    "evidence_quote": "The Carmeuse Winchester plant has been supplying limestone to animal nutrition specialist York Ag for more than three decades. It is a partnership built on communication and trust.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Carmeuse Coordination Center",
+    "city": "Louvain-la-Neuve",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.carmeuse.com/na-en/products-map",
+    "evidence_quote": "Boulevard de Lauzelle 65Louvain-la-Neuve, , 1348"
+   },
+   {
+    "campus_name": "North American Headquarters",
+    "city": "Pittsburgh",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.carmeuse.com/na-en/products-map",
+    "evidence_quote": "11 Stanwix StreetPittsburgh, PA, 15222"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "Carmeuse is a commercial company, not an educational institution, and therefore does not have Erasmus+ partnerships or academic mobility programs. The provided evidence lists industrial sites and business partners rather than academic partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 13.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "total_seconds": 18.3
+ }
+}
