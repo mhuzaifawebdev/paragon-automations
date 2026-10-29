@@ -1,0 +1,89 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-10-29T13:53:58Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "CONFEDERACION EMPRESARIAL VASCA",
+  "institution_type": "unknown",
+  "official_website": "https://www.confebask.eus/",
+  "country": null,
+  "phone": {
+   "value": "+34 94 402 13 31",
+   "source_url": "https://www.confebask.eus/",
+   "evidence_quote": "Tel: +34 94 402 13 31"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UPV/EHU",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.confebask.eus/formacion/becas-erasmus-practicas/e-universidad",
+    "evidence_quote": "Confebask desarrolla anualmente diferentes convocatorias de becas, bajo el Programa Europeo Erasmus+, para que tanto ESTUDIANTES y/o RECIEN EGRESADOS UNIVERSITARIOS (tanto de grado como de máster) matriculados en las tres universidades de Euskadi (UPV/EHU, Universidad de Deusto y Mondragon Unibertsitatea), puedan realizar un período de prácticas en empresas internacionales, con el objetivo de obtener una primera experiencia en el mundo laboral.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidad de Deusto",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.confebask.eus/formacion/becas-erasmus-practicas/e-universidad",
+    "evidence_quote": "Confebask desarrolla anualmente diferentes convocatorias de becas, bajo el Programa Europeo Erasmus+, para que tanto ESTUDIANTES y/o RECIEN EGRESADOS UNIVERSITARIOS (tanto de grado como de máster) matriculados en las tres universidades de Euskadi (UPV/EHU, Universidad de Deusto y Mondragon Unibertsitatea), puedan realizar un período de prácticas en empresas internacionales, con el objetivo de obtener una primera experiencia en el mundo laboral.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mondragon Unibertsitatea",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.confebask.eus/formacion/becas-erasmus-practicas/e-universidad",
+    "evidence_quote": "Confebask desarrolla anualmente diferentes convocatorias de becas, bajo el Programa Europeo Erasmus+, para que tanto ESTUDIANTES y/o RECIEN EGRESADOS UNIVERSITARIOS (tanto de grado como de máster) matriculados en las tres universidades de Euskadi (UPV/EHU, Universidad de Deusto y Mondragon Unibertsitatea), puedan realizar un período de prácticas en empresas internacionales, con el objetivo de obtener una primera experiencia en el mundo laboral.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Torre Iberdrola",
+    "city": "Bilbao",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.confebask.eus/",
+    "evidence_quote": "48009 Bilbao (Bizkaia)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of all Erasmus+ partners, only mentioning the three Basque universities involved in their specific scholarship program. No specific international mobility coordinator contact details are provided beyond a general email address.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 11.3,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 42.1
+ }
+}
