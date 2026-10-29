@@ -1,0 +1,89 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-29T09:51:04Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Institut Les Salines",
+  "institution_type": "school",
+  "official_website": "https://inslessalines.cat/index.php/ca/",
+  "country": null,
+  "phone": {
+   "value": "93 595 17 18",
+   "source_url": "https://inslessalines.cat/index.php/ca/",
+   "evidence_quote": "93 595 17 18"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria@inslessalines.cat",
+  "generic_email_url": "https://inslessalines.cat/index.php/ca/centre/secretaria/contacta-amb-secretaria",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Netinvet",
+    "partner_country": "Netherlands",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://inslessalines.cat/index.php/ca/projectes-internacionals/erasmus-declaracio-politica-de-centre-cat",
+    "evidence_quote": "- Per mitjà de les xarxes de treball, com Netinvet que ens ha ajudat a trobar socis als Països Baixos i França. Aquests socis poden al mateix temps posar-nos en contacte amb altres socis en altres camps. Nosaltres també proporcionem aquesta informació quan sigui necessari.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut Les Salines",
+    "city": "El Prat de Llobregat",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://inslessalines.cat/index.php/ca/",
+    "evidence_quote": "Av Onze de Setembre, 36-38 08820 El Prat de Llobregat"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions specific regions (Netherlands, France, Ireland) and a network (Netinvet) but does not provide a comprehensive list of partner institutions. No specific contact person for Erasmus+ is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 14.9,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 31.0
+ }
+}
