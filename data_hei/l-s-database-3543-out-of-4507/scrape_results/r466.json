@@ -1,0 +1,116 @@
+{
+ "row_id": "r466",
+ "scraped_at": "2026-10-29T07:18:58Z",
+ "contacts": {
+  "row_id": "r466",
+  "institution_name": "Ecole Nationale Supérieure des Beaux Arts",
+  "institution_type": "university",
+  "official_website": "https://beauxartsparis.fr/fr",
+  "country": null,
+  "phone": {
+   "value": "01 47 03 50 00",
+   "source_url": "https://beauxartsparis.fr/fr",
+   "evidence_quote": "14, rue Bonaparte 75006 Paris 01 47 03 50 00"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Audrey Illouz",
+   "designation": "Head of international relations",
+   "designation_local": "",
+   "email": "audrey.illouz@beauxartsparis.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://beauxartsparis.fr/fr/organigramme",
+   "evidence_quote": "Audrey Illouz ... Responsable des relations internationales",
+   "email_source_url": "https://beauxartsparis.fr/sites/default/files/2025-09/BA_LIVRET_2526_web.pdf"
+  },
+  "alternates": [],
+  "rung": "Head of international relations. Audrey Illouz is the Head of international relations at the institution. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Carleton University",
+    "partner_country": "Canada",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://beauxartsparis.fr/fr/evenement/atelier-modernismes-enchevetres-artistes-mobilites-et-nouvelle-historiographie-de-lart",
+    "evidence_quote": "Carleton University (Canada), Conseil de la recherche (Canada), École du Louvre, Institut national d’histoire de l’art, Institut Giacometti, Courtauld Institute of Art.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École du Louvre",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://beauxartsparis.fr/fr/evenement/atelier-modernismes-enchevetres-artistes-mobilites-et-nouvelle-historiographie-de-lart",
+    "evidence_quote": "Carleton University (Canada), Conseil de la recherche (Canada), École du Louvre, Institut national d’histoire de l’art, Institut Giacometti, Courtauld Institute of Art.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut national d’histoire de l’art",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://beauxartsparis.fr/fr/evenement/atelier-modernismes-enchevetres-artistes-mobilites-et-nouvelle-historiographie-de-lart",
+    "evidence_quote": "Carleton University (Canada), Conseil de la recherche (Canada), École du Louvre, Institut national d’histoire de l’art, Institut Giacometti, Courtauld Institute of Art.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut Giacometti",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://beauxartsparis.fr/fr/evenement/atelier-modernismes-enchevetres-artistes-mobilites-et-nouvelle-historiographie-de-lart",
+    "evidence_quote": "Carleton University (Canada), Conseil de la recherche (Canada), École du Louvre, Institut national d’histoire de l’art, Institut Giacometti, Courtauld Institute of Art.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Courtauld Institute of Art",
+    "partner_country": "United Kingdom",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://beauxartsparis.fr/fr/evenement/atelier-modernismes-enchevetres-artistes-mobilites-et-nouvelle-historiographie-de-lart",
+    "evidence_quote": "Carleton University (Canada), Conseil de la recherche (Canada), École du Louvre, Institut national d’histoire de l’art, Institut Giacometti, Courtauld Institute of Art.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Beaux-Arts de Paris",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://beauxartsparis.fr/fr",
+    "evidence_quote": "14, rue Bonaparte 75006 Paris 01 47 03 50 00"
+   }
+  ],
+  "stated_total": 60,
+  "stated_total_quote": "Parmi la soixantaine d’établissements partenaires, près de la moitié sont",
+  "stated_total_url": "https://beauxartsparis.fr/sites/default/files/inline-files/2021-27_Declaration-de-politique-Erasmus-BAP.pdf",
+  "truncated": true,
+  "total_seen": 60,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions a network of about 60 partners but does not provide a full list of these institutions. Only specific partners mentioned in the context of a research workshop are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 15.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.4,
+  "mode": "gemini",
+  "email_search_s": 8.5,
+  "total_seconds": 30.2
+ }
+}
