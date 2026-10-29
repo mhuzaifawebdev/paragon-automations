@@ -1000,8 +1000,9 @@ $("i-batch").addEventListener("change", () => instRows && renderInstitutes());
 // ---------------- Queue view: the batches dropped into Drive (or uploaded) and where each one stands ----------------
 const Q_LABEL = { queued: "waiting", running: "running", done: "done", failed: "failed", cancelled: "cancelled" };
 
-function renderBudget(items, cap) {
-  const spent = items.reduce((s, i) => s + parseFloat(i.cost_usd || 0), 0);
+function renderBudget(items, cap, correction, credit) {
+  const spent = items.reduce((s, i) => s + parseFloat(i.cost_usd || 0), 0) + (correction || 0);
+  const creditLeft = credit ? credit - spent : null;
   const remaining = Math.max(0, cap - spent);
   const pct = cap ? Math.min(100, (spent / cap) * 100) : 0;
   const usd = v => "$" + v.toFixed(2);
@@ -1012,9 +1013,11 @@ function renderBudget(items, cap) {
   const barColor  = pct > 85 ? "var(--bad)" : pct > 60 ? "var(--warn)" : "var(--ok)";
   $("q-budget-card").style.display = "";
   $("q-budget-body").innerHTML = `
-    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:16px">
-      <div class="tile"><div class="n" style="color:var(--bad)">${usd(spent)}</div><div class="l">Spent so far</div></div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:16px">
+      <div class="tile"><div class="n" style="color:var(--bad)">${usd(spent)}</div><div class="l">Spent so far (Google bill)</div></div>
       <div class="tile"><div class="n">${costPer ? "$" + costPer.toFixed(4) : "–"}</div><div class="l">Cost / institute</div></div>
+      ${creditLeft === null ? "" : `<div class="tile"><div class="n" style="color:${creditLeft < 10 ? "var(--bad)" : "inherit"}">${usd(Math.max(0, creditLeft))}</div>
+        <div class="l">Gemini credit left of ${usd(credit)}${creditLeft < 10 ? " – top up in AI Studio" : ""}</div></div>`}
     </div>
     <div style="background:var(--line-2);border-radius:99px;height:10px;overflow:hidden">
       <div style="width:${pct.toFixed(1)}%;height:100%;background:${barColor};border-radius:99px;transition:width .4s"></div>
@@ -1039,7 +1042,7 @@ async function loadQueue() {
       [fmtN(doneRows) + " / " + fmtN(totalRows), "Institutes"],
     ].map(([v, l]) => `<div class="tile"><div class="n">${typeof v === "number" ? fmtN(v) : v}</div><div class="l">${l}</div></div>`).join("");
     const cap = q.budget_cap || 0;
-    if (cap) renderBudget(items, cap);
+    if (cap) renderBudget(items, cap, q.spend_correction || 0, q.credit || 0);
     const pausedEl = $("q-paused");
     pausedEl.className = q.paused ? "msg show error" : "msg";
     pausedEl.textContent = q.paused || "";

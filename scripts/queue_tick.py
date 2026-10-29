@@ -174,7 +174,8 @@ def tick(data_root, now, cfg, ops):
                 it.update(state="running", started=now, last_start=now, restarts=0)
                 total = float(cfg.get("max_queue_usd_total") or 0)
                 if total:                               # this batch may spend only what is left of the total
-                    left = round(max(0.0, total - SAFETY_USD - total_spent(data_root)), 2)
+                    spent = total_spent(data_root) + float(cfg.get("spend_correction_usd") or 0)
+                    left = round(max(0.0, total - SAFETY_USD - spent), 2)
                     if left < 0.5:
                         left = 0.0
                         it["reader"] = "free"

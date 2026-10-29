@@ -155,6 +155,9 @@ scraper:
   max_queue_usd_per_month: 0     # per-month cap (0 = none); the total below is the one that counts
   max_queue_usd_total: 850.0     # all queued batches, all months together: never exceeded. Each batch may spend only
                                  # what is left; when used up, the remaining batches run on the free reader ($0)
+  spend_correction_usd: 53.48    # Google's real bill (AI Studio) was $150 on 2026-10-29 when the scraper's own estimate
+                                 # said $96.52; this difference is added to every total so the page and the cap match it
+  gemini_credit_usd: 150.0       # prepaid credit topped up in AI Studio so far; raise it after each top-up
   reuse_earlier_results: true    # an institute already scraped in an earlier batch is copied, not scraped and paid again
   reuse_max_age_days: 180        # ...unless that result is older than this
   # Zero-intervention auto-queue: scans the entire Drive folder (DRIVE_FOLDER_ID) recursively every tick.

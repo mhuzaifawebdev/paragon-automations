@@ -383,12 +383,18 @@ def _gemini_paid_urls(prompt, limit=5, with_text=False):
         return ([], "") if with_text else []
     use = resp.get("usageMetadata") or {}
     p = GEMINI_SEARCH_PRICE
-    with _usage_lock:
-        SEARCH_USAGE["gemini_searches"] += 1
-        SEARCH_USAGE["reader_micro_usd"] += round(p["per_search"] * 1e6 + (use.get("promptTokenCount") or 0) * p["input_per_m"]
-                                                  + (use.get("candidatesTokenCount") or 0) * p["output_per_m"])
-        _save_usage()
     cand = (resp.get("candidates") or [{}])[0]
+    # Google bills every query the model runs (often 2-4 per call), the search results fed back in as input
+    # (toolUsePromptTokenCount) and the thinking tokens as output; counting only one search and the visible
+    # tokens put the estimate a third below the real bill.
+    queries = max(1, len((cand.get("groundingMetadata") or {}).get("webSearchQueries") or []))
+    tokens_in = (use.get("promptTokenCount") or 0) + (use.get("toolUsePromptTokenCount") or 0)
+    tokens_out = (use.get("candidatesTokenCount") or 0) + (use.get("thoughtsTokenCount") or 0)
+    with _usage_lock:
+        SEARCH_USAGE["gemini_searches"] += queries
+        SEARCH_USAGE["reader_micro_usd"] += round(queries * p["per_search"] * 1e6 + tokens_in * p["input_per_m"]
+                                                  + tokens_out * p["output_per_m"])
+        _save_usage()
     text = " ".join(x.get("text", "") for x in (cand.get("content") or {}).get("parts", []))
     urls = [u.rstrip(".,;:") for u in re.findall(r"https?://[^\s\"'<>)\]*`|]+", text)]     # no markdown ** or ` around it
     urls += [(c.get("web") or {}).get("uri", "") for c in (cand.get("groundingMetadata") or {}).get("groundingChunks", [])]
