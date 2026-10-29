@@ -2004,20 +2004,30 @@
    "source": "Merged Legacy Database Batch-4(A)Talha-200",
    "file_id": "1Xl08CNsWR1iYXluyFxHhdQWVjytc9o5NTz1cDxSjC5Q",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 22,
    "started": "2026-10-29T00:09:33Z",
    "last_start": "2026-10-29T00:09:33Z",
    "restarts": 0,
-   "cap_usd": 793.02
+   "cap_usd": 793.02,
+   "spend_recorded": true,
+   "cost_usd": 0.0654,
+   "drive_link": "https://docs.google.com/spreadsheets/d/10RCojavxASWJarqg9Lt_t8vJJUYpxr4W/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 12,
+   "finished": "2026-10-29T00:11:35Z",
+   "reason": "22 institutes, 8 with a contact"
   },
   {
    "batch": "merged-legacy-database-batch-4-ibrah",
    "source": "Merged Legacy Database Batch-4 IBRAHIM",
    "file_id": "1DyQw31-kylieSnpfaORKmVHSojoAquXBT7T6XmQXqOg",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 50
+   "state": "running",
+   "rows": 50,
+   "started": "2026-10-29T00:11:35Z",
+   "last_start": "2026-10-29T00:11:35Z",
+   "restarts": 0,
+   "cap_usd": 792.96
   },
   {
    "batch": "legacy-db-ccc-merged-898",
@@ -3043,7 +3053,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-29T00:09:33Z",
+ "updated": "2026-10-29T00:11:35Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
