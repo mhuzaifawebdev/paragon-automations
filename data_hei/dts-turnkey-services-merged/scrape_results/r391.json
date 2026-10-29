@@ -1,0 +1,67 @@
+{
+ "row_id": "r391",
+ "scraped_at": "2026-10-29T03:24:50Z",
+ "contacts": {
+  "row_id": "r391",
+  "institution_name": "Courtyard By Marriott",
+  "institution_type": "unknown",
+  "official_website": "https://www.marriott.com/brands/courtyard-by-marriott.mi",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "NCAA",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.marriott.com/brands/courtyard-by-marriott.mi",
+    "evidence_quote": "Marriott Bonvoy is the official hotel partner of the NCAA®. The NCAA is an official trademark of the National Collegiate Athletic Association.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sotheby's",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.marriott.com/luxury/about-us/our-partners/sothebys",
+    "evidence_quote": "Luxury Hotel Partner - Sotheby's",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution is a hotel brand, not an educational institution, and does not have campuses or academic mobility programs. No specific partner list is provided, only general business partnerships. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 15.1,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 6.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 27.5
+ }
+}
