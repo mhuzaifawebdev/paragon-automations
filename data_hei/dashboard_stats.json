@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-29T00:03:55.627998+00:00",
+ "generated_at": "2026-10-29T00:07:27.322100+00:00",
  "totals": {
-  "institutes": 8113,
-  "with_contact": 5183,
-  "with_email": 4422,
-  "personal_email": 3049,
-  "generic_email": 3258,
-  "partners": 126751,
-  "campuses": 10701,
-  "no_website": 1327,
-  "with_website": 6786,
-  "batches": 121
+  "institutes": 8138,
+  "with_contact": 5202,
+  "with_email": 4440,
+  "personal_email": 3061,
+  "generic_email": 3272,
+  "partners": 127120,
+  "campuses": 10745,
+  "no_website": 1332,
+  "with_website": 6806,
+  "batches": 122
  },
  "days": [
   {
@@ -123,30 +123,46 @@
   },
   {
    "day": "2026-10-28",
-   "institutes": 5277,
-   "with_contact": 3098,
-   "with_email": 2654,
-   "personal_email": 1712,
-   "generic_email": 2013,
-   "partners": 63437,
-   "campuses": 6629,
+   "institutes": 5279,
+   "with_contact": 3100,
+   "with_email": 2656,
+   "personal_email": 1714,
+   "generic_email": 2014,
+   "partners": 63451,
+   "campuses": 6635,
    "no_website": 1113,
-   "with_website": 4164
+   "with_website": 4166
   },
   {
    "day": "2026-10-29",
-   "institutes": 2,
-   "with_contact": 1,
-   "with_email": 1,
-   "personal_email": 1,
-   "generic_email": 1,
-   "partners": 24,
-   "campuses": 2,
-   "no_website": 0,
-   "with_website": 2
+   "institutes": 25,
+   "with_contact": 18,
+   "with_email": 17,
+   "personal_email": 11,
+   "generic_email": 14,
+   "partners": 379,
+   "campuses": 40,
+   "no_website": 5,
+   "with_website": 20
   }
  ],
  "batches": [
+  {
+   "batch": "merged-legacy-db-380-budget-ibrahim",
+   "status": "running",
+   "total_rows": 35,
+   "done": 25,
+   "updated": "2026-10-29T00:07:23.468243+00:00",
+   "institutes": 25,
+   "with_contact": 19,
+   "with_email": 18,
+   "personal_email": 12,
+   "generic_email": 14,
+   "partners": 369,
+   "campuses": 44,
+   "no_website": 5,
+   "with_website": 20
+  },
   {
    "batch": "merged-legacy-database-batch-7-a-mar",
    "status": "done",
