@@ -1,0 +1,87 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-28T23:42:40Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Zespol Szkol Technicznych w Strzyzowie",
+  "institution_type": "school",
+  "official_website": "https://zst.pila.pl/",
+  "country": {
+   "value": "polska",
+   "source_url": "https://zst.pila.pl/",
+   "evidence_quote": "[polska]"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sekretariat@zst.pila.pl",
+  "generic_email_url": "https://zst.pila.pl/",
+  "contact": {
+   "name": "Daria Szostak",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://zst.pila.pl/kadra/",
+   "evidence_quote": "Dyrektor ... mgr inż. Daria Szostak |"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the director of the school, she oversees institutional operations and international project support.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch merged-legacy-database-batch-8-sana (scraped 2026-10-28). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cisco",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://zst.pila.pl/cisco-networking-academy/",
+    "evidence_quote": "Nasza szkoła współpracuje z firmą Cisco w realizacji programu Cisco Networking Academy i posiada status Akademii Cisco od 2006 roku. Jesteśmy jedną z pierwszych szkół średnich w Polsce, która przystąpiła do programu.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Polska Akcja Humanitarna",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://zst.pila.pl/zespol-szkol-technicznych-w-pile-w-akcji-szkola-krytycznie-myslaca/",
+    "evidence_quote": "W ostatnim tygodniu września oraz w pierwszym tygodniu października uczniowie Zespołu Szkół Technicznych w Pile wzięli udział w akcji „Szkoła Krytycznie Myśląca”, organizowanej przez Polską Akcję Humanitarną. Była to okazja do rozwijania jednej z niezwykle ważnych kompetencji współczesnego człowieka – umiejętności krytycznego myślenia, świadomego odbioru informacji oraz patrzenia na otaczający nas świat z różnych perspektyw.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zespół Szkół Technicznych w Pile",
+    "city": "Piła",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://zst.pila.pl/",
+    "evidence_quote": "ul. Ceglana 4 64-920 Piła"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides details on specific Erasmus+ projects and a corporate partnership with Cisco, but does not contain a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "merged-legacy-database-batch-8-sana",
+  "row_id": "r206"
+ }
+}
