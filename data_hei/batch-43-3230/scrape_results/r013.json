@@ -1,0 +1,80 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-29T12:13:22Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Gostyninskie Centrum Edukacyjne",
+  "institution_type": "school",
+  "official_website": "https://gce.gostynin.edu.pl/",
+  "country": null,
+  "phone": {
+   "value": "24) 235 38 80",
+   "source_url": "https://gce.gostynin.edu.pl/",
+   "evidence_quote": "(24) 235 38 80 <tel (24) 235 38 80>"
+  },
+  "phone_alt": [],
+  "generic_email": "gce@gostynin.edu.pl",
+  "generic_email_url": "https://gce.gostynin.edu.pl/",
+  "contact": {
+   "name": "Wojciech Kiełbasa",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://gce.gostynin.edu.pl/?view=article&id=132:altoetting-projekt-erasmus-rekrutacja&catid=22",
+   "evidence_quote": "Wojciech Kiełbasa ... Dyrektor Gostynińskiego Centrum Edukacyjnego"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Wojciech Kiełbasa is the Director of the institution and is mentioned in the context of the Erasmus+ project recruitment.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Berufliche Schulen Altötting",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "traineeship",
+    "source_url": "https://gce.gostynin.edu.pl/?view=article&id=132:altoetting-projekt-erasmus-rekrutacja&catid=22",
+    "evidence_quote": "Uczniowie będą odbywać praktyki zawodowe w Altötting oraz Mühldorf am Inn – malowniczych miastach położonych w kraju związkowym Bayern, w regionie Südostbayern. Podczas pobytu będą zdobywać doświadczenie zawodowe u lokalnych pracodawców, korzystając z wsparcia szkoły Berufliche Schulen Altötting oraz izby rzemieślniczej.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gostynińskie Centrum Edukacyjne",
+    "city": "Gostynin",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://gce.gostynin.edu.pl/",
+    "evidence_quote": "ul. Polna 39, 09-500 Gostynin"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information about a specific Erasmus+ project in Altötting, but does not contain a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 13.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 12.0,
+  "total_seconds": 28.6
+ }
+}
