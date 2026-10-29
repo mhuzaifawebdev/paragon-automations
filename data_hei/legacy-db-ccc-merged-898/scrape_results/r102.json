@@ -1,0 +1,76 @@
+{
+ "row_id": "r102",
+ "scraped_at": "2026-10-29T00:31:04Z",
+ "contacts": {
+  "row_id": "r102",
+  "institution_name": "NEMZETI KOZSZOLGALATI EGYETEM",
+  "institution_type": "university",
+  "official_website": "https://www.uni-nke.hu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "nke@uni-nke.hu",
+  "generic_email_url": "https://www.uni-nke.hu/",
+  "contact": {
+   "name": "Koller Boglárka",
+   "designation": "Oktatói koordinátor",
+   "designation_local": "",
+   "email": "Koller.Boglarka@uni-nke.hu",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://antk.uni-nke.hu/hallgatoknak/szakkollegiumok/nemzetkozi-es-europai-szakkollegium",
+   "evidence_quote": "Oktatói koordinátor: Koller Boglárka"
+  },
+  "alternates": [],
+  "rung": "Faculty-level Erasmus/international coordinator. She is the faculty coordinator for the International and European College and has a direct institutional email address.",
+  "source": "web",
+  "confidence": 0.65,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 6 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Metropolitan Egyetem",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://antk.uni-nke.hu/hallgatoknak/szakkollegiumok/nemzetkozi-es-europai-szakkollegium",
+    "evidence_quote": "Tanulmányutak keretében ellátogattunk Strasbourgba, az Európai Parlamentbe, valamint Prágába, ahol a Metropolitan Egyetem hallgatóival közös workshopon vettünk részt a Visegrádi Együttműködés témájában.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ludovika tér 2",
+    "city": "Budapest",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://www.uni-nke.hu/",
+    "evidence_quote": "Cím: 1083 Budapest, Ludovika tér 2."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The website provides general information about Erasmus+ mobility programs and mentions that lists of partner institutions are available via internal portals, but does not provide a comprehensive public list of all partner universities. 6 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 15.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 39.6
+ }
+}
