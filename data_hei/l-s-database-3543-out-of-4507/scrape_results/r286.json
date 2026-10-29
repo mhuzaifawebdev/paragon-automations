@@ -1,0 +1,81 @@
+{
+ "row_id": "r286",
+ "scraped_at": "2026-10-29T06:50:30Z",
+ "contacts": {
+  "row_id": "r286",
+  "institution_name": "Hochschule fuer Grafik und Buchkunst Leipzig / Academy of Fine Arts",
+  "institution_type": "university",
+  "official_website": "https://diekunsthochschulen.de/",
+  "country": {
+   "value": "germany",
+   "source_url": "https://diekunsthochschulen.de/",
+   "evidence_quote": "Die Kunsthochschulenkonferenz (KHK) ist der Zusammenschluss von 25 Kunsthochschulen und Kunstakademien in Deutschland."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kunsthochschulenkonferenz (KHK)",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://diekunsthochschulen.de/",
+    "evidence_quote": "Die Kunsthochschulenkonferenz (KHK) ist der Zusammenschluss von 25 Kunsthochschulen und Kunstakademien in Deutschland.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hochschule für Grafik und Buchkunst Leipzig",
+    "city": "Leipzig",
+    "country": "germany",
+    "role": "main",
+    "source_url": "https://diekunsthochschulen.de/",
+    "evidence_quote": "Hochschule für Grafik und Buchkunst Leipzig"
+   }
+  ],
+  "stated_total": 25,
+  "stated_total_quote": "Die Kunsthochschulenkonferenz (KHK) ist der Zusammenschluss von 25 Kunsthochschulen und Kunstakademien in Deutschland.",
+  "stated_total_url": "https://diekunsthochschulen.de/",
+  "truncated": true,
+  "total_seen": 25,
+  "pages_read": 3,
+  "coverage_note": "The provided evidence only lists the institution as a member of a conference and does not contain specific contact details for international mobility or a list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.4,
+  "crawl_s": 4.7,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     94
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 44.5
+ }
+}
