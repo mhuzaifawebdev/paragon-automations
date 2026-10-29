@@ -2058,20 +2058,30 @@
    "source": "DTS-Turnkey Services Merged",
    "file_id": "1Ty0D66iiex5ahaeTqphr5A5xdWH7-3OH0jgJ8WYBsFw",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 625,
    "started": "2026-10-29T02:43:29Z",
    "last_start": "2026-10-29T02:43:29Z",
    "restarts": 0,
-   "cap_usd": 786.79
+   "cap_usd": 786.79,
+   "spend_recorded": true,
+   "cost_usd": 1.8948,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1HSZIv3OAy_FboHjB-rt0wCYyb2KCWYH_/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 443,
+   "finished": "2026-10-29T03:49:51Z",
+   "reason": "604 institutes, 257 with a contact"
   },
   {
    "batch": "dts-communication-management-merged",
    "source": "DTS-Communication Management Merged",
    "file_id": "1JouLz9mSbqF-d6gv1H5micF2mmKLH-uy_rUDqp7fmqg",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 528
+   "state": "running",
+   "rows": 528,
+   "started": "2026-10-29T03:49:51Z",
+   "last_start": "2026-10-29T03:49:51Z",
+   "restarts": 0,
+   "cap_usd": 784.89
   },
   {
    "batch": "professional-readiness-mailchimp-600",
@@ -3073,7 +3083,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-29T02:43:29Z",
+ "updated": "2026-10-29T03:49:51Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
