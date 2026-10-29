@@ -1,0 +1,97 @@
+{
+ "row_id": "r412",
+ "scraped_at": "2026-10-29T07:10:31Z",
+ "contacts": {
+  "row_id": "r412",
+  "institution_name": "Prazska vysoka skola psychosocialnich studii, s.r.o",
+  "institution_type": "university",
+  "official_website": "https://www.pvsps.cz/",
+  "country": null,
+  "phone": {
+   "value": "+420 267 913 634",
+   "source_url": "https://www.pvsps.cz/",
+   "evidence_quote": "+420 267 913 634 <tel +420267913634>"
+  },
+  "phone_alt": [],
+  "generic_email": "mobility@pvsps.cz",
+  "generic_email_url": "https://www.pvsps.cz/nase-skola/erasmus/erasmus-informace-pro-studenty/",
+  "contact": {
+   "name": "Doc. PhDr. Jiří Růžička, Ph.D.",
+   "designation": "Rektor",
+   "designation_local": "",
+   "email": "info@pvsps.cz",
+   "office_email": "",
+   "phone": "267 913 634",
+   "source_url": "https://www.pvsps.cz/nase-skola/kontakty/",
+   "evidence_quote": "Rektor: ... Doc. PhDr. Jiří Růžička, Ph.D."
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the rector of the institution and holds the highest leadership position.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Charles University in Prague",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.pvsps.cz/data/2017/10/19/12/trnkaetal2012neuroticismandvalenceofnegativeemotionalconcepts.pdf",
+    "evidence_quote": "Charles University in Prague",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hekrova 805",
+    "city": "Praha 4",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.pvsps.cz/nase-skola/kontakty/",
+    "evidence_quote": "Hekrova 805, Praha 4 (bakalářské studium, víkendové semináře, knihovna)"
+   },
+   {
+    "campus_name": "Milánská 471",
+    "city": "Praha 10",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://www.pvsps.cz/nase-skola/kontakty/",
+    "evidence_quote": "Milánská 471, Praha 10 (magisterské studium, bakalářské studium kombinované)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that a list of partner institutions exists but does not provide the actual list of names.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 16.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 17.7,
+  "mode": "gemini",
+  "email_search_s": 11.1,
+  "slices": [
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 5,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 47.2
+ }
+}
