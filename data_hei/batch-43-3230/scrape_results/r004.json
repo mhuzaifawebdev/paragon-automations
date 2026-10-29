@@ -1,0 +1,124 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-10-29T12:12:26Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "logo_CFJCENTRE DE FORMATION DES JOURNALISTES",
+  "institution_type": "college",
+  "official_website": "https://cfjparis.com/",
+  "country": {
+   "value": "France",
+   "source_url": "https://cfjparis.com/",
+   "evidence_quote": "Fondé en 1946, le CFJ est l’une des plus anciennes écoles de journalisme en France. Établissement d’enseignement supérieur reconnu d’intérêt général, il fait partie des seize écoles reconnues par la profession. Le CFJ est également composante de l’Université Paris-Panthéon-Assas."
+  },
+  "phone": {
+   "value": "01 44 09 42 02",
+   "source_url": "https://cfjparis.com/",
+   "evidence_quote": "01 44 09 42 02"
+  },
+  "phone_alt": [],
+  "generic_email": "contact@cfjparis.com",
+  "generic_email_url": "https://cfjparis.com/",
+  "contact": {
+   "name": "Philippe Gaudin",
+   "designation": "TV fil rouge and pedagogical coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://cfjparis.com/formation/formateurs/",
+   "evidence_quote": "Philippe Gaudin ... Philippe Gaudin est depuis 2014 journaliste et présentateur à BFMTV. Il a au préalable travaillé sur plusieurs émissions à France 5 comme chroniqueur et rédacteur en chef (C à Vous, La Quotidienne, Revu&Corrigé) ou encore à Canal + ( En Aparté). Diplômé de la Sorbonne et de l’Ecole Supérieure de Journalisme de Lille, Philippe Gaudin œuvre depuis plusieurs années à la formation des jeunes journalistes. Il est aujourd’hui fil rouge TV du CFJ et assure la coordination pédagogique des enseignements "
+  },
+  "alternates": [
+   {
+    "name": "Nicolas Grébert",
+    "designation": "Radio and Podcasts fil rouge and pedagogical coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://cfjparis.com/formation/formateurs/",
+    "evidence_quote": "Nicolas Grébert ... Journaliste radio depuis 30 ans, Nicolas Grébert travaille actuellement à France-Info comme rédacteur en chef volant après de longues années passées à RMC. Egalement intervenant en milieu carcéral pour de l’éducation aux médias, il œuvre depuis de nombreuses années à la formation des futurs journalistes. Depuis 2019, Nicolas Grébert est fil rouge radio du CFJ et assure à ce titre la coordination pédagogique des enseignements de radio.",
+    "why_chosen": "Other role. Nicolas Grébert is the radio fil rouge and pedagogical coordinator for radio teaching at the CFJ."
+   }
+  ],
+  "rung": "Other role. Philippe Gaudin is the TV fil rouge and pedagogical coordinator for TV teaching at the CFJ.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université Paris-Panthéon-Assas",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://cfjparis.com/",
+    "evidence_quote": "Fondé en 1946, le CFJ est l’une des plus anciennes écoles de journalisme en France. Établissement d’enseignement supérieur reconnu d’intérêt général, il fait partie des seize écoles reconnues par la profession. Le CFJ est également composante de l’Université Paris-Panthéon-Assas.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sciences Po Lyon",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://cfjparis.com/",
+    "evidence_quote": "Double diplôme Sciences Po Lyon",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Paris",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://cfjparis.com/",
+    "evidence_quote": "Paris & Lyon"
+   },
+   {
+    "campus_name": "Lyon",
+    "city": "Lyon",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://cfjparis.com/",
+    "evidence_quote": "Paris & Lyon"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not provide a specific list of Erasmus+ partners or an international mobility coordinator. The institution mentions general media partnerships but lacks a formal international partner list. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 13.9,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 5.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 46.8
+ }
+}
