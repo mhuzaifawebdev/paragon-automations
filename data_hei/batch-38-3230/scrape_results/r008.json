@@ -1,0 +1,70 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-29T10:26:38Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "CFTA - MFR la Ferté-Macé",
+  "institution_type": "college",
+  "official_website": "https://www.mfr-cfta-ferte.fr/",
+  "country": null,
+  "phone": {
+   "value": "0233306850",
+   "source_url": "https://www.mfr-cfta-ferte.fr/",
+   "evidence_quote": "<tel 0233306850>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Fabrice DRIEU",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.mfr-cfta-ferte.fr/medias/File/organigramme/2024-12-18_MaJ_organigramme_2025-2026.pdf",
+   "evidence_quote": "Directeur ... Fabrice DRIEU"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Fabrice DRIEU is the director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "MFR/CFTA La Ferté Macé",
+    "city": "La Ferté Macé",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.mfr-cfta-ferte.fr/",
+    "evidence_quote": "MFR/CFTA La Ferté Macé - 25 rue Pierre Neveu - 61600 La Ferté Macé"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not provide a list of specific partner institutions. While the document mentions international partnerships in general, no names or locations of partners are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 5.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.0,
+  "total_seconds": 34.5
+ }
+}

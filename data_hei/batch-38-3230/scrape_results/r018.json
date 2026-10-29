@@ -1,0 +1,103 @@
+{
+ "row_id": "r018",
+ "scraped_at": "2026-10-28T15:41:39Z",
+ "contacts": {
+  "row_id": "r018",
+  "institution_name": "CIFP Aguas Nuevas",
+  "institution_type": "college",
+  "official_website": "https://cifpaguasnuevas.es/",
+  "country": {
+   "value": "España",
+   "source_url": "https://cifpaguasnuevas.es/contacto/",
+   "evidence_quote": "CP: 02049 Aguas Nuevas, Albacete, España"
+  },
+  "phone": {
+   "value": "+34 967 22 23 12",
+   "source_url": "https://cifpaguasnuevas.es/contacto/",
+   "evidence_quote": "+34 967 22 23 12"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Mercedes Marqueño Ortega",
+   "designation": "Head of studies adjunct for European programs",
+   "designation_local": "",
+   "email": "%20mmortega@cifpaguasnuevas.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://cifpaguasnuevas.es/conocenos/#equipo_directivo",
+   "evidence_quote": "Jefa de estudios adjunto de programas europeos ... Mercedes Marqueño Ortega"
+  },
+  "alternates": [
+   {
+    "name": "Gerardo Ortega Iñiguez",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "%20director@cifpaguasnuevas.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://cifpaguasnuevas.es/conocenos/#equipo_directivo",
+    "evidence_quote": "Director ... Gerardo Ortega Iñiguez",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the director of the institution."
+   }
+  ],
+  "rung": "Mobility coordinator. She is the head of studies adjunct for European programs and is the most relevant contact for Erasmus+ mobility.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 6,
+  "notes": "Reused from batch batch-1-ka-103-l-s-talha-saleem (scraped 2026-10-28). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universidad de las Ciencias de la Vida en Chequia",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://cifpaguasnuevas.es/programa-erasmus/",
+    "evidence_quote": "La Universidad de las Ciencias de la Vida en Chequia es un socio clave que desde hace dos cursos colabora acogiendo a nuestros alumnos con un alto nivel formativo y excelente apoyo logístico (alojamiento y manutención). Incluso uno de nuestros docentes ha podido comprobar esta calidad de primera mano gracias a la acción de movilidad Erasmus+ para formación del personal.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hans Östring",
+    "partner_country": "Sweden",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://cifpaguasnuevas.es/programa-erasmus/",
+    "evidence_quote": "En Suecia, contamos con Hans Östring y su granja de ciervos, un socio comprometido con el trato cercano, la profesionalidad y la implicación personal para que nuestros estudiantes reciban formación práctica de gran valor, junto con alojamiento y manutención garantizados.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "CIFP Aguas Nuevas",
+    "city": "Albacete",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://cifpaguasnuevas.es/contacto/",
+    "evidence_quote": "Carretera de Aguas Nuevas, Km 6,7."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 6,
+  "coverage_note": "The evidence provides specific Erasmus+ partners in the Czech Republic and Sweden, but does not provide a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "batch-1-ka-103-l-s-talha-saleem",
+  "row_id": "r009"
+ }
+}
