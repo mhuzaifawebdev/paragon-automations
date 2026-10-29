@@ -1,0 +1,81 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-29T11:23:00Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Centro Integrado de Formación y Experiencias Agrarias",
+  "institution_type": "college",
+  "official_website": "https://www.carm.es/web/pagina?IDCONTENIDO=1&IDTIPO=180",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "CIFEA Jumilla",
+    "city": "Jumilla",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.carm.es/web/pagina?IDCONTENIDO=58554&IDTIPO=100&RASTRO=c2889%24m",
+    "evidence_quote": "CIFEA Jumilla"
+   },
+   {
+    "campus_name": "CIFEA Lorca",
+    "city": "Lorca",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.carm.es/web/pagina?IDCONTENIDO=58554&IDTIPO=100&RASTRO=c2889%24m",
+    "evidence_quote": "CIFEA Lorca"
+   },
+   {
+    "campus_name": "CIFEA Molina de Segura",
+    "city": "Molina de Segura",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.carm.es/web/pagina?IDCONTENIDO=58554&IDTIPO=100&RASTRO=c2889%24m",
+    "evidence_quote": "CIFEA Molina de Segura"
+   },
+   {
+    "campus_name": "CIFEA Torre Pacheco",
+    "city": "Torre Pacheco",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.carm.es/web/pagina?IDCONTENIDO=58554&IDTIPO=100&RASTRO=c2889%24m",
+    "evidence_quote": "CIFEA Torre Pacheco"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 4,
+  "coverage_note": "The provided evidence does not contain any contact information for Erasmus+ or international mobility staff, nor does it list any institutional partners. The website pages for specific CIFEA centers were inaccessible due to bot protection.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 7.6,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 19.5
+ }
+}

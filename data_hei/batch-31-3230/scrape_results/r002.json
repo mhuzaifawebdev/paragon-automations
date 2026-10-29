@@ -1,0 +1,73 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-29T11:22:45Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Tevian S.L",
+  "institution_type": "college",
+  "official_website": "https://tienda.tevian.com/",
+  "country": {
+   "value": "España",
+   "source_url": "https://tienda.tevian.com/contacto.html",
+   "evidence_quote": "España"
+  },
+  "phone": {
+   "value": "963520425",
+   "source_url": "https://tienda.tevian.com/",
+   "evidence_quote": "963520425 <tel 963520425>|963520425 <tel 963853305>"
+  },
+  "phone_alt": [],
+  "generic_email": "tiendaonline@tevian.com",
+  "generic_email_url": "https://tienda.tevian.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "CENTRO DE FORMACIÓN Y TIENDA",
+    "city": "Valencia",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://tienda.tevian.com/",
+    "evidence_quote": "CENTRO DE FORMACIÓN Y TIENDA C/ Juan Llorens 37-39, 46008 Valencia"
+   },
+   {
+    "campus_name": "ALMACÉN Y COMERCIAL",
+    "city": "Valencia",
+    "country": "España",
+    "role": "branch",
+    "source_url": "https://tienda.tevian.com/",
+    "evidence_quote": "ALMACÉN Y COMERCIALC/ Padre Rico 4, 46008 Valencia"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence provided is primarily a commercial website for beauty products and training materials. No information regarding Erasmus+ partnerships or international mobility agreements is present. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.6,
+  "crawl_s": 17.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 40.1
+ }
+}
