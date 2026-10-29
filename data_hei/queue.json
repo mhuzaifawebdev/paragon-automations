@@ -2022,20 +2022,30 @@
    "source": "Merged Legacy Database Batch-4 IBRAHIM",
    "file_id": "1DyQw31-kylieSnpfaORKmVHSojoAquXBT7T6XmQXqOg",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 50,
    "started": "2026-10-29T00:11:35Z",
    "last_start": "2026-10-29T00:11:35Z",
    "restarts": 0,
-   "cap_usd": 792.96
+   "cap_usd": 792.96,
+   "spend_recorded": true,
+   "cost_usd": 0.142,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1Esrs-noKXk63v23bjREIuxP9lMzLX5rn/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 21,
+   "finished": "2026-10-29T00:16:16Z",
+   "reason": "49 institutes, 14 with a contact"
   },
   {
    "batch": "legacy-db-ccc-merged-898",
    "source": "Legacy DB CCC Merged-898",
    "file_id": "1eZRbsNqc6_rDGt_D1uLWsJ8QxDncBNY0aqQjAsdxL4s",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 1155
+   "state": "running",
+   "rows": 1155,
+   "started": "2026-10-29T00:16:16Z",
+   "last_start": "2026-10-29T00:16:16Z",
+   "restarts": 0,
+   "cap_usd": 792.82
   },
   {
    "batch": "dts-turnkey-services-merged",
@@ -3053,7 +3063,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-29T00:11:35Z",
+ "updated": "2026-10-29T00:16:16Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
