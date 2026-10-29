@@ -1,0 +1,95 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-10-29T12:14:14Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "LA SALLE BARCELONETA- GERMANS DE LES ESCOLES CRISTIANES",
+  "institution_type": "school",
+  "official_website": "https://barceloneta.lasalle.cat/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "lasallebarceloneta@lasalle.cat",
+  "generic_email_url": "https://barceloneta.lasalle.cat/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Consorci La Salle ErasmusPro",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://barceloneta.lasalle.cat/erasmus/",
+    "evidence_quote": "El Centre La Salle Barceloneta, membre del Consorci La Salle ErasmusPro oferta les següents mobilitats Erasmus+ per al curs 2026/2027:",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Consorci La Salle",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://barceloneta.lasalle.cat/download/secretaria/Erasmus/DOC_01_CONVOCATORIA_26_27.pdf",
+    "evidence_quote": "miembro del Consorcio La Salle",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "La Salle Barceloneta",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://barceloneta.lasalle.cat/",
+    "evidence_quote": "Balboa, 18 08003 Barcelona"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The evidence does not provide a specific list of individual partner institutions, only a mention of membership in the La Salle ErasmusPro consortium. No specific contact names with emails or phone numbers were found in the provided documents.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 12.0,
+  "crawl_s": 26.0,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 51.9
+ }
+}
