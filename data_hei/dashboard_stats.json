@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-29T03:49:21.900289+00:00",
+ "generated_at": "2026-10-29T03:52:01.824466+00:00",
  "totals": {
-  "institutes": 9977,
-  "with_contact": 6196,
-  "with_email": 5277,
-  "personal_email": 3654,
-  "generic_email": 3967,
-  "partners": 157327,
-  "campuses": 13134,
-  "no_website": 1893,
-  "with_website": 8084,
-  "batches": 126
+  "institutes": 9999,
+  "with_contact": 6211,
+  "with_email": 5284,
+  "personal_email": 3658,
+  "generic_email": 3972,
+  "partners": 157474,
+  "campuses": 13161,
+  "no_website": 1896,
+  "with_website": 8103,
+  "batches": 127
  },
  "days": [
   {
@@ -135,18 +135,34 @@
   },
   {
    "day": "2026-10-29",
-   "institutes": 1551,
-   "with_contact": 733,
-   "with_email": 598,
-   "personal_email": 398,
-   "generic_email": 491,
-   "partners": 19671,
-   "campuses": 1857,
-   "no_website": 566,
-   "with_website": 985
+   "institutes": 1573,
+   "with_contact": 748,
+   "with_email": 605,
+   "personal_email": 402,
+   "generic_email": 496,
+   "partners": 19818,
+   "campuses": 1884,
+   "no_website": 569,
+   "with_website": 1004
   }
  ],
  "batches": [
+  {
+   "batch": "dts-communication-management-merged",
+   "status": "running",
+   "total_rows": 528,
+   "done": 34,
+   "updated": "2026-10-29T03:51:59.908292+00:00",
+   "institutes": 22,
+   "with_contact": 15,
+   "with_email": 7,
+   "personal_email": 4,
+   "generic_email": 5,
+   "partners": 147,
+   "campuses": 27,
+   "no_website": 3,
+   "with_website": 19
+  },
   {
    "batch": "dts-turnkey-services-merged",
    "status": "done",
