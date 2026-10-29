@@ -1,0 +1,71 @@
+{
+ "row_id": "r750",
+ "scraped_at": "2026-10-29T02:01:00Z",
+ "contacts": {
+  "row_id": "r750",
+  "institution_name": "école supérieure d'arts et médias de Caen/Cherbourg",
+  "institution_type": "university",
+  "official_website": "https://rekrutacja.sggw.edu.pl/en-gb/",
+  "country": {
+   "value": "Poland",
+   "source_url": "https://rekrutacja.sggw.edu.pl/en-gb/auth/register/consent/",
+   "evidence_quote": "in writing: Szkoła Główna Gospodarstwa Wiejskiego w Warszawie, ul. Nowoursynowska 166, 02-787 Warszawa, Poland; or"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rekrutacja@sggw.edu.pl",
+  "generic_email_url": "https://rekrutacja.sggw.edu.pl/en-gb/contact/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Warsaw University of Life Sciences",
+    "city": "Warsaw",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://rekrutacja.sggw.edu.pl/en-gb/auth/register/consent/",
+    "evidence_quote": "In accordance with the general data protection regulation (hereinafter: GDPR), the controller of your personal data is Warsaw University of Life Sciences, with its registered office at 166 Nowoursynowska Street, 02-787 Warsaw (hereinafter: SGGW or the Data Controller)."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence provided is for the Warsaw University of Life Sciences (SGGW), not the institution requested in the prompt. No contact persons, partner lists, or specific international mobility information were found in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 9.0,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     81
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 23.5
+ }
+}
