@@ -1,0 +1,81 @@
+{
+ "row_id": "r541",
+ "scraped_at": "2026-10-29T07:37:25Z",
+ "contacts": {
+  "row_id": "r541",
+  "institution_name": "Ogec - Sainte Marie",
+  "institution_type": "school",
+  "official_website": "https://www.ecolesaintemarie.com/",
+  "country": null,
+  "phone": {
+   "value": "02 97 47 19 81",
+   "source_url": "https://www.ecolesaintemarie.com/",
+   "evidence_quote": "Tél. : 02 97 47 19 81 - Adresse : 19 Rue François-René de Châteaubriand, 56000 Vannes"
+  },
+  "phone_alt": [],
+  "generic_email": "direction@ecolesaintemarie.com",
+  "generic_email_url": "https://www.ecolesaintemarie.com/nous-contacter/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Teach me please",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecolesaintemarie.com/",
+    "evidence_quote": "Anglais dès la Petite Section en classe Ateliers ludiques avec Faustine de Teach me please, sur temps périscolaire",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "école Sainte-Marie de Vannes",
+    "city": "Vannes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ecolesaintemarie.com/",
+    "evidence_quote": "Tél. : 02 97 47 19 81 - Adresse : 19 Rue François-René de Châteaubriand, 56000 Vannes"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The evidence describes a primary school in Vannes, France, but does not list any international mobility partners or explicit personal names for the contacts.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 7.3,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 9.6,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     81
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 58.3
+ }
+}
