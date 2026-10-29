@@ -2724,21 +2724,31 @@
    "source": "Batch-12_3230",
    "file_id": "1omqBdI-4DUnX_tD6kG57bTHO-cXHODrAmbv0bFCULmc",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 50,
    "started": "2026-10-29T13:02:55Z",
    "last_start": "2026-10-29T13:02:55Z",
    "restarts": 0,
    "cap_usd": 755.77,
-   "note": "Finished; archive to Drive failed, retried next tick: <HttpError 403 when requesting https://www.googleapis.com/upload/drive/v3/files?fields=id%2C+webViewLink&supportsAllDrives=true&alt=json&uploadType=mu"
+   "note": "Finished; archive to Drive failed, retried next tick: <HttpError 403 when requesting https://www.googleapis.com/upload/drive/v3/files?fields=id%2C+webViewLink&supportsAllDrives=true&alt=json&uploadType=mu",
+   "spend_recorded": true,
+   "cost_usd": 0.5747,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1OgpQZ6Wt0M1gSC-0CEGi3DhYkSgdUMr8/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 46,
+   "finished": "2026-10-29T13:27:45Z",
+   "reason": "50 institutes, 39 with a contact"
   },
   {
    "batch": "batch-47-3230",
    "source": "Batch-47_3230",
    "file_id": "1Mn0RIsESzJGBOlLeu5dOU7QY9tGienB8xqQQmnTSiMk",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 49
+   "state": "running",
+   "rows": 49,
+   "started": "2026-10-29T13:27:45Z",
+   "last_start": "2026-10-29T13:27:45Z",
+   "restarts": 0,
+   "cap_usd": 755.2
   },
   {
    "batch": "batch-8-3230",
@@ -3444,7 +3454,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-29T13:10:00Z",
+ "updated": "2026-10-29T13:27:45Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
