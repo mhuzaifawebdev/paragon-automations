@@ -1,0 +1,110 @@
+{
+ "row_id": "r512",
+ "scraped_at": "2026-10-29T08:54:54Z",
+ "contacts": {
+  "row_id": "r512",
+  "institution_name": "Constantin Ciobanu",
+  "institution_type": "university",
+  "official_website": "https://www.istoria-artei.ro/",
+  "country": {
+   "value": "București",
+   "source_url": "https://www.istoria-artei.ro/contact--m34",
+   "evidence_quote": "nr. 196, sector 1, București, CP 010098"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Antoaneta Alexandru",
+   "designation": "Librarian, head of the library",
+   "designation_local": "",
+   "email": "tonyalexandru@yahoo.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.istoria-artei.ro/personal--m109",
+   "evidence_quote": "Antoaneta Alexandru ... - bibliotecar S IA, responsabila bibliotecii"
+  },
+  "alternates": [
+   {
+    "name": "Daniela Arțăreanu",
+    "designation": "Editor, editorial secretary and translator",
+    "designation_local": "",
+    "email": "dartareanu@yahoo.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.istoria-artei.ro/personal--m109",
+    "evidence_quote": "Daniela Arțăreanu ... - redactor I, secretar de redacție al periodicelor institutului și traducător",
+    "why_chosen": "Secretary / administration (last resort). She manages manuscripts and translations for the institute's international journals."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). She is responsible for the management of international exchanges of publications.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'Institutul de Istoria Artei „G. Oprescu”' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Editura Academiei Române",
+    "partner_country": "Romania",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.istoria-artei.ro/personal--m109",
+    "evidence_quote": "- atribuții: gestionarea manuscriselor; corectură; traduceri în limba franceză pentru revistele Revue Roumaine d'Histoire de l'Art. Série Beaux-Arts și Studii și Cercetări de Istoria Artei. Teatru, Muzică, Cinematografie; asigurarea legăturii între autori și Editura Academiei Române.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institutul de Istoria Artei \"G. Oprescu\"",
+    "city": "București",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://www.istoria-artei.ro/contact--m34",
+    "evidence_quote": "nr. 196, sector 1, București, CP 010098"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not list any Erasmus+ or international mobility partners. The institution is a research institute rather than a traditional university.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 13.6,
+  "crawl_s": 16.7,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     251
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 33.2
+ }
+}
