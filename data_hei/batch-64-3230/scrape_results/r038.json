@@ -1,0 +1,80 @@
+{
+ "row_id": "r038",
+ "scraped_at": "2026-10-29T12:56:23Z",
+ "contacts": {
+  "row_id": "r038",
+  "institution_name": "info@fpbidasoa.eus",
+  "institution_type": "college",
+  "official_website": "https://www.fpbidasoa.eus/",
+  "country": null,
+  "phone": {
+   "value": "943 666 010",
+   "source_url": "https://www.fpbidasoa.eus/",
+   "evidence_quote": "943 666 010"
+  },
+  "phone_alt": [],
+  "generic_email": "info@fpbidasoa.eus",
+  "generic_email_url": "https://www.fpbidasoa.eus/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "CIFP BIDASOA LHII",
+    "city": "Irun",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.fpbidasoa.eus/",
+    "evidence_quote": "Bidasoa Lanbide Heziketa - CIFP BIDASOA LHII"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions international projects and Erasmus+ participation but does not provide a list of partner institutions or specific contact persons for international mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 17.4,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 4,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     326
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 35.7
+ }
+}
