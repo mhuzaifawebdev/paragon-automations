@@ -1,0 +1,108 @@
+{
+ "row_id": "r032",
+ "scraped_at": "2026-10-29T10:48:06Z",
+ "contacts": {
+  "row_id": "r032",
+  "institution_name": "Lycée Général et Technologique Jules Ferry",
+  "institution_type": "school",
+  "official_website": "https://lyc-jules-ferry.fr/",
+  "country": {
+   "value": "FRANCE",
+   "source_url": "https://lyc-jules-ferry.fr/",
+   "evidence_quote": "En quelques années, Maksim a transformé les défis de son arrivée en France en une véritable réussite scolaire…"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Alexandre CARON",
+   "designation": "Proviseur",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lyc-jules-ferry.fr/?page_id=4334",
+   "evidence_quote": "Proviseur : M. Alexandre CARON"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Alexandre CARON is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Conservatoire National Supérieur d’Art Dramatique – Université Paris Sciences&Lettres",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lyc-jules-ferry.fr/",
+    "evidence_quote": "Projet culturel scolaire avec le Conservatoire National Supérieur d’Art Dramatique – Université Paris Sciences&Lettres",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mécénat Chirurgie Cardiaque",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyc-jules-ferry.fr/",
+    "evidence_quote": "Les élèves de 5e3, accompagnés de leurs enseignantes, ont relevé avec enthousiasme et détermination un défi sportif et solidaire au sein du lycée, au profit de l’association Mécénat Chirurgie Cardiaque. Grâce au soutien de…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CAUE de Paris",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyc-jules-ferry.fr/",
+    "evidence_quote": "Le vendredi 18 septembre 2026, dans le cadre des « Enfants du Patrimoine« , dispositif proposé par le CAUE de Paris et adossé aux JEMP (Journées européennes du Matrimoine et du Patrimoine), les élèves de 2nde…",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Jules-Ferry",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyc-jules-ferry.fr/",
+    "evidence_quote": "Adresse ∙ 77 boulevard de Clichy – Paris 9e"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ or international partners. Christel BOURY was not found in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 8.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 33.0
+ }
+}

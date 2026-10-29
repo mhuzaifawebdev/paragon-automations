@@ -1,0 +1,130 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-10-29T10:48:16Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "UniCamillus - Saint Camillus International University of Health and Medical Sciences",
+  "institution_type": "university",
+  "official_website": "https://unicamillus.org/",
+  "country": null,
+  "phone": {
+   "value": "+39 06 40 06 40",
+   "source_url": "https://unicamillus.org/",
+   "evidence_quote": "+39 06 40 06 40 <tel +3906400640>"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@unicamillus.org",
+  "generic_email_url": "https://unicamillus.org/studenti/scambi-internazionali/",
+  "contact": {
+   "name": "Alessandro Lavacca",
+   "designation": "Institutional Erasmus Coordinator",
+   "designation_local": "",
+   "email": "erasmus@unicamillus.org",
+   "office_email": "",
+   "phone": "+39 06400640",
+   "source_url": "https://unicamillus.org/wp-content/uploads/erasmus/information-sheet-for-erasmus-mobility.pdf?x80658",
+   "evidence_quote": "Institutional Erasmus Coordinator ... Mr. Alessandro Lavacca"
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. He is the designated Institutional Erasmus Coordinator responsible for student and staff mobility.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "European Health Development S.r.l",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://unicamillus.org/wp-content/uploads/erasmus/bando-erasmus-2026-27_staff-mobility.pdf?x80658",
+    "evidence_quote": "Società Unipersonale sottoposta all’attività di direzione e controllo di European Health Development S.r.l",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus di Roma",
+    "city": "Roma",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://unicamillus.org/",
+    "evidence_quote": "Campus di Roma"
+   },
+   {
+    "campus_name": "Sede di Venezia Mestre",
+    "city": "Venezia Mestre",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://unicamillus.org/",
+    "evidence_quote": "• Sedi di Roma, Venezia Mestre, Cefalù"
+   },
+   {
+    "campus_name": "Sede di Cefalù",
+    "city": "Cefalù",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://unicamillus.org/",
+    "evidence_quote": "• Sedi di Roma, Venezia Mestre, Cefalù"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides detailed information about the Erasmus+ office and contacts, but does not contain a specific list of partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 14.6,
+  "ai_calls": 5,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 16.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 14.2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 48.3
+ }
+}
