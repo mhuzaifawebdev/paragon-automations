@@ -1,0 +1,144 @@
+{
+ "row_id": "r449",
+ "scraped_at": "2026-10-28T23:29:56Z",
+ "contacts": {
+  "row_id": "r449",
+  "institution_name": "IES ATENEA",
+  "institution_type": "school",
+  "official_website": "https://ies-atenea.com/",
+  "country": null,
+  "phone": {
+   "value": "926254150",
+   "source_url": "https://ies-atenea.com/",
+   "evidence_quote": "Teléfono: 926254150"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Francisco Javier Morales Hervás",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ies-atenea.com/presentacion/organigrama/",
+   "evidence_quote": "Director: Francisco Javier Morales Hervás"
+  },
+  "alternates": [
+   {
+    "name": "Prado Iglesias Donaire",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ies-atenea.com/presentacion/organigrama/",
+    "evidence_quote": "Secretaria: Prado Iglesias Donaire",
+    "why_chosen": "Secretary / administration (last resort). She is the secretary of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the Director of the institution and is listed as the contact for Erasmus mobility.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch merged-legacy-database-batch-6-aiman (scraped 2026-10-28). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Portugal",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://ies-atenea.com/wp-content/uploads/2026/10/01_CONVOCATORIA_ERASMUS_ALU_PRACTICAS_2026_2027.pdf",
+    "evidence_quote": " APSD. Existen contactos con empresas en Italia, Bélgica, Hungría y Portugal. Se está",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Finland",
+    "partner_country": "Finland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ies-atenea.com/wp-content/uploads/2026/10/01_CONVOCATORIA_ERASMUS_ALU_PRACTICAS_2026_2027.pdf",
+    "evidence_quote": "viendo la posibilidad de establecer un posible contacto en Finlandia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rumania",
+    "partner_country": "Romania",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://ies-atenea.com/wp-content/uploads/2026/10/01_CONVOCATORIA_ERASMUS_ALU_PRACTICAS_2026_2027.pdf",
+    "evidence_quote": "Rumania.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ANPE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://ies-atenea.com/",
+    "evidence_quote": "Asistimos a las jornadas de Formación Profesional organizadas por ANPE: «La Formación Profesional conecta talento, empresas y futuro», celebradas en el Centro…leer más",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://ies-atenea.com/",
+    "evidence_quote": "Erasmus+",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Etwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://ies-atenea.com/",
+    "evidence_quote": "Etwinning",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Google Analytics",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://ies-atenea.com/",
+    "evidence_quote": "Esta web utiliza Google Analytics para recopilar información anónima tal como el número de visitantes del sitio, o las páginas más populares.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Atenea",
+    "city": "Ciudad Real",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://ies-atenea.com/",
+    "evidence_quote": "AVDA. PUENTE DE RETAMA 1"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 7,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides details on Erasmus+ mobility programs and destination countries for student traineeships, but does not provide a formal list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "merged-legacy-database-batch-6-aiman",
+  "row_id": "r127"
+ }
+}
