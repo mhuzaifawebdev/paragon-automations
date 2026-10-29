@@ -1,14 +1,14 @@
 {
  "batch": "batch-1-noof-sales-zedarma-10",
- "status": "running",
- "generated_at": "2026-10-29T08:11:32.995178+00:00",
- "chunk": 2,
- "total_chunks": 2,
+ "status": "done",
+ "generated_at": "2026-10-29T08:12:04.939388+00:00",
+ "chunk": 3,
+ "total_chunks": 3,
  "total_rows": 31,
- "done": 28,
- "pending": 3,
- "elapsed_seconds": 46,
- "eta_seconds": 1,
+ "done": 31,
+ "pending": 0,
+ "elapsed_seconds": 51,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 21.0,
@@ -39,15 +39,12 @@
  "confidence": {
   "high": 1,
   "medium": 0,
-  "low": 24,
-  "none": 3
+  "low": 26,
+  "none": 4
  },
- "partners_found": 862,
- "campuses_found": 81,
+ "partners_found": 970,
+ "campuses_found": 90,
  "recent": [
-  "r009",
-  "r010",
-  "r011",
   "r012",
   "r013",
   "r014",
@@ -62,8 +59,11 @@
   "r023",
   "r024",
   "r025",
+  "r026",
   "r027",
   "r028",
-  "r030"
+  "r029",
+  "r030",
+  "r031"
  ]
 }
