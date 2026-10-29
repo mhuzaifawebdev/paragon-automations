@@ -1,0 +1,63 @@
+{
+ "row_id": "r032",
+ "scraped_at": "2026-10-28T18:18:42Z",
+ "contacts": {
+  "row_id": "r032",
+  "institution_name": "Juan Carlos",
+  "institution_type": "school",
+  "official_website": "http://www.iesluisdelucena.com/joomla/",
+  "country": {
+   "value": "Spain",
+   "source_url": "http://www.iesluisdelucena.com/joomla/",
+   "evidence_quote": "(Guadalajara - Spain)"
+  },
+  "phone": {
+   "value": "+34949211383",
+   "source_url": "http://www.iesluisdelucena.com/joomla/",
+   "evidence_quote": "+34949211383"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch copy-of-vet-250k-300-batch-3-bano (scraped 2026-10-28). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Luis de Lucena",
+    "city": "Guadalajara",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "http://www.iesluisdelucena.com/joomla/index.php/datos-contacto",
+    "evidence_quote": "c/ Francisco Aritio, 93. CP: 19004, Guadalajara"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not list any specific partner institutions or networks. Contact information for specific staff members is missing, as the website only provides general email addresses for the secretariat and the head of studies.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "copy-of-vet-250k-300-batch-3-bano",
+  "row_id": "r023"
+ }
+}
