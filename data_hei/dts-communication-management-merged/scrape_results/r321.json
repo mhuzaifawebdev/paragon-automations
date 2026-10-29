@@ -1,0 +1,123 @@
+{
+ "row_id": "r321",
+ "scraped_at": "2026-10-29T04:20:14Z",
+ "contacts": {
+  "row_id": "r321",
+  "institution_name": "Catholic Relief Services",
+  "institution_type": "unknown",
+  "official_website": "https://www.crs.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Danusia Dzierzbinski",
+   "designation": "Chief Financial Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.crs.org/about-us/crs-leadership",
+   "evidence_quote": "Danusia Dzierzbinski ... Chief Financial Officer"
+  },
+  "alternates": [],
+  "rung": "Other role. Danusia Dzierzbinski is the Chief Financial Officer at Catholic Relief Services.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Caritas Internationalis",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.crs.org/",
+    "evidence_quote": "[Caritas Internationalis]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "US Conference of Catholic Bishops",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.crs.org/",
+    "evidence_quote": "[US Conference of Catholic Bishops]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NABOCADO",
+    "partner_country": "Ghana",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.crs.org/partner-with-us/local-partners",
+    "evidence_quote": "Locally led solutions are transforming how aid reaches people displaced by violence in Burkina Faso. In Ghana, CRS and NABOCADO’s EMPOWER project shows that when local partners lead, recovery is faster, smarter, and more sustainable.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "National Council of Catholic Women",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.crs.org/partner-with-us/local-partners",
+    "evidence_quote": "Catholic Relief Services and the National Council of Catholic Women",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "USAID's Innovation, Technology, and Research Hub",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.crs.org/partner-with-us/university-partners",
+    "evidence_quote": "Universities can help us innovate in our work to deliver better services with greater efficiency in a more sustainable fashion. We seek to partner with universities to test game-changing new approaches that can be scaled up to bring about transformation in the lives of the poor. CRS is a cornerstone partner in USAID's Innovation, Technology, and Research Hub which seeks to eradicate extreme poverty through breakthrough innovations developed in partnerships between non-governmental organizations,",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Catholic Relief Services Headquarters",
+    "city": "Baltimore",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.crs.org/",
+    "evidence_quote": "228 W. Lexington St. Baltimore, Maryland 21201-3413"
+   }
+  ],
+  "stated_total": 1000,
+  "stated_total_quote": "Since it was formed in 1943, CRS has been guided by the belief that the people closest to challenges are best placed to identify solutions and that vibrant local organizations are best able to drive strong program outcomes and transformational change. That's why the agency partners with more than 1,000 local organizations annually and is deeply committed to locally-led humanitarian response and development.",
+  "stated_total_url": "https://www.crs.org/our-work/program-areas/local-leadership",
+  "truncated": true,
+  "total_seen": 1000,
+  "pages_read": 10,
+  "coverage_note": "The institution is a non-profit humanitarian organization rather than an academic institution, so it does not have Erasmus+ mobility programs or a standard university partner list. The evidence provides information on its global relief operations and partnerships with local organizations and the Catholic Church.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 13.3,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 20.9
+ }
+}
