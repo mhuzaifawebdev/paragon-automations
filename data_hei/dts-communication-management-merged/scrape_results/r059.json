@@ -1,0 +1,80 @@
+{
+ "row_id": "r059",
+ "scraped_at": "2026-10-29T02:54:13Z",
+ "contacts": {
+  "row_id": "r059",
+  "institution_name": "Aultman Hospital",
+  "institution_type": "unknown",
+  "official_website": "https://aultman.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Corporate Sponsorships",
+   "designation": "Corporate Sponsorships",
+   "designation_local": "",
+   "email": "corporatesponsorships@aultman.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://aultman.org/home/patients-and-visitors/patient-support/contact-us/",
+   "evidence_quote": "Corporate Sponsorships ... Corporate Sponsorships <corporatesponsorships@aultman.com>"
+  },
+  "alternates": [],
+  "rung": "Other role. This department handles corporate sponsorships and can be contacted via the provided email address.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "Reused from batch dts-turnkey-services-merged (scraped 2026-10-29). site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 6 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Aultman Hospital Main Campus",
+    "city": "Canton",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://aultman.org/locations",
+    "evidence_quote": "Aultman Hospital Main Campus"
+   },
+   {
+    "campus_name": "Aultman Alliance Community Hospital",
+    "city": "Alliance",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://aultman.org/locations",
+    "evidence_quote": "Aultman Alliance Community Hospital"
+   },
+   {
+    "campus_name": "Aultman Orrville Hospital",
+    "city": "Orrville",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://aultman.org/locations",
+    "evidence_quote": "Aultman Orrville Hospital"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "Aultman is a healthcare system and hospital network, not an educational institution, and no information regarding international mobility or Erasmus+ partnerships is provided. 6 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "dts-turnkey-services-merged",
+  "row_id": "r112"
+ }
+}
