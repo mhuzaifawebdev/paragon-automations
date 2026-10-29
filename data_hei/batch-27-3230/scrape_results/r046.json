@@ -1,0 +1,126 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-29T10:49:39Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "IES ANTONIO MACHADO",
+  "institution_type": "school",
+  "official_website": "https://iesantoniomachado.es/",
+  "country": null,
+  "phone": {
+   "value": "671565062",
+   "source_url": "https://iesantoniomachado.es/centro/equipo-directivo/",
+   "evidence_quote": "671565062 <tel +34671565062>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "María Loreto Gómez Vázquez",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "11701152.edu@juntadeandalucia.es",
+   "office_email": "",
+   "phone": "671565062",
+   "source_url": "https://iesantoniomachado.es/centro/equipo-directivo/",
+   "evidence_quote": "María Loreto Gómez Vázquez ... Directora"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the Director of the institution and is listed as the primary contact on the management team page.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES Juan Sebastián Elcano",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus.iesantoniomachado.es/publicada-convocatoria-de-seleccion-para-el-personal-docente-erasmus-ka121-cfgm-en-apsd",
+    "evidence_quote": "COLABORACIÓN CON EL IES JUAN SEBASTIÁN ELCANO DE SANLÚCAR DE BARRAMEDA EN UN PROYECTO ERASMUS+ SOBRE BILINGÜISMO",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Italia",
+    "partner_country": "Italia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus.iesantoniomachado.es/erasmus",
+    "evidence_quote": "ESTE CURSO HEMOS VIAJADO A ITALIA Y ALEMANIA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Alemania",
+    "partner_country": "Alemania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus.iesantoniomachado.es/erasmus",
+    "evidence_quote": "ESTE CURSO HEMOS VIAJADO A ITALIA Y ALEMANIA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Berlín",
+    "partner_country": "Alemania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus.iesantoniomachado.es/erasmus",
+    "evidence_quote": "Pedagogía Gestalt y Educación Infantil en Berlín",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rovaniemi",
+    "partner_country": "Finlandia",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://erasmus.iesantoniomachado.es/erasmus",
+    "evidence_quote": "Recibimos profesorado de Rovaniemi (Finlandia)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "I.E.S. Antonio Machado",
+    "city": "La Línea de la Concepción",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesantoniomachado.es/",
+    "evidence_quote": "11300 La Línea de la Concepción (Cádiz)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a formal list of international partners, only mentioning specific locations (Berlin, Prato, Malta, Rovaniemi) and one local partner school.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 18.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 13.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 35.9
+ }
+}
