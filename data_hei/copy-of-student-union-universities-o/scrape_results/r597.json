@@ -1,0 +1,127 @@
+{
+ "row_id": "r597",
+ "scraped_at": "2026-10-29T09:06:06Z",
+ "contacts": {
+  "row_id": "r597",
+  "institution_name": "Matt Schofield (President, 2025/26)",
+  "institution_type": "unknown",
+  "official_website": "https://www.leicesterunion.com/",
+  "country": {
+   "value": "England",
+   "source_url": "https://www.leicesterunion.com/",
+   "evidence_quote": "The University of Leicester Students' Union is a registered charity no. 1137811 and a company limited by guarantee registered in England no. 7303101"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ian Bruce",
+   "designation": "Support and Representation Manager",
+   "designation_local": "",
+   "email": "irb2@le.ac.uk",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.leicesterunion.com/staff/",
+   "evidence_quote": "Support and Representation Manager ... Ian Bruce"
+  },
+  "alternates": [
+   {
+    "name": "Sanya Dudeja",
+    "designation": "International Officer",
+    "designation_local": "",
+    "email": "su-international@le.ac.uk",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.leicesterunion.com/staff/",
+    "evidence_quote": "International Officer ... Sanya Dudeja",
+    "why_chosen": "Other role. Sanya Dudeja is the International Officer responsible for representing international students."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Ian Bruce is the Support and Representation Manager who can provide advice on union governance and representation.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: web search (Google via Gemini), named 'University of Leicester Students' Union' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Sulets",
+    "partner_country": "United Kingdom",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.leicesterunion.com/yourunion/sulets-student-accommodation-leicester/",
+    "evidence_quote": "Sulets - Housing Partner",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "De Montfort Students' Union",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.leicesterunion.com/yourunion/sulets-student-accommodation-leicester/",
+    "evidence_quote": "We are the only student housing and lettings provider recommended by both the De Montfort and University of Leicester’s Students’ Unions. Therefore, you know we can be trusted to find you the best student accommodation in Leicester.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Percy Gee Building",
+    "city": "Leicester",
+    "country": "England",
+    "role": "main",
+    "source_url": "https://www.leicesterunion.com/",
+    "evidence_quote": "Percy Gee Building, University of Leicester, University Rd, Leicester LE1 7RH"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The evidence provided is for the University of Leicester Students' Union, which is a representative body for students rather than the university itself. No list of Erasmus+ or international mobility partners is provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.0,
+  "crawl_s": 12.6,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.9,
+  "slices": [
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 29.1
+ }
+}
