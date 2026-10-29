@@ -1,0 +1,138 @@
+{
+ "row_id": "r420",
+ "scraped_at": "2026-10-29T01:14:53Z",
+ "contacts": {
+  "row_id": "r420",
+  "institution_name": "Stichting Radboud Universiteit",
+  "institution_type": "university",
+  "official_website": "https://www.lma.lv/",
+  "country": {
+   "value": "Latvija",
+   "source_url": "https://www.lma.lv/",
+   "evidence_quote": "Latvija, LV-1050"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Krista Balode",
+   "designation": "International Education Programs Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+371 20016463",
+   "source_url": "https://www.lma.lv/aktuali/izsludinata-pieteiksanas-erasmus-virtualajam-mobilitatem-lma-personalam-un-vieslektoriem-no-uznemumiem",
+   "evidence_quote": "Krista Balode ... Starptautisko izglītības programmu koordinatore"
+  },
+  "alternates": [
+   {
+    "name": "Alise Rudēvica",
+    "designation": "International Program Coordinator for Students",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+371 25751661",
+    "source_url": "https://www.lma.lv/sadarbiba/erasmus/studijas",
+    "evidence_quote": "Alise Rudēvica ... Ārlietu daļas starptautisko programmu koordinatore darbā ar studentiem",
+    "why_chosen": "Mobility coordinator. She is the coordinator responsible for international programs and student mobility."
+   }
+  ],
+  "rung": "International relations officer. She coordinates international education programs and Erasmus+ virtual mobility.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Bern University of the Arts",
+    "partner_country": "Switzerland",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.lma.lv/sadarbiba/mobilitate-sveice",
+    "evidence_quote": "Bern University of the Arts / Bern",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lucerne University of Applied Sciences and Arts. Lucerne School of Art and Design",
+    "partner_country": "Switzerland",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.lma.lv/sadarbiba/mobilitate-sveice",
+    "evidence_quote": "Lucerne University of Applied Sciences and Arts. Lucerne School of Art and Design / Lucern",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École de Design et Haute École d'Art du Valais",
+    "partner_country": "Switzerland",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.lma.lv/sadarbiba/mobilitate-sveice",
+    "evidence_quote": "École de Design et Haute École d'Art du Valais / Sierre",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zurich University of the Arts",
+    "partner_country": "Switzerland",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.lma.lv/sadarbiba/mobilitate-sveice",
+    "evidence_quote": "Zurich University of the Arts / Zurich",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Hong Kong Polytechnic University School of Design",
+    "partner_country": "Hong Kong",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.lma.lv/aktuali/tiek-pagarinata-pieteiksanas-starptautiska-erasmus-studijam-lma-partneraugstskola-honkonga-",
+    "evidence_quote": "4 mēnešu studijas the Hong Kong Polytechnic University School of Design maģistrantūrā",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Latvijas Mākslas akadēmija",
+    "city": "Rīga",
+    "country": "Latvija",
+    "role": "main",
+    "source_url": "https://www.lma.lv/",
+    "evidence_quote": "Latvijas Mākslas akadēmija, Kronvalda bulvāris 4, Rīga"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific partner universities for Switzerland and Hong Kong, but does not contain a comprehensive list of all Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 28.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 34.9
+ }
+}
