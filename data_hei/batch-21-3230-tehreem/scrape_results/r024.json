@@ -1,0 +1,107 @@
+{
+ "row_id": "r024",
+ "scraped_at": "2026-10-29T12:38:11Z",
+ "contacts": {
+  "row_id": "r024",
+  "institution_name": "Escola Municipal d'Art Arsenal",
+  "institution_type": "college",
+  "official_website": "https://www.arsenal.cat/index.php/ca/",
+  "country": null,
+  "phone": {
+   "value": "93 892 13 62",
+   "source_url": "https://www.arsenal.cat/index.php/ca/",
+   "evidence_quote": "Per inscripció i més informació podeu contactar amb l'escola al correu secretaria@arsenal.cat o bé al telèfon 93 892 13 62."
+  },
+  "phone_alt": [],
+  "generic_email": "international@arsenal.cat",
+  "generic_email_url": "https://www.arsenal.cat/index.php/ca/internacional2/outgoing",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Mercat de les Flors",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.arsenal.cat/index.php/ca/internacional2",
+    "evidence_quote": "- Mercat de les Flors: A center for contemporary dance in Barcelona, where performances and exhibitions related to dance and multimedia can be seen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MATERFAD",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.arsenal.cat/index.php/ca/internacional2",
+    "evidence_quote": "- MATERFAD: An innovation center in materials and design, where new technologies applicable to dance and the performing arts are explored.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Teatre Cal Bolet",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.arsenal.cat/index.php/ca/internacional2",
+    "evidence_quote": "- Teatre Cal Bolet: A theater that hosts various artistic performances, including dance and multimedia performances, offering a view of local performing arts.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Municipal d'Art Arsenal",
+    "city": "Vilafranca del Penedès",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.arsenal.cat/index.php/ca/internacional2",
+    "evidence_quote": "08720 Vilafranca del Penedès, Barcelona"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a specific list of partner institutions. Contact information is provided via email addresses rather than full names for some roles.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 20.6,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     191
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 35.3
+ }
+}
