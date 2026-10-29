@@ -1,0 +1,115 @@
+{
+ "row_id": "r504",
+ "scraped_at": "2026-10-29T00:05:50Z",
+ "contacts": {
+  "row_id": "r504",
+  "institution_name": "CHU Hôpitaux de Rouen",
+  "institution_type": "unknown",
+  "official_website": "https://www.chu-rouen.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretariat.casa@chu-rouen.fr",
+  "generic_email_url": "https://www.chu-rouen.fr/services/centre-daccueil-specialise-pour-les-agressions/",
+  "contact": {
+   "name": "Tifaine TOMCZYK",
+   "designation": "Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.chu-rouen.fr/centre-de-reference-des-troubles-du-langage-et-des-apprentissages/",
+   "evidence_quote": "Coordinateur : Dr Tifaine TOMCZYK"
+  },
+  "alternates": [],
+  "rung": "Other role. Tifaine TOMCZYK serves as the coordinator for the CRTLA.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "Reused from batch legacy-db-ccc-merged-898 (scraped 2026-10-29). Reused from batch merged-legacy-db-380-budget-ibrahim (scraped 2026-10-29). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "22 établissements",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chu-rouen.fr/services/coclinnor-reseau-dhygiene/",
+    "evidence_quote": "Le CoCLINNOR est un réseau d’établissements de santé publics et privés travaillant ensemble dans le domaine de la lutte contre les infections associées aux soins. Le CHU est le pôle de référence du réseau et a mis en place une équipe d’hygiène mobile pour accompagner les 22 établissements dans leurs activités de lutte contre les infections associées aux soins.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "21 établissements publics et privés",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.chu-rouen.fr/services/coclinnor-reseau-dhygiene/",
+    "evidence_quote": "CoCLINNOR rassemble 21 établissements publics et privés qui bénéficient d’un accompagnement :",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hôpital Charles-Nicolle",
+    "city": "Rouen",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.chu-rouen.fr/",
+    "evidence_quote": "Hôpital Charles-Nicolle"
+   },
+   {
+    "campus_name": "Hôpital de Bois Guillaume",
+    "city": "Bois-Guillaume",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.chu-rouen.fr/",
+    "evidence_quote": "Hôpital de Bois Guillaume"
+   },
+   {
+    "campus_name": "Hôpital Saint Julien",
+    "city": "Le Petit-Quevilly",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.chu-rouen.fr/",
+    "evidence_quote": "Hôpital Saint Julien"
+   },
+   {
+    "campus_name": "Hôpital de Oissel",
+    "city": "Oissel",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.chu-rouen.fr/",
+    "evidence_quote": "Hôpital de Oissel"
+   },
+   {
+    "campus_name": "Hôpital de Boucicaut",
+    "city": "Mont-Saint-Aignan",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.chu-rouen.fr/",
+    "evidence_quote": "Hôpital de Boucicaut"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 7,
+  "coverage_note": "The evidence provided is for a hospital center and does not contain information regarding Erasmus+ partnerships or international mobility programs. No specific international relations or Erasmus coordinator contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "legacy-db-ccc-merged-898",
+  "row_id": "r791"
+ }
+}
