@@ -1,0 +1,136 @@
+{
+ "row_id": "r048",
+ "scraped_at": "2026-10-29T13:54:11Z",
+ "contacts": {
+  "row_id": "r048",
+  "institution_name": "ARFIS OI",
+  "institution_type": "college",
+  "official_website": "https://arfis-oi.fr/",
+  "country": {
+   "value": "Réunion",
+   "source_url": "https://arfis-oi.fr/",
+   "evidence_quote": "Cette formation et cet accompagnement sont cofinancés par l'Union européenne et la Région Réunion."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Daniele GALLINARO",
+   "designation": "Head of the International Department",
+   "designation_local": "",
+   "email": "Daniele.GALLINARO@irtsreunion.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://arfis-oi.fr/mobilite-professionnels-formateurs/",
+   "evidence_quote": "Contact : Daniele.GALLINARO@irtsreunion.fr <Daniele.GALLINARO@irtsreunion.fr>, responsable du Pôle International"
+  },
+  "alternates": [
+   {
+    "name": "Nathalie GAUTRON",
+    "designation": "General Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://arfis-oi.fr/",
+    "evidence_quote": "Mme Nathalie GAUTRON, Directrice générale de l’ARFIS OI et M. Frédéric PHAURE, Directeur [...]",
+    "why_chosen": "Principal / director (no Erasmus contact found). Nathalie GAUTRON is the General Director of the institution."
+   }
+  ],
+  "rung": "Head of international relations. Daniele GALLINARO is explicitly identified as the head of the international department and the contact person for mobility.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ENPJJ",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://arfis-oi.fr/",
+    "evidence_quote": "Un nouveau partenariat entre l'ARFIS OI et l'ENPJJ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "European Association of Schools of Social Work",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://arfis-oi.fr/partenaires/",
+    "evidence_quote": "European Association of Schools of Social Work",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LADOM",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://arfis-oi.fr/les-futurs-travailleurs-sociaux-de-lirts-de-la-reunion-senvolent-en-mobilite/",
+    "evidence_quote": "A l’aéroport Roland Garros, la soif de découverte était palpable pour ces apprenants prêts à quitter le territoire et à poursuivre leur formation pratique en Belgique dans le cadre des échanges Erasmus+, mais aussi en Suisse via le développement de partenariats internationaux avec les écoles suisses, ou encore en métropole au sein de structures de terrain du réseau social et médico-social avec le soutien de LADOM et du Conseil Régional de La Réunion.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Haute école en travail social de la ville de Mons",
+    "partner_country": "Belgium",
+    "partner_type": "college",
+    "mobility_type": "traineeship",
+    "source_url": "https://arfis-oi.fr/les-futurs-travailleurs-sociaux-de-lirts-de-la-reunion-senvolent-en-mobilite/",
+    "evidence_quote": "Flavie, future assistante sociale, promotion 2020-2023 – Destination Belgique \" Je pars pour la Belgique et mon stage a été trouvé par la Haute école en travail social de la ville de Mons où je vais effectuer mon stage. \"C’est la première fois que je pars en Belgique. Ça été dur de quitter la famille mais là je suis pressée d’arriver, de découvrir et de commencer l’aventure ! \"",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UNAFORIS",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://arfis-oi.fr/partenaires/plateforme-territoriale-unaforis/",
+    "evidence_quote": "Plateforme territoriale - UNAFORIS | ARFIS OI",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IRTS La Réunion",
+    "city": "Réunion",
+    "country": "Réunion",
+    "role": "main",
+    "source_url": "https://arfis-oi.fr/",
+    "evidence_quote": "IRTS La Réunion"
+   },
+   {
+    "campus_name": "IRTS Antenne de Mayotte",
+    "city": "Mayotte",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://arfis-oi.fr/",
+    "evidence_quote": "IRTS Antenne de Mayotte"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides information on specific mobility partners and networks but does not contain a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 10.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 13.0
+ }
+}
