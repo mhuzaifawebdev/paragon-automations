@@ -1,0 +1,77 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-10-29T12:33:11Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "lycée des métiers Marie Laurencin",
+  "institution_type": "school",
+  "official_website": "https://marie-laurencin-riom.ent.auvergnerhonealpes.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Campus des Métiers et des Qualifications",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://marie-laurencin-riom.ent.auvergnerhonealpes.fr/l-etablissement/campus-des-metiers-et-des-qualifications/",
+    "evidence_quote": "Le lycée Marie Laurencin est membre de deux campus des métiers et des qualifications :",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Professionnel Marie Laurencin",
+    "city": "RIOM",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://marie-laurencin-riom.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "Lycée Professionnel Marie Laurencin - RIOM"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The website does not provide any contact information for staff or international mobility coordinators. No partner list is available in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 6.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     63
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 18.8
+ }
+}
