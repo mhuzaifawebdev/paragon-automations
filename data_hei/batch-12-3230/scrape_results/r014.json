@@ -1,0 +1,178 @@
+{
+ "row_id": "r014",
+ "scraped_at": "2026-10-29T13:06:44Z",
+ "contacts": {
+  "row_id": "r014",
+  "institution_name": "IT-UNIVERSITETET I KOBENHAVN",
+  "institution_type": "university",
+  "official_website": "https://www.itu.dk",
+  "country": {
+   "value": "Danmark",
+   "source_url": "https://www.itu.dk",
+   "evidence_quote": "Danmark"
+  },
+  "phone": {
+   "value": "+45 7218 5000",
+   "source_url": "https://www.itu.dk",
+   "evidence_quote": "Telefon: +45 7218 5000"
+  },
+  "phone_alt": [],
+  "generic_email": "itu@itu.dk",
+  "generic_email_url": "https://www.itu.dk",
+  "contact": {
+   "name": "Per Bruun Brockhoff",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "rektor@itu.dk",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://itu.dk/Om-ITU/Kontakt",
+   "evidence_quote": "Rektor Per Bruun Brockhoff"
+  },
+  "alternates": [
+   {
+    "name": "Jakob Grue Simonsen",
+    "designation": "Pro-rector",
+    "designation_local": "",
+    "email": "jags@itu.dk",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://itu.dk/Om-ITU/Kontakt",
+    "evidence_quote": "Generelt om forskning på ITU, kontakt Prorektor Jakob Grue Simonsen",
+    "why_chosen": "Other role. Jakob Grue Simonsen is the Pro-rector responsible for research at the institution."
+   },
+   {
+    "name": "Sabine Kayser",
+    "designation": "Acting Business Coordinator",
+    "designation_local": "",
+    "email": "erhvervssamarbejde@itu.dk",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://itu.dk/Om-ITU/Kontakt",
+    "evidence_quote": "Vikarierende erhvervskoordinator Sabine Kayser",
+    "why_chosen": "Other role. Sabine Kayser is the acting business coordinator for student-related business cooperation."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Per Bruun Brockhoff is the Rector of the IT University of Copenhagen.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Deloitte",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itu.dk",
+    "evidence_quote": "De nye uddannelser er skabt i partnerskab med Deloitte, ATP og Nykredit",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ATP",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itu.dk",
+    "evidence_quote": "De nye uddannelser er skabt i partnerskab med Deloitte, ATP og Nykredit",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nykredit",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itu.dk",
+    "evidence_quote": "De nye uddannelser er skabt i partnerskab med Deloitte, ATP og Nykredit",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IBM Danmark",
+    "partner_country": "Denmark",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itu.dk",
+    "evidence_quote": "Administrerende direktør i IBM Danmark Thomas Kovsted tiltræder ITU's bestyrelse.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ITU Business Development A/S",
+    "partner_country": "Denmark",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://itu.dk/Om-ITU/Kontakt",
+    "evidence_quote": "ITU Business Development A/S",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IT-Universitetet i København",
+    "city": "København S",
+    "country": "Danmark",
+    "role": "main",
+    "source_url": "https://www.itu.dk",
+    "evidence_quote": "Rued Langgaards Vej 7"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain a list of Erasmus+ or international partner universities. Information regarding specific international mobility coordinators is not explicitly provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 106.6,
+  "crawl_s": 15.1,
+  "ai_calls": 6,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 10.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 7,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     670
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 137.1
+ }
+}
