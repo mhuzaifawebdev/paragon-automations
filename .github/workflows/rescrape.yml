@@ -1,0 +1,49 @@
+name: Rescrape failed dialer leads
+
+# Runs nightly at 02:00 UTC (after Malta calling hours end).
+# Fetches leads the dialer closed as unreachable or wrong_number, looks them up in the
+# scraper's reuse index, and either uploads a mini-batch of alternative contacts to the
+# dialer or drops a rescrape-queue sheet into the Drive folder for the auto-scanner.
+#
+# Required secrets (add in repo Settings → Secrets → Actions):
+#   DIALER_URL          base URL of the dialer, e.g. https://pgi-backend.vercel.app
+#   DIALER_ADMIN_PASS   the dialer admin panel password (ADMIN_PASSWORD in the dialer)
+#   RESCRAPE_SECRET     shared secret; also set as RESCRAPE_SECRET in the dialer's Vercel env
+#   DRIVE_FOLDER_ID     already set for the scraper queue (same value)
+#   GOOGLE_SERVICE_ACCOUNT_JSON  already set for the scraper queue (same value)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"   # 02:00 UTC every day
+
+permissions:
+  contents: read
+
+concurrency:
+  group: rescrape-leads
+  cancel-in-progress: false
+
+jobs:
+  rescrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      DIALER_URL:                  ${{ secrets.DIALER_URL }}
+      DIALER_ADMIN_PASS:           ${{ secrets.DIALER_ADMIN_PASS }}
+      RESCRAPE_SECRET:             ${{ secrets.RESCRAPE_SECRET }}
+      DRIVE_FOLDER_ID:             ${{ secrets.DRIVE_FOLDER_ID }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Rescrape failed leads
+        run: python scripts/rescrape_leads.py
