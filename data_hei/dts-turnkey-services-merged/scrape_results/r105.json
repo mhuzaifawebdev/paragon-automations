@@ -1,0 +1,89 @@
+{
+ "row_id": "r105",
+ "scraped_at": "2026-10-29T02:53:43Z",
+ "contacts": {
+  "row_id": "r105",
+  "institution_name": "360 Blue",
+  "institution_type": "unknown",
+  "official_website": "https://www.360blue.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.360blue.com/",
+   "evidence_quote": "The United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Alex Curry",
+   "designation": "Director of Business Development",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.360blue.com/about-us/team",
+   "evidence_quote": "Alex Curry ... Director of Business Development"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Director of Business Development, he is responsible for managing relationships and partnerships for the company.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Natural Retreats",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.360blue.com/",
+    "evidence_quote": "[Natural Retreats]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "RideItFL",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.360blue.com/experience-services/emc/paddleboard-rentals",
+    "evidence_quote": "[Paddleboard rentals with RideItFL]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "360 Blue Headquarters",
+    "city": "Santa Rosa Beach",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.360blue.com/homeowners/rental-management",
+    "evidence_quote": "360 Blue is based in Santa Rosa Beach, Florida, in the heart of the 30A, midway between Destin and Panama City Beach. And we are also one of the largest employers in the area. Our headquarters serve as a homebase for all of our in-house teams, from Maintenance to Marketing."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "360 Blue is a luxury vacation rental company, not an educational institution. There is no information regarding Erasmus+ or international academic mobility partnerships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 11.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.9,
+  "total_seconds": 36.5
+ }
+}
