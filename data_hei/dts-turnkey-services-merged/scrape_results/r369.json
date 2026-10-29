@@ -1,0 +1,88 @@
+{
+ "row_id": "r369",
+ "scraped_at": "2026-10-29T03:22:46Z",
+ "contacts": {
+  "row_id": "r369",
+  "institution_name": "Fluid Dynamics",
+  "institution_type": "unknown",
+  "official_website": "https://www.fluiddynamics.info/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.fluiddynamics.info/",
+   "evidence_quote": "Fluid Dynamics | Hose Assemblies | 192 Sheldon Road, Manchester, CT, United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Parker Hannifin",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fluiddynamics.info/about-us",
+    "evidence_quote": "We focus on connector products for hydraulic & pneumatic applications. Our product mix affords us the opportunity to provide complete solutions to the customer. Our major lines are Parker Hannifin and Dixon Valve & Fitting. Additionally, we have other supporting lines.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Dixon Valve & Fitting",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fluiddynamics.info/about-us",
+    "evidence_quote": "We focus on connector products for hydraulic & pneumatic applications. Our product mix affords us the opportunity to provide complete solutions to the customer. Our major lines are Parker Hannifin and Dixon Valve & Fitting. Additionally, we have other supporting lines.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fluid Dynamics",
+    "city": "Manchester",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.fluiddynamics.info/",
+    "evidence_quote": "Fluid Dynamics | Hose Assemblies | 192 Sheldon Road, Manchester, CT, United States"
+   },
+   {
+    "campus_name": "Hydratec Industries",
+    "city": "Torrington",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.fluiddynamics.info/",
+    "evidence_quote": "We'd like to introduce our newest Parker Store Product Center location, Hydratec Industries"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The institution is a commercial company, not an educational institution. No Erasmus+ or international mobility contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 6.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 14.4
+ }
+}
