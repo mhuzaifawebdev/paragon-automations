@@ -1,0 +1,83 @@
+{
+ "row_id": "r078",
+ "scraped_at": "2026-10-29T02:51:33Z",
+ "contacts": {
+  "row_id": "r078",
+  "institution_name": "Six Foot",
+  "institution_type": "unknown",
+  "official_website": "https://www.6ft.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@6ft.com",
+  "generic_email_url": "https://www.6ft.com/about/#contact",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Houston Cinema Arts Society",
+    "partner_country": "USA",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.6ft.com/about/#contact",
+    "evidence_quote": "Houston Cinema Arts Society",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Los Angeles",
+    "city": "Marina Del Rey",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.6ft.com/about/#contact",
+    "evidence_quote": "Los Angeles"
+   },
+   {
+    "campus_name": "Houston",
+    "city": "Houston",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.6ft.com/about/#contact",
+    "evidence_quote": "Houston ★"
+   },
+   {
+    "campus_name": "Berlin",
+    "city": "Berlin",
+    "country": "Germany",
+    "role": "international",
+    "source_url": "https://www.6ft.com/about/#contact",
+    "evidence_quote": "Berlin"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "Six Foot is an entertainment production company, not an educational institution. No academic partners or Erasmus+ contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 5.1,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 32.9
+ }
+}
