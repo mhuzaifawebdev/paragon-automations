@@ -1,0 +1,174 @@
+{
+ "row_id": "r477",
+ "scraped_at": "2026-10-29T08:51:41Z",
+ "contacts": {
+  "row_id": "r477",
+  "institution_name": "Lea-Sofie Thomsen Lie",
+  "institution_type": "university",
+  "official_website": "https://www.ntnu.no/",
+  "country": {
+   "value": "Norway",
+   "source_url": "https://www.ntnu.no/",
+   "evidence_quote": "NTNU: Norges teknisk-naturvitenskapelige universitet - NTNU"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "postmottak@ntnu.no",
+  "generic_email_url": "https://www.ntnu.no/kontakt",
+  "contact": {
+   "name": "Torstein Hjelle",
+   "designation": "Contact person",
+   "designation_local": "",
+   "email": "torstein.hjelle@ntnu.no",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ntnu.no/idi/bedriftskontakt",
+   "evidence_quote": "Kontaktperson | ... Torstein Hjelle |",
+   "email_source_url": "https://www.ntnu.no/ansatte/torstein.hjelle"
+  },
+  "alternates": [
+   {
+    "name": "Grethe Sandstrak",
+    "designation": "Contact person",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ntnu.no/idi/bedriftskontakt",
+    "evidence_quote": "Kontaktperson | ... Grethe Sandstrak |",
+    "why_chosen": "Other role. She is listed as a contact person for bachelor's degree projects."
+   },
+   {
+    "name": "Alexander Holt",
+    "designation": "Contact person",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ntnu.no/idi/bedriftskontakt",
+    "evidence_quote": "Kontaktperson | ... Alexander Holt |",
+    "why_chosen": "Other role. He is listed as a contact person for project assignments."
+   }
+  ],
+  "rung": "Other role. He is listed as a contact person for master's degree projects. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'Norges teknisk-naturvitenskapelige universitet' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SINTEF",
+    "partner_country": "Norway",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ntnu.no/",
+    "evidence_quote": "Siste fra NTNU og forskningsnyheter fra NTNU og SINTEF.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "kindly.ai",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ntnu.no/",
+    "evidence_quote": "kindly.ai (jira II-3655, II-3188, II-2997)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "samfunns- og arbeidslivet",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ntnu.no/gjovik",
+    "evidence_quote": "NTNU i Gjøvik har en faglig profil innen Sikkerhet, Helse, Teknologi, Design og Logistikk. Vi er en kompakt og dynamisk campus der fagmiljøene samarbeider tett med hverandre og med samfunns- og arbeidslivet.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "næringsliv og arbeidsliv",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ntnu.no/alesund",
+    "evidence_quote": "Forsking og innovasjon gjerne saman med næringsliv og arbeidsliv.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "NTNU i Gjøvik",
+    "city": "Gjøvik",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.ntnu.no/",
+    "evidence_quote": "NTNU i Gjøvik"
+   },
+   {
+    "campus_name": "NTNU i Trondheim",
+    "city": "Trondheim",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://www.ntnu.no/",
+    "evidence_quote": "NTNU i Trondheim"
+   },
+   {
+    "campus_name": "NTNU i Ålesund",
+    "city": "Ålesund",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.ntnu.no/",
+    "evidence_quote": "NTNU i Ålesund"
+   }
+  ],
+  "stated_total": 50,
+  "stated_total_quote": "Meir enn 50 verksemder gir oss kvart år oppgåver som studentane løyser i ulike delar av studia sine. Det kan vere bachelor- eller masteroppgåver, eller prosjektoppgåver undervegs. Eit oppgåvesamarbeid er ein \"vinn-vinn\" situasjon for verksemdene, studenten og instituttet.",
+  "stated_total_url": "https://www.ntnu.no/idi/bedriftskontakt",
+  "truncated": true,
+  "total_seen": 50,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides general contact information for the institution but does not list specific Erasmus+ coordinators or international mobility officers. No list of international partners is provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 54.5,
+  "crawl_s": 14.0,
+  "ai_calls": 5,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 5,
+  "email_search_s": 1.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 74.0
+ }
+}
