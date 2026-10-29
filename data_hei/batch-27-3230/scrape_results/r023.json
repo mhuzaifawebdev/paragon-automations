@@ -1,0 +1,133 @@
+{
+ "row_id": "r023",
+ "scraped_at": "2026-10-29T10:46:07Z",
+ "contacts": {
+  "row_id": "r023",
+  "institution_name": "ETABLISSEMENT PUBLIC LOCAL D'ENSEIGNEMENT ET DE FORMATION PROFESSIONNELLE AGRICOLE DE GRENOBLE-SAINT ISMIER",
+  "institution_type": "college",
+  "official_website": "https://campus-horticole-st-ismier-grenoble.educagri.fr/",
+  "country": {
+   "value": "FRANCE",
+   "source_url": "https://campus-horticole-st-ismier-grenoble.educagri.fr/",
+   "evidence_quote": "FRANCE"
+  },
+  "phone": {
+   "value": "04 76 52 03 63",
+   "source_url": "https://campus-horticole-st-ismier-grenoble.educagri.fr/",
+   "evidence_quote": "Tél. : 04 76 52 03 63 <tel 0476520363>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marie BELVALETTE",
+   "designation": "Director of the EPL and principal of the LEGTA",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "04 76 52 03 63",
+   "source_url": "https://campus-horticole-st-ismier-grenoble.educagri.fr/letablissement/nous-contacter/",
+   "evidence_quote": "Directrice de l'EPL et proviseure du LEGTA : Madame Marie BELVALETTE"
+  },
+  "alternates": [
+   {
+    "name": "Stéphane JOVAL",
+    "designation": "Deputy Director of the EPL and deputy principal of the LEGTA",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "04 76 52 03 63",
+    "source_url": "https://campus-horticole-st-ismier-grenoble.educagri.fr/letablissement/nous-contacter/",
+    "evidence_quote": "Directeur adjoint de l'EPL et proviseur adjoint du LEGTA : Monsieur Stéphane JOVAL",
+    "why_chosen": "Principal / director (no Erasmus contact found). He serves as the deputy head of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the Director of the institution, she is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Parc du Château Dodo",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://campus-horticole-st-ismier-grenoble.educagri.fr/les-jardins-du-campus/",
+    "evidence_quote": "Parc du Château Dodo à Domène",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Jardin Dominique Villars",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://campus-horticole-st-ismier-grenoble.educagri.fr/les-jardins-du-campus/",
+    "evidence_quote": "Jardin Dominique Villars à la Tronche",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Jardins du Couvent Sainte-Cécile",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://campus-horticole-st-ismier-grenoble.educagri.fr/les-jardins-du-campus/",
+    "evidence_quote": "Jardins du Couvent Sainte-Cécile à Grenoble",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Parc technologique Isiparc",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://campus-horticole-st-ismier-grenoble.educagri.fr/les-jardins-du-campus/",
+    "evidence_quote": "Parc technologique Isiparc à Saint-Ismier",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus horticole Saint-Ismier - Grenoble",
+    "city": "Saint-Ismier",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://campus-horticole-st-ismier-grenoble.educagri.fr/",
+    "evidence_quote": "Campus horticole Saint-Ismier - Grenoble - Le Campus horticole Saint-Ismier - Grenoble, formations scolaires, en apprentissage et continues pour adultes !"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 3,
+  "coverage_note": "The evidence mentions a strong international network but does not provide a specific list of partner institutions. No specific Erasmus+ coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 9.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     126
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 23.9
+ }
+}
