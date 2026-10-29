@@ -1,0 +1,67 @@
+{
+ "row_id": "r331",
+ "scraped_at": "2026-10-29T03:18:38Z",
+ "contacts": {
+  "row_id": "r331",
+  "institution_name": "Maine Natural Health",
+  "institution_type": "unknown",
+  "official_website": "https://www.sfh.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Customer Service",
+   "designation": "Customer Service",
+   "designation_local": "",
+   "email": "customerservice@sfh.com",
+   "office_email": "",
+   "phone": "207-593-8701",
+   "source_url": "https://www.sfh.com/pages/contact",
+   "evidence_quote": "Got a customer service inquiry?"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). This is the designated contact point for inquiries at the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "SFH",
+    "city": "Rockland",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.sfh.com/",
+    "evidence_quote": "91 Camden St. Suite 405"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The provided evidence describes a commercial company selling health supplements, not an educational institution. No information regarding Erasmus+ partnerships or academic mobility is present.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 3.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 26.6
+ }
+}
