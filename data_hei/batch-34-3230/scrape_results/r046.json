@@ -1,0 +1,125 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-29T12:50:37Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "OGEC SAINT DENIS",
+  "institution_type": "school",
+  "official_website": "https://www.institution-saintdenis.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.institution-saintdenis.fr/",
+   "evidence_quote": "[Institution Saint Denis, Croix Rousse, Lyon, France.]"
+  },
+  "phone": {
+   "value": "04 78 296 206",
+   "source_url": "https://www.institution-saintdenis.fr/",
+   "evidence_quote": "04 78 296 206 <tel 0478296206>"
+  },
+  "phone_alt": [],
+  "generic_email": "contact@institution-saintdenis.fr",
+  "generic_email_url": "https://www.institution-saintdenis.fr/",
+  "contact": {
+   "name": "Virginie COCHET",
+   "designation": "Head of school and coordination",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.institution-saintdenis.fr/vie-a-saint-denis/presentation-des-equipes/",
+   "evidence_quote": "Virginie COCHET ... Chef d'établissement école et coordination"
+  },
+  "alternates": [
+   {
+    "name": "Fabienne LEGER",
+    "designation": "Language project manager / Italian teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.institution-saintdenis.fr/vie-a-saint-denis/presentation-des-equipes/",
+    "evidence_quote": "Fabienne LEGER ... Responsable projet langues / Professeur d'Italien",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is responsible for language projects, which are typically linked to international mobility."
+   },
+   {
+    "name": "Marc JEHAN",
+    "designation": "PE teacher / Japan project manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.institution-saintdenis.fr/vie-a-saint-denis/presentation-des-equipes/",
+    "evidence_quote": "Marc JEHAN ... Professeur d'EPS / Responsable projet Japon",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He manages the Japan project, indicating involvement in international activities."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the head of the school, she is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "mcube",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.institution-saintdenis.fr/",
+    "evidence_quote": "site réalisé par @mcube",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institution Saint Denis",
+    "city": "Lyon",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.institution-saintdenis.fr/",
+    "evidence_quote": "7-14 rue Hénon,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not provide a list of international partners or Erasmus+ agreements. The contact information provided is for general school administration.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 9.4,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     171
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 16.5
+ }
+}

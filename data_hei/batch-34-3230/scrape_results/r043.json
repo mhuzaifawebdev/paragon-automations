@@ -1,0 +1,26 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-10-29T12:50:20Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "BUC Ressources",
+  "institution_type": "unknown",
+  "official_website": "",
+  "country": null,
+  "phone": null,
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "none",
+  "confidence": 0,
+  "needs_human_check": true,
+  "pages_read": 0,
+  "notes": "Website not found (website column in the sheet: https://buc-ressources.org/ -> homepage does not mention this institution's name or phone; email domain: https://www.seay.fr/ -> could not read https://www.seay.fr/ (SSLCertVerificationError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.seay.fr'. (_ssl.c:1010)>); email domain: https://seay.fr/ -> could not read https://seay.fr/ (SSLCertVerificationError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'seay.fr'. (_ssl.c:1010)>); web search (Google via Gemini): https://buc-ressources.org/ -> homepage does not mention this institution's name or phone)"
+ },
+ "network": null,
+ "network_skipped": "website not found",
+ "timing": {
+  "discover_s": 5.4,
+  "total_seconds": 5.4
+ }
+}
