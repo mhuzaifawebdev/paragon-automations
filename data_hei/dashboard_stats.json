@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-29T00:15:50.281260+00:00",
+ "generated_at": "2026-10-29T00:20:22.803011+00:00",
  "totals": {
-  "institutes": 8219,
-  "with_contact": 5226,
-  "with_email": 4463,
-  "personal_email": 3075,
-  "generic_email": 3288,
-  "partners": 127760,
-  "campuses": 10789,
+  "institutes": 8244,
+  "with_contact": 5248,
+  "with_email": 4483,
+  "personal_email": 3090,
+  "generic_email": 3305,
+  "partners": 128493,
+  "campuses": 10845,
   "no_website": 1378,
-  "with_website": 6841,
-  "batches": 124
+  "with_website": 6866,
+  "batches": 125
  },
  "days": [
   {
@@ -123,30 +123,46 @@
   },
   {
    "day": "2026-10-28",
-   "institutes": 5289,
-   "with_contact": 3106,
-   "with_email": 2664,
-   "personal_email": 1720,
-   "generic_email": 2021,
-   "partners": 63795,
-   "campuses": 6652,
+   "institutes": 5292,
+   "with_contact": 3109,
+   "with_email": 2666,
+   "personal_email": 1722,
+   "generic_email": 2023,
+   "partners": 63901,
+   "campuses": 6656,
    "no_website": 1113,
-   "with_website": 4176
+   "with_website": 4179
   },
   {
    "day": "2026-10-29",
-   "institutes": 95,
-   "with_contact": 36,
-   "with_email": 32,
-   "personal_email": 19,
-   "generic_email": 23,
-   "partners": 672,
-   "campuses": 67,
+   "institutes": 117,
+   "with_contact": 55,
+   "with_email": 50,
+   "personal_email": 32,
+   "generic_email": 38,
+   "partners": 1299,
+   "campuses": 119,
    "no_website": 51,
-   "with_website": 44
+   "with_website": 66
   }
  ],
  "batches": [
+  {
+   "batch": "legacy-db-ccc-merged-898",
+   "status": "running",
+   "total_rows": 1155,
+   "done": 25,
+   "updated": "2026-10-29T00:20:20.774067+00:00",
+   "institutes": 25,
+   "with_contact": 22,
+   "with_email": 20,
+   "personal_email": 15,
+   "generic_email": 17,
+   "partners": 733,
+   "campuses": 56,
+   "no_website": 0,
+   "with_website": 25
+  },
   {
    "batch": "merged-legacy-database-batch-4-ibrah",
    "status": "done",
