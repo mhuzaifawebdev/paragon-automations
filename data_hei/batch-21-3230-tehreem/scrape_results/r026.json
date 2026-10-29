@@ -1,0 +1,158 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-29T12:42:16Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "ECOLE SUPERIEURE BILLIERES",
+  "institution_type": "college",
+  "official_website": "https://www.billieres.com/",
+  "country": null,
+  "phone": {
+   "value": "05 62 48 54 85",
+   "source_url": "https://www.billieres.com/",
+   "evidence_quote": "05 62 48 54 85"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@billieres.com",
+  "generic_email_url": "https://www.billieres.com/mobilite-internationale/",
+  "contact": {
+   "name": "Nicolas PIQUE",
+   "designation": "General Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.billieres.com/notre-equipe/",
+   "evidence_quote": "Nicolas PIQUE ... Directeur Général"
+  },
+  "alternates": [
+   {
+    "name": "Claire LING",
+    "designation": "Head of Bachelor and Master programs",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.billieres.com/notre-equipe/",
+    "evidence_quote": "Claire LING ... Responsable Bachelor et Mastere",
+    "why_chosen": "Other role. Claire Ling is the manager responsible for Bachelor and Master programs."
+   },
+   {
+    "name": "Laure ALLIERES",
+    "designation": "Corporate Relations Manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.billieres.com/notre-equipe/",
+    "evidence_quote": "Laure ALLIERES ... Responsable des Relations Entreprises",
+    "why_chosen": "Other role. Laure Allieres is responsible for corporate relations, which is relevant for international partnerships."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Nicolas Pique is identified as the General Director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kalysco",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.billieres.com/kalysco/",
+    "evidence_quote": "Notre école fait partie d’un réseau d’écoles éthiques : Kalysco Le réseau Kalysco réunit des écoles indépendantes, multi-formations, multi-secteurs et multi-sites à l’échelle nationale. Écoles généralistes de Bac +2 à Bac +5, spécialisées en santé, tourisme, langues ou danse… les formations sont variées et complémentaires, offrant un large éventail de possibilités pour s’orienter vers son futur domaine de compétences. Plus de 28 établissements répartis dans 17 villes accueillent chaque année env",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "OFAJ",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.billieres.com/mobilite-internationale/",
+    "evidence_quote": "(OFAJ, Région Occitanie)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Région Occitanie",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.billieres.com/mobilite-internationale/",
+    "evidence_quote": "(OFAJ, Région Occitanie)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Office franco-allemand pour la Jeunesse",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.billieres.com/mobilite-internationale/",
+    "evidence_quote": "L'Office franco-allemand pour la Jeunesse (OFAJ) soutient les étudiants de BTS qui effectuent leur stage obligatoire en Allemagne",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mouv'Occitanie",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.billieres.com/mobilite-internationale/",
+    "evidence_quote": "[Mouv'Occitanie Logo]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ecoles Billières",
+    "city": "Toulouse",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.billieres.com/",
+    "evidence_quote": "27 Rue Ingres"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 8,
+  "coverage_note": "The website mentions that students have been hosted in nearly 20 countries, but does not provide a specific list of partner institutions. No specific Erasmus coordinator name is provided, only a general email address.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 11.8,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 6.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     536
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 43.8
+ }
+}
