@@ -1,0 +1,118 @@
+{
+ "row_id": "r044",
+ "scraped_at": "2026-10-29T10:31:20Z",
+ "contacts": {
+  "row_id": "r044",
+  "institution_name": "FEDAC Sant Narcís",
+  "institution_type": "school",
+  "official_website": "https://santnarcis.fedac.cat/",
+  "country": null,
+  "phone": {
+   "value": "972 233 142",
+   "source_url": "https://santnarcis.fedac.cat/",
+   "evidence_quote": "972 233 142"
+  },
+  "phone_alt": [],
+  "generic_email": "fedac.santnarcis@fedac.cat",
+  "generic_email_url": "https://santnarcis.fedac.cat/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "FECC",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://santnarcis.fedac.cat/",
+    "evidence_quote": "[FECC-25]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://santnarcis.fedac.cat/",
+    "evidence_quote": "[logo-erasmus]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ajuntament",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://santnarcis.fedac.cat/lescola-disposa-dun-coordinador-de-mobilitat-escolar-cme/",
+    "evidence_quote": "Coordina i guia els projectes de mobilitat que promou l’Ajuntament dins del centre escolar on imparteix les classes.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Setmana Europea de la Mobilitat",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://santnarcis.fedac.cat/setmana-europea-de-la-mobilitat/",
+    "evidence_quote": "L’escola un any més participa a la Setmana Europea de la Mobilitat (SEM) dins la proposta europea de mobilitat sostenible (parking day). Una setmana on molts pobles i ciutats fomenten canvis a favor del medi ambient i les persones (mobilitat activa, transport públic, net i intel·ligent).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Comissió Europea",
+    "partner_country": "Europe",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://santnarcis.fedac.cat/setmana-europea-de-la-mobilitat/",
+    "evidence_quote": "Aquest curs la Comissió Europea ha escollit el tema “Eficiència energètica” i el lema “Combina i mou-te!”",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "FEDAC Sant Narcís",
+    "city": "Girona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://santnarcis.fedac.cat/",
+    "evidence_quote": "C/ Pare Coll, 3 - 17005 Girona"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not list any specific Erasmus+ partners or international mobility coordinators. The institution is a school and does not appear to have a dedicated international relations department.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.9,
+  "crawl_s": 19.2,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 37.4
+ }
+}
