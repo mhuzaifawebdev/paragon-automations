@@ -1,0 +1,102 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-29T10:44:28Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "IES PUERTA DE CUARTOS",
+  "institution_type": "school",
+  "official_website": "https://www.iespuertadecuartos.es/",
+  "country": null,
+  "phone": {
+   "value": "925 82 70 07",
+   "source_url": "https://www.iespuertadecuartos.es/index.php?option=com_content&view=article&id=77:programa-erasmus&catid=37&Itemid=487",
+   "evidence_quote": "Teléfono: 925 82 70 07"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Pilar López Martín",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iespuertadecuartos.es/index.php?option=com_content&view=article&id=23&Itemid=238",
+   "evidence_quote": "Directora: | ... Pilar López Martín |"
+  },
+  "alternates": [
+   {
+    "name": "Elena Rafael de la Cruz Oliva",
+    "designation": "Head of Studies",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iespuertadecuartos.es/index.php?option=com_content&view=article&id=23&Itemid=238",
+    "evidence_quote": "Jefa de Estudios: | ... Elena Rafael de la Cruz Oliva |",
+    "why_chosen": "Secretary / administration (last resort). She is a senior administrator involved in the management of the school's virtual platforms and academic processes."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the Director of the institution, she holds the primary leadership role for the school.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UNICAJA",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iespuertadecuartos.es/",
+    "evidence_quote": "Resguardo/justificante del ingreso en cuenta ES96 21037842 9200 3041 2747 de UNICAJA del Seguro Escolar (obligatorio): 1,12€.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Puerta de Cuartos",
+    "city": "Talavera de la Reina",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iespuertadecuartos.es/",
+    "evidence_quote": "45600 Talavera de la Reina (Toledo)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 6,
+  "coverage_note": "The institution mentions participating in Erasmus+ programs and collaborating with various European companies and educational centers, but does not provide a specific list of partner names.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 8.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 25.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 5.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 41.5
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-29T10:44:37Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Nova univerza, Fakulteta za slovenske in mednarodne študije",
+  "institution_type": "university",
+  "official_website": "https://www.nova-uni.si/",
+  "country": {
+   "value": "Slovenia",
+   "source_url": "https://www.nova-uni.si/",
+   "evidence_quote": "Slovenija"
+  },
+  "phone": {
+   "value": "+386 5 934 47 65",
+   "source_url": "https://www.nova-uni.si/mednarodno/mednarodna-sodelovanja/",
+   "evidence_quote": "Telefon: +386 5 934 47 65"
+  },
+  "phone_alt": [],
+  "generic_email": "international@nova-uni.si",
+  "generic_email_url": "https://www.nova-uni.si/mednarodno/erasmus-2/",
+  "contact": {
+   "name": "Peter Jambrek",
+   "designation": "Rector of the New University",
+   "designation_local": "",
+   "email": "peter.jambrek@nova-uni.si",
+   "office_email": "rektorat@nova-uni.si",
+   "phone": "",
+   "source_url": "https://www.nova-uni.si/univerza/o-novi-univerzi/kontakti/",
+   "evidence_quote": "Peter Jambrek, rektor Nove univerze",
+   "email_source_url": "https://epf.nova-uni.si/en/faculty/about-the-faculty/staff/"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Peter Jambrek is the rector of the New University. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Pravni fakultet za privredu i pravosuđe",
+    "partner_country": "Serbia",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "https://www.nova-uni.si/utrinki-erasmus-staff-izmenjava-v-novi-sad/",
+    "evidence_quote": "Inga Pikl in Suzana Dejić, sta se med 5. in 7. marcem 2025 udeležili Erasmus Staff izmenjave v Novem Sadu, kjer sta obiskali Pravni fakultet za privredu i pravosuđe. Začetni ogled fakultete in njenih prostorov je bil organiziran, da sta lahko takoj dobili občutek, kako fakulteta deluje na dnevni ravni. Z zaposlenimi na njihovi fakulteti sta si izmenjali znanja in dobre prakse, prav tako pa so razpravljali o izboljšavah in inovacijah, ki bi jih lahko uvedli na obeh institucijah. Vrhunec obiska je",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Nova univerza",
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://www.nova-uni.si/",
+    "evidence_quote": "1000 Ljubljana"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a general Erasmus+ policy document and contact information for the international office, but does not contain a comprehensive list of all partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 14.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 4,
+  "email_search_s": 7.2,
+  "total_seconds": 51.2
+ }
+}
