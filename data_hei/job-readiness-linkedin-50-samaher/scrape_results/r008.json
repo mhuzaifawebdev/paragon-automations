@@ -1,0 +1,112 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-29T04:50:22Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Biznesa vadības koledža",
+  "institution_type": "college",
+  "official_website": "https://www.bvk.lv/",
+  "country": {
+   "value": "Latvia",
+   "source_url": "https://www.bvk.lv/",
+   "evidence_quote": "Adrese: Alberta iela 13, Rīga, LV-1010, Latvija"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "bvk@bvk.lv",
+  "generic_email_url": "https://www.bvk.lv/",
+  "contact": {
+   "name": "Jānis Supe",
+   "designation": "Deputy Director for Development",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bvk.lv/kontakti/komanda/",
+   "evidence_quote": "Jānis Supe ... Direktora vietnieks attīstības jomā"
+  },
+  "alternates": [
+   {
+    "name": "Inga Kadeka-Harkova",
+    "designation": "International Cooperation Coordinator",
+    "designation_local": "",
+    "email": "janis.supe@bvk.lv",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bvk.lv/erasmus-mobilitates-studentiem/",
+    "evidence_quote": "Inga Kadeka-Harkova ... Starptautiskās sadarbības koordinatore",
+    "why_chosen": "Mobility coordinator. She is the designated International Cooperation Coordinator responsible for Erasmus+ mobility."
+   },
+   {
+    "name": "Signe Vaičulena",
+    "designation": "Director of the College",
+    "designation_local": "",
+    "email": "signe.enkuzena@luma.lv",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bvk.lv/kontakti/komanda/",
+    "evidence_quote": "Dr sc.adminstr., Mg psych Signe Vaičulena ... Biznesa vadības koledžas direktore",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the Director of the college and oversees institutional operations including international cooperation."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. He is the Deputy Director for Development and is listed as a contact for Erasmus+ matters.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "BEETROOT SRL",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.bvk.lv/erasmus-mobilitates-studentiem/",
+    "evidence_quote": "Iespēja praksi veikt Itālijā, Palermo, uzņēmumā “BEETROOT SRL”, Erasmus+ programmas ietvaros. Dalībniekiem tiks piešķirta Erasmus+ stipendija dzīvošanas izdevumu segšanai.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BABILONIA EATS SRL",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.bvk.lv/erasmus-mobilitates-studentiem/",
+    "evidence_quote": "Iespēja praksi veikt Itālijā, Palermo, uzņēmumā “BABILONIA EATS SRL”, Erasmus+ programmas ietvaros. Dalībniekiem tiks piešķirta Erasmus+ stipendija dzīvošanas izdevumu segšanai.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Biznesa vadības koledža",
+    "city": "Rīga",
+    "country": "Latvia",
+    "role": "main",
+    "source_url": "https://www.bvk.lv/",
+    "evidence_quote": "Adrese: Alberta iela 13, Rīga, LV-1010, Latvija"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information on Erasmus+ procedures and specific traineeship partners, but does not contain a comprehensive list of all university-level Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 13.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.0,
+  "total_seconds": 40.1
+ }
+}
