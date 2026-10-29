@@ -1,0 +1,71 @@
+{
+ "row_id": "r031",
+ "scraped_at": "2026-10-29T13:07:56Z",
+ "contacts": {
+  "row_id": "r031",
+  "institution_name": "CIFP EASO POLITEKNIKOA DONOSTIA-SAN SEBASTIAN LHII",
+  "institution_type": "college",
+  "official_website": "https://easo.eus/",
+  "country": null,
+  "phone": {
+   "value": "943 455 422",
+   "source_url": "https://easo.eus/",
+   "evidence_quote": "943 455 422 <tel 943455422>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@easo.eus",
+  "generic_email_url": "https://easo.eus/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Bilbao Ostalaritza Goi Eskola",
+    "partner_country": "Spain",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://easo.eus/",
+    "evidence_quote": "Easo Politeknikoko aho eta hortzen higieneko mintegia, Plaiaundiko dietetikako mintegiarekin eta Bilbao Ostalaritza Goi Eskolarekin batera, IMMUNOTASTE proiektuan murgilduta dabil aurtengo ikasturtean. Baina zer da IMMUNOTASTE? IMMUNOTASTE osasunaren prebentzioa bilatzen duen berrikuntza-proiektua da. Izan ere,…",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Easo Politeknikoa",
+    "city": "Donostia-San Sebastian",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://easo.eus/kontaktua/",
+    "evidence_quote": "Aitzol Parkea, 2, 20011 Donostia-San Sebastian, Gipuzkoa"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ partners or specific contact persons for international mobility. The institution is a vocational training center (Formación Profesional).",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.3,
+  "crawl_s": 14.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 41.2
+ }
+}
