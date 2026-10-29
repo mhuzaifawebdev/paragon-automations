@@ -6,6 +6,7 @@
  *   every 10 minutes, 07:00-16:59 UTC  ->  .github/workflows/pause_monitor.yml   (auto-dialer: offline/idle, call gaps)
  *   every 15 minutes                   ->  .github/workflows/resume_batches.yml  (scraper: restart paused batches)
  *   every 10 minutes                   ->  .github/workflows/queue.yml           (scraper: Drive inbox + batch queue)
+ *   every hour, 07:00-16:59 UTC        ->  .github/workflows/rescrape.yml        (dialer's failed leads -> scraper)
  *
  * Install (once), in the same Apps Script project as LogoutWatch.gs (AutoDialer-Alerts sheet > Extensions > Apps Script):
  *   1. Add a file, paste this, save.
@@ -24,12 +25,15 @@ function setupScheduler() {
   ScriptApp.newTrigger('startPauseMonitor').timeBased().everyMinutes(10).create();
   ScriptApp.newTrigger('startResumeBatches').timeBased().everyMinutes(15).create();
   ScriptApp.newTrigger('startBatchQueue').timeBased().everyMinutes(10).create();
+  ScriptApp.newTrigger('startRescrape').timeBased().everyHours(1).create();
 }
 
 function stopScheduler() {
   ScriptApp.getProjectTriggers().forEach(function (t) {
     var f = t.getHandlerFunction();
-    if (f === 'startPauseMonitor' || f === 'startResumeBatches' || f === 'startBatchQueue') ScriptApp.deleteTrigger(t);
+    if (f === 'startPauseMonitor' || f === 'startResumeBatches' || f === 'startBatchQueue' || f === 'startRescrape') {
+      ScriptApp.deleteTrigger(t);
+    }
   });
 }
 
@@ -44,6 +48,11 @@ function startResumeBatches() {
 
 function startBatchQueue() {
   dispatchWorkflow_('queue.yml');
+}
+
+function startRescrape() {
+  if (!monitorHour(new Date().getUTCHours())) return;
+  dispatchWorkflow_('rescrape.yml');
 }
 
 function monitorHour(h) {

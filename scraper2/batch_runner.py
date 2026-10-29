@@ -328,7 +328,8 @@ def run_chunk(rows, cfg, workers, results_dir, on_row_done=None, data_dir=None):
                 if on_row_done:
                     on_row_done(timings, costs, done_ids)
             return
-        if data_dir is not None and cfg.get("reuse_earlier_results", True):
+        if (data_dir is not None and cfg.get("reuse_earlier_results", True)
+                and not (Path(data_dir) / "NO_REUSE").exists()):        # a dialer rescrape must scrape again
             # already scraped in an earlier batch (data_hei/_index.json): copied, nothing is paid again
             prior = reuse.lookup(r, Path(data_dir).parent, Path(data_dir).name,
                                  int(cfg.get("reuse_max_age_days", 180)), fetch_archive)

@@ -78,7 +78,8 @@ def take_requests(q, data_root, now):
         if b and b not in have:
             q["items"].append({"batch": b, "source": req.get("source") or "upload page", "added": req.get("added") or now,
                                "state": "queued", "reader": req.get("reader") or "paid",
-                               "provider": req.get("provider") or "gemini", "chunk_size": req.get("chunk_size") or 25})
+                               "provider": req.get("provider") or "gemini", "chunk_size": req.get("chunk_size") or 25,
+                               **{k: req[k] for k in ("priority", "kind") if req.get(k)}})
             have.add(b)
         f.unlink()
 
@@ -167,7 +168,8 @@ def tick(data_root, now, cfg, ops):
             log.append(q["paused"])
         else:
             q["paused"] = None
-            for it in [i for i in q["items"] if i["state"] == "queued"]:
+            queued = [i for i in q["items"] if i["state"] == "queued"]
+            for it in sorted(queued, key=lambda i: not i.get("priority")):     # dialer rescrapes first, else in order
                 if (Path(data_root) / it["batch"] / "CANCELLED").exists():
                     log.append(settle(q, it, "cancelled", "Cancelled before it started.", ops, now))
                     continue
@@ -219,6 +221,8 @@ class Ops:
         _write(bdir / "reader.json", {**reader, "set_at": now_iso()})
         if "cap_usd" in it:
             _write(bdir / "BUDGET", {"cap_usd": it["cap_usd"]})
+        if it.get("kind") == "rescrape":                # scrape again: the earlier result holds the number that failed
+            _write(bdir / "NO_REUSE", {"set_at": now_iso()})
         self.to_start.append({"batch": it["batch"], "provider": it.get("provider") or "gemini",
                               "chunk_size": it.get("chunk_size") or 25})
 
@@ -230,6 +234,12 @@ class Ops:
             (self.drive.to_done(f, note) if folder == "Done" else self.drive.to_failed(f, note))
         except Exception as e:
             it["note"] = f"Source file not moved in Drive: {str(e)[:150]}"
+
+    def send_to_dialer(self, batch, lead_map, rows, results):
+        import rescrape_leads as rl
+        url, password = rl.dialer_env()
+        return rl.send_rescraped(lead_map, rows, results,
+                                 lambda out: rl.upload_to_dialer(out, url, password, f"Rescraped {batch}"))
 
     def finish(self, q, it, now):
         import drive_upload
@@ -243,6 +253,19 @@ class Ops:
                 it["note"] = f"Finished, waiting for the Drive upload: {err or 'Drive is not set up'}"
                 return f"{batch}: finished, Drive upload pending"
         results = {f.stem: _read(f, {}) for f in (bdir / "scrape_results").glob("r*.json")}
+        rows = []
+        if (bdir / "numbers_clean.csv").exists():
+            with open(bdir / "numbers_clean.csv", newline="", encoding="utf-8-sig") as fh:
+                rows = list(csv.DictReader(fh))
+        lead_map = self.data_root / "rescrape" / f"{batch}.json"
+        if lead_map.exists():                           # a dialer rescrape: its new contacts go back to the dialer
+            try:
+                sent, none = self.send_to_dialer(batch, _read(lead_map, {}), rows, results)
+            except Exception as e:
+                it["note"] = f"Finished; sending the new contacts to the dialer failed, retried next tick: {str(e)[:150]}"
+                return f"{batch}: dialer upload pending"
+            it.update(dialer_sent=sent, no_new_contact=none)
+            lead_map.unlink()
         if self.drive and results:                      # the full data, kept out of GitHub
             try:
                 svc = self.drive.svc
@@ -251,10 +274,6 @@ class Ops:
             except Exception as e:
                 it["note"] = f"Finished; archive to Drive failed, retried next tick: {str(e)[:150]}"
                 return f"{batch}: archive pending"
-        rows = []
-        if (bdir / "numbers_clean.csv").exists():
-            with open(bdir / "numbers_clean.csv", newline="", encoding="utf-8-sig") as fh:
-                rows = list(csv.DictReader(fh))
         index = reuse.load_index(self.data_root)
         added = reuse.add_batch(index, batch, rows, results)
         (self.data_root / reuse.INDEX_NAME).write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")),

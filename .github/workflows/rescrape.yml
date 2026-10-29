@@ -1,24 +1,21 @@
 name: Rescrape failed dialer leads
 
-# Runs nightly at 02:00 UTC (after Malta calling hours end).
-# Fetches leads the dialer closed as unreachable or wrong_number, looks them up in the
-# scraper's reuse index, and either uploads a mini-batch of alternative contacts to the
-# dialer or drops a rescrape-queue sheet into the Drive folder for the auto-scanner.
+# scripts/rescrape_leads.py: leads the dialer closed as unreachable / wrong_number go back to callers with a number
+# not tried yet, or are queued (first in line) to be scraped again; queue_tick.py sends what that finds to the dialer.
+# Started every hour in calling hours by apps_script/Scheduler.gs, by the "Rescrape failed leads now" button on the
+# scraper page (event rescrape-now), and by the schedule below as a backup (GitHub runs it late or skips it).
 #
-# Required secrets (add in repo Settings → Secrets → Actions):
-#   DIALER_URL          base URL of the dialer, e.g. https://pgi-backend.vercel.app
-#   DIALER_ADMIN_PASS   the dialer admin panel password (ADMIN_PASSWORD in the dialer)
-#   RESCRAPE_SECRET     shared secret; also set as RESCRAPE_SECRET in the dialer's Vercel env
-#   DRIVE_FOLDER_ID     already set for the scraper queue (same value)
-#   GOOGLE_SERVICE_ACCOUNT_JSON  already set for the scraper queue (same value)
+# Secrets: DIALER_URL, DIALER_ADMIN_PASS, RESCRAPE_SECRET (same value as in the dialer's Vercel env), DISPATCH_TOKEN.
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [rescrape-now]
   schedule:
-    - cron: "0 2 * * *"   # 02:00 UTC every day
+    - cron: "15 7-16 * * *"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: rescrape-leads
@@ -29,14 +26,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
-      DIALER_URL:                  ${{ secrets.DIALER_URL }}
-      DIALER_ADMIN_PASS:           ${{ secrets.DIALER_ADMIN_PASS }}
-      RESCRAPE_SECRET:             ${{ secrets.RESCRAPE_SECRET }}
-      DRIVE_FOLDER_ID:             ${{ secrets.DRIVE_FOLDER_ID }}
-      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      DIALER_URL:        ${{ secrets.DIALER_URL }}
+      DIALER_ADMIN_PASS: ${{ secrets.DIALER_ADMIN_PASS }}
+      RESCRAPE_SECRET:   ${{ secrets.RESCRAPE_SECRET }}
+      DISPATCH_TOKEN:    ${{ secrets.DISPATCH_TOKEN }}
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:

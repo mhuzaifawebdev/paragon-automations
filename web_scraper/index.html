@@ -295,6 +295,14 @@
       <div id="q-budget-body"></div>
     </div>
     <div class="card">
+      <h2>Dialer rescrape</h2>
+      <div class="hint">Leads the dialer closes as unreachable or wrong number go back to callers with a number not tried
+        yet, or are scraped again first in line. This runs by itself every hour in calling hours.</div>
+      <div id="r-body" style="margin:12px 0">Loading…</div>
+      <button class="secondary" id="r-now">Rescrape failed leads now</button>
+      <div class="msg" id="r-msg"></div>
+    </div>
+    <div class="card">
       <h2>Batch queue</h2>
       <div class="hint">Lists dropped into the Google Drive folder "Inbox" (or uploaded here) run one after another. Each
         result lands in Drive as "&lt;batch name&gt; results.xlsx" in the Results folder; unusable files go to "Failed" with the reason.</div>
@@ -1027,7 +1035,45 @@ function renderBudget(items, cap, correction, credit) {
     </div>`;
 }
 
+async function loadRescrape() {
+  try {
+    const r = await (await fetch("/api/stats?view=rescrape", { cache: "no-store" })).json();
+    const last = r.last_run;
+    const when = last ? new Date(last.at).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "never";
+    $("r-body").innerHTML = `
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px">
+        <div class="tile"><div class="n">${fmtN(last ? last.fetched : 0)}</div><div class="l">Failed leads, last run (${esc(when)})</div></div>
+        <div class="tile"><div class="n">${fmtN(last ? last.sent_now : 0)}</div><div class="l">Sent back at once</div></div>
+        <div class="tile"><div class="n">${fmtN(r.waiting || 0)}</div><div class="l">Rescrape batches waiting</div></div>
+        <div class="tile"><div class="n">${fmtN(r.sent_after_rescrape || 0)}</div><div class="l">Sent back after rescrape</div></div>
+      </div>
+      ${last && last.error ? `<div class="msg show error" style="margin-top:10px">Last run failed: ${esc(last.error)}</div>` : ""}`;
+  } catch (e) {
+    $("r-body").textContent = "Could not load the rescrape status.";
+  }
+}
+
+$("r-now").addEventListener("click", async () => {
+  const msg = $("r-msg");
+  const token = $("token").value || window.prompt("Access phrase:") || "";
+  $("r-now").disabled = true;
+  try {
+    const resp = await fetch("/api/rescrape-now", {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ token }),
+    });
+    const data = await resp.json();
+    showMsg(msg, resp.ok ? "ok" : "error", resp.ok
+      ? "Started. Failed leads are checked within a minute or two; this card updates when it is done."
+      : (data.error || "Could not start."));
+  } catch (e) {
+    showMsg(msg, "error", "Could not start: " + e.message);
+  } finally {
+    $("r-now").disabled = false;
+  }
+});
+
 async function loadQueue() {
+  loadRescrape();
   try {
     const q = await (await fetch("/api/stats?view=queue", { cache: "no-store" })).json();
     const items = q.items || [];
