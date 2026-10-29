@@ -1,0 +1,99 @@
+{
+ "row_id": "r123",
+ "scraped_at": "2026-10-29T04:00:16Z",
+ "contacts": {
+  "row_id": "r123",
+  "institution_name": "All Current Electrical Sales",
+  "institution_type": "unknown",
+  "official_website": "https://www.allcurrent.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Chad Anderson",
+   "designation": "Gulf Regional Sales Manager",
+   "designation_local": "",
+   "email": "chad.anderson@allcurrent.com",
+   "office_email": "",
+   "phone": "713.344.9688",
+   "source_url": "https://www.allcurrent.com/sales-team",
+   "evidence_quote": "Chad Anderson - Gulf Regional Sales Manager"
+  },
+  "alternates": [
+   {
+    "name": "Eric Enriquez",
+    "designation": "Technical Sales Manager",
+    "designation_local": "",
+    "email": "eenriquez@allcurrent.com",
+    "office_email": "",
+    "phone": "713.469.4802",
+    "source_url": "https://www.allcurrent.com/sales-team",
+    "evidence_quote": "Eric Enriquez - Technical Sales Manager",
+    "why_chosen": "Other role. Eric Enriquez is the Technical Sales Manager at the institution."
+   },
+   {
+    "name": "Kevin Bull",
+    "designation": "Outside Sales Manager",
+    "designation_local": "",
+    "email": "kevin.bull@allcurrent.com",
+    "office_email": "",
+    "phone": "936.520.6044",
+    "source_url": "https://www.allcurrent.com/sales-team",
+    "evidence_quote": "Kevin Bull ... Outside Sales Manager",
+    "why_chosen": "Other role. Kevin Bull is the Outside Sales Manager at the institution."
+   }
+  ],
+  "rung": "Other role. Chad Anderson is a Regional Sales Manager at the institution.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Distribution Center",
+    "city": "Kent",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.allcurrent.com/locations",
+    "evidence_quote": "6402 South 196th Street"
+   },
+   {
+    "campus_name": "Panel Shop",
+    "city": "Houston",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.allcurrent.com/locations",
+    "evidence_quote": "12550 N Houston Rosslyn Road"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a commercial electrical sales company, not an educational institution. No information regarding Erasmus+ or international mobility partnerships is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 12.2,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 8,
+  "email_search_s": 0.0,
+  "total_seconds": 26.2
+ }
+}
