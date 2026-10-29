@@ -94,8 +94,13 @@ class Ops(qt.Ops):
 ops = Ops(root)
 qt.tick(root, "2026-10-30T09:20:00Z", {}, ops)
 items = {i["batch"]: i for i in qt.load_queue(root)["items"]}
-check("the rescrape jumps ahead of the batch queued before it",
-      ([s["batch"] for s in ops.to_start], items[batch]["state"], items["old-batch"]["state"]), ([batch], "running", "queued"))
+check("the rescrape starts first, and runs beside the normal batch instead of waiting for it",
+      ([s["batch"] for s in ops.to_start], items[batch]["state"], items["old-batch"]["state"]), ([batch, "old-batch"], "running", "running"))
+qt._write(root / "_queue_requests" / "next-normal.json", {"batch": "next-normal"})
+qt._write(root / "_queue_requests" / "rescrape-2.json", {"batch": "rescrape-2", "kind": "rescrape", "priority": True})
+ops_b = Ops(root)
+qt.tick(root, "2026-10-30T09:25:00Z", {}, ops_b)
+check("while both run, neither a second normal batch nor a second rescrape starts", ops_b.to_start, [])
 check("it is marked to scrape again, not reuse the old result", (root / batch / "NO_REUSE").exists(), True)
 
 b = root / batch
@@ -116,6 +121,22 @@ check("on finish only the new number goes to the dialer (the tried mobile is ski
 check("the item records what was sent, and the lead map is removed",
       (it["state"], it["dialer_sent"], it["no_new_contact"], (root / "rescrape" / f"{batch}.json").exists()),
       ("done", 1, 0, False))
+
+# ---- a new number goes back to whoever called the lead: the AI caller's seat, or the SALES queue
+ai_groups = rl.group_leads([{"id": "A1", "institute": "Uni AI", "country": "Malta", "phone": "+356 2123 4567",
+                             "assignee": "ai-sarah"},
+                            {"id": "H1", "institute": "Uni Human", "country": "Malta", "phone": "+356 2123 4568"}])
+up_rows, _, _ = rl.classify(ai_groups, None, lookup=lambda i, c: r1)
+sent_batches = []
+real_upload = rl.upload_to_dialer
+rl.upload_to_dialer = lambda rows, url, pw, name, assignee="": sent_batches.append((assignee, [r["Institute"] for r in rows])) or [name]
+rl.upload_back(up_rows, "https://dialer", "pw", "Rescrape-x")
+rl.upload_to_dialer = real_upload
+check("the AI's lead goes back to the AI seat, the agents' lead to SALES",
+      sorted(sent_batches), [("", ["Uni Human"]), ("ai-sarah", ["Uni AI"])])
+_, ai_written = rl.queue_rescrape({k: g for k, g in ai_groups.items() if g["assignee"]}, root, datetime(2026, 10, 30, 11, 0, tzinfo=timezone.utc))
+check("the rescrape's lead map remembers the seat, for the new numbers it finds",
+      list(json.loads(ai_written[2].read_text(encoding="utf-8"))["institutes"].values())[0]["assignee"], "ai-sarah")
 
 # ---- the batch runner really scrapes again when NO_REUSE is set
 import batch_runner as br  # noqa: E402

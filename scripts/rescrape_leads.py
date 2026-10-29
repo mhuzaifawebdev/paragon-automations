@@ -120,8 +120,8 @@ def alternative_contact(result, tried):
             "Designation": best["designation"], "Email": best["email"] or email}
 
 
-def upload_row(institute, country, alt, note):
-    return {"Institute": institute, "Country": country, "Notes": note, **alt}
+def upload_row(institute, country, alt, note, assignee=""):
+    return {"Institute": institute, "Country": country, "Notes": note, **alt, "_assignee": assignee}
 
 
 # ---------------------------------------------------------------------------------------------------------------
@@ -149,10 +149,24 @@ def _proxy(dialer_url, payload, token=None):
     return r.json()
 
 
-def upload_to_dialer(rows, dialer_url, password, name):
-    """Uploads rows as one dialer batch (split into parts of MAX_BATCH_ROWS). Returns the batch names created."""
+def upload_back(rows, dialer_url, password, name):
+    """Each row goes back to whoever called the lead: rows of a batch given to one seat (the AI caller, or an agent)
+    as a batch assigned to that seat again, the others to the SALES queue. Returns the batch names created."""
+    groups = {}
+    for r in rows:
+        groups.setdefault(r.get("_assignee") or "", []).append(r)
+    names = []
+    for seat, part in groups.items():
+        names += upload_to_dialer(part, dialer_url, password, name + (f" ({seat})" if seat else ""), assignee=seat)
+    return names
+
+
+def upload_to_dialer(rows, dialer_url, password, name, assignee=""):
+    """Uploads rows as one dialer batch (split into parts of MAX_BATCH_ROWS), to the SALES queue or, with assignee, to
+    that one seat ("Assign to"). Returns the batch names created."""
     if not rows:
         return []
+    route = {"queue": "AGENT", "assignee": assignee} if assignee else {"queue": DIALER_QUEUE}
     token = _proxy(dialer_url, {"action": "admin_login", "password": password})["token"]
     parts = [rows[i:i + MAX_BATCH_ROWS] for i in range(0, len(rows), MAX_BATCH_ROWS)]
     names = []
@@ -163,8 +177,7 @@ def upload_to_dialer(rows, dialer_url, password, name):
         w.writerows(part)
         part_name = name + (f" p{n}" if len(parts) > 1 else "")
         check = _proxy(dialer_url, {"action": "batch_check", "csv": buf.getvalue()}, token)
-        _proxy(dialer_url, {**check, "action": "batch_create", "name": part_name, "queue": DIALER_QUEUE,
-                            "csv": buf.getvalue()}, token)
+        _proxy(dialer_url, {**check, "action": "batch_create", "name": part_name, **route, "csv": buf.getvalue()}, token)
         names.append(part_name)
         time.sleep(1)
     return names
@@ -190,8 +203,10 @@ def group_leads(leads):
             continue
         country = (lead.get("country") or "").strip()
         g = groups.setdefault(inst_key(inst, country), {"institute": inst, "country": country, "lead_ids": [],
-                                                        "tried": set(), "status": lead.get("status") or ""})
+                                                        "tried": set(), "status": lead.get("status") or "",
+                                                        "assignee": ""})
         g["lead_ids"].append(lead["id"])
+        g["assignee"] = g["assignee"] or (lead.get("assignee") or "").strip()
         g["tried"] |= tried_hashes(lead)
     return groups
 
@@ -205,7 +220,7 @@ def classify(groups, data_root, lookup=None):
         alt = alternative_contact(lookup(g["institute"], g["country"]), g["tried"])
         if alt:
             rows.append(upload_row(g["institute"], g["country"], alt,
-                                   f"Rescrape: previous contact closed {g['status']} ({today})"))
+                                   f"Rescrape: previous contact closed {g['status']} ({today})", g["assignee"]))
             ids += g["lead_ids"]
         else:
             rescrape[key] = g
@@ -244,7 +259,8 @@ def queue_rescrape(groups, data_root, now):
     lead_map.parent.mkdir(parents=True, exist_ok=True)
     lead_map.write_text(json.dumps({"institutes": {k: {"institute": g["institute"], "country": g["country"],
                                                        "lead_ids": g["lead_ids"], "tried": sorted(g["tried"]),
-                                                       "status": g["status"]} for k, g in groups.items()}},
+                                                       "status": g["status"], "assignee": g.get("assignee", "")}
+                                                   for k, g in groups.items()}},
                                    ensure_ascii=False, indent=1), encoding="utf-8")
     return batch, [up, req, lead_map]
 
@@ -261,7 +277,7 @@ def send_rescraped(lead_map, rows, results, send):
         alt = alternative_contact(results.get(row_of.get(key)), set(e.get("tried") or []))
         if alt:
             out.append(upload_row(e["institute"], e["country"], alt,
-                                  f"Rescraped: previous contact closed {e.get('status', '')} ({today})"))
+                                  f"Rescraped: previous contact closed {e.get('status', '')} ({today})", e.get("assignee", "")))
         else:
             none += 1
     if out:
@@ -339,7 +355,7 @@ def main():
         if rows:
             # sent and marked straight away: if anything later fails, these are never sent twice
             _, password = dialer_env()
-            upload_to_dialer(rows, url, password, f"Rescrape-{now:%Y-%m-%d} {now:%H}h")
+            upload_back(rows, url, password, f"Rescrape-{now:%Y-%m-%d} {now:%H}h")
             mark_done(url, secret, ids)
             stats["sent_now"] = len(rows)
         if rescrape:

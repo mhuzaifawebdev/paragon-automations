@@ -159,7 +159,10 @@ def tick(data_root, now, cfg, ops):
         log.append(f"Drive inbox not read: {str(e)[:200]}")
     for it in [i for i in q["items"] if i["state"] == "running"]:
         log.append(check_running(q, it, data_root, now, ops))
-    if not any(i["state"] == "running" for i in q["items"]):
+    # One normal batch at a time; a dialer rescrape (a few institutes) runs beside it instead of waiting hours behind it.
+    lane = lambda i: "rescrape" if i.get("kind") == "rescrape" else "normal"      # noqa: E731
+    busy = {lane(i) for i in q["items"] if i["state"] == "running"}
+    if len(busy) < 2:
         cap = float(cfg.get("max_queue_usd_per_month") or 0)
         spent = month_spent(data_root, now[:7])
         if cap and spent >= cap:
@@ -170,9 +173,12 @@ def tick(data_root, now, cfg, ops):
             q["paused"] = None
             queued = [i for i in q["items"] if i["state"] == "queued"]
             for it in sorted(queued, key=lambda i: not i.get("priority")):     # dialer rescrapes first, else in order
+                if lane(it) in busy:
+                    continue
                 if (Path(data_root) / it["batch"] / "CANCELLED").exists():
                     log.append(settle(q, it, "cancelled", "Cancelled before it started.", ops, now))
                     continue
+                busy.add(lane(it))
                 it.update(state="running", started=now, last_start=now, restarts=0)
                 total = float(cfg.get("max_queue_usd_total") or 0)
                 if total:                               # this batch may spend only what is left of the total
@@ -185,7 +191,8 @@ def tick(data_root, now, cfg, ops):
                     it["cap_usd"] = left
                 ops.start(it)
                 log.append(f"{it['batch']}: started" + (f" (may spend up to ${it['cap_usd']:.2f})" if "cap_usd" in it else ""))
-                break
+                if len(busy) == 2:
+                    break
     q["updated"] = now
     _write(Path(data_root) / "queue.json", q)
     return log
@@ -239,7 +246,7 @@ class Ops:
         import rescrape_leads as rl
         url, password = rl.dialer_env()
         return rl.send_rescraped(lead_map, rows, results,
-                                 lambda out: rl.upload_to_dialer(out, url, password, f"Rescraped {batch}"))
+                                 lambda out: rl.upload_back(out, url, password, f"Rescraped {batch}"))
 
     def finish(self, q, it, now):
         import drive_upload
