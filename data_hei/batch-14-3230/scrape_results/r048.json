@@ -1,0 +1,90 @@
+{
+ "row_id": "r048",
+ "scraped_at": "2026-10-29T13:48:55Z",
+ "contacts": {
+  "row_id": "r048",
+  "institution_name": "LYCEE TECHNIQUE LOUIS PASTEUR",
+  "institution_type": "school",
+  "official_website": "https://www.lyceepasteurtunis.com/",
+  "country": {
+   "value": "Tunis",
+   "source_url": "https://www.lyceepasteurtunis.com/contact/",
+   "evidence_quote": "Adresse : 4, Avenue Louis Braille Tunis 1002"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@lyceepasteurtunis.com",
+  "generic_email_url": "https://www.lyceepasteurtunis.com/contact/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Association des Parents d’Élèves",
+    "partner_country": "Tunis",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceepasteurtunis.com/",
+    "evidence_quote": "Le mercredi 15 avril, la salle Zitouna Sport a accueilli une rencontre sportive organisée par l’Association des Parents d’Élèves en partenariat avec le Lycée Louis Pasteur de Tunis...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AEFE",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceepasteurtunis.com/",
+    "evidence_quote": "D’abord homologué par l’AEFE jusqu’à la classe de 3ᵉ, l’établissement a obtenu en 2018 l’homologation jusqu’à la Terminale, couronnant ainsi des années d’engagement en faveur de l’excellence.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Louis Pasteur",
+    "city": "Tunis",
+    "country": "Tunis",
+    "role": "main",
+    "source_url": "https://www.lyceepasteurtunis.com/contact/",
+    "evidence_quote": "Adresse : 4, Avenue Louis Braille Tunis 1002"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 2,
+  "coverage_note": "The provided evidence does not list any specific Erasmus+ or international mobility coordinators, nor does it provide a list of international academic partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 7.7,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     80
+    ],
+    "returned": 3,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 19.9
+ }
+}
