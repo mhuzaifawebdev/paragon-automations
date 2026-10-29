@@ -1,0 +1,126 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-29T14:02:42Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "MFR-Ireo les Herbiers",
+  "institution_type": "college",
+  "official_website": "https://www.formations-herbiers.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.formations-herbiers.fr/",
+   "evidence_quote": "Les MFR en France"
+  },
+  "phone": {
+   "value": "02 51 91 09 72",
+   "source_url": "https://www.formations-herbiers.fr/",
+   "evidence_quote": "02 51 91 09 72"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Olivier GABOREAU",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "olivier.gaboreau@mfr.asso.fr",
+   "office_email": "",
+   "phone": "02.51.91.09.72",
+   "source_url": "https://www.formations-herbiers.fr/contacter-ireo/",
+   "evidence_quote": "Olivier GABOREAU ... Directeur"
+  },
+  "alternates": [
+   {
+    "name": "Héloïse SOURISSEAU",
+    "designation": "Secretary & Animator",
+    "designation_local": "",
+    "email": "heloise.sourisseau@mfr.asso.fr",
+    "office_email": "",
+    "phone": "02.51.91.09.72",
+    "source_url": "https://www.formations-herbiers.fr/mobilites-internationales/",
+    "evidence_quote": "Héloïse SOURISSEAU ... Secrétaire & Animatrice",
+    "why_chosen": "Secretary / administration (last resort). She is listed as a contact person for mobility and is responsible for administrative tasks related to Erasmus+."
+   },
+   {
+    "name": "Alexia ALLAIS",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "alexia.allais@mfr.asso.fr",
+    "office_email": "",
+    "phone": "02.51.91.09.72",
+    "source_url": "https://www.formations-herbiers.fr/contacter-ireo/",
+    "evidence_quote": "Alexia ALLAIS ... Secrétaire",
+    "why_chosen": "Secretary / administration (last resort). She is a secretary at the institution and serves as a general contact point."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the Director of the institution and is listed as the legal representative for Erasmus+ agreements.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "DRAAF",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.formations-herbiers.fr/mobilites-internationales/",
+    "evidence_quote": "DRAAF",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "OCAPIAT",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.formations-herbiers.fr/mobilites-internationales/",
+    "evidence_quote": "OCAPIAT",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "MFR IREO Les Herbiers",
+    "city": "Les Herbiers",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.formations-herbiers.fr/",
+    "evidence_quote": "6 Rue Georges Legagneux, 85500 Les Herbiers"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 6,
+  "coverage_note": "The evidence does not provide a specific list of partner institutions. It mentions that mobility occurs in various countries worldwide but does not name specific partner organizations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 22.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 27.5
+ }
+}
