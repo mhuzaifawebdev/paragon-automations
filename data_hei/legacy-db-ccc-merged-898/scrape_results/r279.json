@@ -1,0 +1,104 @@
+{
+ "row_id": "r279",
+ "scraped_at": "2026-10-29T00:59:00Z",
+ "contacts": {
+  "row_id": "r279",
+  "institution_name": "ISEN",
+  "institution_type": "university",
+  "official_website": "https://erasmus.bingol.edu.tr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "erasmus@bingol.edu.tr",
+  "generic_email_url": "https://erasmus.bingol.edu.tr/en/contact/",
+  "contact": {
+   "name": "Prof. Dr. Erdal Çelik",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://erasmus.bingol.edu.tr/en/contact/",
+   "evidence_quote": "Our Rector, Prof. Dr. Erdal Çelik, Elected as a Full Member of the Turkish Academy of Sciences"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Prof. Dr. Erdal Çelik is the Rector of Bingöl University.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universidade da Maia – UMAIA",
+    "partner_country": "Portekiz",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://erasmus.bingol.edu.tr/duyurular-haberler/erasmus-ogrenci-ogrenim-hareketliligi-karma-yogun-program-bip-basvuru-sonuclari-healthy-campus-promoting-a-healthy-lifestyle/",
+    "evidence_quote": "Universidade da Maia – UMAIA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Türkiye Ulusal Ajansı",
+    "partner_country": "Turkey",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus.bingol.edu.tr/",
+    "evidence_quote": "Türkiye Ulusal Ajansı",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bingöl University",
+    "city": "Bingöl",
+    "country": "Turkey",
+    "role": "main",
+    "source_url": "https://erasmus.bingol.edu.tr/en/contact/",
+    "evidence_quote": "Bingöl University, Institutes Building, Floor:1, Postal Code: 12000 Bingöl/TÜRKİYE |"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides contact information for the Erasmus Office but does not contain a comprehensive list of all partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 15.3,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 24.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 4.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 49.0
+ }
+}
