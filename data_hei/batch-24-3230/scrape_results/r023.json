@@ -1,0 +1,80 @@
+{
+ "row_id": "r023",
+ "scraped_at": "2026-10-30T10:04:01Z",
+ "contacts": {
+  "row_id": "r023",
+  "institution_name": "Institut Obert de Catalunya",
+  "institution_type": "school",
+  "official_website": "https://ioc.xtec.cat:443/educacio/",
+  "country": null,
+  "phone": {
+   "value": "933476100",
+   "source_url": "https://ioc.xtec.cat:443/educacio/",
+   "evidence_quote": "Telèfon: 933476100 - Dies laborables de 8:00h a 14:30h"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "RAC1",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ioc.xtec.cat:443/educacio/",
+    "evidence_quote": "Una alumna de l’IOC relata la seva experiència a RAC1: «Per estudiar mai no és tard»",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut Obert de Catalunya",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://ioc.xtec.cat:443/educacio/",
+    "evidence_quote": "Av. del Paral·lel 71 – 73, 08004 Barcelona"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The provided evidence does not contain any information regarding Erasmus+ partnerships, international mobility coordinators, or a list of partner institutions. The website focuses on online secondary and vocational education.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 9.6,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 39.4,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     87
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 63.7
+ }
+}
