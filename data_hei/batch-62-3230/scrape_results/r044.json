@@ -1,0 +1,82 @@
+{
+ "row_id": "r044",
+ "scraped_at": "2026-10-30T11:48:05Z",
+ "contacts": {
+  "row_id": "r044",
+  "institution_name": "Zespol Szkol nr 3 w Rzeszowie im. T. Rylskiego",
+  "institution_type": "school",
+  "official_website": "https://zs3.resman.pl/",
+  "country": null,
+  "phone": {
+   "value": "17 748 31 00",
+   "source_url": "https://zs3.resman.pl/",
+   "evidence_quote": "17 748 31 00"
+  },
+  "phone_alt": [],
+  "generic_email": "sekretariat@zs3.resman.pl",
+  "generic_email_url": "https://zs3.resman.pl/",
+  "contact": {
+   "name": "Katarzyna Nowak",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://zs3.resman.pl/szkola/kadra",
+   "evidence_quote": "Dyrektor ... dr Katarzyna Nowak"
+  },
+  "alternates": [
+   {
+    "name": "Agnieszka Kunicka",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://zs3.resman.pl/szkola/kadra",
+    "evidence_quote": "Wicedyrektor ... mgr Agnieszka Kunicka",
+    "why_chosen": "Principal / director (no Erasmus contact found). Agnieszka Kunicka serves as the deputy director and is involved in school management."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Katarzyna Nowak is the director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zespół Szkół nr 3 im. Tadeusza Rylskiego w Rzeszowie",
+    "city": "Rzeszów",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://zs3.resman.pl/",
+    "evidence_quote": "ul. Warszawska 20"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution mentions Erasmus+ accreditation but does not provide a list of specific partner institutions or international agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 14.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 10.2,
+  "total_seconds": 31.0
+ }
+}
