@@ -1,0 +1,99 @@
+{
+ "row_id": "r669",
+ "scraped_at": "2026-10-30T22:23:33Z",
+ "contacts": {
+  "row_id": "r669",
+  "institution_name": "Miami",
+  "institution_type": "unknown",
+  "official_website": "https://www.miami.gov/Home",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Trelana Haines",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.miami.gov/My-Government/Departments/Code-Compliance/Code-Compliance-Staff-Contacts",
+   "evidence_quote": "Trelana Haines, Director"
+  },
+  "alternates": [
+   {
+    "name": "Marie Gouin",
+    "designation": "Department Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.miami.gov/My-Government/Departments/Management-Budget",
+    "evidence_quote": "Department Director: Marie Gouin",
+    "why_chosen": "Principal / director (no Erasmus contact found). Marie Gouin is the Director of the Office of Management and Budget."
+   },
+   {
+    "name": "Ricardo Franqui",
+    "designation": "Assistant Director",
+    "designation_local": "",
+    "email": "RFranqui@miamigov.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.miami.gov/My-Government/Departments/Code-Compliance/Code-Compliance-Staff-Contacts",
+    "evidence_quote": "Ricardo Franqui, Assistant Director",
+    "why_chosen": "Secretary / administration (last resort). Ricardo Franqui is the Assistant Director of the Code Compliance department."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Trelana Haines is the Director of the Code Compliance department.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cloudvisor",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.miami.gov/Government/Buy-Miami/Buy-Miami-Deals/Cloudvisor-AWS-Reseller-Consulting-Partner",
+    "evidence_quote": "Cloudvisor: AWS Reseller & Consulting Partner - Miami",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Miami Riverside Center (MRC)",
+    "city": "Miami",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.miami.gov/Home",
+    "evidence_quote": "Miami Riverside Center (MRC)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution is a municipal government entity, not an educational institution. No Erasmus+ or international mobility partnerships are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 15.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.5,
+  "total_seconds": 53.3
+ }
+}
