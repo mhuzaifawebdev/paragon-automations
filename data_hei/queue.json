@@ -3464,22 +3464,34 @@
    "source": "Copy of Batch-36_3230",
    "file_id": "1zEYCEIyv0qU6RBbYjJhqsT4os0SbF9eK6Y7wzdOsXYE",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 50,
    "started": "2026-10-30T14:14:04Z",
    "last_start": "2026-10-30T14:14:04Z",
    "restarts": 0,
    "cap_usd": 682.36,
-   "note": "Finished, waiting for the Drive upload: RuntimeError: results.xlsx has not been built for this batch"
+   "note": "Finished, waiting for the Drive upload: RuntimeError: results.xlsx has not been built for this batch",
+   "crm_rows": 57,
+   "no_number": 0,
+   "spend_recorded": true,
+   "cost_usd": 1.0478,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1-KyiHwEWXCGzww8S0-VZ8KbswfCtcNOu/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 47,
+   "finished": "2026-10-30T15:43:44Z",
+   "reason": "50 institutes, 38 with a contact"
   },
   {
    "batch": "batch-3-staff-mobilityka101-zakia-05",
    "source": "Batch-3 Staff MobilityKA101 Zakia 05.12.2025",
    "file_id": "151poNcuUvrIPSmro6BO13kJEPEI9TrEk-BTpRshtcQ0",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 46,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-30T15:43:44Z",
+   "last_start": "2026-10-30T15:43:44Z",
+   "restarts": 0,
+   "cap_usd": 681.31
   },
   {
    "batch": "copy-of-batch-14-staff-mobilityka101",
@@ -3856,7 +3868,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-30T15:39:22Z",
+ "updated": "2026-10-30T15:43:44Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
