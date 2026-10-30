@@ -1,0 +1,130 @@
+{
+ "row_id": "r120",
+ "scraped_at": "2026-10-30T19:14:33Z",
+ "contacts": {
+  "row_id": "r120",
+  "institution_name": "Berklee College Of Music",
+  "institution_type": "college",
+  "official_website": "https://www.berklee.edu/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.berklee.edu/campus-life",
+   "evidence_quote": "United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "admissions@berklee.edu",
+  "generic_email_url": "https://www.berklee.edu/contact",
+  "contact": {
+   "name": "Rose Plaisime",
+   "designation": "One Stop Advisor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.berklee.edu/campus-life",
+   "evidence_quote": "Rose Plaisime ... One Stop Advisor"
+  },
+  "alternates": [
+   {
+    "name": "Anne-Sophie (Sophie) Gerald",
+    "designation": "Case Manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.berklee.edu/campus-life",
+    "evidence_quote": "Anne-Sophie (Sophie) Gerald ... Case Manager",
+    "why_chosen": "Secretary / administration (last resort). Anne-Sophie Gerald is a case manager who supports student well-being by helping them access treatments and resources."
+   },
+   {
+    "name": "Tyler Kinnear",
+    "designation": "Career Advisor",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.berklee.edu/campus-life",
+    "evidence_quote": "Tyler Kinnear ... Career Advisor",
+    "why_chosen": "Secretary / administration (last resort). Tyler Kinnear is a career advisor who helps students prepare for job, internship, and performance opportunities."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Rose Plaisime is a One Stop Advisor who helps students with registration, billing, and financial aid tasks.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Berklee Global",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.berklee.edu/",
+    "evidence_quote": "Our network of partners around the world provide access to a range of Berklee opportunities, from events and workshops to transfer credits.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Boston",
+    "city": "Boston",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.berklee.edu/",
+    "evidence_quote": "Berklee offers degree programs at our campuses in Boston, New York City, and Valencia, Spain, and through Berklee Online, all taught by our expert faculty, as well as music education programs at locations around the world."
+   },
+   {
+    "campus_name": "New York City",
+    "city": "New York City",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.berklee.edu/",
+    "evidence_quote": "Berklee offers degree programs at our campuses in Boston, New York City, and Valencia, Spain, and through Berklee Online, all taught by our expert faculty, as well as music education programs at locations around the world."
+   },
+   {
+    "campus_name": "Valencia",
+    "city": "Valencia",
+    "country": "Spain",
+    "role": "international",
+    "source_url": "https://www.berklee.edu/",
+    "evidence_quote": "Berklee offers degree programs at our campuses in Boston, New York City, and Valencia, Spain, and through Berklee Online, all taught by our expert faculty, as well as music education programs at locations around the world."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of international partners or Erasmus+ mobility agreements. No specific contact person for international mobility was identified in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 11.4,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 4,
+  "email_search_s": 32.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 48.5
+ }
+}
