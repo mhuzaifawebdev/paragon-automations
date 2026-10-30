@@ -1,0 +1,159 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-10-30T12:27:52Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "UNIVERSITAET DUISBURG-ESSEN",
+  "institution_type": "university",
+  "official_website": "https://www.uni-due.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Stuart Gordon Milne",
+   "designation": "Erasmus Coordinator (Outgoings)",
+   "designation_local": "",
+   "email": "stuart.milne@uni-due.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.uni-due.de/geisteswissenschaften/erasmus/Ansprechpartner.shtml",
+   "evidence_quote": "Erasmus-Koordinator:innen der Fakultät für Geisteswissenschaften ... Herr Stuart Gordon Milne (nur Outgoings)"
+  },
+  "alternates": [
+   {
+    "name": "Astrid Klooth",
+    "designation": "Erasmus Coordinator (Incomings)",
+    "designation_local": "",
+    "email": "astrid.klooth@uni-due.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.uni-due.de/geisteswissenschaften/erasmus/Ansprechpartner.shtml",
+    "evidence_quote": "Erasmus-Koordinator:innen der Fakultät für Geisteswissenschaften ... Dr. Astrid Klooth (nur Incomings)",
+    "why_chosen": "Faculty-level Erasmus/international coordinator. She is a designated Erasmus coordinator for the Faculty of Humanities."
+   }
+  ],
+  "rung": "Faculty-level Erasmus/international coordinator. He is a designated Erasmus coordinator for the Faculty of Humanities.",
+  "source": "web",
+  "confidence": 0.65,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ruhr-Universität Bochum",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uni-due.de/de/international/partnerschaften.php",
+    "evidence_quote": "Die UDE arbeitet mit den Partneruniversitäten in der UA Ruhr, der Ruhr-Universität Bochum und der Technischen Universität Dortmund, über die gemeinsam betriebenen UA Ruhr Offices in New York und Moskau international besonders eng mit Blick auf Nordamerika, Osteuropa und Lateinamerika zusammen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Technische Universität Dortmund",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uni-due.de/de/international/partnerschaften.php",
+    "evidence_quote": "Die UDE arbeitet mit den Partneruniversitäten in der UA Ruhr, der Ruhr-Universität Bochum und der Technischen Universität Dortmund, über die gemeinsam betriebenen UA Ruhr Offices in New York und Moskau international besonders eng mit Blick auf Nordamerika, Osteuropa und Lateinamerika zusammen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AURORA",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uni-due.de/de/international/partnerschaften.php",
+    "evidence_quote": "Die UDE ist Mitglied in dem internationalen Netzwerk AURORA und betrachtet die anderen Universitäten in diesem Netzwerk als besonders geeignete Kooperationspartner.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Research Alliance Ruhr",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uni-due.de/",
+    "evidence_quote": "Die großen Themen der Zeit Research Alliance Ruhr",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Charité",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uni-due.de/en/index.php",
+    "evidence_quote": "The University of Duisburg-Essen is awarding Prof. Dr Christian Drosten the 2026 Mercator Professorship. He heads the Institute of Virology at the Charité in Berlin and is internationally renowned for his research into RNA viruses. He will deliver his Mercator lecture on 25 November in Essen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "American Physical Society",
+    "partner_country": "USA",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uni-due.de/en/index.php",
+    "evidence_quote": "American Physical Society Honours UDE Physicist",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Duisburg",
+    "city": "Duisburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.uni-due.de/",
+    "evidence_quote": "Campus Duisburg"
+   },
+   {
+    "campus_name": "Campus Essen",
+    "city": "Essen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.uni-due.de/",
+    "evidence_quote": "Campus Essen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific faculty-level Erasmus coordinators but does not list the full database of all international partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 11.7,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     281,
+     418
+    ],
+    "returned": 6,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 17.2
+ }
+}

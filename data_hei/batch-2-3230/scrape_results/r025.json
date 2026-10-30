@@ -1,0 +1,59 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-28T22:00:26Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "Universita Degli Studi Di Trieste",
+  "institution_type": "university",
+  "official_website": "https://portale.units.it/it",
+  "country": {
+   "value": "Italia",
+   "source_url": "https://www.units.it/personale",
+   "evidence_quote": "Piazzale Europa, 1 - 34127 - Trieste, Italia -"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch batch-2-l-s-multiplier-for-linkedin (scraped 2026-10-28). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Università degli Studi di Trieste",
+    "city": "Trieste",
+    "country": "Italia",
+    "role": "main",
+    "source_url": "https://portale.units.it/it/ateneo/campus",
+    "evidence_quote": "Le nostre sedi | Università degli Studi di Trieste"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The provided evidence does not contain any specific contact persons for Erasmus+ or international mobility, nor does it list any partner institutions or the total number of agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "batch-2-l-s-multiplier-for-linkedin",
+  "row_id": "r019"
+ }
+}
