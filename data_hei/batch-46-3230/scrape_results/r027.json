@@ -1,0 +1,123 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-10-30T10:58:02Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "OÜ Puhastusekspert",
+  "institution_type": "college",
+  "official_website": "https://puhastusekspert.ee/",
+  "country": {
+   "value": "Estonia",
+   "source_url": "https://puhastusekspert.ee/",
+   "evidence_quote": "Tutvustame Eestis ja Soomes läbi viidud 4-nädalaste katsete tulemusi ning räägime, kuidas on arenenud tulemuspõhise koristamise katsetamine Rootsis, kus katses osaleb 70 koristajat."
+  },
+  "phone": {
+   "value": "+372 509 2094",
+   "source_url": "https://puhastusekspert.ee/en/our-team/",
+   "evidence_quote": "+372 509 2094 <tel +3725092094>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@puhastusekspert.ee",
+  "generic_email_url": "https://puhastusekspert.ee/",
+  "contact": {
+   "name": "Helge Alt",
+   "designation": "Chief Executive Officer (CEO)",
+   "designation_local": "",
+   "email": "%20helge@puhastusekspert.ee",
+   "office_email": "",
+   "phone": "+372 509 2094",
+   "source_url": "https://puhastusekspert.ee/en/our-team/",
+   "evidence_quote": "Helge Alt ... Chief Executive Officer (CEO)"
+  },
+  "alternates": [
+   {
+    "name": "Tiina Uustalu",
+    "designation": "Training Manager",
+    "designation_local": "",
+    "email": "tiina@puhastusekspert.ee",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://puhastusekspert.ee/en/our-team/",
+    "evidence_quote": "Tiina Uustalu ... Training Manager",
+    "why_chosen": "Secretary / administration (last resort). Tiina Uustalu is the Training Manager handling training management and curriculum approval."
+   },
+   {
+    "name": "Jaanika Kasemets",
+    "designation": "Development Manager",
+    "designation_local": "",
+    "email": "%20jaanika@puhastusekspert.ee",
+    "office_email": "",
+    "phone": "+372 5622 1162",
+    "source_url": "https://puhastusekspert.ee/en/our-team/",
+    "evidence_quote": "Jaanika Kasemets ... Development Manager",
+    "why_chosen": "Secretary / administration (last resort). Jaanika Kasemets serves as the Development Manager involved in institutional projects."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Helge Alt is the Chief Executive Officer of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Propuhtaus",
+    "partner_country": "Finland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://puhastusekspert.ee/erasmus-projekt-clean-mind/",
+    "evidence_quote": "Propuhtaus",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Visera AB",
+    "partner_country": "Sweden",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://puhastusekspert.ee/erasmus-projekt-clean-mind/",
+    "evidence_quote": "Visera AB",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Puhastusekspert Registered Office",
+    "city": "Väike-Maarja",
+    "country": "Estonia",
+    "role": "main",
+    "source_url": "https://puhastusekspert.ee/kontaktandmed/",
+    "evidence_quote": "Juriidiline aadress: Renneoru 4, Väike-Maarja, 46202"
+   },
+   {
+    "campus_name": "Puhastusekspert Training Space",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "role": "branch",
+    "source_url": "https://puhastusekspert.ee/kontaktandmed/",
+    "evidence_quote": "Koolitusklass: Tartu mnt 83, Tallinn, 10115"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists specific project partners like Propuhtaus and Visera AB, but does not provide an exhaustive standalone list of all institutional Erasmus partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.3,
+  "crawl_s": 23.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 10.8,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 38.4
+ }
+}
