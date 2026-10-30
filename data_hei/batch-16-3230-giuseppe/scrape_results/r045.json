@@ -1,0 +1,95 @@
+{
+ "row_id": "r045",
+ "scraped_at": "2026-10-30T13:52:49Z",
+ "contacts": {
+  "row_id": "r045",
+  "institution_name": "LYCEE EDOUARD HERRIOT",
+  "institution_type": "school",
+  "official_website": "https://edouard-herriot-voiron.ent.auvergnerhonealpes.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Julie Brocard",
+   "designation": "Apprenticeship contact",
+   "designation_local": "",
+   "email": "julie.brocard@ac-grenoble.fr",
+   "office_email": "",
+   "phone": "04 80 56 91 06",
+   "source_url": "https://edouard-herriot-voiron.ent.auvergnerhonealpes.fr/sg.do?PROC=PAGE_REGLEMENTAIRE&ACTION=VALIDER&TYPE_PAGE=CONTACT",
+   "evidence_quote": "apprentissage : ... julie.brocard@ac-grenoble.fr <julie.brocard@ac-grenoble.fr>"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Julie Brocard is a named contact responsible for apprenticeship matters at the school.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Académie de Grenoble",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://edouard-herriot-voiron.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "[Académie de Grenoble]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Région Auvergne-Rhône-Alpes",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://edouard-herriot-voiron.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "[Région Auvergne-Rhône-Alpes]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Édouard Herriot",
+    "city": "Voiron",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://edouard-herriot-voiron.ent.auvergnerhonealpes.fr/sg.do?PROC=PAGE_REGLEMENTAIRE&ACTION=VALIDER&TYPE_PAGE=CONTACT",
+    "evidence_quote": "Lycée Édouard Herriot"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The website does not list any international partners or Erasmus+ specific coordinators. Contact information is limited to general administrative offices.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 7.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     128
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 13.1
+ }
+}

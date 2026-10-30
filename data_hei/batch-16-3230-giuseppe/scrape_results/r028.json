@@ -1,0 +1,107 @@
+{
+ "row_id": "r028",
+ "scraped_at": "2026-10-30T13:53:01Z",
+ "contacts": {
+  "row_id": "r028",
+  "institution_name": "BOSC DE LA COMA",
+  "institution_type": "school",
+  "official_website": "https://www.boscdelacoma.cat/",
+  "country": null,
+  "phone": {
+   "value": "972 26 70 12",
+   "source_url": "https://www.boscdelacoma.cat/",
+   "evidence_quote": "972 26 70 12"
+  },
+  "phone_alt": [],
+  "generic_email": "mobilitat@boscdelacoma.cat",
+  "generic_email_url": "https://www.boscdelacoma.cat/programa-erasmus/",
+  "contact": {
+   "name": "Pau Gálvez",
+   "designation": "Mobility Coordinator",
+   "designation_local": "",
+   "email": "mobilitat@boscdelacoma.cat",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.boscdelacoma.cat/programa-erasmus/",
+   "evidence_quote": "Contacte: Coordinador de Mobilitat: Pau Gálvez al correu electrònic mobilitat@boscdelacoma.cat"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. Pau Gálvez is explicitly identified as the Mobility Coordinator for Erasmus+ programs.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée Silvia Monfort",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.boscdelacoma.cat/tag/mobilitat/",
+    "evidence_quote": "Col.laboració amb el Lycée Silvia Monfort de Luisant Col.laboració amb el Lycée Silvia Monfort de Luisant",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sepie",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.boscdelacoma.cat/programa-erasmus/",
+    "evidence_quote": "Sepie Educació Superior (Convocatòria 2023)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut Bosc de la Coma",
+    "city": "Olot",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.boscdelacoma.cat/",
+    "evidence_quote": "C/Toledo, 12 - 17800 OLOT"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides details on Erasmus+ mobility programs and specific contacts for mobility, but does not contain a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 13.7,
+  "crawl_s": 61.5,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 83.8
+ }
+}
