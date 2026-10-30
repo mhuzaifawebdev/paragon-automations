@@ -1,0 +1,62 @@
+{
+ "row_id": "r077",
+ "scraped_at": "2026-10-30T12:09:28Z",
+ "contacts": {
+  "row_id": "r077",
+  "institution_name": "CIFP HOSTELERÍA OSTALARITZA LHII GALDAKAO",
+  "institution_type": "college",
+  "official_website": "https://hosteleriayturismocartagena.es/",
+  "country": null,
+  "phone": {
+   "value": "968529711",
+   "source_url": "https://hosteleriayturismocartagena.es/",
+   "evidence_quote": "<tel //968529711>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "CIFP Escuela de Hostelería y Turismo de Cartagena",
+    "city": "Cartagena",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://hosteleriayturismocartagena.es/",
+    "evidence_quote": "C/ Ingeniero de la Cierva, 24 30203 Cartagena, Murcia"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The website mentions an Erasmus category, but no specific partner list or contact person details are provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 5.9,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 19.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 4,
+  "total_seconds": 37.6
+ }
+}
