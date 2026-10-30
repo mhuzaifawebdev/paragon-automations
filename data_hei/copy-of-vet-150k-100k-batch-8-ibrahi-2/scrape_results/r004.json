@@ -1,0 +1,129 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-10-30T17:06:10Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "Educational Institution",
+  "institution_type": "unknown",
+  "official_website": "https://nces.ed.gov/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://nces.ed.gov/",
+   "evidence_quote": "We collect data to provide insights on the condition of education in the United States and how it changes over time."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Matthew Soldner",
+   "designation": "Acting Director of IES and Acting Commissioner of the National Center for Education Statistics",
+   "designation_local": "",
+   "email": "Matthew.Soldner@ed.gov",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://nces.ed.gov/national-center-education-statistics-nces/about",
+   "evidence_quote": "Matthew Soldner ... Dr. Matthew Soldner serves as Acting Director of IES and Acting Commissioner of the National Center for Education Statistics (NCES). Between July 2018 and July 2025, he served as Acting Commissioner of the National Center for Education Evaluation and Regional Assistance (NCEE). Dr. Soldner's areas of expertise include the use of rigorous evidence to improve education policy and the implementation and evaluation of efforts to improve postsecondary outcomes for students. His PhD is from the Univer",
+   "email_source_url": "https://ies.ed.gov/about/directory/matthew-soldner"
+  },
+  "alternates": [
+   {
+    "name": "Jill McCarroll",
+    "designation": "Former IES employee at NCES",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://nces.ed.gov/about/external-person/jill-mccarroll",
+    "evidence_quote": "Jill McCarroll ... Former IES employee at NCES",
+    "why_chosen": "Other role. Jill McCarroll is listed as a former employee who contributed to NCES content."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Matthew Soldner serves as the Acting Commissioner of the National Center for Education Statistics. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "U.S. Department of Education's Institute of Education Sciences",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://nces.ed.gov/",
+    "evidence_quote": "The U.S. Department of Education's Institute of Education Sciences (IES) awarded grants to 41 states and the District of Columbia to aid them in the design and implementation of statewide longitudinal data systems.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "U.S. Census Bureau",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://nces.ed.gov/",
+    "evidence_quote": "The NCES Education Demographic and Geographic Estimates (EDGE) program designs and develops data resources to help understand the social and spatial context of education in the United States. EDGE uses data from the U.S. Census Bureau’s American Community Survey to create custom indicators of social, economic, and housing conditions for school-age children and their parents. EDGE also uses spatial data collected by NCES and the Census Bureau to create geographic locale classifications, school ge",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provided is for the National Center for Education Statistics (NCES), which is a federal statistical agency, not an educational institution that would have Erasmus+ partners or campuses. Therefore, no partner or campus information is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 11.1,
+  "crawl_s": 12.4,
+  "ai_calls": 7,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 19.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 6,
+  "email_search_s": 9.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     1121,
+     1260
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 62.1
+ }
+}
