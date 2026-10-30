@@ -1,0 +1,138 @@
+{
+ "row_id": "r039",
+ "scraped_at": "2026-10-30T09:26:23Z",
+ "contacts": {
+  "row_id": "r039",
+  "institution_name": "CONSERVATORIO DI MUSICA ALFREDO CASELLA",
+  "institution_type": "college",
+  "official_website": "https://www.consaq.it/",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://www.consaq.it/international/foreign-students/erasmus-traineeships.html",
+   "evidence_quote": "Italy"
+  },
+  "phone": {
+   "value": "0862 22122",
+   "source_url": "https://www.consaq.it/",
+   "evidence_quote": "Copyright © 2026 Conservatorio statale di Musica \"Alfredo Casella\" | Via Francesco Savini. 67100 L'Aquila | Tel:0862 22122 - Fax:0862 62325 | C.F. 80007670666"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@consaq.it",
+  "generic_email_url": "https://www.consaq.it/international/int-erasmusplus.html",
+  "contact": {
+   "name": "Aldo Caterina",
+   "designation": "Coordinator",
+   "designation_local": "",
+   "email": "erasmus@consaq.it",
+   "office_email": "",
+   "phone": "0039 0862-22122",
+   "source_url": "https://www.consaq.it/international/int-erasmusplus.html",
+   "evidence_quote": "Prof. Aldo Caterina - Coordinatore"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. Prof. Aldo Caterina is listed as the Erasmus+ Coordinator.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Università degli studi dell'Aquila",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.consaq.it/international/int-erasmusplus.html",
+    "evidence_quote": "Erasmus \"La fabbrica della Cultura\" (consorzio tra le HEI del capoluogo aquilano, coordinato dall'Università degli studi dell'Aquila)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conservatorio di Cosenza",
+    "partner_country": "Italy",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.consaq.it/international/int-erasmusplus.html",
+    "evidence_quote": "Erasmius+ “Art’s Role in Training of Students - A.R.T.S” (consorzio tra Conservatori italiani, coordinato dal Conservatorio di Cosenza)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conservatorio di Frosinone",
+    "partner_country": "Italy",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.consaq.it/international/int-erasmusplus.html",
+    "evidence_quote": "Leonardo da Vinci \"Working With Music - WWM\" (consorzio coordinato dal Conservatorio di Frosinone, poi trasformato nel WWM+ con la fine del programma Leonardo Da Vinci).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "European Social Network",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.consaq.it/international/int-erasmusplus/int-mobilita-erasmusplus.html",
+    "evidence_quote": "Anche l’European Social Network",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Working With Music+ - WWM+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.consaq.it/international/int-erasmusplus.html",
+    "evidence_quote": "Nella prospettiva di offrire maggiori opportunità ai propri studenti e neolaureati nel campo della formazione, il Conservatorio “Alfredo Casella” è uno dei partner del Consorzio ERASMUS+“Working With Music+ - WWM+”, riservato ai neolaureati.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ESN L’Aquila – Aquilasmus",
+    "partner_country": "Italy",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.consaq.it/international/foreign-students/erasmusplus-students.html",
+    "evidence_quote": "ESN L’Aquila – Aquilasmus – information about student activities and the local international student community.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Conservatorio statale di Musica Alfredo Casella",
+    "city": "L'Aquila",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.consaq.it/",
+    "evidence_quote": "Copyright © 2026 Conservatorio statale di Musica \"Alfredo Casella\" | Via Francesco Savini. 67100 L'Aquila | Tel:0862 22122 - Fax:0862 62325 | C.F. 80007670666"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions a continuous list of partner institutions and agreements for mobility, but the individual partner names are not explicitly listed in the text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 27.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 35.1,
+  "mode": "gemini",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 6,
+    "accepted": 6
+   }
+  ],
+  "total_seconds": 66.1
+ }
+}
