@@ -1,0 +1,101 @@
+{
+ "row_id": "r322",
+ "scraped_at": "2026-10-30T19:43:31Z",
+ "contacts": {
+  "row_id": "r322",
+  "institution_name": "Richards Supply",
+  "institution_type": "unknown",
+  "official_website": "https://www.richardssupply.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Eric Wessinger",
+   "designation": "CEO & President",
+   "designation_local": "",
+   "email": "ericw@richardssupply.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.richardssupply.com/Contact",
+   "evidence_quote": "CEO & President - Eric Wessinger <ericw@richardssupply.com>"
+  },
+  "alternates": [
+   {
+    "name": "Chris Pitts",
+    "designation": "Store Manager",
+    "designation_local": "",
+    "email": "chrisp@richardssupply.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.richardssupply.com/Contact",
+    "evidence_quote": "Store Manager - Chris Pitts <chrisp@richardssupply.com>",
+    "why_chosen": "Secretary / administration (last resort). Chris Pitts is a Store Manager at Richards Supply."
+   },
+   {
+    "name": "Edwin Sanchez",
+    "designation": "Vice President of Operations",
+    "designation_local": "",
+    "email": "edwins@richardssupply.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.richardssupply.com/Contact",
+    "evidence_quote": "Vice President of Operations - Edwin Sanchez <edwins@richardssupply.com>",
+    "why_chosen": "Other role. Edwin Sanchez serves as the Vice President of Operations."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Eric Wessinger is the CEO and President of Richards Supply.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Affiliated Distributors",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.richardssupply.com/About/About",
+    "evidence_quote": "We are a proud member of Affiliated Distributors. A-D consists of 540+ independently owned members, with 3,598 locations, spanning seven industries and three countries with collective annual sales in excess of $31 Billion. This affiliation gives Richards the power and leverage to compete with the largest national suppliers as well as partner with the world's leading manufacturers to give our customers additional product knowledge, expanded services, and savings! See what the top manufacturers ha",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Richards Supply",
+    "city": "Waco",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.richardssupply.com/",
+    "evidence_quote": "Waco"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "Richards Supply is an industrial and contractor supply company, not an educational institution. No Erasmus+ or international mobility contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 5.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 0.0,
+  "total_seconds": 17.8
+ }
+}
