@@ -1,0 +1,106 @@
+{
+ "row_id": "r403",
+ "scraped_at": "2026-10-30T21:44:20Z",
+ "contacts": {
+  "row_id": "r403",
+  "institution_name": "Harbor Seafood",
+  "institution_type": "unknown",
+  "official_website": "https://harborseafood.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Michael Lemmon",
+   "designation": "Chief Financial Officer",
+   "designation_local": "",
+   "email": "mlemmon@harborseafood.com",
+   "office_email": "",
+   "phone": "800-645-2211",
+   "source_url": "https://harborseafood.com/contact/",
+   "evidence_quote": "Michael Lemmon ... Chief Financial Officer"
+  },
+  "alternates": [
+   {
+    "name": "Alex Tejada",
+    "designation": "Imports/Exports Compliance Manager",
+    "designation_local": "",
+    "email": "atejada@harborseafood.com",
+    "office_email": "",
+    "phone": "800-645-2211",
+    "source_url": "https://harborseafood.com/contact/",
+    "evidence_quote": "Alex Tejada ... Imports/Exports Compliance Manager",
+    "why_chosen": "Other role. Alex Tejada manages international compliance, which is relevant to international operations."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. Michael Lemmon is the contact currently on file and holds a senior executive position at the company.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Direct Seafood Asia",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://harborseafood.com/partnership/",
+    "evidence_quote": "Direct Seafood Asia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Carrington Foods",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://harborseafood.com/partnership/",
+    "evidence_quote": "Carrington Foods",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "R&A Oyster",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://harborseafood.com/partnership/",
+    "evidence_quote": "R&A Oyster",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Harbor Seafood",
+    "city": "New Hyde Park",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://harborseafood.com/contact/",
+    "evidence_quote": "969 Lakeville Road"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 3,
+  "coverage_note": "Harbor Seafood is a commercial seafood company, not an educational institution. No information regarding Erasmus+ or academic mobility partnerships is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 5.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 8.3
+ }
+}
