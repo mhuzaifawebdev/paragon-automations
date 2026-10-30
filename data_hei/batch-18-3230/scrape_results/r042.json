@@ -1,0 +1,100 @@
+{
+ "row_id": "r042",
+ "scraped_at": "2026-10-30T13:02:35Z",
+ "contacts": {
+  "row_id": "r042",
+  "institution_name": "OGEC Lycee Cluny Sainte Suzanne",
+  "institution_type": "school",
+  "official_website": "http://www.lyceecluny-saintesuzanne.fr/",
+  "country": null,
+  "phone": {
+   "value": "0262 98 06 26",
+   "source_url": "http://www.lyceecluny-saintesuzanne.fr/contact/",
+   "evidence_quote": "Tel. 0262 98 06 26"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Véronique ALEZAN",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://www.lyceecluny-saintesuzanne.fr/",
+   "evidence_quote": "La Directrice du Lycée Cluny de Sainte Suzanne ... Véronique ALEZAN"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Véronique ALEZAN is identified as the Director of the Lycée Cluny.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Event go",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lyceecluny-saintesuzanne.fr/",
+    "evidence_quote": "Event go et le Lycée Cluny un partenariat qui fonctionne Avec une préparation en amont de l'événement, les enseignants et les professionnels ont mis tous [...]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ker an Lèr",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.lyceecluny-saintesuzanne.fr/",
+    "evidence_quote": "L'association Ker an Lèr et le Lycée Cluny : un partenariat fort et un projet inclusif majeur pour Sainte-Suzanne C’est un événement marquant qui s’est [...]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Cluny",
+    "city": "Sainte-Suzanne",
+    "country": "France",
+    "role": "main",
+    "source_url": "http://www.lyceecluny-saintesuzanne.fr/contact/",
+    "evidence_quote": "97441 Sainte-Suzanne"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ partners or a total count of international agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 14.2,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 3.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     89
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 25.6
+ }
+}

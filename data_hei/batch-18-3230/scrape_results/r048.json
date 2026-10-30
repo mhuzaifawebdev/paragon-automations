@@ -1,0 +1,95 @@
+{
+ "row_id": "r048",
+ "scraped_at": "2026-10-30T13:02:53Z",
+ "contacts": {
+  "row_id": "r048",
+  "institution_name": "IES El Majuelo",
+  "institution_type": "school",
+  "official_website": "https://www.iesmajuelo.com/",
+  "country": null,
+  "phone": {
+   "value": "955 62 25 92",
+   "source_url": "https://www.iesmajuelo.com/contacto",
+   "evidence_quote": "Teléfono: 955 62 25 92 RCJA: 380592"
+  },
+  "phone_alt": [],
+  "generic_email": "informatica@iesmajuelo.com",
+  "generic_email_url": "https://www.iesmajuelo.com/contacto",
+  "contact": {
+   "name": "José Luis Navarro Reina",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "director@iesmajuelo.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iesmajuelo.com/direccion",
+   "evidence_quote": "[Foto de la directiva]Director: D <director@iesmajuelo.com>. José Luis Navarro Reina <director@iesmajuelo.com>"
+  },
+  "alternates": [
+   {
+    "name": "Coradino de la Vega",
+    "designation": "Teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iesmajuelo.com/direccion",
+    "evidence_quote": "Inauguración curso 25/26. Intervención de D. Coradino de la Vega ... Intervención de D. Coradino de la Vega (profesor del Centro) en el Acto de inauguración del curso 2025-26 en la que ofrece interesantes reflexiones sobre la exposición de los adolescentes a las redes sociales y cómo la educación les puede ofrecer un modo de vida más auténtico.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Coradino de la Vega is a teacher at the institution."
+   },
+   {
+    "name": "Domingo García Gallardo",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "secretario@iesmajuelo.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iesmajuelo.com/direccion",
+    "evidence_quote": "Secretario: D. Domingo García Gallardo <secretario@iesmajuelo.com>",
+    "why_chosen": "Secretary / administration (last resort). Domingo García Gallardo is the Secretary of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). José Luis Navarro Reina is the Director of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "I.E.S. El Majuelo",
+    "city": "Gines",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iesmajuelo.com/",
+    "evidence_quote": "41960 Gines (Sevilla)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The website does not provide a list of international partners or Erasmus+ agreements. No specific international mobility coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 5.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 6.9,
+  "total_seconds": 27.1
+ }
+}
