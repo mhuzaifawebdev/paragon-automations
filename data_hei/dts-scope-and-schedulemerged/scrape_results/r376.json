@@ -1,0 +1,69 @@
+{
+ "row_id": "r376",
+ "scraped_at": "2026-10-30T19:51:39Z",
+ "contacts": {
+  "row_id": "r376",
+  "institution_name": "Scavify",
+  "institution_type": "unknown",
+  "official_website": "https://www.scavify.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "University of Houston",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.scavify.com/university-programs-student-engagement",
+    "evidence_quote": "At the University of Houston, as part of this campus-wide search for pride, students learn more about a few UH traditions, discover some of the unique offerings at UH, become more familiar with campus, and make some new friends along the way.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "Scavify is a software company that provides a scavenger hunt app platform for universities and other organizations, not an educational institution itself. No contact names or specific campus locations are provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 14.5,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 11.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     421,
+     527
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 33.2
+ }
+}
