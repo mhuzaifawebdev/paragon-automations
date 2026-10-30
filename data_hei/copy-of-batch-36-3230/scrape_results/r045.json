@@ -1,0 +1,125 @@
+{
+ "row_id": "r045",
+ "scraped_at": "2026-10-30T14:22:08Z",
+ "contacts": {
+  "row_id": "r045",
+  "institution_name": "Bifröst University",
+  "institution_type": "university",
+  "official_website": "https://www.bifrost.is/",
+  "country": null,
+  "phone": {
+   "value": "+354 433 3000",
+   "source_url": "https://www.bifrost.is/english/about-bifrost/organisation-and-administration/governance/board-of-governors",
+   "evidence_quote": "Phone: +354 433 3000"
+  },
+  "phone_alt": [],
+  "generic_email": "bifrost@bifrost.is",
+  "generic_email_url": "https://www.bifrost.is/english/about-bifrost/organisation-and-administration/governance/board-of-governors",
+  "contact": {
+   "name": "Herborg Sörensen",
+   "designation": "international coordinator",
+   "designation_local": "",
+   "email": "herborg@bifrost.is",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bifrost.is/english/about-bifrost/staff",
+   "evidence_quote": "Herborg Sörensen, international coordinator"
+  },
+  "alternates": [],
+  "rung": "International relations officer. Herborg Sörensen is explicitly listed as the International Coordinator, which is the primary role for managing international mobility and Erasmus+ partnerships.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universitat Operta de Catalunya (UOC)",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bifrost.is/",
+    "evidence_quote": "Í fyrsta sinn býðst nemendum Háskólans á Bifröst leið til doktorsnáms undir handleiðslu fræðimanna við háskólann. Háskólinn á Bifröst og Universitat Operta de Catalunya (UOC) á Spáni hafa gert með sér samkomulag sem leggur grunn að samstarfi á sviði doktorsnáms, rannsókna, þróunar og nýsköpunar.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Open EU",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bifrost.is/english",
+    "evidence_quote": "[Open EU]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "OpenEU Thing and Do Tank",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bifrost.is/english",
+    "evidence_quote": "The OpenEU Thing and Do Tank (TaDT) is seeking new participants for the 2026–2027 operational period. TaDT is an international platform that fosters the digital transformation of higher education through collaboration, research, and innovation.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "INTERFACE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bifrost.is/um-haskolann/frettir-og-tilkynningar/lokaradstefna-erasmus--samstarfsverkefnisins-interface-",
+    "evidence_quote": "Lokaráðstefna Erasmus+ samstarfsverkefnisins INTERFACE",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bifröst University",
+    "city": "Bifröst",
+    "country": "Iceland",
+    "role": "main",
+    "source_url": "https://www.bifrost.is/english/about-bifrost/organisation-and-administration/governance/board-of-governors",
+    "evidence_quote": "Bifröst, 311"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of all Erasmus+ partner universities, only mentioning a specific agreement with UOC and general references to a network of partners. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 15.8,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     561,
+     672
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 21.6
+ }
+}

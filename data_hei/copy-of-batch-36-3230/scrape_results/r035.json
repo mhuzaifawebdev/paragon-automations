@@ -1,0 +1,126 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-10-30T14:21:26Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "Berufliches Schulzentrum I - Staatliche Berufsschule I Coburg",
+  "institution_type": "college",
+  "official_website": "https://www.rast-bs.de/",
+  "country": null,
+  "phone": {
+   "value": "0 95 61 / 74 385 0",
+   "source_url": "https://www.rast-bs.de/",
+   "evidence_quote": "Tel.: 0 95 61 / 74 385 0"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Rolf Sander",
+   "designation": "European projects manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.rast-bs.de/images/news/Schuljahr_23_24/2024-01-11_JB_Erasmus_2023_D_LQ.pdf",
+   "evidence_quote": "Rolf Sander ... European projects manager"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. Rolf Sander is explicitly named as the European projects manager and is a key member of the Erasmus+ team.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Toledo Technology Academy of Engineering",
+    "partner_country": "USA",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rast-bs.de/berufsschule/erasmus.html",
+    "evidence_quote": "Die beiden Schulen „Toledo Technology Academy of Engineering“ und „Berufliches Schulzentrum I Coburg“ unterzeichneten eine Übereinkunft zur verstärkten Zusammenarbeit. Geplant sind Schüleraustausche zwischen den Schulen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VTI Waregem",
+    "partner_country": "Belgium",
+    "partner_type": "school",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.rast-bs.de/berufsschule/erasmus.html",
+    "evidence_quote": "Sechs belgische Schüler vom VTI Waregem wurden während ihres 14-tägigen Praktikums in Coburger Firmen vom 3.Bürgermeister Can Aydin empfangen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HTL Vöcklabruck",
+    "partner_country": "Austria",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rast-bs.de/berufsschule/erasmus/berichte.html",
+    "evidence_quote": "10 Jahre Partnerschaft mit HTL Vöcklabruck (04.07.2022)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HMC College",
+    "partner_country": "Netherlands",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rast-bs.de/berufsschule/erasmus/berichte.html",
+    "evidence_quote": "[Amsterdam19 info]In Kooperation mit dem HMC College in Amsterdam konnte das Erasmus+ -Projekt des Beruflichen Schulzentrums I Coburg erweitert werden.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VRIJ Technisch Instituut Waregem",
+    "partner_country": "Belgium",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rast-bs.de/berufsschule/erasmus/berichte.html",
+    "evidence_quote": "[Amsterdam19 info]Das VRIJ Technisch Instituut Waregem, Belgien, organisierte vom 13.11.-15.11.2019 ein internationales Partnerschaftstreffen an seiner Schule in Waregem.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Schulanlage Plattenäcker",
+    "city": "Coburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.rast-bs.de/",
+    "evidence_quote": "Schulanlage Plattenäcker"
+   },
+   {
+    "campus_name": "Schulanlage Allee",
+    "city": "Coburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.rast-bs.de/",
+    "evidence_quote": "Schulanlage Allee"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The institution does not list specific contact persons for Erasmus+ on their website, only referring to a general coordinator role. A comprehensive list of all partners is not provided, only those mentioned in news reports.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 13.6,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 4,
+  "email_search_s": 11.4,
+  "total_seconds": 42.2
+ }
+}
