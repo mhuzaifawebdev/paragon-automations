@@ -1,0 +1,96 @@
+{
+ "row_id": "r038",
+ "scraped_at": "2026-10-30T16:48:48Z",
+ "contacts": {
+  "row_id": "r038",
+  "institution_name": "Maek APS",
+  "institution_type": "unknown",
+  "official_website": "https://www.maekaps.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@maekaps.com",
+  "generic_email_url": "https://www.maekaps.com/",
+  "contact": {
+   "name": "Michele Cavicchioli",
+   "designation": "External expert, partner organisation representative",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.maekaps.com/about-us/",
+   "evidence_quote": "Michele Cavicchioli ... External expert, partner organisation representative"
+  },
+  "alternates": [],
+  "rung": "Other role. Michele Cavicchioli is an external expert and representative for the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Save the Children",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.maekaps.com/about-us/",
+    "evidence_quote": "Michele has over 15 years of experience as a socio-cultural educator and project developer in the third sector. He works with organisations focused on human rights, childhood and adolescence, collaborating on national and international projects with entities such as Save the Children and Caritas Italiana. He has international volunteering experience in Africa and Central-Eastern Europe and contributes to the organisation with expertise in educational methodologies, human rights-based approaches ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Caritas Italiana",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.maekaps.com/about-us/",
+    "evidence_quote": "Michele has over 15 years of experience as a socio-cultural educator and project developer in the third sector. He works with organisations focused on human rights, childhood and adolescence, collaborating on national and international projects with entities such as Save the Children and Caritas Italiana. He has international volunteering experience in Africa and Central-Eastern Europe and contributes to the organisation with expertise in educational methodologies, human rights-based approaches ",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Maek APS",
+    "city": "Pontremoli",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.maekaps.com/",
+    "evidence_quote": "Via Roma 50, 54027, Pontremoli (MS), IT"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The website describes the organization as an association and does not provide a specific list of partner institutions. While it mentions collaborating with various entities, no individual partner names are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.5,
+  "crawl_s": 9.5,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 12.6,
+  "slices": [
+   {
+    "lines": [
+     141,
+     265
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 33.8
+ }
+}
