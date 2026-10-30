@@ -1,0 +1,627 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-29T02:00:38Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Akademija strukovnih studija Beograd",
+  "institution_type": "university",
+  "official_website": "https://www.unipu.hr/",
+  "country": {
+   "value": "Hrvatska",
+   "source_url": "https://www.unipu.hr/",
+   "evidence_quote": "Hrvatska"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marinko Škare",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.unipu.hr/",
+   "evidence_quote": "prof. dr. sc. Marinko Škare · početak akademske godine 2026./2027. ... [prof. dr. sc. Marinko Škare, rektor]"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). The Rector is the head of the university and represents the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch legacy-db-ccc-merged-898 (scraped 2026-10-29). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kazan Innovative University Named After V.G. Timiryasov (IELM)",
+    "partner_country": "Russian Federation",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Kazan Innovative University Named After V.G. Timiryasov (IELM), Russian Federation",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cracow University of Economics",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Cracow University of Economics, Poland",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cracow University of Technology",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Cracow University of Technology, Poland",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pyatigorsk State University",
+    "partner_country": "Russian Federation",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Pyatigorsk State University, Russian Federation",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Saint Mary's University, Halifax",
+    "partner_country": "Canada",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Saint Mary's University, Halifax, Canada",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Suleyman Demirel University",
+    "partner_country": "Kazahstan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Suleyman Demirel University, Kazahstan",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cherepovets State University",
+    "partner_country": "Russian Federation",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Cherepovets State University, Russian Federation",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ca' Foscari University of Venice",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Ca' Foscari University of Venice, Italy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Mostar",
+    "partner_country": "Bosnia and Herzegovina",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Mostar, Bosnia and Herzegovina",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Primorska, Koper",
+    "partner_country": "Slovenia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Primorska, Koper, Slovenia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Ljubljana, Faculty of Economics",
+    "partner_country": "Slovenia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Ljubljana, Faculty of Economics, Slovenia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Trieste",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Trieste, Italy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Università degli studi Roma Tre",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Università degli studi Roma Tre, Italy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Novi Sad",
+    "partner_country": "Serbia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Novi Sad, Serbia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Padova",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Padova, Italy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Information Science and Technology \"St. Paul the Apostle\" Ohrid (UIST)",
+    "partner_country": "Macedonia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Information Science and Technology \"St. Paul the Apostle\" Ohrid (UIST), Macedonia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Sarajevo",
+    "partner_country": "Bosnia and Herzegovina",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Sarajevo, Bosnia and Herzegovina",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Faculty of Economy, Sarajevo",
+    "partner_country": "Bosnia and Herzegovina",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Faculty of Economy, Sarajevo, Bosnia and Herzegovina",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Zenica",
+    "partner_country": "Bosnia and Herzegovina",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Zenica, Bosnia and Herzegovina",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University for Foreigners of Siena",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University for Foreigners of Siena, Italy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Association of Private Higher Education Institutions Indonesia (APTISI)",
+    "partner_country": "Indonesia",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Association of Private Higher Education Institutions Indonesia (APTISI), Indonesia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University \"Haxhi Zeka \" - Peja",
+    "partner_country": "Kosovo",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University \"Haxhi Zeka \" - Peja, Kosovo",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "International Burch University",
+    "partner_country": "Bosnia and Herzegovina",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "International Burch University, Bosnia and Herzegovina",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Faculty of Economy and Social Science, International Burch University",
+    "partner_country": "Bosnia and Herzgegovina",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Faculty of Economy and Social Science, International Burch University, Bosnia and Herzgegovina",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Confucious Institute Headquarters (HANBAN)",
+    "partner_country": "China",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Confucious Institute Headquarters (HANBAN), China",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hartt School of the University of Hartford",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Hartt School of the University of Hartford, USA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Tuzla",
+    "partner_country": "Bosnia and Herzegovina",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Tuzla, Bosnia and Herzegovina",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Donja Gorica (UDG), Podgorica",
+    "partner_country": "Montenegro",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Donja Gorica (UDG), Podgorica, Montenegro",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Bologna, Rimini Campus Branc",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Bologna, Rimini Campus Branc, Italy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Crna Gora",
+    "partner_country": "Montenegro",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Crna Gora, Montenegro",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Applied Sciences FH Burgenland Gmbh",
+    "partner_country": "Austria",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Applied Sciences FH Burgenland Gmbh, Austria",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institute for East and Southeast European Studies, (Regensburg)",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Institute for East and Southeast European Studies, (Regensburg) Germany",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hrvatsko kulturno društvo, Burgenland",
+    "partner_country": "Austria",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Hrvatsko kulturno društvo, Burgenland, Austria",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UNWTO",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "UNWTO",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institute for Ethnic Studies Ljubljana",
+    "partner_country": "Slovenia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Institute for Ethnic Studies Ljubljana, Slovenia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "State Higher Education Institution “University of Educational Management”",
+    "partner_country": "Ukraine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "State Higher Education Institution “University of Educational Management”, Ukraine",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Chernihiv National University of Technology (CNUT)",
+    "partner_country": "Ukraine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Chernihiv National University of Technology (CNUT), Ukraine",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tomsk State Pedagogical University (TSPU)",
+    "partner_country": "Russian Federation",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Tomsk State Pedagogical University (TSPU), Russian Federation",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidade Federal Fluminese",
+    "partner_country": "Brazil",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Universidade Federal Fluminese, Brazil",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fachhochschule Burgenland GmbH",
+    "partner_country": "Austria",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Fachhochschule Burgenland GmbH, Austria",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kharkiv University of Technology “STEP” (KhTU “STEP”)",
+    "partner_country": "Ukraine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Kharkiv University of Technology “STEP” (KhTU “STEP”), Ukraine",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Strascheg Center for Entrepreneurship, Munich",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Strascheg Center for Entrepreneurship, Munich",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "North-Ossetian State University after Kosta Khetagurov",
+    "partner_country": "Russian Federation",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "North-Ossetian State University after Kosta Khetagurov, Russian Federation",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Sarajevo, Faculty of Forestry",
+    "partner_country": "Bosnia and Hezegovina",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Sarajevo, Faculty of Forestry, Bosnia and Hezegovina",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Azerbaijan Technical University Baku",
+    "partner_country": "Azerbaijan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Azerbaijan Technical University Baku, Azerbaijan",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hankuk University of Foreign Studies",
+    "partner_country": "Korea",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Hankuk University of Foreign Studies, Korea",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sumy Makarenko State Pedagogical University",
+    "partner_country": "Ukraine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Sumy Makarenko State Pedagogical University, Ukraine",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kyoto University of Foreign Studies",
+    "partner_country": "Japan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Kyoto University of Foreign Studies, Japan",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Sarajevo Academy of Music",
+    "partner_country": "Bosnia and Herzegovina",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Sarajevo Academy of Music",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Federal State Educational and Budgetary Institution of Higher Education \"Financial University under the Government of the Russian Federation\"",
+    "partner_country": "Russian Federation",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Federal State Educational and Budgetary Institution of Higher Education \"Financial University under the Government of the Russian Federation\"",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Penza State University",
+    "partner_country": "Russian Federation",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Penza State University",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Federal State Budget Higher Education Institution \"Soča State University\"",
+    "partner_country": "Russian Federation",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Federal State Budget Higher Education Institution \"Soča State University\"",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Belarusian State University",
+    "partner_country": "Belarus",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Belarusian State University",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "State University 'Uzhhorod National University'",
+    "partner_country": "Ukraine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "State University 'Uzhhorod National University'",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Moscow International Academy",
+    "partner_country": "Russian Federation",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Moscow International Academy",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Polissian National University (Zhytomyr)",
+    "partner_country": "Ukraine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Polissian National University (Zhytomyr, Ukraine)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kyiv International University",
+    "partner_country": "Ukraine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Kyiv International University Ukraine",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ukrainian Institute of arts and sciences",
+    "partner_country": "Ukraine",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Ukrainian Institute of arts and sciences - Ukraine",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Alcalá",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "University of Alcalá",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Shenzhen Polytechnic University (SZPU)",
+    "partner_country": "China",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Shenzhen Polytechnic University (SZPU) - China",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Evolve Uni Tech d.o.o.",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/",
+    "evidence_quote": "Evolve Uni Tech d.o.o.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Strascheg Center for Entrepreneurship",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipu.hr/medunarodna-suradnja/ugovori_o_suradnji",
+    "evidence_quote": "Strascheg Center for Entrepreneurship, Munich",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Rektorat",
+    "city": "Pula",
+    "country": "Hrvatska",
+    "role": "main",
+    "source_url": "https://www.unipu.hr/kontakti",
+    "evidence_quote": "Adresa: Zagrebačka 30, 52100 Pula, Hrvatska"
+   }
+  ],
+  "stated_total": 200,
+  "stated_total_quote": "Međunarodna partnerstva podrazumijevaju planiranje i razvoj mreže međunarodnih partnerstva sa institucijama i udruženjima sličnih razvojnih smjernica i znanstveno istraživačkog interesa. Ured organizira, savjetuje i administrira kompletan proces sklapanja međunarodnih sporazuma. Sveučilište trenutno bilježi preko 150 Erasmus+ međusveučilišnih sporazuma i preko 50 bilateralnih sporazuma sa institucijama unutar i izvan Europske unije.",
+  "stated_total_url": "https://www.unipu.hr/medunarodna-suradnja/ured-za-partnerstvo-i-projekte",
+  "truncated": true,
+  "total_seen": 200,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of bilateral agreements but does not explicitly list all Erasmus+ partner universities individually.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "legacy-db-ccc-merged-898",
+  "row_id": "r742"
+ }
+}
