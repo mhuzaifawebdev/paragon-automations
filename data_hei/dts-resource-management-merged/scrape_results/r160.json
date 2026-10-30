@@ -1,0 +1,108 @@
+{
+ "row_id": "r160",
+ "scraped_at": "2026-10-30T21:08:13Z",
+ "contacts": {
+  "row_id": "r160",
+  "institution_name": "Centerra -Op",
+  "institution_type": "unknown",
+  "official_website": "https://www.centerracoop.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Don Daniels",
+   "designation": "COO",
+   "designation_local": "",
+   "email": "ddaniels@centerracoop.com",
+   "office_email": "",
+   "phone": "440-476-6125",
+   "source_url": "https://www.centerracoop.com/our-team",
+   "evidence_quote": "Don Daniels, CCA ... COO"
+  },
+  "alternates": [
+   {
+    "name": "Dawn Wertz",
+    "designation": "Receptionist",
+    "designation_local": "",
+    "email": "dwertz@centerracoop.com",
+    "office_email": "",
+    "phone": "419-281-2153",
+    "source_url": "https://www.centerracoop.com/our-team",
+    "evidence_quote": "Dawn Wertz ... Receptionist",
+    "why_chosen": "Secretary / administration (last resort). Dawn Wertz is the receptionist and can direct inquiries to the appropriate department."
+   },
+   {
+    "name": "Jen Warden",
+    "designation": "Director of Marketing",
+    "designation_local": "",
+    "email": "jwarden@centerracoop.com",
+    "office_email": "",
+    "phone": "419-207-2160",
+    "source_url": "https://www.centerracoop.com/our-team",
+    "evidence_quote": "Jen Warden ... Director of Marketing",
+    "why_chosen": "Other role. Jen Warden is the Director of Marketing and handles corporate communications."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. Don Daniels is the COO of the organization and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "leading crop protection manufacturers",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.centerracoop.com/agronomy#1248961268",
+    "evidence_quote": "Protecting your crop starts with the right products and the right advice. Centerra Co-op partners with leading crop protection manufacturers, while our experienced agronomists provide recommendations tailored to your fields, your challenges and your operation.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BASF",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.centerracoop.com/agronomy#1248961268",
+    "evidence_quote": "The first herbicide product registered with labeling following this framework was Liberty Ultra (BASF). The herbicide label lists the following for spray drift mitigation, required anywhere the product is used:",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ashland Corporate Office",
+    "city": "Ashland",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.centerracoop.com/locations",
+    "evidence_quote": "813 Clark Avenue, Ashland, Ohio 44805"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "Centerra Co-op is an agricultural cooperative, not an educational institution. No information regarding Erasmus+ or international academic mobility partnerships is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 11.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 14.3
+ }
+}
