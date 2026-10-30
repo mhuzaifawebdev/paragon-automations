@@ -1,0 +1,130 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-30T15:55:48Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "LYCEE PROFESSIONNEL AUGUSTE ESCOFFIER",
+  "institution_type": "school",
+  "official_website": "https://lp-escoffier.education/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Corinne Kaldi Massard",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lp-escoffier.education/",
+   "evidence_quote": "Corinne Kaldi Massard ... Proviseure"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Corinne Kaldi Massard is listed as the Proviseure (Principal) of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Passau",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lp-escoffier.education/les-eleves-et-leurs-enseignants-a-lhonneur/",
+    "evidence_quote": "Nos élèves chaudement salués lors des festivités autour du jumelage entre les @VilledeCagnes et de Passau en Allemagne",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pole Emploi",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://lp-escoffier.education/",
+    "evidence_quote": "Pole Emploi : dispositif \"Avenir Pro\"",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée des Palmiers",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://lp-escoffier.education/erasmus-day/",
+    "evidence_quote": "ERASMUS Day au Lycée des Palmiers pour nos élèves de 3eme prépa métiers accompagnés par Mmes Presti et Santos.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "traineeship",
+    "source_url": "https://lp-escoffier.education/parcours-en-y-stage-de-mobilite/",
+    "evidence_quote": "Parcours en Y, stage de mobilité : 8 élèves de Terminale bac pro Métiers de l’hôtellerie et de la restauration partis en stage en entreprise à Vienne (Autriche) pendant 15 jours dans le cadre d’Erasmus. De quoi conclure leur cursus au lycée de la plus enrichissante des manières. Bon stage à eux et Merci à leurs 3 enseignants, M Paoletti, Mme Mosca et M.Reviron de les guider à tour de rôle dans cette expérience.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Les Rives de la Cagne",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lp-escoffier.education/le-reseau-les-rives-de-la-cagne/",
+    "evidence_quote": "le réseau « Les Rives de la Cagne » – lp-escoffier",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ville de Cagnes",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lp-escoffier.education/les-eleves-et-leurs-enseignants-a-lhonneur/",
+    "evidence_quote": "Nos élèves chaudement salués lors des festivités autour du jumelage entre les @VilledeCagnes et de Passau en Allemagne",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Professionnel Auguste Escoffier",
+    "city": "Cagnes-sur-Mer",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lp-escoffier.education/",
+    "evidence_quote": "chemin du Brecq 06801 cagnes sur mer Cedex 1"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 7,
+  "coverage_note": "The evidence lists general school updates, contact details, and some partner cities, but lacks a dedicated Erasmus partner list or direct email addresses for individual staff members.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.4,
+  "crawl_s": 12.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 24.9,
+  "mode": "gemini",
+  "email_search_s": 9.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     123
+    ],
+    "returned": 6,
+    "accepted": 6
+   }
+  ],
+  "total_seconds": 52.3
+ }
+}
