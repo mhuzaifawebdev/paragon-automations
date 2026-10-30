@@ -1,0 +1,95 @@
+{
+ "row_id": "r202",
+ "scraped_at": "2026-10-30T19:27:57Z",
+ "contacts": {
+  "row_id": "r202",
+  "institution_name": "Elite Hotels Of Sweden Ab",
+  "institution_type": "unknown",
+  "official_website": "https://www.elite.se/",
+  "country": {
+   "value": "Sweden",
+   "source_url": "https://www.elite.se/om-elite-hotels/kontakt-oss/",
+   "evidence_quote": "100 31 Stockholm, Sweden"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info.brage@elite.se",
+  "generic_email_url": "https://www.elite.se/om-elite-hotels/kontakt-oss/",
+  "contact": {
+   "name": "Christian Adrian",
+   "designation": "Hotel Manager",
+   "designation_local": "",
+   "email": "christian.adrian@elite.se",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.elite.se/hotell/goteborg/elite-plaza-hotel-goteborg/#contact",
+   "evidence_quote": "Hotelldirektör ... Christian Adrian"
+  },
+  "alternates": [
+   {
+    "name": "Malin Sonesson",
+    "designation": "Hotel Manager & Sales",
+    "designation_local": "",
+    "email": "malin.sonesson@elite.se",
+    "office_email": "",
+    "phone": "070-816 67 45",
+    "source_url": "https://www.elite.se/hotell/borlange/elite-hotel-brage-borlange/#contact",
+    "evidence_quote": "Hotelldirektör & försäljning ... Malin Sonesson",
+    "why_chosen": "Principal / director (no Erasmus contact found). Malin Sonesson is the Hotel Manager and responsible for sales at Elite Hotel Brage."
+   },
+   {
+    "name": "Sam Sultanovic",
+    "designation": "Sales",
+    "designation_local": "",
+    "email": "sam.sultanovic@elite.se",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.elite.se/hotell/goteborg/elite-plaza-hotel-goteborg/#contact",
+    "evidence_quote": "Försäljning ... Sam Sultanovic",
+    "why_chosen": "Other role. Sam Sultanovic works in sales at Elite Plaza Hotel."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Christian Adrian is the Hotel Manager at Elite Plaza Hotel.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Elite Hotels Head Office",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.elite.se/om-elite-hotels/kontakt-oss/",
+    "evidence_quote": "Elite Hotels huvudkontor"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a hotel chain, not an educational institution. No Erasmus+ or international mobility partnerships are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 11.9,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 0.0,
+  "total_seconds": 37.7
+ }
+}
