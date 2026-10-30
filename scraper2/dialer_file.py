@@ -112,3 +112,46 @@ def csv_text(rows):
     w.writeheader()
     w.writerows(rows)
     return buf.getvalue()
+
+
+def rows_from_results(results):
+    """Input rows for a batch whose numbers_clean.csv was removed when it finished: from its archived results."""
+    out = []
+    for rid, res in sorted(results.items()):
+        c = (res or {}).get("contacts") or {}
+        out.append({"row_id": rid, "institution_name": _value(c.get("institution_name")), "country_sheet": _value(c.get("country"))})
+    return out
+
+
+def main():
+    """python scraper2/dialer_file.py --batch <name>: the upload file for one batch, in rescrape_output/ (git-ignored)."""
+    import argparse
+    import json
+    from pathlib import Path
+    import batch_runner
+    import reuse
+    ap = argparse.ArgumentParser(description=main.__doc__)
+    ap.add_argument("--batch", required=True)
+    ap.add_argument("--limit", type=int, help="Only the first N rows, for a small test file")
+    args = ap.parse_args()
+    root = Path(__file__).resolve().parent.parent
+    data, bdir = root / "data_hei", root / "data_hei" / args.batch
+    local = {f.stem: json.loads(f.read_text(encoding="utf-8")) for f in (bdir / "scrape_results").glob("r*.json")}
+    results = local or reuse._batch_results(data, args.batch, fetch_archive=batch_runner.fetch_archive)
+    if not results:
+        raise SystemExit(f"No results found for {args.batch}")
+    clean = bdir / "numbers_clean.csv"
+    if clean.exists():
+        with open(clean, newline="", encoding="utf-8-sig") as f:
+            rows = list(csv.DictReader(f))
+    else:
+        rows = rows_from_results(results)
+    out, summary = file_rows(rows[:args.limit] if args.limit else rows, results)
+    path = root / "rescrape_output" / f"{args.batch} CRM upload.csv"
+    path.parent.mkdir(exist_ok=True)
+    path.write_text(csv_text(out), encoding="utf-8-sig")
+    print(f"{summary['rows']} rows, {summary['without_number']} without a number: {path}")
+
+
+if __name__ == "__main__":
+    main()

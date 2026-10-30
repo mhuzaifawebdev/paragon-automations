@@ -57,6 +57,10 @@ key = df.inst_key("University of Malta", "Malta")
 out3, _ = df.file_rows([{**row, "phone_1": ""}], {"r1": res}, {key: {df.phone_hash("+356 2777 1111"), df.phone_hash("+356 2999 0000")}})
 check("a rescrape leaves out the numbers already tried", out3[0]["Phone"], "+356 2555 3333")
 
+check("a finished batch's rows can be rebuilt from its archive",
+      df.rows_from_results({"r2": {"contacts": {"institution_name": {"value": "Uni B"}, "country": "Spain"}}}),
+      [{"row_id": "r2", "institution_name": "Uni B", "country_sheet": "Spain"}])
+
 # ---- the manager's file of failed leads
 root = Path(tempfile.mkdtemp())
 failed = root / "failed.csv"
