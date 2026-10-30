@@ -1,0 +1,107 @@
+{
+ "row_id": "r047",
+ "scraped_at": "2026-10-30T14:00:56Z",
+ "contacts": {
+  "row_id": "r047",
+  "institution_name": "LYCEE D'ENSEIGNEMENT GENERAL ET TECHNOLOGIQUE PAUL LANGEVIN",
+  "institution_type": "school",
+  "official_website": "https://www.paul-langevin60.fr/",
+  "country": null,
+  "phone": {
+   "value": "03.44.12.17.17",
+   "source_url": "https://www.paul-langevin60.fr/",
+   "evidence_quote": "Tel: 03.44.12.17.17 <tel 0344121717>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. OBLIN",
+   "designation": "Proviseur",
+   "designation_local": "",
+   "email": "Ce.0600002B@ac-amiens.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.paul-langevin60.fr/contacts/administration-cpe-ddfpt.html",
+   "evidence_quote": "M. OBLIN ... Proviseur"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). M. OBLIN is the head of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Greta Oise",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.paul-langevin60.fr/",
+    "evidence_quote": "[Logo Greta Oise]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FCPE",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.paul-langevin60.fr/contacts/association-de-parents-d-eleves.html",
+    "evidence_quote": "Le conseil local des parents d'élèves est affilié à la FCPE.Tous les parents prêts à s'investir sont les bienvenus.Vous pouvez contacter le...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Paul-Langevin",
+    "city": "Beauvais",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://www.paul-langevin60.fr/",
+    "evidence_quote": "Lycée Paul-Langevin - Beauvais - Lycée Paul-Langevin - Beauvais"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain any information regarding international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 11.5,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     188
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 15.5
+ }
+}
