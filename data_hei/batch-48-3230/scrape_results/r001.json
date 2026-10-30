@@ -1,0 +1,129 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-10-30T11:51:57Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Salesianos Urnieta Salesiarrak",
+  "institution_type": "college",
+  "official_website": "https://salesianosurnieta.com/",
+  "country": null,
+  "phone": {
+   "value": "943 551 782",
+   "source_url": "https://salesianosurnieta.com/",
+   "evidence_quote": "943 551 782 <tel 943551782>"
+  },
+  "phone_alt": [],
+  "generic_email": "salesianos@salesianosurnieta.com",
+  "generic_email_url": "https://salesianosurnieta.com/contacto/",
+  "contact": {
+   "name": "José Luis Pinedo",
+   "designation": "Director titular",
+   "designation_local": "",
+   "email": "salesianos@salesianosurnieta.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://salesianosurnieta.com/contacto/",
+   "evidence_quote": "Director titular ... José Luis Pinedo <salesianos@salesianosurnieta.com>"
+  },
+  "alternates": [
+   {
+    "name": "Ander Loyarte",
+    "designation": "Coordinador departamento Escuela Empresa",
+    "designation_local": "",
+    "email": "ander@salesianosurnieta.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://salesianosurnieta.com/contacto/",
+    "evidence_quote": "Coordinador departamento Escuela Empresa ... Ander Loyarte <ander@salesianosurnieta.com>",
+    "why_chosen": "Mobility coordinator. As the coordinator of the School-Company department, he is responsible for the professional integration and mobility of students."
+   },
+   {
+    "name": "Imanol Andres",
+    "designation": "Erasmus contact",
+    "designation_local": "",
+    "email": "imanolandres@salesianosurnieta.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://salesianosurnieta.com/becas-de-erasmus/",
+    "evidence_quote": "Para más información escribir a imanolandres@salesianosurnieta.com",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is explicitly listed as the contact person for further information regarding Erasmus scholarships."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). José Luis Pinedo is the Director titular of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kristau Eskola",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://salesianosurnieta.com/",
+    "evidence_quote": "Salestarrak Magale Urnieta forma parte de distintas organizaciones como Kristau Eskola, Hetel, la red de escuelas salesianas. Mantiene también una cooperación continua con empresas del entorno. Asimismo, participa en distintos proyectos internacionales Erasmus tanto de innovación como de Intercambio internacional de experiencias con alumnos y profesionales de otros centros.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hetel",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://salesianosurnieta.com/",
+    "evidence_quote": "Salestarrak Magale Urnieta forma parte de distintas organizaciones como Kristau Eskola, Hetel, la red de escuelas salesianas. Mantiene también una cooperación continua con empresas del entorno. Asimismo, participa en distintos proyectos internacionales Erasmus tanto de innovación como de Intercambio internacional de experiencias con alumnos y profesionales de otros centros.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IIS Alessandrini-Marino",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://salesianosurnieta.com/proyectos/ka1-increasing-teaching-entrepeneurship-skills-among-teachers/",
+    "evidence_quote": "IIS Alessandrini-Marino",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Salestarrak Magale Urnieta (Infantil y Primaria)",
+    "city": "Urnieta",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://salesianosurnieta.com/",
+    "evidence_quote": "San Juan Kalea, 1"
+   },
+   {
+    "campus_name": "Salestarrak Magale Urnieta (ESO, Bachillerato y FP)",
+    "city": "Urnieta",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://salesianosurnieta.com/",
+    "evidence_quote": "Barrio Ergoien, 6"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of all Erasmus+ partner universities or companies, only mentioning participation in networks like HETEL and specific project collaborations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 15.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 15.0,
+  "total_seconds": 54.6
+ }
+}
