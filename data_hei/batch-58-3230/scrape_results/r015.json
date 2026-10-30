@@ -1,0 +1,77 @@
+{
+ "row_id": "r015",
+ "scraped_at": "2026-10-30T12:20:53Z",
+ "contacts": {
+  "row_id": "r015",
+  "institution_name": "IES MIGUEL HERNANDEZ",
+  "institution_type": "school",
+  "official_website": "https://ies-miguelhernandez.centros.castillalamancha.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Eslovaquia",
+    "partner_country": "Slovakia",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://ies-miguelhernandez.centros.castillalamancha.es/anuncios/erasmus-educaci%C3%B3n-escolar-26-27-listados-provisionales-de-alumnos-seleccionados-y-en",
+    "evidence_quote": "Movilidad en grupo a Eslovaquia (4º ESO) - Alumnos seleccionados",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bélgica",
+    "partner_country": "Belgium",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://ies-miguelhernandez.centros.castillalamancha.es/anuncios/erasmus-educaci%C3%B3n-escolar-26-27-listados-provisionales-de-alumnos-seleccionados-y-en",
+    "evidence_quote": "Movilidad en grupo a Bélgica (1º Bachillerato) - Alumnos seleccionados",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Miguel Hernández",
+    "city": "Ocaña",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://ies-miguelhernandez.centros.castillalamancha.es/",
+    "evidence_quote": "Calle Miguel Hernández, 4. 45300, Ocaña (Toledo)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not list specific partner institutions, only destination countries for student mobility. No specific contact persons are named in the provided text. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 55.3,
+  "crawl_s": 34.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 119.0
+ }
+}
