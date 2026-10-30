@@ -1,0 +1,150 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-30T13:26:00Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Ecoles Du Bon Sauveur",
+  "institution_type": "school",
+  "official_website": "https://www.ecoles-du-bon-sauveur.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 33 72 53 53",
+   "source_url": "https://www.ecoles-du-bon-sauveur.fr/",
+   "evidence_quote": "<tel 02 33 72 53 53>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Isabelle LELU",
+   "designation": "Coordinating Head of Establishment",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ecoles-du-bon-sauveur.fr/qui-sommes-nous",
+   "evidence_quote": "Isabelle LELU ... Cheffe d’établissement coordinatrice"
+  },
+  "alternates": [
+   {
+    "name": "M. POMMIER",
+    "designation": "Director of the primary school",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ecoles-du-bon-sauveur.fr/qui-sommes-nous",
+    "evidence_quote": "M. POMMIER ... Directeur",
+    "why_chosen": "Principal / director (no Erasmus contact found). M. POMMIER is the director of the primary school."
+   },
+   {
+    "name": "M. THEODOSE",
+    "designation": "Head of school life",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ecoles-du-bon-sauveur.fr/qui-sommes-nous",
+    "evidence_quote": "M. THEODOSE ... Responsable",
+    "why_chosen": "Other role. M. THEODOSE is the head of school life."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Isabelle LELU is the coordinating head of the establishment.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Espagne",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecoles-du-bon-sauveur.fr/sejours-et-mobilites#CollegeErasmus",
+    "evidence_quote": "Trois écoles européennes – l’Espagne, la France (coordinateur européen) et la Roumanie – se sont engagées, en contrepartie d’un soutien financier de la part de la Commission Européenne, à travailler sur un sujet commun « le développement durable » dans le cadre d’un projet Erasmus+.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Roumanie",
+    "partner_country": "Romania",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecoles-du-bon-sauveur.fr/sejours-et-mobilites#CollegeErasmus",
+    "evidence_quote": "Trois écoles européennes – l’Espagne, la France (coordinateur européen) et la Roumanie – se sont engagées, en contrepartie d’un soutien financier de la part de la Commission Européenne, à travailler sur un sujet commun « le développement durable » dans le cadre d’un projet Erasmus+.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecoles-du-bon-sauveur.fr/",
+    "evidence_quote": "[Logo Erasmus+]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "eTwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecoles-du-bon-sauveur.fr/sejours-et-mobilites#CollegeErasmus",
+    "evidence_quote": "Le travail sur les productions finales à réaliser (livret, site internet sur la plateforme eTwinning, série de vidéos) sera effectué sous la coordination des enseignants dans le cadre d’un Club Europe.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Écoles du Bon Sauveur",
+    "city": "Saint-Lô",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ecoles-du-bon-sauveur.fr/",
+    "evidence_quote": "Écoles du Bon Sauveur : école privée catholique à Saint-Lô"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 8,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects but does not provide a comprehensive list of all institutional partners. Contact emails are provided for the general secretariat but not for specific individuals.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 9.7,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 17.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 7.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     207
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 50.6
+ }
+}

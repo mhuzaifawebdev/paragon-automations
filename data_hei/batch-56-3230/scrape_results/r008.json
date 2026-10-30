@@ -1,0 +1,89 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-30T13:25:35Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "ECOLE PLURIPROFESSIONNELLE CH DE BRUMATH",
+  "institution_type": "college",
+  "official_website": "https://www.ch-epsan.fr/",
+  "country": null,
+  "phone": {
+   "value": "03 88 64 61 00",
+   "source_url": "https://www.ch-epsan.fr/",
+   "evidence_quote": "standard: 03 88 64 61 00"
+  },
+  "phone_alt": [],
+  "generic_email": "secretariatg01@ch-epsan.fr",
+  "generic_email_url": "https://www.ch-epsan.fr/nouscontacter.html",
+  "contact": {
+   "name": "Pierre Buckel",
+   "designation": "Coordinator of the Territorial Mental Health Project",
+   "designation_local": "",
+   "email": "pierre.buckel@ch-erstein.fr",
+   "office_email": "",
+   "phone": "03 88 68 23 07",
+   "source_url": "https://www.ch-epsan.fr/cooperation.html",
+   "evidence_quote": "Pierre Buckel, ... Coordonnateur du Projet Territorial de Santé Mentale"
+  },
+  "alternates": [],
+  "rung": "Other role. He is a named coordinator for a territorial project involving the institution and provides direct contact details.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Hôpitaux Universitaires de Strasbourg (HUS)",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ch-epsan.fr/centrerehabpsy.html",
+    "evidence_quote": "CURe Grand Est Alsace (Centre Universitaire support de Remédiation cognitive et rétablissement) repose sur la collaboration de trois établissements : les Hôpitaux Universitaires de Strasbourg (HUS), l’Établissement Public de Santé Alsace Nord (EPSAN) et le Centre Hospitalier d’Erstein (CHE)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Centre Hospitalier d’Erstein (CHE)",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ch-epsan.fr/centrerehabpsy.html",
+    "evidence_quote": "CURe Grand Est Alsace (Centre Universitaire support de Remédiation cognitive et rétablissement) repose sur la collaboration de trois établissements : les Hôpitaux Universitaires de Strasbourg (HUS), l’Établissement Public de Santé Alsace Nord (EPSAN) et le Centre Hospitalier d’Erstein (CHE)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "EPSAN",
+    "city": "Brumath",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ch-epsan.fr/",
+    "evidence_quote": "141 avenue de Strasbourg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution is a health establishment (hospital) with an integrated training institute (IFSI/IFAS). No specific Erasmus+ or international mobility coordinator is listed, and the partner list is limited to local health cooperation agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 12.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 30.2
+ }
+}
