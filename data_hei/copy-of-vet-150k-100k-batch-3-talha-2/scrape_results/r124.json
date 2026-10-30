@@ -1,0 +1,88 @@
+{
+ "row_id": "r124",
+ "scraped_at": "2026-10-30T17:24:16Z",
+ "contacts": {
+  "row_id": "r124",
+  "institution_name": "https://moravskedivadlo.cz/cs",
+  "institution_type": "unknown",
+  "official_website": "https://moravskedivadlo.cz/cs",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "David Gerneš",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "585 500 111",
+   "source_url": "https://moravskedivadlo.cz/cs/lide-kontakty#personalni-oddeleni",
+   "evidence_quote": "David Gerneš ... ředitel"
+  },
+  "alternates": [
+   {
+    "name": "Vlasta Pechová",
+    "designation": "Press Spokesperson / PR / Head of Marketing and Sales",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "585 500 111",
+    "source_url": "https://moravskedivadlo.cz/cs/lide-kontakty#personalni-oddeleni",
+    "evidence_quote": "Vlasta Pechová ... tisková mluvčí / PR / vedoucí marketingu a prodeje MDMF",
+    "why_chosen": "Secretary / administration (last resort). She is responsible for marketing and PR, which often handles external institutional relations."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the director of the institution, he is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'Moravské divadlo Olomouc' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Moravská filharmonie",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://moravskedivadlo.cz/cs/clanky/napsali-o-nas",
+    "evidence_quote": "Otazníky kolem slučování dvou kulturních institucí, divadla a filharmonie v Olomouci, zdá se, konečně utichly. Filharmonie už zakončila tradiční varhanní festival a operní soubor nastudoval novou klasickou inscenaci, operu Tosca Giacoma Pucciniho, jejíž premiéra se odehrála 19. září. Deklarovaná spolupráce mezi institucemi se naplnila prostřednictvím šéfdirigenta Moravské filharmonie Zsolta Hamara, který se ujal hudebního nastudování opery a také jejího provedení. Hudební i režijní ztvárnění zaj",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Moravské divadlo Olomouc",
+    "city": "Olomouc",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://moravskedivadlo.cz/cs",
+    "evidence_quote": "tř. Svobody 33,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution is a theatre, not an educational institution, and therefore does not have Erasmus+ partnerships or mobility programs. No formal partner list is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.0,
+  "crawl_s": 17.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.6,
+  "total_seconds": 33.5
+ }
+}
