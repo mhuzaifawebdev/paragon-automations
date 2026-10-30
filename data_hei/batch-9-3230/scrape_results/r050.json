@@ -1,0 +1,79 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-10-30T10:45:56Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "FONDAZIONE SCUOLE CIVICHE DI MILANO",
+  "institution_type": "college",
+  "official_website": "https://fondazionemilano.eu/",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://fondazionemilano.eu/",
+   "evidence_quote": "Prende avvio un nuovo capitolo del progetto “AI Works for Italy”, l'iniziativa di Google per la diffusione di competenze essenziali sull'AI in Italia."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@fondazionemilano.eu",
+  "generic_email_url": "https://fondazionemilano.eu/",
+  "contact": {
+   "name": "Paolo Giorgio",
+   "designation": "Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://fondazionemilano.eu/",
+   "evidence_quote": "Coordinamento Paolo Giorgio"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. Paolo Giorgio is listed as the coordinator for the international theatre exchange week.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "E:UTSA (Europe: Union of Theatre Schools and Academies)",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "study",
+    "source_url": "https://fondazionemilano.eu/",
+    "evidence_quote": "IV Edizione della settimana di scambio internazionale organizzata in rete con il network E:UTSA (Europe: Union of Theatre Schools and Academies)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fondazione Milano",
+    "city": "Milano",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://fondazionemilano.eu/",
+    "evidence_quote": "Sette sedi a Milano"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The evidence lists several school divisions and one partner network for theatrical exchange, but does not provide a comprehensive partner list or explicit direct international relations office contacts. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 7.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "email_search_s": 1.3,
+  "total_seconds": 13.8
+ }
+}
