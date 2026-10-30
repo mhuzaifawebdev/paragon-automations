@@ -1,0 +1,65 @@
+{
+ "row_id": "r518",
+ "scraped_at": "2026-10-30T22:03:12Z",
+ "contacts": {
+  "row_id": "r518",
+  "institution_name": "Dellon Sales",
+  "institution_type": "unknown",
+  "official_website": "https://www.dellonsales.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@dellonsales.com",
+  "generic_email_url": "https://www.dellonsales.com/contact-us",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "New York Office",
+    "city": "Albertson",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.dellonsales.com/locations",
+    "evidence_quote": "5 Albertson Ave"
+   },
+   {
+    "campus_name": "New Jersey Office",
+    "city": "Middlesex",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.dellonsales.com/locations",
+    "evidence_quote": "141 Wood Ave"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "Dellon Sales is a manufacturer's representative company, not an educational institution, despite the name Dellon University used for their training center. No contact persons or international partners are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.2,
+  "crawl_s": 8.0,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 16.4
+ }
+}
