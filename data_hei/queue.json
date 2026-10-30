@@ -3737,22 +3737,34 @@
    "source": "Copy of VET 150K - 100K BATCH 5_Bano(B1)",
    "file_id": "1iTdPpGv4aTcOoVeE2mYGM0G_hLEvHX1vBQT5bx90AHA",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 146,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-30T18:02:55Z",
    "last_start": "2026-10-30T18:02:55Z",
    "restarts": 0,
-   "cap_usd": 660.91
+   "cap_usd": 660.91,
+   "crm_rows": 1,
+   "no_number": 145,
+   "spend_recorded": true,
+   "cost_usd": 0.0709,
+   "drive_link": "https://docs.google.com/spreadsheets/d/162I4GiF7spBgQ5K6MUHiznavo1DSwWM9/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 9,
+   "finished": "2026-10-30T18:12:58Z",
+   "reason": "146 institutes, 2 with a contact"
   },
   {
    "batch": "batch-4-1-277",
    "source": "Batch-4_1,277",
    "file_id": "1htOuw5P89fJ_NM7tWNSS6__mwvTkxbXYcejYfK5boyY",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 2,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-30T18:12:58Z",
+   "last_start": "2026-10-30T18:12:58Z",
+   "restarts": 0,
+   "cap_usd": 660.84
   },
   {
    "batch": "dts-scope-and-schedulemerged",
@@ -4012,7 +4024,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-30T18:02:55Z",
+ "updated": "2026-10-30T18:12:58Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
