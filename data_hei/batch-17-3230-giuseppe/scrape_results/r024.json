@@ -1,0 +1,105 @@
+{
+ "row_id": "r024",
+ "scraped_at": "2026-10-28T21:14:05Z",
+ "contacts": {
+  "row_id": "r024",
+  "institution_name": "Lycée Lamartine",
+  "institution_type": "school",
+  "official_website": "https://www.lycee-tripoli.edu.lb",
+  "country": {
+   "value": "Liban",
+   "source_url": "https://www.lycee-tripoli.edu.lb/contact-us/",
+   "evidence_quote": "Kfar Kahel – Liban Nord"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "Reused from batch batch-12-l-s-multiplier-for-linkedin (scraped 2026-10-28). site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ambassade de France",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lycee-tripoli.edu.lb",
+    "evidence_quote": "[ambassade de France]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "aefe",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lycee-tripoli.edu.lb",
+    "evidence_quote": "[aefe]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ift",
+    "partner_country": "Liban",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lycee-tripoli.edu.lb",
+    "evidence_quote": "[ift]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hallab 1881",
+    "partner_country": "Liban",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lycee-tripoli.edu.lb/la-cantine-notre-nouveau-partenaire-hallab-1881/",
+    "evidence_quote": "La Cantine – Notre nouveau partenaire Hallab 1881 | Lycées Alphonse de Lamartine",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Compiac Sarl",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lycee-tripoli.edu.lb",
+    "evidence_quote": "Lycee Franco-libanais © 2026 All rights reserved - powered by Compiac Sarl",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Annexe de Tripoli",
+    "city": "Tripoli",
+    "country": "Liban",
+    "role": "branch",
+    "source_url": "https://www.lycee-tripoli.edu.lb",
+    "evidence_quote": "ANNEXE DE TRIPOLI"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 5,
+  "coverage_note": "The institution is located in Lebanon, not France as suggested by the client's initial prompt. No specific Erasmus+ coordinator is listed as the school is a secondary education institution in Lebanon. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "batch-12-l-s-multiplier-for-linkedin",
+  "row_id": "r019"
+ }
+}
