@@ -1,0 +1,151 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-10-30T12:23:12Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "IES Segundo de Chomon",
+  "institution_type": "school",
+  "official_website": "https://www.iesch.org/",
+  "country": null,
+  "phone": {
+   "value": "978 60 13 21",
+   "source_url": "https://www.iesch.org/",
+   "evidence_quote": "Teléfono 1: 978 60 13 21 |"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Salvador Túnez Vicente",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iesch.org/index.php/instituto/organizacion/equipo-directivo",
+   "evidence_quote": "Director | ... Salvador Túnez Vicente"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the Director of the institution and is listed as the primary contact for the school.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SEPIE",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesch.org/",
+    "evidence_quote": "[SEPIE erasmus plus]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ERASMUS",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesch.org/",
+    "evidence_quote": "[logo ERASMUS]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "eTwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesch.org/",
+    "evidence_quote": "[eTwinning]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ireland",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.iesch.org/images/curso_actual/proyectos_y_programas/ERASMUS/ERASMUS%20POLICY%20STATEMENT.pdf",
+    "evidence_quote": "interested in Ireland and Italy. We choose Ireland because we believe that it is a country",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Italy",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.iesch.org/images/curso_actual/proyectos_y_programas/ERASMUS/ERASMUS%20POLICY%20STATEMENT.pdf",
+    "evidence_quote": "interested in Ireland and Italy. We choose Ireland because we believe that it is a country",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Official School of Languages",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesch.org/images/curso_actual/proyectos_y_programas/ERASMUS/ERASMUS%20POLICY%20STATEMENT.pdf",
+    "evidence_quote": "example in the Official School of Languages. If the number of students who are going to",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Segundo de Chomón",
+    "city": "Teruel",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iesch.org/",
+    "evidence_quote": "44002 Teruel |"
+   },
+   {
+    "campus_name": "Sección Delegada de Cantavieja",
+    "city": "Cantavieja",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.iesch.org/",
+    "evidence_quote": "Sección Delegada de Cantavieja"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 9,
+  "coverage_note": "The evidence provides information about the institution's Erasmus+ accreditation and general international strategy, but does not contain a specific list of partner institutions. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 13.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 16.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 8,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 39.4
+ }
+}
