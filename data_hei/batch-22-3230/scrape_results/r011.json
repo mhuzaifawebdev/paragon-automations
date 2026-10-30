@@ -1,0 +1,108 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-30T13:56:00Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Svatojanska kolej - Vyssi odborna skola pedagogicka",
+  "institution_type": "college",
+  "official_website": "https://www.svatojanskakolej.cz/",
+  "country": null,
+  "phone": {
+   "value": "312 256 051",
+   "source_url": "https://www.svatojanskakolej.cz/kontakty/",
+   "evidence_quote": "telefon: 312 256 051"
+  },
+  "phone_alt": [],
+  "generic_email": "sekretariat@svatojanskakolej.cz",
+  "generic_email_url": "https://www.svatojanskakolej.cz/kontakty/",
+  "contact": {
+   "name": "RNDr. Věra Štěpinová, PhD.",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "reditel@svatojanskakolej.cz",
+   "office_email": "",
+   "phone": "312 256 051",
+   "source_url": "https://www.svatojanskakolej.cz/en/general-information/our-team/",
+   "evidence_quote": "RNDr. Věra Štěpinová, PhD. ... ředitelka"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the director of the institution, she oversees the directorate to which Erasmus applications are submitted.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "St. Mary´s College",
+    "partner_country": "Northern Ireland",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.svatojanskakolej.cz/pro-studenty/erasmus/",
+    "evidence_quote": "Mobility jsou realizovány na základě smlouvy mezi vzdělávacími institucemi připravené Oddělením mezinárodních vztahů. Smlouva se zakládá na vzájemné dohodě a vzájemném kontaktu odpovídajích oddělení daných institucí. V dané chvíli spolupracujeme se St. Mary´s College v Belfastu, Katholische Stiftungshochschule v Mnichově a University of Oulu ve Finsku.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Katholische Stiftungshochschule",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.svatojanskakolej.cz/pro-studenty/erasmus/",
+    "evidence_quote": "Mobility jsou realizovány na základě smlouvy mezi vzdělávacími institucemi připravené Oddělením mezinárodních vztahů. Smlouva se zakládá na vzájemné dohodě a vzájemném kontaktu odpovídajích oddělení daných institucí. V dané chvíli spolupracujeme se St. Mary´s College v Belfastu, Katholische Stiftungshochschule v Mnichově a University of Oulu ve Finsku.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Oulu",
+    "partner_country": "Finland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.svatojanskakolej.cz/pro-studenty/erasmus/",
+    "evidence_quote": "Mobility jsou realizovány na základě smlouvy mezi vzdělávacími institucemi připravené Oddělením mezinárodních vztahů. Smlouva se zakládá na vzájemné dohodě a vzájemném kontaktu odpovídajích oddělení daných institucí. V dané chvíli spolupracujeme se St. Mary´s College v Belfastu, Katholische Stiftungshochschule v Mnichově a University of Oulu ve Finsku.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Svatojánská kolej – vyšší odborná škola pedagogická",
+    "city": "Svatý Jan pod Skalou",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.svatojanskakolej.cz/kontakty/",
+    "evidence_quote": "č.p. 1, 266 01 Svatý Jan pod Skalou"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The institution lists specific Erasmus partners in the text, but does not provide a comprehensive list of all international agreements. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 16.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 19.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 5.9,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 43.0
+ }
+}
