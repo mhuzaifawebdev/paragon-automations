@@ -1,0 +1,136 @@
+{
+ "row_id": "r014",
+ "scraped_at": "2026-10-30T14:03:29Z",
+ "contacts": {
+  "row_id": "r014",
+  "institution_name": "ADEFSA CFA DESCARTES",
+  "institution_type": "college",
+  "official_website": "https://www.cfadescartes.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Delphine Glesaz",
+   "designation": "Pedagogical coordinator",
+   "designation_local": "",
+   "email": "d.glesaz@cfadescartes.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.cfadescartes.fr/",
+   "evidence_quote": "Descartes SUP : Teddy Cornet, formateur référent du projet pédagogique, Delphine Glesaz, coordinatrice pédagogique et Véronique Thomas, responsable pédagogique",
+   "email_source_url": "https://www.cfadescartes.fr/wp-content/uploads/2023/10/bts-gpme-26-27.pdf"
+  },
+  "alternates": [
+   {
+    "name": "Véronique Thomas",
+    "designation": "Pedagogical manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.cfadescartes.fr/",
+    "evidence_quote": "Descartes SUP : Teddy Cornet, formateur référent du projet pédagogique, Delphine Glesaz, coordinatrice pédagogique et Véronique Thomas, responsable pédagogique",
+    "why_chosen": "Principal / director (no Erasmus contact found). Véronique Thomas is a pedagogical manager involved in institutional projects."
+   },
+   {
+    "name": "Teddy Cornet",
+    "designation": "Project pedagogical referent",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.cfadescartes.fr/",
+    "evidence_quote": "Descartes SUP : Teddy Cornet, formateur référent du projet pédagogique, Delphine Glesaz, coordinatrice pédagogique et Véronique Thomas, responsable pédagogique",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Teddy Cornet is a pedagogical project referent involved in institutional partnerships."
+   }
+  ],
+  "rung": "Mobility coordinator. Delphine Glesaz is a pedagogical coordinator involved in institutional projects. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": false,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université Gustave Eiffel",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cfadescartes.fr/",
+    "evidence_quote": "En collaboration avec l’Université Gustave Eiffel, référence nationale en formation universitaire en alternance, notre établissement, à but non lucratif propose des formations en présentiel. 98 % des cours sont assurés, commencent à l’heure et sont animés par des formateurs d’un haut niveau académique et bénéficiant d’une expérience professionnelle confirmée.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ENSA Paris-Est",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cfadescartes.fr/",
+    "evidence_quote": "ENSA Paris-Est",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "INA Campus",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cfadescartes.fr/",
+    "evidence_quote": "INA Campus",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Marne et Brie Industries",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cfadescartes.fr/",
+    "evidence_quote": "En collaboration avec notre partenaire Marne et Brie Industries, le choix s’est porté sur l’entreprise Bama, qui a accepté d`ouvrir ses portes à nos étudiants.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bama",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cfadescartes.fr/",
+    "evidence_quote": "En collaboration avec notre partenaire Marne et Brie Industries, le choix s’est porté sur l’entreprise Bama, qui a accepté d`ouvrir ses portes à nos étudiants.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Descartes SUP",
+    "city": "Champs-sur-Marne",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.cfadescartes.fr/",
+    "evidence_quote": "Descartes SUP est situé au 22 boulevard Newton à Champs-sur-Marne, en Seine-et-Marne, dans l’Est parisien, à proximité de la gare RER A de Noisy-Champs."
+   }
+  ],
+  "stated_total": 2500,
+  "stated_total_quote": "2500",
+  "stated_total_url": "https://www.cfadescartes.fr/",
+  "truncated": true,
+  "total_seen": 2500,
+  "pages_read": 1,
+  "coverage_note": "The evidence does not explicitly list Erasmus+ specific partners or international mobility agreements, only general industry and institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 3.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.6,
+  "total_seconds": 11.0
+ }
+}
