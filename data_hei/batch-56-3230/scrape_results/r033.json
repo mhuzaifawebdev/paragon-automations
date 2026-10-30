@@ -1,0 +1,92 @@
+{
+ "row_id": "r033",
+ "scraped_at": "2026-10-30T13:27:44Z",
+ "contacts": {
+  "row_id": "r033",
+  "institution_name": "EPL",
+  "institution_type": "unknown",
+  "official_website": "https://www.premierleague.com/",
+  "country": {
+   "value": "United Kingdom",
+   "source_url": "https://www.premierleague.com/en/about/safeguarding/support-contacts",
+   "evidence_quote": "Childline is a free and confidential service for children and young people in the United Kingdom. It provides support online and by phone, 24 hours a day, 7 days a week, for anyone under the age of 19. Children and young people can contact Childline about any concern, big or small, and receive advice, support or a listening ear."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@premierleague.com",
+  "generic_email_url": "https://www.premierleague.com/en/about/faq/contact-us",
+  "contact": {
+   "name": "Supporter Services",
+   "designation": "Supporter Services",
+   "designation_local": "",
+   "email": "supporters@premierleague.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.premierleague.com/en/about/faq/contact-us",
+   "evidence_quote": "- Supporter Services: Contact your club’s SLO directly, or email supporters@premierleague.com <supporters@premierleague.com> for additional assistance with \"Off The Pitch\" matters."
+  },
+  "alternates": [
+   {
+    "name": "Safeguarding Team",
+    "designation": "Safeguarding Team",
+    "designation_local": "",
+    "email": "safeguarding@premierleague.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.premierleague.com/en/about/safeguarding/support-contacts",
+    "evidence_quote": "The Premier League Safeguarding Team can be contacted by emailing safeguarding@premierleague.com <safeguarding@premierleague.com> for advice, guidance or to report a safeguarding concern.",
+    "why_chosen": "Secretary / administration (last resort). This team manages safeguarding concerns and policy information."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). This department provides assistance with off-the-pitch matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Professional Footballers' Association (PFA)",
+    "partner_country": "England",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.premierleague.com/en/footballandcommunity/morethanagame/wider-football/pfa-partnership",
+    "evidence_quote": "The Professional Footballers' Association (PFA) is the union for all current and former professional footballers and scholars in England.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "League Managers Association (LMA)",
+    "partner_country": "England",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.premierleague.com/en/footballandcommunity/morethanagame/wider-football/lma-partnership",
+    "evidence_quote": "The League Managers Association is the association for current and former professional football managers and coaches in England",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The institution is a professional sports league organization rather than a traditional academic institution. No specific campus locations or formal Erasmus+ mobility agreements are listed in the provided evidence. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 14.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 9.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 24.3
+ }
+}
