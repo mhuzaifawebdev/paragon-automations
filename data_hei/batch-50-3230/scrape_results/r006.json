@@ -1,0 +1,91 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-30T13:37:06Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "Instituto de Nossa Senhora de Fátima",
+  "institution_type": "school",
+  "official_website": "https://www.insf.org.br/",
+  "country": null,
+  "phone": {
+   "value": "18) 3606-1793",
+   "source_url": "https://www.insf.org.br/",
+   "evidence_quote": "(18) 3606-1793 <tel (18) 3606-1793>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Adriana Tezim",
+   "designation": "Dance Teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.insf.org.br/nossa-equipe-",
+   "evidence_quote": "Adriana Tezim ... Professora de Dança"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Adriana Tezim is a Dance teacher at the institution.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Centro Educacional Dom Orione",
+    "partner_country": "Brazil",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.insf.org.br/",
+    "evidence_quote": "Centro Educacional Dom Orione",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Instituto Nossa Senhora de Fátima",
+    "city": "Guararapes",
+    "country": "Brazil",
+    "role": "main",
+    "source_url": "https://www.insf.org.br/",
+    "evidence_quote": "Guararapes - SP 16700-000, BR"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The institution is a social and educational center in Brazil, not Spain as suggested in the prompt. No information regarding international mobility or Erasmus+ partnerships is available in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 6.7,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 2.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     60
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 35.5
+ }
+}

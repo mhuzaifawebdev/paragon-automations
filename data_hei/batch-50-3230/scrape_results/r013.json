@@ -1,0 +1,95 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-29T09:35:04Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "INSTYTUT MASZYN PRZEPLYWOWYCH IM ROBERTA SZEWALSKIEGO POLSKIEJ AKADEMII NAUK - IMP PAN",
+  "institution_type": "university",
+  "official_website": "https://imp.gda.pl/",
+  "country": {
+   "value": "Poland",
+   "source_url": "https://imp.gda.pl/en/bip/staff-who-obtained-the-title-of-professor-after-2018",
+   "evidence_quote": "Address: 14 Fiszera St., 80-231 Gdańsk, Poland"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ewa Domke",
+   "designation": "Proxy of the Director for International Cooperation and Project Support",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+48 58 5225 293",
+   "source_url": "https://imp.gda.pl/pl/instytut/pracownicy",
+   "evidence_quote": "Ewa | Domke | [ukryty email] ... | +48 58 5225 293 | Pełnomocnik Dyrektora ds. Współpracy Międzynarodowej i Obsługi Projektów"
+  },
+  "alternates": [],
+  "rung": "Head of international relations. She is the designated proxy for international cooperation and project support at the institution.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch testing-sheet (scraped 2026-10-29). site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Tri-City Doctoral School",
+    "partner_country": "Poland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://imp.gda.pl/en/bip/staff-who-obtained-the-title-of-professor-after-2018",
+    "evidence_quote": "Tri-City Doctoral School",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gdańsk University of Technology",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://imp.gda.pl/en/bip/staff-who-obtained-the-title-of-professor-after-2018",
+    "evidence_quote": "Doctoral School at Gdańsk University of Technology",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Instytut Maszyn Przepływowych PAN",
+    "city": "Gdańsk",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://imp.gda.pl/",
+    "evidence_quote": "Adres: Ul. Fiszera 14, 80-231 Gdańsk"
+   },
+   {
+    "campus_name": "Centrum Badawcze KEZO",
+    "city": "Jabłonna",
+    "country": "Poland",
+    "role": "branch",
+    "source_url": "https://imp.gda.pl/",
+    "evidence_quote": "[Centrum Badawcze KEZO w Jabłonnie]"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a list of partner universities on its website. The Erasmus+ documentation mentions that agreements are signed with partner institutions but does not list them.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "testing-sheet",
+  "row_id": "r112"
+ }
+}
