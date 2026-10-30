@@ -1,0 +1,89 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-30T10:39:18Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "HOGSKOLEN I OSTFOLD",
+  "institution_type": "college",
+  "official_website": "https://www.hiof.no/",
+  "country": {
+   "value": "Norway",
+   "source_url": "https://www.hiof.no/",
+   "evidence_quote": "Norway"
+  },
+  "phone": {
+   "value": "69 60 80 00",
+   "source_url": "https://www.hiof.no/",
+   "evidence_quote": "Telefon: 69 60 80 00"
+  },
+  "phone_alt": [],
+  "generic_email": "postmottak@hiof.no",
+  "generic_email_url": "https://www.hiof.no/",
+  "contact": {
+   "name": "Anne-Marith Rasmussen",
+   "designation": "Coordinating fitness officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.hiof.no/",
+   "evidence_quote": "Siden begynnelsen av september har HiØ hatt et nytt skikkethetsteam: Anne-Marith Rasmussen i full stilling som koordinerende skikkethetsansvarlig, og to fakultetsansvarlige. Karl-Arne Korseberg, som har hatt rollen siden 2018, bidrar fram til nyttår."
+  },
+  "alternates": [],
+  "rung": "Other role. Anne-Marith Rasmussen is listed with a specific coordinating role at the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Halden",
+    "city": "Halden",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://www.hiof.no/",
+    "evidence_quote": "[Bildemontasjer viser høgskolens bygg i Halden i bakgrunnen og portrettbilder av de tre alumniene i forgrunnen.]"
+   },
+   {
+    "campus_name": "Fredrikstad Campus",
+    "city": "Fredrikstad",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.hiof.no/om/",
+    "evidence_quote": "Fredrikstad Campus"
+   },
+   {
+    "campus_name": "Campus Remmen",
+    "city": "Halden",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.hiof.no/om/",
+    "evidence_quote": "HIØ, Halden. Campus Remmen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "The evidence contains general institutional information, contact details, and campus locations, but lacks any specific lists of international partners or Erasmus agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 8.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.0,
+  "mode": "gemini",
+  "email_search_s": 1.3,
+  "total_seconds": 19.0
+ }
+}
