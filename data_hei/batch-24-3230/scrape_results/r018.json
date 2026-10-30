@@ -1,0 +1,133 @@
+{
+ "row_id": "r018",
+ "scraped_at": "2026-10-30T10:03:43Z",
+ "contacts": {
+  "row_id": "r018",
+  "institution_name": "IES GRAN CAPITAN",
+  "institution_type": "school",
+  "official_website": "https://www.iesgrancapitan.org/",
+  "country": {
+   "value": "España",
+   "source_url": "https://www.iesgrancapitan.org/",
+   "evidence_quote": "CP: 14014 – Córdoba (España)"
+  },
+  "phone": {
+   "value": "957379710",
+   "source_url": "https://www.iesgrancapitan.org/",
+   "evidence_quote": "Teléfono 1: 957379710"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@iesgrancapitan.org",
+  "generic_email_url": "https://www.iesgrancapitan.org/erasmus-movilidad-de-las-personas-por-motivos-de-aprendizaje/",
+  "contact": {
+   "name": "Amelia Pérez Flores",
+   "designation": "Head of Internationalization Department",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iesgrancapitan.org/wp-content/uploads/sites/2/2025/01/2024_25_guiaerasmus_profes.pdf",
+   "evidence_quote": "● Departamento de Internacionalización . Coordinación de proyectos. ... Amelia Pérez Flores , ejerce de Jefa"
+  },
+  "alternates": [
+   {
+    "name": "Carmen Domingo del Bosque",
+    "designation": "Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iesgrancapitan.org/wp-content/uploads/sites/2/2025/01/2024_25_guiaerasmus_profes.pdf",
+    "evidence_quote": "Carmen Domingo del Bosque, Directora del IES",
+    "why_chosen": "Principal / director (no Erasmus contact found). Carmen Domingo del Bosque is the director of the institution."
+   },
+   {
+    "name": "Raúl Márquez Díaz",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iesgrancapitan.org/wp-content/uploads/sites/2/2025/01/2024_25_guiaerasmus_profes.pdf",
+    "evidence_quote": "Raúl Márquez Díaz. Secretario del IES",
+    "why_chosen": "Secretary / administration (last resort). Raúl Márquez Díaz is the secretary of the institution."
+   }
+  ],
+  "rung": "Head of international relations. Amelia Pérez Flores is the head of the internationalization department, making her the primary contact for Erasmus and mobility.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Praktiska gymnasiet Skellefteâ",
+    "partner_country": "Suecia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesgrancapitan.org/erasmus-movilidad-de-las-personas-por-motivos-de-aprendizaje/",
+    "evidence_quote": "Visita del centro Praktiska gymnasiet Skellefteâ de Suecia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SEPIE (Servicio Español para la Internacionalización en la Educación)",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesgrancapitan.org/wp-content/uploads/sites/2/2025/01/2024_25_guiaerasmus_profes.pdf",
+    "evidence_quote": "Actualmente, nuestro Instituto tiene varios proyectos aprobados y financiados por SEPIE (Servicio",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Gran Capitán",
+    "city": "Córdoba",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.iesgrancapitan.org/",
+    "evidence_quote": "CP: 14014 – Córdoba (España)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions partner involvement and visits from international schools like Praktiska gymnasiet Skellefteâ, but a complete partner list is not explicitly detailed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 14.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 52.0,
+  "mode": "gemini",
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 70.2
+ }
+}
