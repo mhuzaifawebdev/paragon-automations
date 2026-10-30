@@ -1,0 +1,99 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-30T13:06:41Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Ecole Supérieure d'Art de Lorraine",
+  "institution_type": "college",
+  "official_website": "https://www.esalorraine.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Billal Mebarki",
+   "designation": "Head of International Relations",
+   "designation_local": "",
+   "email": "bmebarki@esalorraine.fr",
+   "office_email": "",
+   "phone": "+33 3 87 39 61 45",
+   "source_url": "https://www.esalorraine.fr/international",
+   "evidence_quote": "Billal Mebarki ... Responsable des relations internationales"
+  },
+  "alternates": [
+   {
+    "name": "Chiara Vecchiarelli",
+    "designation": "General Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.esalorraine.fr/equipe",
+    "evidence_quote": "Chiara Vecchiarelli* Directrice générale et du Pôle arts plastiques Metz",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the General Director of the institution."
+   },
+   {
+    "name": "Marion Sztor",
+    "designation": "Head of Schooling and Student Life and Equality and Inclusion Referent",
+    "designation_local": "",
+    "email": "mSztor@esalorraine.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.esalorraine.fr/equipe",
+    "evidence_quote": "Marion Sztor <mSztor@esalorraine.fr> Responsable de la scolarité et de la vie étudiante et référente \"égalité et inclusion\"",
+    "why_chosen": "Other role. She manages student life and inclusion, which are key aspects of international mobility."
+   }
+  ],
+  "rung": "Head of international relations. He is explicitly identified as the person responsible for international relations.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Pôle arts plastiques",
+    "city": "Metz",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.esalorraine.fr/",
+    "evidence_quote": "Pôle arts plastiques, Metz — Art et Communication"
+   },
+   {
+    "campus_name": "Pôle musique et danse",
+    "city": "Metz",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.esalorraine.fr/",
+    "evidence_quote": "Pôle musique et danse, Metz"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The provided evidence does not contain any contact names, email addresses, or a list of international partners. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 4.5,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "email_search_s": 0.0,
+  "total_seconds": 19.0
+ }
+}

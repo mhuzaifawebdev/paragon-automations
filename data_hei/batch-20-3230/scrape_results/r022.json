@@ -1,0 +1,140 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-10-30T13:07:22Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "Scholastika - VOS vizualni komunikace",
+  "institution_type": "college",
+  "official_website": "https://www.scholastika.cz/cz",
+  "country": null,
+  "phone": {
+   "value": "+420 277 771 081",
+   "source_url": "https://www.scholastika.cz/cz",
+   "evidence_quote": "+420 277 771 081"
+  },
+  "phone_alt": [],
+  "generic_email": "reditel.vos@scholastika.cz",
+  "generic_email_url": "https://www.scholastika.cz/cz/o-nas",
+  "contact": {
+   "name": "Simona Soor Lackovičová",
+   "designation": "Erasmus coordinator",
+   "designation_local": "",
+   "email": "slackovicova@scholastika.cz",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.scholastika.cz/cz/o-nas",
+   "evidence_quote": "Bc. Simona Soor Lackovičová ... Vedoucí studijního oddělení, Erasmus coordinator"
+  },
+  "alternates": [
+   {
+    "name": "Evžen Šimera",
+    "designation": "Director of the school",
+    "designation_local": "",
+    "email": "reditel.vos@scholastika.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.scholastika.cz/cz/o-nas",
+    "evidence_quote": "MgA. Evžen Šimera, Ph. D. ... Ředitel školy",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the director of the institution."
+   },
+   {
+    "name": "Adam Zaňka",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "azanka@scholastika.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.scholastika.cz/cz/o-nas",
+    "evidence_quote": "Bc. Adam Zaňka, DiS. ... Zástupce ředitele",
+    "why_chosen": "Principal / director (no Erasmus contact found). He serves as the deputy director of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. She is explicitly identified as the Erasmus coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Escuela de arte y superior de Diseño de Valencia",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.scholastika.cz/cz/erasmus-program",
+    "evidence_quote": "Valencie - Escuela de arte y superior de Diseño de Valencia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escola d'Art i Superior de Disseny Josep Serra i Abella",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.scholastika.cz/cz/erasmus-program",
+    "evidence_quote": "Barcelona - Escola d'Art i Superior de Disseny Josep Serra i Abella",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escola Superior de Disseny i d'Arts Plàstiques",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.scholastika.cz/cz/erasmus-program",
+    "evidence_quote": "Barcelona - Escola Superior de Disseny i d'Arts Plàstiques",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Escuela Superior de Diseño y Arte de Andalucia",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.scholastika.cz/cz/erasmus-program",
+    "evidence_quote": "Granada - Escuela Superior de Diseño y Arte de Andalucia",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Scholastika – vyšší odborná škola vizuální komunikace",
+    "city": "Praha",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.scholastika.cz/cz",
+    "evidence_quote": "Římská 103/12"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The institution lists specific partner schools in Spain, but does not provide a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 25.6,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     241
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 32.5
+ }
+}

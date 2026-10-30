@@ -1,0 +1,101 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-10-30T13:07:06Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "Ecole supérieure d'art dramatique du Théâtre National de Bretagne",
+  "institution_type": "college",
+  "official_website": "https://www.t-n-b.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 99 31 12 31",
+   "source_url": "https://www.t-n-b.fr/",
+   "evidence_quote": "Accueil des publics / Billetterie 02 99 31 12 31"
+  },
+  "phone_alt": [],
+  "generic_email": "ecole@t-n-b.fr",
+  "generic_email_url": "https://www.t-n-b.fr/le-tnb/lecole-du-tnb/contacts-et-infos-pratiques",
+  "contact": {
+   "name": "Arthur Nauzyciel",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "nom.nom@t-n-b.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.t-n-b.fr/le-tnb/equipe",
+   "evidence_quote": "Directeur ... ARTHUR NAUZYCIEL"
+  },
+  "alternates": [
+   {
+    "name": "Salomé Belz",
+    "designation": "Studies Coordinator",
+    "designation_local": "",
+    "email": "s.belz@tnb.fr",
+    "office_email": "",
+    "phone": "02 99 31 12 80",
+    "source_url": "https://www.t-n-b.fr/le-tnb/lecole-du-tnb/contacts-et-infos-pratiques",
+    "evidence_quote": "Salomé Belz – coordinatrice des études",
+    "why_chosen": "Secretary / administration (last resort). Salomé Belz is the coordinator of studies for the school and handles information requests."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Arthur Nauzyciel is the Director of the institution and was the contact provided by the client.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Festival Transforme",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.t-n-b.fr/le-tnb/les-partenaires",
+    "evidence_quote": "FESTIVAL TRANSFORME — RENNES",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fondation d'entreprise Hermès",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.t-n-b.fr/le-tnb/les-partenaires",
+    "evidence_quote": "AVEC LA FONDATION D'ENTREPRISE HERMÈS",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "École Supérieure d’Art Dramatique du TNB",
+    "city": "Rennes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.t-n-b.fr/le-tnb/lecole-du-tnb/contacts-et-infos-pratiques",
+    "evidence_quote": "École Supérieure d’Art Dramatique du TNB"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The evidence provides contact information for the school and lists some partners/sponsors, but does not contain a comprehensive list of Erasmus+ or international academic partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 13.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.1,
+  "total_seconds": 25.8
+ }
+}
