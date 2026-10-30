@@ -10,6 +10,13 @@ on:
     types: [queue-tick]
   schedule:
     - cron: "*/30 * * * *"
+  # A change to these jobs or the queue script starts a tick straight away.
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/queue.yml
+      - .github/workflows/scrape_batch.yml
+      - scripts/queue_tick.py
 
 permissions:
   contents: write

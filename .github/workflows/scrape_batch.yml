@@ -211,8 +211,12 @@ jobs:
           [ -f data_hei/dashboard_stats.json ] && git add data_hei/dashboard_stats.json
           [ -f data_hei/institute_counts.json ] && git add data_hei/institute_counts.json
           git diff --cached --quiet || git commit -m "scrape $BATCH: chunk done [automated]"
-          git pull --rebase --autostash -q
-          git push
+          # Other jobs push to main at the same moment: a rejected push is tried again, not treated as a failed batch.
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase --autostash -q && git push && break
+            [ "$attempt" = 5 ] && exit 1
+            sleep $((attempt * 5))
+          done
 
       - name: Continue with the next chunk, or build the final Excel file if this batch is done
         if: steps.cancelcheck.outputs.cancelled != 'true'
@@ -279,3 +283,15 @@ jobs:
               "https://api.github.com/repos/${{ github.repository }}/dispatches" \
               -d '{"event_type":"queue-tick"}' || echo "(queue tick not sent; the 10-minute tick will pick it up)"
           fi
+
+      # A failed run sends no "next chunk" or queue-tick signal, and the schedules are unreliable: without this the whole
+      # queue stops until someone notices. The tick finishes or restarts this batch and moves on.
+      - name: Wake the queue if this run failed
+        if: failure()
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          curl -s -o /dev/null -w "Queue tick: HTTP %{http_code}\n" -X POST \
+            -H "Authorization: Bearer $DISPATCH_TOKEN" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/dispatches" \
+            -d '{"event_type":"queue-tick"}'
