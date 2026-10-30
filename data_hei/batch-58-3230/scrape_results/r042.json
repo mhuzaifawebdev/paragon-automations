@@ -1,0 +1,71 @@
+{
+ "row_id": "r042",
+ "scraped_at": "2026-10-30T12:24:17Z",
+ "contacts": {
+  "row_id": "r042",
+  "institution_name": "Industrijska strojarska škola – Naslovnica",
+  "institution_type": "school",
+  "official_website": "https://www.industrijskaskola.hr/",
+  "country": null,
+  "phone": {
+   "value": "+385 (0)21 380 776",
+   "source_url": "https://www.industrijskaskola.hr/kontakt/",
+   "evidence_quote": "T: +385 (0)21 380 776"
+  },
+  "phone_alt": [],
+  "generic_email": "info@industrijskaskola.hr",
+  "generic_email_url": "https://www.industrijskaskola.hr/kontakt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Aleko Konstantinov School",
+    "partner_country": "Bulgaria",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.industrijskaskola.hr/erasmus/",
+    "evidence_quote": "MEĐUNARODNI POSJET ŠKOLE ALEKO KONSTANTINOV IZ BUGARSKE INDUSTRIJSKOJ ŠKOLI",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Industrijska škola",
+    "city": "Split",
+    "country": "Croatia",
+    "role": "main",
+    "source_url": "https://www.industrijskaskola.hr/kontakt/",
+    "evidence_quote": "ZRINSKO-FRANKOPANSKA 40"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The website lists many Erasmus+ projects and mobility activities but does not provide a formal list of partner institutions. Contact details for specific individuals are limited to names without direct email addresses or phone numbers.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.4,
+  "crawl_s": 33.1,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 63.9
+ }
+}
