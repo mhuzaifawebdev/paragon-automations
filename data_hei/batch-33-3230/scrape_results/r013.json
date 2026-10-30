@@ -1,0 +1,122 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-30T12:12:37Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Instituto de Enseñanza Secundaria Galileo",
+  "institution_type": "school",
+  "official_website": "https://www.ies-galileo.com/",
+  "country": null,
+  "phone": {
+   "value": "951 29 36 91",
+   "source_url": "https://www.ies-galileo.com/",
+   "evidence_quote": "Teléfono: 951 29 36 91"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria@ies-galileo.com",
+  "generic_email_url": "https://www.ies-galileo.com/",
+  "contact": {
+   "name": "Francisco Mondéjar Pizarro",
+   "designation": "Deputy Head of Studies",
+   "designation_local": "",
+   "email": "fmonpiz577@g.educaand.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ies-galileo.com/claustro/",
+   "evidence_quote": "Jefe de Estudios Adjunto | ... Francisco Mondéjar Pizarro |"
+  },
+  "alternates": [
+   {
+    "name": "Juan A. Cuadra Pérez",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "direccion@ies-galileo.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ies-galileo.com/claustro/",
+    "evidence_quote": "Director | ... Juan A. Cuadra Pérez |",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the Director of the institution and the primary authority for institutional partnerships."
+   },
+   {
+    "name": "Antonio Gómez Chillón",
+    "designation": "Head of Studies",
+    "designation_local": "",
+    "email": "jefatura@ies-galileo.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ies-galileo.com/claustro/",
+    "evidence_quote": "Jefe de Estudios | ... Antonio Gómez Chillón |",
+    "why_chosen": "Secretary / administration (last resort). He is the Head of Studies and manages administrative communications for the school."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. He is the Deputy Head of Studies and is listed as the contact for the institution, including his role as FEIE (Formación, Evaluación e Innovación Educativa) which often oversees international projects.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Hett College",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ies-galileo.com/",
+    "evidence_quote": "Intercambio con el Hett College",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ETwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ies-galileo.com/",
+    "evidence_quote": "ETwinning",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Galileo",
+    "city": "Alhaurín de la Torre",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.ies-galileo.com/contacto/",
+    "evidence_quote": "IES Galileo.C/Amadeo Vives nº10. Urb. Retamar. 29130 – Alhaurín de la Torre"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of staff and contact details but does not contain a formal list of Erasmus+ or international partners beyond a single mention of an exchange with Hett College.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 14.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 10.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 29.0
+ }
+}
