@@ -1,0 +1,116 @@
+{
+ "row_id": "r039",
+ "scraped_at": "2026-10-30T13:09:55Z",
+ "contacts": {
+  "row_id": "r039",
+  "institution_name": "Association pour la Formation en Milieu Rural - AFMR ETCHARRY",
+  "institution_type": "college",
+  "official_website": "https://etcharry-formation-developpement.fr/",
+  "country": null,
+  "phone": {
+   "value": "05 59 70 37 60",
+   "source_url": "https://etcharry-formation-developpement.fr/",
+   "evidence_quote": "Tél. : 05 59 70 37 60"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jean-Philippe NICOT",
+   "designation": "General Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://etcharry-formation-developpement.fr/etcharry/l-equipe",
+   "evidence_quote": "Jean-Philippe NICOT ... Directeur général"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the General Director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université de Bologne",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://etcharry-formation-developpement.fr/altea/la-mobilite-internationale",
+    "evidence_quote": "La recherche de partenariats stratégiques proactive lors du montage de projets Erasmus + KA2 avec les acteurs tels que l’Université de Bologne, CEFAL (Italie), Institut de recherche MATIA (Pays Basque Espagnol), tous acteurs du monde académique, de la recherche ou issus de la sphère professionnelle.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CEFAL",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://etcharry-formation-developpement.fr/altea/la-mobilite-internationale",
+    "evidence_quote": "La recherche de partenariats stratégiques proactive lors du montage de projets Erasmus + KA2 avec les acteurs tels que l’Université de Bologne, CEFAL (Italie), Institut de recherche MATIA (Pays Basque Espagnol), tous acteurs du monde académique, de la recherche ou issus de la sphère professionnelle.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut de recherche MATIA",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://etcharry-formation-developpement.fr/altea/la-mobilite-internationale",
+    "evidence_quote": "La recherche de partenariats stratégiques proactive lors du montage de projets Erasmus + KA2 avec les acteurs tels que l’Université de Bologne, CEFAL (Italie), Institut de recherche MATIA (Pays Basque Espagnol), tous acteurs du monde académique, de la recherche ou issus de la sphère professionnelle.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Domaine Landagoyen",
+    "city": "Ustaritz",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://etcharry-formation-developpement.fr/",
+    "evidence_quote": "Le siège social est situé au Domaine Landagoyen à Ustaritz Pyrénées Atlantiques (64). Etcharry Formation Développement bénéficie également d'une annexe au Domaine Guadeloupe à Ustaritz."
+   },
+   {
+    "campus_name": "Domaine Guadeloupe",
+    "city": "Ustaritz",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://etcharry-formation-developpement.fr/",
+    "evidence_quote": "Le siège social est situé au Domaine Landagoyen à Ustaritz Pyrénées Atlantiques (64). Etcharry Formation Développement bénéficie également d'une annexe au Domaine Guadeloupe à Ustaritz."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The institution mentions a network of over 160 intervenants and various partners, but a comprehensive list of Erasmus+ partner institutions is not provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 8.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 5.9,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 18.9
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-10-30T13:10:16Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "IES ALMINA",
+  "institution_type": "college",
+  "official_website": "https://iesalmina.educacion.es/",
+  "country": null,
+  "phone": {
+   "value": "956521020",
+   "source_url": "https://iesalmina.educacion.es/",
+   "evidence_quote": "C/ Calderón de la Barca, 28, 51002 - Ceuta. Teléfono: 956521020. Fáx: 956500133"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cámara de Comercio",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesalmina.educacion.es:443/proyectos/erasmus-",
+    "evidence_quote": "Baremo alumnado solicitante del proyecto KA_121 VET del consorcio de la Cámara de Comercio",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Almina",
+    "city": "Ceuta",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesalmina.educacion.es/contacto",
+    "evidence_quote": "Dirección: Calle Calderón de la Barca n.º 28, 51002 Ceuta"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not provide a specific list of Erasmus+ partner institutions. The contact information is limited to the general secretariat email address.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 8.2,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 21.0
+ }
+}
