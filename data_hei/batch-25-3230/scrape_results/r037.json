@@ -1,0 +1,134 @@
+{
+ "row_id": "r037",
+ "scraped_at": "2026-10-30T09:50:00Z",
+ "contacts": {
+  "row_id": "r037",
+  "institution_name": "Obchodní akademie a Vyšší odborná škola Valašské Meziříčí",
+  "institution_type": "college",
+  "official_website": "https://www.oavm.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "podatelna@oavm.cz",
+  "generic_email_url": "https://www.oavm.cz/kontakty/",
+  "contact": {
+   "name": "Mgr. Aleš Kubíček",
+   "designation": "Teacher",
+   "designation_local": "",
+   "email": "ales.kubicek@oavm.cz",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.oavm.cz/kontakty/",
+   "evidence_quote": "Mgr. Aleš Kubíček |"
+  },
+  "alternates": [
+   {
+    "name": "Bc. Ing. Alena Machalová",
+    "designation": "Project Coordinator",
+    "designation_local": "",
+    "email": "alena.machalova@oavm.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.oavm.cz/kontakty/",
+    "evidence_quote": "Bc. Ing. Alena Machalová |",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is explicitly named as a contact for Erasmus+ projects in the evidence."
+   },
+   {
+    "name": "Ing. Josef Krůpa",
+    "designation": "Project Coordinator",
+    "designation_local": "",
+    "email": "josef.krupa@oavm.cz",
+    "office_email": "",
+    "phone": "+420 571 755 542",
+    "source_url": "https://www.oavm.cz/kontakty/",
+    "evidence_quote": "Ing. Josef Krůpa |",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is explicitly named as a contact for Erasmus+ projects in the evidence."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. English / language or EU-project teacher (no Erasmus contact found). He is the contact currently on file and is listed as a teacher at the institution.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ADC College",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oavm.cz/2025/02/24/jsme-zpet-navrat-z-dublinu/",
+    "evidence_quote": "Firmy pro výkon odborné praxe i hostitelské rodiny škole zajistila podpůrná organizace ADC College, se kterou škola úspěšně spolupracuje již několik let. Projekt 2024-1-CZ01-KA121-VET-000200749 je realizován v rámci školou získané akreditace a je spolufinancován z prostředků Evropské unie. Akreditaci má škola až do roku 2027 a tak i v příštím roce mohou budoucí třeťáci vyjet na mobilitu do Irska.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "střední odborná škola v Handlové",
+    "partner_country": "Slovakia",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.oavm.cz/2024/08/30/aktivity-erasmus-ve-skolnim-roce-2023-2024/",
+    "evidence_quote": "Dlouhodobá stáž byla poslední aktivitou, kterou naše škola realizovala v rámci projektu Erasmus+, číslo projektu 2023-1-CZ01-KA121-VET-000126312. Dalšími aktivitami byla dvoutýdenní mobilita žáků třetích ročníků na přelomu února a března 2024 taktéž v Irsku a stínování pedagogů školy na Slovensku na střední odborné škole v Handlové.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ADC Technology Training Ireland",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oavm.cz/2021/12/21/zahranicni-mobilita-a-erasmus/",
+    "evidence_quote": "Koncem února 2022 vyjede skupina 20 vybraných žáků třetích ročníků střední školy na zahraniční stáž do irského Dublinu. Během stáže budou ve firmách pracovat na různých pozicích podle studovaného oboru. Firmy, stejně jako ubytování v rodinách, jim zajistí zprostředkující organizace a partner projektu ADC Technology Training Ireland, se kterou škola úspěšně realizovala už několik projektů.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Obchodní akademie a Vyšší odborná škola Valašské Meziříčí",
+    "city": "Valašské Meziříčí",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.oavm.cz/",
+    "evidence_quote": "Masarykova 101/18, Krásno nad Bečvou"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution is located in the Czech Republic, not Slovakia as suggested in the prompt. A formal list of all Erasmus+ partners is not provided, but specific partners are mentioned within project descriptions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 14.2,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 218.1,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 233.1
+ }
+}
