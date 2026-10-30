@@ -1,0 +1,108 @@
+{
+ "row_id": "r040",
+ "scraped_at": "2026-10-30T14:12:55Z",
+ "contacts": {
+  "row_id": "r040",
+  "institution_name": "CENTRE HOSPITALIER DE MILLAU - INSTITUT DE FORMATION EN SOINS INFIRMIERS",
+  "institution_type": "college",
+  "official_website": "https://www.ch-millau.fr/",
+  "country": null,
+  "phone": {
+   "value": "05.65.60.39.30",
+   "source_url": "https://www.ch-millau.fr/wp-content/uploads/2026/06/Organigramme-juin-2026-Millau-SA-internet.pdf",
+   "evidence_quote": "05.65.60.39.30"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Benoît DURAND",
+   "designation": "Director of the Hospitals of Millau and Saint-Affrique",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ch-millau.fr/",
+   "evidence_quote": "Benoît DURAND ... Directeur des CH de Millau et de Saint-Affrique"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Benoît DURAND is the director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Consortium Érasmus+ Occitanie",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ch-millau.fr/etudiants-ifsi-ifas/vie-etudiante-et-informations-pratiques/erasmus/",
+    "evidence_quote": "est membre du Consortium Érasmus+ Occitanie (26 établissements d’enseignement supérieur de la filière sanitaire et sociale) pour la mobilité de apprenants [et étudiants] (source : Consortium Érasmus+ Enseignement Supérieur Région Occitanie) ;",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CHRU de Montpellier",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ch-millau.fr/2012/06/direction-commune-et-cooperations-medicales-avec-le-chru-de-montpellier/",
+    "evidence_quote": "Jeudi 28 juin, le Conseil de surveillance du Centre Hospitalier Régional et Universitaire de Montpellier a donné un avis favorable à la convention cadre pour la direction commune entre le CHRU de Montpellier, le Centre hospitalier de Millau et l’Hôpital Maurice Fenaille de Verrières. Elle devrait entrer en vigueur le 1er juillet prochain.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hôpital Maurice Fenaille de Verrières",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ch-millau.fr/2012/06/direction-commune-et-cooperations-medicales-avec-le-chru-de-montpellier/",
+    "evidence_quote": "Jeudi 28 juin, le Conseil de surveillance du Centre Hospitalier Régional et Universitaire de Montpellier a donné un avis favorable à la convention cadre pour la direction commune entre le CHRU de Montpellier, le Centre hospitalier de Millau et l’Hôpital Maurice Fenaille de Verrières. Elle devrait entrer en vigueur le 1er juillet prochain.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centre hospitalier de Millau - Site du Puits de Calès",
+    "city": "Millau",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ch-millau.fr/",
+    "evidence_quote": "[116 -117][ORGANISMES DE FORMATION][RECRUTE][PUITS DE CALES][PUITS DE CALES][IFSI-IFAS][Centre hospitalier de Millau - Site du Puits de Calès]"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution is a hospital with an integrated nursing training institute (IFSI). While it mentions being part of a regional Erasmus+ consortium, a specific list of individual international partner universities is not provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 11.6,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 10.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 26.8
+ }
+}
