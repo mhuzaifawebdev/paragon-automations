@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-30T14:01:27.950694+00:00",
+ "generated_at": "2026-10-30T14:04:38.698893+00:00",
  "totals": {
-  "institutes": 15247,
-  "with_contact": 9965,
-  "with_email": 8471,
-  "personal_email": 5882,
-  "generic_email": 6506,
-  "partners": 267672,
-  "campuses": 21507,
+  "institutes": 15272,
+  "with_contact": 9983,
+  "with_email": 8483,
+  "personal_email": 5887,
+  "generic_email": 6516,
+  "partners": 268341,
+  "campuses": 21544,
   "no_website": 2495,
-  "with_website": 12752,
-  "batches": 201
+  "with_website": 12777,
+  "batches": 202
  },
  "days": [
   {
@@ -123,42 +123,58 @@
   },
   {
    "day": "2026-10-28",
-   "institutes": 6818,
-   "with_contact": 4451,
-   "with_email": 3790,
-   "personal_email": 2543,
-   "generic_email": 2953,
-   "partners": 115037,
-   "campuses": 9679,
+   "institutes": 6822,
+   "with_contact": 4455,
+   "with_email": 3791,
+   "personal_email": 2544,
+   "generic_email": 2954,
+   "partners": 115059,
+   "campuses": 9683,
    "no_website": 1113,
-   "with_website": 5705
+   "with_website": 5709
   },
   {
    "day": "2026-10-29",
-   "institutes": 4524,
-   "with_contact": 2707,
-   "with_email": 2307,
-   "personal_email": 1601,
-   "generic_email": 1834,
-   "partners": 73094,
-   "campuses": 6424,
+   "institutes": 4528,
+   "with_contact": 2711,
+   "with_email": 2310,
+   "personal_email": 1603,
+   "generic_email": 1837,
+   "partners": 73583,
+   "campuses": 6433,
    "no_website": 1057,
-   "with_website": 3467
+   "with_website": 3471
   },
   {
    "day": "2026-10-30",
-   "institutes": 1018,
-   "with_contact": 696,
-   "with_email": 577,
-   "personal_email": 382,
-   "generic_email": 451,
-   "partners": 15592,
-   "campuses": 1290,
+   "institutes": 1035,
+   "with_contact": 706,
+   "with_email": 585,
+   "personal_email": 384,
+   "generic_email": 457,
+   "partners": 15750,
+   "campuses": 1314,
    "no_website": 111,
-   "with_website": 907
+   "with_website": 924
   }
  ],
  "batches": [
+  {
+   "batch": "copy-of-batch-35-3230",
+   "status": "running",
+   "total_rows": 50,
+   "done": 25,
+   "updated": "2026-10-30T14:04:37.488910+00:00",
+   "institutes": 25,
+   "with_contact": 18,
+   "with_email": 12,
+   "personal_email": 5,
+   "generic_email": 10,
+   "partners": 669,
+   "campuses": 37,
+   "no_website": 0,
+   "with_website": 25
+  },
   {
    "batch": "batch-22-3230",
    "status": "done",
