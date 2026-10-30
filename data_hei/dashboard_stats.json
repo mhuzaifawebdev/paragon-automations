@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-30T11:58:43.861343+00:00",
+ "generated_at": "2026-10-30T12:03:06.921992+00:00",
  "totals": {
-  "institutes": 14337,
-  "with_contact": 9303,
-  "with_email": 7941,
-  "personal_email": 5501,
-  "generic_email": 6112,
-  "partners": 252648,
-  "campuses": 20241,
+  "institutes": 14362,
+  "with_contact": 9321,
+  "with_email": 7953,
+  "personal_email": 5510,
+  "generic_email": 6121,
+  "partners": 252971,
+  "campuses": 20276,
   "no_website": 2435,
-  "with_website": 11902,
-  "batches": 184
+  "with_website": 11927,
+  "batches": 185
  },
  "days": [
   {
@@ -111,7 +111,7 @@
   },
   {
    "day": "2026-10-27",
-   "institutes": 1404,
+   "institutes": 1405,
    "with_contact": 902,
    "with_email": 781,
    "personal_email": 544,
@@ -119,46 +119,62 @@
    "partners": 9442,
    "campuses": 1551,
    "no_website": 70,
-   "with_website": 1334
+   "with_website": 1335
   },
   {
    "day": "2026-10-28",
-   "institutes": 6600,
-   "with_contact": 4275,
-   "with_email": 3662,
-   "personal_email": 2447,
-   "generic_email": 2860,
-   "partners": 110772,
-   "campuses": 9306,
+   "institutes": 6606,
+   "with_contact": 4280,
+   "with_email": 3666,
+   "personal_email": 2451,
+   "generic_email": 2863,
+   "partners": 110923,
+   "campuses": 9320,
    "no_website": 1113,
-   "with_website": 5487
+   "with_website": 5493
   },
   {
    "day": "2026-10-29",
-   "institutes": 4422,
-   "with_contact": 2624,
-   "with_email": 2233,
-   "personal_email": 1551,
-   "generic_email": 1772,
-   "partners": 70893,
-   "campuses": 6262,
+   "institutes": 4425,
+   "with_contact": 2627,
+   "with_email": 2235,
+   "personal_email": 1552,
+   "generic_email": 1774,
+   "partners": 70951,
+   "campuses": 6266,
    "no_website": 1057,
-   "with_website": 3365
+   "with_website": 3368
   },
   {
    "day": "2026-10-30",
-   "institutes": 441,
-   "with_contact": 298,
-   "with_email": 255,
-   "personal_email": 150,
-   "generic_email": 216,
-   "partners": 7217,
-   "campuses": 571,
+   "institutes": 456,
+   "with_contact": 308,
+   "with_email": 261,
+   "personal_email": 154,
+   "generic_email": 220,
+   "partners": 7331,
+   "campuses": 588,
    "no_website": 51,
-   "with_website": 390
+   "with_website": 405
   }
  ],
  "batches": [
+  {
+   "batch": "batch-45-3230",
+   "status": "running",
+   "total_rows": 96,
+   "done": 25,
+   "updated": "2026-10-30T12:03:00.550480+00:00",
+   "institutes": 25,
+   "with_contact": 18,
+   "with_email": 12,
+   "personal_email": 9,
+   "generic_email": 9,
+   "partners": 323,
+   "campuses": 35,
+   "no_website": 0,
+   "with_website": 25
+  },
   {
    "batch": "batch-48-3230",
    "status": "done",
