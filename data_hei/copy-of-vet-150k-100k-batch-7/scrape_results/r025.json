@@ -1,0 +1,69 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-30T16:13:43Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "Hade",
+  "institution_type": "unknown",
+  "official_website": "https://www.haderslev.dk/",
+  "country": {
+   "value": "Denmark",
+   "source_url": "https://www.haderslev.dk/de/buergerservice/personalausweis-gesundheitskarte-name-und-urkunft",
+   "evidence_quote": "In Dänemark haben alle Bürger eine persönliche Registrierungsnummer, die sogenannte CPR-Nummer. CPR steht für Zentrales Personenregister. Die CPR-Nummer ist für jeden Kontakt mit den dänischen Behörden und insbesondere im Zusammenhang mit Steuer- und Sozialversicherungsfragen unerlässlich."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "post@haderslev.dk",
+  "generic_email_url": "https://www.haderslev.dk/om-kommunen/kontakt-og-aabningstider",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Haderslev Kommune",
+    "city": "Haderslev",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://www.haderslev.dk/",
+    "evidence_quote": "Christian X's Vej 39"
+   },
+   {
+    "campus_name": "Sillerup Plejekollegium",
+    "city": "Sillerup",
+    "country": "Denmark",
+    "role": "branch",
+    "source_url": "https://plejehjemsoversigten.dk/da/Syddanmark/Haderslev-kommune/Sillerup-Plejekollegium-SI",
+    "evidence_quote": "Sillerup Møllevej 3"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "The evidence provided describes a municipal administration (Haderslev Kommune) and a nursing home (Sillerup Plejekollegium). There is no information regarding Erasmus+ partnerships or international mobility programs. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 12.6,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 25.6
+ }
+}
