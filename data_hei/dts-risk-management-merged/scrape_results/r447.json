@@ -1,0 +1,68 @@
+{
+ "row_id": "r447",
+ "scraped_at": "2026-10-30T23:35:31Z",
+ "contacts": {
+  "row_id": "r447",
+  "institution_name": "Kaiterra",
+  "institution_type": "unknown",
+  "official_website": "https://www.kaiterra.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@kaiterra.com",
+  "generic_email_url": "https://www.kaiterra.com/",
+  "contact": {
+   "name": "Chris Bowyer",
+   "designation": "Director of Building Operations",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.kaiterra.com/dashboard?hsLang=en",
+   "evidence_quote": "Chris Bowyer ... Director of Building Operations"
+  },
+  "alternates": [],
+  "rung": "Other role. Chris Bowyer is the Director of Building Operations at The Alliance Center, a client of Kaiterra.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Johnson Controls",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kaiterra.com/",
+    "evidence_quote": "We collaborated with Kaiterra to help improve IAQ in the built environment. Connecting Kaiterra air quality monitors to Johnson Controls Metasys or OpenBlue, has proven to improve performance, reduce COVID risk, and optimize energy.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "Kaiterra is a commercial company providing air quality monitoring solutions rather than an educational institution. No partner list or campus locations are provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 9.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 31.6,
+  "total_seconds": 44.9
+ }
+}
