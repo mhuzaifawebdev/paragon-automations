@@ -1,0 +1,87 @@
+{
+ "row_id": "r031",
+ "scraped_at": "2026-10-30T10:32:16Z",
+ "contacts": {
+  "row_id": "r031",
+  "institution_name": "lycee flaubert rouen",
+  "institution_type": "college",
+  "official_website": "https://www.lycee-flaubert-rouen.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 35 12 88 88",
+   "source_url": "https://www.lycee-flaubert-rouen.fr/",
+   "evidence_quote": "📞 02 35 12 88 88"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. Philippe Saï",
+   "designation": "Proviseur LGT et LP",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "02.35.12.88.88",
+   "source_url": "https://www.lycee-flaubert-rouen.fr/lequipe-de-direction/",
+   "evidence_quote": "Le Proviseur LGT et LP : M. Philippe Saï"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). M. Philippe Saï is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Flaubert",
+    "city": "Rouen",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://www.lycee-flaubert-rouen.fr/",
+    "evidence_quote": "Lycée Flaubert – Rouen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions Erasmus+ accreditation and mobility programs but does not provide a list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 14.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.6,
+  "mode": "gemini",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     185
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 25.9
+ }
+}
