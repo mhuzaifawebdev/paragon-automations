@@ -1,0 +1,91 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-10-28T17:43:49Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "Rönnowska Skolan",
+  "institution_type": "college",
+  "official_website": "https://ronnowskaskolan.helsingborg.se/",
+  "country": null,
+  "phone": {
+   "value": "+46702257107",
+   "source_url": "https://ronnowskaskolan.helsingborg.se/kontakt/",
+   "evidence_quote": "Ring <tel +46702257107>"
+  },
+  "phone_alt": [],
+  "generic_email": "vux.ronnowskaskolan@helsingborg.se",
+  "generic_email_url": "https://ronnowskaskolan.helsingborg.se/kontakt/",
+  "contact": {
+   "name": "Håkan Liljeqvist",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "hakan.liljeqvist@helsingborg.se",
+   "office_email": "",
+   "phone": "+46702257107",
+   "source_url": "https://ronnowskaskolan.helsingborg.se/kontakt/",
+   "evidence_quote": "Håkan Liljeqvist ... Rektor"
+  },
+  "alternates": [
+   {
+    "name": "Anders Vesterlund",
+    "designation": "Assistant Principal",
+    "designation_local": "",
+    "email": "anders.vesterlund@helsingborg.se",
+    "office_email": "",
+    "phone": "+46708645905",
+    "source_url": "https://ronnowskaskolan.helsingborg.se/kontakt/",
+    "evidence_quote": "Anders Vesterlund ... Biträdande rektor",
+    "why_chosen": "Principal / director (no Erasmus contact found). Anders Vesterlund is an assistant principal at the institution."
+   },
+   {
+    "name": "Anna Schibli",
+    "designation": "Administrative Manager",
+    "designation_local": "",
+    "email": "anna.schibli@helsingborg.se",
+    "office_email": "",
+    "phone": "+46708195213",
+    "source_url": "https://ronnowskaskolan.helsingborg.se/kontakt/",
+    "evidence_quote": "Anna Schibli ... Administrativ chef",
+    "why_chosen": "Secretary / administration (last resort). Anna Schibli is the administrative manager responsible for administration."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Håkan Liljeqvist is the principal of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "Reused from batch copy-of-batch-9-ka102-vet-l-s (scraped 2026-10-28). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Rönnowska skolan",
+    "city": "Helsingborg",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://ronnowskaskolan.helsingborg.se/",
+    "evidence_quote": "Bredgatan 22,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not list any specific Erasmus+ or international partners, although it mentions that students participate in international internships (APL) abroad.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "copy-of-batch-9-ka102-vet-l-s",
+  "row_id": "r003"
+ }
+}
