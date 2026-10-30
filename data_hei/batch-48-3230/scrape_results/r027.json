@@ -1,0 +1,139 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-10-30T11:53:36Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "Sint-Leoinstituut",
+  "institution_type": "school",
+  "official_website": "https://www.sint-leo.be/",
+  "country": null,
+  "phone": {
+   "value": "050 44 59 33",
+   "source_url": "https://www.sint-leo.be/",
+   "evidence_quote": "050 44 59 33"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Bruno Overbergh",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "bruno.overbergh@sint-leo.be",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.sint-leo.be/onze-school/schoolteam.html",
+   "evidence_quote": "Bruno Overbergh ... Directeurbruno.overbergh@sint-leo.be <bruno.overbergh@sint-leo.be>"
+  },
+  "alternates": [
+   {
+    "name": "Carine Inghels",
+    "designation": "Secretariat - Sports Hall Rental",
+    "designation_local": "",
+    "email": "carine.inghels@sint-leo.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sint-leo.be/onze-school/schoolteam.html",
+    "evidence_quote": "Carine Inghels ... Secretariaat - Verhuur sportzaalcarine.inghels@sint-leo.be <carine.inghels@sint-leo.be>",
+    "why_chosen": "Secretary / administration (last resort). Carine Inghels is a named administrative contact on the school team page."
+   },
+   {
+    "name": "Trui Loiseaux",
+    "designation": "Reception",
+    "designation_local": "",
+    "email": "trui.loiseaux@sint-.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sint-leo.be/onze-school/schoolteam.html",
+    "evidence_quote": "Trui Loiseaux ... Onthaaltrui.loiseaux@sint-.be <trui.loiseaux@sint-.be>",
+    "why_chosen": "Secretary / administration (last resort). Trui Loiseaux handles reception and acts as a contact staff member."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Bruno Overbergh is the director of the school and the primary contact listed for general questions.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Hongarije",
+    "partner_country": "Hungary",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.sint-leo.be/activiteiten.html#erasmus",
+    "evidence_quote": "Hongarije",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Italië",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.sint-leo.be/activiteiten.html#erasmus",
+    "evidence_quote": "Italië",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Duitsland",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.sint-leo.be/activiteiten.html#erasmus",
+    "evidence_quote": "Duitsland",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SKOBO",
+    "partner_country": "Belgium",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sint-leo.be/",
+    "evidence_quote": "Wij maken deel uit van vzw SKOBO.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sint-Leo secundaire school",
+    "city": "Brugge",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.sint-leo.be/",
+    "evidence_quote": "Potterierei 11 – 8000 Brugge"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 3,
+  "coverage_note": "The evidence mentions Erasmus exchanges involving Hungary, Italy, and Germany, but specific partner institution names are not provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 5.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 28.6
+ }
+}
