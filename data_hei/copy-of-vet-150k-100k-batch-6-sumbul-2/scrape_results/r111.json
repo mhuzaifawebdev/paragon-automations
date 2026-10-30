@@ -1,0 +1,88 @@
+{
+ "row_id": "r111",
+ "scraped_at": "2026-10-30T16:57:55Z",
+ "contacts": {
+  "row_id": "r111",
+  "institution_name": "https://portadaauga.es/",
+  "institution_type": "college",
+  "official_website": "https://portadaauga.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marta Fojo",
+   "designation": "Teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://portadaauga.es/erasmus-para-docentes-2026/",
+   "evidence_quote": "As nosas profesoras Marta Fojo e Mari Toni Loureiro visitaron recentemente un centro educativo de referencia en Bratislava, Eslovaquia."
+  },
+  "alternates": [
+   {
+    "name": "Mari Toni Loureiro",
+    "designation": "Teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://portadaauga.es/erasmus-para-docentes-2026/",
+    "evidence_quote": "As nosas profesoras Marta Fojo e Mari Toni Loureiro visitaron recentemente un centro educativo de referencia en Bratislava, Eslovaquia.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Mari Toni Loureiro is a teacher who participated in an Erasmus mobility program and is involved in international collaboration."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Marta Fojo is a teacher who participated in an Erasmus mobility program and is involved in international collaboration.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: web search (Google via Gemini), named 'CIFP Porta da Auga' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Heartnest, s.r.o.",
+    "partner_country": "Slovakia",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://portadaauga.es/erasmus-para-docentes-2026/",
+    "evidence_quote": "Como broche de ouro a esta enriquecedora experiencia, visitaron a empresa Heartnest, s.r.o., o que reforza a nosa rede de colaboración internacional.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "CIFP Porta da Auga",
+    "city": "Ribadeo",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://portadaauga.es/",
+    "evidence_quote": "Avenida de Luarca, 4. 27700. Ribadeo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The institution does not provide a formal list of Erasmus partners. Information about international activities is limited to specific news articles regarding teacher mobility. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.0,
+  "crawl_s": 10.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.9,
+  "total_seconds": 24.5
+ }
+}
