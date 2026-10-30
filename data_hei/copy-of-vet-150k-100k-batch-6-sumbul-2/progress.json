@@ -1,1 +1,55 @@
-{"batch": "copy-of-vet-150k-100k-batch-6-sumbul-2", "status": "running", "generated_at": "2026-10-30T16:44:10.238470+00:00", "total_rows": 158, "done": 0, "pending": 158, "chunk": 1, "total_chunks": 7, "confidence": {"high": 0, "medium": 0, "low": 0, "none": 0}, "recent": []}
+{
+ "batch": "copy-of-vet-150k-100k-batch-6-sumbul-2",
+ "status": "running",
+ "generated_at": "2026-10-30T16:44:53.723142+00:00",
+ "chunk": 2,
+ "total_chunks": 7,
+ "total_rows": 158,
+ "done": 6,
+ "pending": 152,
+ "elapsed_seconds": 42,
+ "eta_seconds": 633,
+ "cost_usd_so_far": 0.2439,
+ "paid_search_usd": 0.2439,
+ "paid_search_limit_usd": 21.0,
+ "paid_search_limit_reached": false,
+ "paid_searches": 0,
+ "haiku_fallback_calls": 7,
+ "cost_usd_projected_total": 0.0,
+ "ai_calls": 6,
+ "reader_mode": "fast",
+ "fast_limit_usd": 15.0,
+ "provider": "gemini",
+ "chunk_size": 25,
+ "fast_reader": "paid Gemini",
+ "fast_reader_id": "gemini",
+ "fast_usd_per_institute": 0.015,
+ "fast_readers": [
+  {
+   "id": "gemini",
+   "name": "paid Gemini",
+   "usd_per_institute": 0.015
+  },
+  {
+   "id": "haiku",
+   "name": "Claude Haiku",
+   "usd_per_institute": 0.05
+  }
+ ],
+ "confidence": {
+  "high": 0,
+  "medium": 2,
+  "low": 0,
+  "none": 4
+ },
+ "partners_found": 32,
+ "campuses_found": 3,
+ "recent": [
+  "r001",
+  "r002",
+  "r005",
+  "r006",
+  "r007",
+  "r008"
+ ]
+}
