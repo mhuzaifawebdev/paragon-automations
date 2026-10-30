@@ -1,0 +1,74 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-30T13:39:00Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "IES IZPISUA BELMONTE",
+  "institution_type": "school",
+  "official_website": "https://www.iesizpisuabelmonte.es/web/",
+  "country": {
+   "value": "España",
+   "source_url": "https://www.iesizpisuabelmonte.es/informacion/JE/InfAcadem/Erasmus/sello_de_calidad_2020.pdf",
+   "evidence_quote": "IES Izpisúa Belmonte, España"
+  },
+  "phone": {
+   "value": "967 300 161",
+   "source_url": "https://www.iesizpisuabelmonte.es/web/contacto",
+   "evidence_quote": "Tlf: 967 300 161"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Susana López Picazo",
+   "designation": "Directora",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iesizpisuabelmonte.es/web/informacion-academica/organigrama-y-tutores",
+   "evidence_quote": "Directora ... Susana López Picazo"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Susana López Picazo is the Director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Izpisúa Belmonte",
+    "city": "Hellín",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.iesizpisuabelmonte.es/web/contacto",
+    "evidence_quote": "02400 Hellín (Albacete)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a list of partner organizations in the evidence. Erasmus+ mobility information is provided, but specific partner names are not listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.0,
+  "crawl_s": 15.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.6,
+  "total_seconds": 41.0
+ }
+}
