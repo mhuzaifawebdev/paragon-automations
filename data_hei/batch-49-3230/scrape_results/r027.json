@@ -1,0 +1,93 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-10-30T11:31:21Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "Střední odborná škola a střední odborné učiliště řemesel, Kutná Hora, Čáslavská 202",
+  "institution_type": "school",
+  "official_website": "https://soskh.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@soskh.cz",
+  "generic_email_url": "https://soskh.cz/kontakt/",
+  "contact": {
+   "name": "Josef Vavřinec",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "vavrinec@soskh.cz",
+   "office_email": "",
+   "phone": "+420 327 533 412",
+   "source_url": "https://soskh.cz/kontakt/",
+   "evidence_quote": "Ing. Josef Vavřinec, MBA Ředitel školy | +420 327 533 412 <tel +420327533412>"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Josef Vavřinec is the director of the school and is the primary contact for institutional leadership.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "school in Niort",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://soskh.cz/erasmus/",
+    "evidence_quote": "Slunečné pondělní odpoledne vyprovodilo 20 žáků a 3 pedagogy na závěrečnou výjezdní aktivitu do Francie s partnery ze školy v Niortu, Francie, projektu ,,Minulost a budoucnost našich profesí´´, zkráceně v angličtině ,,POP´´ Erasmus+ Partnerství škol 2019-1-FR01-KA229-063019_2 . Vyjíždějící žáci úspěšně…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stredná odborná škola Jána Antonína Baťu",
+    "partner_country": "Slovakia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://soskh.cz/erasmus-otevira-zakum-nove-moznosti/",
+    "evidence_quote": "Photo 2026 05 20 13 26 46 | SOS a SOU KHŽáci druhého ročníku oborů Elektrikář a Mechanik elektronických zařízení a žáci třetího ročníku oboru Mechanik elektronik se v rámci programu Erasmus+ zúčastnili odborných mobilit v partnerské škole na Slovensku, konkrétně ve Stredné odborné škole Jána Antonína Baťu, Partizánske. Během týdenního pobytu měli možnost rozšířit si své odborné kompetence přímo v dílnách odborného výcviku, kde pracovali s moderními technologiemi a seznamovali se s novými postupy",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Vzdělávací budova Čáslavská",
+    "city": "Kutná Hora",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://soskh.cz/",
+    "evidence_quote": "Čáslavská 202, 284 01 Kutná Hora"
+   },
+   {
+    "campus_name": "Vzdělávací budova Seifertovy sady",
+    "city": "Kutná Hora",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://soskh.cz/",
+    "evidence_quote": "Seifertovy sady 20, 284 01 Kutná Hora"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information about specific Erasmus+ projects and some partners, but does not contain a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.7,
+  "crawl_s": 25.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 31.4
+ }
+}

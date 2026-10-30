@@ -1,0 +1,135 @@
+{
+ "row_id": "r033",
+ "scraped_at": "2026-10-30T11:31:38Z",
+ "contacts": {
+  "row_id": "r033",
+  "institution_name": "Střední zdravotnická škola a Vyšší odborná škola zdravotnická Brno, Merhautova, příspěvková organizace",
+  "institution_type": "college",
+  "official_website": "https://www.szsbrno.cz/",
+  "country": null,
+  "phone": {
+   "value": "+420 606 051 901",
+   "source_url": "https://www.szsbrno.cz/zamestnanci-kontakt",
+   "evidence_quote": "+420 606 051 901 <tel +420606051901>"
+  },
+  "phone_alt": [],
+  "generic_email": "infomerhautova@szsbrno.cz",
+  "generic_email_url": "https://www.szsbrno.cz/",
+  "contact": {
+   "name": "Ing. Michaela Schmidová",
+   "designation": "project manager",
+   "designation_local": "",
+   "email": "mschmidova@szsbrno.cz",
+   "office_email": "",
+   "phone": "+420 606 051 901",
+   "source_url": "https://www.szsbrno.cz/zamestnanci-kontakt",
+   "evidence_quote": "Ing. Michaela Schmidová ... projektový manager"
+  },
+  "alternates": [
+   {
+    "name": "PhDr. Marcela Křiváková, Ph.D., MBA",
+    "designation": "School Director",
+    "designation_local": "",
+    "email": "mkrivakova@szsbrno.cz",
+    "office_email": "",
+    "phone": "+420 545 425 834",
+    "source_url": "https://www.szsbrno.cz/zamestnanci-kontakt",
+    "evidence_quote": "PhDr. Marcela Křiváková, Ph.D., MBA ... ředitelka školy",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the director of the institution and holds ultimate responsibility for school projects."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. She is explicitly listed as the project manager and is the contact person for Erasmus+ mobility.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Rezekvítek",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.szsbrno.cz/projekty-skoly?multiTagsRenderer-tags=Erasmus+%2B",
+    "evidence_quote": "Škola se dlouhodobě zapojuje do projektů spolufinancovaných EU. Při řešení projektů spolupracuje s vysokými školami, ostatními zdravotnickými školami z celé republiky a dalšími subjekty jako např. Rezekvítek, Nadační fond dětské onkologie.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nadační fond dětské onkologie",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.szsbrno.cz/projekty-skoly?multiTagsRenderer-tags=Erasmus+%2B",
+    "evidence_quote": "Škola se dlouhodobě zapojuje do projektů spolufinancovaných EU. Při řešení projektů spolupracuje s vysokými školami, ostatními zdravotnickými školami z celé republiky a dalšími subjekty jako např. Rezekvítek, Nadační fond dětské onkologie.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Pracoviště Merhautova",
+    "city": "Brno",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.szsbrno.cz/",
+    "evidence_quote": "Pracoviště Merhautova"
+   },
+   {
+    "campus_name": "Pracoviště Lipová",
+    "city": "Brno",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://www.szsbrno.cz/",
+    "evidence_quote": "Pracoviště Lipová"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution mentions cooperating with various entities and universities in general terms, but does not provide a specific list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 12.2,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     561,
+     639
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 17.8
+ }
+}
