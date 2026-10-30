@@ -1,0 +1,146 @@
+{
+ "row_id": "r127",
+ "scraped_at": "2026-10-30T17:01:06Z",
+ "contacts": {
+  "row_id": "r127",
+  "institution_name": "https://www.jeannedelanoue.com/",
+  "institution_type": "college",
+  "official_website": "https://www.jeannedelanoue.com/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.jeannedelanoue.com/espace-entreprises-partenaires/",
+   "evidence_quote": "Avec 51 000 élèves et étudiants, 3000 apprentis, 4500 élèves ingénieurs et 11 000 stagiaires adultes, le réseau CNEAP est un acteur majeur de l’enseignement agricole en France."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@jeannedelanoue.com",
+  "generic_email_url": "https://www.jeannedelanoue.com/jeanne-delanoue-nous-contacter/",
+  "contact": {
+   "name": "Pascal Vendé",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.jeannedelanoue.com/qui-sommes-nous/",
+   "evidence_quote": "Pascal Vendé ... Directeur"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Pascal Vendé is the director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: web search (Google via Gemini), named 'Établissement Jeanne Delanoue' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SNELAC (Syndicat National des Espaces de Loisirs, d’attractions et Culturels)",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.jeannedelanoue.com/licence-tourisme-management-de-parcs-a-theme/",
+    "evidence_quote": "Un réseau d’entreprises partenaires via le SNELAC (Syndicat National des Espaces de Loisirs, d’attractions et Culturels)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université d’Angers",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.jeannedelanoue.com/licence-tourisme-management-de-parcs-a-theme/",
+    "evidence_quote": "Un partenariat avec l’Université d’Angers",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CNEAP",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.jeannedelanoue.com/espace-entreprises-partenaires/",
+    "evidence_quote": "Le CNEAP",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "région Pays de Loire",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.jeannedelanoue.com/espace-entreprises-partenaires/",
+    "evidence_quote": "La région Pays de Loire",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rectorat de l’académie de Nantes",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.jeannedelanoue.com/espace-entreprises-partenaires/",
+    "evidence_quote": "Le Rectorat",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "DRAAF",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.jeannedelanoue.com/espace-entreprises-partenaires/",
+    "evidence_quote": "La DRAAF",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ville de Cholet",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.jeannedelanoue.com/espace-entreprises-partenaires/",
+    "evidence_quote": "Cholet",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Jeanne Delanoue",
+    "city": "Cholet",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.jeannedelanoue.com/jeanne-delanoue-nous-contacter/",
+    "evidence_quote": "11 Boulevard Jeanne d’Arc"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 7,
+  "pages_read": 5,
+  "coverage_note": "The institution does not list specific Erasmus+ partners or international mobility agreements. The provided partner list focuses on local professional and academic collaborations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.6,
+  "crawl_s": 9.7,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "email_search_s": 7.9,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 6,
+    "accepted": 6
+   }
+  ],
+  "total_seconds": 61.0
+ }
+}
