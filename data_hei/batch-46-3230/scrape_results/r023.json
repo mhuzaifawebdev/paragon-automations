@@ -1,0 +1,56 @@
+{
+ "row_id": "r023",
+ "scraped_at": "2026-10-30T10:56:20Z",
+ "contacts": {
+  "row_id": "r023",
+  "institution_name": "Öresundsgymnasiet Landskrona",
+  "institution_type": "school",
+  "official_website": "https://www.landskrona.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kontaktcenter@landskrona.se",
+  "generic_email_url": "https://www.landskrona.se/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Öresundsgymnasiet",
+    "city": "Landskrona",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.landskrona.se/",
+    "evidence_quote": "Tre nya profiler på Öresundsgymnasiet till 2027"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions Öresundsgymnasiet as a profile/campus but does not provide any specific contact staff, Erasmus+ coordinator, or partner institution details for it.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 18.0,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 55.6,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 88.4
+ }
+}
