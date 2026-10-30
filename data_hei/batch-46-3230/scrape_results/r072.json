@@ -1,0 +1,112 @@
+{
+ "row_id": "r072",
+ "scraped_at": "2026-10-30T11:01:16Z",
+ "contacts": {
+  "row_id": "r072",
+  "institution_name": "IRUNGO LA SALLE",
+  "institution_type": "school",
+  "official_website": "https://irungolasalle.eus/",
+  "country": null,
+  "phone": {
+   "value": "943 628 411",
+   "source_url": "https://irungolasalle.eus/",
+   "evidence_quote": "943 628 411 <tel 943628411>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "IÑAKI CHOPERENA",
+   "designation": "Kindergarten Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://irungolasalle.eus/organigrama/",
+   "evidence_quote": ".- IÑAKI CHOPERENA Jauna.: Haur Hezkuntzako koordinatzailea"
+  },
+  "alternates": [
+   {
+    "name": "JON AZURMENDI",
+    "designation": "Primary Education Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://irungolasalle.eus/organigrama/",
+    "evidence_quote": ".- JON AZURMENDI Jauna: Lehen Hezkuntzako koordinatzailea",
+    "why_chosen": "Other role. JON AZURMENDI is listed as the primary education coordinator in the organigram."
+   },
+   {
+    "name": "ELENA ETXAIDE",
+    "designation": "Secondary Education Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://irungolasalle.eus/organigrama/",
+    "evidence_quote": ".- ELENA ETXAIDE And. eta JOSU AGUILAR Jauna : D.B.H.ko koordinatzaileak",
+    "why_chosen": "Other role. ELENA ETXAIDE is listed as a secondary education coordinator in the organigram."
+   }
+  ],
+  "rung": "Other role. IÑAKI CHOPERENA is listed as the kindergarten coordinator in the organigram.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "HETEL",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://irungolasalle.eus/erasmus/",
+    "evidence_quote": "HETEL: Euskal Autonomia Erkidegoko Lanbide Heziketako ikastetxeen elkartea, berrikuntza eta nazioartekotzea sustatzen dituena.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Confebask",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://irungolasalle.eus/erasmus/",
+    "evidence_quote": "Confebask: enpresa-erakundea, prestakuntza eta enpresaren arteko lotura errazten duena, atzerriko praktikak sustatuz.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "La Salle Irun",
+    "city": "Irun",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://irungolasalle.eus/",
+    "evidence_quote": "La Salle Irun, Elizatxo Hiribidea 14-16, 20303 Irun, Gipuzkoa"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence lists consortium networks participating in Erasmus+ but does not provide a specific individual email address for mobility coordination.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.6,
+  "crawl_s": 12.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.9,
+  "mode": "gemini",
+  "contact_pass": 4,
+  "email_search_s": 49.9,
+  "total_seconds": 77.6
+ }
+}
