@@ -324,11 +324,18 @@ def _paid_fallback(system, user, timeout, schema, why):
         return None
     if kind == "gemini":
         t0 = time.time()
-        try:
-            data, resp = _gemini_once(os.environ["GEMINI_PAID_API_KEY"], PAID_GEMINI["model"], system, user, schema, timeout)
-        except LLMError as e:           # paid key failed — do not cascade, let the caller handle it
-            print(f"(paid Gemini reader failed: {str(e)[:160]})", file=sys.stderr, flush=True)
-            return None
+        for attempt in (1, 2):
+            try:
+                data, resp = _gemini_once(os.environ["GEMINI_PAID_API_KEY"], PAID_GEMINI["model"], system, user, schema, timeout)
+                break
+            except LLMError as e:       # paid key failed — do not cascade, let the caller handle it
+                print(f"(paid Gemini reader failed: {str(e)[:160]})", file=sys.stderr, flush=True)
+                # An empty reply (Google's filter blocked this page) is about one institute: the row is retried on its
+                # own and the batch carries on. Anything else (credit, key, overload) is about the reader itself.
+                if "unreadable Gemini reply" not in str(e):
+                    return None
+                if attempt == 2:
+                    raise
         use = resp.get("usageMetadata") or {}
         discover.record_reader(use.get("promptTokenCount") or 0,
                                (use.get("candidatesTokenCount") or 0) + (use.get("thoughtsTokenCount") or 0),
@@ -353,6 +360,13 @@ def _paid_fallback(system, user, timeout, schema, why):
     return data, {**meta, "cost_usd_estimate": 0.0, "model_used": FALLBACK["model"], "fallback": why}
 
 
+def _paid_can_return():
+    """Fast mode with a paid key and budget left: a paid failure may clear in minutes, so a pause is short, not until the
+    free allowance is back the next day."""
+    import discover
+    return bool(FALLBACK["enabled"] and paid_reader()[0] and discover.BUDGET["limit"] is not None and discover.budget_left())
+
+
 def _gemini(system, user, model, timeout, schema=None):
     schema = schema or SCHEMA
     key = os.environ.get("GEMINI_API_KEY")
@@ -375,6 +389,8 @@ def _gemini(system, user, model, timeout, schema=None):
                 return paid
             wake = min(_GEMINI_RESTING[x] for x in models)
             if wake - time.time() > MAX_WAIT_FOR_GEMINI or _round == 3:
+                if _paid_can_return():
+                    raise QuotaExhausted(time.time() + 900, False)
                 raise QuotaExhausted(max(wake, time.time() + 900) if not daily else wake, daily)
             _sleep(max(0.0, wake - time.time()) + 0.5)
             awake = models
@@ -404,6 +420,8 @@ def _gemini(system, user, model, timeout, schema=None):
     if paid:
         return paid
     if all(_GEMINI_RESTING.get(x, 0) > time.time() for x in models):
+        if _paid_can_return():
+            raise QuotaExhausted(time.time() + 900, False)
         raise QuotaExhausted(min(_GEMINI_RESTING[x] for x in models), daily)
     raise last
 

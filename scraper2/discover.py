@@ -346,6 +346,7 @@ def budget_left():
 # only overstate what is really spent. Tokens at the paid Gemini reader's price.
 GEMINI_SEARCH_MODEL = "gemini-3.1-flash-lite"
 GEMINI_SEARCH_PRICE = {"per_search": 0.014, "input_per_m": 0.25, "output_per_m": 1.50}
+SEARCH_TRIES, SEARCH_WAIT_SECONDS = 3, 10
 
 
 def _resolve(url):
@@ -375,12 +376,21 @@ def _gemini_paid_urls(prompt, limit=5, with_text=False):
     req = urllib.request.Request(
         f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_SEARCH_MODEL}:generateContent?key={key}",
         data=body, headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            resp = json.loads(r.read().decode())
-    except Exception as e:
-        print(f"(Gemini search unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
-        return ([], "") if with_text else []
+    for attempt in range(1, SEARCH_TRIES + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                resp = json.loads(r.read().decode())
+            break
+        except urllib.error.HTTPError as e:
+            # Workers searching at once hit Google's per-minute limit: wait and try again rather than lose the search.
+            if e.code in (429, 500, 503) and attempt < SEARCH_TRIES:
+                time.sleep(SEARCH_WAIT_SECONDS * attempt)
+                continue
+            print(f"(Gemini search unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
+            return ([], "") if with_text else []
+        except Exception as e:
+            print(f"(Gemini search unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
+            return ([], "") if with_text else []
     use = resp.get("usageMetadata") or {}
     p = GEMINI_SEARCH_PRICE
     cand = (resp.get("candidates") or [{}])[0]

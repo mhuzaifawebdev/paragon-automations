@@ -747,5 +747,52 @@ check("only pages naming a person next to a role are kept; a redirect home or a 
       [p["url"] for p in kept], ["https://ecole.fr/qui-sommes-nous", "https://ecole.fr/mentions-legales"])
 check("never more than the page limit, never another site", (len(asked) <= 8, any("facebook" in u for u in asked)), (True, False))
 
+# ---- one blocked reply never stops a batch; a paid failure pauses for minutes, not a day
+_fresh()
+llm.FALLBACK.update(enabled=True, prefer="gemini")
+os.environ["GEMINI_PAID_API_KEY"] = "paid-key"
+discover.set_budget(5.0)
+for m in list(dict.fromkeys(["gemini-3.1-flash-lite"] + llm.GEMINI_FALLBACKS)):
+    llm._GEMINI_RESTING[m] = llm.time.time() + 50000
+blocked_calls = []
+
+
+def _no_candidates(*a, **k):
+    blocked_calls.append(1)
+    raise llm.LLMError("unreadable Gemini reply: 'candidates'")
+
+
+real_once = llm._gemini_once
+llm._gemini_once = _no_candidates
+try:
+    llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+    got = "no error"
+except llm.QuotaExhausted:
+    got = "paused the batch"
+except llm.LLMError:
+    got = "this row only"
+check("an empty reply is tried twice, then fails that row only, not the batch", (got, len(blocked_calls)), ("this row only", 2))
+
+
+def _no_credit(*a, **k):
+    raise llm.LLMError("HTTP 402: credits are depleted")
+
+
+llm._gemini_once = _no_credit
+try:
+    llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+    wait = None
+except llm.QuotaExhausted as e:
+    wait = (round(e.resume_at - llm.time.time()) <= 900, e.daily)
+check("a paid failure in fast mode pauses for 15 minutes, not until tomorrow", wait, (True, False))
+llm._gemini_once = real_once
+llm.FALLBACK["enabled"] = False
+try:
+    llm._gemini("sys", "user", "gemini-3.1-flash-lite", 30)
+    wait = None
+except llm.QuotaExhausted as e:
+    wait = e.resume_at - llm.time.time() > 40000
+check("free mode still waits for the daily allowance", wait, True)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
