@@ -1,0 +1,116 @@
+{
+ "row_id": "r036",
+ "scraped_at": "2026-10-30T10:18:15Z",
+ "contacts": {
+  "row_id": "r036",
+  "institution_name": "OGEC NOTRE DAME OZANAM",
+  "institution_type": "school",
+  "official_website": "https://notre-dame-ozanam.fr/",
+  "country": null,
+  "phone": {
+   "value": "03 85 21 09 80",
+   "source_url": "https://notre-dame-ozanam.fr/",
+   "evidence_quote": "03 85 21 09 80"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Eric BON",
+   "designation": "Head of school (Collège and Lycée) and Coordinator of the school group",
+   "designation_local": "",
+   "email": "accueil@ndozanam.org",
+   "office_email": "",
+   "phone": "03 85 21 09 80",
+   "source_url": "https://notre-dame-ozanam.fr/",
+   "evidence_quote": "Eric BON ... Coordinateur de l’ensemble scolaire"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Eric Bon is the head of the institution and the coordinator of the school group, making him the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Maison de l’Europe",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://notre-dame-ozanam.fr/lycee/leurope-invitee-dhonneur-au-lycee-ozanam-pour-les-erasmus-days/",
+    "evidence_quote": "Ce lundi 13 octobre 2025, l’Europe a coloré de ses drapeaux le lycée OZANAM pour le lancement des Erasmus Days. La Maison de l’Europe basée à Dijon, a rythmé la journée en proposant aux 3 niveaux des animations liées à la mobilité, l’histoire et l’action de l’Europe à travers ses institutions.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cnam",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://notre-dame-ozanam.fr/",
+    "evidence_quote": "Formation du Cnam déployée à Mâcon par le lycée Ozanam.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UNSS",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://notre-dame-ozanam.fr/college/championnat-de-france-unss-dathletisme-par-equipe/",
+    "evidence_quote": "Championnat de France UNSS d’athlétisme par équipe – Centre scolaire Notre-Dame Ozanam Mâcon",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Parlement Européen",
+    "partner_country": "European Union",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://notre-dame-ozanam.fr/lycee/leurope-invitee-dhonneur-au-lycee-ozanam-pour-les-erasmus-days/",
+    "evidence_quote": "En tant qu’Ecole Ambassadrice du Parlement Européen, le lycée met en œuvre des actions de découverte, de partage et fait participer ses élèves à de jeux pédagogiques tels que prochainement : la simulation du Parlement européen où les élèves deviendront députés le temps de l’immersion, une simulation de Conseil des Ministres Européens et pourquoi pas un voyage au cœur de l’Europe à Strasbourg !",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centre scolaire Notre-Dame Ozanam",
+    "city": "Mâcon",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://notre-dame-ozanam.fr/",
+    "evidence_quote": "45 Rue de l’Héritan – 71000 MÂCON"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 7,
+  "coverage_note": "The evidence mentions participation in Erasmus Days and activities as an Ambassador School of the European Parliament, but does not provide a formal list of international partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 12.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "email_search_s": 1.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     138
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 20.5
+ }
+}

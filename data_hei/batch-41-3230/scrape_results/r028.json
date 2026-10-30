@@ -1,0 +1,69 @@
+{
+ "row_id": "r028",
+ "scraped_at": "2026-10-30T10:18:06Z",
+ "contacts": {
+  "row_id": "r028",
+  "institution_name": "NIVERSITET PO BIBLIOTEKOZNANIE I INFORMACIONNI TEHNOLOGII",
+  "institution_type": "university",
+  "official_website": "https://www.unibit.bg/",
+  "country": null,
+  "phone": {
+   "value": "+359 (0) 2 971 80 68",
+   "source_url": "https://www.unibit.bg/contacts",
+   "evidence_quote": "Тел.: +359 (0) 2 971 80 68/+359 882 809 422"
+  },
+  "phone_alt": [],
+  "generic_email": "unibit@unibit.bg",
+  "generic_email_url": "https://www.unibit.bg/contacts",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "УниБИТ",
+    "city": "София",
+    "country": "Bulgaria",
+    "role": "main",
+    "source_url": "https://www.unibit.bg/contacts",
+    "evidence_quote": "гр. София, п.к. 1784,"
+   },
+   {
+    "campus_name": "УниБИТ 2",
+    "city": "София",
+    "country": "Bulgaria",
+    "role": "branch",
+    "source_url": "https://www.unibit.bg/contacts",
+    "evidence_quote": "гр. София, п.к. 1574,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that a full list of Erasmus partners is available on the website, but the list itself is not provided in the text. Contact information for specific Erasmus coordinators is not explicitly listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 13.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 30.4
+ }
+}
