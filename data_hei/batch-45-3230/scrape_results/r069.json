@@ -1,0 +1,102 @@
+{
+ "row_id": "r069",
+ "scraped_at": "2026-10-30T12:07:14Z",
+ "contacts": {
+  "row_id": "r069",
+  "institution_name": "Centrum Kształcenia Zawodowgo i Ustawicznego",
+  "institution_type": "college",
+  "official_website": "https://www.ckziuandrychow.pl/",
+  "country": {
+   "value": "Polska",
+   "source_url": "https://www.ckziuandrychow.pl/kontakt/",
+   "evidence_quote": "Wyrażam zgodę na przetwarzanie podanych danych osobowych, które zostaną użyte przez Administratora (Centrum Kształcenia Zawodowego i Ustawicznego w Andrychowie, Andrychów ul. Starowiejska 22a, małopolskie, Polska) jedynie do kontaktu ze mną."
+  },
+  "phone": {
+   "value": "+48 573 250 666",
+   "source_url": "https://www.ckziuandrychow.pl/",
+   "evidence_quote": "+48 573 250 666"
+  },
+  "phone_alt": [],
+  "generic_email": "sekretariat@ckziuandrychow.pl",
+  "generic_email_url": "https://www.ckziuandrychow.pl/kontakt/",
+  "contact": {
+   "name": "Justyna Kutyła",
+   "designation": "Project Coordinator",
+   "designation_local": "",
+   "email": "j_kutyla@ckziandrychow.pl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ckziuandrychow.pl/erasmus/",
+   "evidence_quote": "Koordynator projektu Justyna Kutyła"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Justyna Kutyła is explicitly listed as the project coordinator for Erasmus+.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Polska Izba Gospodarcza Transportu Samochodowego i Spedycji",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ckziuandrychow.pl/bcu-spedycja/nasi-partnerzy/",
+    "evidence_quote": "Polska Izba Gospodarcza Transportu Samochodowego i Spedycji (PIGTSiS) powstała 9 marca 1994 roku, jest organizacją samorządową, działającą na podstawie unormowań ustawy o izbach gospodarczych. PIGTSiS jest członkiem Krajowej Izby Gospodarczej. Zrzesza blisko 300 podmiotów gospodarczych, zajmujących się głównie przewozami osób i rzeczy w kraju i za granicą oraz zajmujących się produkcją na rzecz przewoźników.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Wyższa Szkoła Logistyki w Poznaniu",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ckziuandrychow.pl/bcu-spedycja/nasi-partnerzy/",
+    "evidence_quote": "1. WSLP (Wyższa Szkoła Logistyki w Poznaniu) – Założycielem Wyższej Szkoły Logistyki jest Sieć Badawcza Łukasiewicz – Poznański Instytut Technologiczny oraz Centrum Edukacji Logistycznej. Od 2021 roku WSLP pełni rolę Narodowego Centrum Certyfikacji Logistyków (w ramach Europejskiego Systemu",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Iscar",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ckziuandrychow.pl/wspolpraca-z-firma-iscar/",
+    "evidence_quote": "Centrum Kształcenia Zawodowego i Ustawicznego w Andrychowie nawiązało współpracę z firmą Iscar, która objęła nowo powstałą pracownie mechaniczna patronatem. W ramach współpracy szkoła nieodpłatnie otrzymała; katalogi narzędzi, plansze dydaktyczne oraz narzędzia do obróbki skrawaniem. Zarówno Dyrekcja, nauczyciele i uczniowie dziękują firmie Iscar mając nadzieję na dalszą współpracę.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centrum Kształcenia Zawodowego i Ustawicznego",
+    "city": "Andrychów",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://www.ckziuandrychow.pl/",
+    "evidence_quote": "Andrychów, ul. Starowiejska 22a"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The institution lists specific project partners and a company patron, but does not provide a comprehensive list of all Erasmus+ partner universities. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 32.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 37.1
+ }
+}
