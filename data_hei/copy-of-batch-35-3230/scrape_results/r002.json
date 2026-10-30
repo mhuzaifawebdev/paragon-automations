@@ -1,0 +1,116 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-30T14:03:56Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "LYCEE POLYVALENT SADI CARNOT JEAN BERTIN",
+  "institution_type": "school",
+  "official_website": "https://lyc-bertin-carnot.paysdelaloire.e-lyco.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 41 53 50 00",
+   "source_url": "https://lyc-bertin-carnot.paysdelaloire.e-lyco.fr/",
+   "evidence_quote": "Tél : 02 41 53 50 00"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Cécile Moreau",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "02 41 53 50 00",
+   "source_url": "https://lyc-bertin-carnot.paysdelaloire.e-lyco.fr/organigramme-v2/",
+   "evidence_quote": "Proviseur ... Cécile Moreau (standard : 02 41 53 50 00)"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Cécile Moreau is the principal of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Séf Szakképz Iskola",
+    "partner_country": "Hungary",
+    "partner_type": "school",
+    "mobility_type": "traineeship",
+    "source_url": "https://lyc-bertin-carnot.paysdelaloire.e-lyco.fr/politique-educative/ouverture-internationale/leonardo-mobilite-stages/",
+    "evidence_quote": "Les stages se dérouleront en mai 2013. Notre partenaire en Hongrie est la Séf Szakképz Iskola. Les entreprises hôtelières d’accueil se situent dans la région de Veszprém, ville jumelée avec Saumur. Les candidats sélectionnés bénéficieront d’un parcours individualisé. Le calendrier est le suivant :",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IPSIA Ferrari",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "traineeship",
+    "source_url": "https://lyc-bertin-carnot.paysdelaloire.e-lyco.fr/politique-educative/ouverture-internationale/leonardo-mobilite-stages/",
+    "evidence_quote": "Notre partenaire en Italie est l’IPSIA Ferrari. Les entreprises d’accueil se situent dans la région de Formigine, ville jumelée avec Saumur.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Trinity College",
+    "partner_country": "Ireland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lyc-bertin-carnot.paysdelaloire.e-lyco.fr/internationale/internationale-projet-actuel/erasmus-dublin-irlande/",
+    "evidence_quote": "La visite du prestigieux Trinity College a constitué un autre temps fort du séjour. Fondée en 1592, cette université figure parmi les plus anciennes et les plus renommées d’Europe. Les élèves ont notamment pu admirer sa célèbre bibliothèque, le Book of Kells et découvrir l’importance de cette institution dans l’histoire culturelle du pays.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Sadi Carnot - Jean Bertin",
+    "city": "Saumur",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyc-bertin-carnot.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "Lycée Sadi Carnot - Jean Bertin | Lycée Polyvalent - Saumur"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The website mentions a dedicated page for European partners, but the content of that page does not list the specific names of the partners. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 57.3,
+  "crawl_s": 14.2,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     233
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 80.9
+ }
+}
