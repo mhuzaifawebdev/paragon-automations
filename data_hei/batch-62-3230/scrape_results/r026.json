@@ -1,0 +1,101 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-30T11:46:45Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "Zespol Szkol Budowlano-Drzewnych im. Boleslawa Chrobrego",
+  "institution_type": "school",
+  "official_website": "https://www.zsbd.poznan.pl/",
+  "country": null,
+  "phone": {
+   "value": "61 861 00 27",
+   "source_url": "https://www.zsbd.poznan.pl/",
+   "evidence_quote": "61 861 00 27"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Tomasz Szłapiński",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.zsbd.poznan.pl/o-szkole/kadra-pedagogiczna-i-pracownicy-szkoly",
+   "evidence_quote": "DYREKTOR ... Tomasz Szłapiński"
+  },
+  "alternates": [
+   {
+    "name": "Tomasz Kruszczyński",
+    "designation": "Head of Practical Training",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.zsbd.poznan.pl/o-szkole/kadra-pedagogiczna-i-pracownicy-szkoly",
+    "evidence_quote": "KIEROWNIK SZKOLENIA PRAKTYCZNEGO ... Tomasz Kruszczyński",
+    "why_chosen": "Secretary / administration (last resort). Tomasz Kruszczyński is the Head of Practical Training and manages student placements."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Tomasz Szłapiński is the Principal of the school and is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IFW UAM Poznań",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.zsbd.poznan.pl/",
+    "evidence_quote": "Współpraca z IFW UAM Poznań",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Teatr Ósmego Dnia",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.zsbd.poznan.pl/",
+    "evidence_quote": "Współpraca z Teatrem Ósmego Dnia",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zespół Szkół Budowlano-Drzewnych",
+    "city": "Poznań",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://www.zsbd.poznan.pl/",
+    "evidence_quote": "ul. Raszyńska 48"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution does not list any international Erasmus+ partners on its website. The listed partners are local cultural and academic institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 12.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 13.1,
+  "total_seconds": 42.5
+ }
+}
