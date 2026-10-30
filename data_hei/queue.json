@@ -3758,22 +3758,34 @@
    "source": "Batch-4_1,277",
    "file_id": "1htOuw5P89fJ_NM7tWNSS6__mwvTkxbXYcejYfK5boyY",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 2,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-30T18:12:58Z",
    "last_start": "2026-10-30T18:12:58Z",
    "restarts": 0,
-   "cap_usd": 660.84
+   "cap_usd": 660.84,
+   "crm_rows": 1,
+   "no_number": 2,
+   "spend_recorded": true,
+   "cost_usd": 0.009,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1SZSeT6Faz7ca5pTMbMhlNmeb5nl7j9eF/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 3,
+   "finished": "2026-10-30T18:16:24Z",
+   "reason": "3 institutes, 2 with a contact"
   },
   {
    "batch": "dts-scope-and-schedulemerged",
    "source": "DTS-Scope and ScheduleMerged",
    "file_id": "12kFPGpfPdlPCCA7j11Pz8DTvo9mbv0nCGo0Dh8krZpE",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 756,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-30T18:16:24Z",
+   "last_start": "2026-10-30T18:16:24Z",
+   "restarts": 0,
+   "cap_usd": 660.83
   },
   {
    "batch": "dts-resource-management-merged",
@@ -4024,7 +4036,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-30T18:12:58Z",
+ "updated": "2026-10-30T18:16:24Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
