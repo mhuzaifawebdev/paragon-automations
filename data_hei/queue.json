@@ -3653,22 +3653,34 @@
    "source": "Copy of VET 150K - 100K Batch 6 _ Sumbul(B2)-62",
    "file_id": "1jdcldKM9a95-4VA80DcG9wrbDm3QZjqwsyX2CnQsQ3U",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 158,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-30T16:43:30Z",
    "last_start": "2026-10-30T16:43:30Z",
    "restarts": 0,
-   "cap_usd": 671.93
+   "cap_usd": 671.93,
+   "crm_rows": 35,
+   "no_number": 141,
+   "spend_recorded": true,
+   "cost_usd": 3.9042,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1dAtObKIAK7Jc-EP_aycfGJ30Va_v4jW6/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 117,
+   "finished": "2026-10-30T17:04:25Z",
+   "reason": "158 institutes, 66 with a contact"
   },
   {
    "batch": "copy-of-vet-150k-100k-batch-8-ibrahi-2",
    "source": "Copy of VET 150K - 100K Batch 8 _ Ibrahim (B2)-54",
    "file_id": "1XB2yPW4RIp-wZkgsYpzwbRmfKI-RewqMCRVcTLqa39I",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 43,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-30T17:04:25Z",
+   "last_start": "2026-10-30T17:04:25Z",
+   "restarts": 0,
+   "cap_usd": 668.02
   },
   {
    "batch": "copy-of-vet-150k-100k-batch-3-talha-2",
@@ -3964,7 +3976,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-30T16:43:30Z",
+ "updated": "2026-10-30T17:04:25Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
