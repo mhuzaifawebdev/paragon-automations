@@ -1,0 +1,108 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-10-30T12:37:53Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "IES MANACOR",
+  "institution_type": "school",
+  "official_website": "https://www.iesmanacor.cat/",
+  "country": null,
+  "phone": {
+   "value": "34) 971 551 489",
+   "source_url": "https://www.iesmanacor.cat/",
+   "evidence_quote": "(34) 971 551 489"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UIB",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesmanacor.cat/category/batxillerat-internacional/",
+    "evidence_quote": "2a visita al DemoLab de la UIB",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rafa Nadal Academy",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesmanacor.cat/fira-universitaria-internacional/",
+    "evidence_quote": "Com cada any, els alumnes del Batxillerat Internacional de l’IES Manacor visiten la Rafa Nadal Academy dins el marc de la Fira Universitària Internacional, una gran oportunitat per conèixer universitats europees i americanes i els programes que ofereixen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fundació Trobada",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesmanacor.cat/",
+    "evidence_quote": "[Donació Fundació Trobada]Donació Fundació Trobada24/02/2026",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CEPAP",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesmanacor.cat/category/batxillerat-internacional/",
+    "evidence_quote": "Projecte intergeneracional amb el CEPAP",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Manacor",
+    "city": "Manacor",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iesmanacor.cat/",
+    "evidence_quote": "C/Camí de Ses Tapareres, 32"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The website does not list specific staff members or Erasmus+ coordinators. There is no formal list of international partners provided, only mentions of specific local institutions visited by students.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 18.7,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 33.3
+ }
+}
