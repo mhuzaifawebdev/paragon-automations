@@ -1,0 +1,90 @@
+{
+ "row_id": "r079",
+ "scraped_at": "2026-10-30T13:33:37Z",
+ "contacts": {
+  "row_id": "r079",
+  "institution_name": "GO! Technisch Atheneum Jette",
+  "institution_type": "school",
+  "official_website": "https://tajette.be/",
+  "country": null,
+  "phone": {
+   "value": "02 425 92 33",
+   "source_url": "https://tajette.be/contact/",
+   "evidence_quote": "Tel.: 02 425 92 33"
+  },
+  "phone_alt": [],
+  "generic_email": "info@tajette.be",
+  "generic_email_url": "https://tajette.be/contact/",
+  "contact": {
+   "name": "Annelies Piu",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "piu.annelies@tajette.be",
+   "office_email": "",
+   "phone": "02 425 92 33",
+   "source_url": "https://tajette.be/contact/",
+   "evidence_quote": "Annelies Piu ... Directeur"
+  },
+  "alternates": [
+   {
+    "name": "Nathalie van Laecken",
+    "designation": "Student Secretariat",
+    "designation_local": "",
+    "email": "vanlaecken.nathalie@tajette.be",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://tajette.be/campus-prins-boudewijn/",
+    "evidence_quote": "Nathalie van Laecken ... Leerlingensecretariaat",
+    "why_chosen": "Secretary / administration (last resort). Nathalie van Laecken works in the student secretariat and is a contact for the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Annelies Piu is the director of the institution and is listed as a contact.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus LT",
+    "city": "Jette",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://tajette.be/contact/",
+    "evidence_quote": "Campus LT – Leon Theodorstraat 80 – 1090 Jette"
+   },
+   {
+    "campus_name": "Campus PB",
+    "city": "Ganshoren",
+    "country": "Belgium",
+    "role": "branch",
+    "source_url": "https://tajette.be/contact/",
+    "evidence_quote": "Campus PB (1A + 1B) – Prins Boudewijnstraat 71 – 1083 Ganshoren"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 4,
+  "coverage_note": "The provided evidence does not contain information regarding international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 6.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 29.4
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "row_id": "r090",
+ "scraped_at": "2026-10-30T13:33:49Z",
+ "contacts": {
+  "row_id": "r090",
+  "institution_name": "Szolnoki SZC Rozsa Imre Technikum",
+  "institution_type": "school",
+  "official_website": "https://ugmszi.hu/",
+  "country": null,
+  "phone": {
+   "value": "+36-56-439-329",
+   "source_url": "https://ugmszi.hu/",
+   "evidence_quote": "<rozsa@szolmusz.hu> <tel +36-56-439-329>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Kasza Ágnes",
+   "designation": "Teacher",
+   "designation_local": "",
+   "email": "kaszaagnes@ugmszi.hu",
+   "office_email": "",
+   "phone": "+36-56-439-329/6008",
+   "source_url": "https://ugmszi.hu/rolunk/oktatok",
+   "evidence_quote": "Kasza Ágnes ... kaszaagnes​@ugmszi.hu <kaszaagnes@ugmszi.hu>+36-56-439-329/6008 <tel +36-56-439-329/6008>Osztályfőnök:"
+  },
+  "alternates": [
+   {
+    "name": "Kovács Nándor Józsefné",
+    "designation": "Principal",
+    "designation_local": "",
+    "email": "kovacs.nandorne@szolmusz.hu",
+    "office_email": "",
+    "phone": "+36-56-439-329/6004",
+    "source_url": "https://ugmszi.hu/rolunk/munkatarsak",
+    "evidence_quote": "Kovács Nándor Józsefné ... igazgató",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the principal, she is the head of the institution and the primary contact for institutional matters."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. English / language or EU-project teacher (no Erasmus contact found). She is a named teacher at the institution and was identified as a contact on file.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ferzol Kft.",
+    "partner_country": "Hungary",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://ugmszi.hu/kepzeseink/dualis",
+    "evidence_quote": "Ferzol Kft.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MÁV Pályaműködtetési Zrt.",
+    "partner_country": "Hungary",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://ugmszi.hu/kepzeseink/dualis",
+    "evidence_quote": "MÁV Pályaműködtetési Zrt.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Praktiker Kft.",
+    "partner_country": "Hungary",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://ugmszi.hu/kepzeseink/dualis",
+    "evidence_quote": "Praktiker Kft.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Szolnoki SZC Rózsa Imre Technikum",
+    "city": "Újszász",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://ugmszi.hu/",
+    "evidence_quote": "OM kód: 203056/011 | 5052 Újszász, Dózsa György út 23."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 4,
+  "coverage_note": "The evidence provides a list of dual training partners but does not contain information regarding Erasmus+ or international mobility partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 7.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 12.1
+ }
+}
