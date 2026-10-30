@@ -1,0 +1,74 @@
+{
+ "row_id": "r023",
+ "scraped_at": "2026-10-28T22:43:06Z",
+ "contacts": {
+  "row_id": "r023",
+  "institution_name": "Hans Jürgen",
+  "institution_type": "university",
+  "official_website": "https://www.hmtm-hannover.de/de/start/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch job-readiness-mailchimp-600-samaher (scraped 2026-10-28). Reused from batch batch-3-1-277 (scraped 2026-10-28). site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "DAAD",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hmtm-hannover.de/de/start/",
+    "evidence_quote": "DAAD",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Clavier e. V.",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hmtm-hannover.de/de/start/",
+    "evidence_quote": "Clavier e. V.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hochschule für Musik, Theater und Medien Hannover",
+    "city": "Hannover",
+    "country": "germany",
+    "role": "main",
+    "source_url": "https://www.hmtm-hannover.de/de/start/",
+    "evidence_quote": "Hannover"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information about the institution's structure and leadership but does not contain a list of partner institutions or specific contact details for an Erasmus coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "job-readiness-mailchimp-600-samaher",
+  "row_id": "r239"
+ }
+}
