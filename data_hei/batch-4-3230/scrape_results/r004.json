@@ -1,0 +1,83 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-10-29T11:00:18Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "University of Applied Sciences",
+  "institution_type": "university",
+  "official_website": "https://www.hs-fulda.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch batch-55-3230 (scraped 2026-10-29). site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Wirtschaftsjunioren Fulda",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hs-fulda.de/",
+    "evidence_quote": "Hochschule Fulda meets Wirtschaftsjunioren Fulda",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "E³UDRES²",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hs-fulda.de/",
+    "evidence_quote": "Als Studierende*r der Hochschule Fulda bist du Teil der europäischen Hochschulallianz E³UDRES². Entdecke Kurzaufenthalte im Ausland, Sprachkurse, Online-Workshops und viele weitere Angebote, die dich mit Studierenden aus ganz Europa vernetzen und dein Studium bereichern.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "German Academic Exchange Service (DAAD)",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hs-fulda.de/sozial-kulturwissenschaften/internationales-1/transnational-governance-and-human-rights/project-team",
+    "evidence_quote": "Administrative Project coordination towards the German Academic Exchange Service (DAAD)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Marquardtstraße Campus",
+    "city": "Fulda",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.hs-fulda.de/",
+    "evidence_quote": "[Luftaufnahme der Marquardtstraße Campus Fulda]"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions the existence of partner universities and the E³UDRES² alliance, but does not provide a specific list of partner institutions. Contact details for the central International Office are provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "batch-55-3230",
+  "row_id": "r039"
+ }
+}
