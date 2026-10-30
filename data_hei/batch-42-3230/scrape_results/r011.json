@@ -1,0 +1,97 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-30T09:30:54Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "MLBDM",
+  "institution_type": "college",
+  "official_website": "https://www.mission-locale-bordsdemarne.org/",
+  "country": null,
+  "phone": {
+   "value": "01 48 71 20 00",
+   "source_url": "https://www.mission-locale-bordsdemarne.org/",
+   "evidence_quote": "01 48 71 20 00 <tel +33148712000>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini. 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "République française",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mission-locale-bordsdemarne.org/",
+    "evidence_quote": "[République française]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Région île de France",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mission-locale-bordsdemarne.org/",
+    "evidence_quote": "[Région île de France]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pôle emploi",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mission-locale-bordsdemarne.org/",
+    "evidence_quote": "[Pôle emploi]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Maison de l’Europe",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mission-locale-bordsdemarne.org/mobilite-internationale/",
+    "evidence_quote": "Nous sommes là pour vous informer, vous accompagner et vous orienter vers la Maison de l’Europe et les partenaires adaptés.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mission locale des Bords de Marne",
+    "city": "Le Perreux sur Marne",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.mission-locale-bordsdemarne.org/",
+    "evidence_quote": "94170 Le Perreux sur Marne"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 3,
+  "coverage_note": "The institution is a local youth employment mission rather than a traditional university. No specific list of Erasmus+ partner universities is provided. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 9.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 20.1
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-30T09:30:25Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "Lycée Louis Rascol",
+  "institution_type": "unknown",
+  "official_website": "",
+  "country": null,
+  "phone": null,
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "none",
+  "confidence": 0,
+  "needs_human_check": true,
+  "pages_read": 0,
+  "notes": "Website not found (website column in the sheet: https://louis-rascol.entmip.fr/ -> could not read https://louis-rascol.entmip.fr/ (blocked by robots.txt - do not fetch this page); website column in the sheet: https://louis-rascol.entmip.fr/contacts/contacts-4.htm -> could not read https://louis-rascol.entmip.fr/contacts/contacts-4.htm (blocked by robots.txt - do not fetch this page); email domain: https://www.rascol.net/ -> could not read https://www.rascol.net/ (SSLCertVerificationError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>); email domain: https://rascol.net/ -> could not read https://rascol.net/ (SSLCertVerificationError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>); Wikidata: https://louis-rascol.mon-ent-occitanie.fr/ -> could not read https://louis-rascol.mon-ent-occitanie.fr/ (RemoteDisconnected: Remote end closed connection without response); web search (DuckDuckGo): https://louis-rascol.mon-ent-occitanie.fr/ -> could not read https://louis-rascol.mon-ent-occitanie.fr/ (RemoteDisconnected: Remote end closed connection without response); web search (DuckDuckGo): http://www.rascol.net/ -> ok; http://www.rascol.net/ rejected: country France not shown; web search (DuckDuckGo): https://rascoliens.rascol.net/ -> ok; https://rascoliens.rascol.net/ rejected: country France not shown; web search (DuckDuckGo): http://louis-rascol.mon-ent-occitanie.fr/ -> could not read http://louis-rascol.mon-ent-occitanie.fr/ (RemoteDisconnected: Remote end closed connection without response))"
+ },
+ "network": null,
+ "network_skipped": "website not found",
+ "timing": {
+  "discover_s": 7.2,
+  "total_seconds": 7.2
+ }
+}
