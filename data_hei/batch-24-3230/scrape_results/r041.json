@@ -1,0 +1,151 @@
+{
+ "row_id": "r041",
+ "scraped_at": "2026-10-30T10:05:10Z",
+ "contacts": {
+  "row_id": "r041",
+  "institution_name": "IES Juán de Aréjula",
+  "institution_type": "college",
+  "official_website": "https://iesjuandearejula.com/",
+  "country": null,
+  "phone": {
+   "value": "957 59 65 43",
+   "source_url": "https://iesjuandearejula.com/",
+   "evidence_quote": "Tlf. 957 59 65 43"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Juan Manuel Cardeñosa Torres",
+   "designation": "Erasmus+ Plan Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iesjuandearejula.com/proyectos/erasmus/",
+   "evidence_quote": "Coordinador del Plan Erasmus + : D. Juan Manuel Cardeñosa Torres"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Institutional Erasmus+ coordinator. He is explicitly named as the coordinator of the Erasmus+ plan for the institution.",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Trinity College London",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjuandearejula.com/",
+    "evidence_quote": "El IES Juan de Aréjula es centro examinador registrado del Trinity College de Londres. La Consejería de Educación de la Junta de Andalucía ha firmado un acuerdo de colaboración con la fundación “TRINITY COLLEGE LONDON” para la celebración de los",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fundación Amancio Ortega",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjuandearejula.com/",
+    "evidence_quote": "BECA FUNDACIÓN AMANCIO ORTEGA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Junta de Andalucía",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjuandearejula.com/",
+    "evidence_quote": "Secretaría virtual Junta de Andalucía",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FSE",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjuandearejula.com/",
+    "evidence_quote": "FSE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AMPA Alixena",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjuandearejula.com/",
+    "evidence_quote": "AMPA Alixena",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ministerio de Educación Nacional de Francia",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjuandearejula.com/",
+    "evidence_quote": "El Diploma de estudios en lengua francesa o DELF (Diplôme d’etudes en langue française) es un certificado que expide el Ministerio de Educación Nacional de Francia y que acredita el nivel en la lengua francesa de candidatos extranjeros de países",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Trinity College de Londres",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjuandearejula.com/",
+    "evidence_quote": "El IES Juan de Aréjula es centro examinador registrado del Trinity College de Londres. La Consejería de Educación de la Junta de Andalucía ha firmado un acuerdo de colaboración con la fundación “TRINITY COLLEGE LONDON” para la celebración de los",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Juan de Aréjula",
+    "city": "Lucena",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesjuandearejula.com/",
+    "evidence_quote": "C/ Montemayor, 11"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 7,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information about Erasmus+ projects and internal staff roles, but does not contain a comprehensive list of international partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 15.6,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 5
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 22.5
+ }
+}
