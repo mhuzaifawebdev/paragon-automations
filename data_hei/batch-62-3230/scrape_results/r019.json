@@ -1,0 +1,99 @@
+{
+ "row_id": "r019",
+ "scraped_at": "2026-10-30T11:44:26Z",
+ "contacts": {
+  "row_id": "r019",
+  "institution_name": "Yüzüncü Y?l Üniversitesi",
+  "institution_type": "university",
+  "official_website": "https://www.yyu.edu.tr/",
+  "country": null,
+  "phone": {
+   "value": "04322251024",
+   "source_url": "https://www.yyu.edu.tr/Birimler/67/duyurular/2026-2027-akademik-yili-erasmusplus-ogrenci-staj-ve-ogrenim-hareketliligi-basvuru-sonuclari-aciklanmistir/21027",
+   "evidence_quote": "04322251024"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmusoffice@yyu.edu.tr",
+  "generic_email_url": "https://www.yyu.edu.tr/Birimler/67",
+  "contact": {
+   "name": "Prof. Dr. Hamdullah Şevli",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.yyu.edu.tr/Birimler/67",
+   "evidence_quote": "Van Yüzüncü Yıl Üniversitesi Rektörü Prof. Dr. Hamdullah Şevli, inşası tamamlanmak üzere olan Müzik İlkokulu ve Ortaokulu öğrencilerini,..."
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). As the Rector of the university, he holds the highest leadership position.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ardahan Üniversitesi",
+    "partner_country": "Turkey",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.yyu.edu.tr/Birimler/67",
+    "evidence_quote": "[Van YYÜ ve Ardahan Üniversitesi Öğrencilerinden Van ve Erçek Göllerinde Bilimsel...]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SocialEASE Konsorsiyumu",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.yyu.edu.tr/Birimler/67",
+    "evidence_quote": "SocialEASE Konsorsiyumu Staj Hareketliliği Başvuru İlanı Sonuçları Açıklanmıştır...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zeve Kampüsü",
+    "city": "Van",
+    "country": "Turkey",
+    "role": "main",
+    "source_url": "https://www.yyu.edu.tr/Birimler/67/duyurular/2026-2027-akademik-yili-erasmusplus-ogrenci-staj-ve-ogrenim-hareketliligi-basvuru-sonuclari-aciklanmistir/21027",
+    "evidence_quote": "Van Yüzüncü Yıl Üniversitesi, Uluslararası İlişkiler Ofisi, Rektörlük Karşısı A Prefabrikler, Zeve Kampüsü"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information about the Erasmus office and internal mobility processes but does not contain a formal list of international partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.7,
+  "crawl_s": 14.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 12.8,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 33.6
+ }
+}
