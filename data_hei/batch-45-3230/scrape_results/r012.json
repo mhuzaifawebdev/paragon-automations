@@ -1,0 +1,109 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-30T12:00:58Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "lycee-joseph-pernock",
+  "institution_type": "school",
+  "official_website": "http://lycee-joseph-pernock.com/",
+  "country": null,
+  "phone": {
+   "value": "05.96.53.42.23",
+   "source_url": "http://lycee-joseph-pernock.com/",
+   "evidence_quote": "05.96.53.42.23 <tel 05.96.53.42.23>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Roumanie",
+    "partner_country": "Romania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://lycee-joseph-pernock.com/grid.php?id_menu=38",
+    "evidence_quote": "Retour en image sur le projet ERASMUS Inclusion against Exclusion.Présentation des quatre mobilités : Roumanie, Italie, Espagne et Turquie. ...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Italie",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://lycee-joseph-pernock.com/grid.php?id_menu=38",
+    "evidence_quote": "Retour en image sur le projet ERASMUS Inclusion against Exclusion.Présentation des quatre mobilités : Roumanie, Italie, Espagne et Turquie. ...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Espagne",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://lycee-joseph-pernock.com/grid.php?id_menu=38",
+    "evidence_quote": "Retour en image sur le projet ERASMUS Inclusion against Exclusion.Présentation des quatre mobilités : Roumanie, Italie, Espagne et Turquie. ...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Turquie",
+    "partner_country": "Turkey",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://lycee-joseph-pernock.com/grid.php?id_menu=38",
+    "evidence_quote": "Retour en image sur le projet ERASMUS Inclusion against Exclusion.Présentation des quatre mobilités : Roumanie, Italie, Espagne et Turquie. ...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Polyvalent Joseph Pernock",
+    "city": "Le Lorrain",
+    "country": "France",
+    "role": "main",
+    "source_url": "http://lycee-joseph-pernock.com/",
+    "evidence_quote": "Lycée Polyvalent Joseph Pernock, Morne Dorival, 97214 Le Lorrain"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The website does not list any specific staff members or contact persons for international mobility. Partner institutions are mentioned by country rather than by specific school or university name.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 7.3,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     63
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 20.2
+ }
+}

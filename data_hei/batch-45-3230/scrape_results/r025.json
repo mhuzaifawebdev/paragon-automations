@@ -1,0 +1,100 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-29T01:27:03Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "ECOLE PRATIQUE DES HAUTES ETUDES COMMERCIALES",
+  "institution_type": "university",
+  "official_website": "https://www.muni.cz/",
+  "country": {
+   "value": "Czech Republic",
+   "source_url": "https://www.muni.cz/en/about-us/careers/international-employees",
+   "evidence_quote": "If you or a family member are citizens of another country, you must have a valid visa or residence permit to stay in the Czech Republic."
+  },
+  "phone": {
+   "value": "+420 549 49 7942",
+   "source_url": "https://www.muni.cz/en/about-us/careers/international-employees",
+   "evidence_quote": "+420 549 49 7942 <tel +420549497942>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@muni.cz",
+  "generic_email_url": "https://www.muni.cz/",
+  "contact": {
+   "name": "Gabriela Složilová",
+   "designation": "Coordinator for international programmes",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.em.muni.cz/udalosti/18882-jak-na-pobyt-v-zahranici-erasmus-days-prinesly-potrebne-informace-i-zkusenosti-studujicich",
+   "evidence_quote": "„Do akce se zapojily také Centrum jazykového vzdělávání a středisko Teiresiás. Krátké přednášky přiblížily například možnosti doložení jazykových znalostí nebo podporu dostupnou studujícím se specifickými potřebami,“ popsala Gabriela Složilová z CZS, koordinátorka pro mezinárodní programy."
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. She is a coordinator for international programmes at the Centre for International Cooperation.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch legacy-db-ccc-merged-898 (scraped 2026-10-29). site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Vodafone",
+    "partner_country": "Czech Republic",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.muni.cz/en/about-us/careers/international-employees",
+    "evidence_quote": "Masaryk University cooperates with Vodafone and can offer an employee package for postpaid deals",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mendelova univerzita",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.muni.cz/pro-media/tiskove-zpravy/erasmus-slavi-20-let-v-cesku-do-zahranici-s-nim-vyjelo-13-tisic-studentu-muni",
+    "evidence_quote": "Česká republika letos slaví 20 let od doby, kdy se zapojila do mezinárodního vzdělávacího programu Evropské unie Erasmus+. Za tyto dvě dekády přijelo jen na Masarykovu univerzitu (MUNI) studovat téměř šest a půl tisíce zahraničních studentů a skoro 13 tisíc studentů z ní odjelo do ciziny za studiem nebo na stáž. K oslavám, které se odehrávají po celé republice, se připojuje i Masarykova univerzita, která spolu s Mendelovou univerzitou a VUT připravuje na úterý 27. listopadu narozeninovou oslavu ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VUT",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.muni.cz/pro-media/tiskove-zpravy/erasmus-slavi-20-let-v-cesku-do-zahranici-s-nim-vyjelo-13-tisic-studentu-muni",
+    "evidence_quote": "Česká republika letos slaví 20 let od doby, kdy se zapojila do mezinárodního vzdělávacího programu Evropské unie Erasmus+. Za tyto dvě dekády přijelo jen na Masarykovu univerzitu (MUNI) studovat téměř šest a půl tisíce zahraničních studentů a skoro 13 tisíc studentů z ní odjelo do ciziny za studiem nebo na stáž. K oslavám, které se odehrávají po celé republice, se připojuje i Masarykova univerzita, která spolu s Mendelovou univerzitou a VUT připravuje na úterý 27. listopadu narozeninovou oslavu ",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bohunice University Campus",
+    "city": "Brno",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.muni.cz/en/about-us/careers/international-employees",
+    "evidence_quote": "Address: Palackého tř. 1946/1,612 42 Brno"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of partner institutions. The institution is Masaryk University (MUNI).",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "legacy-db-ccc-merged-898",
+  "row_id": "r491"
+ }
+}
