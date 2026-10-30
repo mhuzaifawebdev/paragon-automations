@@ -1,0 +1,146 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-30T10:00:08Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "LPO NORD GRANDE TERRE",
+  "institution_type": "school",
+  "official_website": "https://lponordgrandeterre.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://lponordgrandeterre.fr/",
+   "evidence_quote": "Au lycée polyvalent Nord Grande-Terre et comme dans tous les établissements similaires de France, une politique de prévention des violences et du harcèlement est…"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Nadine DURIMEL",
+   "designation": "Delegate Director for Vocational and Technological Training",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lponordgrandeterre.fr/?page_id=94",
+   "evidence_quote": "Directrice Déléguée aux Formations Professionnelles et Technologiques ... Mme Nadine DURIMEL"
+  },
+  "alternates": [
+   {
+    "name": "Diana HEDREVILLE",
+    "designation": "Erasmus+ Referent",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lponordgrandeterre.fr/?page_id=94",
+    "evidence_quote": "Référentes ERASMUS+ ... Mme Diana HEDREVILLE",
+    "why_chosen": "Institutional Erasmus+ coordinator. She is explicitly listed as the Erasmus+ referent for the institution."
+   },
+   {
+    "name": "Marie-Laetitia GAWLOWICZ",
+    "designation": "Erasmus+ Referent Teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lponordgrandeterre.fr/?p=2618",
+    "evidence_quote": "En effet, bien que la situation sanitaire soit instable, Camilla CHARLOTTINE et Lucas PIETRUS du BTS Économie Sociale Familiale (ESF), ainsi que Matthis BARD du BTS Gestion du Transport et Logistique Associée (GTLA), n’ont pas hésité à s’inscrire auprès des professeures référentes ERASMUS+ du LPo Nord Grande-Terre, Mme GAWLOWICZ Marie-Laetitia et Mme ZAMORA-REUGE Florence, pour partir 2 mois à Malte faire leur stage en entreprise.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is identified as a teacher responsible for Erasmus+ mobility projects."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She holds a senior leadership role and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CEI",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lponordgrandeterre.fr/wp-content/uploads/2017/04/Diaporama-%c3%a9tudiants-ERASMUS-2016-2017.pdf",
+    "evidence_quote": "entre les mains de l’organisme CEI.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Institut Decroly",
+    "partner_country": "Belgium",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://lponordgrandeterre.fr/wp-content/uploads/2017/04/Erasmus-days-2018.pdf",
+    "evidence_quote": "ERASMUS+ à l'Institut Decroly",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Europass Teacher Academy",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://lponordgrandeterre.fr/wp-content/uploads/2017/04/Erasmus-days-2018.pdf",
+    "evidence_quote": "ERASMUS+ à l'Europass Teacher Academy",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Site de Beauport",
+    "city": "Port-Louis",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lponordgrandeterre.fr/wp-content/uploads/2017/04/Erasmus-days-2018.pdf",
+    "evidence_quote": "Site de Beauport"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific Erasmus+ project details and names of referent teachers, but does not contain a formal list of institutional partners or agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 47.8,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     421,
+     507
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 54.3
+ }
+}
