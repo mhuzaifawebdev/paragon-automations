@@ -1,0 +1,122 @@
+{
+ "row_id": "r098",
+ "scraped_at": "2026-10-30T13:34:14Z",
+ "contacts": {
+  "row_id": "r098",
+  "institution_name": "Institut Sainte Marie",
+  "institution_type": "school",
+  "official_website": "https://www.sainte-marie.be/",
+  "country": null,
+  "phone": {
+   "value": "02 537 41 18",
+   "source_url": "https://www.sainte-marie.be/",
+   "evidence_quote": "Tél : 02 537 41 18 |"
+  },
+  "phone_alt": [],
+  "generic_email": "secretariat-direction@sainte-marie.be",
+  "generic_email_url": "https://www.sainte-marie.be/",
+  "contact": {
+   "name": "Maude Struglia",
+   "designation": "Direction",
+   "designation_local": "",
+   "email": "maude.struglia@sainte-marie.be",
+   "office_email": "",
+   "phone": "02 537 41 18",
+   "source_url": "https://www.sainte-marie.be/",
+   "evidence_quote": "Direction : maude.struglia@sainte-marie.be <maude.struglia@sainte-marie.be>"
+  },
+  "alternates": [
+   {
+    "name": "Eric Craps",
+    "designation": "Deputy Director / CPE",
+    "designation_local": "",
+    "email": "eric.craps@sainte-marie.be",
+    "office_email": "",
+    "phone": "02 537 41 18",
+    "source_url": "https://www.sainte-marie.be/",
+    "evidence_quote": "Direction adjointe / CPE : eric.craps@sainte-marie.be <eric.craps@sainte-marie.be>",
+    "why_chosen": "Principal / director (no Erasmus contact found). Eric Craps serves as the deputy director and is a key administrative contact."
+   },
+   {
+    "name": "Ana Maria Camacho",
+    "designation": "Student Secretariat",
+    "designation_local": "",
+    "email": "ana.maria.camacho@sainte-marie.be",
+    "office_email": "",
+    "phone": "02 537 41 18",
+    "source_url": "https://www.sainte-marie.be/",
+    "evidence_quote": "Secrétariat élèves : ana.maria.camacho@sainte-marie.be <ana.maria.camacho@sainte-marie.be>",
+    "why_chosen": "Secretary / administration (last resort). Ana Maria Camacho is responsible for the student secretariat and handles administrative inquiries."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Maude Struglia is the head of the institution and is listed as the primary contact for direction.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Musée Art & Histoire",
+    "partner_country": "Belgium",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sainte-marie.be/",
+    "evidence_quote": "À partir du 16 octobre 2026, le Musée Art & Histoire de Bruxelles présente une exposition consacrée à l’art des peuples inuits du Nunavut et du Nunavik, réunissant près de 250 œuvres.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ChanGements pour l’égalité (CGé)",
+    "partner_country": "Belgium",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sainte-marie.be/",
+    "evidence_quote": "Du 19 au 21 octobre 2026, l’Institut Sainte-Marie accueillera les Rencontres pédagogiques d’automne de ChanGements pour l’égalité (CGé).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut Sainte-Marie",
+    "city": "Saint-Gilles",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.sainte-marie.be/",
+    "evidence_quote": "📍 Institut Sainte-Marie – 5, rue Émile Féron, 1060 Saint-Gilles"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 3,
+  "coverage_note": "The institution's website contains a page for partners, but it only displays placeholder text (Lorem Ipsum) and does not list any actual partner institutions. No information regarding international mobility agreements is provided. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 6.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     61
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 11.4
+ }
+}
