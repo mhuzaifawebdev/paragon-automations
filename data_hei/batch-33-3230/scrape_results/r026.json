@@ -1,0 +1,108 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-30T12:15:13Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "Lycée Polyvalent Paul Doumer",
+  "institution_type": "school",
+  "official_website": "https://lyceepauldoumer94.fr/",
+  "country": null,
+  "phone": {
+   "value": "+330143240580",
+   "source_url": "https://lyceepauldoumer94.fr/",
+   "evidence_quote": "[Logo téléphone]+330143240580 <tel +330143240580>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. Leboeuf",
+   "designation": "Responsible for edition",
+   "designation_local": "",
+   "email": "ce.0940119u@ac-creteil.fr",
+   "office_email": "",
+   "phone": "+330143240580",
+   "source_url": "https://lyceepauldoumer94.fr/",
+   "evidence_quote": "Responsable d'édition : M. Leboeuf"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Secretary / administration (last resort). M. Leboeuf is the responsible for edition and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Trinity Collège",
+    "partner_country": "Ireland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepauldoumer94.fr/temoignage-mobilite-erasmus/",
+    "evidence_quote": "Je ne connaissais pas du tout Dublin. C’est une ville charmante et culturellement riche qui se visite à pied. J’ai pu visité l’université « Trinity Collège », l’université de recherche de Dublin et sa bibliothèque. (avec le fameux livre de Kent), Saint joseph Garden, la cathédrale Saint-Patrick, l’Irish muséum of modern Art et naturellement une virée au temple bar. J’ai pu aussi contacter deux entreprises susceptibles d’accueillir nos étudiants.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "e-twinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepauldoumer94.fr/strategie-erasmus/",
+    "evidence_quote": "Concernant les mobilités d’enseignement, le lycée cherchera à créer des partenariats avec d’autres institutions scolaires chartées, et identifiés grâce à la plateforme e-twinning par exemple. Nous utiliserons également les contacts divers des collègues de langue notamment, ayant initié des projets d’échanges virtuels avec leurs élèves.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Commission européenne",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepauldoumer94.fr/category/ouverture-internationale/erasmus/",
+    "evidence_quote": "Ce projet est co-financé avec le soutien de la Commission européenne La sélection des participants aux mobilités Erasmus+ du lycée Paul Doumer s’effectue sans aucune discrimination. Tous les étudiants qui souhaitent réaliser un stage dans l’Union Européenne sont invités à présenter leur candidature aux entretiens de sélection. Par ailleurs, nous souhaitons indiquer que les étudiants…",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Paul Doumer",
+    "city": "unknown",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://lyceepauldoumer94.fr/",
+    "evidence_quote": "Bienvenue sur le site du Lycée Paul Doumer - Lycée Paul Doumer"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a specific list of Erasmus+ partner institutions, only general mentions of partnerships with companies and language schools.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 13.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 24.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 39.6
+ }
+}
