@@ -1,0 +1,104 @@
+{
+ "row_id": "r031",
+ "scraped_at": "2026-10-30T09:45:35Z",
+ "contacts": {
+  "row_id": "r031",
+  "institution_name": "ASSOCIATION IMMACULEE CONCEPTION",
+  "institution_type": "school",
+  "official_website": "https://theimmaculate.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@theimmaculate.org",
+  "generic_email_url": "https://theimmaculate.org/",
+  "contact": {
+   "name": "Admissions Office",
+   "designation": "Admissions Contact",
+   "designation_local": "",
+   "email": "admissions@theics.orgadmiss",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://theimmaculate.org/school/",
+   "evidence_quote": "ICS is very proud to offer a First Responders/Military Tuition Grant as a show of our appreciation for the important work undertaken by full-time police officers, firefighters, EMS personnel and active duty military personnel in the service of their fellow citizens. This $1,000 per family tuition grant is available to both current and newly enrolling families and is renewable each year contingent upon continued verification of employment. For more information, contact admissions@theics.orgadmiss"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). The admissions office is the designated contact for inquiries regarding school enrollment and tuition grants.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Divi",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://theimmaculate.org/dashboard/",
+    "evidence_quote": "The WordPress theme your site is built through is called Divi. It’s super flexible and quite frankly, awesome. The more you work with it, the more comfortable you’ll be when editing text, adding images, etc. You can access specific training videos and documentation on the different modules and options by going to Divi > Divi Training in the lefthand toolbar.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "wp101.com",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://theimmaculate.org/dashboard/",
+    "evidence_quote": "If you find yourself wanting to better understand WordPress or are wanting some more in-depth tutorials, I recommend this site: www.wp101.com. You can also google your questions on YouTube and often finds hundreds or walk-thru videos. But feel free to email me with any issues or questions you may need.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "WordPress.org",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://theimmaculate.org/dashboard/",
+    "evidence_quote": "WordPress.org",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Immaculate Conception School",
+    "city": "Towson",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://theimmaculate.org/",
+    "evidence_quote": "112 Ware Avenue, Towson, MD"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 3,
+  "coverage_note": "The evidence provided is for a K-8 school in the United States, which does not participate in Erasmus+ or international mobility programs. No partner list or international mobility information is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 8.8,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 13.5,
+  "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     115
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 27.4
+ }
+}
