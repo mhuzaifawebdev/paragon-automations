@@ -1,0 +1,82 @@
+{
+ "row_id": "r120",
+ "scraped_at": "2026-10-30T16:24:46Z",
+ "contacts": {
+  "row_id": "r120",
+  "institution_name": "www.rik.ee",
+  "institution_type": "unknown",
+  "official_website": "https://www.rik.ee/et",
+  "country": {
+   "value": "Eesti",
+   "source_url": "https://www.rik.ee/et/asutusest/kontaktid",
+   "evidence_quote": "Aadress: Lubja 4, 19081, Tallinn, Eesti"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@rik.ee",
+  "generic_email_url": "https://www.rik.ee/et",
+  "contact": {
+   "name": "Sven Heil",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.rik.ee/et/asutusest/kontaktid",
+   "evidence_quote": "Sven Heil | | Direktor | sven.heil[ät]rik.ee |"
+  },
+  "alternates": [
+   {
+    "name": "Aive Normak",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.rik.ee/et/asutusest/kontaktid",
+    "evidence_quote": "Aive Normak | | Asedirektor | aive.normak[ät]rik.ee |",
+    "why_chosen": "Other role. Aive Normak is the Deputy Director of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Sven Heil is the Director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: web search (Google via Gemini), named 'Registrite ja Infosüsteemide Keskus' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Registrite ja Infosüsteemide Keskus",
+    "city": "Tallinn",
+    "country": "Eesti",
+    "role": "main",
+    "source_url": "https://www.rik.ee/et/asutusest/kontaktid",
+    "evidence_quote": "Aadress: Lubja 4, 19081, Tallinn, Eesti"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The institution is a government center for registers and information systems, not an educational institution. No information regarding Erasmus+ or international academic partnerships is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 8.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 14.4,
+  "total_seconds": 28.6
+ }
+}
