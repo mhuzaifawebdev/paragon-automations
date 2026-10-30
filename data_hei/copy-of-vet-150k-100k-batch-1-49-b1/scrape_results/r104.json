@@ -1,0 +1,93 @@
+{
+ "row_id": "r104",
+ "scraped_at": "2026-10-30T16:06:11Z",
+ "contacts": {
+  "row_id": "r104",
+  "institution_name": "http://www.bjdb.ro/",
+  "institution_type": "unknown",
+  "official_website": "https://www.bjdb.ro/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "office@bjdb.ro",
+  "generic_email_url": "https://www.bjdb.ro/",
+  "contact": {
+   "name": "Agnes ERICH",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "office@bjdb.ro",
+   "office_email": "",
+   "phone": "0245/612316",
+   "source_url": "https://www.bjdb.ro/bj.php?meniu=contact",
+   "evidence_quote": "Director: Prof. univ. dr. Agnes ERICH - vizualizează CV"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Agnes Erich is the Director of the institution and is listed as the primary contact.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: web search (Google via Gemini), named 'Biblioteca Judeţeană „Ion Heliade Rădulescu” Dâmboviţa' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cekdev International Education & Develpoment Academy",
+    "partner_country": "Turkey",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bjdb.ro/docs/2024/Bibliotecari-%C3%AEn-Erasmus-pdf-site.pdf",
+    "evidence_quote": "teritoriu (voluntari în cadrul instituției), au beneficiat de cursuri furnizate de Cekdev International",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Antalya Kutuphanesi",
+    "partner_country": "Turkey",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bjdb.ro/docs/2024/Bibliotecari-%C3%AEn-Erasmus-pdf-site.pdf",
+    "evidence_quote": "bibliotecari de la Antalya Kutuphanesi (Biblioteca Antalyei) și au efectuat vizite tematice la locuri",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Biblioteca Judeţeană Ion Heliade Rădulescu Dâmboviţa",
+    "city": "Târgovişte",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://www.bjdb.ro/",
+    "evidence_quote": "Strada Stelea, Nr. 2, Cod 130018, Târgovişte, Dâmboviţa"
+   },
+   {
+    "campus_name": "Filiala pentru Copii",
+    "city": "Târgovişte",
+    "country": "Romania",
+    "role": "branch",
+    "source_url": "https://www.bjdb.ro/",
+    "evidence_quote": "Filiala pentru Copii a Bibliotecii Judeţene „I. H. Rădulescu” Dâmboviţa s-a mutat la adresa: str. Locotenent Major Dragomirescu Liviu, Cartier „Matei Basarab” – Micro 3 (în vecinătatea Bazinului Sportiv de Înot)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The institution is a public library, not a university or school, though it participates in Erasmus+ adult education mobility. No formal list of institutional partners is provided, only the training provider used for Erasmus+ projects. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.3,
+  "crawl_s": 33.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.3,
+  "total_seconds": 45.8
+ }
+}

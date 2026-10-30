@@ -1,0 +1,62 @@
+{
+ "row_id": "r102",
+ "scraped_at": "2026-10-30T16:06:08Z",
+ "contacts": {
+  "row_id": "r102",
+  "institution_name": "https://www.giocolieriedintorni.it/",
+  "institution_type": "unknown",
+  "official_website": "https://www.giocolieriedintorni.it/",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://www.giocolieriedintorni.it/",
+   "evidence_quote": "00053 Civitavecchia (RM), Italy"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: web search (Google via Gemini), named 'Associazione Giocolieri e Dintorni' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Giocolieri & Dintorni ASD",
+    "city": "Civitavecchia",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.giocolieriedintorni.it/",
+    "evidence_quote": "00053 Civitavecchia (RM), Italy"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The institution is an association rather than an educational institution, and no specific contact persons or partner lists are provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 20.4,
+  "crawl_s": 5.6,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 43.4
+ }
+}
