@@ -1,0 +1,98 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-30T15:52:28Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "https://saksatk.ee/kontakt/",
+  "institution_type": "college",
+  "official_website": "https://saksatk.ee/",
+  "country": {
+   "value": "Eesti/Estonia",
+   "source_url": "https://saksatk.ee/",
+   "evidence_quote": "Jalaka tn 8, Pärnu linn, Pärnu linn, Pärnu maakond 80019, Eesti/Estonia"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Peeter Kaar",
+   "designation": "Deputy Director",
+   "designation_local": "",
+   "email": "peeter@saksatk.ee",
+   "office_email": "",
+   "phone": "+372 5304 4201",
+   "source_url": "https://saksatk.ee/kontakt/",
+   "evidence_quote": "Peeter Kaar ... DIREKTORI ASTEÄITJA"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Deputy Director, he is a senior leader involved in international visits and Erasmus+ partnerships.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Staatliches Berufliches Schulzentrum",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://saksatk.ee/uudis/parnu-saksa-tehnoloogia-kooli-tootajad-kulastasid-saksamaalpraktikapartnereid/",
+    "evidence_quote": "Pärnu Saksa Tehnoloogia Kooli töötajad Indrek Alekõrs, Peeter Kaar ja Raivo Galetin külastasid 24.-27. märtsil 2026 Saksamaal Baierimaal Immenstadt-is asuvat Staatliches Berufliches Schulzentrum (Riiklik kutsehariduskeskus). Külastuse eesmärk oli leida koostöös kohalike partneritega sobivaid praktikakohti meie kooli õpilastele.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Elektro-Rauh GmbH",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://saksatk.ee/uudis/parnu-saksa-tehnoloogia-kooli-tootajad-kulastasid-saksamaalpraktikapartnereid/",
+    "evidence_quote": "Ehitiste elektriku eriala praktikavõimaluste tutvustamiseks külastati pereettevõtet Elektro-Rauh GmbH, mis jättis väga hea mulje oma töö kvaliteedi ja valdkondliku taseme poolest. Kooli direktor Indrek Alekõrs sõlmis ettevõttega koostöökokkuleppe, mille alusel on meie õpilastel võimalik minna sinna kuuekuulisele välispraktikale. Esimesed huvilised on end juba registreerinud.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AIP GmbH & Co. KG",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://saksatk.ee/uudis/parnu-saksa-tehnoloogia-kooli-tootajad-kulastasid-saksamaalpraktikapartnereid/",
+    "evidence_quote": "Automaatika eriala võimaliku praktikakohana külastati ettevõtet AIP GmbH & Co. KG, mis toodab tuntud autotootjatele, nagu Mercedes, BMW, Audi ja Volvo jne erinevaid katsestende. Ettevõtte kõrge tehnoloogiline tase jättis väga tugeva mulje ning kinnitas, et selline praktikakeskkond annaks meie õpilastele väärtusliku rahvusvahelise kogemuse ja aitaks tõsta õppekvaliteeti uuele tasemele.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Pärnu Saksa Tehnoloogiakool",
+    "city": "Pärnu",
+    "country": "Estonia",
+    "role": "main",
+    "source_url": "https://saksatk.ee/",
+    "evidence_quote": "Jalaka tn 8, Pärnu linn, Pärnu linn, Pärnu maakond 80019, Eesti/Estonia"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 7,
+  "coverage_note": "The institution mentions participating in various Erasmus+ projects with partners from Germany, Cyprus, Spain, Holland, and Turkey, but does not provide a comprehensive list of all current institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.2,
+  "crawl_s": 10.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 18.0
+ }
+}
