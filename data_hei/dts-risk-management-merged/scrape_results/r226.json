@@ -1,0 +1,89 @@
+{
+ "row_id": "r226",
+ "scraped_at": "2026-10-30T23:04:51Z",
+ "contacts": {
+  "row_id": "r226",
+  "institution_name": "First United Methodist Church",
+  "institution_type": "unknown",
+  "official_website": "https://www.fumchurst.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Rev. Johnny Brower",
+   "designation": "Lead Pastor",
+   "designation_local": "",
+   "email": "jbrower@fumchurst.org",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.fumchurst.org/staff",
+   "evidence_quote": "Rev. Johnny Brower ... Lead Pastor"
+  },
+  "alternates": [
+   {
+    "name": "Pam Phinney",
+    "designation": "Business Manager",
+    "designation_local": "",
+    "email": "businessoffice@fumchurst.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.fumchurst.org/staff",
+    "evidence_quote": "Pam Phinney ... Business Manager",
+    "why_chosen": "Secretary / administration (last resort). As the Business Manager, she handles administrative operations."
+   },
+   {
+    "name": "Holly Brower",
+    "designation": "Director of Communications",
+    "designation_local": "",
+    "email": "hbrower@fumchurst.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.fumchurst.org/staff",
+    "evidence_quote": "Holly Brower ... Director of Communications",
+    "why_chosen": "Secretary / administration (last resort). As the Director of Communications, she manages external outreach."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the Lead Pastor, he is the head of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "First United Methodist Church",
+    "city": "Hurst",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.fumchurst.org/contact-amp-directions",
+    "evidence_quote": "Mailing Address: 521 W. Pipeline Road, Hurst, TX, 76053, PO Box 1461"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 6,
+  "coverage_note": "The institution is a church and does not have international mobility programs or academic partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 6.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 19.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 27.6
+ }
+}
