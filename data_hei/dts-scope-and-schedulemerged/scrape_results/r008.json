@@ -1,0 +1,95 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-30T18:17:54Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Maxzone Auto Parts",
+  "institution_type": "unknown",
+  "official_website": "https://www.maxzone.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.maxzone.com/",
+   "evidence_quote": "Maxzone has 4 warehouses (Fontana, CA; Norcross, GA; West Dundee, IL; Port Reading, NJ) across the United States, strategically located to serve North American market."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "maxzone@maxzone.com",
+  "generic_email_url": "https://www.maxzone.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Auto Body Parts Association (ABPA)",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.maxzone.com/",
+    "evidence_quote": "DEPO Maxzone is also a proud member of the Auto Body Parts Association (ABPA)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Headquarter & Western Regional Distribution Center",
+    "city": "Fontana",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.maxzone.com/",
+    "evidence_quote": "Headquarter & Western Regional Distribution Center"
+   },
+   {
+    "campus_name": "Midwestern Regional Distribution Center",
+    "city": "West Dundee",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.maxzone.com/",
+    "evidence_quote": "Midwestern Regional Distribution Center"
+   },
+   {
+    "campus_name": "Southern Regional Distribution Center",
+    "city": "Norcross",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.maxzone.com/",
+    "evidence_quote": "Southern Regional Distribution Center"
+   },
+   {
+    "campus_name": "Eastern Regional Distribution Center",
+    "city": "Port Reading",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.maxzone.com/",
+    "evidence_quote": "Eastern Regional Distribution Center"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The institution is a commercial auto parts company and does not appear to be an educational institution involved in Erasmus+ or academic mobility. No specific Erasmus+ or international mobility contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 4.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 14.7
+ }
+}
