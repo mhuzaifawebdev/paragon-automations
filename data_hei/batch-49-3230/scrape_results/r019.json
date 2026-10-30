@@ -1,0 +1,80 @@
+{
+ "row_id": "r019",
+ "scraped_at": "2026-10-30T11:30:49Z",
+ "contacts": {
+  "row_id": "r019",
+  "institution_name": "Institut de formation en soins infirmiers du centre hospitalier de Cahors",
+  "institution_type": "college",
+  "official_website": "https://www.ght-lot.fr/",
+  "country": null,
+  "phone": {
+   "value": "05 65 20 50 14",
+   "source_url": "https://www.ght-lot.fr/hopital-cahors/ifms-cahors/",
+   "evidence_quote": "05 65 20 50 14 ou 54 39"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Sonia NEURRISSE",
+   "designation": "General Director",
+   "designation_local": "",
+   "email": "sonia.neurrisse@ght-lot.fr",
+   "office_email": "secretariat.direction@ch-cahors.fr",
+   "phone": "05 65 20 50 50",
+   "source_url": "https://www.ght-lot.fr/mentions-legales-cgu/",
+   "evidence_quote": "Le directeur de la publication est Madame Sonia NEURRISSE, directrice générale du Centre Hospitalier de Cahors, en sa qualité de Directeur Général du CENTRE HOSPITALIER JEAN ROUGIER",
+   "email_source_url": "https://www.ght-lot.fr/recrutement/radiologue/"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Madame Sonia NEURRISSE is identified as the General Director of Centre Hospitalier de Cahors. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "SITE CAHORS",
+    "city": "CAHORS",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ght-lot.fr/hopital-cahors/ifms-cahors/",
+    "evidence_quote": "351 rue Saint Géry - 46000 CAHORS"
+   },
+   {
+    "campus_name": "SITE FIGEAC",
+    "city": "FIGEAC",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.ght-lot.fr/hopital-cahors/ifms-cahors/",
+    "evidence_quote": "11 avenue des Carmes - 46100 FIGEAC"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not mention any international mobility programs, partner institutions, or specific contacts for international relations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 14.5,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 9.6,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 13.9,
+  "total_seconds": 54.4
+ }
+}
