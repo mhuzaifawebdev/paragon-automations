@@ -1,0 +1,115 @@
+{
+ "row_id": "r014",
+ "scraped_at": "2026-10-30T14:16:04Z",
+ "contacts": {
+  "row_id": "r014",
+  "institution_name": "ASSOCIATION FAMILIALE DE GESTION DE BRIACE",
+  "institution_type": "college",
+  "official_website": "https://www.briace.com/decouvrir-briace/gouvernance/",
+  "country": null,
+  "phone": {
+   "value": "02 40 06 43 33",
+   "source_url": "https://www.briace.com/contact/",
+   "evidence_quote": "Tél. 02 40 06 43 33"
+  },
+  "phone_alt": [],
+  "generic_email": "lycee.briace@briace.com",
+  "generic_email_url": "https://www.briace.com/contact/",
+  "contact": {
+   "name": "Christiane Babin",
+   "designation": "President",
+   "designation_local": "",
+   "email": "christiane.babin@briace.org",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.briace.com/decouvrir-briace/gouvernance/",
+   "evidence_quote": "en écrivant à la Présidente Madame Christiane Babin christiane.babin@briace.org"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). She is the President of the Association de Gestion de Briacé and a primary contact for the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université Jagellonne",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://lycee.briace.com/les-eleves-de-capa-jardinier-paysagiste-en-mobilite-erasmus-a-cracovie/",
+    "evidence_quote": "Accompagnés par leurs enseignants Grégory Burrows, Aurélien Pépin et François Vissuzaine, les élèves ont été accueillis au prestigieux Jardin botanique de l’Université Jagellonne, l’un des plus anciens jardins botaniques d’Europe centrale.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sagesse-Saint Gabriel",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.briace.com/decouvrir-briace/gouvernance/",
+    "evidence_quote": "Le membre de droit est le responsable de la tutelle Sagesse-Saint Gabriel, tandis que les membres élus sont des parents d’élèves, des amis de notre établissement ou d’anciens élèves. Ils sont aujourd’hui professionnels dans les secteurs de formation de l’établissement et nous consacrent une partie de leur temps à notre groupe pour prendre des décisions (en tant qu’employeur des personnels non-enseignants) pour l’entretien du patrimoine immobilier et la prévision des investissements.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Briacé Le Landreau",
+    "city": "Le Landreau",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lycee.briace.com/les-eleves-de-capa-jardinier-paysagiste-en-mobilite-erasmus-a-cracovie/",
+    "evidence_quote": "Lycée Briacé Le Landreau"
+   },
+   {
+    "campus_name": "Lycée Briacé Ancenis",
+    "city": "Ancenis",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://lycee.briace.com/les-eleves-de-capa-jardinier-paysagiste-en-mobilite-erasmus-a-cracovie/",
+    "evidence_quote": "Lycée Briacé Ancenis"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 7,
+  "coverage_note": "The evidence mentions participation in the Erasmus+ program but does not provide a comprehensive list of institutional partners. No specific international relations office or coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 8.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     278
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 14.0
+ }
+}
