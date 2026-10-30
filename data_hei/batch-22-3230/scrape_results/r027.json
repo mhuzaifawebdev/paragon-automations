@@ -1,0 +1,122 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-10-30T13:59:49Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "IES Jorge Manrique",
+  "institution_type": "school",
+  "official_website": "https://www.iesjorgemanrique.edu.es/index.php/es",
+  "country": null,
+  "phone": {
+   "value": "+34 969 33 11 78",
+   "source_url": "https://www.iesjorgemanrique.edu.es/index.php/es",
+   "evidence_quote": "+34 969 33 11 78 <tel +34969331178>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Inmaculada Reinosa Losa",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "inma.reinosa.lo@iesjorgemanrique.edu.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iesjorgemanrique.edu.es/index.php/es/marketing-conference-home/landing-page-mobile-app",
+   "evidence_quote": "Inmaculada Reinosa Losa ... Directora"
+  },
+  "alternates": [
+   {
+    "name": "Inmaculada Berbel Serrano",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "inma.berbel.se@iesjorgemanrique.edu.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iesjorgemanrique.edu.es/index.php/es/marketing-conference-home/landing-page-mobile-app",
+    "evidence_quote": "Inmaculada Berbel Serrano ... Secretaria",
+    "why_chosen": "Secretary / administration (last resort). Inmaculada Berbel Serrano serves as the Secretary of the institution."
+   },
+   {
+    "name": "Susana Hernández Argudo",
+    "designation": "Head of Studies",
+    "designation_local": "",
+    "email": "susana.hernandez.ar@iesjorgemanrique.edu.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iesjorgemanrique.edu.es/index.php/es/marketing-conference-home/landing-page-mobile-app",
+    "evidence_quote": "[Susana Hernández Argudo] ... Susana Hernández ArgudoJefa de estudios principal",
+    "why_chosen": "Secretary / administration (last resort). Susana Hernández Argudo is the Head of Studies at the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Inmaculada Reinosa Losa is the Director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ayto. Motilla",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesjorgemanrique.edu.es/index.php/es",
+    "evidence_quote": "[Ayto. Motilla]Ayto. Motilla",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Comunidad Virtual Iberdrola",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesjorgemanrique.edu.es/index.php/es",
+    "evidence_quote": "Comunidad Virtual Iberdrola",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Jorge Manrique",
+    "city": "Motilla del Palancar",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iesjorgemanrique.edu.es/index.php/es",
+    "evidence_quote": "Ronda Sur, 1, Motilla del Palancar (Cuenca)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions Erasmus+ projects but does not provide a list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 13.9,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 38.2
+ }
+}
