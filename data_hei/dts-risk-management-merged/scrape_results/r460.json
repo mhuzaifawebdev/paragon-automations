@@ -1,0 +1,93 @@
+{
+ "row_id": "r460",
+ "scraped_at": "2026-10-30T23:38:42Z",
+ "contacts": {
+  "row_id": "r460",
+  "institution_name": "Sos Service",
+  "institution_type": "unknown",
+  "official_website": "https://www.sosservice.net/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.sosservice.net/",
+   "evidence_quote": "Metal Coil Restoration | Paper Roll Restoration | SOS Service | United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Troy Swager",
+   "designation": "Contact",
+   "designation_local": "",
+   "email": "tswager@sosservice.net",
+   "office_email": "",
+   "phone": "260-312-2953",
+   "source_url": "https://www.sosservice.net/contact",
+   "evidence_quote": "CONTACT US ... Troy Swager"
+  },
+  "alternates": [
+   {
+    "name": "Jason Kling",
+    "designation": "Contact",
+    "designation_local": "",
+    "email": "jkling@sosservice.net",
+    "office_email": "",
+    "phone": "260-668-0044",
+    "source_url": "https://www.sosservice.net/contact",
+    "evidence_quote": "CONTACT US ... Jason Kling",
+    "why_chosen": "Other role. Jason Kling is listed as a contact for the company."
+   },
+   {
+    "name": "Gary Wilson",
+    "designation": "Contact",
+    "designation_local": "",
+    "email": "gwilson@sosservice.net",
+    "office_email": "",
+    "phone": "260-668-0071",
+    "source_url": "https://www.sosservice.net/contact",
+    "evidence_quote": "CONTACT US ... Gary Wilson",
+    "why_chosen": "Other role. Gary Wilson is listed as a contact for the company."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. Troy Swager is listed as a primary contact for the company.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "SOS Service, Inc.",
+    "city": "Angola, IN",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.sosservice.net/contact",
+    "evidence_quote": "318 N Hetzler Court Angola, IN 46703"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The institution is a commercial service company, not an educational institution. No information regarding Erasmus+ or international academic partnerships is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 5.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 7.9
+ }
+}
