@@ -1,0 +1,96 @@
+{
+ "row_id": "r047",
+ "scraped_at": "2026-10-30T14:06:54Z",
+ "contacts": {
+  "row_id": "r047",
+  "institution_name": "ALCAZAREN",
+  "institution_type": "college",
+  "official_website": "https://alcazarenformacion.es/",
+  "country": {
+   "value": "España",
+   "source_url": "https://alcazarenformacion.es/",
+   "evidence_quote": "47009 VALLADOLID, ESPAÑA"
+  },
+  "phone": {
+   "value": "+34) 983 363 330",
+   "source_url": "https://alcazarenformacion.es/",
+   "evidence_quote": "alcazaren@grupoaspasia.com <alcazaren@alcazarenformacion.es> | (+34) 983 363 330 <tel +34983363330>"
+  },
+  "phone_alt": [],
+  "generic_email": "alcazaren@alcazarenformacion.es",
+  "generic_email_url": "https://alcazarenformacion.es/",
+  "contact": {
+   "name": "Mª del Pino Pérez Goyanes",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://alcazarenformacion.es/erasmus/",
+   "evidence_quote": "Coordinador de Erasmus+: Mª del Pino Pérez Goyanes"
+  },
+  "alternates": [
+   {
+    "name": "Nieves García Blanco",
+    "designation": "Headmaster",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://alcazarenformacion.es/erasmus/",
+    "evidence_quote": "Representante legal: Nieves García Blanco (Directora)",
+    "why_chosen": "Principal / director (no Erasmus contact found). Nieves García Blanco is the Legal Representative and Headmaster of the school."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Mobility coordinator. Mª del Pino Pérez Goyanes is explicitly listed as the Erasmus+ Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Yantai Vocational College of Culture and Tourism",
+    "partner_country": "China",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://alcazarenformacion.es/proyecto-de-internacionalizacion-en-fp-con-china/",
+    "evidence_quote": "El pasado 15 de mayo tuvimos el primer Encuentro Internacional de Cooperación e Intercambio entre Yantai Vocational College of Culture and Tourism y la Escuela de Profesionales Alcazarén, para conocernos y empezar a sentar las bases de cara al próximo curso escolar.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escuela de Profesionales Alcazarén",
+    "city": "Valladolid",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://alcazarenformacion.es/",
+    "evidence_quote": "C/ Manuel López Antolí nº 1A,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 9,
+  "coverage_note": "The institution lists several local companies for internships and specific project partners, but does not provide a comprehensive list of Erasmus+ partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.6,
+  "crawl_s": 25.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.2,
+  "total_seconds": 42.3
+ }
+}
