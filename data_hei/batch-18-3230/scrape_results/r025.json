@@ -1,0 +1,80 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-30T13:00:31Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "Stiftung Studien- und Lebensgemeinschaft TABOR",
+  "institution_type": "college",
+  "official_website": "https://www.slg-tabor.de/",
+  "country": null,
+  "phone": {
+   "value": "+49 6421 967-401",
+   "source_url": "https://www.slg-tabor.de/",
+   "evidence_quote": "+49 6421 967-401"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Matthias Frey",
+   "designation": "Director / Chairman of the Board",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+49 6421 967-401",
+   "source_url": "https://www.slg-tabor.de/",
+   "evidence_quote": "Matthias Frey, Direktor der Studien- und Lebensgemeinschaft Tabor"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Matthias Frey is the Director of the institution and the primary contact person identified.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Diakonie Hessen",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.slg-tabor.de/stiftung-tabor",
+    "evidence_quote": "Die Stiftung Studien- und Lebensgemeinschaft Tabor ist Mitglied in der Diakonie Hessen.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Studien- und Lebensgemeinschaft Tabor",
+    "city": "Marburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.slg-tabor.de/",
+    "evidence_quote": "35039 Marburg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ or international academic partners. The institution is identified as a foundation supporting a community and a college.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 5.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.0,
+  "total_seconds": 14.3
+ }
+}
