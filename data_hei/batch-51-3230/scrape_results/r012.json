@@ -1,0 +1,82 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-30T11:36:19Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Opplæringskontoret for restaurant - og matfag i nordre Nordland",
+  "institution_type": "college",
+  "official_website": "https://dinlink.no/",
+  "country": null,
+  "phone": {
+   "value": "917 28 517",
+   "source_url": "https://dinlink.no/",
+   "evidence_quote": "Tlf: 917 28 517 <tel 91728517>"
+  },
+  "phone_alt": [],
+  "generic_email": "post@dinlink.no",
+  "generic_email_url": "https://dinlink.no/",
+  "contact": {
+   "name": "Åge Johansen",
+   "designation": "General Manager",
+   "designation_local": "",
+   "email": "Age@dinlink.no",
+   "office_email": "",
+   "phone": "917 28 517",
+   "source_url": "https://dinlink.no/",
+   "evidence_quote": "Åge Johansen ... Daglig leder"
+  },
+  "alternates": [
+   {
+    "name": "Alexander Lie",
+    "designation": "Consultant",
+    "designation_local": "",
+    "email": "Alexander@dinlink.no",
+    "office_email": "",
+    "phone": "971 41 832",
+    "source_url": "https://dinlink.no/",
+    "evidence_quote": "Alexander Lie ... Konsulent",
+    "why_chosen": "Secretary / administration (last resort). He serves as a consultant and administrative contact for the organization."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). As the general manager, he is the primary contact for the institution's operations including international activities.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Din Link",
+    "city": "Narvik",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://dinlink.no/",
+    "evidence_quote": "8514 Narvik"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The evidence mentions that the institution is accredited in Erasmus+ and exchanges apprentices to Germany, but it does not provide a comprehensive list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 3.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 26.6
+ }
+}

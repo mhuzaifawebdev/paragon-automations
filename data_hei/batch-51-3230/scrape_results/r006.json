@@ -1,0 +1,103 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-30T11:36:30Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "Mittelschule Seckau",
+  "institution_type": "school",
+  "official_website": "https://www.msseckau.at/",
+  "country": null,
+  "phone": {
+   "value": "03514/5307",
+   "source_url": "https://www.msseckau.at/kontakt/",
+   "evidence_quote": "03514/5307"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Janine Hafner",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.msseckau.at/uber-mich/",
+   "evidence_quote": "Mag. Janine Hafner ... Englisch, Geschichte und politische Bildung, Koordinatorin Erasmus+"
+  },
+  "alternates": [
+   {
+    "name": "Susanne Pripfl",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.msseckau.at/uber-mich/",
+    "evidence_quote": "Direktorin Susanne Pripfl, BEd",
+    "why_chosen": "Principal / director (no Erasmus contact found). Susanne Pripfl is the director of the school."
+   },
+   {
+    "name": "Julia Knauseder",
+    "designation": "Erasmus+ Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.msseckau.at/uber-mich/",
+    "evidence_quote": "Mag. Julia Knauseder ... Englisch, Geografie und wirtschaftliche Bildung, Koordinatorin Erasmus+",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Julia Knauseder is an Erasmus+ coordinator responsible for international projects."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. English / language or EU-project teacher (no Erasmus contact found). Janine Hafner is explicitly listed as an Erasmus+ coordinator and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "französische Partnerschule",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.msseckau.at/l/erasmus-besuch-unserer-franzosischen-partnerschule/",
+    "evidence_quote": "ERASMUS+ Besuch unserer französischen Partnerschule :: MS Seckau",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mittelschule Seckau",
+    "city": "Seckau",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://www.msseckau.at/kontakt/",
+    "evidence_quote": "Am Sportplatz 1"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 9,
+  "coverage_note": "The evidence mentions a French partner school but does not provide a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 11.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.4,
+  "total_seconds": 42.3
+ }
+}
