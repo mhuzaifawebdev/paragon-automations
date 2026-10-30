@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-30T22:23:50.068557+00:00",
+ "generated_at": "2026-10-30T22:31:09.505937+00:00",
  "totals": {
-  "institutes": 17995,
-  "with_contact": 11145,
-  "with_email": 9409,
-  "personal_email": 6385,
-  "generic_email": 7172,
-  "partners": 281358,
-  "campuses": 24947,
-  "no_website": 3302,
-  "with_website": 14693,
-  "batches": 220
+  "institutes": 18020,
+  "with_contact": 11155,
+  "with_email": 9415,
+  "personal_email": 6390,
+  "generic_email": 7175,
+  "partners": 281536,
+  "campuses": 24995,
+  "no_website": 3303,
+  "with_website": 14717,
+  "batches": 221
  },
  "days": [
   {
@@ -135,30 +135,46 @@
   },
   {
    "day": "2026-10-29",
-   "institutes": 4601,
-   "with_contact": 2759,
-   "with_email": 2349,
-   "personal_email": 1627,
+   "institutes": 4603,
+   "with_contact": 2760,
+   "with_email": 2350,
+   "personal_email": 1628,
    "generic_email": 1864,
    "partners": 74425,
-   "campuses": 6572,
+   "campuses": 6575,
    "no_website": 1057,
-   "with_website": 3544
+   "with_website": 3546
   },
   {
    "day": "2026-10-30",
-   "institutes": 3569,
-   "with_contact": 1734,
-   "with_email": 1414,
-   "personal_email": 819,
-   "generic_email": 1046,
-   "partners": 26580,
-   "campuses": 4409,
-   "no_website": 918,
-   "with_website": 2651
+   "institutes": 3592,
+   "with_contact": 1743,
+   "with_email": 1419,
+   "personal_email": 823,
+   "generic_email": 1049,
+   "partners": 26758,
+   "campuses": 4454,
+   "no_website": 919,
+   "with_website": 2673
   }
  ],
  "batches": [
+  {
+   "batch": "dts-risk-management-merged",
+   "status": "running",
+   "total_rows": 831,
+   "done": 203,
+   "updated": "2026-10-30T22:31:06.200090+00:00",
+   "institutes": 25,
+   "with_contact": 10,
+   "with_email": 6,
+   "personal_email": 5,
+   "generic_email": 3,
+   "partners": 178,
+   "campuses": 48,
+   "no_website": 1,
+   "with_website": 24
+  },
   {
    "batch": "dts-resource-management-merged",
    "status": "done",
