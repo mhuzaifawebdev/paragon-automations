@@ -1,0 +1,108 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-10-30T09:36:33Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "Gemeinnütziger Berufsbildungsverein Guben e.V.",
+  "institution_type": "college",
+  "official_website": "https://www.gbv-guben.de/",
+  "country": null,
+  "phone": {
+   "value": "+49356143850",
+   "source_url": "https://www.gbv-guben.de/",
+   "evidence_quote": "<tel +49356143850> < info@gbv-guben.de>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@gbv-guben.de",
+  "generic_email_url": "https://www.gbv-guben.de/",
+  "contact": {
+   "name": "Armin Genz",
+   "designation": "Technical Director",
+   "designation_local": "",
+   "email": "a.genz@gbv-guben.de",
+   "office_email": "info@gbv-guben.de",
+   "phone": "03561 43850",
+   "source_url": "https://www.gbv-guben.de/impressum/",
+   "evidence_quote": "Armin Genz, Technischer Leiter",
+   "email_source_url": "https://www.gbv-guben.de/ueber-uns/"
+  },
+  "alternates": [
+   {
+    "name": "Frank Fiedler",
+    "designation": "Training Manager",
+    "designation_local": "",
+    "email": "info@gbv-guben.de",
+    "office_email": "",
+    "phone": "03561 43850",
+    "source_url": "https://www.gbv-guben.de/impressum/",
+    "evidence_quote": "Frank Fiedler, Ausbildungsleiter",
+    "why_chosen": "Other role. Frank Fiedler is listed as the Training Manager of the institution."
+   }
+  ],
+  "rung": "Other role. Armin Genz is listed as the Technical Director of the institution. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ausbildungszentrum Guben",
+    "city": "Guben",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.gbv-guben.de/",
+    "evidence_quote": "Ausbildungszentrum Guben (Hauptsitz)"
+   },
+   {
+    "campus_name": "Ausbildungszentrum Cottbus",
+    "city": "Cottbus",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.gbv-guben.de/",
+    "evidence_quote": "Ausbildungszentrum Cottbus"
+   },
+   {
+    "campus_name": "Ausbildungszentrum Sielow",
+    "city": "Cottbus",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.gbv-guben.de/",
+    "evidence_quote": "Ausbildungszentrum Sielow (Gartenbereich)"
+   },
+   {
+    "campus_name": "Ausbildungszentrum JVA Cottbus-Dissenchen",
+    "city": "Cottbus",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.gbv-guben.de/",
+    "evidence_quote": "Ausbildungszentrum JVA Cottbus-Dissenchen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The evidence does not mention any international mobility partners or specific Erasmus+ agreements. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.7,
+  "crawl_s": 12.3,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 45.3,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 5.6,
+  "total_seconds": 99.0
+ }
+}

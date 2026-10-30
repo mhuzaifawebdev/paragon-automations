@@ -1,0 +1,60 @@
+{
+ "row_id": "r039",
+ "scraped_at": "2026-10-30T09:36:36Z",
+ "contacts": {
+  "row_id": "r039",
+  "institution_name": "Liceul Energetic TgJiu",
+  "institution_type": "school",
+  "official_website": "https://energetic1tgjiu.ro/",
+  "country": null,
+  "phone": {
+   "value": "0353 806 045",
+   "source_url": "https://energetic1tgjiu.ro/",
+   "evidence_quote": "0353 806 045 <tel +40353806045>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Liceul Energetic Târgu Jiu",
+    "city": "Târgu Jiu",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://energetic1tgjiu.ro/",
+    "evidence_quote": "Aleea 23 August nr. 11, Târgu Jiu, jud. Gorj"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The website mentions Erasmus+ projects in the menu but does not provide a list of partners or specific contact persons for international mobility. No named staff members are listed in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.5,
+  "crawl_s": 7.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 16.6,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 35.2
+ }
+}
