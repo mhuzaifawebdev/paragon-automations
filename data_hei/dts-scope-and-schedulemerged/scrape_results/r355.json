@@ -1,0 +1,89 @@
+{
+ "row_id": "r355",
+ "scraped_at": "2026-10-30T19:48:59Z",
+ "contacts": {
+  "row_id": "r355",
+  "institution_name": "San Francisco Giants",
+  "institution_type": "unknown",
+  "official_website": "https://www.mlb.com/giants",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Amanda Kershaw",
+   "designation": "Director, Membership Services",
+   "designation_local": "",
+   "email": "akershaw@sfgiants.com",
+   "office_email": "",
+   "phone": "415-972-2103",
+   "source_url": "https://www.mlb.com/giants/tickets/season-tickets/holders/client-relations",
+   "evidence_quote": "Amanda Kershaw ... Director, Membership Services"
+  },
+  "alternates": [
+   {
+    "name": "Greg Collier",
+    "designation": "Senior Manager, Premium Memberships",
+    "designation_local": "",
+    "email": "gcollier@sfgiants.com",
+    "office_email": "",
+    "phone": "415-972-2270",
+    "source_url": "https://www.mlb.com/giants/tickets/season-tickets/holders/client-relations",
+    "evidence_quote": "Greg Collier ... Senior Manager, Premium Memberships",
+    "why_chosen": "Secretary / administration (last resort). He is a manager in the membership services department."
+   },
+   {
+    "name": "Shelby Easler",
+    "designation": "Account Manager, Premium Memberships",
+    "designation_local": "",
+    "email": "seasler@sfgiants.com",
+    "office_email": "",
+    "phone": "415-972-2104",
+    "source_url": "https://www.mlb.com/giants/tickets/season-tickets/holders/client-relations",
+    "evidence_quote": "Shelby Easler ... Account Manager, Premium Memberships",
+    "why_chosen": "Secretary / administration (last resort). She is an account manager in the membership services department."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). She is a senior staff member listed in the client relations department.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Oracle Park",
+    "city": "San Francisco",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.mlb.com/team",
+    "evidence_quote": "Oracle Park"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a professional baseball team and does not have an Erasmus+ or international academic mobility program. No partner list is provided as this is a sports organization.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 21.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 24.4
+ }
+}
