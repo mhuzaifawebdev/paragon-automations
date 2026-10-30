@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-30T20:45:05.980679+00:00",
+ "generated_at": "2026-10-30T20:49:13.175611+00:00",
  "totals": {
-  "institutes": 17339,
-  "with_contact": 10857,
-  "with_email": 9189,
-  "personal_email": 6269,
-  "generic_email": 7028,
-  "partners": 278707,
-  "campuses": 23834,
-  "no_website": 3146,
-  "with_website": 14193,
-  "batches": 219
+  "institutes": 17364,
+  "with_contact": 10868,
+  "with_email": 9196,
+  "personal_email": 6274,
+  "generic_email": 7031,
+  "partners": 278792,
+  "campuses": 23858,
+  "no_website": 3154,
+  "with_website": 14210,
+  "batches": 220
  },
  "days": [
   {
@@ -147,18 +147,34 @@
   },
   {
    "day": "2026-10-30",
-   "institutes": 2940,
-   "with_contact": 1461,
-   "with_email": 1209,
-   "personal_email": 711,
-   "generic_email": 911,
-   "partners": 23996,
-   "campuses": 3343,
-   "no_website": 762,
-   "with_website": 2178
+   "institutes": 2965,
+   "with_contact": 1472,
+   "with_email": 1216,
+   "personal_email": 716,
+   "generic_email": 914,
+   "partners": 24081,
+   "campuses": 3367,
+   "no_website": 770,
+   "with_website": 2195
   }
  ],
  "batches": [
+  {
+   "batch": "dts-resource-management-merged",
+   "status": "running",
+   "total_rows": 676,
+   "done": 40,
+   "updated": "2026-10-30T20:49:10.796889+00:00",
+   "institutes": 25,
+   "with_contact": 11,
+   "with_email": 7,
+   "personal_email": 5,
+   "generic_email": 3,
+   "partners": 85,
+   "campuses": 24,
+   "no_website": 8,
+   "with_website": 17
+  },
   {
    "batch": "dts-scope-and-schedulemerged",
    "status": "done",
