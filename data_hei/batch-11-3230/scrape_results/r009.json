@@ -1,0 +1,102 @@
+{
+ "row_id": "r009",
+ "scraped_at": "2026-10-30T09:55:19Z",
+ "contacts": {
+  "row_id": "r009",
+  "institution_name": "National Defence Academy of Latvia",
+  "institution_type": "university",
+  "official_website": "https://www.naa.mil.lv/lv",
+  "country": {
+   "value": "Latvia",
+   "source_url": "https://www.naa.mil.lv/lv",
+   "evidence_quote": "Sākumlapa | Latvijas Nacionālā aizsardzības akadēmija"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "studijas@mil.lv",
+  "generic_email_url": "https://www.naa.mil.lv/lv",
+  "contact": {
+   "name": "Aivars Leicāns",
+   "designation": "NAA Vice-Rector for Studies",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+371 29155247",
+   "source_url": "https://www.naa.mil.lv/lv/kontakti",
+   "evidence_quote": "Aivars Leicāns ... NAA Studiju prorektors"
+  },
+  "alternates": [
+   {
+    "name": "Māris Utināns",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+371 67076881",
+    "source_url": "https://www.naa.mil.lv/lv/kontakti",
+    "evidence_quote": "Māris Utināns ... Rektors",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the Rector of the institution."
+   },
+   {
+    "name": "Santa Vojevodska",
+    "designation": "Junior Specialist of the Communications Department",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+371 28182337",
+    "source_url": "https://www.naa.mil.lv/lv/kontakti",
+    "evidence_quote": "Santa Vojevodska ... Komunikācijas daļas jaunākā speciāliste",
+    "why_chosen": "Secretary / administration (last resort). She works in the Communications Department which handles external cooperation."
+   }
+  ],
+  "rung": "Vice-rector for international affairs. He is a Vice-Rector responsible for studies.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "NATO",
+    "partner_country": "International",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.naa.mil.lv/lv",
+    "evidence_quote": "• mācīsies kopā ar Latvijas un NATO valstu profesionāļiem;",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "National Defence Academy of Latvia",
+    "city": "Rīga",
+    "country": "Latvia",
+    "role": "main",
+    "source_url": "https://www.naa.mil.lv/lv/kontakti",
+    "evidence_quote": "Ezermalas iela 8B, Rīga LV-1014"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not provide a specific list of Erasmus+ partners or international mobility agreements. The contact Gundega Zande was not found in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 12.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "email_search_s": 1.5,
+  "total_seconds": 19.5
+ }
+}
