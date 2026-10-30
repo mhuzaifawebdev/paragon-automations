@@ -1,14 +1,14 @@
 {
  "batch": "batch-10-3230",
- "status": "running",
- "generated_at": "2026-10-30T09:27:46.996116+00:00",
- "chunk": 4,
- "total_chunks": 4,
+ "status": "done",
+ "generated_at": "2026-10-30T09:29:08.618063+00:00",
+ "chunk": 5,
+ "total_chunks": 5,
  "total_rows": 50,
- "done": 47,
- "pending": 3,
- "elapsed_seconds": 595,
- "eta_seconds": 30,
+ "done": 50,
+ "pending": 0,
+ "elapsed_seconds": 653,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.2108,
  "paid_search_usd": 0.2108,
  "paid_search_limit_usd": 21.0,
@@ -16,7 +16,7 @@
  "paid_searches": 0,
  "haiku_fallback_calls": 31,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 106,
+ "ai_calls": 110,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,17 +37,14 @@
   }
  ],
  "confidence": {
-  "high": 15,
+  "high": 16,
   "medium": 9,
-  "low": 13,
+  "low": 15,
   "none": 10
  },
- "partners_found": 1448,
- "campuses_found": 67,
+ "partners_found": 1600,
+ "campuses_found": 71,
  "recent": [
-  "r028",
-  "r029",
-  "r030",
   "r031",
   "r032",
   "r033",
@@ -64,7 +61,10 @@
   "r044",
   "r045",
   "r046",
-  "r047"
+  "r047",
+  "r048",
+  "r049",
+  "r050"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1GtPVuv_xEM9OebUQSx9c9lCgAdVuNNUE/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
