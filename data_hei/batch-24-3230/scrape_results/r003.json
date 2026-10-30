@@ -1,0 +1,69 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-10-30T10:02:12Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "IES DON BOSCO",
+  "institution_type": "school",
+  "official_website": "https://www.iesdonbosco.com/",
+  "country": null,
+  "phone": {
+   "value": "967215405",
+   "source_url": "https://www.iesdonbosco.com/",
+   "evidence_quote": "[Desarrollo web]Mapa del sitio | Instituto de Educación Secundaria Don Bosco Albacete - Tlfno: 967215405"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@iesdonbosco.com",
+  "generic_email_url": "https://www.iesdonbosco.com/data/almi88/erasmus2627-anexo%20ii%20resolucion%20provisional%20baremacion%20alumnado.pdf",
+  "contact": {
+   "name": "Luis Manuel Martí Jiménez",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "erasmus@iesdonbosco.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iesdonbosco.com/data/almi88/erasmus2627-anexo%20ii%20resolucion%20provisional%20baremacion%20alumnado.pdf",
+   "evidence_quote": "Coordinador/a Erasmus+ ... Fdo.: Luis Manuel Martí Jiménez"
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. He is explicitly identified as the Erasmus+ Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Don Bosco",
+    "city": "Albacete",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesdonbosco.com/data/almi88/acta%20de%20seleccion%20erasmus%20curso%2025-26%20profesores.pdf",
+    "evidence_quote": "Paseo de la Cuba, 43. 02006 Albacete"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides detailed internal Erasmus+ documentation, including calls for applications and selection lists, but does not contain a list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 8.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "email_search_s": 1.7,
+  "total_seconds": 13.5
+ }
+}

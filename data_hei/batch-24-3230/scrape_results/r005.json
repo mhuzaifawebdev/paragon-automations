@@ -1,0 +1,121 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-10-30T10:02:19Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "IES San Sebastian",
+  "institution_type": "school",
+  "official_website": "https://www.iessansebastian.com/web/",
+  "country": null,
+  "phone": {
+   "value": "959 52 41 77",
+   "source_url": "https://www.iessansebastian.com/web/",
+   "evidence_quote": "Teléfono:959 52 41 77"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Mª del Carmen Olmedo Vicente",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "21700010.edu@juntadeandalucia.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iessansebastian.com/web/equipo-directivo/",
+   "evidence_quote": "Directora: Dña. Mª del Carmen Olmedo Vicente"
+  },
+  "alternates": [
+   {
+    "name": "Francisco Javier Galán Limón",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "21700010.edu@juntadeandalucia.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iessansebastian.com/web/equipo-directivo/",
+    "evidence_quote": "Secretario: D. Francisco Javier Galán Limón",
+    "why_chosen": "Secretary / administration (last resort). He is the secretary of the institution."
+   },
+   {
+    "name": "Mª de la Cinta Fernández Villegas",
+    "designation": "Vice-director",
+    "designation_local": "",
+    "email": "21700010.edu@juntadeandalucia.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iessansebastian.com/web/equipo-directivo/",
+    "evidence_quote": "Vicedirectora: Dña Mª de la Cinta Fernández Villegas",
+    "why_chosen": "Other role. She is the vice-director of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). She is the director of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini. 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Agrupamento de Escolas João de Deus",
+    "partner_country": "Portugal",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.ka101erasmus.iessansebastian.com/erasmuska101-diapositiva1/",
+    "evidence_quote": "Aprendizaje por Observación Agrupamento de Escolas João de Deus – Faro ( Portugal)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Colegiul National Ion C. Bratinau",
+    "partner_country": "Rumanía",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.ka101erasmus.iessansebastian.com/erasmuska101-diapositiva1/",
+    "evidence_quote": "JOB SHADOWING. Colegiul National “Ion C. Bratinau”. (Rumanía) – Lycée Polivalent Georges Braque (Francia)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée Polivalent Georges Braque",
+    "partner_country": "Francia",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.ka101erasmus.iessansebastian.com/erasmuska101-diapositiva1/",
+    "evidence_quote": "JOB SHADOWING. Colegiul National “Ion C. Bratinau”. (Rumanía) – Lycée Polivalent Georges Braque (Francia)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES San Sebastián",
+    "city": "Huelva",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iessansebastian.com/web/",
+    "evidence_quote": "Dirección:Av. Andalucía, S/N, 21006 Huelva"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The institution is a secondary school (ESO, Bachillerato, Vocational Training). While specific Erasmus project pages exist, no individual staff members are named as Erasmus coordinators in the provided evidence. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 8.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.6,
+  "mode": "gemini",
+  "contact_pass": 5,
+  "email_search_s": 1.2,
+  "total_seconds": 20.2
+ }
+}
