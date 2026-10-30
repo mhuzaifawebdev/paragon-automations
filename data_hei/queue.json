@@ -3338,20 +3338,30 @@
    "source": "Batch-56_3230",
    "file_id": "1Awm1K_U9I81PW40yjAk0o5YqqDLKZO70PPi9wndeJHQ",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 98,
    "started": "2026-10-30T13:24:21Z",
    "last_start": "2026-10-30T13:24:21Z",
    "restarts": 0,
-   "cap_usd": 687.37
+   "cap_usd": 687.37,
+   "spend_recorded": true,
+   "cost_usd": 0.8418,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1y7Eq-LjyCjxkk5AACPNsn0ylVyR0i_de/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 95,
+   "finished": "2026-10-30T13:35:51Z",
+   "reason": "98 institutes, 71 with a contact"
   },
   {
    "batch": "batch-50-3230",
    "source": "Batch-50_3230",
    "file_id": "1FENv1QPHsu-9vEu9RtxVG3CJDcL0kRI7BfgKmuRr44k",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 50
+   "state": "running",
+   "rows": 50,
+   "started": "2026-10-30T13:35:51Z",
+   "last_start": "2026-10-30T13:35:51Z",
+   "restarts": 0,
+   "cap_usd": 686.53
   },
   {
    "batch": "batch-17-3230-giuseppe",
@@ -3785,7 +3795,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-30T13:24:21Z",
+ "updated": "2026-10-30T13:35:51Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
