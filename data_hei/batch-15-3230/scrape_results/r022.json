@@ -1,0 +1,117 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-10-30T13:20:08Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "LYCEE ALBERT EINSTEIN",
+  "institution_type": "school",
+  "official_website": "https://www.einstein-gymnasium-vk.de/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.einstein-gymnasium-vk.de/",
+   "evidence_quote": "02.12. - 09.12.2026: Frankreich-Austausch mit Brest"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dr. Markus Schmitt",
+   "designation": "Deputy Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.einstein-gymnasium-vk.de/unsere-schule/leitung-und-verwaltung",
+   "evidence_quote": "Stellvertretender Schulleiter: StD Dr. Markus Schmitt"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the deputy head of the institution and part of the school leadership team.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kyandili Secondary School",
+    "partner_country": "Kenia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.einstein-gymnasium-vk.de/",
+    "evidence_quote": "Videocall mit der Kyandili Secondary School in Kenia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Brest",
+    "partner_country": "Frankreich",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.einstein-gymnasium-vk.de/",
+    "evidence_quote": "02.12. - 09.12.2026: Frankreich-Austausch mit Brest",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "Europa",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.einstein-gymnasium-vk.de/",
+    "evidence_quote": "AEG wird Teil des Erasmus+-Konsortiums",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EPZ",
+    "partner_country": "Deutschland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.einstein-gymnasium-vk.de/detail?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=3651&cHash=93afc13665836b3a7d346421a7b35617",
+    "evidence_quote": "Nach der Ankunft wurden zunächst die Zimmer bezogen und die Hausregeln besprochen. Nach einem leckeren Mittagessen startete auch schon das erste Programm. Für eine der Klassen ging es hoch hinaus: Gemeinsam mit Trainern des EPZ wagten sich die Schülerinnen und Schüler an den beeindruckenden zehn Meter hohen Kletterturm. Dabei durften sie nicht nur selbst klettern, sondern lernten auch, ihre Mitschülerinnen und Mitschüler gegenseitig zu sichern.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Albert-Einstein-Gymnasium",
+    "city": "Völklingen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.einstein-gymnasium-vk.de/",
+    "evidence_quote": "Anfahrt: Einstein Gymnasium Völklingen, Hohenzollernstraße 28,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 6,
+  "coverage_note": "The evidence mentions the school is part of an Erasmus+ consortium but does not provide a specific list of partner institutions. The school is located in Germany, despite the client's note suggesting France.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 106.5,
+  "crawl_s": 9.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     133
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 125.9
+ }
+}
