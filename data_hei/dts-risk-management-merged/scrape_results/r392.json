@@ -1,0 +1,76 @@
+{
+ "row_id": "r392",
+ "scraped_at": "2026-10-30T23:24:51Z",
+ "contacts": {
+  "row_id": "r392",
+  "institution_name": "Del Mar Seafoods",
+  "institution_type": "unknown",
+  "official_website": "https://delmarseafoods.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "internationalsales@delmarseafoods.com",
+  "generic_email_url": "https://delmarseafoods.com/contact-us/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Monterey Bay Aquarium’s Seafood Watch Program",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://delmarseafoods.com/",
+    "evidence_quote": "The California market squid purse-seine fishery is MSC Certified, in addition to being rated a green Best Choice by the Monterey Bay Aquarium’s Seafood Watch Program. Our reprocessing partners are BRC Certified and maintain the highest standards of food safety.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "company headquarters",
+    "city": "Watsonville",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://delmarseafoods.com/contact-us/",
+    "evidence_quote": "331 Ford Street"
+   },
+   {
+    "campus_name": "SOUTHERN CALIFORNIA",
+    "city": "Oxnard",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://delmarseafoods.com/contact-us/",
+    "evidence_quote": "924 E. Third Street"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "Del Mar Seafoods is a commercial seafood company, not an educational institution. No educational partners or Erasmus-related contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 7.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 17.8
+ }
+}
