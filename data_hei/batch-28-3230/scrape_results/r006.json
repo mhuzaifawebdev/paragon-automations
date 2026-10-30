@@ -1,0 +1,134 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-30T12:37:06Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "INSTITUT SUPERIEUR DES MATERIAUX DU MANS",
+  "institution_type": "university",
+  "official_website": "https://ismans.cesi.fr/",
+  "country": null,
+  "phone": {
+   "value": "+33243214000",
+   "source_url": "https://ismans.cesi.fr/ecole-des-mobilites/gouvernance/",
+   "evidence_quote": "<tel +33243214000>Appelez le service de relation candidats"
+  },
+  "phone_alt": [],
+  "generic_email": "internationalaffairs@ismans.cesi.fr",
+  "generic_email_url": "https://ismans.cesi.fr/international/erasmus/",
+  "contact": {
+   "name": "Elizabeth MARTINEZ",
+   "designation": "International Referent",
+   "designation_local": "",
+   "email": "emartinez@cesi.fr",
+   "office_email": "",
+   "phone": "07 84 84 35 69",
+   "source_url": "https://ismans.cesi.fr/international/erasmus/",
+   "evidence_quote": "Contact Référent International ... Elizabeth MARTINEZ"
+  },
+  "alternates": [],
+  "rung": "International relations officer. She is explicitly listed as the contact for international affairs and Erasmus+.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "FPT University",
+    "partner_country": "Vietnam",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ismans.cesi.fr/",
+    "evidence_quote": "FPT University : un partenariat qui ouvre les portes de la mobilité internationale au Vietnam",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université de Sherbrooke",
+    "partner_country": "Canada",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ismans.cesi.fr/fr/actualites/une-semaine-dediee-a-la-mobilite-internationale-et-aux-opportunites-erasmus/",
+    "evidence_quote": "Le Canada à l’honneur avec l’Université de Sherbrooke",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université du Québec en Outaouais (UQO)",
+    "partner_country": "Canada",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ismans.cesi.fr/international/mobilite-internationale-sortante/",
+    "evidence_quote": "Université du Québec en Outaouais (UQO) : DESS en gestion de projet",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stellantis",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://ismans.cesi.fr/",
+    "evidence_quote": "Formule E : Maxime Brient, d'ISMANS CESI à Stellantis",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "erasmus +",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://ismans.cesi.fr/",
+    "evidence_quote": "[erasmus + ; enrichit les vies, ouvre les esprits]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "ISMANS CESI Le Mans",
+    "city": "Le Mans",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://ismans.cesi.fr/ecole-des-mobilites/gouvernance/",
+    "evidence_quote": "44 avenue Frédéric Auguste Bartholdi"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific international partners but does not contain a comprehensive list of all Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 15.1,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 4,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 39.9
+ }
+}
