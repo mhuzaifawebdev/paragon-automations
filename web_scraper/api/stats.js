@@ -2,7 +2,6 @@
  * GET /api/stats -> data_hei/dashboard_stats.json (counts only: institutes scraped per day, totals, batch list).
  * GET /api/stats?view=institutes -> data_hei/institute_counts.json (campuses and partners per institute).
  * GET /api/stats?view=queue -> data_hei/queue.json (the batch queue: waiting, running, done, failed).
- * GET /api/stats?view=rescrape -> the dialer rescrape loop: last run (counts) and its rescrape batches.
  * GET /api/stats?view=hr&token=<access phrase> -> the HR dashboard's figures (hr_cycle/Careers.gs, counts only).
  * Built by scripts/build_dashboard_stats.py after every chunk. Public: it holds no contact details.
  */
@@ -17,21 +16,6 @@ module.exports = async (req, res) => {
       if (phrase && (req.query || {}).token !== phrase) { res.status(401).json({ error: "Wrong access phrase." }); return; }
       res.setHeader("Cache-Control", "private, max-age=300");
       res.status(200).json(await getHrStats());
-      return;
-    }
-    if ((req.query || {}).view === "rescrape") {
-      const [lastText, qText] = await Promise.all([
-        getRawFile("data_hei/rescrape/last_run.json"),
-        getRawFile("data_hei/queue.json"),
-      ]);
-      const items = (JSON.parse(qText || '{"items":[]}').items || []).filter((i) => i.kind === "rescrape");
-      res.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
-      res.status(200).json({
-        last_run: lastText ? JSON.parse(lastText) : null,
-        waiting: items.filter((i) => i.state === "queued" || i.state === "running").length,
-        sent_after_rescrape: items.reduce((s, i) => s + (i.dialer_sent || 0), 0),
-        no_new_contact: items.reduce((s, i) => s + (i.no_new_contact || 0), 0),
-      });
       return;
     }
     if ((req.query || {}).view === "queue") {

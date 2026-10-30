@@ -242,11 +242,22 @@ class Ops:
         except Exception as e:
             it["note"] = f"Source file not moved in Drive: {str(e)[:150]}"
 
-    def send_to_dialer(self, batch, lead_map, rows, results):
-        import rescrape_leads as rl
-        url, password = rl.dialer_env()
-        return rl.send_rescraped(lead_map, rows, results,
-                                 lambda out: rl.upload_back(out, url, password, f"Rescraped {batch}"))
+    def crm_file(self, it, rows, results):
+        """"<batch> CRM upload.csv" in Drive/Results, for a manager to upload in the CRM. A rescrape leaves out the numbers
+        already tried. Puts the counts on the queue item."""
+        import dialer_file
+        import drive_upload
+        tried_map = self.data_root / "rescrape" / f"{it['batch']}.json"
+        saved = _read(tried_map, {}).get("institutes") or {}
+        tried = {k: set(e.get("tried") or []) for k, e in saved.items()}
+        out, summary = dialer_file.file_rows(rows, results, tried, note="New number after a failed call" if saved else "")
+        if out:
+            svc = self.drive.svc
+            drive_upload.put_bytes(svc, dialer_file.csv_text(out).encode("utf-8-sig"), f"{it['batch']} CRM upload.csv",
+                                   drive_upload.subfolder(svc, "Results"), mime="text/csv")
+        it.update(crm_rows=summary["rows"], no_number=summary["without_number"])
+        if tried_map.exists():
+            tried_map.unlink()
 
     def finish(self, q, it, now):
         import drive_upload
@@ -264,15 +275,12 @@ class Ops:
         if (bdir / "numbers_clean.csv").exists():
             with open(bdir / "numbers_clean.csv", newline="", encoding="utf-8-sig") as fh:
                 rows = list(csv.DictReader(fh))
-        lead_map = self.data_root / "rescrape" / f"{batch}.json"
-        if lead_map.exists():                           # a dialer rescrape: its new contacts go back to the dialer
+        if self.drive and results:
             try:
-                sent, none = self.send_to_dialer(batch, _read(lead_map, {}), rows, results)
+                self.crm_file(it, rows, results)
             except Exception as e:
-                it["note"] = f"Finished; sending the new contacts to the dialer failed, retried next tick: {str(e)[:150]}"
-                return f"{batch}: dialer upload pending"
-            it.update(dialer_sent=sent, no_new_contact=none)
-            lead_map.unlink()
+                it["note"] = f"Finished; the CRM upload file failed, retried next tick: {str(e)[:150]}"
+                return f"{batch}: CRM file pending"
         if self.drive and results:                      # the full data, kept out of GitHub
             try:
                 svc = self.drive.svc

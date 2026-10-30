@@ -29,9 +29,6 @@ jobs:
       GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
       GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
       GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
-      # a finished dialer rescrape sends its new contacts back to the dialer (scripts/rescrape_leads.py)
-      DIALER_URL: ${{ secrets.DIALER_URL }}
-      DIALER_ADMIN_PASS: ${{ secrets.DIALER_ADMIN_PASS }}
     steps:
       - uses: actions/checkout@v4
 
