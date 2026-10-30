@@ -1,0 +1,168 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-30T12:18:52Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "IES JORGE JUAN",
+  "institution_type": "school",
+  "official_website": "https://iesjorgejuan.es/",
+  "country": null,
+  "phone": {
+   "value": "956243374",
+   "source_url": "https://iesjorgejuan.es/",
+   "evidence_quote": "<tel 956243374>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@iesjorgejuan.es",
+  "generic_email_url": "https://iesjorgejuan.es/erasmus/",
+  "contact": {
+   "name": "Ester Vallejo Suárez",
+   "designation": "Head of Studies",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "956 24 33 74",
+   "source_url": "https://iesjorgejuan.es/equipo-directivo/",
+   "evidence_quote": "Ester Vallejo Suárez ... Jefatura de Estudios"
+  },
+  "alternates": [
+   {
+    "name": "Julián García López",
+    "designation": "Assistant Head of Studies",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "956 24 33 74",
+    "source_url": "https://iesjorgejuan.es/equipo-directivo/",
+    "evidence_quote": "Julián García López ... Jefatura de Estudios Adjunto",
+    "why_chosen": "Other role. Julián García López is an assistant head of studies at the institution."
+   },
+   {
+    "name": "Estefanía Rueda Cruz",
+    "designation": "Assistant Head of Studies",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "956 24 33 74",
+    "source_url": "https://iesjorgejuan.es/equipo-directivo/",
+    "evidence_quote": "Estefanía Rueda Cruz ... Jefatura de Estudios Adjunta",
+    "why_chosen": "Other role. Estefanía Rueda Cruz is an assistant head of studies at the institution."
+   }
+  ],
+  "rung": "Other role. Ester Vallejo Suárez is the head of studies at the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Finland",
+    "partner_country": "Finland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjorgejuan.es/erasmus/",
+    "evidence_quote": "Finlandia",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Italian centers",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjorgejuan.es/erasmus/",
+    "evidence_quote": "Estancias de alumnado y profesorado con centros socios italianos.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Portuguese institutes",
+    "partner_country": "Portugal",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjorgejuan.es/erasmus/",
+    "evidence_quote": "Movilidades y proyectos compartidos con institutos portugueses.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "centros socios italianos",
+    "partner_country": "Italia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjorgejuan.es/erasmus/",
+    "evidence_quote": "Estancias de alumnado y profesorado con centros socios italianos.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "institutos portugueses",
+    "partner_country": "Portugal",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjorgejuan.es/erasmus/",
+    "evidence_quote": "Movilidades y proyectos compartidos con institutos portugueses.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "centros franceses",
+    "partner_country": "Francia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjorgejuan.es/erasmus/",
+    "evidence_quote": "Colaboración estable con centros franceses y alemanes.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "centros alemanes",
+    "partner_country": "Alemania",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://iesjorgejuan.es/erasmus/",
+    "evidence_quote": "Colaboración estable con centros franceses y alemanes.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Jorge Juan",
+    "city": "San Fernando",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesjorgejuan.es/equipo-directivo/",
+    "evidence_quote": "Centro público de Educación Secundaria, Bachillerato y Formación Profesional en San Fernando (Cádiz)."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 7,
+  "pages_read": 3,
+  "coverage_note": "The evidence lists countries and types of partner institutions but does not provide a specific list of named partner schools or universities. No specific Erasmus coordinator is named. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.4,
+  "crawl_s": 10.3,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 2.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     118
+    ],
+    "returned": 5,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 41.3
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-10-30T12:18:56Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "IES JOSEP MARIA QUADRADO",
+  "institution_type": "school",
+  "official_website": "https://www.iesjmquadrado.cat/",
+  "country": null,
+  "phone": {
+   "value": "971480237",
+   "source_url": "https://www.iesjmquadrado.cat/",
+   "evidence_quote": "971480237"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria@iesjmquadrado.cat",
+  "generic_email_url": "https://www.iesjmquadrado.cat/linstitut/organigrama/",
+  "contact": {
+   "name": "Sònia Pons Massanet",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iesjmquadrado.cat/linstitut/organigrama/",
+   "evidence_quote": "Secretaria ... Sònia Pons Massanet"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Sònia Pons Massanet is the Secretary of the institution and handles administrative communications.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Berufsbildungszentrum am Nord-Ostsee-Kanal",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://www.iesjmquadrado.cat/erasmus/difusio-i-resultats-erasmus/un-alumne-de-gs-en-florencia-i-dues-professores-a-rendsburg/",
+    "evidence_quote": "Enguany, aquesta oportunitat es veu ampliada també al docents del nostre cicle. Les professores Sandra Cerezo i Cristina Camacho, del nostre cicle formatiu, viatgen el proper dilluns dia 9 de maig a Rendsburg (Alemanya) per formar part d’unes estades d’observació de tres dies de duració a l’institut Berufsbildungszentrum am Nord-Ostsee-Kanal, un institut integrat de Formació Professional on ja desde fa anys està implantada la FP dual, a més a més de la presencial. Aquesta visita està organitzada",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Termohidràulica FIUMI",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.iesjmquadrado.cat/erasmus/difusio-i-resultats-erasmus/un-alumne-de-gs-en-florencia-i-dues-professores-a-rendsburg/",
+    "evidence_quote": "El passat 4 d’abril, el nostre alumne Daniel Caules que actualment està cursant el cicle formatiu de “Tècnic superior en manteniment d’instal·lacions tèrmiques i de fluids” va començar a treballar a l’empresa Termohidràulica FIUMI per cursar les seves pràctiques formatives en centre de treball (FCT). Aquesta empresa està relacionada amb el sector de la climatització, calefacció i refrigeració. Dani treballarà allí fins el dia 3 de juny.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Josep Maria Quadrado",
+    "city": "Ciutadella de Menorca",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iesjmquadrado.cat/linstitut/on-som/",
+    "evidence_quote": "Carrer Mallorca, 65"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions participation in the EuroFP Balears project and various student mobilities, but does not provide a comprehensive list of all Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 22.6,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 9.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 9.2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 44.6
+ }
+}

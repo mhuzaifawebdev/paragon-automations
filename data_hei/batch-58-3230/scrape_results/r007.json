@@ -1,0 +1,124 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-30T12:18:54Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "IES LA RABIDA",
+  "institution_type": "school",
+  "official_website": "https://www.iesrabida.es/",
+  "country": null,
+  "phone": {
+   "value": "671 53 59 19",
+   "source_url": "https://www.iesrabida.es/",
+   "evidence_quote": "671 53 59 19"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Consejería de Educación",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesrabida.es/",
+    "evidence_quote": "Consejería de Educación",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidad de Huelva",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iesrabida.es/",
+    "evidence_quote": "Universidad de Huelva",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "empresas y pymes",
+    "partner_country": "EU",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.iesrabida.es/erasmus/POLITICA_ERASMUS_es.pdf",
+    "evidence_quote": "Nos gustaría promover acuerdos con empresas y pymes de diferentes países de la UE. La formación",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "companies and small businesses",
+    "partner_country": "EU",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.iesrabida.es/erasmus/POLITICA_ERASMUS_en.pdf",
+    "evidence_quote": "We would like to promote agreements with companies and small businesses in different countries in",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES La Rábida",
+    "city": "Huelva",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iesrabida.es/",
+    "evidence_quote": "Avda. Manuel Siurot, 9"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not list any specific names of Erasmus+ or international relations staff. While the institution mentions an intention to appoint a coordinator for international partnerships, no individual is named in that role.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 8.1,
+  "ai_calls": 5,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     281,
+     327
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 41.7
+ }
+}
