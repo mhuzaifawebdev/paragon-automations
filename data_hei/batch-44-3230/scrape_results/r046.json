@@ -1,0 +1,76 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-30T10:36:42Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "Lycée Monnet-Mermoz",
+  "institution_type": "school",
+  "official_website": "https://monnet-mermoz-aurillac.ent.auvergnerhonealpes.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Crédit Agricole",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://monnet-mermoz-aurillac.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "Intervention du Crédit Agricole auprès des étudiants de BTS MCO 1 ere année",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Polyvalent Monnet-Mermoz",
+    "city": "AURILLAC",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://monnet-mermoz-aurillac.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "Lycée Polyvalent Monnet-Mermoz - AURILLAC"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The evidence mentions Erasmus+ involvement and a charter, but does not list any specific contacts or partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 4.9,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 59.5,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     61
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 115.3
+ }
+}
