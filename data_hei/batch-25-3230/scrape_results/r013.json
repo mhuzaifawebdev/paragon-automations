@@ -1,0 +1,107 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-30T09:42:04Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "IES El Argar",
+  "institution_type": "school",
+  "official_website": "https://www.calidadargar.com/",
+  "country": null,
+  "phone": {
+   "value": "950156189",
+   "source_url": "https://www.calidadargar.com/",
+   "evidence_quote": "Teléfono Conserjería del centro 950156189"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "La Salle-Chocillas",
+    "partner_country": "",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.calidadargar.com/",
+    "evidence_quote": "FESTIVAL DE CORTOMETRAJES LA SALLE-CHOCILLAS ES DE CINE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cítricos del Andarax",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.calidadargar.com/",
+    "evidence_quote": "Cítricos y zumos ecológicos. Cítricos del Andarax",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Castillo de Tabernas",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.calidadargar.com/",
+    "evidence_quote": "Aceite de oliva Virgen Extra. Castillo de Tabernas",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FreshquilaBIO - UNICA GROUP",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.calidadargar.com/",
+    "evidence_quote": "Tomates FreshquilaBIO - UNICA GROUP",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "I.E.S. El Argar",
+    "city": "",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.calidadargar.com/",
+    "evidence_quote": "I.E.S. El Argar"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not name specific contacts or a comprehensive list of international partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 5.7,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 12.9,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 43.9
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-10-30T09:42:35Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "Conservatorio Statale di Musica \"L. Perosi\" Campobasso",
+  "institution_type": "university",
+  "official_website": "https://www.conservatorioperosi.it/",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://www.conservatorioperosi.it/cms/it/contatti.html",
+   "evidence_quote": "Italia"
+  },
+  "phone": {
+   "value": "0874.90041-2",
+   "source_url": "https://www.conservatorioperosi.it/cms/it/contatti.html",
+   "evidence_quote": "0874.90041-2"
+  },
+  "phone_alt": [],
+  "generic_email": "info@conservatorioperosi.it",
+  "generic_email_url": "https://www.conservatorioperosi.it/cms/it/contatti.html",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Conservatorio di Musica Lorenzo Perosi",
+    "city": "Campobasso",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.conservatorioperosi.it/cms/it/contatti.html",
+    "evidence_quote": "Campobasso"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence lists general navigation links and contact names but does not contain detailed Erasmus partner lists or specific role assignments for international mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 4.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 11.1,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "total_seconds": 44.9
+ }
+}
