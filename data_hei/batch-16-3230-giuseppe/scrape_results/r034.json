@@ -1,0 +1,106 @@
+{
+ "row_id": "r034",
+ "scraped_at": "2026-10-30T13:52:22Z",
+ "contacts": {
+  "row_id": "r034",
+  "institution_name": "IES ALFONSO X EL SABIO",
+  "institution_type": "school",
+  "official_website": "https://www.iax.es/",
+  "country": {
+   "value": "España",
+   "source_url": "https://www.iax.es/about/contacto/",
+   "evidence_quote": "Región de Murcia (España)"
+  },
+  "phone": {
+   "value": "968232040",
+   "source_url": "https://www.iax.es/about/contacto/",
+   "evidence_quote": "Teléfono 968232040"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Andrés Nieto Salinas",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iax.es/about/organizacion/equipo-directivo/",
+   "evidence_quote": "Andrés Nieto Salinas ... Ilmo. Sr. Director"
+  },
+  "alternates": [
+   {
+    "name": "José Navarro Mateo",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iax.es/about/organizacion/equipo-directivo/",
+    "evidence_quote": "José Navarro Mateo ... Sr. Secretario",
+    "why_chosen": "Secretary / administration (last resort). José Navarro Mateo serves as the Secretary of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Andrés Nieto Salinas is the Director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SYS4NET",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iax.es/",
+    "evidence_quote": "[Web alojada en SYS4NET]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Alfonso X el Sabio",
+    "city": "Murcia",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.iax.es/about/contacto/",
+    "evidence_quote": "Avenida Don Juan de Borbón, 3"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The evidence does not provide a list of partner institutions. The institution is a secondary school (IES) and does not award university degrees.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 13.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 5.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 43.3
+ }
+}
