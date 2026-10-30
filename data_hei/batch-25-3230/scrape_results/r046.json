@@ -1,0 +1,121 @@
+{
+ "row_id": "r046",
+ "scraped_at": "2026-10-30T09:52:28Z",
+ "contacts": {
+  "row_id": "r046",
+  "institution_name": "LYCEE MODESTE LEROY",
+  "institution_type": "college",
+  "official_website": "https://modeste-leroy.lycee.ac-normandie.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Virginie BOITEL",
+   "designation": "Head of the rugby section",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://modeste-leroy.lycee.ac-normandie.fr/disciplines/eps/option-rugby/article/visite-de-l-equipe-de-france-feminine-de-rugby",
+   "evidence_quote": "Virginie Boitel ... Responsable de la section rugby"
+  },
+  "alternates": [],
+  "rung": "Other role. Virginie Boitel is identified as the head of the rugby section at the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini. 6 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Breakaway",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://modeste-leroy.lycee.ac-normandie.fr/ouverture-a-l-international/erasmus/article/action-cle-1-mobilites-enseignement-professionnel",
+    "evidence_quote": "En 2013, nous avons donc emmené 15 élèves dans le sud-est de l’Angleterre avec Breakaway, notre partenaire intermédiaire. Il y avait 5 élèves des Industries graphiques, 1 de Maintenance Industrielle, 3 Techniciens d’usinage et 6 élèves en Systèmes électronique et numérique. De plus, pour la première fois, les participants étaient en famille d’accueil,l’apport linguistique et culturel s’en est trouvé considérablement renforcé. Nous avons aussi apprécié que les participants qui ne se côtoyaient pa",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hongrie",
+    "partner_country": "Hungary",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://modeste-leroy.lycee.ac-normandie.fr/ouverture-a-l-international/erasmus/article/action-cle-1-mobilites-enseignement-professionnel",
+    "evidence_quote": "Il s’inscrit dans une démarche d’ouverture à l’international menée depuis plusieurs années dans notre établissement et initiée par un professeur de génie électronique qui dès 1999 a monté un Coménius bilatéral avec la Hongrie, puis Leonardo mobilité et Leonardo partenariat.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tomar",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://modeste-leroy.lycee.ac-normandie.fr/ouverture-a-l-international/erasmus/article/action-cle-1-mobilites-enseignement-professionnel",
+    "evidence_quote": "En 2009, nous avons ouvert une section européenne de 15 élèves en Baccalauréat Systèmes électronique et numérique. Et dans le cadre de cette section, une première expérience de stages européens s’est déroulée en Juin à Tomar au Portugal. Les 12 participants étaient des élèves de seconde.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Berlin",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://modeste-leroy.lycee.ac-normandie.fr/ouverture-a-l-international/erasmus/article/action-cle-1-mobilites-enseignement-professionnel",
+    "evidence_quote": "Le bilan fait à l’issue de cette première expérience globalement satisfaisante , était qu’il fallait le proposer à des élèves plus âgés et ayant déjà l’expérience de stages en milieu professionnel en France. Nous avons donc opté pour des élèves de terminale. L’année suivante, 8 élèves ont pu réaliser un stage en Allemagne à Berlin. Le bilan fait alors confortait l’idée que le groupe d’âge ciblé cette fois-ci était plus judicieux. En revanche, le partenaire intermédiaire n’a pas su cerner les bes",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Modeste-Leroy",
+    "city": "Évreux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://modeste-leroy.lycee.ac-normandie.fr/",
+    "evidence_quote": "Bac Pro TRPM Technicien en Réalisation de Produits Mécaniques Option Réalisation et Suivi de Production au lycée Modeste-Leroy d'Évreux - Descriptif de la formation et du métier"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partners, only mentioning one intermediary organization. No specific contact person for international relations is named in the provided text. 6 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.0,
+  "crawl_s": 22.0,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 93.5,
+  "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 2.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     242
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 147.8
+ }
+}

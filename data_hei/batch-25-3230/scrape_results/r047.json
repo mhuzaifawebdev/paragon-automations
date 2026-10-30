@@ -1,0 +1,79 @@
+{
+ "row_id": "r047",
+ "scraped_at": "2026-10-30T09:52:21Z",
+ "contacts": {
+  "row_id": "r047",
+  "institution_name": "Association La Châtaigneraie",
+  "institution_type": "college",
+  "official_website": "https://lachataigneraie.fr/",
+  "country": null,
+  "phone": {
+   "value": "01 34 46 65 65",
+   "source_url": "https://lachataigneraie.fr/",
+   "evidence_quote": "01 34 46 65 65"
+  },
+  "phone_alt": [],
+  "generic_email": "direction@lachataigneraie.fr",
+  "generic_email_url": "https://lachataigneraie.fr/",
+  "contact": {
+   "name": "Damien Akrich",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "direction@lachataigneraie.fr",
+   "office_email": "",
+   "phone": "01 34 46 65 65",
+   "source_url": "https://lachataigneraie.fr/menucourt/mentions-legales/",
+   "evidence_quote": "Directeur de publication : M. Damien Akrich (directeur)"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Damien Akrich is identified as the director of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centre de Menucourt",
+    "city": "Menucourt",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lachataigneraie.fr/",
+    "evidence_quote": "Site du centre de Menucourt"
+   },
+   {
+    "campus_name": "Centre de Paris Convention",
+    "city": "Paris",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://lachataigneraie.fr/",
+    "evidence_quote": "Site du centre de Paris Convention"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 6,
+  "coverage_note": "The institution is a healthcare facility specializing in rehabilitation and does not appear to have international mobility or Erasmus+ partnerships listed on its website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 13.0,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 38.5,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 1.4,
+  "total_seconds": 109.5
+ }
+}
