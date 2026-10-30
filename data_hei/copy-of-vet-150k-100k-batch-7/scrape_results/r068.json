@@ -1,0 +1,95 @@
+{
+ "row_id": "r068",
+ "scraped_at": "2026-10-30T16:18:53Z",
+ "contacts": {
+  "row_id": "r068",
+  "institution_name": "Lycée Polyvalent Gaspard Monge - La Chauvinière",
+  "institution_type": "school",
+  "official_website": "https://monge.paysdelaloire.e-lyco.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Monsieur Vasse",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+33 2 40 16 71 00",
+   "source_url": "https://monge.paysdelaloire.e-lyco.fr/",
+   "evidence_quote": "Proviseur : Monsieur Vasse"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Monsieur Vasse is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université d’Aveiro",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://monge.paysdelaloire.e-lyco.fr/erasmus-plus/mobilite-c2-au-portugal-projet-erasmus/",
+    "evidence_quote": "Nous avons ou assister à une conférence, sur la gestion du stress, orchestrée par Anabela Pereira qui travaille au département d’éducation et de psychologie de l’Université d’Aveiro.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "université de Cluj",
+    "partner_country": "Romania",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://monge.paysdelaloire.e-lyco.fr/erasmus-plus/mobilite-erasmus-la-roumanie-du-10-au-17-novembre-2019/",
+    "evidence_quote": "Au programme : Une conférence riche d’infos et truffée d’exercices en franglais sur les différents types de mémoire humaine, au département psihologie* de l’université de Cluj",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Gaspard Monge - La Chauviniere",
+    "city": "Nantes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://monge.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "Lycée Gaspard Monge - La Chauviniere | Lycée Polyvalent - Nantes"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 7,
+  "coverage_note": "The institution does not provide a formal list of Erasmus+ partners. Information about partners was extracted from project-related news articles.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.0,
+  "crawl_s": 11.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 25.2
+ }
+}
