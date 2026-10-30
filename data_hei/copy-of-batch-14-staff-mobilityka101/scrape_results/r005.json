@@ -1,0 +1,130 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-10-30T15:47:24Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "Veit-Ludwig-von-Seckendorff-Gymnasium Meuselwitz Staatliches Gymnasium",
+  "institution_type": "school",
+  "official_website": "https://www.seckendorffgym.de/",
+  "country": {
+   "value": "Deutschland",
+   "source_url": "https://www.seckendorffgym.de/kontakt.html",
+   "evidence_quote": "Thüringen Deutschland"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Herr P. Kreißl",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "03448 75140",
+   "source_url": "https://www.seckendorffgym.de/kontakt.html",
+   "evidence_quote": "Schulleiter: ... Herr P. Kreißl"
+  },
+  "alternates": [
+   {
+    "name": "Frau M. Nützel",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "03448 75140",
+    "source_url": "https://www.seckendorffgym.de/kontakt.html",
+    "evidence_quote": "stellvertretende Schulleiterin: ... Frau M. Nützel",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the deputy principal of the school."
+   },
+   {
+    "name": "Frau A. Krauß",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "03448 75140",
+    "source_url": "https://www.seckendorffgym.de/kontakt.html",
+    "evidence_quote": "Sekretariat: ... Frau A. Krauß",
+    "why_chosen": "Secretary / administration (last resort). She works in the school secretariat."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the principal of the school.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "DAAD",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.seckendorffgym.de/",
+    "evidence_quote": "[DAAD]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pushsafer",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.seckendorffgym.de/",
+    "evidence_quote": "[Pushsafer]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Webdesign-KS.de",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.seckendorffgym.de/",
+    "evidence_quote": "[Webdesign-KS.de]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Veit-Ludwig-von-Seckendorff-Gymnasium Meuselwitz",
+    "city": "Meuselwitz",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://www.seckendorffgym.de/kontakt.html",
+    "evidence_quote": "Rathausstraße 16, 04610 Meuselwitz"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of international partners or Erasmus+ agreements. The school is identified as a 'Europaschule' but no specific mobility partners are listed. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 10.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 39.3,
+  "mode": "gemini",
+  "email_search_s": 6.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 58.4
+ }
+}

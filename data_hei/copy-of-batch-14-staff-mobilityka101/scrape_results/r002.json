@@ -1,0 +1,95 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-28T10:27:44Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Marko",
+  "institution_type": "school",
+  "official_website": "https://www.lieto.fi/",
+  "country": {
+   "value": "Finland",
+   "source_url": "https://www.lieto.fi/palvelut-ja-asiointi/opetus/lukio/",
+   "evidence_quote": "Lieto Upper Secondary School is a medium-size upper secondary school in Lieto, which is a nice small town near Turku, the former capital of Finland. The school is located near a secondary school with a school library, and in the immediate vicinity we have a spectacular sports centre with a modern gym and all the necessary sports fields."
+  },
+  "phone": {
+   "value": "0503150323",
+   "source_url": "https://www.lieto.fi/palvelut-ja-asiointi/opetus/lukio/",
+   "evidence_quote": "0503150323"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marko Telenius",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "marko.telenius@lieto.fi",
+   "office_email": "",
+   "phone": "0503150323",
+   "source_url": "https://www.lieto.fi/palvelut-ja-asiointi/opetus/lukio/",
+   "evidence_quote": "Rehtori ... Telenius Marko"
+  },
+  "alternates": [
+   {
+    "name": "Marianne Suutari",
+    "designation": "Vice Principal, International Studies Programme teacher",
+    "designation_local": "",
+    "email": "marianne.suutari@edu.lieto.fi",
+    "office_email": "",
+    "phone": "0401821415",
+    "source_url": "https://www.lieto.fi/palvelut-ja-asiointi/opetus/lukio/",
+    "evidence_quote": "Vararehtori ... Suutari Marianne (EN RU YH, KV-linjan vastuuopettaja)",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Marianne Suutari is a vice principal and a responsible teacher for the international programme."
+   },
+   {
+    "name": "Inna Nurmi",
+    "designation": "Teacher, International Studies Programme teacher",
+    "designation_local": "",
+    "email": "inna.nurmi@edu.lieto.fi",
+    "office_email": "",
+    "phone": "0505689406",
+    "source_url": "https://www.lieto.fi/palvelut-ja-asiointi/opetus/lukio/",
+    "evidence_quote": "Nurmi Inna (EN RU, KV-linjan vastuuopettaja)",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Inna Nurmi is a teacher and a responsible teacher for the international programme."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Marko Telenius is the principal of the school and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "Reused from batch ibrahim-batch-2-staff-mobility-ka-10 (scraped 2026-10-28). site found via: website column in the sheet (same domain as the contact's email). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Liedon lukio",
+    "city": "Lieto",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.lieto.fi/palvelut-ja-asiointi/opetus/lukio/",
+    "evidence_quote": "Liedon lukio - Lieto"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The evidence mentions that the school has partner schools across Europe and an Erasmus+ accreditation, but it does not provide a specific list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "ibrahim-batch-2-staff-mobility-ka-10",
+  "row_id": "r193"
+ }
+}
