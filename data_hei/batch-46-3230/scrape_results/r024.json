@@ -1,0 +1,86 @@
+{
+ "row_id": "r024",
+ "scraped_at": "2026-10-30T10:23:01Z",
+ "contacts": {
+  "row_id": "r024",
+  "institution_name": "OSLOMET - STORBYUNIVERSITETET",
+  "institution_type": "university",
+  "official_website": "https://www.oslomet.no/",
+  "country": {
+   "value": "Norway",
+   "source_url": "https://www.oslomet.no/om/ledige-stillinger/forsteamanuensis-i-transportinfrastruktur",
+   "evidence_quote": "OsloMet - storbyuniversitetet er Norges tredje største universitet med 23 000 studenter og over 2600 ansatte. Vi har campus i Oslo Sentrum og på Romerike. OsloMet leverer forskning og utdanning med høy relevans for arbeidslivet, velferdsstaten og storbyregionen."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "post@oslomet.no",
+  "generic_email_url": "https://www.oslomet.no/om/kontakt",
+  "contact": {
+   "name": "Christen Krogh",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.oslomet.no/",
+   "evidence_quote": "[Rektor Christen Krogh i vandrehallen i Stortinget]"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Christen Krogh is the Rector and head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch batch-4-3230 (scraped 2026-10-30). site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "DORA-erklæringen",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oslomet.no/om/ledige-stillinger/forsteamanuensis-i-transportinfrastruktur",
+    "evidence_quote": "OsloMet har sluttet seg til prinsippene og forpliktet institusjonen til å følge anbefalingene i DORA-erklæringen (sfdora.org) (The San Francisco Declaration on Research Assessment).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Kjeller",
+    "city": "Lillestrøm",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.oslomet.no/studier/studenthistorier/ti-topp-campus",
+    "evidence_quote": "OsloMet har to studiesteder. Vi har campus på Kjeller i Lillestrøm og campus i Pilestredet, sentralt i Oslo."
+   },
+   {
+    "campus_name": "Campus Pilestredet",
+    "city": "Oslo",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://www.oslomet.no/studier/studenthistorier/ti-topp-campus",
+    "evidence_quote": "OsloMet har to studiesteder. Vi har campus på Kjeller i Lillestrøm og campus i Pilestredet, sentralt i Oslo."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not mention any international mobility partners or Erasmus agreements, nor are there any dedicated international relations officers listed. 1 list slice(s) could not be read (model busy); the partner list may be incomplete.",
+  "needs_human_check": true,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "batch-4-3230",
+  "row_id": "r024"
+ }
+}
