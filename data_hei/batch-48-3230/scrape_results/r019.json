@@ -1,0 +1,71 @@
+{
+ "row_id": "r019",
+ "scraped_at": "2026-10-30T11:52:19Z",
+ "contacts": {
+  "row_id": "r019",
+  "institution_name": "Shumen University \"Bishop Konstantin of Preslav\"",
+  "institution_type": "university",
+  "official_website": "https://www.shu.bg/",
+  "country": null,
+  "phone": {
+   "value": "+359 54 830 350",
+   "source_url": "https://www.shu.bg/en/english/",
+   "evidence_quote": "Telephone: +359 54 830 350"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@shu.bg",
+  "generic_email_url": "https://www.shu.bg/international/cms/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Пловдивски университет „П. Хилендарски“",
+    "partner_country": "Bulgaria",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.shu.bg/projects/uchastie-shu/eu-programi/optimizirane-na-obuchenieto-na-profesionalni-prevodachi-v-mnogoezichna-evropa-optimale-177295-llp-1-2010-1-fr-erasmusenwa/",
+    "evidence_quote": "От българска страна в него участват Пловдивският университет „П. Хилендарски“ и Шуменският университет „Епископ Константин Преславски“ – 40 студенти и преподаватели. Сред бенефициентите на проекта са студентите от магистърска програма Лингвистика и превод на Шуменския университет.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Shumen University",
+    "city": "Shumen",
+    "country": "Bulgaria",
+    "role": "main",
+    "source_url": "https://www.shu.bg/",
+    "evidence_quote": "гр. Шумен 9700, ул. „Университетска“ 115"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partner universities, only mentioning one specific project partner.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.2,
+  "crawl_s": 15.1,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 29.4
+ }
+}
