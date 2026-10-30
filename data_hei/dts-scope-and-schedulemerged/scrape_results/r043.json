@@ -1,0 +1,113 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-10-30T18:23:16Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "Sweco",
+  "institution_type": "unknown",
+  "official_website": "https://www.sweco.no/",
+  "country": {
+   "value": "Norway",
+   "source_url": "https://www.sweco.no/",
+   "evidence_quote": "Sweco Norge AS"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "post@sweco.no",
+  "generic_email_url": "https://www.sweco.no/",
+  "contact": {
+   "name": "Tor Helge Indrebø",
+   "designation": "Division Director, Transportation Infrastructure",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.sweco.no/en/executive-team-sweco-norge/",
+   "evidence_quote": "[Divisjonsdirektør infrastruktur tor helge indrebø]Tor Helge Indrebø ... Division Director, Transportation Infrastructure"
+  },
+  "alternates": [
+   {
+    "name": "Eva Lothe",
+    "designation": "Director of Development and Quality",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sweco.no/en/executive-team-sweco-norge/",
+    "evidence_quote": "[eva lothe uvikling og kvalitet]Eva Lothe ... Director of Development and Quality",
+    "why_chosen": "Other role. Eva Lothe is the Director of Development and Quality."
+   },
+   {
+    "name": "Mads Gjøstøl",
+    "designation": "Chief Financial Officer",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sweco.no/en/executive-team-sweco-norge/",
+    "evidence_quote": "Mads Gjøstøl ... Chief Financial Officer",
+    "why_chosen": "Other role. Mads Gjøstøl is the Chief Financial Officer of Sweco Norway."
+   }
+  ],
+  "rung": "Other role. Tor Helge Indrebø is the Division Director for Transportation Infrastructure.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Skift",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sweco.no/baerekraft/samarbeidspartnere-og-forpliktelser/",
+    "evidence_quote": "Skift, Grønnvaskingsplakaten",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Grønnvaskingsplakaten",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sweco.no/baerekraft/samarbeidspartnere-og-forpliktelser/",
+    "evidence_quote": "Skift, Grønnvaskingsplakaten",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sweco Norge AS",
+    "city": "Oslo",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://www.sweco.no/",
+    "evidence_quote": "Norbygata 14, 0187 Oslo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "Sweco is a commercial engineering and architecture consultancy firm, not an educational institution. The evidence does not contain information regarding Erasmus+ partnerships or academic mobility programs. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 14.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 4,
+  "email_search_s": 1.3,
+  "total_seconds": 21.0
+ }
+}
