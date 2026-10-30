@@ -1,14 +1,14 @@
 {
  "batch": "batch-49-3230",
- "status": "running",
- "generated_at": "2026-10-30T11:06:13.277798+00:00",
+ "status": "waiting",
+ "generated_at": "2026-10-30T11:06:37.844386+00:00",
  "chunk": 2,
  "total_chunks": 2,
  "total_rows": 47,
- "done": 15,
- "pending": 32,
- "elapsed_seconds": 110,
- "eta_seconds": 113,
+ "done": 17,
+ "pending": 30,
+ "elapsed_seconds": 134,
+ "eta_seconds": 110,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 21.0,
@@ -16,7 +16,7 @@
  "paid_searches": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 16,
+ "ai_calls": 17,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,12 +38,12 @@
  ],
  "confidence": {
   "high": 5,
-  "medium": 3,
-  "low": 7,
+  "medium": 4,
+  "low": 8,
   "none": 0
  },
- "partners_found": 561,
- "campuses_found": 27,
+ "partners_found": 573,
+ "campuses_found": 29,
  "recent": [
   "r001",
   "r002",
@@ -59,6 +59,11 @@
   "r014",
   "r015",
   "r016",
-  "r017"
- ]
+  "r017",
+  "r020",
+  "r025"
+ ],
+ "waiting_kind": "daily",
+ "resume_at": "2026-10-31T08:05:00+00:00",
+ "waiting_reason": "Today's free AI allowance is used up."
 }
