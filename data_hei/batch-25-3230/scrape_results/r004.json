@@ -1,0 +1,106 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-10-30T09:41:32Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "CENTRO DE FORMACION INTERNACIONAL REINA ISABEL",
+  "institution_type": "college",
+  "official_website": "https://www.cfireinaisabel.com/",
+  "country": {
+   "value": "España",
+   "source_url": "https://www.cfireinaisabel.com/",
+   "evidence_quote": "Avda. Federico García Lorca 36. 18014 Granada (España)"
+  },
+  "phone": {
+   "value": "958 072 237",
+   "source_url": "https://www.cfireinaisabel.com/",
+   "evidence_quote": "958 072 237 <tel 958072237>"
+  },
+  "phone_alt": [],
+  "generic_email": "erasmus@cfireinaisabel.com",
+  "generic_email_url": "https://www.cfireinaisabel.com/erasmus-2023-24/",
+  "contact": {
+   "name": "Luís Gutiérrez Rojas",
+   "designation": "Doctor in Psychiatry - Specialist Advisor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.cfireinaisabel.com/",
+   "evidence_quote": "Luís Gutiérrez Rojas ... Doctor en Psiquiatría-Asesor Especialista en CFI Reina Isabel"
+  },
+  "alternates": [
+   {
+    "name": "Moisés Weber",
+    "designation": "Management of IFMIF-DONES Spain",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.cfireinaisabel.com/",
+    "evidence_quote": "Moisés Weber ... Parte de la Dirección de IFMIF-DONES España, consorcio encargado de la contribución española al Acelerador de Partículas en Granada.",
+    "why_chosen": "Other role. Moisés Weber is listed as part of the management of IFMIF-DONES Spain and a collaborator of the institution."
+   }
+  ],
+  "rung": "Other role. Luís Gutiérrez Rojas is listed as a specialist advisor at the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "York St John University",
+    "partner_country": "Reino Unido",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.cfireinaisabel.com/york-st-john/",
+    "evidence_quote": "Para reconocer créditos ECTS obtenidos en un ciclo formativo de grado superior a estudios universitarios de grado, es necesario que el estudiante cumpla con los requisitos de acceso a los estudios universitarios de grado y que presente una solicitud de convalidación de créditos ante la universidad. La universidad, en este caso York St John University, es la encargada de evaluar la solicitud de convalidación y decidir si acepta o no los créditos.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centro de Formación Internacional Reina Isabel",
+    "city": "Granada",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.cfireinaisabel.com/",
+    "evidence_quote": "Avda. Federico García Lorca 36. 18014 Granada (España)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence details vocational programs, Erasmus+ calls, and a specific articulation agreement with York St John University, but does not contain a comprehensive partner institution list.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.5,
+  "crawl_s": 35.9,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "contact_pass": 2,
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     141,
+     245
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 49.1
+ }
+}
