@@ -2870,20 +2870,30 @@
    "source": "Batch-42_3230",
    "file_id": "1Kq79wX6LFhXtVDISAPgb5Ze3xuqxm5Fi9dchaTmD3uo",
    "added": "2026-10-27T18:50:38Z",
-   "state": "running",
+   "state": "done",
    "rows": 44,
    "started": "2026-10-30T09:29:38Z",
    "last_start": "2026-10-30T09:29:38Z",
    "restarts": 0,
-   "cap_usd": 698.79
+   "cap_usd": 698.79,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1jrOreHhVAP3BRfl1R5MktGy2c4FP7as4/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 35,
+   "finished": "2026-10-30T09:40:04Z",
+   "reason": "43 institutes, 26 with a contact"
   },
   {
    "batch": "batch-25-3230",
    "source": "Batch-25_3230",
    "file_id": "1yMIiWA4r8WpwZNe4filGb0j9J_lS1VVnIFqKRM50f2o",
    "added": "2026-10-27T18:50:38Z",
-   "state": "queued",
-   "rows": 52
+   "state": "running",
+   "rows": 52,
+   "started": "2026-10-30T09:40:04Z",
+   "last_start": "2026-10-30T09:40:04Z",
+   "restarts": 0,
+   "cap_usd": 698.79
   },
   {
    "batch": "batch-11-3230",
@@ -3525,7 +3535,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-30T09:29:38Z",
+ "updated": "2026-10-30T09:40:04Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
