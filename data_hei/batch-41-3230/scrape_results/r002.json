@@ -1,0 +1,77 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-30T10:10:41Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "IZMIR TINAZTEPE UNIVERSITESI",
+  "institution_type": "university",
+  "official_website": "https://tinaztepe.edu.tr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "international@tinaztepe.edu.tr",
+  "generic_email_url": "https://tinaztepe.edu.tr/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Eduroam",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://tinaztepe.edu.tr/",
+    "evidence_quote": "Eduroam",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "İzmir Buca Kampüsü",
+    "city": "İzmir",
+    "country": "Turkey",
+    "role": "main",
+    "source_url": "https://tinaztepe.edu.tr/",
+    "evidence_quote": "Tüm fakülteler, bölüm ve programlar İzmir Buca'da bulunan kampüsümüzdedir."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The website mentions the existence of Erasmus agreements but does not provide a list of partner institutions. Contact details for specific Erasmus coordinators are not explicitly named in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 13.9,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 16.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 51.3
+ }
+}

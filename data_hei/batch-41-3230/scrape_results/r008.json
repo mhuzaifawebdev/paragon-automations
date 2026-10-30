@@ -1,0 +1,98 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-30T10:10:30Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Liceo Statale Antonio Rosmini",
+  "institution_type": "school",
+  "official_website": "https://www.rosminigrosseto.it/",
+  "country": null,
+  "phone": {
+   "value": "0564484475",
+   "source_url": "https://www.rosminigrosseto.it/",
+   "evidence_quote": "Viale Porciatti 2, 58100 Grosseto (GR) | Telefono: 0564484475 <tel 0564484475> | E-mail: grpm01000e@istruzione.it <grpm01000e@istruzione.it> | Pec: grpm01000e@pec.istruzione.it <grpm01000e@pec.istruzione.it>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Fabiola Fondi",
+   "designation": "Referente Progetti Erasmus+",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.rosminigrosseto.it/erasmus-plus-mobilita-individuale-ai-fini-dellapprendimento/",
+   "evidence_quote": "Prof.ssa Fabiola Fondi ... Referente Progetti Erasmus+” Liceo Rosmini- Grosseto”"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). She is explicitly named as the contact person for Erasmus+ projects at the institution.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée Roumanille",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rosminigrosseto.it/",
+    "evidence_quote": "Scambio culturale con il Lycée Roumanille di Nyons",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "eTwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rosminigrosseto.it/",
+    "evidence_quote": "Erasmus Plus ed eTwinning",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede centrale",
+    "city": "Grosseto",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.rosminigrosseto.it/progetto-erasmus-plus-buds-budding-mobility-2023-grosseto-vet-mobility-per-staff/",
+    "evidence_quote": "VIA PORCIATTI 2 GROSSETO"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions specific Erasmus+ projects and a cultural exchange partner, but does not provide a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 17.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 16.5,
+  "mode": "gemini",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 37.2
+ }
+}
