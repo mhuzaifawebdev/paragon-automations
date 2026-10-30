@@ -1,0 +1,140 @@
+{
+ "row_id": "r040",
+ "scraped_at": "2026-10-30T10:35:05Z",
+ "contacts": {
+  "row_id": "r040",
+  "institution_name": "Lycée Jay de Beaufort",
+  "institution_type": "school",
+  "official_website": "https://lyceejaydebeaufort.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://lyceejaydebeaufort.fr/actu/mobilite-erasmus-a-lecce-10192/",
+   "evidence_quote": "variées, riches et stimulantes. L’équipe rentre en France confortée dans l’idée que la mobilité européenne"
+  },
+  "phone": {
+   "value": "05.53.02.75.00",
+   "source_url": "https://lyceejaydebeaufort.fr/",
+   "evidence_quote": "Tél : 05.53.02.75.00"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jean – François MAZOUAUD",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ce.0241137f@ac-bordeaux.fr",
+   "office_email": "",
+   "phone": "05.53.02.75.00",
+   "source_url": "https://lyceejaydebeaufort.fr/wp-content/uploads/2025/10/A_organigramme_structurel_2025-2026.pdf",
+   "evidence_quote": "PROVISEUR ... Jean – François MAZOUAUD"
+  },
+  "alternates": [
+   {
+    "name": "Vincent Lieutard",
+    "designation": "Director for Professional and Technological Training",
+    "designation_local": "",
+    "email": "Vincent.Lieutard@ac-bordeaux.fr",
+    "office_email": "",
+    "phone": "05.53.02.75.06",
+    "source_url": "https://lyceejaydebeaufort.fr/contacts/",
+    "evidence_quote": "DDFPT (directeur délégué à la formation professionnelle et technologique) : ... Vincent Lieutard : Vincent.Lieutard@ac-bordeaux.fr <Vincent.Lieutard@ac-bordeaux.fr>",
+    "why_chosen": "Other role. Vincent Lieutard is the DDFPT in charge of professional and technological training."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Jean-François Mazouaud is the Principal (Proviseur) of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "34° Fuso",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "http://lyceejaydebeaufort.fr/actu/erasmus-1ere-mobilite-etudiante-8829/",
+    "evidence_quote": "Dimanche 8 janvier, deux étudiantes Alicia et Maeva en BTS SP3S partiront en stage pour une durée de 30 jours en Italie, dans la région des Pouilles à Lecce au sein de l’association “34° Fuso”. Ces stages ont pour objectifs d’identifier une problématique et de mettre en place des solutions dans le cadre d’une démarche de projet. Ces travaux seront évalués dans le cadre de leur examen final.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IUT de Périgueux",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceejaydebeaufort.fr/",
+    "evidence_quote": "Cordées de la réussite avec l’IUT de Périgueux",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Université de Lecce",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceejaydebeaufort.fr/actu/mobilite-erasmus-2026-13325/",
+    "evidence_quote": "Echanges autour de l’inclusion Université de Lecce en Italie : docteur Paola Martino, Emanuela Surdo, Catherine Torres. Nicolas Siblot et Jérome Courrèges.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "34esimo Fuso",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "http://lyceejaydebeaufort.fr/actu/erasmus-1ere-mobilite-etudiante-8829/",
+    "evidence_quote": "La mobilité, centrée sur la question de l’inclusion, a également permis de rencontrer les membres de l’association « 34esimo Fuso » qui, pour la seconde fois, s’apprêtent à accueillir deux étudiantes de deuxième année pour leur stage de fin d’études. Les échanges ont été chaleureux et prometteurs : nos étudiantes ne risquent-elles pas de rester en Italie… ?",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Jay de Beaufort",
+    "city": "Périgueux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceejaydebeaufort.fr/",
+    "evidence_quote": "Lycée Jay de Beaufort"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions cooperation with an Italian association for student internships but does not contain a comprehensive partner list or dedicated international office contacts.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 12.9,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 144.0,
+  "mode": "gemini",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     207
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 160.3
+ }
+}
