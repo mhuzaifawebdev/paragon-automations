@@ -1,0 +1,83 @@
+{
+ "row_id": "r049",
+ "scraped_at": "2026-10-30T13:10:34Z",
+ "contacts": {
+  "row_id": "r049",
+  "institution_name": "ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS",
+  "institution_type": "university",
+  "official_website": "https://aphp-international.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://aphp-international.fr/contact/",
+   "evidence_quote": "3, avenue Victoria 75004 Paris – France"
+  },
+  "phone": {
+   "value": "+33 1 40 27 56 21",
+   "source_url": "https://aphp-international.fr/",
+   "evidence_quote": "Tél. : +33 1 40 27 56 21"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "François Simon",
+   "designation": "Chief Executive Officer",
+   "designation_local": "",
+   "email": "francois.simon@aphp-international.fr",
+   "office_email": "",
+   "phone": "+33 1 40 27 56 21",
+   "source_url": "https://aphp-international.fr/contact/",
+   "evidence_quote": "[François Simon] ... François SimonDirecteur général",
+   "email_source_url": "https://aphp-international.fr/docs/APHPI_Brochure-commerciale.pdf"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). François Simon is the Chief Executive Officer of AP-HP International. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Siège social",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://aphp-international.fr/contact/",
+    "evidence_quote": "3, avenue Victoria 75004 Paris – France"
+   },
+   {
+    "campus_name": "Locaux",
+    "city": "Paris",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://aphp-international.fr/contact/",
+    "evidence_quote": "10, rue des Fossés Saint-Marcel 75005 Paris – France"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides information about the institution's international consulting activities and leadership, but does not contain a list of Erasmus+ or academic partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.5,
+  "crawl_s": 23.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 12.0,
+  "total_seconds": 41.2
+ }
+}
