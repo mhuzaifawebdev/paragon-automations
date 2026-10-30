@@ -1,0 +1,86 @@
+{
+ "row_id": "r037",
+ "scraped_at": "2026-10-30T12:03:58Z",
+ "contacts": {
+  "row_id": "r037",
+  "institution_name": "MFR Sainte Victoire",
+  "institution_type": "college",
+  "official_website": "https://www.mfr-rousset.com/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.mfr-rousset.com/contact.html",
+   "evidence_quote": "France |"
+  },
+  "phone": {
+   "value": "0442663549",
+   "source_url": "https://www.mfr-rousset.com/",
+   "evidence_quote": "<tel 0442663549>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Florence VORUZ",
+   "designation": "Mobility Referent",
+   "designation_local": "",
+   "email": "florence.voruz@mfr.asso.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.mfr-rousset.com/page-203-mobilite---erasmus--mobilite-erasmus--.html",
+   "evidence_quote": "Pour plus d’informations, n’hésitez pas à contacter les Référentes Mobilité de la MFR : ... Florence VORUZ (florence.voruz@mfr.asso.fr) et Céline CALLIGARO (celine.calligaro@mfr.asso.fr)"
+  },
+  "alternates": [
+   {
+    "name": "Céline CALLIGARO",
+    "designation": "Mobility Referent",
+    "designation_local": "",
+    "email": "celine.calligaro@mfr.asso.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.mfr-rousset.com/page-203-mobilite---erasmus--mobilite-erasmus--.html",
+    "evidence_quote": "Pour plus d’informations, n’hésitez pas à contacter les Référentes Mobilité de la MFR : ... Florence VORUZ (florence.voruz@mfr.asso.fr) et Céline CALLIGARO (celine.calligaro@mfr.asso.fr)",
+    "why_chosen": "Mobility coordinator. Céline CALLIGARO is explicitly identified as a mobility referent responsible for Erasmus+ inquiries."
+   }
+  ],
+  "rung": "Mobility coordinator. Florence VORUZ is explicitly identified as a mobility referent responsible for Erasmus+ inquiries.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "MFR de Rousset",
+    "city": "Rousset",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.mfr-rousset.com/",
+    "evidence_quote": "MFR de Rousset - Quartier le Plan - 13790 ROUSSET"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "The evidence mentions that the institution has partners in Belgium and Portugal, but does not provide a specific list of partner names.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 10.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 19.3
+ }
+}
