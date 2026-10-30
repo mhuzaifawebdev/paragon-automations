@@ -1,0 +1,91 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-30T11:05:19Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Srednja sola Domzale",
+  "institution_type": "school",
+  "official_website": "https://www.ssdomzale.si/",
+  "country": null,
+  "phone": {
+   "value": "01/724 06 37",
+   "source_url": "https://www.ssdomzale.si/osnovne-informacije/",
+   "evidence_quote": "01/724 06 37 <tel 017240637>"
+  },
+  "phone_alt": [],
+  "generic_email": "tajnistvo@ssdomzale.si",
+  "generic_email_url": "https://www.ssdomzale.si/osnovne-informacije/",
+  "contact": {
+   "name": "mag. Primož Škofic",
+   "designation": "Director and Headmaster of the Gymnasium",
+   "designation_local": "",
+   "email": "gimnazija@ssdomzale.si",
+   "office_email": "",
+   "phone": "01/724 06 40",
+   "source_url": "https://www.ssdomzale.si/osnovne-informacije/",
+   "evidence_quote": "Direktor, ravnatelj Gimnazije, mag. Primož Škofic:"
+  },
+  "alternates": [
+   {
+    "name": "mag. Sofija Baškarad",
+    "designation": "Erasmus+ Project Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ssdomzale.si/erasmus-ka101-mobilnost-ucnega-osebja/",
+    "evidence_quote": "Koordinatorica: mag. Sofija Baškarad",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). mag. Sofija Baškarad is explicitly named as the coordinator for the Erasmus+ KA1 mobility project."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). mag. Primož Škofic is the director and headmaster of the gymnasium unit, serving as a primary institutional contact.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "francoska šola iz Lyona",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ssdomzale.si/happy-may-languages-week/",
+    "evidence_quote": "Dijaki 2. F so sodelovali v eTwinning projektu francoske šole iz Lyona Happy May Languages Week, kjer so z razredi iz Albanije, Češke, Danske, Francije, Grčije, Makedonije, Nemčije, Poljske, Portugalske, Romunije, Srbije, Turčije in Združenega kraljestva predstavljali svoje kulture, dežele in mesta, razmišljali o tujih jezikih in Evropi, pri tem pa se srečevali preko videokonferenc oziroma chata, v forumih ter izdelovali gife in plakate. Osrednji prispevek pa je bil videoposnetek, v katerem so s",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Srednja šola Domžale",
+    "city": "Domžale",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://www.ssdomzale.si/osnovne-informacije/",
+    "evidence_quote": "Lokacija: Cesta talcev 12, 1230 Domžale"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The evidence details individual Erasmus staff mobility projects and participation in eTwinning, but does not provide a comprehensive list of institutional partner universities or organizations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 12.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "email_search_s": 1.2,
+  "total_seconds": 18.3
+ }
+}
