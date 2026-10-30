@@ -1,0 +1,119 @@
+{
+ "row_id": "r044",
+ "scraped_at": "2026-10-30T12:16:01Z",
+ "contacts": {
+  "row_id": "r044",
+  "institution_name": "Institut de Formation des Professionnels de Santé",
+  "institution_type": "college",
+  "official_website": "https://www.ifps-brest.bzh/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.ifps-brest.bzh/institut-de-formation-des-professionnels-de-sante/",
+   "evidence_quote": "dédié à tous les professionnels de santé de France* (au sens du Code de Santé Publique, chapitre IV)."
+  },
+  "phone": {
+   "value": "02 98 34 23 84",
+   "source_url": "https://www.ifps-brest.bzh/nous-contacter/",
+   "evidence_quote": "Aides-Soignants : 02 98 34 23 84"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Agence Nationale du DPC",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ifps-brest.bzh/institut-de-formation-des-professionnels-de-sante/",
+    "evidence_quote": "Certifié Qualiopi, le service propose des actions de formations dont la plupart sont agréées par l’Agence Nationale du DPC (ANDPC) et par le Fonds Interprofessionnel de Formation des Professionnels Libéraux (FIFPL).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fonds Interprofessionnel de Formation des Professionnels Libéraux",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ifps-brest.bzh/institut-de-formation-des-professionnels-de-sante/",
+    "evidence_quote": "Certifié Qualiopi, le service propose des actions de formations dont la plupart sont agréées par l’Agence Nationale du DPC (ANDPC) et par le Fonds Interprofessionnel de Formation des Professionnels Libéraux (FIFPL).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bibus",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ifps-brest.bzh/nous-contacter/",
+    "evidence_quote": "Venir en bus avec Bibus",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IFPS Brest",
+    "city": "Brest",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ifps-brest.bzh/",
+    "evidence_quote": "L’Institut de Formation des Professionnels de Santé (IFPS) du CHU de Brest réunit des instituts paramédicaux et écoles spécialisées qui proposent des formations initiales et continues à Brest et à Carhaix."
+   },
+   {
+    "campus_name": "IFPS Carhaix",
+    "city": "Carhaix",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.ifps-brest.bzh/",
+    "evidence_quote": "L’Institut de Formation des Professionnels de Santé (IFPS) du CHU de Brest réunit des instituts paramédicaux et écoles spécialisées qui proposent des formations initiales et continues à Brest et à Carhaix."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 6,
+  "coverage_note": "The website does not list any international mobility coordinators, Erasmus+ partners, or specific international agreements. The institution focuses on professional health training and continuing education.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 9.0,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     239
+    ],
+    "returned": 3,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 22.3
+ }
+}

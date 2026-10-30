@@ -1,0 +1,132 @@
+{
+ "row_id": "r049",
+ "scraped_at": "2026-10-30T12:16:16Z",
+ "contacts": {
+  "row_id": "r049",
+  "institution_name": "Lycée Douanier Rousseau",
+  "institution_type": "school",
+  "official_website": "https://douanier-rousseau.paysdelaloire.e-lyco.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 43 53 04 60",
+   "source_url": "https://douanier-rousseau.paysdelaloire.e-lyco.fr/",
+   "evidence_quote": "Tél : 02 43 53 04 60"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Madame PINTARD",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://douanier-rousseau.paysdelaloire.e-lyco.fr/wp-content/uploads/sites/20/2024/02/Comite-de-pilotage-Mobilite-internationale-Erasmus-ROUSSEAU.pdf",
+   "evidence_quote": "Proviseure ... Madame PINTARD"
+  },
+  "alternates": [
+   {
+    "name": "Madame GOURBAL",
+    "designation": "Vocational Teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://douanier-rousseau.paysdelaloire.e-lyco.fr/wp-content/uploads/sites/20/2024/02/Comite-de-pilotage-Mobilite-internationale-Erasmus-ROUSSEAU.pdf",
+    "evidence_quote": "Enseignants du domaine professionnel ... Madame GOURBAL",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She supports students in finding internships and validates study contracts for mobility."
+   },
+   {
+    "name": "Madame SOUCHON – Monsieur PONS",
+    "designation": "Modern Language Teachers",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://douanier-rousseau.paysdelaloire.e-lyco.fr/wp-content/uploads/sites/20/2024/02/Comite-de-pilotage-Mobilite-internationale-Erasmus-ROUSSEAU.pdf",
+    "evidence_quote": "Enseignants de langues vivantes ... Madame SOUCHON – Monsieur PONS",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). They are responsible for linguistic preparation and CV development for mobility participants."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the principal of the institution and a member of the international mobility steering committee.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "OLS",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://douanier-rousseau.paysdelaloire.e-lyco.fr/wp-content/uploads/sites/20/2024/02/Comite-de-pilotage-Mobilite-internationale-Erasmus-ROUSSEAU.pdf",
+    "evidence_quote": "Plateforme OLS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ADEME",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://douanier-rousseau.paysdelaloire.e-lyco.fr/non-categorise/defi-mobilite/",
+    "evidence_quote": "Le lycée D. ROUSSEAU par l’intermédiaire de ses éco-délégués s’engage dans le défi mobilité proposé par l’ADEME (Agence De l’Environnement et de la Maîtrise de l’Énergie)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agence Erasmus+ France / Éducation Formation",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://douanier-rousseau.paysdelaloire.e-lyco.fr/wp-content/uploads/sites/20/2026/03/accreditation-certificat.pdf",
+    "evidence_quote": "Agence Erasmus+ France / Éducation Formation",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Douanier Rousseau",
+    "city": "Laval",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://douanier-rousseau.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "Lycée Douanier Rousseau | Lycée Enseignt General Et Technologique - Laval"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The institution does not provide a list of specific partner organizations or universities in the evidence. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 14.7,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 9.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     114
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 29.9
+ }
+}
