@@ -1,0 +1,99 @@
+{
+ "row_id": "r028",
+ "scraped_at": "2026-10-30T12:42:20Z",
+ "contacts": {
+  "row_id": "r028",
+  "institution_name": "Institut Nicolau Copernic",
+  "institution_type": "school",
+  "official_website": "https://www.copernic.cat/ca",
+  "country": null,
+  "phone": {
+   "value": "+34 937807517",
+   "source_url": "https://www.copernic.cat/ca",
+   "evidence_quote": "Telèfon: +34 937807517"
+  },
+  "phone_alt": [],
+  "generic_email": "administracio@copernic.cat",
+  "generic_email_url": "https://copernic.cat/ca/horaris-i-contacte",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UAB",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.copernic.cat/ca",
+    "evidence_quote": "Guanyadora del primer premi Argó de la UAB",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Moodle",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://cv.copernic.cat/login/index.php",
+    "evidence_quote": "Powered by Moodle",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Google",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://cv.copernic.cat/login/index.php",
+    "evidence_quote": "Entrar amb Google",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut Nicolau Copèrnic",
+    "city": "Terrassa",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.copernic.cat/ca/contacte",
+    "evidence_quote": "C/ Torrent del Batlle, 10. 08225 - Terrassa"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The evidence provides information about Erasmus programs and general contact details, but does not list specific partner institutions or a named Erasmus coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 14.3,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 46.7
+ }
+}

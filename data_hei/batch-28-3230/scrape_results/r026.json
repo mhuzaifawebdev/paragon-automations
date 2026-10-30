@@ -1,0 +1,125 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-10-30T12:42:28Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "Lycée général et technologique Jacques Prévert",
+  "institution_type": "school",
+  "official_website": "https://prevert.lycee.ac-normandie.fr/",
+  "country": null,
+  "phone": {
+   "value": "02 31 30 15 00",
+   "source_url": "https://prevert.lycee.ac-normandie.fr/",
+   "evidence_quote": "Tél. 02 31 30 15 00 <tel +33231301500>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Laurent Cournil",
+   "designation": "Contact",
+   "designation_local": "",
+   "email": "laurent.cournil@ac-normandie.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://erasmus-prevert.lycee.ac-normandie.fr/",
+   "evidence_quote": "Contact <laurent.cournil@ac-normandie.fr>"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Laurent Cournil is explicitly listed as the contact for Erasmus+ projects at the institution.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "lycée de Stadtlohn",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus-prevert.lycee.ac-normandie.fr/",
+    "evidence_quote": "Appairage avec le lycée de Stadtlohn",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kinema",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus-prevert.lycee.ac-normandie.fr/",
+    "evidence_quote": "Kinema",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ENVIE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus-prevert.lycee.ac-normandie.fr/",
+    "evidence_quote": "Participation au consortium ENVIE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rotary Club",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://erasmus-prevert.lycee.ac-normandie.fr/",
+    "evidence_quote": "Rotary Club / Accueil d’élèves étrangers",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Jacques Prévert",
+    "city": "Pont-Audemer",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://prevert.lycee.ac-normandie.fr/",
+    "evidence_quote": "Lycée Jacques Prévert - Pont-Audemer"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 4,
+  "coverage_note": "The evidence provides a specific partner (lycée de Stadtlohn) but does not contain a comprehensive list of all Erasmus+ partners. Contact information is limited to a single project coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 19.1,
+  "crawl_s": 33.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 54.7
+ }
+}
