@@ -1,0 +1,85 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-10-30T10:29:15Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "LSC",
+  "institution_type": "college",
+  "official_website": "https://lscmalta.edu.mt/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://lscmalta.edu.mt/",
+   "evidence_quote": "Floriana FRN9020, Malta"
+  },
+  "phone": {
+   "value": "+356 2122 6200",
+   "source_url": "https://lscmalta.edu.mt/",
+   "evidence_quote": "+356 2122 6200"
+  },
+  "phone_alt": [],
+  "generic_email": "info@lscmalta.edu.mt",
+  "generic_email_url": "https://lscmalta.edu.mt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "University of Suffolk",
+    "partner_country": "United Kingdom",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lscmalta.edu.mt/partners/",
+    "evidence_quote": "The University of Suffolk is a transformational university, absorbing the best of the UK university traditions and aligning them with a twenty-first century audience..",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "London School of Commerce Malta",
+    "city": "Floriana",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://lscmalta.edu.mt/",
+    "evidence_quote": "Europa Centre, St. Anne Street"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "No named staff or specific Erasmus coordinators are listed in the evidence. The evidence mentions partnership with the University of Suffolk.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 6.7,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     73
+    ],
+    "returned": 6,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 19.3
+ }
+}

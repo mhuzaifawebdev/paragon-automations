@@ -1,0 +1,89 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-30T10:29:15Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Lycée Simone Weil",
+  "institution_type": "school",
+  "official_website": "https://simone-weil.ent.auvergnerhonealpes.fr/",
+  "country": null,
+  "phone": {
+   "value": "04 77 92 12 62",
+   "source_url": "https://simone-weil.ent.auvergnerhonealpes.fr/page-d-accueil-de-l-ent/contacts/",
+   "evidence_quote": "Tél : 04 77 92 12 62"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Maria BARBARA",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://simone-weil.ent.auvergnerhonealpes.fr/direction-administration/direction-et-administration-du-lycee-simone-weil-3475.htm?URL_BLOG_FILTRE=%231599",
+   "evidence_quote": "Proviseure : Mme Maria BARBARA"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the principal, she is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "GRETA CFA Loire",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://simone-weil.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "L'apprentissage avec le GRETA CFA Loire",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Simone Weil",
+    "city": "Saint-Priest-en-Jarez",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://simone-weil.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "Lycée Simone WEIL 63 av. Albert Raimond 42270 SAINT-PRIEST-EN-JAREZ"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain any information regarding international partnerships or Erasmus+ agreements. The contact currently on file, France Lemaitre, does not appear in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 11.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 55.6,
+  "mode": "gemini",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     111
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 70.6
+ }
+}
