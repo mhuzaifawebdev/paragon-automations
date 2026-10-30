@@ -1,0 +1,106 @@
+{
+ "row_id": "r051",
+ "scraped_at": "2026-10-30T16:00:35Z",
+ "contacts": {
+  "row_id": "r051",
+  "institution_name": "SBBS Technik Gera",
+  "institution_type": "college",
+  "official_website": "https://www.sbbs-technik.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ralf Günther",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "0365 437 16 11",
+   "source_url": "https://www.sbbs-technik.de/ueber-uns/schulleitung-und-lehrerteam/",
+   "evidence_quote": "Ralf Günther ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Ingolf Zupfer",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sbbs-technik.de/ueber-uns/schulleitung-und-lehrerteam/",
+    "evidence_quote": "Ingolf Zupfer ... stellv. Schulleiter",
+    "why_chosen": "Principal / director (no Erasmus contact found). Ingolf Zupfer serves as the deputy principal of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Ralf Günther is the principal of the institution and is involved in international Erasmus+ activities.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Silbitz Group",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sbbs-technik.de/",
+    "evidence_quote": "Kooperation mit Silbitz Group",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rijn Ijssel",
+    "partner_country": "Netherlands",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://www.sbbs-technik.de/besuch-von-kolleginnen-des-sbbs-technik-im-rahmen-von-erasmus-in-arnheim-niederlande/",
+    "evidence_quote": "Im Rahmen des Erasmus+-Programms hatte die Schulleitung gemeinsam mit zwei weiteren Kollegen unserer Schule die Gelegenheit, die niederländische Partnerstadt Arnheim zu besuchen und Einblicke in die dortigen Ausbildungs- und Arbeitsstrukturen zu erhalten. Bereits seit mehreren Jahren pflegen die SBBS Technik Gera und das Ausbildungszentrum Rijn Ijssel in Arnheim einen regen Austausch von Auszubildenden und ermöglichen Hospitationen für Lehrkräfte.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mercedes-Benz Auto-Scholz-AVS",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.sbbs-technik.de/besuch-von-kolleginnen-des-sbbs-technik-im-rahmen-von-erasmus-in-arnheim-niederlande/",
+    "evidence_quote": "Parallel dazu hatten die Kolleg*innen die Gelegenheit, drei Auszubildende aus Gera zu besuchen, die aktuell für drei Wochen in zwei Partnerwerkstätten in Arnheim praktische Erfahrungen sammeln. Bei diesem Treffen fanden interessante Gespräche über Ausbildungsinhalte, Techniken und berufliche Perspektiven statt, die das gegenseitige Lernen weiter voranbringen. Unterstützt wurde dieses Job-Shadowing von Mercedes-Benz Auto-Scholz-AVS, die als Ausbildungspartner den internationalen Austausch der ang",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "SBBS Technik Gera",
+    "city": "Gera",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.sbbs-technik.de/",
+    "evidence_quote": "Herzlich willkommen an der SBBS Technik Gera"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 7,
+  "coverage_note": "The institution is a vocational school (Berufsschule). While Erasmus+ participation is confirmed, no specific international office or dedicated Erasmus coordinator contact is listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.5,
+  "crawl_s": 11.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 28.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 5.0,
+  "total_seconds": 48.6
+ }
+}
