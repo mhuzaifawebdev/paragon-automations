@@ -3800,22 +3800,34 @@
    "source": "DTS-Resource Management Merged",
    "file_id": "1WM2B7pIQk4eQH_kFxLGnzDsdje9cG0C9hcgKkc-Y2sY",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 676,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-30T20:45:37Z",
    "last_start": "2026-10-30T20:45:37Z",
    "restarts": 0,
-   "cap_usd": 658.51
+   "cap_usd": 658.51,
+   "crm_rows": 121,
+   "no_number": 609,
+   "spend_recorded": true,
+   "cost_usd": 1.8706,
+   "drive_link": "https://docs.google.com/spreadsheets/d/11hNwDZX5bKxC5U3z6bGE8bN027TMEd_H/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 499,
+   "finished": "2026-10-30T22:24:18Z",
+   "reason": "656 institutes, 288 with a contact"
   },
   {
    "batch": "dts-risk-management-merged",
    "source": "DTS Risk Management Merged",
    "file_id": "1lao5TwPdH5teeTAsxtfrBo02RhbkQ1vMav1pO2wXw-0",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 831,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-30T22:24:18Z",
+   "last_start": "2026-10-30T22:24:18Z",
+   "restarts": 0,
+   "cap_usd": 656.64
   },
   {
    "batch": "professional-readiness-calendly-100",
@@ -4048,7 +4060,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-30T20:56:54Z",
+ "updated": "2026-10-30T22:24:18Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
