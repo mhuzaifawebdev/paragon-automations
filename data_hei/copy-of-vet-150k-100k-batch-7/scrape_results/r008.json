@@ -1,0 +1,95 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-30T16:14:36Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Lycée Professionnel Atlantique",
+  "institution_type": "school",
+  "official_website": "https://lyceeatlantique.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Lisiane David",
+   "designation": "Erasmus+ Reference Teacher",
+   "designation_local": "",
+   "email": "lisiane.david@ac-poitiers.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lyceeatlantique.fr/erasmus/",
+   "evidence_quote": "Adresser à lisiane.david@ac-poitiers.fr <lisiane.david@ac-poitiers.fr>, Professeur référent Erasmus+ :"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Lisiane David is explicitly identified as the reference teacher for the Erasmus+ program.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: web search (Google via Gemini), named 'Lycée de l'Atlantique' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Union Européenne",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeatlantique.fr/erasmus/",
+    "evidence_quote": "Enrichir le CV par l’attestation Europass Mobilité : document officiel de l’Union Européenne qui permet la reconnaissance des compétences acquises",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rectorat",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeatlantique.fr/erasmus/",
+    "evidence_quote": "Euro Mobi Pro délivrée par le Rectorat.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée de l'Atlantique",
+    "city": "Royan",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceeatlantique.fr/",
+    "evidence_quote": "2 rue de Montréal"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 3,
+  "coverage_note": "The website mentions numerous company partners in general terms but does not provide a specific list of partner institutions or organizations. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 66.7,
+  "crawl_s": 82.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     80
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 151.3
+ }
+}
