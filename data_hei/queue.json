@@ -3548,22 +3548,34 @@
    "source": "Copy of VET 150K - 100K Batch 7 _ Aiman(B2)-14",
    "file_id": "17BHdEJj9Sp-7Da_0DSm6dfYwOK-89u20lSPeNW4r0NE",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 12,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-30T15:50:48Z",
    "last_start": "2026-10-30T15:50:48Z",
    "restarts": 0,
-   "cap_usd": 681.28
+   "cap_usd": 681.28,
+   "crm_rows": 3,
+   "no_number": 9,
+   "spend_recorded": true,
+   "cost_usd": 0.3412,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1IVMSwjToQmtvhL7b6ptHNUamOwB792RM/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 12,
+   "finished": "2026-10-30T15:54:13Z",
+   "reason": "12 institutes, 8 with a contact"
   },
   {
    "batch": "copy-of-vet-150k-100k-batch-1-49-b1",
    "source": "Copy of VET 150K - 100K BATCH 1 _49 (B1)",
    "file_id": "19XSoNW2Eb30FILnlgfeY5BwAji7jvgrASGgQ8ALQPXY",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 138,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-30T15:54:13Z",
+   "last_start": "2026-10-30T15:54:13Z",
+   "restarts": 0,
+   "cap_usd": 680.94
   },
   {
    "batch": "copy-of-vet-150k-100k-batch-7",
@@ -3904,7 +3916,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-30T15:50:48Z",
+ "updated": "2026-10-30T15:54:13Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
