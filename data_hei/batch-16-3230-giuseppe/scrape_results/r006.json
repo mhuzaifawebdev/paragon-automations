@@ -1,0 +1,140 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-10-30T13:48:31Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "MF VITENSKAPELIG HOYSKOLE",
+  "institution_type": "university",
+  "official_website": "https://mf.no/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "international@mf.no",
+  "generic_email_url": "https://mf.no/en/students/mf-international/become-erasmus-partner",
+  "contact": {
+   "name": "Dorothee Witte",
+   "designation": "Senior Adviser, MF International",
+   "designation_local": "",
+   "email": "Dorothee.Witte@mf.no",
+   "office_email": "international@mf.no",
+   "phone": "+47 22 59 05 27",
+   "source_url": "https://mf.no/en/students/mf-international/become-erasmus-partner",
+   "evidence_quote": "Dorothee WitteDorothee Witte ... Senior Adviser, MF International",
+   "email_source_url": "https://mf.no/en/staff/dorothee-witte"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. She is the Senior Adviser at MF International and the primary contact for Erasmus+ partnerships and staff/student mobility. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "OsloMet",
+    "partner_country": "Norway",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://mf.no/en/bibliotek/resources-faculty/praktisk-info-forskere/template-agreements-management-personal-data",
+    "evidence_quote": "The templates have been designed in consultation with the research administration at OsloMet and NTNU, and are based on these institutions' templates.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NTNU",
+    "partner_country": "Norway",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://mf.no/en/bibliotek/resources-faculty/praktisk-info-forskere/template-agreements-management-personal-data",
+    "evidence_quote": "The templates have been designed in consultation with the research administration at OsloMet and NTNU, and are based on these institutions' templates.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sikt",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://mf.no/en/research/personal-data-management-guidelines",
+    "evidence_quote": "MF has an Agreement concerning Privacy Services in Research (Avtale om personverntjeneste i forskning) with Sikt. The agreement regulates rights and duties between the two parties: MF is the institution responsible for the use of data when it comes to all research projects, which means that we have a responsibility for complying to all statutory requirements.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Norwegian Data Protection Authority",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://mf.no/en/research/personal-data-management-guidelines",
+    "evidence_quote": "A good description of information considered to be personal data and sensitive data can be found at the Norwegian Data Protection Authority website.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NSD",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://mf.no/en/research/personal-data-management-guidelines",
+    "evidence_quote": "The Rector, via the Pro-Rector, has overall responsibility for all use of personal data in research and academic work at MF. The Pro-Rector has responsibility for ensuring that all researchers, advisors and students are informed of MF's procedures for the use of personal data in research and academic work. The advisor for research administration is NSD's contact at MF and has responsibility for developing procedures and for internal inspection of the use of personal data in these types of projec",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Regional Committee for Medical and Health Research Ethics (REC)",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://mf.no/en/research/personal-data-management-guidelines",
+    "evidence_quote": "Project associates and students are obliged to comply with applicable laws, regulations and procedures, in addition to the plan for project completion as this has been agreed upon with the project leader and reported to Sikt and possibly a Regional Committee for Medical and Health Research Ethics (REC).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "MF Norwegian School of Theology, Religion and Society",
+    "city": "Oslo",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://mf.no/",
+    "evidence_quote": "Majorstuen 0302 Oslo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of specific partner universities. It mentions that MF cooperates with European universities for Erasmus+ but does not name them.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 15.5,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 25.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.3,
+  "slices": [
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 9,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 44.1
+ }
+}
