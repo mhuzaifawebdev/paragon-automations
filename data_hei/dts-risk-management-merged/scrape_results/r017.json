@@ -1,0 +1,155 @@
+{
+ "row_id": "r017",
+ "scraped_at": "2026-10-30T22:27:07Z",
+ "contacts": {
+  "row_id": "r017",
+  "institution_name": "Lake Superior College",
+  "institution_type": "college",
+  "official_website": "https://www.lsc.edu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Lisa Schlotterhausen",
+   "designation": "Interim VP of Academic & Student Affairs",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.lsc.edu/about-lsc/leadership/leadership-team-administration/",
+   "evidence_quote": "Lisa Schlotterhausen ... MnSCU Administrator 9 - Interim VP of Academic & Student Affairs"
+  },
+  "alternates": [],
+  "rung": "Other role. She oversees academic and student affairs, which are central to international mobility and student exchange programs.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "University of Wisconsin-Superior",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lsc.edu/",
+    "evidence_quote": "University of Wisconsin-Superior in the Transfer Center",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Minnesota State",
+    "partner_country": "USA",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lsc.edu/",
+    "evidence_quote": "Lake Superior College | Duluth, MN – A member of Minnesota State",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Minnesota State Colleges and Universities System",
+    "partner_country": "United States",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lsc.edu/",
+    "evidence_quote": "Affirmative Action: The Minnesota State Colleges and Universities System is an equal opportunity employer and educator.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mine Safety and Health Administration (MSHA)",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lsc.edu/",
+    "evidence_quote": "Mine Safety and Health Administration (MSHA)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Minnesota Department of Transportation (MnDOT)",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lsc.edu/",
+    "evidence_quote": "MnDOT Technical Certification",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Duluth Promise",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lsc.edu/about-lsc/sem/",
+    "evidence_quote": "Align work with regional initiatives, such as Duluth Promise.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "LSC Main Campus",
+    "city": "Duluth",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.lsc.edu/",
+    "evidence_quote": "Concurrent Enrollment (PSEO and CITS) Information Session Thursday, November 5 at 5 p.m. at the LSC Main Campus, Room S165. RSVP HERE"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The provided evidence does not contain a list of international Erasmus+ or mobility partners. The institution is a community college and does not appear to have a dedicated international relations office.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 12.4,
+  "ai_calls": 5,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 34.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 4,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 51.3
+ }
+}

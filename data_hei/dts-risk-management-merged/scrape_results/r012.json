@@ -1,0 +1,78 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-30T22:26:13Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Visit Temecula Valley",
+  "institution_type": "unknown",
+  "official_website": "https://www.visittemeculavalley.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@visittemeculavalley.com",
+  "generic_email_url": "https://www.visittemeculavalley.com/",
+  "contact": {
+   "name": "Annette Brown",
+   "designation": "CEO/Chief Marketing Officer",
+   "designation_local": "",
+   "email": "annette@visittemeculavalley.com",
+   "office_email": "",
+   "phone": "951-252-2141",
+   "source_url": "https://www.visittemeculavalley.com/contact-us/",
+   "evidence_quote": "Annette Brown ... CEO/Chief Marketing Officer"
+  },
+  "alternates": [
+   {
+    "name": "Michelle Lindsey",
+    "designation": "Director of Partner Services",
+    "designation_local": "",
+    "email": "michelle@visittemeculavalley.com",
+    "office_email": "",
+    "phone": "951-252-2136",
+    "source_url": "https://www.visittemeculavalley.com/contact-us/",
+    "evidence_quote": "Michelle Lindsey ... Director of Partner Services",
+    "why_chosen": "Secretary / administration (last resort). Michelle Lindsey manages partner services and is a primary contact for partnership inquiries."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Annette Brown is the CEO and the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Visit Temecula Valley Office",
+    "city": "Temecula",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.visittemeculavalley.com/",
+    "evidence_quote": "28690 Mercedes Street, Suite 201"
+   }
+  ],
+  "stated_total": 200,
+  "stated_total_quote": "Visit Temecula Valley is a nonprofit organization that has approximately 200 partners that are specifically tourism related businesses including wineries, restaurants, retail and specialty boutiques, hotels and more. You may be surprised to know that over $1.1 billion dollars have been generated in tourism revenue in 2018, in Temecula alone.",
+  "stated_total_url": "https://www.visittemeculavalley.com/partners/join-vtv/vtv-member-application/",
+  "truncated": true,
+  "total_seen": 200,
+  "pages_read": 10,
+  "coverage_note": "The institution is a destination marketing organization rather than an educational institution, so it does not have Erasmus+ partners or academic campuses. The evidence provides a list of tourism-related business partners rather than academic or mobility partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 12.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 14.7
+ }
+}
