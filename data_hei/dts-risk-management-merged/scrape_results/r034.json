@@ -1,0 +1,141 @@
+{
+ "row_id": "r034",
+ "scraped_at": "2026-10-30T22:32:53Z",
+ "contacts": {
+  "row_id": "r034",
+  "institution_name": "Eldon C Stutsman",
+  "institution_type": "unknown",
+  "official_website": "https://stutsmans.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Scott Szymanek",
+   "designation": "President & CFO",
+   "designation_local": "",
+   "email": "sszymanek@stutsmans.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://stutsmans.com/",
+   "evidence_quote": "[Scott Szymanek, President and CFO]Scott Szymanek ... President & CFO"
+  },
+  "alternates": [
+   {
+    "name": "Scott Stutsman",
+    "designation": "CEO",
+    "designation_local": "",
+    "email": "scott@stutsmans.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://stutsmans.com/",
+    "evidence_quote": "[Scott Stutsman, CEO]Scott Stutsman ... CEO",
+    "why_chosen": "Principal / director (no Erasmus contact found). Scott Stutsman is the CEO of the institution."
+   },
+   {
+    "name": "Pat Mougin",
+    "designation": "Operations Manager",
+    "designation_local": "",
+    "email": "pmougin@stutsmans.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://stutsmans.com/",
+    "evidence_quote": "[Pat Mougin, Operations Manager]Pat Mougin ... Operations Manager",
+    "why_chosen": "Secretary / administration (last resort). Pat Mougin is the Operations Manager of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Scott Szymanek is the President and CFO of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Thompson Aero",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://stutsmans.com/our-new-partner-in-the-sky/",
+    "evidence_quote": "Keep your eyes to the sky for some changes coming this fungicide season. We are excited to announce Thompson Aero of Amana as our new partner for aerial application!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Iowa Agribusiness Environmental Partnership",
+    "partner_country": "USA",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://stutsmans.com/iowa-agribusiness-environmental-partnership/",
+    "evidence_quote": "Stutsmans Joins the Iowa Agribusiness Environmental Partnership | Stutsmans",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mears, Inc.",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://stutsmans.com/agronomic-mixology-the-science-partnership-behind-ammonium-phosphate/",
+    "evidence_quote": "A friendship and a partnership. Since the late 70s, Galen Mears and Ron Stutsman have been friends and partners in business. That’s also about the same time that Galen built his first portable liquid poly-phosphate processing unit to make ammonium phosphate fertilizers – the reason there’s a big cloud of steam coming from our campus a few times every year.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Eldon C. Stutsman, Inc.",
+    "city": "Hills",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://stutsmans.com/",
+    "evidence_quote": "Hills, Iowa 52235"
+   },
+   {
+    "campus_name": "Fairfax Facility",
+    "city": "Fairfax",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://stutsmans.com/",
+    "evidence_quote": "Fairfax, Iowa 52228"
+   },
+   {
+    "campus_name": "Riverside Facility",
+    "city": "Riverside",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://stutsmans.com/",
+    "evidence_quote": "Riverside, Iowa 52327"
+   },
+   {
+    "campus_name": "Wellman Facility",
+    "city": "Wellman",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://stutsmans.com/",
+    "evidence_quote": "Wellman, Iowa 52356"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution is a private agricultural business, not an educational institution, so it does not have Erasmus+ partnerships or mobility programs. The evidence provides a list of business partners and affiliates.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 18.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 22.1
+ }
+}
