@@ -1,0 +1,71 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-10-30T13:15:05Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "ITC Bellotti-school",
+  "institution_type": "school",
+  "official_website": "https://www.isbelotti.edu.it/home/index.php",
+  "country": null,
+  "phone": {
+   "value": "035 31.30.35",
+   "source_url": "https://www.isbelotti.edu.it/home/index.php",
+   "evidence_quote": "Telefono: 035 31.30.35 - E-mail: Belotti@isbelotti.edu.it - PEC: bgis039007@pec.istruzione.it"
+  },
+  "phone_alt": [],
+  "generic_email": "belotti@isbelotti.edu.it",
+  "generic_email_url": "https://www.isbelotti.edu.it/home/index.php",
+  "contact": {
+   "name": "Antonio Mascello",
+   "designation": "Website manager",
+   "designation_local": "",
+   "email": "webmaster@isbelotti.edu.it",
+   "office_email": "",
+   "phone": "035.31.30.35",
+   "source_url": "https://www.isbelotti.edu.it/informazioni/contatti.php",
+   "evidence_quote": "Responsabile del sito web ... Prof. Antonio Mascello |"
+  },
+  "alternates": [],
+  "rung": "Other role. He is the person responsible for the school website.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Istituto Superiore Statale Bortolo Belotti",
+    "city": "Bergamo",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.isbelotti.edu.it/home/index.php",
+    "evidence_quote": "Via per Azzano N. 5 - 24126 BERGAMO - C.F.: 95235170164 - Codice Mecc.: BGIS039007 - Codice Univoco Ufficio: UFRUT8"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "The institution does not provide a list of partner schools or organizations in the evidence. The evidence focuses on internal regulations for student mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 15.1,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 6.6,
+  "total_seconds": 28.1
+ }
+}
