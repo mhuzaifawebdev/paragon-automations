@@ -1,0 +1,67 @@
+{
+ "row_id": "r368",
+ "scraped_at": "2026-10-30T19:49:48Z",
+ "contacts": {
+  "row_id": "r368",
+  "institution_name": "American Airlines Center",
+  "institution_type": "unknown",
+  "official_website": "https://www.americanairlinescenter.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Event Booking",
+   "designation": "Event Booking Department",
+   "designation_local": "",
+   "email": "EventBooking@americanairlinescenter.com",
+   "office_email": "",
+   "phone": "214-665-4232",
+   "source_url": "https://www.americanairlinescenter.com/connect-with-us/contactus",
+   "evidence_quote": "Event Booking:"
+  },
+  "alternates": [],
+  "rung": "Other role. This department manages event bookings for the institution.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "American Airlines Center",
+    "city": "Dallas",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.americanairlinescenter.com/",
+    "evidence_quote": "2500 Victory Avenue"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 4,
+  "coverage_note": "The institution is a sports and entertainment arena, not an educational institution. No information regarding Erasmus+ or international mobility partnerships is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 6.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 10.5
+ }
+}
