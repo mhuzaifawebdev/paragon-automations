@@ -1,0 +1,72 @@
+{
+ "row_id": "r125",
+ "scraped_at": "2026-10-30T21:02:01Z",
+ "contacts": {
+  "row_id": "r125",
+  "institution_name": "Mediclic",
+  "institution_type": "unknown",
+  "official_website": "https://www.mediclic.cl/",
+  "country": {
+   "value": "Chile",
+   "source_url": "https://www.mediclic.cl/",
+   "evidence_quote": "Mediclic Chile"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contacto@mediclic.cl",
+  "generic_email_url": "https://www.mediclic.cl/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fonasa",
+    "partner_country": "Chile",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mediclic.cl/nosotros",
+    "evidence_quote": "Llevamos más de 13 años generando convenios con empresas, municipalidades y aseguradoras para transformar la atención médica a través de desarrollos tecnológicos e innovación, convirtiéndonos en la primera plataforma de telemedicina acreditada por Fonasa cumpliendo con todas las exigencias legales, tecnológicas y protocolares para ofrecer atención a pacientes y profesionales de la salud.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The evidence describes Mediclic as a telemedicine platform and startup rather than an educational institution. No academic partners or physical campuses are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 10.9,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 21.6
+ }
+}
