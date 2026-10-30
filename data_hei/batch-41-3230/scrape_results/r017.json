@@ -1,0 +1,88 @@
+{
+ "row_id": "r017",
+ "scraped_at": "2026-10-30T10:11:46Z",
+ "contacts": {
+  "row_id": "r017",
+  "institution_name": "LPO JULES VERNE",
+  "institution_type": "school",
+  "official_website": "https://www.lpo-julesverne.fr/",
+  "country": null,
+  "phone": {
+   "value": "03 23 83 90 00",
+   "source_url": "https://www.lpo-julesverne.fr/",
+   "evidence_quote": "contact@lpo-julesverne.fr 03 23 83 90 00"
+  },
+  "phone_alt": [],
+  "generic_email": "contact@lpo-julesverne.fr",
+  "generic_email_url": "https://www.lpo-julesverne.fr/",
+  "contact": {
+   "name": "P. PARMENTIER",
+   "designation": "Director of studies / training manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.lpo-julesverne.fr/equipe/",
+   "evidence_quote": "Directeur délégué aux formations M P. PARMENTIER"
+  },
+  "alternates": [],
+  "rung": "Other role. P. PARMENTIER is listed as the director delegated to training programmes in the administration staff.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Jules Verne",
+    "city": "Château-Thierry",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lpo-julesverne.fr/",
+    "evidence_quote": "A 90 kilomètres de Paris, dominant la vallée de la Marne, au 23 rue des Chesneaux, est situé le Lycée Jules Verne de Château-Thierry."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides general school details, staff lists, and course offerings, but does not list any international partner institutions or Erasmus agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 9.4,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.0,
+  "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     251
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 89.0
+ }
+}
