@@ -1,0 +1,107 @@
+{
+ "row_id": "r017",
+ "scraped_at": "2026-10-30T10:30:39Z",
+ "contacts": {
+  "row_id": "r017",
+  "institution_name": "Lycée Alexandre Ribot",
+  "institution_type": "school",
+  "official_website": "https://www.alexandre-ribot.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Laëtitia FROIDEVAL",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.alexandre-ribot.fr/images//LyceeMenuGauche/Organigramme_Lyce_2026-2027.pdf",
+   "evidence_quote": "Secrétariat de Direction ... Me Laëtitia FROIDEVAL"
+  },
+  "alternates": [
+   {
+    "name": "François BLÉRIOT",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.alexandre-ribot.fr/images//LyceeMenuGauche/Organigramme_Lyce_2026-2027.pdf",
+    "evidence_quote": "Proviseur Adjoint ... M. François BLÉRIOT",
+    "why_chosen": "Other role. François BLÉRIOT is listed as the Proviseur Adjoint (deputy principal) of the institution."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Laëtitia FROIDEVAL is listed in the executive secretariat of the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CNAM",
+    "partner_country": "",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.alexandre-ribot.fr/",
+    "evidence_quote": "Une 3ème année de Licence générale en Management Gestion des Organisations en partenariat avec le CNAM.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conservatoire de Saint-Omer",
+    "partner_country": "",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.alexandre-ribot.fr/",
+    "evidence_quote": "Choisissez la filière technologique ST2MD : Sciences et Techniques de la Musique, Musiques Actuelles Jazz pour 2026. Dès la seconde en option ou en 1ère en voie technologique. L'enseignement est dispensé en partenariat avec le Conservatoire de Saint-Omer.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Alexandre RIBOT",
+    "city": "Saint-Omer",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.alexandre-ribot.fr/",
+    "evidence_quote": "Lycée Alexandre RIBOT - Accueil"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 6,
+  "coverage_note": "The evidence does not list specific partner institutions or email addresses for the staff members. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 9.2,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 51.4,
+  "mode": "gemini",
+  "contact_pass": 2,
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 83.6
+ }
+}

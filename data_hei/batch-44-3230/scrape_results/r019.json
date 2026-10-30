@@ -1,0 +1,137 @@
+{
+ "row_id": "r019",
+ "scraped_at": "2026-10-30T10:30:26Z",
+ "contacts": {
+  "row_id": "r019",
+  "institution_name": "Lycée André Alquier",
+  "institution_type": "school",
+  "official_website": "https://lyceeandrealquier.fr/",
+  "country": null,
+  "phone": {
+   "value": "05 63 98 31 10",
+   "source_url": "https://lyceeandrealquier.fr/",
+   "evidence_quote": "Pour les familles ne pouvant se libérer en semaine, nous proposons des créneaux exceptionnels les samedis. Veuillez nous contacter au 05 63 98 31 10."
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Valérie Vidal",
+   "designation": "Biology, ecology and physics-chemistry teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lyceeandrealquier.fr/les-membres-de-lequipe/",
+   "evidence_quote": "Valérie Vidal ... Professeure de biologie, écologie et physique-chimie, Valérie Vidal s’investit dans la coopération internationale et les projets éducatifs comme les échanges avec le Québec. Très impliquée, elle participe aussi aux activités de l’association des anciens élèves."
+  },
+  "alternates": [
+   {
+    "name": "Andy Mason",
+    "designation": "English teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lyceeandrealquier.fr/les-membres-de-lequipe/",
+    "evidence_quote": "Andy Mason ... Enseignant d’anglais, Andy Mason adopte une méthode d’apprentissage naturelle, inspirée de l’acquisition de la langue maternelle. Les élèves développent leurs compétences à travers des activités variées comme la lecture, l’écriture, l’écoute et l’expression orale.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Andy Mason is a language teacher at the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. English / language or EU-project teacher (no Erasmus contact found). Valerie Vidal is the contact currently on file and is explicitly involved in international cooperation and educational projects.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Parc Naturel Régional du Haut-Languedoc",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeandrealquier.fr/nos-partenaires/",
+    "evidence_quote": "Parc Naturel Régional du Haut-Languedoc",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CPIE Tarn et Haut-Languedoc",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeandrealquier.fr/nos-partenaires/",
+    "evidence_quote": "CPIE Tarn et Haut-Languedoc",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Office National des Forêts",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://lyceeandrealquier.fr/nos-partenaires/",
+    "evidence_quote": "Office National des Forêts",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Alliance Forêts Bois – Agence Forestarn",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://lyceeandrealquier.fr/nos-partenaires/",
+    "evidence_quote": "Alliance Forêts Bois – Agence Forestarn",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Forestière du Tarn",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeandrealquier.fr/nos-partenaires/",
+    "evidence_quote": "Forestière du Tarn",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée André Alquier",
+    "city": "Saint Amans Soult",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceeandrealquier.fr/",
+    "evidence_quote": "Le Pont Neuf, 81240 Saint Amans Soult"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 4,
+  "coverage_note": "The evidence lists local professional and environmental partners, but does not provide a dedicated international Erasmus partner list.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 7.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 57.9,
+  "mode": "gemini",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 69.2
+ }
+}
