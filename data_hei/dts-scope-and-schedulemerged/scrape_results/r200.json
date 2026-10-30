@@ -1,0 +1,118 @@
+{
+ "row_id": "r200",
+ "scraped_at": "2026-10-30T19:28:20Z",
+ "contacts": {
+  "row_id": "r200",
+  "institution_name": "Intra Industry",
+  "institution_type": "unknown",
+  "official_website": "https://www.intraindustry.com/",
+  "country": {
+   "value": "China",
+   "source_url": "https://www.intraindustry.com/contact.html",
+   "evidence_quote": "Rm. 608 Lucking Building, 1008 Hongling zhong Road, Shenzhen, China"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Mr. Bertil Wessel",
+   "designation": "Global Sales Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.intraindustry.com/",
+   "evidence_quote": "Mr. Bertil Wessel - Global Sales Director"
+  },
+  "alternates": [
+   {
+    "name": "Mrs. Mo Chen",
+    "designation": "Business Development Manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.intraindustry.com/",
+    "evidence_quote": "Mrs. Mo Chen - Business Development Manager",
+    "why_chosen": "Other role. Mrs. Mo Chen is a Business Development Manager."
+   }
+  ],
+  "rung": "Other role. Mr. Bertil Wessel is the Global Sales Director.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Kema",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.intraindustry.com/",
+    "evidence_quote": "Intra strives to ensure that its products are compliant with all legal requirements and, if further required, customer specifications. Other than our in-house QC department and laboratory, we collaborate closely with Renowned institutions such as Kema, TNO and TÜV. INTRA spends a lot of attention to the quality of its products after purchase, and continues keeping track of changes in legal requirements.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TNO",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.intraindustry.com/",
+    "evidence_quote": "Intra strives to ensure that its products are compliant with all legal requirements and, if further required, customer specifications. Other than our in-house QC department and laboratory, we collaborate closely with Renowned institutions such as Kema, TNO and TÜV. INTRA spends a lot of attention to the quality of its products after purchase, and continues keeping track of changes in legal requirements.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TÜV",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.intraindustry.com/",
+    "evidence_quote": "Intra strives to ensure that its products are compliant with all legal requirements and, if further required, customer specifications. Other than our in-house QC department and laboratory, we collaborate closely with Renowned institutions such as Kema, TNO and TÜV. INTRA spends a lot of attention to the quality of its products after purchase, and continues keeping track of changes in legal requirements.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Shenzhen Office",
+    "city": "Shenzhen",
+    "country": "China",
+    "role": "main",
+    "source_url": "https://www.intraindustry.com/contact.html",
+    "evidence_quote": "Rm. 608 Lucking Building, 1008 Hongling zhong Road, Shenzhen, China"
+   },
+   {
+    "campus_name": "Showroom",
+    "city": "Shenzhen",
+    "country": "China",
+    "role": "branch",
+    "source_url": "https://www.intraindustry.com/contact.html",
+    "evidence_quote": "26 Fl, China Southern Securities Building B. Jianshe Rd, Luohu District, Shenzhen, China"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 2,
+  "coverage_note": "The entity is a commercial company rather than an educational institution. No information regarding Erasmus+ or academic mobility is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 5.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.7,
+  "total_seconds": 60.9
+ }
+}
