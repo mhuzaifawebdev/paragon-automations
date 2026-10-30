@@ -1,0 +1,74 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-30T13:00:28Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "Lycée Albert Schweitzer",
+  "institution_type": "school",
+  "official_website": "https://lyceeschweitzer.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Pierre LOUAZEL",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ce.0930830x@ac-creteil.fr",
+   "office_email": "",
+   "phone": "01.41.53.11 50",
+   "source_url": "https://lyceeschweitzer.fr/",
+   "evidence_quote": "Le proviseur, ... Pierre LOUAZEL"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Pierre LOUAZEL is the head of the institution and is responsible for the publication of the website.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "Reused from batch batch-18-3230 (scraped 2026-10-30). site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "sept universités parisiennes et franciliennes",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeschweitzer.fr/prepa-litteraire-espace-etudiants/concours-universites-partenaires/",
+    "evidence_quote": "→ Les partenariats et conventions du Lycée Albert Schweitzer avec les sept universités parisiennes et franciliennes sont présentés dans ce document.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Albert Schweitzer",
+    "city": "Le Raincy",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceeschweitzer.fr/",
+    "evidence_quote": "11, allée Valère Lefèbvre"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that the institution has partnerships with seven Parisian and Francilian universities, but it does not provide a specific list of these partner names. No specific Erasmus+ coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "batch-18-3230",
+  "row_id": "r016"
+ }
+}
