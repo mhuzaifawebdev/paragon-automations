@@ -1,0 +1,107 @@
+{
+ "row_id": "r148",
+ "scraped_at": "2026-10-30T21:06:55Z",
+ "contacts": {
+  "row_id": "r148",
+  "institution_name": "American Book",
+  "institution_type": "unknown",
+  "official_website": "https://about.ebsco.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://about.ebsco.com/contact",
+   "evidence_quote": "United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "mailsp@ebsco.com",
+  "generic_email_url": "https://about.ebsco.com/es/contacto",
+  "contact": {
+   "name": "Allen Powell",
+   "designation": "Chief Executive Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://about.ebsco.com/about/leadership",
+   "evidence_quote": "Allen Powell ... Chief Executive Officer"
+  },
+  "alternates": [
+   {
+    "name": "Scott Johnson",
+    "designation": "Executive Vice President – Chief Technology Officer",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://about.ebsco.com/about/leadership",
+    "evidence_quote": "Scott Johnson ... Executive Vice President – Chief Technology Officer",
+    "why_chosen": "Other role. Scott Johnson is an Executive Vice President at EBSCO."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Allen Powell is the Chief Executive Officer of EBSCO.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "EBSCO Information Services Headquarters",
+    "city": "Ipswich",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://about.ebsco.com/contact",
+    "evidence_quote": "EBSCO Information Services Headquarters"
+   },
+   {
+    "campus_name": "Subscription Services Division",
+    "city": "Birmingham",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://about.ebsco.com/contact",
+    "evidence_quote": "Subscription Services Division"
+   },
+   {
+    "campus_name": "EBSCO Information Services México",
+    "city": "Ciudad de México",
+    "country": "México",
+    "role": "international",
+    "source_url": "https://about.ebsco.com/es/contacto",
+    "evidence_quote": "EBSCO Information Services México"
+   },
+   {
+    "campus_name": "EBSCO Information Services España",
+    "city": "Madrid",
+    "country": "España",
+    "role": "international",
+    "source_url": "https://about.ebsco.com/es/contacto",
+    "evidence_quote": "EBSCO Information Services España"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence describes a commercial information services company rather than an educational institution. No specific Erasmus+ or international mobility contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.9,
+  "crawl_s": 17.3,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 31.6,
+  "total_seconds": 58.0
+ }
+}
