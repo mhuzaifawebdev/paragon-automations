@@ -1,0 +1,69 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-10-30T20:42:51Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "Shire Post Mint",
+  "institution_type": "unknown",
+  "official_website": "https://www.shirepost.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.shirepost.com/",
+   "evidence_quote": "[United States]United States (USD $)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "Reused from batch dts-scope-and-schedulemerged (scraped 2026-10-30). site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Red Fish Rue Fish",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.shirepost.com/",
+    "evidence_quote": "We are so excited to partner with the incredible Red Fish Rue Fish to re-release our Exposure Coin® in solid copper alongside a brand new run of their Charon Exposure Coin® in solid bronze!",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Shire Post Mint",
+    "city": "West Fork",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.shirepost.com/pages/contact-us",
+    "evidence_quote": "Visit our mint and gift shop at 52 Main St, West Fork, AR 72774"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The institution is a commercial coin mint and does not appear to be an educational institution. No Erasmus+ or international mobility information is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "dts-scope-and-schedulemerged",
+  "row_id": "r738"
+ }
+}

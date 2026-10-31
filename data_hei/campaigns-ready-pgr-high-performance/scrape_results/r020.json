@@ -1,0 +1,66 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-10-31T02:03:49Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "Las Vegas Rescue Mission",
+  "institution_type": "unknown",
+  "official_website": "https://www.vegasrescue.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contactus@vegasrescue.org",
+  "generic_email_url": "https://www.vegasrescue.org/",
+  "contact": {
+   "name": "Heather Engle",
+   "designation": "Chief Executive Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.vegasrescue.org/leadership",
+   "evidence_quote": "Heather Engle ... Chief Executive Officer"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Heather Engle is the Chief Executive Officer of the organization.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Las Vegas Rescue Mission",
+    "city": "Las Vegas",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.vegasrescue.org/",
+    "evidence_quote": "480 W Bonanza Rd, Las Vegas, NV 89106"
+   }
+  ],
+  "stated_total": 40,
+  "stated_total_quote": "We work alongside 40+ local organizations, Clark County, and faith communities to provide comprehensive support.",
+  "stated_total_url": "https://www.vegasrescue.org/",
+  "truncated": true,
+  "total_seen": 40,
+  "pages_read": 5,
+  "coverage_note": "The institution is a charitable organization rather than an educational institution, and no information regarding Erasmus+ or international mobility partnerships is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.2,
+  "crawl_s": 8.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 32.4,
+  "total_seconds": 42.0
+ }
+}

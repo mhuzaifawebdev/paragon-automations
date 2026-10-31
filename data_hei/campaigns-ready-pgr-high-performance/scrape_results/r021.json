@@ -1,0 +1,72 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-10-31T02:03:49Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "WP Engine",
+  "institution_type": "unknown",
+  "official_website": "https://wpengine.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://wpengine.com/",
+   "evidence_quote": "United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cloudflare",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://wpengine.com/support/advanced-network/",
+    "evidence_quote": "Cloudflare",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "WP Engine HQ",
+    "city": "Austin",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://wpengine.com/about-us/",
+    "evidence_quote": "WP Engine was founded in 2010 in Austin, TX, to deliver the ease-of-use and open-source freedom of a managed platform offering speed, scalability, security, and support. Our goal was to empower content creators and developers alike to focus on what they love, without the hassle of site crashes, slow page-load speeds, and complex security issues."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "WP Engine is a technology company, not an educational institution. It does not have Erasmus+ partnerships or international mobility programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 13.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "total_seconds": 23.3
+ }
+}
