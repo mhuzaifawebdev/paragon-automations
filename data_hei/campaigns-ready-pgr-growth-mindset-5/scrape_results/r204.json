@@ -1,0 +1,106 @@
+{
+ "row_id": "r204",
+ "scraped_at": "2026-10-31T03:56:40Z",
+ "contacts": {
+  "row_id": "r204",
+  "institution_name": "eCampus",
+  "institution_type": "unknown",
+  "official_website": "https://www.ecampus.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "David Clay",
+   "designation": "Chief Operating Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ecampus.com/about-us",
+   "evidence_quote": "David Clay ... Chief Operating Officer"
+  },
+  "alternates": [
+   {
+    "name": "Matt Montgomery",
+    "designation": "President and Chief Executive Officer",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ecampus.com/about-us",
+    "evidence_quote": "Matt Montgomery ... Chief Executive Officer",
+    "why_chosen": "Principal / director (no Erasmus contact found). Matt Montgomery is the President and Chief Executive Officer of the company."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. David Clay is the Chief Operating Officer and is listed as a contact on file.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "University of Wisconsin - Milwaukee",
+    "partner_country": "United States",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecampus.com/about-us",
+    "evidence_quote": "Bringing over 30 years of publishing and higher education experience to the table, Barry oversees sales operations for eCampus.com. His commitment to acquiring long-term partnerships is evident through his superior communication, expansive industry knowledge, and attention to detail. Through Barry’s efforts, eCampus.com has entered into some of the largest online bookstore contracts in the industry, including the University of Wisconsin - Milwaukee and Miami University, with a combined enrollmen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Miami University",
+    "partner_country": "United States",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecampus.com/about-us",
+    "evidence_quote": "Bringing over 30 years of publishing and higher education experience to the table, Barry oversees sales operations for eCampus.com. His commitment to acquiring long-term partnerships is evident through his superior communication, expansive industry knowledge, and attention to detail. Through Barry’s efforts, eCampus.com has entered into some of the largest online bookstore contracts in the industry, including the University of Wisconsin - Milwaukee and Miami University, with a combined enrollmen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CourseSmart",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ecampus.com/about-us",
+    "evidence_quote": "In August of 2008, eCampus.com announced a groundbreaking partnership with digital textbook giant CourseSmart. This partnership gave customers access to CourseSmart's massive digital library of eTextbooks and gave eCampus.com the ability to offer students an environmentally friendly opportunity to save money on textbooks. In addition to the partnerships eCampus.com has with digital textbook companies, eCampus.com has also developed their own library of eTextbooks, as well as an eReader to suppor",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "eCampus.com Headquarters",
+    "city": "Lexington, Kentucky",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.ecampus.com/about-us",
+    "evidence_quote": "eCampus.com today is a premier online retailer of new, used and electronic textbooks for sale or rent, study materials and book buyback services headquartered in Lexington, Kentucky. In addition to direct retail sales via the online eCampus.com storefront, the company partners with colleges, universities and K-12 schools to serve as their official bookstore. Currently the eCampus.com Online Bookstore Program serves as the official textbooks and course materials provider for over 450 K-12 and hig"
+   }
+  ],
+  "stated_total": 450,
+  "stated_total_quote": "eCampus.com today is a premier online retailer of new, used and electronic textbooks for sale or rent, study materials and book buyback services headquartered in Lexington, Kentucky. In addition to direct retail sales via the online eCampus.com storefront, the company partners with colleges, universities and K-12 schools to serve as their official bookstore. Currently the eCampus.com Online Bookstore Program serves as the official textbooks and course materials provider for over 450 K-12 and hig",
+  "stated_total_url": "https://www.ecampus.com/about-us",
+  "truncated": true,
+  "total_seen": 450,
+  "pages_read": 2,
+  "coverage_note": "eCampus is an online textbook retailer and bookstore service provider rather than a traditional academic institution. The evidence does not provide a comprehensive list of all partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 4.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.5,
+  "total_seconds": 57.5
+ }
+}
