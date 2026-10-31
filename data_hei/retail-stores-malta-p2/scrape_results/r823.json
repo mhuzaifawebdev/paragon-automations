@@ -1,0 +1,89 @@
+{
+ "row_id": "r823",
+ "scraped_at": "2026-10-31T09:10:50Z",
+ "contacts": {
+  "row_id": "r823",
+  "institution_name": "ALPHA Hair and Beauty",
+  "institution_type": "unknown",
+  "official_website": "https://alphahairandbeauty.com/",
+  "country": {
+   "value": "New Zealand",
+   "source_url": "https://alphahairandbeauty.com/",
+   "evidence_quote": "Hamilton 3214,New Zealand"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "admin@alphahairandbeauty.com",
+  "generic_email_url": "https://alphahairandbeauty.com/",
+  "contact": {
+   "name": "Joan Barber",
+   "designation": "General Manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://alphahairandbeauty.com/",
+   "evidence_quote": "Joan Barber ... General Manager"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Joan Barber is the General Manager of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Beox Professional",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://alphahairandbeauty.com/about-us/",
+    "evidence_quote": "Distribution: We serve as a dedicated distributor for Beox Professional, managing the supply chain and market presence of their professional hair care product lines.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kess Express - Hamilton",
+    "partner_country": "New Zealand",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://alphahairandbeauty.com/about-us/",
+    "evidence_quote": "Retail & Service: As a franchise partner of Kess Express - Hamilton, we operate a full-service hair and beauty salon, applying industry-leading techniques and maintaining direct engagement with consumer trends.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Alpha Hair and Beauty",
+    "city": "Hamilton",
+    "country": "New Zealand",
+    "role": "main",
+    "source_url": "https://alphahairandbeauty.com/",
+    "evidence_quote": "Hamilton 3214,New Zealand"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The institution is a commercial hair and beauty product distributor and salon, not an educational institution. No information regarding Erasmus+ or international academic mobility is present.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.9,
+  "crawl_s": 10.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.5,
+  "total_seconds": 35.8
+ }
+}
