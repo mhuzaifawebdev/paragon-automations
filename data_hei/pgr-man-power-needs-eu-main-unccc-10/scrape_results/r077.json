@@ -1,0 +1,85 @@
+{
+ "row_id": "r077",
+ "scraped_at": "2026-10-31T00:27:15Z",
+ "contacts": {
+  "row_id": "r077",
+  "institution_name": "Schott",
+  "institution_type": "unknown",
+  "official_website": "https://www.schott.com/en-gb",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "QSIL GmbH Quarzschmelze Ilmenau",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.schott.com/en-gb",
+    "evidence_quote": "SCHOTT closed fiscal year 2024/2025 with a stable sales performance of EUR 2.83 billion despite a demanding global business environment of uncertainty and weaker demand. (…) By integrating QSIL GmbH Quarzschmelze Ilmenau following its acquisition, SCHOTT reinforced its quartz glass capabilities, which are especially relevant for chip and wafer production processes in the semiconductor industry.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Carl-Zeiss-Stiftung",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.schott.com/en-gb/about-us/company/management",
+    "evidence_quote": "The Supervisory Board of SCHOTT AG comprises 12 members and in accordance with the German Codetermination Act consists in equal parts of shareholder (Carl-Zeiss-Stiftung) representatives - elected by the shareholders meeting - and employee representatives.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "SCHOTT AG",
+    "city": "Mainz",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.schott.com/en-gb/about-us/company/regions-and-locations",
+    "evidence_quote": "55122 Mainz"
+   },
+   {
+    "campus_name": "SCHOTT Pharma AG & Co. KGaA",
+    "city": "Mitterteich",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.schott.com/en-gb/about-us/company/regions-and-locations",
+    "evidence_quote": "95666 Mitterteich"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "SCHOTT is a global technology company, not an educational institution, therefore no Erasmus+ mobility or academic partner lists exist. The provided contacts are corporate executives.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 14.6,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "total_seconds": 28.9
+ }
+}
