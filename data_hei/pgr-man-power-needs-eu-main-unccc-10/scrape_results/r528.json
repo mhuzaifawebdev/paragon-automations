@@ -1,0 +1,119 @@
+{
+ "row_id": "r528",
+ "scraped_at": "2026-10-31T01:15:41Z",
+ "contacts": {
+  "row_id": "r528",
+  "institution_name": "Bechtle",
+  "institution_type": "unknown",
+  "official_website": "https://www.bechtle.com/",
+  "country": {
+   "value": "Germany",
+   "source_url": "https://www.bechtle.com/de-en/about-bechtle/references/bimmerle-simple-secure-network-management",
+   "evidence_quote": "Over the last five decades, the Black Forest distillery, BIMMERLE, has become known throughout Germany and Europe for its high-quality spirits. To do so, the Bimmerle KG Private Distillery combines expertise with high-tech and traditional distillation methods. For more performance and security standards in the network at the newly constructed production site in Sasbach including simple cloud-based management, Bechtle designed a Cisco Meraki network. The new switches can be quickly swapped and bo"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Timo Gensch",
+   "designation": "Business Strategy Advisor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bechtle.com/it-loesungen/modern-workplace/user-adoption-change-management",
+   "evidence_quote": "[Timo Gensch] ... Timo Gensch, Business Strategy Advisor"
+  },
+  "alternates": [
+   {
+    "name": "Dennis Trescher",
+    "designation": "Teamleiter Enterprise Mobility",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bechtle.com/it-loesungen/modern-workplace/mobility-management",
+    "evidence_quote": "Dennis Trescher, Teamleiter Enterprise Mobility",
+    "why_chosen": "Other role. Dennis Trescher is a named team leader for Enterprise Mobility at Bechtle."
+   }
+  ],
+  "rung": "Other role. Timo Gensch is a named expert at Bechtle specializing in User Adoption and Change Management.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cisco",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bechtle.com/de-en/about-bechtle/references/bimmerle-simple-secure-network-management",
+    "evidence_quote": "Cisco",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "HPE Aruba Networking",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bechtle.com/ueber-bechtle/referenzen/tega-cloudbasiertes-netzwerkmanagement-mit-managed-services-by-bechtle",
+    "evidence_quote": "HPE Aruba Networking",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pure Storage",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bechtle.com/ueber-bechtle/referenzen/tega-cloudbasiertes-netzwerkmanagement-mit-managed-services-by-bechtle",
+    "evidence_quote": "Schweinfurt ist der größte Entwicklungs- und Produktionsstandort von Fresenius Medical Care für Dialysegeräte und andere medizintechnische Geräte. Für das Werk entwickelte Bechtle ein neues Konzept der Storage-Infrastruktur und stellte dort drei Hersteller vor. Fresenius Medical Care entschied sich für Pure Storage mit planbaren Supportkosten über sechs bis neun Jahre, die Bechtle in den beiden Rechenzentren schließlich implementierte.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Microsoft Azure",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bechtle.com/ueber-bechtle/referenzen/tega-cloudbasiertes-netzwerkmanagement-mit-managed-services-by-bechtle",
+    "evidence_quote": "Microsoft Azure | Public-Cloud-Plattform",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bechtle AG",
+    "city": "unknown",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bechtle.com/",
+    "evidence_quote": "Wir verbinden die Stärke eines internationalen Konzerns mit der Nähe und Flexibilität eines regionalen Dienstleisters und bieten unseren Kunden die gesamte IT-Welt aus einer Hand. Unmittelbar vor Ort, in 14 Ländern Europas und weltweit durch Partner auf allen Kontinenten."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "Bechtle is an IT service provider and not an educational institution, therefore it does not have Erasmus+ partners or academic campuses. The evidence lists corporate clients and technology partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 34.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.4,
+  "total_seconds": 71.4
+ }
+}
