@@ -3821,22 +3821,34 @@
    "source": "DTS Risk Management Merged",
    "file_id": "1lao5TwPdH5teeTAsxtfrBo02RhbkQ1vMav1pO2wXw-0",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 831,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-30T22:24:18Z",
    "last_start": "2026-10-30T22:24:18Z",
    "restarts": 0,
-   "cap_usd": 656.64
+   "cap_usd": 656.64,
+   "crm_rows": 104,
+   "no_number": 768,
+   "spend_recorded": true,
+   "cost_usd": 2.1651,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1lrW7yBW1zSj9aeS3_1eLrfkzhWkMce-z/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 566,
+   "finished": "2026-10-31T00:06:46Z",
+   "reason": "652 institutes, 300 with a contact"
   },
   {
    "batch": "professional-readiness-calendly-100",
    "source": "Professional Readiness Calendly-100 Samaher",
    "file_id": "1f04rC3R_ru1XiSvpNzm0Eit9PoWGKaOWzaeYr8_m3lQ",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 40,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-31T00:06:46Z",
+   "last_start": "2026-10-31T00:06:46Z",
+   "restarts": 0,
+   "cap_usd": 654.47
   },
   {
    "batch": "merge-pgi-business-school-btp1-8-cli",
@@ -4060,7 +4072,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-30T22:24:18Z",
+ "updated": "2026-10-31T00:06:46Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
