@@ -1,0 +1,61 @@
+{
+ "row_id": "r124",
+ "scraped_at": "2026-10-31T03:44:40Z",
+ "contacts": {
+  "row_id": "r124",
+  "institution_name": "SaludHealth USA",
+  "institution_type": "unknown",
+  "official_website": "https://saludhealthusa.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://saludhealthusa.com/contact/",
+   "evidence_quote": "USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@saludhealthusa.com",
+  "generic_email_url": "https://saludhealthusa.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Salud Health USA",
+    "city": "Las Vegas",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://saludhealthusa.com/",
+    "evidence_quote": "SUITE #379 7582 Las vegas Boulevard 1009, Las Vegas 89123 NV"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The institution is a medical services facilitator rather than an educational institution. No academic partners or staff contacts are listed in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 9.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 19.8
+ }
+}
