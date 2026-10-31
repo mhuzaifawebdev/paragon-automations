@@ -1,0 +1,97 @@
+{
+ "row_id": "r047",
+ "scraped_at": "2026-10-31T03:34:19Z",
+ "contacts": {
+  "row_id": "r047",
+  "institution_name": "St. Paul JCC",
+  "institution_type": "unknown",
+  "official_website": "https://minnesotajcc.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Marissa C",
+   "designation": "Health & Wellness",
+   "designation_local": "",
+   "email": "marissac@minnesotajcc.org",
+   "office_email": "",
+   "phone": "651.255.4763",
+   "source_url": "https://minnesotajcc.org/contact",
+   "evidence_quote": "Health & Wellness ... marissac@minnesotajcc.org < marissac@minnesotajcc.org>"
+  },
+  "alternates": [
+   {
+    "name": "Angie A",
+    "designation": "Health & Wellness",
+    "designation_local": "",
+    "email": "angiea@minnesotajcc.org",
+    "office_email": "",
+    "phone": "952.381.3455",
+    "source_url": "https://minnesotajcc.org/contact",
+    "evidence_quote": "Health & Wellness ... angiea@minnesotajcc.org < angiea@minnesotajcc.org>",
+    "why_chosen": "Other role. Angie A is listed as a contact for the Health & Wellness department."
+   }
+  ],
+  "rung": "Other role. Marissa C is listed as a contact for the Health & Wellness department.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Shen Pei Arts Alliance",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://minnesotajcc.org/",
+    "evidence_quote": "Join us for a special morning celebrating Mahjong, culture, history, and community, in partnership with Shen Pei Arts Alliance!",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "JCC Sabes Center Minneapolis",
+    "city": "Minneapolis",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://minnesotajcc.org/locations",
+    "evidence_quote": "JCC Sabes Center Minneapolis"
+   },
+   {
+    "campus_name": "JCC Capp Center St. Paul",
+    "city": "Saint Paul",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://minnesotajcc.org/locations",
+    "evidence_quote": "JCC Capp Center St. Paul"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The institution is a community center rather than an educational institution, and no information regarding international mobility or Erasmus+ partnerships is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 7.3,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 0.0,
+  "total_seconds": 11.3
+ }
+}
