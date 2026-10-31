@@ -1,0 +1,101 @@
+{
+ "row_id": "r519",
+ "scraped_at": "2026-10-31T04:40:23Z",
+ "contacts": {
+  "row_id": "r519",
+  "institution_name": "UARK Federal Credit Union",
+  "institution_type": "unknown",
+  "official_website": "https://www.uarkfcu.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Delta Dental of Arkansas Foundation Oral Health clinic",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uarkfcu.com/personal-loans",
+    "evidence_quote": "Medical and Surgical Health (MASH) Loan. Offered to patients at Delta Dental of Arkansas Foundation Oral Health clinic and the Jones Eye Institute.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Jones Eye Institute",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uarkfcu.com/personal-loans",
+    "evidence_quote": "Medical and Surgical Health (MASH) Loan. Offered to patients at Delta Dental of Arkansas Foundation Oral Health clinic and the Jones Eye Institute.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Humane Society of the Ozarks",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uarkfcu.com/who-we-are",
+    "evidence_quote": "Become a Humane Society of the Ozarks member by donating $25 to join our support of animal protection.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fayetteville - Administration",
+    "city": "Fayetteville",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.uarkfcu.com/contact-us",
+    "evidence_quote": "Fayetteville - Administration"
+   },
+   {
+    "campus_name": "Fayetteville - South Hill Ave.",
+    "city": "Fayetteville",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.uarkfcu.com/contact-us",
+    "evidence_quote": "Fayetteville - South Hill Ave."
+   },
+   {
+    "campus_name": "Little Rock - UAMS",
+    "city": "Little Rock",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.uarkfcu.com/contact-us",
+    "evidence_quote": "Little Rock - UAMS"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 6,
+  "coverage_note": "The institution is a credit union rather than a university or school, and the evidence contains no named contacts with titles such as coordinator or director.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 8.0,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 55.8
+ }
+}
