@@ -1,0 +1,124 @@
+{
+ "row_id": "r056",
+ "scraped_at": "2026-10-31T03:35:36Z",
+ "contacts": {
+  "row_id": "r056",
+  "institution_name": "FFPT",
+  "institution_type": "unknown",
+  "official_website": "https://ffptc.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@ffptc.fr",
+  "generic_email_url": "https://ffptc.fr/",
+  "contact": {
+   "name": "Christophe Chevalley",
+   "designation": "Selection official",
+   "designation_local": "",
+   "email": "christophe.chevalley@wanadoo.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ffptc.fr/selection-en-equipe-de-france/",
+   "evidence_quote": "📧 Adresse d’envoi du dossier : christophe.chevalley@wanadoo.fr <christophe.chevalley@wanadoo.fr>"
+  },
+  "alternates": [
+   {
+    "name": "Claire Lavigerie",
+    "designation": "Federal Veterinarian",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ffptc.fr/rappel-integration-equipe-de-france/",
+    "evidence_quote": "Conseils pour chiens de traîneau : conférences vétérinaires FFPTC à revoir Claire Lavigerie, vétérinaire fédérale de la Fédération Française de Pulka et Traîneau à Chiens, accompagne les mushers tout au long de l’année en mettant son expertise au service du bien-être et de la santé des chiens de traîneau. Elle…",
+    "why_chosen": "Other role. She is the federal veterinarian providing expertise and support to the federation members."
+   }
+  ],
+  "rung": "Mobility coordinator. He is the federal selector responsible for managing integration applications for the French team.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ministère des Sports, de la Jeunesse et de la Vie Associative",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ffptc.fr/partenariats/#institutionnels",
+    "evidence_quote": "MINISTERE DES SPORTS, DE LA JEUNESSE ET DE LA VIE ASSOCIATIVE",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FISTC",
+    "partner_country": "International",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://ffptc.fr/partenariats/#institutionnels",
+    "evidence_quote": "FISTC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Inlandsis",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://ffptc.fr/partenariats/#institutionnels",
+    "evidence_quote": "Inlandsis",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Royal Canin",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://ffptc.fr/partenariats/#institutionnels",
+    "evidence_quote": "Royal Canin",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Braveur",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://ffptc.fr/partenariats/#institutionnels",
+    "evidence_quote": "Braveur",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Siège social",
+    "city": "Passy",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://ffptc.fr/contact/",
+    "evidence_quote": "📌 295 rue des Granges, 74190 PASSY"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The institution is a sports federation rather than an educational institution, so it does not have academic campuses or Erasmus+ mobility programs. The partner list provided is based on institutional sponsors and sports associations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.2,
+  "crawl_s": 12.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 11.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 29.5
+ }
+}
