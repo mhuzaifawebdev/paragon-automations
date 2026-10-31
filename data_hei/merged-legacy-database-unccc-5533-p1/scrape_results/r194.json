@@ -1,0 +1,91 @@
+{
+ "row_id": "r194",
+ "scraped_at": "2026-10-31T14:15:00Z",
+ "contacts": {
+  "row_id": "r194",
+  "institution_name": "Centre de formation - Centre hospitalier Robert Bisson",
+  "institution_type": "college",
+  "official_website": "https://www.ch-lisieux.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CHU Caen Normandie",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ch-lisieux.fr/",
+    "evidence_quote": "Maison Sport Santé – Antenne CHU Caen Normandie",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centre Hospitalier Robert Bisson",
+    "city": "Lisieux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ch-lisieux.fr/",
+    "evidence_quote": "Lisieux"
+   },
+   {
+    "campus_name": "Centre Hospitalier de Vimoutiers",
+    "city": "Vimoutiers",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.ch-lisieux.fr/",
+    "evidence_quote": "Vimoutiers"
+   },
+   {
+    "campus_name": "Centre Hospitalier de Pont-l’évêque",
+    "city": "Pont-l’évêque",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.ch-lisieux.fr/",
+    "evidence_quote": "pont-l’évêque"
+   },
+   {
+    "campus_name": "EPMS d’Orbec",
+    "city": "Orbec",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.ch-lisieux.fr/",
+    "evidence_quote": "EPMS d’Orbec"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The institution is a hospital with a training center (IFPS). No specific information regarding Erasmus+ partnerships or international mobility programs is provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 7.0,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 26.2
+ }
+}
