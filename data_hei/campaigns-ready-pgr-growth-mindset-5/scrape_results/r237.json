@@ -1,0 +1,79 @@
+{
+ "row_id": "r237",
+ "scraped_at": "2026-10-31T04:00:09Z",
+ "contacts": {
+  "row_id": "r237",
+  "institution_name": "Deflecto",
+  "institution_type": "unknown",
+  "official_website": "https://www.deflecto.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.deflecto.com/contact-us/",
+   "evidence_quote": "7035 East 86th StreetIndianapolis, IN, United States 462501-800-428-4328Fax: 1-877-333-5351customerservice@deflecto.com <customerservice@deflecto.com>"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Customer Service",
+   "designation": "Customer Service",
+   "designation_local": "",
+   "email": "customerservice@deflecto.com",
+   "office_email": "",
+   "phone": "1-800-428-4328",
+   "source_url": "https://www.deflecto.com/",
+   "evidence_quote": "Email Customer Service <customerservice@deflecto.com>"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). This is the general customer service contact for the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Deflecto US",
+    "city": "Indianapolis",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.deflecto.com/contact-us/",
+    "evidence_quote": "7035 East 86th StreetIndianapolis, IN, United States 462501-800-428-4328Fax: 1-877-333-5351customerservice@deflecto.com <customerservice@deflecto.com>"
+   },
+   {
+    "campus_name": "Deflecto Canada",
+    "city": "St. Catharines",
+    "country": "Canada",
+    "role": "branch",
+    "source_url": "https://www.deflecto.com/contact-us/",
+    "evidence_quote": "221 Bunting RoadSt. Catharines, Ontario, Canada L2M 3Y21-800-665-4328 Ext. 11 or 905-641-8872Fax: 1-877-333-5351adp@deflecto.com <adp@deflecto.com>"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Deflecto is a commercial manufacturing company, not an educational institution. No information regarding Erasmus+ partnerships or international mobility is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.2,
+  "crawl_s": 12.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 15.4
+ }
+}
