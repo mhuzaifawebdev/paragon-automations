@@ -1,0 +1,175 @@
+{
+ "row_id": "r296",
+ "scraped_at": "2026-10-31T08:25:07Z",
+ "contacts": {
+  "row_id": "r296",
+  "institution_name": "John Abela",
+  "institution_type": "university",
+  "official_website": "https://www.um.edu.mt/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://www.um.edu.mt/",
+   "evidence_quote": "Phone: +356 2340 2340 Email: info@um.edu.mt <info@um.edu.mt> Address: University of Malta, Msida MSD 2080, Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "international@um.edu.mt",
+  "generic_email_url": "https://www.um.edu.mt/international/",
+  "contact": {
+   "name": "David J. Attard",
+   "designation": "Chancellor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.um.edu.mt/about/governance/",
+   "evidence_quote": "The administrative setup of the University of Malta involves a number of academic, administrative and technical staff members who are appointed or elected to the governing bodies of the University. The University Chancellor is Professor David J. Attard, and Professor Frank Bezzina is Rector."
+  },
+  "alternates": [
+   {
+    "name": "Frank Bezzina",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.um.edu.mt/about/governance/",
+    "evidence_quote": "The administrative setup of the University of Malta involves a number of academic, administrative and technical staff members who are appointed or elected to the governing bodies of the University. The University Chancellor is Professor David J. Attard, and Professor Frank Bezzina is Rector.",
+    "why_chosen": "Principal / director (no Erasmus contact found). Professor Frank Bezzina is the Rector of the University."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Professor David J. Attard is the University Chancellor, heading the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'L-Università ta' Malta' on the site. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SEA-EU",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.um.edu.mt/",
+    "evidence_quote": "[Equality Mark logo][SEA-EU logo][HR Excellence in Research][World University Ranking logo 2027 top 700 in the world][World University Rankings Europe 2026 Top 300]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.um.edu.mt/international/",
+    "evidence_quote": "Erasmus+",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "European University Institute",
+    "partner_country": "",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.um.edu.mt/international/",
+    "evidence_quote": "The European University Institute visits UM",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Msida Campus",
+    "city": "Msida",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://www.um.edu.mt/",
+    "evidence_quote": "Msida Campus"
+   },
+   {
+    "campus_name": "Valletta Campus",
+    "city": "Valletta",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://www.um.edu.mt/",
+    "evidence_quote": "Valletta Campus"
+   },
+   {
+    "campus_name": "Gozo Campus",
+    "city": "Gozo",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://www.um.edu.mt/",
+    "evidence_quote": "Gozo Campus"
+   },
+   {
+    "campus_name": "Marsaxlokk Campus",
+    "city": "Marsaxlokk",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://www.um.edu.mt/",
+    "evidence_quote": "Marsaxlokk Campus"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence gives information about the university, its general contacts, campuses, and strategic plans, but does not list specific external partner institutions or individual Erasmus mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 38.0,
+  "ai_calls": 6,
+  "partner_calls": 5,
+  "cost_usd_estimate": 0.0,
+  "model_s": 18.1,
+  "mode": "gemini",
+  "email_search_s": 7.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 5,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     604
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 67.8
+ }
+}
