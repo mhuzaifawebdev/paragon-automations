@@ -1,0 +1,174 @@
+{
+ "row_id": "r301",
+ "scraped_at": "2026-10-31T08:24:24Z",
+ "contacts": {
+  "row_id": "r301",
+  "institution_name": "St Catherine Bakery",
+  "institution_type": "school",
+  "official_website": "https://www.stcatherines.info/",
+  "country": {
+   "value": "England",
+   "source_url": "https://www.stcatherines.info/contact-us",
+   "evidence_quote": "Registered in England No. 3596520"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "schooloffice@stcatherines.info",
+  "generic_email_url": "https://www.stcatherines.info/welcome/staff-list",
+  "contact": {
+   "name": "Robyn Fell",
+   "designation": "Enrichment and International Programme Lead",
+   "designation_local": "",
+   "email": "robyn.fell@stcatherines.info",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.stcatherines.info/welcome/staff-list",
+   "evidence_quote": "Enrichment and International Programme Lead - Mrs Robyn Fell robyn.fell@stcatherines.info <robyn.fell@stcatherines.info>"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Robyn Fell is the Enrichment and International Programme Lead, making her relevant for international programs.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'St Catherine's School' on the site. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "East Asia Regional Council of Schools",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stcatherines.info/",
+    "evidence_quote": "[East Asia Regional Council of Schools]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "International Baccalaureate",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stcatherines.info/",
+    "evidence_quote": "[International Baccalaureate]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Japan Council of International Schools",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stcatherines.info/",
+    "evidence_quote": "[Japan Council of International Schools]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IB Continuum",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stcatherines.info/",
+    "evidence_quote": "[IB Continuum]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Northwest Evaluation Association",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stcatherines.info/",
+    "evidence_quote": "[Northwest Evaluation Association]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "International Spanish Academy",
+    "partner_country": "",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stcatherines.info/",
+    "evidence_quote": "[International Spanish Academy]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "St Catherine's School",
+    "city": "Bramley, Guildford",
+    "country": "England",
+    "role": "main",
+    "source_url": "https://www.stcatherines.info/",
+    "evidence_quote": "Station Road, Bramley, Guildford, Surrey GU5 0DF"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not list any explicit partner institutions or mobility agreements. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.8,
+  "crawl_s": 13.2,
+  "ai_calls": 7,
+  "partner_calls": 6,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.3,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 6,
+    "accepted": 6
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 25.3
+ }
+}
