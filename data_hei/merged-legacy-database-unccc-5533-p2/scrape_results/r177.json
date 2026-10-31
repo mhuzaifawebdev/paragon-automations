@@ -1,0 +1,139 @@
+{
+ "row_id": "r177",
+ "scraped_at": "2026-10-31T16:33:12Z",
+ "contacts": {
+  "row_id": "r177",
+  "institution_name": "Rensselaer Polytechnic Institute",
+  "institution_type": "university",
+  "official_website": "https://www.rpi.edu/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://www.rpi.edu/",
+   "evidence_quote": "Troy, NY USA 12180"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Moussa Ngom",
+   "designation": "Professor",
+   "designation_local": "",
+   "email": "ngomm@rpi.edu",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.rpi.edu/",
+   "evidence_quote": "Moussa Ngom ... Once an aspiring soccer player, Professor Ngom now explores how light could enable non-invasive diabetes detection.",
+   "email_source_url": "https://faculty.rpi.edu/moussa-ngom"
+  },
+  "alternates": [
+   {
+    "name": "Raquel Velho",
+    "designation": "Professor",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.rpi.edu/",
+    "evidence_quote": "Raquel Velho ... Professor Velho explores what happens to people when technology reshapes the world around them.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Professor Velho is a faculty member who researches the impact of technology on people."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Professor Ngom is a faculty member who explores light-based technology. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Brookhaven National Laboratory",
+    "partner_country": "USA",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rpi.edu/",
+    "evidence_quote": "National Quantum Computing Leader James Misewich Joins Rensselaer Polytechnic Institute from Brookhaven National Laboratory",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bright Horizons",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.rpi.edu/",
+    "evidence_quote": "[External rendering of daycare center; a single-story white and brown building labeled &quot;Bright Horizons at RPI&quot;]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Panera",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://administration.rpi.edu/campus-card",
+    "evidence_quote": "Panera®",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CDTA",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://administration.rpi.edu/campus-card",
+    "evidence_quote": "Ride CDTA buses for free with your ID",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Rensselaer Polytechnic Institute",
+    "city": "Troy",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.rpi.edu/",
+    "evidence_quote": "Troy, NY USA 12180"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The provided evidence does not contain information regarding Erasmus+ or international mobility coordinators, nor does it list any institutional partners or agreements. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 6.7,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 32.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 63.6
+ }
+}
