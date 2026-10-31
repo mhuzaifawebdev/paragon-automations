@@ -3905,22 +3905,34 @@
    "source": "Campaigns Ready PGR High Performance-505",
    "file_id": "1OY-38N-t5RaqDsvY9SgWpwovg02orqc0_MI6FY6Ccl0",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 505,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-31T02:00:35Z",
    "last_start": "2026-10-31T02:00:35Z",
    "restarts": 0,
-   "cap_usd": 651.8
+   "cap_usd": 651.8,
+   "crm_rows": 68,
+   "no_number": 466,
+   "spend_recorded": true,
+   "cost_usd": 1.8332,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1i7SaQlmoLKGoHZLwwmYJpp3-x3Qkhf1d/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 377,
+   "finished": "2026-10-31T03:28:17Z",
+   "reason": "488 institutes, 245 with a contact"
   },
   {
    "batch": "campaigns-ready-pgr-growth-mindset-5",
    "source": "Campaigns Ready PGR Growth Mindset-545",
    "file_id": "1XPaa_lQ63VfEqJUf3mLdP-eYabszwKYlm14MUyOrfEY",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 545,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-31T03:28:17Z",
+   "last_start": "2026-10-31T03:28:17Z",
+   "restarts": 0,
+   "cap_usd": 649.97
   },
   {
    "batch": "campaigns-ready-pgr-high-potential-5",
@@ -4108,7 +4120,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-31T02:00:35Z",
+ "updated": "2026-10-31T03:28:17Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
