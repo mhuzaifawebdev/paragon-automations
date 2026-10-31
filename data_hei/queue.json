@@ -4056,23 +4056,35 @@
    "source": "Retail Stores ,Malta",
    "file_id": "19xjULR1CJYjrGeRH_FOWAaPokC9FZtFIjdjlrsk92xc",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 84,
    "part": "5/5",
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-31T13:36:42Z",
    "last_start": "2026-10-31T13:36:42Z",
    "restarts": 0,
-   "cap_usd": 611.49
+   "cap_usd": 611.49,
+   "crm_rows": 0,
+   "no_number": 84,
+   "spend_recorded": true,
+   "cost_usd": 0.0593,
+   "drive_link": "https://docs.google.com/spreadsheets/d/10NZBksfzfbbWjGswiK7Z1Cf4Xx7fuVGq/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 28,
+   "finished": "2026-10-31T13:48:48Z",
+   "reason": "84 institutes, 8 with a contact"
   },
   {
    "batch": "batch-39-3230",
    "source": "Batch-39_3230",
    "file_id": "1KRAMUIDQXHuop-9lhFhgAXrNfG8iXLWgX_LRyk2YfMA",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 43,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-31T13:48:48Z",
+   "last_start": "2026-10-31T13:48:48Z",
+   "restarts": 0,
+   "cap_usd": 611.43
   },
   {
    "batch": "merged-legacy-database-unccc-5533-p1",
@@ -4192,7 +4204,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-31T13:36:42Z",
+ "updated": "2026-10-31T13:48:48Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
