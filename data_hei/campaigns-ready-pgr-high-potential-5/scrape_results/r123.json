@@ -1,0 +1,114 @@
+{
+ "row_id": "r123",
+ "scraped_at": "2026-10-31T05:02:40Z",
+ "contacts": {
+  "row_id": "r123",
+  "institution_name": "Akron Children's Hospital",
+  "institution_type": "unknown",
+  "official_website": "https://www.akronchildrens.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Lisa Aurilio",
+   "designation": "Chief Operating Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.akronchildrens.org/pages/Our-Leadership.html",
+   "evidence_quote": "Lisa Aurilio, MSN, MBA ... Chief Operating Officer"
+  },
+  "alternates": [
+   {
+    "name": "Christopher Gessner",
+    "designation": "President and Chief Executive Officer",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.akronchildrens.org/pages/Our-Leadership.html",
+    "evidence_quote": "Christopher Gessner ... President and Chief Executive Officer",
+    "why_chosen": "Principal / director (no Erasmus contact found). Christopher Gessner is the President and Chief Executive Officer of the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Secretary / administration (last resort). Lisa Aurilio is the Chief Operating Officer and is listed as a contact on file.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Northeast Ohio Medical University (NEOMED)",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.akronchildrens.org/pages/Our-Leadership.html",
+    "evidence_quote": "Pediatrician in Chief; Dr. Noah Miller Endowed Chair of Pediatrics, Akron Children's; Chair, Department of Pediatrics, Northeast Ohio Medical University (NEOMED)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Akron Public Schools",
+    "partner_country": "USA",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.akronchildrens.org/pages/Womens-Board.html",
+    "evidence_quote": "Since 1951, the Women's Board has provided to Akron Public School’s second-graders a safety program covering injury prevention and supporting the child advocacy and the community outreach components of our mission. With the support of the many hospital departments, like injury prevention and school nursing, and the emergency department - the program’s content was updated and will be presented on Smart boards and Chromebooks. Partnering with Akron Public Schools, we expect to reach over 1600 seco",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Northern Ohio Golf Charities and Foundation (NOGCF)",
+    "partner_country": "USA",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.akronchildrens.org/pages/Womens-Board.html",
+    "evidence_quote": "Since 1974, Women's Board members have worked with Northern Ohio Golf Charities and Foundation (NOGCF) volunteers to ensure the Bridgestone Senior Players Championship (previously the Bridgestone World Series of Golf) continues to be a part of the Akron community. Thanks to the Women Board’s long-standing support of this tournament, NOGCF provides Akron Children’s with annual support.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Akron hospital campus",
+    "city": "Akron",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.akronchildrens.org/",
+    "evidence_quote": "From the guest attendants as you pass through our doors, to our cafeterias, respite areas, spiritual care, child life specialists and so many other family resources, we do everything we can to support you and your child as you navigate your healthcare journey at our Akron and Beeghly (Boardman) hospital campuses."
+   },
+   {
+    "campus_name": "Beeghly (Boardman) hospital campus",
+    "city": "Boardman",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.akronchildrens.org/",
+    "evidence_quote": "From the guest attendants as you pass through our doors, to our cafeterias, respite areas, spiritual care, child life specialists and so many other family resources, we do everything we can to support you and your child as you navigate your healthcare journey at our Akron and Beeghly (Boardman) hospital campuses."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution is a hospital system and does not appear to have an Erasmus+ program or formal international mobility partnerships listed in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 21.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.7,
+  "total_seconds": 55.6
+ }
+}

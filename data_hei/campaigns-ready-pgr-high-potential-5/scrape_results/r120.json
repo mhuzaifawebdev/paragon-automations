@@ -1,0 +1,94 @@
+{
+ "row_id": "r120",
+ "scraped_at": "2026-10-31T05:01:58Z",
+ "contacts": {
+  "row_id": "r120",
+  "institution_name": "Markham & Fitz Chocolate",
+  "institution_type": "unknown",
+  "official_website": "https://markhamandfitz.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://markhamandfitz.com/",
+   "evidence_quote": "United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "hello@markhamandfitz.com",
+  "generic_email_url": "https://markhamandfitz.com/",
+  "contact": {
+   "name": "Anders Olsen",
+   "designation": "Director of Operations",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://markhamandfitz.com/pages/story-team",
+   "evidence_quote": "Anders Olsen ... Director of Operations"
+  },
+  "alternates": [
+   {
+    "name": "Alexis Dedon",
+    "designation": "Sales Manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://markhamandfitz.com/pages/story-team",
+    "evidence_quote": "Alexis Dedon ... Sales Manager",
+    "why_chosen": "Other role. Alexis Dedon is the Sales Manager and can be reached via the wholesale and events email."
+   },
+   {
+    "name": "Lydia Carlson",
+    "designation": "Social Media & Events Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://markhamandfitz.com/pages/story-team",
+    "evidence_quote": "Lydia Carlson ... Social Media & Events Coordinator",
+    "why_chosen": "Other role. Lydia Carlson is the Social Media & Events Coordinator and is associated with the events contact email."
+   }
+  ],
+  "rung": "Other role. Anders Olsen serves as the Director of Operations for the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Markham & Fitz Chocolate",
+    "city": "Bentonville",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://markhamandfitz.com/",
+    "evidence_quote": "Bentonville, AR 72712"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial chocolate business rather than an educational institution, and no information regarding Erasmus+ or international academic partnerships is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 5.8,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 31.4,
+  "total_seconds": 41.2
+ }
+}
