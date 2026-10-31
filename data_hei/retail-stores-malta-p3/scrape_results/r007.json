@@ -1,0 +1,100 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-31T09:31:15Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "Garden Centre (within Pama Shopping Village)",
+  "institution_type": "unknown",
+  "official_website": "https://pggroup.com.mt/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://pggroup.com.mt/",
+   "evidence_quote": "Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@pggroup.com.mt",
+  "generic_email_url": "https://pggroup.com.mt/contact",
+  "contact": {
+   "name": "Gianluca Borg",
+   "designation": "Executive Director & Chief Executive Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://pggroup.com.mt/about#people",
+   "evidence_quote": "Gianluca Borg ... Executive Director & Chief Executive Officer"
+  },
+  "alternates": [
+   {
+    "name": "Emma Grech",
+    "designation": "Company Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://pggroup.com.mt/about#people",
+    "evidence_quote": "Emma Grech ... Company Secretary",
+    "why_chosen": "Secretary / administration (last resort). She serves as the Company Secretary and is a primary administrative contact."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the Chief Executive Officer, he is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ZARA",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://pggroup.com.mt/about#people",
+    "evidence_quote": "Mr. Gauci acquires the franchisee license to operate in Malta the internationally renowned clothing company ZARA.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "PAMA Shopping Mall",
+    "city": "Mosta",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://pggroup.com.mt/",
+    "evidence_quote": "Valletta Road, Mosta MST 9017, Malta"
+   },
+   {
+    "campus_name": "PAVI Shopping Complex",
+    "city": "Qormi",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://pggroup.com.mt/about#people",
+    "evidence_quote": "Mr. Gauci’s business acumen led to acquiring a closed manufacturing plant in the outskirts of Qormi and converting it into a multi-storey shopping complex. The anchor tenant, PAVI, a 5,000 sqm supermarket inaugurated in October 2006, was complemented by surrounding retail outlets ranging from financial services to textile and catering."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial retail group and not an educational institution, therefore it has no Erasmus+ partnerships or mobility programs. No specific list of educational partners exists.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.0,
+  "crawl_s": 5.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 17.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.2,
+  "total_seconds": 35.1
+ }
+}
