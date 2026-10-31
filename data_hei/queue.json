@@ -3863,22 +3863,34 @@
    "source": "Merge PGI_Business_School_BTP1-8_clicked_Apr_4_2025",
    "file_id": "18XVed0JHzhNOzTP-eK33kTeKa1wl_SQCeZR4z8Nztx8",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 24,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-31T00:11:45Z",
    "last_start": "2026-10-31T00:11:45Z",
    "restarts": 0,
-   "cap_usd": 654.34
+   "cap_usd": 654.34,
+   "crm_rows": 9,
+   "no_number": 9,
+   "spend_recorded": true,
+   "cost_usd": 0.1212,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1Ua05rjPJy1kyhLeY_F3rm_qMTb6YjoZW/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 12,
+   "finished": "2026-10-31T00:14:40Z",
+   "reason": "13 institutes, 9 with a contact"
   },
   {
    "batch": "pgr-man-power-needs-eu-main-unccc-10",
    "source": "PGR Man Power Needs-EU Main UNCCC-1000",
    "file_id": "1eB8PVlFQCiS8xUNXVOHgGrkFHrqap9i03P4ccGQwYyA",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 1000,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-31T00:14:40Z",
+   "last_start": "2026-10-31T00:14:40Z",
+   "restarts": 0,
+   "cap_usd": 654.22
   },
   {
    "batch": "campaigns-ready-pgr-high-performance",
@@ -4084,7 +4096,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-31T00:11:45Z",
+ "updated": "2026-10-31T00:14:40Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
