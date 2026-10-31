@@ -1,0 +1,89 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-10-31T02:02:10Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "Reformation",
+  "institution_type": "unknown",
+  "official_website": "https://www.thereformation.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.thereformation.com/",
+   "evidence_quote": "United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "thredUP",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.thereformation.com/sustainability.html#wash-smart",
+    "evidence_quote": "For stuff you don’t want, but someone else might – grab a thredUP kit and get rid of it. We’ll give you Ref Credit for everything you sell.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SuperCircle",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.thereformation.com/sustainability.html#wash-smart",
+    "evidence_quote": "Send us your old Ref stuff. With help from our friends at SuperCircle, we’ll break down your old clothes into functional fibers and rework them into new products, using as few virgin materials as possible. But first, we need our stuff back.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Poshmark",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.thereformation.com/sustainability.html#wash-smart",
+    "evidence_quote": "Your clothes deserve a second chance. Good thing reselling your stuff has never been easier. All your verified Reformation purchases can now be listed on Poshmark instantly to make selling Ref as easy as buying it. Or, get a ThredUp kit for anything else, and we'll give you Ref Credit for everything you sell.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Reformation Factory",
+    "city": "Los Angeles",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.thereformation.com/sustainability.html#wash-smart",
+    "evidence_quote": "We built our own sustainable factory in Los"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "Reformation is a clothing retailer, not an educational institution. No academic partners or Erasmus+ mobility information exists.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 11.1,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 21.3
+ }
+}
