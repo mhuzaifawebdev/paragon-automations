@@ -1,0 +1,95 @@
+{
+ "row_id": "r171",
+ "scraped_at": "2026-10-31T05:10:18Z",
+ "contacts": {
+  "row_id": "r171",
+  "institution_name": "Seventh Knight",
+  "institution_type": "unknown",
+  "official_website": "https://www.seventhknight.com/platform/appmoat",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dean Andrews",
+   "designation": "Secretary of the Board",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.seventhknight.com/company/leadership",
+   "evidence_quote": "Dean Andrews ... Secretary of the Board"
+  },
+  "alternates": [],
+  "rung": "Other role. Dean Andrews is the Secretary of the Board for Seventh Knight.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IBM Security MaaS360",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.seventhknight.com/platform/appmoat",
+    "evidence_quote": "\"We invited Seventh Knight to partner with us on solutions for our IBM Security MaaS360 users because the embedded AppMoat360 technology powered by IBM MaaS360 closes the door through which bad actors can attack with Zero Day or Ransomware. AppMoat360 is an elegant but straight forward and user-friendly embedded solution to an ever growing and expensive problem for companies, governments, and service providers\"",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CrowdStrike",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.seventhknight.com/partners/managed-service-providers-msp-mssp",
+    "evidence_quote": "EDR’s Best Friend: Position AppMoat as the proactive “gatekeeper” to complement reactive EDR tools (e.g., CrowdStrike/SentinelOne).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SentinelOne",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.seventhknight.com/partners/managed-service-providers-msp-mssp",
+    "evidence_quote": "EDR’s Best Friend: Position AppMoat as the proactive “gatekeeper” to complement reactive EDR tools (e.g., CrowdStrike/SentinelOne).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Seventh Knight",
+    "city": "Madison, MS",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.seventhknight.com/company/contact",
+    "evidence_quote": "We are located in Madison, MS"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The institution is a software company rather than an educational institution, and no information regarding Erasmus+ or international academic mobility partnerships is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.2,
+  "crawl_s": 10.0,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 31.5,
+  "total_seconds": 44.5
+ }
+}
