@@ -1,0 +1,119 @@
+{
+ "row_id": "r507",
+ "scraped_at": "2026-10-31T23:55:11Z",
+ "contacts": {
+  "row_id": "r507",
+  "institution_name": "MÄLARDALENS UNIVERSITET",
+  "institution_type": "university",
+  "official_website": "https://www.mdu.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "studenttorget@mdu.se",
+  "generic_email_url": "https://www.mdu.se/om-mdu/kontakta-oss",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Volvo CE",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mdu.se/",
+    "evidence_quote": "Från student till Volvo CE – en resa i samverkan",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Eduroam",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mdu.se/om-mdu/om-webbplatsen-och-kakor/hantera-personalkonto",
+    "evidence_quote": "Byt till ditt nya lösenord för Eduroam i dator och iPad/surfplatta",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FORTE",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mdu.se/staff?id=wanja.astvik",
+    "evidence_quote": "Huvudfinansiering: FORTE",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Eskilstuna",
+    "city": "Eskilstuna",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.mdu.se/om-mdu/kontakta-oss",
+    "evidence_quote": "Eskilstuna"
+   },
+   {
+    "campus_name": "Campus Västerås",
+    "city": "Västerås",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.mdu.se/om-mdu/kontakta-oss",
+    "evidence_quote": "Västerås"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The provided evidence does not contain a list of international partners or Erasmus+ agreements. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 14.9,
+  "ai_calls": 5,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 51.0
+ }
+}
