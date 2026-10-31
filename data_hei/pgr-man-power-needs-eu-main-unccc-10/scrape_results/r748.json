@@ -1,0 +1,101 @@
+{
+ "row_id": "r748",
+ "scraped_at": "2026-10-31T01:33:25Z",
+ "contacts": {
+  "row_id": "r748",
+  "institution_name": "Lanxess",
+  "institution_type": "unknown",
+  "official_website": "https://lanxess.com/",
+  "country": {
+   "value": "Germany",
+   "source_url": "https://lanxess.com/",
+   "evidence_quote": "Germany, DE"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@lanxess.com",
+  "generic_email_url": "https://lanxess.com/",
+  "contact": {
+   "name": "Ulrike Rockel",
+   "designation": "Head of Treasury & Investor Relations",
+   "designation_local": "",
+   "email": "ulrike.rockel@lanxess.com",
+   "office_email": "",
+   "phone": "+49 221 8885 5458",
+   "source_url": "https://lanxess.com/en/investors/contacts",
+   "evidence_quote": "Ulrike Rockel ... Head of Treasury & Investor Relations"
+  },
+  "alternates": [
+   {
+    "name": "Ingo Drechsler",
+    "designation": "Head of External Relations, Spokesperson",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+49 221 8885 3790",
+    "source_url": "https://lanxess.com/en/media/media-contacts",
+    "evidence_quote": "Ingo Drechsler ... Head of External Relations, Spokesperson",
+    "why_chosen": "Other role. He serves as the head of external relations and spokesperson for the company."
+   }
+  ],
+  "rung": "Other role. She is a senior contact listed for investor relations and corporate communications.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Huntsman",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://lanxess.com/en/company/old_locations",
+    "evidence_quote": "Rubicon LLC (Joint Venture of Huntsman & LANXESS)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VERBUND",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://lanxess.com/en/company/energizing-sustainability/strong-people-and-business-relations/partnerships",
+    "evidence_quote": "LANXESS reduces carbon footprint with green electricity from VERBUND",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "LANXESS Corporate Headquarters",
+    "city": "Cologne",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://lanxess.com/en/company/old_locations",
+    "evidence_quote": "LANXESS Corporate Headquarters"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution is a specialty chemicals company, not an educational institution, so there is no Erasmus+ mobility program or academic partner list.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 14.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 17.3
+ }
+}
