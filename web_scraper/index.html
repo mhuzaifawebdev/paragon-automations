@@ -1034,12 +1034,13 @@ async function loadQueue() {
     const n = s => items.filter(i => i.state === s).length;
     const totalRows = items.reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
     const doneRows  = items.filter(i => i.state === "done").reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
+    const liveRows  = items.filter(i => i.state === "running").reduce((s, i) => s + (parseInt(i.rows_done) || 0), 0);
     $("q-tiles").innerHTML = [
       [n("queued"), "Waiting"],
       [n("running"), "Running"],
       [n("done"), "Done"],
       [n("failed") + n("cancelled"), "Failed / cancelled"],
-      [fmtN(doneRows) + " / " + fmtN(totalRows), "Institutes"],
+      [fmtN(doneRows + liveRows) + " / " + fmtN(totalRows), "Institutes"],
     ].map(([v, l]) => `<div class="tile"><div class="n">${typeof v === "number" ? fmtN(v) : v}</div><div class="l">${l}</div></div>`).join("");
     const cap = q.budget_cap || 0;
     if (cap) renderBudget(items, cap, q.spend_correction || 0, q.credit || 0);
