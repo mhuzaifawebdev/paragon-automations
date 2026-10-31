@@ -1,0 +1,131 @@
+{
+ "row_id": "r349",
+ "scraped_at": "2026-10-31T20:34:19Z",
+ "contacts": {
+  "row_id": "r349",
+  "institution_name": "UNIVERSITA DELLA VALLE D'AOSTA",
+  "institution_type": "university",
+  "official_website": "https://www.univda.it",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "mobilita@univda.it",
+  "generic_email_url": "https://www.univda.it/servizi/mobilita-internazionale/",
+  "contact": {
+   "name": "Maurizio Piseri",
+   "designation": "Director of the Department of Human and Social Sciences",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.univda.it/evento/lexperience-sensible-du-recit-de-voyage-xviii-xx-siecles/",
+   "evidence_quote": "Maurizio Piseri (Directeur du Département Sciences humaines et sociales)"
+  },
+  "alternates": [],
+  "rung": "Other role. Maurizio Piseri is the Director of the Department of Human and Social Sciences at the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Università di Yamanashi",
+    "partner_country": "Japan",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.univda.it",
+    "evidence_quote": "Università di Yamanashi: una delegazione in visita presso l’Ateneo valdostano",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Réseau international des Chaires Senghor",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.univda.it/ateneo/francophonie/chaire-senghor/reseau-international-des-chaires-senghor/",
+    "evidence_quote": "Aujourd’hui fort de 18 chaires et de deux observateurs, le réseau est présent en Afrique, Amérique, Asie et Europe et concours à faire progresser notre connaissance de la Francophonie.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agenzia Nazionale Erasmus+ Indire",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.univda.it/servizi/mobilita-internazionale/programma-erasmus/",
+    "evidence_quote": "Per approfondire: Agenzia Nazionale Erasmus+ Indire – Agenzia Esecutiva della Commissione Europea – Erasmus+ App – Erasmus Without Paper – Erasmus Student Card Initiative – Online Language Support (OLS)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agenzia Esecutiva della Commissione Europea",
+    "partner_country": "European Union",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.univda.it/servizi/mobilita-internazionale/programma-erasmus/",
+    "evidence_quote": "Per approfondire: Agenzia Nazionale Erasmus+ Indire – Agenzia Esecutiva della Commissione Europea – Erasmus+ App – Erasmus Without Paper – Erasmus Student Card Initiative – Online Language Support (OLS)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede legale",
+    "city": "Aosta",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.univda.it",
+    "evidence_quote": "Sede legale: Strada Cappuccini, 2A - 11100 Aosta"
+   },
+   {
+    "campus_name": "Sede didattica",
+    "city": "Aosta",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.univda.it",
+    "evidence_quote": "Sede didattica: Via Monte Solarolo, 1 - 11100 Aosta"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partner universities, only mentioning that agreements exist. Contact information is provided for the mobility office but not for specific individuals.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 16.7,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "email_search_s": 31.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 66.5
+ }
+}
