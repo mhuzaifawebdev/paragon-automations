@@ -1,0 +1,70 @@
+{
+ "row_id": "r363",
+ "scraped_at": "2026-10-31T08:29:51Z",
+ "contacts": {
+  "row_id": "r363",
+  "institution_name": "The Bubble Shop",
+  "institution_type": "unknown",
+  "official_website": "https://www.st-martin.org/",
+  "country": {
+   "value": "Saint Martin",
+   "source_url": "https://www.st-martin.org/notre-equipe/",
+   "evidence_quote": "Marigot 97150 Saint Martin"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@st-martin.org",
+  "generic_email_url": "https://www.st-martin.org/notre-equipe/",
+  "contact": {
+   "name": "Aïda WEINUM",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "a.weinum@st-martin.org",
+   "office_email": "contact@st-martin.org",
+   "phone": "0590 87 57 21",
+   "source_url": "https://www.st-martin.org/notre-equipe/",
+   "evidence_quote": "Aïda WEINUM ... Directrice",
+   "email_source_url": "https://academy.st-martin.org/contacts/"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Aïda WEINUM is the Director of the institution. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Office de Tourisme de Saint Martin",
+    "city": "Marigot",
+    "country": "Saint Martin",
+    "role": "main",
+    "source_url": "https://www.st-martin.org/notre-equipe/",
+    "evidence_quote": "Marigot 97150 Saint Martin"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence describes a regional tourist office rather than an educational institution, so no academic partner list or academic campus network is present.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 23.6,
+  "crawl_s": 20.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "email_search_s": 7.5,
+  "total_seconds": 53.4
+ }
+}
