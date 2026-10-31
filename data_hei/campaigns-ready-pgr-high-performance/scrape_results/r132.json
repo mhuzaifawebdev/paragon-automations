@@ -1,0 +1,95 @@
+{
+ "row_id": "r132",
+ "scraped_at": "2026-10-31T02:19:38Z",
+ "contacts": {
+  "row_id": "r132",
+  "institution_name": "FranNet",
+  "institution_type": "unknown",
+  "official_website": "https://frannet.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Janee Williams",
+   "designation": "Vice President of Finance & Administration",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://frannet.com/our-team/",
+   "evidence_quote": "Janee Williams ... Vice President of Finance & Administration"
+  },
+  "alternates": [],
+  "rung": "Other role. Janee Williams is the Vice President of Finance & Administration at FranNet.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Small Business Development Centers",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://frannet.com/suppliers/",
+    "evidence_quote": "SBDCs, Small Business Development Centers, are located nationwide. The SBDCs help small businesses get started and grow, working in partnership with the SBA to host events at universities, colleges, private organizations, and more to educate business owners.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SCORE",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://frannet.com/suppliers/",
+    "evidence_quote": "Small businesses rely on SCORE, the nation’s largest network of expert business mentors, to get off the ground, grow and succeed. More than 11 million entrepreneurs have received industry-leading education and mentorship from SCORE since 1964.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Canadian Franchise Association",
+    "partner_country": "Canada",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://frannet.com/suppliers/",
+    "evidence_quote": "[Canadian Franchise Association Logo]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "International Franchise Association",
+    "partner_country": "International",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://frannet.com/suppliers/",
+    "evidence_quote": "[International Franchise Association Logo]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "FranNet is a franchise consulting network rather than an educational institution, so it does not have campuses or Erasmus+ mobility programs. The evidence lists various business partners and associations but no formal academic agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 12.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 31.7,
+  "total_seconds": 68.2
+ }
+}

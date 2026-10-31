@@ -1,0 +1,965 @@
+{
+ "row_id": "r139",
+ "scraped_at": "2026-10-31T02:19:39Z",
+ "contacts": {
+  "row_id": "r139",
+  "institution_name": "Miller's Ale House",
+  "institution_type": "unknown",
+  "official_website": "https://millersalehouse.com/",
+  "country": {
+   "value": "U.S.",
+   "source_url": "https://millersalehouse.com/locations/",
+   "evidence_quote": "Miller’s Ale House now has 113 locations across the U.S."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Christiana",
+    "city": "Newark",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Christiana 1323 Churchmans Road Newark, DE 19713 More Info"
+   },
+   {
+    "campus_name": "Apopka",
+    "city": "Apopka",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Apopka 505 E Main St Apopka, FL 32703 More Info"
+   },
+   {
+    "campus_name": "Bradenton",
+    "city": "Bradenton",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Bradenton 7175 SR 64 East Bradenton, FL 34212 More Info"
+   },
+   {
+    "campus_name": "Davenport – Haines City",
+    "city": "Davenport",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Davenport – Haines City 40220 US Highway 27 Davenport, FL 33837 More Info"
+   },
+   {
+    "campus_name": "Estero – Coconut Point",
+    "city": "Estero",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Estero – Coconut Point 22810 Via Villagio Estero, FL 33928 More Info"
+   },
+   {
+    "campus_name": "Homestead",
+    "city": "Homestead",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Homestead – COMING SOON! 3060 NE 8th Street Homestead, FL 33033 More Info"
+   },
+   {
+    "campus_name": "Lakeland North",
+    "city": "Lakeland",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Lakeland North 901 Lakeland Park Center Dr. Lakeland, FL 33809 More Info"
+   },
+   {
+    "campus_name": "Mt Dora",
+    "city": "Mt Dora",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Mt Dora 17314 US Highway 441 Mt Dora, FL 32757 More Info"
+   },
+   {
+    "campus_name": "Ocala – College Road",
+    "city": "Ocala",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Ocala – College Road 4870 SW College Rd Ocala, FL 34474 More Info"
+   },
+   {
+    "campus_name": "Palm Coast",
+    "city": "Palm Coast",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Palm Coast 5861 State Highway 100 E Palm Coast, FL 32164 More Info"
+   },
+   {
+    "campus_name": "Port Orange",
+    "city": "Port Orange",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Port Orange 907 Taylor Road Port Orange, FL 32127 More Info"
+   },
+   {
+    "campus_name": "Port St. Lucie West",
+    "city": "Port St. Lucie",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Port St. Lucie West 1775 NW St. Lucie Blvd. Port St. Lucie, FL 34986 More Info"
+   },
+   {
+    "campus_name": "Viera",
+    "city": "Rockledge",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Viera 2005 Viera Blvd Rockledge, FL 32955 More Info"
+   },
+   {
+    "campus_name": "Altamonte Springs",
+    "city": "Altamonte Springs",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Altamonte Springs 477 East Altamonte Drive Altamonte Springs, FL 32701 More Info"
+   },
+   {
+    "campus_name": "Boca East",
+    "city": "Boca Raton",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Boca East 1200 Yamato Rd Boca Raton, FL 33431 More Info"
+   },
+   {
+    "campus_name": "Boca West",
+    "city": "Boca Raton",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Boca West 9244 Glades Road Boca Raton, FL 33434 More Info"
+   },
+   {
+    "campus_name": "Boynton",
+    "city": "Boynton Beach",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Boynton 2212 N. Congress Ave Boynton Beach, FL 33426 More Info"
+   },
+   {
+    "campus_name": "Brandon",
+    "city": "Brandon",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Brandon 1817 W Brandon Blvd. Brandon, FL 33511 More Info"
+   },
+   {
+    "campus_name": "Champions Gate",
+    "city": "Davenport",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Champions Gate 8170 Laura LN Davenport, FL 33896 More Info"
+   },
+   {
+    "campus_name": "Clermont",
+    "city": "Clermont",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Clermont 1555 S. Grand Hwy Clermont , FL 34711 More Info"
+   },
+   {
+    "campus_name": "Coral Springs",
+    "city": "Coral Springs",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Coral Springs 1915 N. University Dr Coral Springs, FL 33071 More Info"
+   },
+   {
+    "campus_name": "Davie",
+    "city": "Davie",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Davie 2080 South University Dr Davie, FL 33324 More Info"
+   },
+   {
+    "campus_name": "Daytona",
+    "city": "Daytona Beach",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Daytona 1564 Outlet Blvd Daytona Beach, FL 32117 More Info"
+   },
+   {
+    "campus_name": "Destin",
+    "city": "Destin",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Destin 34906 Emerald Coast Pkwy. Destin, FL 32541 More Info"
+   },
+   {
+    "campus_name": "Ft Myers",
+    "city": "Fort Myers",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Ft Myers 4400 Kernel Cir Fort Myers, FL 33916 More Info"
+   },
+   {
+    "campus_name": "Ft Myers Estero",
+    "city": "Fort Myers",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Ft Myers Estero 10065 Gulf Center Dr Fort Myers, FL 33907 More Info"
+   },
+   {
+    "campus_name": "Gainesville",
+    "city": "Gainesville",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Gainesville 2881 Bass Pro Shops Blvd Gainesville, FL 32608 More Info"
+   },
+   {
+    "campus_name": "Gardens",
+    "city": "Palm Beach Gardens",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Gardens 9800 Alternate A1A Palm Beach Gardens, FL 33410 More Info"
+   },
+   {
+    "campus_name": "Hollywood",
+    "city": "Hollywood",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Hollywood 3215 Oakwood Blvd Hollywood, FL 33020 More Info"
+   },
+   {
+    "campus_name": "Hunter’s Creek",
+    "city": "Orlando",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Hunter’s Creek 13536 John Young Parkway Orlando, FL 32837 More Info"
+   },
+   {
+    "campus_name": "Jacksonville At the Avenues",
+    "city": "Jacksonville",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Jacksonville At the Avenues 10334 Southside Blvd. Jacksonville, FL 32256 More Info"
+   },
+   {
+    "campus_name": "Jacksonville Southside",
+    "city": "Jacksonville",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Jacksonville Southside 9711 Deer Lake Ct Jacksonville, FL 32246 More Info"
+   },
+   {
+    "campus_name": "Jacksonville Hodges",
+    "city": "Jacksonville",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Jacksonville Hodges 3238 Hodges Boulevard Jacksonville, FL 32224 More Info"
+   },
+   {
+    "campus_name": "Jacksonville Mandarin",
+    "city": "Jacksonville",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Jacksonville Mandarin 11112 San Jose Blvd. Jacksonville, FL 32223 More Info"
+   },
+   {
+    "campus_name": "Jacksonville Regency",
+    "city": "Jacksonville",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Jacksonville Regency 9541 Regency Square Blvd. Jacksonville, FL 32225 More Info"
+   },
+   {
+    "campus_name": "Jensen Beach",
+    "city": "Jensen Beach",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Jensen Beach 3611 NW Federal Hwy Jensen Beach, FL 34957 More Info"
+   },
+   {
+    "campus_name": "Jupiter",
+    "city": "Jupiter",
+    "country": "U.S.",
+    "role": "main",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Jupiter 126 Center St Jupiter, FL 33458 More Info"
+   },
+   {
+    "campus_name": "Kissimmee",
+    "city": "Kissimmee",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Kissimmee 8123 Irlo Bronson Memorial Hwy. Kissimmee, FL 34747 More Info"
+   },
+   {
+    "campus_name": "Lady Lake",
+    "city": "Lady Lake",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Lady Lake 635 US-27 #441 Lady Lake, FL 32159 More Info"
+   },
+   {
+    "campus_name": "Lake Buena Vista",
+    "city": "Orlando",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Lake Buena Vista 12371 Winter Garden Vineland Rd Orlando, FL 32836 More Info"
+   },
+   {
+    "campus_name": "Lake Nona",
+    "city": "Lake Nona",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Lake Nona 11955 Narcoossee Rd Lake Nona, FL 32832 More Info"
+   },
+   {
+    "campus_name": "Miami Doral",
+    "city": "Doral",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Miami Doral 3271 N.W. 87 Ave Doral, FL 33172 More Info"
+   },
+   {
+    "campus_name": "Miami Falls",
+    "city": "Palmetto Bay",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Miami Falls 13603 S Dixie Highway Palmetto Bay, FL 33176 More Info"
+   },
+   {
+    "campus_name": "Miami Kendall",
+    "city": "Miami",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Miami Kendall 11625 N. Kendall Dr. Miami, FL 33176 More Info"
+   },
+   {
+    "campus_name": "Miami Lakes",
+    "city": "Miami Lakes",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Miami Lakes 15251 NW 67th Ave Miami Lakes, FL 33014 More Info"
+   },
+   {
+    "campus_name": "Naples North",
+    "city": "Naples",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Naples North 6320 Hollywood Boulevard Naples, FL 34109 More Info"
+   },
+   {
+    "campus_name": "Naples South",
+    "city": "Naples",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Naples South 6827 Collier Blvd Naples, FL 34114 More Info"
+   },
+   {
+    "campus_name": "Ocala",
+    "city": "Ocala",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Ocala 305 SE 17th St Ocala, FL 34471 More Info"
+   },
+   {
+    "campus_name": "Orange Park",
+    "city": "Orange Park",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Orange Park 1756 Wells Rd Orange Park, FL 32073 More Info"
+   },
+   {
+    "campus_name": "Orlando (Semoran)",
+    "city": "Orlando",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Orlando (Semoran) 6141 South Semoran Blvd Orlando, FL 32822 More Info"
+   },
+   {
+    "campus_name": "Orlando Alafaya",
+    "city": "Orlando",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Orlando Alafaya 641 N Alafaya Trl Orlando, FL 32828 More Info"
+   },
+   {
+    "campus_name": "Orlando East Colonial",
+    "city": "Orlando",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Orlando East Colonial 2600 East Colonial Dr Orlando, FL 32803 More Info"
+   },
+   {
+    "campus_name": "Orlando Florida Mall",
+    "city": "Orlando",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Orlando Florida Mall 1667 Florida Mall Ave. Orlando, FL 32809 More Info"
+   },
+   {
+    "campus_name": "Orlando I – Drive",
+    "city": "Orlando",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Orlando I – Drive 8963 International Drive Orlando, FL 32819 More Info"
+   },
+   {
+    "campus_name": "Orlando Kirkman",
+    "city": "Orlando",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Orlando Kirkman 5573 Kirkman Rd Orlando, FL 32819 More Info"
+   },
+   {
+    "campus_name": "Orlando Sanford",
+    "city": "Sanford",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Orlando Sanford 50 Town Center Cir Sanford, FL 32771 More Info"
+   },
+   {
+    "campus_name": "Osceola / 535",
+    "city": "Kissimmee",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Osceola / 535 3151 Vineland Rd Kissimmee, FL 34746 More Info"
+   },
+   {
+    "campus_name": "Oviedo",
+    "city": "Oviedo",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Oviedo 312 W. Mitchell Hammock Rd Oviedo, FL 32765 More Info"
+   },
+   {
+    "campus_name": "Palm Beach Gardens Alton",
+    "city": "Palm Beach Gardens",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Palm Beach Gardens Alton 5430 Donald Ross Rd. Palm Beach Gardens, FL 33418 More Info"
+   },
+   {
+    "campus_name": "Pembroke Pines",
+    "city": "Pembroke Pines",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Pembroke Pines 11795 Pines Boulevard Pembroke Pines, FL 33026 More Info"
+   },
+   {
+    "campus_name": "Pensacola",
+    "city": "Pensacola",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Pensacola 5906 North Davis Hwy Pensacola, FL 32503 More Info"
+   },
+   {
+    "campus_name": "Port St Lucie",
+    "city": "Port St Lucie",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Port St Lucie 2220 SW Gatlin Blvd Port St Lucie, FL 34953 More Info"
+   },
+   {
+    "campus_name": "Sarasota",
+    "city": "Sarasota",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Sarasota 3800 Kenny Dr Sarasota, FL 34232 More Info"
+   },
+   {
+    "campus_name": "Seminole",
+    "city": "Seminole",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Seminole 7695 113 Street Seminole, FL 33772 More Info"
+   },
+   {
+    "campus_name": "St. Cloud",
+    "city": "Kissimmee",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "St. Cloud 2461 E. Irlo Bronson Mem Hwy Kissimmee, FL 34744 More Info"
+   },
+   {
+    "campus_name": "St. Pete",
+    "city": "St. Petersburg",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "St. Pete 7901 Dr Martin Luther King Jr St N St. Petersburg, FL 33702 More Info"
+   },
+   {
+    "campus_name": "Tallahassee",
+    "city": "Tallahassee",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Tallahassee 722 Appalachee Pkwy Tallahassee, FL 32301 More Info"
+   },
+   {
+    "campus_name": "Tampa",
+    "city": "Tampa",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Tampa 3860 West Columbus Dr Tampa, FL 33607 More Info"
+   },
+   {
+    "campus_name": "Tampa USF",
+    "city": "Tampa",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Tampa USF 2108 E Fowler Ave Tampa, FL 33612 More Info"
+   },
+   {
+    "campus_name": "Wesley Chapel",
+    "city": "Lutz",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Wesley Chapel 25264 S.R. 54 Lutz, FL 33559 More Info"
+   },
+   {
+    "campus_name": "Winter Garden",
+    "city": "Winter Garden",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Winter Garden 12175 W Colonial Drive Winter Garden, FL 34787 More Info"
+   },
+   {
+    "campus_name": "Winter Garden Hamlin",
+    "city": "Winter Garden",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Winter Garden Hamlin 16428 New Independence Pkwy Winter Garden, FL 34787 More Info"
+   },
+   {
+    "campus_name": "Winter Park (University Park Dr.)",
+    "city": "Winter Park",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Winter Park (University Park Dr.) 101 University Park Dr Winter Park, FL 32792 More Info"
+   },
+   {
+    "campus_name": "Winter Park Village (Lee Rd.)",
+    "city": "Winter Park",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Winter Park Village (Lee Rd.) 1251 Lee Rd Winter Park, FL 32789 More Info"
+   },
+   {
+    "campus_name": "Braselton",
+    "city": "Braselton",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Braselton – OPEN NOW! 1057 Braselton Village Parkway Braselton, GA 30517 More Info"
+   },
+   {
+    "campus_name": "Fayetteville",
+    "city": "Fayetteville",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Fayetteville 1350 Highway 85 North Fayetteville, GA 30214 More Info"
+   },
+   {
+    "campus_name": "Sharpsburg",
+    "city": "Sharpsburg",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Sharpsburg 60 Fischer Market Place Lane Sharpsburg, GA 30277 More Info"
+   },
+   {
+    "campus_name": "Snellville",
+    "city": "Snellville",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Snellville 1486 Scenic Highway Snellville, GA 30078 More Info"
+   },
+   {
+    "campus_name": "Dawsonville",
+    "city": "Dawsonville",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Dawsonville 84 Duval Rd. Dawsonville, GA 30534 More Info"
+   },
+   {
+    "campus_name": "Kennesaw",
+    "city": "Kennesaw",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Kennesaw 745 Chastain RD NW Kennesaw, GA 30144 More Info"
+   },
+   {
+    "campus_name": "McDonough",
+    "city": "McDonough",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "McDonough 1490 GA-20 McDonough, GA 30253 More Info"
+   },
+   {
+    "campus_name": "Aurora",
+    "city": "Aurora",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Aurora 778 N. Route 59 Aurora, IL 60504 More Info"
+   },
+   {
+    "campus_name": "Chicago Lombard",
+    "city": "Lombard",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Chicago Lombard 455 Butterfield Rd Lombard, IL 60148 More Info"
+   },
+   {
+    "campus_name": "Norridge",
+    "city": "Norridge",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Norridge 4474 N. Harlem Ave Norridge, IL 60706 More Info"
+   },
+   {
+    "campus_name": "Orland Park",
+    "city": "Orland Park",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Orland Park 15630 S. La Grange Rd. Orland Park, IL 60462 More Info"
+   },
+   {
+    "campus_name": "Schaumburg",
+    "city": "Schaumburg",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Schaumburg 1300 N Meacham Road Schaumburg, IL 60173 More Info"
+   },
+   {
+    "campus_name": "Annapolis",
+    "city": "Annapolis",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Annapolis 178 Jennifer Rd Annapolis, MD 21401 More Info"
+   },
+   {
+    "campus_name": "Bel Air",
+    "city": "Bel Air",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Bel Air 601 Baltimore Pike Bel Air, MD 21014 More Info"
+   },
+   {
+    "campus_name": "Hyattsville",
+    "city": "Hyattsville",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Hyattsville 3430 East-West Hwy Hyattsville, MD 20782 More Info"
+   },
+   {
+    "campus_name": "Ocean Township",
+    "city": "Ocean",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Ocean Township 1603 Highway 35 Ocean, NJ 07712 More Info"
+   },
+   {
+    "campus_name": "Parsippany",
+    "city": "Parsippany-Troy Hills",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Parsippany 1721 NJ-10 Parsippany-Troy Hills, NJ 07054 More Info"
+   },
+   {
+    "campus_name": "Mt. Laurel",
+    "city": "Mt Laurel",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Mt. Laurel 554 Fellowship Rd Mt Laurel, NJ 08054 More Info"
+   },
+   {
+    "campus_name": "Paramus",
+    "city": "Paramus",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Paramus 270 E State Rt 4 Paramus, NJ 07652 More Info"
+   },
+   {
+    "campus_name": "Rockaway",
+    "city": "Rockaway",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Rockaway 325 Mount Pleasant Avenue Rockaway, NJ 07866 More Info"
+   },
+   {
+    "campus_name": "Watchung",
+    "city": "Watchung",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Watchung 1664 Route 22 Watchung, NJ 07069 More Info"
+   },
+   {
+    "campus_name": "Woodbridge",
+    "city": "Woodbridge Township",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Woodbridge 350 U.S. 9 N Woodbridge Township, NJ 07095 More Info"
+   },
+   {
+    "campus_name": "Commack",
+    "city": "Commack",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Commack 88 Veterans Memorial Hwy Commack, NY 11725 More Info"
+   },
+   {
+    "campus_name": "Deer Park",
+    "city": "Deer Park",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Deer Park 1800 The Arches Cir Deer Park, NY 11729 More Info"
+   },
+   {
+    "campus_name": "Lake Grove",
+    "city": "Lake Grove",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Lake Grove 4000 Middle Country Rd Lake Grove, NY 11755 More Info"
+   },
+   {
+    "campus_name": "Levittown",
+    "city": "Levittown",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Levittown 3046 Hempstead Tpke. Levittown, NY 11756 More Info"
+   },
+   {
+    "campus_name": "Staten Island",
+    "city": "Staten Island",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Staten Island 2883 Richmond Ave Staten Island, NY 10314 More Info"
+   },
+   {
+    "campus_name": "Allentown",
+    "city": "Allentown",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Allentown 913 Airport Center Dr Allentown, PA 18109 More Info"
+   },
+   {
+    "campus_name": "Lancaster",
+    "city": "Lancaster",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Lancaster 1000 Christopher Place"
+   },
+   {
+    "campus_name": "Media",
+    "city": "Media",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Media 1119 W. Baltimore Pike Media, PA 19063 More Info"
+   },
+   {
+    "campus_name": "Montgomeryville",
+    "city": "Lansdale",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Montgomeryville 751 Horsham RD. Lansdale, PA 19446 More Info"
+   },
+   {
+    "campus_name": "Philadelphia Langhorne",
+    "city": "Langhorne",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Philadelphia Langhorne 2250 E Lincoln Hwy Langhorne, PA 19047 More Info"
+   },
+   {
+    "campus_name": "Plymouth Meeting",
+    "city": "Plymouth Meeting",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Plymouth Meeting 500 W. Germantown Pike Plymouth Meeting, PA 19462 More Info"
+   },
+   {
+    "campus_name": "South Philadelphia",
+    "city": "Philadelphia",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "South Philadelphia 2100 S. Columbus Blvd. Philadelphia, PA 19148 More Info"
+   },
+   {
+    "campus_name": "Wilkes-Barre",
+    "city": "Wilkes-Barre",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Wilkes-Barre 2310 Wilkes Barre Township Blvd Wilkes-Barre, PA 18702 More Info"
+   },
+   {
+    "campus_name": "Willow Grove",
+    "city": "Willow Grove",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Willow Grove 2300 Easton Road Willow Grove, PA 19090 More Info"
+   },
+   {
+    "campus_name": "Chattanooga",
+    "city": "Chattanooga",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Chattanooga 2119 Gunbarrel Rd. Chattanooga, TN 37421 More Info"
+   },
+   {
+    "campus_name": "Hixson",
+    "city": "Hixson",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Hixson 574 Northgate Mall Dr Hixson, TN 37343 More Info"
+   },
+   {
+    "campus_name": "Murfreesboro",
+    "city": "Murfreesboro",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Murfreesboro 1714 Old Fort Parkway Murfreesboro, TN 37129 More Info"
+   },
+   {
+    "campus_name": "Sterling",
+    "city": "Sterling",
+    "country": "U.S.",
+    "role": "branch",
+    "source_url": "https://millersalehouse.com/locations/",
+    "evidence_quote": "Sterling 46280 Potomac Run Plz Sterling, VA 20164 More Info"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "Miller's Ale House is a restaurant chain and does not have Erasmus+ or international mobility partnerships. No partner list is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 9.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 11.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 26.6
+ }
+}
