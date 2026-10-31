@@ -1,0 +1,92 @@
+{
+ "row_id": "r124",
+ "scraped_at": "2026-10-31T08:09:16Z",
+ "contacts": {
+  "row_id": "r124",
+  "institution_name": "SOS Malta Charity Shop",
+  "institution_type": "unknown",
+  "official_website": "https://www.sosmalta.org/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://www.sosmalta.org/staff_contact?q=15",
+   "evidence_quote": "Santa Venera SVR 1640 Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@sosmalta.org",
+  "generic_email_url": "https://www.sosmalta.org/staff_contact?q=15",
+  "contact": {
+   "name": "Ms Claudia Taylor East",
+   "designation": "Chief Executive Officer",
+   "designation_local": "",
+   "email": "claudia.tayloreast@sosmalta.org",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.sosmalta.org/staff_contact?q=15",
+   "evidence_quote": "Ms Claudia Taylor East ... Chief Executive Officer"
+  },
+  "alternates": [
+   {
+    "name": "Mr Francis Frendo",
+    "designation": "Financial comptroller",
+    "designation_local": "",
+    "email": "francis.frendo@sosmalta.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sosmalta.org/staff_contact?q=15",
+    "evidence_quote": "Mr Francis Frendo ... Financial comptroller",
+    "why_chosen": "Secretary / administration (last resort). Mr Francis Frendo manages financial operations and administration."
+   },
+   {
+    "name": "Ms Graziella Schiavone",
+    "designation": "Finance Manager",
+    "designation_local": "",
+    "email": "graziella.schiavone@sosmalta.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.sosmalta.org/staff_contact?q=15",
+    "evidence_quote": "Ms Graziella Schiavone ... Finance Manager",
+    "why_chosen": "Secretary / administration (last resort). Ms Graziella Schiavone is part of the administrative and finance team."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Ms Claudia Taylor East is the Chief Executive Officer and leads the organisation.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'SOS Malta' on the site. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "SOS Malta",
+    "city": "Santa Venera",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://www.sosmalta.org/staff_contact?q=15",
+    "evidence_quote": "Santa Venera SVR 1640 Malta"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not list any partner institutions or mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.2,
+  "crawl_s": 13.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 22.4
+ }
+}
