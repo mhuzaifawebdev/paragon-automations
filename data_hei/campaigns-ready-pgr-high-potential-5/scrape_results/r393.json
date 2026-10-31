@@ -1,0 +1,97 @@
+{
+ "row_id": "r393",
+ "scraped_at": "2026-10-31T05:36:59Z",
+ "contacts": {
+  "row_id": "r393",
+  "institution_name": "Sentry",
+  "institution_type": "unknown",
+  "official_website": "https://www.sentry.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Whitney Anderson",
+   "designation": "Media inquiries contact",
+   "designation_local": "",
+   "email": "whitney.anderson@sentry.com",
+   "office_email": "",
+   "phone": "715-346-7807",
+   "source_url": "https://www.sentry.com/about-us/company-news-and-events/renews-partnership-with-ata",
+   "evidence_quote": "Whitney Anderson"
+  },
+  "alternates": [
+   {
+    "name": "Stephanie Weiss",
+    "designation": "Media contact",
+    "designation_local": "",
+    "email": "Stephanie.weiss@sentry.com",
+    "office_email": "",
+    "phone": "715-346-7704",
+    "source_url": "https://www.sentry.com/about-us/company-news-and-events/sentry-and-motive-partner-on-transportation-industry-telematics",
+    "evidence_quote": "Stephanie Weiss",
+    "why_chosen": "Secretary / administration (last resort). Stephanie Weiss is listed as a contact for media inquiries."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Whitney Anderson is listed as the contact for media inquiries and company news.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "American Trucking Associations",
+    "partner_country": "United States",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sentry.com/who-we-serve/trucking-insurance/american-trucking-associations",
+    "evidence_quote": "We're proud to be a Corporate Partner and Featured Product of the American Trucking Associations (ATA). Our collaboration with the ATA reflects a mutual commitment to supporting the trucking industry’s growth and resilience.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Motive",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sentry.com/about-us/company-news-and-events/sentry-and-motive-partner-on-transportation-industry-telematics",
+    "evidence_quote": "STEVENS POINT, Wis., and SAN FRANCISCO, Calif. (January 25, 2023) – Motive, the leader in Automated Operations for the physical economy, and Sentry Insurance, a leading provider of commercial trucking insurance, today announced that customers using Motive’s Driver Safety Solution are eligible to save up to 5 percent on their Sentry insurance premiums for sharing its electronic logging device (ELD) and dashcam data from the Motive platform with the insurer.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sentry Insurance",
+    "city": "Stevens Point",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.sentry.com/",
+    "evidence_quote": "© 2026 Sentry Insurance, 1800 North Point Drive, Stevens Point, WI 54481"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "Sentry is an insurance company, not an educational institution, and therefore does not have Erasmus+ partnerships or academic mobility programs. The evidence provided focuses on corporate partnerships and business operations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 13.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 16.0
+ }
+}
