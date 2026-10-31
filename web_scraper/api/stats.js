@@ -28,11 +28,14 @@ module.exports = async (req, res) => {
         const m = (cfgText || "").match(new RegExp(`${key}\\s*:\\s*([\\d.]+)`));
         return m ? parseFloat(m[1]) : 0;
       };
-      // How far the running batch has got: done rows only count in the queue once the whole batch has finished.
+      // How far the running batch has got: its rows and cost only count in the queue once the whole batch has finished.
       const running = (q.items || []).filter((i) => i.state === "running");
       await Promise.all(running.map(async (i) => {
-        try { i.rows_done = Number(JSON.parse((await getRawFile(`data_hei/${i.batch}/progress.json`)) || "{}").done) || 0; }
-        catch { i.rows_done = 0; }
+        try {
+          const p = JSON.parse((await getRawFile(`data_hei/${i.batch}/progress.json`)) || "{}");
+          i.rows_done = Number(p.done) || 0;
+          i.cost_live = Number(p.cost_usd_so_far) || 0;
+        } catch { i.rows_done = 0; i.cost_live = 0; }
       }));
       res.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
       res.status(200).json({ updated: q.updated || null, paused: q.paused || null,

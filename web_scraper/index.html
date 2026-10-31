@@ -1001,12 +1001,13 @@ $("i-batch").addEventListener("change", () => instRows && renderInstitutes());
 const Q_LABEL = { queued: "waiting", running: "running", done: "done", failed: "failed", cancelled: "cancelled" };
 
 function renderBudget(items, cap, correction, credit) {
-  const spent = items.reduce((s, i) => s + parseFloat(i.cost_usd || 0), 0) + (correction || 0);
+  const spent = items.reduce((s, i) => s + parseFloat(i.cost_usd || i.cost_live || 0), 0) + (correction || 0);
   const creditLeft = credit ? credit - spent : null;
   const remaining = Math.max(0, cap - spent);
   const pct = cap ? Math.min(100, (spent / cap) * 100) : 0;
   const usd = v => "$" + v.toFixed(2);
-  const doneRows  = items.filter(i => i.state === "done").reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
+  const doneRows  = items.filter(i => i.state === "done").reduce((s, i) => s + (parseInt(i.rows) || 0), 0)
+                  + items.filter(i => i.state === "running").reduce((s, i) => s + (parseInt(i.rows_done) || 0), 0);
   const allRows   = items.reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
   const costPer   = doneRows ? spent / doneRows : 0;
   const projected = allRows && costPer ? costPer * allRows : 0;
