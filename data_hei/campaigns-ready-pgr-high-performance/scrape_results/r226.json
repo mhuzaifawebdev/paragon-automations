@@ -1,0 +1,126 @@
+{
+ "row_id": "r226",
+ "scraped_at": "2026-10-31T02:31:06Z",
+ "contacts": {
+  "row_id": "r226",
+  "institution_name": "IXL Learning",
+  "institution_type": "school",
+  "official_website": "https://www.ixl.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://www.ixl.com/contact",
+   "evidence_quote": "San Mateo, CA 94404 (USA)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@ixl.com",
+  "generic_email_url": "https://www.ixl.com/contact",
+  "contact": {
+   "name": "IXL Orders",
+   "designation": "Orders",
+   "designation_local": "",
+   "email": "orders@ixl.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ixl.com/contact",
+   "evidence_quote": "orders@ixl.com <orders@ixl.com>"
+  },
+  "alternates": [
+   {
+    "name": "IXL Help",
+    "designation": "Help",
+    "designation_local": "",
+    "email": "help@ixl.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ixl.com/contact",
+    "evidence_quote": "help@ixl.com",
+    "why_chosen": "Secretary / administration (last resort). This contact provides general help for IXL members."
+   },
+   {
+    "name": "IXL Info",
+    "designation": "Information",
+    "designation_local": "",
+    "email": "info@ixl.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ixl.com/contact",
+    "evidence_quote": "info@ixl.com <info@ixl.com>",
+    "why_chosen": "Secretary / administration (last resort). This contact provides general information about IXL Learning."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). This contact handles orders and partnership inquiries for the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Headquarters",
+    "city": "San Mateo",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.ixl.com/contact",
+    "evidence_quote": "San Mateo, CA 94404 (USA)"
+   },
+   {
+    "campus_name": "North Carolina Office",
+    "city": "Morrisville",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.ixl.com/contact",
+    "evidence_quote": "Morrisville, NC 27560 (USA)"
+   },
+   {
+    "campus_name": "Toronto Office",
+    "city": "Toronto",
+    "country": "Canada",
+    "role": "international",
+    "source_url": "https://www.ixl.com/contact",
+    "evidence_quote": "Toronto, ON M5V 1R3 (Canada)"
+   },
+   {
+    "campus_name": "London Office",
+    "city": "London",
+    "country": "UK",
+    "role": "international",
+    "source_url": "https://www.ixl.com/contact",
+    "evidence_quote": "211 Old Street, London EC1V 9NR (UK)"
+   },
+   {
+    "campus_name": "Sydney Office",
+    "city": "Sydney",
+    "country": "Australia",
+    "role": "international",
+    "source_url": "https://www.ixl.com/contact",
+    "evidence_quote": "Sydney, New South Wales 2000"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "IXL Learning is an educational technology company providing K-12 curriculum and does not list Erasmus+ or academic mobility partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 10.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 4,
+  "email_search_s": 0.0,
+  "total_seconds": 14.6
+ }
+}
