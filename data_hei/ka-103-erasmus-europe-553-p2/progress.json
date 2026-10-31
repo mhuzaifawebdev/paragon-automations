@@ -1,14 +1,14 @@
 {
  "batch": "ka-103-erasmus-europe-553-p2",
  "status": "running",
- "generated_at": "2026-10-31T23:56:57.516493+00:00",
- "chunk": 22,
+ "generated_at": "2026-10-31T23:58:02.613864+00:00",
+ "chunk": 23,
  "total_chunks": 32,
  "total_rows": 786,
- "done": 525,
- "pending": 261,
- "elapsed_seconds": 3731,
- "eta_seconds": 1471,
+ "done": 531,
+ "pending": 255,
+ "elapsed_seconds": 3770,
+ "eta_seconds": 1189,
  "cost_usd_so_far": 2.1441,
  "paid_search_usd": 2.1441,
  "paid_search_limit_usd": 21.0,
@@ -39,14 +39,12 @@
  "confidence": {
   "high": 87,
   "medium": 54,
-  "low": 119,
-  "none": 265
+  "low": 120,
+  "none": 270
  },
- "partners_found": 9810,
- "campuses_found": 603,
+ "partners_found": 9829,
+ "campuses_found": 604,
  "recent": [
-  "r506",
-  "r507",
   "r508",
   "r509",
   "r510",
@@ -64,7 +62,9 @@
   "r522",
   "r523",
   "r524",
-  "r525"
+  "r525",
+  "r529",
+  "r531"
  ],
  "drive_error": "SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2427)"
 }
