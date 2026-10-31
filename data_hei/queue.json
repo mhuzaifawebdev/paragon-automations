@@ -3947,23 +3947,35 @@
    "source": "Campaigns Ready PGR High Potential-541",
    "file_id": "1AWlAeXNFfmn_aHXLiIt8zz9lekUTzaGZ-_sUp-ynMvw",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 541,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-31T04:45:36Z",
    "last_start": "2026-10-31T04:45:36Z",
    "restarts": 0,
-   "cap_usd": 648.07
+   "cap_usd": 648.07,
+   "crm_rows": 82,
+   "no_number": 492,
+   "spend_recorded": true,
+   "cost_usd": 1.8396,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1FRC0aWTEF99T17w17iyqjhimMdKnecDy/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 416,
+   "finished": "2026-10-31T05:58:57Z",
+   "reason": "519 institutes, 279 with a contact"
   },
   {
    "batch": "retail-stores-malta-p1",
    "source": "Retail Stores ,Malta",
    "file_id": "19xjULR1CJYjrGeRH_FOWAaPokC9FZtFIjdjlrsk92xc",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 1000,
    "part": "1/5",
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-31T05:58:57Z",
+   "last_start": "2026-10-31T05:58:57Z",
+   "restarts": 0,
+   "cap_usd": 646.23
   },
   {
    "batch": "retail-stores-malta-p2",
@@ -4132,7 +4144,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-31T04:45:36Z",
+ "updated": "2026-10-31T05:58:57Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
