@@ -4208,24 +4208,36 @@
    "source": "KA 103 Erasmus+ Europe-553",
    "file_id": "1pKt_3Odv3HVynpc63sDtgXN0GvkFHZjPSzpk3oUnUkU",
    "added": "2026-10-28T13:09:47Z",
-   "state": "running",
+   "state": "done",
    "rows": 998,
    "part": "1/2",
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-31T20:49:47Z",
    "last_start": "2026-10-31T20:49:47Z",
    "restarts": 0,
-   "cap_usd": 605.15
+   "cap_usd": 605.15,
+   "crm_rows": 299,
+   "no_number": 779,
+   "spend_recorded": true,
+   "cost_usd": 2.2311,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1siDXZhsvWgZA_KF81h1DsJIuIImYejMv/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 517,
+   "finished": "2026-10-31T22:44:37Z",
+   "reason": "998 institutes, 425 with a contact"
   },
   {
    "batch": "ka-103-erasmus-europe-553-p2",
    "source": "KA 103 Erasmus+ Europe-553",
    "file_id": "1pKt_3Odv3HVynpc63sDtgXN0GvkFHZjPSzpk3oUnUkU",
    "added": "2026-10-28T13:09:47Z",
-   "state": "queued",
+   "state": "running",
    "rows": 786,
    "part": "2/2",
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-31T22:44:37Z",
+   "last_start": "2026-10-31T22:44:37Z",
+   "restarts": 0,
+   "cap_usd": 602.92
   },
   {
    "batch": "copy-of-vet-150k-100k-batch-9-2nd-ba",
@@ -4276,7 +4288,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-31T20:49:47Z",
+ "updated": "2026-10-31T22:44:37Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
