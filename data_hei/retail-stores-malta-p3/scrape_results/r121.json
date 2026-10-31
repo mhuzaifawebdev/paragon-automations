@@ -1,0 +1,89 @@
+{
+ "row_id": "r121",
+ "scraped_at": "2026-10-31T09:42:02Z",
+ "contacts": {
+  "row_id": "r121",
+  "institution_name": "Vini e Aromi",
+  "institution_type": "unknown",
+  "official_website": "https://viniearomi.mt/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://viniearomi.mt/",
+   "evidence_quote": "Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lollo Cafe",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://viniearomi.mt/content/4-about-us",
+    "evidence_quote": "special place in their hearts. As sole distributors of Lollo Cafe, a renowned Napolitan brand, we bring",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rudini Winery",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://viniearomi.mt/content/4-about-us",
+    "evidence_quote": "Rudini Winery: With roots dating back to the 1900s, Rudini Winery epitomizes the essence of Sicilian",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conte Spagnioletti Winery",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://viniearomi.mt/content/4-about-us",
+    "evidence_quote": "Conte Spagnioletti Winery: Operating for over a century, Conte Spagnioletti is synonymous with quality",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Vini e Aromi",
+    "city": "St. Paul's Bay",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://viniearomi.mt/",
+    "evidence_quote": "26 Triq is- Sajjied Bugibba"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 4,
+  "coverage_note": "Vini e Aromi is a commercial business selling coffee and wine, not an educational institution. There is no information regarding Erasmus+ or international academic mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.0,
+  "crawl_s": 5.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 20.0
+ }
+}
