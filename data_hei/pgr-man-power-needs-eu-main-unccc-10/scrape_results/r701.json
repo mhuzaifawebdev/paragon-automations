@@ -1,0 +1,83 @@
+{
+ "row_id": "r701",
+ "scraped_at": "2026-10-31T01:30:17Z",
+ "contacts": {
+  "row_id": "r701",
+  "institution_name": "Visa",
+  "institution_type": "unknown",
+  "official_website": "https://www.visa.com/en-us",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.visa.com/en-us",
+   "evidence_quote": "United States|English"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "visaeconomicinsights@visa.com",
+  "generic_email_url": "https://usa.visa.com/content/dam/VCOM/global/partner-with-us/documents/us-conomic-outlook-april-2021.pdf",
+  "contact": {
+   "name": "Wayne Best",
+   "designation": "Chief Economist",
+   "designation_local": "",
+   "email": "wbest@visa.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://usa.visa.com/content/dam/VCOM/global/partner-with-us/documents/us-conomic-outlook-april-2021.pdf",
+   "evidence_quote": "Wayne Best ... Chief Economist"
+  },
+  "alternates": [
+   {
+    "name": "Michael Brown",
+    "designation": "Principal U.S. Economist",
+    "designation_local": "",
+    "email": "Michael.brown@visa.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://usa.visa.com/content/dam/VCOM/global/partner-with-us/documents/us-conomic-outlook-april-2021.pdf",
+    "evidence_quote": "Michael Brown ... Principal U.S. Economist",
+    "why_chosen": "Other role. He is a Principal U.S. Economist at Visa and is listed with a direct email address."
+   }
+  ],
+  "rung": "Other role. He is the Chief Economist at Visa and is listed with a direct email address.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Elavon",
+    "partner_country": "United Kingdom",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.visa.com/en-us/solutions/global-urban-mobility",
+    "evidence_quote": "Watch to learn how TfW (Transport for Wales) is partnering with Visa and Elavon to bring contactless payments and the best fare available to their ridership.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": 1000,
+  "stated_total_quote": "Visa works with public agencies, transportation authorities, technology providers and mobility operators to support connected, secure digital payment experiences across the urban mobility ecosystem. This includes EV charging, parking, tolling, public transit, and emerging initiatives designed to make door-to-door travel more seamless. Visa has supported mobility payment implementations in more than 1000 mobility projects globally.",
+  "stated_total_url": "https://www.visa.com/en-us/solutions/global-urban-mobility",
+  "truncated": true,
+  "total_seen": 1000,
+  "pages_read": 10,
+  "coverage_note": "The evidence provided describes Visa as a global payments technology company rather than an educational institution. No specific Erasmus+ or international mobility office is listed, and the partner list is limited to examples of transit technology collaborations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.2,
+  "crawl_s": 12.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 15.2
+ }
+}
