@@ -1,0 +1,72 @@
+{
+ "row_id": "r839",
+ "scraped_at": "2026-10-31T01:45:32Z",
+ "contacts": {
+  "row_id": "r839",
+  "institution_name": "Ford",
+  "institution_type": "unknown",
+  "official_website": "https://www.ford.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.ford.com/help/contact/?gnav=header-support",
+   "evidence_quote": "Ford United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 6 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Autotrader",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ford.com/ford-certified-collision-network/",
+    "evidence_quote": "To help you find your ideal certified used Ford vehicle, Ford is partnering with Autotrader to bring you the Ford Blue Advantage website.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ford Motor Company",
+    "city": "Dearborn",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.ford.com/help/contact/?gnav=header-support",
+    "evidence_quote": "Dearborn, MI 48126"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "Ford is a commercial automotive company, not an educational institution. No information regarding Erasmus+ or international academic mobility partnerships is available. 6 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 20.3,
+  "crawl_s": 150.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "total_seconds": 217.8
+ }
+}
