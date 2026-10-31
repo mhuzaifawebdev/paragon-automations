@@ -1,0 +1,67 @@
+{
+ "row_id": "r410",
+ "scraped_at": "2026-10-31T12:29:39Z",
+ "contacts": {
+  "row_id": "r410",
+  "institution_name": "The Stationer",
+  "institution_type": "unknown",
+  "official_website": "https://www.tso.co.uk:443/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "MCC",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tso.co.uk:443/",
+    "evidence_quote": "[MCC agrees partnership with TSO to expand access to the Laws of Cricket across the globe]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "TSO Headquarters",
+    "city": "Norwich",
+    "country": "United Kingdom",
+    "role": "main",
+    "source_url": "https://www.tso.co.uk:443/contact-us/",
+    "evidence_quote": "18 Central Avenue"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The institution is a publishing company rather than an educational institution. No information regarding Erasmus+ partnerships or international mobility programs is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 5.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 36.9
+ }
+}
