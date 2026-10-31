@@ -1,0 +1,148 @@
+{
+ "row_id": "r697",
+ "scraped_at": "2026-10-31T17:28:12Z",
+ "contacts": {
+  "row_id": "r697",
+  "institution_name": "INSTITUTO POLITECNICO DE VISEU",
+  "institution_type": "university",
+  "official_website": "https://ipv.pt/",
+  "country": {
+   "value": "Portugal",
+   "source_url": "https://ipv.pt/estudar/internacional/",
+   "evidence_quote": "Se queres estudar em Portugal e na Universidade Politécnica de Viseu, tens aqui toda a informação necessária."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EUNICE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://ipv.pt/estudar/internacional/mobilidade/",
+    "evidence_quote": "A Universidade Politécnica de Viseu faz ainda parte da Universidade Europeia de Educação Personalizada (EUNICE). Se é estudante ou membro do pessoal docente e não docente, não hesite em aproveitar a oportunidade que a Universidade Europeia lhe oferece em cada uma das universidades parceiras da aliança!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agrupamento de Escolas de Tondela Tomaz Ribeiro",
+    "partner_country": "Portugal",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://ipv.pt/impulso-jovens-steam-e-adultos/",
+    "evidence_quote": "Agrupamento de Escolas de Tondela Tomaz Ribeiro",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "European University for Customised Education (EUNICE)",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://ipv.pt/estudar/internacional/mobilidade/",
+    "evidence_quote": "European University for Customised Education (EUNICE)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Instituto Politécnico de Viseu",
+    "city": "Viseu",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://ipv.pt/",
+    "evidence_quote": "[Morada] Av. Cor. José Maria Vale de Andrade"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a specific list of individual partner universities, only mentioning the EUNICE alliance.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.4,
+  "crawl_s": 19.1,
+  "ai_calls": 10,
+  "partner_calls": 7,
+  "cost_usd_estimate": 0.0,
+  "model_s": 25.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     1121,
+     1260
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     1261,
+     1376
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 63.6
+ }
+}
