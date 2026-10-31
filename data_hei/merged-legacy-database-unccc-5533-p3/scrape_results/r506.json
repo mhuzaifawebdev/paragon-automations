@@ -1,0 +1,131 @@
+{
+ "row_id": "r506",
+ "scraped_at": "2026-10-31T18:53:11Z",
+ "contacts": {
+  "row_id": "r506",
+  "institution_name": "EPLEFPA Les Sicaudières",
+  "institution_type": "college",
+  "official_website": "https://www.reana.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Fanny Dessevres",
+   "designation": "Boutique manager",
+   "designation_local": "",
+   "email": "fanny.dessevres@educagri.fr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.reana.fr/etablissements-et-sites/eplefpa-de-bressuire-campus-des-sicaudieres",
+   "evidence_quote": "Boutique des Sicaudières ... fanny.dessevres@educagri.fr <fanny.dessevres@educagri.fr>"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Fanny Dessevres is a named contact associated with the institution's boutique and has a direct email address.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EPLEFPA de Saintonge",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.reana.fr/formation/bp-agroequipement-conduite-et-maintenance-des-materiels",
+    "evidence_quote": "EPLEFPA de Saintonge (17)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EPLEFPA des Landes",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.reana.fr/formation/bp-agroequipement-conduite-et-maintenance-des-materiels",
+    "evidence_quote": "EPLEFPA des Landes (40)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EPL de Montmorillon",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.reana.fr/formation/bp-agroequipement-conduite-et-maintenance-des-materiels",
+    "evidence_quote": "EPL de Montmorillon (86)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EPLEFPA de Saint Yrieix la Perche",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.reana.fr/formation/bp-agroequipement-conduite-et-maintenance-des-materiels",
+    "evidence_quote": "EPLEFPA de Saint Yrieix la Perche (87)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EPLEFPA Edgard Pisani de Tulle-Naves",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.reana.fr/formation/bp-agroequipement-conduite-et-maintenance-des-materiels",
+    "evidence_quote": "EPLEFPA Edgard Pisani de Tulle-Naves (19)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EPLEFPA Bordeaux-Gironde",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.reana.fr/formation/bp-agroequipement-conduite-et-maintenance-des-materiels",
+    "evidence_quote": "EPL de Montmorillon, EPLEFPA Bordeaux-Gironde, EPLEFPA de Saint Yrieix La Perche, EPLEFPA de Saintonge, EPLEFPA Edgard Pisani de Tulle-Naves",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus des Sicaudières",
+    "city": "Bressuire",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.reana.fr/",
+    "evidence_quote": "EPLEFPA de Bressuire Campus des Sicaudières"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides detailed information about the institution's internal structure and training programs but does not list any international partners or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 37.7,
+  "crawl_s": 17.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 10,
+    "accepted": 6
+   }
+  ],
+  "total_seconds": 77.6
+ }
+}
