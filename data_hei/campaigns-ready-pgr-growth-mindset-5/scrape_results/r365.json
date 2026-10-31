@@ -1,0 +1,72 @@
+{
+ "row_id": "r365",
+ "scraped_at": "2026-10-31T04:16:58Z",
+ "contacts": {
+  "row_id": "r365",
+  "institution_name": "Russell Cellular",
+  "institution_type": "unknown",
+  "official_website": "https://russellcellular.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://russellcellular.com/",
+   "evidence_quote": "© 2026 Russell Cellular Inc. | 4125 Wilson Creek Marketplace Rd Battlefield, MO 65619, USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Verizon",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://russellcellular.com/our-story/",
+    "evidence_quote": "Russell Cellular is a Verizon Authorized Retailer that operates more than 600 wireless retail stores across 43 states in the United States. The company provides mobile phones, wireless plans, and accessories through its partnership with Verizon.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Home Office",
+    "city": "Battlefield",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://russellcellular.com/",
+    "evidence_quote": "© 2026 Russell Cellular Inc. | 4125 Wilson Creek Marketplace Rd Battlefield, MO 65619, USA"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "Russell Cellular is a commercial retail company, not an educational institution. No academic partners or international mobility programs are mentioned. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 8.0,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 4,
+  "total_seconds": 23.1
+ }
+}
