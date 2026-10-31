@@ -4012,24 +4012,36 @@
    "source": "Retail Stores ,Malta",
    "file_id": "19xjULR1CJYjrGeRH_FOWAaPokC9FZtFIjdjlrsk92xc",
    "added": "2026-10-28T08:46:35Z",
-   "state": "running",
+   "state": "done",
    "rows": 1000,
    "part": "3/5",
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-31T09:29:58Z",
    "last_start": "2026-10-31T09:29:58Z",
    "restarts": 0,
-   "cap_usd": 618.6
+   "cap_usd": 618.6,
+   "crm_rows": 18,
+   "no_number": 987,
+   "spend_recorded": true,
+   "cost_usd": 6.6218,
+   "drive_link": "https://docs.google.com/spreadsheets/d/18E-jV90NQe7dUKMRI4ddQUfnXqM1pzU-/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 300,
+   "finished": "2026-10-31T11:38:32Z",
+   "reason": "999 institutes, 87 with a contact"
   },
   {
    "batch": "retail-stores-malta-p4",
    "source": "Retail Stores ,Malta",
    "file_id": "19xjULR1CJYjrGeRH_FOWAaPokC9FZtFIjdjlrsk92xc",
    "added": "2026-10-28T08:46:35Z",
-   "state": "queued",
+   "state": "running",
    "rows": 1000,
    "part": "4/5",
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-31T11:38:32Z",
+   "last_start": "2026-10-31T11:38:32Z",
+   "restarts": 0,
+   "cap_usd": 611.98
   },
   {
    "batch": "retail-stores-malta-p5",
@@ -4168,7 +4180,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-31T09:29:58Z",
+ "updated": "2026-10-31T11:38:32Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
