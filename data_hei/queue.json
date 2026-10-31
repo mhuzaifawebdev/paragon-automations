@@ -4121,24 +4121,36 @@
    "source": "Merged Legacy Database UNCCC-5533",
    "file_id": "1h7GXfzi7q5LI67orYOBA3O6jUqFkDzgOYaZjQwGa3OE",
    "added": "2026-10-28T11:09:18Z",
-   "state": "running",
+   "state": "done",
    "rows": 1000,
    "part": "2/4",
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-31T16:06:44Z",
    "last_start": "2026-10-31T16:06:44Z",
    "restarts": 0,
-   "cap_usd": 609.41
+   "cap_usd": 609.41,
+   "crm_rows": 321,
+   "no_number": 741,
+   "spend_recorded": true,
+   "cost_usd": 1.5942,
+   "drive_link": "https://docs.google.com/spreadsheets/d/19Yb5XDbrMwmPC8cHiFyVUZSyP0ZHQlnK/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 678,
+   "finished": "2026-10-31T18:00:37Z",
+   "reason": "996 institutes, 539 with a contact"
   },
   {
    "batch": "merged-legacy-database-unccc-5533-p3",
    "source": "Merged Legacy Database UNCCC-5533",
    "file_id": "1h7GXfzi7q5LI67orYOBA3O6jUqFkDzgOYaZjQwGa3OE",
    "added": "2026-10-28T11:09:18Z",
-   "state": "queued",
+   "state": "running",
    "rows": 1000,
    "part": "3/4",
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-31T18:00:37Z",
+   "last_start": "2026-10-31T18:00:37Z",
+   "restarts": 0,
+   "cap_usd": 607.82
   },
   {
    "batch": "merged-legacy-database-unccc-5533-p4",
@@ -4228,7 +4240,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-31T17:27:46Z",
+ "updated": "2026-10-31T18:00:37Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
