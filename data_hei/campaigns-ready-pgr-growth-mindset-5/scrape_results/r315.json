@@ -1,0 +1,80 @@
+{
+ "row_id": "r315",
+ "scraped_at": "2026-10-31T04:10:55Z",
+ "contacts": {
+  "row_id": "r315",
+  "institution_name": "VITAL WorkLife",
+  "institution_type": "unknown",
+  "official_website": "https://www.vitalworklife.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.vitalworklife.com/",
+   "evidence_quote": "Minneapolis, MN 55486, United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Sarah Prom",
+   "designation": "Senior Director of Clinical Practice & Solutions",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.vitalworklife.com/about-us/wellbeing-expert-team/leadership",
+   "evidence_quote": "[Sarah Prom, MA, LPC, ODCP] ... Senior Director of Clinical Practice & Solutions"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Sarah Prom is a senior leader responsible for clinical practice and solutions.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "BetterHelp",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vitalworklife.com/about-us/well-being-expert-team",
+    "evidence_quote": "Meeting people where they are, sessions are in-person, by phone, or virtually from 32,000 licensed counselors through our BetterHelp partnership.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "VITAL WorkLife Headquarters",
+    "city": "Minneapolis",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.vitalworklife.com/",
+    "evidence_quote": "Minneapolis, MN 55486, United States"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "VITAL WorkLife is a healthcare well-being services provider rather than an educational institution. No information regarding Erasmus+ partnerships or academic mobility is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 13.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.4,
+  "total_seconds": 46.7
+ }
+}
