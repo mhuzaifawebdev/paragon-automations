@@ -1,22 +1,22 @@
 {
  "batch": "merged-legacy-database-unccc-5533-p2",
  "status": "running",
- "generated_at": "2026-10-31T16:10:31.118401+00:00",
- "chunk": 2,
+ "generated_at": "2026-10-31T16:11:42.666918+00:00",
+ "chunk": 3,
  "total_chunks": 41,
  "total_rows": 1001,
- "done": 26,
- "pending": 975,
- "elapsed_seconds": 187,
- "eta_seconds": 6055,
- "cost_usd_so_far": 0.178,
- "paid_search_usd": 0.178,
+ "done": 30,
+ "pending": 971,
+ "elapsed_seconds": 236,
+ "eta_seconds": 5927,
+ "cost_usd_so_far": 0.205,
+ "paid_search_usd": 0.205,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
- "haiku_fallback_calls": 55,
+ "haiku_fallback_calls": 66,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 55,
+ "ai_calls": 62,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,18 +37,14 @@
   }
  ],
  "confidence": {
-  "high": 6,
+  "high": 7,
   "medium": 6,
   "low": 0,
-  "none": 14
+  "none": 17
  },
- "partners_found": 561,
- "campuses_found": 32,
+ "partners_found": 636,
+ "campuses_found": 33,
  "recent": [
-  "r007",
-  "r008",
-  "r009",
-  "r010",
   "r011",
   "r012",
   "r013",
@@ -64,6 +60,10 @@
   "r023",
   "r024",
   "r025",
-  "r026"
+  "r026",
+  "r027",
+  "r030",
+  "r031",
+  "r032"
  ]
 }
