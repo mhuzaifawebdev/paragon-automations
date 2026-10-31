@@ -1,0 +1,98 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-31T03:29:42Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Dale Carnegie",
+  "institution_type": "college",
+  "official_website": "https://www.dalecarnegie.com/en",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.dalecarnegie.com/en",
+   "evidence_quote": "United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jon Walrath",
+   "designation": "Area Manager & Strategic Account Executive",
+   "designation_local": "",
+   "email": "jon.walrath@dalecarnegie.com",
+   "office_email": "",
+   "phone": "608-445-8580",
+   "source_url": "https://www.dalecarnegie.com/en/locations/southwest-wisconsin/meet-team",
+   "evidence_quote": "Jon Walrath ... Area Manager & Strategic Account Executive | In-Person Trainer"
+  },
+  "alternates": [
+   {
+    "name": "Stacey Humphreys",
+    "designation": "Representative",
+    "designation_local": "",
+    "email": "stacey.humphreys@dalecarnegie.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.dalecarnegie.com/en/locations/new-york-city/contact",
+    "evidence_quote": "our Representative, Sean Dick, please select a time below. ... Stacey Humphreys",
+    "why_chosen": "Secretary / administration (last resort). She is a named representative for the institution."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). He is a named administrator and manager who provides direct contact information.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "New York City Center of Excellence",
+    "city": "New York",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.dalecarnegie.com/en/locations/new-york-city/meet-team",
+    "evidence_quote": "New York City Center of Excellence"
+   },
+   {
+    "campus_name": "Dale Carnegie Southwest Wisconsin",
+    "city": "Madison",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.dalecarnegie.com/en/locations/southwest-wisconsin/meet-team",
+    "evidence_quote": "Dale Carnegie Southwest Wisconsin"
+   },
+   {
+    "campus_name": "Dale Carnegie Spain",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "international",
+    "source_url": "https://www.dalecarnegie.com/en/locations/spain/meet-team",
+    "evidence_quote": "Dale Carnegie Spain"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ or international academic partners. The institution functions as a professional training organization rather than a traditional degree-granting university. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 16.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 19.7
+ }
+}

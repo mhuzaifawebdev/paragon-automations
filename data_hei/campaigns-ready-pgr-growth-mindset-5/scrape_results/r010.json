@@ -1,0 +1,61 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-31T03:29:35Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Global Manufacturing",
+  "institution_type": "unknown",
+  "official_website": "https://www.globalmanufacturing.com/",
+  "country": {
+   "value": "U.S.A.",
+   "source_url": "https://www.globalmanufacturing.com/contact",
+   "evidence_quote": "U.S.A."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Global Manufacturing, Inc.",
+    "city": "Little Rock",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.globalmanufacturing.com/about-us/",
+    "evidence_quote": "Since 1973, Global Manufacturing, Inc.® has manufactured industrial vibrators, concrete vibrators, and air cannons (also known as air blasters). In 2002 we purchased the Viber® Company, a manufacturer of internal concrete vibrators, and moved it to Global’s factory at 1801 East 22nd Street, in Little Rock, Arkansas, USA."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "The institution is a manufacturing company, not an educational institution. No educational partners or academic contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 4.6,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 11.3
+ }
+}
