@@ -1,0 +1,85 @@
+{
+ "row_id": "r330",
+ "scraped_at": "2026-10-31T23:32:12Z",
+ "contacts": {
+  "row_id": "r330",
+  "institution_name": "ARCHIP",
+  "institution_type": "unknown",
+  "official_website": "https://revue-archipel.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "INALCO",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://revue-archipel.fr/",
+    "evidence_quote": "[inalco] |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CNRS",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://revue-archipel.fr/",
+    "evidence_quote": "[cnrs] |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EHESS",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://revue-archipel.fr/",
+    "evidence_quote": "[ehess] |",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Association Archipel",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://revue-archipel.fr/contact.html",
+    "evidence_quote": "2, rue de Lille"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 2,
+  "coverage_note": "The evidence describes a journal publication rather than an educational institution. No specific contact persons or Erasmus+ mobility information are provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 4.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 34.3
+ }
+}
