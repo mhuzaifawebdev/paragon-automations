@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-31T00:14:14.635563+00:00",
+ "generated_at": "2026-10-31T00:18:05.891481+00:00",
  "totals": {
-  "institutes": 18701,
-  "with_contact": 11491,
-  "with_email": 9667,
-  "personal_email": 6525,
+  "institutes": 18724,
+  "with_contact": 11500,
+  "with_email": 9672,
+  "personal_email": 6530,
   "generic_email": 7337,
-  "partners": 286752,
-  "campuses": 26360,
-  "no_website": 3393,
-  "with_website": 15308,
-  "batches": 223
+  "partners": 286856,
+  "campuses": 26403,
+  "no_website": 3404,
+  "with_website": 15320,
+  "batches": 224
  },
  "days": [
   {
@@ -159,18 +159,34 @@
   },
   {
    "day": "2026-10-31",
-   "institutes": 67,
-   "with_contact": 30,
-   "with_email": 31,
-   "personal_email": 16,
+   "institutes": 90,
+   "with_contact": 39,
+   "with_email": 36,
+   "personal_email": 21,
    "generic_email": 24,
-   "partners": 581,
-   "campuses": 82,
-   "no_website": 13,
-   "with_website": 54
+   "partners": 685,
+   "campuses": 125,
+   "no_website": 24,
+   "with_website": 66
   }
  ],
  "batches": [
+  {
+   "batch": "pgr-man-power-needs-eu-main-unccc-10",
+   "status": "running",
+   "total_rows": 1000,
+   "done": 364,
+   "updated": "2026-10-31T00:17:59.951030+00:00",
+   "institutes": 23,
+   "with_contact": 9,
+   "with_email": 5,
+   "personal_email": 5,
+   "generic_email": 0,
+   "partners": 104,
+   "campuses": 43,
+   "no_website": 11,
+   "with_website": 12
+  },
   {
    "batch": "merge-pgi-business-school-btp1-8-cli",
    "status": "done",
