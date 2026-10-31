@@ -1,0 +1,76 @@
+{
+ "row_id": "r105",
+ "scraped_at": "2026-10-31T03:43:14Z",
+ "contacts": {
+  "row_id": "r105",
+  "institution_name": "US Anesthesia Partners",
+  "institution_type": "unknown",
+  "official_website": "https://www.usap.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dale Flowers",
+   "designation": "Chief Operating Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.usap.com/about/executiveleadership",
+   "evidence_quote": "Dale Flowers ... Chief Operating Officer"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Secretary / administration (last resort). Dale Flowers is the Chief Operating Officer and is listed as a contact on file.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "American Society of Anesthesiologists",
+    "partner_country": "United States",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.usap.com/partners",
+    "evidence_quote": "DALLAS, TEXAS (Jan. 26, 2026) -- U.S. Anesthesia Partners (USAP) proudly joins the American Society of Anesthesiologists (ASA) in celebrating Physician Anesthesiologist Week, held January 25 - 31, recognizing the dedication and expertise of anesthesiologists across the nation. This year’s celebration is especially meaningful to USAP with anesthesiologist Dr. Patrick Giam currently serving as President of the ASA. Dr. Giam is a physician partner with U.S. Anesthesia Partners in Houston, Texas.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Apella",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.usap.com/partners",
+    "evidence_quote": "SAN FRANCISCO and DALLAS–July 24, 2025 –Apella, a health technology company, and U.S. Anesthesia Partners, Inc. (USAP) announced today that they will work together to identify health care facilities that can benefit from actionable, real-time intelligence to improve operating room readiness and utilization",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution is a private physician-led anesthesia practice rather than a traditional academic university, so it does not have campuses in the conventional sense. No formal list of international mobility partners is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 8.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 32.9,
+  "total_seconds": 62.7
+ }
+}

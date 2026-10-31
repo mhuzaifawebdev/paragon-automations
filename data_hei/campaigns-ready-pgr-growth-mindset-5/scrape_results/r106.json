@@ -1,0 +1,85 @@
+{
+ "row_id": "r106",
+ "scraped_at": "2026-10-31T03:43:14Z",
+ "contacts": {
+  "row_id": "r106",
+  "institution_name": "Outdoor Pride Landscaping",
+  "institution_type": "unknown",
+  "official_website": "https://outdoorpride.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@outdoorpride.com",
+  "generic_email_url": "https://outdoorpride.com/",
+  "contact": {
+   "name": "Jacob Howard",
+   "designation": "Branch Manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://outdoorpride.com/company/staff",
+   "evidence_quote": "Jacob Howard ... Branch Manager"
+  },
+  "alternates": [],
+  "rung": "Other role. Jacob Howard is a Branch Manager at the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Snow and Ice Management Association",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://outdoorpride.com/commercial/snow-management",
+    "evidence_quote": "For over 25 years, Outdoor Pride has ensured that our client’s facilities are accessible and safe -- no matter what these unforgiving New England winters throw our way. Our management team is involved in the Snow and Ice Management Association and many of our staff members have successfully completed Certified Snow Professional courses. Some might say we’re a bit snow-crazy. But really, we just strive to be masters of our craft.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "NH Headquarters",
+    "city": "Manchester",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://outdoorpride.com/",
+    "evidence_quote": "NH Headquarters"
+   },
+   {
+    "campus_name": "MA Headquarters",
+    "city": "Chelmsford",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://outdoorpride.com/",
+    "evidence_quote": "MA Headquarters"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The institution is a commercial landscaping company and does not appear to be an educational institution involved in Erasmus+ or international student mobility. No partner list or international mobility information is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 6.3,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 32.6,
+  "total_seconds": 62.2
+ }
+}
