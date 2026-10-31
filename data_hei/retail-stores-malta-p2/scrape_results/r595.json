@@ -1,0 +1,80 @@
+{
+ "row_id": "r595",
+ "scraped_at": "2026-10-31T08:48:03Z",
+ "contacts": {
+  "row_id": "r595",
+  "institution_name": "The Convenience Shop (Triq Guze' Orlando)",
+  "institution_type": "unknown",
+  "official_website": "https://my.mt/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://my.mt/contact/",
+   "evidence_quote": "QRM 9072, Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "hello@my.mt",
+  "generic_email_url": "https://my.mt/",
+  "contact": {
+   "name": "David Tabone",
+   "designation": "Chief Executive Officer",
+   "designation_local": "",
+   "email": "david.tabone@my.mt",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://my.mt/about-us/",
+   "evidence_quote": "David Tabone ... Chief Executive Officer",
+   "email_source_url": "https://my.mt/members/david-tabone/"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). David Tabone is the Chief Executive Officer and head of the institution. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Coop Italian Food",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://my.mt/strategic-objectives/",
+    "evidence_quote": "Offering quality and affordable products via the Group’s collaboration with Coop Italian Food – emphasising the importance of quality and affordability given the current inflationary economic backdrop.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Head Office",
+    "city": "Qormi",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://my.mt/contact/",
+    "evidence_quote": "Head Office, 8, Luqa Road, Qormi,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not mention any international mobility programs or Erasmus+ partnerships, as the institution is a commercial retail company operating grocery stores and supermarkets.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 17.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.9,
+  "mode": "gemini",
+  "email_search_s": 3.7,
+  "total_seconds": 33.3
+ }
+}
