@@ -1,0 +1,83 @@
+{
+ "row_id": "r133",
+ "scraped_at": "2026-10-30T21:09:19Z",
+ "contacts": {
+  "row_id": "r133",
+  "institution_name": "City Year",
+  "institution_type": "unknown",
+  "official_website": "https://www.cityyear.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "Reused from batch dts-resource-management-merged (scraped 2026-10-30). site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 6 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "public schools",
+    "partner_country": "USA",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cityyear.org/",
+    "evidence_quote": "City Year partners with public schools, the federal AmeriCorps program and the private sector to support student success.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AmeriCorps",
+    "partner_country": "USA",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cityyear.org/",
+    "evidence_quote": "City Year partners with public schools, the federal AmeriCorps program and the private sector to support student success.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "private sector",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cityyear.org/",
+    "evidence_quote": "City Year partners with public schools, the federal AmeriCorps program and the private sector to support student success.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "City Year Headquarters",
+    "city": "Boston",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.cityyear.org/",
+    "evidence_quote": "© 2026 Copyright City Year at 287 Columbus Avenue, Boston, MA 02116"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 1,
+  "coverage_note": "The evidence does not provide any specific contact persons or a list of international partners. City Year is a non-profit service organization rather than a traditional educational institution. 6 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "dts-resource-management-merged",
+  "row_id": "r173"
+ }
+}
