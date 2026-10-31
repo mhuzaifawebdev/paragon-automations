@@ -1,14 +1,14 @@
 {
  "batch": "retail-stores-malta-p3",
  "status": "running",
- "generated_at": "2026-10-31T09:52:24.753854+00:00",
+ "generated_at": "2026-10-31T09:52:43.760595+00:00",
  "chunk": 9,
  "total_chunks": 40,
  "total_rows": 1000,
- "done": 196,
- "pending": 804,
- "elapsed_seconds": 1117,
- "eta_seconds": 3337,
+ "done": 199,
+ "pending": 801,
+ "elapsed_seconds": 1136,
+ "eta_seconds": 3471,
  "cost_usd_so_far": 3.467,
  "paid_search_usd": 3.467,
  "paid_search_limit_usd": 21.0,
@@ -16,7 +16,7 @@
  "paid_searches": 0,
  "haiku_fallback_calls": 223,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 216,
+ "ai_calls": 223,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,17 +37,14 @@
   }
  ],
  "confidence": {
-  "high": 9,
-  "medium": 20,
-  "low": 6,
+  "high": 10,
+  "medium": 21,
+  "low": 7,
   "none": 161
  },
- "partners_found": 236,
- "campuses_found": 197,
+ "partners_found": 240,
+ "campuses_found": 200,
  "recent": [
-  "r176",
-  "r177",
-  "r178",
   "r179",
   "r180",
   "r181",
@@ -59,12 +56,15 @@
   "r187",
   "r188",
   "r189",
+  "r190",
   "r191",
   "r192",
   "r193",
   "r194",
+  "r195",
   "r196",
-  "r197"
+  "r197",
+  "r198"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/18E-jV90NQe7dUKMRI4ddQUfnXqM1pzU-/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
