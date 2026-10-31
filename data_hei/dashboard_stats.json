@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-31T19:51:35.746399+00:00",
+ "generated_at": "2026-10-31T19:55:51.619050+00:00",
  "totals": {
-  "institutes": 27617,
-  "with_contact": 14328,
-  "with_email": 11977,
+  "institutes": 27642,
+  "with_contact": 14335,
+  "with_email": 11978,
   "personal_email": 7747,
-  "generic_email": 9087,
-  "partners": 338662,
-  "campuses": 35653,
-  "no_website": 7607,
-  "with_website": 20010,
-  "batches": 236
+  "generic_email": 9088,
+  "partners": 338684,
+  "campuses": 35664,
+  "no_website": 7623,
+  "with_website": 20019,
+  "batches": 237
  },
  "days": [
   {
@@ -123,15 +123,15 @@
   },
   {
    "day": "2026-10-28",
-   "institutes": 7379,
-   "with_contact": 4897,
-   "with_email": 4116,
+   "institutes": 7381,
+   "with_contact": 4898,
+   "with_email": 4117,
    "personal_email": 2756,
-   "generic_email": 3200,
-   "partners": 127013,
-   "campuses": 10617,
+   "generic_email": 3201,
+   "partners": 127019,
+   "campuses": 10619,
    "no_website": 1113,
-   "with_website": 6266
+   "with_website": 6268
   },
   {
    "day": "2026-10-29",
@@ -147,30 +147,46 @@
   },
   {
    "day": "2026-10-30",
-   "institutes": 4489,
+   "institutes": 4490,
    "with_contact": 2280,
    "with_email": 1799,
    "personal_email": 1055,
    "generic_email": 1305,
-   "partners": 36885,
-   "campuses": 6152,
+   "partners": 36887,
+   "campuses": 6153,
    "no_website": 996,
-   "with_website": 3493
+   "with_website": 3494
   },
   {
    "day": "2026-10-31",
-   "institutes": 7724,
-   "with_contact": 1860,
+   "institutes": 7746,
+   "with_contact": 1866,
    "with_email": 1575,
    "personal_email": 719,
    "generic_email": 1186,
-   "partners": 25360,
-   "campuses": 7188,
-   "no_website": 4227,
-   "with_website": 3497
+   "partners": 25374,
+   "campuses": 7196,
+   "no_website": 4243,
+   "with_website": 3503
   }
  ],
  "batches": [
+  {
+   "batch": "merged-legacy-database-unccc-5533-p4",
+   "status": "running",
+   "total_rows": 368,
+   "done": 29,
+   "updated": "2026-10-31T19:55:45.694987+00:00",
+   "institutes": 25,
+   "with_contact": 7,
+   "with_email": 1,
+   "personal_email": 0,
+   "generic_email": 1,
+   "partners": 22,
+   "campuses": 11,
+   "no_website": 16,
+   "with_website": 9
+  },
   {
    "batch": "merged-legacy-database-unccc-5533-p3",
    "status": "done",
