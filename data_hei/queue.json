@@ -4143,24 +4143,36 @@
    "source": "Merged Legacy Database UNCCC-5533",
    "file_id": "1h7GXfzi7q5LI67orYOBA3O6jUqFkDzgOYaZjQwGa3OE",
    "added": "2026-10-28T11:09:18Z",
-   "state": "running",
+   "state": "done",
    "rows": 1000,
    "part": "3/4",
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-31T18:00:37Z",
    "last_start": "2026-10-31T18:00:37Z",
    "restarts": 0,
-   "cap_usd": 607.82
+   "cap_usd": 607.82,
+   "crm_rows": 389,
+   "no_number": 735,
+   "spend_recorded": true,
+   "cost_usd": 1.6711,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1IbST0zGO21LDA3PmujuanQr3VRKPQ9h1/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 587,
+   "finished": "2026-10-31T19:52:14Z",
+   "reason": "991 institutes, 495 with a contact"
   },
   {
    "batch": "merged-legacy-database-unccc-5533-p4",
    "source": "Merged Legacy Database UNCCC-5533",
    "file_id": "1h7GXfzi7q5LI67orYOBA3O6jUqFkDzgOYaZjQwGa3OE",
    "added": "2026-10-28T11:09:18Z",
-   "state": "queued",
+   "state": "running",
    "rows": 367,
    "part": "4/4",
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-31T19:52:14Z",
+   "last_start": "2026-10-31T19:52:14Z",
+   "restarts": 0,
+   "cap_usd": 606.15
   },
   {
    "batch": "staff-mobility-projects-all-europe-k",
@@ -4240,7 +4252,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-31T18:00:37Z",
+ "updated": "2026-10-31T19:52:14Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
