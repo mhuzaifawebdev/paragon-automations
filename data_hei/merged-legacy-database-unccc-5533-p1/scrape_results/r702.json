@@ -1,0 +1,121 @@
+{
+ "row_id": "r702",
+ "scraped_at": "2026-10-31T15:19:10Z",
+ "contacts": {
+  "row_id": "r702",
+  "institution_name": "LYCEE ENSEIGNEMENT ET TECHNOLOGIQUE GROUPE TECHNIQUE DU BATIMENT",
+  "institution_type": "school",
+  "official_website": "https://www.letudiant.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.letudiant.fr/",
+   "evidence_quote": "Pénurie d’enseignants : 2.900 postes non pourvus en France, selon l'OCDE"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Brest Business School",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.letudiant.fr/fiches/etudes/fiche/ppa-1.html",
+    "evidence_quote": "Le MSc Brand Management et Chef de Produit est proposé en double diplôme en partenariat avec Brest Business School et permet d’obtenir un Master Grande École reconnu Grade de Master.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provided is a general website for L'Etudiant and does not contain specific information, contact details, or a partner list for the 'LYCEE ENSEIGNEMENT ET TECHNOLOGIQUE GROUPE TECHNIQUE DU BATIMENT'.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 34.9,
+  "crawl_s": 13.7,
+  "ai_calls": 10,
+  "partner_calls": 7,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     700
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     981,
+     1092
+    ],
+    "returned": 6,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 81.3
+ }
+}
