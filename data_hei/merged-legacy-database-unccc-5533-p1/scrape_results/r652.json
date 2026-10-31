@@ -1,0 +1,95 @@
+{
+ "row_id": "r652",
+ "scraped_at": "2026-10-31T15:10:35Z",
+ "contacts": {
+  "row_id": "r652",
+  "institution_name": "Lycée Alexandre Ribot",
+  "institution_type": "school",
+  "official_website": "https://alexandre-ribot.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "François BLÉRIOT",
+   "designation": "Deputy Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://alexandre-ribot.fr/images//LyceeMenuGauche/Organigramme_Lyce_2026-2027.pdf",
+   "evidence_quote": "Proviseur Adjoint ... M. François BLÉRIOT"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). François BLÉRIOT is the Proviseur Adjoint (Deputy Principal) of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CNAM",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://alexandre-ribot.fr/",
+    "evidence_quote": "Une 3ème année de Licence générale en Management Gestion des Organisations en partenariat avec le CNAM.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Conservatoire de Saint-Omer",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://alexandre-ribot.fr/",
+    "evidence_quote": "Choisissez la filière technologique ST2MD : Sciences et Techniques de la Musique, Musiques Actuelles Jazz pour 2026. Dès la seconde en option ou en 1ère en voie technologique. L'enseignement est dispensé en partenariat avec le Conservatoire de Saint-Omer.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Alexandre Ribot",
+    "city": "Saint-Omer",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://alexandre-ribot.fr/",
+    "evidence_quote": "Lycée Alexandre RIBOT - Accueil"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 6,
+  "coverage_note": "The institution mentions Erasmus mobility but does not provide a specific list of international partners or a dedicated international coordinator contact. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 8.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 63.9
+ }
+}
