@@ -1,0 +1,71 @@
+{
+ "row_id": "r201",
+ "scraped_at": "2026-10-31T09:53:54Z",
+ "contacts": {
+  "row_id": "r201",
+  "institution_name": "DiveBase Malta",
+  "institution_type": "college",
+  "official_website": "https://divebasemalta.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://divebasemalta.com/",
+   "evidence_quote": "25 Islet Promanade, St Paul's Bay, Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 8 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Y-40 The Deep Joy",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://divebasemalta.com/meet-divebase/",
+    "evidence_quote": "Official Diving Partner of Y-40® The Deep Joy, the World’s deepest pool with Thermal Water, DiveBase has chosen Malta as its first point of reference at sea.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Dive Base Malta",
+    "city": "Bugibba, Saint Paul’s Bay",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://divebasemalta.com/booking/",
+    "evidence_quote": "LOCATION: 25 Islet promenade, Bugibba, Saint Paul’s Bay SPB2506 – Malta"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The institution is a commercial dive center and does not appear to have an Erasmus+ or international mobility office. No specific contact persons are named in the provided text. 8 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.0,
+  "crawl_s": 13.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 35.6
+ }
+}
