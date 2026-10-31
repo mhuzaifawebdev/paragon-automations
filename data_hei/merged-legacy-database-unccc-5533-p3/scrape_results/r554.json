@@ -1,0 +1,112 @@
+{
+ "row_id": "r554",
+ "scraped_at": "2026-10-31T18:59:06Z",
+ "contacts": {
+  "row_id": "r554",
+  "institution_name": "Escola Superior Artística do Porto",
+  "institution_type": "university",
+  "official_website": "https://esap.pt/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "erasmus@esap.pt",
+  "generic_email_url": "https://esap.pt/a_escola/2588/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "FBAUP",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://esap.pt/",
+    "evidence_quote": "ESAP recebe alunos da FBAUP e de duas universidades estrangeiras para realizar visitas à exposição Laboratório Baldio da Cidade, com Flora Paim",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidade de Palermo",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://esap.pt/",
+    "evidence_quote": "Fátima Fernandes e Michele Cannatà apresentam conferências na Universidade de Palermo",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Galeria Dínamo",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://esap.pt/",
+    "evidence_quote": "Flora Paim apresenta Laboratório baldio da cidade na Galeria Dínamo, com curadoria de Inês Moreira",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Italian Council",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://esap.pt/",
+    "evidence_quote": "[Bookmark front-back - Border Lines - memories and thoughts in motion - Italian Council - Giovanni Fava - Galeria Dinamo - ESAP]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Superior Artística do Porto",
+    "city": "Porto",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://esap.pt/",
+    "evidence_quote": "4000-358 Porto"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 9,
+  "coverage_note": "The website mentions the existence of a list of Erasmus+ partnerships available for download, but the actual list is not provided in the text evidence. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 11.0,
+  "crawl_s": 21.9,
+  "ai_calls": 4,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 62.0
+ }
+}
