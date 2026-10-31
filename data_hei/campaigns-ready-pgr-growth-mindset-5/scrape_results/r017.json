@@ -1,0 +1,81 @@
+{
+ "row_id": "r017",
+ "scraped_at": "2026-10-31T03:30:59Z",
+ "contacts": {
+  "row_id": "r017",
+  "institution_name": "State Farm",
+  "institution_type": "unknown",
+  "official_website": "https://www.statefarm.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Ashley Noll",
+   "designation": "Office Manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.statefarm.com/agent/us/az/flagstaff/brandon-redfern-knzsp4v17ak",
+   "evidence_quote": "Ashley Noll ... Office Manager"
+  },
+  "alternates": [
+   {
+    "name": "Carly Roberson",
+    "designation": "Customer Service Manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.statefarm.com/agent/us/az/flagstaff/brandon-redfern-knzsp4v17ak",
+    "evidence_quote": "Carly Roberson ... Customer Service Manager",
+    "why_chosen": "Secretary / administration (last resort). Carly Roberson is the Customer Service Manager for the team of Brandon Redfern."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Ashley Noll is the Office Manager for the team of Brandon Redfern.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "U.S. Bank",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.statefarm.com/finances/banking/personal-loans",
+    "evidence_quote": "[Logos of State Farm and U.S. Bank]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "State Farm is an insurance company, not an educational institution, and therefore does not have academic campuses or Erasmus+ mobility programs. The evidence provided focuses on insurance products and local agents.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 12.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 31.4,
+  "total_seconds": 56.4
+ }
+}
