@@ -1,0 +1,136 @@
+{
+ "row_id": "r879",
+ "scraped_at": "2026-10-31T07:40:33Z",
+ "contacts": {
+  "row_id": "r879",
+  "institution_name": "Protyre Malta (Tarxien)",
+  "institution_type": "college",
+  "official_website": "https://www.protyre.co.uk/",
+  "country": {
+   "value": "UK",
+   "source_url": "https://www.protyre.co.uk/",
+   "evidence_quote": "Protyre garage in the UK."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jonathan Ward",
+   "designation": "Garage Manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "01785 256243",
+   "source_url": "https://www.protyre.co.uk/garages/stafford-tyres-team-protyre",
+   "evidence_quote": "Manager ... Jonathan Ward"
+  },
+  "alternates": [
+   {
+    "name": "Roy Temple",
+    "designation": "Garage Manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "01442 867940",
+    "source_url": "https://www.protyre.co.uk/garages/kipling-motorist-centres-hemel-hempstead-team-prot",
+    "evidence_quote": "[Roy Temple protyre garage manager] ... Roy Temple",
+    "why_chosen": "Principal / director (no Erasmus contact found). Roy Temple is the manager of the Hemel Hempstead branch of Protyre and is the primary contact for that location."
+   },
+   {
+    "name": "Alan Donnelly",
+    "designation": "Garage Manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "01293 612211",
+    "source_url": "https://www.protyre.co.uk/garages/kipling-motorist-centres-crawley-team-protyre",
+    "evidence_quote": "[Alan Donnelly protyre garage manager] ... Alan Donnelly",
+    "why_chosen": "Principal / director (no Erasmus contact found). Alan Donnelly is the manager of the Crawley branch of Protyre and is the primary contact for that location."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Jonathan Ward is the manager of the Stafford branch of Protyre and is the primary contact for that location.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'Protyre' on the site. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "TyreSafe",
+    "partner_country": "UK",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.protyre.co.uk/",
+    "evidence_quote": "Every year, Protyre works closely with TyreSafe to raise awareness of the importance of tyre maintenance and the dangers of defective and illegal tyres. TyreSafe is the authority and first point of reference for tyre safety issues.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Motor Ombudsman",
+    "partner_country": "UK",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.protyre.co.uk/",
+    "evidence_quote": "Protyre's Motor Ombudsman accreditation ensures you will receive a professional, transparent, fair and reliable service. The Motor Ombudsman provide the most comprehensive and detailed Codes of Practice for the automotive sector.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sumitomo Rubber Industries Ltd",
+    "partner_country": "Japan",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.protyre.co.uk/about-history",
+    "evidence_quote": "Today, Micheldever Group is the largest independent wholesaler, distributor and retailer of tyres in the UK, selling over six million tyres nationwide, (20 percent of the total UK market) every year. Micheldever Group is managed by a team headed by Graham Mitchell and is part of Sumitomo Rubber Industries Ltd.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stafford Tyres - Team Protyre",
+    "city": "Stafford",
+    "country": "UK",
+    "role": "branch",
+    "source_url": "https://www.protyre.co.uk/garages/stafford-tyres-team-protyre",
+    "evidence_quote": "Gaol Road, Stafford, ST16 3AN"
+   },
+   {
+    "campus_name": "Protyre Hemel Hempstead",
+    "city": "Hemel Hempstead",
+    "country": "UK",
+    "role": "branch",
+    "source_url": "https://www.protyre.co.uk/garages/kipling-motorist-centres-hemel-hempstead-team-prot",
+    "evidence_quote": "Unit 5, Trade City, Maylands Avenue, Hemel Hempstead, HP2 7EB"
+   },
+   {
+    "campus_name": "Kipling Motorist Centre - Team Protyre",
+    "city": "Crawley",
+    "country": "UK",
+    "role": "branch",
+    "source_url": "https://www.protyre.co.uk/garages/kipling-motorist-centres-crawley-team-protyre",
+    "evidence_quote": "76 Ifield Road, West Green, Crawley, RH11 7BQ"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "Protyre is a commercial automotive service network with many branches across the UK. There is no information regarding Erasmus+ or international academic mobility partnerships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.0,
+  "crawl_s": 12.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.1,
+  "mode": "gemini",
+  "email_search_s": 4.5,
+  "total_seconds": 26.3
+ }
+}
