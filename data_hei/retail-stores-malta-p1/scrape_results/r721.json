@@ -1,0 +1,88 @@
+{
+ "row_id": "r721",
+ "scraped_at": "2026-10-31T07:27:51Z",
+ "contacts": {
+  "row_id": "r721",
+  "institution_name": "Triq il-Kbira Hardware",
+  "institution_type": "school",
+  "official_website": "https://www.maltadrama.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://www.maltadrama.com/",
+   "evidence_quote": "Malta Drama Academy – Leading Drama & Performing Arts School"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@maltadrama.com",
+  "generic_email_url": "https://www.maltadrama.com/contact-us",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: web search (Google via Gemini), named 'Malta Drama Academy' on the site. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Trinity",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.maltadrama.com/",
+    "evidence_quote": "Malta Drama Academy is a registered Trinity Examination Centre offering Grades in Acting, Speech and Drama. Also, we have our very own Development through Drama Award DQSE pegged at EQF level 3. Affordable and Fun!",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Malta Drama Academy",
+    "city": "Attard",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://www.maltadrama.com/theatre-company-contact-us",
+    "evidence_quote": "The Malta Drama Academy , 93, Triq Kananea, Attard, ATD 2702 Malta"
+   },
+   {
+    "campus_name": "Attard Parish Centre Studios",
+    "city": "Attard",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://www.maltadrama.com/contact-us",
+    "evidence_quote": "Attard Parish Centre Studios"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not contain any information regarding Erasmus+ partnerships or international mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 5.1,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     75
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 18.4
+ }
+}
