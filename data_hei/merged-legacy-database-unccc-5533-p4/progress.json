@@ -1,22 +1,22 @@
 {
  "batch": "merged-legacy-database-unccc-5533-p4",
  "status": "running",
- "generated_at": "2026-10-31T20:03:06.298834+00:00",
+ "generated_at": "2026-10-31T20:03:26.164942+00:00",
  "chunk": 5,
  "total_chunks": 15,
  "total_rows": 368,
- "done": 101,
- "pending": 267,
- "elapsed_seconds": 527,
- "eta_seconds": 1205,
- "cost_usd_so_far": 0.0397,
- "paid_search_usd": 0.0397,
+ "done": 104,
+ "pending": 264,
+ "elapsed_seconds": 547,
+ "eta_seconds": 1194,
+ "cost_usd_so_far": 0.0421,
+ "paid_search_usd": 0.0421,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
- "haiku_fallback_calls": 21,
+ "haiku_fallback_calls": 22,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 21,
+ "ai_calls": 22,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,17 +37,14 @@
   }
  ],
  "confidence": {
-  "high": 3,
+  "high": 4,
   "medium": 7,
   "low": 14,
-  "none": 77
+  "none": 79
  },
- "partners_found": 185,
- "campuses_found": 51,
+ "partners_found": 190,
+ "campuses_found": 52,
  "recent": [
-  "r079",
-  "r080",
-  "r081",
   "r082",
   "r083",
   "r084",
@@ -61,10 +58,13 @@
   "r092",
   "r093",
   "r094",
+  "r095",
+  "r096",
   "r097",
   "r098",
   "r099",
-  "r100"
+  "r100",
+  "r101"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1PWgGxG--hHGrBsJLvGXhKOcM119j5yIZ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
