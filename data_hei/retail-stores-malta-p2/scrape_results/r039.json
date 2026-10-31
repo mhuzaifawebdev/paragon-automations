@@ -1,0 +1,70 @@
+{
+ "row_id": "r039",
+ "scraped_at": "2026-10-31T08:00:29Z",
+ "contacts": {
+  "row_id": "r039",
+  "institution_name": "Ellcee Nautical Supplies Co Ltd T/AS Camilleri Marine (HH Clothing Online)",
+  "institution_type": "unknown",
+  "official_website": "https://www.camillerimarine.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://www.camillerimarine.com/",
+   "evidence_quote": "Camilleri Marine Malta | Marine Supplies & Boat Service Since 1979"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@camillerimarine.com",
+  "generic_email_url": "https://www.camillerimarine.com/contactus",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Royal Malta Yacht Club",
+    "partner_country": "Malta",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.camillerimarine.com/partnerships",
+    "evidence_quote": "[Royal Malta Yacht Club]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Camilleri Marine & Marine Supply Shop",
+    "city": "Marsa",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://www.camillerimarine.com/",
+    "evidence_quote": "Visit Our Boat Service & Marine Supply shop in Marsa - Malta"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "This institution is a commercial marine supplies and boat service company rather than an educational institution. No academic contacts or student mobility programs are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.3,
+  "crawl_s": 17.6,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 9.8,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 50.7
+ }
+}

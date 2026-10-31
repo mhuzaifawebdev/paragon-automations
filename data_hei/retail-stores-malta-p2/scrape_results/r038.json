@@ -1,0 +1,101 @@
+{
+ "row_id": "r038",
+ "scraped_at": "2026-10-31T08:00:15Z",
+ "contacts": {
+  "row_id": "r038",
+  "institution_name": "66 Marine",
+  "institution_type": "school",
+  "official_website": "https://aicol.com.au/",
+  "country": {
+   "value": "Australia",
+   "source_url": "https://aicol.com.au/",
+   "evidence_quote": "AICOL 66 Marine Parade, Southport 4215, Gold Coast, Australia"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jan Keppie",
+   "designation": "Co-Principal and Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://aicol.com.au/about-us/",
+   "evidence_quote": "Jan Keppie and Garth Keppie ... are the sole Directors and Co-Principals of the Australian International College of Language (AICOL)"
+  },
+  "alternates": [
+   {
+    "name": "Garth Keppie",
+    "designation": "Co-Principal and Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://aicol.com.au/about-us/",
+    "evidence_quote": "Jan Keppie and Garth Keppie ... are the sole Directors and Co-Principals of the Australian International College of Language (AICOL)",
+    "why_chosen": "Principal / director (no Erasmus contact found). Garth Keppie is listed as a Co-Principal and Director of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Jan Keppie is listed as a Co-Principal and Director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EQI Schools",
+    "partner_country": "Australia",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://aicol.com.au/",
+    "evidence_quote": "AICOL Gold Coast English school accepts students from 12-17 years for High School Preparation (HSP) and from 6-12 years for Primary School (PSP) – with or without a parent/guardian. AICOL has an English Pathway Program (EPP) with EQI Schools and many Private Schools. No formal English test required for high school entry. Our intensive HSP course prepares students for direct entry into local school. Enter or exit anytime, no set 10-week blocks. Contact us!",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "AICOL Gold Coast English School",
+    "city": "Gold Coast",
+    "country": "Australia",
+    "role": "main",
+    "source_url": "https://aicol.com.au/",
+    "evidence_quote": "AICOL 66 Marine Parade, Southport 4215, Gold Coast, Australia"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The evidence provides information on the school's courses, leadership, and contact details, but does not contain a comprehensive partner list or international agreement totals.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.2,
+  "crawl_s": 5.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.6,
+  "mode": "gemini",
+  "email_search_s": 10.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     105
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 40.5
+ }
+}
