@@ -1,0 +1,70 @@
+{
+ "row_id": "r289",
+ "scraped_at": "2026-10-31T06:36:38Z",
+ "contacts": {
+  "row_id": "r289",
+  "institution_name": "Main Street Shopping Complex",
+  "institution_type": "unknown",
+  "official_website": "https://mainstreetcomplex.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://mainstreetcomplex.com/contact-us/",
+   "evidence_quote": "Address: Antoine De Paule Square, Paola, Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@mainstreetcomplex.com",
+  "generic_email_url": "https://mainstreetcomplex.com/contact-us/",
+  "contact": {
+   "name": "DR. MALCOLM FALZON",
+   "designation": "Company Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://mainstreetcomplex.com/investor-relations/#governance",
+   "evidence_quote": "DR. MALCOLM FALZON ... Company Secretary"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). He is the Company Secretary and a primary contact for the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Main Street Complex Paola",
+    "city": "Paola",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://mainstreetcomplex.com/",
+    "evidence_quote": "Main Street Complex Paola"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a shopping complex, not an educational institution, and does not have Erasmus+ partnerships or international mobility programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 13.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.5,
+  "total_seconds": 48.2
+ }
+}
