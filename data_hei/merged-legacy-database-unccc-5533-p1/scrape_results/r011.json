@@ -1,0 +1,102 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-10-31T13:55:57Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Acadèmia Central Catalana",
+  "institution_type": "college",
+  "official_website": "https://www.cecac.cat/es/contacto/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@cecac.cat",
+  "generic_email_url": "https://www.cecac.cat/es/contacto/",
+  "contact": {
+   "name": "Secreatria Bruc",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "secreatria.bruc@cecac.cat",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.cecac.cat/es/ventajas/ventajas-erasmus/tln-practicas-en-el-extranjero/",
+   "evidence_quote": "Centre Bruc ... secreatria.bruc@cecac.cat <secreatria.bruc@cecac.cat>"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). The secretary at the Bruc center handles administrative inquiries.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Development of Creative and Critical",
+    "partner_country": "Latvia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cecac.cat/avantatges/avantatges-erasmus/",
+    "evidence_quote": "Development of Creative and Critical – Latvia",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Cecac Bruc",
+    "city": "Santa Coloma de Gramenet",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.cecac.cat/es/contacto/",
+    "evidence_quote": "Carrer del Bruch, 16 08922 Santa Coloma de Gramenet – 934 682 578"
+   },
+   {
+    "campus_name": "Cecac Marina",
+    "city": "Santa Coloma de Gramenet",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.cecac.cat/es/contacto/",
+    "evidence_quote": "Calle de Marina, 5 08921 Santa Coloma de Gramenet – 933 862 942"
+   },
+   {
+    "campus_name": "Cecac Barcino",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.cecac.cat/es/contacto/",
+    "evidence_quote": "Via de Bàrcino, 32 08033 Barcelona – 933 336 750"
+   },
+   {
+    "campus_name": "Cecac Escocia",
+    "city": "Barcelona",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.cecac.cat/es/contacto/",
+    "evidence_quote": "Calle de Escòcia, 130 08016 Barcelona – 933 525 658"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution lists several Erasmus+ projects and partner locations, but does not provide a formal list of partner institutions. No specific contact person for international relations is named in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.0,
+  "crawl_s": 26.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 4,
+  "email_search_s": 0.0,
+  "total_seconds": 47.4
+ }
+}
