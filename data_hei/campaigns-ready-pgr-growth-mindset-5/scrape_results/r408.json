@@ -1,0 +1,94 @@
+{
+ "row_id": "r408",
+ "scraped_at": "2026-10-31T04:25:28Z",
+ "contacts": {
+  "row_id": "r408",
+  "institution_name": "Prairie Farms Dairy",
+  "institution_type": "unknown",
+  "official_website": "https://www.prairiefarms.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@prairiefarms.com",
+  "generic_email_url": "https://www.prairiefarms.com/",
+  "contact": {
+   "name": "Luke Jeffers",
+   "designation": "Chief Commercial Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.prairiefarms.com/about/b2b-partner/",
+   "evidence_quote": "Luke Jeffers ... Chief Commercial Officer"
+  },
+  "alternates": [],
+  "rung": "Other role. Luke Jeffers is a member of the leadership team listed under the B2B partner section.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Hiland Dairy",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.prairiefarms.com/",
+    "evidence_quote": "[Prairie Farms and Hiland Dairy award-winning products recognized in the 2026 World Dairy Expo Championship Dairy Product Contest.]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Feeding America",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.prairiefarms.com/",
+    "evidence_quote": "[Group of representatives from Folds of Honor, Prairie Farms, Hiland Dairy, and Feeding America standing in a warehouse beside pallets of milk crates and a banner announcing a pledge to donate 250,000 servings of milk to support food banks and military families.]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Folds of Honor",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.prairiefarms.com/",
+    "evidence_quote": "[Group of representatives from Folds of Honor, Prairie Farms, Hiland Dairy, and Feeding America standing in a warehouse beside pallets of milk crates and a banner announcing a pledge to donate 250,000 servings of milk to support food banks and military families.]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Prairie Farms Dairy, Inc. Corporate Office",
+    "city": "Edwardsville",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.prairiefarms.com/",
+    "evidence_quote": "Edwardsville, IL 62025"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 3,
+  "coverage_note": "The institution is a dairy cooperative and does not appear to be an educational institution. No information regarding Erasmus+ or international academic mobility partnerships is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 6.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 34.6,
+  "total_seconds": 62.2
+ }
+}
