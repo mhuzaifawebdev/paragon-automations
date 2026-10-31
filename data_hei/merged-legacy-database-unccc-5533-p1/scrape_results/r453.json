@@ -1,0 +1,76 @@
+{
+ "row_id": "r453",
+ "scraped_at": "2026-10-31T14:45:09Z",
+ "contacts": {
+  "row_id": "r453",
+  "institution_name": "Gostyninskie Centrum Edukacyjne",
+  "institution_type": "college",
+  "official_website": "https://gce.gostynin.edu.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "gce@gostynin.edu.pl",
+  "generic_email_url": "https://gce.gostynin.edu.pl/",
+  "contact": {
+   "name": "Wojciech Kiełbasa",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "gce@gostynin.edu.pl",
+   "office_email": "",
+   "phone": "24) 235 38 80",
+   "source_url": "https://gce.gostynin.edu.pl/kontakt.html",
+   "evidence_quote": "Dyrektor: Wojciech Kiełbasa"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Wojciech Kiełbasa is the Director of the institution and is listed as the primary contact.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Berufliche Schulen Altötting",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "traineeship",
+    "source_url": "https://gce.gostynin.edu.pl/?view=article&id=132:altoetting-projekt-erasmus-rekrutacja&catid=22",
+    "evidence_quote": "Uczniowie będą odbywać praktyki zawodowe w Altötting oraz Mühldorf am Inn – malowniczych miastach położonych w kraju związkowym Bayern, w regionie Südostbayern. Podczas pobytu będą zdobywać doświadczenie zawodowe u lokalnych pracodawców, korzystając z wsparcia szkoły Berufliche Schulen Altötting oraz izby rzemieślniczej.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gostynińskie Centrum Edukacyjne",
+    "city": "Gostynin",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://gce.gostynin.edu.pl/",
+    "evidence_quote": "ul. Polna 39, 09-500 Gostynin"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution is a vocational education center. While it mentions an Erasmus+ project with a German school, a comprehensive list of international partners is not provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 33.2,
+  "crawl_s": 12.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.5,
+  "total_seconds": 79.9
+ }
+}
