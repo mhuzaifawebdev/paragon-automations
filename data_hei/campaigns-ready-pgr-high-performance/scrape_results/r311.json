@@ -1,0 +1,105 @@
+{
+ "row_id": "r311",
+ "scraped_at": "2026-10-31T03:00:48Z",
+ "contacts": {
+  "row_id": "r311",
+  "institution_name": "Boston Medical Center",
+  "institution_type": "unknown",
+  "official_website": "https://www.bmc.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "bmcresearch.operations@bmc.org",
+  "generic_email_url": "https://www.bmc.org/research-operations/our-team",
+  "contact": {
+   "name": "Joe Camillus",
+   "designation": "SVP, Chief Operating Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bmc.org/executive-leadership",
+   "evidence_quote": "Joe Camillus, MBA, MPH ... SVP, Chief Operating Officer"
+  },
+  "alternates": [
+   {
+    "name": "Jennifer Fleming",
+    "designation": "Executive Director, Research Growth, Strategy, and Partnerships",
+    "designation_local": "",
+    "email": "Johanna.chesley@bmc.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bmc.org/research-operations/our-team",
+    "evidence_quote": "Jennifer M. Fleming, MBA ... Executive Director, Research Growth, Strategy, and Partnerships",
+    "why_chosen": "Other role. Jennifer Fleming leads the department responsible for research growth, strategy, and partnerships."
+   },
+   {
+    "name": "Ryan Schroeder",
+    "designation": "Senior Director, Business Operations",
+    "designation_local": "",
+    "email": "Ryan.Schroeder@bmc.org",
+    "office_email": "",
+    "phone": "617-414-7075",
+    "source_url": "https://www.bmc.org/research-operations/center-for-clinical-research-advancement/clinical-research-network/team",
+    "evidence_quote": "Ryan Schroeder ... Senior Director, Business Operations (CRN, CRU, CHCRP)",
+    "why_chosen": "Other role. Ryan Schroeder is the Senior Director of Business Operations for the Clinical Research Network."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. Joe Camillus is the contact currently on file and serves as the Chief Operating Officer.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "BMC Main Campus",
+    "city": "Boston",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.bmc.org/directions-and-transportation",
+    "evidence_quote": "BMC Main Campus"
+   },
+   {
+    "campus_name": "BMC Brighton",
+    "city": "Brighton",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.bmc.org/",
+    "evidence_quote": "BMC Brighton"
+   },
+   {
+    "campus_name": "BMC South",
+    "city": "Brockton",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.bmc.org/",
+    "evidence_quote": "BMC South"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a medical center and does not appear to have an Erasmus+ program or international student mobility office. No formal list of international partners is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 13.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.4,
+  "total_seconds": 61.1
+ }
+}
