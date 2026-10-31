@@ -1,0 +1,79 @@
+{
+ "row_id": "r303",
+ "scraped_at": "2026-10-31T10:04:07Z",
+ "contacts": {
+  "row_id": "r303",
+  "institution_name": "Choc Au Lait Patisserie",
+  "institution_type": "unknown",
+  "official_website": "https://www.chocolat-weiss.fr/fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.chocolat-weiss.fr/fr/nous-contacter",
+   "evidence_quote": "France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Service Client",
+   "designation": "Customer Service",
+   "designation_local": "",
+   "email": "serviceclient@mailing.weiss.fr",
+   "office_email": "",
+   "phone": "+33 4 77 49 65 23",
+   "source_url": "https://www.chocolat-weiss.fr/fr/nous-contacter",
+   "evidence_quote": "1- Service Client"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). This department handles customer inquiries and is listed as a primary contact point for the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Saint-Etienne Centre",
+    "city": "Saint-Etienne",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.chocolat-weiss.fr/fr/",
+    "evidence_quote": "Saint-Etienne Centre"
+   },
+   {
+    "campus_name": "Saint-Etienne Les Ateliers",
+    "city": "Saint-Etienne",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.chocolat-weiss.fr/fr/",
+    "evidence_quote": "Saint-Etienne Les Ateliers"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The institution is a commercial chocolate manufacturer and retailer, not an educational institution. No information regarding Erasmus+ partnerships or international mobility is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 34.6,
+  "crawl_s": 5.8,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 0.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 42.4
+ }
+}
