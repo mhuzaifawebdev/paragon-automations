@@ -1,0 +1,78 @@
+{
+ "row_id": "r504",
+ "scraped_at": "2026-10-31T05:51:27Z",
+ "contacts": {
+  "row_id": "r504",
+  "institution_name": "CELISTICS",
+  "institution_type": "unknown",
+  "official_website": "https://celistics.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://celistics.com/",
+   "evidence_quote": "Office in USA:"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@celistics.com",
+  "generic_email_url": "https://celistics.com/en/about-us/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Office in USA",
+    "city": "Doral",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://celistics.com/",
+    "evidence_quote": "Office in USA:"
+   },
+   {
+    "campus_name": "Office in Brazil",
+    "city": "unknown",
+    "country": "Brazil",
+    "role": "branch",
+    "source_url": "https://celistics.com/",
+    "evidence_quote": "Office in Brazil:"
+   },
+   {
+    "campus_name": "Office in Spain",
+    "city": "Madrid",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://celistics.com/",
+    "evidence_quote": "Office in Spain:"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 3,
+  "coverage_note": "Celistics is a logistics and supply chain company for the telecommunications industry, not an educational institution. No academic partners or Erasmus-related contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 19.9,
+  "crawl_s": 5.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 34.4
+ }
+}
