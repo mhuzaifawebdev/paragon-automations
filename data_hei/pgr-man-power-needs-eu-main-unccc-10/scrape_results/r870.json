@@ -1,0 +1,83 @@
+{
+ "row_id": "r870",
+ "scraped_at": "2026-10-31T01:47:49Z",
+ "contacts": {
+  "row_id": "r870",
+  "institution_name": "Heathrow",
+  "institution_type": "unknown",
+  "official_website": "https://www.heathrow.com/",
+  "country": {
+   "value": "UK",
+   "source_url": "https://www.heathrow.com/",
+   "evidence_quote": "Find transport links and road routes to and from anywhere in the UK."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Colin Matthews",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.heathrow.com/content/dam/heathrow/web/common/documents/contact-us/HAL-Byelaws-2014.pdf",
+   "evidence_quote": "Colin Matthews, Director"
+  },
+  "alternates": [
+   {
+    "name": "Normand Boivin",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.heathrow.com/content/dam/heathrow/web/common/documents/contact-us/HAL-Byelaws-2014.pdf",
+    "evidence_quote": "Normand Boivin, Director",
+    "why_chosen": "Principal / director (no Erasmus contact found). Normand Boivin is listed as a Director of Heathrow Airport Limited in the byelaws document."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Colin Matthews is listed as a Director of Heathrow Airport Limited in the byelaws document.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Heathrow Airport",
+    "city": "Hounslow",
+    "country": "UK",
+    "role": "main",
+    "source_url": "https://www.heathrow.com/",
+    "evidence_quote": "Heathrow Airport Limited,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Heathrow is an airport, not an educational institution. No educational partnerships or international mobility contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 11.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 2,
+  "email_search_s": 31.5,
+  "total_seconds": 46.1
+ }
+}
