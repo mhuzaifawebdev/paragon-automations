@@ -1,0 +1,96 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-10-31T02:02:22Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Wood River Health Services",
+  "institution_type": "unknown",
+  "official_website": "https://woodriverhealth.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Greg Velander",
+   "designation": "Chief Operating Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://woodriverhealth.org/about/leadership-team",
+   "evidence_quote": "Greg Velander ... Chief Operating Officer"
+  },
+  "alternates": [
+   {
+    "name": "Stephanie Calenda",
+    "designation": "Human Resources Director",
+    "designation_local": "",
+    "email": "email:hr@woodriverhealth.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://woodriverhealth.org/about/join-our-team/provider-opportunities",
+    "evidence_quote": "Stephanie Calenda, MS, SHRM-SCP ... Human Resources Director",
+    "why_chosen": "Secretary / administration (last resort). Stephanie Calenda is the Human Resources Director and manages recruitment and staff inquiries."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Other role. Greg Velander is the Chief Operating Officer and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Epic Promotions",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://woodriverhealth.org/about/join-our-team/staff-store",
+    "evidence_quote": "Wood River Health has partnered with Epic Promotions to provide our staff and board members with the opportunity to purchase high quality, moderately priced embroidered items through our online store.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hope Valley site",
+    "city": "Hope Valley",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://woodriverhealth.org/",
+    "evidence_quote": "823 Main Street"
+   },
+   {
+    "campus_name": "Westerly site",
+    "city": "Westerly",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://woodriverhealth.org/",
+    "evidence_quote": "17 Wells Street"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution is a health center and does not appear to have an Erasmus+ or international mobility program. No formal list of academic or international partners is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 12.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 32.1,
+  "total_seconds": 67.4
+ }
+}
