@@ -1,0 +1,61 @@
+{
+ "row_id": "r240",
+ "scraped_at": "2026-10-31T08:18:31Z",
+ "contacts": {
+  "row_id": "r240",
+  "institution_name": "Hair Do",
+  "institution_type": "unknown",
+  "official_website": "https://www.brandbucket.com/names/hairdo",
+  "country": {
+   "value": "USA",
+   "source_url": "https://www.brandbucket.com/about",
+   "evidence_quote": "2219 Main Street Unit 601 Santa Monica, CA 90405 USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@brandbucket.com",
+  "generic_email_url": "https://www.brandbucket.com/names/hairdo",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "BrandBucket Santa Monica",
+    "city": "Santa Monica",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.brandbucket.com/about",
+    "evidence_quote": "2219 Main Street Unit 601 Santa Monica, CA 90405 USA"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not describe an educational institution, but rather a domain name marketplace and e-commerce company named BrandBucket. No academic partner lists or educational mobility programs are present.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 6.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.8,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 30.7
+ }
+}
