@@ -1,0 +1,100 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-10-31T07:53:31Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "International School of Beauty Therapy",
+  "institution_type": "school",
+  "official_website": "https://iabamalta.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://iabamalta.com/",
+   "evidence_quote": "Internationally recognised beauty school in Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Sharon Warrington",
+   "designation": "School Principal & Director",
+   "designation_local": "",
+   "email": "sharon@limorabeauty.com",
+   "office_email": "",
+   "phone": "+356 7945 9032",
+   "source_url": "https://iabamalta.com/about",
+   "evidence_quote": "Sharon Warrington ... School Principal & Director"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Sharon Warrington is the School Principal and Director of the International Academy of Beauty & Aesthetics.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CIBTAC",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iabamalta.com/",
+    "evidence_quote": "Beauty School Malta | CIBTAC & CIDESCO Courses | IABA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CIDESCO",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iabamalta.com/",
+    "evidence_quote": "Beauty School Malta | CIBTAC & CIDESCO Courses | IABA",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "International Academy of Beauty and Aesthetics",
+    "city": "Santa Venera",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://iabamalta.com/",
+    "evidence_quote": "+356 7945 9032 <tel +35679459032> sharon@limorabeauty.com <sharon@limorabeauty.com> Galanton Vassallo Street, Santa Venera, Malta Opening Hours: 8am to 5pm (Monday to Friday)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not provide a list of partner institutions or international agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.5,
+  "crawl_s": 4.3,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 9.1,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     101
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 29.7
+ }
+}
