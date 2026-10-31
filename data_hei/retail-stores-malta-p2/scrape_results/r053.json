@@ -1,0 +1,69 @@
+{
+ "row_id": "r053",
+ "scraped_at": "2026-10-31T08:03:47Z",
+ "contacts": {
+  "row_id": "r053",
+  "institution_name": "Fog Buddies",
+  "institution_type": "unknown",
+  "official_website": "https://www.fogbuddies.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://www.fogbuddies.com/policies/contact-information",
+   "evidence_quote": "Physical address: Fog Buddies, c/o Vapor Clouds, 570, St. Joseph High Street, Santa Venera SVR 1018, Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fog Buddies",
+    "city": "Santa Venera",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://www.fogbuddies.com/policies/contact-information",
+    "evidence_quote": "Physical address: Fog Buddies, c/o Vapor Clouds, 570, St. Joseph High Street, Santa Venera SVR 1018, Malta"
+   },
+   {
+    "campus_name": "Gozo Shop",
+    "city": "Victoria",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://www.fogbuddies.com/products/paradise-shisha-steam-stones-100g",
+    "evidence_quote": "C/O Vapor Clouds Limited,12 Main Gateway Street, Victoria ,Gozo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The institution is a commercial vape store and not an educational institution. No information regarding Erasmus+ partnerships or educational staff is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 10.9,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 11.5,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 57.1
+ }
+}
