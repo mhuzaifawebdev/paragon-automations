@@ -4165,23 +4165,35 @@
    "source": "Merged Legacy Database UNCCC-5533",
    "file_id": "1h7GXfzi7q5LI67orYOBA3O6jUqFkDzgOYaZjQwGa3OE",
    "added": "2026-10-28T11:09:18Z",
-   "state": "running",
+   "state": "done",
    "rows": 367,
    "part": "4/4",
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-10-31T19:52:14Z",
    "last_start": "2026-10-31T19:52:14Z",
    "restarts": 0,
-   "cap_usd": 606.15
+   "cap_usd": 606.15,
+   "crm_rows": 113,
+   "no_number": 296,
+   "spend_recorded": true,
+   "cost_usd": 0.9752,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1PWgGxG--hHGrBsJLvGXhKOcM119j5yIZ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 177,
+   "finished": "2026-10-31T20:37:42Z",
+   "reason": "359 institutes, 146 with a contact"
   },
   {
    "batch": "staff-mobility-projects-all-europe-k",
    "source": "STAFF MOBILITY PROJECTS ALL EUROPE KA 101-1050",
    "file_id": "1OXqDg4YEC02FP5Y-A2hC9y0_Cz_3W55UAkouILhGA04",
    "added": "2026-10-28T13:09:47Z",
-   "state": "queued",
+   "state": "running",
    "rows": 155,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-10-31T20:37:42Z",
+   "last_start": "2026-10-31T20:37:42Z",
+   "restarts": 0,
+   "cap_usd": 605.17
   },
   {
    "batch": "ka-103-erasmus-europe-553-p1",
@@ -4252,7 +4264,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-10-31T20:35:58Z",
+ "updated": "2026-10-31T20:37:42Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
