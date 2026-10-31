@@ -1,0 +1,107 @@
+{
+ "row_id": "r487",
+ "scraped_at": "2026-10-31T01:10:29Z",
+ "contacts": {
+  "row_id": "r487",
+  "institution_name": "Unify",
+  "institution_type": "unknown",
+  "official_website": "https://www.mitel.com:443/",
+  "country": {
+   "value": "Canada",
+   "source_url": "https://www.mitel.com:443/contact/locations",
+   "evidence_quote": "Canada"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "David Petts",
+   "designation": "Chief Sales Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.mitel.com:443/partners",
+   "evidence_quote": "David Petts, Chief Sales Officer​, Mitel"
+  },
+  "alternates": [],
+  "rung": "Other role. David Petts is the Chief Sales Officer at Mitel and oversees the global partner ecosystem.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cloud5 Communications",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mitel.com:443/partners",
+    "evidence_quote": "Mark Holzberg, CEO of Cloud5 Communications",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Marco",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mitel.com:443/partners",
+    "evidence_quote": "Shanon Smith, Customer Success Manager​, Marco",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VLCM Communications",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mitel.com:443/partners",
+    "evidence_quote": "Gene Godfrey, VLCM Communications VP",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Zoom",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mitel.com:443/partners",
+    "evidence_quote": "Eric S. Yuan, Founder and CEO​, Zoom",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mitel Headquarters",
+    "city": "Ottawa",
+    "country": "Canada",
+    "role": "main",
+    "source_url": "https://www.mitel.com:443/contact/locations",
+    "evidence_quote": "Ottawa"
+   }
+  ],
+  "stated_total": 6000,
+  "stated_total_quote": "6,000+ Global Partners.",
+  "stated_total_url": "https://www.mitel.com:443/",
+  "truncated": true,
+  "total_seen": 6000,
+  "pages_read": 10,
+  "coverage_note": "Mitel is a technology company, not an educational institution. The evidence provided describes a corporate partner network rather than an academic mobility program.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 12.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.4,
+  "total_seconds": 46.7
+ }
+}
