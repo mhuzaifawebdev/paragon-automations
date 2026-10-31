@@ -1,0 +1,74 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-10-31T00:08:40Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Art school in Bari",
+  "institution_type": "university",
+  "official_website": "https://www.accademiabelleartiba.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Raffaele Fiorella",
+   "designation": "Erasmus Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+39 080 5565535",
+   "source_url": "https://www.accademiabelleartiba.it/erasmus.html",
+   "evidence_quote": "Responsabile Erasmus ... Prof. Raffaele Fiorella"
+  },
+  "alternates": [],
+  "rung": "Institutional Erasmus+ coordinator. He is explicitly named as the Responsabile Erasmus and provides information on mobility programs.",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede Didattica e Amministrativa",
+    "city": "Bari",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.accademiabelleartiba.it/",
+    "evidence_quote": "via Re David, 189/c - 70124, Bari - Tel.: 080.556.64.71 - Fax: 080.557.48.40 |"
+   },
+   {
+    "campus_name": "Sede Didattica",
+    "city": "Mola di Bari",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://www.accademiabelleartiba.it/",
+    "evidence_quote": "via Cesare Battisti, 78 - 70042, Mola di Bari (BA) - Tel.: 080.473.37.03 |"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution mentions having partnerships but does not provide a specific list of partner institutions in the evidence. The total number of partners is not stated.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 12.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 34.7,
+  "total_seconds": 70.5
+ }
+}
