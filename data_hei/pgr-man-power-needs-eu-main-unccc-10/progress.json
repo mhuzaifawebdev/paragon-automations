@@ -1,22 +1,22 @@
 {
  "batch": "pgr-man-power-needs-eu-main-unccc-10",
  "status": "running",
- "generated_at": "2026-10-31T00:24:36.523926+00:00",
- "chunk": 3,
+ "generated_at": "2026-10-31T00:26:00.816959+00:00",
+ "chunk": 4,
  "total_chunks": 40,
  "total_rows": 1000,
- "done": 389,
- "pending": 611,
- "elapsed_seconds": 523,
- "eta_seconds": 5269,
- "cost_usd_so_far": 0.151,
- "paid_search_usd": 0.151,
+ "done": 393,
+ "pending": 607,
+ "elapsed_seconds": 577,
+ "eta_seconds": 4226,
+ "cost_usd_so_far": 0.1761,
+ "paid_search_usd": 0.1761,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
- "haiku_fallback_calls": 47,
+ "haiku_fallback_calls": 57,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 47,
+ "ai_calls": 53,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,16 +37,15 @@
   }
  ],
  "confidence": {
-  "high": 29,
+  "high": 37,
   "medium": 23,
   "low": 1,
-  "none": 336
+  "none": 332
  },
- "partners_found": 621,
- "campuses_found": 359,
+ "partners_found": 630,
+ "campuses_found": 371,
  "recent": [
-  "r836",
-  "r847",
+  "r863",
   "r881",
   "r886",
   "r890",
@@ -64,6 +63,7 @@
   "r967",
   "r971",
   "r977",
+  "r991",
   "r999"
  ]
 }
