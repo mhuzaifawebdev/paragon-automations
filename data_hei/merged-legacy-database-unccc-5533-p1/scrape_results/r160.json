@@ -1,0 +1,103 @@
+{
+ "row_id": "r160",
+ "scraped_at": "2026-10-31T14:12:36Z",
+ "contacts": {
+  "row_id": "r160",
+  "institution_name": "Brest Business School (Ecole Supérieure de Commerce)",
+  "institution_type": "college",
+  "official_website": "https://igc-ecoles.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jérôme Pasty",
+   "designation": "Mobility Referent",
+   "designation_local": "",
+   "email": "jerome.pasty@igc-ecoles.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://igc-ecoles.com/alternance-mobilite-internationale/",
+   "evidence_quote": "Référent Mobilité : Jérôme Pasty jerome.pasty@igc-ecoles.com <jerome.pasty@igc-ecoles.com>"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. Jérôme Pasty is explicitly identified as the Referent for Mobility and is the primary contact for international mobility projects.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Formatives Network",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://igc-ecoles.com/certification-rncp/",
+    "evidence_quote": "L’école IGC Business School appartient au réseau national Formatives Network.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Labonnealternance.com",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://igc-ecoles.com/alternance/",
+    "evidence_quote": "Découvrez « Labonnealternance.com » : Votre Portail vers un Futur Professionnel Épanoui !",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IGC Business School",
+    "city": "Rennes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://igc-ecoles.com/",
+    "evidence_quote": "Rennes"
+   }
+  ],
+  "stated_total": 150,
+  "stated_total_quote": "IGC organise des job dating pour vous. Ces évènements sont l’occasion pour les étudiants et futurs étudiants de l’école, de pouvoir rencontrer nos entreprises partenaires. C’est également l’occasion pour les tuteurs, de pouvoir venir faire le recrutement de leurs futurs alternants. Chaque année, pas moins de 150 entreprises embauchent un nouvel alternant de l’école.",
+  "stated_total_url": "https://igc-ecoles.com/reseau-dentreprise-igc/",
+  "truncated": true,
+  "total_seen": 150,
+  "pages_read": 5,
+  "coverage_note": "The institution lists many corporate partners for apprenticeship, but does not provide a specific list of international academic partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 11.1,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 25.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     181
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 38.0
+ }
+}
