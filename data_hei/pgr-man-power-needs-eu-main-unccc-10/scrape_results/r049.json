@@ -1,0 +1,110 @@
+{
+ "row_id": "r049",
+ "scraped_at": "2026-10-31T00:20:45Z",
+ "contacts": {
+  "row_id": "r049",
+  "institution_name": "Stryker",
+  "institution_type": "unknown",
+  "official_website": "https://www.stryker.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://www.stryker.com/us/en/about/contact.html",
+   "evidence_quote": "USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "infosmi@stryker.com",
+  "generic_email_url": "https://www.stryker.com/us/en/about/contact.html",
+  "contact": {
+   "name": "Han Lijun",
+   "designation": "Contact person",
+   "designation_local": "",
+   "email": "hanlijun@trauson.com",
+   "office_email": "",
+   "phone": "86 519 8166 5318",
+   "source_url": "https://www.stryker.com/us/en/about/contact.html",
+   "evidence_quote": "Trauson Medical Instrument Company Limited ... hanlijun@trauson.com <hanlijun@trauson.com>"
+  },
+  "alternates": [
+   {
+    "name": "Vivien Li",
+    "designation": "Contact person",
+    "designation_local": "",
+    "email": "vivien.li@stryker.com",
+    "office_email": "",
+    "phone": "+86 10 6526 1295",
+    "source_url": "https://www.stryker.com/us/en/about/contact.html",
+    "evidence_quote": "Healthcare Products Co., Ltd. - Beijing ... vivien.li@stryker.com <vivien.li@stryker.com>",
+    "why_chosen": "Other role. Vivien Li is listed as a contact person for Healthcare Products Co., Ltd. - Beijing."
+   },
+   {
+    "name": "Spencer Stiles",
+    "designation": "President and Chief Operating Officer",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.stryker.com/nl/nl/about/our-management.html",
+    "evidence_quote": "Spencer Stiles ... President en Chief Operating Officer",
+    "why_chosen": "Other role. Spencer Stiles is the President and Chief Operating Officer of Stryker."
+   }
+  ],
+  "rung": "Other role. Han Lijun is listed as a contact person for Trauson Medical Instrument Company Limited.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Worldwide headquarters",
+    "city": "Portage",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.stryker.com/us/en/about/contact.html",
+    "evidence_quote": "1941 Stryker Way"
+   },
+   {
+    "campus_name": "Asia Headquarters",
+    "city": "Hong Kong",
+    "country": "China",
+    "role": "international",
+    "source_url": "https://www.stryker.com/us/en/about/contact.html",
+    "evidence_quote": "Hong Kong (China)"
+   },
+   {
+    "campus_name": "Stryker European Operations, Branch Office",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "role": "international",
+    "source_url": "https://www.stryker.com/us/en/about/contact.html",
+    "evidence_quote": "Stryker European Operations, Branch Office"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Stryker is a medical technology company, not an educational institution. No Erasmus+ or academic mobility partners are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 13.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 0.0,
+  "total_seconds": 20.5
+ }
+}
