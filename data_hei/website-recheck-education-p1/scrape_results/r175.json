@@ -1,0 +1,147 @@
+{
+ "row_id": "r175",
+ "scraped_at": "2026-11-01T08:36:45Z",
+ "contacts": {
+  "row_id": "r175",
+  "institution_name": "FACHHOCHSCHULE ST POELTEN GMBH",
+  "institution_type": "university",
+  "official_website": "https://www.ustp.at/de",
+  "country": {
+   "value": "Österreich",
+   "source_url": "https://www.ustp.at/de/campus",
+   "evidence_quote": "Die USTP wurde mit dem Gütesiegel „Leading Employer Österreich 2026“ ausgezeichnet und gehört damit zu den besten 1 % der Arbeitgeber des Landes."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "E³UDRES²",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ustp.at/de",
+    "evidence_quote": "We are European University – E³UDRES²",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Arsenal Race",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ustp.at/de/studium/bahntechnologie-mobilitaet/bahntechnologie-und-management-von-bahnsystemen",
+    "evidence_quote": "Gutachter bei Arsenal Race und Student im Master-Studiengang \"Bahntechnologie und Management von Bahnsystemen\"",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ÖBB Infrastruktur AG",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ustp.at/de/studium/bahntechnologie-mobilitaet/bahntechnologie-und-management-von-bahnsystemen",
+    "evidence_quote": "Geschäftsbereichsleiter Bahnsysteme in der ÖBB Infrastruktur AG",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus St. Pölten",
+    "city": "St. Pölten",
+    "country": "Österreich",
+    "role": "main",
+    "source_url": "https://www.ustp.at/de/campus/unsere-standorte",
+    "evidence_quote": "Campus St. Pölten (Hauptstandort)"
+   },
+   {
+    "campus_name": "USTP City Lounge",
+    "city": "St. Pölten",
+    "country": "Österreich",
+    "role": "branch",
+    "source_url": "https://www.ustp.at/de/campus/unsere-standorte",
+    "evidence_quote": "USTP City Lounge"
+   },
+   {
+    "campus_name": "Bildungscampus Mostviertel",
+    "city": "Mauer",
+    "country": "Österreich",
+    "role": "branch",
+    "source_url": "https://www.ustp.at/de/campus/unsere-standorte",
+    "evidence_quote": "Bildungscampus Mostviertel"
+   },
+   {
+    "campus_name": "Europacampus Hainburg",
+    "city": "Hainburg",
+    "country": "Österreich",
+    "role": "international",
+    "source_url": "https://www.ustp.at/de/campus/unsere-standorte",
+    "evidence_quote": "Europacampus Hainburg"
+   }
+  ],
+  "stated_total": 9,
+  "stated_total_quote": "9 europäische Partnerhochschulen im Netzwerk",
+  "stated_total_url": "https://www.ustp.at/de",
+  "truncated": true,
+  "total_seen": 9,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions partner universities through the E³UDRES² network, but no specific individual partner institution names or detailed international partner lists are provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.5,
+  "crawl_s": 19.7,
+  "ai_calls": 7,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 40.9
+ }
+}
