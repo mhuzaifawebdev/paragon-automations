@@ -1,0 +1,122 @@
+{
+ "row_id": "r037",
+ "scraped_at": "2026-11-01T11:17:08Z",
+ "contacts": {
+  "row_id": "r037",
+  "institution_name": "Academia Navala \"Mircea cel Batran",
+  "institution_type": "university",
+  "official_website": "https://www.anmb.ro/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "erasmus@anmb.ro",
+  "generic_email_url": "https://www.anmb.ro/international/files/erasmus/outgoing_for_traineeship.html",
+  "contact": {
+   "name": "Erasmus+ Office",
+   "designation": "Erasmus+ Office",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.anmb.ro/international/files/erasmus/teachers.html",
+   "evidence_quote": "Administrative Contact Person Name & Email: Erasmus+ office: erasmusanmb.ro"
+  },
+  "alternates": [
+   {
+    "name": "Marius-Costin IGNAT-GUY",
+    "designation": "Data Protection Officer",
+    "designation_local": "",
+    "email": "dpo@anmb.ro",
+    "office_email": "",
+    "phone": "+40.241.626.200",
+    "source_url": "https://www.anmb.ro/ro/files/despre/informatii_utile/protectia_datelor.html",
+    "evidence_quote": "ANMB, având desemnat ca responsabil cu protecția datelor cu caracter personal pe domnul colonel IGNAT-GUY Marius-Costin ce poate fi contactat la telefon +40.241.626.200 int. 111, la adresa de e-mail: dpo@anmb.ro sau la sediul instituției, prelucrează datele dumneavoastră personale în conformitate cu prevederile GDPR, în calitate de operator, prin intermediul secțiilor/birourilor/compartimentelor, în conformitate cu prevederile specifice aplicabile, pentru derularea următoarelor activități:",
+    "why_chosen": "Secretary / administration (last resort). He is the designated Data Protection Officer responsible for handling personal data inquiries."
+   }
+  ],
+  "rung": "Mobility coordinator. The Erasmus+ Office is the primary administrative contact for all international mobility and Erasmus+ related inquiries.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EMILYO",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.anmb.ro/international/files/erasmus/outgoing_for_study.html",
+    "evidence_quote": "Joint Modules (under the aegis of EMILYO)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Academia Navala Mircea cel Batran",
+    "city": "Constanta",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://www.anmb.ro/",
+    "evidence_quote": "Academia Navala \"Mircea cel Batran\" Constanta"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides detailed procedures for Erasmus+ mobility but does not contain a specific list of partner institutions. Contact information is provided for the Erasmus+ office and the Data Protection Officer.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.2,
+  "crawl_s": 15.3,
+  "ai_calls": 5,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1681,
+     1820
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     1961,
+     2100
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     2101,
+     2240
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     2241,
+     2340
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 22.3
+ }
+}
