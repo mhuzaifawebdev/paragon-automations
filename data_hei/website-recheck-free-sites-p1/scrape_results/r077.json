@@ -1,0 +1,113 @@
+{
+ "row_id": "r077",
+ "scraped_at": "2026-11-01T17:49:24Z",
+ "contacts": {
+  "row_id": "r077",
+  "institution_name": "CONSERVATORIO SUPERIOR DE MÚSICA \"EDUARDO MARTÍNEZ TORNER\" DEL PRINCIPADO DE ASTURIAS",
+  "institution_type": "college",
+  "official_website": "https://csmbadajoz.es/",
+  "country": {
+   "value": "España",
+   "source_url": "https://csmbadajoz.es/",
+   "evidence_quote": "Plaza de la Soledad nº 8. 06001 Badajoz (España)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "José Peña",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "jpenag@dip-badajoz.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://csmbadajoz.es/?page_id=280",
+   "evidence_quote": "Coordinador ... José Peña jpenag@dip-badajoz.es <jpenag@dip-badajoz.es>"
+  },
+  "alternates": [
+   {
+    "name": "Francisco Vila",
+    "designation": "Erasmus+ Coordinator (Student Section)",
+    "designation_local": "",
+    "email": "fvila@dip-badajoz.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://csmbadajoz.es/wp-content/uploads/2022/02/Guia-Erasmus-2022.pdf",
+    "evidence_quote": "Francisco Vila ... Coordinador Erasmus+ sección alumnado",
+    "why_chosen": "Mobility coordinator. He is the designated Erasmus+ coordinator for student mobility."
+   },
+   {
+    "name": "Jesús David Valero",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://csmbadajoz.es/?page_id=55",
+    "evidence_quote": "Jesús David Valero, director",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the Director of the institution and part of the International Mobility Commission."
+   }
+  ],
+  "rung": "Institutional Erasmus+ coordinator. He is explicitly named as the Erasmus+ Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Academia de música de Elvas",
+    "partner_country": "Portugal",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://csmbadajoz.es/?page_id=2492",
+    "evidence_quote": "En el curso 2020-2021, gracias al acuerdo firmado entre la Academia de música de Elvas y el Conservatorio Superior de Música de Badajoz, se llevan a cabo una serie de Master Class gratuitas que dan a conocer el profesorado y el centro de Enseñanzas artísticas superiores de referencia para la zona transfronteriza de la Raya y el Alentejo, situado en la ciudad de Badajoz. Surgen diversas acciones derivadas del presente proyecto:",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Conservatorio Superior de Música \"Bonifacio Gil\"",
+    "city": "Badajoz",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://csmbadajoz.es/",
+    "evidence_quote": "Plaza de la Soledad nº 8. 06001 Badajoz (España)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 9,
+  "coverage_note": "The institution does not provide a comprehensive list of all Erasmus+ partners on its website, only mentioning specific collaborations like the one with the Academia de Música de Elvas.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 10.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 33.5
+ }
+}
