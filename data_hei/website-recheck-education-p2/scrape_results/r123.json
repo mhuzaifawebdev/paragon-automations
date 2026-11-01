@@ -1,0 +1,88 @@
+{
+ "row_id": "r123",
+ "scraped_at": "2026-11-01T10:06:41Z",
+ "contacts": {
+  "row_id": "r123",
+  "institution_name": "IES VALLE DE AMBROZ",
+  "institution_type": "school",
+  "official_website": "https://iesvalledeambroz.educarex.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Luis Rodríguez",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iesvalledeambroz.educarex.es/erasmus-plus/",
+   "evidence_quote": "Profesor Coordinador: Luis Rodríguez."
+  },
+  "alternates": [
+   {
+    "name": "Montserrat Pérez Sánchez",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://iesvalledeambroz.educarex.es/equipo-directivo/",
+    "evidence_quote": "Directora | ... Montserrat Pérez Sánchez |",
+    "why_chosen": "Principal / director (no Erasmus contact found). Montserrat Pérez Sánchez is the Director of the institution and oversees its management."
+   }
+  ],
+  "rung": "Mobility coordinator. Luis Rodríguez is explicitly identified as the Erasmus+ program coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Escola de hostelería e Turimo de Portalegre",
+    "partner_country": "Portugal",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://iesvalledeambroz.educarex.es/erasmus/",
+    "evidence_quote": "Aunque un breve resumen de la formación de nuestros alumnos del Ciclo de Cocina y Gastronomía en la Escola de hostelería e Turimo de Portalegre del 18 al 28 de Mayo de 2025.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Valle de Ambroz",
+    "city": "Hervás",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesvalledeambroz.educarex.es/",
+    "evidence_quote": "IES Valle de Ambroz"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The institution does not provide a comprehensive list of international partners, only mentioning one specific school in Portugal in the context of a past activity.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.9,
+  "crawl_s": 14.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 11.8,
+  "total_seconds": 33.2
+ }
+}
