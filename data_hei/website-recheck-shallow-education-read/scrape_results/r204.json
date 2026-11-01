@@ -1,0 +1,66 @@
+{
+ "row_id": "r204",
+ "scraped_at": "2026-11-01T20:41:01Z",
+ "contacts": {
+  "row_id": "r204",
+  "institution_name": "Fenerbahçe Üniversitesi",
+  "institution_type": "university",
+  "official_website": "https://www.fbu.edu.tr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Felician University",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fbu.edu.tr/haberler",
+    "evidence_quote": "Fenerbahçe Üniversitesi Mezunu Felician University’de Yüksek Lisansa Kabul Aldı",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Metropol",
+    "city": "İstanbul",
+    "country": "Turkey",
+    "role": "main",
+    "source_url": "https://www.fbu.edu.tr/",
+    "evidence_quote": "Atatürk Mah. Ataşehir Bulvarı, Metropol"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The website mentions an International Office but does not list any specific staff members or contact details for it. A full list of Erasmus+ or international partners is not provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 7.0,
+  "ai_calls": 2,
+  "model_s": 20.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 44.4
+ }
+}
