@@ -97,7 +97,7 @@ def write_progress(data_dir, batch, status, queue, done_ids, chunk_no, total_chu
         "cost_usd_so_far": round(sum(costs) + discover.spent_usd(), 4),
         "paid_search_usd": discover.spent_usd(), "paid_search_limit_usd": discover.BUDGET["limit"],
         "paid_search_limit_reached": not discover.budget_left(),
-        "paid_searches": discover.SEARCH_USAGE["searches"], "haiku_fallback_calls": discover.SEARCH_USAGE["reader_calls"],
+        "paid_searches": discover.SEARCH_USAGE["searches"], "search_failures": discover.SEARCH_USAGE["search_failures"], "haiku_fallback_calls": discover.SEARCH_USAGE["reader_calls"],
         "cost_usd_projected_total": round(sum(costs) / max(len(done_ids), 1) * len(queue), 2) if done_ids else None,
         "ai_calls": STATS["ai_calls"], "reader_mode": STATS["mode"], "fast_limit_usd": STATS["fast_limit"],
         "provider": STATS["provider"], "chunk_size": STATS["chunk_size"],

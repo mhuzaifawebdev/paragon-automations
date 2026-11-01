@@ -79,7 +79,8 @@ def take_requests(q, data_root, now):
             q["items"].append({"batch": b, "source": req.get("source") or "upload page", "added": req.get("added") or now,
                                "state": "queued", "reader": req.get("reader") or "paid",
                                "provider": req.get("provider") or "gemini", "chunk_size": req.get("chunk_size") or 25,
-                               **{k: req[k] for k in ("priority", "kind") if req.get(k)}})
+                               **{k: req[k] for k in ("priority", "kind") if req.get(k)},
+                               **({"max_usd": float(req["max_usd"])} if "max_usd" in req else {})})
             have.add(b)
         f.unlink()
 
@@ -189,6 +190,8 @@ def tick(data_root, now, cfg, ops):
                         it["reader"] = "free"
                         it["note"] = f"The ${total:.0f} total is used up: this batch runs on the free reader only, $0."
                     it["cap_usd"] = left
+                if "max_usd" in it:                     # the request's own limit; 0 means nothing paid at all
+                    it["cap_usd"] = min(it["max_usd"], it.get("cap_usd", it["max_usd"]))
                 ops.start(it)
                 log.append(f"{it['batch']}: started" + (f" (may spend up to ${it['cap_usd']:.2f})" if "cap_usd" in it else ""))
                 if len(busy) == 2:

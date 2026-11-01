@@ -819,5 +819,83 @@ check("a page with stray control characters is read, not refused",
 
 check("a name that is a web address keeps the sheet's website", discover.find_website({"row_id": "x", "name": "https://svs.edu.lv/contact", "website": "https://svs.edu.lv/", "country": ""})[0], "https://svs.edu.lv/")
 
+# ---- a failed Google search is not "nothing found"; the proof rules; the crawl's fill-up
+sys.path.insert(0, str(ROOT / "scripts"))
+import recheck_no_contact as rnc  # noqa: E402
+
+saved = (discover.check_site, discover._wikidata, discover.load_memo, discover._ddg_search, discover.urllib.request.urlopen, crawl._fetch_many)
+old_paid = os.environ.get("GEMINI_PAID_API_KEY")
+os.environ["GEMINI_PAID_API_KEY"] = "paid-key"
+discover.set_budget(5.0)
+discover._wikidata, discover.load_memo, discover._ddg_search = (lambda *a: []), (lambda: {}), (lambda row: [])
+discover.check_site = lambda url, row: (False, "no", None)
+
+
+def _quota_search(*a, **k):
+    raise discover.urllib.error.HTTPError("u", 400, "quota", {}, None)
+
+
+discover.urllib.request.urlopen = _quota_search
+down = discover.find_website({"row_id": "x", "name": "Lycee Grippeaux", "country": ""}, use_search=True, search_provider="gemini", gemini_search=True)
+check("a failed search says so in the note, with the reason", down[2], "search unavailable (HTTP 400)")
+check("and it is counted", discover.SEARCH_USAGE["search_failures"], 1)
+note = {"contacts": {"notes": "Website not found (search unavailable (HTTP 429))", "institution_name": "Lycee Grippeaux"}, "rechecked": 4}
+check("an institute whose search failed is searched again, whatever its round", rnc.needs_recheck(note, True), True)
+check("one really searched in this round is not", rnc.needs_recheck({**note, "contacts": {**note["contacts"], "notes": "Website not found (nothing)"}}, True), False)
+discover.set_budget(0.0)
+capped = discover.find_website({"row_id": "x", "name": "Lycee Grippeaux", "country": ""}, use_search=True, search_provider="gemini", gemini_search=True)
+check("a spent cap is a failed search too", capped[2], "search unavailable (spending cap reached)")
+discover.set_budget(5.0)
+
+check("a 3-letter name that IS the address counts", discover.name_in_domain("https://www.aes.com/", "AES"), True)
+check("a 3-letter name inside another word does not", discover.name_in_domain("https://www.caesar.com/", "AES"), False)
+check("nor does a school-type word", discover.name_in_domain("https://ies.es/", "IES Albaida"), False)
+for why, want in (("homepage does not mention this institution's name or phone", "https://www.aes.com/"), ("could not read x (HTTP 403)", "https://www.aes.com/"),
+                  ("could not read x (blocked by robots.txt - do not fetch this page)", "https://www.aes.com/"),
+                  ("could not read x (URLError: <urlopen error [Errno -2] Name or service not known>)", None)):
+    discover.check_site = lambda url, row, w=why: (False, w, None)
+    check(f"email domain, {why[:40]}", discover.find_website({"row_id": "x", "name": "AES", "email": "a@aes.com", "country": ""})[0], want)
+discover.check_site = lambda url, row: (True, "name on the homepage", None)
+check("a link in the country column cannot reject a site", discover._country_ok("https://www.vu.lt/", "", "name"), True)
+seen_country = []
+discover._wikidata = lambda name, country: seen_country.append(country) or []
+discover.find_website({"row_id": "x", "name": "Vilniaus universitetas", "country": "https://www.linkedin.com/in/x"})
+check("and it is not passed on as a country", seen_country, [""])
+discover.check_site, discover.urllib.request.urlopen = saved[0], saved[4]
+fp_fetch = discover.fetch_pages.fetch
+discover.fetch_pages.fetch = lambda url: {"url": url, "final_url": "https://www.hugedomains.com/domain_profile.cfm?d=x", "text": "Lycee Grippeaux is for sale"}
+check("a domain that redirects to a sale page is refused", discover.check_site("https://x.fr/", {"name": "Lycee Grippeaux"})[0], False)
+discover.fetch_pages.fetch = fp_fetch
+check("parked hosts are skipped in search results too", "hugedomains." in discover.SKIP_HOSTS, True)
+
+check("a Polish head's page is followed", crawl.score_link("Dyrekcja", "https://x.pl/dyrekcja") >= crawl.STRONG_MIN, True)
+check("a contact page known only by its address is followed", crawl.score_link("", "https://x.fi/contact") >= crawl.STRONG_MIN, True)
+check("the news penalty still wins", crawl.score_link("Dyrekcja news", "https://x.pl/news/dyrekcja") < 0, True)
+home_links = [("Szkola", "https://x.pl/szkola"), ("Deep", "https://x.pl/a/b/c/d"), ("News", "https://x.pl/news/1"), ("Login", "https://x.pl/login"),
+              ("Top", "https://x.pl/#top"), ("Away", "https://other.pl/szkola"), ("Rodzice", "https://x.pl/rodzice"), ("Uczniowie", "https://x.pl/uczniowie"),
+              ("Galeria", "https://x.pl/galeria"), ("Patron", "https://x.pl/patron")]
+crawl._fetch_many = lambda urls, workers: ([{"url": u, "final_url": u, "text": "strona " * 100, "links": home_links if u == "https://x.pl/" else []} for u in urls], [])
+real_sm, crawl.sitemap_urls = crawl.sitemap_urls, lambda *a: []
+filled = crawl.crawl("https://x.pl/", max_pages=10)
+check("a site with no keyword links still gets 5 pages, shortest menu links first",
+      [p["url"] for p in filled["pages"]], ["https://x.pl/", "https://x.pl/szkola", "https://x.pl/patron", "https://x.pl/rodzice", "https://x.pl/galeria"])
+check("a normal homepage is not called thin", filled["thin"], False)
+crawl._fetch_many = lambda urls, workers: ([{"url": u, "final_url": u, "text": "Loading", "links": []} for u in urls], [])
+check("a near-empty homepage is called thin", crawl.crawl("https://x.pl/", max_pages=10)["thin"], True)
+crawl.sitemap_urls = real_sm
+check("a site that could not be read keeps its address", pl.unresolved({"row_id": "x"}, "Website could not be read: x", {}, "https://aes.com/")["contacts"]["official_website"], "https://aes.com/")
+discover.check_site, discover._wikidata, discover.load_memo, discover._ddg_search, discover.urllib.request.urlopen, crawl._fetch_many = saved
+discover.set_budget(None)
+os.environ.pop("GEMINI_PAID_API_KEY", None) if old_paid is None else os.environ.update(GEMINI_PAID_API_KEY=old_paid)
+
+discover.check_site, discover._wikidata, discover.load_memo, discover._ddg_search = (lambda url, row: (row["name"] == "University of Louisville", "name on the homepage", None)), (lambda *a: []), (lambda: {}), (lambda row: [])
+discover._gemini_paid_sites = lambda row: (["https://louisville.edu/"], "University of Louisville")
+os.environ["GEMINI_PAID_API_KEY"] = "paid-key"
+check("Google's own name proves nothing about ours: no shared word, no country", discover.find_website({"row_id": "x", "name": "Cardmart", "country": ""}, use_search=True, search_provider="gemini", gemini_search=True)[0], None)
+check("a shared word is enough", discover.find_website({"row_id": "x", "name": "Louisville Campus", "country": ""}, use_search=True, search_provider="gemini", gemini_search=True)[0], "https://louisville.edu/")
+discover._gemini_paid_sites = real_gps2
+discover.check_site, discover._wikidata, discover.load_memo, discover._ddg_search = saved[:4]
+os.environ.pop("GEMINI_PAID_API_KEY", None) if old_paid is None else os.environ.update(GEMINI_PAID_API_KEY=old_paid)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

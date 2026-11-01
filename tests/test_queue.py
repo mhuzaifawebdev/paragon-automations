@@ -287,5 +287,18 @@ check("an unknown institute is scraped normally",
       reuse.lookup({"row_id": "r9", "institution_name": "Other College", "country_sheet": "Spain"}, root3, "second",
                    fetch_archive=lambda b: None), None)
 
+# ---- a request's own spending limit
+root9 = Path(tempfile.mkdtemp())
+qt._write(root9 / "queue.json", {"items": []})
+qt._write(root9 / "_queue_requests" / "c1.json", {"batch": "c1", "reader": "free", "max_usd": 0})
+qt._write(root9 / "_queue_requests" / "c2.json", {"batch": "c2", "reader": "free", "max_usd": 6.0})
+ops9 = FakeOps()
+qt.tick(root9, "2026-11-02T10:00:00Z", {"max_queue_usd_total": 850}, ops9)
+caps = {i["batch"]: (i.get("cap_usd"), i["reader"]) for i in qt.load_queue(root9)["items"]}
+check("a request's max_usd is its cap, 0 included, and is kept below the total", caps.get("c1"), (0.0, "free"))
+qt._write(root9 / "c1" / "progress.json", {"status": "cancelled"})
+qt.tick(root9, "2026-11-02T11:00:00Z", {"max_queue_usd_total": 850}, ops9)
+check("the next request keeps its own cap", {i["batch"]: i.get("cap_usd") for i in qt.load_queue(root9)["items"]}.get("c2"), 6.0)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

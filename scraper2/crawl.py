@@ -42,7 +42,9 @@ KEYWORDS = [
          "leitung", "prasidium", "vedeni", "board", "organigram", "who is who", "ansprechpartner", "contacts",
          "teachers", "our teachers", "teaching staff", "nauczyciele", "lehrer", "lehrkrafte", "docenti", "profesores",
          "professores", "enseignants", "ucitele", "tanarok", "opettajat", "larare", "docenten", "languages",
-         "προσωπικ", "επικοινων",                        # Greek: staff, contact
+         "contact", "kontakt", "yhteystiedot", "direccion", "direcao", "orgaos", "dyrekcja", "directie", "schoolleiding",
+         "medewerkers", "henkilokunta", "rehtori", "dirigente",
+         "προσωπικ", "επικοινων", "διευθ",               # Greek: staff, contact, head
          "персонал", "контакт", "zaposleni", "osoblje"]),
     (3, ["contact", "kontakt", "contacto", "contatti", "team", "staff", "personal", "equipo", "equipe",
          "campus", "locations", "our sites", "centres", "sedes", "standorte", "about us",
@@ -52,6 +54,8 @@ NEGATIVE = ["login", "cookie", "privacy", "datenschutz", "impressum", "facebook"
             "linkedin", "youtube", "tiktok", "whatsapp", "javascript:", "mailto:", "tel:", ".jpg", ".png",
             ".gif", ".svg", ".zip", ".mp4", "shop", "cart", "calendar", "feed", "wp-json", "sitemap.xml"]
 STRONG_MIN = 4          # a link must score at least this to be followed
+MIN_PAGES = 5           # fewer than this after the keyword rounds: fill up with the homepage's own menu links
+THIN_TEXT = 400         # a homepage with less text than this is likely a JavaScript-only page
 NEWSY = re.compile(r"announc|/news|news/|blog|press|/event|noticias|actualit|aktualit|novosti|anakoin|/nea/|hirek|neuigkeit|aktuell|"
                    r"nyheter|nieuws|wiadomosci|aktuality|ilmoitus|paziņojum|pranesim|kutsu", re.I)
 NEWS_URL = re.compile(r"/(19|20)\d\d/\d{1,2}/")          # dated blog/news post: rarely the page we want
@@ -70,10 +74,14 @@ def _norm(s):
     return "".join(c for c in s if not unicodedata.combining(c))
 
 
+def _unwanted(url):
+    return any(n in _norm(url) for n in NEGATIVE)
+
+
 def score_link(label, url):
     """How likely a link leads to Erasmus/international/partner/contact/campus content."""
     hay_label, hay_url = _norm(label), _norm(urlparse(url).path + " " + urlparse(url).query)
-    if any(n in _norm(url) for n in NEGATIVE):
+    if _unwanted(url):
         return 0
     score = 0
     for weight, terms in KEYWORDS:
@@ -214,7 +222,20 @@ def crawl(site, max_pages=10, workers=5, seeds=()):
         scores3 = dict(round3)
         for rec in got3:
             pages.append({**_slim(rec), "score": scores3.get(rec["url"], 4)})
-    return {"pages": pages, "errors": errors, "site": site_final}
+    room = min(MIN_PAGES, max_pages) - len(pages)
+    if room > 0:                                             # the words above are not in every language
+        got = {fetch_pages._url_key(p["url"]) for p in pages} | seen
+        fill = {}
+        for label, url in home.get("links", []):
+            k = fetch_pages._url_key(url)
+            if url.startswith("http") and same_site(url, site_final) and k not in got and urlparse(url).path.strip("/") \
+                    and not _unwanted(url) and score_link(label, url) >= 0:
+                fill.setdefault(k, url)
+        fill = sorted(fill.values(), key=lambda u: (urlparse(u).path.rstrip("/").count("/"), len(u)))[:room]
+        got4, errs4 = _fetch_many(fill, workers)
+        errors += errs4
+        pages += [{**_slim(rec), "score": 1} for rec in got4]
+    return {"pages": pages, "errors": errors, "site": site_final, "thin": len(home.get("text", "")) < THIN_TEXT}
 
 
 LOC_RE = re.compile(r"<loc>\s*(?:<!\[CDATA\[)?\s*([^<\s]+?)\s*(?:\]\]>)?\s*</loc>", re.I)

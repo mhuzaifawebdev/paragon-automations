@@ -41,6 +41,8 @@ def needs_recheck(result, websites=False):
     searches Google for it through the paid Gemini key)."""
     c = result.get("contacts") or {}
     no_site = str(c.get("notes") or "").startswith("Website not found")
+    if websites and no_site and "search unavailable" in str(c.get("notes")) and clean_name(c.get("institution_name")):
+        return True                                                 # never searched: a failed search is no verdict
     if int(result.get("rechecked") or 0) >= ROUND:                  # True (round 1) counts as 1
         return False
     if websites:

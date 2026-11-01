@@ -49,8 +49,9 @@ def choose(rows, wanted, seed=11):
     return {g: rng.sample(sorted(p), min(wanted.get(g, 0), len(p))) for g, p in pools.items()}
 
 
-def write_batches(names, name, data=DATA, chunk=500, now="2026-11-01T00:00:00Z", sites=None):
-    """sites: {name: website} found beforehand, so those rows need no paid search."""
+def write_batches(names, name, data=DATA, chunk=500, now="2026-11-01T00:00:00Z", sites=None, reader="paid", max_usd=None):
+    """sites: {name: website} found beforehand, so those rows need no paid search. reader: "free" reads on the free
+    allowance only. max_usd: what each batch may spend at most, 0 for nothing paid at all."""
     sites = sites or {}
     parts = [names[i:i + chunk] for i in range(0, len(names), chunk)]
     written = []
@@ -64,8 +65,10 @@ def write_batches(names, name, data=DATA, chunk=500, now="2026-11-01T00:00:00Z",
             w.writerows([x, "", sites.get(x, "")] for x in part)
         req = Path(data) / "_queue_requests" / f"{batch}.json"
         req.parent.mkdir(parents=True, exist_ok=True)
-        req.write_text(json.dumps({"batch": batch, "source": "website re-check", "added": now, "reader": "paid",
-                                   "priority": True, "kind": "rescrape"}, indent=1), encoding="utf-8")
+        request = {"batch": batch, "source": "website re-check", "added": now, "reader": reader, "priority": True, "kind": "rescrape"}
+        if max_usd is not None:
+            request["max_usd"] = max_usd
+        req.write_text(json.dumps(request, indent=1), encoding="utf-8")
         written += [up, req]
     return written
 
@@ -78,11 +81,13 @@ def main():
     ap.add_argument("--name", required=True)
     ap.add_argument("--chunk", type=int, default=500)
     ap.add_argument("--sites", help="JSON file of {name: website}: sends exactly these names, each with its website")
+    ap.add_argument("--free", action="store_true", help="read with the free reader only")
+    ap.add_argument("--max-usd", type=float, help="spending cap for each batch; 0 means nothing paid at all")
     a = ap.parse_args()
     if a.sites:
         sites = json.loads(Path(a.sites).read_text(encoding="utf-8"))
         print("total", len(sites))
-        for p in write_batches(sorted(sites), a.name, chunk=a.chunk, sites=sites):
+        for p in write_batches(sorted(sites), a.name, chunk=a.chunk, sites=sites, reader="free" if a.free else "paid", max_usd=a.max_usd):
             print(p)
         return
     rows = json.loads((DATA / "institute_counts.json").read_text(encoding="utf-8"))["institutes"]

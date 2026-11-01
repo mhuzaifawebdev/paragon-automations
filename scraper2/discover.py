@@ -100,7 +100,11 @@ def name_in_domain(url, name):
     for IES Albaida. Proof for a site a trusted source named, when its homepage cannot be read or spells the name differently."""
     host = re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc.lower()).rsplit(".", 1)[0]
     host = _fold(_n(host)).replace("-", "")
-    return any(len(t) >= 5 and t not in NOT_DISTINCTIVE and _fold(t) in host for t in name_tokens(name))
+    if any(len(t) >= 5 and t not in NOT_DISTINCTIVE and _fold(t) in host for t in name_tokens(name)):
+        return True
+    # A 3-letter name cannot be matched inside other words, so it must BE the address: aes.com for AES.
+    short = [t for t in re.findall(r"[a-z0-9]+", _n(name)) if len(t) == 3 and t not in STOP]
+    return re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc.lower()).split(".")[0] in short
 
 
 def _domain(url):
@@ -122,6 +126,8 @@ def check_site(url, row):
         rec = fetch_pages.fetch(url)
     except Exception as e:
         return False, f"could not read {url} ({e})", None
+    if any(h in _domain(rec.get("final_url") or url) for h in PARKED_HOSTS):
+        return False, "a parked domain or a directory page, not the institution's site", rec
     text = _fold(_n(rec.get("text", "")))
     digits = re.sub(r"\D", "", row.get("phone") or "")
     if len(digits) >= 8 and digits[-8:] in re.sub(r"\D", "", rec.get("text", "")):
@@ -235,6 +241,8 @@ def _gemini_search(row):
 SKIP_HOSTS = ("wikipedia.", "facebook.", "linkedin.", "instagram.", "youtube.", "twitter.", "x.com", "tiktok.", "eacea.",
               "erasmus-plus.", "europa.eu", "wikidata.", "google.", "bing.", "duckduckgo.", "yelp.", "tripadvisor.", "mapcarta.",
               "educations.", "schooldigger.", "uni-rank", "4icu.")
+PARKED_HOSTS = ("hugedomains.", "sedo.", "afternic.", "dan.com", "near-place.")
+SKIP_HOSTS += PARKED_HOSTS
 
 
 def _ddg_search(row, limit=4):
@@ -325,7 +333,7 @@ SEARCH_MODEL = "claude-haiku-4-5"
 # running paid totals. input/output_tokens are Claude Haiku tokens; reader_micro_usd is paid reading by any other
 # model, kept as millionths of a dollar because each model has its own price
 SEARCH_USAGE = {"searches": 0, "input_tokens": 0, "output_tokens": 0, "reader_calls": 0, "reader_micro_usd": 0,
-                "brave_searches": 0, "gemini_searches": 0}
+                "brave_searches": 0, "gemini_searches": 0, "search_failures": 0}
 # USD: Claude $10 per 1,000 searches + Haiku 4.5 tokens. Brave $5 per 1,000; its monthly free credit (about 1,000
 # searches) is NOT subtracted here, so the batch total can only overstate what Brave really charges.
 SEARCH_PRICE = {"search": 0.01, "input_per_m": 1.0, "output_per_m": 5.0, "brave": 0.005}
@@ -386,6 +394,17 @@ def budget_left():
 GEMINI_SEARCH_MODEL = "gemini-3.1-flash-lite"
 GEMINI_SEARCH_PRICE = {"per_search": 0.014, "input_per_m": 0.25, "output_per_m": 1.50}
 SEARCH_TRIES, SEARCH_WAIT_SECONDS = 3, 10
+# A search that failed is not a search that found nothing: the institute must be searched again, so find_website
+# reads this straight after searching and says so in its note (same thread, so workers cannot mix each other's up).
+SEARCH_DOWN = "search unavailable"
+_search = threading.local()
+
+
+def _search_failed(why):
+    _search.failed = why
+    with _usage_lock:
+        SEARCH_USAGE["search_failures"] += 1
+        _save_usage()
 
 
 def _resolve(url):
@@ -409,6 +428,8 @@ def _gemini_paid_urls(prompt, limit=5, with_text=False):
     import os
     key = os.environ.get("GEMINI_PAID_API_KEY")
     if not key or not budget_left():
+        if key:
+            _search_failed("spending cap reached")
         return ([], "") if with_text else []
     body = json.dumps({"contents": [{"role": "user", "parts": [{"text": prompt}]}],
                        "tools": [{"google_search": {}}], "generationConfig": {"temperature": 0}}).encode("utf-8")
@@ -426,9 +447,11 @@ def _gemini_paid_urls(prompt, limit=5, with_text=False):
                 time.sleep(SEARCH_WAIT_SECONDS * attempt)
                 continue
             print(f"(Gemini search unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
+            _search_failed(f"HTTP {e.code}")
             return ([], "") if with_text else []
         except Exception as e:
             print(f"(Gemini search unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
+            _search_failed(type(e).__name__)
             return ([], "") if with_text else []
     use = resp.get("usageMetadata") or {}
     p = GEMINI_SEARCH_PRICE
@@ -635,6 +658,8 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
     gemini_search: one Google search through the PAID Gemini key (GEMINI_PAID_API_KEY; the free key has no search),
     counted against the batch cap. Every site it suggests must still pass check_site and the country check."""
     tried, wikidata_sites = [], set()
+    if "://" in (row.get("country") or ""):       # a link that landed in the country column names no country
+        row = {**row, "country": ""}
 
     def attempt(url, how):
         if not url:
@@ -646,6 +671,11 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
         if ok:
             return url, how, why
         if not how.startswith(("Wikidata", "web search")):
+            # The sheet's own address: the name in it is proof if the host answered, even with a refusal. A dead
+            # domain proves nothing.
+            answered = "does not mention" in why or re.search(r"robots\.txt|HTTP (401|403|405|429|5\d\d)", why)
+            if answered and name_in_domain(url, row.get("name")):
+                return url, how, "the institution's name is in the web address"
             return None
         # Wikidata and Google named this site, but its homepage blocks us or words the name differently. The address
         # holding the name, or both sources naming the same site, is proof enough that it is the institute's website.
@@ -700,14 +730,20 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
     elif use_search:
         import os
         if gemini_search and os.environ.get("GEMINI_PAID_API_KEY"):
+            _search.failed = ""
             homes, local = _gemini_paid_sites(row)
+            if _search.failed:
+                tried.append(f"{SEARCH_DOWN} ({_search.failed})")
             for u in homes:
                 hit = attempt(u, "web search (Google via Gemini)")
                 if not hit and local and _n(local) != _n(row.get("name")):
                     # the site names itself in its own language ('Univerzita Komenského' for Comenius University)
                     ok, why, _ = check_site(u, {**row, "name": local})
                     tried.append(f"same site under its own name '{local}' -> {'ok' if ok else why}")
-                    hit = (u, f"web search (Google via Gemini), named '{local}' on the site", why) if ok else None
+                    # Google's name matching Google's site proves nothing about OUR institute ('Cardmart' became the
+                    # University of Louisville): it must share a word with our name, or pass the country check below.
+                    linked = row.get("country") or any(_fold(t) in _fold(_n(local)) for t in name_tokens(row.get("name")))
+                    hit = (u, f"web search (Google via Gemini), named '{local}' on the site", why) if ok and linked else None
                 if hit and _country_ok(hit[0], row.get("country"), hit[2]):
                     return hit
                 if hit:

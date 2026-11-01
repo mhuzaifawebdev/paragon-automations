@@ -408,10 +408,10 @@ def extract_partner_slices(inst, pack, provider, model):
     return out, missed
 
 
-def unresolved(row, note, timing):
+def unresolved(row, note, timing, site=""):
     return {"row_id": row["row_id"], "scraped_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
             "contacts": {"row_id": row["row_id"], "institution_name": row.get("institution_name") or "",
-                         "institution_type": "unknown", "official_website": "", "country": None, "phone": None,
+                         "institution_type": "unknown", "official_website": site, "country": None, "phone": None,
                          "contact": None, "alternates": [], "rung": "", "source": "none", "confidence": 0,
                          "needs_human_check": True, "pages_read": 0, "notes": note},
             "network": None, "network_skipped": "website not found", "timing": timing}
@@ -553,8 +553,10 @@ def scrape(row, cfg):
     timing["crawl_s"] = round(time.time() - t, 1)
     if not cr["pages"]:
         timing["total_seconds"] = round(time.time() - t_all, 1)
-        return unresolved(row, "Website could not be read: " + "; ".join(f"{u} ({e})" for u, e in cr["errors"][:3]), timing)
+        return unresolved(row, "Website could not be read: " + "; ".join(f"{u} ({e})" for u, e in cr["errors"][:3]), timing, site)
 
+    if cr.get("thin"):
+        timing["thin_home"] = True              # next to no text: likely a JavaScript-only page
     if not how.startswith("remembered"):
         discover.remember(row["row_id"], cr["site"], how)       # never search for this institute again
     pack = evidence.build_pack(cr["pages"], budget_chars=int(cfg.get("evidence_chars", 90000)))
