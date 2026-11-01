@@ -1,0 +1,140 @@
+{
+ "row_id": "r060",
+ "scraped_at": "2026-11-01T01:18:46Z",
+ "contacts": {
+  "row_id": "r060",
+  "institution_name": "Conservatorium van Amsterdam",
+  "institution_type": "university",
+  "official_website": "https://www.conservatoriumvanamsterdam.nl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Amsterdamse Hogeschool voor de Kunsten",
+    "partner_country": "Netherlands",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriumvanamsterdam.nl/",
+    "evidence_quote": "Conservatorium van Amsterdam (CvA) | Amsterdamse Hogeschool voor de Kunsten (AHK)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Amsterdam Electronic Music Academy",
+    "partner_country": "Netherlands",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriumvanamsterdam.nl/",
+    "evidence_quote": "28 november 2026 | Open dag | Pop en Amsterdam Electronic Music Academy (AEMA)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nederlands Philharmonisch",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriumvanamsterdam.nl/",
+    "evidence_quote": "Mirna Ackers wint auditie voor solo-fluitist bij Nederlands Philharmonisch en Nederlands Kamerorkest",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nederlands Kamerorkest",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriumvanamsterdam.nl/",
+    "evidence_quote": "Mirna Ackers wint auditie voor solo-fluitist bij Nederlands Philharmonisch en Nederlands Kamerorkest",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Koninklijk Concertgebouworkest",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriumvanamsterdam.nl/",
+    "evidence_quote": "Jesús Iberti Rubira wint proefspel bij het Koninklijk Concertgebouworkest",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Amsterdam University of the Arts",
+    "partner_country": "Netherlands",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriumvanamsterdam.nl/en/",
+    "evidence_quote": "Conservatorium van Amsterdam (CvA) - Amsterdam University of the Arts",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Royal Concertgebouw Orchestra",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.conservatoriumvanamsterdam.nl/en/",
+    "evidence_quote": "Jesús Iberti Rubira wins audition for the Royal Concertgebouw Orchestra",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Conservatorium van Amsterdam",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.conservatoriumvanamsterdam.nl/",
+    "evidence_quote": "Oosterdokskade 151"
+   },
+   {
+    "campus_name": "Pop department (Q-Factory)",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.conservatoriumvanamsterdam.nl/en/",
+    "evidence_quote": "Atlantisplein 1 (pop department)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 7,
+  "pages_read": 10,
+  "coverage_note": "The website does not provide a list of Erasmus+ or international partners. Contact information for international relations staff is not explicitly listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 14.0,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 10,
+    "accepted": 7
+   }
+  ],
+  "total_seconds": 29.6
+ }
+}
