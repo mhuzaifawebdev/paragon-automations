@@ -1,0 +1,142 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-11-01T12:32:01Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "University of the Arts Bremen",
+  "institution_type": "university",
+  "official_website": "https://www.hfk-bremen.de/de",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "international-office@hfk-bremen.de",
+  "generic_email_url": "https://www.hfk-bremen.de/en/about-the-university/administration/unit-2-international-affairs",
+  "contact": {
+   "name": "Anke Schmidt",
+   "designation": "International Office",
+   "designation_local": "",
+   "email": "anke.schmidt@hfk-bremen.de",
+   "office_email": "",
+   "phone": "+49 421 9595-1042",
+   "source_url": "https://www.hfk-bremen.de/en/person/anke-schmidt/33",
+   "evidence_quote": "Anke Schmidt ... International Office"
+  },
+  "alternates": [
+   {
+    "name": "Susanne Schäfer",
+    "designation": "Contact Person",
+    "designation_local": "",
+    "email": "international-office@hfk-bremen.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.hfk-bremen.de/en/about-the-university/administration/unit-2-international-affairs",
+    "evidence_quote": "Contact Persons ... Susanne Schäfer",
+    "why_chosen": "International relations officer. Susanne Schäfer is listed as a contact person for the International Office."
+   },
+   {
+    "name": "Prof. Dr. Mirjam Boggasch",
+    "designation": "Rektorin",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.hfk-bremen.de/de/ueber-die-hochschule/hochschulleitung",
+    "evidence_quote": "Rektorin ... Prof. Dr. Mirjam Boggasch",
+    "why_chosen": "Principal / director (no Erasmus contact found). Prof. Dr. Mirjam Boggasch is the Rector of the university and holds responsibility for internationalization."
+   }
+  ],
+  "rung": "International relations officer. Anke Schmidt works in the International Office and is the primary contact for international affairs and Erasmus+.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "DAAD",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfk-bremen.de/de",
+    "evidence_quote": "DAAD-Preis geht in diesem Jahr an Colma Ní Bhriain",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hochschule Bremerhaven",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hfk-bremen.de/de",
+    "evidence_quote": "Bremens Hochschulen verurteilen queerfeindlichen Vorfall an der Hochschule Bremerhaven",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Speicher XI",
+    "city": "Bremen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.hfk-bremen.de/de/ueber-die-hochschule/standorte",
+    "evidence_quote": "Speicher XI"
+   },
+   {
+    "campus_name": "Dechanatstraße",
+    "city": "Bremen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.hfk-bremen.de/de/ueber-die-hochschule/standorte",
+    "evidence_quote": "Dechanatstraße"
+   },
+   {
+    "campus_name": "Speicher XI A",
+    "city": "Bremen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.hfk-bremen.de/de/ueber-die-hochschule/standorte",
+    "evidence_quote": "Speicher XI A"
+   },
+   {
+    "campus_name": "MS Dauerwelle",
+    "city": "Bremen",
+    "country": "Germany",
+    "role": "international",
+    "source_url": "https://www.hfk-bremen.de/de/ueber-die-hochschule/standorte",
+    "evidence_quote": "MS Dauerwelle"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of partner institutions or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.7,
+  "crawl_s": 34.9,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 45.6
+ }
+}
