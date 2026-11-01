@@ -1,0 +1,65 @@
+{
+ "row_id": "r506",
+ "scraped_at": "2026-11-01T21:14:28Z",
+ "contacts": {
+  "row_id": "r506",
+  "institution_name": "Roskilde Handelsskole",
+  "institution_type": "college",
+  "official_website": "https://www.rhs.dk/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rhs@rhs.dk",
+  "generic_email_url": "https://www.rhs.dk/",
+  "contact": {
+   "name": "Sine Felding",
+   "designation": "International activities",
+   "designation_local": "",
+   "email": "sfe@rhs.dk",
+   "office_email": "",
+   "phone": "+45 88 52 32 93",
+   "source_url": "https://www.rhs.dk/om-skolen/kontakt/afdelinger/faellesadministrationen/",
+   "evidence_quote": "Internationale aktiviteter ... Sine Felding"
+  },
+  "alternates": [],
+  "rung": "International relations officer. Sine Felding is listed as the contact for international activities at the institution.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Roskilde Handelsskole",
+    "city": "Roskilde",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://www.rhs.dk/om-skolen/kontakt/adresse-og-find-vej/",
+    "evidence_quote": "Alle Roskilde Handelsskoles uddannelser ligger på Bakkesvinget 67 i Roskilde. Der er cirka 15 minutters gang fra midtbyen og stationen til skolen."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions international activities and student trips but does not provide a list of specific partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 12.2,
+  "ai_calls": 1,
+  "model_s": 20.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 34.9
+ }
+}
