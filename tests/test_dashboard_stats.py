@@ -71,5 +71,10 @@ bd2.apply_rechecks(t2, ls, {bd2._key("School A"): 0, bd2._key("School B"): 1, bd
 check("every row of a name gets the contact, once; an old inbox is not counted twice; a name not sent gets nothing",
       (t2["with_contact"], t2["personal_email"], t2["with_email"], t2["generic_email"]), (3, 3, 3, 1))
 
+t3 = {"with_contact": 0, "personal_email": 0, "generic_email": 0, "with_email": 0, "no_website": 0, "with_website": 0, "partners": 0, "campuses": 0}
+ls3 = [{"name": "School E", "website": 1, "batch": "b1"}, {"name": "School E", "website": 1, "batch": "website-recheck-x", "found": found, "partners": 0, "campuses": 0, "type": "", "country": ""}]
+bd2.apply_rechecks(t3, ls3, {bd2._key("School E"): 0}, {bd2._key("School E"): 1, bd2._key("School F"): 2})
+check("a sheet's contact counts, and only once if the scraper also found one", t3["with_contact"], 3)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
