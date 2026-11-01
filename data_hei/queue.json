@@ -4491,10 +4491,36 @@
    "indexed": 40,
    "finished": "2026-11-01T14:06:19Z",
    "reason": "148 institutes, 34 with a contact"
+  },
+  {
+   "batch": "website-recheck-free-sites-p1",
+   "source": "website re-check",
+   "added": "2026-11-01T00:00:00Z",
+   "state": "running",
+   "reader": "paid",
+   "provider": "gemini",
+   "chunk_size": 25,
+   "priority": true,
+   "kind": "rescrape",
+   "started": "2026-11-01T17:33:34Z",
+   "last_start": "2026-11-01T17:33:34Z",
+   "restarts": 0,
+   "cap_usd": 557.84
+  },
+  {
+   "batch": "website-recheck-free-sites-p2",
+   "source": "website re-check",
+   "added": "2026-11-01T00:00:00Z",
+   "state": "queued",
+   "reader": "paid",
+   "provider": "gemini",
+   "chunk_size": 25,
+   "priority": true,
+   "kind": "rescrape"
   }
  ],
  "paused": null,
- "updated": "2026-11-01T16:59:38Z",
+ "updated": "2026-11-01T17:33:34Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
