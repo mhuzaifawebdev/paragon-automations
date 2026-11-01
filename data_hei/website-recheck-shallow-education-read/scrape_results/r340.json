@@ -1,0 +1,66 @@
+{
+ "row_id": "r340",
+ "scraped_at": "2026-11-01T20:53:51Z",
+ "contacts": {
+  "row_id": "r340",
+  "institution_name": "Institut de Terrassa",
+  "institution_type": "school",
+  "official_website": "https://insterrassa.cat/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 8 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IDDINK",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://insterrassa.cat/ampa/",
+    "evidence_quote": "La reutilització de llibres a Batxillerat es fa a través de l’empresa IDDINK. Trobaràs més informació al següents enllaços:",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "INS Terrassa",
+    "city": "Terrassa",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://insterrassa.cat/",
+    "evidence_quote": "Rambla d'Ègara, 331"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ or international academic partners. The institution mentions mobility programs but does not name specific partner institutions. 8 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 14.5,
+  "ai_calls": 2,
+  "model_s": 1.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 25.2
+ }
+}
