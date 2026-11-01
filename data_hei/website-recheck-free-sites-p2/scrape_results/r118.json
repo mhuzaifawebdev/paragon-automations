@@ -1,0 +1,106 @@
+{
+ "row_id": "r118",
+ "scraped_at": "2026-11-01T19:20:56Z",
+ "contacts": {
+  "row_id": "r118",
+  "institution_name": "http://szikszi.hu/content/bemutatkoz%C3%A1s",
+  "institution_type": "school",
+  "official_website": "http://szikszi.hu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Csicsely Tamás",
+   "designation": "Head of Dormitory",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://kollegium.szikszi.hu/",
+   "evidence_quote": "Csicsely Tamás ... kollégiumvezető"
+  },
+  "alternates": [
+   {
+    "name": "Latorcai-Milyó Karolina",
+    "designation": "Dormitory Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "http://kollegium.szikszi.hu/index.php?id=munkatarsak",
+    "evidence_quote": "Latorcai-Milyó Karolina ... Kollégiumi titkárnő |",
+    "why_chosen": "Secretary / administration (last resort). She is a named administrative staff member with a direct contact email."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the head of the dormitory and a listed leader of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: the sheet's name is the web address. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Academia Iria Flavia",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "http://szikszi.hu/",
+    "evidence_quote": "2026 július 20-24. között 2025-1-HU01-KA122-VET-000339658 Erasmus+ mobilitási program keretében egy hetet tölthettem Santiago de Compostelában, az Academia Iria Flavia nyelviskola „10 kreatív ötlet a spanyol mint idegen nyelv órán\" módszertani továbbképzésén.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Europass Teacher Academy",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "http://szikszi.hu/content/szakk%C3%A9pz%C3%A9si-mobilit%C3%A1si-program-%E2%80%93-firenze",
+    "evidence_quote": "Az Europass Teacher Academy in Florence nyelviskola és tanárai nagyon jól képzettek, számos jó gyakorlattal rendelkeznek. Jól egyesítik a nyelvtanítást a város és a helyi kultúra megismertetését.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "A MARCO POLO GEIE",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "http://szikszi.hu/kateg%C3%B3ria/erasmus-projekt?page=1",
+    "evidence_quote": "Az Erasmus+ 2023-1-HU01-KA121-VET-000132688 számú mobilitási projektben intézményünk oktatói is részt vehettek. A programszervező A MARCO POLO",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Békéscsabai SZC Széchenyi István Két Tanítási Nyelvű Közgazdasági Technikum és Kollégium",
+    "city": "Békéscsaba",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "http://szikszi.hu/",
+    "evidence_quote": "Békéscsabai SZC Széchenyi István Két Tanítási Nyelvű Közgazdasági Technikum és Kollégium"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution is a secondary vocational school. While it lists many Erasmus+ project reports, it does not provide a formal list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 13.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 32.2,
+  "total_seconds": 47.4
+ }
+}
