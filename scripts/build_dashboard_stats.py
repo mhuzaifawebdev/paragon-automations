@@ -61,16 +61,33 @@ def institute_row(result, batch):
     return line
 
 
-def apply_rechecks(totals, lines):
+def apply_rechecks(totals, lines, baseline=None):
     """A website re-check (scripts/recheck_websites.py) improves institutes already counted; it adds none. Each site it
-    found moves every row of that name out of Website not found. Removes the re-check's lines from `lines`."""
+    found moves every row of that name out of Website not found. Removes the re-check's lines from `lines`.
+    baseline: {name key: 1 if it already had a general inbox, else 0} for the institutes with a website but no contact
+    that were sent to be read again (recheck_contact_baseline.json): a contact found moves every row of that name, and
+    an old inbox is not counted twice."""
     rechecks = [x for x in lines if x["batch"].startswith(RECHECK_PREFIX)]
     lines[:] = [x for x in lines if not x["batch"].startswith(RECHECK_PREFIX)]
     missing = defaultdict(list)
     for x in lines:
         if not x["website"]:
             missing[_key(x["name"])].append(x)
+    baseline = baseline or {}
+    nobody = defaultdict(list)
+    for x in lines:
+        if x["website"] and _key(x["name"]) in baseline:
+            nobody[_key(x["name"])].append(x)
     for r in rechecks:
+        key, f = _key(r["name"]), r.get("found") or {}
+        if f.get("with_contact") or f.get("with_email"):
+            had_inbox = baseline.get(key)
+            for _ in nobody.pop(key, []):
+                totals["with_contact"] += f.get("with_contact", 0)
+                totals["personal_email"] += f.get("personal_email", 0)
+                if not had_inbox:
+                    totals["generic_email"] += f.get("generic_email", 0)
+                    totals["with_email"] += f.get("with_email", 0)
         rows = missing.pop(_key(r["name"]), []) if r["website"] else []
         for x in rows:
             x.update(website=1, type=r["type"], country=r["country"], campuses=r["campuses"], partners=r["partners"])
@@ -138,7 +155,11 @@ def build(data=DATA, rows=None):
         batches.append({"batch": bdir.name, "status": prog.get("status") or ("done" if b["institutes"] else "unknown"),
                         "total_rows": prog.get("total_rows") or b["institutes"], "done": prog.get("done", b["institutes"]),
                         "updated": prog.get("generated_at") or "", **b})
-    apply_rechecks(totals, lines_all)
+    try:
+        baseline = json.loads((Path(data) / "recheck_contact_baseline.json").read_text(encoding="utf-8"))
+    except Exception:
+        baseline = {}
+    apply_rechecks(totals, lines_all, baseline)
     if rows is not None:
         rows.extend(lines_all)
     batches.sort(key=lambda x: x["updated"] or "", reverse=True)

@@ -56,5 +56,20 @@ bad["contacts"]["institution_name"] = "34986419899"
 check("a broken sheet row (a phone number as the name) is left out of the figures",
       bds.build(d)["totals"]["institutes"], s["totals"]["institutes"])
 
+# ---- a re-check that finds a contact on a site already known counts once
+import build_dashboard_stats as bd2  # noqa: E402
+t2 = {"with_contact": 0, "personal_email": 0, "generic_email": 0, "with_email": 0, "no_website": 0, "with_website": 0, "partners": 0, "campuses": 0}
+found = {"with_contact": 1, "with_email": 1, "personal_email": 1, "generic_email": 0}
+ls = [{"name": "School A", "website": 1, "batch": "b1"}, {"name": "School A", "website": 1, "batch": "b2"}, {"name": "School B", "website": 1, "batch": "b1"},
+      {"name": "School C", "website": 1, "batch": "b1"}, {"name": "School D", "website": 1, "batch": "b1"},
+      {"name": "School A", "website": 1, "batch": "website-recheck-x", "found": found, "partners": 0, "campuses": 0, "type": "", "country": ""},
+      {"name": "School A", "website": 1, "batch": "website-recheck-y", "found": found, "partners": 0, "campuses": 0, "type": "", "country": ""},
+      {"name": "School B", "website": 1, "batch": "website-recheck-x", "found": found, "partners": 0, "campuses": 0, "type": "", "country": ""},
+      {"name": "School C", "website": 1, "batch": "website-recheck-x", "found": {**found, "with_contact": 0, "personal_email": 0, "generic_email": 1}, "partners": 0, "campuses": 0, "type": "", "country": ""},
+      {"name": "School D", "website": 1, "batch": "website-recheck-x", "found": found, "partners": 0, "campuses": 0, "type": "", "country": ""}]
+bd2.apply_rechecks(t2, ls, {bd2._key("School A"): 0, bd2._key("School B"): 1, bd2._key("School C"): 0})
+check("every row of a name gets the contact, once; an old inbox is not counted twice; a name not sent gets nothing",
+      (t2["with_contact"], t2["personal_email"], t2["with_email"], t2["generic_email"]), (3, 3, 3, 1))
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
