@@ -1,0 +1,104 @@
+{
+ "row_id": "r245",
+ "scraped_at": "2026-11-01T18:18:13Z",
+ "contacts": {
+  "row_id": "r245",
+  "institution_name": "Hoenne -Berufskolleg des Maerkischen Kreises",
+  "institution_type": "college",
+  "official_website": "https://www.hoenne-berufskolleg.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "office@hoenne-berufskolleg.de",
+  "generic_email_url": "https://www.hoenne-berufskolleg.de/",
+  "contact": {
+   "name": "Helga Bendick",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "office@hoenne-berufskolleg.de",
+   "office_email": "",
+   "phone": "02351 966-3300",
+   "source_url": "https://www.hoenne-berufskolleg.de/wer-wir-sind/schulleitung/",
+   "evidence_quote": "Schulleiterin ... OStD' Helga Bendick"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Helga Bendick is the principal of the institution and oversees its strategic partnerships.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fachhochschule Südwestfalen",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hoenne-berufskolleg.de/kooperationen/",
+    "evidence_quote": "Kooperation zwischen der Fachhochschule Südwestfalen und dem Hönne-Berufskolleg Menden",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bundesagentur für Arbeit Iserlohn",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hoenne-berufskolleg.de/kooperationen/",
+    "evidence_quote": "Kooperation zwischen der Bundesagentur für Arbeit Iserlohn und dem Hönne-Berufskolleg Menden",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kreissportbund Märkischer Kreis e.V.",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hoenne-berufskolleg.de/kooperationen/",
+    "evidence_quote": "Kooperation zwischen dem Kreissportbund Märkischer Kreis e.V. und dem Hönne-Berufskolleg Menden",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hönne-Berufskolleg Menden",
+    "city": "Menden",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.hoenne-berufskolleg.de/",
+    "evidence_quote": "Hönne-Berufskolleg Menden"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not contain a specific list of Erasmus+ partners or international mobility agreements. The listed partners are local cooperation agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 10.9,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.6,
+  "slices": [
+   {
+    "lines": [
+     141,
+     170
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 47.5
+ }
+}
