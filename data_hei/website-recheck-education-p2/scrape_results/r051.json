@@ -1,0 +1,118 @@
+{
+ "row_id": "r051",
+ "scraped_at": "2026-11-01T09:55:43Z",
+ "contacts": {
+  "row_id": "r051",
+  "institution_name": "IES Trassierra",
+  "institution_type": "school",
+  "official_website": "https://iestrassierra.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "informacion@iestrassierra.com",
+  "generic_email_url": "https://iestrassierra.com/",
+  "contact": {
+   "name": "Antonio Jesús Calvo Morales",
+   "designation": "Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iestrassierra.com/proyectos-erasmus/",
+   "evidence_quote": "Coordinador: Antonio Jesús Calvo Morales."
+  },
+  "alternates": [
+   {
+    "name": "José Rafael Dueñas Alcaide",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "direccion@iestrassierra.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://iestrassierra.com/equipo-directivo/",
+    "evidence_quote": "Director ... José Rafael Dueñas Alcaide",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the head of the institution and responsible for the overall management."
+   },
+   {
+    "name": "José Francisco Feria Martínez",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "secretaria@iestrassierra.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://iestrassierra.com/equipo-directivo/",
+    "evidence_quote": "Secretario ... José Francisco Feria Martínez",
+    "why_chosen": "Secretary / administration (last resort). He serves as the secretary of the institution and is a key administrative contact."
+   }
+  ],
+  "rung": "Mobility coordinator. He is explicitly named as the coordinator for the Erasmus+ HED project.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée Saint Paul",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://iestrassierra.com/erasmus-escolar/",
+    "evidence_quote": "Movilidades de larga duración. Facilitamos que alumnado de 4ºESO y 1ºBachillerato viva la experiencia de estudiar durante 6 semanas en un centro francés, el Lycée Saint Paul, de Lille, e italiano, e Istituto Gadda Rosselli, de Gallarate.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Istituto Gadda Rosselli",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://iestrassierra.com/erasmus-escolar/",
+    "evidence_quote": "Movilidades de larga duración. Facilitamos que alumnado de 4ºESO y 1ºBachillerato viva la experiencia de estudiar durante 6 semanas en un centro francés, el Lycée Saint Paul, de Lille, e italiano, e Istituto Gadda Rosselli, de Gallarate.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Trassierra",
+    "city": "Córdoba",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iestrassierra.com/quienes-somos/",
+    "evidence_quote": "Dirección: Avenida Arroyo del Moro s/n – 14011 – Córdoba."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The institution lists specific partner schools for mobility in the text, but does not provide a comprehensive list of all Erasmus+ partners. Contact emails are provided for the management team, but not specifically for an international relations office.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.3,
+  "crawl_s": 17.4,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 5.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 44.4
+ }
+}
