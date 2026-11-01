@@ -4358,7 +4358,7 @@
    "batch": "website-recheck-pilot",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "paid",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4367,11 +4367,19 @@
    "started": "2026-11-01T07:41:46Z",
    "last_start": "2026-11-01T07:41:46Z",
    "restarts": 0,
-   "cap_usd": 596.76
+   "cap_usd": 596.76,
+   "crm_rows": 5,
+   "no_number": 57,
+   "spend_recorded": true,
+   "cost_usd": 1.4334,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1OeYtG1SkMVl4YsOXuGaLpvhaTHxbH884/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 31,
+   "finished": "2026-11-01T07:53:40Z",
+   "reason": "60 institutes, 24 with a contact"
   }
  ],
  "paused": null,
- "updated": "2026-11-01T07:41:46Z",
+ "updated": "2026-11-01T07:53:40Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
