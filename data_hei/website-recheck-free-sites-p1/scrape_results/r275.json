@@ -1,0 +1,78 @@
+{
+ "row_id": "r275",
+ "scraped_at": "2026-11-01T18:22:37Z",
+ "contacts": {
+  "row_id": "r275",
+  "institution_name": "IES JOAQUÍN COSTA",
+  "institution_type": "school",
+  "official_website": "https://iescarinena.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "iescarinena@iescarinena.es",
+  "generic_email_url": "https://iescarinena.es/",
+  "contact": {
+   "name": "Diego Herrero Catalán",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iescarinena.es/erasmus/",
+   "evidence_quote": "COORDINADOR ERASMUS +: Diego Herrero Catalán"
+  },
+  "alternates": [
+   {
+    "name": "María Maorad Montañés",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://iescarinena.es/equipo-directivo/",
+    "evidence_quote": "Dª. María Maorad Montañés, directora.",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the director of the institution and part of the management team."
+   }
+  ],
+  "rung": "Mobility coordinator. He is explicitly named as the Erasmus+ coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Joaquín Costa",
+    "city": "Cariñena",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iescarinena.es/",
+    "evidence_quote": "IES Joaquín Costa"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The website provides information about Erasmus+ accreditation and projects but does not list specific partner institutions. Contact details for the Erasmus coordinator are provided without a direct email address.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 15.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.5,
+  "total_seconds": 52.4
+ }
+}
