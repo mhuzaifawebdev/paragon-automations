@@ -4376,10 +4376,69 @@
    "indexed": 31,
    "finished": "2026-11-01T07:53:40Z",
    "reason": "60 institutes, 24 with a contact"
+  },
+  {
+   "batch": "website-recheck-education-p1",
+   "source": "website re-check",
+   "added": "2026-11-01T00:00:00Z",
+   "state": "running",
+   "reader": "paid",
+   "provider": "gemini",
+   "chunk_size": 25,
+   "priority": true,
+   "kind": "rescrape",
+   "started": "2026-11-01T07:57:15Z",
+   "last_start": "2026-11-01T07:57:15Z",
+   "restarts": 0,
+   "cap_usd": 595.32
+  },
+  {
+   "batch": "website-recheck-education-p2",
+   "source": "website re-check",
+   "added": "2026-11-01T00:00:00Z",
+   "state": "queued",
+   "reader": "paid",
+   "provider": "gemini",
+   "chunk_size": 25,
+   "priority": true,
+   "kind": "rescrape"
+  },
+  {
+   "batch": "website-recheck-education-p3",
+   "source": "website re-check",
+   "added": "2026-11-01T00:00:00Z",
+   "state": "queued",
+   "reader": "paid",
+   "provider": "gemini",
+   "chunk_size": 25,
+   "priority": true,
+   "kind": "rescrape"
+  },
+  {
+   "batch": "website-recheck-education-p4",
+   "source": "website re-check",
+   "added": "2026-11-01T00:00:00Z",
+   "state": "queued",
+   "reader": "paid",
+   "provider": "gemini",
+   "chunk_size": 25,
+   "priority": true,
+   "kind": "rescrape"
+  },
+  {
+   "batch": "website-recheck-education-p5",
+   "source": "website re-check",
+   "added": "2026-11-01T00:00:00Z",
+   "state": "queued",
+   "reader": "paid",
+   "provider": "gemini",
+   "chunk_size": 25,
+   "priority": true,
+   "kind": "rescrape"
   }
  ],
  "paused": null,
- "updated": "2026-11-01T07:53:40Z",
+ "updated": "2026-11-01T07:57:15Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
