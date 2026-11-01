@@ -1,0 +1,66 @@
+{
+ "row_id": "r266",
+ "scraped_at": "2026-11-01T18:21:27Z",
+ "contacts": {
+  "row_id": "r266",
+  "institution_name": "IES Azarquiel",
+  "institution_type": "school",
+  "official_website": "http://www.ies-azarquiel.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Luis Miguel Chaparro López-Vizcaíno",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://www.ies-azarquiel.es/index.php/el-centro/general/caracteristicas-y-horario",
+   "evidence_quote": "Director: ... D. Luis Miguel Chaparro López-Vizcaíno |"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Azarquiel",
+    "city": "Toledo",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "http://www.ies-azarquiel.es/",
+    "evidence_quote": "45003 - Toledo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a list of specific partner organizations, only general descriptions of the types of companies and institutions they collaborate with for student internships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.3,
+  "crawl_s": 12.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.5,
+  "total_seconds": 47.1
+ }
+}
