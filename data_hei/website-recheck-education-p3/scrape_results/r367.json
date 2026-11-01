@@ -1,0 +1,138 @@
+{
+ "row_id": "r367",
+ "scraped_at": "2026-11-01T12:08:57Z",
+ "contacts": {
+  "row_id": "r367",
+  "institution_name": "Lycée Polyvalent Le Corbusier",
+  "institution_type": "school",
+  "official_website": "https://www.lyceelecorbusier.eu/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.lyceelecorbusier.eu/?page_id=15",
+   "evidence_quote": "GANDI SAS, 63-65 boulevard Massena à Paris (75013) FRANCE."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Daniel GASSNER",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "03 88 66 87 66",
+   "source_url": "https://www.lyceelecorbusier.eu/?page_id=15",
+   "evidence_quote": "Daniel GASSNER ... Proviseur"
+  },
+  "alternates": [
+   {
+    "name": "Marie SLAGHUIS",
+    "designation": "Teacher and Editorial Manager",
+    "designation_local": "",
+    "email": "marie.slaghuis@ac-strasbourg.fr",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.lyceelecorbusier.eu/?page_id=15",
+    "evidence_quote": "Marie SLAGHUIS ... Enseignante",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Marie Slaghuis is the editorial manager for the website and is explicitly listed as a contact for data rights and inquiries."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Daniel Gassner is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ESAD d’Orihuela",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceelecorbusier.eu/erasmus/",
+    "evidence_quote": "Accueil des enseignants de l’ESAD d’Orihuela",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Le Corbusier-Yakacık",
+    "partner_country": "Turkey",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceelecorbusier.eu/erasmus/",
+    "evidence_quote": "Le Corbusier-Yakacık",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Citadell Gymnasium",
+    "partner_country": "Sweden",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceelecorbusier.eu/erasmus/",
+    "evidence_quote": "Citadell Gymnasium à Malmö, Suède",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GRETA",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceelecorbusier.eu/",
+    "evidence_quote": "Établissement membre du réseau de formation continue GRETA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "L’école d’Art et de Design d’Orihuela",
+    "partner_country": "Espagne",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceelecorbusier.eu/erasmus/",
+    "evidence_quote": "L’école d’Art et de Design d’Orihuela (Espagne)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Le Corbusier",
+    "city": "Illkirch-Graffenstaden",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lyceelecorbusier.eu/",
+    "evidence_quote": "Lycée Le Corbusier"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions several international partners in news items but does not provide a formal list of Erasmus+ partners. No specific Erasmus coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.0,
+  "crawl_s": 14.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 53.3
+ }
+}
