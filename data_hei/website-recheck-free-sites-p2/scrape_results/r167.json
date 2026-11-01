@@ -1,0 +1,147 @@
+{
+ "row_id": "r167",
+ "scraped_at": "2026-11-01T19:27:05Z",
+ "contacts": {
+  "row_id": "r167",
+  "institution_name": "https://paulbert.fr/presentation/#projet",
+  "institution_type": "school",
+  "official_website": "https://paulbert.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Vincent Dufau",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://paulbert.fr/presentation/",
+   "evidence_quote": "Vincent Dufau ... Proviseur"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Vincent Dufau is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: the sheet's name is the web address. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Maria Ana Sanz",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://paulbert.fr/presentation/",
+    "evidence_quote": "Bourses de mobilité à des fins de formation : les élèves de la section européenne Espagnol des sections Métiers de la Relation Client peuvent partir dans le cadre de leur période de formation en milieu professionnel (PFMP) de fin de classe de 1ère Bac Pro (en juin), durant trois semaines en stage en entreprise à Pampelune (partenariat avec l’établissement scolaire Maria Ana Sanz) ou à Valence.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Parlement Européen",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://paulbert.fr/",
+    "evidence_quote": "Actualités du Programme \"ÉCOLE AMBASSADRICE\" du Parlement Européen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Société Nautique de Bayonne",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://paulbert.fr/presentation/",
+    "evidence_quote": "Le lycée Paul Bert est en lien avec des structures sportives avec lesquelles il a des conventions (exemples: Société Nautique de Bayonne, Pôle Espoirs de Rugby de la FFR, Fédération Nationale de de Cyclisme et Paracyclisme, Fédération Nationale de Roller et Skateboard,…..).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Pôle Espoirs de Rugby de la FFR",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://paulbert.fr/presentation/",
+    "evidence_quote": "Le lycée Paul Bert est en lien avec des structures sportives avec lesquelles il a des conventions (exemples: Société Nautique de Bayonne, Pôle Espoirs de Rugby de la FFR, Fédération Nationale de de Cyclisme et Paracyclisme, Fédération Nationale de Roller et Skateboard,…..).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fédération Nationale de de Cyclisme et Paracyclisme",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://paulbert.fr/presentation/",
+    "evidence_quote": "Le lycée Paul Bert est en lien avec des structures sportives avec lesquelles il a des conventions (exemples: Société Nautique de Bayonne, Pôle Espoirs de Rugby de la FFR, Fédération Nationale de de Cyclisme et Paracyclisme, Fédération Nationale de Roller et Skateboard,…..).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fédération Nationale de Roller et Skateboard",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://paulbert.fr/presentation/",
+    "evidence_quote": "Le lycée Paul Bert est en lien avec des structures sportives avec lesquelles il a des conventions (exemples: Société Nautique de Bayonne, Pôle Espoirs de Rugby de la FFR, Fédération Nationale de de Cyclisme et Paracyclisme, Fédération Nationale de Roller et Skateboard,…..).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée des métiers Paul Bert",
+    "city": "Bayonne",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://paulbert.fr/",
+    "evidence_quote": "73 rue bourgneuf - 64100 - Bayonnne"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 8,
+  "coverage_note": "The institution lists specific partner schools for mobility in the text, but does not provide a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 14.3,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 32.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 5,
+    "accepted": 5
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 49.7
+ }
+}
