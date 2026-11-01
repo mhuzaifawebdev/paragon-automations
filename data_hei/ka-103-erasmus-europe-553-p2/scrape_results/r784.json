@@ -1,0 +1,96 @@
+{
+ "row_id": "r784",
+ "scraped_at": "2026-11-01T00:30:36Z",
+ "contacts": {
+  "row_id": "r784",
+  "institution_name": "TALLINNA TEHNIKAULIKOOL",
+  "institution_type": "university",
+  "official_website": "https://taltech.ee/",
+  "country": {
+   "value": "Estonia",
+   "source_url": "https://taltech.ee/",
+   "evidence_quote": "Eesti"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@taltech.ee",
+  "generic_email_url": "https://taltech.ee/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 18 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Tšehhi Tehnikaülikool Prahas (CTU)",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://taltech.ee/",
+    "evidence_quote": "28. oktoobril kuulutati Brüsselis välja Tallinna Tehnikaülikooli ja Tšehhi Tehnikaülikooli Prahas (CTU) liitumine Euroopa juhtivate tehnikaülikoolide koostöövõrgustikuga Eu...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EuroTech",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://taltech.ee/",
+    "evidence_quote": "Brüsselis kuulutati välja TalTechi liitumine EuroTechiga",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Tallinn University of Technology",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "role": "main",
+    "source_url": "https://taltech.ee/",
+    "evidence_quote": "Ehitajate tee 5,"
+   },
+   {
+    "campus_name": "Kuressaare Kolledž",
+    "city": "Kuressaare",
+    "country": "Estonia",
+    "role": "branch",
+    "source_url": "https://taltech.ee/",
+    "evidence_quote": "Kuressaare Kolledž"
+   },
+   {
+    "campus_name": "Virumaa Kolledž",
+    "city": "Kohtla-Järve",
+    "country": "Estonia",
+    "role": "branch",
+    "source_url": "https://taltech.ee/",
+    "evidence_quote": "Virumaa Kolledž"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 3,
+  "coverage_note": "The institution's website does not list specific contact persons for international mobility or Erasmus+ programs. A comprehensive list of international partners is also missing from the provided evidence. 18 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 20.8,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 32.0
+ }
+}
