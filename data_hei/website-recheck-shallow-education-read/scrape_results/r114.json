@@ -1,0 +1,89 @@
+{
+ "row_id": "r114",
+ "scraped_at": "2026-11-01T20:29:22Z",
+ "contacts": {
+  "row_id": "r114",
+  "institution_name": "Centre Integrat de Formació Professional Francesc de Borja Moll",
+  "institution_type": "college",
+  "official_website": "https://www.cifpfbmoll.eu/",
+  "country": {
+   "value": "Spain",
+   "source_url": "https://www.cifpfbmoll.eu/",
+   "evidence_quote": "Dayana a l’Spain Skills 2026"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES Hospital del Mar",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cifpfbmoll.eu/",
+    "evidence_quote": "Visita a l’IES Hospital del Mar i Universitat de Barcelona",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universitat de Barcelona",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cifpfbmoll.eu/",
+    "evidence_quote": "Visita a l’IES Hospital del Mar i Universitat de Barcelona",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universitats d’Oslo",
+    "partner_country": "Norway",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cifpfbmoll.eu/",
+    "evidence_quote": "Visita a les Universitats d’Oslo",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centre Integrat de Formació Professional Francesc de Borja Moll",
+    "city": "Palma",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.cifpfbmoll.eu/",
+    "evidence_quote": "Centre Integrat de Formació Professional Francesc de Borja Moll"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The website does not list specific Erasmus+ coordinators or contact persons by name. There is no formal list of international partners provided, only mentions of specific institutions visited in news articles.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 11.9,
+  "ai_calls": 3,
+  "model_s": 1.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 25.8
+ }
+}

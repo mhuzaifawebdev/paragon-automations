@@ -1,0 +1,79 @@
+{
+ "row_id": "r125",
+ "scraped_at": "2026-11-01T20:29:43Z",
+ "contacts": {
+  "row_id": "r125",
+  "institution_name": "Colegio Salesiano San José",
+  "institution_type": "school",
+  "official_website": "https://salesianospizarrales.com/",
+  "country": {
+   "value": "España",
+   "source_url": "https://salesianospizarrales.com/contacto/",
+   "evidence_quote": "Dirección: Ctra. Ledesma, 32-52, 37.006, Salamanca, España"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@salesianospizarrales.com",
+  "generic_email_url": "https://salesianospizarrales.com/",
+  "contact": {
+   "name": "Gloria García Gago",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://salesianospizarrales.com/eso/",
+   "evidence_quote": "DIRECTORA TITULAR: Gloria García Gago"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Gloria García Gago is the principal of the institution and oversees its educational direction.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Chacinerías Díaz",
+    "partner_country": "España",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://salesianospizarrales.com/",
+    "evidence_quote": "[Esta mañana hemos contado con la presencia de David, director comercial de @chacineriasdiaz , empresa que apadrina el proyecto @condiazsls en el que los alumnos de segundo de gestión administrativa simulan el trabajo en la empresa. Agradecemos la estrecha colaboración que esta empresa ofrece un curso más a nuestro centro.]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegio Salesiano San José",
+    "city": "Salamanca",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://salesianospizarrales.com/",
+    "evidence_quote": "Dirección: Carretera Ledesma 32-52, 37006 Salamanca"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution mentions having Erasmus+ accreditation and participating in international projects, but does not provide a specific list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 10.8,
+  "ai_calls": 1,
+  "model_s": 1.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 15.3
+ }
+}
