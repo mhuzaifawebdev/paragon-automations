@@ -1,0 +1,89 @@
+{
+ "row_id": "r206",
+ "scraped_at": "2026-11-01T08:47:20Z",
+ "contacts": {
+  "row_id": "r206",
+  "institution_name": "LYCEE POLYVALENT MARCEL CACHIN",
+  "institution_type": "school",
+  "official_website": "https://www.lyceemarcelcachin.fr/",
+  "country": {
+   "value": "FRANCE",
+   "source_url": "https://www.lyceemarcelcachin.fr/",
+   "evidence_quote": "Adresse: 11 Rue Marcel Cachin, 93400 Saint-Ouen FRANCE"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. Gastineau",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ce.0932074z@ac-creteil.fr",
+   "office_email": "",
+   "phone": "01 49 18 97 50",
+   "source_url": "https://www.lyceemarcelcachin.fr/index.php?id_menu=100",
+   "evidence_quote": "=> M. Gastineau, le proviseur"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). M. Gastineau is the principal of the institution and serves as the primary contact for important matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 4,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université Paris-Cité",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceemarcelcachin.fr/",
+    "evidence_quote": "Université Paris-Cité : nos élèves diplômés !",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Marcel Cachin",
+    "city": "Saint-Ouen",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lyceemarcelcachin.fr/",
+    "evidence_quote": "Lycée Marcel Cachin, 11 Rue Marcel Cachin, 93400 Saint-Ouen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The website mentions an Erasmus+ section but does not list specific international partner institutions or mobility agreements. Only one local university partner is mentioned in the context of educational success programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.4,
+  "crawl_s": 6.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 73.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     127
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 89.1
+ }
+}
