@@ -1,0 +1,126 @@
+{
+ "row_id": "r263",
+ "scraped_at": "2026-11-01T11:52:23Z",
+ "contacts": {
+  "row_id": "r263",
+  "institution_name": "Lycée général et technologique Louis Blaringhem",
+  "institution_type": "school",
+  "official_website": "https://lyceeblaringhem.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://lyceeblaringhem.fr/",
+   "evidence_quote": "Accueil - Lycée Louis Blaringhem, Béthune - Hauts de France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. MOREN Patrick",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lyceeblaringhem.fr/equipe/",
+   "evidence_quote": "Proviseur : M. MOREN Patrick"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the principal of the institution, he holds the primary leadership role.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Hauts-de-France",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeblaringhem.fr/",
+    "evidence_quote": "[Logo_Hauts-de-France_2016]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Académie de Lille",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeblaringhem.fr/",
+    "evidence_quote": "[Académie_de_Lille]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Parcoursup",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeblaringhem.fr/",
+    "evidence_quote": "[Logo_parcoursup]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Onisep",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeblaringhem.fr/",
+    "evidence_quote": "[Onisep]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Google Maps",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceeblaringhem.fr/contact/",
+    "evidence_quote": "Cette carte est proposée par Google Maps.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Louis Blaringhem",
+    "city": "Béthune",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceeblaringhem.fr/contact/",
+    "evidence_quote": "Lycée Louis Blaringhem — Béthune"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 5,
+  "coverage_note": "The website mentions an Erasmus charter commitment but does not provide a list of partner institutions or specific contact details for an international coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 9.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     100
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 22.8
+ }
+}
