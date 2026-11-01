@@ -1,0 +1,67 @@
+{
+ "row_id": "r153",
+ "scraped_at": "2026-11-01T08:33:19Z",
+ "contacts": {
+  "row_id": "r153",
+  "institution_name": "Lycée EIC",
+  "institution_type": "school",
+  "official_website": "https://www.eic-tourcoing.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Olivier Deltour",
+   "designation": "Head of publication",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.eic-tourcoing.fr/mentions-legales/",
+   "evidence_quote": "Responsable de la publication : Olivier Deltour"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Olivier Deltour is identified as the person responsible for the publication of the institution's website.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: web search (Google via Gemini), named 'EIC Tourcoing' on the site. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "EIC Tourcoing",
+    "city": "Tourcoing",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.eic-tourcoing.fr/",
+    "evidence_quote": "27, rue du Dragon"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The website provides contact details for the institution but does not list any specific staff members, international coordinators, or partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.7,
+  "crawl_s": 8.4,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 81.8,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 43.0,
+  "total_seconds": 155.0
+ }
+}
