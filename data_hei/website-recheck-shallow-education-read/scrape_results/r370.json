@@ -1,0 +1,60 @@
+{
+ "row_id": "r370",
+ "scraped_at": "2026-11-01T20:56:20Z",
+ "contacts": {
+  "row_id": "r370",
+  "institution_name": "José Luis",
+  "institution_type": "school",
+  "official_website": "https://colegiojoseluiscastro.com/",
+  "country": {
+   "value": "Bolivia",
+   "source_url": "https://colegiojoseluiscastro.com/",
+   "evidence_quote": "Puerto Rico, Cuatro cañadas, Santa Cruz, Bolivia"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Unidad Educativa Jose Luis Castro",
+    "city": "Cuatro cañadas, Santa Cruz",
+    "country": "Bolivia",
+    "role": "main",
+    "source_url": "https://colegiojoseluiscastro.com/",
+    "evidence_quote": "Puerto Rico, Cuatro cañadas, Santa Cruz, Bolivia"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The website provides information about the school's digital library and educational resources but does not list any staff members, international partners, or Erasmus-related information.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.7,
+  "crawl_s": 7.9,
+  "ai_calls": 2,
+  "model_s": 1.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 20.4
+ }
+}
