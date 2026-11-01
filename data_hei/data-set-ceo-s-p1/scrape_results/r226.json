@@ -1,0 +1,89 @@
+{
+ "row_id": "r226",
+ "scraped_at": "2026-11-01T01:57:30Z",
+ "contacts": {
+  "row_id": "r226",
+  "institution_name": "Eva Coaching",
+  "institution_type": "unknown",
+  "official_website": "https://www.evacoaching.ca/",
+  "country": {
+   "value": "Canada",
+   "source_url": "https://www.evacoaching.ca/contact/",
+   "evidence_quote": "7380, boulevard Allard, Drummondville Québec, Canada"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "coach@evacoaching.ca",
+  "generic_email_url": "https://www.evacoaching.ca/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Futurpreneur Canada",
+    "partner_country": "Canada",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.evacoaching.ca/a-propos/",
+    "evidence_quote": "Mentor chez Futurpreneur Canada",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "International Coaching Federation",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.evacoaching.ca/a-propos/",
+    "evidence_quote": "Membre de l' ICF ( International coach fédération)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rotary",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.evacoaching.ca/a-propos/",
+    "evidence_quote": "Membre actif Rotary depuis 2013",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Eva Coaching",
+    "city": "Drummondville",
+    "country": "Canada",
+    "role": "main",
+    "source_url": "https://www.evacoaching.ca/contact/",
+    "evidence_quote": "7380, boulevard Allard, Drummondville Québec, Canada"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 3,
+  "coverage_note": "Eva Coaching is a private professional coaching business rather than an academic institution, so it does not have Erasmus+ mobility programs or a formal partner list.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 5.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 34.4
+ }
+}
