@@ -1,0 +1,169 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-11-01T08:04:55Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "STICHTING UNIVERSITY COLLEGE ROOSEVELT",
+  "institution_type": "university",
+  "official_website": "https://ucr.nl/",
+  "country": {
+   "value": "The Netherlands",
+   "source_url": "https://ucr.nl/",
+   "evidence_quote": "The Netherlands"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@ucr.nl",
+  "generic_email_url": "https://ucr.nl/",
+  "contact": {
+   "name": "Etienne de Jager",
+   "designation": "Managing Director",
+   "designation_local": "",
+   "email": "eb@ucr.nl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ucr.nl/about-ucr/executive-board/",
+   "evidence_quote": "Etienne de Jager, Managing Director"
+  },
+  "alternates": [
+   {
+    "name": "Jeanette Gels",
+    "designation": "Secretary to the Board",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ucr.nl/about-ucr/executive-board/",
+    "evidence_quote": "The Executive Board is supported by Jeanette Gels, Secretary to the Board, who ensures the coordination, documentation, and continuity of governance processes and decision-making.",
+    "why_chosen": "Secretary / administration (last resort). She serves as the secretary to the Board of Trustees and is the designated contact for reaching them."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As Managing Director, he oversees the operational and organizational side of the college.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'University College Roosevelt' on the site. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Utrecht University",
+    "partner_country": "Netherlands",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ucr.nl/",
+    "evidence_quote": "Utrecht University",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ons Middelbaar Onderwijs",
+    "partner_country": "The Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ucr.nl/about-ucr/board-of-trustees/",
+    "evidence_quote": "o Member of the Executive Board of Ons Middelbaar Onderwijs",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SIVON",
+    "partner_country": "The Netherlands",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://ucr.nl/about-ucr/board-of-trustees/",
+    "evidence_quote": "o Chair of the Members Council of the SIVON cooperative",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TU Delft",
+    "partner_country": "The Netherlands",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ucr.nl/about-ucr/board-of-trustees/",
+    "evidence_quote": "o Full Professor, TU Delft",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stichting Roosevelt Academy Fonds",
+    "partner_country": "The Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ucr.nl/about-ucr/board-of-trustees/",
+    "evidence_quote": "o Chair of the Board, Stichting Roosevelt Academy Fonds (SRAF)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Franklin",
+    "city": "Middelburg",
+    "country": "The Netherlands",
+    "role": "main",
+    "source_url": "https://ucr.nl/student-life/life-on-campus/",
+    "evidence_quote": "Our campus feels like a small academic village, with everything within walking distance. Classes take place in three distinct buildings; Franklin, Eleanor, and Anne, each named after the Roosevelts and each with a character of its own."
+   },
+   {
+    "campus_name": "Eleanor",
+    "city": "Middelburg",
+    "country": "The Netherlands",
+    "role": "main",
+    "source_url": "https://ucr.nl/student-life/life-on-campus/",
+    "evidence_quote": "Eleanor is the academic heart of UCR. This is where you’ll attend most of your classes and where you’ll find all faculty offices, close and approachable. It’s also home to our well-being space, with areas for yoga, meditation, or even a quick nap in a sleeping pod. Because learning thrives when you feel your best."
+   },
+   {
+    "campus_name": "Anne",
+    "city": "Middelburg",
+    "country": "The Netherlands",
+    "role": "main",
+    "source_url": "https://ucr.nl/student-life/life-on-campus/",
+    "evidence_quote": "Anne is our most modern building. Purpose-built for today’s students, it features labs, flexible classrooms, open study spaces, and its own quiet garden. Whether you’re working on a group project or researching in a lab, Anne supports innovative learning in a calm and inspiring setting."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of international partners or Erasmus+ agreements. Contact information for a dedicated international mobility coordinator is not explicitly provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 14.6,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 10.4,
+  "mode": "gemini",
+  "email_search_s": 6.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 7,
+    "accepted": 5
+   },
+   {
+    "lines": [
+     281,
+     371
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 35.7
+ }
+}
