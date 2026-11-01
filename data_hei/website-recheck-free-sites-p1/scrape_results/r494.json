@@ -1,0 +1,76 @@
+{
+ "row_id": "r494",
+ "scraped_at": "2026-11-01T18:59:32Z",
+ "contacts": {
+  "row_id": "r494",
+  "institution_name": "Stredni prumyslova skola elektrotechnicka a Vyssi odborna skola Pardubice",
+  "institution_type": "college",
+  "official_website": "https://www.spse.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "spse@spse.cz",
+  "generic_email_url": "https://www.spse.cz/",
+  "contact": {
+   "name": "Mgr. Petr Mikuláš",
+   "designation": "School Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.spse.cz/kontakty/vedeni-skoly",
+   "evidence_quote": "Mgr. Petr Mikuláš ... Ředitel školy"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Mobility Friends",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.spse.cz/projekty-spoluprace/erasmus-cit",
+    "evidence_quote": "Podzimní stáž v rámci programu Erasmus+ 2022 proběhla v portugalském Barcelos ve spolupráci s hostitelskou organizací Mobility Friends.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "SPŠE a VOŠ Pardubice",
+    "city": "Pardubice",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.spse.cz/",
+    "evidence_quote": "Karla IV. 13, 530 02 Pardubice"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions several partner countries and host organizations for internships, but does not provide a comprehensive list of formal institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 13.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.9,
+  "total_seconds": 51.7
+ }
+}

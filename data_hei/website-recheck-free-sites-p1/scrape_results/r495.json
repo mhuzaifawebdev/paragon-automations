@@ -1,0 +1,88 @@
+{
+ "row_id": "r495",
+ "scraped_at": "2026-11-01T18:59:35Z",
+ "contacts": {
+  "row_id": "r495",
+  "institution_name": "Stredni skola Kostka s.r.o.",
+  "institution_type": "school",
+  "official_website": "https://www.kostka-skola.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Karel Kostka",
+   "designation": "Director of the school",
+   "designation_local": "",
+   "email": "houserova.martina@kostka-skola.cz",
+   "office_email": "",
+   "phone": "+420 603 259 095",
+   "source_url": "https://www.kostka-skola.cz/kontaktni-telefony-k-prijimacimu-rizeni",
+   "evidence_quote": "PaedDr. Karel Kostka, MBA, Ph.D. ... ředitel školy"
+  },
+  "alternates": [
+   {
+    "name": "Veronika Martinková",
+    "designation": "Assistant to the director",
+    "designation_local": "",
+    "email": "martinkova.veronika@kostka-skola.cz",
+    "office_email": "",
+    "phone": "+420 571 415 832",
+    "source_url": "https://www.kostka-skola.cz/kontaktni-telefony-k-prijimacimu-rizeni",
+    "evidence_quote": "Veronika Martinková ... asistentka ředitele",
+    "why_chosen": "Secretary / administration (last resort). She is the assistant to the director and handles administrative inquiries."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the director of the school and is listed as a contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "AFS",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kostka-skola.cz/zdravim-studenty-a-ucitele-na-kostce-z-japonska",
+    "evidence_quote": "Do Japonska jsem se dostal díky organizaci AFS, která se studentům Kostka školy představila na přednášce v září 2022 v době, kdy jsem nastoupil do prvního ročníku.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Střední škola Kostka s.r.o.",
+    "city": "Vsetín",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.kostka-skola.cz/",
+    "evidence_quote": "Pod Pecníkem 1666"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The website mentions participation in Erasmus+ projects but does not provide a formal list of partner institutions. No specific international relations office or dedicated Erasmus coordinator is listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 10.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 32.1,
+  "total_seconds": 46.4
+ }
+}
