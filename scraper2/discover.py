@@ -29,7 +29,7 @@ STOP = {"university", "universidad", "universite", "universita", "universitat", 
         "institute", "ies", "cifp", "lycee", "escola", "ecole", "gymnasium", "kolegija", "akademia", "academy", "of", "de",
         "la", "le", "del", "the", "and", "und", "et", "para", "y", "a", "im", "in", "der", "die", "das", "for", "sk", "zs",
         "obchodna", "akademia", "technikum", "szakkepzo", "iskola", "es", "fr", "en"}
-UA = {"User-Agent": "ParagonResearchBot/1.0 (institution contact research)"}
+UA = {"User-Agent": "ParagonResearchBot/1.0 (https://paragoninnovation.net; institution contact research) Python-urllib"}
 
 MEMO = Path(__import__("os").environ.get("PARAGON_DATA") or Path(__file__).resolve().parent.parent / "data") / "websites.csv"
 _memo_lock = threading.Lock()
@@ -128,20 +128,38 @@ def _emails_domain(row):
     return out
 
 
+WIKIDATA_TRIES, WIKIDATA_GAP_SECONDS = 4, 1.0
+_wikidata_lock = threading.Lock()
+_wikidata_next = {"at": 0.0}
+
+
 def _wikidata(name, country):
     if not name or len(name) < 4:
         return []
     def get(params):
-        req = urllib.request.Request("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(params), headers=UA)
-        with urllib.request.urlopen(req, timeout=15) as r:
-            return json.loads(r.read().decode("utf-8"))
+        url = "https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(params)
+        for attempt in range(1, WIKIDATA_TRIES + 1):
+            with _wikidata_lock:                          # Wikidata refuses bursts: one request at a time, across all workers
+                wait = _wikidata_next["at"] - time.time()
+                if wait > 0:
+                    time.sleep(wait)
+                _wikidata_next["at"] = time.time() + WIKIDATA_GAP_SECONDS
+                try:
+                    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=15) as r:
+                        return json.loads(r.read().decode("utf-8"))
+                except urllib.error.HTTPError as e:
+                    if e.code != 429 or attempt == WIKIDATA_TRIES:
+                        raise
+                    retry = e.headers.get("Retry-After") or ""
+                    _wikidata_next["at"] = time.time() + min(int(retry) if retry.isdigit() else 5 * attempt, 60)
     try:
         found = get({"action": "wbsearchentities", "search": name, "language": "en", "uselang": "en", "limit": 5, "format": "json"})
         ids = [x["id"] for x in found.get("search", [])]
         if not ids:
             return []
         ents = get({"action": "wbgetentities", "ids": "|".join(ids), "props": "claims", "format": "json"}).get("entities", {})
-    except Exception:
+    except Exception as e:
+        print(f"(Wikidata unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
         return []
     urls = []
     for i in ids:
@@ -211,7 +229,11 @@ def _ddg_search(row, limit=4):
                                      headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"})
         with urllib.request.urlopen(req, timeout=25) as r:
             html = r.read().decode("utf-8", "replace")
-    except Exception:
+    except Exception as e:
+        print(f"(DuckDuckGo unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
+        return []
+    if "anomaly" in html.lower() and "result__a" not in html:   # its bot check: a blocked search, not "nothing found"
+        print("(DuckDuckGo refused the search: bot check)", file=sys.stderr, flush=True)
         return []
     out = []
     for m in re.finditer(r'class="result__a"[^>]*href="([^"]+)"', html):
