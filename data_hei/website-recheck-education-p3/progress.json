@@ -1,22 +1,22 @@
 {
  "batch": "website-recheck-education-p3",
  "status": "running",
- "generated_at": "2026-11-01T11:10:15.494121+00:00",
+ "generated_at": "2026-11-01T11:11:09.589240+00:00",
  "chunk": 2,
  "total_chunks": 20,
  "total_rows": 500,
- "done": 3,
- "pending": 497,
- "elapsed_seconds": 56,
- "eta_seconds": 1886,
- "cost_usd_so_far": 0.1391,
- "paid_search_usd": 0.1391,
+ "done": 12,
+ "pending": 488,
+ "elapsed_seconds": 110,
+ "eta_seconds": 3352,
+ "cost_usd_so_far": 0.3853,
+ "paid_search_usd": 0.3853,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
- "haiku_fallback_calls": 14,
+ "haiku_fallback_calls": 39,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 4,
+ "ai_calls": 37,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,16 +37,25 @@
   }
  ],
  "confidence": {
-  "high": 1,
+  "high": 5,
   "medium": 0,
   "low": 0,
-  "none": 2
+  "none": 7
  },
- "partners_found": 10,
- "campuses_found": 1,
+ "partners_found": 192,
+ "campuses_found": 20,
  "recent": [
+  "r001",
+  "r002",
   "r003",
   "r004",
-  "r005"
+  "r005",
+  "r007",
+  "r008",
+  "r009",
+  "r010",
+  "r011",
+  "r013",
+  "r014"
  ]
 }

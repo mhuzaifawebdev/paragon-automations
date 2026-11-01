@@ -1,0 +1,114 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-11-01T11:10:23Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "IES MOSSÈN ALCOVER",
+  "institution_type": "school",
+  "official_website": "https://iesmossenalcover.cat/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ritterhude",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://iesmossenalcover.cat/",
+    "evidence_quote": "Resolució provisional mobilitat a Ritterhude (Alemanya) per a alumnes de 4t d’ESO",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Monopoli",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://iesmossenalcover.cat/articles?category=erasmus",
+    "evidence_quote": "Recepció alumnat erasmus procedent de Monopoli (Itàlia).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bolonya",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://iesmossenalcover.cat/articles?category=erasmus",
+    "evidence_quote": "Erasmus+ K131: Mobilitat de professorat a Bolonya",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Comissió Europea",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesmossenalcover.cat/erasmus",
+    "evidence_quote": "Tots els projectes estan cofinançats pel programa Erasmus+ de la Unió Europea. El contingut d’aquesta publicació és responsabilitat exclusiva de l’IES Mossèn Alcover i ni la Comissió Europea, ni el Servei Espanyol per a la Internacionalització de l’Educació (*SEPIE) són responsables de l’ús que pugui fer-se de la informació aquí difosa.Tots els projectes estan cofinançats pel programa Erasmus+ de la Unió Europea. El contingut d’aquesta publicació és responsabilitat exclusiva de l’IES Mossèn Alco",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Servei Espanyol per a la Internacionalització de l’Educació (SEPIE)",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iesmossenalcover.cat/erasmus",
+    "evidence_quote": "Tots els projectes estan cofinançats pel programa Erasmus+ de la Unió Europea. El contingut d’aquesta publicació és responsabilitat exclusiva de l’IES Mossèn Alcover i ni la Comissió Europea, ni el Servei Espanyol per a la Internacionalització de l’Educació (*SEPIE) són responsables de l’ús que pugui fer-se de la informació aquí difosa.Tots els projectes estan cofinançats pel programa Erasmus+ de la Unió Europea. El contingut d’aquesta publicació és responsabilitat exclusiva de l’IES Mossèn Alco",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Mossèn Alcover",
+    "city": "Manacor",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesmossenalcover.cat/",
+    "evidence_quote": "Ronda de l'Institut, 52, 07500 Manacor, Illes Balears"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The website lists specific mobility destinations but does not provide a comprehensive list of all formal Erasmus+ partner institutions. No specific individual contact person for Erasmus+ is named, only general administrative contact channels.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.7,
+  "crawl_s": 15.7,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     133
+    ],
+    "returned": 7,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 57.1
+ }
+}
