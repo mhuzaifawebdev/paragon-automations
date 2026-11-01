@@ -1,0 +1,124 @@
+{
+ "row_id": "r276",
+ "scraped_at": "2026-11-01T09:00:17Z",
+ "contacts": {
+  "row_id": "r276",
+  "institution_name": "Lycée Général et Technologique Jules Ferry",
+  "institution_type": "school",
+  "official_website": "https://julesferry-cannes.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://julesferry-cannes.fr/?p=2632",
+   "evidence_quote": "“During my trip to Austria, I saw some differences and similarities between their life and ours. The families were really kind, just like in France. They made me feel welcome and happy to stay with them. But the food was different! They eat things like schnitzel, which is heavier than what we eat in France. Their dinners are also smaller than ours."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M FOURNIER",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ce.0060014h@ac-nice.fr",
+   "office_email": "",
+   "phone": "04 93 06 52 00",
+   "source_url": "https://julesferry-cannes.fr/",
+   "evidence_quote": "Le mot de M FOURNIER, proviseur du lycée Jules Ferry"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). M FOURNIER is the head of the institution (proviseur).",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Schneider Electric",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://julesferry-cannes.fr/?p=2664",
+    "evidence_quote": "Notre partenariat avec le dispositif « Ingénieurs Pour l’Ecole » a permis à nos étudiants de première année de BTS Maintenance des Systèmes de Production de participer au recrutement organisé par Schneider Electric pour accueillir 2 étudiants en mobilité Erasmus pour une durée de 11 semaines dans son usine de Szczecine (40.000 habitants) en Pologne. Il s’agit d’une usine importante de production d’équipements électriques basse tension.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée BG/BRG Fürstenfeld",
+    "partner_country": "Austria",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://julesferry-cannes.fr/?page_id=1965",
+    "evidence_quote": "En octobre dernier, huit élèves de Terminales se sont rendus au lycée BG/BRG Fürstenfeld en Autriche avec leur professeure d’anglais, Mme Brouillard. Il s’agissait pour eux de retrouver leurs correspondants qu’ils avaient reçus à Cannes en avril 2024. Après deux… Read More",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ingénieurs Pour l’Ecole",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://julesferry-cannes.fr/?p=2664",
+    "evidence_quote": "Notre partenariat avec le dispositif « Ingénieurs Pour l’Ecole » a permis à nos étudiants de première année de BTS Maintenance des Systèmes de Production de participer au recrutement organisé par Schneider Electric pour accueillir 2 étudiants en mobilité Erasmus pour une durée de 11 semaines dans son usine de Szczecine (40.000 habitants) en Pologne. Il s’agit d’une usine importante de production d’équipements électriques basse tension.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BG/BRG Fürstenfeld",
+    "partner_country": "Austria",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://julesferry-cannes.fr/?page_id=1965",
+    "evidence_quote": "En octobre dernier, huit élèves de Terminales se sont rendus au lycée BG/BRG Fürstenfeld en Autriche avec leur professeure d’anglais, Mme Brouillard. Il s’agissait pour eux de retrouver leurs correspondants qu’ils avaient reçus à Cannes en avril 2024. Après deux… Read More",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Général et Technologique Jules Ferry",
+    "city": "Cannes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://julesferry-cannes.fr/",
+    "evidence_quote": "Cannes, Alpes Maritimes"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists specific partner organizations for mobility such as Schneider Electric and Lycée BG/BRG Fürstenfeld, but does not provide a complete master list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.9,
+  "crawl_s": 13.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 10.6,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 7,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 31.6
+ }
+}
