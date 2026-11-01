@@ -1,0 +1,65 @@
+{
+ "row_id": "r055",
+ "scraped_at": "2026-11-01T03:22:30Z",
+ "contacts": {
+  "row_id": "r055",
+  "institution_name": "Sergey",
+  "institution_type": "school",
+  "official_website": "https://www.sergey.ch",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Valérie Cottens",
+   "designation": "Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.sergey.ch/administration-commune-de-sergey-fr13.html",
+   "evidence_quote": "Greffe, Secrétariat, Contrôle des habitants ... Valérie Cottens"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Valérie Cottens is listed as the secretary for the municipality administration.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Commune de Sergey",
+    "city": "Sergey",
+    "country": "Switzerland",
+    "role": "main",
+    "source_url": "https://www.sergey.ch",
+    "evidence_quote": "Commune de Sergey"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence covers the official website of the municipality of Sergey, including general administrative information and local links, but lacks any mention of educational programs, international mobility, or partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 3.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 7.8,
+  "mode": "gemini",
+  "email_search_s": 19.2,
+  "total_seconds": 33.0
+ }
+}
