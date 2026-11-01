@@ -4294,23 +4294,35 @@
    "source": "Erasmus_partneraugstskolas_JVLMA",
    "file_id": "10wtR-Cav0neC6Yg02uL-Cq9FABvVc3ecKDJtGF6Jw9E",
    "added": "2026-10-28T13:09:47Z",
-   "state": "running",
+   "state": "done",
    "rows": 145,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-01T01:11:34Z",
    "last_start": "2026-11-01T01:11:34Z",
    "restarts": 0,
-   "cap_usd": 599.0
+   "cap_usd": 599.0,
+   "crm_rows": 65,
+   "no_number": 105,
+   "spend_recorded": true,
+   "cost_usd": 0.6769,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1a6zzshBXoH-Lscn3gOgQoSxBUsBrbmCJ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 89,
+   "finished": "2026-11-01T01:30:02Z",
+   "reason": "145 institutes, 79 with a contact"
   },
   {
    "batch": "data-set-ceo-s-p1",
    "source": "Data Set CEO's",
    "file_id": "1FpCvcenP7D2kDnRzUHDIXlzJs59YDsbnv36p8VY2_5Q",
    "added": "2026-10-28T13:09:47Z",
-   "state": "queued",
+   "state": "running",
    "rows": 1000,
    "part": "1/2",
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-01T01:30:02Z",
+   "last_start": "2026-11-01T01:30:02Z",
+   "restarts": 0,
+   "cap_usd": 598.32
   },
   {
    "batch": "data-set-ceo-s-p2",
@@ -4324,7 +4336,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-01T01:11:34Z",
+ "updated": "2026-11-01T01:30:02Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
