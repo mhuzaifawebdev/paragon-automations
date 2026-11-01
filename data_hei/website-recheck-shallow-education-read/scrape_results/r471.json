@@ -1,0 +1,102 @@
+{
+ "row_id": "r471",
+ "scraped_at": "2026-11-01T21:08:41Z",
+ "contacts": {
+  "row_id": "r471",
+  "institution_name": "OGEC Saint François d'Assise",
+  "institution_type": "school",
+  "official_website": "https://saint-francois.net/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretariat-manet@saint-francois.net",
+  "generic_email_url": "https://saint-francois.net/",
+  "contact": {
+   "name": "Madame LAURENT",
+   "designation": "Psychologist",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://saint-francois.net/lycee/",
+   "evidence_quote": "Madame LAURENT, psychologue, est présente le mardi en semaine paire (Q1) et le jeudi en semaine impaire (Q2) de 08h00 à 18h00. Les élèves, parents et professeurs peuvent prendre rdv via Ecole Directe ou via un tableau d’inscription sur une grille horaire à la porte du bureau. Elle est joignable :"
+  },
+  "alternates": [],
+  "rung": "Other role. Madame LAURENT is the psychologist for the high school and is reachable via the school's administrative portal.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "collégial Sainte Anne",
+    "partner_country": "Canada",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://saint-francois.net/lycee/",
+    "evidence_quote": "Un partenariat avec le collégial Sainte Anne à Montréal permet chaque année à des élèves de rejoindre cet établissement au Canada en fin de 1ère afin de préparer le DEC.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Academica International Studies",
+    "partner_country": "USA",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://saint-francois.net/lycee/",
+    "evidence_quote": "Depuis la rentrée 2022, nous proposons un programme novateur en partenariat avec Academica International Studies (AIS), établissement homologué situé en Floride.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Parkours",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://saint-francois.net/lycee/",
+    "evidence_quote": "En partenariat avec Parkours, l’établissement veille à offrir à chaque élève un suivi adapté à ses besoins et aux attentes des professeurs.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Collège Saint-François d'Assise",
+    "city": "Montigny-le-Bretonneux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://saint-francois.net/",
+    "evidence_quote": "45 avenue du Manet"
+   },
+   {
+    "campus_name": "Lycée Saint-François d'Assise",
+    "city": "Montigny-le-Bretonneux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://saint-francois.net/",
+    "evidence_quote": "6 Place Claudel"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The institution does not list a formal Erasmus+ partner list. International partnerships are mentioned in the context of specific programs like the Dual Diploma or student exchanges.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 9.0,
+  "ai_calls": 2,
+  "model_s": 2.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 15.6
+ }
+}
