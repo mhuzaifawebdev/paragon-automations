@@ -1,0 +1,75 @@
+{
+ "row_id": "r265",
+ "scraped_at": "2026-11-01T20:45:38Z",
+ "contacts": {
+  "row_id": "r265",
+  "institution_name": "IES DISTRICTE MARÍTIM",
+  "institution_type": "school",
+  "official_website": "https://iesmaritim.eu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Nivala",
+    "partner_country": "Finland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://iesmaritim.eu/beplural/index.html",
+    "evidence_quote": "NIVALA - FINLANDIA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kalmar",
+    "partner_country": "Sweden",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://iesmaritim.eu/beplural/index.html",
+    "evidence_quote": "KALMAR - SUECIA",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Districte Marìtim",
+    "city": "Valencia",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesmaritim.eu/",
+    "evidence_quote": "IES Districte"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not provide any contact names or email addresses. The partner list is incomplete as it only mentions locations visited during specific projects.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 6.8,
+  "ai_calls": 2,
+  "model_s": 1.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 17.8
+ }
+}
