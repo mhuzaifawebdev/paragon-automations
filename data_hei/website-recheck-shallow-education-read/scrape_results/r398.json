@@ -1,0 +1,95 @@
+{
+ "row_id": "r398",
+ "scraped_at": "2026-11-01T20:58:45Z",
+ "contacts": {
+  "row_id": "r398",
+  "institution_name": "LYCEE POLYVALENT HOTELIER LESDIGUIERES",
+  "institution_type": "college",
+  "official_website": "https://lesdiguieres.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://lesdiguieres.fr/",
+   "evidence_quote": "Notre Lycée porte le nom de l’établissement dans lequel a été créée l’École Hôtelière de Grenoble en 1917, la troisième plus ancienne de France et la première dotée d’un hôtel."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "AFLYHT",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lesdiguieres.fr/",
+    "evidence_quote": "Établissement membre des associations l’ AFLYHT et AEHT",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AEHT",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://lesdiguieres.fr/",
+    "evidence_quote": "Établissement membre des associations l’ AFLYHT et AEHT",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Clos d'or",
+    "city": "Grenoble",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lesdiguieres.fr/",
+    "evidence_quote": "Clos d’or"
+   },
+   {
+    "campus_name": "Hôtel Lesdiguières",
+    "city": "Grenoble",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lesdiguieres.fr/",
+    "evidence_quote": "Hôtel Lesdiguières"
+   },
+   {
+    "campus_name": "Beaumarchais",
+    "city": "Grenoble",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lesdiguieres.fr/",
+    "evidence_quote": "Beaumarchais"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The institution mentions Erasmus+ mobility for students but does not provide a specific list of partner universities or a dedicated international office contact person.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 13.3,
+  "ai_calls": 2,
+  "model_s": 1.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 27.6
+ }
+}
