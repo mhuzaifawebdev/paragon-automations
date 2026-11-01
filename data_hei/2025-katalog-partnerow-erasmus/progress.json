@@ -1,14 +1,14 @@
 {
  "batch": "2025-katalog-partnerow-erasmus",
- "status": "running",
- "generated_at": "2026-11-01T01:10:32.720682+00:00",
+ "status": "done",
+ "generated_at": "2026-11-01T01:10:56.698412+00:00",
  "chunk": 10,
- "total_chunks": 9,
+ "total_chunks": 10,
  "total_rows": 205,
- "done": 203,
- "pending": 2,
- "elapsed_seconds": 1183,
- "eta_seconds": 17,
+ "done": 205,
+ "pending": 0,
+ "elapsed_seconds": 1207,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.5004,
  "paid_search_usd": 0.5004,
  "paid_search_limit_usd": 21.0,
@@ -16,7 +16,7 @@
  "paid_searches": 0,
  "haiku_fallback_calls": 161,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 151,
+ "ai_calls": 161,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,15 +38,13 @@
  ],
  "confidence": {
   "high": 16,
-  "medium": 10,
+  "medium": 12,
   "low": 109,
   "none": 68
  },
- "partners_found": 8437,
- "campuses_found": 262,
+ "partners_found": 8499,
+ "campuses_found": 264,
  "recent": [
-  "r184",
-  "r185",
   "r186",
   "r187",
   "r188",
@@ -64,7 +62,9 @@
   "r200",
   "r201",
   "r202",
-  "r203"
+  "r203",
+  "r204",
+  "r205"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1RSwZa1SDXPnafqq79A-KXOdNDh58PdOt/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
