@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-01T03:34:21.034327+00:00",
+ "generated_at": "2026-11-01T07:47:24.378944+00:00",
  "totals": {
   "institutes": 31490,
-  "with_contact": 16003,
-  "with_email": 13272,
-  "personal_email": 8617,
-  "generic_email": 10106,
-  "partners": 384509,
-  "campuses": 38868,
-  "no_website": 9203,
-  "with_website": 22287,
-  "batches": 245
+  "with_contact": 16017,
+  "with_email": 13282,
+  "personal_email": 8623,
+  "generic_email": 10114,
+  "partners": 384983,
+  "campuses": 38896,
+  "no_website": 9186,
+  "with_website": 22304,
+  "batches": 246
  },
  "days": [
   {
@@ -183,6 +183,22 @@
   }
  ],
  "batches": [
+  {
+   "batch": "website-recheck-pilot",
+   "status": "running",
+   "total_rows": 60,
+   "done": 25,
+   "updated": "2026-11-01T07:47:17.894437+00:00",
+   "institutes": 25,
+   "with_contact": 14,
+   "with_email": 10,
+   "personal_email": 6,
+   "generic_email": 8,
+   "partners": 474,
+   "campuses": 28,
+   "no_website": 8,
+   "with_website": 17
+  },
   {
    "batch": "data-set-ceo-s-p2",
    "status": "done",
