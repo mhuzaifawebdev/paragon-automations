@@ -1,0 +1,85 @@
+{
+ "row_id": "r071",
+ "scraped_at": "2026-11-01T00:41:35Z",
+ "contacts": {
+  "row_id": "r071",
+  "institution_name": "FLUGHAFEN MUNCHEN GMBH",
+  "institution_type": "unknown",
+  "official_website": "https://www.munich-airport.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@munich-airport.de",
+  "generic_email_url": "https://www.munich-airport.de/",
+  "contact": {
+   "name": "Jost Lammers",
+   "designation": "CEO",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.munich-airport.de/",
+   "evidence_quote": "[Von links: Flughafenchef Jost Lammers, Staatsminister Albert Füracker und Claudius Blank, Leiter Brandschutz der Flughafen München GmbH, mit den neuen Feuerwehrfahrzeugen.]"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Jost Lammers is the CEO of Flughafen München GmbH and represents the institution at the highest level.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Chubu Centrair International Airport",
+    "partner_country": "Japan",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.munich-airport.de/",
+    "evidence_quote": "Presse: Flughafen München und Centrair stärken strategische Partnerschaft",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lufthansa",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.munich-airport.de/",
+    "evidence_quote": "Das Lufthansa Stopover-Programm, eine Kooperation der Flughafen München GmbH [FMG] und Lufthansa, wird erweitert: Ab sofort steht das Angebot auch Lufthansa Passagier:innen ab China, Indien, Japan, Südkorea und Thailand zur Verfügung.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Flughafen München",
+    "city": "München-Flughafen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.munich-airport.de/ihr-kontakt-zu-uns-669979",
+    "evidence_quote": "PLZ / Ort 85356 München-Flughafen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 7,
+  "coverage_note": "The institution is an airport operator, not an educational institution. No Erasmus+ or international mobility office is listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 11.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 32.9,
+  "total_seconds": 47.5
+ }
+}
