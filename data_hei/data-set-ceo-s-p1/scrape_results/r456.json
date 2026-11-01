@@ -1,0 +1,118 @@
+{
+ "row_id": "r456",
+ "scraped_at": "2026-11-01T02:23:53Z",
+ "contacts": {
+  "row_id": "r456",
+  "institution_name": "Life Coach Kelowna",
+  "institution_type": "college",
+  "official_website": "https://counsellortraining.com/",
+  "country": {
+   "value": "Canada",
+   "source_url": "https://counsellortraining.com/",
+   "evidence_quote": "Canada"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "studentservices@counsellortraining.com",
+  "generic_email_url": "https://counsellortraining.com/contact/",
+  "contact": {
+   "name": "Phillip Hay",
+   "designation": "Executive Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://counsellortraining.com/contact/",
+   "evidence_quote": "Phillip Hay, Executive Director"
+  },
+  "alternates": [
+   {
+    "name": "Christine Gilbert",
+    "designation": "Finance Officer",
+    "designation_local": "",
+    "email": "studentfinance@counsellortraining.com",
+    "office_email": "",
+    "phone": "250-717-0412",
+    "source_url": "https://counsellortraining.com/contact/",
+    "evidence_quote": "Christine Gilbert, Finance Officer",
+    "why_chosen": "Secretary / administration (last resort). Christine Gilbert is the Finance Officer responsible for tuition and financial inquiries."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Phillip Hay is the Executive Director of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "WebStorm Design Studio",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://counsellortraining.com/",
+    "evidence_quote": "Copyright © 2026 Kelowna College of Professional Counselling | Design by WebStorm Design Studio",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Administrative Office",
+    "city": "Kelowna",
+    "country": "Canada",
+    "role": "main",
+    "source_url": "https://counsellortraining.com/",
+    "evidence_quote": "2515 Pandosy"
+   },
+   {
+    "campus_name": "KCPC Training Centre",
+    "city": "Kelowna",
+    "country": "Canada",
+    "role": "branch",
+    "source_url": "https://counsellortraining.com/",
+    "evidence_quote": "KCPC Training Centre"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not mention any international partnerships or Erasmus+ agreements. The institution focuses on professional counselling training.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 32.8,
+  "crawl_s": 9.6,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     246
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 76.8
+ }
+}
