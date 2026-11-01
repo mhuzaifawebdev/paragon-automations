@@ -1,0 +1,93 @@
+{
+ "row_id": "r095",
+ "scraped_at": "2026-11-01T17:52:09Z",
+ "contacts": {
+  "row_id": "r095",
+  "institution_name": "Conservatorio Superior de Música de Jaén",
+  "institution_type": "college",
+  "official_website": "https://csmclm.com/",
+  "country": {
+   "value": "Spain",
+   "source_url": "https://csmclm.com/contacto/",
+   "evidence_quote": "C/ Zapateros, 25. 02005 Albacete (Spain)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "erasmus@csmclm.com",
+  "generic_email_url": "https://csmclm.com/erasmus/",
+  "contact": {
+   "name": "Francisco José Collado Juan",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "erasmus@csmclm.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://csmclm.com/erasmus/",
+   "evidence_quote": "Erasmus+ Coordinator ... Mr. Francisco José Collado Juan"
+  },
+  "alternates": [
+   {
+    "name": "Julián Sánchez Martínez",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "direccion@csmclm.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://csmclm.com/conservatorio/organigrama/",
+    "evidence_quote": "Director ... D. Julián Sánchez Martínez",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the head of the institution."
+   },
+   {
+    "name": "Virginia Romero Gómez",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "secretario@csmclm.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://csmclm.com/conservatorio/organigrama/",
+    "evidence_quote": "Secretaria ... Dª. Virginia Romero Gómez",
+    "why_chosen": "Secretary / administration (last resort). She is the secretary of the institution."
+   }
+  ],
+  "rung": "Institutional Erasmus+ coordinator. He is explicitly listed as the Erasmus+ Coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Conservatorio Superior de Música de Castilla La Mancha",
+    "city": "Albacete",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://csmclm.com/contacto/",
+    "evidence_quote": "C/ Zapateros, 25. 02005 Albacete (Spain)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 9,
+  "coverage_note": "The evidence does not provide a list of partner institutions, although it mentions that the institution participates in the Erasmus+ program and uses the AEC platform for mobility. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.3,
+  "crawl_s": 28.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.5,
+  "total_seconds": 65.8
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "row_id": "r099",
+ "scraped_at": "2026-11-01T17:52:09Z",
+ "contacts": {
+  "row_id": "r099",
+  "institution_name": "Conservatorio di Musica \"Giuseppe Nicolini",
+  "institution_type": "university",
+  "official_website": "https://www.conservatorionicolini.com/",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://www.conservatorionicolini.com/",
+   "evidence_quote": "Via Santa Franca, 35, 29121 Piacenza PC, Italy"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Turba Alessandro",
+   "designation": "Erasmus Coordinator",
+   "designation_local": "",
+   "email": "alessandro.turba@conservatorio.piacenza.it",
+   "office_email": "jospeh.cardas@conservatorio.piacenza.it",
+   "phone": "",
+   "source_url": "https://www.conservatorionicolini.com/ufficio-relazioni-internazionali",
+   "evidence_quote": "Turba Alessandro <jospeh.cardas@conservatorio.piacenza.it> ... Erasmus Coordinator",
+   "email_source_url": "https://www.conservatorionicolini.com/team/turba-alessandro"
+  },
+  "alternates": [
+   {
+    "name": "Irene Volpi",
+    "designation": "Digital Officer",
+    "designation_local": "",
+    "email": "irene.volpi@conservatorio.piacenza.it",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.conservatorionicolini.com/ufficio-relazioni-internazionali",
+    "evidence_quote": "Irene Volpi <irene.volpi@conservatorio.piacenza.it> ... Digital Officer",
+    "why_chosen": "International relations officer. Irene Volpi works within the International Relations Office and is a contact for international mobility."
+   },
+   {
+    "name": "Maria Grazia Petrali",
+    "designation": "Director of the Conservatory",
+    "designation_local": "",
+    "email": "direction@conservatorio.piacenza.it",
+    "office_email": "",
+    "phone": "0523 384345",
+    "source_url": "https://www.conservatorionicolini.com/en/contatti",
+    "evidence_quote": "Maria Grazia Petrali ... Director of the Conservatory:direction@conservatorio.piacenza.it <direction@conservatorio.piacenza.it>",
+    "why_chosen": "Principal / director (no Erasmus contact found). Maria Grazia Petrali is the Director of the Conservatory and holds the highest leadership position."
+   }
+  ],
+  "rung": "Institutional Erasmus+ coordinator. Turba Alessandro is explicitly identified as the Erasmus Coordinator for the institution. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Giuseppe Nicolini Conservatory of Music",
+    "city": "Piacenza",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.conservatorionicolini.com/en/contatti",
+    "evidence_quote": "Via Santa Franca 35 - PIACENZA 29121 (Italy)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions the existence of a list of interinstitutional agreements but does not provide the actual list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.1,
+  "crawl_s": 16.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.1,
+  "total_seconds": 20.0
+ }
+}
