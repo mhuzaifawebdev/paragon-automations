@@ -1,0 +1,57 @@
+{
+ "row_id": "r111",
+ "scraped_at": "2026-11-01T11:28:39Z",
+ "contacts": {
+  "row_id": "r111",
+  "institution_name": "Instituto de Enseñanza Secundaria San José",
+  "institution_type": "school",
+  "official_website": "https://iesanjose.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: web search (Google via Gemini), named 'IES San José' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES San José",
+    "city": "Cuenca",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iesanjose.es/",
+    "evidence_quote": "[IES San José (Cuenca)]"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The provided evidence does not contain any information regarding international mobility, Erasmus+ partnerships, or specific contact persons for international relations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 3.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 15.6
+ }
+}
