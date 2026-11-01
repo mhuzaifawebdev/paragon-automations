@@ -1,0 +1,126 @@
+{
+ "row_id": "r100",
+ "scraped_at": "2026-11-01T08:15:24Z",
+ "contacts": {
+  "row_id": "r100",
+  "institution_name": "UNIVERSITATEA DE MEDICINA SI FARMACIE'CAROL DAVILA' DIN BUCURESTI",
+  "institution_type": "university",
+  "official_website": "https://umfcd.ro/",
+  "country": {
+   "value": "Romania",
+   "source_url": "https://umfcd.ro/",
+   "evidence_quote": "Strada Dionisie Lupu Nr. 37, Sector 2, București, România"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "erasmus.bpc@umfcd.ro",
+  "generic_email_url": "https://umfcd.ro/relatii-internationale/erasmus/biroul-pentru-erasmus/",
+  "contact": {
+   "name": "Chira Mihaela",
+   "designation": "Financial Administrator",
+   "designation_local": "",
+   "email": "mobtrainee.outgoing@umfcd.ro",
+   "office_email": "",
+   "phone": "+40 21 318 0723",
+   "source_url": "https://umfcd.ro/relatii-internationale/erasmus/biroul-pentru-erasmus/",
+   "evidence_quote": "Administrator financiar Chira Mihaela"
+  },
+  "alternates": [
+   {
+    "name": "Ion Marius-Ionuț",
+    "designation": "Referent",
+    "designation_local": "",
+    "email": "erasmus.incoming.umf@umfcd.ro",
+    "office_email": "",
+    "phone": "+40 21 318 0723",
+    "source_url": "https://umfcd.ro/relatii-internationale/erasmus/biroul-pentru-erasmus/",
+    "evidence_quote": "Referent Ion Marius-Ionuț",
+    "why_chosen": "Secretary / administration (last resort). He is the referent responsible for Erasmus+ incoming mobilities."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). She is the financial administrator for Erasmus+ outgoing traineeships.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UEFISCDI",
+    "partner_country": "Romania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://umfcd.ro/",
+    "evidence_quote": "Evenimente/Resurse UEFISCDI",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Anelis Plus",
+    "partner_country": "Romania",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://umfcd.ro/",
+    "evidence_quote": "Suport pentru publicarea Open Access prin acordurile transformative Anelis Plus",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Universitatea de Medicină și Farmacie \"Carol Davila\" din București",
+    "city": "București",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://umfcd.ro/",
+    "evidence_quote": "Strada Dionisie Lupu Nr. 37, Sector 2, București, România"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides contact details for the Erasmus+ office and institutional leadership, but does not contain a list of specific partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 21.9,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.3,
+  "mode": "gemini",
+  "email_search_s": 6.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 55.8
+ }
+}
