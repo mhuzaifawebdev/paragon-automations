@@ -1,0 +1,121 @@
+{
+ "row_id": "r292",
+ "scraped_at": "2026-11-01T09:03:04Z",
+ "contacts": {
+  "row_id": "r292",
+  "institution_name": "INSTITUTE OF TECHNOLOGY CARLOW",
+  "institution_type": "college",
+  "official_website": "https://carlowinstitute.ie/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@carlowinstitute.ie",
+  "generic_email_url": "https://carlowinstitute.ie/",
+  "contact": {
+   "name": "Jackie Kane",
+   "designation": "Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://carlowinstitute.ie/courses/property-facility-management/",
+   "evidence_quote": "Coordinator: Jackie Kane"
+  },
+  "alternates": [],
+  "rung": "Faculty-level Erasmus/international coordinator. Jackie Kane is listed as the course coordinator for Property and Facility Management.",
+  "source": "web",
+  "confidence": 0.5,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Savo College",
+    "partner_country": "Finland",
+    "partner_type": "college",
+    "mobility_type": "traineeship",
+    "source_url": "https://carlowinstitute.ie/erasmus-group-mobility-to-talland-college-netherlands/",
+    "evidence_quote": "[Erasmus+ – Customer Service mobility to Savo College, Kuopio Finland]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TU Dublin",
+    "partner_country": "Ireland",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://carlowinstitute.ie/courses/property-facility-management/",
+    "evidence_quote": "TU Dublin – BSc (hons) Surveying (Property Economics)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IPAV",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://carlowinstitute.ie/courses/property-facility-management/",
+    "evidence_quote": "IPAV – Higher Certificate in Business in Real Estate: Valuation Sale and Management",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Talland College",
+    "partner_country": "Netherlands",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://carlowinstitute.ie/erasmus-group-mobility-to-talland-college-netherlands/",
+    "evidence_quote": "Erasmus+ Group Mobility To Talland College Netherlands - Carlow Institute",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "izarracentre",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://carlowinstitute.ie/erasmus-engineering-mobility-in-europe/",
+    "evidence_quote": "Cybersecurity students from UNI and #EMEU students from Ireland and The Netherlands have visited @izarracentre in Ermua watching the local Data Center and analyzing how it is organized in terms of security (VLAN, virtualization, switches, Fortinet firewall, etc.). They have also seen the fibre infrastructure of the town of #Ermua.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Carlow Institute",
+    "city": "Carlow",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://carlowinstitute.ie/",
+    "evidence_quote": "Kilkenny Road, Carlow"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not name a dedicated institutional Erasmus coordinator or international relations office, listing general institution contact emails instead.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.7,
+  "crawl_s": 16.8,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 95.8,
+  "mode": "gemini",
+  "email_search_s": 8.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 9,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 126.7
+ }
+}
