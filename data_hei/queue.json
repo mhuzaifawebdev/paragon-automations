@@ -4252,22 +4252,34 @@
    "source": "Copy of VET 150K - 100K Batch 9_ 2nd Batch(B1)",
    "file_id": "1XnAnOJGxVam93uMf4ZIEMM1BgUjHomBPV8RsALa_JAw",
    "added": "2026-10-28T13:09:47Z",
-   "state": "running",
+   "state": "done",
    "rows": 89,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-01T00:31:24Z",
    "last_start": "2026-11-01T00:31:24Z",
    "restarts": 0,
-   "cap_usd": 599.59
+   "cap_usd": 599.59,
+   "crm_rows": 5,
+   "no_number": 86,
+   "spend_recorded": true,
+   "cost_usd": 0.0934,
+   "drive_link": "https://docs.google.com/spreadsheets/d/10iiPtivkqQK8OzGTeyw8eLXbc1qqIIG3/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 23,
+   "finished": "2026-11-01T00:46:37Z",
+   "reason": "88 institutes, 19 with a contact"
   },
   {
    "batch": "2025-katalog-partnerow-erasmus",
    "source": "2025_Katalog_partnerów ERASMUS",
    "file_id": "1PRxIDmAUtLYHw_3NPgNphEFPOwNs-vhyOedDR9mqHr8",
    "added": "2026-10-28T13:09:47Z",
-   "state": "queued",
+   "state": "running",
    "rows": 170,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-01T00:46:37Z",
+   "last_start": "2026-11-01T00:46:37Z",
+   "restarts": 0,
+   "cap_usd": 599.5
   },
   {
    "batch": "erasmus-partneraugstskolas-jvlma",
@@ -4300,7 +4312,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-01T00:31:24Z",
+ "updated": "2026-11-01T00:46:37Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
