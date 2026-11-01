@@ -4473,7 +4473,7 @@
    "batch": "website-recheck-education-p5",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "paid",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4482,11 +4482,19 @@
    "started": "2026-11-01T13:43:05Z",
    "last_start": "2026-11-01T13:43:05Z",
    "restarts": 0,
-   "cap_usd": 558.36
+   "cap_usd": 558.36,
+   "crm_rows": 33,
+   "no_number": 130,
+   "spend_recorded": true,
+   "cost_usd": 0.5191,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1Ph9ytoRP3hTkuUwnPG-sc0rp_WsiDU1F/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 40,
+   "finished": "2026-11-01T14:06:19Z",
+   "reason": "148 institutes, 34 with a contact"
   }
  ],
  "paused": null,
- "updated": "2026-11-01T13:43:05Z",
+ "updated": "2026-11-01T14:06:19Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
