@@ -1,0 +1,71 @@
+{
+ "row_id": "r047",
+ "scraped_at": "2026-11-01T01:35:35Z",
+ "contacts": {
+  "row_id": "r047",
+  "institution_name": "Évoluez",
+  "institution_type": "unknown",
+  "official_website": "https://www.evoluez.ca/",
+  "country": null,
+  "phone": {
+   "value": "450 577-6067",
+   "source_url": "https://www.evoluez.ca/",
+   "evidence_quote": "450 577-6067"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Pierre-Etienne Alliaume",
+   "designation": "Contact person",
+   "designation_local": "",
+   "email": "pierre-etienne@evoluez.ca",
+   "office_email": "",
+   "phone": "450 577-6067",
+   "source_url": "https://www.evoluez.ca/",
+   "evidence_quote": "Pierre-Etienne Alliaume · Granby, Québec · Rencontres sur place ou en ligne"
+  },
+  "alternates": [],
+  "rung": "Other role. Pierre-Etienne Alliaume is the named individual associated with the institution's services and contact information.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Évoluez",
+    "city": "Granby",
+    "country": "Canada",
+    "role": "main",
+    "source_url": "https://www.evoluez.ca/",
+    "evidence_quote": "Pierre-Etienne Alliaume · Granby, Québec · Rencontres sur place ou en ligne"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The website is currently under construction and does not provide information regarding educational partnerships or international mobility programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 3.8,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 7.2
+ }
+}
