@@ -1,0 +1,66 @@
+{
+ "row_id": "r500",
+ "scraped_at": "2026-11-01T21:11:49Z",
+ "contacts": {
+  "row_id": "r500",
+  "institution_name": "Renoir Universidad",
+  "institution_type": "school",
+  "official_website": "https://www.renoir.edu.pe/inicio.php",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "instituto la Molina",
+    "partner_country": "Peru",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.renoir.edu.pe/servicios.php",
+    "evidence_quote": "Convenio con el instituto la Molina para talleres de negocios.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Renoir School",
+    "city": "Puente Piedra",
+    "country": "Peru",
+    "role": "main",
+    "source_url": "https://www.renoir.edu.pe/inicio.php",
+    "evidence_quote": "Mz. B LT 2,3. Asoc. Vivienda Micaela Bastidas Zapallal - Puente Piedra"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution is a school providing primary and secondary education, not a university. No specific international mobility or Erasmus+ contact persons are listed in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.3,
+  "crawl_s": 8.7,
+  "ai_calls": 2,
+  "model_s": 1.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 18.1
+ }
+}
