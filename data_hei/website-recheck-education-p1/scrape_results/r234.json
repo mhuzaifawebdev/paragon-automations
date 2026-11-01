@@ -1,0 +1,75 @@
+{
+ "row_id": "r234",
+ "scraped_at": "2026-11-01T08:53:18Z",
+ "contacts": {
+  "row_id": "r234",
+  "institution_name": "Institut de Formation en Soins Infirmiers",
+  "institution_type": "college",
+  "official_website": "https://www.ifsi.chu-lille.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secifsi@chu-lille.fr",
+  "generic_email_url": "https://www.ifsi.chu-lille.fr/",
+  "contact": {
+   "name": "Madame Laurence LANGLOIS",
+   "designation": "Disability Referent",
+   "designation_local": "",
+   "email": "handicap@chu-lille.fr",
+   "office_email": "",
+   "phone": "03 20 44 52 03",
+   "source_url": "https://www.ifsi.chu-lille.fr/",
+   "evidence_quote": "Madame Laurence LANGLOIS ... Référent handicap : 03 20 44 52 03 <tel 0320445203>"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Madame Laurence LANGLOIS is listed as a named administrative contact with a specific role and direct email on the website.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut de Formation en Soins Infirmiers du CHU de Lille",
+    "city": "Lille",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.ifsi.chu-lille.fr/",
+    "evidence_quote": "L’Institut en Soins Infirmiers situé au sein de l’institut Gernez Rieux, sur campus du CHU de Lille, accueille en 1ère année, une promotion de 153 étudiants. Notre école partage les locaux de l’Institut Gernez Rieux (IGR) avec 8 autres écoles."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence provides general institutional details and contact information for the nursing training institute, but no partner institutions or specific international mobility agreements are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.0,
+  "crawl_s": 4.9,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.4,
+  "mode": "gemini",
+  "email_search_s": 9.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     115
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 32.3
+ }
+}

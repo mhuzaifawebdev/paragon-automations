@@ -1,0 +1,161 @@
+{
+ "row_id": "r235",
+ "scraped_at": "2026-11-01T08:53:52Z",
+ "contacts": {
+  "row_id": "r235",
+  "institution_name": "Business Academy",
+  "institution_type": "college",
+  "official_website": "https://www.baaa.dk/",
+  "country": {
+   "value": "Denmark",
+   "source_url": "https://www.baaa.dk/",
+   "evidence_quote": "Business Academy Aarhus | School of Applied Science | Denmark"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@baaa.dk",
+  "generic_email_url": "https://www.baaa.dk/",
+  "contact": {
+   "name": "Hege Havenes",
+   "designation": "International Coordinator for Natural Science and Technology",
+   "designation_local": "",
+   "email": "hegh@baaa.dk",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://students.baaa.dk/go-abroad/semester-abroad/#financing",
+   "evidence_quote": "The International Coordinators are: ... - Natural Science and Technology: Hege Havenes - hegh@baaa.dk <hegh@baaa.dk>"
+  },
+  "alternates": [
+   {
+    "name": "Anne Storm Rasmussen",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.baaa.dk/about-us/facts-about-business-academy-aarhus/the-management/",
+    "evidence_quote": "Anne Storm Rasmussen ... Rector",
+    "why_chosen": "Principal / director (no Erasmus contact found). Anne Storm Rasmussen is the Rector and head of Business Academy Aarhus."
+   }
+  ],
+  "rung": "Faculty-level Erasmus/international coordinator. Hege Havenes is the International Coordinator guiding student exchange in Natural Science and Technology.",
+  "source": "web",
+  "confidence": 0.65,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Federation for European Education",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.baaa.dk/",
+    "evidence_quote": "Federation for European Education",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ELNE Network",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.baaa.dk/",
+    "evidence_quote": "https://www.elnenetwork.org/en/",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Volda University",
+    "partner_country": "Norway",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://students.baaa.dk/go-abroad/semester-abroad/#financing",
+    "evidence_quote": "A Multimedia Design student went to Volda University in Norway to do her third semester. See her story below.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus +",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.baaa.dk/",
+    "evidence_quote": "Erasmus + 2021-2027",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "elnenetwork",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.baaa.dk/",
+    "evidence_quote": "https://www.elnenetwork.org/en/",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Main Campus",
+    "city": "Aarhus",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://www.baaa.dk/contact/international-office/",
+    "evidence_quote": "You will find International Office in Sønderhøj 30, A-building (the main campus) but send an email or phone us if you have any questions."
+   },
+   {
+    "campus_name": "Ringvej Syd 104",
+    "city": "Aarhus",
+    "country": "Denmark",
+    "role": "branch",
+    "source_url": "https://www.baaa.dk/programmes/part-time/project-management/",
+    "evidence_quote": "Location: Business Academy Aarhus, Ringvej Syd 104, 8260 Viby J"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "international exchange procedures and contacts are covered, but a comprehensive list of exchange partner universities is omitted from the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.9,
+  "crawl_s": 11.9,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 39.4,
+  "mode": "gemini",
+  "email_search_s": 4.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 61.6
+ }
+}
