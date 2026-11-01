@@ -1,0 +1,75 @@
+{
+ "row_id": "r312",
+ "scraped_at": "2026-11-01T20:51:02Z",
+ "contacts": {
+  "row_id": "r312",
+  "institution_name": "INSTITUT MARIANAO",
+  "institution_type": "school",
+  "official_website": "https://llibres.institutmarianao.cat/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IDDINK",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://llibres.institutmarianao.cat/iddink.html",
+    "evidence_quote": "L'AMPA del nostre centre farà la venda i reutilització de llibres amb l'empresa IDDINK:",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Math Bits",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://llibres.institutmarianao.cat/iddink.html",
+    "evidence_quote": "Alternativa de venda per als llibres de Matemàtiques de 1r d'ESO, 2n d'ESO i 3r d'ESO amb Math Bits:",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut Marianao",
+    "city": "unknown",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://llibres.institutmarianao.cat/",
+    "evidence_quote": "Institut Marianao"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 2,
+  "coverage_note": "The provided evidence is limited to a book management portal and does not contain contact information for international relations staff or a formal list of educational partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 3.1,
+  "ai_calls": 2,
+  "model_s": 1.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 13.4
+ }
+}
