@@ -1,0 +1,76 @@
+{
+ "row_id": "r150",
+ "scraped_at": "2026-11-01T18:01:23Z",
+ "contacts": {
+  "row_id": "r150",
+  "institution_name": "Ekonomska šola, Murska Sobota, Slovenia",
+  "institution_type": "school",
+  "official_website": "https://www.ekonomska-ms.si/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@ekonomska-ms.si",
+  "generic_email_url": "https://www.ekonomska-ms.si/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Associazione Jump",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ekonomska-ms.si/erasmus-2024-2027/",
+    "evidence_quote": "Associazione Jump, Soverato, Italija",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Shipcon",
+    "partner_country": "Cyprus",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ekonomska-ms.si/erasmus-2024-2027/",
+    "evidence_quote": "Shipcon, Limassol, Ciper",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ekonomska šola Murska Sobota",
+    "city": "Murska Sobota",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://www.ekonomska-ms.si/kontakt/",
+    "evidence_quote": "Ekonomska šola Murska Sobota"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The institution lists specific Erasmus+ project partners for mobility activities, but does not provide a comprehensive list of all institutional partners or agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 5.0,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 15.8
+ }
+}
