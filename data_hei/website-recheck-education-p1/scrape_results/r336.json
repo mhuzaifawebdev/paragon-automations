@@ -1,0 +1,127 @@
+{
+ "row_id": "r336",
+ "scraped_at": "2026-11-01T09:12:58Z",
+ "contacts": {
+  "row_id": "r336",
+  "institution_name": "INSTITUT CAPARRELLA",
+  "institution_type": "school",
+  "official_website": "https://www.iescaparrella.cat/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "iescaparrella@iescaparrella.cat",
+  "generic_email_url": "https://www.iescaparrella.cat/",
+  "contact": {
+   "name": "Begoña Santiago",
+   "designation": "Erasmus team coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iescaparrella.cat/ca/educacio/iescaparrella/blog/erasmus-alemanya-2026/56471.html",
+   "evidence_quote": "Les docents alemanyes ens van visitar en qualitat de job shadowing, una estada d’observació que els ha permès conèixer de prop el funcionament del nostre centre i participar com a observadores en diverses activitats educatives. Durant la seva estada, van realitzar una visita guiada per l’institut Caparrella acompanyades per la coordinadora de l’equip Erasmus, Begoña Santiago, i pel director del centre, Emili Grau."
+  },
+  "alternates": [
+   {
+    "name": "Emili Grau",
+    "designation": "Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iescaparrella.cat/ca/educacio/iescaparrella/blog/erasmus-alemanya-2026/56471.html",
+    "evidence_quote": "Les docents alemanyes ens van visitar en qualitat de job shadowing, una estada d’observació que els ha permès conèixer de prop el funcionament del nostre centre i participar com a observadores en diverses activitats educatives. Durant la seva estada, van realitzar una visita guiada per l’institut Caparrella acompanyades per la coordinadora de l’equip Erasmus, Begoña Santiago, i pel director del centre, Emili Grau.",
+    "why_chosen": "Principal / director (no Erasmus contact found). Emili Grau is identified as the director of the center."
+   },
+   {
+    "name": "Natàlia Panadés",
+    "designation": "Spanish Department teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.iescaparrella.cat/ca/educacio/iescaparrella/blog/erasmus-alemanya-2026/56471.html",
+    "evidence_quote": "També va tenir un paper destacat l’alumnat de 4t d’ESO, que va presentar a les professores visitants la nostra ciutat, alguns aspectes de la nostra cultura i el funcionament de la biblioteca del centre. A més, les docents van poder assistir a diverses classes i reunions organitzades pel Departament de Castellà (Natàlia Panadés), el Departament d’Anglès i el Departament de Ciències (Mònica Elia), fet que els va permetre conèixer de primera mà diferents metodologies i dinàmiques de treball.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Natàlia Panadés is noted as a teacher associated with the Spanish Department."
+   }
+  ],
+  "rung": "Mobility coordinator. Begoña Santiago is mentioned as the coordinator of the Erasmus team at the institution.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Volvo Lleida Motor Trucks",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.iescaparrella.cat/",
+    "evidence_quote": "[Estudiants de FP francesos de la branca de Transport fan pràctiques a l’empresa Volvo Lleida Motor Trucks]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lleida Llista Blava",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.iescaparrella.cat/",
+    "evidence_quote": "[L’alumnat del CFGS de DAW treballa en una app pel Lleida Llista Blava]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Institut Caparrella",
+    "city": "Lleida",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.iescaparrella.cat/",
+    "evidence_quote": "Institut Caparrella"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not name any specific contact persons with associated roles or any formal partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 10.1,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 2.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 29.0
+ }
+}
