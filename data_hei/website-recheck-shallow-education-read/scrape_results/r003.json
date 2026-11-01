@@ -1,0 +1,68 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-11-01T20:19:19Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "ACADEMIA DE POLITIE ALEXANDRU IOAN CUZA",
+  "institution_type": "university",
+  "official_website": "https://admitere.academiadepolitie.ro/",
+  "country": {
+   "value": "Romania",
+   "source_url": "https://admitere.academiadepolitie.ro/docs/2026/masterat/Regulament-admitere-masterat-2026.pdf",
+   "evidence_quote": "ROMÂNIA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "admitere@academiadepolitie.ro",
+  "generic_email_url": "https://admitere.academiadepolitie.ro/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Academia de Poliție Alexandru Ioan Cuza",
+    "city": "București",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://admitere.academiadepolitie.ro/",
+    "evidence_quote": "Sediu: Aleea Privighetorilor, Nr. 1A, Sector 1, București"
+   },
+   {
+    "campus_name": "Facultatea de Pompieri",
+    "city": "București",
+    "country": "Romania",
+    "role": "branch",
+    "source_url": "https://admitere.academiadepolitie.ro/docs/2026/masterat/Regulament-admitere-masterat-2026.pdf",
+    "evidence_quote": "b) pentru Facultatea de Pom pieri - la sediul din Şoseaua Morarilor, nr. 3,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The provided evidence focuses on the admission process for the 2026 academic year and does not contain a list of international partners or Erasmus+ mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 8.3,
+  "ai_calls": 2,
+  "model_s": 20.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 40.2
+ }
+}
