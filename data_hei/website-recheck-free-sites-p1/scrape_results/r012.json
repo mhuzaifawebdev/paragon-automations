@@ -1,0 +1,110 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-11-01T17:36:44Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "ALLATORVOSTUDOMANYI EGYETEM",
+  "institution_type": "university",
+  "official_website": "https://univet.hu/hu/",
+  "country": {
+   "value": "Hungary",
+   "source_url": "https://univet.hu/hu/",
+   "evidence_quote": "Hungary"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jóźwiak Ákos Bernard",
+   "designation": "International relations officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://univet.hu/kat/munkatarsak/",
+   "evidence_quote": "Jóźwiak Ákos Bernard ... Nemzetközi kapcsolatokért felelős munkatárs"
+  },
+  "alternates": [
+   {
+    "name": "Dr. Sótonyi Péter",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "1) 478 4104",
+    "source_url": "https://univet.hu/hu/egyetem/vezetoseg/",
+    "evidence_quote": "Dr. Sótonyi Péter ... Rektor",
+    "why_chosen": "Principal / director (no Erasmus contact found). Dr. Sótonyi Péter is the Rector of the university."
+   }
+  ],
+  "rung": "International relations officer. Jóźwiak Ákos Bernard is listed as a staff member responsible for international relations.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "European Association of Establishments for Veterinary Education (EAEVE)",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://univet.hu/hu/egyetem/nemzetkozi-kapcsolatok/",
+    "evidence_quote": "Egyetemünk számos európai és amerikai egyetemmel van oktatási és kutatási kapcsolatban. Nemzetközi kapcsolataink szempontjából kiemelkedően fontos, hogy egyetemünk két nemzetközi állatorvosi egyetemi szervezet, így az Európai Állatorvos-képző Intézmények Szövetségének (European Association of Establishments for Veterinary Education, EAEVE) és a közép-európai állatorvos-tudományi egyetemek/karok szervezetének (Veterinary Network for Student and Staff Transfer, VetNEST) tagja.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Veterinary Network for Student and Staff Transfer (VetNEST)",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://univet.hu/hu/egyetem/nemzetkozi-kapcsolatok/",
+    "evidence_quote": "Egyetemünk számos európai és amerikai egyetemmel van oktatási és kutatási kapcsolatban. Nemzetközi kapcsolataink szempontjából kiemelkedően fontos, hogy egyetemünk két nemzetközi állatorvosi egyetemi szervezet, így az Európai Állatorvos-képző Intézmények Szövetségének (European Association of Establishments for Veterinary Education, EAEVE) és a közép-európai állatorvos-tudományi egyetemek/karok szervezetének (Veterinary Network for Student and Staff Transfer, VetNEST) tagja.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Széchenyi István Egyetem Mezőgazdaság- és Élelmiszertudományi Kara",
+    "partner_country": "Hungary",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://univet.hu/kat/temak/intelligens-szakosodast-szolgalo-fejlesztesek-az-allatorvostudomanyi-egyetem-es-a-szechenyi-istvan-egyetem-mezogazdasag-es-elelmiszertudomanyi-karanak-egyuttmukodeseben/",
+    "evidence_quote": "Intelligens szakosodást szolgáló fejlesztések az Állatorvostudományi Egyetem és a Széchenyi István Egyetem Mezőgazdaság- és Élelmiszertudományi Karának együttműködésében EFOP-3.6.1-16-2016-00024 - Univet Katalógus",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Állatorvostudományi Egyetem Budapest",
+    "city": "Budapest",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://univet.hu/hu/",
+    "evidence_quote": "H-1078 Budapest,"
+   }
+  ],
+  "stated_total": 40,
+  "stated_total_quote": "Egyetemünk több mint 40 európai állatorvos-képző intézménnyel fenntartott kapcsolatának különböző mobilitási programok (ERASMUS+, Pannónia, CEEPUS program) biztosítanak keretet, melyeknek folytán oktatóink 1-4 hétig, hallgatóink 3-12 hónapig terjedő időszakot tölthetnek el külföldön, vehetnek részt részképzésen. Egyetemünknek szintén számos egyetemmel van jelenleg kétoldalú szerződése. Ezek évente több magyar diák számára biztosítanak lehetőséget a partner intézményekben eltölthető klinikai gyak",
+  "stated_total_url": "https://univet.hu/hu/egyetem/nemzetkozi-kapcsolatok/",
+  "truncated": true,
+  "total_seen": 40,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of staff members and general information about international programs, but does not contain a comprehensive list of individual Erasmus+ partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 20.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 32.4,
+  "total_seconds": 58.5
+ }
+}
