@@ -1,0 +1,150 @@
+{
+ "row_id": "r072",
+ "scraped_at": "2026-11-01T11:23:04Z",
+ "contacts": {
+  "row_id": "r072",
+  "institution_name": "Lycée privé St Charles",
+  "institution_type": "school",
+  "official_website": "https://www.stcharles-orleans.com/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.stcharles-orleans.com/",
+   "evidence_quote": "Merci Pape Léon, pour votre visite en France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretariat-ecole@stcharles-orleans.com",
+  "generic_email_url": "https://www.stcharles-orleans.com/contact/",
+  "contact": {
+   "name": "Larisa Assanova",
+   "designation": "ERAEI referent",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.stcharles-orleans.com/erasmus-days-au-lycee/",
+   "evidence_quote": "Qui ne rêverait pas d’aller se glisser dans une classe en Estonie, pour aller comparer sa pratique avec celle d’un collègue dont le pays se classe 1er européen au classement Pisa 2026 ? Qui ne rêverait pas d’emmener ses élèves en Grèce ou à Rome sans que le coût du voyage ne soit à la charge des familles ? Larisa Assanova, référente ERAEI, a justement proposé de nous faire voyager autour d’un café noir et d’un cookie gourmand en nous présentant les offres du programme ERASMUS. « Il est également"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Larisa Assanova is explicitly identified as the ERAEI referent who proposes and manages Erasmus program offers.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Gredjianus",
+    "partner_country": "Netherlands",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stcharles-orleans.com/une-visite-preparatoire-de-deux-enseignants-de-meppel-pays-bas-dans-le-cadre-dun-futur-projet-erasmus-pour-des-collegiens/",
+    "evidence_quote": "Ce vendredi 17 octobre, Le Cours Saint Charles a accueilli deux enseignants venus du collège Gredjianus https://greijdanus.nl/meppel/ de MEPPEL aux Pays Bas dans le cadre d’un futur projet impliquant la collaboration des élèves des deux collèges.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Réseau EC",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stcharles-orleans.com/",
+    "evidence_quote": "Réseau EC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "La Croix Saint Marceau",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stcharles-orleans.com/",
+    "evidence_quote": "Découverte origniale du lycée pour les collégiens de La Croix Saint Marceau",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Réseau de l'enseignement catholique",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.stcharles-orleans.com/Reseau-EC/",
+    "evidence_quote": "Réseau de l'enseignement catholique",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "collège Gredjianus",
+    "partner_country": "Pays-Bas",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.stcharles-orleans.com/une-visite-preparatoire-de-deux-enseignants-de-meppel-pays-bas-dans-le-cadre-dun-futur-projet-erasmus-pour-des-collegiens/",
+    "evidence_quote": "Ce vendredi 17 octobre, Le Cours Saint Charles a accueilli deux enseignants venus du collège Gredjianus https://greijdanus.nl/meppel/ de MEPPEL aux Pays Bas dans le cadre d’un futur projet impliquant la collaboration des élèves des deux collèges.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "École",
+    "city": "ORLEANS",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.stcharles-orleans.com/contact/",
+    "evidence_quote": "5bis rue Croix de bois"
+   },
+   {
+    "campus_name": "Collège Saint Charles",
+    "city": "ORLEANS",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.stcharles-orleans.com/contact/",
+    "evidence_quote": "24, rue des Grands Champs"
+   },
+   {
+    "campus_name": "Lycée Saint Charles",
+    "city": "ORLEANS",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.stcharles-orleans.com/contact/",
+    "evidence_quote": "31 Avenue Saint Fiacre"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 7,
+  "coverage_note": "The institution is an ensemble scolaire with multiple sites. While specific Erasmus partners are mentioned in news articles, a comprehensive list of all institutional partners is not provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 10.8,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     227
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 21.3
+ }
+}
