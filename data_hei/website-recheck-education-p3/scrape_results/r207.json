@@ -1,0 +1,116 @@
+{
+ "row_id": "r207",
+ "scraped_at": "2026-11-01T11:43:26Z",
+ "contacts": {
+  "row_id": "r207",
+  "institution_name": "Lycée général et technologique HONORE DE BALZAC",
+  "institution_type": "school",
+  "official_website": "https://lpohdb.fr/",
+  "country": {
+   "value": "Mitry-Mory",
+   "source_url": "https://lpohdb.fr/",
+   "evidence_quote": "77290 Mitry-Mory"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "RECTORAT DE L’ACADÉMIE DE CRÉTEIL",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpohdb.fr/",
+    "evidence_quote": "RECTORAT DE L’ACADÉMIE DE CRÉTEIL : www.ac-creteil.fr",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Direction des Services Départemantaux de l’Éducation Nationale de Seine-et-Marne",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpohdb.fr/",
+    "evidence_quote": "Direction des Services Départemantaux de l’Éducation Nationale de Seine-et-Marne",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "DSDEN DU 77",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpohdb.fr/",
+    "evidence_quote": "DSDEN DU 77 : www.dsden77.ac-creteil.fr",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ministère de l’Éducation Nationale",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpohdb.fr/",
+    "evidence_quote": "Ministère de l’Éducation Nationale",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Académie de Créteil",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lpohdb.fr/notre-lycee/contact",
+    "evidence_quote": "Lycée général et technologique Honoré de Balzac (0771996B) – Académie de Créteil (zone C)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée général et technologique Honoré de Balzac",
+    "city": "Mitry-Mory",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lpohdb.fr/",
+    "evidence_quote": "Lycée Honoré de Balzac – Lycée général et technologique de Mitry-Mory"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not contain any partner lists or specific international mobility program coordinators, only general school contact details.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.1,
+  "crawl_s": 7.5,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.1,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     92
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 40.9
+ }
+}
