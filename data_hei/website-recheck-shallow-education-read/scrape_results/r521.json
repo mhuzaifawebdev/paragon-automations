@@ -1,0 +1,82 @@
+{
+ "row_id": "r521",
+ "scraped_at": "2026-11-01T21:15:41Z",
+ "contacts": {
+  "row_id": "r521",
+  "institution_name": "Senter for arbeidslivsforberedelse, ALF as",
+  "institution_type": "college",
+  "official_website": "https://alf.no/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "alf@alf.no",
+  "generic_email_url": "https://alf.no/kontakt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "other accommodation institutions and actors in the hotel and restaurant industry",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://alf.no/aft/",
+    "evidence_quote": "Vi har et godt samarbeid med andre overnattingsinstitusjoner og andre aktører innen hotell og restaurantbransjen hvor våre deltakere får utvidet praksis og fremtidige ansettelser.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hovedkontor",
+    "city": "Bergen",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://alf.no/kontakt/",
+    "evidence_quote": "Klaus Hanssens vei 22"
+   },
+   {
+    "campus_name": "Gågaten",
+    "city": "Bergen",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://alf.no/kontakt/",
+    "evidence_quote": "Strandgaten 77"
+   },
+   {
+    "campus_name": "Klosterhagen Hotell",
+    "city": "Bergen",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://alf.no/kontakt/",
+    "evidence_quote": "Strangehagen 2"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution is a vocational training center and does not list formal Erasmus+ partners, though it mentions participation in an Erasmus+ project.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 22.2,
+  "ai_calls": 2,
+  "model_s": 2.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 49.0
+ }
+}
