@@ -1,0 +1,71 @@
+{
+ "row_id": "r045",
+ "scraped_at": "2026-11-01T20:23:43Z",
+ "contacts": {
+  "row_id": "r045",
+  "institution_name": "Alte University (Tbilisi Open University)",
+  "institution_type": "university",
+  "official_website": "https://join.alte.edu.ge/",
+  "country": {
+   "value": "Georgia",
+   "source_url": "https://join.alte.edu.ge/",
+   "evidence_quote": "educational excellence in the heart of Georgia’s capital, Tbilisi."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@alte.edu.ge",
+  "generic_email_url": "https://join.alte.edu.ge/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ivane Bokeria University Hospital",
+    "partner_country": "Georgia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://join.alte.edu.ge/",
+    "evidence_quote": "Alte University offers access to the Ivane Bokeria University",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Alte University",
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "role": "main",
+    "source_url": "https://join.alte.edu.ge/",
+    "evidence_quote": "Tbilisi, University St. N2"
+   }
+  ],
+  "stated_total": 200,
+  "stated_total_quote": "A Network of 200+ Partner Organisations",
+  "stated_total_url": "https://join.alte.edu.ge/",
+  "truncated": true,
+  "total_seen": 200,
+  "pages_read": 5,
+  "coverage_note": "The evidence mentions 50+ international partnered universities and 200+ partner organizations but does not provide a list of these partners. No specific contact person for international relations or Erasmus+ is named in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 10.1,
+  "ai_calls": 3,
+  "model_s": 1.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 6,
+  "total_seconds": 21.7
+ }
+}
