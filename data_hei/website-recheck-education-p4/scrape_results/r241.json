@@ -1,0 +1,106 @@
+{
+ "row_id": "r241",
+ "scraped_at": "2026-11-01T13:08:19Z",
+ "contacts": {
+  "row_id": "r241",
+  "institution_name": "LYCEE ELISA LEMONNIER",
+  "institution_type": "school",
+  "official_website": "https://lemonnier-petit-quevilly.lycee.ac-normandie.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Monsieur DELALONDE",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ce.0760088h@ac-rouen.fr",
+   "office_email": "",
+   "phone": "02.32.66.85.40",
+   "source_url": "https://lemonnier-petit-quevilly.lycee.ac-normandie.fr/?Une-equipe-a-votre-service-1517",
+   "evidence_quote": "Proviseur : Monsieur DELALONDE"
+  },
+  "alternates": [
+   {
+    "name": "Madame RICARD",
+    "designation": "Secretary to the Principal",
+    "designation_local": "",
+    "email": "ce.0760088h@ac-rouen.fr",
+    "office_email": "",
+    "phone": "02.32.66.85.40",
+    "source_url": "https://lemonnier-petit-quevilly.lycee.ac-normandie.fr/?Une-equipe-a-votre-service-1517",
+    "evidence_quote": "Secrétariat du proviseur : Madame RICARD",
+    "why_chosen": "Secretary / administration (last resort). She serves as the secretary to the principal and is a point of contact for administrative matters."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the principal of the institution, he holds the primary leadership role for the school.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 6,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Afag (Au fond à gauche)",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lemonnier-petit-quevilly.lycee.ac-normandie.fr/",
+    "evidence_quote": "La compagnie professionnelle de théâtre Afag ( Au fond à gauche) s’est produite devant les élèves du lycée professionnel Elisa Lemonnier le mardi 9 juin 2026.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Élisa Lemonnier",
+    "city": "Le Petit-Quevilly",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lemonnier-petit-quevilly.lycee.ac-normandie.fr/",
+    "evidence_quote": "76140 Le Petit-Quevilly"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 6,
+  "coverage_note": "The evidence mentions mobility destinations in Spain and Germany but does not provide a formal list of partner institutions. No specific Erasmus+ coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 25.8,
+  "crawl_s": 27.1,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     183
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 87.5
+ }
+}
