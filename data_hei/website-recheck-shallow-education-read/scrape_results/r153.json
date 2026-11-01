@@ -1,0 +1,83 @@
+{
+ "row_id": "r153",
+ "scraped_at": "2026-11-01T20:33:58Z",
+ "contacts": {
+  "row_id": "r153",
+  "institution_name": "ESCOLA DE GESTIÓ EMPRESARIAL, SA",
+  "institution_type": "college",
+  "official_website": "https://www.ege.edu.es/ca/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "escola@ege.edu.es",
+  "generic_email_url": "https://www.ege.edu.es/ca/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universitat de Girona",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ege.edu.es/ca/",
+    "evidence_quote": "EGE i la Fundació realitzen les activitats amb l’ajut i la col·laboració d’altres entitats, així, CIFOG és centre autoritzat pel Departament d’Educació de la Generalitat de Catalunya i l’ERAM és centre adscrit a la Universitat de Girona i autoritzat per a realitzar graus universitaris. Manté convenis amb varies universitats europees, asiàtiques i sud americanes.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola de Gestió Empresarial",
+    "city": "Girona",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.ege.edu.es/ca/",
+    "evidence_quote": "EGE - Ctra Sta. Coloma, 115 Girona"
+   },
+   {
+    "campus_name": "CIFOG",
+    "city": "Girona",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.ege.edu.es/ca/",
+    "evidence_quote": "CIFOG (Cicles Formatius) - Ctra. Sta. Coloma, 115 Girona"
+   },
+   {
+    "campus_name": "ERAM",
+    "city": "Salt",
+    "country": "Spain",
+    "role": "branch",
+    "source_url": "https://www.ege.edu.es/ca/",
+    "evidence_quote": "ERAM - UDG - Sant Antoni, 1 Salt (Edifici Comacros)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution mentions having agreements with various European, Asian, and South American universities, but does not provide a specific list of these partners. No specific contact person for international mobility is named in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 10.1,
+  "ai_calls": 3,
+  "model_s": 16.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 38.9
+ }
+}

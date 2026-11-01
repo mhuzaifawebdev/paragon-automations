@@ -1,0 +1,94 @@
+{
+ "row_id": "r156",
+ "scraped_at": "2026-11-01T20:34:00Z",
+ "contacts": {
+  "row_id": "r156",
+  "institution_name": "ETABLISSEMENT D'ENSEIGNEMENT SUPERIEUR CONSULAIRE GRENOBLE ECOLE DE MANAGEMENT",
+  "institution_type": "college",
+  "official_website": "https://www.grenoble-em.com/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.grenoble-em.com/",
+   "evidence_quote": "12 Rue Pierre Semard, 38000 Grenoble, France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@grenoble-em.com",
+  "generic_email_url": "https://www.grenoble-em.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 7 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "UESTC",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.grenoble-em.com/",
+    "evidence_quote": "De Grenoble à Chengdu : GEM et l’UESTC lancent leur MSc Managing with Data and Artificial Intelligence",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus des Alpes",
+    "city": "Grenoble",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.grenoble-em.com/",
+    "evidence_quote": "Campus des Alpes"
+   },
+   {
+    "campus_name": "Campus GEM Labs",
+    "city": "Grenoble",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.grenoble-em.com/",
+    "evidence_quote": "Campus GEM Labs"
+   },
+   {
+    "campus_name": "Campus de Paris",
+    "city": "Pantin",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.grenoble-em.com/",
+    "evidence_quote": "Campus de Paris"
+   },
+   {
+    "campus_name": "Site GEM - Les Minimes Lyon Fourvière",
+    "city": "Lyon",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.grenoble-em.com/",
+    "evidence_quote": "Site GEM - Les Minimes Lyon Fourvière"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 4,
+  "coverage_note": "The evidence does not provide a list of international partner universities, only a mention of a network. No specific contact person for international mobility is named in the provided text. 7 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 11.3,
+  "ai_calls": 2,
+  "model_s": 20.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 40.2
+ }
+}
