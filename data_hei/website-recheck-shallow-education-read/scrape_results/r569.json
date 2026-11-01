@@ -1,0 +1,93 @@
+{
+ "row_id": "r569",
+ "scraped_at": "2026-11-01T21:22:16Z",
+ "contacts": {
+  "row_id": "r569",
+  "institution_name": "Transnationale Universiteit Limburg",
+  "institution_type": "university",
+  "official_website": "https://tul.edu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universiteit Hasselt",
+    "partner_country": "Belgium",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://tul.edu/tUL_algemeen/default.asp",
+    "evidence_quote": "Universiteit Hasselt (UHasselt) en Maastricht University.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Maastricht University",
+    "partner_country": "Netherlands",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://tul.edu/tUL_algemeen/default.asp",
+    "evidence_quote": "Universiteit Hasselt (UHasselt) en Maastricht University.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "KULeuven",
+    "partner_country": "Belgium",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://tul.edu/2tulschools/",
+    "evidence_quote": "start gegaan, en dit in samenwerking met de KULeuven.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Hasselt/Diepenbeek",
+    "city": "Hasselt/Diepenbeek",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://tul.edu/2tulschools/",
+    "evidence_quote": "Hasselt/Diepenbeek als op de tUL-campus Maastricht"
+   },
+   {
+    "campus_name": "Campus Maastricht",
+    "city": "Maastricht",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://tul.edu/2tulschools/",
+    "evidence_quote": "Hasselt/Diepenbeek als op de tUL-campus Maastricht"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The institution is a cross-border collaboration between two universities. No specific Erasmus+ or international mobility coordinator contact details are provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 6.6,
+  "thin_home": true,
+  "ai_calls": 2,
+  "model_s": 1.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 16.3
+ }
+}
