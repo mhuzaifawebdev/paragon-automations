@@ -90,6 +90,23 @@ def name_tokens(name):
     return [t for t in re.findall(r"[a-z0-9]{4,}", _n(name)) if t not in STOP]
 
 
+NOT_DISTINCTIVE = {"universidad", "universidade", "universita", "universitat", "universitet", "universite", "university", "universitesi",
+                   "colegio", "college", "centro", "center", "centre", "education", "educacion", "escuela", "faculty", "gimnazjum", "hochschule",
+                   "instituto", "institute", "institut", "liceo", "lycee", "polytechnic", "school", "schule", "szkola", "szkol", "wyzsza", "zespol"}
+
+
+def name_in_domain(url, name):
+    """The web address itself carries a distinctive word of the name: yasar.edu.tr for Yasar Universitesi, iesalbaida.net
+    for IES Albaida. Proof for a site a trusted source named, when its homepage cannot be read or spells the name differently."""
+    host = re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc.lower()).rsplit(".", 1)[0]
+    host = _fold(_n(host)).replace("-", "")
+    return any(len(t) >= 5 and t not in NOT_DISTINCTIVE and _fold(t) in host for t in name_tokens(name))
+
+
+def _domain(url):
+    return re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc.lower())
+
+
 def _home(u):
     """The site's home: the domain root, or on a many-schools portal the school's own first path folder."""
     p = urllib.parse.urlparse(u)
@@ -617,7 +634,7 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
     because it mentions the institution's name.
     gemini_search: one Google search through the PAID Gemini key (GEMINI_PAID_API_KEY; the free key has no search),
     counted against the batch cap. Every site it suggests must still pass check_site and the country check."""
-    tried = []
+    tried, wikidata_sites = [], set()
 
     def attempt(url, how):
         if not url:
@@ -626,7 +643,19 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
             url = "https://" + url.lstrip("/")
         ok, why, _ = check_site(url, row)
         tried.append(f"{how}: {url} -> {'ok' if ok else why}")
-        return (url, how, why) if ok else None
+        if ok:
+            return url, how, why
+        if not how.startswith(("Wikidata", "web search")):
+            return None
+        # Wikidata and Google named this site, but its homepage blocks us or words the name differently. The address
+        # holding the name, or both sources naming the same site, is proof enough that it is the institute's website.
+        if name_in_domain(url, row.get("name")):
+            return url, how, "the institution's name is in the web address"
+        if how.startswith("Wikidata"):
+            wikidata_sites.add(_domain(url))
+        elif _domain(url) in wikidata_sites:
+            return url, how, "Wikidata and web search name the same site"
+        return None
 
     if row.get("website_override"):
         ov = row["website_override"].strip()

@@ -794,5 +794,28 @@ except llm.QuotaExhausted as e:
     wait = e.resume_at - llm.time.time() > 40000
 check("free mode still waits for the daily allowance", wait, True)
 
+# ---- a site the homepage check cannot confirm: its address, or two sources agreeing, is the proof
+check("the address holds a distinctive word of the name",
+      [discover.name_in_domain("http://www.yasar.edu.tr/", "YASAR UNIVERSITESI"), discover.name_in_domain("http://www.iesalbaida.net/", "IES ALBAIDA"),
+       discover.name_in_domain("https://hs-nb.de/", "Hochschule Neubrandenburg"), discover.name_in_domain("https://university.example.com/", "Some University"),
+       discover.name_in_domain("https://school-portal.org/", "Other School Name")], [True, True, False, False, False])
+real_check2, real_wiki2, real_memo2, real_ddg2, real_gps2 = discover.check_site, discover._wikidata, discover.load_memo, discover._ddg_search, discover._gemini_paid_sites
+discover.check_site = lambda url, row: (False, "could not read it", None)
+discover.load_memo, discover._ddg_search = (lambda: {}), (lambda row, limit=4: [])
+discover._wikidata = lambda name, country: ["https://www.yasar.edu.tr/"]
+check("blocked site from Wikidata, name in the address: accepted", discover.find_website({"row_id": "x", "name": "YASAR UNIVERSITESI", "country": ""})[0], "https://www.yasar.edu.tr/")
+discover._wikidata = lambda name, country: ["https://www.tlse3.fr/"]
+discover._gemini_paid_sites = lambda row, limit=4: (["https://tlse3.fr/"], "")
+os.environ["GEMINI_PAID_API_KEY"] = "test"
+check("Wikidata and Google name the same site: accepted", discover.find_website({"row_id": "x", "name": "Universite Paul Sabatier", "country": ""}, use_search=True,
+      search_provider="gemini", gemini_search=True)[0], "https://tlse3.fr/")
+discover._wikidata = lambda name, country: []
+check("one source alone, name not in the address: still refused", discover.find_website({"row_id": "x", "name": "Universite Paul Sabatier", "country": ""}, use_search=True,
+      search_provider="gemini", gemini_search=True)[0], None)
+os.environ.pop("GEMINI_PAID_API_KEY", None)
+discover.check_site, discover._wikidata, discover.load_memo, discover._ddg_search, discover._gemini_paid_sites = real_check2, real_wiki2, real_memo2, real_ddg2, real_gps2
+check("a page with stray control characters is read, not refused",
+      "Hello" in str(fp._html_to_text(b"<html><body><p>Hello\x00 \x0b world</p><a href='/x\x01y'>l</a></body></html>", "utf-8", "https://a.b/")), True)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

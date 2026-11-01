@@ -130,6 +130,8 @@ def cf_decode(hexstr):
 
 
 def _html_to_text(data, charset, base_url):
+    # A stray NUL or control character in a page makes lxml refuse the whole page.
+    data = re.sub(rb"[\x00-\x08\x0b\x0c\x0e-\x1f]", b" ", data)
     try:
         text = data.decode(charset or "utf-8", "replace")
         doc = lhtml.fromstring(text)
