@@ -1,0 +1,98 @@
+{
+ "row_id": "r201",
+ "scraped_at": "2026-11-01T08:46:37Z",
+ "contacts": {
+  "row_id": "r201",
+  "institution_name": "Alte University (Tbilisi Open University)",
+  "institution_type": "university",
+  "official_website": "https://join.alte.edu.ge/",
+  "country": {
+   "value": "Georgia",
+   "source_url": "https://join.alte.edu.ge/",
+   "evidence_quote": "educational excellence in the heart of Georgia’s capital, Tbilisi."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@alte.edu.ge",
+  "generic_email_url": "https://join.alte.edu.ge/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ivane Bokeria University Hospital",
+    "partner_country": "Georgia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://join.alte.edu.ge/",
+    "evidence_quote": "Alte University offers access to the Ivane Bokeria University",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Vian",
+    "partner_country": "Georgia",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://join.alte.edu.ge/",
+    "evidence_quote": "Hospital through an exclusive partnership with “Vian,” Georgia’s",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bridgetown international university",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://join.alte.edu.ge/",
+    "evidence_quote": "Learn from the best at Bridgetown international university with",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Alte University Main Campus",
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "role": "main",
+    "source_url": "https://join.alte.edu.ge/",
+    "evidence_quote": "State-of-the-art campus in the heart of Tbilisi for optimal"
+   }
+  ],
+  "stated_total": 200,
+  "stated_total_quote": "A Network of 200+ Partner Organisations",
+  "stated_total_url": "https://join.alte.edu.ge/",
+  "truncated": true,
+  "total_seen": 200,
+  "pages_read": 1,
+  "coverage_note": "The evidence does not provide a list of specific international university partners or contact details for international relations staff. The total number of partner organizations is mentioned, but they are not named individually.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.8,
+  "crawl_s": 4.1,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 17.7,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     125
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 46.1
+ }
+}
