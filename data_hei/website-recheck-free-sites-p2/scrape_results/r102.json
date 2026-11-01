@@ -1,0 +1,99 @@
+{
+ "row_id": "r102",
+ "scraped_at": "2026-11-01T19:19:28Z",
+ "contacts": {
+  "row_id": "r102",
+  "institution_name": "Zespol Szkol Budowlano-Architektonicznych",
+  "institution_type": "school",
+  "official_website": "https://budowlanka.tgory.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "admin@budowlanka.tgory.pl",
+  "generic_email_url": "https://budowlanka.tgory.pl/",
+  "contact": {
+   "name": "Józef Caus",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://budowlanka.tgory.pl/wp-content/uploads/2023/12/ZSBA_Erasmus_Grecja_2023_Final_report_main.pdf",
+   "evidence_quote": "Zespół zarządzający: - dyrektor szkoły Józef Caus – zatwierdzanie dokumentów i podejmowanie kluczowych decyzji, - księgowa Jolanta Rozik –"
+  },
+  "alternates": [
+   {
+    "name": "Jolanta Rozik",
+    "designation": "Accountant",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://budowlanka.tgory.pl/wp-content/uploads/2023/12/ZSBA_Erasmus_Grecja_2023_Final_report_main.pdf",
+    "evidence_quote": "Zespół zarządzający: - dyrektor szkoły Józef Caus – zatwierdzanie dokumentów i podejmowanie kluczowych decyzji, - księgowa Jolanta Rozik –",
+    "why_chosen": "Secretary / administration (last resort). Jolanta Rozik is the school accountant responsible for project settlement and fulfilling obligations."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Józef Caus is the school director who approves documents and makes key decisions for the project.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Akademia Śląska",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://budowlanka.tgory.pl/",
+    "evidence_quote": "[logo akademia slaska]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ECTE",
+    "partner_country": "Greece",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://budowlanka.tgory.pl/fers_2025_grecja_zsba_2/",
+    "evidence_quote": "W projekcie weźmie udział 20 uczniów kształcących się w zawodach technik budownictwa oraz monter zabudowy i robót wykończeniowych w budownictwie, a także 2 nauczycieli przedmiotów zawodowych. Uczniowie odbędą czterotygodniowe praktyki zawodowe a nauczyciele zrealizują pięciodniową wizytę typu job shadowing w Grecji. Partnerem projektu jest grecka organizacja ECTE z miejscowości Rethymno na Krecie.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zespół Szkół Budowlano-Architektonicznych",
+    "city": "Tarnowskie Góry",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://budowlanka.tgory.pl/",
+    "evidence_quote": "ul. Okrzei 3, 42-600 Tarnowskie Góry"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The evidence provides information on specific Erasmus+ projects and a partnership with Akademia Śląska, but does not contain a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 11.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 17.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 32.1,
+  "total_seconds": 75.6
+ }
+}
