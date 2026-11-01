@@ -1015,7 +1015,7 @@ function renderBudget(items, cap, correction, credit) {
   $("q-budget-card").style.display = "";
   $("q-budget-body").innerHTML = `
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:16px">
-      <div class="tile"><div class="n" style="color:var(--bad)">${usd(spent)}</div><div class="l">Spent so far (Google bill)</div></div>
+      <div class="tile"><div class="n" style="color:var(--bad)">${usd(spent)}</div><div class="l">Spent so far (estimate, live)</div></div>
       <div class="tile"><div class="n">${costPer ? "$" + costPer.toFixed(4) : "–"}</div><div class="l">Cost / institute</div></div>
       ${creditLeft === null ? "" : `<div class="tile"><div class="n" style="color:${creditLeft < 10 ? "var(--bad)" : "inherit"}">${usd(Math.max(0, creditLeft))}</div>
         <div class="l">Gemini credit left of ${usd(credit)}${creditLeft < 10 ? " – top up in AI Studio" : ""}</div></div>`}
