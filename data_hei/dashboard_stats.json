@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T20:05:27.542134+00:00",
+ "generated_at": "2026-11-01T20:21:56.982468+00:00",
  "totals": {
   "institutes": 31490,
   "with_contact": 17652,
@@ -10,7 +10,7 @@
   "campuses": 42612,
   "no_website": 6576,
   "with_website": 24914,
-  "batches": 254
+  "batches": 255
  },
  "days": [
   {
@@ -183,6 +183,22 @@
   }
  ],
  "batches": [
+  {
+   "batch": "website-recheck-shallow-education-read",
+   "status": "running",
+   "total_rows": 646,
+   "done": 29,
+   "updated": "2026-11-01T20:21:50.577073+00:00",
+   "institutes": 25,
+   "with_contact": 5,
+   "with_email": 13,
+   "personal_email": 2,
+   "generic_email": 11,
+   "partners": 18,
+   "campuses": 44,
+   "no_website": 0,
+   "with_website": 25
+  },
   {
    "batch": "website-recheck-education-search-p1",
    "status": "waiting",
