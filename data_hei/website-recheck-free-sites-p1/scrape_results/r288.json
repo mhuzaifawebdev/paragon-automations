@@ -1,0 +1,88 @@
+{
+ "row_id": "r288",
+ "scraped_at": "2026-11-01T18:25:01Z",
+ "contacts": {
+  "row_id": "r288",
+  "institution_name": "IES POLITECNICO HERMENEGILDO LANZ",
+  "institution_type": "college",
+  "official_website": "https://www.ieshlanz.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "José Manuel Vilar Perea",
+   "designation": "Coordinator",
+   "designation_local": "",
+   "email": "movilidad@ieshlanz.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.ieshlanz.es/erasmus/",
+   "evidence_quote": "Coordinador José Manuel Vilar Perea movilidad@ieshlanz.es <movilidad@ieshlanz.es>"
+  },
+  "alternates": [
+   {
+    "name": "Juan Carlos Serrano",
+    "designation": "Vice-director",
+    "designation_local": "",
+    "email": "vicedirector@ieshlanz.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ieshlanz.es/erasmus/",
+    "evidence_quote": "Vicedirector Juan Carlos Serrano vicedirector@ieshlanz.es <vicedirector@ieshlanz.es>",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the vice-director and part of the Erasmus team."
+   }
+  ],
+  "rung": "Mobility coordinator. He is explicitly listed as the Erasmus coordinator for the institution.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ayuntamiento de Granada",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ieshlanz.es/erasmus/",
+    "evidence_quote": "Para completar la oferta de proyectos y movilidades, el IES Politécnico Hermenegildo Lanz es miembro del consorcio de Erasmus + del Ayuntamiento de Granada, “GranadaFP.Share+”, con el que participa de manera ocasional en movilidades de profesorado y alumnado de CCFF de Grado Básico y Medio.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Politécnico Hermenegildo Lanz",
+    "city": "Granada",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.ieshlanz.es/contacto/",
+    "evidence_quote": "C/Albondón, nº 12, 18003, Granada"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The evidence lists specific Erasmus project codes and destination countries (Italy, Ireland, Finland, Germany) but does not provide a comprehensive list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 12.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.7,
+  "total_seconds": 48.4
+ }
+}
