@@ -1,22 +1,22 @@
 {
  "batch": "website-recheck-free-sites-p1",
  "status": "running",
- "generated_at": "2026-11-01T17:35:04.103380+00:00",
+ "generated_at": "2026-11-01T17:36:14.376403+00:00",
  "chunk": 2,
  "total_chunks": 20,
  "total_rows": 500,
- "done": 1,
- "pending": 499,
- "elapsed_seconds": 48,
- "eta_seconds": 4000,
- "cost_usd_so_far": 0.0177,
- "paid_search_usd": 0.0177,
+ "done": 8,
+ "pending": 492,
+ "elapsed_seconds": 118,
+ "eta_seconds": 5322,
+ "cost_usd_so_far": 0.1474,
+ "paid_search_usd": 0.1474,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
- "haiku_fallback_calls": 2,
+ "haiku_fallback_calls": 35,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 1,
+ "ai_calls": 26,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,14 +37,21 @@
   }
  ],
  "confidence": {
-  "high": 0,
-  "medium": 1,
-  "low": 0,
-  "none": 0
+  "high": 4,
+  "medium": 2,
+  "low": 1,
+  "none": 1
  },
- "partners_found": 1,
- "campuses_found": 1,
+ "partners_found": 269,
+ "campuses_found": 10,
  "recent": [
-  "r001"
+  "r001",
+  "r002",
+  "r003",
+  "r004",
+  "r005",
+  "r006",
+  "r007",
+  "r008"
  ]
 }
