@@ -817,5 +817,7 @@ discover.check_site, discover._wikidata, discover.load_memo, discover._ddg_searc
 check("a page with stray control characters is read, not refused",
       "Hello" in str(fp._html_to_text(b"<html><body><p>Hello\x00 \x0b world</p><a href='/x\x01y'>l</a></body></html>", "utf-8", "https://a.b/")), True)
 
+check("a name that is a web address keeps the sheet's website", discover.find_website({"row_id": "x", "name": "https://svs.edu.lv/contact", "website": "https://svs.edu.lv/", "country": ""})[0], "https://svs.edu.lv/")
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

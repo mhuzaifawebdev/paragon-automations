@@ -49,7 +49,9 @@ def choose(rows, wanted, seed=11):
     return {g: rng.sample(sorted(p), min(wanted.get(g, 0), len(p))) for g, p in pools.items()}
 
 
-def write_batches(names, name, data=DATA, chunk=500, now="2026-11-01T00:00:00Z"):
+def write_batches(names, name, data=DATA, chunk=500, now="2026-11-01T00:00:00Z", sites=None):
+    """sites: {name: website} found beforehand, so those rows need no paid search."""
+    sites = sites or {}
     parts = [names[i:i + chunk] for i in range(0, len(names), chunk)]
     written = []
     for n, part in enumerate(parts, 1):
@@ -58,8 +60,8 @@ def write_batches(names, name, data=DATA, chunk=500, now="2026-11-01T00:00:00Z")
         up.parent.mkdir(parents=True, exist_ok=True)
         with open(up, "w", newline="", encoding="utf-8") as f:
             w = csv.writer(f)
-            w.writerow(["institute", "country"])
-            w.writerows([x, ""] for x in part)
+            w.writerow(["institute", "country", "website"])
+            w.writerows([x, "", sites.get(x, "")] for x in part)
         req = Path(data) / "_queue_requests" / f"{batch}.json"
         req.parent.mkdir(parents=True, exist_ok=True)
         req.write_text(json.dumps({"batch": batch, "source": "website re-check", "added": now, "reader": "paid",
@@ -75,7 +77,14 @@ def main():
     ap.add_argument("--retail", type=int, default=0)
     ap.add_argument("--name", required=True)
     ap.add_argument("--chunk", type=int, default=500)
+    ap.add_argument("--sites", help="JSON file of {name: website}: sends exactly these names, each with its website")
     a = ap.parse_args()
+    if a.sites:
+        sites = json.loads(Path(a.sites).read_text(encoding="utf-8"))
+        print("total", len(sites))
+        for p in write_batches(sorted(sites), a.name, chunk=a.chunk, sites=sites):
+            print(p)
+        return
     rows = json.loads((DATA / "institute_counts.json").read_text(encoding="utf-8"))["institutes"]
     picked = choose(rows, {"education": a.education, "other": a.other, "retail": a.retail})
     names = [x for g in picked.values() for x in g]

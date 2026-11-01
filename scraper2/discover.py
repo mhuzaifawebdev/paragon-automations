@@ -669,6 +669,9 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
     # domain is often not its website (hsmarnix.nl vs marnixacademie.nl). It still has to pass the homepage
     # proof, because sheets also contain wrong links; a social-media page is never taken as the website.
     given = (row.get("website") or "").strip()
+    # The sheet wrote a web address where the name goes: there is no name to look for on the page, so the site stands.
+    if given and re.match(r"https?://|www\.", (row.get("name") or "").strip(), re.I):
+        return given, "the sheet's name is the web address", "the address was written in the sheet"
     pu = urllib.parse.urlparse(given if "//" in given else "https://" + given) if given else None
     if pu and pu.netloc and not any(h in pu.netloc.lower() for h in SKIP_HOSTS):
         host = pu.netloc.lower()[4:] if pu.netloc.lower().startswith("www.") else pu.netloc.lower()
