@@ -1,0 +1,80 @@
+{
+ "row_id": "r314",
+ "scraped_at": "2026-11-01T09:09:00Z",
+ "contacts": {
+  "row_id": "r314",
+  "institution_name": "Hellenic Naval Academy",
+  "institution_type": "university",
+  "official_website": "https://www.hna.gr/en",
+  "country": {
+   "value": "Greece",
+   "source_url": "https://www.hna.gr/sites/default/files/hna_docs/Erasmus/GR%20HNA%20CM%20Maritime%20Security%202024%2004%2001_05%20Module%20Description.pdf",
+   "evidence_quote": "Greece"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "foreign military schools and universities",
+    "partner_country": "unknown",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.hna.gr/en/erasmus-en",
+    "evidence_quote": "Strategic alliances in education, research, and training innovation with foreign military schools and universities.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hellenic Naval Academy",
+    "city": "Piraeus",
+    "country": "Greece",
+    "role": "main",
+    "source_url": "https://www.hna.gr/en",
+    "evidence_quote": "Hadjikyriakou Avenue, Piraeus, P.C. 18539"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 6,
+  "coverage_note": "The evidence names the Hellenic Naval Academy and mentions general cooperation with foreign military schools and universities, but does not provide an explicit, named list of individual partner institutions or a specific contact person with a direct email for Erasmus+ on the main pages.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 12.0,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 24.1
+ }
+}
