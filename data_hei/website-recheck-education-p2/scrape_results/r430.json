@@ -1,0 +1,126 @@
+{
+ "row_id": "r430",
+ "scraped_at": "2026-11-01T10:56:22Z",
+ "contacts": {
+  "row_id": "r430",
+  "institution_name": "University",
+  "institution_type": "university",
+  "official_website": "https://www.virginia.edu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Education Abroad",
+   "designation": "International Studies Office",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "434-982-3010",
+   "source_url": "https://www.virginia.edu/contact-us/",
+   "evidence_quote": "Education Abroad ... (International Studies Office)"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. The International Studies Office is the primary unit responsible for education abroad and international mobility at the university.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'The University of Virginia' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "College at Wise",
+    "partner_country": "unknown",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://news.virginia.edu/content/president-scott-beardsley-strategic-plan-his-vision-uva-and-other-key-questions?utm_source=Virginia-News&utm_medium=referral&utm_campaign=news",
+    "evidence_quote": "UVA Health doctor earns top award from College at Wise",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "University of Virginia",
+    "city": "Charlottesville",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://conversation.virginia.edu/strategic-planning-committee",
+    "evidence_quote": "Charlottesville, VA 22904-4224"
+   },
+   {
+    "campus_name": "UVA Wise",
+    "city": "Wise",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://conversation.virginia.edu/strategic-planning-committee",
+    "evidence_quote": "Donna Henry, chancellor, UVA Wise."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of international partners or Erasmus+ agreements. Contact information for specific international mobility officers is limited to the general office contact. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 15.7,
+  "crawl_s": 6.9,
+  "ai_calls": 6,
+  "partner_calls": 5,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     561,
+     645
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 50.9
+ }
+}
