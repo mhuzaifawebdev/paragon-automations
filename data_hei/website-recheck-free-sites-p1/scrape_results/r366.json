@@ -1,0 +1,114 @@
+{
+ "row_id": "r366",
+ "scraped_at": "2026-11-01T18:37:17Z",
+ "contacts": {
+  "row_id": "r366",
+  "institution_name": "Lycée des métiers Pierre Boulanger",
+  "institution_type": "school",
+  "official_website": "https://lyceepierreboulanger.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "GRETA",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepierreboulanger.fr/",
+    "evidence_quote": "[GRETA]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "cfa ena",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepierreboulanger.fr/",
+    "evidence_quote": "[cfa ena]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "REGION AURA",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepierreboulanger.fr/",
+    "evidence_quote": "[REGION AURA]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CAMPUS LOGISTIQUE",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepierreboulanger.fr/",
+    "evidence_quote": "[CAMPUS LOGISTIQUE]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CAMPUS AUTO MOBILITE",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceepierreboulanger.fr/",
+    "evidence_quote": "[CAMPUS AUTO MOBILITE]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Pierre Boulanger",
+    "city": "Pont-du-Château",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceepierreboulanger.fr/",
+    "evidence_quote": "Lycée Pierre Boulanger"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 1,
+  "coverage_note": "The website does not list specific names or contact details for staff members, nor does it provide a detailed list of international Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 5.2,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     71
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 21.0
+ }
+}
