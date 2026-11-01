@@ -1,0 +1,129 @@
+{
+ "row_id": "r099",
+ "scraped_at": "2026-11-01T08:14:33Z",
+ "contacts": {
+  "row_id": "r099",
+  "institution_name": "IKONOMICHESKI UNIVERSITET - VARNA",
+  "institution_type": "university",
+  "official_website": "https://www.ue-varna.bg/",
+  "country": {
+   "value": "България",
+   "source_url": "https://www.ue-varna.bg/",
+   "evidence_quote": "Гласуване на студентите във втория тур на изборите за президент и вицепрезидент на Република България 2026 г."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "international@ue-varna.bg",
+  "generic_email_url": "https://www.ue-varna.bg/bg/p/7807/mezhdunarodna-deynost",
+  "contact": {
+   "name": "Ana Yanakieva",
+   "designation": "Contact person",
+   "designation_local": "",
+   "email": "ana_yanakieva@ue-varna.bg",
+   "office_email": "",
+   "phone": "+359 52 830801",
+   "source_url": "https://ue-varna.bg/en/p/8383/za-nas/kontakti",
+   "evidence_quote": "ana_yanakieva@ue-varna.bg <ana_yanakieva@ue-varna.bg> |"
+  },
+  "alternates": [
+   {
+    "name": "Elitsa Videnova",
+    "designation": "PR officer",
+    "designation_local": "",
+    "email": "pr_expert@ue-varna.bg",
+    "office_email": "",
+    "phone": "+359 882 164609",
+    "source_url": "https://ue-varna.bg/en/p/8383/za-nas/kontakti",
+    "evidence_quote": "PR officer Ms Elitsa Videnova |",
+    "why_chosen": "Secretary / administration (last resort). Elitsa Videnova is the PR officer for the institution."
+   },
+   {
+    "name": "Desislava Mollova",
+    "designation": "Student Scholarships and Accommodation Officer",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+359 52 830809",
+    "source_url": "https://ue-varna.bg/en/p/8383/za-nas/kontakti",
+    "evidence_quote": "Please contact Ms Desislava Mollova, the Student Scholarships and Accommodation Officer, for info on student accommodation and scholarships |",
+    "why_chosen": "Secretary / administration (last resort). Desislava Mollova is the Student Scholarships and Accommodation Officer."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Ana Yanakieva is listed as a contact person with an email address at the university.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Dukenet",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-varna.bg/",
+    "evidence_quote": "[Dukenet]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Businet",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ue-varna.bg/",
+    "evidence_quote": "[Businet]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Основна сграда",
+    "city": "Варна",
+    "country": "България",
+    "role": "main",
+    "source_url": "https://ue-varna.bg/bg/p/8383/za-nas/kontakti",
+    "evidence_quote": "Основна сграда на Икономически университет – Варна"
+   },
+   {
+    "campus_name": "Учебен и научноизследователски блок № 2",
+    "city": "Варна",
+    "country": "България",
+    "role": "branch",
+    "source_url": "https://ue-varna.bg/bg/p/8383/za-nas/kontakti",
+    "evidence_quote": "Учебен и научноизследователски блок № 2"
+   },
+   {
+    "campus_name": "Трети корпус",
+    "city": "Варна",
+    "country": "България",
+    "role": "branch",
+    "source_url": "https://ue-varna.bg/bg/p/8383/za-nas/kontakti",
+    "evidence_quote": "(Трети корпус на ИУ – Варна)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The website mentions that a list of partner universities is available through their internal WebStudent system, but no full list of partner names is provided in the public evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.8,
+  "crawl_s": 13.1,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.7,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 34.4
+ }
+}
