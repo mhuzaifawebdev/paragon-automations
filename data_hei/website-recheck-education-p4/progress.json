@@ -1,22 +1,22 @@
 {
  "batch": "website-recheck-education-p4",
  "status": "running",
- "generated_at": "2026-11-01T12:34:09.454315+00:00",
- "chunk": 2,
+ "generated_at": "2026-11-01T12:35:18.194769+00:00",
+ "chunk": 3,
  "total_chunks": 20,
  "total_rows": 500,
- "done": 25,
- "pending": 475,
- "elapsed_seconds": 173,
- "eta_seconds": 2944,
- "cost_usd_so_far": 0.0581,
- "paid_search_usd": 0.0581,
+ "done": 28,
+ "pending": 472,
+ "elapsed_seconds": 217,
+ "eta_seconds": 2850,
+ "cost_usd_so_far": 0.0922,
+ "paid_search_usd": 0.0922,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
- "haiku_fallback_calls": 22,
+ "haiku_fallback_calls": 38,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 22,
+ "ai_calls": 32,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -37,17 +37,14 @@
   }
  ],
  "confidence": {
-  "high": 4,
+  "high": 5,
   "medium": 0,
   "low": 1,
-  "none": 20
+  "none": 22
  },
- "partners_found": 165,
- "campuses_found": 14,
+ "partners_found": 348,
+ "campuses_found": 15,
  "recent": [
-  "r006",
-  "r007",
-  "r008",
   "r009",
   "r010",
   "r011",
@@ -64,6 +61,9 @@
   "r022",
   "r023",
   "r024",
-  "r025"
+  "r025",
+  "r026",
+  "r029",
+  "r030"
  ]
 }
