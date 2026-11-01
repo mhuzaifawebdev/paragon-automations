@@ -5,6 +5,7 @@ Run by .github/workflows/scrape_batch.yml after every chunk; safe to run by hand
 Contains counts only - no names, emails or other contact details (the page is public).
 """
 import json
+import re
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -13,6 +14,13 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data_hei"
 OUT = DATA / "dashboard_stats.json"
 OUT_INSTITUTES = DATA / "institute_counts.json"
+
+
+RECHECK_PREFIX = "website-recheck-"
+
+
+def _key(name):
+    return " ".join(re.sub(r"[^\w]+", " ", str(name).lower()).split())
 
 
 def _empty():
@@ -45,9 +53,33 @@ def institute_row(result, batch):
     """One line of the Institutes view: counts only, no people or addresses (the page is public)."""
     c = result.get("contacts") or {}
     n = institute_counts(result)
-    return {"name": " ".join(str(c.get("institution_name") or "").strip(" \"'").split()), "country": (c.get("country") or {}).get("value") or "",
+    line = {"name": " ".join(str(c.get("institution_name") or "").strip(" \"'").split()), "country": (c.get("country") or {}).get("value") or "",
             "type": c.get("institution_type") or "", "batch": batch, "campuses": n["campuses"], "partners": n["partners"],
             "website": n["with_website"]}
+    if batch.startswith(RECHECK_PREFIX):
+        line["found"] = {k: n[k] for k in ("with_contact", "with_email", "personal_email", "generic_email")}
+    return line
+
+
+def apply_rechecks(totals, lines):
+    """A website re-check (scripts/recheck_websites.py) improves institutes already counted; it adds none. Each site it
+    found moves every row of that name out of Website not found. Removes the re-check's lines from `lines`."""
+    rechecks = [x for x in lines if x["batch"].startswith(RECHECK_PREFIX)]
+    lines[:] = [x for x in lines if not x["batch"].startswith(RECHECK_PREFIX)]
+    missing = defaultdict(list)
+    for x in lines:
+        if not x["website"]:
+            missing[_key(x["name"])].append(x)
+    for r in rechecks:
+        rows = missing.pop(_key(r["name"]), []) if r["website"] else []
+        for x in rows:
+            x.update(website=1, type=r["type"], country=r["country"], campuses=r["campuses"], partners=r["partners"])
+            totals["no_website"] -= 1
+            totals["with_website"] += 1
+            totals["partners"] += r["partners"]
+            totals["campuses"] += r["campuses"]
+            for k, v in r["found"].items():
+                totals[k] += v
 
 
 def batch_figures(bdir):
@@ -85,16 +117,16 @@ def batch_figures(bdir):
 
 def build(data=DATA, rows=None):
     """rows: if a list is given, the Institutes view lines are appended to it."""
-    totals, by_day, batches = _empty(), defaultdict(_empty), []
+    totals, by_day, batches, lines_all = _empty(), defaultdict(_empty), [], []
     for bdir in sorted(p for p in Path(data).iterdir() if p.is_dir() and p.name != "uploads" and not p.name.startswith("_")):
         b, days, lines = batch_figures(bdir)
-        if rows is not None:
-            rows.extend(lines)
-        for k, v in b.items():
-            totals[k] += v
-        for day, counts in days.items():
-            for k, v in counts.items():
-                by_day[day][k] += v
+        lines_all.extend(lines)
+        if not bdir.name.startswith(RECHECK_PREFIX):
+            for k, v in b.items():
+                totals[k] += v
+            for day, counts in days.items():
+                for k, v in counts.items():
+                    by_day[day][k] += v
         prog = {}
         if (bdir / "progress.json").exists():
             try:
@@ -106,6 +138,9 @@ def build(data=DATA, rows=None):
         batches.append({"batch": bdir.name, "status": prog.get("status") or ("done" if b["institutes"] else "unknown"),
                         "total_rows": prog.get("total_rows") or b["institutes"], "done": prog.get("done", b["institutes"]),
                         "updated": prog.get("generated_at") or "", **b})
+    apply_rechecks(totals, lines_all)
+    if rows is not None:
+        rows.extend(lines_all)
     batches.sort(key=lambda x: x["updated"] or "", reverse=True)
     return {"generated_at": datetime.now(timezone.utc).isoformat(), "totals": {**totals, "batches": len(batches)},
             "days": [{"day": d, **v} for d, v in sorted(by_day.items())], "batches": batches}

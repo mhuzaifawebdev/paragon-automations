@@ -17,6 +17,7 @@ on:
       - .github/workflows/queue.yml
       - .github/workflows/scrape_batch.yml
       - scripts/queue_tick.py
+      - data_hei/_queue_requests/**
 
 permissions:
   contents: write

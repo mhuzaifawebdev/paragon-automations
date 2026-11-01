@@ -140,6 +140,34 @@ check("the file lands in Drive/Results, under the batch's name", (put[0][0], put
 check("only the new number is in it (the tried mobile is left out)", ("+34 911 222 333" in put[0][2], "600 000 000" in put[0][2]), (True, False))
 check("the item records the counts, and the tried numbers are removed", (it["crm_rows"], (root / "rescrape" / f"{batch}.json").exists()), (1, False))
 
+# ---- website re-check: picks clean names once, and a found site moves rows out of Website not found
+import build_dashboard_stats as bds  # noqa: E402
+import recheck_websites as rw  # noqa: E402
+
+base = [{"name": "Universita Bocconi", "batch": "a", "website": 0}, {"name": "UNIVERSITA  BOCCONI", "batch": "b", "website": 0},
+        {"name": "Sunny Bakery", "batch": "retail-stores-malta-p1", "website": 0}, {"name": "Acme Ltd", "batch": "a", "website": 0},
+        {"name": "34986419899", "batch": "a", "website": 0}, {"name": "Has Site College", "batch": "a", "website": 1},
+        {"name": "Done College", "batch": "a", "website": 0}, {"name": "Done College", "batch": "website-recheck-pilot", "website": 0}]
+picked = rw.choose(base, {"education": 9, "other": 9, "retail": 9})
+check("clean names once, sorted into groups; none with a site, broken, or rechecked before",
+      picked, {"education": ["Universita Bocconi"], "other": ["Acme Ltd"], "retail": ["Sunny Bakery"]})
+wr = Path(tempfile.mkdtemp())
+paths = rw.write_batches(["A School", "B School", "C School"], "t", wr, chunk=2)
+check("a long list splits into parts, each a priority rescrape", ([p.name for p in paths if p.suffix == ".json"],
+      json.loads(paths[1].read_text())["kind"]), (["website-recheck-t-p1.json", "website-recheck-t-p2.json"], "rescrape"))
+lines = [{"name": "Universita Bocconi", "batch": "a", "website": 0, "type": "", "country": "", "campuses": 0, "partners": 0},
+         {"name": "UNIVERSITA BOCCONI", "batch": "b", "website": 0, "type": "", "country": "", "campuses": 0, "partners": 0},
+         {"name": "Acme Ltd", "batch": "a", "website": 0, "type": "", "country": "", "campuses": 0, "partners": 0},
+         {"name": "Universita Bocconi", "batch": "website-recheck-p", "website": 1, "type": "university", "country": "Italy", "campuses": 1, "partners": 2,
+          "found": {"with_contact": 1, "with_email": 1, "personal_email": 0, "generic_email": 1}},
+         {"name": "Acme Ltd", "batch": "website-recheck-p", "website": 0, "type": "", "country": "", "campuses": 0, "partners": 0,
+          "found": {"with_contact": 0, "with_email": 0, "personal_email": 0, "generic_email": 0}}]
+tot = {**bds._empty(), "institutes": 3, "no_website": 3}
+bds.apply_rechecks(tot, lines)
+check("a found site clears every row of that name; no institute is added; a miss changes nothing",
+      (tot["institutes"], tot["no_website"], tot["with_website"], tot["with_contact"], tot["partners"], [x["website"] for x in lines]),
+      (3, 1, 2, 2, 4, [1, 1, 0]))
+
 # ---- the batch runner really scrapes again when NO_REUSE is set
 import batch_runner as br  # noqa: E402
 

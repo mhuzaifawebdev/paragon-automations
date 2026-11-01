@@ -1033,9 +1033,10 @@ async function loadQueue() {
     const q = await (await fetch("/api/stats?view=queue", { cache: "no-store" })).json();
     const items = q.items || [];
     const n = s => items.filter(i => i.state === s).length;
-    const totalRows = items.reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
-    const doneRows  = items.filter(i => i.state === "done").reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
-    const liveRows  = items.filter(i => i.state === "running").reduce((s, i) => s + (parseInt(i.rows_done) || 0), 0);
+    const counted   = items.filter(i => !String(i.batch).startsWith("website-recheck-"));   // these improve institutes already counted
+    const totalRows = counted.reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
+    const doneRows  = counted.filter(i => i.state === "done").reduce((s, i) => s + (parseInt(i.rows) || 0), 0);
+    const liveRows  = counted.filter(i => i.state === "running").reduce((s, i) => s + (parseInt(i.rows_done) || 0), 0);
     $("q-tiles").innerHTML = [
       [n("queued"), "Waiting"],
       [n("running"), "Running"],
