@@ -4381,7 +4381,7 @@
    "batch": "website-recheck-education-p1",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "paid",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4390,18 +4390,30 @@
    "started": "2026-11-01T07:57:15Z",
    "last_start": "2026-11-01T07:57:15Z",
    "restarts": 0,
-   "cap_usd": 595.32
+   "cap_usd": 595.32,
+   "crm_rows": 184,
+   "no_number": 398,
+   "spend_recorded": true,
+   "cost_usd": 11.7805,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1V0_67IzwFA1woLTYr7_ARIdYIYM5S2QD/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 371,
+   "finished": "2026-11-01T09:47:10Z",
+   "reason": "500 institutes, 272 with a contact"
   },
   {
    "batch": "website-recheck-education-p2",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "paid",
    "provider": "gemini",
    "chunk_size": 25,
    "priority": true,
-   "kind": "rescrape"
+   "kind": "rescrape",
+   "started": "2026-11-01T09:47:10Z",
+   "last_start": "2026-11-01T09:47:10Z",
+   "restarts": 0,
+   "cap_usd": 583.54
   },
   {
    "batch": "website-recheck-education-p3",
@@ -4438,7 +4450,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-01T07:57:15Z",
+ "updated": "2026-11-01T09:47:10Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
