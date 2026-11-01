@@ -1,0 +1,99 @@
+{
+ "row_id": "r276",
+ "scraped_at": "2026-11-01T19:42:07Z",
+ "contacts": {
+  "row_id": "r276",
+  "institution_name": "ies guadalpin",
+  "institution_type": "school",
+  "official_website": "https://www.guadalpin.es/es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "direccion@guadalpin.es",
+  "generic_email_url": "https://www.guadalpin.es/es/equipo-directivo/",
+  "contact": {
+   "name": "Fernando Vázquez Vázquez",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "direccion@guadalpin.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.guadalpin.es/es/equipo-directivo/",
+   "evidence_quote": "D. Fernando Vázquez Vázquez | ... Director |"
+  },
+  "alternates": [
+   {
+    "name": "José Luis Fernández Odero",
+    "designation": "Vice-director",
+    "designation_local": "",
+    "email": "vicedireccion@guadalpin.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.guadalpin.es/es/equipo-directivo/",
+    "evidence_quote": "D. José Luis Fernández Odero | ... Vicedirector |",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is part of the senior management team and can assist with institutional inquiries."
+   },
+   {
+    "name": "Álvaro Núñez Rojo",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "secretario@guadalpin.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.guadalpin.es/es/equipo-directivo/",
+    "evidence_quote": "D. Álvaro Núñez Rojo | ... Secretario |",
+    "why_chosen": "Secretary / administration (last resort). As the Secretary, he manages administrative operations for the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the Director of the institution, he holds the primary leadership role.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "L’epicerie",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.guadalpin.es/es/",
+    "evidence_quote": "Dos alumnos de Grado Medio están realizando el Erasmus en Berlín en la empresa L’epicerie.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Guadalpín",
+    "city": "Marbella",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.guadalpin.es/es/",
+    "evidence_quote": "C.E.P. Marbella"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a formal list of Erasmus+ partners, only mentioning specific companies where students have completed internships. Contact information for the Erasmus+ coordinator is not explicitly provided, so the senior management team is listed instead.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 14.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 31.5,
+  "total_seconds": 70.6
+ }
+}
