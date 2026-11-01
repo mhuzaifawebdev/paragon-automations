@@ -1,0 +1,87 @@
+{
+ "row_id": "r135",
+ "scraped_at": "2026-11-01T20:30:51Z",
+ "contacts": {
+  "row_id": "r135",
+  "institution_name": "Curt Nicolin Gymnasiet AB",
+  "institution_type": "school",
+  "official_website": "https://www.cng.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Anders Södergren",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "anders.sodergren@cng.se",
+   "office_email": "",
+   "phone": "076-0001904",
+   "source_url": "https://www.cng.se/synpunkter",
+   "evidence_quote": "Rektor, Anders Södergren Tel. 076-0001904, e-post: anders.sodergren@cng.se"
+  },
+  "alternates": [
+   {
+    "name": "Magnus Ekenblom",
+    "designation": "CEO",
+    "designation_local": "",
+    "email": "magnus.ekenblom@cng.se",
+    "office_email": "",
+    "phone": "072-5669211",
+    "source_url": "https://www.cng.se/synpunkter",
+    "evidence_quote": "VD, Magnus Ekenblom Tel. 072-5669211, e-post: magnus.ekenblom@cng.se",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the CEO of the institution, he oversees the school's operations and management."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the principal of the school, he is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ERASMUS+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cng.se/faq",
+    "evidence_quote": "Under det sista året hos oss erbjuder vi alla elever att åka iväg på utlandspraktik tillsammans med sin klass. Detta gör vi i samarbete med ERASMUS+. Destinationerna som vi besöker varierar från år till år.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Curt Nicolin Gymnasiet",
+    "city": "Finspång",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.cng.se/",
+    "evidence_quote": "612 30 Finspång"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence mentions cooperation with ERASMUS+ for student mobility but does not provide a specific list of partner institutions. No dedicated international relations staff is listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 7.5,
+  "ai_calls": 1,
+  "model_s": 1.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 11.2
+ }
+}
