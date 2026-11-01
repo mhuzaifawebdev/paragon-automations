@@ -79,7 +79,7 @@ def take_requests(q, data_root, now):
             q["items"].append({"batch": b, "source": req.get("source") or "upload page", "added": req.get("added") or now,
                                "state": "queued", "reader": req.get("reader") or "paid",
                                "provider": req.get("provider") or "gemini", "chunk_size": req.get("chunk_size") or 25,
-                               **{k: req[k] for k in ("priority", "kind") if req.get(k)},
+                               **{k: req[k] for k in ("priority", "kind", "no_paid_search") if req.get(k)},
                                **({"max_usd": float(req["max_usd"])} if "max_usd" in req else {})})
             have.add(b)
         f.unlink()
@@ -231,6 +231,8 @@ class Ops:
         _write(bdir / "reader.json", {**reader, "set_at": now_iso()})
         if "cap_usd" in it:
             _write(bdir / "BUDGET", {"cap_usd": it["cap_usd"]})
+        if it.get("no_paid_search"):                    # paid reading only: scraper2/batch_runner.recheck_settings()
+            _write(bdir / "NO_PAID_SEARCH", {"set_at": now_iso()})
         if it.get("kind") == "rescrape":                # scrape again: the earlier result holds the number that failed
             _write(bdir / "NO_REUSE", {"set_at": now_iso()})
         self.to_start.append({"batch": it["batch"], "provider": it.get("provider") or "gemini",

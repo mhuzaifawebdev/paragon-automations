@@ -300,5 +300,21 @@ qt._write(root9 / "c1" / "progress.json", {"status": "cancelled"})
 qt.tick(root9, "2026-11-02T11:00:00Z", {"max_queue_usd_total": 850}, ops9)
 check("the next request keeps its own cap", {i["batch"]: i.get("cap_usd") for i in qt.load_queue(root9)["items"]}.get("c2"), 6.0)
 
+# ---- a batch that may pay for reading but never for a search
+root10 = Path(tempfile.mkdtemp())
+qt._write(root10 / "queue.json", {"items": []})
+qt._write(root10 / "_queue_requests" / "n1.json", {"batch": "n1", "reader": "paid", "max_usd": 6, "no_paid_search": True})
+qt.tick(root10, "2026-11-02T10:00:00Z", {}, FakeOps())
+check("a request can forbid paid search", qt.load_queue(root10)["items"][0].get("no_paid_search"), True)
+import batch_runner as br_nps  # noqa: E402
+marked = Path(tempfile.mkdtemp())
+(marked / "NO_PAID_SEARCH").write_text("{}")
+cfg_nps = br_nps.recheck_settings(marked, {"gemini_site_search": True, "email_web_search": True, "staff_search": True, "staff_search_when_no_contact": True,
+                                           "claude_site_search": True, "discover_with_search": True})
+check("that batch runs no paid search of any kind, the free search stays",
+      [cfg_nps[k] for k in ("gemini_site_search", "email_web_search", "staff_search", "staff_search_when_no_contact", "claude_site_search", "search_provider", "discover_with_search")],
+      [False, False, False, False, False, "gemini", True])
+check("other batches are untouched", br_nps.recheck_settings(Path(tempfile.mkdtemp()), {"gemini_site_search": True})["gemini_site_search"], True)
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

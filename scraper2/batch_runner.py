@@ -281,6 +281,9 @@ def recheck_settings(data_dir, cfg):
         deep = False
     if deep:
         cfg.update(max_pages=20, partner_slices=False, staff_search=True)
+    if (Path(data_dir) / "NO_PAID_SEARCH").exists():    # websites came from free sources: pay for reading, nothing else
+        cfg.update(gemini_site_search=False, claude_site_search=False, search_provider="gemini", email_web_search=False,
+                   staff_search=False, staff_search_when_no_contact=False, partner_slices=False)
     return cfg
 
 
