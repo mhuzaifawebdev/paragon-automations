@@ -1,0 +1,188 @@
+{
+ "row_id": "r321",
+ "scraped_at": "2026-11-01T09:10:18Z",
+ "contacts": {
+  "row_id": "r321",
+  "institution_name": "Frederick Institute of Technology",
+  "institution_type": "university",
+  "official_website": "https://www.frederick.ac.cy/en/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "adminfo@frederick.ac.cy",
+  "generic_email_url": "https://www.frederick.ac.cy/en/distance-learning/contact-us",
+  "contact": {
+   "name": "Varnavas Mytilinaios",
+   "designation": "Institutional ERASMUS+ Coordinator",
+   "designation_local": "",
+   "email": "ad.mv@frederick.ac.cy",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.frederick.ac.cy/en/about-us/faculty-staff/administrative-staff",
+   "evidence_quote": "Mytilinaios Varnavas | ... Institutional ERASMUS+ Coordinator |"
+  },
+  "alternates": [
+   {
+    "name": "Andreas Poullikkas",
+    "designation": "Vice-Rector for Development, Internationalization and Partnerships",
+    "designation_local": "",
+    "email": "a.poullikkas@frederick.ac.cy",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.frederick.ac.cy/en/about-us/governance",
+    "evidence_quote": "Vice-Rector for Development, Internationalization and Partnerships | ... Prof. Andreas Poullikkas |",
+    "why_chosen": "Vice-rector for international affairs. Andreas Poullikkas is Vice-Rector for Development, Internationalization and Partnerships, overseeing international cooperation."
+   }
+  ],
+  "rung": "Institutional Erasmus+ coordinator. Varnavas Mytilinaios is the Institutional ERASMUS+ Coordinator and the direct contact for international mobility.",
+  "source": "web",
+  "confidence": 0.95,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EU-CONEXUS Plus",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frederick.ac.cy/en/",
+    "evidence_quote": "[Member of EU-CONEXUS]Member of EU-CONEXUS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EU-CONEXUS",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frederick.ac.cy/en/",
+    "evidence_quote": "[Member of EU-CONEXUS]Member of EU-CONEXUS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EU CONEXUS",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frederick.ac.cy/en/about-us/faculty-staff/administrative-staff",
+    "evidence_quote": "EU CONEXUS - Project Manager |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EU CONEXUS - European University for Smart Urban Coastal Sustainability",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frederick.ac.cy/en/about-us/governance",
+    "evidence_quote": "Project Manager | EU CONEXUS - European University for Smart Urban Coastal Sustainability |",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Nicosia Campus",
+    "city": "Nicosia",
+    "country": "Cyprus",
+    "role": "main",
+    "source_url": "https://www.frederick.ac.cy/en/",
+    "evidence_quote": "campuses Nicosia Limassol"
+   },
+   {
+    "campus_name": "Limassol Campus",
+    "city": "Limassol",
+    "country": "Cyprus",
+    "role": "branch",
+    "source_url": "https://www.frederick.ac.cy/en/",
+    "evidence_quote": "campuses Nicosia Limassol"
+   },
+   {
+    "campus_name": "Athens Office",
+    "city": "Athens",
+    "country": "Greece",
+    "role": "international",
+    "source_url": "https://www.frederick.ac.cy/en/",
+    "evidence_quote": "Athens"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not list specific individual bilateral partner universities, only mentioning membership in the EU-CONEXUS Plus network.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.7,
+  "crawl_s": 19.1,
+  "ai_calls": 8,
+  "partner_calls": 7,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.9,
+  "mode": "gemini",
+  "email_search_s": 14.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     421,
+     560
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     701,
+     840
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     841,
+     980
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     981,
+     1120
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     1121,
+     1220
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 45.6
+ }
+}
