@@ -4519,7 +4519,7 @@
    "batch": "website-recheck-free-sites-p2",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "paid",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4528,11 +4528,19 @@
    "started": "2026-11-01T19:01:20Z",
    "last_start": "2026-11-01T19:01:20Z",
    "restarts": 0,
-   "cap_usd": 553.86
+   "cap_usd": 553.86,
+   "crm_rows": 111,
+   "no_number": 221,
+   "spend_recorded": true,
+   "cost_usd": 1.526,
+   "drive_link": "https://docs.google.com/spreadsheets/d/15cpZW04OO_SGx7uHnnO_ioqhTUI2_Ijr/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 224,
+   "finished": "2026-11-01T19:42:49Z",
+   "reason": "284 institutes, 160 with a contact"
   }
  ],
  "paused": null,
- "updated": "2026-11-01T19:01:20Z",
+ "updated": "2026-11-01T19:42:49Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
