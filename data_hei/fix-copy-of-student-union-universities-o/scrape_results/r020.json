@@ -1,0 +1,83 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-11-02T09:14:21Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "University of Klagenfurt (Alpen-Adria-Universität Klagenfurt)",
+  "institution_type": "university",
+  "official_website": "https://www.oeh-klagenfurt.at/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Margarethe Meckel",
+   "designation": "Secretariat",
+   "designation_local": "",
+   "email": "oeh.sekretariat@aau.at",
+   "office_email": "",
+   "phone": "+43 463 2700 8803",
+   "source_url": "https://www.oeh-klagenfurt.at/",
+   "evidence_quote": "Sekretariat: Margarethe Meckel"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Margarethe Meckel is the contact for internal secretariat matters and general inquiries.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "FH Kärnten",
+    "partner_country": "Austria",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oeh-klagenfurt.at/kooperationen/",
+    "evidence_quote": "Als Student_in an der AAU, FH Kärnten oder PH Kärnten kannst du dir jetzt den STUDIbike-Tarif sichern: Für nur € 35,50 im Jahr oder € 23,50 pro Semester radelst du umweltfreundlich durch die Stadt. Die ersten 30 Minuten jeder Fahrt sind kostenlos, danach zahlst du nur € 1,50 pro weitere halbe Stunde, mit einem Tagesmaximum von € 11.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "PH Kärnten",
+    "partner_country": "Austria",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oeh-klagenfurt.at/kooperationen/",
+    "evidence_quote": "Als Student_in an der AAU, FH Kärnten oder PH Kärnten kannst du dir jetzt den STUDIbike-Tarif sichern: Für nur € 35,50 im Jahr oder € 23,50 pro Semester radelst du umweltfreundlich durch die Stadt. Die ersten 30 Minuten jeder Fahrt sind kostenlos, danach zahlst du nur € 1,50 pro weitere halbe Stunde, mit einem Tagesmaximum von € 11.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Universität Klagenfurt",
+    "city": "Klagenfurt am Wörthersee",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://www.oeh-klagenfurt.at/",
+    "evidence_quote": "9020 Klagenfurt am Wörthersee"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The evidence does not contain a dedicated list of international Erasmus partner universities, only local cooperations and student union details.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 14.2,
+  "ai_calls": 1,
+  "model_s": 50.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 66.6
+ }
+}
