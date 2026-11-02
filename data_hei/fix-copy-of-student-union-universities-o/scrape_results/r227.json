@@ -1,0 +1,74 @@
+{
+ "row_id": "r227",
+ "scraped_at": "2026-11-02T09:43:06Z",
+ "contacts": {
+  "row_id": "r227",
+  "institution_name": "University of Nantes",
+  "institution_type": "college",
+  "official_website": "https://www.univ-nantes-aviron.fr/page/416559-presentation",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: Wikidata. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fédération Française d'Aviron (FFA)",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.univ-nantes-aviron.fr/page/416559-presentation",
+    "evidence_quote": "Etant affiliée à la Fédération Française d'Aviron (FFA), l'association donne la possibilité, en plus des activités proposées par la FFSU (Fédération Française des Sports Universitaires), de participer à toutes les activités civiles de la Fédération au travers de la licence fédérale incluse dans la cotisation.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FFSU (Fédération Française des Sports Universitaires)",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.univ-nantes-aviron.fr/page/416559-presentation",
+    "evidence_quote": "Etant affiliée à la Fédération Française d'Aviron (FFA), l'association donne la possibilité, en plus des activités proposées par la FFSU (Fédération Française des Sports Universitaires), de participer à toutes les activités civiles de la Fédération au travers de la licence fédérale incluse dans la cotisation.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Université Nantes Aviron",
+    "city": "Nantes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.univ-nantes-aviron.fr/page/577483-contact-et-acces",
+    "evidence_quote": "50 Chemin de la Dame de Nage 44300 Nantes"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The evidence provides information on the local club leadership, location, and domestic affiliations, but does not list specific international Erasmus+ or exchange university partners. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.1,
+  "crawl_s": 9.3,
+  "ai_calls": 2,
+  "model_s": 29.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 122.2
+ }
+}
