@@ -62,17 +62,22 @@
     padding-block: 24px 48px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
   .section-title { font-size: 12px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--mut); margin: 0; }
 
-  .tiles { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
-  @media (max-width: 980px) { .tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-  @media (max-width: 520px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+  @media (max-width: 760px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .tile.wide { grid-column: span 2; }
+  .tile .emails { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 14px;
+    border-top: 1px solid var(--line-2); padding-top: 12px; }
+  .tile .emails .v { color: var(--ink); font-size: 18px; font-weight: 800; letter-spacing: -.01em; font-variant-numeric: tabular-nums; }
+  .tile .emails .k { display: flex; align-items: center; gap: 6px; color: var(--mut); font-size: 12px; margin-top: 2px; }
+  .tile .emails .k i { width: 8px; height: 8px; border-radius: 2px; background: var(--c); flex: none; }
+  .tile .emails .p { color: var(--mut-2); font-size: 11.5px; margin-top: 1px; }
+  .tile .ebar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; margin-top: 12px; background: var(--line-2); }
+  .tile .ebar span { background: var(--c); }
+  @media (max-width: 520px) { .tile .emails { grid-template-columns: 1fr; gap: 8px; } }
   .tile { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow); min-width: 0; }
   .tile-link { display: block; color: inherit; text-decoration: none; cursor: pointer; transition: border-color .15s ease, box-shadow .15s ease; }
   .tile-link:hover, .tile-link:focus-visible { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); outline: none; }
   .tile .go { color: var(--accent); font-size: 12px; font-weight: 600; margin-top: 8px; }
-  .tile .split { margin-top: 10px; border-top: 1px solid var(--line-2); padding-top: 8px; display: grid; gap: 5px; }
-  .tile .split div { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
-  .tile .split span { color: var(--mut); font-size: 11.5px; }
-  .tile .split b { color: var(--ink); font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .tile .n { font-size: 24px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
   .tile .l { color: var(--mut); font-size: 12px; margin-top: 2px; }
   .tile .s { color: var(--mut-2); font-size: 11.5px; margin-top: 4px; }
@@ -864,20 +869,29 @@ function dayLabel(iso, long) {
 const avg = (a, b) => b ? (a / b).toLocaleString("en-GB", { maximumFractionDigits: 1 }) : "–";
 function renderTiles(t) {
   const site = t.with_website ?? (t.institutes - (t.no_website || 0));
+  // An institute with both a work email and a general inbox is in both counts; "with an email" counts it once.
+  const work = t.personal_email || 0, dept = t.generic_email || 0;
+  const both = Math.max(0, Math.min(work, dept, work + dept - (t.with_email || 0)));
+  const emailStat = (v, label, color) => `<div><div class="v">${fmtN(v)}</div>` +
+    `<div class="k"><i style="--c:${color}"></i>${label}</div><div class="p">${pct(v, t.with_email)} of those with an email</div></div>`;
+  const seg = (v, color) => `<span style="--c:${color};width:${t.with_email ? 100 * v / t.with_email : 0}%"></span>`;
+  const emailExtra = t.personal_email == null ? "" :
+    `<div class="emails">${emailStat(work, "Professional work email", "var(--accent)")}` +
+    `${emailStat(dept, "Generic dept email", "#8ea6f7")}${emailStat(both, "Institutes with both", "#12b886")}</div>` +
+    `<div class="ebar" title="Work email only · both · generic only">${seg(work - both, "var(--accent)")}${seg(both, "#12b886")}${seg(dept - both, "#8ea6f7")}</div>`;
   const tiles = [
-    [fmtN(t.institutes), "Institutes scraped", fmtN(t.batches) + " batches"],
+    [fmtN(t.institutes), "Total institutes", fmtN(t.batches) + " batches"],
+    [fmtN(site), "Institutes with a website", pct(site, t.institutes) + " of all institutes"],
+    [fmtN(t.no_website), "Website not found", pct(t.no_website, t.institutes) + " of all institutes"],
     [fmtN(t.with_contact), "Contacts found", pct(t.with_contact, site) + " of institutes with a website"],
-    [fmtN(t.with_email), "With an email", pct(t.with_email, site) + " of institutes with a website" +
-      (t.personal_email != null ? `<div class="split"><div><span>Professional work email</span><b>${fmtN(t.personal_email)}</b></div>` +
-        `<div><span>Generic dept email</span><b>${fmtN(t.generic_email)}</b></div></div>` : "")],
+    [fmtN(t.with_email), "Institutes with an email", pct(t.with_email, site) + " of institutes with a website" + emailExtra, "", "wide"],
     [fmtN(t.partners), "Partners found", avg(t.partners, site) + " per institute on average", "partners"],
     [fmtN(t.campuses), "Campuses found", avg(t.campuses, site) + " per institute on average", "campuses"],
-    [fmtN(t.no_website), "Website not found", pct(t.no_website, t.institutes) + " of institutes"],
   ];
   // Partners and Campuses open the Institutes view, sorted by that figure (most first)
-  $("d-tiles").innerHTML = tiles.map(([n, l, s, go]) => go
+  $("d-tiles").innerHTML = tiles.map(([n, l, s, go, cls]) => go
     ? `<a href="#institutes" class="tile tile-link" data-sort="${go}"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div><div class="go">See each institute →</div></a>`
-    : `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div></div>`).join("");
+    : `<div class="tile ${cls || ""}"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div></div>`).join("");
   document.querySelectorAll("#d-tiles .tile-link").forEach(b => b.onclick = e => {
     e.preventDefault();
     instSort = { key: b.dataset.sort, dir: -1 };
