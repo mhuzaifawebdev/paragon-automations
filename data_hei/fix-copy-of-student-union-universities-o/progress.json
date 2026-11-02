@@ -1,14 +1,14 @@
 {
  "batch": "fix-copy-of-student-union-universities-o",
  "status": "running",
- "generated_at": "2026-11-02T10:22:46.363228+00:00",
+ "generated_at": "2026-11-02T10:23:54.561918+00:00",
  "chunk": 24,
  "total_chunks": 26,
  "total_rows": 626,
- "done": 551,
- "pending": 75,
- "elapsed_seconds": 3515,
- "eta_seconds": 251,
+ "done": 557,
+ "pending": 69,
+ "elapsed_seconds": 3583,
+ "eta_seconds": 398,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 422,
+ "ai_calls": 427,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,20 +38,14 @@
   }
  ],
  "confidence": {
-  "high": 164,
-  "medium": 77,
+  "high": 167,
+  "medium": 79,
   "low": 49,
-  "none": 261
+  "none": 262
  },
- "partners_found": 7172,
- "campuses_found": 768,
+ "partners_found": 7301,
+ "campuses_found": 781,
  "recent": [
-  "r532",
-  "r533",
-  "r534",
-  "r535",
-  "r536",
-  "r537",
   "r538",
   "r539",
   "r540",
@@ -62,10 +56,16 @@
   "r545",
   "r546",
   "r547",
+  "r548",
   "r549",
   "r550",
   "r551",
-  "r555"
+  "r552",
+  "r554",
+  "r555",
+  "r557",
+  "r560",
+  "r561"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1RqoezhuyiM8ErQA61lawpv6lrrrXAv3E/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
