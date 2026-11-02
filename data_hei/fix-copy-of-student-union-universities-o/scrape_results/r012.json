@@ -1,0 +1,91 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-11-02T09:12:56Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Anton Bruckner Private University",
+  "institution_type": "university",
+  "official_website": "https://www.bruckneruni.ac.at/de/",
+  "country": {
+   "value": "Austria",
+   "source_url": "https://www.bruckneruni.ac.at/de/",
+   "evidence_quote": "Alice-Harnoncourt-Platz 1, 4040 Linz, Austria"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Noémi Esther Eden",
+   "designation": "Erasmus Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+43 732 701000 206",
+   "source_url": "https://www.bruckneruni.ac.at/de/ueber-uns/netzwerk-infrastruktur/internationales/erasmus/outgoing",
+   "evidence_quote": "Eden, Noémi Esther ... Informiere in einem ersten Schritt die zuständige Erasmuskoordinatorin der BrucknerUni per E-Mail über dein Interesse, ins Ausland zu gehen. Verwende hierfür bitte ausschließlich deine Bruckneruni-E-Mail-Adresse (…@student.bruckneruni.at) und gebe bekannt, was du studierst, in welchem Semester du derzeit bist, in welchem Zeitraum du ins Ausland gehen möchtest (Studienjahr oder Semester) und ob du in der Vergangenheit bereits andere Mobilitäten über die Erasmus+ Förderschiene absolviert hast. Beg"
+  },
+  "alternates": [
+   {
+    "name": "Anita de Jong",
+    "designation": "Erasmus Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+43 732 701000 204",
+    "source_url": "https://www.bruckneruni.ac.at/de/ueber-uns/netzwerk-infrastruktur/internationales/erasmus/lehrendenmobilitaet",
+    "evidence_quote": "de Jong, Anita ... während des Studienjahres: Auskunft bei der Erasmus+ Koordination vor Antragstellung einholen, ob noch Budget für die gewünschte Mobilität vorhanden ist",
+    "why_chosen": "Mobility coordinator. She is identified as a contact for Erasmus+ coordination regarding staff mobility."
+   },
+   {
+    "name": "Martin Rummel",
+    "designation": "Rektor",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bruckneruni.ac.at/de/alumni",
+    "evidence_quote": "Martin Rummel, Rektor",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the Rector of the university."
+   }
+  ],
+  "rung": "Mobility coordinator. She is explicitly identified as the Erasmus coordinator responsible for student mobility.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Anton Bruckner Privatuniversität",
+    "city": "Linz",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://www.bruckneruni.ac.at/de/",
+    "evidence_quote": "Alice-Harnoncourt-Platz 1, 4040 Linz, Austria"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that Erasmus+ partnerships exist but does not provide a specific list of partner institutions. Contact emails are obfuscated in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.9,
+  "crawl_s": 15.9,
+  "ai_calls": 1,
+  "model_s": 2.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 24.7
+ }
+}
