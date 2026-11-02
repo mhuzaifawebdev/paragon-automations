@@ -1,0 +1,92 @@
+{
+ "row_id": "r045",
+ "scraped_at": "2026-11-02T10:48:55Z",
+ "contacts": {
+  "row_id": "r045",
+  "institution_name": "Lycée Pierre de Coubertin",
+  "institution_type": "school",
+  "official_website": "https://www.coubertin-meaux.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Université Gustave Eiffel",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.coubertin-meaux.fr/",
+    "evidence_quote": "Etudier à l'univesité Gustave Eiffel, dates de toutes les conférences",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Suez",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.coubertin-meaux.fr/index.php?id_menu=142",
+    "evidence_quote": "Visite du site de stockage des déchets dangereux (ISDD) de Suez à Villeparisis par les élèves de BTS CRSA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SNCF",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.coubertin-meaux.fr/index.php?id_menu=142",
+    "evidence_quote": "Rencontre SNCF/BTS industriels",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SNCF Réseau – Direction Modernisation et Développement Île-de-France",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.coubertin-meaux.fr/index.php?id_menu=142",
+    "evidence_quote": "‌Les étudiants des BTS CRSA et Électrotechnique du lycée Pierre de Coubertin de Meaux ont eu l’opportunité de rencontrer trois représentants de SNCF Réseau – Direction Modernisation et Développement Îl ...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Pierre de Coubertin",
+    "city": "Meaux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.coubertin-meaux.fr/",
+    "evidence_quote": "Lycée Pierre de Coubertin, Chaussée de Paris, 77100 Meaux"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 7,
+  "coverage_note": "No named contacts with explicitly stated roles are mentioned in the evidence. A specific Erasmus partner list is not provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 9.5,
+  "ai_calls": 2,
+  "model_s": 14.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 32.8
+ }
+}
