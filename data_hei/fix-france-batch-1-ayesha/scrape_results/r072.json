@@ -1,0 +1,84 @@
+{
+ "row_id": "r072",
+ "scraped_at": "2026-11-02T10:50:55Z",
+ "contacts": {
+  "row_id": "r072",
+  "institution_name": "Lycée des métiers Jean-Frédéric Oberlin",
+  "institution_type": "college",
+  "official_website": "https://lyceeoberlinstrasbourg.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. HEILI",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lyceeoberlinstrasbourg.fr/organigramme/",
+   "evidence_quote": "M. HEILI | ... Proviseur |"
+  },
+  "alternates": [
+   {
+    "name": "M. MESIC",
+    "designation": "Deputy Director of the UFA",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lyceeoberlinstrasbourg.fr/organigramme/",
+    "evidence_quote": "M. MESIC | ... Directeur Adjoint de l’UFA |",
+    "why_chosen": "Principal / director (no Erasmus contact found). M. MESIC is the deputy director of the apprenticeship training center unit (UFA)."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). M. HEILI is the head of the institution (Proviseur) and serves as the primary administrative contact.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Jean-Frédéric Oberlin",
+    "city": "Strasbourg",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceeoberlinstrasbourg.fr/",
+    "evidence_quote": "4, rue de l’Académie"
+   },
+   {
+    "campus_name": "UFA du Lycée Jean-Frédéric Oberlin",
+    "city": "Strasbourg",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://lyceeoberlinstrasbourg.fr/",
+    "evidence_quote": "6, rue Baldung Grien"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 6,
+  "coverage_note": "The evidence does not mention any international partners or Erasmus+ mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 8.6,
+  "ai_calls": 1,
+  "model_s": 8.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 17.2
+ }
+}
