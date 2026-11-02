@@ -4624,8 +4624,8 @@
    "no_paid_search": true,
    "max_usd": 0.0,
    "started": "2026-11-01T21:35:02Z",
-   "last_start": "2026-11-01T21:35:02Z",
-   "restarts": 0,
+   "last_start": "2026-11-02T10:35:16Z",
+   "restarts": 1,
    "cap_usd": 0.0,
    "note": "Today's free AI allowance is used up."
   },
@@ -4819,7 +4819,7 @@
    "batch": "fix-copy-of-student-union-universities-o",
    "source": "rebuild of copy-of-student-union-universities-o (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4828,18 +4828,30 @@
    "started": "2026-11-02T09:09:50Z",
    "last_start": "2026-11-02T09:09:50Z",
    "restarts": 0,
-   "cap_usd": 0.0
+   "cap_usd": 0.0,
+   "crm_rows": 273,
+   "no_number": 485,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1RqoezhuyiM8ErQA61lawpv6lrrrXAv3E/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 430,
+   "finished": "2026-11-02T10:35:16Z",
+   "reason": "625 institutes, 342 with a contact"
   },
   {
    "batch": "fix-copy-of-vet-250k-300-batch-3-bano",
    "source": "rebuild of copy-of-vet-250k-300-batch-3-bano (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "no_paid_search": true,
-   "max_usd": 0.0
+   "max_usd": 0.0,
+   "started": "2026-11-02T10:35:16Z",
+   "last_start": "2026-11-02T10:35:16Z",
+   "restarts": 0,
+   "cap_usd": 0.0
   },
   {
    "batch": "fix-finland-sprint-5",
@@ -4931,7 +4943,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-02T09:09:50Z",
+ "updated": "2026-11-02T10:35:16Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
