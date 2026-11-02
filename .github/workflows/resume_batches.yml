@@ -19,6 +19,7 @@ on:
       - .github/workflows/resume_batches.yml
       - scripts/resume_due_batches.py
       - scraper2/llm.py
+      - data_hei/_resume_now          # push this file to wake paused batches at once
 
 permissions:
   contents: write
