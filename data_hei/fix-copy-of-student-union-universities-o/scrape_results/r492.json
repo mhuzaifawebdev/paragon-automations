@@ -1,0 +1,81 @@
+{
+ "row_id": "r492",
+ "scraped_at": "2026-11-02T10:15:29Z",
+ "contacts": {
+  "row_id": "r492",
+  "institution_name": "Medical University of Warsaw (WUM)",
+  "institution_type": "university",
+  "official_website": "https://www.wum.edu.pl/",
+  "country": {
+   "value": "Poland",
+   "source_url": "https://www.wum.edu.pl/en",
+   "evidence_quote": "WUM Medical University of Warsaw 61 Zwirki i Wigury Street, 02-091 Warsaw, Poland"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "wum@wum.edu.pl",
+  "generic_email_url": "https://www.wum.edu.pl/",
+  "contact": {
+   "name": "Lech Korniszewski",
+   "designation": "Professor",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.wum.edu.pl/",
+   "evidence_quote": "Medal im. Dr. Tytusa Chałubińskiego dla profesora Lecha Korniszewskiego"
+  },
+  "alternates": [
+   {
+    "name": "Bogdan Ciszek",
+    "designation": "Neurosurgeon and Head of the Department of Descriptive and Clinical Anatomy",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.wum.edu.pl/",
+    "evidence_quote": "Prof. Bogdan Ciszek, neurochirurg, od ponad 30 lat kierujący Zakładem Anatomii Prawidłowej i Klinicznej WUM, łączy ścisłość anatoma z ciekawością humanisty, zainteresowanego ideami i sposobami rozumienia ludzkiej natury. W rozmowie opowiada o tym, jak nauczył się uczyć, dlaczego wiedzę trzeba porządkować i uruchamiać wyobraźnię oraz jak mądry nauczyciel prowadzi studenta ku samodzielności.",
+    "why_chosen": "Other role. Bogdan Ciszek is a neurosurgeon heading the Department of Descriptive and Clinical Anatomy."
+   }
+  ],
+  "rung": "Other role. Lech Korniszewski is mentioned as a professor receiving the Medal of Dr. Tytus Chałubiński.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Medical University of Warsaw",
+    "city": "Warsaw",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://www.wum.edu.pl/en",
+    "evidence_quote": "WUM Medical University of Warsaw 61 Zwirki i Wigury Street, 02-091 Warsaw, Poland"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides general information about the institution, news, and administrative contacts, but does not contain a specific list of Erasmus partner universities or international mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 6.2,
+  "ai_calls": 2,
+  "model_s": 1.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 2,
+  "email_search_s": 1.1,
+  "total_seconds": 12.5
+ }
+}
