@@ -1,0 +1,56 @@
+{
+ "row_id": "r015",
+ "scraped_at": "2026-11-02T10:41:14Z",
+ "contacts": {
+  "row_id": "r015",
+  "institution_name": "Karjaan lukio",
+  "institution_type": "school",
+  "official_website": "https://www.raseborg.fi/fi/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "raseborg@raseborg.fi",
+  "generic_email_url": "https://www.raseborg.fi/fi/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Karjaan lukio",
+    "city": "Raseborg",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://www.raseborg.fi/fi/",
+    "evidence_quote": "Karjaan lukio"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The provided evidence pages contain general municipal information for the city of Raseborg and mentions Karjaan lukio as an educational institution, but do not provide specific contact persons, partner lists, or detailed campus addresses for the school.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.7,
+  "crawl_s": 18.5,
+  "ai_calls": 3,
+  "model_s": 7.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 46.4
+ }
+}

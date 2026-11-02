@@ -1,0 +1,69 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-11-02T10:40:59Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "Laukaan lukio",
+  "institution_type": "school",
+  "official_website": "https://peda.net/laukaa/lukio",
+  "country": null,
+  "phone": {
+   "value": "040 821 2642",
+   "source_url": "https://peda.net/laukaa/lukio",
+   "evidence_quote": "Voit myös olla puhelimitse yhteydessä rehtoriin 1.8. alkaen. Puh. 040 821 2642."
+  },
+  "phone_alt": [],
+  "generic_email": "info@peda.net",
+  "generic_email_url": "https://peda.net/laukaa/lukio:contact#top",
+  "contact": {
+   "name": "Elina Korhonen",
+   "designation": "Training Coordinator, Office",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "050 346 9465",
+   "source_url": "https://peda.net/laukaa/lukio/yjo#top",
+   "evidence_quote": "Koulutuskoordinaattori, ... Elina Korhonen |"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Elina Korhonen works as a training coordinator and office staff member at Laukaan lukio.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Laukaan lukio",
+    "city": "Laukaa",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://peda.net/laukaa/lukio/yjo#top",
+    "evidence_quote": "Saralinnantie 3, 41340 Laukaa"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides staff contact information and school details, but there is no mention of international partners or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 14.7,
+  "ai_calls": 2,
+  "model_s": 8.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 29.1
+ }
+}
