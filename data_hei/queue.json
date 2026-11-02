@@ -4796,7 +4796,7 @@
    "batch": "fix-batch-3-1-277",
    "source": "rebuild of batch-3-1-277 (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4805,18 +4805,30 @@
    "started": "2026-11-02T09:02:37Z",
    "last_start": "2026-11-02T09:02:37Z",
    "restarts": 0,
-   "cap_usd": 0.0
+   "cap_usd": 0.0,
+   "crm_rows": 64,
+   "no_number": 1,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/14MZruYZ94EdcYdl3eKlj8rX8uFh5z3Xm/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 47,
+   "finished": "2026-11-02T09:09:50Z",
+   "reason": "50 institutes, 41 with a contact"
   },
   {
    "batch": "fix-copy-of-student-union-universities-o",
    "source": "rebuild of copy-of-student-union-universities-o (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "no_paid_search": true,
-   "max_usd": 0.0
+   "max_usd": 0.0,
+   "started": "2026-11-02T09:09:50Z",
+   "last_start": "2026-11-02T09:09:50Z",
+   "restarts": 0,
+   "cap_usd": 0.0
   },
   {
    "batch": "fix-copy-of-vet-250k-300-batch-3-bano",
@@ -4919,7 +4931,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-02T09:02:37Z",
+ "updated": "2026-11-02T09:09:50Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
