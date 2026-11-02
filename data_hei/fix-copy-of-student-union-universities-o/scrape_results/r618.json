@@ -1,0 +1,115 @@
+{
+ "row_id": "r618",
+ "scraped_at": "2026-11-02T10:30:53Z",
+ "contacts": {
+  "row_id": "r618",
+  "institution_name": "Newcastle University",
+  "institution_type": "university",
+  "official_website": "https://www.ncl.ac.uk/",
+  "country": {
+   "value": "UK",
+   "source_url": "https://www.ncl.ac.uk/",
+   "evidence_quote": "Newcastle University | World Top 150 Research-led UK University | Newcastle University"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "mobilityandtransport@ncl.ac.uk",
+  "generic_email_url": "https://www.ncl.ac.uk/mobility-transport/",
+  "contact": {
+   "name": "Rebecca Dickinson",
+   "designation": "Allocations Manager",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+44 (0) 191 222 5797",
+   "source_url": "https://www.ncl.ac.uk/accommodation/contact-us/accommodation-team/",
+   "evidence_quote": "Allocations Manager: Rebecca Dickinson"
+  },
+  "alternates": [
+   {
+    "name": "Margaret Carol Bell",
+    "designation": "Science City Professor of Transport and the Environment",
+    "designation_local": "",
+    "email": "margaret.bell@ncl.ac.uk",
+    "office_email": "",
+    "phone": "+44 (0) 191 208 7936",
+    "source_url": "https://www.ncl.ac.uk/engineering/research/future-mobility/",
+    "evidence_quote": "Professor Margaret Carol Bell CBE ... Science City Professor of Transport and the Environment",
+    "why_chosen": "Other role. Named academic staff member listed in the transport and mobility research group with direct contact information."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Named administrative manager within the accommodation team with contact details available on the same page.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Siemens",
+    "partner_country": "UK",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ncl.ac.uk/engineering/research/future-mobility/",
+    "evidence_quote": "The Centre for Energy Systems Integration (CESI) aim is to reduce the risks associated with securing an integrated energy system for the UK. CESI is a unique partnership of six research intensive universities and strategic industrial partner Siemens.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Swiss train-builder",
+    "partner_country": "Switzerland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ncl.ac.uk/engineering/research/future-mobility/",
+    "evidence_quote": "Newcastle University to work in partnership with Swiss train-builder",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Newcastle Campus",
+    "city": "Newcastle",
+    "country": "UK",
+    "role": "main",
+    "source_url": "https://www.ncl.ac.uk/who-we-are/our-campuses/",
+    "evidence_quote": "Newcastle Campus"
+   },
+   {
+    "campus_name": "NUMED Malaysia Campus",
+    "city": "Malaysia",
+    "country": "Malaysia",
+    "role": "international",
+    "source_url": "https://www.ncl.ac.uk/who-we-are/our-campuses/",
+    "evidence_quote": "NUMED Malaysia Campus"
+   },
+   {
+    "campus_name": "Newcastle University, Singapore",
+    "city": "Singapore",
+    "country": "Singapore",
+    "role": "international",
+    "source_url": "https://www.ncl.ac.uk/who-we-are/our-campuses/",
+    "evidence_quote": "Newcastle University, Singapore"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence pages do not contain a dedicated Erasmus+ partner list or institutional mobility agreements table, though general information about research collaborations and international campuses is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 12.7,
+  "ai_calls": 1,
+  "model_s": 7.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 23.1
+ }
+}
