@@ -1,14 +1,14 @@
 {
  "batch": "fix-batch-2-france",
- "status": "running",
- "generated_at": "2026-11-02T09:01:26.305550+00:00",
- "chunk": 3,
- "total_chunks": 3,
+ "status": "done",
+ "generated_at": "2026-11-02T09:02:07.934903+00:00",
+ "chunk": 4,
+ "total_chunks": 4,
  "total_rows": 56,
- "done": 51,
- "pending": 5,
- "elapsed_seconds": 284,
- "eta_seconds": 6,
+ "done": 56,
+ "pending": 0,
+ "elapsed_seconds": 288,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -40,17 +40,12 @@
  "confidence": {
   "high": 1,
   "medium": 0,
-  "low": 31,
+  "low": 36,
   "none": 19
  },
- "partners_found": 253,
- "campuses_found": 53,
+ "partners_found": 281,
+ "campuses_found": 58,
  "recent": [
-  "r032",
-  "r033",
-  "r034",
-  "r035",
-  "r036",
   "r037",
   "r038",
   "r039",
@@ -65,6 +60,11 @@
   "r048",
   "r049",
   "r050",
-  "r051"
+  "r051",
+  "r052",
+  "r053",
+  "r054",
+  "r055",
+  "r056"
  ]
 }
