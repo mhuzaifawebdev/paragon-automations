@@ -1,0 +1,74 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-11-01T21:24:30Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "Ufficio Scolastico Regionale per la Basilicata",
+  "institution_type": "school",
+  "official_website": "https://www.pnsdbasilicata.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "Reused from batch website-recheck-shallow-education-read (scraped 2026-11-01). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Progetto nazionale di eccellenza PP&S",
+    "partner_country": "Italy",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.pnsdbasilicata.it/visor_html.php?codice_pagina=ECc1vQ2Y",
+    "evidence_quote": "Nazionale PP&S (Problem Posing&Solving www.progettopps.it ), promosso",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agenzia Spaziale Italiana (ASI)",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.pnsdbasilicata.it/visor_html.php?codice_pagina=ECc1vQ2Y",
+    "evidence_quote": "CODYTRIP-2022-MATERA, gita online al Centro Spaziale “Giuseppe Colombo”",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ufficio Scolastico Regionale per la Basilicata",
+    "city": "Potenza",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.pnsdbasilicata.it/",
+    "evidence_quote": "UFFICIO SCOLASTICO REGIONE BASILICATA"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides information about regional school projects and administrative contacts but does not contain a formal list of international Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "website-recheck-shallow-education-read",
+  "row_id": "r584"
+ }
+}
