@@ -4773,7 +4773,7 @@
    "batch": "fix-batch-2-france",
    "source": "rebuild of batch-2-france (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4782,18 +4782,30 @@
    "started": "2026-11-02T08:55:33Z",
    "last_start": "2026-11-02T08:55:33Z",
    "restarts": 0,
-   "cap_usd": 0.0
+   "cap_usd": 0.0,
+   "crm_rows": 56,
+   "no_number": 4,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1Ch2ClzLkW5ovT3jz2Xta2ePvthcv9kUC/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 54,
+   "finished": "2026-11-02T09:02:37Z",
+   "reason": "55 institutes, 36 with a contact"
   },
   {
    "batch": "fix-batch-3-1-277",
    "source": "rebuild of batch-3-1-277 (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "no_paid_search": true,
-   "max_usd": 0.0
+   "max_usd": 0.0,
+   "started": "2026-11-02T09:02:37Z",
+   "last_start": "2026-11-02T09:02:37Z",
+   "restarts": 0,
+   "cap_usd": 0.0
   },
   {
    "batch": "fix-copy-of-student-union-universities-o",
@@ -4907,7 +4919,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-02T08:55:33Z",
+ "updated": "2026-11-02T09:02:37Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
