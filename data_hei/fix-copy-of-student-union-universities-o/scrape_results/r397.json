@@ -1,0 +1,135 @@
+{
+ "row_id": "r397",
+ "scraped_at": "2026-11-02T10:04:03Z",
+ "contacts": {
+  "row_id": "r397",
+  "institution_name": "Trinity College Dublin (TCD)",
+  "institution_type": "university",
+  "official_website": "https://www.tcdsu.org/",
+  "country": {
+   "value": "Republic of Ireland",
+   "source_url": "https://www.tcdsu.org/",
+   "evidence_quote": "Card holders can get student discounts on fares for Go-Ahead Ireland, Dublin Bus, Luas, Bus Éireann, DART and Irish Rail (Iarnród Éireann) as well as other participating private transport operators in the Republic of Ireland."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Eve Martin",
+   "designation": "Education Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.tcdsu.org/",
+   "evidence_quote": "Eve Martin ... Education Officer"
+  },
+  "alternates": [
+   {
+    "name": "Lorenzo Cheasty",
+    "designation": "Welfare and Equality Officer",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.tcdsu.org/",
+    "evidence_quote": "Lorenzo Cheasty ... Welfare and Equality Officer",
+    "why_chosen": "Secretary / administration (last resort). Lorenzo Cheasty is the Welfare and Equality Officer available for student inquiries."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Eve Martin is the Education Officer handling student educational matters.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Go-Ahead Ireland",
+    "partner_country": "Republic of Ireland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tcdsu.org/",
+    "evidence_quote": "Card holders can get student discounts on fares for Go-Ahead Ireland, Dublin Bus, Luas, Bus Éireann, DART and Irish Rail (Iarnród Éireann) as well as other participating private transport operators in the Republic of Ireland.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Luas",
+    "partner_country": "Republic of Ireland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tcdsu.org/",
+    "evidence_quote": "Card holders can get student discounts on fares for Go-Ahead Ireland, Dublin Bus, Luas, Bus Éireann, DART and Irish Rail (Iarnród Éireann) as well as other participating private transport operators in the Republic of Ireland.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bus Éireann",
+    "partner_country": "Republic of Ireland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tcdsu.org/",
+    "evidence_quote": "Card holders can get student discounts on fares for Go-Ahead Ireland, Dublin Bus, Luas, Bus Éireann, DART and Irish Rail (Iarnród Éireann) as well as other participating private transport operators in the Republic of Ireland.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "DART",
+    "partner_country": "Republic of Ireland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tcdsu.org/",
+    "evidence_quote": "Card holders can get student discounts on fares for Go-Ahead Ireland, Dublin Bus, Luas, Bus Éireann, DART and Irish Rail (Iarnród Éireann) as well as other participating private transport operators in the Republic of Ireland.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Irish Rail",
+    "partner_country": "Republic of Ireland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tcdsu.org/",
+    "evidence_quote": "Card holders can get student discounts on fares for Go-Ahead Ireland, Dublin Bus, Luas, Bus Éireann, DART and Irish Rail (Iarnród Éireann) as well as other participating private transport operators in the Republic of Ireland.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AMLÉ: Ireland's Student Movement",
+    "partner_country": "Ireland",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tcdsu.org/",
+    "evidence_quote": "[AMLÉ: Ireland's Student Movement. Logo]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Trinity College Dublin",
+    "city": "Dublin",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.tcdsu.org/",
+    "evidence_quote": "Trinity College Dublin,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 5,
+  "coverage_note": "The provided text focuses heavily on student union information, services, and local transport networks, lacking a dedicated international office page or Erasmus partner list.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 8.2,
+  "ai_calls": 1,
+  "model_s": 2.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 11.4
+ }
+}
