@@ -1,0 +1,88 @@
+{
+ "row_id": "r472",
+ "scraped_at": "2026-11-02T10:12:56Z",
+ "contacts": {
+  "row_id": "r472",
+  "institution_name": "University of Oslo (UiO)",
+  "institution_type": "university",
+  "official_website": "https://www.uio.no/",
+  "country": {
+   "value": "Norway",
+   "source_url": "https://www.uio.no/english/about/contact/",
+   "evidence_quote": "Norway"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "postmottak@uio.no",
+  "generic_email_url": "https://www.uio.no/om/kontaktinformasjon/",
+  "contact": {
+   "name": "Hedvig Lie Nygaard",
+   "designation": "Head of Secretariat",
+   "designation_local": "",
+   "email": "h.l.nygaard@admin.uio.no",
+   "office_email": "partnerforum@admin.uio.no",
+   "phone": "924 08 190",
+   "source_url": "https://www.uio.no/om/samarbeid/samfunn-og-naringsliv/partnerforum/kontakt/index.html",
+   "evidence_quote": "Sekretariatsleder Hedvig Lie Nygaard",
+   "email_source_url": "https://www.uio.no/personer/fellesadm/aks/ses/hedvigli/index.html"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Hedvig Lie Nygaard is listed as the head of the secretariat managing daily operations and coordination. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Circle U.",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uio.no/",
+    "evidence_quote": "[Circle U. og The Guild logoer]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Guild",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uio.no/",
+    "evidence_quote": "[Circle U. og The Guild logoer]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Georg Sverdrups hus",
+    "city": "Oslo",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://www.uio.no/om/samarbeid/samfunn-og-naringsliv/partnerforum/",
+    "evidence_quote": "Aud. 1 i Georg Sverdrups hus, Blindern"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information on the University of Oslo, its alliances (Circle U. and The Guild), and administrative contacts, but does not contain a full list of international student exchange partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 11.5,
+  "ai_calls": 1,
+  "model_s": 2.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 1.1,
+  "total_seconds": 15.7
+ }
+}
