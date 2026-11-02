@@ -1,0 +1,92 @@
+{
+ "row_id": "r028",
+ "scraped_at": "2026-11-02T08:32:44Z",
+ "contacts": {
+  "row_id": "r028",
+  "institution_name": "ASSOCIATION HEXAGONE ARTS ET SCIENCES",
+  "institution_type": "unknown",
+  "official_website": "https://www.theatre-hexagone.eu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EST/UGA",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.theatre-hexagone.eu/",
+    "evidence_quote": "EST/UGA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Espace 600",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.theatre-hexagone.eu/",
+    "evidence_quote": "Espace 600",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "L'Ilyade",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.theatre-hexagone.eu/",
+    "evidence_quote": "L'Ilyade",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Espace Paul Jargot",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.theatre-hexagone.eu/",
+    "evidence_quote": "Espace Paul Jargot",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hexagone Scène nationale",
+    "city": "Meylan",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.theatre-hexagone.eu/",
+    "evidence_quote": "24 rue des Aiguinards"
+   }
+  ],
+  "stated_total": 23,
+  "stated_total_quote": "23 partenaires",
+  "stated_total_url": "https://www.theatre-hexagone.eu/",
+  "truncated": true,
+  "total_seen": 23,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides a program of events and mentions a total number of partners for a specific festival, but does not list the names of these partners or provide any contact information for staff members.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 7.4,
+  "ai_calls": 2,
+  "model_s": 97.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 165.7
+ }
+}
