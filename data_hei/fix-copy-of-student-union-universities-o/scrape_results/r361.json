@@ -1,0 +1,64 @@
+{
+ "row_id": "r361",
+ "scraped_at": "2026-11-02T10:00:10Z",
+ "contacts": {
+  "row_id": "r361",
+  "institution_name": "University of Hamburg",
+  "institution_type": "university",
+  "official_website": "https://www.asta-uhh.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Yannis Timon Leistert",
+   "designation": "Financial Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "040 45020423",
+   "source_url": "https://www.asta-uhh.de/0-euer-asta/1-kontakt/02-finanzen.html",
+   "evidence_quote": "Yannis Timon Leistert ... Finanzreferent"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Yannis Timon Leistert manages the financial administration and handles student funding queries.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Von-Melle-Park 5",
+    "city": "Hamburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.asta-uhh.de/",
+    "evidence_quote": "Von-Melle-Park 5"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence covers AStA student union pages and contacts for the University of Hamburg, but does not list international partner institutions or explicit Erasmus mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 12.4,
+  "ai_calls": 1,
+  "model_s": 1.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 17.6
+ }
+}
