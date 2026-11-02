@@ -1,0 +1,76 @@
+{
+ "row_id": "r567",
+ "scraped_at": "2026-11-02T10:24:28Z",
+ "contacts": {
+  "row_id": "r567",
+  "institution_name": "Linköping University (LiU)",
+  "institution_type": "university",
+  "official_website": "https://stuff.liu.se/en",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@stuff.liu.se",
+  "generic_email_url": "https://stuff.liu.se/en",
+  "contact": {
+   "name": "Siri Ferngren",
+   "designation": "Coordinator for international students",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://stuff.liu.se/organisation/contact-us",
+   "evidence_quote": "Siri Ferngren ... Koordinator för internationella studenter"
+  },
+  "alternates": [
+   {
+    "name": "Josefin Stoor",
+    "designation": "Administrator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://stuff.liu.se/organisation/contact-us",
+    "evidence_quote": "Josefin Stoor ... Administratör",
+    "why_chosen": "Secretary / administration (last resort). Josefin Stoor works as an administrator at the student union."
+   }
+  ],
+  "rung": "Mobility coordinator. Siri Ferngren is the coordinator for international students, making her the most relevant contact for student mobility and international relations.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Linköping University",
+    "city": "Linköping",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://stuff.liu.se/en",
+    "evidence_quote": "The Student Union for Educational Sciences and the Faculty of Arts and Sciences (StuFF) is the largest student voice at Linköping University, representing almost 20,000 students in Linköping and Norrköping. Since 1996, the student union has been a strong political voice, striving to make your time as a student as good as possible – from the exam to the dance floor!"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence does not contain a list of partner institutions or agreements for international mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 7.9,
+  "ai_calls": 1,
+  "model_s": 1.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 11.5
+ }
+}

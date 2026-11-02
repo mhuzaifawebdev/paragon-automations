@@ -1,0 +1,74 @@
+{
+ "row_id": "r562",
+ "scraped_at": "2026-11-02T10:24:16Z",
+ "contacts": {
+  "row_id": "r562",
+  "institution_name": "Stockholm University (SU)",
+  "institution_type": "university",
+  "official_website": "https://uhs.su.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini. 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "KTH",
+    "partner_country": "Sweden",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://uhs.su.se/",
+    "evidence_quote": "Stockholms universitet, KI, KTH och Region Stockholm avser att etablera ett centrum för medicinsk strålningsvetenskap för att utveckla framtidens cancerbehandling.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Region Stockholm",
+    "partner_country": "Sweden",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://uhs.su.se/",
+    "evidence_quote": "Stockholms universitet, KI, KTH och Region Stockholm avser att etablera ett centrum för medicinsk strålningsvetenskap för att utveckla framtidens cancerbehandling.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stockholms universitet",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://uhs.su.se/",
+    "evidence_quote": "Stockholms universitet"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 1,
+  "coverage_note": "No contacts or detailed international partnership/Erasmus lists are present in the provided evidence. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 14.7,
+  "crawl_s": 6.7,
+  "ai_calls": 2,
+  "model_s": 1.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 30.5
+ }
+}
