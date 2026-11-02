@@ -1,0 +1,78 @@
+{
+ "row_id": "r536",
+ "scraped_at": "2026-11-02T10:20:24Z",
+ "contacts": {
+  "row_id": "r536",
+  "institution_name": "Technical University in Zvolen (TUZVO)",
+  "institution_type": "university",
+  "official_website": "https://www.tuzvo.sk/",
+  "country": {
+   "value": "Slovenská republika",
+   "source_url": "https://www.tuzvo.sk/",
+   "evidence_quote": "Slovenská republika"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@tuzvo.sk",
+  "generic_email_url": "https://www.tuzvo.sk/",
+  "contact": {
+   "name": "prof. Dr. Ing. Jaroslav Šálka",
+   "designation": "Vice-Rector for International Relations",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+421 455 206 327",
+   "source_url": "https://www.tuzvo.sk/sk/vedenie-univerzity",
+   "evidence_quote": "prof. Dr. Ing. Jaroslav Šálka ... E: <>prorektor pre vonkajšie vzťahy"
+  },
+  "alternates": [],
+  "rung": "Vice-rector for international affairs. He is the Vice-Rector for Foreign Relations at the university level.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "WorkSpace Europe",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.tuzvo.sk/sk/erasmus",
+    "evidence_quote": "Pre Technickú univerzitu vo Zvolene zabezpečuje absolventské pracovné stáže partnerská organizácia WorkSpace Europe, ktorá stáže administruje, financuje a monitoruje. Služby WorkSpace Europe sú bezplatné.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Technická univerzita vo Zvolene",
+    "city": "Zvolen",
+    "country": "Slovakia",
+    "role": "main",
+    "source_url": "https://www.tuzvo.sk/",
+    "evidence_quote": "T. G. Masaryka 24"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain an explicit list of international Erasmus university partners, though it mentions the existence of inter-institutional agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 18.3,
+  "ai_calls": 1,
+  "model_s": 2.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 3.9,
+  "total_seconds": 28.3
+ }
+}
