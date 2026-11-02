@@ -1,0 +1,126 @@
+{
+ "row_id": "r177",
+ "scraped_at": "2026-11-02T09:33:41Z",
+ "contacts": {
+  "row_id": "r177",
+  "institution_name": "Tallinn University of Technology (TalTech)",
+  "institution_type": "university",
+  "official_website": "https://taltech.ee/",
+  "country": {
+   "value": "Eesti",
+   "source_url": "https://taltech.ee/",
+   "evidence_quote": "Eesti"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@taltech.ee",
+  "generic_email_url": "https://taltech.ee/",
+  "contact": {
+   "name": "Gert Jervan",
+   "designation": "Dean",
+   "designation_local": "",
+   "email": "gert.jervan@taltech.ee",
+   "office_email": "",
+   "phone": "+372 620 2261",
+   "source_url": "https://taltech.ee/kontaktid",
+   "evidence_quote": "Dekaan Gert Jervan"
+  },
+  "alternates": [
+   {
+    "name": "Fjodor Sergejev",
+    "designation": "Dean",
+    "designation_local": "",
+    "email": "fjodor.sergejev@taltech.ee",
+    "office_email": "",
+    "phone": "+372 620 3547",
+    "source_url": "https://taltech.ee/kontaktid",
+    "evidence_quote": "Dekaan Fjodor Sergejev",
+    "why_chosen": "Principal / director (no Erasmus contact found). Fjodor Sergejev is listed as Dean of the Engineering faculty, serving as a key academic leader."
+   },
+   {
+    "name": "Andrus Salupere",
+    "designation": "Dean",
+    "designation_local": "",
+    "email": "andrus.salupere@taltech.ee",
+    "office_email": "",
+    "phone": "+372 620 4152",
+    "source_url": "https://taltech.ee/kontaktid",
+    "evidence_quote": "Dekaan Andrus Salupere",
+    "why_chosen": "Principal / director (no Erasmus contact found). Andrus Salupere is listed as Dean of the Science faculty, acting as a faculty head."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Gert Jervan is listed as Dean of the IT faculty, serving as a leading institutional representative in the absence of a dedicated Erasmus coordinator.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: email domain. mode: gemini. 24 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EuroTech",
+    "partner_country": "Belgium",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://taltech.ee/",
+    "evidence_quote": "Brüsselis kuulutati välja TalTechi liitumine EuroTechiga",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tšehhi Tehnikaülikool Prahas",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://taltech.ee/",
+    "evidence_quote": "28. oktoobril kuulutati Brüsselis välja Tallinna Tehnikaülikooli ja Tšehhi Tehnikaülikooli Prahas (CTU) liitumine Euroopa juhtivate tehnikaülikoolide koostöövõrgustikuga Eu...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Tallinna Tehnikaülikool",
+    "city": "Tallinn",
+    "country": "Eesti",
+    "role": "main",
+    "source_url": "https://taltech.ee/",
+    "evidence_quote": "Ehitajate tee 5,"
+   },
+   {
+    "campus_name": "Kuressaare Kolledž",
+    "city": "Kuressaare",
+    "country": "Eesti",
+    "role": "branch",
+    "source_url": "https://taltech.ee/",
+    "evidence_quote": "Kuressaare Kolledž"
+   },
+   {
+    "campus_name": "Virumaa Kolledž",
+    "city": "Kohtla-Järve",
+    "country": "Eesti",
+    "role": "branch",
+    "source_url": "https://taltech.ee/",
+    "evidence_quote": "Virumaa Kolledž"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 2,
+  "coverage_note": "The evidence provides general institutional contacts and deans, but lacks a dedicated Erasmus or international mobility office contact page. 24 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 80.7,
+  "ai_calls": 1,
+  "model_s": 29.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 113.5
+ }
+}
