@@ -1,0 +1,59 @@
+{
+ "row_id": "r373",
+ "scraped_at": "2026-11-02T10:02:45Z",
+ "contacts": {
+  "row_id": "r373",
+  "institution_name": "University of Applied Sciences Düsseldorf (Hochschule Düsseldorf)",
+  "institution_type": "university",
+  "official_website": "https://www.asta-hsd.de/",
+  "country": {
+   "value": "Deutschland",
+   "source_url": "https://www.asta-hsd.de/",
+   "evidence_quote": "Deutschland Semesterticket"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@asta-hsd.de",
+  "generic_email_url": "https://www.asta-hsd.de/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hochschule Düsseldorf",
+    "city": "Düsseldorf",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://www.asta-hsd.de/",
+    "evidence_quote": "Münsterstr. 156, 40476 Düsseldorf"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The provided evidence contains general information about the student union (AStA) and local events, but does not include international mobility coordinators, Erasmus partner lists, or other international offices.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 7.3,
+  "ai_calls": 2,
+  "model_s": 7.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 32.8
+ }
+}
