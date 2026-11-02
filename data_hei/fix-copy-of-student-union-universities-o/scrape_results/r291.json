@@ -1,0 +1,115 @@
+{
+ "row_id": "r291",
+ "scraped_at": "2026-11-02T09:51:46Z",
+ "contacts": {
+  "row_id": "r291",
+  "institution_name": "University of Chemistry and Technology, Prague",
+  "institution_type": "university",
+  "official_website": "https://su.cvut.cz/cs",
+  "country": {
+   "value": "Praha",
+   "source_url": "https://su.cvut.cz/cs/kontakty",
+   "evidence_quote": "[address] Jugoslávských partyzánů 1580/3 160 00 Praha 6 – Dejvice"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Filip Hemerka",
+   "designation": "Technical and Network Manager",
+   "designation_local": "",
+   "email": "filip.hemerka@su.cvut.cz",
+   "office_email": "",
+   "phone": "+420 778 713 985",
+   "source_url": "https://su.cvut.cz/cs/kontakty",
+   "evidence_quote": "[Filip Hemerka] Filip Hemerka ... Technicko-síťový manažer E-mail: filip.hemerka@su.cvut.cz <filip.hemerka@su.cvut.cz> Telefon: +420 778 713 985 <tel %2B420778713985>"
+  },
+  "alternates": [],
+  "rung": "Other role. Filip Hemerka is the Technical and Network Manager for the Student Union.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Rektorát ČVUT",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://su.cvut.cz/cs/spolupracujici-organizace/rektorat-cvut",
+    "evidence_quote": "Jedním z hlavních partnerů Studentské unie ČVUT je Rektorát ČVUT. Hlavním účelem vzájemné spolupráce je zkvalitnění studentského života studentů ČVUT. Rektorát podporuje a v řadě případů i zaštiťuje aktivity Studentské unie ČVUT a členové rektorátu včetně samotného pana rektora často akce Studentské unie ČVUT sami navštěvují. Aktivity nezahrnují pouze zábavu studentů, ale soustředí se i na předávání informací a podporu studentů během studia. Studentská unie ČVUT také pomáhá studentům řešit jejic",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SÚZ ČVUT",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://su.cvut.cz/cs/spolupracujici-organizace",
+    "evidence_quote": "SÚZ ČVUT",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ÚTVS ČVUT",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://su.cvut.cz/cs/spolupracujici-organizace",
+    "evidence_quote": "ÚTVS ČVUT",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Akademický senát ČVUT",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://su.cvut.cz/cs/spolupracujici-organizace",
+    "evidence_quote": "Akademický senát ČVUT",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kariérní centrum ČVUT",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://su.cvut.cz/cs/spolupracujici-organizace",
+    "evidence_quote": "Kariérní centrum ČVUT",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "ČVUT",
+    "city": "Praha",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://su.cvut.cz/cs/kontakty",
+    "evidence_quote": "[address] Jugoslávských partyzánů 1580/3 160 00 Praha 6 – Dejvice"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence provided describes the Students' Union of the Czech Technical University (ČVUT) rather than the university's international office directly. Information regarding Erasmus+ specific partnerships or mobility agreements is missing.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 17.1,
+  "ai_calls": 2,
+  "model_s": 6.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 33.0
+ }
+}
