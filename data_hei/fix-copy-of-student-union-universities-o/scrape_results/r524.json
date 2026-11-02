@@ -1,0 +1,96 @@
+{
+ "row_id": "r524",
+ "scraped_at": "2026-11-02T10:19:52Z",
+ "contacts": {
+  "row_id": "r524",
+  "institution_name": "University of Criminal Investigation and Police Studies",
+  "institution_type": "university",
+  "official_website": "https://www.kpu.edu.rs/cms/",
+  "country": {
+   "value": "Србија",
+   "source_url": "https://www.kpu.edu.rs/cms/",
+   "evidence_quote": "Цара Душана 196, 11080 Земун, Србија <tel +381113107100>"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rektorat@kpu.edu.rs",
+  "generic_email_url": "https://www.kpu.edu.rs/cms/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Департман Савезне криминалистичке службе Немачке (БКА)",
+    "partner_country": "Немачка",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kpu.edu.rs/cms/",
+    "evidence_quote": "[Руководиоци департмана присуствовали промоцији дипломираних студената Департмана Савезне криминалистичке службе Немачке (БКА)]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Департман Савезне криминалистичке службе СР Немачке – БКА",
+    "partner_country": "Немачка",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kpu.edu.rs/cms/",
+    "evidence_quote": "[Потписано писмо о намерама са Департманом Савезне криминалистичке службе СР Немачке – БКА из Висбадена]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Национална висока полицијска школа Француске (École Nationale Supérieure de la Police – ENSP)",
+    "partner_country": "Француска",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kpu.edu.rs/cms/",
+    "evidence_quote": "[Потписан Меморандум о разумевању са Националном високом полицијском школом Француске (École Nationale Supérieure de la Police – ENSP)]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Интерполова глобална мрежа академија",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.kpu.edu.rs/cms/",
+    "evidence_quote": "[Криминалистичко-полицијски универзитет постао члан „Интерполове глобалне мреже академија“]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Криминалистичко-полицијски универзитет",
+    "city": "Земун",
+    "country": "Србија",
+    "role": "main",
+    "source_url": "https://www.kpu.edu.rs/cms/",
+    "evidence_quote": "Цара Душана 196, 11080 Земун, Србија <tel +381113107100>"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions a few partner institutions and networks such as BKA, ENSP, and Interpol's Global Academy Network, but lacks a complete and dedicated partner university list.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 17.4,
+  "ai_calls": 2,
+  "model_s": 9.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 38.9
+ }
+}
