@@ -4732,10 +4732,23 @@
    "kind": "rescrape",
    "no_paid_search": true,
    "max_usd": 0.0
+  },
+  {
+   "batch": "website-recheck-found-sites-free",
+   "source": "website re-check",
+   "added": "2026-11-01T00:00:00Z",
+   "state": "queued",
+   "reader": "paid",
+   "provider": "gemini",
+   "chunk_size": 25,
+   "priority": true,
+   "kind": "rescrape",
+   "no_paid_search": true,
+   "max_usd": 2.0
   }
  ],
  "paused": null,
- "updated": "2026-11-02T07:06:12Z",
+ "updated": "2026-11-02T07:37:45Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
