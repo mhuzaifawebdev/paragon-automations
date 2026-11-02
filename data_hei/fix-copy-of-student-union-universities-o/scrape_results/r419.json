@@ -1,0 +1,66 @@
+{
+ "row_id": "r419",
+ "scraped_at": "2026-11-02T10:06:08Z",
+ "contacts": {
+  "row_id": "r419",
+  "institution_name": "University of Palermo",
+  "institution_type": "university",
+  "official_website": "https://www.unipa.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "outgoing.students@unipa.it",
+  "generic_email_url": "https://www.unipa.it/Mobilit-Doppio-Titolo-PIS-ed-Erasmus-Extra-UE-A.A.-2026-27--II-semestre/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "INFN Catania",
+    "partner_country": "Italy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.unipa.it/",
+    "evidence_quote": "[L'Università di Palermo e l'INFN Catania nella nuova era dell'astrofisica gamma: inaugurato il sotto-sistema di telescopi di grandi dimensioni LST del CTAO a La Palma]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus universitario di Viale delle Scienze",
+    "city": "Palermo",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.unipa.it/",
+    "evidence_quote": "Si è svolto giovedì 29 ottobre, al Campus universitario di Viale delle Scienze, il Graduation Day 2026, la cerimonia con cui l’Università degli Studi di Palermo festeggia i Laureati Magistrali dell’Ateneo."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information on university structures and general news, but does not include a comprehensive partner list or specific international mobility coordinator contact details.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 18.8,
+  "ai_calls": 3,
+  "model_s": 1.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 34.2
+ }
+}
