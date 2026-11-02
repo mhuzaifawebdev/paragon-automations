@@ -1,0 +1,68 @@
+{
+ "row_id": "r578",
+ "scraped_at": "2026-11-02T10:26:00Z",
+ "contacts": {
+  "row_id": "r578",
+  "institution_name": "Swansea University",
+  "institution_type": "university",
+  "official_website": "https://www.swansea-union.co.uk/",
+  "country": {
+   "value": "Wales",
+   "source_url": "https://www.swansea-union.co.uk/",
+   "evidence_quote": "Wales"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "hello@swansea-union.co.uk",
+  "generic_email_url": "https://www.swansea-union.co.uk/",
+  "contact": {
+   "name": "Minkesh Sood",
+   "designation": "Chief Executive Officer",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.swansea-union.co.uk/about/meet_our_staff/",
+   "evidence_quote": "Minkesh Sood ... Executive Officer"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Minkesh Sood is the Chief Executive Officer and head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "The Haven",
+    "city": "Swansea",
+    "country": "United Kingdom",
+    "role": "main",
+    "source_url": "https://www.swansea-union.co.uk/",
+    "evidence_quote": "The Haven - Singleton, Swansea"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence primarily covers the Swansea University Students' Union website, detailing staff members, governance documents, and contact channels, but lacks explicit international mobility or Erasmus partner lists.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 11.7,
+  "ai_calls": 1,
+  "model_s": 7.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 20.3
+ }
+}
