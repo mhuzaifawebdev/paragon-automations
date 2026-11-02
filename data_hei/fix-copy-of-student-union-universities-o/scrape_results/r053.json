@@ -1,0 +1,82 @@
+{
+ "row_id": "r053",
+ "scraped_at": "2026-11-02T09:20:59Z",
+ "contacts": {
+  "row_id": "r053",
+  "institution_name": "University of Business Studies",
+  "institution_type": "university",
+  "official_website": "https://univerzitetps.com/en/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rektor.biljana@univerzitetps.com",
+  "generic_email_url": "https://univerzitetps.com/en/kontakt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "BANJA LUKA COLLEGE",
+    "partner_country": "Bosnia & Herzegovina",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://univerzitetps.com/novi-partnerstvo-za-unapredenje-visokog-obrazovanja-i-istrazivanja/",
+    "evidence_quote": "Univerzitet za poslovne studije s ponosom objavljuje zaključenje sporazuma o akademskoj saradnji sa Visokom školom „BANJA LUKA COLLEGE“. Ovaj važan sporazum ima za cilj unapređenje visokog obrazovanja, naučno-istraživačkog rada i tehnološkog razvoja, te širenje kulturnih veza između ove dvije institucije.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "University of Business Studies Banja Luka",
+    "city": "Banja Luka",
+    "country": "Bosnia & Herzegovina",
+    "role": "main",
+    "source_url": "https://univerzitetps.com/en/",
+    "evidence_quote": "Banja Luka"
+   },
+   {
+    "campus_name": "Bijeljina Department",
+    "city": "Bijeljina",
+    "country": "Bosnia & Herzegovina",
+    "role": "branch",
+    "source_url": "https://univerzitetps.com/en/",
+    "evidence_quote": "Bijeljina"
+   },
+   {
+    "campus_name": "Department Of East Sarajevo",
+    "city": "East Sarajevo",
+    "country": "Bosnia & Herzegovina",
+    "role": "branch",
+    "source_url": "https://univerzitetps.com/en/",
+    "evidence_quote": "East Sarajevo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that the university has international cooperation agreements but does not provide a comprehensive list of all partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 13.3,
+  "crawl_s": 19.7,
+  "ai_calls": 3,
+  "model_s": 5.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 54.1
+ }
+}

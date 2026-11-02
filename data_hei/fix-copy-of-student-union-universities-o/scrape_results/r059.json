@@ -1,0 +1,108 @@
+{
+ "row_id": "r059",
+ "scraped_at": "2026-11-02T09:20:39Z",
+ "contacts": {
+  "row_id": "r059",
+  "institution_name": "University of Mostar",
+  "institution_type": "university",
+  "official_website": "https://www.unmo.ba/",
+  "country": {
+   "value": "Bosna i Hercegovina",
+   "source_url": "https://www.unmo.ba/",
+   "evidence_quote": "Bosna i Hercegovina"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Mirsada Behram",
+   "designation": "Officer for international and interuniversity cooperation",
+   "designation_local": "",
+   "email": "Mirsada.Behram@unmo.ba",
+   "office_email": "",
+   "phone": "036/281-024",
+   "source_url": "https://www.unmo.ba/univerzitet/osoblje/",
+   "evidence_quote": "Referent za međunarodnu i međuuniverzitetsku saradnju ... Mirsada Behram MA dipl. Iur."
+  },
+  "alternates": [
+   {
+    "name": "Rijad Novaković",
+    "designation": "Vice-rector for international and interuniversity cooperation",
+    "designation_local": "",
+    "email": "rijad.novakovic@unmo.ba",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.unmo.ba/univerzitet/osoblje/",
+    "evidence_quote": "Prorektor za međunarodnu i međuuniverzitetsku saradnju ... dr. sc. Rijad Novaković",
+    "why_chosen": "Vice-rector for international affairs. As the Vice-rector for international and interuniversity cooperation, he is the highest-ranking official responsible for international relations."
+   }
+  ],
+  "rung": "International relations officer. She is the designated officer for international and interuniversity cooperation at the university.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Univerzitet u Almeriji",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.unmo.ba/",
+    "evidence_quote": "Mogućnost stručne prakse za studente na Univerzitetu u Almeriji",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Univerzitet u Valjadolidu",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "https://www.unmo.ba/",
+    "evidence_quote": "Mogućnost razmjene nastavnog osoblja u ljetnom semestru 2026/27 na Univerzitetu u Valjadolidu",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ataturk Univerzitet",
+    "partner_country": "Turkey",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.unmo.ba/",
+    "evidence_quote": "Mogućnost razmjene studenata na Ataturk Univerzitetu u ljetnom semesteru 2026/27",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Univerzitetski Kampus",
+    "city": "Mostar",
+    "country": "Bosna i Hercegovina",
+    "role": "main",
+    "source_url": "https://www.unmo.ba/",
+    "evidence_quote": "Univerzitetski Kampus"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides specific examples of international mobility partners but does not contain a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 16.8,
+  "ai_calls": 1,
+  "model_s": 4.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 23.5
+ }
+}
