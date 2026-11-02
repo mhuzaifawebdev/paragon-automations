@@ -76,5 +76,16 @@ ls3 = [{"name": "School E", "website": 1, "batch": "b1"}, {"name": "School E", "
 bd2.apply_rechecks(t3, ls3, {bd2._key("School E"): 0}, {bd2._key("School E"): 1, bd2._key("School F"): 2})
 check("a sheet's contact counts, and only once if the scraper also found one", t3["with_contact"], 3)
 
+# ---- a batch imported wrongly and scraped again: one of the two counts, never both
+import json as _j2, tempfile as _t2
+from pathlib import Path as _P2
+rd = _P2(_t2.mkdtemp())
+(rd / "old").mkdir(); (rd / "new").mkdir()
+(rd / "replaced_batches.json").write_text(_j2.dumps({"old": "new"}))
+(rd / "new" / "progress.json").write_text(_j2.dumps({"status": "running"}))
+check("while the rebuild runs, the old batch counts and the rebuild does not", bd2.hidden_batches(rd), {"new"})
+(rd / "new" / "progress.json").write_text(_j2.dumps({"status": "done"}))
+check("once it has finished, only the rebuild counts", bd2.hidden_batches(rd), {"old"})
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

@@ -74,7 +74,7 @@ def _norm(s):
     return re.sub(r"[^a-z0-9]", "", s)
 
 
-NAME_HEADER_WORDS = ("institution", "university", "organisation", "organization", "school", "college", "augstskola")
+NAME_HEADER_WORDS = ("institution", "universit", "organisation", "organization", "school", "college", "augstskola")
 NOT_NAME_HEADER_WORDS = ("type", "country", "city", "code", "website", "email", "phone", "address", "size", "category")
 
 
@@ -191,6 +191,23 @@ def _rows_headerless(text):
     return out
 
 
+def _name_blank_header(text, fieldnames):
+    """A column with no heading whose cells are institution names ("C.C. Santa Maria...", "Lycee ...") is the
+    institution column: sheets often leave the first heading empty. Named "Institution" so the usual rules apply."""
+    names = list(fieldnames)
+    rows = list(csv.reader(io.StringIO(text)))[1:41]
+    for i, h in enumerate(names):
+        if (h or "").strip():
+            continue
+        cells = [r[i].strip() for r in rows if i < len(r) and r[i].strip()]
+        named = sum(1 for c in cells if any(w in _norm(c) for w in NAME_WORDS)) >= 0.5 * len(cells)
+        long_text = sum(1 for c in cells if _cell_kind(c) == "text" and len(c) >= 12) >= 0.6 * len(cells)
+        if cells and (named or long_text):
+            names[i] = "Institution"
+            break
+    return names
+
+
 def rows_from_csv_text(text):
     reader = csv.DictReader(io.StringIO(text))
     if not reader.fieldnames:
@@ -198,6 +215,7 @@ def rows_from_csv_text(text):
     known = {_norm(a) for a in ALIASES["institution_name"]}
     if _looks_like_data(reader.fieldnames) and not any(_norm(h) in known for h in reader.fieldnames):
         return _rows_headerless(text)
+    reader.fieldnames = _name_blank_header(text, reader.fieldnames)
     mapping = _map_headers(reader.fieldnames)
     first_col = None if "contact_name" in mapping else _find_header(reader.fieldnames, FIRST_NAME_ALIASES)
     last_col = None if "contact_name" in mapping else _find_header(reader.fieldnames, LAST_NAME_ALIASES)

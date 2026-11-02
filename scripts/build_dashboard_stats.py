@@ -138,11 +138,33 @@ def batch_figures(bdir):
     return b, dict(days), lines
 
 
+def hidden_batches(data=DATA):
+    """replaced_batches.json {old batch: its rebuild}: a batch imported wrongly and scraped again. Until the rebuild
+    has finished the old batch still counts and the rebuild does not; after that only the rebuild counts, so the
+    institutes are never counted twice and the totals never dip."""
+    try:
+        pairs = json.loads((Path(data) / "replaced_batches.json").read_text(encoding="utf-8"))
+    except Exception:
+        return set()
+    hidden = set()
+    for old, new in pairs.items():
+        nd = Path(data) / new
+        try:
+            finished = (nd / "summary.json").exists() or json.loads((nd / "progress.json").read_text(encoding="utf-8")).get("status") == "done"
+        except Exception:
+            finished = False
+        hidden.add(old if finished else new)
+    return hidden
+
+
 def build(data=DATA, rows=None):
     """rows: if a list is given, the Institutes view lines are appended to it."""
     totals, by_day, batches, lines_all = _empty(), defaultdict(_empty), [], []
+    hidden = hidden_batches(data)
     for bdir in sorted(p for p in Path(data).iterdir() if p.is_dir() and p.name != "uploads" and not p.name.startswith("_")):
         b, days, lines = batch_figures(bdir)
+        if bdir.name in hidden:
+            b, days, lines = _empty(), {}, []
         lines_all.extend(lines)
         if not bdir.name.startswith(RECHECK_PREFIX):
             for k, v in b.items():

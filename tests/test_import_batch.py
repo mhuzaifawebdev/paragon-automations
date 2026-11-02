@@ -204,5 +204,15 @@ check("'Schools Name' is the institution and Name + Surname the contact, not the
       [fr[0]["institution_name"], fr[0]["contact_name"], fr[0]["designation"]], ["Lycee Denis Diderot", "Elizabeth Henry", "Headmistress"])
 check("a sheet whose only name column is 'Name' still uses it", names("Name,Country\nExample College,Malta\n"), ["Example College"])
 
+# a sheet whose first heading is empty: that column is the institution when it holds institution names
+blank = ib.rows_from_csv_text(" ,ID,Name,Surname,Contact Work Email\n"
+                              "C.C. Santa Maria la Nueva y San Jose Artesano,,Yolanda,Nunez Hoz,a@b.es\n"
+                              "C.P.C Paula Montal,,Ana,Perez,c@d.es\n")
+blank = blank[0] if isinstance(blank, tuple) else blank
+check("an empty heading over institution names is the institution column",
+      [blank[0]["institution_name"], blank[0]["contact_name"]], ["C.C. Santa Maria la Nueva y San Jose Artesano", "Yolanda Nunez Hoz"])
+check("'Universities with Student Unions' is an institution heading, 'Name' the person",
+      names("Universities with Student Unions,Name,Email\nUniversity of Vienna,Thilo Sauter,t@x.at\n"), ["University of Vienna"])
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
