@@ -1,0 +1,88 @@
+{
+ "row_id": "r480",
+ "scraped_at": "2026-11-02T10:15:12Z",
+ "contacts": {
+  "row_id": "r480",
+  "institution_name": "Oslo Metropolitan University (OsloMet)",
+  "institution_type": "university",
+  "official_website": "https://www.oslomet.no/",
+  "country": {
+   "value": "Norway",
+   "source_url": "https://www.oslomet.no/en/about/contact",
+   "evidence_quote": "Norway"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "international@oslomet.no",
+  "generic_email_url": "https://www.oslomet.no/en/about/contact",
+  "contact": {
+   "name": "Christen Krogh",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.oslomet.no/en/about/media-inquiries",
+   "evidence_quote": "Media contact for Rector Christen Krogh"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Christen Krogh is identified as the Rector of Oslo Metropolitan University.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Sunnaas rehabiliteringssjukehus",
+    "partner_country": "Norway",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oslomet.no/",
+    "evidence_quote": "Sunnaas rehabiliteringssjukehus og OsloMet testar om 3D-skanning, digital design (CAD), 3D printing og sensorteknologi kan gje raskare tilpassing, betre passform og meir treffsikker oppfølging i rehabilitering.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "campus Pilestredet",
+    "city": "Oslo",
+    "country": "Norway",
+    "role": "main",
+    "source_url": "https://www.oslomet.no/studier/studenthistorier/ti-topp-campus",
+    "evidence_quote": "OsloMet har to studiesteder. Vi har campus på Kjeller i Lillestrøm og campus i Pilestredet, sentralt i Oslo."
+   },
+   {
+    "campus_name": "campus på Kjeller",
+    "city": "Lillestrøm",
+    "country": "Norway",
+    "role": "branch",
+    "source_url": "https://www.oslomet.no/studier/studenthistorier/ti-topp-campus",
+    "evidence_quote": "OsloMet har to studiesteder. Vi har campus på Kjeller i Lillestrøm og campus i Pilestredet, sentralt i Oslo."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions general international cooperation contact emails but does not provide an explicit list of international partner universities or mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 18.5,
+  "ai_calls": 3,
+  "model_s": 2.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "email_search_s": 0.0,
+  "total_seconds": 33.3
+ }
+}
