@@ -4865,7 +4865,7 @@
    "batch": "fix-finland-sprint-5",
    "source": "rebuild of finland-sprint-5 (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4874,18 +4874,30 @@
    "started": "2026-11-02T10:39:38Z",
    "last_start": "2026-11-02T10:39:38Z",
    "restarts": 0,
-   "cap_usd": 0.0
+   "cap_usd": 0.0,
+   "crm_rows": 60,
+   "no_number": 13,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1pn5deFB2rlQiP8n-8nLz2egpjyDWRSwI/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 53,
+   "finished": "2026-11-02T10:45:45Z",
+   "reason": "62 institutes, 26 with a contact"
   },
   {
    "batch": "fix-france-batch-1-ayesha",
    "source": "rebuild of france-batch-1-ayesha (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "no_paid_search": true,
-   "max_usd": 0.0
+   "max_usd": 0.0,
+   "started": "2026-11-02T10:45:45Z",
+   "last_start": "2026-11-02T10:45:45Z",
+   "restarts": 0,
+   "cap_usd": 0.0
   },
   {
    "batch": "fix-ibrahim-batch-2-staff-mobility-ka-10",
@@ -4955,7 +4967,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-02T10:39:38Z",
+ "updated": "2026-11-02T10:45:45Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
