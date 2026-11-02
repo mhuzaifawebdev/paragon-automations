@@ -1,0 +1,70 @@
+{
+ "row_id": "r091",
+ "scraped_at": "2026-11-02T08:39:10Z",
+ "contacts": {
+  "row_id": "r091",
+  "institution_name": "Amesburytruth",
+  "institution_type": "unknown",
+  "official_website": "https://www.truthparts.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.truthparts.com/pages/contact",
+   "evidence_quote": "United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "AllAboutDoors",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.truthparts.com/",
+    "evidence_quote": "At TruthParts, we're dedicated to helping you find the exact AmesburyTruth hardware you need. As a proud supplemental company of AllAboutDoors, we are an authorized retailer for genuine AmesburyTruth replacement parts. With over a century of industry leadership, AmesburyTruth sets the standard for quality and durability, ensuring you get reliable, authentic components designed to last.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "North Kansas City store",
+    "city": "North Kansas City",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.truthparts.com/",
+    "evidence_quote": "North Kansas City, MO"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial retailer of window and door replacement parts, not an educational institution. There are no educational staff, student mobility programs, or academic partners listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 8.6,
+  "ai_calls": 3,
+  "model_s": 5.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 25.7
+ }
+}
