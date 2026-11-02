@@ -44,7 +44,8 @@ ALIASES = {
                 "contact_work_phone_number", "work_phone_number"],
     "phone_2": ["phone_2", "phone2", "work_phone", "secondary_phone", "contact_generic_phone_number"],
     "contact_name": ["contact_name", "contact", "on_file_name", "name_on_file", "person"],
-    "designation": ["designation", "role", "title", "position", "erasmus_director"],
+    "designation": ["designation", "role", "title", "position", "erasmus_director", "high rank representative",
+                    "high rank representstive"],
     "email": ["email", "contact_email", "email_address", "contact_work_email", "contact_generic_email"],
     "status_raw": ["status_raw", "status", "remarks", "notes"],
     "seed_urls": ["seed_urls", "website", "website_url", "url", "site"],
@@ -82,6 +83,8 @@ def _map_headers(fieldnames):
     normed = {_norm(h): h for h in fieldnames}
     mapping, missing = {}, []
     for out_field, aliases in ALIASES.items():
+        if out_field == "institution_name":
+            aliases = aliases[:-1]          # a bare "name" is tried only after every institution-like header below
         found = next((normed[_norm(a)] for a in aliases if _norm(a) in normed), None)
         if found:
             mapping[out_field] = found
@@ -96,6 +99,9 @@ def _map_headers(fieldnames):
             found = normed["title"]
             if mapping.get("designation") == found:
                 del mapping["designation"]
+        # a bare "Name" last: in "Schools Name, ..., Name, Surname" sheets it is the contact's first name
+        if not found and "name" in normed:
+            found = normed["name"]
         if found:
             mapping["institution_name"] = found
             missing = [m for m in missing if not m.startswith("institution_name")]

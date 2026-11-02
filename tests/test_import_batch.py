@@ -196,5 +196,13 @@ check("an event list of people (header row, no organisation column) is still rej
 check("a pure number in the name column is not an institute",
       names("University,Country\nExample College,Malta\n14.5125,Malta\n"), ["Example College"])
 
+# "Schools Name, ..., Name, Surname": the bare "Name" is the contact's first name, never the institution
+fr = ib.rows_from_csv_text("Schools Name,ID,High Rank Representstive,Name,Surname,Contact Work Email,URL\n"
+                           "Lycee Denis Diderot,France-54,Headmistress,Elizabeth ,Henry,e.henry@ac-reims.fr,https://lpdiderot10.fr/\n")
+fr = fr[0] if isinstance(fr, tuple) else fr
+check("'Schools Name' is the institution and Name + Surname the contact, not the other way round",
+      [fr[0]["institution_name"], fr[0]["contact_name"], fr[0]["designation"]], ["Lycee Denis Diderot", "Elizabeth Henry", "Headmistress"])
+check("a sheet whose only name column is 'Name' still uses it", names("Name,Country\nExample College,Malta\n"), ["Example College"])
+
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)
