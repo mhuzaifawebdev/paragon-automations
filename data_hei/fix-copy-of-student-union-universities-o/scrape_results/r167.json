@@ -1,0 +1,78 @@
+{
+ "row_id": "r167",
+ "scraped_at": "2026-11-02T09:31:10Z",
+ "contacts": {
+  "row_id": "r167",
+  "institution_name": "Aarhus School of Architecture",
+  "institution_type": "university",
+  "official_website": "https://aarch.dk/",
+  "country": {
+   "value": "Denmark",
+   "source_url": "https://aarch.dk/",
+   "evidence_quote": "Denmark"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "studentervejleder@aarch.dk",
+  "generic_email_url": "https://aarch.dk/kontakt-uddannelse/",
+  "contact": {
+   "name": "Jørgen Helstrup",
+   "designation": "International Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://aarch.dk/kontakt-uddannelse/",
+   "evidence_quote": "[Jørgen Helstrup - International koordinator]Jørgen Helstrup ... International koordinator, Cand.mag.Se profil"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. Jørgen Helstrup is explicitly identified as the International Coordinator, making him the primary contact for international mobility.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Virginia Tech",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://aarch.dk/internationalization-network-grant/",
+    "evidence_quote": "Virginia Tech, USA.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Aarhus School of Architecture",
+    "city": "Aarhus",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://aarch.dk/",
+    "evidence_quote": "Exners Plads 7"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partners, only mentioning a specific research collaboration with Virginia Tech.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.1,
+  "crawl_s": 23.9,
+  "ai_calls": 1,
+  "model_s": 56.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.8,
+  "total_seconds": 88.0
+ }
+}
