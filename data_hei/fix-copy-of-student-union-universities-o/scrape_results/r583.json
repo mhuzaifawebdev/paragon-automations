@@ -1,0 +1,95 @@
+{
+ "row_id": "r583",
+ "scraped_at": "2026-11-02T10:27:00Z",
+ "contacts": {
+  "row_id": "r583",
+  "institution_name": "University of Brighton",
+  "institution_type": "university",
+  "official_website": "https://www.brighton.ac.uk/index.aspx",
+  "country": {
+   "value": "UK",
+   "source_url": "https://www.brighton.ac.uk/about-us/contact-us/emergency/index.aspx",
+   "evidence_quote": "For callers outside the UK, the emergency number is +44 1273 64 2222."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "internationaladvice@brighton.ac.uk",
+  "generic_email_url": "https://www.brighton.ac.uk/about-us/contact-us/index.aspx",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "University Alliance",
+    "partner_country": "UK",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.brighton.ac.uk/index.aspx",
+    "evidence_quote": "[University Alliance]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Housing Hand",
+    "partner_country": "UK",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.brighton.ac.uk/accommodation-and-locations/living-off-campus/index.aspx",
+    "evidence_quote": "The University of Brighton has partnered with Housing Hand, a specialist guarantor service that supports students who do not have access to a UK guarantor. Their service is designed to be flexible and accessible for both UK and international students.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Moulsecoomb campus",
+    "city": "Brighton",
+    "country": "UK",
+    "role": "main",
+    "source_url": "https://www.brighton.ac.uk/accommodation-and-locations/campuses/index.aspx",
+    "evidence_quote": "Moulsecoomb campus"
+   },
+   {
+    "campus_name": "City campus",
+    "city": "Brighton",
+    "country": "UK",
+    "role": "branch",
+    "source_url": "https://www.brighton.ac.uk/accommodation-and-locations/campuses/index.aspx",
+    "evidence_quote": "City campus"
+   },
+   {
+    "campus_name": "Falmer campus",
+    "city": "Brighton",
+    "country": "UK",
+    "role": "branch",
+    "source_url": "https://www.brighton.ac.uk/accommodation-and-locations/campuses/index.aspx",
+    "evidence_quote": "Falmer campus"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain a dedicated Erasmus+ partner list or international mobility coordinator contacts.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 14.1,
+  "ai_calls": 3,
+  "model_s": 2.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 42.8
+ }
+}
