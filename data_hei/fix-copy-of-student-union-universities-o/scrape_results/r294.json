@@ -1,0 +1,93 @@
+{
+ "row_id": "r294",
+ "scraped_at": "2026-11-02T09:52:57Z",
+ "contacts": {
+  "row_id": "r294",
+  "institution_name": "University of South Bohemia in České Budějovice",
+  "institution_type": "university",
+  "official_website": "https://esnusb.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@esnusb.cz",
+  "generic_email_url": "https://esnusb.cz/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "RyainAir",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://esnusb.cz/czech/",
+    "evidence_quote": "[RyainAir]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Flix",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://esnusb.cz/czech/",
+    "evidence_quote": "[Flix]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Vodafone",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://esnusb.cz/czech/",
+    "evidence_quote": "[Vodafone WS 24_25]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Spotahome",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://esnusb.cz/czech/",
+    "evidence_quote": "[Spotahome]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "University of South Bohemia",
+    "city": "České Budějovice",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://esnusb.cz/o-spolku/",
+    "evidence_quote": "Erasmus Student Netwrok USB Budweis je studentským spolkem při Jihočeské univerzitě (University of South Bohemia). Spolek čítá okolo 15 členů napříč fakultami a ročníky, kteří vedou různé aktivity a dále okolo 40 studentů, kteří jsou tzv. buddies pro zahraničního studenta."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides information about the student association ESN USB but does not list official university-level international relations staff or a formal list of academic Erasmus partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.0,
+  "crawl_s": 39.3,
+  "thin_home": true,
+  "ai_calls": 2,
+  "model_s": 2.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 79.7
+ }
+}
