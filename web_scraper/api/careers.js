@@ -146,7 +146,8 @@ module.exports = async (req, res) => {
                     content: String(q.utm_content || "").slice(0, 60) };
     res.status(200).send(jobPage(job, data, base, url, src, utm, track));
   } catch (e) {
-    res.status(503).send(page("Careers", `<h1>Careers</h1><p class="sub">The job list is not available right now. Please try again later.</p><!-- ${esc(e.message)} -->`));
+    res.status(503).send(page("Careers", `<h1>Careers</h1><p class="sub">The job list is not available right now. Please try again later.</p>`));
+    console.error("careers:", e.message);
   }
 };
 
