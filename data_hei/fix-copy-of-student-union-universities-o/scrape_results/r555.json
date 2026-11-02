@@ -1,0 +1,110 @@
+{
+ "row_id": "r555",
+ "scraped_at": "2026-11-02T10:22:45Z",
+ "contacts": {
+  "row_id": "r555",
+  "institution_name": "University of Málaga (UMA)",
+  "institution_type": "university",
+  "official_website": "https://www.uma.es/",
+  "country": {
+   "value": "España",
+   "source_url": "https://www.uma.es/",
+   "evidence_quote": "Campus de Teatinos. 29071 Málaga, España."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@uma.es",
+  "generic_email_url": "https://campusvirtual.cv.uma.es/",
+  "contact": {
+   "name": "D. Enrique Nava Baro",
+   "designation": "Vice-Rector for Mobility and International Projects",
+   "designation_local": "",
+   "email": "vrinternacional@uma.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.uma.es/gobierno/info/160302/equipo-de-direccion-nuevo-portal-web/",
+   "evidence_quote": "Vicerrector de Movilidad y Proyectos Internacionales D. Enrique Nava Baro"
+  },
+  "alternates": [
+   {
+    "name": "D. Juan Teodomiro López Navarrete",
+    "designation": "Rector",
+    "designation_local": "",
+    "email": "rector@uma.es",
+    "office_email": "",
+    "phone": "952 13 65 18",
+    "source_url": "https://www.uma.es/gobierno/info/160302/equipo-de-direccion-nuevo-portal-web/",
+    "evidence_quote": "Rector D. Juan Teodomiro López Navarrete",
+    "why_chosen": "Principal / director (no Erasmus contact found). He is the Rector and head of the institution."
+   },
+   {
+    "name": "D. Antonio J. Guevara Plaza",
+    "designation": "Director of Institutional Alliances and Patronage",
+    "designation_local": "",
+    "email": "diralim@uma.es",
+    "office_email": "",
+    "phone": "952 13 65 18",
+    "source_url": "https://www.uma.es/gobierno/info/160302/equipo-de-direccion-nuevo-portal-web/",
+    "evidence_quote": "Director de Alianzas Institucionales y Mecenazgo D. Antonio J. Guevara Plaza",
+    "why_chosen": "Other role. He is the Director of Institutional Alliances and Patronage, overseeing institutional relations."
+   }
+  ],
+  "rung": "Vice-rector for international affairs. He is the Vice-Rector for Mobility and International Projects, making him the primary contact for international mobility and Erasmus partnerships.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universidad Comenius de Bratislava",
+    "partner_country": "Eslovaquia",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.uma.es/",
+    "evidence_quote": "[El Aula de Mayores +55 ha celebrado en @comunifac un acto para conmemorar y exponer experiencias de su participación en el programa 🇪🇺 Erasmus+. El pasado curso se pusieron en marcha dos 🛩️ movilidades: una a la Universidad Comenius de Bratislava (🇸🇰Eslovaquia) y otra a la Dublin City University (🇮🇪Irlanda), en las que han participado más de medio centenar de estudiantes.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Dublin City University",
+    "partner_country": "Irlanda",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.uma.es/",
+    "evidence_quote": "[El Aula de Mayores +55 ha celebrado en @comunifac un acto para conmemorar y exponer experiencias de su participación en el programa 🇪🇺 Erasmus+. El pasado curso se pusieron en marcha dos 🛩️ movilidades: una a la Universidad Comenius de Bratislava (🇸🇰Eslovaquia) y otra a la Dublin City University (🇮🇪Irlanda), en las que han participado más de medio centenar de estudiantes.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus de Teatinos",
+    "city": "Málaga",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.uma.es/",
+    "evidence_quote": "Campus de Teatinos. 29071 Málaga, España."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists specific mobility partners mentioned in news items but does not contain a comprehensive partner directory.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 14.3,
+  "ai_calls": 1,
+  "model_s": 2.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 17.9
+ }
+}
