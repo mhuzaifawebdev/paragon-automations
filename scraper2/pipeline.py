@@ -35,6 +35,21 @@ ROLE_STEMS = re.compile(
     r"maestr|native speaker|specialist|speciali|spezialist|expert|inspector|technician|clerk|employee|administrator|"
     r"skyri|vadov|contact person|point of contact|kontaktperson|nachalnik|rukovod|carer|attache|delegat|counsel")
 
+# Businesses and organisations have no Erasmus office, but an owner, founder or managing director. Kept apart from
+# ROLE_STEMS because looks_like_person() rejects a name word that matches ROLE_STEMS, and words like 'owner' or
+# 'partner' sit inside real surnames (Downer, Partner).
+BUSINESS_ROLE = re.compile(
+    r"\b(owner|co-?owner|founder|co-?founder|ceo|coo|cfo|cto|president|chairman|chairwoman|chairperson|inhaber\w*|"
+    r"geschaftsfuhrer\w*|geschaeftsfuehrer\w*|gerant\w*|proprietaire|proprietor|propietari\w*|proprietari\w*|fundador\w*|"
+    r"fondat\w*|fondateur|wlasciciel\w*|zalozyciel\w*|prezes|majitel\w*|zakladatel\w*|tulajdonos|alapito|eigenaar|"
+    r"oprichter|partner|supervisor|team lead|editor|curator|coach|trainer|instructor|pharmacist|physician|doctor|nurse|"
+    r"head chef)\b")
+
+
+def states_role(text):
+    t = _n(text)
+    return bool(ROLE_STEMS.search(t) or BUSINESS_ROLE.search(t))
+
 LLM_SLOTS = threading.Semaphore(4)      # run.py resizes this from config (free tiers have requests-per-minute caps)
 
 ROLE_LABEL = {
@@ -277,7 +292,7 @@ def resolve_contacts(data, pack):
         # their OWN address (it carries their name) beside their name is evidence enough that they work here:
         # 'Contact the ITM Education Office (Charlotte Morantin – cmorantin@itg.be)' states no job title
         own_mail = bool(email) and _matches_name(email, _name_toks(name)) and (el is None or abs(el["n"] - nl["n"]) <= 3)
-        if not ROLE_STEMS.search(_n(rl["text"] + " " + nl["text"])) and not topic_role_ok(nl, rl, c, pack) and not own_mail:
+        if not states_role(rl["text"] + " " + nl["text"]) and not topic_role_ok(nl, rl, c, pack) and not own_mail:
             continue                                    # no role is stated on the cited line(s): not evidence of a contact
         if rl["n"] == nl["n"]:
             quote = nl["text"]
@@ -454,9 +469,8 @@ def pick_generic_email(pages, site):
             if NOT_GENERIC.match(local) or not any(dom == h or dom.endswith("." + h) or h.endswith("." + dom) for h in hosts):
                 continue
             named = len(local) >= 3 and any(local in n or n in local for n in names)
-            tier = 0 if GENERIC_INTL.match(local) else 1 if (GENERIC_OFFICE.match(local) or named) else None
-            if tier is None:
-                continue
+            # any other address on the institute's own domain (sales@, a staff member's own) is still somewhere to write
+            tier = 0 if GENERIC_INTL.match(local) else 1 if (GENERIC_OFFICE.match(local) or named) else 2
             seen = best.get(e)
             best[e] = (tier, (seen[1] if seen else 0) - 1, seen[2] if seen else i, seen[3] if seen else page.get("url", ""))
     if not best:
@@ -507,7 +521,7 @@ def free_staff_pages(cr, limit=8, workers=5):
         text = rec.get("text", "")
         if fetch_pages._url_key(rec.get("final_url") or rec.get("url", "")) in home or len(text) < 200:
             continue
-        if any(ROLE_STEMS.search(_n(l)) and _PERSON_LINE.search(l) for l in text.split("\n")):
+        if any(states_role(l) and _PERSON_LINE.search(l) for l in text.split("\n")):
             keep.append(crawl._slim(rec))
     return keep
 

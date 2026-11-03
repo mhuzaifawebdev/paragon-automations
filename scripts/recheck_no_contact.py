@@ -22,7 +22,9 @@ DATA = ROOT / "data_hei"
 # Round 3: the deep pass (--deep): the site's own staff/leadership pages found by search and read first, up to
 # 20 pages per site, partner lists not read again.
 # Round 4: the deep pass with Google search through the paid Gemini key (discover._gemini_paid_urls).
-ROUND = 4
+# Round 5: businesses count (owner, founder, CEO, managing director, manager) and any address on the site's own domain
+# is kept as its inbox when no shared one is shown.
+ROUND = 5
 
 
 def batches(data=DATA):

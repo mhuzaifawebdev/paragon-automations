@@ -716,8 +716,25 @@ check("an inbox named after the site counts", pl.pick_generic_email(
 check("a neighbour on the same city domain does not", pl.pick_generic_email(
       [{"url": "https://www.accademiadibrera.milano.it/", "text": "info@comune.milano.it"}], "https://www.accademiadibrera.milano.it/"),
       ("", ""))
-check("only personal addresses: no inbox", pl.pick_generic_email(
-      [{"url": "https://x.edu/", "text": "anna.kowalska@x.edu, j.nowak@x.edu"}], "https://x.edu/"), ("", ""))
+check("only personal addresses: the first one on the site's own domain is still somewhere to write", pl.pick_generic_email(
+      [{"url": "https://x.edu/", "text": "anna.kowalska@x.edu, j.nowak@x.edu"}], "https://x.edu/"), ("anna.kowalska@x.edu", "https://x.edu/"))
+check("a shared inbox still beats a staff member's address", pl.pick_generic_email(
+      [{"url": "https://shop.mt/", "text": "maria@shop.mt · sales@shop.mt · info@shop.mt"}], "https://shop.mt/")[0], "info@shop.mt")
+check("a personal address on another domain still does not count", pl.pick_generic_email(
+      [{"url": "https://shop.mt/", "text": "maria.borg@gmail.com"}], "https://shop.mt/"), ("", ""))
+
+# ---- businesses: an owner or managing director is a contact, and real surnames are not mistaken for roles
+check("business roles are stated roles", [pl.states_role("Maria Borg, Owner"), pl.states_role("Geschäftsführer: Hans Müller"),
+      pl.states_role("Co-founder & CEO"), pl.states_role("Gérant : Paul Martin"), pl.states_role("Opening hours 9-5")],
+      [True, True, True, True, False])
+check("surnames that contain a role word are still names", [pl.looks_like_person("John Downer"), pl.looks_like_person("Anna Partner")],
+      [True, True])
+pk = evidence.build_pack([{"url": "https://shop.mt/about", "text": "About us\nMaria Borg - Owner\nmaria@shop.mt"}])
+ln = {l["text"]: l["n"] for l in pk.lines}
+got = pl.resolve_contacts({"contacts": [{"name": "Maria Borg", "designation_english": "Owner", "role_class": "principal_or_director",
+      "name_line": ln["Maria Borg - Owner"], "role_line": ln["Maria Borg - Owner"], "email_line": ln["maria@shop.mt"], "phone_line": 0}]}, pk)
+check("a shop owner named on the site is kept as the contact, with her email", [(c["name"], c["email"]) for c in got],
+      [("Maria Borg", "maria@shop.mt")])
 
 # ---- free staff / legal pages before any paid search
 asked = []

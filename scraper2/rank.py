@@ -27,7 +27,9 @@ ROLE_PATTERNS = [
         r"vice[- ]?president.*international"]),
     ("faculty_coordinator", [r"faculty.*(erasmus|international)", r"department.*erasmus", r"faculte.*erasmus"]),
     ("principal_or_director", [r"\bprincipal\b", r"head ?master", r"head ?teacher", r"\bdirector(a)?\b", r"directeur", r"proviseur",
-        r"schulleiter", r"riaditel", r"igazgat", r"dyrektor", r"direktor"]),
+        r"schulleiter", r"riaditel", r"igazgat", r"dyrektor", r"direktor",
+        r"\bowner\b", r"\bfounder\b", r"co-?founder", r"\bceo\b", r"managing director", r"general manager", r"inhaber",
+        r"gesch(a|ae|ä)ftsf(u|ue|ü)hr", r"g(e|é)rant", r"propri(e|é)taire", r"\bpresident\b"]),
     ("language_or_project_teacher", [
         r"(english|language|languages|anglais|ingles|inglese|englisch|angielsk|anglick|angol|fremdsprach|langues|lingue|idiomas)\w*"
         r"\W+(\w+\W+)?(teacher|lehrer|lehrkraft|enseignant|profesor|professeur|docente|insegnant|nauczyciel|ucitel|tanar)",
