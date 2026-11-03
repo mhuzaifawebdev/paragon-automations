@@ -5027,7 +5027,7 @@
    "batch": "fix-sprint-5-germany-sumbul-batch-2",
    "source": "rebuild of sprint-5-germany-sumbul-batch-2 (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -5036,11 +5036,19 @@
    "started": "2026-11-03T11:23:06Z",
    "last_start": "2026-11-03T11:23:06Z",
    "restarts": 0,
-   "cap_usd": 0.0
+   "cap_usd": 0.0,
+   "crm_rows": 49,
+   "no_number": 2,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1nNtlisvz5mR-bvKMODcE77K26I1UIQIJ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 46,
+   "finished": "2026-11-03T11:26:26Z",
+   "reason": "46 institutes, 28 with a contact"
   }
  ],
  "paused": null,
- "updated": "2026-11-03T11:23:06Z",
+ "updated": "2026-11-03T11:26:26Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
