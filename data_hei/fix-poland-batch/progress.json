@@ -1,14 +1,14 @@
 {
  "batch": "fix-poland-batch",
- "status": "running",
- "generated_at": "2026-11-03T11:00:40.668534+00:00",
+ "status": "done",
+ "generated_at": "2026-11-03T11:01:00.701420+00:00",
  "chunk": 6,
- "total_chunks": 5,
+ "total_chunks": 6,
  "total_rows": 111,
- "done": 107,
- "pending": 4,
- "elapsed_seconds": 309,
- "eta_seconds": 11,
+ "done": 111,
+ "pending": 0,
+ "elapsed_seconds": 329,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 20,
+ "ai_calls": 25,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,18 +38,14 @@
   }
  ],
  "confidence": {
-  "high": 2,
-  "medium": 14,
+  "high": 3,
+  "medium": 16,
   "low": 73,
-  "none": 18
+  "none": 19
  },
- "partners_found": 613,
- "campuses_found": 120,
+ "partners_found": 617,
+ "campuses_found": 123,
  "recent": [
-  "r088",
-  "r089",
-  "r090",
-  "r091",
   "r092",
   "r093",
   "r094",
@@ -64,8 +60,12 @@
   "r103",
   "r104",
   "r105",
+  "r106",
   "r107",
-  "r110"
+  "r108",
+  "r109",
+  "r110",
+  "r111"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1hQvmf3qK2YYz3IDA3GYKOnwH7dRm_rtL/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
