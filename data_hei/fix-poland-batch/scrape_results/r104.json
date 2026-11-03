@@ -1,0 +1,74 @@
+{
+ "row_id": "r104",
+ "scraped_at": "2026-11-03T11:00:40Z",
+ "contacts": {
+  "row_id": "r104",
+  "institution_name": "Zespół Szkół Technicznych im. gen. Zygmunta",
+  "institution_type": "school",
+  "official_website": "https://zst.chelm.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kontakt@zst.chelm.pl",
+  "generic_email_url": "https://zst.chelm.pl/",
+  "contact": {
+   "name": "Grzegorz Czyżyk",
+   "designation": "Principal / Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://zst.chelm.pl/kadra-szkoly/",
+   "evidence_quote": "Dyrektor szkoły: Grzegorz Czyżyk"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Grzegorz Czyżyk is the director of the institution, making him the primary administrative contact.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Wschodni Klaster ICT",
+    "partner_country": "Polska",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://zst.chelm.pl/podpisanie-porozumienia-o-wspolpracy-z-wschodnim-klastrem-ict/",
+    "evidence_quote": "W dniu 6 listopada 2025 roku Pan Grzegorz Czyżyk, Dyrektor Zespołu Szkół Technicznych w Chełmie, podpisał porozumienie o współpracy pomiędzy Wschodnim Klastrem ICT, reprezentowanym przez Wschodnią Agencję Rozwoju sp. z o.o. z siedzibą w Lublinie, a naszą szkołą.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zespół Szkół Technicznych w Chełmie",
+    "city": "Chełm",
+    "country": "Polska",
+    "role": "main",
+    "source_url": "https://zst.chelm.pl/",
+    "evidence_quote": "ul. Graniczna 2, 22-100 Chełm"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 9,
+  "coverage_note": "The evidence lists general school information, staff directories, and local partners, but does not provide an exhaustive international partner list. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 28.7,
+  "ai_calls": 1,
+  "model_s": 11.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 43.3
+ }
+}

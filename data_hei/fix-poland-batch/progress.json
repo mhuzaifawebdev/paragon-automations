@@ -1,14 +1,14 @@
 {
  "batch": "fix-poland-batch",
  "status": "running",
- "generated_at": "2026-11-03T10:59:33.056188+00:00",
- "chunk": 5,
+ "generated_at": "2026-11-03T11:00:40.668534+00:00",
+ "chunk": 6,
  "total_chunks": 5,
  "total_rows": 111,
- "done": 100,
- "pending": 11,
- "elapsed_seconds": 266,
- "eta_seconds": 40,
+ "done": 107,
+ "pending": 4,
+ "elapsed_seconds": 309,
+ "eta_seconds": 11,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 16,
+ "ai_calls": 20,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,21 +38,14 @@
   }
  ],
  "confidence": {
-  "high": 1,
-  "medium": 12,
-  "low": 70,
-  "none": 17
+  "high": 2,
+  "medium": 14,
+  "low": 73,
+  "none": 18
  },
- "partners_found": 583,
- "campuses_found": 114,
+ "partners_found": 613,
+ "campuses_found": 120,
  "recent": [
-  "r081",
-  "r082",
-  "r083",
-  "r084",
-  "r085",
-  "r086",
-  "r087",
   "r088",
   "r089",
   "r090",
@@ -65,7 +58,14 @@
   "r097",
   "r098",
   "r099",
-  "r100"
+  "r100",
+  "r101",
+  "r102",
+  "r103",
+  "r104",
+  "r105",
+  "r107",
+  "r110"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1hQvmf3qK2YYz3IDA3GYKOnwH7dRm_rtL/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
