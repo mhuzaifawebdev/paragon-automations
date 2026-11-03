@@ -1,0 +1,69 @@
+{
+ "row_id": "r345",
+ "scraped_at": "2026-11-03T11:00:09Z",
+ "contacts": {
+  "row_id": "r345",
+  "institution_name": "Condado Window",
+  "institution_type": "unknown",
+  "official_website": "https://condadowindow.com/",
+  "country": {
+   "value": "Puerto Rico",
+   "source_url": "https://condadowindow.com/",
+   "evidence_quote": "serving Puerto Rico."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "administration@condadowindow.com",
+  "generic_email_url": "https://condadowindow.com/company/",
+  "contact": {
+   "name": "Customer Service",
+   "designation": "Customer Service",
+   "designation_local": "",
+   "email": "costumerservice@condadowindow.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://condadowindow.com/company/",
+   "evidence_quote": "Customer Service"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Customer Service is listed as a contact department for the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Condado Window",
+    "city": "Hialeah Gardens",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://condadowindow.com/contact/",
+    "evidence_quote": "Hialeah Gardens, FL 33018,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial company manufacturing windows and doors, not an educational institution. No information regarding Erasmus+ or academic partnerships is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 9.4,
+  "ai_calls": 2,
+  "model_s": 3.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 89.3
+ }
+}
