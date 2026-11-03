@@ -1,0 +1,69 @@
+{
+ "row_id": "r272",
+ "scraped_at": "2026-11-01T21:10:57Z",
+ "contacts": {
+  "row_id": "r272",
+  "institution_name": "Pirkkalan kunta",
+  "institution_type": "school",
+  "official_website": "https://www.pirkkala.fi/",
+  "country": {
+   "value": "Suomi",
+   "source_url": "https://www.pirkkala.fi/",
+   "evidence_quote": "Suomi"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kirjaamo@pirkkala.fi",
+  "generic_email_url": "https://www.pirkkala.fi/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "Reused from batch website-recheck-shallow-education-read (scraped 2026-11-01). site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Nuorisokeskus Marttinen",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.pirkkala.fi/kiinnosteleeko-ulkomaat-pirkkalan-nuorten-kansainvalisyysprojekti-alkaa-syksylla-2024/",
+    "evidence_quote": "Projektin mahdollistaa Erasmus+ -hanke ja Nuorisokeskus Marttinen.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Pirkkalan kunta",
+    "city": "Pirkkala",
+    "country": "Suomi",
+    "role": "main",
+    "source_url": "https://www.pirkkala.fi/",
+    "evidence_quote": "PL 1001, 33961 Pirkkala"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The institution is a municipality that manages several schools. The evidence provides contact details for specific youth projects and school staff, but does not contain a formal list of international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "website-recheck-shallow-education-read",
+  "row_id": "r488"
+ }
+}
