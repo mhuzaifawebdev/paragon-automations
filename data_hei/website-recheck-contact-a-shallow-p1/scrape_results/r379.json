@@ -1,0 +1,59 @@
+{
+ "row_id": "r379",
+ "scraped_at": "2026-11-03T11:13:46Z",
+ "contacts": {
+  "row_id": "r379",
+  "institution_name": "Cycling 74",
+  "institution_type": "unknown",
+  "official_website": "https://cycling74.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://cycling74.com/contact",
+   "evidence_quote": "Covina, CA 91723 USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@cycling74.com",
+  "generic_email_url": "https://cycling74.com/contact",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Cycling '74 Mailing Address",
+    "city": "Covina",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://cycling74.com/contact",
+    "evidence_quote": "Covina, CA 91723 USA"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "The institution is a software company rather than an educational institution. No educational partners or named contact persons with official roles are listed in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 9.6,
+  "ai_calls": 2,
+  "model_s": 151.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 230.8
+ }
+}
