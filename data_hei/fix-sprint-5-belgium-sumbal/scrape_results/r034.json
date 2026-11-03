@@ -1,0 +1,76 @@
+{
+ "row_id": "r034",
+ "scraped_at": "2026-11-03T11:22:29Z",
+ "contacts": {
+  "row_id": "r034",
+  "institution_name": "IPES - Wavre",
+  "institution_type": "school",
+  "official_website": "https://www.ipeswavre.be/",
+  "country": null,
+  "phone": {
+   "value": "010/48.81.11",
+   "source_url": "https://www.ipeswavre.be/",
+   "evidence_quote": "Bohy 010/48.81.11 <tel Bohy010/48.81.11>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "PIRLOT Romy",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "accueil.ipesw@enseignementbw.be",
+   "office_email": "",
+   "phone": "010 48 81 11",
+   "source_url": "https://www.ipeswavre.be/ipes/parents/equipe-de-direction.html",
+   "evidence_quote": "PIRLOT Romy ... Directrice"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Romy Pirlot is the Director of the institution and the primary contact on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Implantation Bohy",
+    "city": "Wavre",
+    "country": "Belgium",
+    "role": "branch",
+    "source_url": "https://www.ipeswavre.be/",
+    "evidence_quote": "[Implantation Bohy]"
+   },
+   {
+    "campus_name": "Implantation Quai aux Huîtres",
+    "city": "Wavre",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.ipeswavre.be/",
+    "evidence_quote": "[Implantation Quai aux Huîtres]"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "No Erasmus or international mobility partners are mentioned in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 7.4,
+  "ai_calls": 1,
+  "model_s": 7.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.9,
+  "total_seconds": 19.4
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "row_id": "r041",
+ "scraped_at": "2026-11-03T11:22:34Z",
+ "contacts": {
+  "row_id": "r041",
+  "institution_name": "MSKA  - Roeselare",
+  "institution_type": "school",
+  "official_website": "https://www.mskaroeselare.be/",
+  "country": {
+   "value": "Roeselare",
+   "source_url": "https://www.mskaroeselare.be/",
+   "evidence_quote": "8800, Roeselare"
+  },
+  "phone": {
+   "value": "+32 (0)51 22 62 39",
+   "source_url": "https://www.mskaroeselare.be/campus-tant/team-campus-tant",
+   "evidence_quote": "tel: +32 (0)51 22 62 39"
+  },
+  "phone_alt": [],
+  "generic_email": "info@mskaroeselare.be",
+  "generic_email_url": "https://www.mskaroeselare.be/contactgegevens-campus-groenestraat",
+  "contact": {
+   "name": "Fangio Hoorelbeke",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "fangio.hoorelbeke@mskaroeselare.be",
+   "office_email": "",
+   "phone": "+32 (0)51 22 62 39",
+   "source_url": "https://www.mskaroeselare.be/campus-tant/team-campus-tant",
+   "evidence_quote": "Directeur ... Fangio Hoorelbeke"
+  },
+  "alternates": [
+   {
+    "name": "Joeri Manhout",
+    "designation": "Director Campus Groenestraat",
+    "designation_local": "",
+    "email": "joeri.manhout@mskaroeselare.be",
+    "office_email": "",
+    "phone": "+32 (0)51 27 27 70",
+    "source_url": "https://www.mskaroeselare.be/campus-groenestraat/team",
+    "evidence_quote": "Joeri Manhout ... Directeur Campus Groenestraat",
+    "why_chosen": "Principal / director (no Erasmus contact found). Joeri Manhout is the Director of Campus Groenestraat and holds a principal or director leadership role."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Fangio Hoorelbeke is the Director of Campus Tant and is the contact currently on file for leadership at the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: email domain. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Tant",
+    "city": "Roeselare",
+    "country": "Roeselare",
+    "role": "main",
+    "source_url": "https://www.mskaroeselare.be/",
+    "evidence_quote": "Hugo Verrieststraat 68 (campus Tant)"
+   },
+   {
+    "campus_name": "Campus Groenestraat",
+    "city": "Roeselare",
+    "country": "Roeselare",
+    "role": "branch",
+    "source_url": "https://www.mskaroeselare.be/",
+    "evidence_quote": "Groenestraat 170 (campus Groenestraat)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 9,
+  "coverage_note": "The evidence provides staff and campus contact details, but there is no mention of international partnerships or Erasmus agreements. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 14.2,
+  "ai_calls": 1,
+  "model_s": 1.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 17.8
+ }
+}
