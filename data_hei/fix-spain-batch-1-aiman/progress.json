@@ -1,14 +1,14 @@
 {
  "batch": "fix-spain-batch-1-aiman",
- "status": "running",
- "generated_at": "2026-11-03T11:17:13.301337+00:00",
- "chunk": 3,
- "total_chunks": 3,
+ "status": "done",
+ "generated_at": "2026-11-03T11:19:17.000830+00:00",
+ "chunk": 4,
+ "total_chunks": 4,
  "total_rows": 51,
- "done": 50,
- "pending": 1,
- "elapsed_seconds": 344,
- "eta_seconds": 2,
+ "done": 51,
+ "pending": 0,
+ "elapsed_seconds": 439,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 21,
+ "ai_calls": 23,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -41,12 +41,11 @@
   "high": 2,
   "medium": 4,
   "low": 19,
-  "none": 25
+  "none": 26
  },
  "partners_found": 296,
  "campuses_found": 48,
  "recent": [
-  "r031",
   "r032",
   "r033",
   "r034",
@@ -65,6 +64,7 @@
   "r047",
   "r048",
   "r049",
-  "r050"
+  "r050",
+  "r051"
  ]
 }
