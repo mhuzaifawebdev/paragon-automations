@@ -1,0 +1,63 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-10-27T20:06:34Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Mme. Géraldine",
+  "institution_type": "school",
+  "official_website": "https://www.arwaimes.com/",
+  "country": {
+   "value": "WAIMES",
+   "source_url": "https://www.arwaimes.com/",
+   "evidence_quote": "Adresse : Rue des Hêtres, 2a – 4950 WAIMES"
+  },
+  "phone": {
+   "value": "080/67.95.65",
+   "source_url": "https://www.arwaimes.com/",
+   "evidence_quote": "Téléphone : 080/67.95.65"
+  },
+  "phone_alt": [],
+  "generic_email": "info@arwaimes.com",
+  "generic_email_url": "https://www.arwaimes.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch sprint-5-belgium-sumbal (scraped 2026-10-27). site found via: email domain. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Athénée Royal de Waimes",
+    "city": "Waimes",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.arwaimes.com/",
+    "evidence_quote": "Athénée Royal de Waimes"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain any named contact persons with specific roles or any partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "sprint-5-belgium-sumbal",
+  "row_id": "r008"
+ }
+}
