@@ -1,0 +1,80 @@
+{
+ "row_id": "r164",
+ "scraped_at": "2026-11-03T10:16:55Z",
+ "contacts": {
+  "row_id": "r164",
+  "institution_name": "Lycée professionnel Arthur Rimbaud",
+  "institution_type": "school",
+  "official_website": "https://lycee-arthur-rimbaud-la-courneuve.com/",
+  "country": {
+   "value": "La Courneuve",
+   "source_url": "https://lycee-arthur-rimbaud-la-courneuve.com/nous%20contacter.html",
+   "evidence_quote": "93120 La Courneuve"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Madame Isabelle DESESTRET-MAZARD",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lycee-arthur-rimbaud-la-courneuve.com/Organigramme.html",
+   "evidence_quote": "Madame Isabelle DESESTRET-MAZARD | ... Proviseure |"
+  },
+  "alternates": [
+   {
+    "name": "Monsieur Sébastien LAMBRE",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lycee-arthur-rimbaud-la-courneuve.com/Organigramme.html",
+    "evidence_quote": "Monsieur Sébastien LAMBRE | ... Proviseur-Adjoint |",
+    "why_chosen": "Principal / director (no Erasmus contact found). Monsieur Sébastien LAMBRE is the deputy principal of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Madame Isabelle DESESTRET-MAZARD is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Professionnel Arthur Rimbaud",
+    "city": "La Courneuve",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lycee-arthur-rimbaud-la-courneuve.com/nous%20contacter.html",
+    "evidence_quote": "Lycée Professionnel Arthur Rimbaud"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "No Erasmus partners or international mobility agreements are mentioned in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.0,
+  "crawl_s": 7.9,
+  "ai_calls": 1,
+  "model_s": 9.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 21.4
+ }
+}

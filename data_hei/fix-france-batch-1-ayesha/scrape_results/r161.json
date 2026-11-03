@@ -1,0 +1,104 @@
+{
+ "row_id": "r161",
+ "scraped_at": "2026-11-03T10:17:24Z",
+ "contacts": {
+  "row_id": "r161",
+  "institution_name": "Lycée professionnel Augustin Hebert",
+  "institution_type": "college",
+  "official_website": "https://hebert-evreux.lycee.ac-normandie.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. GACOUIN",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ce.0270018y@ac-normandie.fr",
+   "office_email": "",
+   "phone": "02.32.33.28.11",
+   "source_url": "https://hebert-evreux.lycee.ac-normandie.fr/spip.php?rubrique309",
+   "evidence_quote": "Proviseur du Lycée : M. GACOUIN"
+  },
+  "alternates": [
+   {
+    "name": "Grégory Zazzali",
+    "designation": "Referent Teacher for Action",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://hebert-evreux.lycee.ac-normandie.fr/spip.php?mot52",
+    "evidence_quote": "Postuler pour une PFMPI par Grégory Zazzali ... Nos élèves sont accompagnés par M. Zazzali, l’Enseignant Référent pour l’Action (…)",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Grégory Zazzali is explicitly mentioned as the contact teacher accompanying students in international and Erasmus+ projects."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). M. GACOUIN is the Principal of the institution and serves as the primary administrative head contact.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Maison de l’Europe d’Evreux",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://hebert-evreux.lycee.ac-normandie.fr/spip.php?rubrique319",
+    "evidence_quote": "Notre partenaire la Maison de l’Europe d’Evreux était à nos côtés pour cet évènement. Au programme :",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fédération Française du Bâtiment",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://hebert-evreux.lycee.ac-normandie.fr/spip.php?rubrique284",
+    "evidence_quote": "Fédération Française du Bâtiment",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Union des Métalliers",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://hebert-evreux.lycee.ac-normandie.fr/spip.php?rubrique284",
+    "evidence_quote": "Union des Métalliers",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée des métiers Augustin Hébert",
+    "city": "Evreux",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://hebert-evreux.lycee.ac-normandie.fr/spip.php?rubrique309",
+    "evidence_quote": "20 rue Duguesclin. BP 74053. 27040 Evreux"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists general project partner types and local associations like Maison de l’Europe, but does not provide an exhaustive standalone list of partner higher education institutions or exact mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 19.2,
+  "crawl_s": 17.3,
+  "ai_calls": 1,
+  "model_s": 15.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 52.1
+ }
+}
