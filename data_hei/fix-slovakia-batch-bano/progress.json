@@ -1,13 +1,13 @@
 {
  "batch": "fix-slovakia-batch-bano",
- "status": "running",
- "generated_at": "2026-11-03T11:05:34.519349+00:00",
+ "status": "done",
+ "generated_at": "2026-11-03T11:09:47.936134+00:00",
  "chunk": 4,
- "total_chunks": 3,
+ "total_chunks": 4,
  "total_rows": 55,
- "done": 51,
- "pending": 4,
- "elapsed_seconds": 131,
+ "done": 55,
+ "pending": 0,
+ "elapsed_seconds": 384,
  "eta_seconds": null,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 6,
+ "ai_calls": 8,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -40,16 +40,12 @@
  "confidence": {
   "high": 5,
   "medium": 1,
-  "low": 26,
-  "none": 19
+  "low": 28,
+  "none": 21
  },
- "partners_found": 308,
- "campuses_found": 44,
+ "partners_found": 325,
+ "campuses_found": 46,
  "recent": [
-  "r032",
-  "r033",
-  "r034",
-  "r035",
   "r036",
   "r037",
   "r038",
@@ -65,6 +61,10 @@
   "r048",
   "r049",
   "r050",
-  "r053"
+  "r051",
+  "r052",
+  "r053",
+  "r054",
+  "r055"
  ]
 }
