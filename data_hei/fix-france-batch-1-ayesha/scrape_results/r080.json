@@ -1,0 +1,76 @@
+{
+ "row_id": "r080",
+ "scraped_at": "2026-11-03T10:07:24Z",
+ "contacts": {
+  "row_id": "r080",
+  "institution_name": "Lycée Germaine Tillion",
+  "institution_type": "school",
+  "official_website": "https://germaine-tillion.ent.auvergnerhonealpes.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "M. Hervé Felgerolles",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://germaine-tillion.ent.auvergnerhonealpes.fr/le-lycee-germaine-tillion/informations-contacts/sg.do?PROC=PAGE_REGLEMENTAIRE&ACTION=VALIDER&TYPE_PAGE=MENTIONS_LEGALES",
+   "evidence_quote": "Le directeur de publication est M. Hervé Felgerolles, proviseur de l'établissement."
+  },
+  "alternates": [
+   {
+    "name": "Madame Fargier",
+    "designation": "Executive Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://germaine-tillion.ent.auvergnerhonealpes.fr/le-lycee-germaine-tillion/informations-contacts/",
+    "evidence_quote": "Pour les autres questions, vous pouvez vous informer auprès du secrétariat de direction (Madame Fargier).",
+    "why_chosen": "Secretary / administration (last resort). Madame Fargier works in the executive secretariat."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). M. Hervé Felgerolles is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Germaine Tillion",
+    "city": "Sain Bel",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://germaine-tillion.ent.auvergnerhonealpes.fr/",
+    "evidence_quote": "500 ALLÉE DE GRANDS CHAMPS 69210 SAIN BEL"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 6,
+  "coverage_note": "No international partnerships or Erasmus agreements are mentioned in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.5,
+  "crawl_s": 7.4,
+  "ai_calls": 1,
+  "model_s": 47.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 60.7
+ }
+}
