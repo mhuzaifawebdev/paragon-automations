@@ -5004,7 +5004,7 @@
    "batch": "fix-sprint-5-belgium-sumbal",
    "source": "rebuild of sprint-5-belgium-sumbal (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -5013,22 +5013,34 @@
    "started": "2026-11-03T11:19:49Z",
    "last_start": "2026-11-03T11:19:49Z",
    "restarts": 0,
-   "cap_usd": 0.0
+   "cap_usd": 0.0,
+   "crm_rows": 49,
+   "no_number": 2,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1xVtskzt4gT1_Q080_TaEFIHHMgiDLLtk/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 48,
+   "finished": "2026-11-03T11:23:06Z",
+   "reason": "49 institutes, 32 with a contact"
   },
   {
    "batch": "fix-sprint-5-germany-sumbul-batch-2",
    "source": "rebuild of sprint-5-germany-sumbul-batch-2 (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "no_paid_search": true,
-   "max_usd": 0.0
+   "max_usd": 0.0,
+   "started": "2026-11-03T11:23:06Z",
+   "last_start": "2026-11-03T11:23:06Z",
+   "restarts": 0,
+   "cap_usd": 0.0
   }
  ],
  "paused": null,
- "updated": "2026-11-03T11:19:49Z",
+ "updated": "2026-11-03T11:23:06Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
