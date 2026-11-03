@@ -1,0 +1,96 @@
+{
+ "row_id": "r184",
+ "scraped_at": "2026-11-03T10:23:17Z",
+ "contacts": {
+  "row_id": "r184",
+  "institution_name": "Besab Ab",
+  "institution_type": "unknown",
+  "official_website": "https://besab.se/",
+  "country": {
+   "value": "Sverige",
+   "source_url": "https://besab.se/",
+   "evidence_quote": "Sedan 1956 är vi det oberoende anläggningsföretaget som levererar specialservice inom våra tre huvudområden: berg, betong och grund. Vi är experter på komplexa bergarbeten, betongkonstruktioner, betongreparationer, grundläggning och grundförstärkning. Vårt uppdrag är att säkerställa funktion och livslängd i Sveriges samhällsviktiga anläggningar."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@besab.se",
+  "generic_email_url": "https://besab.se/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "GMA",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://besab.se/",
+    "evidence_quote": "[BESAB tar tillsammans med GMA och Sandvik fram en ny lösning för stand-pipes i vattenförande berg.] Nyheter",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sandvik",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://besab.se/",
+    "evidence_quote": "[BESAB tar tillsammans med GMA och Sandvik fram en ny lösning för stand-pipes i vattenförande berg.] Nyheter",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gottlieb Paludan Architects",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://besab.se/",
+    "evidence_quote": "[Illustration: Gottlieb Paludan Architects och AFRY] Nyheter",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "AFRY",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://besab.se/",
+    "evidence_quote": "[Illustration: Gottlieb Paludan Architects och AFRY] Nyheter",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Huvudkontor",
+    "city": "Göteborg",
+    "country": "Sverige",
+    "role": "main",
+    "source_url": "https://besab.se/",
+    "evidence_quote": "Huvudkontor (Göteborg)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The institution is a construction and civil engineering company rather than an educational establishment. No explicit academic partner list or international mobility programs are mentioned in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 9.8,
+  "ai_calls": 2,
+  "model_s": 56.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 105.2
+ }
+}

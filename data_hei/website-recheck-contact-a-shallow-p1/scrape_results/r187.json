@@ -1,0 +1,59 @@
+{
+ "row_id": "r187",
+ "scraped_at": "2026-11-03T10:23:31Z",
+ "contacts": {
+  "row_id": "r187",
+  "institution_name": "Big Fresh",
+  "institution_type": "school",
+  "official_website": "https://bigfresh.mt/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://bigfresh.mt/",
+   "evidence_quote": "Fresh Fruit & Vegetable Shop in Mosta, Malta | Big Fresh"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@bigfresh.mt",
+  "generic_email_url": "https://bigfresh.mt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Big Fresh Mosta",
+    "city": "Mosta",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://bigfresh.mt/",
+    "evidence_quote": "Fresh Fruit & Vegetable Shop in Mosta, Malta | Big Fresh"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The institution is a local fresh fruit and vegetable shop rather than an educational institution, and the evidence contains no educational partners or staff contacts with roles.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.3,
+  "crawl_s": 3.7,
+  "ai_calls": 2,
+  "model_s": 22.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 64.2
+ }
+}
