@@ -1,0 +1,55 @@
+{
+ "row_id": "r171",
+ "scraped_at": "2026-11-03T10:20:27Z",
+ "contacts": {
+  "row_id": "r171",
+  "institution_name": "Baseball Puumat ry.",
+  "institution_type": "unknown",
+  "official_website": "https://puumat.wixsite.com/baseball",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Käpylä and Herttoniemen urheilupuisto",
+    "city": "Helsinki",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://puumat.wixsite.com/baseball/joukkue",
+    "evidence_quote": "Kauden 2019 joukkue harjoittelee Helsingin Käpylässä ja Herttoniemen urheilupuistossa."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain information about international mobility coordinators, Erasmus partners, or total partner statistics, as this is a sports club website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 8.7,
+  "ai_calls": 2,
+  "model_s": 21.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 45.4
+ }
+}
