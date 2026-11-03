@@ -1,0 +1,97 @@
+{
+ "row_id": "r036",
+ "scraped_at": "2026-11-03T11:15:20Z",
+ "contacts": {
+  "row_id": "r036",
+  "institution_name": "Colegio San Pelayo",
+  "institution_type": "school",
+  "official_website": "https://www.colegiosanpelayo.es/en/",
+  "country": {
+   "value": "España",
+   "source_url": "https://www.colegiosanpelayo.es/erasmus/",
+   "evidence_quote": "28 septiembre al 2 octubre 2015: Acogida en Ermua, España."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "colegio@colegiosanpelayo.es",
+  "generic_email_url": "https://www.colegiosanpelayo.es/en/contacto/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Musik Mittelschule Freidstadt",
+    "partner_country": "Austria",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.colegiosanpelayo.es/erasmus/",
+    "evidence_quote": "Musik Mittelschule Freidstadt, Freidstadt, Austria.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Friedrich Ludwig Jahn",
+    "partner_country": "Alemania",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.colegiosanpelayo.es/erasmus/",
+    "evidence_quote": "Friedrich Ludwig Jahn, Freyburg, Alemania.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gymnasium Andreja Kmeta",
+    "partner_country": "Eslovaquia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.colegiosanpelayo.es/erasmus/",
+    "evidence_quote": "Gymnasium Andreja Kmeta, Banska Stiavnica, Eslovaquia.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kaposvári Munkácsy Mihály Gimnázium",
+    "partner_country": "Hungría",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.colegiosanpelayo.es/erasmus/",
+    "evidence_quote": "Kaposvári Munkácsy Mihály Gimnázium, Kaposvár, Hungría.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegio San Pelayo Ikastetxea",
+    "city": "Ermua",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.colegiosanpelayo.es/en/contacto/",
+    "evidence_quote": "Colegio San Pelayo Ikastetxea. Barrio Betiondo nº7. C.P. 48260, Ermua (Bizkaia)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "No named staff contacts with explicit institutional titles are listed in the evidence. Partner schools participating in the Erasmus+ project are fully captured.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 15.6,
+  "ai_calls": 3,
+  "model_s": 1.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 6,
+  "total_seconds": 30.2
+ }
+}
