@@ -1,0 +1,76 @@
+{
+ "row_id": "r091",
+ "scraped_at": "2026-11-03T10:08:27Z",
+ "contacts": {
+  "row_id": "r091",
+  "institution_name": "Lycée professionnel Arthur Rimbaud",
+  "institution_type": "school",
+  "official_website": "https://lycee-arthur-rimbaud-la-courneuve.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Isabelle DESESTRET-MAZARD",
+   "designation": "Headmistress",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lycee-arthur-rimbaud-la-courneuve.com/Organigramme.html",
+   "evidence_quote": "Madame Isabelle DESESTRET-MAZARD | ... Proviseure |"
+  },
+  "alternates": [
+   {
+    "name": "Sébastien LAMBRE",
+    "designation": "Deputy Head",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://lycee-arthur-rimbaud-la-courneuve.com/Organigramme.html",
+    "evidence_quote": "Monsieur Sébastien LAMBRE | ... Proviseur-Adjoint |",
+    "why_chosen": "Principal / director (no Erasmus contact found). Sébastien LAMBRE is the deputy head of the institution (Proviseur-Adjoint)."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Isabelle DESESTRET-MAZARD is the head of the institution (Proviseure) and serves as the primary contact.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Professionnel Arthur Rimbaud",
+    "city": "La Courneuve",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lycee-arthur-rimbaud-la-courneuve.com/nous%20contacter.html",
+    "evidence_quote": "Lycée Professionnel Arthur Rimbaud"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain any listed partner institutions or Erasmus agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.7,
+  "crawl_s": 7.8,
+  "ai_calls": 1,
+  "model_s": 31.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 42.8
+ }
+}
