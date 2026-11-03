@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-03T11:14:27.389566+00:00",
+ "generated_at": "2026-11-03T11:16:44.922924+00:00",
  "totals": {
   "institutes": 32346,
-  "with_contact": 21478,
+  "with_contact": 21479,
   "with_email": 15314,
   "personal_email": 9999,
   "generic_email": 11656,
   "partners": 434467,
   "campuses": 43924,
-  "no_website": 6568,
-  "with_website": 25778,
+  "no_website": 6567,
+  "with_website": 25779,
   "batches": 267
  },
  "days": [
@@ -208,11 +208,27 @@
  ],
  "batches": [
   {
+   "batch": "website-recheck-contact-a-shallow-p1",
+   "status": "running",
+   "total_rows": 500,
+   "done": 387,
+   "updated": "2026-11-03T11:16:39.925899+00:00",
+   "institutes": 387,
+   "with_contact": 29,
+   "with_email": 114,
+   "personal_email": 10,
+   "generic_email": 110,
+   "partners": 524,
+   "campuses": 383,
+   "no_website": 1,
+   "with_website": 386
+  },
+  {
    "batch": "fix-spain-batch-1-aiman",
    "status": "running",
    "total_rows": 51,
-   "done": 25,
-   "updated": "2026-11-03T11:14:22.629315+00:00",
+   "done": 48,
+   "updated": "2026-11-03T11:15:24.530610+00:00",
    "institutes": 0,
    "with_contact": 0,
    "with_email": 0,
@@ -222,22 +238,6 @@
    "campuses": 0,
    "no_website": 0,
    "with_website": 0
-  },
-  {
-   "batch": "website-recheck-contact-a-shallow-p1",
-   "status": "running",
-   "total_rows": 500,
-   "done": 380,
-   "updated": "2026-11-03T11:13:46.159489+00:00",
-   "institutes": 380,
-   "with_contact": 28,
-   "with_email": 114,
-   "personal_email": 10,
-   "generic_email": 110,
-   "partners": 514,
-   "campuses": 373,
-   "no_website": 1,
-   "with_website": 379
   },
   {
    "batch": "fix-slovakia-batch-bano",
