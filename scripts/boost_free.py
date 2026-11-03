@@ -143,20 +143,23 @@ def boost_archived(bdir, workers, svc, folder):
         print(f"{bdir.name}: no archive on Drive, skipped", flush=True)
         return 0, 0, 0
     results = json.loads(gzip.decompress(raw).decode("utf-8"))
+    sp = bdir / "summary.json"
+    s = json.loads(sp.read_text(encoding="utf-8"))
     out = run_all(results, workers, bdir.name)
-    if not out[0]:
+    if out[0]:
+        drive_upload.put_bytes(svc, gzip.compress(json.dumps(results, ensure_ascii=False).encode("utf-8")), name, folder,
+                               mime="application/gzip")
+    elif s.get("boosted", 0) >= ROUND:
         return out
-    drive_upload.put_bytes(svc, gzip.compress(json.dumps(results, ensure_ascii=False).encode("utf-8")), name, folder,
-                           mime="application/gzip")
+    # rebuilt also when nothing was left to check: an earlier run may have archived the boosted results and then
+    # stopped (time limit) before its summary.json was committed
     with tempfile.TemporaryDirectory() as tmp:          # the dashboard's counts, rebuilt from the updated results
         t = Path(tmp) / bdir.name
         (t / "scrape_results").mkdir(parents=True)
         for rid, r in results.items():
             (t / "scrape_results" / f"{rid}.json").write_text(json.dumps(r, ensure_ascii=False), encoding="utf-8")
         totals, days, lines = bds.batch_figures(t)
-    sp = bdir / "summary.json"
-    s = json.loads(sp.read_text(encoding="utf-8"))
-    s.update(totals=totals, days=days, institutes=lines)
+    s.update(totals=totals, days=days, institutes=lines, boosted=ROUND)
     sp.write_text(json.dumps(s, ensure_ascii=False), encoding="utf-8")
     return out
 

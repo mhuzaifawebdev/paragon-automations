@@ -32,14 +32,14 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Read the sites again, committing every 10 archived batches
+      - name: Read the sites again, committing every 3 archived batches
         env:
           DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: |
           git config user.name "paragon-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
-          python scripts/boost_free.py --archived --workers 16 --commit-every 10 ${{ github.event.inputs.batch && format('--batch "{0}"', github.event.inputs.batch) || '' }}
+          python scripts/boost_free.py --archived --workers 16 --commit-every 3 ${{ github.event.inputs.batch && format('--batch "{0}"', github.event.inputs.batch) || '' }}
           git add data_hei
           git diff --cached --quiet || git commit -q -m "free boost: contacts and emails added [automated]"
           git pull --rebase --autostash -q && git push -q
