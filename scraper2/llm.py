@@ -200,6 +200,8 @@ def _claude_cli(system, user, model, timeout, schema=None):
            "--settings", '{"disableAllHooks":true}', "--strict-mcp-config", "--setting-sources", "project"]
     # extended thinking is switched off: measured 35-80 s per call with it on vs ~6-13 s with it off
     env = {**os.environ, "MAX_THINKING_TOKENS": "0"}
+    # this reader is the Claude plan's own login: with the API key from .env passed on, the CLI bills that key instead
+    env.pop("ANTHROPIC_API_KEY", None)
     try:
         p = subprocess.run(cmd, input=user, capture_output=True, text=True, encoding="utf-8", errors="replace",
                            timeout=timeout, env=env)   # prompt goes through stdin: too long for a Windows command line
