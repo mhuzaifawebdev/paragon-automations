@@ -25,7 +25,7 @@ def _key(name):
 
 def _empty():
     return {"institutes": 0, "with_contact": 0, "with_email": 0, "personal_email": 0, "generic_email": 0,
-            "partners": 0, "campuses": 0, "no_website": 0, "with_website": 0}
+            "partners": 0, "campuses": 0, "no_website": 0, "with_website": 0, "reachable": 0, "reachable_missing": 0}
 
 
 def institute_counts(result):
@@ -35,7 +35,11 @@ def institute_counts(result):
     personal = 1 if contact.get("email") else 0
     generic = 1 if (c.get("generic_email") or contact.get("office_email")) else 0     # the institute's info@ / office@ inbox
     no_site = 1 if str(c.get("notes") or "").startswith("Website not found") else 0
-    return {"institutes": 1, "with_contact": 1 if contact else 0, "with_email": 1 if personal or generic else 0,
+    # reachable: an email, or a phone number (the institute's own, or the contact's) to call instead
+    phone = c.get("phone")
+    phone = (phone.get("value") if isinstance(phone, dict) else phone) or contact.get("phone")
+    reachable = 1 if (personal or generic or phone) and not no_site else 0
+    return {"reachable": reachable, "institutes": 1, "with_contact": 1 if contact else 0, "with_email": 1 if personal or generic else 0,
             "personal_email": personal, "generic_email": generic,
             "partners": len(net.get("external_collaboration") or []), "campuses": len(net.get("internal_collaboration") or []),
             "no_website": no_site, "with_website": 1 - no_site}
@@ -113,7 +117,10 @@ def batch_figures(bdir):
     if summary.exists() and not (bdir / "scrape_results").exists():
         try:
             s = json.loads(summary.read_text(encoding="utf-8"))
-            return {**_empty(), **s.get("totals", {})}, s.get("days", {}), s.get("institutes", [])
+            t = {**_empty(), **s.get("totals", {})}
+            if "reachable" not in s.get("totals", {}):      # counted before this figure existed: not known yet
+                t["reachable_missing"] = t["institutes"]
+            return t, s.get("days", {}), s.get("institutes", [])
         except Exception:
             pass
     b, days, lines = _empty(), defaultdict(_empty), []

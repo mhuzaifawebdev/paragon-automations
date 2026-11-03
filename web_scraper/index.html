@@ -888,6 +888,9 @@ function renderTiles(t) {
     [fmtN(t.campuses), "Campuses found", avg(t.campuses, site) + " per institute on average", "campuses"],
     [fmtN(t.no_website), "Website not found", pct(t.no_website, t.institutes) + " of all institutes"],
   ];
+  // shown once every batch has been counted with it (older batches are re-counted by scripts/boost_free.py)
+  if (t.reachable != null && !t.reachable_missing)
+    tiles.splice(4, 0, [fmtN(t.reachable), "Reachable: email or phone", pct(t.reachable, site) + " of institutes with a website"]);
   // Partners and Campuses open the Institutes view, sorted by that figure (most first)
   $("d-tiles").innerHTML = tiles.map(([n, l, s, go, cls]) => go
     ? `<a href="#institutes" class="tile tile-link" data-sort="${go}"><div class="n">${n}</div><div class="l">${l}</div><div class="s">${s}</div><div class="go">See each institute →</div></a>`
