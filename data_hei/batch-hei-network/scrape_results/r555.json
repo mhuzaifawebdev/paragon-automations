@@ -9,17 +9,28 @@
   "country": null,
   "phone": null,
   "phone_alt": [],
-  "contact": null,
+  "contact": {
+   "name": "Slavica Janković",
+   "designation": "ERASMUS COORDINATOR",
+   "designation_local": "",
+   "email": "slavica.jankovic@vevu.hr",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.vevu.hr/erasmus/incoming-staff/",
+   "evidence_quote": "Dr. sc. Slavica Janković, senior lecturer –📧 slavica.jankovic@vevu.hr <slavica.jankovic@vevu.hr> ... ERASMUS COORDINATOR"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "Institutional Erasmus+ coordinator. found next to a role keyword on the institution's own page (rules-based)",
   "source": "web",
-  "confidence": 0.2,
-  "needs_human_check": true,
+  "confidence": 0.95,
+  "needs_human_check": false,
   "pages_read": 7,
   "notes": "site found via: website column in the sheet (same domain as the contact's email). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable).",
   "generic_email": "dekanat@vevu.hr",
   "generic_email_url": "https://www.vevu.hr/en/management-in-trade-study/mut305-leadership/",
-  "generic_checked": "2026-10-22"
+  "generic_checked": "2026-10-22",
+  "boost_round": 1,
+  "boost_checked": "2026-11-03"
  },
  "network": {
   "external_collaboration": [],
