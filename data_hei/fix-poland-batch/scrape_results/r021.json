@@ -1,0 +1,95 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-11-03T10:54:21Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "II Liceum Ogólnokształcące im. Stefana Żeromskiego w",
+  "institution_type": "school",
+  "official_website": "https://2liceum.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sekretariat@2liceum.pl",
+  "generic_email_url": "https://2liceum.pl/",
+  "contact": {
+   "name": "Arkadiusz Broniarek",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://2liceum.pl/strona/kadra",
+   "evidence_quote": "Dyrektor: mgr Arkadiusz Broniarek"
+  },
+  "alternates": [
+   {
+    "name": "Katarzyna Kozioł-Machel",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://2liceum.pl/strona/kadra",
+    "evidence_quote": "Zastępca dyrektora: mgr Katarzyna Kozioł-Machel",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the deputy director of the school."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the principal of the school and the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Uniwersytet Łódzki",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://2liceum.pl/",
+    "evidence_quote": "Magdalena Ostrowska z klasy 2a reprezentuje II LO w tegorocznej edycji programu \"Zdolny uczeń – świetny student\", organizowanym przez Uniwersytet Łódzki. | [Zdolny uczeń - świetny student] |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Akademia Dziennikarstwa i Realizacji Dźwięku w Warszawie",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://2liceum.pl/wpis/umowa-o-wspolpracy-pod-haslem-podstawy-nowoczesnego-dziennikarstwa",
+    "evidence_quote": "8 października w siedzibie naszej szkoły podpisana została umowa pomiędzy naszym liceum a Akademią Dziennikarstwa i Realizacji Dźwięku w Warszawie. W ramach tej współpracy uczniowie klasy I humanistyczno-dziennikarskiej, która objęta jest patronatem przez Akademię, będą mogli brać udział w zajęciach dydaktycznych prowadzonych na warszawskiej uczelni, a także w cyklach zajęć, które odbędą się w naszej szkole.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "II Liceum Ogólnokształcące im. Stefana Żeromskiego",
+    "city": "Tomaszów Mazowiecki",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://2liceum.pl/",
+    "evidence_quote": "w Tomaszowie Mazowieckim"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects but does not provide a formal list of international partner institutions. The listed partners are domestic academic institutions with which the school has cooperation agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 21.9,
+  "ai_calls": 1,
+  "model_s": 1.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 25.7
+ }
+}
