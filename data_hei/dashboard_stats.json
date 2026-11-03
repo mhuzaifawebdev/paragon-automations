@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-03T10:52:39.087848+00:00",
+ "generated_at": "2026-11-03T10:54:29.107062+00:00",
  "totals": {
   "institutes": 32278,
-  "with_contact": 21426,
+  "with_contact": 21424,
   "with_email": 15266,
   "personal_email": 9972,
   "generic_email": 11617,
@@ -10,7 +10,7 @@
   "campuses": 43851,
   "no_website": 6568,
   "with_website": 25710,
-  "batches": 264
+  "batches": 265
  },
  "days": [
   {
@@ -208,6 +208,38 @@
  ],
  "batches": [
   {
+   "batch": "fix-poland-batch",
+   "status": "running",
+   "total_rows": 111,
+   "done": 25,
+   "updated": "2026-11-03T10:54:23.491719+00:00",
+   "institutes": 0,
+   "with_contact": 0,
+   "with_email": 0,
+   "personal_email": 0,
+   "generic_email": 0,
+   "partners": 0,
+   "campuses": 0,
+   "no_website": 0,
+   "with_website": 0
+  },
+  {
+   "batch": "website-recheck-contact-a-shallow-p1",
+   "status": "running",
+   "total_rows": 500,
+   "done": 330,
+   "updated": "2026-11-03T10:54:04.228736+00:00",
+   "institutes": 330,
+   "with_contact": 23,
+   "with_email": 100,
+   "personal_email": 8,
+   "generic_email": 97,
+   "partners": 486,
+   "campuses": 346,
+   "no_website": 1,
+   "with_website": 329
+  },
+  {
    "batch": "fix-ibrahim-batch-2-staff-mobility-ka-10",
    "status": "done",
    "total_rows": 881,
@@ -222,22 +254,6 @@
    "campuses": 959,
    "no_website": 35,
    "with_website": 755
-  },
-  {
-   "batch": "website-recheck-contact-a-shallow-p1",
-   "status": "running",
-   "total_rows": 500,
-   "done": 315,
-   "updated": "2026-11-03T10:51:46.457089+00:00",
-   "institutes": 315,
-   "with_contact": 22,
-   "with_email": 96,
-   "personal_email": 8,
-   "generic_email": 93,
-   "partners": 459,
-   "campuses": 331,
-   "no_website": 1,
-   "with_website": 314
   },
   {
    "batch": "fix-france-batch-1-ayesha",
