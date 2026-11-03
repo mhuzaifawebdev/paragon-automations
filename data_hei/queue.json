@@ -4888,7 +4888,7 @@
    "batch": "fix-france-batch-1-ayesha",
    "source": "rebuild of france-batch-1-ayesha (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4898,18 +4898,30 @@
    "last_start": "2026-11-02T10:45:45Z",
    "restarts": 0,
    "cap_usd": 0.0,
-   "note": "Today's free AI allowance is used up."
+   "note": "Today's free AI allowance is used up.",
+   "crm_rows": 86,
+   "no_number": 97,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1HrzZCAwfr3lnUz8cOV99jLiY0F5yeljR/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 143,
+   "finished": "2026-11-03T10:20:39Z",
+   "reason": "175 institutes, 81 with a contact"
   },
   {
    "batch": "fix-ibrahim-batch-2-staff-mobility-ka-10",
    "source": "rebuild of ibrahim-batch-2-staff-mobility-ka-10 (institute column fixed)",
    "added": "2026-11-02T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "no_paid_search": true,
-   "max_usd": 0.0
+   "max_usd": 0.0,
+   "started": "2026-11-03T10:20:39Z",
+   "last_start": "2026-11-03T10:20:39Z",
+   "restarts": 0,
+   "cap_usd": 0.0
   },
   {
    "batch": "fix-poland-batch",
@@ -4968,7 +4980,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-03T05:33:45Z",
+ "updated": "2026-11-03T10:20:39Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
