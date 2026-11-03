@@ -1,0 +1,110 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-11-03T11:11:27Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Coelgio Padres Reparadores",
+  "institution_type": "school",
+  "official_website": "https://dehonianospuentelareina.es/",
+  "country": {
+   "value": "España",
+   "source_url": "https://dehonianospuentelareina.es/el-colegio/quienes-somos/",
+   "evidence_quote": "Dehonianos en España"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Mathilde Hugrel",
+   "designation": "Internationalization Coordinator",
+   "designation_local": "",
+   "email": "internationalization@dehonianospuente.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://dehonianospuentelareina.es/el-colegio/organigrama-y-profesorado/",
+   "evidence_quote": "Coordinadora de internacionalización ... Mathilde Hugrel"
+  },
+  "alternates": [
+   {
+    "name": "Raquel San Martín",
+    "designation": "General and Pedagogical Director",
+    "designation_local": "",
+    "email": "rsanmartin@dehonianospuente.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://dehonianospuentelareina.es/el-colegio/organigrama-y-profesorado/",
+    "evidence_quote": "Directora general y pedagógica ... Raquel San Martín",
+    "why_chosen": "Principal / director (no Erasmus contact found). Raquel San Martín is the general and pedagogical director of the institution."
+   },
+   {
+    "name": "Elena Verano",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "secretaria@dehonianospuente.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://dehonianospuentelareina.es/el-colegio/organigrama-y-profesorado/",
+    "evidence_quote": "Secretaria ... Elena Verano",
+    "why_chosen": "Secretary / administration (last resort). Elena Verano is the school secretary, handling administrative inquiries."
+   }
+  ],
+  "rung": "Mobility coordinator. Mathilde Hugrel is the internationalization coordinator, making her the direct contact for mobility and Erasmus+.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Saint Jean et La Croix",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://dehonianospuentelareina.es/enlaces-de-interes/erasmus/",
+    "evidence_quote": "Desde el equipo de internacionalización del centro se promueve la movilidad de los docentes, tanto en experiencias de job shadowing en distintos centros europeos, como en cursos formales e informales por distintas universidades de la Unión Europea. Respecto a la movilidad de los estudiantes se lleva a cabo mediante intercambios internacionales con otros colegios. Actualmente realizamos intercambios con el instituto Saint Jean et La Croix en Saint Quentin (Francia) y el colegio Gymnasium Leoninum",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gymnasium Leoninum",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://dehonianospuentelareina.es/enlaces-de-interes/erasmus/",
+    "evidence_quote": "Desde el equipo de internacionalización del centro se promueve la movilidad de los docentes, tanto en experiencias de job shadowing en distintos centros europeos, como en cursos formales e informales por distintas universidades de la Unión Europea. Respecto a la movilidad de los estudiantes se lleva a cabo mediante intercambios internacionales con otros colegios. Actualmente realizamos intercambios con el instituto Saint Jean et La Croix en Saint Quentin (Francia) y el colegio Gymnasium Leoninum",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegio-Seminario Padres Reparadores",
+    "city": "Puente de la Reina",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://dehonianospuentelareina.es/",
+    "evidence_quote": "Colegio-Seminario Padres Reparadores | Puente de la Reina"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides information on international exchanges and the internationalization team, but does not list a complete overview of all international partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 15.0,
+  "ai_calls": 1,
+  "model_s": 2.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 18.6
+ }
+}
