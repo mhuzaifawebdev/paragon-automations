@@ -1,0 +1,69 @@
+{
+ "row_id": "r330",
+ "scraped_at": "2026-11-03T10:54:04Z",
+ "contacts": {
+  "row_id": "r330",
+  "institution_name": "Coach Rivas - Basketball Coach & Mentor",
+  "institution_type": "school",
+  "official_website": "https://coachrivas.com/",
+  "country": {
+   "value": "Canada",
+   "source_url": "https://coachrivas.com/connect",
+   "evidence_quote": "Richmond Hill, ON, Canada"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Baden Sports Canada",
+    "partner_country": "Canada",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://coachrivas.com/collabs",
+    "evidence_quote": "BADEN SPORTS CANADA",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Coach Rivas Program",
+    "city": "Richmond Hill",
+    "country": "Canada",
+    "role": "main",
+    "source_url": "https://coachrivas.com/connect",
+    "evidence_quote": "Richmond Hill, ON, Canada"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence details a youth basketball training program and mentions a collaboration with Baden Sports Canada, but contains no academic partner lists or formal Erasmus mobility information.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 10.6,
+  "ai_calls": 2,
+  "model_s": 18.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 83.9
+ }
+}
