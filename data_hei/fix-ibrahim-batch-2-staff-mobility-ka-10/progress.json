@@ -1,14 +1,14 @@
 {
  "batch": "fix-ibrahim-batch-2-staff-mobility-ka-10",
  "status": "running",
- "generated_at": "2026-11-03T10:31:30.198055+00:00",
+ "generated_at": "2026-11-03T10:32:01.618815+00:00",
  "chunk": 8,
  "total_chunks": 36,
  "total_rows": 881,
- "done": 265,
- "pending": 616,
- "elapsed_seconds": 442,
- "eta_seconds": 194,
+ "done": 266,
+ "pending": 615,
+ "elapsed_seconds": 473,
+ "eta_seconds": 501,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 10,
+ "ai_calls": 11,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,15 +38,14 @@
   }
  ],
  "confidence": {
-  "high": 0,
+  "high": 2,
   "medium": 3,
   "low": 133,
-  "none": 129
+  "none": 128
  },
  "partners_found": 819,
- "campuses_found": 262,
+ "campuses_found": 266,
  "recent": [
-  "r172",
   "r173",
   "r174",
   "r175",
@@ -65,7 +64,8 @@
   "r575",
   "r576",
   "r577",
-  "r637"
+  "r637",
+  "r710"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1mmIxNk1jjNGwu7Up2aHDMAgEQeg8Mu2K/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
