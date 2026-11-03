@@ -1,0 +1,106 @@
+{
+ "row_id": "r108",
+ "scraped_at": "2026-11-03T10:13:28Z",
+ "contacts": {
+  "row_id": "r108",
+  "institution_name": "Lycée professionnel Gaston Barré",
+  "institution_type": "college",
+  "official_website": "https://www.lycee-gaston-barre.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Jean-Philippe RENAUD",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "ce.0790928e@ac-poitiers.fr",
+   "office_email": "",
+   "phone": "05 49 24 70 64",
+   "source_url": "https://www.lycee-gaston-barre.fr/",
+   "evidence_quote": "Le Proviseur ... Jean-Philippe RENAUD"
+  },
+  "alternates": [
+   {
+    "name": "Celine LIZOT",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.lycee-gaston-barre.fr/organigramme",
+    "evidence_quote": "Proviseure Adjointe : Celine LIZOT",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the deputy principal and part of the management team."
+   },
+   {
+    "name": "Nathalie RAIMBAUD",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.lycee-gaston-barre.fr/organigramme",
+    "evidence_quote": "secrétariat ... Lycée : Nathalie RAIMBAUD",
+    "why_chosen": "Secretary / administration (last resort). She is a named secretary at the school administration."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the head of the institution (Proviseur) and can be contacted regarding general administration and leadership.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Heltech, Helsinki College of Technology",
+    "partner_country": "Finland",
+    "partner_type": "college",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.lycee-gaston-barre.fr/projet-europe/finlande",
+    "evidence_quote": "Heltech, « Helsinki College of Technology », est un établissement qui accueille aujourd’hui 17 000 apprenants par an dans une vingtaine de spécialités dont la réparation en carrosserie, la peinture en carrosserie, la mécanique et la logistique. Ils sont regroupés dans 17 lieux de formation différents dans Helsinki et sa banlieue.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stadin Ammattiopisto",
+    "partner_country": "Finland",
+    "partner_type": "college",
+    "mobility_type": "staff",
+    "source_url": "https://www.lycee-gaston-barre.fr/actu-projets",
+    "evidence_quote": "Notre établissement a accueilli, pendant trois jours, deux enseignantes du Pôle Logistique de notre partenaire finlandais, le Stadin Ammattiopisto (Helsinki), Katariina Pärsinen ...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Gaston Barré",
+    "city": "Niort",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lycee-gaston-barre.fr/",
+    "evidence_quote": "Lycée Gaston Barré, à Niort - Deux-Sèvres"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence mentions partnerships with Finnish institutions (Heltech and Stadin Ammattiopisto) for student and staff mobility, but does not provide an exhaustive list of all international agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 7.7,
+  "ai_calls": 1,
+  "model_s": 28.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 38.5
+ }
+}
