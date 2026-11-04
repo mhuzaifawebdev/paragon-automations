@@ -1,0 +1,71 @@
+{
+ "batch": "batch-denmark-luxembourg",
+ "status": "done",
+ "generated_at": "2026-11-04T19:23:37.311310+00:00",
+ "chunk": 3,
+ "total_chunks": 3,
+ "total_rows": 50,
+ "done": 50,
+ "pending": 0,
+ "elapsed_seconds": 247,
+ "eta_seconds": null,
+ "cost_usd_so_far": 1.0839,
+ "paid_search_usd": 1.0839,
+ "paid_search_limit_usd": 21.0,
+ "paid_search_limit_reached": false,
+ "paid_searches": 0,
+ "search_failures": 0,
+ "haiku_fallback_calls": 133,
+ "cost_usd_projected_total": 0.0,
+ "ai_calls": 133,
+ "reader_mode": "fast",
+ "fast_limit_usd": 15.0,
+ "provider": "gemini",
+ "chunk_size": 25,
+ "fast_reader": "paid Gemini",
+ "fast_reader_id": "gemini",
+ "fast_usd_per_institute": 0.015,
+ "fast_readers": [
+  {
+   "id": "gemini",
+   "name": "paid Gemini",
+   "usd_per_institute": 0.015
+  },
+  {
+   "id": "haiku",
+   "name": "Claude Haiku",
+   "usd_per_institute": 0.05
+  }
+ ],
+ "confidence": {
+  "high": 14,
+  "medium": 12,
+  "low": 7,
+  "none": 17
+ },
+ "partners_found": 362,
+ "campuses_found": 68,
+ "recent": [
+  "r031",
+  "r032",
+  "r033",
+  "r034",
+  "r035",
+  "r036",
+  "r037",
+  "r038",
+  "r039",
+  "r040",
+  "r041",
+  "r042",
+  "r043",
+  "r044",
+  "r045",
+  "r046",
+  "r047",
+  "r048",
+  "r049",
+  "r050"
+ ],
+ "drive_link": "https://docs.google.com/spreadsheets/d/1pbp0QCC_wv1NAS-dFPj-6wqVJ4WK10_r/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
+}

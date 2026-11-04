@@ -1,0 +1,71 @@
+{
+ "batch": "batch-2-spain",
+ "status": "done",
+ "generated_at": "2026-11-04T18:01:09.215495+00:00",
+ "chunk": 5,
+ "total_chunks": 5,
+ "total_rows": 91,
+ "done": 91,
+ "pending": 0,
+ "elapsed_seconds": 534,
+ "eta_seconds": null,
+ "cost_usd_so_far": 1.1545,
+ "paid_search_usd": 1.1545,
+ "paid_search_limit_usd": 21.0,
+ "paid_search_limit_reached": false,
+ "paid_searches": 0,
+ "search_failures": 0,
+ "haiku_fallback_calls": 111,
+ "cost_usd_projected_total": 0.0,
+ "ai_calls": 112,
+ "reader_mode": "fast",
+ "fast_limit_usd": 15.0,
+ "provider": "gemini",
+ "chunk_size": 25,
+ "fast_reader": "paid Gemini",
+ "fast_reader_id": "gemini",
+ "fast_usd_per_institute": 0.015,
+ "fast_readers": [
+  {
+   "id": "gemini",
+   "name": "paid Gemini",
+   "usd_per_institute": 0.015
+  },
+  {
+   "id": "haiku",
+   "name": "Claude Haiku",
+   "usd_per_institute": 0.05
+  }
+ ],
+ "confidence": {
+  "high": 7,
+  "medium": 17,
+  "low": 23,
+  "none": 44
+ },
+ "partners_found": 327,
+ "campuses_found": 68,
+ "recent": [
+  "r072",
+  "r073",
+  "r074",
+  "r075",
+  "r076",
+  "r077",
+  "r078",
+  "r079",
+  "r080",
+  "r081",
+  "r082",
+  "r083",
+  "r084",
+  "r085",
+  "r086",
+  "r087",
+  "r088",
+  "r089",
+  "r090",
+  "r091"
+ ],
+ "drive_link": "https://docs.google.com/spreadsheets/d/1tV0t8n_M7YzmxL6PABNbg7I7w3MXFP3r/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
+}

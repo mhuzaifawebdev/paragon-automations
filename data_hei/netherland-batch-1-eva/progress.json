@@ -1,0 +1,71 @@
+{
+ "batch": "netherland-batch-1-eva",
+ "status": "done",
+ "generated_at": "2026-11-04T18:11:27.329006+00:00",
+ "chunk": 3,
+ "total_chunks": 3,
+ "total_rows": 49,
+ "done": 49,
+ "pending": 0,
+ "elapsed_seconds": 250,
+ "eta_seconds": null,
+ "cost_usd_so_far": 0.6637,
+ "paid_search_usd": 0.6637,
+ "paid_search_limit_usd": 21.0,
+ "paid_search_limit_reached": false,
+ "paid_searches": 0,
+ "search_failures": 0,
+ "haiku_fallback_calls": 113,
+ "cost_usd_projected_total": 0.0,
+ "ai_calls": 113,
+ "reader_mode": "fast",
+ "fast_limit_usd": 15.0,
+ "provider": "gemini",
+ "chunk_size": 25,
+ "fast_reader": "paid Gemini",
+ "fast_reader_id": "gemini",
+ "fast_usd_per_institute": 0.015,
+ "fast_readers": [
+  {
+   "id": "gemini",
+   "name": "paid Gemini",
+   "usd_per_institute": 0.015
+  },
+  {
+   "id": "haiku",
+   "name": "Claude Haiku",
+   "usd_per_institute": 0.05
+  }
+ ],
+ "confidence": {
+  "high": 15,
+  "medium": 7,
+  "low": 10,
+  "none": 17
+ },
+ "partners_found": 204,
+ "campuses_found": 89,
+ "recent": [
+  "r030",
+  "r031",
+  "r032",
+  "r033",
+  "r034",
+  "r035",
+  "r036",
+  "r037",
+  "r038",
+  "r039",
+  "r040",
+  "r041",
+  "r042",
+  "r043",
+  "r044",
+  "r045",
+  "r046",
+  "r047",
+  "r048",
+  "r049"
+ ],
+ "drive_link": "https://docs.google.com/spreadsheets/d/14ZZpKrRXC6zg3kUDx1vh5Kf2rrAKb1Yc/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
+}

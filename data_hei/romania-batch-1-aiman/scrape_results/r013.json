@@ -1,0 +1,110 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-11-04T19:26:41Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Colegiul Național \"Aurel Vlaicu\" București",
+  "institution_type": "school",
+  "official_website": "https://www.cnav.ro/",
+  "country": null,
+  "phone": {
+   "value": "021.260.05.54",
+   "source_url": "https://www.cnav.ro/",
+   "evidence_quote": "021.260.05.54 <tel 021.260.05.54>"
+  },
+  "phone_alt": [],
+  "generic_email": "cnav2004@yahoo.com",
+  "generic_email_url": "https://www.cnav.ro/",
+  "contact": {
+   "name": "Nela Ghigeanu",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.cnav.ro/organizare/management/",
+   "evidence_quote": "GHIGEANU NELA | ... Director |"
+  },
+  "alternates": [
+   {
+    "name": "Ioana Sorina Ion-Lambu",
+    "designation": "Professor Doctor / Erasmus+ Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.cnav.ro/erasmus/",
+    "evidence_quote": "Prof. Dr. Ion-Lambu Ioana-Sorina ... Întreaga activitate Erasmus+ a fost coordonată de către profesor doctor Ioana Sorina ION-LAMBU.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is explicitly stated as the coordinator of the Erasmus+ activities at the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the Director of the institution and was involved in the Erasmus+ project management.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Bilecik Fine Arts High School",
+    "partner_country": "Turkey",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cnav.ro/erasmus/",
+    "evidence_quote": "Delegația din Turcia a fost constituită dintr-un cadru didactic, Pinar YOKARI – specializarea Limba Engleză, și 4 elevi – Ruveida OZ, Jane Cankurt, Ela Naz Bayrak și Ypek Naz Durmus de la școala Bilecik Fine Arts High School. La schimbul de experiență au participat elevii clasei a X-a G și elevii clasei a IX-a G cu specializarea karate/baschet/rugby.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Şehit Nebi Gündoğan Kırıkkale Anatolian High School",
+    "partner_country": "Turkey",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cnav.ro/erasmus/",
+    "evidence_quote": "Delegația din Turcia a fost constituită dintr-un cadru didactic, Gülsen ÖNBAŞ – specializarea Limba Engleză, și 4 elevi – Cem Yilmaz, Ecem Akturk, Șevval Nisa Uludag și Ișil Yildirim de la școala Şehit Nebi Gündoğan Kırıkkale Anatolian High School.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IES BRIANDA DE MENDOZA",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cnav.ro/erasmus/",
+    "evidence_quote": "Colegiul Național ‚Aurel Vlaicu” a fost gazda proiectului Erasmus+ în colaborare cu școala IES BRIANDA DE MENDOZA din Guadalajara, Spania, în perioada 20.03.2023 – 24.03.2023.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegiul Național \"Aurel Vlaicu\"",
+    "city": "București",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://www.cnav.ro/",
+    "evidence_quote": "Acasa - Colegiul Naţional \"Aurel Vlaicu\""
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 7,
+  "coverage_note": "The institution does not provide a formal list of all Erasmus+ partners, only those mentioned in specific project reports. Email addresses for individual staff members are not provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.4,
+  "crawl_s": 16.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 9.9,
+  "total_seconds": 33.1
+ }
+}
