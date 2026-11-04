@@ -1,0 +1,130 @@
+{
+ "row_id": "r026",
+ "scraped_at": "2026-11-04T17:38:21Z",
+ "contacts": {
+  "row_id": "r026",
+  "institution_name": "John Scottus Secondary School",
+  "institution_type": "school",
+  "official_website": "https://www.johnscottus.ie/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "primaryoldconna@johnscottus.ie",
+  "generic_email_url": "https://www.johnscottus.ie/",
+  "contact": {
+   "name": "Declan Kelly",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "dkelly@johnscottus.ie",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.johnscottus.ie/john-scottus-secondary-school/secondary-contact-us/",
+   "evidence_quote": "Principal: Dr Declan Kelly",
+   "email_source_url": "http://www.johnscottus.ie/wp-content/uploads/2014/12/JSS-Parent-Newsletter-Dec-2015.pdf"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the Principal of the Secondary School and the most senior contact available. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fyllingsdalen vgs. Secondary School",
+    "partner_country": "Norway",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.johnscottus.ie/erasmus-exchange-students-in-norway/",
+    "evidence_quote": "5th Year Business students participated in an Erasmus exchange with Fyllingsdalen vgs. Secondary School in Bergen, Norway. They attended school in Bergen from the 11th -17th of March. They completed a study on Fast Fashion and Sustainability with Norwegian students who hosted them. They visited historical sights , went on a fjord Cruise and experienced many aspects of Norwegian culture. A memorable experience for all involved. We now welcome the a return visit of Norwegian students to our school",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Latvia",
+    "partner_country": "Latvia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.johnscottus.ie/erasmus-exchange-hosting-in-dublin/",
+    "evidence_quote": "During the week of Oct 7th John Scottus families hosted 18 students from Latvia, Italy and the Netherlands visiting the school as part of the Erasmus project on Human Rights and Responsibilities. It was a week of great enthusiasm and endeavour from students who produced fantastic videos on various aspects of Human Rights. Special thanks must be given to all the teachers involved in organising the event, namely Ms. Shanahan, Ms. Sweeney and Mr. Bourke.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Italy",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.johnscottus.ie/erasmus-exchange-hosting-in-dublin/",
+    "evidence_quote": "During the week of Oct 7th John Scottus families hosted 18 students from Latvia, Italy and the Netherlands visiting the school as part of the Erasmus project on Human Rights and Responsibilities. It was a week of great enthusiasm and endeavour from students who produced fantastic videos on various aspects of Human Rights. Special thanks must be given to all the teachers involved in organising the event, namely Ms. Shanahan, Ms. Sweeney and Mr. Bourke.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "The Netherlands",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.johnscottus.ie/erasmus-exchange-hosting-in-dublin/",
+    "evidence_quote": "During the week of Oct 7th John Scottus families hosted 18 students from Latvia, Italy and the Netherlands visiting the school as part of the Erasmus project on Human Rights and Responsibilities. It was a week of great enthusiasm and endeavour from students who produced fantastic videos on various aspects of Human Rights. Special thanks must be given to all the teachers involved in organising the event, namely Ms. Shanahan, Ms. Sweeney and Mr. Bourke.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "John Scottus Primary Old Conna",
+    "city": "Rathmichael",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.johnscottus.ie/",
+    "evidence_quote": "(OLD CONNA)"
+   },
+   {
+    "campus_name": "John Scottus National School",
+    "city": "Dublin",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.johnscottus.ie/",
+    "evidence_quote": "John Scottus National School"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions participation in Erasmus projects but does not provide a formal list of institutional partners or agreements. Contact emails for specific staff members are not provided in the text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 15.7,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 9.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     197
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 46.5
+ }
+}

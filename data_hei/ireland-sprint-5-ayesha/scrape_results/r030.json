@@ -1,0 +1,98 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-11-04T17:38:21Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "Loreto Secondary School Clonmel",
+  "institution_type": "school",
+  "official_website": "https://loretoeducationtrust.ie/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@loretoeducationcentre.ie",
+  "generic_email_url": "https://loretoeducationtrust.ie/",
+  "contact": {
+   "name": "Ms Anne McGrath",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "reception@loretoclonmel.ie",
+   "office_email": "",
+   "phone": "052-6121402",
+   "source_url": "https://loretoeducationtrust.ie/schools/clonmel/",
+   "evidence_quote": "Principal: Ms Anne McGrath"
+  },
+  "alternates": [
+   {
+    "name": "Mr Niall Cox",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "reception@loretoclonmel.ie",
+    "office_email": "",
+    "phone": "052-6121402",
+    "source_url": "https://loretoeducationtrust.ie/schools/clonmel/",
+    "evidence_quote": "Deputy Principal: Mr Niall Cox",
+    "why_chosen": "Principal / director (no Erasmus contact found). Mr Niall Cox is the Deputy Principal of Loreto Secondary School Clonmel."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Ms Anne McGrath is the Principal of Loreto Secondary School Clonmel.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Loreto Network Education Committee",
+    "partner_country": "Ireland",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://loretoeducationtrust.ie/lnec/",
+    "evidence_quote": "The work of the Centre is supported by the Loreto Network Education Committee, which is representative of Principals, staffs and parents from both Loreto Primary and Post-Primary schools. The LNEC has an advisory and developmental role in relation to the service provided by the Loreto Education Centre.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Loreto Secondary School Clonmel",
+    "city": "Clonmel",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://loretoeducationtrust.ie/schools/clonmel/",
+    "evidence_quote": "Loreto Secondary School, Clonmel, Co Tipperary."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not provide a list of international partners or Erasmus+ agreements for this school.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.8,
+  "crawl_s": 10.9,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 10.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     109
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 46.5
+ }
+}
