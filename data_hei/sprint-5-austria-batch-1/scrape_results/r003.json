@@ -1,0 +1,113 @@
+{
+ "row_id": "r003",
+ "scraped_at": "2026-11-04T19:06:52Z",
+ "contacts": {
+  "row_id": "r003",
+  "institution_name": "BG/BRG Klusemannstraße",
+  "institution_type": "school",
+  "official_website": "https://www3.klusemann.at/",
+  "country": null,
+  "phone": {
+   "value": "05/0248-020/100",
+   "source_url": "https://www3.klusemann.at/",
+   "evidence_quote": "Tel.: 05/0248-020/100"
+  },
+  "phone_alt": [],
+  "generic_email": "office@klusemann.at",
+  "generic_email_url": "https://www3.klusemann.at/",
+  "contact": {
+   "name": "Mag. Angela Bäck",
+   "designation": "Teacher",
+   "designation_local": "",
+   "email": "baeck.angela@klusemann.at",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www3.klusemann.at/menschen/lehrerinnen/",
+   "evidence_quote": "Mag. Angela Bäck ... Technik und Design, Kunst und Gestaltung, Kunst und Kreativität, Design, Kunst, Technik"
+  },
+  "alternates": [
+   {
+    "name": "Mag. Alexander Berghold",
+    "designation": "Teacher",
+    "designation_local": "",
+    "email": "berghold.alexander@klusemann.at",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www3.klusemann.at/menschen/lehrerinnen/",
+    "evidence_quote": "Mag. Alexander Berghold ... Geschichte und politische Bildung, Geographie, SQA und SchülerInnenrat",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Mag. Alexander Berghold is a teacher at the institution."
+   },
+   {
+    "name": "Mag. Christina Brandstätter",
+    "designation": "Teacher",
+    "designation_local": "",
+    "email": "brandstaetter.christina@klusemann.at",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www3.klusemann.at/menschen/lehrerinnen/",
+    "evidence_quote": "Mag. Christina Brandstätter ... Englisch, Chemie und Geographie",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Mag. Christina Brandstätter is a teacher at the institution."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Mag. Angela Bäck is a teacher at the institution.",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Askim Upper Secondary School",
+    "partner_country": "Norway",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www3.klusemann.at/2026/09/10/erasmus-austauschprojekt-in-askim-norwegen-01-02-07-02-2026/",
+    "evidence_quote": "Im Rahmen des Erasmus+-Programms nahmen 10 Schüler:innen Anfang Februar 2026 an einer internationalen Austauschwoche an der Askim Upper Secondary School in Norwegen teil. Die Schüler:innen der 7. Klassen, klassenübergreifend ausgewählt, vertraten unsere Schule bei diesem Projekt und arbeiteten gemeinsam in Gruppen mit Jugendlichen aus Norwegen an unterschiedlichen Zukunftsthemen. Zu den gleichen Themen gab es Parallel-Arbeitsgruppen der norwegischen Gastschule mit gemeinsamen Partnerschulen aus ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IES Bernat de Sarrià",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www3.klusemann.at/2026/09/10/erasmus-benidorm-von-01-02-2026-07-02-2026/",
+    "evidence_quote": "Schule IES Bernat de Sarrià in Benidorm mit 10 unserer Schüler:innen statt. Im Mittelpunkt standen sowohl die gemeinsame Projektarbeit als auch das Kennenlernen der spanischen Kultur und Umgebung.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mittelschule, BG und BRG Klusemannstraße",
+    "city": "Graz",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://www3.klusemann.at/",
+    "evidence_quote": "Klusemannstraße 25"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions several partner schools in countries like Norway, Spain, Italy, and the Netherlands, but does not provide a comprehensive list of all formal Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.3,
+  "crawl_s": 27.0,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 9.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 5,
+  "email_search_s": 0.0,
+  "total_seconds": 44.8
+ }
+}
