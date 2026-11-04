@@ -78,12 +78,19 @@ def main():
     ap.add_argument("name")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--known-sites", action="store_true",
+                    help="the rows already have their website (the scraper found no contact there): keep it as given")
     a = ap.parse_args()
     with open(a.csv, newline="", encoding="utf-8-sig") as fh:
         rows = list(csv.DictReader(fh))
     cache = {}
 
     def one(row):
+        if a.known_sites:
+            site, why = (row.get("website") or "").strip(), "the website we already have"
+            if not site:
+                why = "no website"
+            return row, site, why, (air.check(row, cache) if site else {})
         site, why = site_ok(row)
         return row, site, why, (air.check(row, cache) if site else {})
 
@@ -98,6 +105,8 @@ def main():
             continue
         res = result(i, row, site, got)
         c = res["contacts"]
+        if a.known_sites and not (c.get("contact") or c.get("generic_email") or c.get("phone")):
+            continue                                    # nothing confirmed: the site is ours already, nothing to add
         n["sites"] += 1
         n["contact"] += bool(c.get("contact"))
         n["email"] += bool(c.get("generic_email") or (c.get("contact") or {}).get("email"))
