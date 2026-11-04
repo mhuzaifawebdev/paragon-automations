@@ -1,0 +1,81 @@
+{
+ "row_id": "r018",
+ "scraped_at": "2026-11-04T19:26:59Z",
+ "contacts": {
+  "row_id": "r018",
+  "institution_name": "Colegiul Național \"Costache Negruzzi\" Iași",
+  "institution_type": "school",
+  "official_website": "http://colegiulnegruzzi.ro/index.php",
+  "country": null,
+  "phone": {
+   "value": "+40 232 210 510",
+   "source_url": "http://colegiulnegruzzi.ro/despre-noi/contact22222",
+   "evidence_quote": "+40 232 210 510"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée Polyvalent et Professionnel Privé „Saint Anselme”",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "http://colegiulnegruzzi.ro/proiecte/proiecte-internationale/erasmus/acreditare-erasmus-2022-2027",
+    "evidence_quote": "Mobilitatea de elevi la Lycée Polyvalent et Professionnel Privé „Saint Anselme”- Bernay - Normandia, 01-06 iunie 2026",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sotunki Lukio",
+    "partner_country": "Finland",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "http://colegiulnegruzzi.ro/proiecte/proiecte-internationale/erasmus/acreditare-erasmus-2022-2027",
+    "evidence_quote": "Stagiu de formare Job Shadowing la Sotunki Lukio - Vantaa-Helsinki, 04 -08 mai 2026",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegiul Naţional „Costache Negruzzi” Iaşi",
+    "city": "Iaşi",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "http://colegiulnegruzzi.ro/despre-noi/contact22222",
+    "evidence_quote": "Colegiul Naţional „Costache Negruzzi” Iaşi"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific project-based partners but does not contain a comprehensive list of all institutional Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 14.6,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "total_seconds": 27.9
+ }
+}
