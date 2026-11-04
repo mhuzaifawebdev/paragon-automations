@@ -5761,22 +5761,34 @@
    "source": "CYPRUS-BATCH-1 SUMBAL",
    "file_id": "13-dxOmvjnUYSj60ipTxVdXi3pdS3Dh-UmLJvRIc89G0",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 80,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T21:37:07Z",
    "last_start": "2026-11-04T21:37:07Z",
    "restarts": 0,
-   "cap_usd": 518.07
+   "cap_usd": 518.07,
+   "crm_rows": 4,
+   "no_number": 76,
+   "spend_recorded": true,
+   "cost_usd": 1.5597,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1CSB2aTKD_aUDs37UMCz-LnQZyazeRmPi/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 44,
+   "finished": "2026-11-04T21:46:02Z",
+   "reason": "80 institutes, 13 with a contact"
   },
   {
    "batch": "erasmusplus-projects-search-results",
    "source": "ErasmusPlus_Projects_Search_Results (51).xlsx",
    "file_id": "1rXT_7TDa4DJteePLgGB92O5GoNcg_SffDm-oXr24BRk",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 92,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T21:46:02Z",
+   "last_start": "2026-11-04T21:46:02Z",
+   "restarts": 0,
+   "cap_usd": 516.51
   },
   {
    "batch": "erasmus-all-europe-ka-102-862-projec-p1",
@@ -5847,7 +5859,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T21:39:19Z",
+ "updated": "2026-11-04T21:46:02Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
