@@ -1,0 +1,123 @@
+{
+ "row_id": "r739",
+ "scraped_at": "2026-11-04T17:20:42Z",
+ "contacts": {
+  "row_id": "r739",
+  "institution_name": "Instituto dos Pupilos do Exército",
+  "institution_type": "school",
+  "official_website": "https://pupilos.pt",
+  "country": {
+   "value": "Portugal",
+   "source_url": "https://pupilos.pt",
+   "evidence_quote": "Home - Pupilos | Ensino de Excelência em Portugal"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "coordpedagogica@pupilos.pt",
+  "generic_email_url": "https://pupilos.pt/professores/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "European Union Military Secondary Schools Forum",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://pupilos.pt/projetos/erasmus/",
+    "evidence_quote": "Erasmus integrado no European Union Military Secondary Schools Forum. O IPE, participa de forma regular neste Fórum que garante, entre outros, a participação dos nossos alunos em atividades de qualidade desenvolvidas no âmbito do European Security and Defence College (ESDC).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "European Security and Defence College",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://pupilos.pt/projetos/erasmus/",
+    "evidence_quote": "Erasmus integrado no European Union Military Secondary Schools Forum. O IPE, participa de forma regular neste Fórum que garante, entre outros, a participação dos nossos alunos em atividades de qualidade desenvolvidas no âmbito do European Security and Defence College (ESDC).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Alliance Française",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://pupilos.pt/projetos/frances_alliance_/",
+    "evidence_quote": "Francês - Alliance - Française - Pupilos",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Primeira Secção",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://pupilos.pt",
+    "evidence_quote": "A Primeira Secção, situada na Travessa de S. Domingos de Benfica, em espaços que fizeram parte do Convento de S. Domingos e onde, outrora, se ergueu o Paço Real de Benfica."
+   },
+   {
+    "campus_name": "Segunda Secção",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://pupilos.pt",
+    "evidence_quote": "A Segunda Secção, situada na Estrada de Benfica outrora Quinta da Alfarrobeira."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The institution does not provide a specific list of Erasmus+ partner universities. The evidence mentions participation in the European Union Military Secondary Schools Forum.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.5,
+  "crawl_s": 30.0,
+  "ai_calls": 5,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     841,
+     971
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 59.6
+ }
+}
