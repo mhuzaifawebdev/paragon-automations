@@ -1,0 +1,130 @@
+{
+ "row_id": "r048",
+ "scraped_at": "2026-11-04T19:23:37Z",
+ "contacts": {
+  "row_id": "r048",
+  "institution_name": "Lycée technique de Lallange",
+  "institution_type": "school",
+  "official_website": "https://www.ltl.lu/",
+  "country": null,
+  "phone": {
+   "value": "+352) 559542-1",
+   "source_url": "https://www.ltl.lu/",
+   "evidence_quote": "Tél.: (+352) 559542-1 <tel 559542-1> (Concierge)"
+  },
+  "phone_alt": [],
+  "generic_email": "secretariat@ltl.lu",
+  "generic_email_url": "https://www.ltl.lu/",
+  "contact": {
+   "name": "Cynthia Recht",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "cynthia.recht@ltl.lu",
+   "office_email": "",
+   "phone": "+352 55 95 42 1",
+   "source_url": "https://www.ltl.lu/direction/",
+   "evidence_quote": "Cynthia Recht ... Directrice"
+  },
+  "alternates": [
+   {
+    "name": "Alexandra Reinert",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "alexandra.reinerthirsch@ltl.lu",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.ltl.lu/direction/",
+    "evidence_quote": "Alexandra Reinert ... Directrice adjointe",
+    "why_chosen": "Principal / director (no Erasmus contact found). Alexandra Reinert serves as Deputy Director and is part of the institution's leadership team."
+   },
+   {
+    "name": "Michel Muller",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "michel.muller@ltl.lu",
+    "office_email": "",
+    "phone": "+352 55 95 42 1",
+    "source_url": "https://www.ltl.lu/direction/",
+    "evidence_quote": "Michel Muller ... Directeur adjoint",
+    "why_chosen": "Principal / director (no Erasmus contact found). Michel Muller serves as Deputy Director and is part of the institution's leadership team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Cynthia Recht is the Director of the institution and is the primary contact for administrative and institutional inquiries.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Deutsche Börse",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ltl.lu/",
+    "evidence_quote": "Visite Deutsche Börse et BCE (Francfort)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BCE",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ltl.lu/",
+    "evidence_quote": "Visite Deutsche Börse et BCE (Francfort)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée technique de Lallange",
+    "city": "Esch-sur-Alzette",
+    "country": "Luxembourg",
+    "role": "main",
+    "source_url": "https://www.ltl.lu/",
+    "evidence_quote": "Boulevard Hubert Clément | L-4064 Esch-sur-Alzette"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 6,
+  "coverage_note": "The website does not provide a list of international partners or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 11.7,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 25.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 40.2
+ }
+}

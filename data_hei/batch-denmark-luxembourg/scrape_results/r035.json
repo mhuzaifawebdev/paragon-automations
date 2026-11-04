@@ -1,0 +1,156 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-11-04T19:22:47Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "École Privée Sainte-Anne",
+  "institution_type": "school",
+  "official_website": "https://www.sainte-anne.lu/",
+  "country": null,
+  "phone": {
+   "value": "+352) 81 22 10 - 216",
+   "source_url": "https://www.sainte-anne.lu/contact/",
+   "evidence_quote": "Tél. (+352) 81 22 10 - 216 <tel Tél.(00352)812210216>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Georges Kayser",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+352) 81 22 10 - 216",
+   "source_url": "https://www.sainte-anne.lu/contact/",
+   "evidence_quote": "Directeur ... Georges Kayser"
+  },
+  "alternates": [
+   {
+    "name": "Claude Schwachtgen",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+352) 81 22 10 - 226",
+    "source_url": "https://www.sainte-anne.lu/contact/",
+    "evidence_quote": "Directrice adjointe ... Claude Schwachtgen",
+    "why_chosen": "Principal / director (no Erasmus contact found). Claude Schwachtgen is the Deputy Director and part of the school's leadership team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Georges Kayser is the Director of the institution and is the primary contact for administrative and leadership matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Unesco",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sainte-anne.lu/",
+    "evidence_quote": "[Unesco]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fairtrade",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sainte-anne.lu/",
+    "evidence_quote": "[Fairtrade]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ecoles DOC",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sainte-anne.lu/",
+    "evidence_quote": "[Ecoles DOC]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "École Sainte-Anne Kigali",
+    "partner_country": "Rwanda",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sainte-anne.lu/",
+    "evidence_quote": "[École Sainte-Anne Kigali]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Duke of Edinburgh International Award",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sainte-anne.lu/",
+    "evidence_quote": "[Duke of Edinburgh International Award]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ecole privée Fieldgen",
+    "partner_country": "Luxembourg",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sainte-anne.lu/",
+    "evidence_quote": "Ecole privée Fieldgen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Internat Fieldgen",
+    "partner_country": "Luxembourg",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sainte-anne.lu/",
+    "evidence_quote": "Internat Fieldgen",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "École Privée Sainte-Anne",
+    "city": "Ettelbruck",
+    "country": "Luxembourg",
+    "role": "main",
+    "source_url": "https://www.sainte-anne.lu/",
+    "evidence_quote": "108 Grand-rue, L-9051 Ettelbruck"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 7,
+  "pages_read": 8,
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ partners or specific international mobility agreements. The listed partners are general institutional affiliations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 12.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 7,
+    "accepted": 7
+   }
+  ],
+  "total_seconds": 27.1
+ }
+}

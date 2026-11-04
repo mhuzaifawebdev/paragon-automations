@@ -1,0 +1,166 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-11-04T19:23:11Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "Lycée Nic Biever",
+  "institution_type": "school",
+  "official_website": "https://www.lnbd.lu/",
+  "country": null,
+  "phone": {
+   "value": "+352 51 60 31",
+   "source_url": "https://www.lnbd.lu/",
+   "evidence_quote": "Tél. : +352 51 60 31"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Yves Schmartz",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.lnbd.lu/direction/",
+   "evidence_quote": "Yves Schmartz, Directeur"
+  },
+  "alternates": [
+   {
+    "name": "Romain Fogen",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.lnbd.lu/direction/",
+    "evidence_quote": "Romain Fogen, Directeur adjoint",
+    "why_chosen": "Principal / director (no Erasmus contact found). Romain Fogen is a member of the school's leadership team."
+   },
+   {
+    "name": "Nathalie Welbes",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.lnbd.lu/direction/",
+    "evidence_quote": "Nathalie Welbes, Directrice adjointe",
+    "why_chosen": "Principal / director (no Erasmus contact found). Nathalie Welbes is a member of the school's leadership team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Yves Schmartz is the Director of the institution and was identified as a contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ecole Nationale Supérieure d’Architecture de Paris Val de la Seine",
+    "partner_country": "France",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lnbd.lu/les-projets-du-lnb/un-projet-europeen-erasmus/",
+    "evidence_quote": "La rencontre et la confrontation de trois faits européens différents, représentés par les trois villes participant dans le projet, Dudelange (le Luxembourg), Arezzo (l’Italie), Berlin (l’Allemagne), avec la collaboration décisive de l’Ecole Nationale Supérieure d’Architecture de Paris Val de la Seine (Enseignement supérieur). On demandera aux étudiants d’échanger avec leurs contreparties(homologues) la nature et les particularités de leur environnement et les caractéristiques de leur ville d’un ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ZPB – Zentrum fir politesch Bildung",
+    "partner_country": "Luxembourg",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lnbd.lu/",
+    "evidence_quote": "ZPB – Zentrum fir politesch Bildung",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Coopération Nord-Sud asbl",
+    "partner_country": "Luxembourg",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lnbd.lu/",
+    "evidence_quote": "Coopération Nord-Sud asbl",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mérite Jeunesse Luxembourg",
+    "partner_country": "Luxembourg",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lnbd.lu/",
+    "evidence_quote": "Mérite Jeunesse Luxembourg",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fondation Cancer",
+    "partner_country": "Luxembourg",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lnbd.lu/",
+    "evidence_quote": "Fondation Cancer",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SuperDrecksKëscht Akademie",
+    "partner_country": "Luxembourg",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lnbd.lu/",
+    "evidence_quote": "SuperDrecksKëscht Akademie",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Site Principal",
+    "city": "Dudelange",
+    "country": "Luxembourg",
+    "role": "main",
+    "source_url": "https://www.lnbd.lu/",
+    "evidence_quote": "Site Principal"
+   },
+   {
+    "campus_name": "Annexe Alliance",
+    "city": "Dudelange",
+    "country": "Luxembourg",
+    "role": "branch",
+    "source_url": "https://www.lnbd.lu/",
+    "evidence_quote": "Annexe Alliance"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects but does not provide a comprehensive list of institutional partners or agreements. Contact emails are not explicitly listed for the staff members. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 14.2,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 23.7
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "row_id": "r037",
+ "scraped_at": "2026-11-04T19:22:40Z",
+ "contacts": {
+  "row_id": "r037",
+  "institution_name": "Lycée Aline Mayrisch",
+  "institution_type": "school",
+  "official_website": "https://www.laml.lu/fr/",
+  "country": {
+   "value": "Luxembourg",
+   "source_url": "https://www.laml.lu/fr/",
+   "evidence_quote": "L-1430 Luxembourg"
+  },
+  "phone": {
+   "value": "+352 2604 3200",
+   "source_url": "https://www.laml.lu/fr/contact/",
+   "evidence_quote": "<tel +352 2604 3200>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@laml.lu",
+  "generic_email_url": "https://www.laml.lu/fr/",
+  "contact": {
+   "name": "Carole Chaine",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "carole.chaine@laml.lu",
+   "office_email": "",
+   "phone": "+352 2604 3200",
+   "source_url": "https://www.laml.lu/fr/contact/",
+   "evidence_quote": "Chaine Carole ... Directrice"
+  },
+  "alternates": [
+   {
+    "name": "Claude Faber",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "claude.faber@laml.lu",
+    "office_email": "",
+    "phone": "+352 2604 3202",
+    "source_url": "https://www.laml.lu/fr/contact/",
+    "evidence_quote": "Faber Claude ... Directeur adjoint",
+    "why_chosen": "Principal / director (no Erasmus contact found). Claude Faber serves as the Deputy Director and is a key member of the school's leadership team."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Carole Chaine is the Director of the institution and is the primary contact for administrative and institutional matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Aline Mayrisch",
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "role": "main",
+    "source_url": "https://www.laml.lu/fr/",
+    "evidence_quote": "38, bd Pierre Dupong"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The provided evidence does not contain any information regarding Erasmus+ partnerships, international mobility agreements, or a list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 9.7,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     492
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 16.7
+ }
+}
