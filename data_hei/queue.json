@@ -5677,22 +5677,34 @@
    "source": "SLOVENIA-BATCH",
    "file_id": "1LiUrV2Ofvu8898yioM9-N7v8JRN1URO4fRzNR9P_kGE",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 53,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T20:53:38Z",
    "last_start": "2026-11-04T20:53:38Z",
    "restarts": 0,
-   "cap_usd": 521.25
+   "cap_usd": 521.25,
+   "crm_rows": 70,
+   "no_number": 8,
+   "spend_recorded": true,
+   "cost_usd": 0.4162,
+   "drive_link": "https://docs.google.com/spreadsheets/d/16gxgGvPCKNLqH53sC6wOjnsb4gHjY9UB/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 59,
+   "finished": "2026-11-04T21:00:45Z",
+   "reason": "59 institutes, 55 with a contact"
   },
   {
    "batch": "greece-sprint-5",
    "source": "GREECE-SPRINT_5",
    "file_id": "1TkwZqICBtrrroV5WqTgH3f-7h3GirCzSMUZyKFM_leI",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 133,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T21:00:45Z",
+   "last_start": "2026-11-04T21:00:45Z",
+   "restarts": 0,
+   "cap_usd": 520.84
   },
   {
    "batch": "sprint-5-cr-batch-1-for-nadia",
@@ -5799,7 +5811,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T20:53:38Z",
+ "updated": "2026-11-04T21:00:45Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
