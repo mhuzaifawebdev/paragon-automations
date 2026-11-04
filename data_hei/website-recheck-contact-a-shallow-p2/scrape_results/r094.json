@@ -1,0 +1,58 @@
+{
+ "row_id": "r094",
+ "scraped_at": "2026-11-04T08:52:14Z",
+ "contacts": {
+  "row_id": "r094",
+  "institution_name": "GM Computers (Repairs)",
+  "institution_type": "unknown",
+  "official_website": "https://www.gmcomputers.co.za/",
+  "country": {
+   "value": "South Africa",
+   "source_url": "https://www.gmcomputers.co.za/contact.html#contacts2-o",
+   "evidence_quote": "A Caribbean-inspired restaurant with a South African vibe"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "gm.helpdesk@gmcomputers.co.za",
+  "generic_email_url": "https://www.gmcomputers.co.za/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "GM Computers",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "role": "main",
+    "source_url": "https://www.gmcomputers.co.za/contact.html#contacts2-o",
+    "evidence_quote": "55 Worcester Road, Walmer Estate, Woodstock, Cape Town, 7925"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is an IT services and solutions company rather than an educational institution, and the evidence does not name any individual staff members or international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 7.3,
+  "ai_calls": 1,
+  "model_s": 2.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "total_seconds": 43.9
+ }
+}

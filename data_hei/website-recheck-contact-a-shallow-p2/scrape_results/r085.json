@@ -1,0 +1,83 @@
+{
+ "row_id": "r085",
+ "scraped_at": "2026-11-04T08:51:46Z",
+ "contacts": {
+  "row_id": "r085",
+  "institution_name": "Fundacja Rysy",
+  "institution_type": "unknown",
+  "official_website": "https://fundacjarysy.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "zgloszenia@fundacjarysy.pl",
+  "generic_email_url": "https://fundacjarysy.pl/kontakt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini. 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fundacja Kochania Poznania",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://fundacjarysy.pl/",
+    "evidence_quote": "[Fundacja Kochania Poznania]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Leśne dziki",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://fundacjarysy.pl/",
+    "evidence_quote": "[Leśne dziki]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Enactus",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://fundacjarysy.pl/",
+    "evidence_quote": "[Enactus]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fundacja Rysy",
+    "city": "Potasze",
+    "country": "Polska",
+    "role": "main",
+    "source_url": "https://fundacjarysy.pl/",
+    "evidence_quote": "ul. Kwiatowa 56, 62-005 Potasze"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 2,
+  "coverage_note": "The website mentions participation in Erasmus+ projects and Eurodesk, but no individual contact persons with names and titles are listed on the pages. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 33.5,
+  "ai_calls": 2,
+  "model_s": 3.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 53.3
+ }
+}
