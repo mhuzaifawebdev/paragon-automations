@@ -1,0 +1,90 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-11-04T20:40:16Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "Vilniaus automechanikos ir verslo mokykla",
+  "institution_type": "college",
+  "official_website": "https://vavm.lt/",
+  "country": null,
+  "phone": {
+   "value": "+370 5 2618524",
+   "source_url": "https://vavm.lt/",
+   "evidence_quote": "<tel +370 5 2618524>"
+  },
+  "phone_alt": [],
+  "generic_email": "vavm@vavm.lt",
+  "generic_email_url": "https://vavm.lt/",
+  "contact": {
+   "name": "Elena Pelakauskienė",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "vavm@vavm.lt",
+   "office_email": "",
+   "phone": "+370 5 261 85 24",
+   "source_url": "https://vavm.lt/",
+   "evidence_quote": "Mokyklos direktorė Elena Pelakauskienė"
+  },
+  "alternates": [
+   {
+    "name": "Edita Rumbutė",
+    "designation": "Project Manager",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://vavm.lt/2024-2025-m-vavm-vyks-erasmus-mokiniu-ir-personalo-stazuotes-uzsienyje-dalyvaukite-atrankose/",
+    "evidence_quote": "Informaciją parengė Edita Rumbutė, ... Vilniaus automechanikos ir verslo mokyklos projektų vadovė.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is explicitly identified as the project manager for the institution's Erasmus+ projects."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the head of the institution and the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "PAGRINDINĖ BUVEINĖ",
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "role": "main",
+    "source_url": "https://vavm.lt/kontaktai/",
+    "evidence_quote": "PAGRINDINĖ BUVEINĖ"
+   },
+   {
+    "campus_name": "BUKIŠKIO SKYRIUS",
+    "city": "Bukiškis",
+    "country": "Lithuania",
+    "role": "branch",
+    "source_url": "https://vavm.lt/kontaktai/",
+    "evidence_quote": "BUKIŠKIO SKYRIUS"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions that the institution collaborates with foreign VET institutions and business enterprises for Erasmus+ mobility, but it does not provide a specific list of these partner names. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.0,
+  "crawl_s": 71.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 32.1,
+  "total_seconds": 110.6
+ }
+}
