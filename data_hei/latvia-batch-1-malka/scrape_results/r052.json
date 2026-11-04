@@ -1,0 +1,104 @@
+{
+ "row_id": "r052",
+ "scraped_at": "2026-11-04T21:31:24Z",
+ "contacts": {
+  "row_id": "r052",
+  "institution_name": "Zentas Mauriņas Grobiņas vidusskola",
+  "institution_type": "school",
+  "official_website": "https://grobinasskola.lv/",
+  "country": {
+   "value": "Latvija",
+   "source_url": "https://grobinasskola.lv/",
+   "evidence_quote": "Skolas iela 1, Grobiņa, LV-3430, Latvija"
+  },
+  "phone": {
+   "value": "371)29449686",
+   "source_url": "https://grobinasskola.lv/kategorija/kontakti",
+   "evidence_quote": "lietvedība: +(371)29449686"
+  },
+  "phone_alt": [],
+  "generic_email": "laila.roga@grobinasskola.lv",
+  "generic_email_url": "https://grobinasskola.lv/kategorija/kontakti",
+  "contact": {
+   "name": "Laila Roga",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "laila.roga@grobinasskola.lv",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://grobinasskola.lv/kategorija/kontakti",
+   "evidence_quote": "Direktore Laila Roga(Skolas ielā 1, Grobiņa), 29852553 laila.roga@grobinasskola.lv"
+  },
+  "alternates": [
+   {
+    "name": "Indra Kalniņa",
+    "designation": "Erasmus+ coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://grobinasskola.lv/raksts/atgriesanas-no-erasmus-mobilitates-griekija",
+    "evidence_quote": "Īpašu pateicību vēlamies izteikt skolas direktorei Lailai Rogai un Erasmus+ koordinatorei Indrai Kalniņai par uzticēšanos, atbalstu un doto iespēju piedalīties šajā vērtīgajā starptautiskajā pieredzē. Pateicoties viņu ieguldījumam, skolēniem bija iespēja pārstāvēt savu skolu, iepazīt citu valstu kultūru un iegūt pieredzi, kas noteikti paliks atmiņā vēl ilgi.",
+    "why_chosen": "Mobility coordinator. Indra Kalniņa is the school's Erasmus+ coordinator."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Laila Roga is the director of the school and is explicitly mentioned as a contact for Erasmus+ support.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Platon",
+    "partner_country": "Grieķija",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://grobinasskola.lv/raksts/atgriesanas-no-erasmus-mobilitates-griekija",
+    "evidence_quote": "Nedēļas garumā Katerini pilsētā mums bija iespēja būt daļai no starptautiskas mācību pieredzes, kurā iepazinām ne tikai Grieķijas kultūru un tradīcijas, bet arī tās izglītības vidi. Viesojāmies privātskolā Platon, kur piedalījāmies dažādās mācību nodarbībās un aktivitātēs kopā ar grieķu jauniešiem. Mācījāmies grieķu valodas pamatus, iepazinām grieķu literatūru, astronomiju un apguvām tradicionālās grieķu dejas.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zentas Mauriņas Grobiņas vidusskola",
+    "city": "Grobiņa",
+    "country": "Latvija",
+    "role": "main",
+    "source_url": "https://grobinasskola.lv/",
+    "evidence_quote": "Skolas iela 1, Grobiņa, LV-3430, Latvija"
+   },
+   {
+    "campus_name": "Programmu realizācijas vieta Kapsēdē",
+    "city": "Kapsēde",
+    "country": "Latvija",
+    "role": "branch",
+    "source_url": "https://grobinasskola.lv/kategorija/kontakti",
+    "evidence_quote": "Programmu realizācijas vieta Kapsēdē"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 9,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects but does not provide a comprehensive list of all formal institutional partners. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 12.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 35.8
+ }
+}
