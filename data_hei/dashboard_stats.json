@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-04T08:33:23.216552+00:00",
+ "generated_at": "2026-11-04T08:38:16.989818+00:00",
  "totals": {
   "institutes": 32376,
-  "with_contact": 21551,
-  "with_email": 18406,
+  "with_contact": 21546,
+  "with_email": 18411,
   "personal_email": 10165,
-  "generic_email": 14690,
+  "generic_email": 14695,
   "partners": 433438,
-  "campuses": 43968,
-  "no_website": 6442,
-  "with_website": 25934,
+  "campuses": 43969,
+  "no_website": 6441,
+  "with_website": 25935,
   "reachable": 17506,
   "reachable_missing": 1149,
   "website_dead": 0,
-  "batches": 273
+  "batches": 274
  },
  "days": [
   {
@@ -274,6 +274,25 @@
    "no_website": 0,
    "with_website": 67,
    "reachable": 23,
+   "reachable_missing": 0,
+   "website_dead": 0
+  },
+  {
+   "batch": "website-recheck-contact-a-shallow-p2",
+   "status": "running",
+   "total_rows": 500,
+   "done": 25,
+   "updated": "2026-11-04T08:38:12.433057+00:00",
+   "institutes": 25,
+   "with_contact": 1,
+   "with_email": 14,
+   "personal_email": 0,
+   "generic_email": 14,
+   "partners": 28,
+   "campuses": 15,
+   "no_website": 0,
+   "with_website": 25,
+   "reachable": 14,
    "reachable_missing": 0,
    "website_dead": 0
   },
