@@ -1,0 +1,134 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-11-04T20:47:22Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Figueiredo",
+  "institution_type": "school",
+  "official_website": "https://www.aetcf.pt/",
+  "country": null,
+  "phone": {
+   "value": "+351 232 819 050",
+   "source_url": "https://www.aetcf.pt/",
+   "evidence_quote": "Telefone: +351 232 819 050"
+  },
+  "phone_alt": [],
+  "generic_email": "secretaria@aetcf.pt",
+  "generic_email_url": "https://www.aetcf.pt/mod/page/view.php?id=362",
+  "contact": {
+   "name": "M. Helena Gonçalves",
+   "designation": "Direction",
+   "designation_local": "",
+   "email": "mhelena.goncalves@aetcf.pt",
+   "office_email": "",
+   "phone": "+351 232819050",
+   "source_url": "https://www.aetcf.pt/mod/page/view.php?id=362",
+   "evidence_quote": "<mhelena.goncalves@aetcf.pt>Direção: direcao@aetcf.pt"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). M. Helena Gonçalves is listed under the direction contact email for the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SIGA",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aetcf.pt/",
+    "evidence_quote": "[SIGA/Edubox]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Edubox",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aetcf.pt/",
+    "evidence_quote": "[SIGA/Edubox]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "eTwinning",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aetcf.pt/",
+    "evidence_quote": "[eTwinning]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "eqavet",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aetcf.pt/",
+    "evidence_quote": "[eqavet]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede do Agrupamento de Escolas de Tondela Cândido Figueiredo",
+    "city": "Tondela",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://www.aetcf.pt/mod/page/view.php?id=362",
+    "evidence_quote": "Sede do Agrupamento de Escolas de Tondela Cândido Figueiredo"
+   },
+   {
+    "campus_name": "Escola Secundária de Molelos",
+    "city": "Tondela",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://www.aetcf.pt/mod/page/view.php?id=362",
+    "evidence_quote": "Escola Secundária de Molelos"
+   },
+   {
+    "campus_name": "EB Prof. Dr. Mota Pinto - Lajeosa",
+    "city": "Lajeosa",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://www.aetcf.pt/mod/page/view.php?id=362",
+    "evidence_quote": "EB Prof. Dr. Mota Pinto - Lajeosa"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not contain a list of international partners or Erasmus+ agreements. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 13.5,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   }
+  ],
+  "total_seconds": 21.2
+ }
+}
