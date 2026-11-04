@@ -5656,22 +5656,34 @@
    "source": "PORTUGAL BATCH-1 BANO",
    "file_id": "1FE4G7meMr3DeGCa9e3iLYz6D28rl9inlDwYsfA5MhmE",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 56,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T20:45:24Z",
    "last_start": "2026-11-04T20:45:24Z",
    "restarts": 0,
-   "cap_usd": 521.98
+   "cap_usd": 521.98,
+   "crm_rows": 44,
+   "no_number": 15,
+   "spend_recorded": true,
+   "cost_usd": 0.7272,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1W0GcIfxgGPnas-jhgPI7VMaZrDwFe2Nx/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 58,
+   "finished": "2026-11-04T20:53:38Z",
+   "reason": "59 institutes, 22 with a contact"
   },
   {
    "batch": "slovenia-batch",
    "source": "SLOVENIA-BATCH",
    "file_id": "1LiUrV2Ofvu8898yioM9-N7v8JRN1URO4fRzNR9P_kGE",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 53,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T20:53:38Z",
+   "last_start": "2026-11-04T20:53:38Z",
+   "restarts": 0,
+   "cap_usd": 521.25
   },
   {
    "batch": "greece-sprint-5",
@@ -5787,7 +5799,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T20:45:24Z",
+ "updated": "2026-11-04T20:53:38Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
