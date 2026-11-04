@@ -1,0 +1,99 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-11-04T18:07:44Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Bonnefanten College",
+  "institution_type": "school",
+  "official_website": "https://www.bonnefantencollege.nl/",
+  "country": null,
+  "phone": {
+   "value": "043 - 354 12 34",
+   "source_url": "https://www.bonnefantencollege.nl/",
+   "evidence_quote": "<tel 043 - 354 12 34>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@bonnefantencollege.nl",
+  "generic_email_url": "https://www.bonnefantencollege.nl/",
+  "contact": {
+   "name": "Bas van Rooijen",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "p.linsen@stichtinglvo.nl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bonnefantencollege.nl/onze-school/ons-team/",
+   "evidence_quote": "Rector ... De heer Bas van Rooijen"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Rector, he is the head of the institution and the primary contact for management-related inquiries.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "VMBO Maastricht",
+    "partner_country": "Netherlands",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bonnefantencollege.nl/",
+    "evidence_quote": "In augustus 2027 verhuist het Bonnefanten College naar de Bemelerweg in Maastricht. Samen met VMBO Maastricht bouwen wij daar verder aan Avenir College.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stichting LVO",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bonnefantencollege.nl/onze-school/ons-team/",
+    "evidence_quote": "Stichting LVO",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bonnefanten College",
+    "city": "Maastricht",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.bonnefantencollege.nl/",
+    "evidence_quote": "6216 CW Maastricht"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain any information regarding Erasmus+ partnerships or international mobility agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 7.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 2.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     98
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 14.3
+ }
+}

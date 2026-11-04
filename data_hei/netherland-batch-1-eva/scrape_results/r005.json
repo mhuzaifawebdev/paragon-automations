@@ -1,0 +1,131 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-11-04T18:07:32Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "Anna van Rijn Lyceum",
+  "institution_type": "school",
+  "official_website": "https://www.annavanrijn.nl/",
+  "country": null,
+  "phone": {
+   "value": "030-6040900",
+   "source_url": "https://www.annavanrijn.nl/",
+   "evidence_quote": "030-6040900 <tel 030-6040900>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@annavanrijn.nl",
+  "generic_email_url": "https://www.annavanrijn.nl/",
+  "contact": {
+   "name": "Dhr. W. Luckel (Wouter)",
+   "designation": "Director Anna van Rijn College",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.annavanrijn.nl/over-ons/schoolleiding",
+   "evidence_quote": "Dhr. W. Luckel (Wouter) ... Directeur Anna van Rijn College"
+  },
+  "alternates": [
+   {
+    "name": "Dhr. M. Horst (Menno)",
+    "designation": "Team leader years 1 and 2",
+    "designation_local": "",
+    "email": "mhorst@annavanrijn.nl",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.annavanrijn.nl/over-ons/schoolleiding",
+    "evidence_quote": "Dhr. M. Horst (Menno) ... Teamleider leerjaren 1 en 2",
+    "why_chosen": "Secretary / administration (last resort). He is a member of the school leadership team with a direct email address."
+   },
+   {
+    "name": "Mw. M.A.C. Pauw (Anita)",
+    "designation": "Team leader years 3 mavo/havo/vwo and 4 mavo",
+    "designation_local": "",
+    "email": "apauw@annavanrijn.nl",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.annavanrijn.nl/over-ons/schoolleiding",
+    "evidence_quote": "Mw. M.A.C. Pauw (Anita) ... Teamleider leerjaren 3 mavo/havo/vwo en 4 mavo",
+    "why_chosen": "Secretary / administration (last resort). She is a member of the school leadership team with a direct email address."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the director of the school, he is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "NUOVO Scholen",
+    "partner_country": "Netherlands",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.annavanrijn.nl/",
+    "evidence_quote": "Eén van de NUOVO Scholen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lyceo",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.annavanrijn.nl/",
+    "evidence_quote": "Bericht van Lyceo.Voorafgaand aan én tijdens de toetsweek in december organiseert Lyceo de Toetsweek Ondersteuningsklas (TWOK) op...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "gemeente Nieuwegein",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.annavanrijn.nl/nieuwbouw",
+    "evidence_quote": "Het Anna van Rijn College werkt, samen met NUOVO Scholen (het schoolbestuur) en de gemeente Nieuwegein, aan de plannen voor een nieuw schoolgebouw. Het nieuwe schoolgebouw komt op onze huidige locatie aan de Albatros. Dit traject maakt deel uit van het grote gemeentelijke project Parels van de Wijken, waarin de komende jaren diverse scholen en voorzieningen in Nieuwegein vernieuwd worden.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Anna van Rijn College",
+    "city": "Nieuwegein",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.annavanrijn.nl/",
+    "evidence_quote": "Albatros 1"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not mention any international Erasmus+ partners or specific mobility programs. The institution is a secondary school and does not appear to have a dedicated international relations office.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 9.4,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     139
+    ],
+    "returned": 4,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 43.0
+ }
+}

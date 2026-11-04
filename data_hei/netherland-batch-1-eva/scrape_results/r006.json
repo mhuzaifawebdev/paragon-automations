@@ -1,0 +1,116 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-11-04T18:07:32Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "Antoniuscollege",
+  "institution_type": "school",
+  "official_website": "https://www.antoniuscollegegouda.nl/",
+  "country": null,
+  "phone": {
+   "value": "( +31 182 514 344",
+   "source_url": "https://www.antoniuscollegegouda.nl/",
+   "evidence_quote": "(0182) – 514 344"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Hanneke Lugtenburg",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "antonius@carmelcollegegouda.nl",
+   "office_email": "",
+   "phone": "0182-514344",
+   "source_url": "https://www.antoniuscollegegouda.nl/contact/",
+   "evidence_quote": "Hanneke Lugtenburg ... Rector"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Hanneke Lugtenburg is the Rector of the school and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.antoniuscollegegouda.nl/",
+    "evidence_quote": "Met het speciale Erasmus+ programma krijg je de kans om andere culturen te ontmoeten. De uitwisselingen met scholen uit het buitenland verdiepen je kennis en verruimen letterlijk je blik op de wereld.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Feyenoord",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.antoniuscollegegouda.nl/",
+    "evidence_quote": "Samenwerking Feyenoord en Technasium",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Google",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.antoniuscollegegouda.nl/contact/",
+    "evidence_quote": "Dit formulier is beveiligd door reCAPTCHA en de Google Privacy Policy and Terms of Service zijn van toepassing.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Antoniuscollege Gouda",
+    "city": "Gouda",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.antoniuscollegegouda.nl/",
+    "evidence_quote": "John Mottstraat 2-4"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The website mentions participation in the Erasmus+ program but does not provide a list of specific partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 9.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 24.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 3,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 43.0
+ }
+}
