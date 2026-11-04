@@ -1,40 +1,36 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
- "generated_at": "2026-11-04T09:53:25.071733+00:00",
- "totals": {
-  "institutes": 32376,
-  "with_contact": 22060,
-  "with_email": 19103,
-  "personal_email": 10407,
-  "generic_email": 15259,
-  "partners": 433439,
-  "campuses": 43975,
-  "no_website": 6392,
-  "with_website": 25984,
-  "reachable": 17506,
-=======
- "generated_at": "2026-11-04T09:48:30.778889+00:00",
-=======
- "generated_at": "2026-11-04T09:51:59.822262+00:00",
->>>>>>> 35c00c680 (dashboard figures rebuilt [automated])
+ "generated_at": "2026-11-04T09:59:00.848158+00:00",
  "totals": {
   "institutes": 32474,
-  "with_contact": 22144,
-  "with_email": 19208,
+  "with_contact": 22145,
+  "with_email": 19209,
   "personal_email": 10490,
-  "generic_email": 15294,
+  "generic_email": 15295,
   "partners": 437188,
   "campuses": 44120,
   "no_website": 6389,
   "with_website": 26085,
   "reachable": 17581,
->>>>>>> ff9418ce2 (dashboard figures rebuilt [automated])
   "reachable_missing": 1149,
   "website_dead": 0,
-  "batches": 278
+  "batches": 280
  },
  "days": [
+  {
+   "day": "2026-09-25",
+   "institutes": 98,
+   "with_contact": 66,
+   "with_email": 41,
+   "personal_email": 41,
+   "generic_email": 0,
+   "partners": 3749,
+   "campuses": 145,
+   "no_website": 0,
+   "with_website": 98,
+   "reachable": 75,
+   "reachable_missing": 0,
+   "website_dead": 0
+  },
   {
    "day": "2026-09-30",
    "institutes": 11,
@@ -278,6 +274,25 @@
  ],
  "batches": [
   {
+   "batch": "website-recheck-outside-contacts-5",
+   "status": "done",
+   "total_rows": 111,
+   "done": 111,
+   "updated": "2026-11-04T14:44:57Z",
+   "institutes": 111,
+   "with_contact": 41,
+   "with_email": 95,
+   "personal_email": 35,
+   "generic_email": 60,
+   "partners": 0,
+   "campuses": 0,
+   "no_website": 0,
+   "with_website": 111,
+   "reachable": 108,
+   "reachable_missing": 0,
+   "website_dead": 0
+  },
+  {
    "batch": "website-recheck-outside-contacts-4",
    "status": "done",
    "total_rows": 168,
@@ -376,8 +391,6 @@
    "batch": "website-recheck-contact-a-shallow-p2",
    "status": "waiting",
    "total_rows": 500,
-<<<<<<< HEAD
-<<<<<<< HEAD
    "done": 347,
    "updated": "2026-11-04T09:53:22.180796+00:00",
    "institutes": 347,
@@ -390,34 +403,6 @@
    "no_website": 3,
    "with_website": 344,
    "reachable": 190,
-=======
-   "done": 332,
-   "updated": "2026-11-04T09:46:10.201331+00:00",
-   "institutes": 332,
-   "with_contact": 65,
-   "with_email": 178,
-   "personal_email": 15,
-   "generic_email": 175,
-   "partners": 268,
-   "campuses": 313,
-   "no_website": 3,
-   "with_website": 329,
-   "reachable": 179,
->>>>>>> ff9418ce2 (dashboard figures rebuilt [automated])
-=======
-   "done": 342,
-   "updated": "2026-11-04T09:50:55.310691+00:00",
-   "institutes": 342,
-   "with_contact": 68,
-   "with_email": 187,
-   "personal_email": 17,
-   "generic_email": 183,
-   "partners": 360,
-   "campuses": 326,
-   "no_website": 3,
-   "with_website": 339,
-   "reachable": 188,
->>>>>>> 35c00c680 (dashboard figures rebuilt [automated])
    "reachable_missing": 0,
    "website_dead": 0
   },
@@ -5586,6 +5571,25 @@
    "no_website": 0,
    "with_website": 5,
    "reachable": 5,
+   "reachable_missing": 0,
+   "website_dead": 0
+  },
+  {
+   "batch": "B1",
+   "status": "done",
+   "total_rows": 98,
+   "done": 98,
+   "updated": "",
+   "institutes": 98,
+   "with_contact": 66,
+   "with_email": 41,
+   "personal_email": 41,
+   "generic_email": 0,
+   "partners": 3749,
+   "campuses": 145,
+   "no_website": 0,
+   "with_website": 98,
+   "reachable": 75,
    "reachable_missing": 0,
    "website_dead": 0
   }
