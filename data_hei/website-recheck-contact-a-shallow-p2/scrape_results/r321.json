@@ -1,0 +1,59 @@
+{
+ "row_id": "r321",
+ "scraped_at": "2026-11-04T09:44:38Z",
+ "contacts": {
+  "row_id": "r321",
+  "institution_name": "KC's Confectionery",
+  "institution_type": "unknown",
+  "official_website": "https://kccandy.com/",
+  "country": {
+   "value": "Trinidad and Tobago",
+   "source_url": "https://kccandy.com/",
+   "evidence_quote": "1330 – 1332 Southern Main Road, Couva, 550727 Trinidad and Tobago, West Indies"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@kccandy.com",
+  "generic_email_url": "https://kccandy.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "KC Confectionery Ltd",
+    "city": "Couva",
+    "country": "Trinidad and Tobago",
+    "role": "main",
+    "source_url": "https://kccandy.com/",
+    "evidence_quote": "1330 – 1332 Southern Main Road, Couva, 550727 Trinidad and Tobago, West Indies"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a confectionery manufacturing company rather than a school or university. There are no named personnel or partner institution lists in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 9.2,
+  "ai_calls": 2,
+  "model_s": 17.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 52.1
+ }
+}
