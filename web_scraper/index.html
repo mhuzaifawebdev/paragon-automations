@@ -867,7 +867,27 @@ function dayLabel(iso, long) {
   return d.toLocaleDateString("en-GB", long ? { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" } : { day: "numeric", month: "short", timeZone: "UTC" });
 }
 const avg = (a, b) => b ? (a / b).toLocaleString("en-GB", { maximumFractionDigits: 1 }) : "–";
+// ?preview=90 shows how the figures would look at that share, clearly marked as simulated; the real figures are
+// untouched and every normal visit shows them
+const PREVIEW = Math.min(100, Math.max(0, parseInt(new URLSearchParams(location.search).get("preview") || "0", 10) || 0));
+function previewTotals(t) {
+  const site = Math.round(t.institutes * PREVIEW / 100), share = n => Math.round(site * PREVIEW / 100);
+  const scale = site / (t.with_website || 1);
+  return { ...t, with_website: site, no_website: t.institutes - site, with_contact: share(), with_email: share(),
+           personal_email: Math.round((t.personal_email || 0) * scale * share() / Math.max(1, t.with_email * scale)),
+           generic_email: Math.round((t.generic_email || 0) * scale * share() / Math.max(1, t.with_email * scale)) };
+}
 function renderTiles(t) {
+  if (PREVIEW) {
+    t = previewTotals(t);
+    if (!document.getElementById("preview-banner")) {
+      const b = document.createElement("div");
+      b.id = "preview-banner";
+      b.textContent = `PREVIEW: simulated ${PREVIEW}% figures, not real data. Remove ?preview=${PREVIEW} from the address to see the real figures.`;
+      b.style.cssText = "background:#c92a2a;color:#fff;font-weight:600;padding:10px 14px;border-radius:8px;margin:0 0 14px";
+      $("d-tiles").before(b);
+    }
+  }
   const site = t.with_website ?? (t.institutes - (t.no_website || 0));
   // An institute with both a work email and a general inbox is in both counts; "with an email" counts it once.
   const work = t.personal_email || 0, dept = t.generic_email || 0;
