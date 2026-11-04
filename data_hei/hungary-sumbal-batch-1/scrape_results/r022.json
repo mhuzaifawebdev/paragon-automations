@@ -1,0 +1,94 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-11-04T18:50:49Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "Debreceni Fazekas Mihály Gimnázium",
+  "institution_type": "school",
+  "official_website": "https://fmg.hu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Aranyi Imre",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://fmg.hu/tanarok",
+   "evidence_quote": "Igazgató ... Aranyi Imre"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the principal of the institution and is listed as a contact on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES Las Espeñetas",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://fmg.hu/sites/default/files/erasmus+/beszamolo_csop_Erasmus+Orihuela_2025.pdf",
+    "evidence_quote": "Fogadó intézmény: IES Las Espeñetas",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée du Sacré-Coeur",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://fmg.hu/sites/default/files/erasmus+/beszamolo_csop_Erasmus+Aix-en-Provence_2025.pdf",
+    "evidence_quote": "Fogadó intézmény: Lycée du Sacré-Coeur",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ecole Internationale Le Versau",
+    "partner_country": "Belgium",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://fmg.hu/sites/default/files/erasmus+/beszamolo_csop_Erasmus+Wavre_2025.pdf",
+    "evidence_quote": "Fogadó intézmény: Ecole Internationale Le Versau",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Debreceni Fazekas Mihály Gimnázium",
+    "city": "Debrecen",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://fmg.hu/",
+    "evidence_quote": "Debreceni Fazekas Mihály Gimnázium | fmg.hu"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific details on recent Erasmus+ mobility projects and partner schools, but does not contain a comprehensive list of all institutional partners or agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 12.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 17.1,
+  "total_seconds": 34.0
+ }
+}
