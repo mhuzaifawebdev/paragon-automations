@@ -1,0 +1,70 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-11-04T19:36:10Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "Colegiul Tehnic \"Gheorghe Asachi\" București",
+  "institution_type": "college",
+  "official_website": "https://www.ct-asachi.ro/",
+  "country": null,
+  "phone": {
+   "value": "0787858675",
+   "source_url": "https://www.ct-asachi.ro/page.php?65",
+   "evidence_quote": "Tel: 0787858675 - mobil"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Laura Liliana Apostol",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "asachi_ro@yahoo.com",
+   "office_email": "",
+   "phone": "0787858675",
+   "source_url": "https://www.ct-asachi.ro/page.php?65",
+   "evidence_quote": "Director: Laura Liliana Apostol"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Laura Liliana Apostol is the Director of the institution and the primary contact point for official inquiries.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegiul Tehnic Gheorghe Asachi",
+    "city": "București",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://www.ct-asachi.ro/page.php?65",
+    "evidence_quote": "Adresa: Aleea Pravăț, nr. 24, sector 6, București"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The website provides general administrative and educational information but does not contain a list of Erasmus+ or international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 7.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 13.3,
+  "total_seconds": 46.4
+ }
+}
