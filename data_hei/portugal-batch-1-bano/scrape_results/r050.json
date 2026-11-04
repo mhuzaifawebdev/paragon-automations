@@ -1,0 +1,86 @@
+{
+ "row_id": "r050",
+ "scraped_at": "2026-11-04T20:51:40Z",
+ "contacts": {
+  "row_id": "r050",
+  "institution_name": "Centro de Estudos de Fátima",
+  "institution_type": "school",
+  "official_website": "http://www.cef.pt/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "cef@cef.pt",
+  "generic_email_url": "http://www.cef.pt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Instituto Superior de Engenharia de Coimbra (ISEC)",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "http://www.cef.pt/",
+    "evidence_quote": "O Summer Code Camp está de volta!O Centro de Estudos de Fátima (CEF) em parceria com o Instituto Superior de Engenharia de Coimbra (ISEC) promove uma experiência ímpar para crianças dos 11 aos 14...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Education and Mobility (EM)",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.cef.pt/erasmus.php",
+    "evidence_quote": "Organização de apoio: Education and Mobility (EM)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centro de Estudos de Fátima",
+    "city": "Fátima",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "http://www.cef.pt/",
+    "evidence_quote": "Rua do CEF n°83, 2495-651 Fátima"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides information about specific Erasmus+ projects and local partnerships, but does not contain a comprehensive list of all international partners or agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 5.0,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     126
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 17.4
+ }
+}
