@@ -1,0 +1,82 @@
+{
+ "row_id": "r029",
+ "scraped_at": "2026-11-04T20:07:45Z",
+ "contacts": {
+  "row_id": "r029",
+  "institution_name": "Liceul Tehnologic de Metrologie \"Traian Vuia\" București",
+  "institution_type": "school",
+  "official_website": "https://traian-vuia.ro/",
+  "country": null,
+  "phone": {
+   "value": "0372 942 097",
+   "source_url": "https://traian-vuia.ro/contact/",
+   "evidence_quote": "📞Telefon : 0372 942 097 <tel 0372942097>"
+  },
+  "phone_alt": [],
+  "generic_email": "ltmtraianvuia@gmail.com",
+  "generic_email_url": "https://traian-vuia.ro/",
+  "contact": {
+   "name": "Macaveiu Gabriela",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://traian-vuia.ro/despre-noi/management/",
+   "evidence_quote": "Director: Macaveiu Gabriela"
+  },
+  "alternates": [
+   {
+    "name": "Bunescu Ioana Andreea",
+    "designation": "Chief Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://traian-vuia.ro/despre-noi/personal-auxiliar/",
+    "evidence_quote": "BUNESCU IOANA ANDREEA | Secretar Șef |",
+    "why_chosen": "Secretary / administration (last resort). Bunescu Ioana Andreea is the Chief Secretary and handles administrative inquiries for the school."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Macaveiu Gabriela is the Director of the institution and is the primary contact for administrative and institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Liceul Tehnologic de Metrologie \"Traian Vuia\"",
+    "city": "București",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://traian-vuia.ro/contact/",
+    "evidence_quote": "Adresa: Şoseaua Vitan-Bârzeşti Nr. 11, Sector 4, Bucureşti, 042122"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "The website mentions Erasmus+ activities but does not provide a list of partner institutions. Contact information is provided via a general school email and phone number. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.0,
+  "crawl_s": 13.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 15.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.5,
+  "total_seconds": 47.2
+ }
+}
