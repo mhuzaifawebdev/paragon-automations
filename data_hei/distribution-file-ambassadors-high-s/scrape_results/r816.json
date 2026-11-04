@@ -1,0 +1,81 @@
+{
+ "row_id": "r816",
+ "scraped_at": "2026-11-04T17:27:43Z",
+ "contacts": {
+  "row_id": "r816",
+  "institution_name": "Srednja poklicna in tehniška šola Murska Sobota",
+  "institution_type": "school",
+  "official_website": "https://spts.si/",
+  "country": {
+   "value": "Slovenija",
+   "source_url": "https://spts.si/",
+   "evidence_quote": "Šolsko naselje 12, 9000 Murska Sobota, Slovenija"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@spts.si",
+  "generic_email_url": "https://spts.si/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "MAGNA ELECTRONICS SLOVAKIA S.R.O.",
+    "partner_country": "Slovakia",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://spts.si/dejavnosti/erasmus/erasmus-ka1/",
+    "evidence_quote": "Obiskali smo visokotehnološko podjetje MAGNA ELECTRONICS SLOVAKIA S.R.O.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hakl IT",
+    "partner_country": "Slovenia",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://spts.si/category/dejavnosti/erasmus/erasmus-plus/",
+    "evidence_quote": "Dijaki s Slovaške v sklopu Erasmus+ opravljajo prakso pri podjetju Hakl IT",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Srednja poklicna in tehniška šola Murska Sobota",
+    "city": "Murska Sobota",
+    "country": "Slovenija",
+    "role": "main",
+    "source_url": "https://spts.si/",
+    "evidence_quote": "Šolsko naselje 12, 9000 Murska Sobota, Slovenija"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution lists several partner countries and specific companies, but does not provide a comprehensive list of all partner schools or institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 57.8,
+  "crawl_s": 15.5,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 85.0
+ }
+}
