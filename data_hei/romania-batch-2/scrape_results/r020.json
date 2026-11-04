@@ -1,0 +1,84 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-11-04T19:37:44Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "Liceul Pedagogic \"Spiru Haret\" Buzău",
+  "institution_type": "school",
+  "official_website": "https://pedagogicbz.ro/index.php/en/",
+  "country": {
+   "value": "România",
+   "source_url": "https://pedagogicbz.ro/index.php/en/contact",
+   "evidence_quote": "România"
+  },
+  "phone": {
+   "value": "40 238 724273",
+   "source_url": "https://pedagogicbz.ro/index.php/en/contact",
+   "evidence_quote": "Tel/Fax: + 40 238 724273"
+  },
+  "phone_alt": [],
+  "generic_email": "scoala.normala@pedagogicbuzau.ro",
+  "generic_email_url": "https://pedagogicbz.ro/index.php/en/contact",
+  "contact": {
+   "name": "Iacob Cristina Iuliana",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "40 238 724273",
+   "source_url": "https://pedagogicbz.ro/index.php/en/contact",
+   "evidence_quote": "Prof. Iacob Cristina Iuliana – Director"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the director of the institution and the primary contact person listed.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Asociatia AIESEC Bucuresti",
+    "partner_country": "România",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://pedagogicbz.ro/index.php/en/media-cat/personalitati",
+    "evidence_quote": "Asociatia AIESEC Bucuresti",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegiul Național Pedagogic \"Spiru Haret\"",
+    "city": "Buzău",
+    "country": "România",
+    "role": "main",
+    "source_url": "https://pedagogicbz.ro/index.php/en/contact",
+    "evidence_quote": "Str. Spiru Haret, Nr. 6, Buzău, România"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The website mentions Erasmus+ projects but does not provide a list of specific international partner institutions. Contact information is limited to the general school administration.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.2,
+  "crawl_s": 17.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 11.6,
+  "total_seconds": 34.2
+ }
+}

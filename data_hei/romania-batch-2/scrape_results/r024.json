@@ -1,0 +1,93 @@
+{
+ "row_id": "r024",
+ "scraped_at": "2026-11-04T19:38:00Z",
+ "contacts": {
+  "row_id": "r024",
+  "institution_name": "Liceul Tehnologic \"Ion I.C.Brătianu\" București",
+  "institution_type": "school",
+  "official_website": "https://www.liceulbratianu.ro/",
+  "country": null,
+  "phone": {
+   "value": "031.0699.448",
+   "source_url": "https://www.liceulbratianu.ro/contact.php",
+   "evidence_quote": "Tel şi Fax: 031.0699.448"
+  },
+  "phone_alt": [],
+  "generic_email": "licbratianu@yahoo.ro",
+  "generic_email_url": "https://www.liceulbratianu.ro/contact.php",
+  "contact": {
+   "name": "Radu Mirela Magdalena",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.liceulbratianu.ro/consiliul_administratie.php",
+   "evidence_quote": "Președinte: | Radu Mirela Magdalena | - director |"
+  },
+  "alternates": [
+   {
+    "name": "Marian Ivan",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.liceulbratianu.ro/consiliul_administratie.php",
+    "evidence_quote": "Marian Ivan | - director adjunct |",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the deputy director, he holds a leadership role within the institution."
+   },
+   {
+    "name": "Ene Speranța Ingrid",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "031.0699.448",
+    "source_url": "https://www.liceulbratianu.ro/secretariat.php",
+    "evidence_quote": "SECRETAR: ENE SPERANȚA INGRID",
+    "why_chosen": "Secretary / administration (last resort). As the secretary, she handles administrative inquiries and public relations."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the director of the institution, she is the primary contact for administrative and institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Liceul Tehnologic Ion I.C. Brătianu",
+    "city": "București",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://www.liceulbratianu.ro/contact.php",
+    "evidence_quote": "Str. Popa Lazăr Nr. 8A, Sector 2, București"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The website does not provide a list of Erasmus+ or international partners. No specific international relations or Erasmus coordinator is mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 7.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 10.3,
+  "total_seconds": 21.2
+ }
+}
