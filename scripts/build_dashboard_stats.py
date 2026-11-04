@@ -25,7 +25,8 @@ def _key(name):
 
 def _empty():
     return {"institutes": 0, "with_contact": 0, "with_email": 0, "personal_email": 0, "generic_email": 0,
-            "partners": 0, "campuses": 0, "no_website": 0, "with_website": 0, "reachable": 0, "reachable_missing": 0, "website_dead": 0}
+            "partners": 0, "campuses": 0, "no_website": 0, "with_website": 0, "reachable": 0, "reachable_missing": 0,
+            "reachable_missing_sites": 0, "website_dead": 0}
 
 
 def institute_counts(result):
@@ -63,11 +64,11 @@ def institute_row(result, batch):
             "type": c.get("institution_type") or "", "batch": batch, "campuses": n["campuses"], "partners": n["partners"],
             "website": n["with_website"]}
     if batch.startswith(RECHECK_PREFIX):
-        line["found"] = {k: n[k] for k in ("with_contact", "with_email", "personal_email", "generic_email")}
+        line["found"] = {k: n[k] for k in ("with_contact", "with_email", "personal_email", "generic_email", "reachable")}
     return line
 
 
-def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None):
+def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None, uncounted=()):
     """A website re-check (scripts/recheck_websites.py) improves institutes already counted; it adds none. Each site it
     found moves every row of that name out of Website not found. Removes the re-check's lines from `lines`.
     baseline: {name key: 1 if it already had a general inbox, else 0} for the institutes with a website but no contact
@@ -99,6 +100,10 @@ def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None):
         if f.get("personal_email") and "personal" not in credited[key]:
             credited[key].add("personal")
             totals["personal_email"] += len(rows_)
+        # reachable (an email or a phone): only for names that had no inbox before, so none is counted twice
+        if f.get("reachable") and not baseline.get(key) and "reachable" not in credited[key]:
+            credited[key].add("reachable")
+            totals["reachable"] += sum(1 for x in rows_ if x["batch"] not in uncounted)   # its batch is in the share
         if f.get("with_email") and not baseline.get(key) and "email" not in credited[key]:
             credited[key].add("email")
             totals["with_email"] += len(rows_)
@@ -128,6 +133,7 @@ def batch_figures(bdir):
             t = {**_empty(), **s.get("totals", {})}
             if "reachable" not in s.get("totals", {}):      # counted before this figure existed: not known yet
                 t["reachable_missing"] = t["institutes"]
+                t["reachable_missing_sites"] = t["with_website"]     # kept out of the Reachable share until counted
             return t, s.get("days", {}), s.get("institutes", [])
         except Exception:
             pass
@@ -175,12 +181,15 @@ def hidden_batches(data=DATA):
 def build(data=DATA, rows=None):
     """rows: if a list is given, the Institutes view lines are appended to it."""
     totals, by_day, batches, lines_all = _empty(), defaultdict(_empty), [], []
+    uncounted = set()                   # batches counted before the Reachable figure existed
     hidden = hidden_batches(data)
     for bdir in sorted(p for p in Path(data).iterdir() if p.is_dir() and p.name != "uploads" and not p.name.startswith("_")):
         b, days, lines = batch_figures(bdir)
         if bdir.name in hidden:
             b, days, lines = _empty(), {}, []
         lines_all.extend(lines)
+        if b.get("reachable_missing"):
+            uncounted.add(bdir.name)
         if not bdir.name.startswith(RECHECK_PREFIX):
             for k, v in b.items():
                 totals[k] += v
@@ -206,7 +215,7 @@ def build(data=DATA, rows=None):
         sheet_contacts = json.loads((Path(data) / "sheet_contacts.json").read_text(encoding="utf-8"))
     except Exception:
         sheet_contacts = {}
-    apply_rechecks(totals, lines_all, baseline, sheet_contacts)
+    apply_rechecks(totals, lines_all, baseline, sheet_contacts, uncounted)
     if rows is not None:
         rows.extend(lines_all)
     batches.sort(key=lambda x: x["updated"] or "", reverse=True)
