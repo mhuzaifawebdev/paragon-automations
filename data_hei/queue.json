@@ -5614,22 +5614,34 @@
    "source": "LITHUANIA-(BATCH-2)",
    "file_id": "1BOpqKMa_FYnDvhL5D4gJnaiyUShpzpW3DUzgom1oWhQ",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 49,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T20:33:41Z",
    "last_start": "2026-11-04T20:33:41Z",
    "restarts": 0,
-   "cap_usd": 522.7
+   "cap_usd": 522.7,
+   "crm_rows": 57,
+   "no_number": 5,
+   "spend_recorded": true,
+   "cost_usd": 0.6705,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1ruCaw40zgFyCKGJRMFIwBV2v_jRtZIhs/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 53,
+   "finished": "2026-11-04T20:42:21Z",
+   "reason": "54 institutes, 48 with a contact"
   },
   {
    "batch": "copy-of-portugal-batch-2-bano",
    "source": "Copy of PORTUGAL BATCH 2 BANO",
    "file_id": "1vmTDvw2lpJpwjomxEm49UFFOL5xUjIjq41FxqB3g_kM",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 12,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T20:42:21Z",
+   "last_start": "2026-11-04T20:42:21Z",
+   "restarts": 0,
+   "cap_usd": 522.03
   },
   {
    "batch": "portugal-batch-1-bano",
@@ -5763,7 +5775,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T20:33:41Z",
+ "updated": "2026-11-04T20:42:21Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
