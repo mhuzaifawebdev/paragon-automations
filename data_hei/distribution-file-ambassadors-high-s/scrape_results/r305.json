@@ -1,0 +1,84 @@
+{
+ "row_id": "r305",
+ "scraped_at": "2026-11-04T16:26:35Z",
+ "contacts": {
+  "row_id": "r305",
+  "institution_name": "Istituto Istruzione Superiore Luigi Einaudi",
+  "institution_type": "school",
+  "official_website": "https://www.liceokepleroroma.edu.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rmps19000t@istruzione.it",
+  "generic_email_url": "https://www.liceokepleroroma.edu.it/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Soria",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.liceokepleroroma.edu.it/",
+    "evidence_quote": "Pubblicazione della graduatoria relativa alla mobilità Erasmus Plus classi seconde a.s. 2026/2027 (Soria, Spagna e Habo, Svezia).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Habo",
+    "partner_country": "Sweden",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.liceokepleroroma.edu.it/",
+    "evidence_quote": "Pubblicazione della graduatoria relativa alla mobilità Erasmus Plus classi seconde a.s. 2026/2027 (Soria, Spagna e Habo, Svezia).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede centrale",
+    "city": "Roma",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.liceokepleroroma.edu.it/",
+    "evidence_quote": "Indirizzo: Sede centrale: via Silvestro Gherardi 87/89 - 00146 Roma. Sede succursale: via delle Vigne 156 - 00148 RomaCentralino: Sede centrale: 06121123925 - Sede succursale: 06121126685/686 <tel Sedecentrale:06121123925-Sedesuccursale:06121126685/686>"
+   },
+   {
+    "campus_name": "Sede succursale",
+    "city": "Roma",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://www.liceokepleroroma.edu.it/",
+    "evidence_quote": "Indirizzo: Sede centrale: via Silvestro Gherardi 87/89 - 00146 Roma. Sede succursale: via delle Vigne 156 - 00148 RomaCentralino: Sede centrale: 06121123925 - Sede succursale: 06121126685/686 <tel Sedecentrale:06121123925-Sedesuccursale:06121126685/686>"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions specific Erasmus+ mobility destinations but does not provide a comprehensive list of institutional partners or agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 15.6,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 49.8
+ }
+}
