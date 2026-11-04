@@ -1,0 +1,71 @@
+{
+ "row_id": "r079",
+ "scraped_at": "2026-11-04T21:34:09Z",
+ "contacts": {
+  "row_id": "r079",
+  "institution_name": "Krāslavas Valsts ģimnāzija",
+  "institution_type": "school",
+  "official_website": "https://kvg.lv/zinas",
+  "country": {
+   "value": "Latvija",
+   "source_url": "https://kvg.lv/sakums/sazina",
+   "evidence_quote": "Pils 5, Krāslava, Latvija, LV-5600"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kvg@kraslava.lv",
+  "generic_email_url": "https://kvg.lv/sakums/sazina",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ustanova za obrazovanje odraslih Maksima",
+    "partner_country": "Croatia",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://kvg.lv/projekti/erasmus",
+    "evidence_quote": "Mūsu uzņemošā organizācija ir pieaugušo izglītības centrs \"Ustanova za obrazovanje odraslih Maksima\", tas ir, ERASMUS+ Courses Croatia (Horvātijā). Mēs apguvām - kā sagatavoties dažādu IKT rīku, aplikāciju un tīmekļa platformu ieviešanai mācību stundās, informācijas un komunikācijas tehnoloģiju pielietošanu klasē, lai veicinātu motivāciju un radošumu, runājām par Mākslīgo intelektu un apguvām CHAT GPT, PIXABAY, ADOBE, WORDPRESS, QR kodu izmantošanu, Wordwall, CANVA, GENIALLY, Padlet, MOODLE, Qui",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Krāslavas Ģimnāzija",
+    "city": "Krāslava",
+    "country": "Latvija",
+    "role": "main",
+    "source_url": "https://kvg.lv/sakums/sazina",
+    "evidence_quote": "Pils 5, Krāslava, Latvija, LV-5600"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects but does not provide a comprehensive list of institutional partners or agreements. No specific contact person for international relations is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 11.1,
+  "crawl_s": 10.2,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 51.2
+ }
+}
