@@ -1,23 +1,23 @@
 {
  "batch": "erasmus-all-europe-ka-102-862-projec-p1",
  "status": "running",
- "generated_at": "2026-11-04T21:57:35.227329+00:00",
+ "generated_at": "2026-11-04T21:59:22.264062+00:00",
  "chunk": 2,
  "total_chunks": 36,
  "total_rows": 900,
- "done": 23,
- "pending": 877,
- "elapsed_seconds": 145,
- "eta_seconds": 5062,
- "cost_usd_so_far": 0.7926,
- "paid_search_usd": 0.7926,
+ "done": 25,
+ "pending": 875,
+ "elapsed_seconds": 252,
+ "eta_seconds": 5540,
+ "cost_usd_so_far": 0.8425,
+ "paid_search_usd": 0.8425,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
  "search_failures": 0,
- "haiku_fallback_calls": 62,
+ "haiku_fallback_calls": 65,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 59,
+ "ai_calls": 65,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,18 +38,14 @@
   }
  ],
  "confidence": {
-  "high": 12,
-  "medium": 4,
+  "high": 13,
+  "medium": 7,
   "low": 1,
-  "none": 6
+  "none": 4
  },
- "partners_found": 266,
- "campuses_found": 38,
+ "partners_found": 295,
+ "campuses_found": 44,
  "recent": [
-  "r002",
-  "r003",
-  "r004",
-  "r005",
   "r006",
   "r007",
   "r008",
@@ -65,6 +61,10 @@
   "r018",
   "r019",
   "r020",
-  "r021"
+  "r021",
+  "r022",
+  "r023",
+  "r024",
+  "r025"
  ]
 }
