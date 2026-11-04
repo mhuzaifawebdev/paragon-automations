@@ -1,0 +1,126 @@
+{
+ "row_id": "r056",
+ "scraped_at": "2026-11-04T20:10:08Z",
+ "contacts": {
+  "row_id": "r056",
+  "institution_name": "Srednja šola Zagorje",
+  "institution_type": "school",
+  "official_website": "https://www.sszagorje.si/",
+  "country": {
+   "value": "Slovenia",
+   "source_url": "https://www.sszagorje.si/",
+   "evidence_quote": "Dijaki 5.c in 5.d se boste v sredo, 7. 10. 2026, udeležili karierno-zaposlitvenega sejma, ki bo potekal med 10.00 in 14.00 v Delavskem domu Trbovlje, v organizaciji Zavoda Republike Slovenije za zaposlovanje, Območne službe Trbovlje. Dijaki boste imeli 1. in 2. uro..."
+  },
+  "phone": {
+   "value": "03 56 55 400",
+   "source_url": "https://www.sszagorje.si/",
+   "evidence_quote": "03 56 55 400"
+  },
+  "phone_alt": [],
+  "generic_email": "mkolar@sszagorje.si",
+  "generic_email_url": "https://www.sszagorje.si/kontakt/",
+  "contact": {
+   "name": "Mag. Maruša Kolar",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "mkolar@sszagorje.si",
+   "office_email": "",
+   "phone": "03 56 55 400",
+   "source_url": "https://www.sszagorje.si/kontakt/",
+   "evidence_quote": "Ravnateljica | ... Mag. Maruša Kolar |"
+  },
+  "alternates": [
+   {
+    "name": "Hanka Huskić",
+    "designation": "Organizer of practical training",
+    "designation_local": "",
+    "email": "hanka.huskic@sszagorje.si",
+    "office_email": "",
+    "phone": "03 56 55 406",
+    "source_url": "https://www.sszagorje.si/pud/",
+    "evidence_quote": "Organizator PUD-a ZNE: Hanka Huskić/Anita Mazij |",
+    "why_chosen": "Mobility coordinator. She is an organizer of practical training, which involves coordinating student placements."
+   },
+   {
+    "name": "Andrej Naglav",
+    "designation": "Organizer of practical training",
+    "designation_local": "",
+    "email": "anaglav@sszagorje.si",
+    "office_email": "",
+    "phone": "03 56 55 409",
+    "source_url": "https://www.sszagorje.si/pud/",
+    "evidence_quote": "Organizator PUD-a GAST: Andrej Naglav/Hanka Huskić |",
+    "why_chosen": "Mobility coordinator. He is an organizer of practical training, which involves coordinating student placements."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "hotel Kempinski",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.sszagorje.si/mednarodno-sodelovanje-v-srednji-soli-zagorje/",
+    "evidence_quote": "enomesečno delo v hotelu Kempinski v Španiji.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "unnamed companies in Milan",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.sszagorje.si/mednarodno-sodelovanje-v-srednji-soli-zagorje/",
+    "evidence_quote": "Naša šola je prijavila v šolskem letu 2014/2015 4-tedensko praktično usposabljanje z delom s področja gastronomskih in hotelskih storitev ter zdravstvene nege v podjetjih v Milanu v Italiji. Hkrati smo v tem šolskem letu v sodelovanju z RCR-jem prijavili projekt, katerega tema je Zmanjšanje usipa v šolah.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "RCR",
+    "partner_country": "Slovenia",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.sszagorje.si/mednarodno-sodelovanje-v-srednji-soli-zagorje/",
+    "evidence_quote": "Naša šola je prijavila v šolskem letu 2014/2015 4-tedensko praktično usposabljanje z delom s področja gastronomskih in hotelskih storitev ter zdravstvene nege v podjetjih v Milanu v Italiji. Hkrati smo v tem šolskem letu v sodelovanju z RCR-jem prijavili projekt, katerega tema je Zmanjšanje usipa v šolah.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Srednja šola Zagorje",
+    "city": "Zagorje ob Savi",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://www.sszagorje.si/kontakt/",
+    "evidence_quote": "Cesta zmage 5, 1410 Zagorje ob Savi |"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides a list of past international projects and some specific partner companies, but does not provide a comprehensive list of current Erasmus+ partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 8.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 0.0,
+  "total_seconds": 66.3
+ }
+}
