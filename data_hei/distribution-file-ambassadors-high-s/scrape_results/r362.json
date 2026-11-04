@@ -1,0 +1,72 @@
+{
+ "row_id": "r362",
+ "scraped_at": "2026-11-04T16:32:56Z",
+ "contacts": {
+  "row_id": "r362",
+  "institution_name": "Istituto Tecnico Economico Enrico Tosi",
+  "institution_type": "school",
+  "official_website": "https://lnx.etosi.edu.it/",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://lnx.etosi.edu.it/contatti/",
+   "evidence_quote": "(Varese -Italy)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "itctosi@itctosi.va.it",
+  "generic_email_url": "https://lnx.etosi.edu.it/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES Broch i Llop",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://lnx.etosi.edu.it/",
+    "evidence_quote": "Le nostre studentesse Lucrezia Cappone (3BI), Rachele Barcaro (4CR) e Greta Chidichimo (4CR) sono tornate oggi dopo avere trascorso due mesi in Spagna, a Vila-real, ospiti dell’IES Broch i Llop, per il consueto progetto di mobilità lunga che continua con successo ormai da diversi anni. Entusiaste ed emozionate, hanno salutato le compagne Nuria, Imán e Inma, »",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "ITE Enrico Tosi",
+    "city": "Busto Arsizio",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://lnx.etosi.edu.it/",
+    "evidence_quote": "Viale Stelvio 173 - Busto Arsizio (VA) • tel. +39 0331 372011"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of international partners, only mentioning specific schools involved in individual mobility projects. No dedicated Erasmus coordinator contact is listed. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.5,
+  "crawl_s": 20.3,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 34.4
+ }
+}
