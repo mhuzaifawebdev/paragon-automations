@@ -5278,22 +5278,34 @@
    "source": "Batch-2 SPAIN",
    "file_id": "1dOrmloXuNtdI6slI1q0-F7begqDZid6agaCRsGF0_As",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 91,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T17:43:43Z",
    "last_start": "2026-11-04T17:43:43Z",
    "restarts": 0,
-   "cap_usd": 536.11
+   "cap_usd": 536.11,
+   "crm_rows": 74,
+   "no_number": 17,
+   "spend_recorded": true,
+   "cost_usd": 1.1545,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1tV0t8n_M7YzmxL6PABNbg7I7w3MXFP3r/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 90,
+   "finished": "2026-11-04T18:05:31Z",
+   "reason": "91 institutes, 47 with a contact"
   },
   {
    "batch": "netherland-batch-1-eva",
    "source": "NETHERLAND BATCH-1 EVA",
    "file_id": "1QOjUc72smp7zO8bWgsWB69_fZ_tWmMl-8ptYiEG3DD8",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 49,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T18:05:31Z",
+   "last_start": "2026-11-04T18:05:31Z",
+   "restarts": 0,
+   "cap_usd": 534.96
   },
   {
    "batch": "batch-2-netherland-bano",
@@ -5571,7 +5583,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T17:43:43Z",
+ "updated": "2026-11-04T18:05:31Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
