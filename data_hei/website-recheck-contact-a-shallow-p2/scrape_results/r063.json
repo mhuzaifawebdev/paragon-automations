@@ -1,0 +1,96 @@
+{
+ "row_id": "r063",
+ "scraped_at": "2026-11-04T08:46:55Z",
+ "contacts": {
+  "row_id": "r063",
+  "institution_name": "Fouani Nigeria",
+  "institution_type": "unknown",
+  "official_website": "https://fouani.com/",
+  "country": {
+   "value": "Nigeria",
+   "source_url": "https://fouani.com/ng/contactus",
+   "evidence_quote": "11/13 Warehouse Road, Apapa, Lagos, Nigeria."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "cic@fouani.com",
+  "generic_email_url": "https://fouani.com/ng/contactus",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Hisense",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://fouani.com/",
+    "evidence_quote": "Fouani Group's distinction is highlighted by its trade in a range of high-end brands, including but not limited to LG, Hisense, and Maxi. This diverse portfolio of prestigious brands sets Fouani Group apart from its competitors and establishes the company as a prominent player in the industry.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Maxi",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://fouani.com/",
+    "evidence_quote": "Fouani Group's distinction is highlighted by its trade in a range of high-end brands, including but not limited to LG, Hisense, and Maxi. This diverse portfolio of prestigious brands sets Fouani Group apart from its competitors and establishes the company as a prominent player in the industry.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nutrimental",
+    "partner_country": "Brazil",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://fouani.com/",
+    "evidence_quote": "Nutrimental is a leading Brazilian baby food brand known for providing nutritious options for infants and young children. Their range includes organic purees, cereals, snacks, and beverages made from locally sourced ingredients. Nutrimental products are free from artificial additives, ensuring parents can confidently nourish their little ones with healthy and delicious options.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Yara",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://fouani.com/",
+    "evidence_quote": "Yara is a baby and toddler products brand, carefully made with the most delicate fibers to suit your little one's needs",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fouani Nigeria",
+    "city": "Lagos",
+    "country": "Nigeria",
+    "role": "main",
+    "source_url": "https://fouani.com/ng/contactus",
+    "evidence_quote": "11/13 Warehouse Road, Apapa, Lagos, Nigeria."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 6,
+  "coverage_note": "Fouani Group is a commercial enterprise, not an educational institution, and therefore does not have Erasmus+ partnerships or mobility programs. No specific contact persons are listed on the website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 8.9,
+  "ai_calls": 2,
+  "model_s": 1.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 28.9
+ }
+}

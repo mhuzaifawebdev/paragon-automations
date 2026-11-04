@@ -1,0 +1,96 @@
+{
+ "row_id": "r072",
+ "scraped_at": "2026-11-04T08:47:45Z",
+ "contacts": {
+  "row_id": "r072",
+  "institution_name": "French Touch Diving",
+  "institution_type": "unknown",
+  "official_website": "https://www.frenchtouchdiving.com/",
+  "country": {
+   "value": "Malte",
+   "source_url": "https://www.frenchtouchdiving.com/",
+   "evidence_quote": "San Pawl il Bahar, MALTE"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@frenchtouchdiving.com",
+  "generic_email_url": "https://www.frenchtouchdiving.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini. 5 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Beuchat",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frenchtouchdiving.com/",
+    "evidence_quote": "[Logo Beuchat]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ocean Quest",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frenchtouchdiving.com/",
+    "evidence_quote": "[Logo Ocean Quest]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "French Kiss Divers",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frenchtouchdiving.com/",
+    "evidence_quote": "French Kiss Divers",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "dive Assure",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.frenchtouchdiving.com/",
+    "evidence_quote": "[Logo dive Assure]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "French Touch Diving",
+    "city": "Saint Paul's Bay",
+    "country": "Malte",
+    "role": "main",
+    "source_url": "https://www.frenchtouchdiving.com/",
+    "evidence_quote": "San Pawl il Bahar, MALTE"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 1,
+  "coverage_note": "No explicit total count of partners is stated in the evidence. 5 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.2,
+  "crawl_s": 7.3,
+  "ai_calls": 2,
+  "model_s": 5.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 43.8
+ }
+}
