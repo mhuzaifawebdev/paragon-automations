@@ -1,0 +1,130 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-11-04T20:46:51Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Colégio Alemão do Porto",
+  "institution_type": "school",
+  "official_website": "https://dsporto.de/",
+  "country": {
+   "value": "Portugal",
+   "source_url": "https://dsporto.de/",
+   "evidence_quote": "4150-386 Porto / Portugal"
+  },
+  "phone": {
+   "value": "+351 226 076 570",
+   "source_url": "https://dsporto.de/",
+   "evidence_quote": "+351 226 076 570"
+  },
+  "phone_alt": [],
+  "generic_email": "info@dsporto.de",
+  "generic_email_url": "https://dsporto.de/",
+  "contact": {
+   "name": "Esther Lischewski",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "e.lischewski@dsporto.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://dsporto.de/die-schule/schulleitung/",
+   "evidence_quote": "Esther Lischewski ... SCHULLEITERIN"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the school principal, she is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "FLUP",
+    "partner_country": "Portugal",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://dsporto.de/partnerschaften/",
+    "evidence_quote": "Im Rahmen der Kooperation mit der FLUP haben wir Studierende des Masterstudiengangs Transnational German Studies empfangen.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsche Schulen auf der Iberischen Halbinsel",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://dsporto.de/partnerschaften/page/2/",
+    "evidence_quote": "Eine Woche voller Bewegung, Begegnung und Teamgeist: Unsere Schule wird erneut Gastgeber der alljährlichen Sportevents sein, das von vier Deutschen Schulen auf der Iberischen Halbinsel ausgerichtet wird.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stadtpolizei Porto",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://dsporto.de/partnerschaften/",
+    "evidence_quote": "Zum Aktionstag für Rücksicht im Straßenverkehr beteiligten sich unsere Schülerinnen und Schüler gemeinsam mit der Stadtpolizei Porto an einer besonderen Verkehrsaktion.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Internationalen Schulen der Stadt",
+    "partner_country": "Portugal",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://dsporto.de/partnerschaften/",
+    "evidence_quote": "Am Mittwochabend wurde im Casa da Música wieder mit anderen Internationalen Schulen der Stadt für den guten Zweck musiziert.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Leica",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://dsporto.de/partnerschaften/",
+    "evidence_quote": "Die DSP bedankt sich bei Leica für Sponsoring",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Deutsche Schule Porto",
+    "city": "Porto",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://dsporto.de/",
+    "evidence_quote": "Rua Guerra Junqueiro, 162"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The website does not provide a formal list of Erasmus+ partners or mobility agreements. The institution is a K-12 school, which typically does not participate in Erasmus+ mobility in the same way as higher education institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 14.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 38.2
+ }
+}
