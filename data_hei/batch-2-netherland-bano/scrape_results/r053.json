@@ -1,0 +1,82 @@
+{
+ "row_id": "r053",
+ "scraped_at": "2026-11-04T18:20:59Z",
+ "contacts": {
+  "row_id": "r053",
+  "institution_name": "Celje",
+  "institution_type": "school",
+  "official_website": "https://gvo.sc-celje.si/",
+  "country": {
+   "value": "Slovenia",
+   "source_url": "https://gvo.sc-celje.si/",
+   "evidence_quote": "[Na Državnem srečanju okoljevarstvenih tehnikov Slovenije v Muti]"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "gvo@sc-celje.si",
+  "generic_email_url": "https://gvo.sc-celje.si/",
+  "contact": {
+   "name": "Alenka Lah Kalan",
+   "designation": "Mobility Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://gvo.sc-celje.si/novice/erasmus-mobilnost-v-grskem-solunu-projekt-evergreen/",
+   "evidence_quote": "Koordinatorica mobilnosti: Alenka Lah Kalan"
+  },
+  "alternates": [
+   {
+    "name": "Valentina Novak",
+    "designation": "Project Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://gvo.sc-celje.si/novice/erasmus-mobilnost-v-grskem-solunu-projekt-evergreen/",
+    "evidence_quote": "Koordinatorici projekta: Alenka Lah Kalan, Valentina Novak",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is named as a project coordinator for Erasmus+ projects."
+   }
+  ],
+  "rung": "Mobility coordinator. She is explicitly named as the mobility coordinator for Erasmus+ projects.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 5 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Šolski center Celje",
+    "city": "Celje",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://gvo.sc-celje.si/",
+    "evidence_quote": "Šolski center Celje"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects with partners from several countries but does not provide a specific list of partner institutions. No email addresses for the contacts were found in the provided text. 5 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 31.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 9.2,
+  "total_seconds": 50.8
+ }
+}
