@@ -1,0 +1,113 @@
+{
+ "row_id": "r045",
+ "scraped_at": "2026-11-04T20:51:05Z",
+ "contacts": {
+  "row_id": "r045",
+  "institution_name": "Agrupamento de Escolas Júlio Dantas",
+  "institution_type": "school",
+  "official_website": "https://www.aejd.pt/",
+  "country": {
+   "value": "Portugal",
+   "source_url": "https://www.aejd.pt/",
+   "evidence_quote": "8601-904 Lagos, Portugal"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@aejd.pt",
+  "generic_email_url": "https://www.aejd.pt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Centro de Formação Rui Grácio",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.aejd.pt/",
+    "evidence_quote": "Centro de Formação Rui Grácio",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Secundária Júlio Dantas",
+    "city": "Lagos",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://www.aejd.pt/",
+    "evidence_quote": "Escola Secundária Júlio Dantas, Lagos"
+   },
+   {
+    "campus_name": "Escola Básica Tecnopolis",
+    "city": "Lagos",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://www.aejd.pt/",
+    "evidence_quote": "Escola Básica Tecnopolis de Lagos"
+   },
+   {
+    "campus_name": "Escola Básica de Santa Maria",
+    "city": "Lagos",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://www.aejd.pt/",
+    "evidence_quote": "Escola Básica de Santa Maria, Lagos"
+   },
+   {
+    "campus_name": "Escola Básica n.º 1 (Bairro Operário)",
+    "city": "Lagos",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://www.aejd.pt/",
+    "evidence_quote": "Escola Básica n.º 1 (Bairro Operário), Lagos"
+   },
+   {
+    "campus_name": "Escola Básica Centro Escolar da Luz",
+    "city": "Lagos",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://www.aejd.pt/",
+    "evidence_quote": "Escola Básica Centro Escolar da Luz, Lagos"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The website does not list any specific Erasmus+ or international mobility coordinators, nor does it provide a list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 6.4,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     116
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 18.3
+ }
+}
