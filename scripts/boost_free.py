@@ -218,6 +218,8 @@ def main():
 
 
 def commit(msg):
+    # the dashboard's figures rebuilt at every save, so they rise while the run goes on, not only at its end
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "build_dashboard_stats.py")], cwd=ROOT, check=False)
     subprocess.run(["git", "add", "data_hei"], cwd=ROOT, check=False)
     if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode:
         subprocess.run(["git", "commit", "-q", "-m", msg], cwd=ROOT, check=False)

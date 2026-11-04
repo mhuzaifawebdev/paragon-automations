@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "paragon-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
-          python scripts/boost_free.py --archived --workers 16 --commit-every 3 ${{ github.event.inputs.batch && format('--batch "{0}"', github.event.inputs.batch) || '' }}
+          python scripts/boost_free.py --archived --workers 32 --commit-every 3 ${{ github.event.inputs.batch && format('--batch "{0}"', github.event.inputs.batch) || '' }}
           git add data_hei
           git diff --cached --quiet || git commit -q -m "free boost: contacts and emails added [automated]"
           git pull --rebase --autostash -q && git push -q
