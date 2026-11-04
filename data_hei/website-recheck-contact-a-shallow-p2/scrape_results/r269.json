@@ -1,0 +1,67 @@
+{
+ "row_id": "r269",
+ "scraped_at": "2026-11-04T09:35:41Z",
+ "contacts": {
+  "row_id": "r269",
+  "institution_name": "JDS Furniture",
+  "institution_type": "unknown",
+  "official_website": "https://jdsfurniture.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://jdsfurniture.com/",
+   "evidence_quote": "Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@jdsfurniture.com",
+  "generic_email_url": "https://jdsfurniture.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "JDS Furniture Ltd",
+    "city": "Mellieha",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://jdsfurniture.com/",
+    "evidence_quote": "JDS Furniture Ltd"
+   },
+   {
+    "campus_name": "JDS Manufacturing Ltd",
+    "city": "Marsa",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://jdsfurniture.com/",
+    "evidence_quote": "JDS Manufacturing Ltd"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a furniture manufacturer and retailer, therefore no educational mobility partners or agreements are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 12.9,
+  "ai_calls": 2,
+  "model_s": 8.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 44.0
+ }
+}
