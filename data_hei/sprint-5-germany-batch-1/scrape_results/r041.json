@@ -1,0 +1,109 @@
+{
+ "row_id": "r041",
+ "scraped_at": "2026-11-04T18:47:05Z",
+ "contacts": {
+  "row_id": "r041",
+  "institution_name": "Goethe-Schule Flensburg",
+  "institution_type": "school",
+  "official_website": "https://goethe-flensburg.de/",
+  "country": null,
+  "phone": {
+   "value": "0461 - 85 25 36",
+   "source_url": "https://goethe-flensburg.de/",
+   "evidence_quote": "0461 - 85 25 36"
+  },
+  "phone_alt": [],
+  "generic_email": "finhollesen@hla-flensburg.de",
+  "generic_email_url": "https://goethe-flensburg.de/schulgemeinschaft/#schulleitung",
+  "contact": {
+   "name": "Arnd Reinke",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "arnd.reinke@schule.landsh.de",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://goethe-flensburg.de/schulgemeinschaft/#schulleitung",
+   "evidence_quote": "Arnd Reinke ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Andreas Matz",
+    "designation": "Erasmus+ Team Member",
+    "designation_local": "",
+    "email": "andreas.matz5@schule-sh.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://goethe-flensburg.de/schulgemeinschaft/#schulleitung",
+    "evidence_quote": "Andreas Matz",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is a member of the Erasmus+ team and involved in developing exchange projects."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the principal of the institution and was specifically mentioned as a contact on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Collège Jean Rostand",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://goethe-flensburg.de/category/gruppenmobilitaeten-mit-erasmus/",
+    "evidence_quote": "Capbreton – où les vagues caressent l’âme… Im Juni 2025 nahmen 16 Schülerinnen und Schüler des 8. Jahrgangs unserer Schule an einem Erasmus+ Austausch mit dem Collège Jean Rostand in Capbreton (Region Landes, Frankreich) teil. Initiiert und organisiert wurde die Fahrt...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "IES Penyagolosa",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://goethe-flensburg.de/erasmus-schueleraustausch-mit-unserer-partnerschule-ies-penyagolosa-in-castellon-de-la-plana/",
+    "evidence_quote": "Erasmus+ Schüleraustausch mit unserer Partnerschule IES Penyagolosa in Castellón de la Plana - Goethe-Schule-Flensburg",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Goethe-Schule Haus I",
+    "city": "Flensburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://goethe-flensburg.de/",
+    "evidence_quote": "Goethe-Schule Haus I"
+   },
+   {
+    "campus_name": "Haus II",
+    "city": "Flensburg",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://goethe-flensburg.de/",
+    "evidence_quote": "Damit haben die Jahrgänge 5-7 mit Haus II, dem Gebäude der ehemaligen Willy Weber Schule, einen ganz eigenen Bereich für sich, ebenfalls mit Sporthalle, Kunsträumen, Schulcafé, Bibliothek sowie eigenem Schulhof ausgestattet."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific examples of Erasmus+ exchanges but does not contain a comprehensive list of all partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.7,
+  "crawl_s": 16.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 12.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 37.4
+ }
+}

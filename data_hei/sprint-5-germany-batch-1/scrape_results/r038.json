@@ -1,0 +1,106 @@
+{
+ "row_id": "r038",
+ "scraped_at": "2026-11-04T18:47:04Z",
+ "contacts": {
+  "row_id": "r038",
+  "institution_name": "Gesamtschule Volksgarten in Mönchengladbach",
+  "institution_type": "school",
+  "official_website": "https://gesamtschule-volksgarten.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "schulleitung@gesamtschule-volksgarten.de",
+  "generic_email_url": "https://gesamtschule-volksgarten.de/",
+  "contact": {
+   "name": "Markus Heynckes",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "markus.heynckes@ge-volksgarten.nrw.schule",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://gesamtschule-volksgarten.de/kollegium-und-ansprechpartner/",
+   "evidence_quote": "[Markus Heynckes]Markus Heynckes Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Katharina Crysandt",
+    "designation": "Didactic Director",
+    "designation_local": "",
+    "email": "katharina.crysandt@ge-volksgarten.nrw.schule",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://gesamtschule-volksgarten.de/kollegium-und-ansprechpartner/",
+    "evidence_quote": "[Platzhalter]Katharina Crysandt Didaktische Leiterin",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the didactic director responsible for projects, concepts, and school development."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the principal of the school and oversees the leadership team.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ranuan lukio",
+    "partner_country": "Finland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://gesamtschule-volksgarten.de/erasmus/",
+    "evidence_quote": "Hospitationen im Unterricht standen ebenso auf dem Programm wie ein Ausflug nach Rovaniemi, gemeinsames Kochen und die Feier zum einjährigen Bestehen des Schulgebäudes unserer Partnerschule, Ranuan lukio. Das neue Gebäude, das freie Mittagessen für alle Schüler*innen, die Ausstattung der Schule (u.a. mit Fahrrädern, Skischuhen, Campingausrüstung), Unterrichtsinhalte wie „Eishockey“ oder “outdoor education“ und ganz besonders die gelassene Atmosphäre an der Schule haben uns alle begeistert.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "English Language School Geo Milev",
+    "partner_country": "Bulgaria",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://gesamtschule-volksgarten.de/eva/boep/BurgasSha.pdf",
+    "evidence_quote": "Ort: English Language School „Geo Milev“, Burgas",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Collège Gambetta",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://gesamtschule-volksgarten.de/der-erste-besuch-unserer-franzoesischen-partnerschule-college-gambetta-aus-lys-les-lannoy/",
+    "evidence_quote": "Der erste Besuch unserer französischen Partnerschule Collège Gambetta aus Lys-les-Lannoy – Gesamtschule Volksgarten",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gesamtschule Volksgarten",
+    "city": "Mönchengladbach",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://gesamtschule-volksgarten.de/",
+    "evidence_quote": "Volksgartenstr. 71-75"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution lists specific partner schools involved in Erasmus+ projects, but does not provide a comprehensive list of all international agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 13.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 36.8
+ }
+}
