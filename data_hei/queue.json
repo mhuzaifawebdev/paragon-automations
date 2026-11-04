@@ -5404,22 +5404,34 @@
    "source": "Sprint-5[GERMANY] BATCH-1",
    "file_id": "1jWVfxuywJGewBd2fc0uy7mUcSR00I_ggvPMno9_SViw",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 46,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T18:43:21Z",
    "last_start": "2026-11-04T18:43:21Z",
    "restarts": 0,
-   "cap_usd": 532.25
+   "cap_usd": 532.25,
+   "crm_rows": 47,
+   "no_number": 1,
+   "spend_recorded": true,
+   "cost_usd": 0.4614,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1RLGBcBYGyoj4y6GrTWyUjTRfBWwJpPxj/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 46,
+   "finished": "2026-11-04T18:48:11Z",
+   "reason": "46 institutes, 43 with a contact"
   },
   {
    "batch": "hungary-sumbal-batch-1",
    "source": "HUNGARY-SUMBAL BATCH-1",
    "file_id": "1ZB7ncncU5KWO_FYczOW5Zq1Hk_RPwp4oU5SsTlPSCcc",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 65,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T18:48:11Z",
+   "last_start": "2026-11-04T18:48:11Z",
+   "restarts": 0,
+   "cap_usd": 531.79
   },
   {
    "batch": "sprint-5-austria-batch-1",
@@ -5643,7 +5655,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T18:43:21Z",
+ "updated": "2026-11-04T18:48:11Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
