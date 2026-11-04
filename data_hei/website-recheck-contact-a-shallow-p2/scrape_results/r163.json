@@ -1,0 +1,94 @@
+{
+ "row_id": "r163",
+ "scraped_at": "2026-11-04T09:06:35Z",
+ "contacts": {
+  "row_id": "r163",
+  "institution_name": "Hair Studio One",
+  "institution_type": "unknown",
+  "official_website": "https://www.hsosalons.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hair Studio One Amsterdam",
+    "city": "Amsterdam",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.hsosalons.com/",
+    "evidence_quote": "Amsterdam"
+   },
+   {
+    "campus_name": "Hair Studio One Glenmont",
+    "city": "Glenmont",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.hsosalons.com/",
+    "evidence_quote": "Glenmont"
+   },
+   {
+    "campus_name": "Hair Studio One Glenville",
+    "city": "Glenville",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.hsosalons.com/",
+    "evidence_quote": "Glenville"
+   },
+   {
+    "campus_name": "Hair Studio One Saratoga",
+    "city": "Saratoga Springs",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.hsosalons.com/",
+    "evidence_quote": "Saratoga"
+   },
+   {
+    "campus_name": "Hair Studio One Granville",
+    "city": "Granville",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.hsosalons.com/locations.php",
+    "evidence_quote": "Granville"
+   },
+   {
+    "campus_name": "Hair Studio One Rotterdam",
+    "city": "Schenectady",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.hsosalons.com/locations.php",
+    "evidence_quote": "Rotterdam"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a hair salon business rather than an educational institution, so no international partnerships or Erasmus programs are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 7.0,
+  "ai_calls": 1,
+  "model_s": 15.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "total_seconds": 62.3
+ }
+}
