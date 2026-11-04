@@ -1,0 +1,69 @@
+{
+ "row_id": "r192",
+ "scraped_at": "2026-11-04T09:12:09Z",
+ "contacts": {
+  "row_id": "r192",
+  "institution_name": "Het Leerke",
+  "institution_type": "unknown",
+  "official_website": "https://www.hetleerke.com/",
+  "country": {
+   "value": "België",
+   "source_url": "https://www.hetleerke.com/contact.html",
+   "evidence_quote": "België"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "hetleerke@gmail.com",
+  "generic_email_url": "https://www.hetleerke.com/contact.html",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "European Bibliodrama Network",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "staff",
+    "source_url": "https://www.hetleerke.com/wie-nog.html",
+    "evidence_quote": "ik hou ervan 'te spelen', maar ook te 'begeleiden'. Na een initiële basisopleiding in Vlaanderen, nam ik deel aan de internationale basisopleiding in 'Bromma en momenteel ben ik bezig aan de Advanced Bibliodrama Facilitation training, beide georganiseerd door het European Bibliodrama Network en mogelijk gemaakt door de steun van Erasmus +. In een interreligieuze en internationale context voel ik me het meest thuis.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Het Leerke",
+    "city": "Arendonk",
+    "country": "België",
+    "role": "main",
+    "source_url": "https://www.hetleerke.com/contact.html",
+    "evidence_quote": "Kerkstraat 85"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The website provides information on Het Leerke and its staff, mentioning collaboration with the European Bibliodrama Network, but does not list a comprehensive partner institution list.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 7.2,
+  "ai_calls": 2,
+  "model_s": 23.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 48.4
+ }
+}
