@@ -86,17 +86,23 @@ def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None):
     for x in lines:
         if x["website"] and _key(x["name"]) in baseline:
             nobody[_key(x["name"])].append(x)
+    credited = defaultdict(set)         # name key -> what a re-check already added for it ("contact", "email")
     for r in rechecks:
         key, f = _key(r["name"]), r.get("found") or {}
-        if f.get("with_contact") or f.get("with_email"):
-            had_inbox = baseline.get(key)
-            counted.add(key)
-            for _ in nobody.pop(key, []):
-                totals["with_contact"] += f.get("with_contact", 0)
-                totals["personal_email"] += f.get("personal_email", 0)
-                if not had_inbox:
-                    totals["generic_email"] += f.get("generic_email", 0)
-                    totals["with_email"] += f.get("with_email", 0)
+        # several re-checks can find the same institute (the scraper, outside research): its contact and its email are
+        # each counted once, whichever re-check found them, so an email-only find never blocks a later contact
+        rows_ = nobody.get(key, [])
+        if f.get("with_contact") and "contact" not in credited[key]:
+            credited[key].add("contact")
+            counted.add(key)            # the client sheet's contact for this name is not counted on top
+            totals["with_contact"] += len(rows_)
+        if f.get("personal_email") and "personal" not in credited[key]:
+            credited[key].add("personal")
+            totals["personal_email"] += len(rows_)
+        if f.get("with_email") and not baseline.get(key) and "email" not in credited[key]:
+            credited[key].add("email")
+            totals["with_email"] += len(rows_)
+            totals["generic_email"] += len(rows_) if f.get("generic_email") else 0
         rows = missing.pop(_key(r["name"]), []) if r["website"] else []
         for x in rows:
             x.update(website=1, type=r["type"], country=r["country"], campuses=r["campuses"], partners=r["partners"])
