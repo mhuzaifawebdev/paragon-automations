@@ -5572,22 +5572,34 @@
    "source": "BATCH_1 [CZECH REPUBLIC]-BANO SPRINT_5",
    "file_id": "1MXs6Dl-u4mPhTippdqHtvyjELInrC6eLbpTD0vqKcNk",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 115,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T20:16:09Z",
    "last_start": "2026-11-04T20:16:09Z",
    "restarts": 0,
-   "cap_usd": 524.21
+   "cap_usd": 524.21,
+   "crm_rows": 101,
+   "no_number": 52,
+   "spend_recorded": true,
+   "cost_usd": 1.5099,
+   "drive_link": "https://docs.google.com/spreadsheets/d/16i2gakEagYATJIMavFsg7PYcIkLWvN0W/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 89,
+   "finished": "2026-11-04T20:32:05Z",
+   "reason": "90 institutes, 77 with a contact"
   },
   {
    "batch": "lithuania-batch-1-guiseppe",
    "source": "LITHUANIA-(BATCH-1) GUISEPPE",
    "file_id": "1omdgckTc7iwpgCvvy-7Alo9lwV-Mys8hcytHtRyA5_E",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 13,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T20:32:05Z",
+   "last_start": "2026-11-04T20:32:05Z",
+   "restarts": 0,
+   "cap_usd": 522.7
   },
   {
    "batch": "lithuania-batch-2",
@@ -5739,7 +5751,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T20:16:09Z",
+ "updated": "2026-11-04T20:32:05Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
