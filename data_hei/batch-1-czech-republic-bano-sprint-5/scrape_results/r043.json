@@ -1,0 +1,110 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-11-04T20:25:12Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "SOŠ a SZŠ Benešov",
+  "institution_type": "school",
+  "official_website": "https://sosbn.cz/",
+  "country": null,
+  "phone": {
+   "value": "317 723 084",
+   "source_url": "https://sosbn.cz/",
+   "evidence_quote": "Tel.: 317 723 084"
+  },
+  "phone_alt": [],
+  "generic_email": "sosbn@sosbn.cz",
+  "generic_email_url": "https://sosbn.cz/",
+  "contact": {
+   "name": "Regina Komárková",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "komarkova@sosbn.cz",
+   "office_email": "",
+   "phone": "317 723 084",
+   "source_url": "https://sosbn.cz/",
+   "evidence_quote": "Ředitelka školy: ... Mgr. Regina Komárková MBA"
+  },
+  "alternates": [
+   {
+    "name": "Markéta Doušová",
+    "designation": "Erasmus+ program coordinator",
+    "designation_local": "",
+    "email": "dousova@sosbn.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://sosbn.cz/skola/erasmus/",
+    "evidence_quote": "Dotazy směřuj na koordinátorku programu Erasmus+: ... Markéta Doušová",
+    "why_chosen": "Mobility coordinator. She is explicitly named as the coordinator for the Erasmus+ program."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). She is the principal of the school and is listed as a contact.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ADC College",
+    "partner_country": "Ireland",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://sosbn.cz/category/erasmus/erasmusplus/",
+    "evidence_quote": "Včera jsme společně navštívili ADC College, kde jsme zjistili vše potřebné k našemu pobytu a pracovním stážím. Studentky se seznámily s důležitými informacemi a pak už vyrazily poznávat Dublin – prošly si centrum města a zároveň si vyzkoušely cestu do…",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "partnerská škola v německém Chemnitzu",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://sosbn.cz/projekty-eu/",
+    "evidence_quote": "V letech 2009-2010 proběhly 3 zahraniční stáže v Německu. Díky naší partnerské škole v německém Chemnitzu mohlo jazykové dovednosti prohloubit již více našich studentů. Všechny náklady byly studentům plně hrazeny. Účastníci stáže získali Certifikát, který je uznán v zemích EU.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée Julius Wittmer",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://sosbn.cz/erasmus-ve-francii-inspirace-pro-vyuku-a-nove-moznosti-spoluprace/",
+    "evidence_quote": "Učitelé naší školy se zúčastnili projektu Erasmus+ ve francouzském Charolles na Lycée Julius Wittmer. Odborní učitelé Bc. Filip Galaš a Mgr. Helena Machuldová stínovali výuku odborných předmětů v oboru Sociální péče a zdraví. Učitelky anglického jazyka Mgr. Barbora Palánová a Ing. Jana Straková si vyzkoušely vyučování a tandemovou výuku na zahraniční škole. Během návštěvy jsme se seznámili se systémem vzdělávání a hodnocení na francouzských odborných školách. Navštívili jsme domov seniorů EHPAD ",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Střední odborná škola a Střední zdravotnická škola Benešov",
+    "city": "Benešov",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://sosbn.cz/",
+    "evidence_quote": "Černoleská 1997, 256 01 Benešov"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions several partner schools in various countries (e.g., in Dublin, Chemnitz, Charolles, and Göteborg) but does not provide a comprehensive list of all current Erasmus+ partners. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 14.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 20.0
+ }
+}

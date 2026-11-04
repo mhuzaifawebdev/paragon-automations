@@ -1,0 +1,138 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-11-04T20:24:52Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "OA Vinohradská, Praha",
+  "institution_type": "school",
+  "official_website": "https://www.oavin.cz/",
+  "country": null,
+  "phone": {
+   "value": "778 534 316",
+   "source_url": "https://www.oavin.cz/",
+   "evidence_quote": "tel.: 778 534 316, 778 534 317 (ústředna)"
+  },
+  "phone_alt": [],
+  "generic_email": "info@oavin.cz",
+  "generic_email_url": "https://www.oavin.cz/",
+  "contact": {
+   "name": "Milan Macek",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "milan.macek@oavin.cz",
+   "office_email": "",
+   "phone": "778 534 316",
+   "source_url": "https://www.oavin.cz/Kontakty",
+   "evidence_quote": "Ředitel: | RNDr. Milan Macek, CSc. | 778 534 316, 778 534 317 | (přepojuje sekretariát školy) |",
+   "email_source_url": "http://www.oavin.cz/download/2018-18.pdf"
+  },
+  "alternates": [
+   {
+    "name": "Dita Soukupová",
+    "designation": "Head of Secretariat",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "778 534 316",
+    "source_url": "https://www.oavin.cz/Kontakty",
+    "evidence_quote": "Vedoucí sekretariátu: | Dita Soukupová | 778 534 316, 778 534 317 | (informace, omluvy nepřítomnosti, vzkazy učitelům) |",
+    "why_chosen": "Secretary / administration (last resort). Dita Soukupová is the head of the secretariat and handles general inquiries and messages for the school."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Milan Macek is the director of the school and is the contact currently on file. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Školní jídelna ZŠ Sázavská",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oavin.cz/",
+    "evidence_quote": "Školní jídelna ZŠ Sázavská",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Obchodní akademie Dušní",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oavin.cz/",
+    "evidence_quote": "V úterý 6. října 2026 reprezentovali naši školu žáci 4. C Natálie Fedošová, Lenka Pecháčková a Tadeáš Šauer na krajském kole soutěže Ekonomický tým 2026, které se konalo na Obchodní akademii Dušní v Praze.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Úřad práce ČR",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oavin.cz/",
+    "evidence_quote": "Exkurze na Úřad práce ČR",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Moore Czech Republic s.r.o.",
+    "partner_country": "Czech Republic",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.oavin.cz/Kontakty",
+    "evidence_quote": "Eva Šmídová, Moore Czech Republic s.r.o., Karolinská 661/4, 186 00 – Praha 8, tel.: + 420 777291068, e-mail: consultant(zavináč)moore-czech.cz",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Obchodní akademie Vinohradská",
+    "city": "Praha",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.oavin.cz/",
+    "evidence_quote": "120 00 Praha 2, Vinohradská 38/1971"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain a list of international partners or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 6.9,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 23.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     212
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 35.4
+ }
+}
