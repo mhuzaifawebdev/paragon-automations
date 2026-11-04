@@ -1,0 +1,67 @@
+{
+ "row_id": "r058",
+ "scraped_at": "2026-11-03T11:00:41Z",
+ "contacts": {
+  "row_id": "r058",
+  "institution_name": "Zespół Szkół Zawodowych i Ogólnokształcących im. 9 Drezdeńskiej Brygady Artylerii i Poradni Psychologiczno",
+  "institution_type": "school",
+  "official_website": "https://www.powiat.ostroda.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sekretariat@powiat.ostroda.pl",
+  "generic_email_url": "https://www.powiat.ostroda.pl/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch fix-poland-batch (scraped 2026-11-03). site found via: web search (DuckDuckGo). mode: gemini.",
+  "boost_round": 1,
+  "boost_checked": "2026-11-03"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Rejon Wileński",
+    "partner_country": "Lithuania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.powiat.ostroda.pl/wspolpraca-zagraniczna.html",
+    "evidence_quote": "Rejon Wileński (Litwa) Województwo Usteckie (Czechy)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Województwo Usteckie",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.powiat.ostroda.pl/wspolpraca-zagraniczna.html",
+    "evidence_quote": "Rejon Wileński (Litwa) Województwo Usteckie (Czechy)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provided describes the administrative website of the Ostróda County (Powiat Ostródzki) rather than the specific Zespół Szkół Zawodowych i Ogólnokształcących. No specific contact persons or internal campus details for the requested school are available in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "fix-poland-batch",
+  "row_id": "r106"
+ }
+}
