@@ -1,0 +1,107 @@
+{
+ "row_id": "r034",
+ "scraped_at": "2026-11-04T17:38:38Z",
+ "contacts": {
+  "row_id": "r034",
+  "institution_name": "Manor House School",
+  "institution_type": "school",
+  "official_website": "https://www.manorhouseschool.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "admin@manorhouseschool.com",
+  "generic_email_url": "https://www.manorhouseschool.com/",
+  "contact": {
+   "name": "Dr Anna Dunwoody",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.manorhouseschool.com/",
+   "evidence_quote": "Dr Anna Dunwoody ... Principal"
+  },
+  "alternates": [
+   {
+    "name": "Ms Lori Fields",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.manorhouseschool.com/",
+    "evidence_quote": "Ms Lori Fields ... Deputy Principal",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the Deputy Principal, she holds a senior leadership role at the school."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the Principal, she is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Poor Servants of the Mother of God (SMG)",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.manorhouseschool.com/",
+    "evidence_quote": "At Manor House, we are committed to providing a supportive and inclusive environment where every student is encouraged to grow in confidence, achieve their potential, and discover their unique talents. Guided by the values of the Poor Servants of the Mother of God (SMG) and Le Chéile Schools Trust, we foster excellence, respect, and a strong sense of community.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Le Chéile Schools Trust",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.manorhouseschool.com/",
+    "evidence_quote": "At Manor House, we are committed to providing a supportive and inclusive environment where every student is encouraged to grow in confidence, achieve their potential, and discover their unique talents. Guided by the values of the Poor Servants of the Mother of God (SMG) and Le Chéile Schools Trust, we foster excellence, respect, and a strong sense of community.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Manor House School",
+    "city": "Raheny, Dublin 5",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.manorhouseschool.com/",
+    "evidence_quote": "Watermill Road, Raheny, Dublin 5, D05 R827"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The website does not provide information regarding international partnerships or Erasmus+ mobility programs. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 8.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     86
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 16.5
+ }
+}

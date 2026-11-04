@@ -1,0 +1,98 @@
+{
+ "row_id": "r033",
+ "scraped_at": "2026-11-04T17:38:50Z",
+ "contacts": {
+  "row_id": "r033",
+  "institution_name": "Lough Allen College",
+  "institution_type": "school",
+  "official_website": "https://loughallencollege.ie/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "enquiries@loughallencollege.ie",
+  "generic_email_url": "https://loughallencollege.ie/",
+  "contact": {
+   "name": "Rachel Shannon",
+   "designation": "School Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://loughallencollege.ie/staff-directory/",
+   "evidence_quote": "Rachel Shannon | ... School Principal |"
+  },
+  "alternates": [
+   {
+    "name": "Brendan Brett",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://loughallencollege.ie/staff-directory/",
+    "evidence_quote": "Brendan Brett | ... Deputy Principal |",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the deputy principal, he holds a leadership role within the school administration."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the school principal, she is responsible for the day-to-day management of the school and is the primary contact for all institutional matters.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "MSLETB",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://loughallencollege.ie/",
+    "evidence_quote": "An MSLETB website",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lough Allen College",
+    "city": "Drumkeerin",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://loughallencollege.ie/",
+    "evidence_quote": "Lough Allen College is a mixed vocational school located in Drumkeerin, Co. Leitrim"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The evidence confirms the school is an Erasmus+ Accredited School but does not provide a list of specific partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 13.6,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 28.3
+ }
+}
