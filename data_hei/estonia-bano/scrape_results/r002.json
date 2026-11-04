@@ -1,0 +1,100 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-11-04T18:22:58Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Elva Gümnaasium",
+  "institution_type": "school",
+  "official_website": "https://elvag.edu.ee/",
+  "country": {
+   "value": "Estonia",
+   "source_url": "https://elvag.edu.ee/meie-kool/kontakt/",
+   "evidence_quote": "Andmed Eesti hariduse infosüsteemis (EHIS)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "mailis.viirmaa@elvag.edu.ee",
+  "generic_email_url": "https://elvag.edu.ee/meie-kool/meie-inimesed/",
+  "contact": {
+   "name": "Diana Leenurm",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "diana.leenurm@elvag.edu.ee",
+   "office_email": "",
+   "phone": "5688 1413",
+   "source_url": "https://elvag.edu.ee/meie-kool/kontakt/",
+   "evidence_quote": "Direktor Diana Leenurm"
+  },
+  "alternates": [
+   {
+    "name": "Heli Rähni",
+    "designation": "Study Coordinator",
+    "designation_local": "",
+    "email": "heli.rahni@elvag.edu.ee",
+    "office_email": "",
+    "phone": "5304 5324",
+    "source_url": "https://elvag.edu.ee/meie-kool/kontakt/",
+    "evidence_quote": "Õppetöö koordinaator Heli Rähni",
+    "why_chosen": "Secretary / administration (last resort). She is listed as the study coordinator and handles administrative coordination."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the director of the school, she is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Schools in Portugal",
+    "partner_country": "Portugal",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://elvag.edu.ee/meie-kool-osaleb-rahvusvahelises-teadusuuringus-noorte-digipadevused/",
+    "evidence_quote": "Meie õpilastel avanes võimalus anda oma panus teadusuuringusse “Noorte digipädevused” (Youth Skills ehk ySKILLS), milles osaleme kolmel aastal koos Soome, Saksamaa, Portugali, Itaalia ja Poola koolidega.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Algkooli õppehoone",
+    "city": "Elva",
+    "country": "Estonia",
+    "role": "main",
+    "source_url": "https://elvag.edu.ee/meie-kool/kontakt/",
+    "evidence_quote": "Algkooli õppehoone"
+   },
+   {
+    "campus_name": "Gümnaasiumi õppehoone",
+    "city": "Elva",
+    "country": "Estonia",
+    "role": "main",
+    "source_url": "https://elvag.edu.ee/meie-kool/kontakt/",
+    "evidence_quote": "Gümnaasiumi õppehoone"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ partners or agreements. The institution participates in international research projects, but specific mobility partnership details are not listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 11.3,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 37.3
+ }
+}
