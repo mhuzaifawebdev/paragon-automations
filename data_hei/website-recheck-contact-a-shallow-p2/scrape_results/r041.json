@@ -1,0 +1,68 @@
+{
+ "row_id": "r041",
+ "scraped_at": "2026-11-04T08:43:26Z",
+ "contacts": {
+  "row_id": "r041",
+  "institution_name": "Fisherman's Corner",
+  "institution_type": "unknown",
+  "official_website": "https://fishermanscorner.net/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://fishermanscorner.net/",
+   "evidence_quote": "5675 Miller Trunk Highway, Duluth, Minnesota 55811, United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Matt King",
+   "designation": "owner",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://fishermanscorner.net/about",
+   "evidence_quote": "New owner, Matt King and his family operate the store located at 5675 Miller Trunk Highway in Duluth (Pike Lake area) just off the corner of MTH/Highway 53 and Midway Road."
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Matt King is the owner of the institution and is responsible for its operation.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "King's Fisherman's Corner",
+    "city": "Duluth",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://fishermanscorner.net/",
+    "evidence_quote": "5675 Miller Trunk Highway, Duluth, Minnesota 55811, United States"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "Fisherman's Corner is a retail store for hunting and fishing equipment, not an educational institution. There is no information regarding international partnerships or mobility programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 16.6,
+  "ai_calls": 1,
+  "model_s": 59.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 77.2
+ }
+}
