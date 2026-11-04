@@ -5446,22 +5446,34 @@
    "source": "Sprint-5[Austria]BATCH-1",
    "file_id": "1WuR0-t7H6MBLYRQl1JGIFzzxpNOS3-lU9nmMJPondm4",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 17,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T19:05:16Z",
    "last_start": "2026-11-04T19:05:16Z",
    "restarts": 0,
-   "cap_usd": 529.73
+   "cap_usd": 529.73,
+   "crm_rows": 21,
+   "no_number": 0,
+   "spend_recorded": true,
+   "cost_usd": 0.2825,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1uNVGdBbi6qIWk8liOSgBxehjnFYRuOso/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 17,
+   "finished": "2026-11-04T19:09:13Z",
+   "reason": "18 institutes, 15 with a contact"
   },
   {
    "batch": "batch-3-sprint-5-austria",
    "source": "BATCH-3 Sprint-5[Austria]",
    "file_id": "1ZF1mwsAWXWiwVD8ZgHgHemoKGQ2BCacN95RSgJQ-oYQ",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 165,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T19:09:13Z",
+   "last_start": "2026-11-04T19:09:13Z",
+   "restarts": 0,
+   "cap_usd": 529.45
   },
   {
    "batch": "batch-denmark-luxembourg",
@@ -5667,7 +5679,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T19:05:16Z",
+ "updated": "2026-11-04T19:09:13Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
