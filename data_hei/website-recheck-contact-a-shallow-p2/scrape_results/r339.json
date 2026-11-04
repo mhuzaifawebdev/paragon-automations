@@ -1,0 +1,56 @@
+{
+ "row_id": "r339",
+ "scraped_at": "2026-11-04T09:50:22Z",
+ "contacts": {
+  "row_id": "r339",
+  "institution_name": "Key Life Coaching",
+  "institution_type": "unknown",
+  "official_website": "http://keyosha.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@keyosha.com",
+  "generic_email_url": "http://keyosha.com/contactus/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Key Life Coaching",
+    "city": "Vancouver",
+    "country": "Canada",
+    "role": "main",
+    "source_url": "http://keyosha.com/contactus/",
+    "evidence_quote": "333 16th Ave E Vancouver V5T 2T7"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence contains no named contacts, partner institutions, or specific educational programs as it belongs to a life coaching website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.7,
+  "crawl_s": 9.9,
+  "ai_calls": 3,
+  "model_s": 57.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 260.9
+ }
+}
