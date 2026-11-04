@@ -1,0 +1,69 @@
+{
+ "row_id": "r056",
+ "scraped_at": "2026-11-04T08:46:18Z",
+ "contacts": {
+  "row_id": "r056",
+  "institution_name": "Fondazione Emblema - ETS",
+  "institution_type": "unknown",
+  "official_website": "https://www.fondazioneemblema.it/it",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://www.fondazioneemblema.it/it",
+   "evidence_quote": "40122 Bologna - Italy"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@fondazioneemblema.it",
+  "generic_email_url": "https://www.fondazioneemblema.it/it",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Invitalia",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.fondazioneemblema.it/it/articoli/pia",
+    "evidence_quote": "Prende il via “Dal PNRR all’impresa”, il progetto realizzato dalla Fondazione Emblema, in collaborazione con Invitalia, per supportare studenti universitari, ricercatori e dottori di ricerca reclutati nell’ambito del PNRR che sono interessati a creare una nuova impresa e necessitano dei primi finanziamenti.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Fondazione Emblema",
+    "city": "Bologna",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.fondazioneemblema.it/it",
+    "evidence_quote": "Via G. Leopardi, 6"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "Fondazione Emblema is an organization that facilitates connections between universities and companies rather than a traditional educational institution. No specific list of Erasmus+ partners is provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.3,
+  "crawl_s": 7.8,
+  "ai_calls": 2,
+  "model_s": 7.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 26.7
+ }
+}
