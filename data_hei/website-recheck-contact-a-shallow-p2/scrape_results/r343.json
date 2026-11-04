@@ -1,0 +1,141 @@
+{
+ "row_id": "r343",
+ "scraped_at": "2026-11-04T09:49:21Z",
+ "contacts": {
+  "row_id": "r343",
+  "institution_name": "Kijuga e.V.",
+  "institution_type": "unknown",
+  "official_website": "https://kijuga.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@kijuga.org",
+  "generic_email_url": "https://kijuga.org/kontakt/",
+  "contact": {
+   "name": "Daniel Becker",
+   "designation": "Association Management / Project Management",
+   "designation_local": "",
+   "email": "daniel@kijuga.org",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://kijuga.org/ueber-uns/",
+   "evidence_quote": "Daniel Becker ... Vereinsleitung / Projektleitung"
+  },
+  "alternates": [
+   {
+    "name": "Lucie Caroulle",
+    "designation": "Project Assistant / Work at Partner",
+    "designation_local": "",
+    "email": "lucie@kijuga.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://kijuga.org/ueber-uns/",
+    "evidence_quote": "Lucie Caroulle ... Projektmitarbeiterin / Arbeit beim Partner",
+    "why_chosen": "Other role. Lucie Caroulle is a project staff member handling partner work."
+   },
+   {
+    "name": "Fanny David",
+    "designation": "Project Assistant / Communication",
+    "designation_local": "",
+    "email": "fanny@kijuga.org",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://kijuga.org/ueber-uns/",
+    "evidence_quote": "Fanny David ... Projektmitarbeiterin / Kommunikation",
+    "why_chosen": "Other role. Fanny David is a project staff member handling communication."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Daniel Becker is the head of the association and leads projects, making him the primary contact.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Deutsch-Französisches Jugendwerk",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://kijuga.org/partner/",
+    "evidence_quote": "Deutsch-Französisches Jugendwerk",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsch-Türkische Jugendbrücke",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://kijuga.org/partner/",
+    "evidence_quote": "Deutsch-Türkische Jugendbrücke",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsch-Polnisches Jugendwerk",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://kijuga.org/partner/",
+    "evidence_quote": "Deutsch-Polnisches Jugendwerk",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deutsch-Französischer Bürgerfond",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://kijuga.org/partner/",
+    "evidence_quote": "Deutsch-Französischer Bürgerfond",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Europäische Union",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://kijuga.org/partner/",
+    "evidence_quote": "Union",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Adresse in Berlin",
+    "city": "Berlin",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://kijuga.org/kontakt/",
+    "evidence_quote": "13589 Berlin"
+   },
+   {
+    "campus_name": "Adresse in Cottbus",
+    "city": "Cottbus",
+    "country": "Deutschland",
+    "role": "branch",
+    "source_url": "https://kijuga.org/kontakt/",
+    "evidence_quote": "03046 Cottbus"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 5,
+  "coverage_note": "The evidence lists supporting networks and funding bodies, but specific named local partner institutions are not detailed individually in the partner section.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 9.1,
+  "ai_calls": 1,
+  "model_s": 81.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 91.3
+ }
+}
