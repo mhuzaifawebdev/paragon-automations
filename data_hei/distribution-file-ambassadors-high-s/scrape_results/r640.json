@@ -1,0 +1,82 @@
+{
+ "row_id": "r640",
+ "scraped_at": "2026-11-04T17:09:44Z",
+ "contacts": {
+  "row_id": "r640",
+  "institution_name": "De Rooi Pannen Wandelboslaan",
+  "institution_type": "college",
+  "official_website": "https://www.derooipannen.nl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info.vmbo.tb@derooipannen.nl",
+  "generic_email_url": "https://www.derooipannen.nl/contact",
+  "contact": {
+   "name": "Jessica Roche",
+   "designation": "Buitenlandse stages",
+   "designation_local": "",
+   "email": "j.roche@derooipannen.nl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.derooipannen.nl/bedrijven/stageplaatsen",
+   "evidence_quote": "Jessica Roche j.roche@derooipannen.nl <j.roche@derooipannen.nl> (Buitenlandse stages)"
+  },
+  "alternates": [],
+  "rung": "Mobility coordinator. She is explicitly listed as the contact for foreign internships (Buitenlandse stages) at De Rooi Pannen.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "De Rooi Pannen Tilburg",
+    "city": "Tilburg",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.derooipannen.nl/",
+    "evidence_quote": "Tilburg"
+   },
+   {
+    "campus_name": "De Rooi Pannen Eindhoven",
+    "city": "Eindhoven",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.derooipannen.nl/",
+    "evidence_quote": "Eindhoven"
+   },
+   {
+    "campus_name": "De Rooi Pannen Breda",
+    "city": "Breda",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.derooipannen.nl/",
+    "evidence_quote": "Breda"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "The institution does not provide a list of specific Erasmus+ partner universities on their website. They mention having an Erasmus accreditation and working with companies for internships, but no partner institution list is available. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.8,
+  "crawl_s": 13.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 19.6
+ }
+}
