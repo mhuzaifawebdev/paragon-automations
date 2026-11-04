@@ -454,19 +454,72 @@ OBFUSCATED_DOT = re.compile(r"\s*[\(\[\{]\s*(?:dot|punkt|point|punto)\s*[\)\]\}]
 def _page_emails(text):
     text = OBFUSCATED_DOT.sub(".", OBFUSCATED_AT.sub("@", text or ""))
     found = evidence.emails_in(text) + [evidence.clean_email(m) for m in evidence.EMAIL_RE.findall(text)]
+    found = [re.sub(r"^(%20)+", "", (e or "").split("?", 1)[0]) for e in found]      # mailto:%20x@y?subject=...
     return [e.lower() for e in dict.fromkeys(found) if e and "@" in e]
 
 
-def pick_generic_email(pages, site):
+# An address printed on the institute's own pages but on another domain (tier 3, after every own-domain address):
+# a regional education authority's (a French lycee writes as ce.0760096s@ac-normandie.fr), a sister domain
+# (florida.es / florida-uni.es) or a free-mail inbox on the home or contact page. In a sample of 40 sites with no
+# own-domain address, 17 showed one of these.
+EDU_AUTHORITY = re.compile(
+    r"(^|\.)(ac-[a-z-]+\.fr|educa[a-z.]*\.es|edu\.gva\.es|gva\.es|juntadeandalucia\.es|educarex\.es|educa\.madrid\.org|"
+    r"madrid\.org|xtec\.cat|gencat\.cat|edu\.xunta\.gal|edu\.xunta\.es|educacion\.navarra\.es|euskadi\.eus|larioja\.edu\.es|"
+    r"educastur\.es|edu\.jcyl\.es|jcyl\.es|carm\.es|murciaeduca\.es|educantabria\.es|gobiernodecanarias\.org|"
+    r"istruzione\.it|pec\.istruzione\.it|edu\.pl|schule\.[a-z]+|schulen\.[a-z.]+|ens\.be|edu\.[a-z]{2})$")
+FREE_MAIL = re.compile(r"^(gmail|googlemail|hotmail|outlook|live|yahoo|icloud|wp|o2|interia|onet|op|libero|virgilio|"
+                       r"alice|tiscali|orange|wanadoo|free|laposte|sfr|web|gmx|t-online|freenet|seznam|centrum|azet|"
+                       r"freemail|citromail|abv|mail|yandex|terra|sapo|telefonica|movistar)\.[a-z.]+$")
+PLATFORM_MAIL = re.compile(r"(^|\.)(wix|wixpress|wordpress|sentry|sentry-next|google|example|domain|yourdomain|"
+                           r"squarespace|shopify|godaddy|jimdo|weebly|hubspot|mailchimp)\.[a-z.]+$")
+PLACEHOLDER = re.compile(r"^(prenom\.nom|nom\.prenom|name|first\.last|firstname\.lastname|vorname\.nachname|nombre|email|"
+                         r"your|youremail|you|user|username|example|test|xxx|mail)$")
+AGENCY_LINE = re.compile(r"design|develop|powered|realis|r[ée]alis|creat|cr[ée][ée] par|webdesign|site by|web by|"
+                         r"diseñ|disen|desarroll|entwickl|gestaltung|programmed|hosting|alojamiento", re.I)
+_MAIL_STOP = {"mail", "email", "info", "school", "schule", "edu", "www", "web", "site", "online", "group", "home",
+              "college", "lycee", "ecole", "escuela", "colegio", "liceo", "university", "universidad", "uni"}
+
+
+def _labels(dom):
+    return [p for p in re.split(r"[.\-]", dom)[:-1] if len(p) >= 4 and p not in _MAIL_STOP]
+
+
+def _off_domain_ok(e, page, i, hosts, name):
+    """Tier 3: is this other-domain address, printed on the institute's own page, the institute's?"""
+    local, dom = e.split("@", 1)
+    if PLATFORM_MAIL.search(dom) or PLACEHOLDER.match(local):
+        return False
+    line = next((l for l in (page.get("text") or "").split("\n") if local in l.lower()), "")
+    if AGENCY_LINE.search(line):
+        return False                                    # 'Website designed by studio@agency.com'
+    own_words = {w for h in hosts for w in _labels(h + ".x")} | (set(re.findall(r"[a-z]{4,}", _n(name))) - _MAIL_STOP)
+    words = _labels(dom)
+    # sister domain: EVERY distinctive word of it is the institute's (florida-uni.es for florida.es), so a shared city
+    # alone does not pass (insa-toulouse.fr on inp-toulouse's site is another school)
+    if words and all(w in own_words or any(w in o or o in w for o in own_words) for w in words):
+        return True
+    if EDU_AUTHORITY.search(dom):
+        return True
+    home_or_contact = i == 0 or re.search(r"contact|kontakt|contatt|contacto|impressum|mentions|about|nous|uber", page.get("url", ""), re.I)
+    return bool(FREE_MAIL.match(dom) and home_or_contact)
+
+
+def pick_generic_email(pages, site, name=""):
     """(email, page url) of the institute's shared inbox on its own mail domain, or ("", ""). Its own domain = the
-    site's, or one its pages were served from (a site that redirects to a new name)."""
+    site's, or one its pages were served from (a site that redirects to a new name). With no own-domain address at
+    all, an address the site prints on another domain may stand in (tier 3, _off_domain_ok)."""
     hosts = {h for h in {crawl._host(site)} | {crawl._host(p.get("url", "")) for p in pages if p.get("url")} if h}
     names = {h.split(".")[0] for h in hosts}          # an inbox named after the site: accademia@accademiadibrera.milano.it
     best = {}
     for i, page in enumerate(pages):
         for e in _page_emails(page.get("text", "")):
             local, dom = e.split("@", 1)
-            if NOT_GENERIC.match(local) or not any(dom == h or dom.endswith("." + h) or h.endswith("." + dom) for h in hosts):
+            if NOT_GENERIC.match(local):
+                continue
+            if not any(dom == h or dom.endswith("." + h) or h.endswith("." + dom) for h in hosts):
+                if _off_domain_ok(e, page, i, hosts, name):
+                    seen = best.get(e)
+                    best[e] = (3, (seen[1] if seen else 0) - 1, seen[2] if seen else i, seen[3] if seen else page.get("url", ""))
                 continue
             named = len(local) >= 3 and any(local in n or n in local for n in names)
             # any other address on the institute's own domain (sales@, a staff member's own) is still somewhere to write
@@ -680,7 +733,7 @@ def scrape(row, cfg):
                              "accepted": len({_n(x) for x in s["names"]} & kept)} for s in slices]
 
     unread = f" {len(cr['errors'])} page(s) could not be read." if cr["errors"] else ""
-    generic, generic_url = pick_generic_email(cr["pages"], cr["site"])
+    generic, generic_url = pick_generic_email(cr["pages"], cr["site"], name)
     contact_obj = {"row_id": row["row_id"], "institution_name": name,
                    "institution_type": data.get("institution_type") or "unknown", "official_website": cr["site"],
                    "country": country_claim, "phone": _institution_phone(pack, inst["phone"]), "phone_alt": [],

@@ -722,8 +722,29 @@ check("only personal addresses: the first one on the site's own domain is still 
       [{"url": "https://x.edu/", "text": "anna.kowalska@x.edu, j.nowak@x.edu"}], "https://x.edu/"), ("anna.kowalska@x.edu", "https://x.edu/"))
 check("a shared inbox still beats a staff member's address", pl.pick_generic_email(
       [{"url": "https://shop.mt/", "text": "maria@shop.mt · sales@shop.mt · info@shop.mt"}], "https://shop.mt/")[0], "info@shop.mt")
-check("a personal address on another domain still does not count", pl.pick_generic_email(
-      [{"url": "https://shop.mt/", "text": "maria.borg@gmail.com"}], "https://shop.mt/"), ("", ""))
+check("a free-mail address deep in the site does not count", pl.pick_generic_email(
+      [{"url": "https://shop.mt/", "text": "Welcome"}, {"url": "https://shop.mt/blog/2019", "text": "maria.borg@gmail.com"}],
+      "https://shop.mt/"), ("", ""))
+
+# ---- tier 3: the site prints its address on another domain
+check("a lycee writing as its regional education authority", pl.pick_generic_email(
+      [{"url": "https://www.lycee-flaubert-rouen.fr/", "text": "Secretariat : ce.0760096s@ac-normandie.fr"}],
+      "https://www.lycee-flaubert-rouen.fr/")[0], "ce.0760096s@ac-normandie.fr")
+check("a sister domain of the institute", pl.pick_generic_email(
+      [{"url": "https://www.florida.es/contacto", "text": "info.general@florida-uni.es"}], "https://www.florida.es/")[0],
+      "info.general@florida-uni.es")
+check("a shared city is not a sister domain", pl.pick_generic_email(
+      [{"url": "https://www.inp-toulouse.fr/x", "text": "biotech@insa-toulouse.fr"}], "https://www.inp-toulouse.fr/"), ("", ""))
+check("a free-mail inbox on the home page", pl.pick_generic_email(
+      [{"url": "https://www.ecolestjoseph.net/", "text": "secretariat.saint.joseph@gmail.com"}], "https://www.ecolestjoseph.net/")[0],
+      "secretariat.saint.joseph@gmail.com")
+check("a web agency's address, a placeholder and a platform address are refused", pl.pick_generic_email(
+      [{"url": "https://x.fr/", "text": "Site réalisé par studio@agence-web.com\nprenom.nom@ac-lyon.fr\nab12@sentry.wixpress.com"}],
+      "https://x.fr/"), ("", ""))
+check("the institute's own domain still wins", pl.pick_generic_email(
+      [{"url": "https://www.branly.fr/", "text": "ce.0941018w@ac-creteil.fr · contact@branly.fr"}], "https://www.branly.fr/")[0],
+      "contact@branly.fr")
+check("a mailto with %20 and a subject is cleaned", pl._page_emails("mailto:%20programs@esmt.org?subject=hi"), ["programs@esmt.org"])
 
 # ---- businesses: an owner or managing director is a contact, and real surnames are not mistaken for roles
 check("business roles are stated roles", [pl.states_role("Maria Borg, Owner"), pl.states_role("Geschäftsführer: Hans Müller"),

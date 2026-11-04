@@ -35,7 +35,7 @@ import pipeline  # noqa: E402
 import rank  # noqa: E402
 
 DATA = ROOT / "data_hei"
-ROUND = 1          # raised when these rules change, so institutes boosted earlier are read again
+ROUND = 2          # raised when these rules change, so institutes boosted earlier are read again (2: other-domain emails)
 
 
 def wants(res):
@@ -76,7 +76,7 @@ def boost(res, max_pages=4):
             c.update(rung=p["why_chosen"], confidence=p["confidence"], needs_human_check=not p["email"])
             got_contact = True
     if pages and not c.get("generic_email") and not (c.get("contact") or {}).get("email"):
-        email, url = pipeline.pick_generic_email(pages, cr["site"])
+        email, url = pipeline.pick_generic_email(pages, cr["site"], c.get("institution_name", ""))
         if email:
             c.update(generic_email=email, generic_email_url=url)
             got_email = True
