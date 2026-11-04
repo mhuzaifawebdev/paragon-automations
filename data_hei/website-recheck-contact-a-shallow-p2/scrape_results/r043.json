@@ -1,0 +1,68 @@
+{
+ "row_id": "r043",
+ "scraped_at": "2026-11-04T08:44:28Z",
+ "contacts": {
+  "row_id": "r043",
+  "institution_name": "FitnessHauss",
+  "institution_type": "unknown",
+  "official_website": "https://fitnesshauss.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://fitnesshauss.com/",
+   "evidence_quote": "Office Address: Triq San Giljan, San Gwann, Malta. By appointment."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "admin@fitnesshauss.com",
+  "generic_email_url": "https://fitnesshauss.com/",
+  "contact": {
+   "name": "Front Desk",
+   "designation": "Front Desk",
+   "designation_local": "",
+   "email": "front-desk@fitnesshauss.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://fitnesshauss.com/icg/",
+   "evidence_quote": "<front-desk@fitnesshauss.com>"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). The front desk is the primary point of contact for the organization.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "FitnessHauss Office",
+    "city": "San Gwann",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://fitnesshauss.com/",
+    "evidence_quote": "Office Address: Triq San Giljan, San Gwann, Malta. By appointment."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial fitness equipment provider, not an educational institution, and no information regarding academic partnerships or mobility programs is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 10.7,
+  "ai_calls": 1,
+  "model_s": 120.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 133.7
+ }
+}
