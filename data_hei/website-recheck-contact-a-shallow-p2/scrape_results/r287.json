@@ -1,0 +1,63 @@
+{
+ "row_id": "r287",
+ "scraped_at": "2026-11-04T09:37:44Z",
+ "contacts": {
+  "row_id": "r287",
+  "institution_name": "Jeans Station",
+  "institution_type": "unknown",
+  "official_website": "https://jeans-station.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "official-online@jeans-station.com",
+  "generic_email_url": "https://jeans-station.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "加古川店",
+    "city": "Kakogawa",
+    "country": "Japan",
+    "role": "branch",
+    "source_url": "https://jeans-station.com/",
+    "evidence_quote": "加古川店 臨時休業のお知らせ"
+   },
+   {
+    "campus_name": "姫路店",
+    "city": "Himeji",
+    "country": "Japan",
+    "role": "branch",
+    "source_url": "https://jeans-station.com/",
+    "evidence_quote": "姫路店でBIG JOHNワークショップ開催のお知らせ"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial retail business (Jeans Station) rather than an educational institution, and no named staff contacts or academic partners are listed in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 7.6,
+  "ai_calls": 2,
+  "model_s": 1.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 20.2
+ }
+}
