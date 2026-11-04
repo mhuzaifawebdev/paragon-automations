@@ -1,0 +1,68 @@
+{
+ "row_id": "r123",
+ "scraped_at": "2026-11-04T08:58:09Z",
+ "contacts": {
+  "row_id": "r123",
+  "institution_name": "Gloster Furniture",
+  "institution_type": "unknown",
+  "official_website": "https://www.gloster.com/en-us/",
+  "country": {
+   "value": "US",
+   "source_url": "https://www.gloster.com/en-us/",
+   "evidence_quote": "Gloster Furniture, Inc1075 Fulp Industrial RoadSouth Boston, VA 24592, US"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@gloster.com",
+  "generic_email_url": "https://www.gloster.com/en/thank-you-for-contacting-us",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gloster Furniture, Inc",
+    "city": "South Boston",
+    "country": "US",
+    "role": "main",
+    "source_url": "https://www.gloster.com/en-us/",
+    "evidence_quote": "Gloster Furniture, Inc1075 Fulp Industrial RoadSouth Boston, VA 24592, US"
+   },
+   {
+    "campus_name": "Gloster Furniture GmbH",
+    "city": "Lüneburg",
+    "country": "Germany",
+    "role": "international",
+    "source_url": "https://www.gloster.com/en/about/contact-us",
+    "evidence_quote": "Gloster Furniture GmbHZeppelinstraße 2221337 LüneburgGermany"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "Gloster is a furniture manufacturing company, not an educational institution, and therefore does not have Erasmus+ partnerships or mobility programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.3,
+  "crawl_s": 10.9,
+  "ai_calls": 3,
+  "model_s": 39.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 60.8
+ }
+}
