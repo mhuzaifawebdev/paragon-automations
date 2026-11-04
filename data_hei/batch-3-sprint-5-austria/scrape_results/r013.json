@@ -1,0 +1,91 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-11-04T19:11:50Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "PTS Horn",
+  "institution_type": "school",
+  "official_website": "https://ptshorn.ac.at/wordpress/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Thomas Lederer",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ptshorn.ac.at/wordpress/ueber-uns/team/",
+   "evidence_quote": "Thomas Lederer ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Daniela Ranftl",
+    "designation": "English Coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ptshorn.ac.at/wordpress/ueber-uns/team/",
+    "evidence_quote": "Daniela Ranftl ... Koordinatorin Englisch",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Daniela Ranftl is the English coordinator at the institution."
+   },
+   {
+    "name": "Elisabeth Maurer",
+    "designation": "Administrative Support",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ptshorn.ac.at/wordpress/ueber-uns/team/",
+    "evidence_quote": "Elisabeth Maurer ... Administrative Unterstützung",
+    "why_chosen": "Secretary / administration (last resort). Elisabeth Maurer provides administrative support to the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Thomas Lederer is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "PTS Horn",
+    "city": "Horn",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://ptshorn.ac.at/wordpress/",
+    "evidence_quote": "PTS Horn"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The evidence does not list any specific staff members or international partners. The website provides general contact information for the school.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.3,
+  "crawl_s": 10.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 16.2,
+  "total_seconds": 44.1
+ }
+}
