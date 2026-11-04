@@ -1,0 +1,146 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-11-04T19:19:47Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "Gladsaxe Gymnasium",
+  "institution_type": "school",
+  "official_website": "https://gladgym.dk/",
+  "country": null,
+  "phone": {
+   "value": "39 56 31 62",
+   "source_url": "https://gladgym.dk/",
+   "evidence_quote": "Tlf: 39 56 31 62 <tel 39563162>"
+  },
+  "phone_alt": [],
+  "generic_email": "post@gladgym.dk",
+  "generic_email_url": "https://gladgym.dk/",
+  "contact": {
+   "name": "Eva Krarup Steensen",
+   "designation": "Rektor",
+   "designation_local": "",
+   "email": "ek@gladgym.dk",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://gladgym.dk/staff/",
+   "evidence_quote": "Eva Krarup Steensen (EK) ... Ledelse, Rektor"
+  },
+  "alternates": [
+   {
+    "name": "Connie Holtermann",
+    "designation": "International coordinator",
+    "designation_local": "",
+    "email": "ch@gladgym.dk",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://gladgym.dk/staff/",
+    "evidence_quote": "Connie Holtermann (CH) ... International koordinator, Lærer",
+    "why_chosen": "Mobility coordinator. Connie Holtermann is explicitly listed as the International coordinator at the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Eva Krarup Steensen is the principal (Rektor) of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "4 europæiske skoler",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://gladgym.dk/nyheder/6-elever-fra-2y-i-finland-med-erasmus/",
+    "evidence_quote": "31. januar 2017I uge 4 har 6 elever fra 2y været på udveksling hos værtsfamilier i Loviisa i Finland. I et par måneder op til afgang har de arbejdet med en forretningsidé, som de skulle præsentere og videreudvikle i Erasmus-projektet sammen med elever fra 4 andre europæiske skoler.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gladsaxe Hovedbibliotek",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://gladgym.dk/",
+    "evidence_quote": "2m, som er vores biblioteksklasse, og Gladsaxe Hovedbibliotek har holdt litteraturaften med forfatter Sarah Rahmeh, og her kommer 5 hurtige spørgsmål fra vores some-elever💙",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nordplus",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://gladgym.dk/",
+    "evidence_quote": "Nordplus-projektet om spændende frokostpauser er i [Nordplus-projektet om spændende frokostpauser er i fuld gang. Mere info kommer senere 🩵]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Røde Kors",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://gladgym.dk/",
+    "evidence_quote": "Så er det på søndag, der er den store røde kors-in [Så er det på søndag, der er den store røde kors-indsamling. Husk, at du kan vinde præmier ved at sende billeder til Jørgen på jc@gladgym.dk",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Team Danmark",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://gladgym.dk/kommende-elev/team-danmark/",
+    "evidence_quote": "Målet med en Team Danmark-godkendelse er at give unge mulighed for at tage en ungdomsuddannelse og samtidig dyrke idræt på eliteniveau. Det er Team Danmark, der godkender den enkeltes sportslige niveau.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gladsaxe Gymnasium",
+    "city": "Søborg",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://gladgym.dk/",
+    "evidence_quote": "Buddinge Hovedgade 81"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a formal list of Erasmus+ partners on their website, only mentions of specific project-based exchanges in news articles.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 14.7,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 19.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 5.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 43.4
+ }
+}

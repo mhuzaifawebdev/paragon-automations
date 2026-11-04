@@ -1,0 +1,62 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-11-04T19:19:50Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "Frijsenborg Efterskole",
+  "institution_type": "school",
+  "official_website": "https://fus.dk/",
+  "country": null,
+  "phone": {
+   "value": "+45 86 96 13 00",
+   "source_url": "https://fus.dk/",
+   "evidence_quote": "+45 86 96 13 00"
+  },
+  "phone_alt": [],
+  "generic_email": "info@fus.dk",
+  "generic_email_url": "https://fus.dk/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Frijsenborg Efterskole",
+    "city": "Hammel",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://fus.dk/",
+    "evidence_quote": "Finlandsvej 5"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain a list of Erasmus+ or international partners. No specific international mobility coordinator is named.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.2,
+  "crawl_s": 10.9,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 46.4
+ }
+}

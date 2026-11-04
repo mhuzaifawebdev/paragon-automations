@@ -1,0 +1,111 @@
+{
+ "row_id": "r001",
+ "scraped_at": "2026-11-04T19:19:48Z",
+ "contacts": {
+  "row_id": "r001",
+  "institution_name": "Bagsværd Kostkole og Gymnasium",
+  "institution_type": "school",
+  "official_website": "https://bagkost.dk/",
+  "country": null,
+  "phone": {
+   "value": "+45 4498 0065",
+   "source_url": "https://bagkost.dk/",
+   "evidence_quote": "+45 4498 0065 <tel +45%204498%200065>"
+  },
+  "phone_alt": [],
+  "generic_email": "bk@bagkost.dk",
+  "generic_email_url": "https://bagkost.dk/",
+  "contact": {
+   "name": "Claus Svendsen",
+   "designation": "Rektor",
+   "designation_local": "",
+   "email": "INITIALER@bagkost.dk",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://bagkost.dk/kontakt/medarbejdere/",
+   "evidence_quote": "Svende Claus Svendsen (SCS) ... Rektor"
+  },
+  "alternates": [
+   {
+    "name": "Dennis Hellegaard",
+    "designation": "Vicerektor",
+    "designation_local": "",
+    "email": "INITIALER@bagkost.dk",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://bagkost.dk/kontakt/medarbejdere/",
+    "evidence_quote": "Dennis Hellegaard (DEH) ... Vicerektor",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the vice-principal, he is part of the school leadership team."
+   },
+   {
+    "name": "Lene Olsen",
+    "designation": "Økonomi- og administrationschef",
+    "designation_local": "",
+    "email": "INITIALER@bagkost.dk",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://bagkost.dk/kontakt/medarbejdere/",
+    "evidence_quote": "Lene Olsen (LEO) ... Økonomi- og administrationschef",
+    "why_chosen": "Secretary / administration (last resort). She is the head of finance and administration and can assist with institutional inquiries."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Claus Svendsen is the principal of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bagsværd Kostskole og Gymnasium",
+    "city": "Bagsværd",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://bagkost.dk/kontakt/",
+    "evidence_quote": "Bagsværd Kostskole og Gymnasium"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain any information regarding international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.5,
+  "crawl_s": 9.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 23.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 44.7
+ }
+}
