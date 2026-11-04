@@ -1,0 +1,101 @@
+{
+ "row_id": "r030",
+ "scraped_at": "2026-11-04T20:24:17Z",
+ "contacts": {
+  "row_id": "r030",
+  "institution_name": "Gymnázium Zastávka",
+  "institution_type": "school",
+  "official_website": "https://www.gzastavka.cz/",
+  "country": null,
+  "phone": {
+   "value": "603 297 587",
+   "source_url": "https://www.gzastavka.cz/kontakty/",
+   "evidence_quote": "Mgr. Libor Hejda, hejda@gzastavka.cz <hejda@gzastavka.cz>, 603 297 587 <tel +420603297587>"
+  },
+  "phone_alt": [],
+  "generic_email": "email@gzastavka.cz",
+  "generic_email_url": "https://www.gzastavka.cz/",
+  "contact": {
+   "name": "Libor Hejda",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "hejda@gzastavka.cz",
+   "office_email": "",
+   "phone": "603 297 587",
+   "source_url": "https://www.gzastavka.cz/kontakty/",
+   "evidence_quote": "Ředitel školy ... Mgr. Libor Hejda, hejda@gzastavka.cz <hejda@gzastavka.cz>, 603 297 587 <tel +420603297587>"
+  },
+  "alternates": [
+   {
+    "name": "Markéta Teplá",
+    "designation": "Educational Counselor",
+    "designation_local": "",
+    "email": "tepla@gzastavka.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.gzastavka.cz/kontakty/",
+    "evidence_quote": "Výchovná poradkyně ... Mgr. Markéta Teplá, tepla@gzastavka.cz <tepla@gzastavka.cz>",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is involved in Erasmus+ mobility activities as a teacher."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the principal of the school and is listed as a contact for the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Gymnázium Lohne",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gzastavka.cz/erasmus-2025-2026/",
+    "evidence_quote": "Minulý týden jsme u nás ve škole přivítali studenty z Gymnázium Lohne, kteří přijeli v&nbs...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lycée Jean Guéhenno",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gzastavka.cz/erasmus-2024-2025/",
+    "evidence_quote": "LYCEE JEAN GUEHENNO – FOUGERES 3. 3. – 28. 3. 2025 V březnu jsem se společ...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gymnázium T. G. Masaryka Zastávka",
+    "city": "Zastávka",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.gzastavka.cz/",
+    "evidence_quote": "U Školy 39, 664 84 Zastávka"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions various Erasmus+ partner schools in Germany, France, Poland, Spain, Ireland, and Slovenia, but does not provide a comprehensive list of all formal partner institutions. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.8,
+  "crawl_s": 22.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 32.7
+ }
+}
