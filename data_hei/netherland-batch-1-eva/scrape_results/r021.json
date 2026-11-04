@@ -1,0 +1,97 @@
+{
+ "row_id": "r021",
+ "scraped_at": "2026-11-04T18:08:33Z",
+ "contacts": {
+  "row_id": "r021",
+  "institution_name": "CS Vincent van Gogh",
+  "institution_type": "school",
+  "official_website": "https://www.csvincentvangogh.nl/",
+  "country": null,
+  "phone": {
+   "value": "0592 394 195",
+   "source_url": "https://www.csvincentvangogh.nl/",
+   "evidence_quote": "0592 394 195"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Dr. Nassau College",
+    "partner_country": "Netherlands",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.csvincentvangogh.nl/",
+    "evidence_quote": "Welkom op Volta! Een unieke samenwerking waarin de locaties van het Dr. Nassau College en CS Vincent van Gogh de krachten bundelen.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lariks",
+    "city": "Assen",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.csvincentvangogh.nl/",
+    "evidence_quote": "Lariks"
+   },
+   {
+    "campus_name": "Salland",
+    "city": "Assen",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.csvincentvangogh.nl/",
+    "evidence_quote": "Salland"
+   },
+   {
+    "campus_name": "Volta",
+    "city": "Assen",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.csvincentvangogh.nl/",
+    "evidence_quote": "Volta"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The website does not mention any international partnerships or Erasmus+ activities. No specific international relations staff are listed. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 10.7,
+  "crawl_s": 15.2,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     129
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 36.9
+ }
+}

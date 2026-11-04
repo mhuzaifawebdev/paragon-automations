@@ -1,0 +1,99 @@
+{
+ "row_id": "r015",
+ "scraped_at": "2026-11-04T18:08:00Z",
+ "contacts": {
+  "row_id": "r015",
+  "institution_name": "Carmelcollege Emmen",
+  "institution_type": "school",
+  "official_website": "https://www.carmelemmen.nl/",
+  "country": null,
+  "phone": {
+   "value": "0591 - 622 870",
+   "source_url": "https://www.carmelemmen.nl/",
+   "evidence_quote": "Elke werkdag telefonisch bereikbaar van 08.00 tot 15.00 uur: 0591 - 622 870 <tel 0591622870>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@carmelemmen.nl",
+  "generic_email_url": "https://www.carmelemmen.nl/",
+  "contact": {
+   "name": "Mevr. L. Eising",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.carmelemmen.nl/carmelcollege/wie-zijn-wij/schoolleiding",
+   "evidence_quote": "Mevr. L. Eising - rector"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). As the rector, she is the head of the institution and is also the contact currently on file.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "scholen in India",
+    "partner_country": "India",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.carmelemmen.nl/",
+    "evidence_quote": "Projecten met scholen in India zijn weer begonnen!",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Model European Parliament",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.carmelemmen.nl/",
+    "evidence_quote": "Internationale ronde van het Model European Parliament",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Carmelcollege Emmen",
+    "city": "Emmen",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.carmelemmen.nl/",
+    "evidence_quote": "Wendeling 59"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not provide a list of international partners or Erasmus+ agreements. The institution is a secondary school.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 8.6,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 3.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     91
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 16.1
+ }
+}
