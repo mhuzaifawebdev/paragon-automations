@@ -1,0 +1,70 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-11-04T20:06:30Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Liceul \"Danubius\" Călărași",
+  "institution_type": "school",
+  "official_website": "https://danubius.info/",
+  "country": {
+   "value": "Romania",
+   "source_url": "https://danubius.info/2011/05/11/contact2/",
+   "evidence_quote": "Adresa: str. Baraganului, nr. 26, municipiul Calarasi, judetul Calarasi, Romania"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dan Melente",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://danubius.info/category/prezentare/management/",
+   "evidence_quote": "ManagementMesajul de Crăciun – Director prof. Dan Melente"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Dan Melente is the Director of the institution and is explicitly mentioned as the contact for Erasmus projects.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Liceul Danubius",
+    "city": "Călărași",
+    "country": "Romania",
+    "role": "main",
+    "source_url": "https://danubius.info/2011/05/11/contact2/",
+    "evidence_quote": "Adresa: str. Baraganului, nr. 26, municipiul Calarasi, judetul Calarasi, Romania"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of Erasmus partners or a total number of agreements. Contact details are limited to the institution's general email and phone number.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.4,
+  "crawl_s": 1803.9,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 11.9,
+  "total_seconds": 1822.0
+ }
+}
