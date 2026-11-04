@@ -1,0 +1,108 @@
+{
+ "row_id": "r103",
+ "scraped_at": "2026-11-04T20:28:57Z",
+ "contacts": {
+  "row_id": "r103",
+  "institution_name": "SPŠOA Uherský Brod",
+  "institution_type": "school",
+  "official_website": "https://www.spsoa-ub.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "spsoa@spsoa-ub.cz",
+  "generic_email_url": "https://www.spsoa-ub.cz/",
+  "contact": {
+   "name": "Rostislav Šmíd",
+   "designation": "director of the school",
+   "designation_local": "",
+   "email": "rsmid@spsoa-ub.cz",
+   "office_email": "",
+   "phone": "+420 572 622 900",
+   "source_url": "https://www.spsoa-ub.cz/kontakty/",
+   "evidence_quote": "PaedDr. Rostislav Šmíd ... ředitel školy"
+  },
+  "alternates": [
+   {
+    "name": "Ondřej Jeřábek",
+    "designation": "teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.spsoa-ub.cz/",
+    "evidence_quote": "​✍️ Ondřej Jeřábek, učitel",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). He is explicitly named as a teacher involved in the Erasmus+ project."
+   },
+   {
+    "name": "Dana Ondrůšková",
+    "designation": "secretary of the school director",
+    "designation_local": "",
+    "email": "spsoa@spsoa-ub.cz",
+    "office_email": "",
+    "phone": "+420 572 622 901",
+    "source_url": "https://www.spsoa-ub.cz/kontakty/",
+    "evidence_quote": "Dana Ondrůšková ... sekretariát ředitele školy",
+    "why_chosen": "Secretary / administration (last resort). She is the contact person for the general school email address."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the director of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fakulta managementu a ekonomiky Univerzity Tomáše Bati ve Zlíně",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.spsoa-ub.cz/o-skole/partneri/",
+    "evidence_quote": "V loňském roce se SPŠOA stala historicky první FAKULTNÍ ŠKOLOU Fakulty managementu a ekonomiky Univerzity Tomáše Bati ve Zlíně.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fakulta aplikované informatiky Univerzity Tomáše Bati ve Zlíně",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.spsoa-ub.cz/o-skole/partneri/",
+    "evidence_quote": "Nyní škola tento prestižní statut rozšířila o další fakultu Baťovy univerzity - Fakultu aplikované informatiky. Stalo se tak při příležitosti 10. výročí vzniku fakulty. Tohoto slavnostního ceremoniálu se zúčastnila řada osobností ze školské sféry, včetně hejtmana pro Zlínský kraj Stanislava Mišáka.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Střední průmyslová škola a Obchodní akademie Uherský Brod",
+    "city": "Uherský Brod",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.spsoa-ub.cz/",
+    "evidence_quote": "Střední průmyslová škola a Obchodní akademie Uherský Brod"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The institution lists several partners in the text, but does not provide a comprehensive, structured list of all Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.1,
+  "crawl_s": 31.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 39.3
+ }
+}
