@@ -36,14 +36,44 @@ def _n(s):
     return "".join(c for c in s if not unicodedata.combining(c))
 
 
-def page_text(url, cache):
+CONTACT_LINK = re.compile(r"contact|kontakt|contacto|contatt|impressum|imprint|mentions|about|uber-uns|ueber-uns|"
+                          r"chi-siamo|quienes|equipo|team|staff|direc|o-nas|o-szkole|yhteys|kapcsolat", re.I)
+
+
+def _fetch(url, cache):
+    """(text, links) of one page; the text includes mailto: and tel: link targets."""
     if url not in cache:
         try:
             rec = fetch_pages.fetch(url)
-            cache[url] = _n(rec.get("text", "")).replace("(at)", "@").replace("[at]", "@").replace(" at ", "@")
+            links = rec.get("links") or []
+            extra = " ".join(h for _, h in links if h.lower().startswith(("mailto:", "tel:")))
+            text = _n(rec.get("text", "") + " " + extra).replace("(at)", "@").replace("[at]", "@").replace(" at ", "@")
+            cache[url] = (text, links)
         except Exception:
-            cache[url] = ""
+            cache[url] = ("", [])
     return cache[url]
+
+
+def page_text(url, cache):
+    return _fetch(url, cache)[0]
+
+
+def site_text(site, cache):
+    """The institute's homepage plus up to 3 of its own contact / imprint / team pages (when the cited page is missing,
+    or does not show the detail, the detail can still be confirmed on the institute's real pages)."""
+    if not site:
+        return ""
+    site = site if site.startswith("http") else "https://" + site
+    home, links = _fetch(site, cache)
+    host = re.sub(r"^www\.", "", re.sub(r"^https?://", "", site).split("/")[0].lower())
+    pages, seen = [], set()
+    for label, href in links:
+        h = (href or "").split("#")[0]
+        hh = re.sub(r"^www\.", "", re.sub(r"^https?://", "", h).split("/")[0].lower())
+        if h.startswith("http") and hh == host and h not in seen and CONTACT_LINK.search(h + " " + (label or "")):
+            seen.add(h)
+            pages.append(h)
+    return " ".join([home] + [page_text(u, cache) for u in pages[:3]])
 
 
 def name_ok(name, text):
@@ -62,6 +92,14 @@ def check(row, cache):
     texts = [page_text(u, cache) for u in urls[:3]]
     text = " ".join(texts)
     out = {"source_url": urls[0] if urls else ""}
+    site = (row.get("website") or row.get("found_website") or "").strip()
+    wanted = [(row.get(k) or "").strip().lower() for k in ("contact_email", "general_email")]
+    if site and any(e and "@" in e and e not in text for e in wanted) or (site and not text):
+        own = site_text(site, cache)            # the cited page is missing or lacks it: look on the institute's own pages
+        if own:
+            if not text:
+                out["source_url"] = site if site.startswith("http") else "https://" + site
+            text = text + " " + own
     if not text:
         return out
     name = (row.get("contact_name") or "").strip()
