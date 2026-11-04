@@ -267,8 +267,6 @@
     <section aria-labelledby="t-overview" style="display:grid;gap:12px">
       <h2 class="section-title" id="t-overview">Overview, all batches</h2>
       <div class="tiles" id="d-tiles"></div>
-      <h2 class="section-title" id="t-best" hidden>Best lists</h2>
-      <div class="tiles" id="d-best" hidden></div>
     </section>
 
     <div class="dash-grid">
@@ -978,36 +976,11 @@ function renderBatches(batches) {
     e.preventDefault(); showView("scraper"); $("check-batch").value = a.dataset.batch; trackBatch(a.dataset.batch);
   });
 }
-// The lists (batches of the same name, part numbers joined) where most institutes have a named contact: real
-// figures of each list, labelled with its name. Lists of at least 300 institutes with a website, best 3 at 85%+.
-function bestLists(batches) {
-  const g = {};
-  (batches || []).forEach(b => {
-    if (/^website-recheck/.test(b.batch)) return;
-    const k = b.batch.replace(/(-part)?-?\d+$/, "").replace(/-\d+(-\d+)?$/, "");
-    const x = g[k] = g[k] || { name: k, site: 0, contact: 0, email: 0 };
-    x.site += b.with_website || 0; x.contact += b.with_contact || 0; x.email += b.with_email || 0;
-  });
-  return Object.values(g).filter(x => x.site >= 300 && x.contact / x.site >= 0.85)
-    .sort((a, b) => b.contact / b.site - a.contact / a.site).slice(0, 3);
-}
-function renderBest(batches) {
-  if (PREVIEW) return;                                  // the preview shows simulated figures only
-  const best = bestLists(batches);
-  $("t-best").hidden = $("d-best").hidden = !best.length;
-  // "batch-hei-network" -> "HEI network list", "ka-103-erasmus-europe-553-p" -> "KA103 Erasmus Europe list"
-  const nice = n => n.replace(/^batch-/, "").replace(/-(merged|p)$/, "").replace(/-\d+(-p)?$/, "").replace(/ka-(\d+)/i, "KA$1")
-    .split("-").map(w => /^(hei|ccc|db|eu|uk|ka\d+)$/i.test(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1)).join(" ")
-    .replace(/^./, c => c.toUpperCase()) + " list";
-  $("d-best").innerHTML = best.map(x => `<div class="tile"><div class="n">${pct(x.contact, x.site)}</div>` +
-    `<div class="l">Named contacts: ${esc(nice(x.name))}</div><div class="s">${fmtN(x.contact)} of ${fmtN(x.site)} institutes with a website · ` +
-    `${pct(x.email, x.site)} with an email</div></div>`).join("");
-}
 async function loadStats() {
   try {
     const r = await fetch("/api/stats", { cache: "no-store" });
     const d = await r.json();
-    renderTiles(d.totals || {}); renderBest(d.batches); renderChart(d.days); renderDays(d.days); renderBatches(d.batches);
+    renderTiles(d.totals || {}); renderChart(d.days); renderDays(d.days); renderBatches(d.batches);
     $("d-updated").textContent = d.generated_at ? "Figures updated " + new Date(d.generated_at).toLocaleString("en-GB",
       { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : (d.error || "No figures yet");
   } catch (e) {
