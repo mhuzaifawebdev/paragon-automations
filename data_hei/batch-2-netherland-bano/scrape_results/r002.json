@@ -1,0 +1,106 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-11-04T18:13:29Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Marnix College",
+  "institution_type": "school",
+  "official_website": "https://www.marnixcollege.nl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@marnixcollege.nl",
+  "generic_email_url": "https://www.marnixcollege.nl/",
+  "contact": {
+   "name": "Hanneke de Gier",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "h.degier@marnixcollege.nl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.marnixcollege.nl/schoolleiding",
+   "evidence_quote": "Hanneke de Gier (rector/bestuurder) ... Rector"
+  },
+  "alternates": [
+   {
+    "name": "Rieneke Brouwer",
+    "designation": "Director of Education / Deputy Rector",
+    "designation_local": "",
+    "email": "r.brouwer@marnixcollege.nl",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.marnixcollege.nl/schoolleiding",
+    "evidence_quote": "Rieneke Brouwer (directeur onderwijs/plv. rector) ... Rieneke Brouwer | Directeur onderwijs /",
+    "why_chosen": "Principal / director (no Erasmus contact found). Rieneke Brouwer is the director of education and deputy rector."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Hanneke de Gier is the rector of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Knooppunt Techniek",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.marnixcollege.nl/",
+    "evidence_quote": "I.s.m. Knooppunt Techniek",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Marnix College Hoofdgebouw",
+    "city": "Ede",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.marnixcollege.nl/",
+    "evidence_quote": "Prins Bernhardlaan 30"
+   },
+   {
+    "campus_name": "Marnix College Junior",
+    "city": "Ede",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://www.marnixcollege.nl/contact",
+    "evidence_quote": "Marnix College Junior"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain any information regarding international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 7.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 31.7
+ }
+}
