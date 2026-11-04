@@ -1,0 +1,99 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-11-04T17:35:27Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "Bandon Grammar School",
+  "institution_type": "school",
+  "official_website": "https://www.bandongrammar.ie/",
+  "country": {
+   "value": "Ireland",
+   "source_url": "https://www.bandongrammar.ie/Introduction/",
+   "evidence_quote": "For students who live outside of Ireland the school requires a local guardian be nominated on enrolment. This guardian is a contact on the ground for both student and parent. They take a special interest in their student and support them in their academic progress, language development and overall wellbeing. The Guardian acts as a representative for the parent where required e.g. Parent Teacher Meetings, hospital visits."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Niamh McShane",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bandongrammar.ie/Welcome-from-the-Principal/",
+   "evidence_quote": "Niamh McShane ... Principal"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Niamh McShane is the Principal of the school and the primary contact for institutional inquiries.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ballyhass",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bandongrammar.ie/Introduction/",
+    "evidence_quote": "Weekend Activities: A wide ranging weekend activity schedule is run throughout the year, with trips to other boarding schools, Ballyhass, Inchydoney Surf School, Killarney, Cliffs of Moher, Cork city, Bowling, Go Karting but to name a few. These activities provide many purposes but mainly an opportunity to bond with fellow students while also seeing what west Cork and Munster have to offer.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Inchydoney Surf School",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bandongrammar.ie/Introduction/",
+    "evidence_quote": "Weekend Activities: A wide ranging weekend activity schedule is run throughout the year, with trips to other boarding schools, Ballyhass, Inchydoney Surf School, Killarney, Cliffs of Moher, Cork city, Bowling, Go Karting but to name a few. These activities provide many purposes but mainly an opportunity to bond with fellow students while also seeing what west Cork and Munster have to offer.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bandon Grammar School",
+    "city": "Bandon",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.bandongrammar.ie/",
+    "evidence_quote": "Bandon, Co.Cork, P72 FD36"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The website does not list any Erasmus+ or international academic partners. The provided information focuses on boarding and school administration. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 12.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 45.5
+ }
+}
