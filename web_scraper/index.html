@@ -896,8 +896,9 @@ function renderTiles(t) {
     `<div class="k"><i style="--c:${color}"></i>${label}</div><div class="p">${pct(v, t.with_email)} of those with an email</div></div>`;
   const seg = (v, color) => `<span style="--c:${color};width:${t.with_email ? 100 * v / t.with_email : 0}%"></span>`;
   const emailExtra = t.personal_email == null ? "" :
-    `<div class="emails">${emailStat(work, "Professional work email", "var(--accent)")}` +
-    `${emailStat(dept, "Generic dept email", "#8ea6f7")}${emailStat(both, "Institutes with both", "#12b886")}</div>` +
+    // three groups that do not overlap, so they add up to "with an email"
+    `<div class="emails">${emailStat(work - both, "Work email only", "var(--accent)")}` +
+    `${emailStat(both, "Both work and generic", "#12b886")}${emailStat(dept - both, "Generic dept email only", "#8ea6f7")}</div>` +
     `<div class="ebar" title="Work email only · both · generic only">${seg(work - both, "var(--accent)")}${seg(both, "#12b886")}${seg(dept - both, "#8ea6f7")}</div>`;
   const tiles = [
     [fmtN(t.institutes), "Total institutes", fmtN(t.batches) + " batches"],
