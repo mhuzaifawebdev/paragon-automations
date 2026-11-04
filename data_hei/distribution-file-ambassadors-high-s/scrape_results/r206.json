@@ -1,0 +1,112 @@
+{
+ "row_id": "r206",
+ "scraped_at": "2026-11-04T16:12:09Z",
+ "contacts": {
+  "row_id": "r206",
+  "institution_name": "Ist. R. Rossellini_Roma",
+  "institution_type": "college",
+  "official_website": "https://itsrossellini.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "erasmus@itsrossellini.it",
+  "generic_email_url": "https://itsrossellini.it/2025/07/04/pubblicato-bando-erasmus-2025/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ERASMUSU",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://itsrossellini.it/servizi/erasmus/",
+    "evidence_quote": "Siamo partner di ERASMUSU, la più grande comunità di studenti in Europa. Avrai la possibilità di prenotare alloggi verificati attraverso un sistema sicuro, non solo a Roma, ma in tutto il mondo, nel caso in cui stessi pianificando di studiare all’estero.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "INDIRE",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://itsrossellini.it/its2024/wp-content/uploads/2025/07/Bando-Erasmus-ITS-ACADEMY-ROSSELLINI-2025.pdf",
+    "evidence_quote": "programma Erasmus+, attraverso l’Agenzia nazionale Erasmus+ INDIRE;",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Agenzia nazionale Erasmus+ INDIRE",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://itsrossellini.it/its2024/wp-content/uploads/2025/07/Bando-Erasmus-ITS-ACADEMY-ROSSELLINI-2025.pdf",
+    "evidence_quote": "Il sostegno finanziario alla mobilità avverrà tramite un contributo Europeo erogato dall’Agenzia nazionale Erasmus+",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede Laboratori",
+    "city": "Roma",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://itsrossellini.it/en/contact/",
+    "evidence_quote": "Piazzale Ezio Tarantelli, 18 – 00144 Roma IT (temporanea)"
+   },
+   {
+    "campus_name": "Sede legale e operativa",
+    "city": "Roma",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://itsrossellini.it/en/contact/",
+    "evidence_quote": "via Tiburtina 691 – 00157 Roma"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a list of specific partner universities or companies, only mentioning that they collaborate with various entities for traineeships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.2,
+  "crawl_s": 16.7,
+  "ai_calls": 5,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 19.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 57.5
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "row_id": "r160",
+ "scraped_at": "2026-11-04T16:07:10Z",
+ "contacts": {
+  "row_id": "r160",
+  "institution_name": "IIS Ruffini Aicardi_Arma di Taggia (IM)",
+  "institution_type": "school",
+  "official_website": "https://www.ruffiniaicardi.edu.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "imis00400l@istruzione.it",
+  "generic_email_url": "https://www.ruffiniaicardi.edu.it/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Irlanda",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://www.ruffiniaicardi.edu.it/wp-content/uploads/2026/03/timbro_BANDO-ERASMUS_2_staff-2025-2026.docx-signed.pdf",
+    "evidence_quote": "I partecipanti al progetto 2025-1-IT02-KA121-SCH-000306830 , grazie alla formazione in Francia, Irlanda e",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IIS Ruffini - Aicardi",
+    "city": "Arma di Taggia",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.ruffiniaicardi.edu.it/",
+    "evidence_quote": "Via Lungomare, 141 - 18018 Arma di Taggia (IM) | Tel. +39 0184 461082 | Fax. +39 0184 461083"
+   },
+   {
+    "campus_name": "Plesso Sanremo",
+    "city": "Sanremo",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://www.ruffiniaicardi.edu.it/",
+    "evidence_quote": "Domani, 20/10/26, a causa di livello di allerta Arancione, le attività didattiche saranno sospese nei plessi scolastici situati nei comuni di Taggia e Sanremo"
+   },
+   {
+    "campus_name": "Valle Armea",
+    "city": "Sanremo",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://www.ruffiniaicardi.edu.it/tipologia-circolare/circolari-per-docenti-e-personale-ata/",
+    "evidence_quote": "Corsi Socio Sanitario / Tecnico Turismo – Valle Armea"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a formal list of partner universities or schools, only mentioning destination countries for staff mobility projects.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.3,
+  "crawl_s": 17.4,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 35.0
+ }
+}

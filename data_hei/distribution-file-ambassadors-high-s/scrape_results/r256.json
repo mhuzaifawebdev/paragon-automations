@@ -1,0 +1,100 @@
+{
+ "row_id": "r256",
+ "scraped_at": "2026-11-04T16:19:27Z",
+ "contacts": {
+  "row_id": "r256",
+  "institution_name": "Istituto Di Istruzione Superiore Don Milani",
+  "institution_type": "school",
+  "official_website": "https://www.liceofilzi.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Elena Filosi",
+   "designation": "Teacher and Erasmus+ mobility coordinator",
+   "designation_local": "",
+   "email": "filosie@liceofilzi.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.liceofilzi.it/2026/03/25/destinazione-bonn-il-racconto-della-nostra-mobilita-erasmus/",
+   "evidence_quote": "Elena Filosi ... Docente",
+   "email_source_url": "https://www.liceofilzi.it/author/elena-filosi/"
+  },
+  "alternates": [
+   {
+    "name": "Sara Melas",
+    "designation": "Teacher and Erasmus+ mobility coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.liceofilzi.it/2026/03/25/destinazione-bonn-il-racconto-della-nostra-mobilita-erasmus/",
+    "evidence_quote": "Sara Melas ... Coordinata Promemoria Auschwitz 2027",
+    "why_chosen": "Mobility coordinator. She is explicitly named as a teacher accompanying students on Erasmus+ mobility to Bonn."
+   },
+   {
+    "name": "Emanuela Cassese",
+    "designation": "Head of Administrative Office",
+    "designation_local": "",
+    "email": "segr.isup.filzi@scuole.provincia.tn.it",
+    "office_email": "",
+    "phone": "+39 0464 421223",
+    "source_url": "https://www.liceofilzi.it/struttura/segreteria-scolastica/ufficio-personale-docenti-e-ata/",
+    "evidence_quote": "Responsabile ... Emanuela Cassese",
+    "why_chosen": "Secretary / administration (last resort). She is the head of the administrative office responsible for school staff and documentation."
+   }
+  ],
+  "rung": "Mobility coordinator. She is explicitly named as a teacher accompanying students on Erasmus+ mobility to Bonn. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.7,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Beethoven Gymnasium",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.liceofilzi.it/progettualita/erasmus/",
+    "evidence_quote": "Si riporta qui un articolo che riassume le prime attività svolte a Bonn, presso il \"Beethoven Gymnasium\", dove una nostra delegazione di studenti (delle classi 3EC, 3UA, 4EA, 4UC, 4UD) e di docenti accompagnatori (professoresse Filosi e Melas), si è recata a fine marzo 2026.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Liceo Fabio Filzi",
+    "city": "Rovereto",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.liceofilzi.it/",
+    "evidence_quote": "Indirizzo: Corso A. Rosmini, 61 - 38068 Rovereto (TN)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution is a secondary school (Liceo). While it lists specific Erasmus+ project partners like Beethoven Gymnasium, it does not provide a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 14.8,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 21.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.4,
+  "total_seconds": 39.3
+ }
+}

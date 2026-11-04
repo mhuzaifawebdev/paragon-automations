@@ -1,0 +1,121 @@
+{
+ "row_id": "r465",
+ "scraped_at": "2026-11-04T16:46:47Z",
+ "contacts": {
+  "row_id": "r465",
+  "institution_name": "Liceo Orazio",
+  "institution_type": "school",
+  "official_website": "https://www.liceo-orazio.edu.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rmpc150008@istruzione.it",
+  "generic_email_url": "https://www.liceo-orazio.edu.it/",
+  "contact": {
+   "name": "Agostino Greco",
+   "designation": "Teacher and Erasmus+ contact person",
+   "designation_local": "",
+   "email": "a.greco@liceo-orazio.edu.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.liceo-orazio.edu.it/",
+   "evidence_quote": "Agostino Greco ... Docente e referente",
+   "email_source_url": "https://www.liceo-orazio.edu.it/index.php/author/agostino-greco/"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). He is explicitly named as the teacher and contact person for Erasmus+ projects at the school. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES Jabalcuz",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.liceo-orazio.edu.it/index.php/2026/10/03/erasmus-allorazio-una-scuola-aperta-alleuropa/",
+    "evidence_quote": "Erasmus+ in Andalusia: il Liceo Orazio all’IES Jabalcuz",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GRG19 Die Schule im Grünen",
+    "partner_country": "Austria",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.liceo-orazio.edu.it/index.php/2026/05/04/erasmus-a-vienna-per-un-gruppo-di-studenti-e-studentesse-del-orazio/",
+    "evidence_quote": "Dal 18 al 27 aprile 2026 un gruppo di studenti e studentesse del Liceo Ginnasio Statale “Orazio”, accompagnato dalla prof.ssa Isabel Herreyns Raiff, ha partecipato a una mobilità Erasmus+ KA121 a Vienna, presso la scuola GRG19 “Die Schule im Grünen”.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "De Goudse Waarden",
+    "partner_country": "Netherlands",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.liceo-orazio.edu.it/wp-content/uploads/2025/12/GOUDA-Erasmus.pdf",
+    "evidence_quote": "La SCUOLA OSPITANTE-De Goudse Waarden",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede centrale via Savinio",
+    "city": "Roma",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.liceo-orazio.edu.it/",
+    "evidence_quote": "Sede centrale via Savinio"
+   },
+   {
+    "campus_name": "SEDE SUCCURSALE",
+    "city": "Roma",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://www.liceo-orazio.edu.it/wp-content/uploads/2025/12/GOUDA-Erasmus.pdf",
+    "evidence_quote": "SEDE SUCCURSALE"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides details on specific Erasmus+ mobility destinations and projects, but does not contain a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.9,
+  "crawl_s": 15.1,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 1.9,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 23.2
+ }
+}

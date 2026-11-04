@@ -1,0 +1,80 @@
+{
+ "row_id": "r313",
+ "scraped_at": "2026-11-04T16:27:01Z",
+ "contacts": {
+  "row_id": "r313",
+  "institution_name": "Istituto Maria Ausiliatrice",
+  "institution_type": "school",
+  "official_website": "https://www.liceoausiliatricepd.it/",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://www.liceoausiliatricepd.it/contatti/",
+   "evidence_quote": "35139 Padova (Italy)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "segreteria@liceoausiliatricepd.it",
+  "generic_email_url": "https://www.liceoausiliatricepd.it/",
+  "contact": {
+   "name": "Michela Soave",
+   "designation": "Coordinator of educational and didactic activities",
+   "designation_local": "",
+   "email": "michela.soave@liceoausiliatricepd.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.liceoausiliatricepd.it/team/",
+   "evidence_quote": "Michela Soave ... (Coordinatrice delle attività educative e didattiche)"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). She coordinates educational activities and is listed as a primary contact for the school.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Azkoitia BHI",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.liceoausiliatricepd.it/erasmus/",
+    "evidence_quote": "Abbiamo già dato il via a settembre a dodici mesi di lavoro che ci uniranno all´istituto Azkoitia BHI dei Paesi Baschi, con l’obiettivo di trasformare i nostri studenti in giovani ambasciatori del patrimonio culturale del nostro territorio. Il nostro istituto partner presenta un’offerta formativa dai 12 ai 18 anni, con la possibilità di scegliere il proprio indirizzo di studio negli ultimi due anni del percorso, come previsto dal sistema scolastico spagnolo e basco. L’istituto si trova ad Azkoit",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Liceo Maria Ausiliatrice",
+    "city": "Padova",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.liceoausiliatricepd.it/",
+    "evidence_quote": "Riviera S. Benedetto, 88, 35139 Padova PD"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions a specific Erasmus+ partnership with a school in Spain but does not provide a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 20.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 25.2
+ }
+}

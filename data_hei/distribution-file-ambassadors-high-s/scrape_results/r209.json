@@ -1,0 +1,75 @@
+{
+ "row_id": "r209",
+ "scraped_at": "2026-11-04T16:12:30Z",
+ "contacts": {
+  "row_id": "r209",
+  "institution_name": "Zaccagna",
+  "institution_type": "school",
+  "official_website": "https://www.zaccagnagalilei.edu.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "msis01700r@istruzione.it",
+  "generic_email_url": "https://www.zaccagnagalilei.edu.it/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "OMRON",
+    "partner_country": "Italy",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.zaccagnagalilei.edu.it/formazione-omron-per-docenti-su-robot-scara-i4l-e-software-ace/",
+    "evidence_quote": "Link alla pagina ufficiale sul sito OMRON: https://industrial.omron.it/it/services-support/school-project/high-school/teacher-training/teacher-training-course/corso-base-robot-scara",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede Amministrativa",
+    "city": "Carrara Fossola",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.zaccagnagalilei.edu.it/servizio/registro-elettronico-docenti/",
+    "evidence_quote": "Viale XX Settembre, 116 - Carrara Fossola (MS)"
+   },
+   {
+    "campus_name": "Sede Galilei-Marconi",
+    "city": "Carrara Avenza",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://www.zaccagnagalilei.edu.it/servizio/registro-elettronico-docenti/",
+    "evidence_quote": "Via Campo d'Appio, 90 - Carrara Avenza (MS)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 6,
+  "coverage_note": "The website does not provide a list of Erasmus+ or international partners. Contact information is limited to the general school office.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 13.8,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 31.8
+ }
+}
