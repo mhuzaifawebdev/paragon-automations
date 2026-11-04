@@ -56,6 +56,10 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -q -m "batch queue: update [automated]"
             git pull --rebase --autostash -q
+            # figures rebuilt from everyone's latest results, so this job's older checkout never overwrites newer ones
+            python scripts/build_dashboard_stats.py >/dev/null || true
+            git add data_hei/dashboard_stats.json data_hei/institute_counts.json 2>/dev/null || true
+            git diff --cached --quiet || git commit -q -m "dashboard figures rebuilt [automated]"
             git push -q
           fi
           python scripts/queue_tick.py --send-dispatches /tmp/dispatch.json
