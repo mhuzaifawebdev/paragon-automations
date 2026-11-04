@@ -1,0 +1,126 @@
+{
+ "row_id": "r066",
+ "scraped_at": "2026-11-04T18:58:06Z",
+ "contacts": {
+  "row_id": "r066",
+  "institution_name": "Technikum, Szakgimnáziuma és Gimnázium",
+  "institution_type": "school",
+  "official_website": "https://www.tfg.hu/",
+  "country": null,
+  "phone": {
+   "value": "+3647352026",
+   "source_url": "https://www.tfg.hu/",
+   "evidence_quote": "<tfg@szerencsiszc.hu> <tel +3647352026>"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Subert Tiborné",
+   "designation": "School secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.tfg.hu/rolunk/munkatarsak",
+   "evidence_quote": "Subert Tiborné ... Iskolatitkár"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). Subert Tiborné is listed as the school secretary in the staff directory.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Észak-magyarországi Vízügyi Igazgatóság Tokaji Szakaszmérnökség",
+    "partner_country": "Hungary",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tfg.hu/kepzeseink/dualis",
+    "evidence_quote": "Észak-magyarországi Vízügyi Igazgatóság Tokaji Szakaszmérnökség",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mercure Hotel",
+    "partner_country": "Hungary",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tfg.hu/kepzeseink/dualis",
+    "evidence_quote": "Mercure Hotel",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Minaro Hotel Tokaj MGallery",
+    "partner_country": "Hungary",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tfg.hu/kepzeseink/dualis",
+    "evidence_quote": "Minaro Hotel Tokaj MGallery*****",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Phoenix Gym",
+    "partner_country": "Hungary",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tfg.hu/kepzeseink/dualis",
+    "evidence_quote": "Phoenix Gym.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Tokaji Gyermekkert Óvoda és Bölcsőde",
+    "partner_country": "Hungary",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tfg.hu/kepzeseink/dualis",
+    "evidence_quote": "Tokaji Gyermekkert Óvoda és Bölcsőde",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "V. Agglomeráció Tiszalöki Országos Büntetés-végrehajtási Intézet",
+    "partner_country": "Hungary",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.tfg.hu/kepzeseink/dualis",
+    "evidence_quote": "V. Agglomeráció Tiszalöki Országos Büntetés-végrehajtási Intézet",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Szerencsi SZC Tokaji Ferenc Technikum és Gimnázium",
+    "city": "Tokaj",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://www.tfg.hu/",
+    "evidence_quote": "OM kód: 203055/002 | 3910 Tokaj, Bajcsy-Zsilinszky Endre út 18-20"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides a list of local dual training partners but does not contain a list of international Erasmus+ partner universities or institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 13.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 2.9,
+  "total_seconds": 22.3
+ }
+}
