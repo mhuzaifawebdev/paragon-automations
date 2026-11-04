@@ -1,0 +1,131 @@
+{
+ "row_id": "r100",
+ "scraped_at": "2026-11-04T15:59:04Z",
+ "contacts": {
+  "row_id": "r100",
+  "institution_name": "Delle Scienze Umane,",
+  "institution_type": "university",
+  "official_website": "https://www.desu.unimore.it/it",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "didattica.desu@unimore.it",
+  "generic_email_url": "https://www.desu.unimore.it/it",
+  "contact": {
+   "name": "Annamaria CONTINI",
+   "designation": "Director of the Department",
+   "designation_local": "",
+   "email": "annamaria.contini@unimore.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.desu.unimore.it/it/dipartimento/personale-del-dipartimento",
+   "evidence_quote": "CONTINI Annamaria | Professoressa Ordinaria ... Direttice del Dipartimento |",
+   "email_source_url": "https://www.desu.unimore.it/it/dipartimento/organi-e-referenti-del-dipartimento"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Director of the Department, she holds the highest leadership role within the institution. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ESN Erasmus Student Network Modena",
+    "partner_country": "Italy",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.desu.unimore.it/it/internazionalizzazione/esn-erasmus-student-network-modena",
+    "evidence_quote": "ESN Erasmus Student Network Modena | Dipartimento di Educazione e Scienze Umane",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Commissione Europea",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.desu.unimore.it/it/internazionalizzazione/erasmus-studio",
+    "evidence_quote": "L'Università di Modena e Reggio Emilia stipula ogni anno un Contratto Istituzionale con la Commissione Europea indicando tutte le attività che intende svolgere nell'ambito del programma.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidad Loyola",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.desu.unimore.it/it/internazionalizzazione/erasmus-studio",
+    "evidence_quote": "L'Universidad Loyola sta cercando dei tirocinanti per il secondo semestre dell'a.a. 2024/2025",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidad Pontificia de Salamanca",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.desu.unimore.it/it/internazionalizzazione/erasmus-studio",
+    "evidence_quote": "Erasmus+ internship offer at Universidad Pontificia de Salamanca",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universitat de València",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.desu.unimore.it/it/internazionalizzazione/erasmus-studio",
+    "evidence_quote": "Opportunità di tirocinio presso la Universitat de València",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Dipartimento di Educazione e Scienze Umane",
+    "city": "Reggio nell'Emilia",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.desu.unimore.it/it",
+    "evidence_quote": "Sede: Viale Timavo 93 - 42121 Reggio nell'Emilia"
+   },
+   {
+    "campus_name": "Università degli Studi di Modena e Reggio Emilia",
+    "city": "Modena",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.unimore.it/it/ateneo/bandi/bando-erasmus-ka-131-studio-20262027-ue-ed-extra-ue",
+    "evidence_quote": "Sede di Modena: Via Università 4, 41121 Modena, Tel. 059 2056511 - Fax 059 245156"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information about the department's Erasmus+ programs and administrative contacts, but does not contain a specific list of partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.7,
+  "crawl_s": 17.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 10.7,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 38.1
+ }
+}
