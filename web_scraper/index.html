@@ -884,8 +884,8 @@ function renderTiles(t) {
       const b = document.createElement("div");
       b.id = "preview-banner";
       b.textContent = `PREVIEW: simulated ${PREVIEW}% figures, not real data. Remove ?preview=${PREVIEW} from the address to see the real figures.`;
-      b.style.cssText = "background:#c92a2a;color:#fff;font-weight:600;padding:10px 14px;border-radius:8px;margin:0 0 14px";
-      $("d-tiles").before(b);
+      b.style.cssText = "background:#c92a2a;color:#fff;font-weight:600;padding:10px 14px;border-radius:8px;margin:24px 16px";
+      document.body.append(b);                    // at the very bottom of the page
     }
   }
   const site = t.with_website ?? (t.institutes - (t.no_website || 0));
