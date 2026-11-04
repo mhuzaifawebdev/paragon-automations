@@ -1,0 +1,59 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-11-04T08:35:19Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Expansionvideos",
+  "institution_type": "unknown",
+  "official_website": "https://expansionvideos.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://expansionvideos.com/",
+   "evidence_quote": "© 2015–2026 ExpansionVideos, part of Villadose LLC · Sheridan, Wyoming, USA · Privacy · Terms · Cookies"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "studio@expansionvideos.com",
+  "generic_email_url": "https://expansionvideos.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Villadose LLC",
+    "city": "Sheridan, Wyoming",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://expansionvideos.com/",
+    "evidence_quote": "Sheridan, Wyoming"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial video production company, not an educational institution. No specific contact persons are named in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 7.2,
+  "ai_calls": 2,
+  "model_s": 8.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 21.5
+ }
+}
