@@ -1,0 +1,79 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-11-04T21:27:53Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "Rīgas 71.vidusskola",
+  "institution_type": "school",
+  "official_website": "https://71vsk.lv/",
+  "country": null,
+  "phone": {
+   "value": "+371 67037057",
+   "source_url": "https://71vsk.lv/skolas-kontakti-2/",
+   "evidence_quote": "+371 67037057 (sekretāre)"
+  },
+  "phone_alt": [],
+  "generic_email": "r71vs@riga.lv",
+  "generic_email_url": "https://71vsk.lv/skolas-kontakti-2/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "VIII Liceum Ogólnokształcące im. Marii Skłodowskiej-Curie z Oddziałami Dwujęzycznymi",
+    "partner_country": "Poland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://71vsk.lv/category/erasmus/",
+    "evidence_quote": "Erasmus+ projekts ar Polijas skolu VIII Liceum Ogólnokształcące im. Marii Skłodowskiej-Curie z Oddziałami Dwujęzycznymiim",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "I korpuss (galvenā ēka)",
+    "city": "Rīga",
+    "country": "Latvia",
+    "role": "main",
+    "source_url": "https://71vsk.lv/skolas-kontakti-2/",
+    "evidence_quote": "I korpuss (galvenā ēka)"
+   },
+   {
+    "campus_name": "II korpuss",
+    "city": "Rīga",
+    "country": "Latvia",
+    "role": "branch",
+    "source_url": "https://71vsk.lv/skolas-kontakti-2/",
+    "evidence_quote": "II korpuss"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ partners or a dedicated international office contact. The contact provided is a teacher involved in project activities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 15.9,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 27.9
+ }
+}

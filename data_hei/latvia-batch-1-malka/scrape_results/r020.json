@@ -1,0 +1,99 @@
+{
+ "row_id": "r020",
+ "scraped_at": "2026-11-04T21:27:48Z",
+ "contacts": {
+  "row_id": "r020",
+  "institution_name": "Rīgas 49. vidusskola",
+  "institution_type": "school",
+  "official_website": "https://49.lv/",
+  "country": null,
+  "phone": {
+   "value": "371 67474080",
+   "source_url": "https://49.lv/page/contacts",
+   "evidence_quote": "67474080"
+  },
+  "phone_alt": [],
+  "generic_email": "r49vs@riga.lv",
+  "generic_email_url": "https://49.lv/page/contacts",
+  "contact": {
+   "name": "Ieva Ērika Šmite",
+   "designation": "Project coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://49.lv/page/project",
+   "evidence_quote": "Projekta dalībnieki:10.-11. klašu skolēni, pieci skolas skolotāji. Projekta koordinators: Ieva Ērika Šmite"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). She is explicitly named as the project coordinator for Erasmus+ projects at the school.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Francija",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://49.lv/page/project",
+    "evidence_quote": "Projekta dalībvalstis:Latvija, Francija, Beļģija, Spānija",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Beļģija",
+    "partner_country": "Belgium",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://49.lv/page/project",
+    "evidence_quote": "Projekta dalībvalstis:Latvija, Francija, Beļģija, Spānija",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Spānija",
+    "partner_country": "Spain",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://49.lv/page/project",
+    "evidence_quote": "Projekta dalībvalstis:Latvija, Francija, Beļģija, Spānija",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Rīgas 49. vidusskola",
+    "city": "Rīga",
+    "country": "Latvia",
+    "role": "main",
+    "source_url": "https://49.lv/page/contacts",
+    "evidence_quote": "Krišjāņa Valdemāra iela 65, Rīga, LV-1010"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 4,
+  "coverage_note": "The evidence lists specific countries involved in Erasmus+ projects but does not provide a formal list of partner institutions. No email addresses for individual staff members are provided in the text. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 7.2,
+  "thin_home": true,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 13.4,
+  "total_seconds": 24.7
+ }
+}

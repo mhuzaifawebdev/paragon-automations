@@ -1,0 +1,89 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-11-04T21:27:24Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Priekules vidusskola",
+  "institution_type": "school",
+  "official_website": "http://www.priekule.edu.lv/",
+  "country": null,
+  "phone": {
+   "value": "(+371) 28958598",
+   "source_url": "http://www.priekule.edu.lv/index.php/par-skolu/kontakti-2",
+   "evidence_quote": "direktors 28958598"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Madara Jansone",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://www.priekule.edu.lv/index.php/projekti/erasmus",
+   "evidence_quote": "Skolas direktore Madara Jansone un svešvalodu skolotāja Iveta Pumpiņa piedalās Erasmus+ kursos Malagā par ChatGPT un mākslīgā intelekta rīki skolotājiem."
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). She is the head of the institution and has participated in Erasmus+ mobility activities.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini), named 'Priekules pamatskola' on the site. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Scuola Secondaria di I° Grado Plesso Giovanni Pascoli",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "http://www.priekule.edu.lv/index.php/projekti/erasmus",
+    "evidence_quote": "Sadarbības turpinājums ar citu valstu pedagogiem un skolām ir pašu kursu dalībnieku ziņā. 2023.gada marta tikšanos, var uzskatīt par lielisku piemēru Erasmus+ projekta turpinājumam un dod tiem īpašu pievienoto vērtību arī pēc to noslēgumas. Skolotāja Santa Avotiņa viesojās Scuola Secondaria di I° Grado Plesso Giovanni Pascoli nelielā Itālijas Adrijas jūras piekrastes pilsētā Margherita di Savoia.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ogres tehnikums",
+    "partner_country": "Latvia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "http://www.priekule.edu.lv/index.php/projekti/erasmus/2483-erasmus-horvatija",
+    "evidence_quote": "Mums bija iespēja piedalīties nodarbībās, kurās apguva kritiskās domāšanas pamatprincipus un angļu valodas mācīšanas metodiku. Katra diena bija ļoti izzinoša un iespēja gūt jaunu pieredzi. Apmeklējām vienu no Splitas tehnikumiem, uzzinājām par Horvātijas skolu sadarbību Erasmus+ projektos. Šis tehnikums sadarbojas ar Ogres tehnikumu Latvijā. Katras valsts pārstāvji iepazīstināja arī ar izglītības sistēmu un struktūru, galvenajām problēmām, veiksmēm un neveiksmēm.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Priekules pamatskola",
+    "city": "Priekule",
+    "country": "Latvia",
+    "role": "main",
+    "source_url": "http://www.priekule.edu.lv/index.php/par-skolu/kontakti-2",
+    "evidence_quote": "Adrese: Aizputes 1, Priekule, Dienvidkurzemes novads, LV3434"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions several Erasmus+ project activities and specific partner schools, but does not provide a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 12.4,
+  "crawl_s": 12.7,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.9,
+  "total_seconds": 31.9
+ }
+}
