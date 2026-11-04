@@ -1,0 +1,71 @@
+{
+ "row_id": "r054",
+ "scraped_at": "2026-11-04T18:40:39Z",
+ "contacts": {
+  "row_id": "r054",
+  "institution_name": "Secondary school \"Yordan Yovkov\" Tutrakan",
+  "institution_type": "school",
+  "official_website": "https://souyovkov.com/",
+  "country": null,
+  "phone": {
+   "value": "0894419652",
+   "source_url": "https://souyovkov.com/?page_id=24",
+   "evidence_quote": "Директор: Анка Атанасова: 0894419652"
+  },
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "СУ „Св. Климент Охридски“",
+    "partner_country": "Bulgaria",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://souyovkov.com/?page_id=4653",
+    "evidence_quote": "Осмокласниците, с ръководител Нели Манчева имаха възможността да се запознаят с практикуващ програмист в лицето на младия асистент по Функционално програмиране към СУ „Св. Климент Охридски“ – Еслин Каранасуф. Срещата днес, 8.06.2023 г. е поредната като дейност за нашето училище, което за трета поредна година е в списъка на иновативните училища и реализира проекта „Успехът ни обича“.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "СУ \"Йордан Йовков\"",
+    "city": "Tutrakan",
+    "country": "Bulgaria",
+    "role": "main",
+    "source_url": "https://souyovkov.com/",
+    "evidence_quote": "СУ \"Йордан Йовков\" - град Тутракан, обл. Силистра"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ partners or international mobility agreements. The school is identified as an innovative school collaborating with various local organizations and one university.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.9,
+  "crawl_s": 26.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 53.9
+ }
+}

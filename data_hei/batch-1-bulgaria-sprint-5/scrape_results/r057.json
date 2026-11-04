@@ -1,0 +1,95 @@
+{
+ "row_id": "r057",
+ "scraped_at": "2026-11-04T18:40:36Z",
+ "contacts": {
+  "row_id": "r057",
+  "institution_name": "Secondary school “Hristo Botev” Kubrat",
+  "institution_type": "school",
+  "official_website": "http://www.soukubrat.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Tatyana Docheva",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://www.soukubrat.com/index.php?option=com_content&view=article&id=129&Itemid=62&lang=en",
+   "evidence_quote": "Director: Tatyana Docheva"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Tatyana Docheva is the Director of the school and the primary contact person.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Икономически университет в гр. Варна",
+    "partner_country": "Bulgaria",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "http://www.soukubrat.com/index.php?option=com_content&view=category&id=68%3Aerasmus-2-counselling-at-schools&Itemid=93&layout=default&lang=en",
+    "evidence_quote": "Посещение на Икономически университет в гр. Варна",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gesamtschule Volksgarten",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "http://www.soukubrat.com/index.php?option=com_content&view=category&id=70%3Aerasmus-2-quality-values-acceptance&Itemid=96&layout=default&lang=en",
+    "evidence_quote": "http://gesamtschule-volksgarten.de/eva/index.html",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hristo Botev School",
+    "city": "Kubrat",
+    "country": "Bulgaria",
+    "role": "main",
+    "source_url": "http://www.soukubrat.com/",
+    "evidence_quote": "Welcome to the website of the \"Hristo Botev\" school Kubrat"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 9,
+  "coverage_note": "The website lists several Erasmus+ projects but does not provide a formal list of partner institutions. Contact emails are not explicitly provided for the staff members. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.7,
+  "crawl_s": 21.0,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 10.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 11.4,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 47.9
+ }
+}
