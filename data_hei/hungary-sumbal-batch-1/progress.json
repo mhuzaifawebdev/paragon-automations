@@ -1,23 +1,23 @@
 {
  "batch": "hungary-sumbal-batch-1",
  "status": "running",
- "generated_at": "2026-11-04T18:56:04.319100+00:00",
- "chunk": 3,
+ "generated_at": "2026-11-04T18:57:24.543405+00:00",
+ "chunk": 4,
  "total_chunks": 4,
  "total_rows": 83,
- "done": 50,
- "pending": 33,
- "elapsed_seconds": 396,
- "eta_seconds": 235,
- "cost_usd_so_far": 1.1408,
- "paid_search_usd": 1.1408,
+ "done": 53,
+ "pending": 30,
+ "elapsed_seconds": 442,
+ "eta_seconds": 85,
+ "cost_usd_so_far": 1.4089,
+ "paid_search_usd": 1.4089,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
  "search_failures": 0,
- "haiku_fallback_calls": 57,
+ "haiku_fallback_calls": 65,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 57,
+ "ai_calls": 58,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,17 +38,14 @@
   }
  ],
  "confidence": {
-  "high": 14,
+  "high": 15,
   "medium": 15,
-  "low": 9,
-  "none": 12
+  "low": 10,
+  "none": 13
  },
- "partners_found": 279,
- "campuses_found": 48,
+ "partners_found": 301,
+ "campuses_found": 50,
  "recent": [
-  "r031",
-  "r032",
-  "r033",
   "r034",
   "r035",
   "r036",
@@ -65,6 +62,9 @@
   "r047",
   "r048",
   "r049",
-  "r050"
+  "r050",
+  "r051",
+  "r054",
+  "r056"
  ]
 }
