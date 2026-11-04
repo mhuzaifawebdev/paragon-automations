@@ -1,0 +1,127 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-11-04T17:35:53Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Coláiste Chiaráin Croom",
+  "institution_type": "school",
+  "official_website": "https://cco.ie/wp/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "admin@cco.ie",
+  "generic_email_url": "https://cco.ie/wp/",
+  "contact": {
+   "name": "Mr. Gerard O’Sullivan",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "%20principal@cco.ie",
+   "office_email": "",
+   "phone": "+353 61 397700",
+   "source_url": "https://cco.ie/wp/contact/",
+   "evidence_quote": "Principal ... Mr. Gerard O’Sullivan principal@cco.ie <%20principal@cco.ie>"
+  },
+  "alternates": [
+   {
+    "name": "Ms. Evelyn Canty",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "%20ecanty@cco.ie",
+    "office_email": "",
+    "phone": "+353 61 397700",
+    "source_url": "https://cco.ie/wp/contact/",
+    "evidence_quote": "Deputy Principals ... Ms. Evelyn Canty ecanty@cco.ie <%20ecanty@cco.ie>",
+    "why_chosen": "Principal / director (no Erasmus contact found). As a Deputy Principal, she is part of the senior management team and handles school leadership responsibilities."
+   },
+   {
+    "name": "Mr. Gareth O’Connell",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "%20goconnell@cco.ie",
+    "office_email": "",
+    "phone": "+353 61 397700",
+    "source_url": "https://cco.ie/wp/contact/",
+    "evidence_quote": "Deputy Principals ... Mr. Gareth O’Connell goconnell@cco.ie <%20goconnell@cco.ie>",
+    "why_chosen": "Principal / director (no Erasmus contact found). As a Deputy Principal, he is part of the senior management team and handles school leadership responsibilities."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the Principal, he is the head of the institution and the primary contact for administrative and leadership matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "American Exchange Partnership",
+    "partner_country": "USA",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://cco.ie/wp/",
+    "evidence_quote": "American Exchange Partnership",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "MTU Kerry",
+    "partner_country": "Ireland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://cco.ie/wp/",
+    "evidence_quote": "A team of intrepid students from Coláiste Chiaráin are hoping to reach new heights at the national Cansat finals in Offaly this weekend. The students hope to build on their success at the regional finals held in Tralee at MTU Kerry. The goal of the competition is to...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Limerick and Clare Education and Training Board",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://cco.ie/wp/",
+    "evidence_quote": "Coláiste Chiaráin is a co-educational secondary school operating under the patronage of Limerick and Clare Education and Training Board. www.lcetb.ie",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Coláiste Chiaráin",
+    "city": "Croom",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://cco.ie/wp/",
+    "evidence_quote": "Croom, Co. Limerick"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not provide a comprehensive list of Erasmus+ or international mobility partners, only mentioning an American exchange partnership.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.1,
+  "crawl_s": 11.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 26.4
+ }
+}

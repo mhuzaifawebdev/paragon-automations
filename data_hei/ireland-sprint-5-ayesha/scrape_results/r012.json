@@ -1,0 +1,94 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-11-04T17:35:57Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Coláiste Chill Mhantáin",
+  "institution_type": "school",
+  "official_website": "https://www.ColaisteChillMhantain.ie/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Padraig Donoghue",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "admin.ccm@kwetb.ie",
+   "office_email": "",
+   "phone": "0404-61863",
+   "source_url": "https://www.ColaisteChillMhantain.ie/",
+   "evidence_quote": "Principal: Padraig Donoghue"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Principal, he is the head of the institution and the primary contact for school management.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Department of Education",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ColaisteChillMhantain.ie/page/Board-of-management-2024-27/3622/Index.html",
+    "evidence_quote": "The school complies with all the rules and regulations as prescribed by the Department of Education",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Coláiste Chill Mhantáin",
+    "city": "Wicklow",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.ColaisteChillMhantain.ie/",
+    "evidence_quote": "Coláiste Chill Mhantáin,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain any information regarding international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.7,
+  "crawl_s": 10.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 9.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     195
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 27.1
+ }
+}

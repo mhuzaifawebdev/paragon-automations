@@ -1,0 +1,133 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-11-04T17:35:51Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Christ King Secondary School",
+  "institution_type": "school",
+  "official_website": "https://www.christkingschool.com/",
+  "country": {
+   "value": "Ireland",
+   "source_url": "https://www.christkingschool.com/",
+   "evidence_quote": "Ireland"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "admin@christkingschool.com",
+  "generic_email_url": "https://www.christkingschool.com/",
+  "contact": {
+   "name": "Ms. Richel Long",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.christkingschool.com/principals-welcome#%3A~%3Atext%3DThe%2520Principal",
+   "evidence_quote": "Ms. Richel Long ... Principal"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Principal, she is the head of the institution and the primary contact for school management.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CEIST",
+    "partner_country": "Ireland",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.christkingschool.com/",
+    "evidence_quote": "Key Values of CEIST",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Trinity College Dublin",
+    "partner_country": "Ireland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.christkingschool.com/principals-welcome#%3A~%3Atext%3DThe%2520Principal",
+    "evidence_quote": "Ms Richel Long is a graduate of Trinity College Dublin, having completed a concurrent degree in Education with Home Economics and Irish (Gaeilge).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University College Cork",
+    "partner_country": "Ireland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.christkingschool.com/principals-welcome#%3A~%3Atext%3DThe%2520Principal",
+    "evidence_quote": "Following this Bachelor of Education award, Ms Long undertook her Master of Arts in Irish at Trinity College Dublin. Returning to her native Cork and following several years of teaching, Ms Long moved into the position of Deputy Principal in 2011. Subsequently, she undertook her Master of Education at University College Cork. Ms Long held one previous Principal position before being appointed Principal of Christ King Girls’ Secondary School in 2019. Ms Long’s most recent educational qualificatio",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Presentation Sisters",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.christkingschool.com/school-policies-governance",
+    "evidence_quote": "Policies & Governance — Christ King Girls' Secondary School Founded by the Presentation Sisters in 1965",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Christ King Girls' Secondary School",
+    "city": "Cork",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.christkingschool.com/",
+    "evidence_quote": "South Douglas Road"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 8,
+  "coverage_note": "The evidence does not contain any information regarding Erasmus+ or international mobility partnerships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 11.1,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.1,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 9.9,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     316
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 24.8
+ }
+}
