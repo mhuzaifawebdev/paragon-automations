@@ -1,0 +1,128 @@
+{
+ "row_id": "r027",
+ "scraped_at": "2026-11-04T20:57:32Z",
+ "contacts": {
+  "row_id": "r027",
+  "institution_name": "Gimnazija Murska Sobota",
+  "institution_type": "school",
+  "official_website": "https://www.gim-ms.si/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@gim-ms.si",
+  "generic_email_url": "https://www.gim-ms.si/",
+  "contact": {
+   "name": "Roman Činč",
+   "designation": "principal",
+   "designation_local": "",
+   "email": "roman.cinc@gmail.com",
+   "office_email": "",
+   "phone": "02 538 12 62",
+   "source_url": "https://www.gim-ms.si/about-us/",
+   "evidence_quote": "principal: Roman Činč"
+  },
+  "alternates": [
+   {
+    "name": "Alenka Stvarnik",
+    "designation": "Baccalaureate secretary",
+    "designation_local": "",
+    "email": "alenka.stvarnik@guest.arnes.si",
+    "office_email": "",
+    "phone": "02 538 12 77",
+    "source_url": "https://www.gim-ms.si/about-us/",
+    "evidence_quote": "Baccalaureate secretary: Alenka Stvarnik",
+    "why_chosen": "Secretary / administration (last resort). Alenka Stvarnik is the baccalaureate secretary at the institution."
+   },
+   {
+    "name": "Ivica Glavak",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "iglavak30@gmail.com",
+    "office_email": "",
+    "phone": "02 538 12 60",
+    "source_url": "https://www.gim-ms.si/about-us/",
+    "evidence_quote": "Secretar: Ivica Glavak",
+    "why_chosen": "Secretary / administration (last resort). Ivica Glavak is the secretary at the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Roman Činč is the principal of Gimnazija Murska Sobota.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Katharinen-Gymnasium",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gim-ms.si/",
+    "evidence_quote": "V času od 5. oktobra do 9. oktobra je pri dijakih oz. dijakinjah Gimnazije Murska Sobota gostovalo 9 dijakov oz. dijakinj iz Katharinen-Gymnasium iz Ingolstadta. Sodelovanje med obema šolama traja […]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Katharinengymnasium",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gim-ms.si/tag/mednarodno-sodelovanje/",
+    "evidence_quote": "V šolskem letu 2023/2024 je Gimnazija Murska Sobota že drugo leto vključena v skupni projekt s Katharinengymnasium iz Ingolstadta. V tem šolskem letu so najprej v mesecu oktobru gostovali nemški […]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SPTŠ Murska Sobota",
+    "partner_country": "Slovenia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gim-ms.si/tag/mednarodno-sodelovanje/",
+    "evidence_quote": "Tudi v letošnjem letu so se dijaki Gimnazije Murska Sobota in SPTŠ Murska Sobota na povabilo Mestne občine Murska Sobota in fundacije Stiftung Jugend fragt e. V. pobratenega mesta Ingolstadt […]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stiftung Jugend fragt e. V.",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gim-ms.si/tag/mednarodno-sodelovanje/",
+    "evidence_quote": "Tudi v letošnjem letu so se dijaki Gimnazije Murska Sobota in SPTŠ Murska Sobota na povabilo Mestne občine Murska Sobota in fundacije Stiftung Jugend fragt e. V. pobratenega mesta Ingolstadt […]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gimnazija Murska Sobota",
+    "city": "Murska Sobota",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://www.gim-ms.si/",
+    "evidence_quote": "GIMNAZIJA MURSKA SOBOTA"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 7,
+  "coverage_note": "The website does not provide a dedicated list of Erasmus+ or international partners, though some are mentioned in news articles. No specific international relations staff contact details are provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 11.9,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 44.0
+ }
+}

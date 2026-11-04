@@ -1,0 +1,84 @@
+{
+ "row_id": "r031",
+ "scraped_at": "2026-11-04T20:57:31Z",
+ "contacts": {
+  "row_id": "r031",
+  "institution_name": "Gimnazija Ptuj",
+  "institution_type": "school",
+  "official_website": "https://www.gimptuj.si/",
+  "country": {
+   "value": "Slovenija",
+   "source_url": "https://www.gimptuj.si/",
+   "evidence_quote": "Slovenija"
+  },
+  "phone": {
+   "value": "02 748 28 11",
+   "source_url": "https://www.gimptuj.si/kontakti/",
+   "evidence_quote": "02 748 28 11 |"
+  },
+  "phone_alt": [],
+  "generic_email": "info@gimptuj.si",
+  "generic_email_url": "https://www.gimptuj.si/",
+  "contact": {
+   "name": "Igor Šeruga",
+   "designation": "Pedagogical coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.gimptuj.si/kontakti/",
+   "evidence_quote": "Pedagoški koordinator: Igor Šeruga |"
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. English / language or EU-project teacher (no Erasmus contact found). Igor Šeruga serves as the pedagogical coordinator and is involved in the school's educational coordination.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Liceo Scientifico Enrico Fermi",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gimptuj.si/2023/02/07/erasmus-projekta-nihce-ni-otok-mobilnost-v-italiji/",
+    "evidence_quote": "Dijaki in profesorji projektnih timov Erasmus+ projekta Nihče ni otok so se v času od 22. do 27. januarja udeležili zadnje skupne dejavnosti učenja in usposabljanja z naslovom Spreminjamo naš svet. Slovenske in latvijske udeležence je gostila partnerska šola Liceo Scientifico Enrico Fermi iz Averse v Italiji.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gimnazija Ptuj",
+    "city": "Ptuj",
+    "country": "Slovenija",
+    "role": "main",
+    "source_url": "https://www.gimptuj.si/",
+    "evidence_quote": "Gimnazija Ptuj"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 6,
+  "coverage_note": "The evidence lists several Erasmus+ project titles but does not provide a comprehensive list of partner institutions beyond one specific school mentioned in a news article.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 13.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 22.6,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.3,
+  "total_seconds": 42.6
+ }
+}
