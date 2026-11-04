@@ -1,0 +1,122 @@
+{
+ "row_id": "r014",
+ "scraped_at": "2026-11-04T19:07:14Z",
+ "contacts": {
+  "row_id": "r014",
+  "institution_name": "St. Caimin’s Community School",
+  "institution_type": "school",
+  "official_website": "https://www.saintcaimins.ie/",
+  "country": null,
+  "phone": {
+   "value": "061 - 364211",
+   "source_url": "https://www.saintcaimins.ie/",
+   "evidence_quote": "Tel: 061 - 364211"
+  },
+  "phone_alt": [],
+  "generic_email": "info@stcaimins.ie",
+  "generic_email_url": "https://www.saintcaimins.ie/",
+  "contact": {
+   "name": "Maria Sheehan",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "maria.sheehan@stcaimins.ie",
+   "office_email": "",
+   "phone": "061 - 364211",
+   "source_url": "https://www.saintcaimins.ie/about-us",
+   "evidence_quote": "Principal ... Maria Sheehan"
+  },
+  "alternates": [
+   {
+    "name": "Raymond Maher",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "Raymond.Maher@stcaimins.ie",
+    "office_email": "",
+    "phone": "061 - 364211",
+    "source_url": "https://www.saintcaimins.ie/about-us",
+    "evidence_quote": "Deputy Principals ... Raymond Maher",
+    "why_chosen": "Principal / director (no Erasmus contact found). Raymond Maher is a Deputy Principal and holds a leadership role within the school."
+   },
+   {
+    "name": "Jenny O'Halloran",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "Derval.Glendon-Garry@stcaimins.ie",
+    "office_email": "",
+    "phone": "061 - 364211",
+    "source_url": "https://www.saintcaimins.ie/about-us",
+    "evidence_quote": "Deputy Principals ... Jenny O'Halloran <Derval.Glendon-Garry@stcaimins.ie> <Derval.Glendon-Garry@stcaimins.ie>",
+    "why_chosen": "Principal / director (no Erasmus contact found). Jenny O'Halloran is a Deputy Principal and holds a leadership role within the school."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Maria Sheehan is the Principal of the school and is the primary contact for institutional matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Bishop of Killaloe",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.saintcaimins.ie/about-us",
+    "evidence_quote": "The trustees of the school, who underpin its educational values, are the Bishop of Killaloe and the Limerick and Clare Education and Training Board (LCETB).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Limerick and Clare Education and Training Board (LCETB)",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.saintcaimins.ie/about-us",
+    "evidence_quote": "The trustees of the school, who underpin its educational values, are the Bishop of Killaloe and the Limerick and Clare Education and Training Board (LCETB).",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "St. Caimin's Community School",
+    "city": "Shannon",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://www.saintcaimins.ie/about-us",
+    "evidence_quote": "Welcome to St Caimin’s Community School. St Caimin's first opened in Shannon in 1985. This school building was built on the site in 2002."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain any information regarding Erasmus+ or international mobility partnerships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 8.7,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 12.1
+ }
+}
