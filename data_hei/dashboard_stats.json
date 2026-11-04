@@ -1,21 +1,36 @@
 {
- "generated_at": "2026-11-04T09:09:40.515189+00:00",
+ "generated_at": "2026-11-04T09:10:57.526284+00:00",
  "totals": {
-  "institutes": 32376,
-  "with_contact": 22031,
-  "with_email": 18988,
-  "personal_email": 10379,
-  "generic_email": 15154,
-  "partners": 433438,
-  "campuses": 43971,
-  "no_website": 6401,
-  "with_website": 25975,
-  "reachable": 17506,
+  "institutes": 32474,
+  "with_contact": 22108,
+  "with_email": 19098,
+  "personal_email": 10441,
+  "generic_email": 15213,
+  "partners": 437180,
+  "campuses": 44115,
+  "no_website": 6394,
+  "with_website": 26080,
+  "reachable": 17581,
   "reachable_missing": 1149,
   "website_dead": 0,
-  "batches": 277
+  "batches": 279
  },
  "days": [
+  {
+   "day": "2026-09-25",
+   "institutes": 98,
+   "with_contact": 66,
+   "with_email": 41,
+   "personal_email": 41,
+   "generic_email": 0,
+   "partners": 3749,
+   "campuses": 145,
+   "no_website": 0,
+   "with_website": 98,
+   "reachable": 75,
+   "reachable_missing": 0,
+   "website_dead": 0
+  },
   {
    "day": "2026-09-30",
    "institutes": 11,
@@ -258,6 +273,25 @@
   }
  ],
  "batches": [
+  {
+   "batch": "website-recheck-outside-contacts-4",
+   "status": "done",
+   "total_rows": 168,
+   "done": 168,
+   "updated": "2026-11-04T14:10:50Z",
+   "institutes": 168,
+   "with_contact": 28,
+   "with_email": 138,
+   "personal_email": 19,
+   "generic_email": 119,
+   "partners": 0,
+   "campuses": 0,
+   "no_website": 0,
+   "with_website": 168,
+   "reachable": 165,
+   "reachable_missing": 0,
+   "website_dead": 0
+  },
   {
    "batch": "website-recheck-outside-contacts-3",
    "status": "done",
@@ -5518,6 +5552,25 @@
    "no_website": 0,
    "with_website": 5,
    "reachable": 5,
+   "reachable_missing": 0,
+   "website_dead": 0
+  },
+  {
+   "batch": "B1",
+   "status": "done",
+   "total_rows": 98,
+   "done": 98,
+   "updated": "",
+   "institutes": 98,
+   "with_contact": 66,
+   "with_email": 41,
+   "personal_email": 41,
+   "generic_email": 0,
+   "partners": 3749,
+   "campuses": 145,
+   "no_website": 0,
+   "with_website": 98,
+   "reachable": 75,
    "reachable_missing": 0,
    "website_dead": 0
   }
