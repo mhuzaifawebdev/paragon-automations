@@ -1,0 +1,90 @@
+{
+ "row_id": "r045",
+ "scraped_at": "2026-11-04T18:11:01Z",
+ "contacts": {
+  "row_id": "r045",
+  "institution_name": "Jan Tinbergen College",
+  "institution_type": "school",
+  "official_website": "https://www.jtc.nl/",
+  "country": null,
+  "phone": {
+   "value": "0165 - 543 871",
+   "source_url": "https://www.jtc.nl/",
+   "evidence_quote": "T: 0165 - 543 871 <tel 0165 - 543 871>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@jtc.nl",
+  "generic_email_url": "https://www.jtc.nl/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "KUARIO",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.jtc.nl/contact/",
+    "evidence_quote": "Bij de catering op school kan er uitsluitend digitaal worden betaald met het digitale betaalsysteem KUARIO. Via de mobiele KUARIO-app of online via kuario.com kunnen transacties worden bekeken en eenvoudig het saldo worden opgewaardeerd. Het geld is opgeslagen in de Cloud en staat dus niet fysiek op de telefoon. Om de KUARIO-app in gebruik te kunnen nemen is het nodig een account aan te maken via https://login.kuario.com/. Of download de KUARIO app in Google Play of de App Store.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Colsensation",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.jtc.nl/samen-met-een-groep-van-7-leerlingen-en-4-docenten-doen-we-mee-aan-de-colsensation/",
+    "evidence_quote": "Samen met een groep van 7 leerlingen en 4 docenten deden we mee aan de Colsensation - Jan Tinbergen College",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Jan Tinbergen College",
+    "city": "Roosendaal",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.jtc.nl/contact/",
+    "evidence_quote": "Het JTC geeft les aan de Schneiderlaan, Commandobaan. De school heeft twee moderne gebouwen. In het d-gebouw heeft de brugklas zijn eigen aula en lockerruimte. In het abc gebouw hebben de leerlingen van klas 2 en hoger hun lockers. Dit gebouw heeft twee aula’s. Een aula voor klas 2 en 3 en een aparte aula voor klas 4 en hoger. De brugklas leerlingen krijgen zoveel mogelijk in het d-gebouw les, maar komen ook in het hoofdgebouw. Dat geldt andersom ook voor de leerlingen van klas 2 tot en met 6."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain information about Erasmus+ or international mobility partnerships. No specific international relations staff were identified.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.2,
+  "crawl_s": 5.9,
+  "ai_calls": 3,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 24.8
+ }
+}
