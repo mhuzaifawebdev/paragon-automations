@@ -1,0 +1,98 @@
+{
+ "row_id": "r018",
+ "scraped_at": "2026-11-04T20:55:38Z",
+ "contacts": {
+  "row_id": "r018",
+  "institution_name": "Gimnazija elektro in pomorska šola Piran",
+  "institution_type": "school",
+  "official_website": "https://www.geps.si/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ada.goljuf@geps.si",
+  "generic_email_url": "https://www.geps.si/zaposleni/?staff-filter-enota=gimnazija",
+  "contact": {
+   "name": "Katja Pobega",
+   "designation": "Assistant Principal",
+   "designation_local": "",
+   "email": "katja.pobega@guest.arnes.si",
+   "office_email": "",
+   "phone": "05 671 32 50",
+   "source_url": "https://www.geps.si/kontakti/",
+   "evidence_quote": "Pomočnica ravnatelja: ... Katja Pobega"
+  },
+  "alternates": [
+   {
+    "name": "Martin Spacal",
+    "designation": "Contact person",
+    "designation_local": "",
+    "email": "martin.spacal@guest.arnes.si",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.geps.si/kontakti/",
+    "evidence_quote": "Kontaktna oseba: Martin Spacal martin.spacal@guest.arnes.si <martin.spacal@guest.arnes.si>",
+    "why_chosen": "Other role. Martin Spacal is listed as a contact person for the institution."
+   },
+   {
+    "name": "Elen Cergol",
+    "designation": "Contact person",
+    "designation_local": "",
+    "email": "elen.cergol@guest.arnes.si",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.geps.si/kontakti/",
+    "evidence_quote": "Kontaktna oseba: Elen Cergol elen.cergol@guest.arnes.si <elen.cergol@guest.arnes.si>",
+    "why_chosen": "Other role. Elen Cergol is listed as a contact person for the institution."
+   }
+  ],
+  "rung": "Other role. Katja Pobega is the assistant principal of the institution.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gimnazija, elektro in pomorska šola Piran",
+    "city": "Piran",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://www.geps.si/",
+    "evidence_quote": "Bolniška ulica 11, 6330 Piran"
+   },
+   {
+    "campus_name": "Dijaški dom Portorož",
+    "city": "Portorož",
+    "country": "Slovenia",
+    "role": "branch",
+    "source_url": "https://www.geps.si/kontakti/",
+    "evidence_quote": "Naslov: Sončna pot 20, 6320 Portorož"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The website mentions international projects and partnerships but does not provide a specific list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.7,
+  "crawl_s": 11.8,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 3,
+  "email_search_s": 0.0,
+  "total_seconds": 19.0
+ }
+}
