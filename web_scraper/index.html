@@ -888,6 +888,8 @@ function renderTiles(t) {
     [fmtN(t.campuses), "Campuses found", avg(t.campuses, site) + " per institute on average", "campuses"],
     [fmtN(t.no_website), "Website not found", pct(t.no_website, t.institutes) + " of all institutes"],
   ];
+  // a website that never loaded on three different days: kept out of the percentages above, shown here
+  if (t.website_dead) tiles.push([fmtN(t.website_dead), "Website not working", "did not load on 3 different days"]);
   // shown once every batch has been counted with it (older batches are re-counted by scripts/boost_free.py)
   if (t.reachable != null && !t.reachable_missing)
     tiles.splice(4, 0, [fmtN(t.reachable), "Reachable: email or phone", pct(t.reachable, site) + " of institutes with a website"]);

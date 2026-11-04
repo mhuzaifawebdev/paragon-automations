@@ -35,14 +35,18 @@ import pipeline  # noqa: E402
 import rank  # noqa: E402
 
 DATA = ROOT / "data_hei"
+DEAD_DAYS = 3      # failed loads on this many different days before a website counts as not working
 ROUND = 2          # raised when these rules change, so institutes boosted earlier are read again (2: other-domain emails)
 
 
 def wants(res):
     """'email', 'contact', both, or nothing: what this result is missing that a free re-read could add."""
     c = (res or {}).get("contacts") or {}
-    if not c.get("official_website") or c.get("boost_round", 0) >= ROUND:
+    if not c.get("official_website") or c.get("site_dead"):
         return set()
+    today = time.strftime("%Y-%m-%d", time.gmtime())
+    if c.get("boost_round", 0) >= ROUND and not (c.get("dead_days") and today not in c["dead_days"]):
+        return set()                                # done, unless the site failed to load on an earlier day
     out = set()
     if not c.get("contact"):
         out.add("contact")
@@ -80,8 +84,16 @@ def boost(res, max_pages=4):
         if email:
             c.update(generic_email=email, generic_email_url=url)
             got_email = True
+    today = time.strftime("%Y-%m-%d", time.gmtime())
+    if pages:
+        c.pop("dead_days", None)
+    else:
+        # a site that cannot be loaded on DEAD_DAYS different days is counted as "Website not working", not as a website
+        c["dead_days"] = sorted(set(c.get("dead_days") or []) | {today})
+        if len(c["dead_days"]) >= DEAD_DAYS:
+            c["site_dead"] = True
     c["boost_round"] = ROUND
-    c["boost_checked"] = time.strftime("%Y-%m-%d", time.gmtime())
+    c["boost_checked"] = today
     return got_email, got_contact
 
 
