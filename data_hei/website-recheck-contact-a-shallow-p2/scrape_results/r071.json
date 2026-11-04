@@ -1,0 +1,66 @@
+{
+ "row_id": "r071",
+ "scraped_at": "2026-11-04T08:48:26Z",
+ "contacts": {
+  "row_id": "r071",
+  "institution_name": "Fremdspracheninstitut LHM - Fachakademie für Übersetzen und Dolmetschen",
+  "institution_type": "college",
+  "official_website": "https://bdue.de/der-bdue",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@bdue.de",
+  "generic_email_url": "https://bdue.de/der-bdue",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SDI München",
+    "partner_country": "Deutschland",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://bdue.de/der-bdue",
+    "evidence_quote": "in Kooperation mit dem SDI München",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bundesgeschäftsstelle",
+    "city": "Berlin",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://bdue.de/der-bdue",
+    "evidence_quote": "Bundesgeschäftsstelle | Uhlandstr. 4–5 | 10623 Berlin | Telefon +49 30 88712830 | Telefax +49 30 88712840 | info(at)bdue.de"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence primarily discusses the German Federal Association of Interpreters and Translators (BDÜ) and mentions a cooperation with SDI München, but does not provide an extensive partner list or specific international mobility coordinator contacts for Fremdspracheninstitut LHM.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 9.4,
+  "ai_calls": 3,
+  "model_s": 6.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 85.7
+ }
+}
