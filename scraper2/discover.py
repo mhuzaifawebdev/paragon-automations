@@ -151,12 +151,59 @@ def _emails_domain(row):
     return out
 
 
+# Education ministries' own school directories: free, official, with each school's website. Only a single school
+# whose name holds every distinctive word of ours is taken (a common name such as 'College Jean Moulin' matches 397
+# schools; then the town must be in our name too).
+FR_ANNUAIRE = "https://data.education.gouv.fr/api/explore/v2.1/catalog/datasets/fr-en-annuaire-education/records"
+FR_SCHOOL = re.compile(r"\b(lyc[ée]e|coll[èe]ge|[ée]cole|eplefpa|cfa|erea|segpa|groupe scolaire|institution)\b", re.I)
+FR_GENERIC = {"lycee", "college", "ecole", "general", "generale", "technologique", "professionnel", "polyvalent", "prive",
+              "privee", "des", "les", "du", "de", "la", "le", "et", "saint", "sainte", "groupe", "scolaire", "superieure",
+              "metiers", "public", "publique", "agricole", "eplefpa", "cfa", "enseignement", "elementaire", "maternelle",
+              "primaire", "international", "regional", "lpo", "lgt", "lycees", "institution", "sgt", "section", "sur", "en"}
+
+
+def _plain(s):
+    s = unicodedata.normalize("NFKD", (s or "").lower())
+    return "".join(c for c in s if not unicodedata.combining(c))
+
+
+def registry_sites(row):
+    """Websites an education ministry's directory lists for exactly this school (France for now), or []."""
+    name, country = row.get("name") or "", _plain(row.get("country"))
+    if not (country.startswith("fr") or (not country and FR_SCHOOL.search(name))):
+        return []
+    words = [w for w in re.findall(r"[a-z]{3,}", _plain(name)) if w not in FR_GENERIC]
+    if not words:
+        return []
+    q = " ".join(words[:4])
+    url = FR_ANNUAIRE + "?" + urllib.parse.urlencode({"where": f'search("{q}")', "limit": 20,
+                                                      "select": "nom_etablissement,nom_commune,web"})
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20) as r:
+            found = json.loads(r.read().decode("utf-8")).get("results") or []
+    except Exception as e:
+        print(f"(school directory unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
+        return []
+    found = [f for f in found if f.get("web") and all(
+        w in _plain(f.get("nom_etablissement")) + " " + _plain(f.get("nom_commune")) for w in words[:4])]
+    if len(found) > 1:                              # same name in several towns: only the one whose town we name
+        found = [f for f in found if f.get("nom_commune") and _plain(f["nom_commune"]) in _plain(name)]
+    if len(found) != 1:
+        return []
+    web = found[0]["web"].strip()
+    return [web if web.startswith("http") else "https://" + web]
+
+
 WIKIDATA_TRIES, WIKIDATA_GAP_SECONDS = 4, 1.0
 _wikidata_lock = threading.Lock()
 _wikidata_next = {"at": 0.0}
 
 
-def _wikidata(name, country):
+def _wikidata(name, country, exact=None):
+    """Official websites (P856) of the Wikidata items a search for this name finds. exact: a set that receives the
+    websites of items whose label or alias, in ANY language, is exactly this name - strong proof on its own, for an
+    institute whose homepage words its name differently ('University of Amsterdam' is uva.nl, which says
+    'Universiteit van Amsterdam')."""
     if not name or len(name) < 4:
         return []
     def get(params):
@@ -180,18 +227,31 @@ def _wikidata(name, country):
         ids = [x["id"] for x in found.get("search", [])]
         if not ids:
             return []
-        ents = get({"action": "wbgetentities", "ids": "|".join(ids), "props": "claims", "format": "json"}).get("entities", {})
+        ents = get({"action": "wbgetentities", "ids": "|".join(ids), "props": "claims|labels|aliases",
+                    "format": "json"}).get("entities", {})
     except Exception as e:
         print(f"(Wikidata unavailable: {str(e)[:120]})", file=sys.stderr, flush=True)
         return []
-    urls = []
+    urls, key = [], _exact_key(name)
     for i in ids:
-        for c in ents.get(i, {}).get("claims", {}).get("P856", []):
+        ent = ents.get(i, {})
+        names = [v.get("value", "") for v in (ent.get("labels") or {}).values()]
+        names += [a.get("value", "") for al in (ent.get("aliases") or {}).values() for a in al]
+        same = bool(key) and any(_exact_key(x) == key for x in names)
+        for c in ent.get("claims", {}).get("P856", []):
             try:
                 urls.append(c["mainsnak"]["datavalue"]["value"])
             except Exception:
-                pass
+                continue
+            if same and exact is not None:
+                exact.add(urls[-1])
     return urls
+
+
+def _exact_key(name):
+    """A name compared letter for letter, ignoring case, accents, punctuation and a trailing '(City)'."""
+    s = unicodedata.normalize("NFKD", re.sub(r"\s*\([^)]*\)\s*$", "", name or "").lower())
+    return " ".join(re.findall(r"[a-z0-9]+", "".join(c for c in s if not unicodedata.combining(c))))
 
 
 def _claude_search(row):
@@ -721,10 +781,21 @@ def find_website(row, use_search=False, search_provider="claude_cli", paid_searc
             hit = attempt(u, "email domain")
             if hit:
                 return hit
-    for u in _wikidata(row.get("name"), row.get("country")):
+    exact = set()
+    for u in _wikidata(row.get("name"), row.get("country"), exact):
         hit = attempt(u, "Wikidata")
         if hit:
             return hit
+        if u in exact and "does not mention" in tried[-1]:
+            # the homepage answered but words the name differently: a Wikidata item of exactly this name says it is theirs
+            return u, "Wikidata (an item with exactly this name)", "Wikidata's item with this exact name gives this site"
+    for u in registry_sites(row):
+        hit = attempt(u, "school registry")
+        if hit:
+            return hit
+        if "does not mention" in tried[-1] or re.search(r"HTTP (401|403|429|5\d\d)|robots", tried[-1]):
+            # the ministry's own directory lists this website for exactly one school of this name
+            return u, "the education ministry's school directory", "the ministry directory lists this school's website"
     if use_search and not searchable(row.get("name")):
         tried.append("no web search: the institution name is not a usable name")
     elif use_search:

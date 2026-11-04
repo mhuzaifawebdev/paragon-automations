@@ -348,7 +348,8 @@ check("a later job of the same batch continues from the saved total", (discover.
 discover.set_budget(None)
 real_ddg, real_check, real_memo = discover._ddg_search, discover.check_site, discover.load_memo
 discover._ddg_search, discover.load_memo = (lambda row, limit=4: []), (lambda: {})
-discover._wikidata_real, discover._wikidata = discover._wikidata, (lambda name, country: [])
+discover._wikidata_real, discover._wikidata = discover._wikidata, (lambda name, country, exact=None: [])
+discover._registry_real, discover.registry_sites = discover.registry_sites, (lambda row: [])   # no network
 discover._gemini_search = discover._claude_search = lambda row: ""
 calls.clear()
 discover.urllib.request.urlopen = lambda req, timeout=0: calls.append(1) or _fake_reply([{"type": "web_search_tool_result", "content": [
@@ -426,6 +427,7 @@ check("letters like ø, ł and ß compare equal to their plain spelling",
       (discover._n("Norges idrettshøgskole"), discover._n("Szkoła Główna"), discover._n("Straße")),
       ("norges idrettshogskole", "szkola glowna", "strasse"))
 discover._ddg_search, discover.check_site, discover.load_memo, discover._wikidata = real_ddg, real_check, real_memo, discover._wikidata_real
+discover.registry_sites = discover._registry_real
 discover.urllib.request.urlopen = real_urlopen
 os.environ.pop("ANTHROPIC_API_KEY") if old_key is None else os.environ.__setitem__("ANTHROPIC_API_KEY", old_key)
 
@@ -819,14 +821,14 @@ check("the address holds a distinctive word of the name",
 real_check2, real_wiki2, real_memo2, real_ddg2, real_gps2 = discover.check_site, discover._wikidata, discover.load_memo, discover._ddg_search, discover._gemini_paid_sites
 discover.check_site = lambda url, row: (False, "could not read it", None)
 discover.load_memo, discover._ddg_search = (lambda: {}), (lambda row, limit=4: [])
-discover._wikidata = lambda name, country: ["https://www.yasar.edu.tr/"]
+discover._wikidata = lambda name, country, exact=None: ["https://www.yasar.edu.tr/"]
 check("blocked site from Wikidata, name in the address: accepted", discover.find_website({"row_id": "x", "name": "YASAR UNIVERSITESI", "country": ""})[0], "https://www.yasar.edu.tr/")
-discover._wikidata = lambda name, country: ["https://www.tlse3.fr/"]
+discover._wikidata = lambda name, country, exact=None: ["https://www.tlse3.fr/"]
 discover._gemini_paid_sites = lambda row, limit=4: (["https://tlse3.fr/"], "")
 os.environ["GEMINI_PAID_API_KEY"] = "test"
 check("Wikidata and Google name the same site: accepted", discover.find_website({"row_id": "x", "name": "Universite Paul Sabatier", "country": ""}, use_search=True,
       search_provider="gemini", gemini_search=True)[0], "https://tlse3.fr/")
-discover._wikidata = lambda name, country: []
+discover._wikidata = lambda name, country, exact=None: []
 check("one source alone, name not in the address: still refused", discover.find_website({"row_id": "x", "name": "Universite Paul Sabatier", "country": ""}, use_search=True,
       search_provider="gemini", gemini_search=True)[0], None)
 os.environ.pop("GEMINI_PAID_API_KEY", None)
@@ -846,6 +848,7 @@ os.environ["GEMINI_PAID_API_KEY"] = "paid-key"
 discover.set_budget(5.0)
 discover._wikidata, discover.load_memo, discover._ddg_search = (lambda *a: []), (lambda: {}), (lambda row: [])
 discover.check_site = lambda url, row: (False, "no", None)
+real_registry2, discover.registry_sites = discover.registry_sites, (lambda row: [])
 
 
 def _quota_search(*a, **k):
@@ -856,9 +859,10 @@ discover.urllib.request.urlopen = _quota_search
 down = discover.find_website({"row_id": "x", "name": "Lycee Grippeaux", "country": ""}, use_search=True, search_provider="gemini", gemini_search=True)
 check("a failed search says so in the note, with the reason", down[2], "search unavailable (HTTP 400)")
 check("and it is counted", discover.SEARCH_USAGE["search_failures"], 1)
-note = {"contacts": {"notes": "Website not found (search unavailable (HTTP 429))", "institution_name": "Lycee Grippeaux"}, "rechecked": 4}
+note = {"contacts": {"notes": "Website not found (search unavailable (HTTP 429))", "institution_name": "Lycee Grippeaux"}, "rechecked": rnc.ROUND}
 check("an institute whose search failed is searched again, whatever its round", rnc.needs_recheck(note, True), True)
 check("one really searched in this round is not", rnc.needs_recheck({**note, "contacts": {**note["contacts"], "notes": "Website not found (nothing)"}}, True), False)
+discover.registry_sites = real_registry2
 discover.set_budget(0.0)
 capped = discover.find_website({"row_id": "x", "name": "Lycee Grippeaux", "country": ""}, use_search=True, search_provider="gemini", gemini_search=True)
 check("a spent cap is a failed search too", capped[2], "search unavailable (spending cap reached)")
@@ -875,7 +879,7 @@ for why, want in (("homepage does not mention this institution's name or phone",
 discover.check_site = lambda url, row: (True, "name on the homepage", None)
 check("a link in the country column cannot reject a site", discover._country_ok("https://www.vu.lt/", "", "name"), True)
 seen_country = []
-discover._wikidata = lambda name, country: seen_country.append(country) or []
+discover._wikidata = lambda name, country, exact=None: seen_country.append(country) or []
 discover.find_website({"row_id": "x", "name": "Vilniaus universitetas", "country": "https://www.linkedin.com/in/x"})
 check("and it is not passed on as a country", seen_country, [""])
 discover.check_site, discover.urllib.request.urlopen = saved[0], saved[4]
@@ -913,6 +917,31 @@ check("a shared word is enough", discover.find_website({"row_id": "x", "name": "
 discover._gemini_paid_sites = real_gps2
 discover.check_site, discover._wikidata, discover.load_memo, discover._ddg_search = saved[:4]
 os.environ.pop("GEMINI_PAID_API_KEY", None) if old_paid is None else os.environ.update(GEMINI_PAID_API_KEY=old_paid)
+
+# ---- a homepage that words the name in its own language: Wikidata's item of exactly this name, and the ministry directory
+check("exact names ignore case, accents, punctuation and a trailing (City)",
+      [discover._exact_key("University of Amsterdam (Amsterdam)"), discover._exact_key("Université Côte d’Azur")],
+      ["university of amsterdam", "universite cote d azur"])
+saved = (discover.check_site, discover._wikidata, discover.load_memo, discover.registry_sites)
+discover.load_memo = lambda: {}
+discover.check_site = lambda url, row: (False, "homepage does not mention the name", None)
+
+
+def fake_wd(name, country, exact=None):
+    if exact is not None and name == "University of Amsterdam":
+        exact.add("https://www.uva.nl/")
+    return ["https://www.uva.nl/"]
+
+
+discover._wikidata = fake_wd
+discover.registry_sites = lambda row: ["https://lycee-coetlogon.ac-rennes.fr/"] if "Coëtlogon" in row["name"] else []
+check("Wikidata's item with exactly this name gives the site, although the homepage words it in Dutch",
+      discover.find_website({"row_id": "x", "name": "University of Amsterdam", "country": ""})[0], "https://www.uva.nl/")
+check("a Wikidata hit that is only a similar name is still refused",
+      discover.find_website({"row_id": "x", "name": "Amsterdam University College", "country": ""})[0], None)
+check("the ministry's school directory gives a school's site",
+      discover.find_website({"row_id": "x", "name": "Lycée Coëtlogon", "country": ""})[0], "https://lycee-coetlogon.ac-rennes.fr/")
+discover.check_site, discover._wikidata, discover.load_memo, discover.registry_sites = saved
 
 print(f"\n{sum(results)}/{len(results)} passed")
 sys.exit(0 if all(results) else 1)

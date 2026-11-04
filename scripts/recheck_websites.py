@@ -35,13 +35,15 @@ def group_of(row):
     return "education" if EDUCATION.search(row["name"]) else "other"
 
 
-def choose(rows, wanted, seed=11):
-    """{group: names to send}: no website, a usable name, each name once, none already rechecked."""
-    sent = {df._norm(r["name"]) for r in rows if r["batch"].startswith(PREFIX)}
+def choose(rows, wanted, seed=11, again=False):
+    """{group: names to send}: no website, a usable name, each name once, none already rechecked (again=True: also
+    those, when the way websites are found has improved since)."""
+    sent = set() if again else {df._norm(r["name"]) for r in rows if r["batch"].startswith(PREFIX)}
     pools, seen = {"education": [], "other": [], "retail": []}, set()
+    has_site = {df._norm(r["name"]) for r in rows if r.get("website")}      # found under another row, or by a re-check
     for r in rows:
         key = df._norm(r["name"])
-        if r.get("website") or r["batch"].startswith(PREFIX) or key in sent or key in seen or not clean_name(r["name"]):
+        if r.get("website") or key in has_site or r["batch"].startswith(PREFIX) or key in sent or key in seen or not clean_name(r["name"]):
             continue
         seen.add(key)
         pools[group_of(r)].append(r["name"])
@@ -86,6 +88,7 @@ def main():
     ap.add_argument("--free", action="store_true", help="read with the free reader only")
     ap.add_argument("--max-usd", type=float, help="spending cap for each batch; 0 means nothing paid at all")
     ap.add_argument("--no-paid-search", action="store_true", help="the paid reader may read, but no paid search runs")
+    ap.add_argument("--again", action="store_true", help="also institutes an earlier website re-check did not find")
     a = ap.parse_args()
     if a.sites:
         sites = json.loads(Path(a.sites).read_text(encoding="utf-8"))
@@ -95,10 +98,11 @@ def main():
             print(p)
         return
     rows = json.loads((DATA / "institute_counts.json").read_text(encoding="utf-8"))["institutes"]
-    picked = choose(rows, {"education": a.education, "other": a.other, "retail": a.retail})
+    picked = choose(rows, {"education": a.education, "other": a.other, "retail": a.retail}, again=a.again)
     names = [x for g in picked.values() for x in g]
     print({g: len(v) for g, v in picked.items()}, "total", len(names))
-    for p in write_batches(names, a.name, chunk=a.chunk):
+    for p in write_batches(names, a.name, chunk=a.chunk, reader="free" if a.free else "paid", max_usd=a.max_usd,
+                           no_paid_search=a.no_paid_search):
         print(p)
 
 
