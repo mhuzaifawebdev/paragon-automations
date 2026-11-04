@@ -1,0 +1,88 @@
+{
+ "row_id": "r062",
+ "scraped_at": "2026-11-04T15:55:52Z",
+ "contacts": {
+  "row_id": "r062",
+  "institution_name": "Albert-Schweitzer-Schule",
+  "institution_type": "school",
+  "official_website": "https://ass-bargteheide.lernnetz.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Susanne Steinmeier",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ass-bargteheide.lernnetz.de/schulleitung.html",
+   "evidence_quote": "Schulleiterin: Susanne Steinmeier"
+  },
+  "alternates": [
+   {
+    "name": "Andrea Jaffke",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ass-bargteheide.lernnetz.de/schulleitung.html",
+    "evidence_quote": "Stellvertretende Schulleiterin: Andrea Jaffke",
+    "why_chosen": "Principal / director (no Erasmus contact found). Andrea Jaffke is the Stellvertretende Schulleiterin (Deputy Principal) of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Susanne Steinmeier is the Schulleiterin (Principal) of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Eric-Kandel-Gymnasium Ahrensburg",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://ass-bargteheide.lernnetz.de/kooperationspartner.html",
+    "evidence_quote": "Eric-Kandel-Gymnasium Ahrensburg",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Albert-Schweitzer-Schule",
+    "city": "Bargteheide",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://ass-bargteheide.lernnetz.de/anfahrt.html",
+    "evidence_quote": "Alte Landstraße 55, 22941 Bargteheide"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution lists various local cooperation partners, but no formal international Erasmus+ partners are mentioned. Contact details for the school leadership are provided, but no specific international relations staff are identified.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 6.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.3,
+  "total_seconds": 16.4
+ }
+}

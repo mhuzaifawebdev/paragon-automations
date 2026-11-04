@@ -1,0 +1,123 @@
+{
+ "row_id": "r098",
+ "scraped_at": "2026-11-04T15:58:35Z",
+ "contacts": {
+  "row_id": "r098",
+  "institution_name": "Collegio Volta",
+  "institution_type": "school",
+  "official_website": "https://www.collegiovolta.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "segreteria@collegiovolta.it",
+  "generic_email_url": "https://www.collegiovolta.it/segreteria-e-contatti-2/",
+  "contact": {
+   "name": "Giorgio Damiano",
+   "designation": "Managing Director",
+   "designation_local": "",
+   "email": "giorgio.damiano@collegiovolta.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.collegiovolta.it/segreteria-e-contatti-2/",
+   "evidence_quote": "Amministratore delegato ... Dott. Giorgio Damiano giorgio.damiano@collegiovolta.it <giorgio.damiano@collegiovolta.it>"
+  },
+  "alternates": [
+   {
+    "name": "Camilla Longhi",
+    "designation": "Coordinator of Secondary School 1st Grade",
+    "designation_local": "",
+    "email": "camilla.longhi@collegiovolta.it",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.collegiovolta.it/segreteria-e-contatti-2/",
+    "evidence_quote": "Coordinatore Secondaria 1° Grado ... Camilla Longhi camilla.longhi@collegiovolta.it <camilla.longhi@collegiovolta.it>",
+    "why_chosen": "Secretary / administration (last resort). She is a coordinator for one of the school levels."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the Managing Director of the institution.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Cambridge International",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.collegiovolta.it/",
+    "evidence_quote": "Il nostro programma bilingue rappresenta un’opportunità unica per gli studenti di intraprendere un percorso educativo verticale che inizia dalla scuola dell’Infanzia e prosegue fino alla Scuola Secondaria. Basato sul prestigioso curriculum Cambridge International, riconosciuto a livello globale, il programma nasce con l’obiettivo di preparare i nostri alunni ad affrontare un mondo sempre più internazionale e interconnesso. L’approccio bilingue non solo potenzia le competenze linguistiche in ingl",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LIBERA",
+    "partner_country": "Italy",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.collegiovolta.it/scuola-media/",
+    "evidence_quote": "A confronto sul tema della legalità con il coordinamento di LIBERA",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Confartigianato",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.collegiovolta.it/scuola-media/",
+    "evidence_quote": "Progetto Orientamento in collaborazione con Confartigianato",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Cooperativa Specchio Magico",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.collegiovolta.it/scuola-media/",
+    "evidence_quote": "Progetto Password in collaborazione con la Cooperativa Specchio Magico",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "SEDE CENTRALE",
+    "city": "Lecco",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.collegiovolta.it/",
+    "evidence_quote": "SEDE CENTRALE"
+   },
+   {
+    "campus_name": "SEDE INFANZIA",
+    "city": "Lecco",
+    "country": "Italy",
+    "role": "branch",
+    "source_url": "https://www.collegiovolta.it/",
+    "evidence_quote": "SEDE INFANZIA"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The institution is a school and does not appear to have formal Erasmus+ partnerships listed in the evidence. International activities mentioned are limited to Cambridge curriculum and occasional cultural exchanges.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 10.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 15.0
+ }
+}

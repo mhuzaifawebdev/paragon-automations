@@ -1,0 +1,61 @@
+{
+ "batch": "merged-database-euvet",
+ "status": "done",
+ "generated_at": "2026-11-04T15:46:38.608888+00:00",
+ "chunk": 2,
+ "total_chunks": 2,
+ "total_rows": 10,
+ "done": 10,
+ "pending": 0,
+ "elapsed_seconds": 150,
+ "eta_seconds": null,
+ "cost_usd_so_far": 0.0141,
+ "paid_search_usd": 0.0141,
+ "paid_search_limit_usd": 21.0,
+ "paid_search_limit_reached": false,
+ "paid_searches": 0,
+ "search_failures": 0,
+ "haiku_fallback_calls": 0,
+ "cost_usd_projected_total": 0.0,
+ "ai_calls": 5,
+ "reader_mode": "fast",
+ "fast_limit_usd": 15.0,
+ "provider": "gemini",
+ "chunk_size": 25,
+ "fast_reader": "paid Gemini",
+ "fast_reader_id": "gemini",
+ "fast_usd_per_institute": 0.015,
+ "fast_readers": [
+  {
+   "id": "gemini",
+   "name": "paid Gemini",
+   "usd_per_institute": 0.015
+  },
+  {
+   "id": "haiku",
+   "name": "Claude Haiku",
+   "usd_per_institute": 0.05
+  }
+ ],
+ "confidence": {
+  "high": 1,
+  "medium": 0,
+  "low": 4,
+  "none": 5
+ },
+ "partners_found": 31,
+ "campuses_found": 15,
+ "recent": [
+  "r001",
+  "r002",
+  "r003",
+  "r004",
+  "r005",
+  "r006",
+  "r007",
+  "r008",
+  "r009",
+  "r010"
+ ],
+ "drive_link": "https://docs.google.com/spreadsheets/d/1k_GhvhATSExDFRYz64GJv0hxDkZ2zvpC/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
+}
