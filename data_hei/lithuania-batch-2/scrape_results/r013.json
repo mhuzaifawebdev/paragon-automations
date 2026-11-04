@@ -1,0 +1,130 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-11-04T20:35:39Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Palangos senoji gimnazija",
+  "institution_type": "school",
+  "official_website": "https://www.senojigimnazija.lt/",
+  "country": null,
+  "phone": {
+   "value": "0 460) 48930",
+   "source_url": "https://www.senojigimnazija.lt/kontaktai/",
+   "evidence_quote": "Telefonai: (0 460) 48930, (0 460) 48940"
+  },
+  "phone_alt": [],
+  "generic_email": "info@senojigimnazija.lt",
+  "generic_email_url": "https://www.senojigimnazija.lt/",
+  "contact": {
+   "name": "Jolita Vaičiulienė",
+   "designation": "Deputy Headmaster of Palanga Senoji Gimazija, project tutor",
+   "designation_local": "",
+   "email": "jolita.vaiciuliene@senojigimnazija.lt",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.senojigimnazija.lt/erasmus/dare-democratic-actions-rule-europe/erasmus-gimnazijoje/",
+   "evidence_quote": "Jolita Vaičiulienė – direktoriaus pavaduotoja ugdymui, projekto kuratorė",
+   "email_source_url": "https://www.senojigimnazija.lt/darbuotojai/"
+  },
+  "alternates": [
+   {
+    "name": "Audra Kaklienė",
+    "designation": "teacher of English, methodologist, project coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.senojigimnazija.lt/erasmus/dare-democratic-actions-rule-europe/erasmus-gimnazijoje/",
+    "evidence_quote": "Audra Kaklienė – anglų kalbos mokytoja metodininkė, projekto koordinatorė",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is explicitly named as the project coordinator for Erasmus+ activities."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). She is the Deputy Headmaster and a key project tutor involved in Erasmus+ accreditation and planning. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Augustum Annen gimnazija",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.senojigimnazija.lt/wp-content/uploads/2024/10/Erasmus-akreditacija-pateiktis-2024-.pdf",
+    "evidence_quote": "2025m. pavasaris - 8 mokinių grupė – Vokietija (Görlitz, Augustum",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LCC International University",
+    "partner_country": "Lithuania",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.senojigimnazija.lt/erasmus/",
+    "evidence_quote": "Our Future Career. PART II: A Visit to LCC International University in Klaipeda",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Baltijos school",
+    "partner_country": "Lithuania",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.senojigimnazija.lt/erasmus/",
+    "evidence_quote": "Erasmus+ project DARE participants in ‘Baltijos’ school",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Microsoft",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.senojigimnazija.lt/nuotolinis-mokymas/teams-naudojimas/",
+    "evidence_quote": "Detali Microsoft Office 365 diegimo instrukcija",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Palangos senoji gimnazija",
+    "city": "Palanga",
+    "country": "Lithuania",
+    "role": "main",
+    "source_url": "https://www.senojigimnazija.lt/",
+    "evidence_quote": "Jūratės g. 13, Palanga, LT-00134"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides specific project-based partners but does not contain a comprehensive list of all institutional Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 16.5,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 5.9,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 4,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 29.5
+ }
+}
