@@ -1,0 +1,130 @@
+{
+ "row_id": "r031",
+ "scraped_at": "2026-11-04T18:10:19Z",
+ "contacts": {
+  "row_id": "r031",
+  "institution_name": "Haags Montessori Lyceum",
+  "institution_type": "school",
+  "official_website": "https://hml.nl/",
+  "country": null,
+  "phone": {
+   "value": "070 324 54 18",
+   "source_url": "https://hml.nl/",
+   "evidence_quote": "Telefoon: 070 324 54 18 <tel 0703245418>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@hml.nl",
+  "generic_email_url": "https://hml.nl/",
+  "contact": {
+   "name": "Conny van der Zande",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "conny.van.der.zande@hml.nl",
+   "office_email": "",
+   "phone": "070-3245418",
+   "source_url": "https://hml.nl/contact",
+   "evidence_quote": "Rector: ... Conny van der Zande – conny.van.der.zande@hml.nl <conny.van.der.zande@hml.nl>"
+  },
+  "alternates": [
+   {
+    "name": "Sander Janssen",
+    "designation": "Conrector business operations, deputy rector",
+    "designation_local": "",
+    "email": "sander.janssen@hml.nl",
+    "office_email": "",
+    "phone": "070-3245418",
+    "source_url": "https://hml.nl/contact",
+    "evidence_quote": "Conrector bedrijfsvoering, plaatsvervangend rector: ... Sander Janssen – sander.janssen@hml.nl <sander.janssen@hml.nl>",
+    "why_chosen": "Principal / director (no Erasmus contact found). Sander Janssen serves as the deputy rector and is responsible for business operations."
+   },
+   {
+    "name": "Sabrina Ghiani",
+    "designation": "Conrector education",
+    "designation_local": "",
+    "email": "sabrina.ghiani@hml.nl",
+    "office_email": "",
+    "phone": "070-3245418",
+    "source_url": "https://hml.nl/contact",
+    "evidence_quote": "Conrector onderwijs: ... Sabrina Ghiani – sabrina.ghiani@hml.nl <sabrina.ghiani@hml.nl>",
+    "why_chosen": "Principal / director (no Erasmus contact found). Sabrina Ghiani is the Conrector of education and oversees academic affairs."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Conny van der Zande is the Rector of the institution and is the primary contact for leadership inquiries.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "VO Haaglanden",
+    "partner_country": "Netherlands",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://hml.nl/contact",
+    "evidence_quote": "Bestuur: VO Haaglanden",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Assist Verzuim",
+    "partner_country": "Netherlands",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://hml.nl/contact",
+    "evidence_quote": "Nancy Manse – N.manse@assistverzuim.nl <N.manse@assistverzuim.nl>",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hoofdlocatie havo-vwo",
+    "city": "Den Haag",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://hml.nl/contact",
+    "evidence_quote": "Hoofdlocatie havo-vwo"
+   },
+   {
+    "campus_name": "Dépendance mavo-havo",
+    "city": "Den Haag",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://hml.nl/contact",
+    "evidence_quote": "Dépendance mavo-havo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The provided evidence does not contain any information regarding international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 6.4,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 26.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 33.7
+ }
+}
