@@ -5149,10 +5149,23 @@
    "kind": "rescrape",
    "no_paid_search": true,
    "max_usd": 0.0
+  },
+  {
+   "batch": "website-recheck-retail-openstreetmap",
+   "source": "website re-check",
+   "added": "2026-11-01T00:00:00Z",
+   "state": "queued",
+   "reader": "free",
+   "provider": "gemini",
+   "chunk_size": 25,
+   "priority": true,
+   "kind": "rescrape",
+   "no_paid_search": true,
+   "max_usd": 0.0
   }
  ],
  "paused": null,
- "updated": "2026-11-04T05:52:37Z",
+ "updated": "2026-11-04T05:56:46Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
