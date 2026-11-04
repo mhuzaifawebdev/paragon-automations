@@ -1,0 +1,112 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-11-04T20:18:49Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "Gymnázium Frýdlant",
+  "institution_type": "school",
+  "official_website": "https://www.gymfry.net/",
+  "country": null,
+  "phone": {
+   "value": "482 312 078",
+   "source_url": "https://www.gymfry.net/",
+   "evidence_quote": "kancelář školy: 482 312 078"
+  },
+  "phone_alt": [],
+  "generic_email": "pavel.cumpelik@gymfry.cz",
+  "generic_email_url": "https://www.gymfry.net/",
+  "contact": {
+   "name": "Pavel Čumpelík",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "pavel.cumpelik@gymfry.cz",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.gymfry.net/ucitele-a-dalsi/",
+   "evidence_quote": "ředitel | ... Mgr. Pavel Čumpelík |"
+  },
+  "alternates": [
+   {
+    "name": "Lucie Winklerová",
+    "designation": "Coordinator of European projects",
+    "designation_local": "",
+    "email": "lucie.winklerova@gymfry.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.gymfry.net/ucitele-a-dalsi/",
+    "evidence_quote": "Lucie Winklerová | ... koordinátorka evropských projektů |",
+    "why_chosen": "Mobility coordinator. She is explicitly listed as the coordinator of European projects, which includes Erasmus+."
+   },
+   {
+    "name": "Martina Košková",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "martina.koskova@gymfry.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.gymfry.net/ucitele-a-dalsi/",
+    "evidence_quote": "zástupkyně | ... Mgr. Martina Košková |",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the deputy director and is involved in the coordination of Erasmus+ exchanges."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). He is the director of the school and is involved in the Erasmus+ program communication.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: email domain. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Gymnázium Paula Klee",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.gymfry.net/studenti-gf-v-nemecku-v-ramci-programu-erasmus/",
+    "evidence_quote": "Jak přispělo lživé zpravodajství k nástupu národního socialismu? A jak se demokracie brání „fake news“ dnes? Odpovědi se dozvěděla desítka studentů kvinty frýdlantského gymnázia na výměnném pobytu v Německu. Výjezd se uskutečnil 2. – 8. února jako první sympozium z projektu „Fake News in the Age of Democracy“ v rámci programu Erasmus+. Partnerské Gymnázium Paula Klee v Gersthofen, nedaleko Augsburgu, připravilo pro zahraniční hosty z Čech, Nizozemí a Slovinska bohatý pětidenní program, jenž byl ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Copernicus",
+    "partner_country": "Netherlands",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.gymfry.net/vymenny-pobyt-zaku-gymnazia-frydlant-v-partnerske-skole-copernicus-v-hoornu/",
+    "evidence_quote": "Výměnný pobyt žáků Gymnázia Frýdlant v partnerské škole Copernicus v Hoornu – Gymnázium Frýdlant",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gymnázium Frýdlant",
+    "city": "Frýdlant",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.gymfry.net/",
+    "evidence_quote": "Gymnázium, Frýdlant, Mládeže 884, příspěvková organizace"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The website mentions specific Erasmus+ partnerships but does not provide a comprehensive list of all institutional partners. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 16.0,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 22.3
+ }
+}

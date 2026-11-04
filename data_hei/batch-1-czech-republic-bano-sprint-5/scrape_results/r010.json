@@ -1,0 +1,119 @@
+{
+ "row_id": "r010",
+ "scraped_at": "2026-11-04T20:18:20Z",
+ "contacts": {
+  "row_id": "r010",
+  "institution_name": "Gymnázium Blansko",
+  "institution_type": "school",
+  "official_website": "https://www.gymbk.cz/",
+  "country": null,
+  "phone": {
+   "value": "516 411 189",
+   "source_url": "https://www.gymbk.cz/verejnost/zamestanci.html",
+   "evidence_quote": "telefon: | 516 411 189 |"
+  },
+  "phone_alt": [],
+  "generic_email": "kancelar@gymbk.cz",
+  "generic_email_url": "https://www.gymbk.cz/",
+  "contact": {
+   "name": "Ivo Grim",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "reditel@gymbk.cz",
+   "office_email": "",
+   "phone": "516 411 189",
+   "source_url": "https://www.gymbk.cz/verejnost/zamestanci.html",
+   "evidence_quote": "Ředitel školy: Mgr. Ivo Grim"
+  },
+  "alternates": [
+   {
+    "name": "Lenka Pravcová",
+    "designation": "Teacher",
+    "designation_local": "",
+    "email": "pravcova@gymbk.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.gymbk.cz/verejnost/zamestanci.html",
+    "evidence_quote": "Mgr. Lenka Pravcová (PR) | učitelka, třídní v oktávě | Bi, Z | pravcova@gymbk.cz <pravcova@gymbk.cz> |",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Lenka Pravcová manages international student card (ISIC) affairs and is a teacher at the school."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Ivo Grim is the director of the school and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IGS Oyten",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gymbk.cz/",
+    "evidence_quote": "Jak vidí dnešní mladí lidé svoji budoucnost? Čeho se obávají, v co doufají a jakou roli mohou sehrát přátelství, spolupráce a vzájemné porozumění? Právě na tyto otázky hledal odpovědi mezinárodní studentský výměnný projekt Gymnázia Blansko a partnerské školy IGS Oyten z Německa od 26. září do 3.října 2026...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Muzeum Blanenska",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gymbk.cz/",
+    "evidence_quote": "Gymnázium Blansko se společně s Muzeem Blanenska, Městskou knihovnou Blansko a ZUŠ Blansko zapojilo do mezinárodního projektu Democracy Remix. Ve škole jsme otevřeli téma Participace a demokratické procesy: Kdo má v mém městě hlas? A máme za sebou první dokončené aktivity. Jejich cílem...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Městská knihovna Blansko",
+    "partner_country": "Czech Republic",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gymbk.cz/",
+    "evidence_quote": "Gymnázium Blansko se společně s Muzeem Blanenska, Městskou knihovnou Blansko a ZUŠ Blansko zapojilo do mezinárodního projektu Democracy Remix. Ve škole jsme otevřeli téma Participace a demokratické procesy: Kdo má v mém městě hlas? A máme za sebou první dokončené aktivity. Jejich cílem...",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "VUT",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gymbk.cz/",
+    "evidence_quote": "škola VUT",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gymnázium Blansko",
+    "city": "Blansko",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.gymbk.cz/",
+    "evidence_quote": "Seifertova 13"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The institution does not explicitly list an Erasmus+ coordinator. Partners are identified through project descriptions and website links.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 8.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.5,
+  "total_seconds": 19.5
+ }
+}
