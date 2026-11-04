@@ -1,0 +1,89 @@
+{
+ "row_id": "r029",
+ "scraped_at": "2026-11-04T21:29:14Z",
+ "contacts": {
+  "row_id": "r029",
+  "institution_name": "Rīgas Ukraiņu vidusskola",
+  "institution_type": "school",
+  "official_website": "https://www.ukrschool.lv/",
+  "country": {
+   "value": "Latvia",
+   "source_url": "https://www.ukrschool.lv/",
+   "evidence_quote": "Latvijā (Foto: UA vēstniecība)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Irpiņas skola",
+    "partner_country": "Ukraine",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ukrschool.lv/",
+    "evidence_quote": "ar Irpiņas, Makarivkas un Ševčenkivas",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Makarivkas skola",
+    "partner_country": "Ukraine",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ukrschool.lv/",
+    "evidence_quote": "ar Irpiņas, Makarivkas un Ševčenkivas",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ševčenkivas skola",
+    "partner_country": "Ukraine",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ukrschool.lv/",
+    "evidence_quote": "ar Irpiņas, Makarivkas un Ševčenkivas",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Rīgas Ukraiņu vidusskola",
+    "city": "Riga",
+    "country": "Latvia",
+    "role": "main",
+    "source_url": "https://www.ukrschool.lv/",
+    "evidence_quote": "Rīgas Ukraiņu vidusskola"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain a formal list of Erasmus+ or international mobility partners. The listed partners are based on mentions of cooperation with schools in Ukraine.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.6,
+  "crawl_s": 7.8,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 40.0
+ }
+}
