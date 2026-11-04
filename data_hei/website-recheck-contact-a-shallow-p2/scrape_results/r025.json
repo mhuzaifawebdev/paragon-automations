@@ -1,0 +1,78 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-11-04T08:37:12Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "Fangio",
+  "institution_type": "unknown",
+  "official_website": "https://www.museofangio.com/",
+  "country": {
+   "value": "Argentina",
+   "source_url": "https://www.museofangio.com/",
+   "evidence_quote": "Argentina"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "archivo@museofangio.com",
+  "generic_email_url": "https://www.museofangio.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fédération Internationale de l'Automobile (FIA)",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.museofangio.com/",
+    "evidence_quote": "The Fédération Internationale de l'Automobile (FIA), the global governing body for motor sport and the federation for mobility organisations worldwide, has announced Museo Fangio as the winner of the 2025 FIA Founding Members’ Club Heritage Promotion Cup at the FIA General Assemblies week in Tashkent, Uzbekistan.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Musée National de l’Automobile – Collection Schlumpf",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.museofangio.com/es/",
+    "evidence_quote": "Mulhouse, Francia – 11 abril — El Musée National de l’Automobile – Collection Schlumpf",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Museo Fangio",
+    "city": "Balcarce",
+    "country": "Argentina",
+    "role": "main",
+    "source_url": "https://www.museofangio.com/",
+    "evidence_quote": "Balcarce - Buenos Aires - Argentina"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The institution is a museum rather than an educational institution, so no Erasmus+ or academic mobility partners are listed. Contact information is limited to general email addresses and the developer. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 7.2,
+  "ai_calls": 2,
+  "model_s": 10.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 33.9
+ }
+}
