@@ -1,0 +1,132 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-11-04T18:14:07Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "RGO Middelharnis",
+  "institution_type": "school",
+  "official_website": "https://rgomiddelharnis.nl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "college@rgomiddelharnis.nl",
+  "generic_email_url": "https://rgomiddelharnis.nl/",
+  "contact": {
+   "name": "M. Dekker",
+   "designation": "Director RGO College",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://rgomiddelharnis.nl/medewerkers---college",
+   "evidence_quote": "Dhr. M. Dekker: directeur RGO College"
+  },
+  "alternates": [
+   {
+    "name": "C. van der Woude",
+    "designation": "Director RGO Beroepscampus",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://rgomiddelharnis.nl/medewerkers---beroepscampus",
+    "evidence_quote": "Mevr. C. van der Woude | directeur RGO Beroepscampus",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the director of the RGO Beroepscampus and serves as a primary point of contact for the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the director of the RGO College and serves as a primary point of contact for the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CSG Prins Maurits",
+    "partner_country": "Netherlands",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://rgomiddelharnis.nl/rgo-beroepscampus",
+    "evidence_quote": "RGO en CSG Prins Maurits bieden beiden het vmbo-onderwijs aan op de Beroepscampus. Werken aan jóuw toekomst, dat vinden we belangrijk! Op de Beroepscampus kun je vooral veel praktijkervaring opdoen, naast het leren uit boeken. Je krijgt als leerling van het vmbo (met de mogelijkheid voor een doorlopende lijn naar het mbo) maximale kansen om jezelf te ontwikkelen en uit te groeien tot die uitstekende vakvrouw of vakman.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Eco-School",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://rgomiddelharnis.nl/",
+    "evidence_quote": "Je leert voor de wereld van morgen. Met stages, praktijkopdrachten en projecten samen met bedrijven. Als Eco-School werken we actief aan duurzaamheid.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "PM Beroepscampus",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://rgomiddelharnis.nl/",
+    "evidence_quote": "In leerjaar 3 en 4 werken we binnen de profielen samen met PM Beroepscampus.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "RGO College",
+    "city": "Middelharnis",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://rgomiddelharnis.nl/",
+    "evidence_quote": "RGO College is gevestigd aan de Koningin Julianaweg 54 in Middelharnis. RGO Beroepscampus maakt onderdeel uit van de Beroepscampus aan de Langeweg 111 in Sommelsdijk. Op Sportlaan 1 in Middelharnis vindt tijdelijk nog een deel van de vmbo-lessen plaats."
+   },
+   {
+    "campus_name": "RGO Beroepscampus",
+    "city": "Sommelsdijk",
+    "country": "Netherlands",
+    "role": "branch",
+    "source_url": "https://rgomiddelharnis.nl/",
+    "evidence_quote": "RGO College is gevestigd aan de Koningin Julianaweg 54 in Middelharnis. RGO Beroepscampus maakt onderdeel uit van de Beroepscampus aan de Langeweg 111 in Sommelsdijk. Op Sportlaan 1 in Middelharnis vindt tijdelijk nog een deel van de vmbo-lessen plaats."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The institution mentions organizing international activities and exchanges, but does not provide a list of specific international partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.0,
+  "crawl_s": 10.0,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 14.3
+ }
+}
