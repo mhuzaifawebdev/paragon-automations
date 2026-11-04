@@ -5236,22 +5236,34 @@
    "source": "Batch Allocation EU Schools CCC 1493",
    "file_id": "1aN3ZAXgikPdT3oH5Xx6Ft8fhL1M937lKUIUUMsUugwk",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 18,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T17:31:03Z",
    "last_start": "2026-11-04T17:31:03Z",
    "restarts": 0,
-   "cap_usd": 538.3
+   "cap_usd": 538.3,
+   "crm_rows": 3,
+   "no_number": 16,
+   "spend_recorded": true,
+   "cost_usd": 0.2919,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1MKckPywz6D6qdYqNCyMnu5lesGYI66fb/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 3,
+   "finished": "2026-11-04T17:33:43Z",
+   "reason": "13 institutes, 3 with a contact"
   },
   {
    "batch": "ireland-sprint-5-ayesha",
    "source": "IRELAND SPRINT_5-AYESHA",
    "file_id": "12uue96FZUHX0YNvENa4D-EKgff3DSIfvrt9jncRvo1c",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 69,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T17:33:43Z",
+   "last_start": "2026-11-04T17:33:43Z",
+   "restarts": 0,
+   "cap_usd": 538.0
   },
   {
    "batch": "batch-2-spain",
@@ -5547,7 +5559,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T17:31:03Z",
+ "updated": "2026-11-04T17:33:43Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
