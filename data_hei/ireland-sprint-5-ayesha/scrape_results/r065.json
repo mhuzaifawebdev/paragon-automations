@@ -1,0 +1,160 @@
+{
+ "row_id": "r065",
+ "scraped_at": "2026-11-04T17:42:01Z",
+ "contacts": {
+  "row_id": "r065",
+  "institution_name": "Presentation College Carlow",
+  "institution_type": "school",
+  "official_website": "https://presentationcollegecarlow.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@presentationcollegecarlow.com",
+  "generic_email_url": "https://presentationcollegecarlow.com/",
+  "contact": {
+   "name": "Mr Ray Murray",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://presentationcollegecarlow.com/School-Information/Staff",
+   "evidence_quote": "Mr Ray Murray ... Principal"
+  },
+  "alternates": [
+   {
+    "name": "Ms Sinéad McCarthy",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://presentationcollegecarlow.com/School-Information/Staff",
+    "evidence_quote": "Ms Sinéad McCarthy ... Deputy Principal |",
+    "why_chosen": "Principal / director (no Erasmus contact found). As a Deputy Principal, she is part of the senior management team."
+   },
+   {
+    "name": "Ms Edel Murphy",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://presentationcollegecarlow.com/School-Information/Staff",
+    "evidence_quote": "Deputy Principal | ... Ms Edel Murphy",
+    "why_chosen": "Principal / director (no Erasmus contact found). As a Deputy Principal, she is part of the senior management team."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the Principal, he is the head of the institution and the primary contact for school leadership.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "VSware",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://presentationcollegecarlow.com/",
+    "evidence_quote": "[VSware] VSware",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SchoolWise",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://presentationcollegecarlow.com/",
+    "evidence_quote": "[SchoolWise Learning Platform] SchoolWise",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CEIST",
+    "partner_country": "Ireland",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://presentationcollegecarlow.com/",
+    "evidence_quote": "[CEIST]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Microsoft",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://presentationcollegecarlow.com/Portals/0/Website/Using%20Microsoft%20Teams%20and%20SchoolWise%20for%20Online%20Learning%20-%20Student.pdf?ver=2021-02-06-143839-357",
+    "evidence_quote": "USING MICROSOFT TEAMS AND",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Presentation College, Carlow",
+    "city": "Carlow",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://presentationcollegecarlow.com/",
+    "evidence_quote": "Presentation College, Carlow"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The institution is a secondary school and does not list Erasmus+ or international mobility partners on its website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 13.7,
+  "ai_calls": 5,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 4.5,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 5,
+    "accepted": 4
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     421,
+     504
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 23.9
+ }
+}
