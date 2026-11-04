@@ -1,0 +1,118 @@
+{
+ "row_id": "r006",
+ "scraped_at": "2026-11-04T18:49:27Z",
+ "contacts": {
+  "row_id": "r006",
+  "institution_name": "Gimnázium és Kollégium",
+  "institution_type": "school",
+  "official_website": "http://www.apaczai.elte.hu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "titkar@apaczai.elte.hu",
+  "generic_email_url": "http://www.apaczai.elte.hu/",
+  "contact": {
+   "name": "Rácz Tibor",
+   "designation": "Head of dormitory",
+   "designation_local": "",
+   "email": "racz.tibor@apaczai.elte.hu",
+   "office_email": "",
+   "phone": "",
+   "source_url": "http://www.apaczai.elte.hu/?menu=kollegiumi_nevelotanarok",
+   "evidence_quote": "Rácz Tibor ... kollégiumvezető",
+   "email_source_url": "http://www.apaczai.elte.hu/?menu=kollegiumi_nevelotanarok&szemely=71665725651"
+  },
+  "alternates": [
+   {
+    "name": "Jenei Erika",
+    "designation": "School secretary",
+    "designation_local": "",
+    "email": "jenei.erika@apaczai.elte.hu",
+    "office_email": "",
+    "phone": "+3614116500",
+    "source_url": "http://www.apaczai.elte.hu/?menu=titkarsag",
+    "evidence_quote": "Jenei Erika ... iskolatitkár",
+    "why_chosen": "Secretary / administration (last resort). She is a school secretary handling administrative tasks."
+   },
+   {
+    "name": "Varga Aliz",
+    "designation": "Administrator",
+    "designation_local": "",
+    "email": "varga.aliz@apaczai.elte.hu",
+    "office_email": "",
+    "phone": "+3614116500",
+    "source_url": "http://www.apaczai.elte.hu/?menu=titkarsag",
+    "evidence_quote": "Varga Aliz ... adminisztrátor",
+    "why_chosen": "Secretary / administration (last resort). She is an administrator at the school secretariat."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). He is the head of the dormitory and a primary contact for student-related inquiries. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Semmelweis Egyetem",
+    "partner_country": "Hungary",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "http://www.apaczai.elte.hu/",
+    "evidence_quote": "[Semmelweis partneriskola]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Apáczai Csere János Elméleti Líceum",
+    "partner_country": "Romania",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "http://www.apaczai.elte.hu/",
+    "evidence_quote": "[Apáczai Líceum – partneriskola]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Budapesti Fesztiválzenekar",
+    "partner_country": "Hungary",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "http://www.apaczai.elte.hu/",
+    "evidence_quote": "[Budapesti Fesztiválzenekar – partneriskola]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "ELTE Apáczai Csere János Gyakorló Gimnázium és Kollégium",
+    "city": "Budapest",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "http://www.apaczai.elte.hu/",
+    "evidence_quote": "Cím: 1053 Budapest, Papnövelde utca 4-6."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution does not explicitly list Erasmus+ or international mobility coordinators. The provided contacts are administrative and dormitory leadership staff.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.5,
+  "crawl_s": 11.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 10.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 28.8
+ }
+}
