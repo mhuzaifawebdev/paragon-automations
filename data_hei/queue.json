@@ -5194,22 +5194,34 @@
    "source": "Merged Database EUVET.xlsx",
    "file_id": "1dP8oE0L8d0KX8HeD-Ve76oK96Nep-7E9qmrT6RoHqso",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 10,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T15:37:56Z",
    "last_start": "2026-11-04T15:37:56Z",
    "restarts": 0,
-   "cap_usd": 550.67
+   "cap_usd": 550.67,
+   "crm_rows": 10,
+   "no_number": 1,
+   "spend_recorded": true,
+   "cost_usd": 0.0141,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1k_GhvhATSExDFRYz64GJv0hxDkZ2zvpC/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 10,
+   "finished": "2026-11-04T15:47:45Z",
+   "reason": "10 institutes, 5 with a contact"
   },
   {
    "batch": "distribution-file-ambassadors-high-s",
    "source": "DISTRIBUTION FILE _Ambassadors High Schools Europe By Country",
    "file_id": "1K3HsABoxrWw3gsS8PdpahFrMl-CwkdzA_QxXAsGn_A4",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 757,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T15:47:45Z",
+   "last_start": "2026-11-04T15:47:45Z",
+   "restarts": 0,
+   "cap_usd": 550.66
   },
   {
    "batch": "batch-allocation-eu-schools-ccc-1493",
@@ -5523,7 +5535,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T15:37:56Z",
+ "updated": "2026-11-04T15:47:45Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
