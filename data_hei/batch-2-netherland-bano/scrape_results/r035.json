@@ -1,0 +1,89 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-11-04T18:15:50Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "SSGN",
+  "institution_type": "school",
+  "official_website": "https://www.ssgn.nl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@ssgn.nl",
+  "generic_email_url": "https://www.ssgn.nl/contact/",
+  "contact": {
+   "name": "Paul Metzemaekers",
+   "designation": "rector a.i.",
+   "designation_local": "",
+   "email": "p.metzemaekers@ssgn.nl",
+   "office_email": "",
+   "phone": "024-356 3974",
+   "source_url": "https://www.ssgn.nl/over-de-ssgn/contact/",
+   "evidence_quote": "Paul Metzemaekers <p.metzemaekers@ssgn.nl>, rector a.i."
+  },
+  "alternates": [
+   {
+    "name": "Wil van Ooijen",
+    "designation": "conrector onderbouw",
+    "designation_local": "",
+    "email": "w.vanooijen@ssgn.nl",
+    "office_email": "",
+    "phone": "024-356 3974",
+    "source_url": "https://www.ssgn.nl/over-de-ssgn/contact/",
+    "evidence_quote": "Wil van Ooijen <w.vanooijen@ssgn.nl>, conrector onderbouw",
+    "why_chosen": "Principal / director (no Erasmus contact found). As a conrector, he holds a senior leadership position within the school administration."
+   },
+   {
+    "name": "Marina Hartel-Kolenik",
+    "designation": "conrector bovenbouw",
+    "designation_local": "",
+    "email": "m.hartel@ssgn.nl",
+    "office_email": "",
+    "phone": "024-356 3974",
+    "source_url": "https://www.ssgn.nl/over-de-ssgn/contact/",
+    "evidence_quote": "Marina Hartel-Kolenik <m.hartel@ssgn.nl>, conrector bovenbouw",
+    "why_chosen": "Principal / director (no Erasmus contact found). As a conrector, she holds a senior leadership position within the school administration."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the rector (principal) of the school, he is the primary contact for institutional leadership.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Stedelijke Scholengemeenschap Nijmegen",
+    "city": "Nijmegen",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.ssgn.nl/",
+    "evidence_quote": "6531 PL Nijmegen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The website does not list any international partners or Erasmus+ agreements. The institution is a secondary school (vwo, havo, mavo) and does not appear to have a dedicated international office.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 8.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 12.7
+ }
+}

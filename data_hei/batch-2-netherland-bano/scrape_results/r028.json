@@ -1,0 +1,138 @@
+{
+ "row_id": "r028",
+ "scraped_at": "2026-11-04T18:15:45Z",
+ "contacts": {
+  "row_id": "r028",
+  "institution_name": "RSG Wolfsbos, locatie Groene Driehoek",
+  "institution_type": "school",
+  "official_website": "https://www.wolfsbos.nl/",
+  "country": {
+   "value": "Nederland",
+   "source_url": "https://www.wolfsbos.nl/",
+   "evidence_quote": "Wolfsbos is een middelbare school voor vmbo, mavo, havo, vwo en praktijkonderwijs (eerste daltonpraktijkschool van Nederland!). Ook de Internationale Schakelklas maakt deel uit van Wolfsbos. We geven modern en goed onderwijs in een veilige omgeving waar je helemaal jezelf kunt zijn. Ons team kent je goed en helpt je groeien door het bieden van persoonlijke aandacht en duidelijke structuur. Ook duurzaamheid, gezond bezig zijn en sporten vinden we heel belangrijk."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@wolfsbos.nl",
+  "generic_email_url": "https://www.wolfsbos.nl/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Roelof van Echten College",
+    "partner_country": "Netherlands",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wolfsbos.nl/",
+    "evidence_quote": "Brede steun voor bestuurlijke fusie Wolfsbos en Roelof van Echten College",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Stichting Openbaar Voortgezet Onderwijs te Hoogeveen (STOVOH)",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wolfsbos.nl/wp-content/uploads/2024/06/Managementstatuut-versie-2023-.pdf",
+    "evidence_quote": "e. stichting: de Stichting Openbaar Voortgezet Onderwijs te Hoogeveen (STOVOH);",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Locatie Groene Driehoek",
+    "city": "Hoogeveen",
+    "country": "Nederland",
+    "role": "main",
+    "source_url": "https://www.wolfsbos.nl/contact-opnemen/",
+    "evidence_quote": "Locatie Groene Driehoek (mavo | havo | vwo)"
+   },
+   {
+    "campus_name": "Locatie Harm Smeenge",
+    "city": "Hoogeveen",
+    "country": "Nederland",
+    "role": "branch",
+    "source_url": "https://www.wolfsbos.nl/contact-opnemen/",
+    "evidence_quote": "Locatie Harm Smeenge (vmbo)"
+   },
+   {
+    "campus_name": "Locatie De Meander",
+    "city": "Hoogeveen",
+    "country": "Nederland",
+    "role": "branch",
+    "source_url": "https://www.wolfsbos.nl/contact-opnemen/",
+    "evidence_quote": "Locatie De Meander (praktijkonderwijs)"
+   },
+   {
+    "campus_name": "Locatie Internationale Schakelklas (ISK)",
+    "city": "Hoogeveen",
+    "country": "Nederland",
+    "role": "branch",
+    "source_url": "https://www.wolfsbos.nl/contact-opnemen/",
+    "evidence_quote": "Locatie Internationale Schakelklas (ISK)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence provides detailed management and contact information for the institution's locations but does not contain a list of international partners or Erasmus+ agreements. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 13.3,
+  "ai_calls": 6,
+  "partner_calls": 4,
+  "cost_usd_estimate": 0.0,
+  "model_s": 18.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     420
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     421,
+     511
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 42.9
+ }
+}

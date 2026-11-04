@@ -1,0 +1,161 @@
+{
+ "row_id": "r036",
+ "scraped_at": "2026-11-04T18:15:56Z",
+ "contacts": {
+  "row_id": "r036",
+  "institution_name": "St. Odulphuslyceum",
+  "institution_type": "school",
+  "official_website": "https://www.odulphus.nl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@odulphus.nl",
+  "generic_email_url": "https://www.odulphus.nl/contact/contactgegevens",
+  "contact": {
+   "name": "Iris Pfrommer",
+   "designation": "Rector",
+   "designation_local": "",
+   "email": "ipfrommer@odulphus.nl",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.odulphus.nl/contact/personeelsgegevens",
+   "evidence_quote": "Iris Pfrommer | ... Rector |"
+  },
+  "alternates": [
+   {
+    "name": "Niels Hesselberth",
+    "designation": "Coordinator internationalization",
+    "designation_local": "",
+    "email": "nhesselberth@odulphus.nl",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.odulphus.nl/contact/personeelsgegevens",
+    "evidence_quote": "Niels Hesselberth | ... Docent Duits, Coördinator internationalisering |",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Niels Hesselberth is explicitly stated as the coordinator for internationalization, making him the primary contact for international mobility."
+   },
+   {
+    "name": "Kim Hes",
+    "designation": "Management secretary",
+    "designation_local": "",
+    "email": "khes@odulphus.nl",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.odulphus.nl/contact/personeelsgegevens",
+    "evidence_quote": "Kim Hes | ... Directiesecretaresse |",
+    "why_chosen": "Secretary / administration (last resort). Kim Hes serves as the management secretary and is a key administrative contact."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Iris Pfrommer is the Rector of the school and holds the highest leadership position.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "partnerschool Thailand",
+    "partner_country": "Thailand",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.odulphus.nl/",
+    "evidence_quote": "Uitwisseling partnerschool Thailand",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ons Middelbaar Onderwijs",
+    "partner_country": "Netherlands",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.odulphus.nl/",
+    "evidence_quote": "Ons Middelbaar Onderwijs",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GGD",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.odulphus.nl/",
+    "evidence_quote": "GGD",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "European Parliament Ambassador School",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.odulphus.nl/",
+    "evidence_quote": "European Parliament Ambassador School",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "partnerschool in Thailand",
+    "partner_country": "Thailand",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.odulphus.nl/",
+    "evidence_quote": "Uitwisseling partnerschool Thailand",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Odulphuslyceum vwo",
+    "city": "Tilburg",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.odulphus.nl/contact/adresgegevens",
+    "evidence_quote": "Odulphuslyceum vwo"
+   },
+   {
+    "campus_name": "Odulphuslyceum havo",
+    "city": "Tilburg",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.odulphus.nl/contact/adresgegevens",
+    "evidence_quote": "Odulphuslyceum havo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of staff and some international activities, but does not contain a comprehensive list of Erasmus+ or other international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 12.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 4.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 4,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 18.3
+ }
+}
