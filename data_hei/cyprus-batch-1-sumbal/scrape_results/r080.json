@@ -1,0 +1,125 @@
+{
+ "row_id": "r080",
+ "scraped_at": "2026-11-04T21:45:30Z",
+ "contacts": {
+  "row_id": "r080",
+  "institution_name": "The King’s Hospital School",
+  "institution_type": "school",
+  "official_website": "https://kingshospital.ie/",
+  "country": {
+   "value": "Ireland",
+   "source_url": "https://kingshospital.ie/",
+   "evidence_quote": "Co-Educational Boarding and Day School Palmerstown, Dublin 20, D20 V256, Ireland."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "reception@thekingshospital.ie",
+  "generic_email_url": "https://kingshospital.ie/",
+  "contact": {
+   "name": "Mark Wallace",
+   "designation": "Headmaster/Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://kingshospital.ie/",
+   "evidence_quote": "Mark Wallace ... Headmaster/Principal"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Mark Wallace is the Headmaster/Principal of The King’s Hospital School.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Albertus-Magnus Gymnasium",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://kingshospital.ie/form-6-students-head-to-brussels-for-their-eu-erasmus-plus-student-mobility-project/",
+    "evidence_quote": "Our project partners are from the Albertus-Magnus Gymnasium in Ettlingen, Germany and this meeting in Brussels was designed to allow our students to meet one another but also to hear more about possible career opportunities in the EU.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Affordable Boarding Show",
+    "partner_country": "United Kingdom",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://kingshospital.ie/kh-showcases-boarding-in-london/",
+    "evidence_quote": "The King’s Hospital School is delighted to be exhibiting at the Affordable Boarding Show in Central London on Friday 30 and Saturday 31 October 2026, meeting families interested in discovering more about boarding education in Ireland.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "City of London School for Boys",
+    "partner_country": "United Kingdom",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://kingshospital.ie/kh-showcases-boarding-in-london/",
+    "evidence_quote": "Taking place at City of London School for Boys, 107 Queen Victoria Street, London, the event will bring together schools and families to explore boarding options, academic pathways and the opportunities available to students beyond the classroom.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "The King's Hospital School",
+    "city": "Dublin",
+    "country": "Ireland",
+    "role": "main",
+    "source_url": "https://kingshospital.ie/",
+    "evidence_quote": "Co-Educational Boarding and Day School Palmerstown, Dublin 20, D20 V256, Ireland."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions specific Erasmus+ projects and one partner school in Germany, but does not provide a comprehensive list of all institutional Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.0,
+  "crawl_s": 20.5,
+  "ai_calls": 5,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 10.0,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 1,
+  "email_search_s": 8.8,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     281,
+     348
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 49.2
+ }
+}
