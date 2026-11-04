@@ -1,23 +1,23 @@
 {
  "batch": "romania-batch-1-aiman",
- "status": "running",
- "generated_at": "2026-11-04T19:32:08.086901+00:00",
- "chunk": 3,
- "total_chunks": 3,
+ "status": "done",
+ "generated_at": "2026-11-04T19:33:32.264166+00:00",
+ "chunk": 4,
+ "total_chunks": 4,
  "total_rows": 52,
- "done": 50,
- "pending": 2,
- "elapsed_seconds": 378,
- "eta_seconds": 12,
- "cost_usd_so_far": 1.2006,
- "paid_search_usd": 1.2006,
+ "done": 52,
+ "pending": 0,
+ "elapsed_seconds": 434,
+ "eta_seconds": null,
+ "cost_usd_so_far": 1.2532,
+ "paid_search_usd": 1.2532,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
  "search_failures": 0,
- "haiku_fallback_calls": 84,
+ "haiku_fallback_calls": 87,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 84,
+ "ai_calls": 87,
  "reader_mode": "fast",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,16 +38,14 @@
   }
  ],
  "confidence": {
-  "high": 5,
+  "high": 6,
   "medium": 25,
   "low": 9,
-  "none": 11
+  "none": 12
  },
- "partners_found": 159,
- "campuses_found": 48,
+ "partners_found": 166,
+ "campuses_found": 50,
  "recent": [
-  "r031",
-  "r032",
   "r033",
   "r034",
   "r035",
@@ -65,6 +63,8 @@
   "r047",
   "r048",
   "r049",
-  "r050"
+  "r050",
+  "r051",
+  "r052"
  ]
 }
