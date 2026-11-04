@@ -5635,22 +5635,34 @@
    "source": "Copy of PORTUGAL BATCH 2 BANO",
    "file_id": "1vmTDvw2lpJpwjomxEm49UFFOL5xUjIjq41FxqB3g_kM",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 12,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T20:42:21Z",
    "last_start": "2026-11-04T20:42:21Z",
    "restarts": 0,
-   "cap_usd": 522.03
+   "cap_usd": 522.03,
+   "crm_rows": 14,
+   "no_number": 0,
+   "spend_recorded": true,
+   "cost_usd": 0.0459,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1_th1OGrhDAWIMHniK-7CFiRaiFxgW4BK/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 12,
+   "finished": "2026-11-04T20:45:24Z",
+   "reason": "12 institutes, 5 with a contact"
   },
   {
    "batch": "portugal-batch-1-bano",
    "source": "PORTUGAL BATCH-1 BANO",
    "file_id": "1FE4G7meMr3DeGCa9e3iLYz6D28rl9inlDwYsfA5MhmE",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 56,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T20:45:24Z",
+   "last_start": "2026-11-04T20:45:24Z",
+   "restarts": 0,
+   "cap_usd": 521.98
   },
   {
    "batch": "slovenia-batch",
@@ -5775,7 +5787,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T20:42:21Z",
+ "updated": "2026-11-04T20:45:24Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
