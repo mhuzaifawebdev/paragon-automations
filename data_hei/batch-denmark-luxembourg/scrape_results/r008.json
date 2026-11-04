@@ -1,0 +1,124 @@
+{
+ "row_id": "r008",
+ "scraped_at": "2026-11-04T19:20:15Z",
+ "contacts": {
+  "row_id": "r008",
+  "institution_name": "Herning Gymnasium",
+  "institution_type": "school",
+  "official_website": "https://www.herning-gym.dk/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "post@herning-gym.dk",
+  "generic_email_url": "https://www.herning-gym.dk/",
+  "contact": {
+   "name": "Momme Mailund",
+   "designation": "Rektor",
+   "designation_local": "",
+   "email": "mm@herning-gym.dk",
+   "office_email": "",
+   "phone": "+45 41442183",
+   "source_url": "https://www.herning-gym.dk/kontakt/ledelse/",
+   "evidence_quote": "Momme Mailund ... Rektor"
+  },
+  "alternates": [
+   {
+    "name": "Jakob Østergaard",
+    "designation": "Vicerektor",
+    "designation_local": "",
+    "email": "joe@herning-gym.dk",
+    "office_email": "",
+    "phone": "+45 24464361",
+    "source_url": "https://www.herning-gym.dk/kontakt/ledelse/",
+    "evidence_quote": "Jakob Østergaard ... Vicerektor",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the vice-rector, he is part of the senior leadership team responsible for institutional management."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Momme Mailund is the principal of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Team Danmark",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.herning-gym.dk/aktiviteter/team-danmark-og-talent-herning/",
+    "evidence_quote": "I samarbejde med Team Danmark og Talent Herning tilbyder Herning Gymnasium mulighed for at gennemføre en 3- eller 4-årig gymnasieuddannelse, der tilgodeser eliteidrætselevers særlige behov for at skabe sammenhæng mellem skole og eliteidræt.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Talent Herning",
+    "partner_country": "Denmark",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.herning-gym.dk/aktiviteter/team-danmark-og-talent-herning/",
+    "evidence_quote": "I samarbejde med Team Danmark og Talent Herning tilbyder Herning Gymnasium mulighed for at gennemføre en 3- eller 4-årig gymnasieuddannelse, der tilgodeser eliteidrætselevers særlige behov for at skabe sammenhæng mellem skole og eliteidræt.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "DinnerdeLuxe",
+    "partner_country": "Denmark",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.herning-gym.dk/kontakt/kontakt/",
+    "evidence_quote": "Kantinen drives af DinnerdeLuxe:",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Herning Gymnasium",
+    "city": "Herning",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://www.herning-gym.dk/",
+    "evidence_quote": "H.P. Hansens Vej 8"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The evidence does not contain a list of international partners or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 14.3,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.9,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.4,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     421,
+     459
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 27.9
+ }
+}
