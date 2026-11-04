@@ -1,0 +1,71 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-11-04T20:18:04Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Českoslovanská akademie obchodní Dr. Edvarda Beneše,",
+  "institution_type": "school",
+  "official_website": "https://cao8.cz/",
+  "country": null,
+  "phone": {
+   "value": "224 923 980",
+   "source_url": "https://cao8.cz/",
+   "evidence_quote": "224 923 980 <tel 224923980>, 224 917 774 <tel 224917774>"
+  },
+  "phone_alt": [],
+  "generic_email": "cao8@cao8.cz",
+  "generic_email_url": "https://cao8.cz/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Metropolitní univerzita Praha",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://cao8.cz/spoluprace-s-metropolitni-univerzitou-praha-2/",
+    "evidence_quote": "Spolupráce s Metropolitní univerzitou Praha",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Českoslovanská akademie obchodní Dr. Edvarda Beneše",
+    "city": "Praha 2",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://cao8.cz/",
+    "evidence_quote": "škola, Praha 2, Resslova 8"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects but does not provide a list of specific partner institutions or a named contact person for international mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.3,
+  "crawl_s": 18.5,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "contact_pass": 0,
+  "total_seconds": 58.9
+ }
+}
