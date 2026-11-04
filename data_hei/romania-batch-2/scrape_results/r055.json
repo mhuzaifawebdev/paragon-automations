@@ -1,0 +1,101 @@
+{
+ "row_id": "r055",
+ "scraped_at": "2026-11-04T20:09:34Z",
+ "contacts": {
+  "row_id": "r055",
+  "institution_name": "Celje, Šolski center Celje",
+  "institution_type": "school",
+  "official_website": "https://smm.sc-celje.si/",
+  "country": null,
+  "phone": {
+   "value": "03-42-85-860",
+   "source_url": "https://smm.sc-celje.si/zaposleni/",
+   "evidence_quote": "03-42-85-860 |"
+  },
+  "phone_alt": [],
+  "generic_email": "info@sc-celje.si",
+  "generic_email_url": "https://www.sc-celje.si/erasmus-tocka/",
+  "contact": {
+   "name": "Simona Črep",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "simona.crep@sc-celje.si",
+   "office_email": "",
+   "phone": "03-42-85-860",
+   "source_url": "https://smm.sc-celje.si/zaposleni/",
+   "evidence_quote": "Simona Črep, ... ravnateljica |"
+  },
+  "alternates": [
+   {
+    "name": "Andreja Leskovar",
+    "designation": "Mobility Coordinator",
+    "designation_local": "",
+    "email": "andreja.leskovar@sc-celje.si",
+    "office_email": "",
+    "phone": "03 428 58 14",
+    "source_url": "https://www.sc-celje.si/splosno-solsko-izobrazevanje/",
+    "evidence_quote": "Koordinatorica mobilnosti: ... Andreja Leskovar",
+    "why_chosen": "Mobility coordinator. Andreja Leskovar is explicitly named as the mobility coordinator for the institution."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Simona Črep is the principal of the school and is listed as a contact for international project activities.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Srednja tehniška in ekonomska šola Brno",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://smm.sc-celje.si/novice/dijaki-m-2-c-na-erasmus-izmenjavi-na-ceskem/",
+    "evidence_quote": "V torek, 3. marca 2026, smo se dijaki M-2.c-razreda odpravili na Erasmus+ izmenjavo na Češko. Iz Celja smo se odpeljali v noči s ponedeljka na torek in nato dan preživeli v glavnem mestu Pragi. V sredo je sledil obisk Srednje tehniške in ekonomske šole Brno, kjer so nam dijaki in učitelji predstavili svojo državo, običaje in šolski utrip. Navdušile so nas njihove dobro opremljene in prostorne delavnice. Popoldne smo v znanstvenem centru Vida preizkušali svoje male sive celice. Dan smo zaključili",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Audi Györ",
+    "partner_country": "Hungary",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://smm.sc-celje.si/sodelovanje-z-gospodarstvom/",
+    "evidence_quote": "Audi Györ",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Šolski center Celje",
+    "city": "Celje",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://smm.sc-celje.si/",
+    "evidence_quote": "Šolski center Celje"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of local industry partners but does not contain a formal list of Erasmus+ partner institutions. Information about specific mobility agreements is limited to the mentioned school in Brno and the company Audi Györ.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 16.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 14.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 32.6
+ }
+}

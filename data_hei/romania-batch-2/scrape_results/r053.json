@@ -1,0 +1,80 @@
+{
+ "row_id": "r053",
+ "scraped_at": "2026-11-04T20:09:44Z",
+ "contacts": {
+  "row_id": "r053",
+  "institution_name": "Srednja šola za oblikovanje Maribor",
+  "institution_type": "school",
+  "official_website": "https://www.ssom.si/",
+  "country": null,
+  "phone": {
+   "value": "02 330 28 00",
+   "source_url": "https://www.ssom.si/",
+   "evidence_quote": "02 330 28 00 <tel 023302800>"
+  },
+  "phone_alt": [],
+  "generic_email": "info@ssom.si",
+  "generic_email_url": "https://www.ssom.si/",
+  "contact": {
+   "name": "Dženana Aljić",
+   "designation": "Business Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "02/330-28-00",
+   "source_url": "https://www.ssom.si/kontakt/",
+   "evidence_quote": "Dženana Aljić, poslovna sekretarka"
+  },
+  "alternates": [],
+  "rung": "Secretary / administration (last resort). She is the business secretary and handles administrative inquiries.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "A Class Academy",
+    "partner_country": "Malta",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ssom.si/",
+    "evidence_quote": "15. dan Tudi danes smo imeli načrtovan izlet. Izhodišče je bilo prav tako pri šoli A Class Academy. Pridružili so...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Srednja šola za oblikovanje Maribor",
+    "city": "Maribor",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://www.ssom.si/",
+    "evidence_quote": "SŠOM Maribor, Park mladih 8, 2000 Maribor,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides blog posts about Erasmus+ mobilities in Malta, Turkey, Sweden, and Tenerife, but does not contain a formal list of partner institutions or agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.5,
+  "crawl_s": 25.2,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.8,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 8.1,
+  "total_seconds": 42.6
+ }
+}
