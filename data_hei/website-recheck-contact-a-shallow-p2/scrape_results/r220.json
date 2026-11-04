@@ -1,0 +1,59 @@
+{
+ "row_id": "r220",
+ "scraped_at": "2026-11-04T09:22:03Z",
+ "contacts": {
+  "row_id": "r220",
+  "institution_name": "IES Son Rullan",
+  "institution_type": "unknown",
+  "official_website": "https://www.sonrullan.org/",
+  "country": {
+   "value": "Palma de Mallorca",
+   "source_url": "https://www.sonrullan.org/",
+   "evidence_quote": "SON RULLAN M7 | Pisos nuevos en venta | Palma de Mallorca de Llobregat"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@sonrullan.org",
+  "generic_email_url": "https://www.sonrullan.org/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "C/ Aragón 315 Local",
+    "city": "Palma de Mallorca",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.sonrullan.org/index.php?contacto=1",
+    "evidence_quote": "Dirección | C/ Aragón 315 Local"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not describe an educational institution, but rather a residential real estate development and sales office (Residencial Son Rullán). No academic partners, campuses in the traditional sense, or educational contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 8.1,
+  "ai_calls": 2,
+  "model_s": 81.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 128.2
+ }
+}
