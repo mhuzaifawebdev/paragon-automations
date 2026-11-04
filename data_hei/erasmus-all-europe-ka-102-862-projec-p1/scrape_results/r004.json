@@ -1,0 +1,115 @@
+{
+ "row_id": "r004",
+ "scraped_at": "2026-11-04T21:55:52Z",
+ "contacts": {
+  "row_id": "r004",
+  "institution_name": "Ösby, Västmanlands Naturbruksgymnasium",
+  "institution_type": "school",
+  "official_website": "https://osbygymnasium.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Anna Hellström",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "anna.hellstrom@sala.se",
+   "office_email": "",
+   "phone": "0224-74 88 00",
+   "source_url": "https://osbygymnasium.se/kontakt/",
+   "evidence_quote": "REKTOR ... Anna Hellström"
+  },
+  "alternates": [
+   {
+    "name": "Hans Jakobsson",
+    "designation": "Assistant Principal",
+    "designation_local": "",
+    "email": "hans.jakobsson@sala.se",
+    "office_email": "",
+    "phone": "0224-74 88 30",
+    "source_url": "https://osbygymnasium.se/kontakt/",
+    "evidence_quote": "BITR. REKTOR ... Hans Jakobsson",
+    "why_chosen": "Principal / director (no Erasmus contact found). Hans Jakobsson is an assistant principal and a key contact for administrative and leadership inquiries."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Anna Hellström is the principal of the institution and the primary contact for leadership matters.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: web search (Google via Gemini). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "gymnasium.se",
+    "partner_country": "Sweden",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://osbygymnasium.se/",
+    "evidence_quote": "I samarbete med gymnasium.se",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "elevråd",
+    "partner_country": "Sweden",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://osbygymnasium.se/trygghetsteamet/",
+    "evidence_quote": "Vi har ett nära samarbeta med skolans elevråd, dels för att synliggöra Trygghetsteamet i ungdomarnas vardag men även för att delta i det elevfrämjande arbetet som elevrådet driver.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ösby Naturbruksgymnasium",
+    "city": "Sala",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://osbygymnasium.se/",
+    "evidence_quote": "Naturbruksgymnasium"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The institution lists categories of partners on their website but does not provide a specific list of names or organizations. No Erasmus+ specific coordinator is identified.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.6,
+  "crawl_s": 10.8,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 24.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 1,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 42.8
+ }
+}
