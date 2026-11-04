@@ -1,0 +1,99 @@
+{
+ "row_id": "r065",
+ "scraped_at": "2026-11-01T00:27:30Z",
+ "contacts": {
+  "row_id": "r065",
+  "institution_name": "VIDZEMES AUGSTSKOLA",
+  "institution_type": "university",
+  "official_website": "https://va.lv/",
+  "country": {
+   "value": "Latvija",
+   "source_url": "https://va.lv/",
+   "evidence_quote": "Vidzemes Augstskola, Cēsu iela 4, Tērbatas iela 10, Valmiera, LV-4201, Latvija"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "international@va.lv",
+  "generic_email_url": "https://va.lv/kontakti",
+  "contact": {
+   "name": "Beāte Velpe",
+   "designation": "International Student Recruitment Specialist",
+   "designation_local": "",
+   "email": "beate.velpe@va.lv",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://va.lv/kontakti/starptautiskas-sadarbibas-grupa",
+   "evidence_quote": "Beāte Velpe ... PIESAISTES SPECIĀLISTE,"
+  },
+  "alternates": [
+   {
+    "name": "Liene Goļča",
+    "designation": "Staff Mobility Coordinator",
+    "designation_local": "",
+    "email": "beate.velpe@va.lv",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://va.lv/kontakti/starptautiskas-sadarbibas-grupa",
+    "evidence_quote": "Liene Goļča ... PERSONĀLA MOBILITĀŠU KOORDINATORE",
+    "why_chosen": "Mobility coordinator. She is specifically designated as the coordinator for staff mobility."
+   }
+  ],
+  "rung": "International relations officer. She is responsible for international student recruitment and is part of the international cooperation group.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "Reused from batch ka-103-erasmus-europe-553-p2 (scraped 2026-11-01). site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "E³UDRES²",
+    "partner_country": "European Union",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://va.lv/starptautiska-sadarbiba",
+    "evidence_quote": "2020. gadā Vidzemes Augstskola (ViA) kopā ar piecām citām reģionālajām universitātēm no piecām Eiropas Savienības valstīm kļuva par daļu no Eiropas Universitāšu alianses E³UDRES², kurai 2022. gadā pievienojās vēl trīs partneri.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EUDRES University Alliance",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://va.lv/visi-notikumi/starptautiska-konference-society-technology-solutions",
+    "evidence_quote": "Students and graduates of EUDRES University Alliance partners and associate partners |",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Vidzemes Augstskola",
+    "city": "Valmiera",
+    "country": "Latvija",
+    "role": "main",
+    "source_url": "https://va.lv/",
+    "evidence_quote": "Vidzemes Augstskola, Cēsu iela 4, Tērbatas iela 10, Valmiera, LV-4201, Latvija"
+   }
+  ],
+  "stated_total": 108,
+  "stated_total_quote": "108",
+  "stated_total_url": "https://va.lv/starptautiska-sadarbiba",
+  "truncated": true,
+  "total_seen": 108,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of international cooperation staff and mentions the E³UDRES² alliance, but does not provide a full list of individual partner universities.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "ka-103-erasmus-europe-553-p2",
+  "row_id": "r762"
+ }
+}
