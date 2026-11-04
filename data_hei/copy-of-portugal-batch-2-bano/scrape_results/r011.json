@@ -1,0 +1,92 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-11-04T17:19:33Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Escola Secundária Eça de Queirós",
+  "institution_type": "school",
+  "official_website": "https://www.eseq.pt/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "geral@eseq.pt",
+  "generic_email_url": "https://www.eseq.pt/",
+  "contact": {
+   "name": "Maria Manuel Moreira",
+   "designation": "Teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.eseq.pt/NAE.htm",
+   "evidence_quote": "O NAE � coordenado pela docente ... Maria Manuel Moreira e integra:"
+  },
+  "alternates": [],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Maria Manuel Moreira is the teacher who coordinates the Nucleo de Apoio Educativo.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "Reused from batch distribution-file-ambassadors-high-s (scraped 2026-11-04). site found via: Wikidata (an item with exactly this name). mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eseq.pt/gie.htm",
+    "evidence_quote": "de voluntariado local e internacional (Erasmus",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "BCVPVZ",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eseq.pt/gie.htm",
+    "evidence_quote": "+, BCVPVZ, JIM);",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "JIM",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.eseq.pt/gie.htm",
+    "evidence_quote": "+, BCVPVZ, JIM);",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Secundária Eça de Queirós",
+    "city": "Póvoa de Varzim",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://www.eseq.pt/",
+    "evidence_quote": "Escola Secund�ria E�a de Queir�s - ESEQ"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The website mentions Erasmus+ as an opportunity for students but does not provide a list of specific partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "distribution-file-ambassadors-high-s",
+  "row_id": "r728"
+ }
+}
