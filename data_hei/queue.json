@@ -5341,22 +5341,34 @@
    "source": "ESTONIA-BANO",
    "file_id": "1zjdKFudlocR1eIMX9MhCAtxxoCt385-XMXD6TDxOOAU",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 54,
    "note": "Read the sheet 'Clean_Unique_Leads'.",
    "started": "2026-11-04T18:21:33Z",
    "last_start": "2026-11-04T18:21:33Z",
    "restarts": 0,
-   "cap_usd": 533.68
+   "cap_usd": 533.68,
+   "crm_rows": 15,
+   "no_number": 44,
+   "spend_recorded": true,
+   "cost_usd": 0.6725,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1E8BOeKkglqSUbvjYouhn_-jHEk1Rcj4u/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 51,
+   "finished": "2026-11-04T18:28:55Z",
+   "reason": "55 institutes, 23 with a contact"
   },
   {
    "batch": "copy-of-batch-2-bulgaria-sprint-5-ba",
    "source": "Copy of BATCH-2 BULGARIA SPRINT_5 Bano 13_2_2025",
    "file_id": "1JtEBRCan0zdcintBA2GEo6Ypkb6unjIxl5T4mRZlArM",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 13,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Read the sheet 'Clean_Unique_Leads'.",
+   "started": "2026-11-04T18:28:55Z",
+   "last_start": "2026-11-04T18:28:55Z",
+   "restarts": 0,
+   "cap_usd": 533.0
   },
   {
    "batch": "batch-1-bulgaria-sprint-5",
@@ -5607,7 +5619,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-04T18:21:33Z",
+ "updated": "2026-11-04T18:28:55Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
