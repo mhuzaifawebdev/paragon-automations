@@ -1,0 +1,114 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-11-04T20:19:28Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Gymnázium Brno-Bystrc",
+  "institution_type": "school",
+  "official_website": "https://gyby.cz/",
+  "country": {
+   "value": "Česká republika",
+   "source_url": "https://gyby.cz/kontakty/",
+   "evidence_quote": "Česká republika"
+  },
+  "phone": {
+   "value": "533 555 106",
+   "source_url": "https://gyby.cz/kontakty/",
+   "evidence_quote": "533 555 106 <tel +420533555106> (sekretariát ředitele)"
+  },
+  "phone_alt": [],
+  "generic_email": "info@gyby.cz",
+  "generic_email_url": "https://gyby.cz/",
+  "contact": {
+   "name": "Petr Šurek",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "petr.surek@gyby.cz",
+   "office_email": "",
+   "phone": "533 555 106",
+   "source_url": "https://gyby.cz/kontakty/",
+   "evidence_quote": "Ředitel: ... Mgr. Petr Šurek"
+  },
+  "alternates": [
+   {
+    "name": "Jana Škaroupková",
+    "designation": "School Secretariat",
+    "designation_local": "",
+    "email": "info@gyby.cz",
+    "office_email": "",
+    "phone": "533 555 106",
+    "source_url": "https://gyby.cz/kontakty/",
+    "evidence_quote": "Sekretariát školy: ... Jana Škaroupková",
+    "why_chosen": "Secretary / administration (last resort). Jana Škaroupková works in the school secretariat and handles general inquiries."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Petr Šurek is the director of the institution and is the contact currently on file.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable). 4 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Gymnázium v Šabaci",
+    "partner_country": "Serbia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://gyby.cz/aktuality/exkurze-zajezdy/navrat-z-erasmus-mobility-7a8-v-srbsku-posilila-kriticke-mysleni-mezinarodni-spolupraci-a-anglictinu/",
+    "evidence_quote": "Týden od 5. do 11. října 2025 byl pro třídu 7A8 nabitý vzděláváním i kulturou. Zúčastnili jsme se mobility v rámci programu Erasmus+ v Srbsku, kde nás s otevřenou náručí přivítalo Gymnázium v Šabaci.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Šabačka gimnazija",
+    "partner_country": "Serbia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://gyby.cz/erasmus-plus/",
+    "evidence_quote": "Šabačka gimnazija, Srbsko",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Europass Teacher Academy",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "staff",
+    "source_url": "https://gyby.cz/aktuality/erasmus-plus/erasmus-ka1-21st-century-teachers/",
+    "evidence_quote": "Metodické kurzy – Irsko, Dublin, Europass Teacher Academy (3 mobility, učitelé AJ, červen–srpen 2022)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gymnázium Brno-Bystrc",
+    "city": "Brno-Bystrc",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://gyby.cz/",
+    "evidence_quote": "Vejrostova 1143/2, Brno-Bystrc"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "The website mentions participation in Erasmus+ projects but does not provide a comprehensive list of all current partner institutions. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.5,
+  "crawl_s": 75.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.3,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 85.4
+ }
+}

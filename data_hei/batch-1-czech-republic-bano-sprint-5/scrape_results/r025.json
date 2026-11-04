@@ -1,0 +1,79 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-11-04T20:19:52Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "Gymnázium O. Havlové, Ostrava",
+  "institution_type": "school",
+  "official_website": "https://www.gyohavl.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sekretariat@gyohavl.cz",
+  "generic_email_url": "https://www.gyohavl.cz/",
+  "contact": {
+   "name": "Jana Huvarová",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "jana.huvarova@gyohavl.cz",
+   "office_email": "reditel@gyohavl.cz",
+   "phone": "+420 733 598 467",
+   "source_url": "https://www.gyohavl.cz/vedeni-skoly",
+   "evidence_quote": "Mgr. Jana Huvarová ... ředitelka školy",
+   "email_source_url": "https://www.gyohavl.cz/pedagogicky-sbor"
+  },
+  "alternates": [
+   {
+    "name": "Andrea Kantorová",
+    "designation": "Educational Counselor",
+    "designation_local": "",
+    "email": "andrea.kantorova@gyohavl.cz",
+    "office_email": "",
+    "phone": "+420 595 693 820",
+    "source_url": "https://www.gyohavl.cz/dalsi-kontakty",
+    "evidence_quote": "Mgr. Andrea Kantorová ... výchovná poradkyně",
+    "why_chosen": "Principal / director (no Erasmus contact found). Andrea Kantorová is an educational counselor involved in student guidance and international project information."
+   }
+  ],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Jana Huvarová is the principal of the school and is the primary contact for institutional matters. Own work email found on a page naming them.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gymnázium Olgy Havlové",
+    "city": "Ostrava-Poruba",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.gyohavl.cz/",
+    "evidence_quote": "Marie Majerové 1691"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions past Erasmus+ projects with partners in Slovakia, Italy, Turkey, Germany, and Spain, but does not provide a current list of active Erasmus+ partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.3,
+  "crawl_s": 13.4,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.4,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 12.4,
+  "total_seconds": 30.5
+ }
+}

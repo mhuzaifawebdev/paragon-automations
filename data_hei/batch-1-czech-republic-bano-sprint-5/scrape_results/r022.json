@@ -1,0 +1,81 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-11-04T20:19:30Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "Gymnázium Jaroslava Vrchlického, Klatovy",
+  "institution_type": "school",
+  "official_website": "https://www.klatovynet.cz/intro/default.asp?page=%2FDefault%2Easp",
+  "country": null,
+  "phone": {
+   "value": "778 434 622",
+   "source_url": "https://www.klatovynet.cz/gymkt/kontakty.asp",
+   "evidence_quote": "Mgr. V�clav Vogeltanz, tel. 778 434 622, vvogeltanz@gym-kt.cz"
+  },
+  "phone_alt": [],
+  "generic_email": "gymkt@klatovynet.cz",
+  "generic_email_url": "https://www.klatovynet.cz/gymkt/kontakty.asp",
+  "contact": {
+   "name": "Rudolf Salvetr",
+   "designation": "Statutory Deputy Director",
+   "designation_local": "",
+   "email": "rsalvetr@gym-kt.cz",
+   "office_email": "",
+   "phone": "732 858 978",
+   "source_url": "https://www.klatovynet.cz/gymkt/kontakty.asp",
+   "evidence_quote": "Statut�rn� z�stupce �editele: | ... Mgr. Rudolf Salvetr, tel. 732 858 978, rsalvetr@gym-kt.cz"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Rudolf Salvetr is the statutory deputy director of the school.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Hlávkova nadace",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.klatovynet.cz/gymkt/kontakty.asp",
+    "evidence_quote": "Hl�vkova nadace",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gymnázium Jaroslava Vrchlického",
+    "city": "Klatovy",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.klatovynet.cz/gymkt/kontakty.asp",
+    "evidence_quote": "N�r. mu�edn�k� 347"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 2,
+  "coverage_note": "The website mentions international excursions and cross-border cooperation but does not provide a specific list of Erasmus+ or international partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 7.2,
+  "thin_home": true,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.2,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 0.0,
+  "total_seconds": 11.1
+ }
+}
