@@ -1,0 +1,106 @@
+{
+ "row_id": "r013",
+ "scraped_at": "2026-11-04T18:23:27Z",
+ "contacts": {
+  "row_id": "r013",
+  "institution_name": "Narva Vanalinna Riigikool",
+  "institution_type": "school",
+  "official_website": "https://nvpk.ee/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Irene Käosaar",
+   "designation": "director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://nvpk.ee/kontaktid/",
+   "evidence_quote": "Irene Käosaar ... direktor"
+  },
+  "alternates": [
+   {
+    "name": "Anna Fedyukhina",
+    "designation": "English teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://nvpk.ee/erasmus-3/",
+    "evidence_quote": "Anna Fedyukhina ... an English teacher",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). She is an English teacher who has actively participated in international teachers' community and Erasmus+ projects."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). She is the director of the school and oversees institutional operations.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Narva Kesklinna Kool",
+    "partner_country": "Estonia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://nvpk.ee/wp-content/Dokumendid/Kooli%20dokumendid/Projektid/Erasmus%20ekrediteering.pdf",
+    "evidence_quote": "Partnerid: Narva Kesklinna Kool, Sillamäe Vanalinna Kool, Ahtme Kool",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sillamäe Vanalinna Kool",
+    "partner_country": "Estonia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://nvpk.ee/wp-content/Dokumendid/Kooli%20dokumendid/Projektid/Erasmus%20ekrediteering.pdf",
+    "evidence_quote": "Partnerid: Narva Kesklinna Kool, Sillamäe Vanalinna Kool, Ahtme Kool",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ahtme Kool",
+    "partner_country": "Estonia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://nvpk.ee/wp-content/Dokumendid/Kooli%20dokumendid/Projektid/Erasmus%20ekrediteering.pdf",
+    "evidence_quote": "Partnerid: Narva Kesklinna Kool, Sillamäe Vanalinna Kool, Ahtme Kool",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Narva Vanalinna Põhikool",
+    "city": "Narva",
+    "country": "Estonia",
+    "role": "main",
+    "source_url": "https://nvpk.ee/",
+    "evidence_quote": "Asukoha aadress – Juuli 9, Narva"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution is a primary school (Põhikool) in Estonia. While it lists specific partner schools in its Erasmus+ consortium, it does not provide a comprehensive list of all international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 13.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 7.0,
+  "total_seconds": 25.3
+ }
+}
