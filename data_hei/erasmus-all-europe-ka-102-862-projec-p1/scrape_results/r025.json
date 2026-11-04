@@ -1,0 +1,115 @@
+{
+ "row_id": "r025",
+ "scraped_at": "2026-11-04T21:57:40Z",
+ "contacts": {
+  "row_id": "r025",
+  "institution_name": "CITY OF DUBLIN EDUCATION AND TRAINING BOARD",
+  "institution_type": "college",
+  "official_website": "https://www.cityofdublinetb.ie",
+  "country": {
+   "value": "Ireland",
+   "source_url": "https://www.cityofdublinetb.ie",
+   "evidence_quote": "This operation is is co-funded by the Government of Ireland and the European Union."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Dr. Christy Duffy",
+   "designation": "Chief Executive",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.cityofdublinetb.ie/about-us/governance-and-board/city-of-dublin-etb-governance/",
+   "evidence_quote": "Chief Executive | ... Dr. Christy Duffy |"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). As the Chief Executive, he leads the institution and its senior leadership team.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: Wikidata. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "SOLAS",
+    "partner_country": "Ireland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cityofdublinetb.ie",
+    "evidence_quote": "[solas logo]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ETBI",
+    "partner_country": "Ireland",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.cityofdublinetb.ie",
+    "evidence_quote": "[etbi ie color logo]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "City of Dublin FET College Northwest Campus",
+    "city": "Finglas",
+    "country": "Ireland",
+    "role": "branch",
+    "source_url": "https://www.cityofdublinetb.ie/further-education-and-training-fet/city-of-dublin-fet-college-centres/training-centres/",
+    "evidence_quote": "City of Dublin FET College Northwest Campus |"
+   },
+   {
+    "campus_name": "City of Dublin FET College Southwest Campus",
+    "city": "Ballyfermot",
+    "country": "Ireland",
+    "role": "branch",
+    "source_url": "https://www.cityofdublinetb.ie/further-education-and-training-fet/city-of-dublin-fet-college-centres/training-centres/",
+    "evidence_quote": "City of Dublin FET College Southwest Campus |"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "The provided evidence does not contain information regarding international partnerships or Erasmus+ agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.6,
+  "crawl_s": 10.5,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 6.6,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 2,
+    "accepted": 2
+   },
+   {
+    "lines": [
+     141,
+     176
+    ],
+    "returned": 0,
+    "accepted": 0
+   }
+  ],
+  "total_seconds": 25.4
+ }
+}
