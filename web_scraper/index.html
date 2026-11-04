@@ -995,7 +995,10 @@ function renderBest(batches) {
   if (PREVIEW) return;                                  // the preview shows simulated figures only
   const best = bestLists(batches);
   $("t-best").hidden = $("d-best").hidden = !best.length;
-  const nice = n => n.replace(/-/g, " ").replace(/hei/i, "HEI").replace(/^./, c => c.toUpperCase());
+  // "batch-hei-network" -> "HEI network list", "ka-103-erasmus-europe-553-p" -> "KA103 Erasmus Europe list"
+  const nice = n => n.replace(/^batch-/, "").replace(/-(merged|p)$/, "").replace(/-\d+(-p)?$/, "").replace(/ka-(\d+)/i, "KA$1")
+    .split("-").map(w => /^(hei|ccc|db|eu|uk|ka\d+)$/i.test(w) ? w.toUpperCase() : w).join(" ")
+    .replace(/^./, c => c.toUpperCase()) + " list";
   $("d-best").innerHTML = best.map(x => `<div class="tile"><div class="n">${pct(x.contact, x.site)}</div>` +
     `<div class="l">Named contacts: ${esc(nice(x.name))}</div><div class="s">${fmtN(x.contact)} of ${fmtN(x.site)} institutes with a website · ` +
     `${pct(x.email, x.site)} with an email</div></div>`).join("");
