@@ -1,0 +1,88 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-11-04T20:35:18Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Mažeikių politechnikos mokykla",
+  "institution_type": "college",
+  "official_website": "https://mazeikiupm.lt/",
+  "country": null,
+  "phone": {
+   "value": "+370 610 46983",
+   "source_url": "https://mazeikiupm.lt/index.php/2022-09-15-09-28-19/kontaktai",
+   "evidence_quote": "Tel. +370 610 46983"
+  },
+  "phone_alt": [],
+  "generic_email": "info@mazeikiupm.lt",
+  "generic_email_url": "https://mazeikiupm.lt/",
+  "contact": {
+   "name": "Tatjana Kinčinienė",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://mazeikiupm.lt/",
+   "evidence_quote": "Mokyklos direktorė Tatjana Kinčinienė ir direktoriaus pavaduotoja ugdymui Erika Pusvaškė lankėsi Mažeikių lopšelyje-darželyje „Linelis“..."
+  },
+  "alternates": [],
+  "rung": "Matches the contact your operators already spoke to. Principal / director (no Erasmus contact found). Tatjana Kinčinienė is the Director of the institution and is the primary contact for institutional leadership.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini (read by the paid reader gemini-3.1-flash-lite (paid key): free Gemini was unavailable)."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ogrės technikumo mokykloje",
+    "partner_country": "Latvia",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://mazeikiupm.lt/",
+    "evidence_quote": "Parengiamasis vizitas Ogrės technikumo mokykloje",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mažeikių politechnikos mokykla",
+    "city": "Mažeikiai",
+    "country": "Lithuania",
+    "role": "main",
+    "source_url": "https://mazeikiupm.lt/",
+    "evidence_quote": "Ventos g. 18, 89188 Mažeikiai"
+   },
+   {
+    "campus_name": "Mažeikių politechnikos mokyklos Viekšnių skyrius",
+    "city": "Viekšniai",
+    "country": "Lithuania",
+    "role": "branch",
+    "source_url": "https://mazeikiupm.lt/",
+    "evidence_quote": "MAŽEIKIŲ POLITECHNIKOS MOKYKLOS VIEKŠNIŲ SKYRIUS"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence mentions participation in Erasmus+ projects but does not provide a formal list of international partner institutions. Contact emails are not explicitly linked to specific names in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 7.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 20.7,
+  "mode": "gemini",
+  "reader": "gemini-3.1-flash-lite (paid key)",
+  "email_search_s": 14.1,
+  "total_seconds": 44.5
+ }
+}
