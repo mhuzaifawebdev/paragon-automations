@@ -1,0 +1,96 @@
+{
+ "row_id": "r192",
+ "scraped_at": "2026-11-05T11:41:10Z",
+ "contacts": {
+  "row_id": "r192",
+  "institution_name": "Max-Weber-Berufskolleg",
+  "institution_type": "college",
+  "official_website": "https://mwbk.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "birgit.erdmann@mwbk.nrw.schule",
+  "generic_email_url": "https://mwbk.de/",
+  "contact": {
+   "name": "Sabine von Zedlitz",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://mwbk.de/",
+   "evidence_quote": "Sabine von Zedlitz ... Schulleitung"
+  },
+  "alternates": [
+   {
+    "name": "Barbara Stieldorf",
+    "designation": "Deputy Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://mwbk.de/",
+    "evidence_quote": "Barbara Stieldorf ... Stv. Schulleiterin",
+    "why_chosen": "Principal / director (no Erasmus contact found). She is the deputy head of the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). She is the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Berufskolleg Niederberg",
+    "partner_country": "Germany",
+    "partner_type": "school",
+    "mobility_type": "staff",
+    "source_url": "https://mwbk.de/schule/kooperation/",
+    "evidence_quote": "Berufskolleg Niederberg, Velbert",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "KSD Diest",
+    "partner_country": "Belgium",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://mwbk.de/erasmus-partnerschule-aus-belgien-zu-gast-in-der-hoeheren-handelsschule/",
+    "evidence_quote": "Vom 4. bis 9. Oktober 2026 sind Schüler:innen unserer belgischen Partnerschule KSD Diest am Max-Weber-Berufskolleg (MWBK) in Düsseldorf zu Gast. Gemeinsam mit zehn Schüler:innen unserer Höheren Handelsschule arbeiten sie im Rahmen von Erasmus+ an einem spannenden Thema: Identitätsfindung und europäische Identität.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Max-Weber-Berufskolleg",
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://mwbk.de/",
+    "evidence_quote": "Max-Weber-Berufskolleg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions the institution is an accredited Erasmus+ school but does not provide a comprehensive list of all international partners beyond the specific example of KSD Diest.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.4,
+  "crawl_s": 13.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 3.2,
+  "mode": "gemini",
+  "email_search_s": 1.0,
+  "total_seconds": 26.2
+ }
+}
