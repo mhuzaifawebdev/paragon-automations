@@ -1,0 +1,141 @@
+{
+ "row_id": "r657",
+ "scraped_at": "2026-11-05T12:17:16Z",
+ "contacts": {
+  "row_id": "r657",
+  "institution_name": "Berufliche Schulen Wittelsbacher Land",
+  "institution_type": "college",
+  "official_website": "https://www.bs-wittelsbacherland.de",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "verwaltung@bs-wittelsbacherland.de",
+  "generic_email_url": "https://www.bs-wittelsbacherland.de/adressen-kontakt/",
+  "contact": {
+   "name": "Cornelia Nieberle-Schreiegg",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "08251 8756",
+   "source_url": "https://www.bs-wittelsbacherland.de/schulleitung/",
+   "evidence_quote": "Cornelia Nieberle-Schreiegg ... Schulleiterin"
+  },
+  "alternates": [
+   {
+    "name": "Dominic Seldt",
+    "designation": "Teacher / Erasmus+ Project Lead",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bs-wittelsbacherland.de/kick-off-projekt-erasmus/",
+    "evidence_quote": "Auf der Kick-Off-Veranstaltung hatten alle die Gelegenheit, sich und die begleitenden Lehrkräfte kennenzulernen, sich über genauere Details des Aufenthaltes zu informieren und Organisatorische Dinge zu klären. Durch die Veranstaltung führte OStR Dominic Seldt.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Dominic Seldt is explicitly mentioned as the person leading the Erasmus+ kick-off event and project."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). She is the principal of the institution and oversees the school leadership.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IGUS",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bs-wittelsbacherland.de",
+    "evidence_quote": "Firma IGUS in der Technikerschule",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Montessorihaus Augsburg",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bs-wittelsbacherland.de",
+    "evidence_quote": "Besuch der FAKS im Montessorihaus Augsburg",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Hilti",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bs-wittelsbacherland.de",
+    "evidence_quote": "Hilti-Praxisworkshop: Sicher verankert für die Gesellenprüfung",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bundeswehr",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bs-wittelsbacherland.de",
+    "evidence_quote": "Die Bundeswehr zu Gast in Aichach",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "CERN",
+    "partner_country": "Switzerland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bs-wittelsbacherland.de",
+    "evidence_quote": "CERN – Schüler der Technikerschule auf Spuren von Antimaterie",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Standort Aichach",
+    "city": "Aichach",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bs-wittelsbacherland.de/adressen-kontakt/",
+    "evidence_quote": "Standort Aichach"
+   },
+   {
+    "campus_name": "Standort Friedberg",
+    "city": "Friedberg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bs-wittelsbacherland.de/adressen-kontakt/",
+    "evidence_quote": "Standort Friedberg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 9,
+  "coverage_note": "The institution is an accredited Erasmus+ school, but the evidence does not provide a specific list of partner institutions or organizations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 11.8,
+  "crawl_s": 25.3,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.8,
+  "mode": "gemini",
+  "email_search_s": 1.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 5,
+    "accepted": 5
+   }
+  ],
+  "total_seconds": 41.0
+ }
+}
