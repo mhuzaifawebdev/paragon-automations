@@ -1,0 +1,100 @@
+{
+ "row_id": "r842",
+ "scraped_at": "2026-11-05T12:41:28Z",
+ "contacts": {
+  "row_id": "r842",
+  "institution_name": "Willy-Brandt-Schule",
+  "institution_type": "school",
+  "official_website": "https://wbs.pl/aktuelle_ereignisse-1437.html",
+  "country": {
+   "value": "Warszawa",
+   "source_url": "https://wbs.pl/aktuelle_ereignisse-1437.html",
+   "evidence_quote": "ul. Św. Urszuli Ledóchowskiej 3 , 02-972 Warszawa"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sekretariat2@wbs.pl",
+  "generic_email_url": "https://wbs.pl/aktuelle_ereignisse-1437.html",
+  "contact": {
+   "name": "Joanna Pietrzak",
+   "designation": "Teacher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://wbs.pl/erasmus_+-2868.html",
+   "evidence_quote": "Das ist nur ein Teil von dem, was die Schülerinnen und Schüler der 9. Klasse der Willy-Brandt-Schule mit ihren Lehrerinnen Frau Zuzanna Tomasinska und Frau Joanna Pietrzak während des Schüleraustauschs Erasmus + gemacht haben. ... Joanna Pietrzak"
+  },
+  "alternates": [
+   {
+    "name": "Zuzanna Tomasinska",
+    "designation": "Teacher",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://wbs.pl/erasmus_+-2868.html",
+    "evidence_quote": "Das ist nur ein Teil von dem, was die Schülerinnen und Schüler der 9. Klasse der Willy-Brandt-Schule mit ihren Lehrerinnen Frau Zuzanna Tomasinska und Frau Joanna Pietrzak während des Schüleraustauschs Erasmus + gemacht haben.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Zuzanna Tomasinska is a named teacher who coordinated the Erasmus+ student exchange activities."
+   }
+  ],
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). Joanna Pietrzak is a named teacher involved in organizing and running Erasmus+ student exchanges and projects at the school.",
+  "source": "web",
+  "confidence": 0.4,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Helmholtz-Gymnasium",
+    "partner_country": "Deutschland",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://wbs.pl/das_program_erasmus+_hat_begonnen-3136.html",
+    "evidence_quote": "Besuch des Karlsruher Kammerchors des Helmholtz-Gymnasiums an der WBS",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ensemble Scolaire Pradeau - La Sède à Tarbes",
+    "partner_country": "Frankreich",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://wbs.pl/das_program_erasmus+_hat_begonnen-3136.html",
+    "evidence_quote": "Für viele war es das wichtigste Ereignis des Tages, bzw. am Abend der Besuch einer Disco unter Beteiligung von Gästen und Gastgebern. Leider war dies der letzte Punkt unseres Treffens in Polen. Natürlich war es bedauerlich, sich zu verabschieden. In diesem Herbst werden acht Schüler die Schule Ensemble Scolaire Pradeau - La Sède à Tarbes aus Frankreich besuchen, um weitere Maßnahmen im Rahmen des Erasmus+ Projektes zu ergreifen.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Willy-Brandt-Schule Warschau",
+    "city": "Warschau",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://wbs.pl/aktuelle_ereignisse-1437.html",
+    "evidence_quote": "WBS - Deutsch-Polnische Begegnungsschule Warschau, Willy-Brandt-Schule Warschau"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists several sponsors and general institutions associated with events, but specific international partner schools for exchanges are only occasionally mentioned in project descriptions (e.g., Helmholtz-Gymnasium and Ensemble Scolaire Pradeau - La Sède à Tarbes). Direct email addresses for named contacts are not provided in the text. 3 list slice(s) could not be read (model busy); the partner list may be incomplete.",
+  "needs_human_check": true,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 25.7,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 67.8,
+  "mode": "gemini",
+  "email_search_s": 1.1,
+  "total_seconds": 94.5
+ }
+}
