@@ -1,0 +1,133 @@
+{
+ "row_id": "r100",
+ "scraped_at": "2026-11-05T11:33:24Z",
+ "contacts": {
+  "row_id": "r100",
+  "institution_name": "Střední odborná škola Jarov",
+  "institution_type": "school",
+  "official_website": "https://skolajarov.cz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "reditel@skolajarov.cz",
+  "generic_email_url": "https://skolajarov.cz/kontakty/",
+  "contact": {
+   "name": "Mgr. Pavel Noha",
+   "designation": "International Relations Officer",
+   "designation_local": "",
+   "email": "noha@skolajarov.cz",
+   "office_email": "",
+   "phone": "266 106 308",
+   "source_url": "https://skolajarov.cz/kontakty/",
+   "evidence_quote": "Noha Pavel, Mgr. ... kancelář zahraničních vztahů"
+  },
+  "alternates": [
+   {
+    "name": "Mgr. Miloslav Janeček",
+    "designation": "School Director",
+    "designation_local": "",
+    "email": "reditel@skolajarov.cz",
+    "office_email": "",
+    "phone": "266 106 620",
+    "source_url": "https://skolajarov.cz/kontakty/",
+    "evidence_quote": "Janeček Miloslav, Mgr. ... ředitel školy",
+    "why_chosen": "Principal / director (no Erasmus contact found). Miloslav Janeček is the head/director of the institution."
+   },
+   {
+    "name": "Zuzana Teplá",
+    "designation": "Secretary",
+    "designation_local": "",
+    "email": "sekret@skolajarov.cz",
+    "office_email": "",
+    "phone": "266 106 254",
+    "source_url": "https://skolajarov.cz/kontakty/",
+    "evidence_quote": "Teplá Zuzana ... sekretariát",
+    "why_chosen": "Secretary / administration (last resort). Zuzana Teplá manages administrative enquiries at the school secretariat."
+   }
+  ],
+  "rung": "International relations officer. Pavel Noha is responsible for the foreign relations office at the school.",
+  "source": "web",
+  "confidence": 0.85,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ČVUT",
+    "partner_country": "Czech Republic",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://skolajarov.cz/dlouhodoba-spoluprace-s-partnerskou-vysokou-skolou-cvut/",
+    "evidence_quote": "DLOUHODOBÁ SPOLUPRÁCE S PARTNERSKOU VYSOKOU ŠKOLOU ČVUT",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Boerma Instituut",
+    "partner_country": "Netherlands",
+    "partner_type": "other",
+    "mobility_type": "traineeship",
+    "source_url": "https://skolajarov.cz/erasmus-v-nizozemsku-zkusenosti-z-boerma-institutu/",
+    "evidence_quote": "V květnu jsme měli jedinečnou příležitost zúčastnit se zahraničního pracovního pobytu v rámci programu Erasmus+. Naší cílovou destinací bylo nizozemské město Aalsmeer, kde sídlí renomovaný Boerma Instituut, který se specializuje na pořádání floristických kurzů pro začátečníky i profesionály z celého světa. Současně Boerma Instituut spolupracuje s řadou květinářství v Aalsmeeru a Amsterdamu.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Morning Glory",
+    "partner_country": "Netherlands",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://skolajarov.cz/erasmus-v-nizozemsku-zkusenosti-z-boerma-institutu/",
+    "evidence_quote": "Během pobytu studenti nejen pracovali v Institutu, ale také pomáhali v místním zahradnictví Morning Glory, kde si vyzkoušeli různé zahradnické činnosti. Kromě odborných zkušeností si studenti zlepšovali i své jazykové dovednosti.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ShipCon",
+    "partner_country": "Cyprus",
+    "partner_type": "company",
+    "mobility_type": "traineeship",
+    "source_url": "https://skolajarov.cz/dosud-nejvetsi-skupina-v-ramci-erasmus-odletela-na-kypr/",
+    "evidence_quote": "V rámci dalšího projektu Erasmus+ (KA1) absolvují dvoutýdenní pracovní stáž ve firmách za spolupráce našeho tamního partnera – agentury ShipCon.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Střední odborná škola Jarov (Main Campus)",
+    "city": "Praha",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://skolajarov.cz/kontakty/",
+    "evidence_quote": "Učňovská 100/1, 190 00 Praha 9"
+   },
+   {
+    "campus_name": "Odloučené pracoviště Pod Táborem 17",
+    "city": "Praha",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://skolajarov.cz/kontakty/",
+    "evidence_quote": "zahradnických oborů a pro odloučené pracoviště Pod Táborem 17"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 9,
+  "coverage_note": "The designated partners page on the website contains no text, but international mobility partners and higher education collaborators are detailed across various news reports.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.6,
+  "crawl_s": 16.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 28.4,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 51.6
+ }
+}
