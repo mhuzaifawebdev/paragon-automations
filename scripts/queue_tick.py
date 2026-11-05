@@ -190,6 +190,10 @@ def tick(data_root, now, cfg, ops):
                         it["reader"] = "free"
                         it["note"] = f"The ${total:.0f} total is used up: this batch runs on the free reader only, $0."
                     it["cap_usd"] = left
+                if cfg.get("free_only"):                # config.yaml scraper.free_only: nothing paid at all
+                    it["reader"] = "free"
+                    it["cap_usd"] = 0.0
+                    it["note"] = "Free reader only (paid switched off in config.yaml): $0."
                 if "max_usd" in it:                     # the request's own limit; 0 means nothing paid at all
                     it["cap_usd"] = min(it["max_usd"], it.get("cap_usd", it["max_usd"]))
                 ops.start(it)
