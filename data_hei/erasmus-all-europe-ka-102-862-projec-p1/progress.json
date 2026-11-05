@@ -1,20 +1,20 @@
 {
  "batch": "erasmus-all-europe-ka-102-862-projec-p1",
- "status": "running",
- "generated_at": "2026-11-05T03:44:04.405025+00:00",
+ "status": "waiting",
+ "generated_at": "2026-11-05T03:47:08.535096+00:00",
  "chunk": 5,
  "total_chunks": 36,
  "total_rows": 900,
- "done": 86,
- "pending": 814,
- "elapsed_seconds": 381,
- "eta_seconds": 453,
+ "done": 88,
+ "pending": 812,
+ "elapsed_seconds": 565,
+ "eta_seconds": 447,
  "cost_usd_so_far": 0.8425,
  "paid_search_usd": 0.8425,
  "paid_search_limit_usd": 21.0,
  "paid_search_limit_reached": false,
  "paid_searches": 0,
- "search_failures": 57,
+ "search_failures": 59,
  "haiku_fallback_calls": 65,
  "cost_usd_projected_total": 0.0,
  "ai_calls": 75,
@@ -41,13 +41,11 @@
   "high": 15,
   "medium": 8,
   "low": 2,
-  "none": 61
+  "none": 63
  },
  "partners_found": 318,
  "campuses_found": 54,
  "recent": [
-  "r071",
-  "r072",
   "r073",
   "r074",
   "r075",
@@ -65,7 +63,12 @@
   "r087",
   "r088",
   "r089",
-  "r090"
+  "r090",
+  "r091",
+  "r092"
  ],
- "drive_link": "https://docs.google.com/spreadsheets/d/1rqCQxqUXVLHepm6P_oMsO74kaEggj1TZ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
+ "drive_link": "https://docs.google.com/spreadsheets/d/1rqCQxqUXVLHepm6P_oMsO74kaEggj1TZ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+ "waiting_kind": "busy",
+ "resume_at": "2026-11-05T04:02:08.533966+00:00",
+ "waiting_reason": "The free AI reader is refusing requests for now."
 }
