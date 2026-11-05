@@ -1,0 +1,106 @@
+{
+ "row_id": "r844",
+ "scraped_at": "2026-11-05T12:38:13Z",
+ "contacts": {
+  "row_id": "r844",
+  "institution_name": "Staatliche Berufsschule Regen",
+  "institution_type": "college",
+  "official_website": "https://www.bsz-regen.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Andreas Loibl",
+   "designation": "Principal / Head of School",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bsz-regen.de/index.php?option=com_dropfiles&format=&task=frontfile.download&catid=43&id=222&Itemid=1000000000000",
+   "evidence_quote": "Schulleiter: OStD Andreas Loibl"
+  },
+  "alternates": [
+   {
+    "name": "Michael Seigner",
+    "designation": "Teacher / Erasmus project coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bsz-regen.de/news/erasmus-plus/erasmus-mobilitaet-der-industriemechaniker-nach-vimperk-in-tschechien-2",
+    "evidence_quote": "Im Rahmen des Schulversuches \"clever clustern\" nehmen im Schuljahr 2025/26 die Industriemechaniker an einem Austauschprogramm mit Auszubildenden der Firma Rohde&Schwarz in Vimperk teil. Die beiden verantwortlichen Lehrkräfte Michael Seigner und Uli Rechenmacher besuchten das Rohde&Schwarz - Werk in Tschechien, Dabei konnten sie die Verantwortlichen vor Ort kennen lernen und den Ablauf und die Organisation des Schüleraustausches besprechen.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Michael Seigner is explicitly mentioned as a responsible teacher involved in organizing and visiting the Erasmus+ exchange program in Czechia."
+   },
+   {
+    "name": "Uli Rechenmacher",
+    "designation": "Teacher / Erasmus project coordinator",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bsz-regen.de/news/erasmus-plus/erasmus-mobilitaet-der-industriemechaniker-nach-vimperk-in-tschechien-2",
+    "evidence_quote": "Im Rahmen des Schulversuches \"clever clustern\" nehmen im Schuljahr 2025/26 die Industriemechaniker an einem Austauschprogramm mit Auszubildenden der Firma Rohde&Schwarz in Vimperk teil. Die beiden verantwortlichen Lehrkräfte Michael Seigner und Uli Rechenmacher besuchten das Rohde&Schwarz - Werk in Tschechien, Dabei konnten sie die Verantwortlichen vor Ort kennen lernen und den Ablauf und die Organisation des Schüleraustausches besprechen.",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Uli Rechenmacher is explicitly mentioned as a responsible teacher visiting the partner works and organizing the Erasmus+ student exchange."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Andreas Loibl is the head of the institution (Schulleiter).",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Industrieschule in Tabor",
+    "partner_country": "Czechia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bsz-regen.de/news/erasmus-plus/erasmus-schuelermobilitaet-der-industriemechaniker-mit-kooperationspartner-rohde-schwarz-nach-vimperk-in-tschechien-2",
+    "evidence_quote": "Ein weiterer wichtiger Programmpunkt war der Besuch der Industrieschule in Tabor, einer Bildungseinrichtung, die eng mit Rohde&Schwarz kooperiert. Hier hatten die Schüler die Möglichkeit, sich mit ihren tschechischen Kolleginnen und Kollegen auszutauschen und mehr über die Bildungs- und Ausbildungsmöglichkeiten in der Region zu erfahren.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Staatliche Berufsschule Regen",
+    "city": "Regen",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bsz-regen.de/",
+    "evidence_quote": "Staatliche Berufsschule Regen"
+   },
+   {
+    "campus_name": "Hotelberufsschule Viechtach",
+    "city": "Viechtach",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.bsz-regen.de/",
+    "evidence_quote": "Hotelberufsschule Viechtach"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a complete standalone list of Erasmus partners or direct email addresses for the listed teachers.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.4,
+  "crawl_s": 14.6,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 9.4,
+  "mode": "gemini",
+  "email_search_s": 1.2,
+  "total_seconds": 34.6
+ }
+}
