@@ -1,0 +1,79 @@
+{
+ "row_id": "r240",
+ "scraped_at": "2026-11-05T11:45:21Z",
+ "contacts": {
+  "row_id": "r240",
+  "institution_name": "Berufsbildende Schule Rodalben",
+  "institution_type": "college",
+  "official_website": "https://bbs-rodalben.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@bbs-rodalben.de",
+  "generic_email_url": "https://bbs-rodalben.de/",
+  "contact": {
+   "name": "Stefan Eichenlaub",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://bbs-rodalben.de/impressum/",
+   "evidence_quote": "OStD Stefan Eichenlaub, Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Jürgen Sprau",
+    "designation": "Data Protection Officer",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://bbs-rodalben.de/impressum/",
+    "evidence_quote": "Datenschutzbeauftragter: ... StD Jürgen Sprau",
+    "why_chosen": "Other role. Jürgen Sprau is the Datenschutzbeauftragter (Data Protection Officer) at the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Stefan Eichenlaub is the Schulleiter (Principal) of the Berufsbildende Schule Rodalben.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufsbildende Schule Rodalben",
+    "city": "Rodalben",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://bbs-rodalben.de/",
+    "evidence_quote": "Gabelsbergerstr. 6 | 66976 Rodalben"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The website does not list specific Erasmus+ coordinators or international partners. It mentions a student exchange to Poland, but does not provide a list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 17.6,
+  "crawl_s": 12.0,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.2,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "email_search_s": 1.2,
+  "total_seconds": 41.1
+ }
+}
