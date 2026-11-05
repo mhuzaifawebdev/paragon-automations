@@ -1,0 +1,59 @@
+{
+ "row_id": "r419",
+ "scraped_at": "2026-11-05T11:53:14Z",
+ "contacts": {
+  "row_id": "r419",
+  "institution_name": "Liberty Power",
+  "institution_type": "unknown",
+  "official_website": "https://libertypowercorp.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://libertypowercorp.com/policies/contact-information",
+   "evidence_quote": "Physical address: 27734 Avenue Scott, Santa Clarita CA 91355, United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "libertyhorns@gmail.com",
+  "generic_email_url": "https://libertypowercorp.com/policies/contact-information",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Liberty Power",
+    "city": "Santa Clarita",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://libertypowercorp.com/policies/contact-information",
+    "evidence_quote": "Physical address: 27734 Avenue Scott, Santa Clarita CA 91355, United States"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial company selling portable train horns rather than an educational institution, and no named staff contacts are listed in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 8.4,
+  "ai_calls": 2,
+  "model_s": 42.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 76.4
+ }
+}

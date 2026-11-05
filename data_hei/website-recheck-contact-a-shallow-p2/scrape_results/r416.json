@@ -1,0 +1,107 @@
+{
+ "row_id": "r416",
+ "scraped_at": "2026-11-05T11:53:25Z",
+ "contacts": {
+  "row_id": "r416",
+  "institution_name": "Lgim",
+  "institution_type": "unknown",
+  "official_website": "https://am.landg.com/",
+  "country": {
+   "value": "Switzerland",
+   "source_url": "https://am.landg.com/en-ch/institutional/contact-us/",
+   "evidence_quote": "Switzerland"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "complaints@lgim.com",
+  "generic_email_url": "https://am.landg.com/en-ch/private-investors/contact/",
+  "contact": {
+   "name": "Eric Adler",
+   "designation": "Chief Executive Officer, Asset Management",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://am.landg.com/en-ch/private-investors/about-us/team/",
+   "evidence_quote": "Eric Adler ... Chief Executive Officer, Asset Management"
+  },
+  "alternates": [
+   {
+    "name": "Volker Kurr",
+    "designation": "Head of Europe",
+    "designation_local": "",
+    "email": "volker.kurr@lgim.com",
+    "office_email": "",
+    "phone": "+49 69 7104 7353",
+    "source_url": "https://am.landg.com/en-ch/institutional/contact/",
+    "evidence_quote": "Volker Kurr, Head of Europe |",
+    "why_chosen": "Other role. Volker Kurr is the Head of Europe for the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Eric Adler is the Chief Executive Officer of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "NTR",
+    "partner_country": "Ireland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://am.landg.com/en-ch/institutional/private-markets/infrastructure-equity/clean-power/",
+    "evidence_quote": "L&G and NTR have maintained a strategic partnership since 2015, when L&G recognised NTR's innovative leadership in renewable energy and became a cornerstone investor in NTR's first two funds.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Zurich office",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "role": "international",
+    "source_url": "https://am.landg.com/en-ch/institutional/contact-us/",
+    "evidence_quote": "Zurich office:"
+   },
+   {
+    "campus_name": "Frankfurt Office",
+    "city": "Frankfurt am Main",
+    "country": "Germany",
+    "role": "international",
+    "source_url": "https://am.landg.com/en-ch/institutional/contact/",
+    "evidence_quote": "Frankfurt Office:"
+   },
+   {
+    "campus_name": "L&G Asset Management",
+    "city": "London",
+    "country": "United Kingdom",
+    "role": "main",
+    "source_url": "https://am.landg.com/en-ch/private-investors/contact/",
+    "evidence_quote": "One Coleman Street"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution is an asset management company, not an educational institution, therefore no Erasmus+ mobility partnerships exist. The evidence provides contact details for institutional clients.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 14.3,
+  "ai_calls": 2,
+  "model_s": 28.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 2,
+  "email_search_s": 0.0,
+  "total_seconds": 110.3
+ }
+}
