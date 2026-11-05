@@ -12,6 +12,7 @@ Output sheets:
 """
 import csv
 import glob
+import json
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -28,6 +29,7 @@ from openpyxl.styles import Font  # noqa: E402
 RESULTS = ROOT / "erasmus_ai_results"
 PROJECTS = ROOT / "erasmus_KA1_ongoing_projects.xlsx"
 OUT = ROOT / "erasmus_contacts_verified.xlsx"
+LOCAL = ROOT / "erasmus_local" / "results"          # scripts/erasmus_local.py (free, rules)
 
 
 def host(u):
@@ -52,19 +54,76 @@ def has_detail(r):
     return any((r.get(k) or "").strip() for k in ("contact_name", "contact_email", "contact_phone", "general_email"))
 
 
-def main():
+def local_person(p):
+    """(name, role) of a rules-mode contact only when it is surely a person: the name looks like one AND their own
+    email matches the name (rules can take a heading such as 'International Office' for a name). Else ('', '')."""
+    sys.path.insert(0, str(ROOT / "scraper2"))
+    import pipeline
+    name, email = (p.get("name") or "").strip(), (p.get("email") or "").strip().lower()
+    if not name or not email or not pipeline.looks_like_person(name):
+        return "", ""
+    if not pipeline._matches_name(email, pipeline._name_toks(name)):
+        return "", ""
+    role = (p.get("designation") or "")[:120]
+    if re.match(r"^[A-Z][a-zé]+ [A-Z][a-zé]+,", role):      # the role line belongs to someone else on the page
+        role = ""
+    return name, role
+
+
+def local_contacts():
+    """{PIC: Contacts row} from the free local run (scripts/erasmus_local.py); its details were already checked on
+    the page they were read from by the scraper."""
+    out = {}
+    for f in LOCAL.glob("*.json") if LOCAL.exists() else []:
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        c = d.get("contacts") or {}
+        p = c.get("contact") or {}
+        phone = c.get("phone")
+        phone = (phone.get("value") if isinstance(phone, dict) else phone) or p.get("phone") or ""
+        general = c.get("generic_email") or p.get("office_email") or ""
+        if not (p.get("name") or p.get("email") or general or phone):
+            continue
+        site = c.get("official_website") or ""
+        src = p.get("source_url") or c.get("generic_email_url") or site
+        e = d.get("erasmus") or {}
+        name, role = local_person(p)
+        out[f.stem] = ["eplus/" + f.stem, f.stem, c.get("institution_name"), "", e.get("city") or "", site, name,
+                       role, p.get("email") or "", phone, general, src, "own website (scraper rules)",
+                       "", "erasmus_local"]
+    return out
+
+
+def main(quiet=False):
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     rows = [r for r in rows_from_files() if has_detail(r)]
-    print(f"{len(rows)} organisations with a detail to check", flush=True)
+    if not quiet:
+        print(f"{len(rows)} organisations with a detail to check", flush=True)
     cache = {}
+    # each AI-tool row is checked on its pages once; the answer is kept, so rebuilding the Excel is quick
+    memo_file = RESULTS / "_checked.json"
+    try:
+        memo = json.loads(memo_file.read_text(encoding="utf-8"))
+    except Exception:
+        memo = {}
+    key = lambda r: json.dumps([r.get(k, "") for k in ("id", "website", "contact_name", "contact_email", "contact_phone",  # noqa: E731
+                                                        "general_email", "source_url", "notes")], ensure_ascii=False)
 
     def one(r):
-        got = air.check(r, cache)
-        return r, got
+        k = key(r)
+        if k not in memo:
+            memo[k] = air.check(r, cache)
+        return r, memo[k]
 
     with ThreadPoolExecutor(12) as pool:
         done = list(pool.map(one, rows))
+    try:
+        memo_file.write_text(json.dumps(memo, ensure_ascii=False), encoding="utf-8")
+    except Exception:
+        pass
 
     contacts, rejected = {}, []
     for r, got in done:
@@ -85,6 +144,10 @@ def main():
                              keep["email"], keep["phone"], keep["general"], src, "own website" if own else "directory / other page",
                              (r.get("notes") or "")[:500], r["_file"]]
 
+    # the free local run fills every organisation the AI tool did not (the AI tool's checked contact comes first)
+    for pic, row in local_contacts().items():
+        if pic not in contacts:
+            contacts[pic] = row
     wb = openpyxl.Workbook()
     ws = wb.active
     ws.title = "Contacts"
