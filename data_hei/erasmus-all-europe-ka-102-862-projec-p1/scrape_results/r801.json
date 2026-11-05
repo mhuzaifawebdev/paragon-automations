@@ -1,0 +1,116 @@
+{
+ "row_id": "r801",
+ "scraped_at": "2026-11-05T12:35:46Z",
+ "contacts": {
+  "row_id": "r801",
+  "institution_name": "Berufskolleg Meschede des HSK",
+  "institution_type": "college",
+  "official_website": "https://www.berufskolleg-meschede.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "verwaltung@berufskolleg-meschede.de",
+  "generic_email_url": "https://www.berufskolleg-meschede.de/",
+  "contact": {
+   "name": "Dagmar Große Lanwer",
+   "designation": "Erasmus+ Coordinator",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.berufskolleg-meschede.de/ueber-uns/ansprechpartner/",
+   "evidence_quote": "Erasmus+ ... Dagmar Große Lanwer"
+  },
+  "alternates": [
+   {
+    "name": "Carsten Placht",
+    "designation": "Headmaster / Principal",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.berufskolleg-meschede.de/ueber-uns/ansprechpartner/",
+    "evidence_quote": "Schulleiter ... OStD Carsten Placht",
+    "why_chosen": "Principal / director (no Erasmus contact found). Carsten Placht is the head of the school."
+   },
+   {
+    "name": "Daniela Overhage",
+    "designation": "Deputy Headmistress",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.berufskolleg-meschede.de/ueber-uns/ansprechpartner/",
+    "evidence_quote": "Stellvertretende Schulleiterin ... StD'in Daniela Overhage",
+    "why_chosen": "Principal / director (no Erasmus contact found). Daniela Overhage is the deputy head of the school."
+   }
+  ],
+  "rung": "Institutional Erasmus+ coordinator. Dagmar Große Lanwer is listed under the Erasmus+ heading at the institution.",
+  "source": "web",
+  "confidence": 0.8,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fachhochschule Südwestfalen",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.berufskolleg-meschede.de/",
+    "evidence_quote": "[Fachhochschule Südwestfalen Logo]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Solski Center",
+    "partner_country": "Slovenia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.berufskolleg-meschede.de/europa-am-bkm/schulpartnerschaften/",
+    "evidence_quote": "Schulpartnerschaftserklärung mit dem Solski Center",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Deliton College",
+    "partner_country": "Netherlands",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.berufskolleg-meschede.de/europa-am-bkm/etwinning/etwinning-projekte/nachbarn-lernen-sich-im-rahmen-eines-erasmus-projektes-kennen.php",
+    "evidence_quote": "Im Rahmen dieses Programmes trafen sich nun virtuell die Schüler und- Schülerinnen der HK-1 und der HF-1A mit Schülerinnen und Schülern des Deliton Colleges in Zwolle, Niederlande. In kleinen Arbeitsgruppen erstellten die Teilnehmenden Präsentationen zu den Themen Food & Beverage, Tourism & Leisure, Culture & People in Englischer Sprache.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufskolleg Meschede des HSK",
+    "city": "Meschede",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://www.berufskolleg-meschede.de/",
+    "evidence_quote": "Berufskolleg Meschede des HSK"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence includes information on international mobility and specific partner schools such as the Solski Center in Postojna and Deliton College, but does not provide an exhaustive numerical total or comprehensive list of all Erasmus partners. 1 list slice(s) could not be read (model busy); the partner list may be incomplete.",
+  "needs_human_check": true,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 16.1,
+  "ai_calls": 2,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 25.3,
+  "mode": "gemini",
+  "email_search_s": 1.3,
+  "total_seconds": 42.7
+ }
+}
