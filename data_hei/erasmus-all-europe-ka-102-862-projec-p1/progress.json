@@ -1,14 +1,14 @@
 {
  "batch": "erasmus-all-europe-ka-102-862-projec-p1",
- "status": "running",
- "generated_at": "2026-11-05T12:58:38.744290+00:00",
- "chunk": 40,
- "total_chunks": 40,
+ "status": "waiting",
+ "generated_at": "2026-11-05T13:00:11.799458+00:00",
+ "chunk": 41,
+ "total_chunks": 41,
  "total_rows": 900,
- "done": 875,
- "pending": 25,
- "elapsed_seconds": 4618,
- "eta_seconds": 64,
+ "done": 883,
+ "pending": 17,
+ "elapsed_seconds": 4674,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.8425,
  "paid_search_usd": 0.8425,
  "paid_search_limit_usd": 0.0,
@@ -40,20 +40,12 @@
  "confidence": {
   "high": 81,
   "medium": 88,
-  "low": 14,
-  "none": 692
+  "low": 21,
+  "none": 693
  },
- "partners_found": 1302,
- "campuses_found": 339,
+ "partners_found": 1373,
+ "campuses_found": 346,
  "recent": [
-  "r856",
-  "r857",
-  "r858",
-  "r859",
-  "r860",
-  "r861",
-  "r862",
-  "r863",
   "r864",
   "r865",
   "r866",
@@ -65,7 +57,18 @@
   "r873",
   "r880",
   "r881",
-  "r882"
+  "r882",
+  "r888",
+  "r889",
+  "r890",
+  "r891",
+  "r894",
+  "r896",
+  "r899",
+  "r900"
  ],
- "drive_link": "https://docs.google.com/spreadsheets/d/1rqCQxqUXVLHepm6P_oMsO74kaEggj1TZ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
+ "drive_link": "https://docs.google.com/spreadsheets/d/1rqCQxqUXVLHepm6P_oMsO74kaEggj1TZ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+ "waiting_kind": "daily",
+ "resume_at": "2026-11-06T08:05:00+00:00",
+ "waiting_reason": "Today's free AI allowance is used up."
 }
