@@ -1,0 +1,108 @@
+{
+ "row_id": "r161",
+ "scraped_at": "2026-11-05T11:38:40Z",
+ "contacts": {
+  "row_id": "r161",
+  "institution_name": "Ecole Hôtelière de la Province de Namur",
+  "institution_type": "school",
+  "official_website": "https://www.ehpn.be/",
+  "country": {
+   "value": "Belgique",
+   "source_url": "https://www.ehpn.be/presentation/le-label-erasmus/",
+   "evidence_quote": "Le programme de l’Union européenne dédié à l’éducation, la formation, la jeunesse et le sport A l’EHPN, le projet a débuté officiellement le 1er juin 2018 pour une durée de deux ans et consiste dans l’organisation des stages qualifiants pour les élèves et néo-diplômés de l’EHPN dans des hôtels de luxe et des restaurants gastronomiques étoilés qui se trouvent à l’extérieur de la Belgique, notamment en France, Italie, Espagne, Allemagne, aux Pays-Bas et au Danemark."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ecole.hoteliere@province.namur.be",
+  "generic_email_url": "https://www.ehpn.be/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Association des anciens de l’école",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ehpn.be/",
+    "evidence_quote": "Association des anciens de l’école",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ehpn.be/",
+    "evidence_quote": "Erasmus",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Restaurant d’application – Le Château de Namur",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ehpn.be/",
+    "evidence_quote": "Restaurant d’application – Le Château de Namur",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Le Château de Namur",
+    "partner_country": "Belgium",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ehpn.be/",
+    "evidence_quote": "Restaurant d’application – Le Château de Namur",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "École Hôtelière Provinciale de Namur",
+    "city": "Namur",
+    "country": "Belgique",
+    "role": "main",
+    "source_url": "https://www.ehpn.be/",
+    "evidence_quote": "5000-Namur (Citadelle)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 6,
+  "coverage_note": "No named contacts with roles are mentioned in the evidence. Specific individual partner names are not listed, although countries like France, Italy, Spain, Germany, the Netherlands, and Denmark are mentioned for student placements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.4,
+  "crawl_s": 9.8,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 55.1,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     113
+    ],
+    "returned": 4,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 94.3
+ }
+}
