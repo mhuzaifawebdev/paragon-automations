@@ -1,0 +1,87 @@
+{
+ "row_id": "r352",
+ "scraped_at": "2026-11-05T11:50:34Z",
+ "contacts": {
+  "row_id": "r352",
+  "institution_name": "Berufliche Schulen Oberndorf-Sulz",
+  "institution_type": "college",
+  "official_website": "https://bos-schule.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Christian Gronauer",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "poststelle@bos.schule.bwl.de",
+   "office_email": "",
+   "phone": "07423 9208-0",
+   "source_url": "https://bos-schule.de/impressum/",
+   "evidence_quote": "Schulleiter OStD Christian Gronauer"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Christian Gronauer is the principal of the Berufliche Schulen Oberndorf-Sulz.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "pädagogische Hochschulen",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://bos-schule.de/bildungsangebot/lehrerausbildung/",
+    "evidence_quote": "an Hochschulen in Zusammenarbeit mit pädagogischen Hochschulen",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufliche Schulen Oberndorf-Sulz",
+    "city": "Oberndorf am Neckar",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://bos-schule.de/",
+    "evidence_quote": "Oberndorf"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The website mentions Erasmus as an activity but does not provide a list of partner institutions or specific contact details for an Erasmus coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.4,
+  "crawl_s": 11.7,
+  "ai_calls": 4,
+  "partner_calls": 1,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.7,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 1.1,
+  "slices": [
+   {
+    "lines": [
+     141,
+     230
+    ],
+    "returned": 2,
+    "accepted": 1
+   }
+  ],
+  "total_seconds": 34.8
+ }
+}
