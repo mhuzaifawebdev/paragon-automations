@@ -1,0 +1,110 @@
+{
+ "row_id": "r670",
+ "scraped_at": "2026-11-05T12:18:26Z",
+ "contacts": {
+  "row_id": "r670",
+  "institution_name": "Colegio Nuestra Señora de Montesión",
+  "institution_type": "school",
+  "official_website": "https://www.colegiomontesion.es/",
+  "country": {
+   "value": "Palma, Illes Balears",
+   "source_url": "https://www.colegiomontesion.es/contacto.html",
+   "evidence_quote": "Carrer d'Andalusia, 2, Ponent, 07013 Palma, Illes Balears"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretaria@colegiomontesion.es",
+  "generic_email_url": "https://www.colegiomontesion.es/contacto.html",
+  "contact": {
+   "name": "Marina March",
+   "designation": "stage director",
+   "designation_local": "",
+   "email": "mmarch@colegiomontesion.es",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.colegiomontesion.es/oferta.html#internacional",
+   "evidence_quote": "Marina March <mmarch@colegiomontesion.es>, dirección de etapa"
+  },
+  "alternates": [
+   {
+    "name": "Aina Rosselló",
+    "designation": "European projects and FCT",
+    "designation_local": "",
+    "email": "amrossello@colegiomontesion.es",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.colegiomontesion.es/oferta.html#internacional",
+    "evidence_quote": "Aina Rosselló <amrossello@colegiomontesion.es>, proyectos europeos y FCT",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Aina Rosselló is the contact responsible for European projects and FCT, making her directly relevant for Erasmus+ mobility."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Marina March is a stage director at the institution and oversees vocational and professional education programs.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Compañía de Jesús",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.colegiomontesion.es/oferta.html#internacional",
+    "evidence_quote": "El puente entre el colegio y el mundo, a través de la red global de la Compañía de Jesús, Erasmus+ y otras movilidades. Acompañamos cada experiencia para que transforme a quien la vive.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.colegiomontesion.es/oferta.html#internacional",
+    "evidence_quote": "El puente entre el colegio y el mundo, a través de la red global de la Compañía de Jesús, Erasmus+ y otras movilidades. Acompañamos cada experiencia para que transforme a quien la vive.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Colegio Nuestra Señora de Montesión",
+    "city": "Palma",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.colegiomontesion.es/contacto.html",
+    "evidence_quote": "Carrer d'Andalusia, 2, Ponent, 07013 Palma, Illes Balears"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence mentions participation in Erasmus+ programs and having accreditation, but no specific partner institutions are listed by name. 1 list slice(s) could not be read (model busy); the partner list may be incomplete.",
+  "needs_human_check": true,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 7.8,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 66.7,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "slices": [
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 77.6
+ }
+}
