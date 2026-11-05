@@ -1,0 +1,76 @@
+{
+ "row_id": "r370",
+ "scraped_at": "2026-11-05T11:52:20Z",
+ "contacts": {
+  "row_id": "r370",
+  "institution_name": "Städtische Berufsschule für Informationstechnik München",
+  "institution_type": "college",
+  "official_website": "https://www.bsinfo.eu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "europa@bsinfo.eu",
+  "generic_email_url": "https://www.bsinfo.eu/index.php/zusatzangebote/erasmus",
+  "contact": {
+   "name": "Dorothea Ernst",
+   "designation": "Acting Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "089/233-85200",
+   "source_url": "https://www.bsinfo.eu/index.php/kontakt/schulleitung",
+   "evidence_quote": "Dorothea Ernst, StDin ... kommissarische Schulleiterin"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). She is the acting principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Inlingua",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bsinfo.eu/",
+    "evidence_quote": "Deutschkurs InlinguaFür unsere Schülerinnen und Schüler mit Sprachschwierigkeiten bieten wir in Kooperation mit der Sprachschule Inlingua einen Deutschkurs an. Der Kurs findet wöchentlich im Wechsel von Präsenz...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Städtische Berufsschule für Informationstechnik",
+    "city": "München",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bsinfo.eu/",
+    "evidence_quote": "Riesstr. 34"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution lists specific cities for Erasmus+ internships (Helsinki, Pau, Madrid, Granada, Almeria, Tiflis) but does not provide a formal list of partner universities or organizations for these locations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.6,
+  "crawl_s": 12.7,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 1.8,
+  "total_seconds": 21.6
+ }
+}
