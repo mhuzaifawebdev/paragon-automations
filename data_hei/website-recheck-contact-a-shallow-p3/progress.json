@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-contact-a-shallow-p3",
- "status": "running",
- "generated_at": "2026-11-05T13:37:26.835743+00:00",
+ "status": "waiting",
+ "generated_at": "2026-11-05T13:38:44.327647+00:00",
  "chunk": 2,
  "total_chunks": 20,
  "total_rows": 500,
- "done": 2,
- "pending": 498,
- "elapsed_seconds": 51,
- "eta_seconds": 3079,
+ "done": 3,
+ "pending": 497,
+ "elapsed_seconds": 129,
+ "eta_seconds": 5597,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -41,12 +41,16 @@
   "high": 0,
   "medium": 0,
   "low": 0,
-  "none": 2
+  "none": 3
  },
  "partners_found": 3,
  "campuses_found": 4,
  "recent": [
   "r001",
+  "r002",
   "r005"
- ]
+ ],
+ "waiting_kind": "daily",
+ "resume_at": "2026-11-06T08:05:00+00:00",
+ "waiting_reason": "Today's free AI allowance is used up."
 }
