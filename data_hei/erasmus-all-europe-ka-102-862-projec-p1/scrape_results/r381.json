@@ -1,0 +1,87 @@
+{
+ "row_id": "r381",
+ "scraped_at": "2026-11-05T11:54:06Z",
+ "contacts": {
+  "row_id": "r381",
+  "institution_name": "Berufsbildende Schulen für den Landkreis Wittmund",
+  "institution_type": "college",
+  "official_website": "https://www.bbs-wittmund.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Robert Dannemann",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "04462/86-3152",
+   "source_url": "https://www.bbs-wittmund.de/team-schulleitung/",
+   "evidence_quote": "StD Robert Dannemann ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Thore Rolfs",
+    "designation": "Erasmus+ contact person",
+    "designation_local": "",
+    "email": "t.rolfs@bbs-esens.de",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bbs-wittmund.de/drei-wochen-vier-laender-viele-erfahrungen-bbs-azubis-unterwegs-mit-erasmus/",
+    "evidence_quote": "Ansprechpersonen sind: ... Thore Rolfs (t.rolfs@bbs-esens.de) und Uta Nürnberger (u.nürnberger@bbs-esens.de)",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Thore Rolfs is explicitly listed as a contact person for the Erasmus+ program."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Robert Dannemann is the principal of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini. 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Ecole maternelle",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "traineeship",
+    "source_url": "https://www.bbs-wittmund.de/erasmus-angehende-erzieherinnen-besuchen-die-ecole-maternelle-in-der-bretagne-frankreich/",
+    "evidence_quote": "Erasmus+: Angehende Erzieherinnen besuchen die „Ecole maternelle“ in der Bretagne (Frankreich) – Berufsbildende Schulen für den Landkreis Wittmund",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berufsbildende Schulen für den Landkreis Wittmund",
+    "city": "Wittmund",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bbs-wittmund.de/kontakt/",
+    "evidence_quote": "Leepenser Weg 26-28 * 26409 Wittmund"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The institution provides a link to a 'Betriebsliste Kooperations- und Praxispartner' (L190), but the actual list content is not provided in the text. Erasmus partners are mentioned in the context of student mobility reports but not as a comprehensive list. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.9,
+  "crawl_s": 45.5,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "email_search_s": 1.1,
+  "total_seconds": 54.5
+ }
+}
