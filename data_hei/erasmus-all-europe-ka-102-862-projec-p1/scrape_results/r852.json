@@ -1,0 +1,67 @@
+{
+ "row_id": "r852",
+ "scraped_at": "2026-11-02T10:41:09Z",
+ "contacts": {
+  "row_id": "r852",
+  "institution_name": "Iisalmen lyseo",
+  "institution_type": "school",
+  "official_website": "https://iisalmi.fi/kasvatus-ja-koulutus/iisalmen-lyseo/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kirjaamo@iisalmi.fi",
+  "generic_email_url": "https://iisalmi.fi/kasvatus-ja-koulutus/iisalmen-lyseo/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "Reused from batch fix-finland-sprint-5 (scraped 2026-11-02). site found via: website column in the sheet. mode: gemini.",
+  "boost_round": 1,
+  "boost_checked": "2026-11-03"
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EU4DUAL",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://iisalmi.fi/miten-voit-loytaa-kansainvalisen-osaajan-yritykseesi/",
+    "evidence_quote": "Savonia-ammattikorkeakoulun eurooppalaisen EU4DUAL-verkoston kautta yrityksesi voi helposti saada motivoituneen harjoittelijan osaksi tiimiä. Harjoittelijat tuovat mukanaan uusia ideoita, osaamista ja näkökulmia eri puolilta Eurooppaa. Verkoston partnerimaita ovat Saksa, Itävalta, Puola, Ranska, Espanja, Kroatia ja Unkari, eli saat käyttöösi monipuolista kulttuuri- ja kieliosaamista sekä kansainvälisiä verkostoja.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Iisalmen lyseo",
+    "city": "Iisalmi",
+    "country": "Finland",
+    "role": "main",
+    "source_url": "https://iisalmi.fi/kasvatus-ja-koulutus/iisalmen-lyseo/",
+    "evidence_quote": "Iisalmen lyseo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence primarily discusses the municipality of Iisalmi and general regional services, with specific mentions of Iisalmen lyseo as a general upper secondary school but lacking specific named contacts or a comprehensive Erasmus partner list for the school itself.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "total_seconds": 0,
+  "cost_usd_estimate": 0,
+  "ai_calls": 0,
+  "mode": "reused"
+ },
+ "reused_from": {
+  "batch": "fix-finland-sprint-5",
+  "row_id": "r010"
+ }
+}
