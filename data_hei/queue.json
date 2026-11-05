@@ -4641,7 +4641,7 @@
    "batch": "website-recheck-contact-a-shallow-p2",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4655,7 +4655,13 @@
    "cap_usd": 0.0,
    "note": "Finished; archive to Drive failed, retried next tick: <HttpError 502 when requesting https://www.googleapis.com/upload/drive/v3/files?fields=id%2C+webViewLink&supportsAllDrives=true&alt=json&uploadType=mu",
    "crm_rows": 25,
-   "no_number": 476
+   "no_number": 476,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1uuGbJ-WUIuU-9zonnUfB0z1Sr2UybDYo/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 492,
+   "finished": "2026-11-05T13:35:42Z",
+   "reason": "500 institutes, 113 with a contact"
   },
   {
    "batch": "erasmus-ka1-coordinators-p01",
@@ -4841,14 +4847,19 @@
    "batch": "website-recheck-contact-a-shallow-p3",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "priority": true,
    "kind": "rescrape",
    "no_paid_search": true,
-   "max_usd": 0.0
+   "max_usd": 0.0,
+   "started": "2026-11-05T13:35:42Z",
+   "last_start": "2026-11-05T13:35:42Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "note": "Free reader only (paid switched off in config.yaml): $0."
   },
   {
    "batch": "website-recheck-contact-a-shallow-p4",
@@ -5988,7 +5999,7 @@
    "state": "running",
    "rows": 900,
    "part": "1/2",
-   "note": "Switched to the free reader (paid stopped 2026-11-05): $0.",
+   "note": "Today's free AI allowance is used up.",
    "started": "2026-11-04T21:54:10Z",
    "last_start": "2026-11-04T21:54:10Z",
    "restarts": 0,
@@ -6054,7 +6065,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-05T12:19:01Z",
+ "updated": "2026-11-05T13:35:42Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
