@@ -1,0 +1,133 @@
+{
+ "row_id": "r704",
+ "scraped_at": "2026-11-05T12:23:32Z",
+ "contacts": {
+  "row_id": "r704",
+  "institution_name": "Západočeská univerzita v Plzni",
+  "institution_type": "university",
+  "official_website": "https://www.zcu.cz/cs/index.html",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sutnerov@fav.zcu.cz",
+  "generic_email_url": "https://www.zcu.cz/cs/University/Contact/index.html",
+  "contact": {
+   "name": "Eva Kotoučová",
+   "designation": "Head of International Office",
+   "designation_local": "",
+   "email": "ekotouc@rek.zcu.cz",
+   "office_email": "",
+   "phone": "+420 377 635 799",
+   "source_url": "https://www.international.zcu.cz/cs/Cooperation/erasmus.html",
+   "evidence_quote": "Erasmus+ smlouvy podepisuje vedoucí International Office. ... Eva Kotoučová"
+  },
+  "alternates": [
+   {
+    "name": "Lenka Pekárková",
+    "designation": "Local representative of EUPeace",
+    "designation_local": "",
+    "email": "lenkakan@rek.zcu.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.zcu.cz/cs/Partnership/EUPeace/for-staff.html",
+    "evidence_quote": "V případě dotazů nebo konzultací záměru kontaktujte lokální zástupce EUPeace na ZČU: ... Lenka Pekárková (lenkakan@rek.zcu.cz)",
+    "why_chosen": "Other role. She is a local contact person for the EUPeace alliance, which is a key international partnership."
+   },
+   {
+    "name": "Petr Šimon",
+    "designation": "Local representative of EUPeace",
+    "designation_local": "",
+    "email": "simonp@rek.zcu.cz",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.zcu.cz/cs/Partnership/EUPeace/for-staff.html",
+    "evidence_quote": "V případě dotazů nebo konzultací záměru kontaktujte lokální zástupce EUPeace na ZČU: ... Petr Šimon (simonp@rek.zcu.cz)",
+    "why_chosen": "Other role. He is a local contact person for the EUPeace alliance and is involved in international research projects."
+   }
+  ],
+  "rung": "Head of international relations. She is the head of the International Office and is responsible for signing Erasmus+ agreements.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Philipps-Universität Marburg",
+    "partner_country": "Germany",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://www.zcu.cz/cs/Partnership/EUPeace/for-staff.html",
+    "evidence_quote": "Studující na ZČU mají možnost se zapojit do studia na Philipps-Universität Marburg prostřednictvím programu MarburgOnline: VirtualExchange - MO:VE, výuka probíhá online.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EUPeace",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.zcu.cz/cs/index.html",
+    "evidence_quote": "Aliance EUPeace",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Západočeská univerzita v Plzni",
+    "city": "Plzeň",
+    "country": "Czech Republic",
+    "role": "main",
+    "source_url": "https://www.zcu.cz/cs/index.html",
+    "evidence_quote": "Západočeská univerzita v Plzni"
+   },
+   {
+    "campus_name": "Fakulta ekonomická - Cheb",
+    "city": "Cheb",
+    "country": "Czech Republic",
+    "role": "branch",
+    "source_url": "https://www.zcu.cz/cs/University/Contact/index.html#important",
+    "evidence_quote": "Studijní referentka - Cheb"
+   }
+  ],
+  "stated_total": 583,
+  "stated_total_quote": "583",
+  "stated_total_url": "https://www.international.zcu.cz/cs/Cooperation/international_cooperation.html",
+  "truncated": true,
+  "total_seen": 583,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a total number of partners but does not list them individually, except for the EUPeace alliance members and one specific university mentioned for virtual exchange.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 16.8,
+  "ai_calls": 3,
+  "partner_calls": 2,
+  "cost_usd_estimate": 0.0,
+  "model_s": 8.4,
+  "mode": "gemini",
+  "email_search_s": 1.1,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 1,
+    "accepted": 1
+   },
+   {
+    "lines": [
+     141,
+     269
+    ],
+    "returned": 2,
+    "accepted": 2
+   }
+  ],
+  "total_seconds": 26.3
+ }
+}
