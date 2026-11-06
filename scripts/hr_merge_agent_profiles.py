@@ -49,7 +49,8 @@ def main():
                 if li and not re.match(r"https?://([a-z]{2,3}\.)?linkedin\.com/in/[^/\s]+", li):
                     li = ""
                 key = li.lower().rstrip("/") or hb.norm(name)
-                if len(name.split()) < 2 or not matched or key in seen or \
+                name = re.sub(r"\s*\((?:hubstaff|upwork|fiverr)?\s*display name\)", "", name, flags=re.I).strip()
+                if len(name.split()) < 2 or re.search(r"\d|not shown|username", name, re.I) or not matched or key in seen or \
                         (stem == "claude_ai_expert" and not re.search(r"claude|anthropic", blob, re.I)):
                     bad += 1
                     continue
