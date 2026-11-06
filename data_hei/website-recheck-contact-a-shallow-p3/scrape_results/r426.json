@@ -1,0 +1,87 @@
+{
+ "row_id": "r426",
+ "scraped_at": "2026-11-06T14:02:18Z",
+ "contacts": {
+  "row_id": "r426",
+  "institution_name": "Show Imaging",
+  "institution_type": "unknown",
+  "official_website": "https://www.showimaging.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "hello@showimaging.com",
+  "generic_email_url": "https://www.showimaging.com/contact",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Orlando",
+    "city": "Orlando",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.showimaging.com/contact",
+    "evidence_quote": "Orlando, FL 32808"
+   },
+   {
+    "campus_name": "San Diego",
+    "city": "Vista",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.showimaging.com/contact",
+    "evidence_quote": "San Diego - Headquarters"
+   },
+   {
+    "campus_name": "San Diego - Pro Systems",
+    "city": "San Diego",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.showimaging.com/contact",
+    "evidence_quote": "San Diego - Pro Systems"
+   },
+   {
+    "campus_name": "San Diego - Fabrication",
+    "city": "Vista",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.showimaging.com/contact",
+    "evidence_quote": "San Diego - Fabrication"
+   },
+   {
+    "campus_name": "Montana",
+    "city": "Columbia Falls",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.showimaging.com/contact",
+    "evidence_quote": "751 Mooring Rd"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is an event production company rather than an educational institution, and no named staff members or partners are listed in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 8.2,
+  "ai_calls": 2,
+  "model_s": 53.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 102.0
+ }
+}

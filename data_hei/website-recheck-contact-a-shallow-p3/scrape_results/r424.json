@@ -1,0 +1,66 @@
+{
+ "row_id": "r424",
+ "scraped_at": "2026-11-06T14:02:35Z",
+ "contacts": {
+  "row_id": "r424",
+  "institution_name": "Shoe Garden",
+  "institution_type": "unknown",
+  "official_website": "https://www.shoegarden.com.au/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "MicroLoan Foundation Australia",
+    "partner_country": "Australia",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.shoegarden.com.au/",
+    "evidence_quote": "... with your help! Every time you buy a pair of shoes, we donate to MicroLoan Foundation Australia, who provide small loans to women in regional Africa so they can can start or grow their own business.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "The Shoe Garden",
+    "city": "Hawthorne",
+    "country": "Australia",
+    "role": "main",
+    "source_url": "https://www.shoegarden.com.au/",
+    "evidence_quote": "Hawthorne QLD 4171"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain academic mobility or partner networks as this is a retail business rather than an educational institution.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 8.9,
+  "ai_calls": 3,
+  "model_s": 65.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 146.7
+ }
+}

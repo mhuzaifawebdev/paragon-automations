@@ -1,0 +1,70 @@
+{
+ "row_id": "r423",
+ "scraped_at": "2026-11-06T14:02:27Z",
+ "contacts": {
+  "row_id": "r423",
+  "institution_name": "Shire Post Mint",
+  "institution_type": "unknown",
+  "official_website": "https://www.shirepost.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.shirepost.com/",
+   "evidence_quote": "[United States]United States (USD $)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Red Fish Rue Fish",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.shirepost.com/",
+    "evidence_quote": "We are so excited to partner with the incredible Red Fish Rue Fish to re-release our Exposure Coin® in solid copper alongside a brand new run of their Charon Exposure Coin® in solid bronze!",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Shire Post Mint",
+    "city": "West Fork",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.shirepost.com/pages/contact-us",
+    "evidence_quote": "Visit our mint and gift shop at 52 Main St, West Fork, AR 72774"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution is a private coin mint and gift shop rather than an educational establishment. No academic personnel, specific email addresses, or phone numbers are listed on the website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 8.9,
+  "ai_calls": 3,
+  "model_s": 52.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 145.2
+ }
+}
