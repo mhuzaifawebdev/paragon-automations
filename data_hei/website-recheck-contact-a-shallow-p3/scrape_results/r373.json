@@ -1,0 +1,91 @@
+{
+ "row_id": "r373",
+ "scraped_at": "2026-11-06T13:47:18Z",
+ "contacts": {
+  "row_id": "r373",
+  "institution_name": "S. Katzman Produce",
+  "institution_type": "unknown",
+  "official_website": "https://www.katzman.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "growwithus@katzman.com",
+  "generic_email_url": "https://www.katzman.com/",
+  "contact": {
+   "name": "Mario Andreani",
+   "designation": "COO",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.katzman.com/team-heart/",
+   "evidence_quote": "– Mario Andreani, COO"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Mario Andreani is listed as the COO of the company.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "foodbank4nyc",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.katzman.com/buzz/",
+    "evidence_quote": "[Thank you @foodbank4nyc for highlighting @katzmanproduce for #hungeractionmonth. We’re proud of our partnership and the great work we do together to feed our community.]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "intlfreshproduceassn",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.katzman.com/buzz/",
+    "evidence_quote": "[@katzmanproduce spent the week in DC with @intlfreshproduceassn advocating on behalf of the fresh produce industry, discussing important topics like labor, the farm bill and nutrition.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Katzman Produce",
+    "city": "Bronx",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.katzman.com/",
+    "evidence_quote": "213 New York City Terminal Market"
+   },
+   {
+    "campus_name": "Katzman Distribution",
+    "city": "Burlington",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.katzman.com/",
+    "evidence_quote": "Katzman Distribution"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence describes a produce wholesaler and distributor rather than an educational institution, so no Erasmus or academic mobility partners are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 9.2,
+  "ai_calls": 1,
+  "model_s": 42.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 52.6
+ }
+}
