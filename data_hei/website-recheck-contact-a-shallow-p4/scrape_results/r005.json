@@ -1,0 +1,55 @@
+{
+ "row_id": "r005",
+ "scraped_at": "2026-11-06T14:20:17Z",
+ "contacts": {
+  "row_id": "r005",
+  "institution_name": "Storm Studios",
+  "institution_type": "unknown",
+  "official_website": "https://www.stormla.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@stormstudios.com",
+  "generic_email_url": "https://www.stormla.com/contact",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 2,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Storm Studios",
+    "city": "Los Angeles",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.stormla.com/contact",
+    "evidence_quote": "For any inquiries, please contact us at info@stormstudios.com or give us a call at 123-456-7890. You can also visit us at our office located at 123 Hollywood Blvd, Los Angeles, CA 90028. <info@mysite.com>"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 2,
+  "coverage_note": "The evidence shows that Storm Studios is an entertainment marketing agency rather than an educational institution. No named contacts or partner institutions are listed in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 3.3,
+  "ai_calls": 2,
+  "model_s": 7.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 16.7
+ }
+}

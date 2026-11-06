@@ -1,0 +1,65 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-11-06T14:20:33Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "Studio Designs",
+  "institution_type": "unknown",
+  "official_website": "https://studiodesigns.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "customerservice@studiodesigns.com",
+  "generic_email_url": "https://studiodesigns.com/about/contacts/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "HADEN",
+    "partner_country": "United Kingdom",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://studiodesigns.com/videos/",
+    "evidence_quote": "In business for over 15 years, Studio Designs has designed and developed the best-selling art, craft and drafting tables. We continue to expand our catalog to include modern home furniture, gaming tables, sewing tables, pet furniture, Artograph® products for amateur and professionals, and we've partnered with HADEN, a British line of small kitchen appliances to enhance your kitchen décor.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Studio Designs Headquarters",
+    "city": "Los Angeles",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://studiodesigns.com/about/",
+    "evidence_quote": "Established by leaders in the Art and Home Office Furniture arena, our team brings with them over 50 years of combined experience in the ready-to-assemble furniture business. We provide superior customer service that is based at our headquarters in Los Angeles, California."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not mention any named contacts with job titles. It mentions a corporate partnership with HADEN.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 5.7,
+  "ai_calls": 2,
+  "model_s": 1.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 15.9
+ }
+}
