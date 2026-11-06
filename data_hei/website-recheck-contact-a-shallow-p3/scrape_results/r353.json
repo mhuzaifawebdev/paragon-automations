@@ -1,0 +1,55 @@
+{
+ "row_id": "r353",
+ "scraped_at": "2026-11-06T13:43:30Z",
+ "contacts": {
+  "row_id": "r353",
+  "institution_name": "Roofcon",
+  "institution_type": "unknown",
+  "official_website": "https://roofcon.dk/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@roofcon.dk",
+  "generic_email_url": "https://roofcon.dk/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "ROOFCON ApS",
+    "city": "Aalborg",
+    "country": "Danmark",
+    "role": "main",
+    "source_url": "https://roofcon.dk/",
+    "evidence_quote": "Montanusvej 3 - 9000 Aalborg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "Roofcon is a roofing company rather than an educational institution. The evidence does not list any named staff members, international mobility partners, or partner totals.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 7.5,
+  "ai_calls": 2,
+  "model_s": 5.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 32.1
+ }
+}

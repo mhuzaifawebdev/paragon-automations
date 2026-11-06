@@ -1,0 +1,59 @@
+{
+ "row_id": "r350",
+ "scraped_at": "2026-11-06T13:43:23Z",
+ "contacts": {
+  "row_id": "r350",
+  "institution_name": "Romano Cassar Florists",
+  "institution_type": "unknown",
+  "official_website": "https://romanocassar.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://romanocassar.com/",
+   "evidence_quote": "Qormi Malta QRM 1509"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sales@romanocassar.com",
+  "generic_email_url": "https://romanocassar.com/contact-us/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Romano Cassar",
+    "city": "Qormi",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://romanocassar.com/",
+    "evidence_quote": "Qormi Malta QRM 1509"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence is from a commercial florist website in Malta and contains no details regarding educational partnerships or Erasmus+ programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 13.1,
+  "ai_calls": 2,
+  "model_s": 18.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 46.6
+ }
+}
