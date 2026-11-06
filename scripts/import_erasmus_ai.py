@@ -30,6 +30,7 @@ RESULTS = ROOT / "erasmus_ai_results"
 PROJECTS = ROOT / "erasmus_KA1_ongoing_projects.xlsx"
 OUT = ROOT / "erasmus_contacts_verified.xlsx"
 LOCAL = ROOT / "erasmus_local" / "results"          # scripts/erasmus_local.py (free, rules)
+PASS2 = ROOT / "erasmus_local" / "pass2"            # scripts/erasmus_pass2.py (free second pass)
 
 
 def host(u):
@@ -93,6 +94,29 @@ def local_contacts():
         out[f.stem] = ["eplus/" + f.stem, f.stem, c.get("institution_name"), "", e.get("city") or "", site, name,
                        role, p.get("email") or "", phone, general, src, "own website (scraper rules)",
                        "", "erasmus_local"]
+    # second free pass (scripts/erasmus_pass2.py): ministry directories, search with the town, contact-page sweep
+    for f in PASS2.glob("*.json") if PASS2.exists() else []:
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        p = d.get("person") or {}
+        name, role = local_person(p) if p else ("", "")
+        general = d.get("general_email") or d.get("generic_from_scraper") or ""
+        if not (name or p.get("email") or general or d.get("phone")):
+            continue
+        src = d.get("email_source") or d.get("registry_source") or p.get("source_url") or d.get("website") or ""
+        how = "ministry school directory" if d.get("registry_source") and d.get("registry_source") == d.get("email_source") \
+            else "own website (free pass 2)"
+        row = out.get(f.stem) or ["eplus/" + f.stem, f.stem, d.get("registry_name") or "", "", "", "", "", "", "", "", "",
+                                  src, how, "", "erasmus_pass2"]
+        for i, v in ((5, d.get("website")), (6, name), (7, role), (8, p.get("email") if name else ""),
+                     (9, d.get("phone")), (10, general)):
+            if v and not row[i]:
+                row[i] = v
+        if not out.get(f.stem):
+            row[11], row[12] = src, how
+        out[f.stem] = row
     return out
 
 
@@ -148,6 +172,10 @@ def main(quiet=False):
     for pic, row in local_contacts().items():
         if pic not in contacts:
             contacts[pic] = row
+        else:                                       # the AI tool's row stays first; free runs only fill its gaps
+            for i in (5, 9, 10):
+                if not contacts[pic][i] and row[i]:
+                    contacts[pic][i] = row[i]
     wb = openpyxl.Workbook()
     ws = wb.active
     ws.title = "Contacts"
