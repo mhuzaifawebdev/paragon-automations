@@ -4705,7 +4705,7 @@
    "last_start": "2026-11-06T14:19:05Z",
    "restarts": 0,
    "cap_usd": 0.0,
-   "note": "Free reader only (paid switched off in config.yaml): $0."
+   "note": "Today's free AI allowance is used up."
   },
   {
    "batch": "website-recheck-contact-b-deeper-p1",
@@ -5852,24 +5852,33 @@
    "source": "Erasmus+ ALL EUROPE KA 102 - 862 Projects by Co-ordinator.xlsx",
    "file_id": "1TD6sGap_P8TxURNczDCIo1EnVxMUdEZPiJN_al-ntMw",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "failed",
    "rows": 567,
    "part": "2/2",
    "note": "Free reader only (paid switched off in config.yaml): $0.",
    "started": "2026-11-06T13:02:13Z",
    "last_start": "2026-11-06T14:21:47Z",
-   "restarts": 3,
+   "restarts": 4,
    "cap_usd": 0.0,
-   "reader": "free"
+   "reader": "free",
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "finished": "2026-11-06T14:22:57Z",
+   "reason": "Stopped making progress; restarted 3 times without success."
   },
   {
    "batch": "grants-legacy-db-unccc-4916",
    "source": "GRANTS LEGACY DB UNCCC- 4916.xlsx",
    "file_id": "12BQyxuM7wjj29wP86_Yj8SPvcTlYb6mpJAOTf45GFLs",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 679,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "started": "2026-11-06T14:22:57Z",
+   "last_start": "2026-11-06T14:22:57Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "reader": "free"
   },
   {
    "batch": "grants-legacy-db-ccc-1061-and-4916-c-p1",
@@ -5938,7 +5947,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-06T14:21:47Z",
+ "updated": "2026-11-06T14:22:57Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
