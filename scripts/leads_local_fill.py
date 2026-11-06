@@ -73,7 +73,7 @@ def fetch(batch):
     with _dlock:
         raw = d.get_bytes(svc, f"{batch} data.json.gz", _drive["arch"])
         f = d._find(svc, f"{batch} results.xlsx", parent=_drive["res"])
-        xl = svc.files().get_media(fileId=f["id"], supportsAllDrives=True).execute() if f else None
+        xl = svc.files().get_media(fileId=f["id"], supportsAllDrives=True, acknowledgeAbuse=True).execute() if f else None
     if not raw or not xl:
         return None, None
     (wd / "results.xlsx").write_bytes(xl)
@@ -230,12 +230,14 @@ def patch_excel(xlsx, results, changed):
     rid_col = head.get("Row ID")
     n = 0
     for row in ws.iter_rows(min_row=2):
-        rid = row[rid_col - 1].value if rid_col else None
+        if not rid_col or len(row) < rid_col:
+            continue
+        rid = row[rid_col - 1].value
         if rid not in changed:
             continue
         c = results[rid].get("contacts") or {}
         for col, fn in COLS.items():
-            if col in head:
+            if col in head and head[col] <= len(row):
                 cell = row[head[col] - 1]
                 v = fn(c)
                 if v and not (cell.value or "").__str__().strip():
@@ -292,6 +294,7 @@ def run_batch(batch, phase, workers, dry):
         head.index("Duplicate Of") if "Duplicate Of" in head else None
     dup = set()
     for row in it:
+        row = list(row) + [None] * (len(head) - len(row))     # short rows in some sheets
         rid = row[ri]
         if rid in results and ci is not None and row[ci]:
             results[rid]["_country"] = row[ci]
@@ -374,8 +377,10 @@ def search_site(row, country):
 
 
 def publish_dashboard():
-    subprocess.run([sys.executable, "scripts/build_dashboard_stats.py"], cwd=ROOT, check=False)
-    subprocess.run(["git", "add", "data_hei/*/summary.json", "web_scraper/"], cwd=ROOT, check=False)
+    """Pushes the batches' summary.json only. The dashboard totals (dashboard_stats.json, institute_counts.json) are
+    rebuilt by the cloud queue tick from these summaries: building them here too made both sides edit the same file
+    and left merge conflicts."""
+    subprocess.run(["git", "add", "data_hei/*/summary.json"], cwd=ROOT, check=False)
     r = subprocess.run(["git", "commit", "-q", "-m", "leads: gaps filled locally (free), batch figures updated [automated]"],
                        cwd=ROOT, check=False)
     if r.returncode == 0:
