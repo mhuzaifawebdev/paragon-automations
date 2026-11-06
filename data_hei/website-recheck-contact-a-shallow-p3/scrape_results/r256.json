@@ -1,0 +1,71 @@
+{
+ "row_id": "r256",
+ "scraped_at": "2026-11-06T13:30:42Z",
+ "contacts": {
+  "row_id": "r256",
+  "institution_name": "Poultry Products Northeast",
+  "institution_type": "unknown",
+  "official_website": "https://www.primesourcefoods.biz/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Londonderry Facility",
+    "city": "Londonderry",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.primesourcefoods.biz/",
+    "evidence_quote": "31 Jacks Bridge Road"
+   },
+   {
+    "campus_name": "East Windsor Facility",
+    "city": "E. Windsor",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.primesourcefoods.biz/",
+    "evidence_quote": "75 Newberry Road"
+   },
+   {
+    "campus_name": "Vassalboro Cross-dock",
+    "city": "Waterville",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.primesourcefoods.biz/",
+    "evidence_quote": "319 Main Street"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "Prime Source Foods is a commercial foodservice distributor, not an educational institution. No information regarding international mobility or academic partnerships is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 5.3,
+  "ai_calls": 2,
+  "model_s": 3.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 16.0
+ }
+}
