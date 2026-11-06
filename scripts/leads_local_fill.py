@@ -144,6 +144,142 @@ def registry_match(name, country):
             "website": (web if web.startswith("http") or not web else "https://" + web), "source": hits[0][7]}
 
 
+# ------------------------------------------------------------------------------------- Google (Serper)
+# serper.dev: real Google results. Free signup = 2,500 searches; SERPER_MAX (env) caps what this computer may use
+# in total (kept in leads_local/_serper_used.json across runs). Without SERPER_API_KEY in .env these steps are skipped.
+_serper = {"lock": threading.Lock(), "key": None, "used": None}
+SERPER_USED = WORK / "_serper_used.json"
+NO_SITE = ("facebook.", "instagram.", "linkedin.", "youtube.", "twitter.", "x.com", "tiktok.", "wikipedia.", "yelp.",
+           "tripadvisor", "google.", "bing.", "booking.", "indeed.", "glassdoor", "europa.eu", "wikidata", "mapquest",
+           "yellowpages", "paginegialle", "pagesjaunes", "gelbeseiten", "cylex", "kompass", "dnb.com", "zoominfo",
+           "crunchbase", "opencorporates", "infobel", "hotfrog", "foursquare", "waze", "apple.com", "amazon.")
+
+
+def serper(q):
+    """[(link, title, snippet)] of one Google search, or None when no key / the cap is reached."""
+    import urllib.request
+    with _serper["lock"]:
+        if _serper["key"] is None:
+            _serper["key"] = ""
+            for line in (ROOT / ".env").read_text(encoding="utf-8").splitlines():
+                m = re.match(r"\s*SERPER_API_KEY\s*=\s*(.+)$", line)
+                if m:
+                    _serper["key"] = m.group(1).strip().strip('"').strip("'")
+            try:
+                _serper["used"] = json.loads(SERPER_USED.read_text(encoding="utf-8"))["used"]
+            except Exception:
+                _serper["used"] = 0
+        if not _serper["key"] or _serper["used"] >= int(os.environ.get("SERPER_MAX", "2250")):
+            return None
+        _serper["used"] += 1
+        SERPER_USED.write_text(json.dumps({"used": _serper["used"]}), encoding="utf-8")
+    try:
+        req = urllib.request.Request("https://google.serper.dev/search", data=json.dumps({"q": q, "num": 10}).encode(),
+                                     headers={"X-API-KEY": _serper["key"], "Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            d = json.loads(resp.read().decode())
+        return [(x.get("link", ""), x.get("title", ""), x.get("snippet", "")) for x in d.get("organic") or []]
+    except Exception as e:
+        if "403" in str(e) or "402" in str(e):     # credits used up on Serper's side
+            with _serper["lock"]:
+                _serper["used"] = 10 ** 9
+        return None
+
+
+EDU_HOST = re.compile(r"(\.sch\.gr|\.edu\b|\.edu\.|\.ac\.|\.k12\.|meb\.k12|schule|school|scuola|escola|colegio|lycee|"
+                      r"liceo|lyceum|gimnazj|szkola|skola|skole|koulu|\.gov\.)", re.I)
+URL_IN_TEXT = re.compile(r"(?:https?://)?(?:www\.)?[a-z0-9][a-z0-9-]*(?:\.[a-z0-9-]+)+\.[a-z]{2,}(?:/[^\s,;)]*)?", re.I)
+
+
+def listed_fits(host, name):
+    """A listing writes several schools one after another, so the address next to our name may be the NEXT school's.
+    Kept only when a part of the address starts like one of the name's own words (transliterations: kalamp ~
+    Kalambakiou, tropaion ~ Tropaia) and the school type does not contradict (gym- for a Lyceum, lyk- for a Gymnasium)."""
+    parts = [x for x in re.split(r"[.\-_]", host.lower()) if len(x) >= 4]
+    words = [t for t in p2.toks(name) if len(t) >= 4]
+    if not any(p[:4] == w[:4] for p in parts for w in words):
+        return False
+    n = p2.fold(name)
+    lab = host.lower().split(".")[0]
+    if ("lyceum" in n or "lykeio" in n or "lyceo" in n) and re.match(r"\d*gym", lab):
+        return False
+    if ("gymnas" in n or "gymnasio" in n) and re.match(r"\d*lyk", lab):
+        return False
+    if ("primary" in n or "dimotik" in n) and re.match(r"\d*(gym|lyk)", lab):
+        return False
+    return True
+
+
+def own_email(email, host):
+    """True when the address belongs to the site: same host (school sub-domains such as lyk-x.ark.sch.gr), or the
+    site's own registrable domain."""
+    d = email.split("@")[-1].lower()
+    host = host.lower()[4:] if host.lower().startswith("www.") else host.lower()
+    return d == host or host.endswith("." + d) and len(d.split(".")) >= 2 and d == p2.base_domain(host) or \
+        d.endswith("." + host)
+
+
+def google_site(name, country):
+    """(website, email, page) for an institute without a website, from one Google search: the result's own address,
+    or a web address written next to the name in a snippet (directories and EU lists often show it). A site counts only
+    when the address holds the name or its homepage shows the name (discover.check_site); an email only when it is on
+    that site's own domain. ('', '', '') when none fits, None when Google could not be asked."""
+    import discover
+    res = serper(f'"{name}" {country}'.strip())
+    if res is None:
+        return None
+    row = {"name": name, "country": country, "phone": "", "email": ""}
+    core = p2.toks(name)
+    tried = set()
+    for link, title, snippet in res[:8]:
+        snippet = re.sub(r"(\w)- (\w)", r"\1-\2", snippet)          # Google breaks long links: "lyk- tropaion.ark.sch.gr"
+        text = f"{title} {snippet}"
+        words = sum(1 for t in core if f" {t} " in f" {p2.fold(text)} ")
+        named = core and words >= min(2, len(core))
+        listed = [u for u in URL_IN_TEXT.findall(snippet) if "@" not in u] if named else []
+        for u in [link] + listed:
+            h = p2.host(u if "://" in u else "https://" + u)
+            if not h or h in tried or any(s in h for s in NO_SITE) or any(s in h for s in p2.SKIP):
+                continue
+            tried.add(h)
+            root = "https://" + h + "/"
+            in_dom = discover.name_in_domain(root, name)
+            if not in_dom and not named:
+                continue
+            try:
+                ok, _, _ = discover.check_site(root, row)
+            except Exception:
+                ok = False
+            # a listing that writes the school's own education-domain site right next to its name (homepages in
+            # Greek, Turkish ... do not repeat the English name the sheet uses)
+            edu_listed = u in listed and EDU_HOST.search(h) and listed_fits(h, name)
+            if ok or in_dom or edu_listed:
+                mails = [e.lower().strip(".") for e in p2.EMAIL.findall(text) if own_email(e, h)]
+                return root, (mails[0] if mails else ""), link
+    return "", "", ""
+
+
+def google_email(site):
+    """An official address of the institute's own site that Google shows in a snippet: (email, page), '' when none,
+    None when Google could not be asked. (Serper's free plan refuses "@domain" searches, so: "<host>" email.)"""
+    host = p2.host(site if site.startswith("http") else "https://" + site)
+    if not host or "." not in host:
+        return ""
+    res = serper(f"site:{host} email")             # Serper's free plan refuses "<domain>" in quotes
+    if res is None:
+        return None
+    found = []
+    for link, title, snippet in res:
+        for e in p2.EMAIL.findall(f"{title} {snippet}"):
+            e = e.lower().strip(".")
+            if own_email(e, host) and not p2.BAD_EMAIL.search(e) and e not in [x[0] for x in found]:
+                found.append((e, link))
+    if not found:
+        return ""
+    best = p2.pick_email([e for e, _ in found], host) or found[0][0]
+    return best, next(l for e, l in found if e == best)
+
+
 # ------------------------------------------------------------------------------------- one institute
 def fill_one(rid, r, steps, people=True):
     """Fills r["contacts"] in place, blanks only. Returns the list of what was added."""
@@ -167,6 +303,22 @@ def fill_one(rid, r, steps, people=True):
                 added.append("website")
         steps.append("registry")
     g = gaps(r)
+    if g["site"] and "google_site" not in steps and name.strip():
+        got = google_site(name, country)
+        if got is not None:                        # None = no Serper credit left: try again on a later run
+            steps.append("google_site")
+        found, mail, page = got or ("", "", "")
+        if found:
+            c["official_website"] = found
+            c["notes"] = "Website found by Google search (local fill)"
+            added.append("website")
+            if mail and gaps(r)["email"]:
+                c.update(generic_email=mail, generic_email_url=page)
+                added.append("email")
+            for s in ("sweep", "people"):          # a new site: read it even if an earlier pass had nothing to read
+                if s in steps:
+                    steps.remove(s)
+    g = gaps(r)
     site = c.get("official_website") or ""
     if site and "sweep" not in steps and (g["email"] or g["phone"]):
         got = None
@@ -184,6 +336,14 @@ def fill_one(rid, r, steps, people=True):
                 c["phone_source"] = psrc
                 added.append("phone")
         steps.append("sweep")
+    g = gaps(r)
+    if site and g["email"] and "google_email" not in steps:
+        got = google_email(site)
+        if got is not None:
+            steps.append("google_email")
+        if got:
+            c.update(generic_email=got[0], generic_email_url=got[1])
+            added.append("email")
     g = gaps(r)
     if people and site and g["person"] and "people" not in steps:
         try:
