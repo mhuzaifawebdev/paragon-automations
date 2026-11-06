@@ -1,0 +1,151 @@
+{
+ "row_id": "r872",
+ "scraped_at": "2026-11-06T12:58:36Z",
+ "contacts": {
+  "row_id": "r872",
+  "institution_name": "Lycée Josy Barthel Mamer",
+  "institution_type": "school",
+  "official_website": "https://ljbm.lu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretariat-eleves@ljbm.lu",
+  "generic_email_url": "https://ljbm.lu/",
+  "contact": {
+   "name": "Gil BELLING",
+   "designation": "Director",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ljbm.lu/direction/",
+   "evidence_quote": "Gil BELLING ... Directeur"
+  },
+  "alternates": [
+   {
+    "name": "Joé KRIES",
+    "designation": "Deputy Director",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ljbm.lu/direction/",
+    "evidence_quote": "Joé KRIES ... Directeur adjoint",
+    "why_chosen": "Principal / director (no Erasmus contact found). Joé Kries is the Deputy Director of the institution."
+   },
+   {
+    "name": "VLADA BOYARD",
+    "designation": "English Teacher",
+    "designation_local": "",
+    "email": "vlada.boyard@education.lu",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://ljbm.lu/our_team/",
+    "evidence_quote": "BOYARD Vlada ... Anglais",
+    "why_chosen": "English / language or EU-project teacher (no Erasmus contact found). Vlada Boyard is an English language teacher at the school."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Gil Belling is the Director of the institution and serves as the primary administrative contact.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Erasmus+",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://ljbm.lu/",
+    "evidence_quote": "[Erasmus+ EU programme]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mérite Jeunesse",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ljbm.lu/",
+    "evidence_quote": "[Mérite Jeunesse]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fairtrade",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ljbm.lu/",
+    "evidence_quote": "[Mir sinn eng Fairtrade]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Youth Achievement Award",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ljbm.lu/en/contact/",
+    "evidence_quote": "[Youth Achievement Award]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Josy Barthel Mamer",
+    "city": "Mamer",
+    "country": "Luxembourg",
+    "role": "main",
+    "source_url": "https://ljbm.lu/",
+    "evidence_quote": "Accueil LJBM | Lycée Josy Barthel Mamer"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not mention any specific external partner institutions or networks, though it references participation in the Erasmus+ EU programme.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 34.2,
+  "ai_calls": 4,
+  "partner_calls": 3,
+  "cost_usd_estimate": 0.0,
+  "model_s": 171.5,
+  "mode": "gemini",
+  "email_search_s": 1.2,
+  "slices": [
+   {
+    "lines": [
+     1,
+     140
+    ],
+    "returned": 3,
+    "accepted": 3
+   },
+   {
+    "lines": [
+     141,
+     280
+    ],
+    "returned": 0,
+    "accepted": 0
+   },
+   {
+    "lines": [
+     281,
+     358
+    ],
+    "returned": 3,
+    "accepted": 3
+   }
+  ],
+  "total_seconds": 206.9
+ }
+}
