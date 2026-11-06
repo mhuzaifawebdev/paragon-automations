@@ -1,0 +1,55 @@
+{
+ "row_id": "r121",
+ "scraped_at": "2026-11-06T13:13:26Z",
+ "contacts": {
+  "row_id": "r121",
+  "institution_name": "NaJe e.V.",
+  "institution_type": "unknown",
+  "official_website": "https://naje-verein.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@naje-verein.de",
+  "generic_email_url": "https://naje-verein.de/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "NaJe e.V.",
+    "city": "Hamburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://naje-verein.de/",
+    "evidence_quote": "Ausschläger Allee 1A, 20539 Hamburg"
+   }
+  ],
+  "stated_total": 15,
+  "stated_total_quote": "Erweiterung der Aktivitäten auf 15+ Länder mit über 50 aktiven Projekten.",
+  "stated_total_url": "https://naje-verein.de/",
+  "truncated": true,
+  "total_seen": 15,
+  "pages_read": 1,
+  "coverage_note": "The institution is a non-profit association rather than an educational institution. No specific Erasmus+ or international mobility coordinator is named, and no list of partner institutions is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 3.9,
+  "ai_calls": 2,
+  "model_s": 52.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 90.7
+ }
+}
