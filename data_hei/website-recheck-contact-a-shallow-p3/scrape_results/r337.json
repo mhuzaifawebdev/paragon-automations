@@ -1,0 +1,63 @@
+{
+ "row_id": "r337",
+ "scraped_at": "2026-11-06T13:42:03Z",
+ "contacts": {
+  "row_id": "r337",
+  "institution_name": "Rice's Pharmacy",
+  "institution_type": "unknown",
+  "official_website": "https://www.ricepharmacy.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rx@ricepharmacy.com",
+  "generic_email_url": "https://www.ricepharmacy.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini. 6 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Rice's Pharmacy Fordsville",
+    "city": "Fordsville",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.ricepharmacy.com/",
+    "evidence_quote": "44 W Main St, Fordsville, KY 42343"
+   },
+   {
+    "campus_name": "Rice's Pharmacy Beaver Dam",
+    "city": "Beaver Dam",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.ricepharmacy.com/",
+    "evidence_quote": "1209 N Main St, Beaver Dam, KY 42320"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The evidence shows Rice's Pharmacy is a business rather than an educational institution, and no named contacts or international partners are mentioned. 6 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 9.1,
+  "ai_calls": 2,
+  "model_s": 1.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 18.0
+ }
+}
