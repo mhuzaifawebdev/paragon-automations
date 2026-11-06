@@ -1,0 +1,59 @@
+{
+ "row_id": "r107",
+ "scraped_at": "2026-11-06T13:11:35Z",
+ "contacts": {
+  "row_id": "r107",
+  "institution_name": "Mosta Butcher (Tal-Baqra)",
+  "institution_type": "unknown",
+  "official_website": "https://mostabacon.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://mostabacon.com/",
+   "evidence_quote": "MST 1306, Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@mostabacon.com",
+  "generic_email_url": "https://mostabacon.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mosta Bacon Factory Shop",
+    "city": "Mosta",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://mostabacon.com/",
+    "evidence_quote": "115, Hope Street,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a meat processing company, not an educational institution. No information regarding Erasmus+ partnerships or international mobility is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.9,
+  "crawl_s": 13.9,
+  "ai_calls": 2,
+  "model_s": 1.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 31.8
+ }
+}

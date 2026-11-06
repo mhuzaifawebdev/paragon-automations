@@ -1,0 +1,69 @@
+{
+ "row_id": "r106",
+ "scraped_at": "2026-11-06T13:11:29Z",
+ "contacts": {
+  "row_id": "r106",
+  "institution_name": "Mosta Bacon Co Ltd",
+  "institution_type": "unknown",
+  "official_website": "https://mostabacon.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://mostabacon.com/",
+   "evidence_quote": "MST 1306, Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@mostabacon.com",
+  "generic_email_url": "https://mostabacon.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Atlas Foods",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://mostabacon.com/",
+    "evidence_quote": "[Atlas Foods – A+ Coated & Salted Chips x 2.5Kg – Cut 9×9]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mosta Bacon Factory Shop",
+    "city": "Mosta",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://mostabacon.com/",
+    "evidence_quote": "115, Hope Street,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution is a private meat processing company and does not have educational partnerships or Erasmus+ mobility programs. No specific contact person is named in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 13.1,
+  "ai_calls": 2,
+  "model_s": 1.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 25.9
+ }
+}

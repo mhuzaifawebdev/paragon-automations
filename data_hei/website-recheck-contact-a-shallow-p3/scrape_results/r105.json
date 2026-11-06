@@ -1,0 +1,60 @@
+{
+ "row_id": "r105",
+ "scraped_at": "2026-11-06T13:11:25Z",
+ "contacts": {
+  "row_id": "r105",
+  "institution_name": "Monteverdi Tuscany",
+  "institution_type": "unknown",
+  "official_website": "https://monteverdituscany.com/",
+  "country": {
+   "value": "Italy",
+   "source_url": "https://monteverdituscany.com/",
+   "evidence_quote": "Sarteano (SI), Italy"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "travel@monteverdituscany.com",
+  "generic_email_url": "https://monteverdituscany.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Monteverdi Tuscany",
+    "city": "Castiglioncello del Trinoro",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://monteverdituscany.com/faqs/",
+    "evidence_quote": "Monteverdi Tuscany is a 31-bedroom boutique hotel spread across several buildings in the medieval hilltop village of Castiglioncello del Trinoro. The village soars above the surrounding landscape at 800 meters above sea level."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a luxury hotel and does not have academic partners or Erasmus+ mobility programs listed in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 6.3,
+  "ai_calls": 3,
+  "model_s": 2.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 22.0
+ }
+}
