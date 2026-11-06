@@ -1,0 +1,59 @@
+{
+ "row_id": "r361",
+ "scraped_at": "2026-11-06T13:44:44Z",
+ "contacts": {
+  "row_id": "r361",
+  "institution_name": "Rubber Products Distributors (Rpd)",
+  "institution_type": "unknown",
+  "official_website": "https://www.rpmproducts.com/",
+  "country": {
+   "value": "CA",
+   "source_url": "https://www.rpmproducts.com/",
+   "evidence_quote": "23201 Antonio Parkway, Rancho Santa Margarita, CA 92688"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sales@rpmproducts.com",
+  "generic_email_url": "https://www.rpmproducts.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "RPM Products",
+    "city": "Rancho Santa Margarita",
+    "country": "CA",
+    "role": "main",
+    "source_url": "https://www.rpmproducts.com/",
+    "evidence_quote": "23201 Antonio Parkway, Rancho Santa Margarita, CA 92688"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial supplier of rubber, plastic, and metal products rather than an educational institution. There are no named individuals or specific partner lists present in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 6.8,
+  "ai_calls": 2,
+  "model_s": 1.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 16.1
+ }
+}
