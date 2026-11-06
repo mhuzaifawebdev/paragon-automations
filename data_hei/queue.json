@@ -5816,7 +5816,7 @@
    "source": "Erasmus+ ALL EUROPE KA 102 - 862 Projects by Co-ordinator.xlsx",
    "file_id": "1TD6sGap_P8TxURNczDCIo1EnVxMUdEZPiJN_al-ntMw",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "done",
    "rows": 900,
    "part": "1/2",
    "note": "Today's free AI allowance is used up.",
@@ -5824,17 +5824,30 @@
    "last_start": "2026-11-04T21:54:10Z",
    "restarts": 0,
    "cap_usd": 0.0,
-   "reader": "free"
+   "reader": "free",
+   "crm_rows": 159,
+   "no_number": 810,
+   "spend_recorded": true,
+   "cost_usd": 0.8425,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1rqCQxqUXVLHepm6P_oMsO74kaEggj1TZ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 268,
+   "finished": "2026-11-06T13:02:13Z",
+   "reason": "900 institutes, 201 with a contact"
   },
   {
    "batch": "erasmus-all-europe-ka-102-862-projec-p2",
    "source": "Erasmus+ ALL EUROPE KA 102 - 862 Projects by Co-ordinator.xlsx",
    "file_id": "1TD6sGap_P8TxURNczDCIo1EnVxMUdEZPiJN_al-ntMw",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 567,
    "part": "2/2",
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "started": "2026-11-06T13:02:13Z",
+   "last_start": "2026-11-06T13:02:13Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "reader": "free"
   },
   {
    "batch": "grants-legacy-db-unccc-4916",
@@ -5912,7 +5925,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-06T11:15:39Z",
+ "updated": "2026-11-06T13:02:13Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
