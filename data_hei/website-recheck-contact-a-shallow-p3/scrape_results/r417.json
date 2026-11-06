@@ -1,0 +1,68 @@
+{
+ "row_id": "r417",
+ "scraped_at": "2026-11-06T14:00:52Z",
+ "contacts": {
+  "row_id": "r417",
+  "institution_name": "Shake Shack",
+  "institution_type": "unknown",
+  "official_website": "https://shakeshack.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://shakeshack.com/locations",
+   "evidence_quote": "United StatesMore info about Hollywood Casino Toledo"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Boston Seaport",
+    "city": "Boston",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://shakeshack.com/locations",
+    "evidence_quote": "Boston,MAUnited StatesMore info about Boston Seaport"
+   },
+   {
+    "campus_name": "Midtown East",
+    "city": "New York",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://shakeshack.com/locations",
+    "evidence_quote": "New York,NYUnited StatesMore info about Midtown East"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not list any named staff members with professional roles, nor does it contain any partner institutions or academic mobility agreements. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 9.9,
+  "ai_calls": 3,
+  "model_s": 112.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 290.7
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "row_id": "r422",
+ "scraped_at": "2026-11-06T14:00:42Z",
+ "contacts": {
+  "row_id": "r422",
+  "institution_name": "Shipyard Brewing",
+  "institution_type": "unknown",
+  "official_website": "https://shipyard.com/",
+  "country": {
+   "value": "Maine",
+   "source_url": "https://shipyard.com/",
+   "evidence_quote": "SHIPYARD BREWING COMPANY • FAMILY OWNED • ESTABLISHED IN 1994 • 27 HANCOCK STREET, PORTLAND MAINE • 207.761.0807 • info@shipyard.comINFO@SHIPYARD.COM <info@shipyard.com>"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@shipyard.com",
+  "generic_email_url": "https://shipyard.com/",
+  "contact": {
+   "name": "Fred Forsley",
+   "designation": "Founder / CEO",
+   "designation_local": "",
+   "email": "info@shipyard.com",
+   "office_email": "",
+   "phone": "207.761.0807",
+   "source_url": "https://shipyard.com/",
+   "evidence_quote": "FRED FORSLEY • SHIPYARD FOUNDER / CEO"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Fred Forsley is the Founder and CEO of Shipyard Brewing, making him the head of the organization.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Visit Portland",
+    "partner_country": "United States",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://shipyard.com/",
+    "evidence_quote": "Proud Partner of Visit Portland",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Shipyard Brewing Company",
+    "city": "Portland",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://shipyard.com/",
+    "evidence_quote": "SHIPYARD BREWING COMPANY • FAMILY OWNED • ESTABLISHED IN 1994 • 27 HANCOCK STREET, PORTLAND MAINE • 207.761.0807 • info@shipyard.comINFO@SHIPYARD.COM <info@shipyard.com>"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial brewery rather than an educational establishment, so no academic exchange partners or student mobility programs are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 8.7,
+  "ai_calls": 1,
+  "model_s": 109.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 119.1
+ }
+}
