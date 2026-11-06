@@ -1,0 +1,59 @@
+{
+ "row_id": "r077",
+ "scraped_at": "2026-11-06T13:07:53Z",
+ "contacts": {
+  "row_id": "r077",
+  "institution_name": "Midwest Specialty Products, - Winneconne, Wi",
+  "institution_type": "unknown",
+  "official_website": "https://mspconverting.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://mspconverting.com/policies/contact-information",
+   "evidence_quote": "Physical address: Midwest Specialty Products LLC, 110 Washington Street, Winneconne WI 54986, United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "orders@mspconverting.com",
+  "generic_email_url": "https://mspconverting.com/policies/contact-information",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Midwest Specialty Products LLC",
+    "city": "Winneconne",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://mspconverting.com/policies/contact-information",
+    "evidence_quote": "Physical address: Midwest Specialty Products LLC, 110 Washington Street, Winneconne WI 54986, United States"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial company and does not have any educational or international mobility contacts or partners listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 8.3,
+  "ai_calls": 2,
+  "model_s": 2.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 24.4
+ }
+}
