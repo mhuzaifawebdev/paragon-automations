@@ -1,0 +1,79 @@
+{
+ "row_id": "r320",
+ "scraped_at": "2026-11-06T13:40:29Z",
+ "contacts": {
+  "row_id": "r320",
+  "institution_name": "Red Roof Inn",
+  "institution_type": "unknown",
+  "official_website": "https://redroofinn.jp/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@redroofinn.jp",
+  "generic_email_url": "https://redroofinn.jp/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Red Roof Inn Kamata/Haneda Tokyo",
+    "city": "Tokyo",
+    "country": "Japan",
+    "role": "main",
+    "source_url": "https://redroofinn.jp/",
+    "evidence_quote": "レッドルーフイン蒲田/羽田 東京【公式サイト】 | 羽田、品川、横浜へアクセス抜群。東京で快適なホテルステイを。"
+   },
+   {
+    "campus_name": "E-Hotel Higashi Shinjuku",
+    "city": "Tokyo",
+    "country": "Japan",
+    "role": "branch",
+    "source_url": "https://redroofinn.jp/",
+    "evidence_quote": "・イーホテル東新宿"
+   },
+   {
+    "campus_name": "Hotel Traveltine Kyoto Kiyamachi",
+    "city": "Kyoto",
+    "country": "Japan",
+    "role": "branch",
+    "source_url": "https://redroofinn.jp/",
+    "evidence_quote": "・ホテルトラベルティン京都木屋町"
+   },
+   {
+    "campus_name": "Red Roof Inn & Suites Osaka Namba Nipponbashi",
+    "city": "Osaka",
+    "country": "Japan",
+    "role": "branch",
+    "source_url": "https://redroofinn.jp/",
+    "evidence_quote": "・レッドルーフイン＆スイーツ大阪難波日本橋"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The institution is a hotel rather than an educational establishment. There are no named contacts with job titles and no partner lists provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 3.7,
+  "ai_calls": 2,
+  "model_s": 1.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 15.6
+ }
+}

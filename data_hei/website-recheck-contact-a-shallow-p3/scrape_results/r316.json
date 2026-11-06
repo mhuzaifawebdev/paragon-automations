@@ -1,0 +1,60 @@
+{
+ "row_id": "r316",
+ "scraped_at": "2026-11-06T13:40:14Z",
+ "contacts": {
+  "row_id": "r316",
+  "institution_name": "Raw Malta",
+  "institution_type": "unknown",
+  "official_website": "https://www.rawmalta.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://www.rawmalta.com/contact",
+   "evidence_quote": "St Venera SVR 1305 Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rawdecomalta@gmail.com",
+  "generic_email_url": "https://www.rawmalta.com/contact",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Raw Malta",
+    "city": "St Venera",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://www.rawmalta.com/contact",
+    "evidence_quote": "Raw Malta , Qormi Rd"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial business selling home decor and furniture, not an educational institution. No staff names or international partnership information are provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 11.3,
+  "thin_home": true,
+  "ai_calls": 2,
+  "model_s": 2.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 22.5
+ }
+}

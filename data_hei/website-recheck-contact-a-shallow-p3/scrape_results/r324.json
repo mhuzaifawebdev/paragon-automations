@@ -1,0 +1,59 @@
+{
+ "row_id": "r324",
+ "scraped_at": "2026-11-06T13:40:41Z",
+ "contacts": {
+  "row_id": "r324",
+  "institution_name": "Reed Mariculture",
+  "institution_type": "unknown",
+  "official_website": "https://reedmariculture.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://reedmariculture.com/pages/tos",
+   "evidence_quote": "Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (the “Marks”) are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws of the United States, "
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sales@reedmariculture.com",
+  "generic_email_url": "https://reedmariculture.com/pages/contact",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Reed Mariculture Inc.",
+    "city": "Campbell",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://reedmariculture.com/pages/contact",
+    "evidence_quote": "Reed Mariculture Inc."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial producer of marine microalgae concentrates and feeds rather than an educational institution, so no academic partners, Erasmus details, or individual staff contact names are provided on the website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 7.4,
+  "ai_calls": 2,
+  "model_s": 1.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 17.5
+ }
+}
