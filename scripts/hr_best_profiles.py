@@ -224,7 +224,7 @@ def find_for_role(role, keywords, want, role_cap):
     return found[:want], cost
 
 
-def save(results, keywords_by_role, path):
+def save(results, keywords_by_role, path, want=30):
     import openpyxl
     from openpyxl.styles import Font
     wb = openpyxl.Workbook()
@@ -233,7 +233,7 @@ def save(results, keywords_by_role, path):
     summ.append(["Role", "Profiles kept", "Keywords used", "Spend ($)", "Note"])
     for role, (rows, cost) in results.items():
         summ.append([role, len(rows), ", ".join(keywords_by_role[role]), round(cost, 3),
-                     "" if len(rows) >= 30 else "Fewer than 30 people genuinely matched the keywords; not padded."])
+                     "" if len(rows) >= want else f"Fewer than {want} people genuinely matched the keywords; not padded."])
         ws = wb.create_sheet(re.sub(r"[\[\]:*?/\\]", "", role)[:31])
         ws.append(["Rank", "Name", "Current title", "Employer", "City", "Years", "LinkedIn", "Link type",
                    "Keywords matched", "Education / training sector", "Source page"])
