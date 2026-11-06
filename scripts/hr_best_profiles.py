@@ -235,16 +235,57 @@ def save(results, keywords_by_role, path, want=30):
         summ.append([role, len(rows), ", ".join(keywords_by_role[role]), round(cost, 3),
                      "" if len(rows) >= want else f"Fewer than {want} people genuinely matched the keywords; not padded."])
         ws = wb.create_sheet(re.sub(r"[\[\]:*?/\\]", "", role)[:31])
-        ws.append(["Rank", "Name", "Current title", "Employer", "City", "Years", "LinkedIn", "Link type",
-                   "Keywords matched", "Education / training sector", "Source page"])
+        # one link column (clickable); a separate source page only when it is not the LinkedIn profile itself
+        extra = any(p["source"] and p["source"].rstrip("/") != (p["linkedin"] or "").rstrip("/") for p in rows)
+        ws.append(["Rank", "Name", "LinkedIn profile", "Current title", "Employer", "City", "Years",
+                   "Keywords matched", "Education / training sector"] + (["Found on"] if extra else []))
         for i, p in enumerate(rows, 1):
-            ws.append([i, p["name"], p["title"], p["employer"], p["city"], p["years"], p["linkedin"], p["link_kind"],
-                       ", ".join(p["matched"]), "yes" if p["edu"] else "", p["source"]])
+            link = p["linkedin"] or p["source"]
+            ws.append([i, p["name"], link, p["title"], p["employer"], p["city"], p["years"],
+                       ", ".join(p["matched"]), "yes" if p["edu"] else ""] +
+                      ([p["source"] if p["source"].rstrip("/") != (link or "").rstrip("/") else ""] if extra else []))
+            for col in ((3, 10) if extra else (3,)):
+                cell = ws.cell(row=i + 1, column=col)
+                if isinstance(cell.value, str) and cell.value.startswith("http"):
+                    cell.hyperlink = cell.value
+                    cell.font = Font(color="1155CC", underline="single")
+        for col, width in zip("ABCDEFGHIJ", (6, 26, 48, 44, 24, 14, 7, 40, 12, 40)):
+            ws.column_dimensions[col].width = width
+    summ.column_dimensions["A"].width, summ.column_dimensions["C"].width = 34, 90
     for ws in wb.worksheets:
         for c in ws[1]:
             c.font = Font(bold=True)
         ws.freeze_panes = "A2"
     wb.save(path)
+
+
+def reformat(xlsx, sheet_id):
+    """Re-writes an earlier Best Profiles file in the current layout and replaces the Google Sheet's content in place."""
+    import openpyxl
+    wb = openpyxl.load_workbook(xlsx, read_only=True)
+    results, kws = {}, {}
+    for s in wb.worksheets:
+        rows = list(s.iter_rows(values_only=True))
+        if s.title == "Summary":
+            kws = {r[0]: str(r[2] or "").split(", ") for r in rows[1:] if r and r[0]}
+            continue
+        h = list(rows[0])
+        g = lambda r, k: r[h.index(k)] if k in h and h.index(k) < len(r) else ""  # noqa: E731
+        results[s.title] = ([{"name": g(r, "Name"), "title": g(r, "Current title") or "", "employer": g(r, "Employer") or "",
+                              "city": g(r, "City") or "", "years": g(r, "Years") or "", "linkedin": g(r, "LinkedIn") or "",
+                              "link_kind": "", "matched": [x for x in str(g(r, "Keywords matched") or "").split(", ") if x],
+                              "edu": g(r, "Education / training sector") == "yes", "source": g(r, "Source page") or ""}
+                             for r in rows[1:] if r and r[1]], 0.0)
+    full = {k: next((v for t, v in kws.items() if t[:31] == k), []) for k in results}
+    out = Path(xlsx).with_name(Path(xlsx).stem + "_v2.xlsx")
+    save(results, full, out, want=20)
+    import drive_upload as d
+    from googleapiclient.http import MediaFileUpload
+    os.environ.setdefault("DRIVE_FOLDER_ID", DRIVE_ROOT)
+    svc = d.robot_service()
+    media = MediaFileUpload(str(out), mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+    f = svc.files().update(fileId=sheet_id, media_body=media, fields="webViewLink", supportsAllDrives=True).execute()
+    return f.get("webViewLink")
 
 
 def upload(path):
