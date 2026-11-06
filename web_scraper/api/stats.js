@@ -9,11 +9,14 @@ const { getRawFile } = require("./_github");
 module.exports = async (req, res) => {
   try {
     if ((req.query || {}).view === "queue") {
-      const [qText, cfgText] = await Promise.all([
+      const [qText, cfgText, gText] = await Promise.all([
         getRawFile("data_hei/queue.json"),
         getRawFile("config.yaml"),
+        getRawFile("data_hei/gemini_status.json"),
       ]);
       const q = JSON.parse(qText || '{"items":[]}');
+      let gemini = null;                       // Google's own answer about the paid key (scripts/check_gemini_credit.py)
+      try { gemini = JSON.parse(gText || "null"); } catch { gemini = null; }
       const num = (key) => {
         const m = (cfgText || "").match(new RegExp(`${key}\\s*:\\s*([\\d.]+)`));
         return m ? parseFloat(m[1]) : 0;
@@ -32,6 +35,7 @@ module.exports = async (req, res) => {
         budget_cap: num("max_queue_usd_total"),
         spend_correction: num("spend_correction_usd"),
         credit: num("gemini_credit_usd"),
+        gemini,
         items: (q.items || []).map(({ file_id, md5, ...rest }) => rest) });
       return;
     }

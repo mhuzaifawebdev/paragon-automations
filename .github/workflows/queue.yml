@@ -32,6 +32,7 @@ jobs:
     timeout-minutes: 20
     env:
       DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+      GEMINI_PAID_API_KEY: ${{ secrets.GEMINI_PAID_API_KEY }}
       DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}

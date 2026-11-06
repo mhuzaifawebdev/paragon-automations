@@ -350,6 +350,11 @@ def main():
     ops = Ops(DATA, drive)
     for line in tick(DATA, now_iso(), cfg, ops):
         print(line)
+    try:                                   # Google's own answer for the dashboard's Gemini credit tile, hourly
+        import check_gemini_credit
+        check_gemini_credit.run(min_minutes=60)
+    except Exception as e:
+        print(f"(Gemini credit check skipped: {str(e)[:120]})")
     if a.dispatch_file:
         _write(a.dispatch_file, ops.to_start)
 
