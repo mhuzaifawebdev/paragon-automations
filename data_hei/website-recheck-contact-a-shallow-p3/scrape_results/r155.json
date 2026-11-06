@@ -1,0 +1,71 @@
+{
+ "row_id": "r155",
+ "scraped_at": "2026-11-06T13:20:07Z",
+ "contacts": {
+  "row_id": "r155",
+  "institution_name": "Nobis Hospitality Group",
+  "institution_type": "unknown",
+  "official_website": "https://www.nobis.se/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@nobis.se",
+  "generic_email_url": "https://www.nobis.se/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Nobis Hotel Stockholm",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "role": "main",
+    "source_url": "https://www.nobis.se/",
+    "evidence_quote": "NOBIS HOTEL STOCKHOLM"
+   },
+   {
+    "campus_name": "Nobis Hotel Copenhagen",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "role": "international",
+    "source_url": "https://www.nobis.se/",
+    "evidence_quote": "NOBIS HOTEL COPENHAGEN"
+   },
+   {
+    "campus_name": "Nobis Hotel Palma",
+    "city": "Palma",
+    "country": "Spain",
+    "role": "international",
+    "source_url": "https://www.nobis.se/",
+    "evidence_quote": "NOBIS HOTEL PALMA"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a hospitality group and not an educational institution, therefore no Erasmus+ or academic mobility information is available. The evidence provides contact emails for individual hotels and restaurants rather than specific administrative staff.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 7.5,
+  "ai_calls": 2,
+  "model_s": 24.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 48.1
+ }
+}
