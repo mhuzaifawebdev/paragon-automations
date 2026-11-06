@@ -1,0 +1,93 @@
+{
+ "row_id": "r054",
+ "scraped_at": "2026-11-06T13:06:16Z",
+ "contacts": {
+  "row_id": "r054",
+  "institution_name": "Maxzone Auto Parts",
+  "institution_type": "unknown",
+  "official_website": "https://www.maxzone.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.maxzone.com/contact/",
+   "evidence_quote": "United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "maxzone@maxzone.com",
+  "generic_email_url": "https://www.maxzone.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Auto Body Parts Association (ABPA)",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.maxzone.com/",
+    "evidence_quote": "DEPO Maxzone is also a proud member of the Auto Body Parts Association (ABPA)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Headquarter & Western Regional Distribution Center",
+    "city": "Fontana",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.maxzone.com/",
+    "evidence_quote": "Headquarter & Western Regional Distribution Center"
+   },
+   {
+    "campus_name": "Midwestern Regional Distribution Center",
+    "city": "West Dundee",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.maxzone.com/",
+    "evidence_quote": "Midwestern Regional Distribution Center"
+   },
+   {
+    "campus_name": "Southern Regional Distribution Center",
+    "city": "Norcross",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.maxzone.com/",
+    "evidence_quote": "Southern Regional Distribution Center"
+   },
+   {
+    "campus_name": "Eastern Regional Distribution Center",
+    "city": "Port Reading",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.maxzone.com/",
+    "evidence_quote": "Eastern Regional Distribution Center"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "Maxzone is a commercial automotive parts company, not an educational institution, therefore it does not have Erasmus+ partnerships. The evidence provides a list of global production plants and distribution centers.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 7.0,
+  "ai_calls": 2,
+  "model_s": 2.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 18.1
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "row_id": "r057",
+ "scraped_at": "2026-11-06T13:06:25Z",
+ "contacts": {
+  "row_id": "r057",
+  "institution_name": "Mcmullens",
+  "institution_type": "unknown",
+  "official_website": "https://www.mcmullens.co.uk/",
+  "country": {
+   "value": "UK",
+   "source_url": "https://www.mcmullens.co.uk/christmas/",
+   "evidence_quote": "[McMullen's Anchor Pub, Hullbridge The Anchor, Ferry Road, Hullbridge, Hockley, Essex SS5 6ND, UK]"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "reservations.anchor.hullbridge@mcmullens.co.uk",
+  "generic_email_url": "https://www.mcmullens.co.uk/christmas/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "The Hertford Brewery",
+    "city": "Hertford",
+    "country": "UK",
+    "role": "main",
+    "source_url": "https://www.mcmullens.co.uk/",
+    "evidence_quote": "The Hertford Brewery"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "McMullen is a commercial brewing and pub company, not an educational institution. No international mobility or Erasmus+ partnerships are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 9.3,
+  "ai_calls": 2,
+  "model_s": 5.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 26.8
+ }
+}
