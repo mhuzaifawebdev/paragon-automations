@@ -1,0 +1,89 @@
+{
+ "row_id": "r012",
+ "scraped_at": "2026-11-06T12:55:50Z",
+ "contacts": {
+  "row_id": "r012",
+  "institution_name": "Mahoney Foundries",
+  "institution_type": "unknown",
+  "official_website": "https://www.mahoneyfoundries.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sales@mahoneyfoundries.com",
+  "generic_email_url": "https://www.mahoneyfoundries.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Non-Ferrous Founders' Society",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.mahoneyfoundries.com/",
+    "evidence_quote": "[Member of the Non-Ferrous Founders' Society]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mahoney Foundries",
+    "city": "Kendallville",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.mahoneyfoundries.com/",
+    "evidence_quote": "[Visit Mahoney Foundries in Kendallville, IN.]"
+   },
+   {
+    "campus_name": "Vermont Foundry",
+    "city": "Vermont",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.mahoneyfoundries.com/",
+    "evidence_quote": "Vermont Foundry"
+   },
+   {
+    "campus_name": "Ward Aluminum Co",
+    "city": "Fort Wayne",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.mahoneyfoundries.com/",
+    "evidence_quote": "Ward Aluminum Co"
+   },
+   {
+    "campus_name": "Fulton Industries",
+    "city": "Wauseon",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.mahoneyfoundries.com/",
+    "evidence_quote": "[Visit Fulton Industries in Wauseon, OH.]"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "Mahoney Foundries is a commercial manufacturing company, not an educational institution, and therefore does not have Erasmus+ partnerships or international mobility programs. No specific contact person is named in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 6.3,
+  "ai_calls": 2,
+  "model_s": 3.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 24.0
+ }
+}

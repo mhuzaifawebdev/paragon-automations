@@ -1,0 +1,71 @@
+{
+ "row_id": "r011",
+ "scraped_at": "2026-11-06T12:55:55Z",
+ "contacts": {
+  "row_id": "r011",
+  "institution_name": "Magyar Ifjúsági Sport és Rekreációs Egyesület",
+  "institution_type": "unknown",
+  "official_website": "https://www.ksi.hu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ksi@ksi.hu",
+  "generic_email_url": "https://www.ksi.hu/toborzas",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "KSI SE Központ",
+    "city": "Budapest",
+    "country": "Hungary",
+    "role": "main",
+    "source_url": "https://www.ksi.hu/kapcsolat",
+    "evidence_quote": "KSI SE Központ"
+   },
+   {
+    "campus_name": "Népsziget vizitelep",
+    "city": "Budapest",
+    "country": "Hungary",
+    "role": "branch",
+    "source_url": "https://www.ksi.hu/kapcsolat",
+    "evidence_quote": "Népsziget vizitelep"
+   },
+   {
+    "campus_name": "Császár-Komjádi uszoda és Hajós Alfréd Sportuszoda",
+    "city": "Budapest",
+    "country": "Hungary",
+    "role": "branch",
+    "source_url": "https://www.ksi.hu/kapcsolat",
+    "evidence_quote": "Császár-Komjádi uszoda és Hajós Alfréd Sportuszoda"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a sports association and does not list any Erasmus+ or international mobility partners. No specific contact person is named in the provided evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.1,
+  "crawl_s": 9.0,
+  "ai_calls": 2,
+  "model_s": 7.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 33.6
+ }
+}
