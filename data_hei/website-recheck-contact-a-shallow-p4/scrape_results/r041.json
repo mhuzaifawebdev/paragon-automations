@@ -1,0 +1,82 @@
+{
+ "row_id": "r041",
+ "scraped_at": "2026-11-07T10:59:38Z",
+ "contacts": {
+  "row_id": "r041",
+  "institution_name": "System Beauty",
+  "institution_type": "unknown",
+  "official_website": "https://www.system-beauty.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "orders@systembeauty.com",
+  "generic_email_url": "https://www.system-beauty.com/",
+  "contact": {
+   "name": "Mary Catherine Johnson",
+   "designation": "Founder",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.system-beauty.com/about",
+   "evidence_quote": "–Mary Catherine Johnson, Founder"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Mary Catherine Johnson is the founder of the organization.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "RetailReady",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.system-beauty.com/services",
+    "evidence_quote": "RetailReady Certified 3PL: Partner with RetailReady to ship retailer-compliant orders, so you can start with the same platform your retail operations already run on.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "System Beauty | Fort Worth",
+    "city": "Fort Worth",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.system-beauty.com/locations",
+    "evidence_quote": "System Beauty | Fort Worth"
+   },
+   {
+    "campus_name": "System Beauty | Salt Lake City",
+    "city": "Magna",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://www.system-beauty.com/locations",
+    "evidence_quote": "System Beauty | Salt Lake City"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution is a logistics company, not an educational institution, so there are no Erasmus+ or academic partners listed. The evidence provides contact information for internal management but no direct email addresses for specific individuals.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 6.3,
+  "ai_calls": 1,
+  "model_s": 1.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 8.7
+ }
+}
