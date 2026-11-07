@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-contact-a-shallow-p4",
- "status": "waiting",
- "generated_at": "2026-11-06T14:22:17.866168+00:00",
- "chunk": 2,
+ "status": "running",
+ "generated_at": "2026-11-07T10:56:04.382271+00:00",
+ "chunk": 3,
  "total_chunks": 13,
  "total_rows": 303,
- "done": 15,
- "pending": 288,
- "elapsed_seconds": 137,
- "eta_seconds": 1966,
+ "done": 17,
+ "pending": 286,
+ "elapsed_seconds": 192,
+ "eta_seconds": 2031,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 30,
+ "ai_calls": 33,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -39,12 +39,12 @@
  ],
  "confidence": {
   "high": 0,
-  "medium": 1,
+  "medium": 2,
   "low": 0,
-  "none": 14
+  "none": 15
  },
  "partners_found": 15,
- "campuses_found": 31,
+ "campuses_found": 32,
  "recent": [
   "r001",
   "r002",
@@ -60,10 +60,9 @@
   "r013",
   "r014",
   "r015",
-  "r016"
+  "r016",
+  "r017",
+  "r018"
  ],
- "waiting_kind": "daily",
- "resume_at": "2026-11-07T11:24:53.420124+00:00",
- "waiting_reason": "Today's free AI allowance is used up.",
  "drive_link": "https://docs.google.com/spreadsheets/d/1TSVILotrrGfEvmROOjoRG3LD73m1FqjW/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
