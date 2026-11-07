@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-contact-b-deeper-p1",
- "status": "running",
- "generated_at": "2026-11-07T12:08:22.452442+00:00",
+ "status": "waiting",
+ "generated_at": "2026-11-07T12:09:12.694496+00:00",
  "chunk": 2,
  "total_chunks": 20,
  "total_rows": 500,
- "done": 18,
- "pending": 482,
- "elapsed_seconds": 231,
- "eta_seconds": 4870,
+ "done": 21,
+ "pending": 479,
+ "elapsed_seconds": 281,
+ "eta_seconds": 5674,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 31,
+ "ai_calls": 39,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -39,12 +39,12 @@
  ],
  "confidence": {
   "high": 2,
-  "medium": 2,
+  "medium": 3,
   "low": 0,
-  "none": 14
+  "none": 16
  },
- "partners_found": 65,
- "campuses_found": 24,
+ "partners_found": 78,
+ "campuses_found": 27,
  "recent": [
   "r002",
   "r003",
@@ -60,7 +60,13 @@
   "r013",
   "r014",
   "r015",
+  "r016",
   "r017",
-  "r020"
- ]
+  "r018",
+  "r020",
+  "r021"
+ ],
+ "waiting_kind": "daily",
+ "resume_at": "2026-11-08T08:05:00+00:00",
+ "waiting_reason": "Today's free AI allowance is used up."
 }
