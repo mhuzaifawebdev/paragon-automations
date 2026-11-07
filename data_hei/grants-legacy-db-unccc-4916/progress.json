@@ -1,14 +1,14 @@
 {
  "batch": "grants-legacy-db-unccc-4916",
  "status": "running",
- "generated_at": "2026-11-07T11:19:00.410631+00:00",
+ "generated_at": "2026-11-07T11:19:40.367700+00:00",
  "chunk": 8,
  "total_chunks": 28,
  "total_rows": 679,
- "done": 167,
- "pending": 512,
- "elapsed_seconds": 1182,
- "eta_seconds": 2231,
+ "done": 171,
+ "pending": 508,
+ "elapsed_seconds": 1222,
+ "eta_seconds": 2888,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 17,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 105,
+ "ai_calls": 109,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,18 +38,14 @@
   }
  ],
  "confidence": {
-  "high": 8,
+  "high": 9,
   "medium": 11,
-  "low": 63,
-  "none": 85
+  "low": 64,
+  "none": 87
  },
- "partners_found": 1995,
- "campuses_found": 197,
+ "partners_found": 2006,
+ "campuses_found": 202,
  "recent": [
-  "r145",
-  "r146",
-  "r147",
-  "r148",
   "r149",
   "r150",
   "r151",
@@ -63,9 +59,13 @@
   "r160",
   "r161",
   "r162",
+  "r163",
   "r166",
   "r167",
-  "r168"
+  "r168",
+  "r169",
+  "r170",
+  "r171"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1lN8rQNf8JDhDV72rQpvRdu0LU4AFdzED/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
