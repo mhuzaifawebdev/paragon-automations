@@ -1,0 +1,59 @@
+{
+ "row_id": "r107",
+ "scraped_at": "2026-11-07T11:23:23Z",
+ "contacts": {
+  "row_id": "r107",
+  "institution_name": "The Perfume Shop",
+  "institution_type": "unknown",
+  "official_website": "https://theperfumeshopusa.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://theperfumeshopusa.com/",
+   "evidence_quote": "CT 06611, USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@theperfumeshopusa.com",
+  "generic_email_url": "https://theperfumeshopusa.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "The Perfume Shop",
+    "city": "Trumbull",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://theperfumeshopusa.com/",
+    "evidence_quote": "5065 Main St Suite 189 Trumbull"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The institution is a retail store and commercial LLC rather than an educational institution, so no academic partners or mobility programs are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 5.1,
+  "ai_calls": 2,
+  "model_s": 64.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 95.4
+ }
+}

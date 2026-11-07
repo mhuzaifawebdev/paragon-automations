@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-contact-a-shallow-p4",
  "status": "running",
- "generated_at": "2026-11-07T11:22:45.006277+00:00",
+ "generated_at": "2026-11-07T11:23:23.676037+00:00",
  "chunk": 6,
  "total_chunks": 13,
  "total_rows": 303,
- "done": 101,
- "pending": 202,
- "elapsed_seconds": 1710,
- "eta_seconds": 5012,
+ "done": 104,
+ "pending": 199,
+ "elapsed_seconds": 1749,
+ "eta_seconds": 4860,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 187,
+ "ai_calls": 192,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -39,16 +39,13 @@
  ],
  "confidence": {
   "high": 8,
-  "medium": 13,
+  "medium": 14,
   "low": 0,
-  "none": 80
+  "none": 82
  },
- "partners_found": 69,
- "campuses_found": 120,
+ "partners_found": 71,
+ "campuses_found": 126,
  "recent": [
-  "r082",
-  "r083",
-  "r084",
   "r085",
   "r086",
   "r087",
@@ -65,7 +62,10 @@
   "r099",
   "r100",
   "r101",
-  "r106"
+  "r104",
+  "r105",
+  "r106",
+  "r107"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1TSVILotrrGfEvmROOjoRG3LD73m1FqjW/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
