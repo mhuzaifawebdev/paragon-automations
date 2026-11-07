@@ -1,0 +1,92 @@
+{
+ "row_id": "r121",
+ "scraped_at": "2026-11-07T11:28:53Z",
+ "contacts": {
+  "row_id": "r121",
+  "institution_name": "The Wolf & Horseshoe",
+  "institution_type": "unknown",
+  "official_website": "https://thewolfandhorseshoe.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "thewolfandhorseshoe@gmail.com",
+  "generic_email_url": "https://thewolfandhorseshoe.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Friedman Bros.",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://thewolfandhorseshoe.com/",
+    "evidence_quote": "[Friedman Bros.][G3]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Friedman's Home Improvement",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://thewolfandhorseshoe.com/about-us/",
+    "evidence_quote": "[Friedman's Home Improvement]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "G3 Gather Grow Go",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://thewolfandhorseshoe.com/about-us/",
+    "evidence_quote": "[G3 Gather Grow Go]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Viking",
+    "partner_country": "USA",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://thewolfandhorseshoe.com/about-us/",
+    "evidence_quote": "[Viking]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "The Wolf & Horseshoe",
+    "city": "Sonoma",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://thewolfandhorseshoe.com/",
+    "evidence_quote": "1700 Sperring Road"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 5,
+  "coverage_note": "The Wolf & Horseshoe is a boutique farmstay and event venue, not an educational institution. There is no information regarding Erasmus+ or international academic mobility partnerships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.2,
+  "crawl_s": 9.0,
+  "ai_calls": 2,
+  "model_s": 5.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 22.7
+ }
+}
