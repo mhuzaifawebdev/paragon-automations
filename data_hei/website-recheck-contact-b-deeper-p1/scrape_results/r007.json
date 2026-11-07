@@ -1,0 +1,96 @@
+{
+ "row_id": "r007",
+ "scraped_at": "2026-11-07T12:05:23Z",
+ "contacts": {
+  "row_id": "r007",
+  "institution_name": "A TECHNICAL SCHOOL OF NICOSIA",
+  "institution_type": "school",
+  "official_website": "https://tech-scholi1-lef.schools.ac.cy/",
+  "country": {
+   "value": "Κύπρος",
+   "source_url": "https://tech-scholi1-lef.schools.ac.cy/",
+   "evidence_quote": "«Κύπρος: Καλωσορίσατε σπίτι μας, στην Ευρώπη»"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "tech-scholi1-lef@schools.ac.cy",
+  "generic_email_url": "https://tech-scholi1-lef.schools.ac.cy/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Liceo Artistico Porta Romana",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://tech-scholi1-lef.schools.ac.cy/",
+    "evidence_quote": "Liceo Artistico Porta Romana και Α' ΤΕΣΕΚ ΛΕΥΚΩΣΙΑΣ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "2ο ΕΠΑΛ Σταυρούπολης, Θεσσαλονίκης",
+    "partner_country": "Greece",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://tech-scholi1-lef.schools.ac.cy/",
+    "evidence_quote": "Α' ΤΕΣΕΚ Λευκωσίας και 2ο ΕΠΑΛ Σταυρούπολης, Θεσσαλονίκης",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Liceo Artistico Porta Romana, Φλωρεντίας",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://tech-scholi1-lef.schools.ac.cy/",
+    "evidence_quote": "Α' ΤΕΣΕΚ Λευκωσίας και Liceo Artistico Porta Romana, Φλωρεντίας",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "2ου ΕΠΑΛ Σταυρούπολης, Θεσσαλονίκης",
+    "partner_country": "Greece",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://tech-scholi1-lef.schools.ac.cy/erasmus/kinitikotites/",
+    "evidence_quote": "2. Κινητικότητα μεταξύ Α' ΤΕΣΕΚ Λευκωσίας και 2ου ΕΠΑΛ Σταυρούπολης, Θεσσαλονίκης |",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Α΄ ΤΕΧΝΙΚΗ ΚΑΙ ΕΠΑΓΓΕΛΜΑΤΙΚΗ ΣΧΟΛΗ ΕΚΠΑΙΔΕΥΣΗΣ ΚΑΙ ΚΑΤΑΡΤΙΣΗΣ ΛΕΥΚΩΣΙΑΣ",
+    "city": "ΛΕΥΚΩΣΙΑ",
+    "country": "Κύπρος",
+    "role": "main",
+    "source_url": "https://tech-scholi1-lef.schools.ac.cy/",
+    "evidence_quote": "Οικοσελίδα - Α΄ ΤΕΧΝΙΚΗ ΚΑΙ ΕΠΑΓΓΕΛΜΑΤΙΚΗ ΣΧΟΛΗ ΕΚΠΑΙΔΕΥΣΗΣ ΚΑΙ ΚΑΤΑΡΤΙΣΗΣ ΛΕΥΚΩΣΙΑΣ"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 8,
+  "coverage_note": "The evidence provides information on international activities and specific school partnerships, but does not list a comprehensive total partner count or an explicit Erasmus coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 9.4,
+  "ai_calls": 2,
+  "model_s": 9.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 29.0
+ }
+}
