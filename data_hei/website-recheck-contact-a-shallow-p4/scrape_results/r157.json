@@ -1,0 +1,69 @@
+{
+ "row_id": "r157",
+ "scraped_at": "2026-11-07T11:33:54Z",
+ "contacts": {
+  "row_id": "r157",
+  "institution_name": "Tricon Tool & Supply",
+  "institution_type": "unknown",
+  "official_website": "https://tricontool.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://tricontool.com/about-us/",
+   "evidence_quote": "Tricon Tool & Supply Inc. was established in 1982 and services Petrochemical, Commercial, and Highway construction projects throughout the United States."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sales@tricontool.com",
+  "generic_email_url": "https://tricontool.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "KBR",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://tricontool.com/about-us/",
+    "evidence_quote": "Our inventory combined with our purchasing experience from numerous American and international sources allow for immediate delivery to meet our clients needs. We have supplied KBR (Military Logistics Support) for projects in Haiti, Bosnia, Somalia, Kosovo, and Iraq.We currently supply Fluor Intercontinental on the extension of this contract.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Fluor Intercontinental",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://tricontool.com/about-us/",
+    "evidence_quote": "Our inventory combined with our purchasing experience from numerous American and international sources allow for immediate delivery to meet our clients needs. We have supplied KBR (Military Logistics Support) for projects in Haiti, Bosnia, Somalia, Kosovo, and Iraq.We currently supply Fluor Intercontinental on the extension of this contract.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 4,
+  "coverage_note": "The institution is a company and does not have academic campuses or Erasmus+ mobility programs. No specific contact persons are named on the website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 6.9,
+  "ai_calls": 2,
+  "model_s": 28.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 44.7
+ }
+}
