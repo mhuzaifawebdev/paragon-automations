@@ -1,1 +1,60 @@
-{"batch": "merged-legacy-db-6038-budget", "status": "running", "generated_at": "2026-11-07T23:52:39.981111+00:00", "total_rows": 75, "done": 0, "pending": 75, "chunk": 1, "total_chunks": 3, "confidence": {"high": 0, "medium": 0, "low": 0, "none": 0}, "recent": []}
+{
+ "batch": "merged-legacy-db-6038-budget",
+ "status": "waiting",
+ "generated_at": "2026-11-07T23:53:41.456081+00:00",
+ "chunk": 2,
+ "total_chunks": 3,
+ "total_rows": 75,
+ "done": 7,
+ "pending": 68,
+ "elapsed_seconds": 60,
+ "eta_seconds": 146,
+ "cost_usd_so_far": 0.0,
+ "paid_search_usd": 0.0,
+ "paid_search_limit_usd": 0.0,
+ "paid_search_limit_reached": true,
+ "paid_searches": 0,
+ "search_failures": 1,
+ "haiku_fallback_calls": 0,
+ "cost_usd_projected_total": 0.0,
+ "ai_calls": 3,
+ "reader_mode": "free",
+ "fast_limit_usd": 15.0,
+ "provider": "gemini",
+ "chunk_size": 25,
+ "fast_reader": "paid Gemini",
+ "fast_reader_id": "gemini",
+ "fast_usd_per_institute": 0.015,
+ "fast_readers": [
+  {
+   "id": "gemini",
+   "name": "paid Gemini",
+   "usd_per_institute": 0.015
+  },
+  {
+   "id": "haiku",
+   "name": "Claude Haiku",
+   "usd_per_institute": 0.05
+  }
+ ],
+ "confidence": {
+  "high": 1,
+  "medium": 1,
+  "low": 4,
+  "none": 1
+ },
+ "partners_found": 112,
+ "campuses_found": 11,
+ "recent": [
+  "r004",
+  "r006",
+  "r009",
+  "r013",
+  "r017",
+  "r020",
+  "r021"
+ ],
+ "waiting_kind": "daily",
+ "resume_at": "2026-11-08T08:05:00+00:00",
+ "waiting_reason": "Today's free AI allowance is used up."
+}
