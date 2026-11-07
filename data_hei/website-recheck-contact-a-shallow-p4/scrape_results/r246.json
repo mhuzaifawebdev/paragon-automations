@@ -1,0 +1,78 @@
+{
+ "row_id": "r246",
+ "scraped_at": "2026-11-07T11:52:15Z",
+ "contacts": {
+  "row_id": "r246",
+  "institution_name": "Wesco Western Explosives Systems",
+  "institution_type": "unknown",
+  "official_website": "https://www.wescoexplosives.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.wescoexplosives.com/",
+   "evidence_quote": "Full-line explosives distributor and blasting service provider for the mining, quarrying, and construction industries across the Western United States — paired with the Core analytics suite, our DNA: the only platform that traces every dollar of mill cost back to the blast that caused it."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "inquiry@wescoexplosives.com",
+  "generic_email_url": "https://www.wescoexplosives.com/about",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Dyno Nobel",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wescoexplosives.com/",
+    "evidence_quote": "[Dyno Nobel]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Nobel Fire",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.wescoexplosives.com/",
+    "evidence_quote": "[Nobel Fire — advanced blast modeling by Dyno Nobel]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Headquarters",
+    "city": "Salt Lake City",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.wescoexplosives.com/about",
+    "evidence_quote": "Headquartered in Salt Lake City with satellite operations positioned within driving distance of the customers we serve. That proximity is the engine behind WESCO's hallmark response time."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The institution is a commercial explosives distributor and service provider rather than an educational institution, and the evidence does not contain any named personal contacts with a specified job title.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 7.2,
+  "ai_calls": 2,
+  "model_s": 1.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 16.3
+ }
+}
