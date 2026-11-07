@@ -1,0 +1,59 @@
+{
+ "row_id": "r190",
+ "scraped_at": "2026-11-07T11:39:18Z",
+ "contacts": {
+  "row_id": "r190",
+  "institution_name": "Valletta Glass",
+  "institution_type": "unknown",
+  "official_website": "https://vallettaglass.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://vallettaglass.com/contact-us/",
+   "evidence_quote": "Ta’ Qali, Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@vallettaglass.com",
+  "generic_email_url": "https://vallettaglass.com/contact-us/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ta' Qali Crafts Village Workshop and Shops",
+    "city": "Ta' Qali",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://vallettaglass.com/about-us/",
+    "evidence_quote": "The company has always operated from its premises located at the Ta’ Qali Crafts Village, including a workshop and four retail shops. We welcome thousands of tourists each year to our retail shops, where they can assist in a free-of-charge live glass blowing demonstration — where we produce custom-designed glassware to exceptional standards."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence covers a commercial glassmaking business and does not mention any academic partners or international mobility networks.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 8.8,
+  "ai_calls": 2,
+  "model_s": 10.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 29.5
+ }
+}
