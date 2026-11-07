@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T11:22:45.728068+00:00",
+ "generated_at": "2026-11-07T11:22:55.796018+00:00",
  "totals": {
   "institutes": 35871,
   "with_contact": 23916,
@@ -340,6 +340,26 @@
  ],
  "batches": [
   {
+   "batch": "website-recheck-contact-a-shallow-p4",
+   "status": "running",
+   "total_rows": 303,
+   "done": 101,
+   "updated": "2026-11-07T11:22:45.006277+00:00",
+   "institutes": 101,
+   "with_contact": 21,
+   "with_email": 63,
+   "personal_email": 8,
+   "generic_email": 63,
+   "partners": 69,
+   "campuses": 120,
+   "no_website": 1,
+   "with_website": 100,
+   "reachable": 63,
+   "reachable_missing": 0,
+   "reachable_missing_sites": 0,
+   "website_dead": 0
+  },
+  {
    "batch": "grants-legacy-db-unccc-4916",
    "status": "running",
    "total_rows": 679,
@@ -355,26 +375,6 @@
    "no_website": 46,
    "with_website": 124,
    "reachable": 87,
-   "reachable_missing": 0,
-   "reachable_missing_sites": 0,
-   "website_dead": 0
-  },
-  {
-   "batch": "website-recheck-contact-a-shallow-p4",
-   "status": "running",
-   "total_rows": 303,
-   "done": 99,
-   "updated": "2026-11-07T11:21:25.126787+00:00",
-   "institutes": 99,
-   "with_contact": 21,
-   "with_email": 63,
-   "personal_email": 8,
-   "generic_email": 63,
-   "partners": 69,
-   "campuses": 119,
-   "no_website": 1,
-   "with_website": 98,
-   "reachable": 63,
    "reachable_missing": 0,
    "reachable_missing_sites": 0,
    "website_dead": 0
