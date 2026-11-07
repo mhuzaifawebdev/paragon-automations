@@ -5902,25 +5902,34 @@
    "source": "GRANTS LEGACY DB CCC- 1061 and 4916 combine.xlsx",
    "file_id": "1aUTvH1xQkTzlk8MQQBMV5ARyShr0xNAf2K9W4me_80g",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "failed",
    "rows": 1000,
    "part": "1/2",
    "note": "Free reader only (paid switched off in config.yaml): $0.",
    "started": "2026-11-07T16:08:19Z",
    "last_start": "2026-11-07T20:25:28Z",
-   "restarts": 3,
+   "restarts": 4,
    "cap_usd": 0.0,
-   "reader": "free"
+   "reader": "free",
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "finished": "2026-11-07T20:33:02Z",
+   "reason": "Stopped making progress; restarted 3 times without success."
   },
   {
    "batch": "grants-legacy-db-ccc-1061-and-4916-c-p2",
    "source": "GRANTS LEGACY DB CCC- 1061 and 4916 combine.xlsx",
    "file_id": "1aUTvH1xQkTzlk8MQQBMV5ARyShr0xNAf2K9W4me_80g",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 730,
    "part": "2/2",
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "started": "2026-11-07T20:33:02Z",
+   "last_start": "2026-11-07T20:33:02Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "reader": "free"
   },
   {
    "batch": "merged-legacy-db-6038-budget",
@@ -6016,7 +6025,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-07T20:25:28Z",
+ "updated": "2026-11-07T20:33:02Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
