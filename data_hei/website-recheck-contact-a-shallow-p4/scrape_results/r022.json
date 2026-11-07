@@ -1,0 +1,69 @@
+{
+ "row_id": "r022",
+ "scraped_at": "2026-11-07T10:57:03Z",
+ "contacts": {
+  "row_id": "r022",
+  "institution_name": "Suntime (Watch Retailer)",
+  "institution_type": "unknown",
+  "official_website": "https://www.suntime.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://www.suntime.com/index.php?section=about",
+   "evidence_quote": "Suntime has long been known as a leading supplier & manufacturer of quality sports related timepieces. Suntime specializes in logo'd watches and clocks, and offers one of the most extensive arrays of collegiate products. Suntime products are offered throughout the USA in independent sporting goods stores, regional sporting goods chains, regional department stores, college book stores, catalog outlets, independent gift & novelty stores, airport gift shops, plus many separate web sites."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Fair Labor Association",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.suntime.com/",
+    "evidence_quote": "MPDirect is committed to the Fair Labor Association's (FLA) workplace Code of Conduct. We take respect for human rights and compliance with labor laws very seriously and we select business partners that share our commitment to ethical practices and agree to our standards of business conduct.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "MPDirect, Inc.",
+    "city": "Clearwater",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.suntime.com/index.php?section=about",
+    "evidence_quote": "The trade name Suntime is a well-established business division of MPDirect, Inc., a corporation based in Clearwater, Florida."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "Suntime is a commercial watch retailer and not an educational institution. No specific contact persons or international mobility partners are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 7.9,
+  "ai_calls": 2,
+  "model_s": 63.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 84.4
+ }
+}
