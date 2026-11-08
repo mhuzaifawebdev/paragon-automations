@@ -1,0 +1,59 @@
+{
+ "row_id": "r417",
+ "scraped_at": "2026-11-08T13:02:58Z",
+ "contacts": {
+  "row_id": "r417",
+  "institution_name": "Charlie's",
+  "institution_type": "unknown",
+  "official_website": "https://charlies.com.mt/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://charlies.com.mt/",
+   "evidence_quote": "Charlie's Stationery | Bugibba | Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ask@charlies.com.mt",
+  "generic_email_url": "https://charlies.com.mt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Charlie's Stationery",
+    "city": "Bugibba",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://charlies.com.mt/pages/contact-us",
+    "evidence_quote": "Sacred Heart Street, Buġibba SPB 1161"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a retail stationery and gift store rather than an educational institution, and the evidence contains no named contacts, partner lists, or mobility programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 24.3,
+  "ai_calls": 2,
+  "model_s": 33.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 112.0
+ }
+}
