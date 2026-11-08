@@ -1,0 +1,124 @@
+{
+ "row_id": "r380",
+ "scraped_at": "2026-11-08T12:51:46Z",
+ "contacts": {
+  "row_id": "r380",
+  "institution_name": "Casago",
+  "institution_type": "unknown",
+  "official_website": "https://casago.com:443/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Joseph Riley",
+   "designation": "CEO",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://casago.com:443/executive-team/",
+   "evidence_quote": "Joseph Riley ... CEO"
+  },
+  "alternates": [
+   {
+    "name": "Steve Schwab",
+    "designation": "Founder",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://casago.com:443/executive-team/",
+    "evidence_quote": "Steve Schwab ... Founder",
+    "why_chosen": "Principal / director (no Erasmus contact found). Steve Schwab is the Founder of Casago."
+   },
+   {
+    "name": "John Banczak",
+    "designation": "COO",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://casago.com:443/executive-team/",
+    "evidence_quote": "John Banczak ... COO",
+    "why_chosen": "Other role. John Banczak is the Chief Operating Officer of Casago."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Joseph Riley is the CEO of Casago and serves as the head of the organization.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Airbnb",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://casago.com:443/",
+    "evidence_quote": "In addition to listing our owner's properties on Casago.com, we list on more than 25 major listing sites promote your home on more than 25 major listing sites, including Airbnb, Vrbo and Airbnb.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Vrbo",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://casago.com:443/",
+    "evidence_quote": "In addition to listing our owner's properties on Casago.com, we list on more than 25 major listing sites promote your home on more than 25 major listing sites, including Airbnb, Vrbo and Airbnb.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Booking.com",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://casago.com:443/",
+    "evidence_quote": "• OTA (Airbnb, Vrbo, Booking.com, etc.) distribution and optimization",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "vacasa.com",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://casago.com:443/",
+    "evidence_quote": "Your property will be distributed across all major booking platforms such as Airbnb, Vrbo, vacasa.com, and Casago.com. We also list on regional and niche travel platforms, depending on the destination and guest type.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Casago Main Office",
+    "city": "Portland",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://casago.com:443/",
+    "evidence_quote": "Portland, OR 97209"
+   }
+  ],
+  "stated_total": 25,
+  "stated_total_quote": "In addition to listing our owner's properties on Casago.com, we list on more than 25 major listing sites promote your home on more than 25 major listing sites, including Airbnb, Vrbo and Airbnb.",
+  "stated_total_url": "https://casago.com:443/",
+  "truncated": true,
+  "total_seen": 25,
+  "pages_read": 10,
+  "coverage_note": "Casago is a property management and vacation rental company rather than an educational institution, so no academic exchange partners or student mobility programs are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 9.3,
+  "ai_calls": 1,
+  "model_s": 2.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 12.4
+ }
+}
