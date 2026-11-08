@@ -1,0 +1,93 @@
+{
+ "row_id": "r386",
+ "scraped_at": "2026-11-08T12:52:17Z",
+ "contacts": {
+  "row_id": "r386",
+  "institution_name": "Centralized Showing Service",
+  "institution_type": "unknown",
+  "official_website": "https://showingtime.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "showings@showingtime.com",
+  "generic_email_url": "https://showingtime.com/resources/support",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Master Lock",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://showingtime.com/solutions/showings-and-offers/integration-partners",
+    "evidence_quote": "[ST_IntPartners_MasterLockLogo_550x135]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "igloohome",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://showingtime.com/solutions/showings-and-offers/integration-partners",
+    "evidence_quote": "[ST_IntPartners_igloohomeLogo_550x135]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "SentriLock",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://showingtime.com/solutions/showings-and-offers/integration-partners",
+    "evidence_quote": "[SentriLock]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Supra",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://showingtime.com/solutions/showings-and-offers/integration-partners",
+    "evidence_quote": "[Supra]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Rently",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://showingtime.com/solutions/showings-and-offers/integration-partners",
+    "evidence_quote": "[Rently]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 8,
+  "coverage_note": "The institution is a real estate software company (ShowingTime) rather than an educational institution, so no academic campuses or educational staff contacts exist.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.1,
+  "crawl_s": 9.3,
+  "ai_calls": 3,
+  "model_s": 1.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "total_seconds": 25.0
+ }
+}
