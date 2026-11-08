@@ -1,0 +1,80 @@
+{
+ "row_id": "r280",
+ "scraped_at": "2026-11-08T12:26:22Z",
+ "contacts": {
+  "row_id": "r280",
+  "institution_name": "Bryte",
+  "institution_type": "unknown",
+  "official_website": "https://www.bryte.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.bryte.com/faq",
+   "evidence_quote": "We ship within the continental United States (this excludes Hawaii and Alaska)."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "hello@bryte.com",
+  "generic_email_url": "https://www.bryte.com/contact",
+  "contact": {
+   "name": "Luke Kelly",
+   "designation": "CEO",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.bryte.com/about",
+   "evidence_quote": "Luke Kelly ... CEO"
+  },
+  "alternates": [
+   {
+    "name": "Mark Handel",
+    "designation": "CTO",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.bryte.com/about",
+    "evidence_quote": "Mark Handel ... CTO",
+    "why_chosen": "Other role. Mark Handel serves as the CTO and is part of the leadership team."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Luke Kelly is the CEO and leads the leadership team at Bryte.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Bryte Headquarters",
+    "city": "Los Altos",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.bryte.com/about",
+    "evidence_quote": "Headquartered in Los Altos, Silicon Valley, California. Designed and manufactured in California, Pennsylvania and Vermont."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "Bryte is a commercial manufacturer of smart beds and sleep technology rather than an educational institution, so no academic exchange partners or Erasmus mobility networks are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.5,
+  "crawl_s": 7.2,
+  "ai_calls": 1,
+  "model_s": 5.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 14.3
+ }
+}
