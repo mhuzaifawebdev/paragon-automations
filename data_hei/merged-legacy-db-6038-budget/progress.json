@@ -1,23 +1,23 @@
 {
  "batch": "merged-legacy-db-6038-budget",
  "status": "running",
- "generated_at": "2026-11-08T11:33:19.755941+00:00",
+ "generated_at": "2026-11-08T11:34:37.237538+00:00",
  "chunk": 3,
  "total_chunks": 3,
  "total_rows": 75,
- "done": 17,
- "pending": 58,
- "elapsed_seconds": 345,
- "eta_seconds": 639,
+ "done": 20,
+ "pending": 55,
+ "elapsed_seconds": 423,
+ "eta_seconds": 713,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
  "paid_search_limit_reached": true,
  "paid_searches": 0,
- "search_failures": 6,
+ "search_failures": 7,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 30,
+ "ai_calls": 32,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,13 +38,13 @@
   }
  ],
  "confidence": {
-  "high": 3,
+  "high": 4,
   "medium": 4,
   "low": 4,
-  "none": 6
+  "none": 8
  },
- "partners_found": 278,
- "campuses_found": 18,
+ "partners_found": 293,
+ "campuses_found": 19,
  "recent": [
   "r001",
   "r002",
@@ -54,6 +54,7 @@
   "r006",
   "r007",
   "r009",
+  "r010",
   "r011",
   "r012",
   "r013",
@@ -62,7 +63,9 @@
   "r017",
   "r018",
   "r020",
-  "r021"
+  "r021",
+  "r023",
+  "r024"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1LubocL1zIVAUKijuOiywTAZm7NzQqdqs/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
