@@ -1,0 +1,88 @@
+{
+ "row_id": "r081",
+ "scraped_at": "2026-11-08T11:48:22Z",
+ "contacts": {
+  "row_id": "r081",
+  "institution_name": "Adva",
+  "institution_type": "unknown",
+  "official_website": "https://www.adtran-networks.com/en",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Tom Stanton",
+   "designation": "CEO",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.adtran-networks.com/en/about-us/investors/management-board",
+   "evidence_quote": "Tom Stanton ... CEO"
+  },
+  "alternates": [
+   {
+    "name": "Christoph Glingener",
+    "designation": "CTO",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.adtran-networks.com/en/about-us/investors/management-board",
+    "evidence_quote": "Christoph Glingener ... CTO",
+    "why_chosen": "Other role. Christoph Glingener is the CTO and a member of the management board."
+   },
+   {
+    "name": "Timothy Santo",
+    "designation": "CFO",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.adtran-networks.com/en/about-us/investors/management-board",
+    "evidence_quote": "Timothy Santo ... CFO",
+    "why_chosen": "Other role. Timothy Santo is the CFO and a member of the management board."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Tom Stanton is the CEO of the company and serves as the head of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Telefónica Germany / O2",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.adtran-networks.com/en/feature/2021/disaggregated-networking-for-ultimate-agility",
+    "evidence_quote": "Telefónica Germany / O2 uses ADVA technology in country’s first open RAN trial",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain a comprehensive partner list or contact email addresses.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 12.8,
+  "ai_calls": 1,
+  "model_s": 2.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 15.5
+ }
+}
