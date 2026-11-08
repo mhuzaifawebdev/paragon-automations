@@ -1,0 +1,60 @@
+{
+ "row_id": "r300",
+ "scraped_at": "2026-11-08T12:30:30Z",
+ "contacts": {
+  "row_id": "r300",
+  "institution_name": "CENTRE DES MUSIQUES DIDIER LOCKWOOD",
+  "institution_type": "college",
+  "official_website": "https://cmdl.eu/",
+  "country": {
+   "value": "France",
+   "source_url": "https://cmdl.eu/",
+   "evidence_quote": "France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@cmdl.eu",
+  "generic_email_url": "https://cmdl.eu/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Ferme du Bois Briard",
+    "city": "Evry-Courcouronnes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://cmdl.eu/",
+    "evidence_quote": "Ferme du Bois Briard,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists partner category headings but does not name specific partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.4,
+  "crawl_s": 17.5,
+  "ai_calls": 3,
+  "model_s": 1.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 34.1
+ }
+}
