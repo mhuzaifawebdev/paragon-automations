@@ -1,0 +1,83 @@
+{
+ "row_id": "r106",
+ "scraped_at": "2026-11-08T11:52:28Z",
+ "contacts": {
+  "row_id": "r106",
+  "institution_name": "Akademija strukovnih studija Sabac",
+  "institution_type": "college",
+  "official_website": "https://www.akademijasabac.edu.rs/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "akademija@akademijasabac.edu.rs",
+  "generic_email_url": "https://www.akademijasabac.edu.rs/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Univerzitet Adriatik",
+    "partner_country": "Montenegro",
+    "partner_type": "university",
+    "mobility_type": "staff",
+    "source_url": "http://www.akademijasabac.edu.rs/wp-content/uploads/Erasmus/Javni_poziv_za_prijavu_KA171.pdf",
+    "evidence_quote": "Универзитет Адриатик",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ljubljana School of Business",
+    "partner_country": "Slovenia",
+    "partner_type": "college",
+    "mobility_type": "study",
+    "source_url": "https://www.akademijasabac.edu.rs/javni-pozivi-erasmus/",
+    "evidence_quote": "Ponovljeni javni poziv za stipendiranu odlaznu mobilnost studenata u okviru Erazmus+ projekta KA131 – Ljubljana School of Business, Slovenija (18.2.2026.)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Powiślański University",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.akademijasabac.edu.rs/javni-pozivi-erasmus/",
+    "evidence_quote": "Javni poziv za odlaznu mobilnost zaposlenih i studenata u okviru Erazmus+ projekta KA131 – Powiślański University, Poljska (4.2.2025.)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Akademija strukovnih studija Šabac",
+    "city": "Šabac",
+    "country": "Serbia",
+    "role": "main",
+    "source_url": "https://www.akademijasabac.edu.rs/kontakt/",
+    "evidence_quote": "Адреса Академије: Добропољска 5, 15000 Шабац"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The institution does not provide a comprehensive list of all Erasmus+ partners, only mentioning specific ones in the context of individual calls for applications.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 13.2,
+  "ai_calls": 2,
+  "model_s": 2.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 27.7
+ }
+}

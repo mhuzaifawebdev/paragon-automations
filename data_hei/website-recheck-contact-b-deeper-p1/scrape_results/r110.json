@@ -1,0 +1,55 @@
+{
+ "row_id": "r110",
+ "scraped_at": "2026-11-08T11:53:06Z",
+ "contacts": {
+  "row_id": "r110",
+  "institution_name": "Alan",
+  "institution_type": "school",
+  "official_website": "https://www.alan-village.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "accueil@alan-village.fr",
+  "generic_email_url": "https://www.alan-village.fr/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 4,
+  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mairie d'Alan",
+    "city": "Alan",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.alan-village.fr/",
+    "evidence_quote": "31420 Alan"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 4,
+  "coverage_note": "The institution is a local village municipality rather than a university or higher education institution, so there are no Erasmus+ partners or international mobility coordinators listed. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.3,
+  "crawl_s": 8.4,
+  "ai_calls": 2,
+  "model_s": 5.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 38.0
+ }
+}
