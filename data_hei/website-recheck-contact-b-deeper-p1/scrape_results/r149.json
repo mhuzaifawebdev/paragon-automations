@@ -1,0 +1,68 @@
+{
+ "row_id": "r149",
+ "scraped_at": "2026-11-08T11:57:55Z",
+ "contacts": {
+  "row_id": "r149",
+  "institution_name": "Art Academy Mosta",
+  "institution_type": "school",
+  "official_website": "https://artacademydirect.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://artacademydirect.com/pages/contact-us",
+   "evidence_quote": "Address: 131, Constitution Street, Mosta, MST9056, Malta"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@artacademydirect.com",
+  "generic_email_url": "https://artacademydirect.com/pages/contact-us",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Art Academy Mosta",
+    "city": "Mosta",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://artacademydirect.com/pages/contact-us",
+    "evidence_quote": "ART ACADEMY MOSTA"
+   },
+   {
+    "campus_name": "Nadur, Gozo",
+    "city": "Nadur",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://artacademydirect.com/pages/contact-us",
+    "evidence_quote": "NADUR, GOZO"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution appears to be a commercial art supply store and private art school. No information regarding Erasmus+ partnerships or international mobility programs is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 13.7,
+  "ai_calls": 3,
+  "model_s": 1.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 29.8
+ }
+}
