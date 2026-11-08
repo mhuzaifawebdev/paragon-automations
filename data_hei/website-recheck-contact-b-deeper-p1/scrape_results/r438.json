@@ -1,0 +1,79 @@
+{
+ "row_id": "r438",
+ "scraped_at": "2026-11-08T13:07:02Z",
+ "contacts": {
+  "row_id": "r438",
+  "institution_name": "Cnam -itac Le Havre",
+  "institution_type": "university",
+  "official_website": "https://www.cnam-normandie.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "nmd_contact@lecnam.net",
+  "generic_email_url": "https://www.cnam-normandie.fr/contacts/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Caen - Hérouville-Saint-Clair",
+    "city": "Hérouville-Saint-Clair",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.cnam-normandie.fr/contacts/les-centres-cnam-pres-de-chez-vous-1043225.kjsp?RH=1525871845092",
+    "evidence_quote": "Caen - Hérouville-Saint-Clair"
+   },
+   {
+    "campus_name": "faculté des sciences",
+    "city": "Saint-Étienne-du-Rouvray",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.cnam-normandie.fr/contacts/les-centres-cnam-pres-de-chez-vous-1043225.kjsp?RH=1525871845092",
+    "evidence_quote": "faculté des sciences"
+   },
+   {
+    "campus_name": "lycée Porte Océane",
+    "city": "Le Havre",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.cnam-normandie.fr/contacts/les-centres-cnam-pres-de-chez-vous-1043225.kjsp?RH=1525871845092",
+    "evidence_quote": "lycée Porte Océane"
+   },
+   {
+    "campus_name": "espace René Lebas - bâtiment H",
+    "city": "Cherbourg-en-Cotentin",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.cnam-normandie.fr/contacts/les-centres-cnam-pres-de-chez-vous-1043225.kjsp?RH=1525871845092",
+    "evidence_quote": "espace René Lebas - bâtiment H"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides regional center addresses and general contact details for Cnam Normandie, but does not list specific named contacts, international partners, or Erasmus information.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.9,
+  "crawl_s": 13.6,
+  "ai_calls": 2,
+  "model_s": 5.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 33.7
+ }
+}
