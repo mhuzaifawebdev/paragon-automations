@@ -1,0 +1,83 @@
+{
+ "row_id": "r325",
+ "scraped_at": "2026-11-08T12:42:32Z",
+ "contacts": {
+  "row_id": "r325",
+  "institution_name": "CIFP DON BOSCO LHII",
+  "institution_type": "college",
+  "official_website": "https://www.donbosco.eus/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "donbosco@donbosco.eus",
+  "generic_email_url": "https://www.donbosco.eus/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini. 3 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "CIFP Meka LHII",
+    "partner_country": "",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.donbosco.eus/p-virtual-smart-mobility-eu/",
+    "evidence_quote": "CIFP Meka LHII |",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Empresa VR Magister",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.donbosco.eus/p-virtual-smart-mobility-eu/",
+    "evidence_quote": "Empresa VR Magister |",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus nagusia",
+    "city": "Errenteria",
+    "country": "",
+    "role": "main",
+    "source_url": "https://www.donbosco.eus/",
+    "evidence_quote": "Campus nagusia"
+   },
+   {
+    "campus_name": "Beraungo eraikina",
+    "city": "Errenteria",
+    "country": "",
+    "role": "branch",
+    "source_url": "https://www.donbosco.eus/",
+    "evidence_quote": "Beraungo eraikina"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides information on international strategies and projects such as Erasmus+, but does not list a comprehensive directory of international partner institutions or an explicit country name in the text lines, though the address details point to Spain. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.6,
+  "crawl_s": 96.2,
+  "ai_calls": 3,
+  "model_s": 89.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 295.9
+ }
+}
