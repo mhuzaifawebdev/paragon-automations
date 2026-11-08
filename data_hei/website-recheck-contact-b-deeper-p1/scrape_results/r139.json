@@ -1,0 +1,63 @@
+{
+ "row_id": "r139",
+ "scraped_at": "2026-11-08T11:56:12Z",
+ "contacts": {
+  "row_id": "r139",
+  "institution_name": "Aqua Pets",
+  "institution_type": "unknown",
+  "official_website": "https://superimpulse.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@superimpulse.com",
+  "generic_email_url": "https://superimpulse.com/contact-us/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Super Impulse USA",
+    "city": "Bristol",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://superimpulse.com/",
+    "evidence_quote": "Bristol, PA 19007"
+   },
+   {
+    "campus_name": "Super Impulse Limited",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "role": "branch",
+    "source_url": "https://superimpulse.com/contact-us/",
+    "evidence_quote": "Super Impulse Limited"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence describes a toy manufacturing company and its products, providing no information regarding educational programs, Erasmus partners, or named administrative personnel.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.8,
+  "crawl_s": 9.6,
+  "ai_calls": 2,
+  "model_s": 1.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 29.3
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "row_id": "r131",
+ "scraped_at": "2026-11-08T11:55:41Z",
+ "contacts": {
+  "row_id": "r131",
+  "institution_name": "Anna Kupczak",
+  "institution_type": "unknown",
+  "official_website": "http://pompyciepla-beskidy.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 3,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Grupa ENECO",
+    "partner_country": "Poland",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "http://pompyciepla-beskidy.pl/",
+    "evidence_quote": "W zakresie instalacji pomp ciepła współpracujemy z Grupą ENECO.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Nowoczesna Technika Grzewcza Kupczak Anna",
+    "city": "Milówka",
+    "country": "Polska",
+    "role": "main",
+    "source_url": "http://pompyciepla-beskidy.pl/",
+    "evidence_quote": "34-360 Milówka"
+   },
+   {
+    "campus_name": "Sklep firmowy",
+    "city": "Węgierska Górka",
+    "country": "Polska",
+    "role": "branch",
+    "source_url": "http://pompyciepla-beskidy.pl/",
+    "evidence_quote": "Sklep firmowy"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 3,
+  "coverage_note": "The institution is a heating technology and installation company rather than an educational institution, so no Erasmus mobility or university partner lists exist.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 5.5,
+  "crawl_s": 5.3,
+  "ai_calls": 2,
+  "model_s": 6.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 28.8
+ }
+}
