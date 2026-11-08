@@ -1,0 +1,79 @@
+{
+ "row_id": "r454",
+ "scraped_at": "2026-11-08T13:10:54Z",
+ "contacts": {
+  "row_id": "r454",
+  "institution_name": "Commscope",
+  "institution_type": "unknown",
+  "official_website": "https://www.commscope.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.commscope.com/contact-us/",
+   "evidence_quote": "United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "dach.emea@commscope.com",
+  "generic_email_url": "https://www.commscope.com/contact-us/customer-service-building-and-campus/",
+  "contact": {
+   "name": "Frank Drendel",
+   "designation": "Co-Founder",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.commscope.com/",
+   "evidence_quote": "[50 Years: A Letter from Co-Founder, Frank Drendel] ... 50 Years: A Letter from Co-Founder, Frank Drendel"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Frank Drendel is named as the co-founder of CommScope.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "TGR Haas F1 Team",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.commscope.com/",
+    "evidence_quote": "CommScope is proud to partner with the TGR Haas F1 Team as their Official Connectivity Partner, enabling the high performance networks that connect drivers, engineers, data, and technology across race day operations and global facilities.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "CommScope Holding Company, Inc.",
+    "city": "Claremont",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.commscope.com/contact-us/",
+    "evidence_quote": "Claremont, North Carolina 28610"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "CommScope is a commercial enterprise and technology company rather than a traditional academic institution, so no academic exchange or Erasmus+ partners are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.7,
+  "crawl_s": 11.8,
+  "ai_calls": 2,
+  "model_s": 1.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 16.2
+ }
+}
