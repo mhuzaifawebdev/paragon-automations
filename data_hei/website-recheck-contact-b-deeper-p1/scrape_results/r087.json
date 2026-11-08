@@ -1,0 +1,97 @@
+{
+ "row_id": "r087",
+ "scraped_at": "2026-11-08T11:48:56Z",
+ "contacts": {
+  "row_id": "r087",
+  "institution_name": "Agility",
+  "institution_type": "unknown",
+  "official_website": "https://agility.com/",
+  "country": {
+   "value": "United Arab Emirates",
+   "source_url": "https://agility.com/",
+   "evidence_quote": "Al Reem Island. Abu Dhabi, United Arab Emirates"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "DSV",
+    "partner_country": "Denmark",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://agility.com/",
+    "evidence_quote": "DSV",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Reem Mall",
+    "partner_country": "United Arab Emirates",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://agility.com/",
+    "evidence_quote": "Reem Mall",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "GWC",
+    "partner_country": "Qatar",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://agility.com/",
+    "evidence_quote": "GWC",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NREC",
+    "partner_country": "Kuwait",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://agility.com/",
+    "evidence_quote": "NREC",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Agility Global Headquarters",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "role": "main",
+    "source_url": "https://agility.com/",
+    "evidence_quote": "Agility Global Headquarters"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "Agility is a global logistics and infrastructure corporation rather than an educational institution. Direct email addresses and phone numbers for individual contacts are not listed in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 13.5,
+  "ai_calls": 3,
+  "model_s": 5.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 7,
+  "total_seconds": 32.4
+ }
+}
