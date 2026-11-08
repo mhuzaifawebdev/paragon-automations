@@ -1,0 +1,74 @@
+{
+ "row_id": "r096",
+ "scraped_at": "2026-11-08T11:51:51Z",
+ "contacts": {
+  "row_id": "r096",
+  "institution_name": "Agrupamento de Escolas de Anadia",
+  "institution_type": "school",
+  "official_website": "https://aeanadia.pt/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretaria@aeanadia.pt",
+  "generic_email_url": "https://aeanadia.pt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Itália",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://aeanadia.pt/wp-content/uploads/2020/08/Plano_acao_estrategica_2019-2020-Aprovado-CP-30-10-2019.pdf",
+    "evidence_quote": "- 060135_2 – Together Europe Achieves More In School Success – TEAMSS (Portugal, Itália,",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Escola Sede",
+    "city": "Anadia",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://aeanadia.pt/",
+    "evidence_quote": "Rua Almas das Domingas, n.º 4 3780-299 Anadia"
+   },
+   {
+    "campus_name": "Centro Escolar de Arcos",
+    "city": "Anadia",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://aeanadia.pt/wp-content/uploads/2020/08/Plano_acao_estrategica_2019-2020-Aprovado-CP-30-10-2019.pdf",
+    "evidence_quote": "- Constituição de três Centros de Aprendizagem (um no Centro Escolar de Arcos e dois na"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The institution lists specific Erasmus+ project partners in the evidence, but does not provide a comprehensive list of all institutional partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 13.0,
+  "ai_calls": 3,
+  "model_s": 4.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 36.8
+ }
+}
