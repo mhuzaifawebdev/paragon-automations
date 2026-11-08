@@ -1,0 +1,68 @@
+{
+ "row_id": "r430",
+ "scraped_at": "2026-11-08T13:04:54Z",
+ "contacts": {
+  "row_id": "r430",
+  "institution_name": "City Barbeque",
+  "institution_type": "unknown",
+  "official_website": "https://www.citybbq.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://jobs.citybbq.com/",
+   "evidence_quote": "[United States map image linking to current City BBQ searchable jobs by location.]"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@citybbq.com",
+  "generic_email_url": "https://www.citybbq.com/",
+  "contact": {
+   "name": "Rick Malir",
+   "designation": "Founder",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://jobs.citybbq.com/",
+   "evidence_quote": "RICK MALIR, CITY BBQ FOUNDER"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Rick Malir is the founder of City Barbeque and serves as the primary executive contact for the organization.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Support Center",
+    "city": "Dublin",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.citybbq.com/contact",
+    "evidence_quote": "Dublin, Ohio 43017"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "No educational partner lists or Erasmus-specific contacts are provided in the evidence as this is a commercial restaurant company.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 6.3,
+  "ai_calls": 1,
+  "model_s": 1.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 8.2
+ }
+}
