@@ -1,0 +1,75 @@
+{
+ "row_id": "r341",
+ "scraped_at": "2026-11-08T12:40:56Z",
+ "contacts": {
+  "row_id": "r341",
+  "institution_name": "CJD Berlin-Brandenburg",
+  "institution_type": "unknown",
+  "official_website": "https://www.berlin-brandenburg.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@visitberlin.de",
+  "generic_email_url": "https://www.berlin-brandenburg.de/kontakt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Berlin Tourismus & Kongress GmbH",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.berlin-brandenburg.de/kontakt/",
+    "evidence_quote": "Berlin Tourismus & Kongress GmbH",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "TMB Tourismus-Marketing Brandenburg Gmbh",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.berlin-brandenburg.de/kontakt/",
+    "evidence_quote": "TMB Tourismus-Marketing Brandenburg Gmbh",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Berlin",
+    "city": "Berlin",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.berlin-brandenburg.de/kontakt/",
+    "evidence_quote": "10178 Berlin"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 6,
+  "coverage_note": "The evidence represents the regional portal for Berlin-Brandenburg rather than a specific educational institution like CJD Berlin-Brandenburg, and no named Erasmus or international mobility contacts are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 8.4,
+  "ai_calls": 3,
+  "model_s": 1.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 120.6
+ }
+}
