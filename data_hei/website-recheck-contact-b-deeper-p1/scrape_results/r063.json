@@ -1,0 +1,86 @@
+{
+ "row_id": "r063",
+ "scraped_at": "2026-11-08T11:44:44Z",
+ "contacts": {
+  "row_id": "r063",
+  "institution_name": "ATLANTIDA FORMACION S.L.",
+  "institution_type": "college",
+  "official_website": "https://atlantidaformacion.com/",
+  "country": {
+   "value": "España",
+   "source_url": "https://atlantidaformacion.com/alianza-destiny-internacional-alliance-y-atlantida-formacion/",
+   "evidence_quote": "Contamos con 3 centros en Granada, España."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "cursos@atlantidaformacion.com",
+  "generic_email_url": "https://atlantidaformacion.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Destiny International Alliance",
+    "partner_country": "Latinoamérica",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://atlantidaformacion.com/alianza-destiny-internacional-alliance-y-atlantida-formacion/",
+    "evidence_quote": "En Atlántida Formación seguimos ampliando nuestras fronteras y nos complace anunciar nuestra alianza con la institución Destiny International Alliance, un reconocido centro de formación en Latinoamérica.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Atlántida 1 | Edificio CIDEP",
+    "city": "Granada",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://atlantidaformacion.com/quienes-somos/",
+    "evidence_quote": "Atlántida 1 | Edificio CIDEP"
+   },
+   {
+    "campus_name": "Atlántida 2 | Edificio Arabial",
+    "city": "Granada",
+    "country": "España",
+    "role": "branch",
+    "source_url": "https://atlantidaformacion.com/quienes-somos/",
+    "evidence_quote": "Atlántida 2 | Edificio Arabial"
+   },
+   {
+    "campus_name": "Atlántida 3 | Edificio Manantia",
+    "city": "Granada",
+    "country": "España",
+    "role": "branch",
+    "source_url": "https://atlantidaformacion.com/quienes-somos/",
+    "evidence_quote": "Atlántida 3 | Edificio Manantia"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The institution does not list any specific Erasmus+ or international mobility coordinators. No formal list of international partners is provided, only one specific alliance mentioned in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.8,
+  "crawl_s": 9.8,
+  "ai_calls": 3,
+  "model_s": 2.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 41.9
+ }
+}
