@@ -1,0 +1,65 @@
+{
+ "row_id": "r254",
+ "scraped_at": "2026-11-08T12:22:22Z",
+ "contacts": {
+  "row_id": "r254",
+  "institution_name": "Boatsetter",
+  "institution_type": "unknown",
+  "official_website": "https://www.boatsetter.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "contact@boatsetter.com",
+  "generic_email_url": "https://www.boatsetter.com/wakeboard-boat-rentals",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Buoy",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.boatsetter.com/about",
+    "evidence_quote": "Our goal is to deliver easy access to boating for everyone, everywhere, while also enabling boat owners to earn money to offset the costs of boat ownership. Boatsetter empowers true entrepreneurship on the water. Thanks to our exclusive partnership with Buoy, we are the only insured peer-to-peer boat sharing marketplace in the U.S.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Smart Charter Ibiza",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.boatsetter.com/wakeboard-boat-rentals",
+    "evidence_quote": "Smart Charter Ibiza",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "Boatsetter is a peer-to-peer boat rental marketplace and does not operate traditional educational campuses. No formal list of institutional partners is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 12.8,
+  "ai_calls": 2,
+  "model_s": 37.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 58.7
+ }
+}
