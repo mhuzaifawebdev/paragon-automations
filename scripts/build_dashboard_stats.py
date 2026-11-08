@@ -68,6 +68,12 @@ def institute_row(result, batch):
     return line
 
 
+try:
+    RC_BASE = set(json.loads((Path(__file__).resolve().parent.parent / "data_hei" / "_rc_missing_base.json").read_text(encoding="utf-8")))
+except Exception:
+    RC_BASE = set()
+
+
 def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None, uncounted=()):
     """A website re-check (scripts/recheck_websites.py) improves institutes already counted; it adds none. Each site it
     found moves every row of that name out of Website not found. Removes the re-check's lines from `lines`.
@@ -78,8 +84,9 @@ def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None, uncounted=
     does (sheet_contacts.json). They count as contacts, unless a re-check has already counted that name."""
     rechecks = [x for x in lines if x["batch"].startswith(RECHECK_PREFIX)]
     lines[:] = [x for x in lines if not x["batch"].startswith(RECHECK_PREFIX)]
-    missing = defaultdict(list)
+    missing, by_key = defaultdict(list), defaultdict(list)
     for x in lines:
+        by_key[_key(x["name"])].append(x)
         if not x["website"]:
             missing[_key(x["name"])].append(x)
     baseline = baseline or {}
@@ -109,6 +116,18 @@ def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None, uncounted=
             totals["with_email"] += len(rows_)
             totals["generic_email"] += len(rows_) if f.get("generic_email") else 0
         rows = missing.pop(_key(r["name"]), []) if r["website"] else []
+        if r["website"] and not rows:
+            # rows that had no website last night and got one from the local gap fill (_rc_missing_base.json) are no
+            # longer "missing": the contact / partners / campuses the re-check read for them still count, once each.
+            # Emails are not credited here: the row's own email (often the same one) already counts.
+            for x in by_key.get(key, []):
+                if not x["website"] or x.get("_rc") or f"{x['batch']}|{x['name']}" not in RC_BASE:
+                    continue
+                x["_rc"] = 1
+                totals["partners"] += r["partners"] if not x.get("partners") else 0
+                totals["campuses"] += r["campuses"] if not x.get("campuses") else 0
+                if r["found"].get("with_contact"):
+                    totals["with_contact"] += 1
         for x in rows:
             x.update(website=1, type=r["type"], country=r["country"], campuses=r["campuses"], partners=r["partners"])
             totals["no_website"] -= 1
