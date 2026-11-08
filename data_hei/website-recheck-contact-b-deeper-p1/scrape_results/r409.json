@@ -1,0 +1,87 @@
+{
+ "row_id": "r409",
+ "scraped_at": "2026-11-08T13:01:06Z",
+ "contacts": {
+  "row_id": "r409",
+  "institution_name": "Centrum Edukacji w Zabrzu",
+  "institution_type": "school",
+  "official_website": "https://ce.miastozabrze.pl/",
+  "country": {
+   "value": "Polska",
+   "source_url": "https://ce.miastozabrze.pl/projekty/erasmus-plus/erasmus_small2.pdf",
+   "evidence_quote": "Polska"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sekretariat@ce.zabrze.pl",
+  "generic_email_url": "https://ce.miastozabrze.pl/kontakt",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ASEMKA",
+    "partner_country": "Francja",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://ce.miastozabrze.pl/projekty/erasmus-plus/Informacja_o_projekcie_Erasmusplus.pdf",
+    "evidence_quote": "Zagraniczny partner konsor cjum -stowarzyszenie ASEMKA z miasta Saint-Etienne",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universita Degli Studi Di Genova",
+    "partner_country": "Włochy",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://ce.miastozabrze.pl/projekty/erasmus-plus/erasmus_small2.pdf",
+    "evidence_quote": "+Universita Degli Studi Di",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Colegiul National Mircea Cel Batran",
+    "partner_country": "Rumunia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://ce.miastozabrze.pl/projekty/erasmus-plus/erasmus_small2.pdf",
+    "evidence_quote": "+Colegiul National Mircea Cel",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Centrum Edukacji",
+    "city": "Zabrze",
+    "country": "Polska",
+    "role": "main",
+    "source_url": "https://ce.miastozabrze.pl/kontakt",
+    "evidence_quote": "Centrum Edukacji 41-800 Zabrze, ul. 1 Maja 12"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 8,
+  "coverage_note": "The evidence lists key international project partners such as ASEMKA, Universita Degli Studi Di Genova, and Colegiul National Mircea Cel Batran, but does not provide a comprehensive standalone partner directory. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 49.7,
+  "ai_calls": 2,
+  "model_s": 175.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 312.0
+ }
+}
