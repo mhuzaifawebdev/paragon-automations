@@ -5940,23 +5940,32 @@
    "source": "Merged Legacy DB-6038(Budget).xlsx",
    "file_id": "12_t-CBO6UrI8cT_rUMFeuk7JOTPmjTepYjaQ7M5yOuM",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "failed",
    "rows": 75,
    "note": "Today's free AI allowance is used up.",
    "started": "2026-11-07T23:51:56Z",
    "last_start": "2026-11-08T17:00:21Z",
-   "restarts": 3,
+   "restarts": 4,
    "cap_usd": 0.0,
-   "reader": "free"
+   "reader": "free",
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "finished": "2026-11-08T17:02:56Z",
+   "reason": "Stopped making progress; restarted 3 times without success."
   },
   {
    "batch": "list-for-ayesha",
    "source": "list for ayesha.xlsx",
    "file_id": "1T6ETvDeP0BYGdMjga-OFIO4IP4v1smH7VJrKYH6v5bs",
    "added": "2026-11-04T15:37:58Z",
-   "state": "queued",
+   "state": "running",
    "rows": 10,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "started": "2026-11-08T17:02:56Z",
+   "last_start": "2026-11-08T17:02:56Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "reader": "free"
   },
   {
    "batch": "best-profiles-linkedin-2026-11-06-12",
@@ -6034,7 +6043,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-08T17:00:21Z",
+ "updated": "2026-11-08T17:02:56Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
