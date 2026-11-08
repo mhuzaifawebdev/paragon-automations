@@ -1,0 +1,65 @@
+{
+ "row_id": "r349",
+ "scraped_at": "2026-11-08T12:43:43Z",
+ "contacts": {
+  "row_id": "r349",
+  "institution_name": "CONSELL COMARCAL DE LA GARROTXA",
+  "institution_type": "unknown",
+  "official_website": "https://www.garrotxa.cat/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ccgarrotxa@garrotxa.cat",
+  "generic_email_url": "https://www.garrotxa.cat/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Som Mobilitat",
+    "partner_country": "Spain",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.garrotxa.cat/2019/06/21/el-consell-comarcal-de-la-garrotxa-i-som-mobilitat-signen-un-acord-per-lus-de-vehicle-electric/",
+    "evidence_quote": "Aquesta mateixa setmana, el Consell Comarcal de la Garrotxa ha arribat a un acord amb la cooperativa Som Mobilitat, per a l’ús compartit d’un vehicle elèctric per als treballadors de la corporació. L’acord té una durada d’un any, prorrogable.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Consell Comarcal de la Garrotxa",
+    "city": "Olot",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://www.garrotxa.cat/",
+    "evidence_quote": "17800 OLOT (Girona)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The institution is a local government council rather than an educational institution, and the evidence mentions no specific named contacts or Erasmus partnerships.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 12.0,
+  "ai_calls": 2,
+  "model_s": 7.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 29.4
+ }
+}
