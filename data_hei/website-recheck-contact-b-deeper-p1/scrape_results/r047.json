@@ -1,0 +1,74 @@
+{
+ "row_id": "r047",
+ "scraped_at": "2026-11-08T11:43:27Z",
+ "contacts": {
+  "row_id": "r047",
+  "institution_name": "ASP Katowice",
+  "institution_type": "university",
+  "official_website": "https://informacje-katowice.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Uniwersytet Ekonomiczny w Katowicach",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://informacje-katowice.pl/wiadomosc/kongres-nowej-mobilnosci-2026-katowicach",
+    "evidence_quote": "Wejście do strefy EXPO jest bezpłatne po uprzedniej rejestracji na stronie kongresnowejmobilnosci.pl. Udział w części konferencyjnej (debaty, warsztaty, prezentacje na 10 scenach) wymaga zakupu biletu. Studenci uczelni objętych patronatem — m.in. Uniwersytetu Ekonomicznego w Katowicach — mogą ubiegać się o bezpłatny Student Pass, jednak liczba wejściówek jest ograniczona.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Akademia Leona Koźmińskiego",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://informacje-katowice.pl/wiadomosc/kongres-nowej-mobilnosci-2026-katowicach",
+    "evidence_quote": "Organizatorem KNM 2026 jest Polskie Stowarzyszenie Nowej Mobilności (PSNM) z siedzibą w Warszawie. Gospodarzem wydarzenia jest Górnośląsko-Zagłębiowska Metropolia (GZM). Patronat honorowy naukowy objęły Uniwersytet Ekonomiczny w Katowicach oraz Akademia Leona Koźmińskiego.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Rondo Sztuki - Galeria ASP",
+    "city": "Katowice",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://informacje-katowice.pl/firmy",
+    "evidence_quote": "Rondo Sztuki - Galeria ASP"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence provided is a general city information portal and business directory for Katowice. It does not contain a list of Erasmus+ partners or specific contact details for the international office of ASP Katowice. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 11.0,
+  "ai_calls": 2,
+  "model_s": 1.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 24.5
+ }
+}
