@@ -907,9 +907,9 @@ function renderTiles(t) {
     `<div class="k"><i style="--c:${color}"></i>${label}</div><div class="p">${pct(v, t.with_contact)} of contacts</div></div>`;
   const cseg = (v, color) => `<span style="--c:${color};width:${t.with_contact ? 100 * v / t.with_contact : 0}%"></span>`;
   const contactExtra = t.contact_personal == null ? "" :
-    `<div class="emails">${contactStat(cPers, "Personal work email", "var(--accent)")}` +
-    `${contactStat(cGen, "Generic office email", "#8ea6f7")}${contactStat(cName, "Name only (phone or no email)", "#c3cad6")}</div>` +
-    `<div class="ebar" title="Personal work email · generic office email · name only">${cseg(cPers, "var(--accent)")}${cseg(cGen, "#8ea6f7")}${cseg(cName, "#c3cad6")}</div>`;
+    `<div class="emails">${contactStat(cPers, "Has their own work email", "var(--accent)")}` +
+    `${contactStat(cGen, "Office / department email only", "#8ea6f7")}${contactStat(cName, "Name known, no email found yet", "#c3cad6")}</div>` +
+    `<div class="ebar" title="Own work email · office email only · name known, no email yet">${cseg(cPers, "var(--accent)")}${cseg(cGen, "#8ea6f7")}${cseg(cName, "#c3cad6")}</div>`;
   const tiles = [
     [fmtN(t.institutes), "Total institutes", fmtN(t.batches) + " batches"],
     [fmtN(site), "Institutes with a website", pct(site, t.institutes) + " of all institutes"],
