@@ -900,10 +900,20 @@ function renderTiles(t) {
     `<div class="emails">${emailStat(work - both, "Work email only", "var(--accent)")}` +
     `${emailStat(both, "Both work and generic", "#12b886")}${emailStat(dept - both, "Generic dept email only", "#8ea6f7")}</div>` +
     `<div class="ebar" title="Work email only · both · generic only">${seg(work - both, "var(--accent)")}${seg(both, "#12b886")}${seg(dept - both, "#8ea6f7")}</div>`;
+  // contacts in three groups that do not overlap and add up to "Contacts found"
+  const cPers = t.contact_personal || 0, cGen = t.contact_generic || 0;
+  const cName = Math.max(0, (t.with_contact || 0) - cPers - cGen);
+  const contactStat = (v, label, color) => `<div><div class="v">${fmtN(v)}</div>` +
+    `<div class="k"><i style="--c:${color}"></i>${label}</div><div class="p">${pct(v, t.with_contact)} of contacts</div></div>`;
+  const cseg = (v, color) => `<span style="--c:${color};width:${t.with_contact ? 100 * v / t.with_contact : 0}%"></span>`;
+  const contactExtra = t.contact_personal == null ? "" :
+    `<div class="emails">${contactStat(cPers, "Personal work email", "var(--accent)")}` +
+    `${contactStat(cGen, "Generic office email", "#8ea6f7")}${contactStat(cName, "Name only (phone or no email)", "#c3cad6")}</div>` +
+    `<div class="ebar" title="Personal work email · generic office email · name only">${cseg(cPers, "var(--accent)")}${cseg(cGen, "#8ea6f7")}${cseg(cName, "#c3cad6")}</div>`;
   const tiles = [
     [fmtN(t.institutes), "Total institutes", fmtN(t.batches) + " batches"],
     [fmtN(site), "Institutes with a website", pct(site, t.institutes) + " of all institutes"],
-    [fmtN(t.with_contact), "Contacts found", pct(t.with_contact, site) + " of institutes with a website"],
+    [fmtN(t.with_contact), "Contacts found", pct(t.with_contact, site) + " of institutes with a website" + contactExtra, "", contactExtra ? "wide" : ""],
     [fmtN(t.with_email), "Institutes with an email", pct(t.with_email, site) + " of institutes with a website" + emailExtra, "", "wide"],
     [fmtN(t.partners), "Partners found", avg(t.partners, site) + " per institute on average", "partners"],
     [fmtN(t.campuses), "Campuses found", avg(t.campuses, site) + " per institute on average", "campuses"],

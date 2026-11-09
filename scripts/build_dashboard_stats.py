@@ -25,6 +25,7 @@ def _key(name):
 
 def _empty():
     return {"institutes": 0, "with_contact": 0, "with_email": 0, "personal_email": 0, "generic_email": 0,
+            "contact_personal": 0, "contact_generic": 0,
             "partners": 0, "campuses": 0, "no_website": 0, "with_website": 0, "reachable": 0, "reachable_missing": 0,
             "reachable_missing_sites": 0, "website_dead": 0}
 
@@ -42,7 +43,12 @@ def institute_counts(result):
     phone = c.get("phone")
     phone = (phone.get("value") if isinstance(phone, dict) else phone) or contact.get("phone")
     reachable = 1 if (personal or generic or phone) and not no_site else 0
-    return {"reachable": reachable, "institutes": 1, "with_contact": 1 if contact else 0, "with_email": 1 if personal or generic else 0,
+    # a contact is "personal" when the named person has their own work email, "generic" when they are reached only
+    # through an office / department inbox; the rest (name with a phone, or name only) is with_contact minus both
+    cp = 1 if contact and personal else 0
+    cg = 1 if contact and not personal and generic else 0
+    return {"reachable": reachable, "institutes": 1, "with_contact": 1 if contact else 0,
+            "contact_personal": cp, "contact_generic": cg, "with_email": 1 if personal or generic else 0,
             "personal_email": personal, "generic_email": generic,
             "partners": len(net.get("external_collaboration") or []), "campuses": len(net.get("internal_collaboration") or []),
             "no_website": no_site, "with_website": 1 - no_site - dead, "website_dead": dead}
@@ -64,7 +70,8 @@ def institute_row(result, batch):
             "type": c.get("institution_type") or "", "batch": batch, "campuses": n["campuses"], "partners": n["partners"],
             "website": n["with_website"]}
     if batch.startswith(RECHECK_PREFIX):
-        line["found"] = {k: n[k] for k in ("with_contact", "with_email", "personal_email", "generic_email", "reachable")}
+        line["found"] = {k: n[k] for k in ("with_contact", "with_email", "personal_email", "generic_email", "reachable",
+                                       "contact_personal", "contact_generic")}
     return line
 
 
@@ -104,6 +111,8 @@ def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None, uncounted=
             credited[key].add("contact")
             counted.add(key)            # the client sheet's contact for this name is not counted on top
             totals["with_contact"] += len(rows_)
+            totals["contact_personal"] = totals.get("contact_personal", 0) + len(rows_) * f.get("contact_personal", 0)
+            totals["contact_generic"] = totals.get("contact_generic", 0) + len(rows_) * f.get("contact_generic", 0)
         if f.get("personal_email") and "personal" not in credited[key]:
             credited[key].add("personal")
             totals["personal_email"] += len(rows_)
@@ -128,6 +137,8 @@ def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None, uncounted=
                 totals["campuses"] += r["campuses"] if not x.get("campuses") else 0
                 if r["found"].get("with_contact"):
                     totals["with_contact"] += 1
+                    totals["contact_personal"] = totals.get("contact_personal", 0) + r["found"].get("contact_personal", 0)
+                    totals["contact_generic"] = totals.get("contact_generic", 0) + r["found"].get("contact_generic", 0)
         for x in rows:
             x.update(website=1, type=r["type"], country=r["country"], campuses=r["campuses"], partners=r["partners"])
             totals["no_website"] -= 1
@@ -135,7 +146,7 @@ def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None, uncounted=
             totals["partners"] += r["partners"]
             totals["campuses"] += r["campuses"]
             for k, v in r["found"].items():
-                totals[k] += v
+                totals[k] = totals.get(k, 0) + v
     for key, n in (sheet_contacts or {}).items():
         if key not in counted:
             totals["with_contact"] += n
