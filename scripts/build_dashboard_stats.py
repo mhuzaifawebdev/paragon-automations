@@ -149,7 +149,12 @@ def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None, uncounted=
                 totals[k] = totals.get(k, 0) + v
     for key, n in (sheet_contacts or {}).items():
         if key not in counted:
+            # [rows, with the person's own email, office email only] (scripts/build_sheet_contacts.py); a plain
+            # number is the older form, rows only
+            n, own, office = (n + [0, 0])[:3] if isinstance(n, list) else (n, 0, 0)
             totals["with_contact"] += n
+            totals["contact_personal"] = totals.get("contact_personal", 0) + own
+            totals["contact_generic"] = totals.get("contact_generic", 0) + office
 
 
 def batch_figures(bdir):
