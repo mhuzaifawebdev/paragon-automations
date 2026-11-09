@@ -42,7 +42,8 @@ def institute_counts(result):
     # reachable: an email, or a phone number (the institute's own, or the contact's) to call instead
     phone = c.get("phone")
     phone = (phone.get("value") if isinstance(phone, dict) else phone) or contact.get("phone")
-    reachable = 1 if (personal or generic or phone) and not no_site else 0
+    # counted among the institutes with a working website (the share's base), so it never passes 100%
+    reachable = 1 if (personal or generic or phone) and not no_site and not dead else 0
     # a contact is "personal" when the named person has their own work email, "generic" when they are reached only
     # through an office / department inbox; the rest (name with a phone, or name only) is with_contact minus both
     cp = 1 if contact and personal else 0
@@ -68,7 +69,9 @@ def institute_row(result, batch):
     n = institute_counts(result)
     line = {"name": " ".join(str(c.get("institution_name") or "").strip(" \"'").split()), "country": (c.get("country") or {}).get("value") or "",
             "type": c.get("institution_type") or "", "batch": batch, "campuses": n["campuses"], "partners": n["partners"],
-            "website": n["with_website"]}
+            "website": n["with_website"],
+            # what the row already counts on its own, so a re-check never counts it a second time
+            "has": {"c": n["with_contact"], "e": n["with_email"], "r": n["reachable"], "p": n["personal_email"]}}
     if batch.startswith(RECHECK_PREFIX):
         line["found"] = {k: n[k] for k in ("with_contact", "with_email", "personal_email", "generic_email", "reachable",
                                        "contact_personal", "contact_generic", "with_phone")}
@@ -107,23 +110,26 @@ def apply_rechecks(totals, lines, baseline=None, sheet_contacts=None, uncounted=
         # several re-checks can find the same institute (the scraper, outside research): its contact and its email are
         # each counted once, whichever re-check found them, so an email-only find never blocks a later contact
         rows_ = nobody.get(key, [])
+        lacks = lambda k: [x for x in rows_ if not (x.get("has") or {}).get(k)]  # noqa: E731
         if f.get("with_contact") and "contact" not in credited[key]:
             credited[key].add("contact")
             counted.add(key)            # the client sheet's contact for this name is not counted on top
-            totals["with_contact"] += len(rows_)
-            totals["contact_personal"] = totals.get("contact_personal", 0) + len(rows_) * f.get("contact_personal", 0)
-            totals["contact_generic"] = totals.get("contact_generic", 0) + len(rows_) * f.get("contact_generic", 0)
+            add = len(lacks("c"))
+            totals["with_contact"] += add
+            totals["contact_personal"] = totals.get("contact_personal", 0) + add * f.get("contact_personal", 0)
+            totals["contact_generic"] = totals.get("contact_generic", 0) + add * f.get("contact_generic", 0)
         if f.get("personal_email") and "personal" not in credited[key]:
             credited[key].add("personal")
-            totals["personal_email"] += len(rows_)
+            totals["personal_email"] += len(lacks("p"))
         # reachable (an email or a phone): only for names that had no inbox before, so none is counted twice
         if f.get("reachable") and not baseline.get(key) and "reachable" not in credited[key]:
             credited[key].add("reachable")
-            totals["reachable"] += sum(1 for x in rows_ if x["batch"] not in uncounted)   # its batch is in the share
+            totals["reachable"] += sum(1 for x in lacks("r") if x["batch"] not in uncounted)   # its batch is in the share
         if f.get("with_email") and not baseline.get(key) and "email" not in credited[key]:
             credited[key].add("email")
-            totals["with_email"] += len(rows_)
-            totals["generic_email"] += len(rows_) if f.get("generic_email") else 0
+            add = len(lacks("e"))
+            totals["with_email"] += add
+            totals["generic_email"] += add if f.get("generic_email") else 0
         rows = missing.pop(_key(r["name"]), []) if r["website"] else []
         if r["website"] and not rows:
             # rows that had no website last night and got one from the local gap fill (_rc_missing_base.json) are no
