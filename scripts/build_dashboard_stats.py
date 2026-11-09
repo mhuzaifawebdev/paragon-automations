@@ -25,7 +25,7 @@ def _key(name):
 
 def _empty():
     return {"institutes": 0, "with_contact": 0, "with_email": 0, "personal_email": 0, "generic_email": 0,
-            "contact_personal": 0, "contact_generic": 0,
+            "contact_personal": 0, "contact_generic": 0, "with_phone": 0,
             "partners": 0, "campuses": 0, "no_website": 0, "with_website": 0, "reachable": 0, "reachable_missing": 0,
             "reachable_missing_sites": 0, "website_dead": 0}
 
@@ -48,7 +48,7 @@ def institute_counts(result):
     cp = 1 if contact and personal else 0
     cg = 1 if contact and not personal and generic else 0
     return {"reachable": reachable, "institutes": 1, "with_contact": 1 if contact else 0,
-            "contact_personal": cp, "contact_generic": cg, "with_email": 1 if personal or generic else 0,
+            "contact_personal": cp, "contact_generic": cg, "with_phone": 1 if phone and not no_site else 0, "with_email": 1 if personal or generic else 0,
             "personal_email": personal, "generic_email": generic,
             "partners": len(net.get("external_collaboration") or []), "campuses": len(net.get("internal_collaboration") or []),
             "no_website": no_site, "with_website": 1 - no_site - dead, "website_dead": dead}
@@ -71,7 +71,7 @@ def institute_row(result, batch):
             "website": n["with_website"]}
     if batch.startswith(RECHECK_PREFIX):
         line["found"] = {k: n[k] for k in ("with_contact", "with_email", "personal_email", "generic_email", "reachable",
-                                       "contact_personal", "contact_generic")}
+                                       "contact_personal", "contact_generic", "with_phone")}
     return line
 
 

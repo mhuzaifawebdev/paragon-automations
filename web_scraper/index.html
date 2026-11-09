@@ -922,6 +922,8 @@ function renderTiles(t) {
   // a website that never loaded on three different days: kept out of the percentages above, shown here
   if (t.website_dead) tiles.push([fmtN(t.website_dead), "Website not working", "did not load on 3 different days"]);
   // shown once every batch has been counted with it (older batches are re-counted by scripts/boost_free.py)
+  // institutes with a phone number (the institute's own, or the named contact's direct line)
+  if (t.with_phone != null) tiles.splice(4, 0, [fmtN(t.with_phone), "Institutes with a phone", pct(t.with_phone, site) + " of institutes with a website"]);
   if (t.reachable != null && !t.reachable_missing)
     tiles.splice(4, 0, [fmtN(t.reachable), "Reachable: email or phone", pct(t.reachable, site) + " of institutes with a website"]);
   // Partners and Campuses open the Institutes view, sorted by that figure (most first)
