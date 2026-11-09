@@ -5958,23 +5958,32 @@
    "source": "list for ayesha.xlsx",
    "file_id": "1T6ETvDeP0BYGdMjga-OFIO4IP4v1smH7VJrKYH6v5bs",
    "added": "2026-11-04T15:37:58Z",
-   "state": "running",
+   "state": "failed",
    "rows": 10,
    "note": "Free reader only (paid switched off in config.yaml): $0.",
    "started": "2026-11-08T17:02:56Z",
    "last_start": "2026-11-09T06:58:27Z",
-   "restarts": 3,
+   "restarts": 4,
    "cap_usd": 0.0,
-   "reader": "free"
+   "reader": "free",
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "finished": "2026-11-09T17:14:19Z",
+   "reason": "Stopped making progress; restarted 3 times without success."
   },
   {
    "batch": "best-profiles-linkedin-2026-11-06-12",
    "source": "Best Profiles LinkedIn 2026-11-06 1253",
    "file_id": "1VRnnGku7-oBZ8E2DqENJgC2ihNNfAmuuaIMe4WxTUQo",
    "added": "2026-11-06T11:15:39Z",
-   "state": "queued",
+   "state": "running",
    "rows": 20,
-   "note": "Read the sheet 'Event Managers Digital Marketi'. Sheets without institute rows were skipped: Summary."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "started": "2026-11-09T17:14:19Z",
+   "last_start": "2026-11-09T17:14:19Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "reader": "free"
   },
   {
    "batch": "best-profiles-2026-11-06-1240",
@@ -6043,7 +6052,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-09T06:58:27Z",
+ "updated": "2026-11-09T17:14:19Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
