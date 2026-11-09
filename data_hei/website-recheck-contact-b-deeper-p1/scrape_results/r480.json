@@ -1,0 +1,59 @@
+{
+ "row_id": "r480",
+ "scraped_at": "2026-11-09T17:51:26Z",
+ "contacts": {
+  "row_id": "r480",
+  "institution_name": "Corrosion Engineering",
+  "institution_type": "unknown",
+  "official_website": "https://corroeng.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://corroeng.com/contact",
+   "evidence_quote": "85210 United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Corrosion Engineering Headquarters and Factory",
+    "city": "Mesa",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://corroeng.com/about",
+    "evidence_quote": "Corrosion Engineering relocated our headquarters and factory facilities to our current location in Mesa, Arizona."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence describes Corrosion Engineering as a commercial manufacturer and designer of industrial wear-resistant products rather than an educational institution. No named individual contacts with formal roles or partner networks are present.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 6.9,
+  "ai_calls": 2,
+  "model_s": 11.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 55.0
+ }
+}
