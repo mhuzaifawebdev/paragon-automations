@@ -1,0 +1,56 @@
+{
+ "row_id": "r259",
+ "scraped_at": "2026-11-10T09:01:44Z",
+ "contacts": {
+  "row_id": "r259",
+  "institution_name": "Lycée Victor Hugo",
+  "institution_type": "school",
+  "official_website": "https://www.vhugo.eu/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Victor Hugo",
+    "city": "Florence",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.vhugo.eu/contacts/",
+    "evidence_quote": "Lycée Victor Hugo"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The website provides general information about the school but does not list any specific staff members or international partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.5,
+  "crawl_s": 13.4,
+  "ai_calls": 3,
+  "model_s": 2.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 31.4
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "row_id": "r260",
+ "scraped_at": "2026-11-10T09:02:01Z",
+ "contacts": {
+  "row_id": "r260",
+  "institution_name": "Lycée des Glières",
+  "institution_type": "school",
+  "official_website": "https://glieres.ent.auvergnerhonealpes.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ce.0740009h@ac-grenoble.fr",
+  "generic_email_url": "https://glieres.ent.auvergnerhonealpes.fr/sg.do?PROC=PAGE_REGLEMENTAIRE&ACTION=VALIDER&TYPE_PAGE=CONTACT",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Polyvalent des Glières",
+    "city": "Annemasse",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://glieres.ent.auvergnerhonealpes.fr/sg.do?PROC=PAGE_REGLEMENTAIRE&ACTION=VALIDER&TYPE_PAGE=CONTACT",
+    "evidence_quote": "Lycée Polyvalent des Glières"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The website mentions that the school holds an Erasmus Charter and has international partnerships, but it does not provide a specific list of partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 11.8,
+  "ai_calls": 3,
+  "model_s": 2.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 47.9
+ }
+}

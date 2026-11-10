@@ -1,0 +1,75 @@
+{
+ "row_id": "r264",
+ "scraped_at": "2026-11-10T09:01:50Z",
+ "contacts": {
+  "row_id": "r264",
+  "institution_name": "Lycée polyvalent Jean-Baptiste Colbert",
+  "institution_type": "school",
+  "official_website": "https://lycee-colbert-lorient.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ce.0560026z@ac-rennes.fr",
+  "generic_email_url": "https://lycee-colbert-lorient.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Espace des Sciences de Rennes",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-colbert-lorient.com/les-premieres-sti2d-sentrainent-a-gerer-les-reseaux-electriques/",
+    "evidence_quote": "Ce lundi 13 octobre, les élèves de Première STI2D et de Terminale MELEC ont participé au jeu « Watt is Smart 2 », un serious game animé par l’Espace des Sciences de Rennes en partenariat avec ENEDIS.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ENEDIS",
+    "partner_country": "France",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://lycee-colbert-lorient.com/les-premieres-sti2d-sentrainent-a-gerer-les-reseaux-electriques/",
+    "evidence_quote": "Ce lundi 13 octobre, les élèves de Première STI2D et de Terminale MELEC ont participé au jeu « Watt is Smart 2 », un serious game animé par l’Espace des Sciences de Rennes en partenariat avec ENEDIS.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Colbert Lorient",
+    "city": "Lorient",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lycee-colbert-lorient.com/",
+    "evidence_quote": "Lycée Colbert Lorient"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 6,
+  "coverage_note": "The website does not list specific Erasmus+ or international mobility coordinators. No formal list of international partners is provided, only occasional project collaborators.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 8.4,
+  "ai_calls": 3,
+  "model_s": 1.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 28.3
+ }
+}
