@@ -1,0 +1,99 @@
+{
+ "row_id": "r403",
+ "scraped_at": "2026-11-10T09:25:48Z",
+ "contacts": {
+  "row_id": "r403",
+  "institution_name": "NewView Oklahoma",
+  "institution_type": "unknown",
+  "official_website": "https://nvoklahoma.org/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Rob Ream",
+   "designation": "Treasurer and Secretary",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://nvoklahoma.org/about-newview-oklahoma/board-of-directors/",
+   "evidence_quote": "ROB REAM ... TREASURER AND SECRETARY"
+  },
+  "alternates": [],
+  "rung": "Other role. Rob Ream is the Treasurer and Secretary of the Board of Directors.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Tinker Air Force Base",
+    "partner_country": "United States",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://nvoklahoma.org/about-newview-oklahoma/",
+    "evidence_quote": "OLB started a partnership with Tinker Air Force Base.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Lesley L. Walls Vision Center at Northeastern State University",
+    "partner_country": "United States",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://nvoklahoma.org/about-newview-oklahoma/",
+    "evidence_quote": "NewView partnered with the Lesley L. Walls Vision Center at Northeastern State University to open the Tulsa Low Vision Center.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "OKC Center for Low Vision and Blindness",
+    "city": "Oklahoma City",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://nvoklahoma.org/contact-us/",
+    "evidence_quote": "OKC Center for Low Vision and Blindness"
+   },
+   {
+    "campus_name": "Tulsa Center for Low Vision and Blindness",
+    "city": "Tulsa",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://nvoklahoma.org/contact-us/",
+    "evidence_quote": "Tulsa Center for Low Vision and Blindness"
+   },
+   {
+    "campus_name": "NewView Manufacturing",
+    "city": "Oklahoma City",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://nvoklahoma.org/contact-us/",
+    "evidence_quote": "NewView MANUFACTURING"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 8,
+  "coverage_note": "NewView Oklahoma is an organization providing low vision services, employment opportunities, and manufacturing rather than an educational university, and email addresses or direct phone numbers for individual board members are not provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 11.3,
+  "ai_calls": 1,
+  "model_s": 32.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 44.0
+ }
+}
