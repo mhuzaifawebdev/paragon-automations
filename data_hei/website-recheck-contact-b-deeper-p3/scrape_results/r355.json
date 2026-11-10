@@ -1,0 +1,87 @@
+{
+ "row_id": "r355",
+ "scraped_at": "2026-11-10T09:14:33Z",
+ "contacts": {
+  "row_id": "r355",
+  "institution_name": "Mladinski svet Celje",
+  "institution_type": "unknown",
+  "official_website": "https://mscelje.si/",
+  "country": {
+   "value": "Slovenia",
+   "source_url": "https://mscelje.si/zavod-za-zaposlovanje-republike-slovenije-tvoj-partner-na-poti-do-zaposlitve/",
+   "evidence_quote": "Zavod za zaposlovanje Republike Slovenije: Tvoj partner na poti do zaposlitve"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@mscelje.si",
+  "generic_email_url": "https://mscelje.si/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Društvo tabornikov RDGO",
+    "partner_country": "Slovenia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://mscelje.si/",
+    "evidence_quote": "Društvo tabornikov RDGO",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "LEO Klub Celjski vitezi",
+    "partner_country": "Slovenia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://mscelje.si/",
+    "evidence_quote": "LEO Klub Celjski vitezi",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Klub študentov občine Celje",
+    "partner_country": "Slovenia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://mscelje.si/",
+    "evidence_quote": "Klub študentov občine Celje",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Mladinski svet Celje",
+    "city": "Celje",
+    "country": "Slovenia",
+    "role": "main",
+    "source_url": "https://mscelje.si/",
+    "evidence_quote": "Mariborska 7, Celje"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The evidence lists member organizations but does not contain a dedicated international partner list or Erasmus agreements.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.5,
+  "crawl_s": 25.8,
+  "ai_calls": 2,
+  "model_s": 5.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 61.6
+ }
+}

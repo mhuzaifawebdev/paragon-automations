@@ -1,0 +1,87 @@
+{
+ "row_id": "r350",
+ "scraped_at": "2026-11-10T09:13:52Z",
+ "contacts": {
+  "row_id": "r350",
+  "institution_name": "Ministério da Defesa Nacional através do Chefe de Estado-Maior do Exército",
+  "institution_type": "unknown",
+  "official_website": "https://www.exercito.pt/",
+  "country": {
+   "value": "Portugal",
+   "source_url": "https://www.exercito.pt/",
+   "evidence_quote": "EM PORTUGAL E NO MUNDO"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@exercito.pt",
+  "generic_email_url": "https://assets.exercito.pt/SiteAssets/GabCEME/Comunica%C3%A7%C3%A3o/Diretivas%20Estrat%C3%A9gicas/2022-02%20DEE%2022-23.pdf",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ONU - Organização das Nações Unidas",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://assets.exercito.pt/SiteAssets/GabCEME/Comunica%C3%A7%C3%A3o/Diretivas%20Estrat%C3%A9gicas/2022-02%20DEE%2022-23.pdf",
+    "evidence_quote": "ONU - Organização das Nações Unidas NATO - Organização do Tratado do Atlântico Norte UE - União Europeia RSM - Resolute Support Mission",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NATO - Organização do Tratado do Atlântico Norte",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://assets.exercito.pt/SiteAssets/GabCEME/Comunica%C3%A7%C3%A3o/Diretivas%20Estrat%C3%A9gicas/2022-02%20DEE%2022-23.pdf",
+    "evidence_quote": "ONU - Organização das Nações Unidas NATO - Organização do Tratado do Atlântico Norte UE - União Europeia RSM - Resolute Support Mission",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UE - União Europeia",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://assets.exercito.pt/SiteAssets/GabCEME/Comunica%C3%A7%C3%A3o/Diretivas%20Estrat%C3%A9gicas/2022-02%20DEE%2022-23.pdf",
+    "evidence_quote": "ONU - Organização das Nações Unidas NATO - Organização do Tratado do Atlântico Norte UE - União Europeia RSM - Resolute Support Mission",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Exército Português",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://assets.exercito.pt/SiteAssets/GabCEME/Comunica%C3%A7%C3%A3o/Diretivas%20Estrat%C3%A9gicas/Diretiva%20Estrat%C3%A9gica%20do%20Ex%C3%A9rcito%202026-2028.pdf",
+    "evidence_quote": "Lisboa, maio de 2026"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 9,
+  "coverage_note": "Specific international academic mobility agreements or partner lists are not detailed in the evidence, though major international organizations and defense partners are mentioned. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.7,
+  "crawl_s": 31.3,
+  "ai_calls": 2,
+  "model_s": 9.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 63.1
+ }
+}
