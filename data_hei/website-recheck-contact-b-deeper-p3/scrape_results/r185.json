@@ -1,0 +1,69 @@
+{
+ "row_id": "r185",
+ "scraped_at": "2026-11-10T08:50:50Z",
+ "contacts": {
+  "row_id": "r185",
+  "institution_name": "LYCEE POLYVALENT CLEMENT ADER",
+  "institution_type": "school",
+  "official_website": "https://www.lyceeader.eu/",
+  "country": {
+   "value": "FRANCE",
+   "source_url": "https://www.lyceeader.eu/",
+   "evidence_quote": "Adresse: 76 rue Georges Clémenceau, 77220 Tournan-en-Brie FRANCE"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ce.0772342c@ac-creteil.fr",
+  "generic_email_url": "https://www.lyceeader.eu/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "IES Domingo Rivero",
+    "partner_country": "unknown",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceeader.eu/index.php?id_menu=145",
+    "evidence_quote": "| Lycée Clément Ader – IES Domingo Rivero",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Polyvalent Clément Ader",
+    "city": "Tournan-en-Brie",
+    "country": "FRANCE",
+    "role": "main",
+    "source_url": "https://www.lyceeader.eu/",
+    "evidence_quote": "Lycée Polyvalent Clément Ader, 76 rue Georges Clémenceau, 77220 Tournan-en-Brie"
+   }
+  ],
+  "stated_total": 100,
+  "stated_total_quote": "Le lycée travail avec une centaine de partenaires qui s'étendent à l'EST jusqu'à la Ferté-Gaucher, à l'OUEST jusqu'à L'hay-les-Roses.",
+  "stated_total_url": "https://www.lyceeader.eu/index.php?id_menu=127",
+  "truncated": true,
+  "total_seen": 100,
+  "pages_read": 10,
+  "coverage_note": "The website mentions a list of Erasmus exchanges and a map of partners, but the specific names of most international partners are not listed in the provided text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 13.1,
+  "ai_calls": 2,
+  "model_s": 1.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 23.1
+ }
+}
