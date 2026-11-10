@@ -1,0 +1,79 @@
+{
+ "row_id": "r235",
+ "scraped_at": "2026-11-10T01:19:33Z",
+ "contacts": {
+  "row_id": "r235",
+  "institution_name": "Freiburger Schauspielschule",
+  "institution_type": "college",
+  "official_website": "https://freiburger-schauspielschule.com/",
+  "country": {
+   "value": "Deutschland",
+   "source_url": "https://freiburger-schauspielschule.com/",
+   "evidence_quote": "Die Freiburger Schauspielschule ist eine staatlich anerkannte Berufsfachschule mit eigenem Spielbetrieb. Sie liegt mitten im Dreiländereck zwischen Deutschland, Frankreich und der Schweiz."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@freiburger-schauspielschule.de",
+  "generic_email_url": "https://freiburger-schauspielschule.com/kontakt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Arts en Scène",
+    "partner_country": "Frankreich",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://freiburger-schauspielschule.com/unterwegs/",
+    "evidence_quote": "Einmal jährlich findet über die „Plateforme“ für deutsch-französische Kunst ein Austausch mit der Schauspielschule „Arts en Scène“ in Lyon (Frankreich) und der Schauspielschule „Moveo“ in Barcelona (Spanien) zum Thema „Engagiertes Theater „statt. Die Dauer des Austausches beträgt drei Wochen.(eine Woche in Lyon, eine Woche in Barcelona, eine Woche in Freiburg) und findet im zweiten Ausbildungsjahr statt. Am Ende des Austausches steht eine Präsentation auf unserer Studiobühne, der Experimentalbüh",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Moveo",
+    "partner_country": "Spanien",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://freiburger-schauspielschule.com/unterwegs/",
+    "evidence_quote": "Einmal jährlich findet über die „Plateforme“ für deutsch-französische Kunst ein Austausch mit der Schauspielschule „Arts en Scène“ in Lyon (Frankreich) und der Schauspielschule „Moveo“ in Barcelona (Spanien) zum Thema „Engagiertes Theater „statt. Die Dauer des Austausches beträgt drei Wochen.(eine Woche in Lyon, eine Woche in Barcelona, eine Woche in Freiburg) und findet im zweiten Ausbildungsjahr statt. Am Ende des Austausches steht eine Präsentation auf unserer Studiobühne, der Experimentalbüh",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Freiburger Schauspielschule",
+    "city": "Freiburg im Breisgau",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://freiburger-schauspielschule.com/kontakt/",
+    "evidence_quote": "Ferdinand-Weiß-Str. 6a"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not name any specific contact persons with associated roles or direct emails, and lists specific partner schools involved in exchange programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 8.6,
+  "ai_calls": 3,
+  "model_s": 1.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 21.5
+ }
+}
