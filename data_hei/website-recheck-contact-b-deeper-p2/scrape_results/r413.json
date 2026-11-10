@@ -1,0 +1,110 @@
+{
+ "row_id": "r413",
+ "scraped_at": "2026-11-10T08:27:23Z",
+ "contacts": {
+  "row_id": "r413",
+  "institution_name": "IES Calvia",
+  "institution_type": "school",
+  "official_website": "https://iescalvia.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Soissons",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iescalvia.com/erasmus/",
+    "evidence_quote": "Soissons",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Malta",
+    "partner_country": "Malta",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iescalvia.com/erasmus/",
+    "evidence_quote": "Malta",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Calamandrana",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iescalvia.com/erasmus/",
+    "evidence_quote": "Calamandrana",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Vicenza",
+    "partner_country": "Italy",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iescalvia.com/erasmus/",
+    "evidence_quote": "Vicenza",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Haapsalu",
+    "partner_country": "Estonia",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iescalvia.com/erasmus/",
+    "evidence_quote": "Haapsalu",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kiel",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://iescalvia.com/erasmus/",
+    "evidence_quote": "Kiel",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Calvià",
+    "city": "Galatzo",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iescalvia.com/centre/on-som-contacte/",
+    "evidence_quote": "Direcció: Av. son Pillo, 1, 07180 Galatzo, Illes Balears"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 5,
+  "coverage_note": "The website lists several destination cities for Erasmus+ mobility but does not provide specific contact names or email addresses for the international office or Erasmus coordinator.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.6,
+  "crawl_s": 8.4,
+  "ai_calls": 2,
+  "model_s": 1.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 17.4
+ }
+}
