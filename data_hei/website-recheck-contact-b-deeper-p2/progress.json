@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-contact-b-deeper-p2",
- "status": "running",
- "generated_at": "2026-11-10T01:45:40.224730+00:00",
- "chunk": 16,
+ "status": "waiting",
+ "generated_at": "2026-11-10T01:46:59.904301+00:00",
+ "chunk": 17,
  "total_chunks": 20,
  "total_rows": 500,
- "done": 381,
- "pending": 119,
- "elapsed_seconds": 3857,
- "eta_seconds": 975,
+ "done": 385,
+ "pending": 115,
+ "elapsed_seconds": 3900,
+ "eta_seconds": 496,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 764,
+ "ai_calls": 771,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -39,17 +39,13 @@
  ],
  "confidence": {
   "high": 16,
-  "medium": 93,
+  "medium": 95,
   "low": 3,
-  "none": 269
+  "none": 271
  },
- "partners_found": 2316,
- "campuses_found": 969,
+ "partners_found": 2406,
+ "campuses_found": 972,
  "recent": [
-  "r361",
-  "r362",
-  "r363",
-  "r364",
   "r365",
   "r366",
   "r367",
@@ -65,7 +61,14 @@
   "r377",
   "r378",
   "r379",
-  "r380"
+  "r380",
+  "r381",
+  "r382",
+  "r384",
+  "r386"
  ],
- "drive_link": "https://docs.google.com/spreadsheets/d/1W6MNMI0Sa42nDGCazK7WU66-gKJ3aG6e/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
+ "drive_link": "https://docs.google.com/spreadsheets/d/1W6MNMI0Sa42nDGCazK7WU66-gKJ3aG6e/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+ "waiting_kind": "daily",
+ "resume_at": "2026-11-10T08:05:00+00:00",
+ "waiting_reason": "Today's free AI allowance is used up."
 }
