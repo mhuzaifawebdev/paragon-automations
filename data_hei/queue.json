@@ -6074,7 +6074,7 @@
    "source": "Italian Schools For MailChimp 50%-1682",
    "file_id": "189c9L0WFlpzQDIUf9WXxfCBT8vJMYHR2oXoLn1B64fg",
    "added": "2026-11-06T18:10:22Z",
-   "state": "running",
+   "state": "done",
    "rows": 657,
    "part": "2/2",
    "note": "Free reader only (paid switched off in config.yaml): $0.",
@@ -6082,16 +6082,29 @@
    "last_start": "2026-11-10T00:54:09Z",
    "restarts": 0,
    "cap_usd": 0.0,
-   "reader": "free"
+   "reader": "free",
+   "crm_rows": 647,
+   "no_number": 15,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1-JDNcHDMvpDgXxn4DWoeX81iPDhyI8a5/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 52,
+   "finished": "2026-11-10T01:32:32Z",
+   "reason": "650 institutes, 24 with a contact"
   },
   {
    "batch": "italian-schools-for-calendly-20-672",
    "source": "Italian Schools For Calendly 20%-672",
    "file_id": "15jKCegEMaVMmi0WqvxMOuT5HR8wUEsQHrcVN7MQI9zY",
    "added": "2026-11-06T18:10:22Z",
-   "state": "queued",
+   "state": "running",
    "rows": 665,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "started": "2026-11-10T01:32:32Z",
+   "last_start": "2026-11-10T01:32:32Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "reader": "free"
   },
   {
    "batch": "italian-schools-for-linkedin-10-336",
@@ -6113,7 +6126,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-10T00:54:09Z",
+ "updated": "2026-11-10T01:32:32Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
