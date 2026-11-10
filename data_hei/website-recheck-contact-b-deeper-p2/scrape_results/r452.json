@@ -1,0 +1,70 @@
+{
+ "row_id": "r452",
+ "scraped_at": "2026-11-10T08:41:20Z",
+ "contacts": {
+  "row_id": "r452",
+  "institution_name": "IES Suárez de Figueroa",
+  "institution_type": "school",
+  "official_website": "https://www.suarezdefigueroa.es/",
+  "country": {
+   "value": "España",
+   "source_url": "https://www.suarezdefigueroa.es/erasmus/",
+   "evidence_quote": "Países socios: España (Zafra y Cádiz) y Francia (Île de La Réunion) – 2019-2022"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretaria@suarezdefigueroa.es",
+  "generic_email_url": "https://www.suarezdefigueroa.es/contactar/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Lycée Louis Bascan",
+    "partner_country": "Francia",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://www.suarezdefigueroa.es/",
+    "evidence_quote": "Durante cuatro semanas hemos tenido el placer de recibir en nuestro centro alumnado en movilidad de corta duración del @LycéeLouisBascan de Rambouillet, Francia. Una experiencia que nos permite compartir conocimientos, conocer otras culturas y aprender juntos.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "I.E.S. Suárez de Figueroa",
+    "city": "Zafra",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://www.suarezdefigueroa.es/",
+    "evidence_quote": "I.E.S. Suárez de Figueroa – Zafra (Badajoz)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence names Lycée Louis Bascan as a partner school for short-term student mobility, but does not provide a complete standalone partner list.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 13.6,
+  "ai_calls": 3,
+  "model_s": 281.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 4,
+  "total_seconds": 439.4
+ }
+}
