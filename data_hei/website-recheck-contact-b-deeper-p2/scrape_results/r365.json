@@ -1,0 +1,93 @@
+{
+ "row_id": "r365",
+ "scraped_at": "2026-11-10T01:43:10Z",
+ "contacts": {
+  "row_id": "r365",
+  "institution_name": "Hochschule der Polizei des Landes Brandenburg",
+  "institution_type": "university",
+  "official_website": "https://hpolbb.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "praesidialbuero.hpol@polizei.brandenburg.de",
+  "generic_email_url": "https://hpolbb.de/kontakt-1",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Polizeihochschule Szczytno",
+    "partner_country": "Polen",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://hpolbb.de/kooperationen/erasmus",
+    "evidence_quote": "Eine Mobilität zur Lehre im Ausland kann nur an einer Partnerhochschule durchgeführt werden, mit der die HPol BB ein Inter-Institutionelles-Abkommen geschlossen hat. Aktuell bestehen Abkommen mit der Polizeihochschule Szczytno (Polen) und der Witelon Universität in Legnica (Polen).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Witelon Universität in Legnica",
+    "partner_country": "Polen",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://hpolbb.de/kooperationen/erasmus",
+    "evidence_quote": "Eine Mobilität zur Lehre im Ausland kann nur an einer Partnerhochschule durchgeführt werden, mit der die HPol BB ein Inter-Institutionelles-Abkommen geschlossen hat. Aktuell bestehen Abkommen mit der Polizeihochschule Szczytno (Polen) und der Witelon Universität in Legnica (Polen).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "University of Applied Sciences in Criminal Investigation and Public Security in Zagreb",
+    "partner_country": "Kroatien",
+    "partner_type": "university",
+    "mobility_type": "study",
+    "source_url": "https://hpolbb.de/artikel/everything-depends-on-people-mit-erasmus-in-kroatien",
+    "evidence_quote": "Mein Erasmus+ Aufenthalt an der University of Applied Sciences in Criminal Investigation and Public Security in Zagreb stand von Beginn an unter einem Gedanken, der sich wie ein roter Faden durch alle Begegnungen zog: Everything depends on people. In allen Gesprächen über Kriminalitätsbekämpfung, Prävention und Lehre kamen die betreuende Professorin und ich immer wieder zu diesem Schluss. Veränderung entsteht dort, wo Menschen intrinsisch motiviert handeln – Studierende, Lehrende, Praktikerinnen",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Polizeischule in Słupsk",
+    "partner_country": "Polen",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://hpolbb.de/kooperationen/internationales",
+    "evidence_quote": "Fachliche & kulturelle Kooperation mit der Polizeischule in Słupsk (u.a. Studentenaustausch, Lehrendenaustausch, Praktika, Teilnahme an Sport- und Schießwettkämpfen)",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Hochschule der Polizei des Landes Brandenburg",
+    "city": "Oranienburg",
+    "country": "Deutschland",
+    "role": "main",
+    "source_url": "https://hpolbb.de/die-hochschule/ueber-uns/campusplan",
+    "evidence_quote": "Die Hochschule der Polizei des Landes Brandenburg befindet sich in der Stadt Oranienburg. Der Campus bietet optimale Bedingungen für Studium, Ausbildung sowie Fort- und Weiterbildung. Hörsäle, Sportanlagen und eine gut sortierte Bibliothek schaffen eine zeitgemäße Lern- und Arbeitsumgebung; verschiedene Fachkabinette und eine Lehrwache ermöglichen zudem praxisnahes Training für die Polizeikräfte von morgen."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 4,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists specific partner institutions for cooperation and exchange, but no total count of partners is stated.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.4,
+  "crawl_s": 13.6,
+  "ai_calls": 3,
+  "model_s": 2.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 50.3
+ }
+}
