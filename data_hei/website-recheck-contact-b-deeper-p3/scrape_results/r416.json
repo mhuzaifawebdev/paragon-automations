@@ -1,0 +1,59 @@
+{
+ "row_id": "r416",
+ "scraped_at": "2026-11-10T09:29:53Z",
+ "contacts": {
+  "row_id": "r416",
+  "institution_name": "Nova gymnasium Simrishamns kommun",
+  "institution_type": "school",
+  "official_website": "https://www.simrishamn.se/",
+  "country": {
+   "value": "Sverige",
+   "source_url": "https://www.simrishamn.se/",
+   "evidence_quote": "3A på Simrislundsskolan - bäst i Sverige"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kontakt@simrishamn.se",
+  "generic_email_url": "https://www.simrishamn.se/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Österlen",
+    "city": "Simrishamn",
+    "country": "Sverige",
+    "role": "main",
+    "source_url": "https://www.simrishamn.se/barn-och-utbildning/vuxenutbildning-campus-osterlen",
+    "evidence_quote": "Vuxenutbildning Campus Österlen"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The evidence contains municipal web pages mentioning adult education and campus programs, but no explicit Erasmus+ partners or international mobility agreements are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 11.4,
+  "ai_calls": 2,
+  "model_s": 104.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 157.2
+ }
+}
