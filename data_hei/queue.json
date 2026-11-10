@@ -6097,23 +6097,32 @@
    "source": "Italian Schools For Calendly 20%-672",
    "file_id": "15jKCegEMaVMmi0WqvxMOuT5HR8wUEsQHrcVN7MQI9zY",
    "added": "2026-11-06T18:10:22Z",
-   "state": "running",
+   "state": "failed",
    "rows": 665,
    "note": "Free reader only (paid switched off in config.yaml): $0.",
    "started": "2026-11-10T01:32:32Z",
    "last_start": "2026-11-10T08:00:43Z",
-   "restarts": 3,
+   "restarts": 4,
    "cap_usd": 0.0,
-   "reader": "free"
+   "reader": "free",
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "finished": "2026-11-10T08:02:41Z",
+   "reason": "Stopped making progress; restarted 3 times without success."
   },
   {
    "batch": "italian-schools-for-linkedin-10-336",
    "source": "Italian Schools For Linkedin 10%-336",
    "file_id": "1VXg0O9ZlVPQlbVa69YhrKskwx71rBalImWXHdmSNSxI",
    "added": "2026-11-06T18:10:22Z",
-   "state": "queued",
+   "state": "running",
    "rows": 332,
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "started": "2026-11-10T08:02:41Z",
+   "last_start": "2026-11-10T08:02:41Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "reader": "free"
   },
   {
    "batch": "italian-schools-for-sales-zedarma-20",
@@ -6126,7 +6135,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-10T08:00:43Z",
+ "updated": "2026-11-10T08:02:41Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
