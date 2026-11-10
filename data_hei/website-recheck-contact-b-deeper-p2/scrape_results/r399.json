@@ -1,0 +1,60 @@
+{
+ "row_id": "r399",
+ "scraped_at": "2026-11-10T08:25:16Z",
+ "contacts": {
+  "row_id": "r399",
+  "institution_name": "I.E.S. Clara Campoamor",
+  "institution_type": "school",
+  "official_website": "https://iesclaracampoamor.educacion.es/",
+  "country": {
+   "value": "España",
+   "source_url": "https://iesclaracampoamor.educacion.es/",
+   "evidence_quote": "Visita a Ceuta de los Reyes de España"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "secretaria@iesclaracampoamor.com",
+  "generic_email_url": "https://iesclaracampoamor.educacion.es/contacto",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "I.E.S. Clara Campoamor",
+    "city": "Ceuta",
+    "country": "España",
+    "role": "main",
+    "source_url": "https://iesclaracampoamor.educacion.es/centro",
+    "evidence_quote": "Instituto de Enseñanza Secundaria de Ceuta situada en la Avenida Miguel Arruda de Ceuta, donde se imparten las enseñanzas de Educación Secundaria Obligatoria, Bachillerato, Formación Profesional Básica y Ciclos Formativos"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain any specific named staff members or partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 9.3,
+  "ai_calls": 3,
+  "model_s": 6.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 33.5
+ }
+}
