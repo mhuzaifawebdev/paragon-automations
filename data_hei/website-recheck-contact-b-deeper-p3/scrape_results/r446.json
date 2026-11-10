@@ -1,0 +1,65 @@
+{
+ "row_id": "r446",
+ "scraped_at": "2026-11-10T09:38:38Z",
+ "contacts": {
+  "row_id": "r446",
+  "institution_name": "Origin Micro",
+  "institution_type": "unknown",
+  "official_website": "https://inetsupply.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "HPE",
+    "partner_country": "",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://inetsupply.com/",
+    "evidence_quote": "We've partnered with HPE to offer their line of servers!",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "iNetSupply.com, LLC",
+    "city": "Portsmouth",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://inetsupply.com/",
+    "evidence_quote": "124 Heritage Ave unit 6 Portsmouth, NH 03801"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence represents an e-commerce website and contains no named staff contacts or academic partner lists.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.6,
+  "crawl_s": 13.1,
+  "ai_calls": 2,
+  "model_s": 112.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 188.7
+ }
+}
