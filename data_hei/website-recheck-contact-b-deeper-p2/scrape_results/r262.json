@@ -1,0 +1,68 @@
+{
+ "row_id": "r262",
+ "scraped_at": "2026-11-10T01:22:56Z",
+ "contacts": {
+  "row_id": "r262",
+  "institution_name": "GO! technisch atheneum Diksmuide",
+  "institution_type": "school",
+  "official_website": "https://www.go-diksmuide.be/",
+  "country": {
+   "value": "Diksmuide",
+   "source_url": "https://atheneum.go-diksmuide.be/nl/praktisch/contact",
+   "evidence_quote": "Diksmuide"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus Kaaskerkestraat",
+    "city": "Diksmuide",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://atheneum.go-diksmuide.be/nl/praktisch/contact",
+    "evidence_quote": "Campus Kaaskerkestraat"
+   },
+   {
+    "campus_name": "Campus Grauwe Broedersstraat",
+    "city": "Diksmuide",
+    "country": "Belgium",
+    "role": "branch",
+    "source_url": "https://atheneum.go-diksmuide.be/nl/praktisch/contact",
+    "evidence_quote": "Campus Grauwe Broedersstraat"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "No individual staff contacts with explicitly stated job titles or email addresses are mentioned in the evidence, and there is no partner list present. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 13.5,
+  "thin_home": true,
+  "ai_calls": 2,
+  "model_s": 1.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 23.1
+ }
+}
