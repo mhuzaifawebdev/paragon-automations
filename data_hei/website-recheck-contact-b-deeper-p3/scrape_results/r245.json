@@ -1,0 +1,84 @@
+{
+ "row_id": "r245",
+ "scraped_at": "2026-11-10T08:59:25Z",
+ "contacts": {
+  "row_id": "r245",
+  "institution_name": "Lycée CARCOUET",
+  "institution_type": "college",
+  "official_website": "https://carcouet.paysdelaloire.e-lyco.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ce.0441993c@ac-nantes.fr",
+  "generic_email_url": "https://carcouet.paysdelaloire.e-lyco.fr/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "ITCG Alberto Baggi",
+    "partner_country": "Italie",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://carcouet.paysdelaloire.e-lyco.fr/projets-et-international/erasmus/",
+    "evidence_quote": "[Échange Erasmus+ Lycée Carcouët – ITCG Alberto Baggi (SASSUOLO ITALIE)]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Mülernes Legatskole",
+    "partner_country": "Danemark",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://carcouet.paysdelaloire.e-lyco.fr/erasmus_lycee/10-jours-en-autonomie-au-danemark/",
+    "evidence_quote": "Partenaire du lycée Carcouët depuis quelques années, le lycée Mülernes Legatskole d’Odense, ville principale de l’île de Fionie au Danemark, s’apprête à accueillir pour 10 jours à la fin du mois de mars cinq élèves de terminale générale.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Utrechts Stedelijk Gymnasium",
+    "partner_country": "Pays-Bas",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://carcouet.paysdelaloire.e-lyco.fr/projets-et-international/erasmus/page/2/?et_blog",
+    "evidence_quote": "Dans la section européenne, un échange ou un séjour à l'étranger est organisé chaque année pour les élèves de première. L'un de nos partenaires est un lycée d'Utrecht, aux Pays-Bas: l'Utrechts Stedelijk Gymnasium. Vous trouverez ci-dessous le diaporama créé par les...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Carcouët",
+    "city": "NANTES",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://carcouet.paysdelaloire.e-lyco.fr/",
+    "evidence_quote": "Lycée Carcouët"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists three partner high schools for exchanges, but does not provide a comprehensive standalone partner list. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.2,
+  "crawl_s": 17.0,
+  "ai_calls": 3,
+  "model_s": 35.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "total_seconds": 133.2
+ }
+}
