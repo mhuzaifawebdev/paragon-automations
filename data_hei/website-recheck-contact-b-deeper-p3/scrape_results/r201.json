@@ -1,0 +1,63 @@
+{
+ "row_id": "r201",
+ "scraped_at": "2026-11-10T08:52:23Z",
+ "contacts": {
+  "row_id": "r201",
+  "institution_name": "Las Vegas Rock",
+  "institution_type": "unknown",
+  "official_website": "https://www.vegasrock.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "geninfo@vegasrock.com",
+  "generic_email_url": "https://www.vegasrock.com/contact-us.html",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Jean Mill",
+    "city": "Jean",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.vegasrock.com/contact-us.html",
+    "evidence_quote": "2 Prison Rd. Jean, NV 89019"
+   },
+   {
+    "campus_name": "Rainbow Quarry",
+    "city": "Goodsprings",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://www.vegasrock.com/contact-us.html",
+    "evidence_quote": "Rainbow Quarry"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a stone supplier and fabricator, not an educational institution. No international mobility or Erasmus+ partnerships are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.9,
+  "crawl_s": 7.3,
+  "ai_calls": 2,
+  "model_s": 7.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 27.0
+ }
+}

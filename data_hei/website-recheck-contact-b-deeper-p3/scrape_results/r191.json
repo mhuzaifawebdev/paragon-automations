@@ -1,0 +1,79 @@
+{
+ "row_id": "r191",
+ "scraped_at": "2026-11-10T08:52:12Z",
+ "contacts": {
+  "row_id": "r191",
+  "institution_name": "LYCEE REGIONAL NORD CARAIBE",
+  "institution_type": "school",
+  "official_website": "https://lyceenordcaraibe.com/",
+  "country": {
+   "value": "Martinique",
+   "source_url": "https://lyceenordcaraibe.com/",
+   "evidence_quote": "97222 Bellefontaine, MARTINIQUE"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ce.9720823m@ac-martinique.fr",
+  "generic_email_url": "https://lyceenordcaraibe.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "La Barbade",
+    "partner_country": "Barbados",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceenordcaraibe.com/",
+    "evidence_quote": "Une première action de financement du projet d’échange avec La Barbade Les élèves de CAP[...]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Açores",
+    "partner_country": "Portugal",
+    "partner_type": "other",
+    "mobility_type": "study",
+    "source_url": "https://lyceenordcaraibe.com/wp-content/uploads/2025/06/Presentation-Projets-Etwinning-Erasmus2025-avec-photos.pdf",
+    "evidence_quote": "- Mobilité longue : Açores, Portugal",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Nord Caraïbe",
+    "city": "Bellefontaine",
+    "country": "Martinique",
+    "role": "main",
+    "source_url": "https://lyceenordcaraibe.com/",
+    "evidence_quote": "Accueil - Lycée Nord Caraïbe | Bellefontaine - Martinique"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 6,
+  "coverage_note": "The evidence mentions specific international projects and partners but does not provide a comprehensive list of all institutional partners. No direct contact email for the international coordinator is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 16.0,
+  "ai_calls": 3,
+  "model_s": 2.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 65.2
+ }
+}
