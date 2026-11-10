@@ -1,0 +1,112 @@
+{
+ "row_id": "r279",
+ "scraped_at": "2026-11-10T01:26:06Z",
+ "contacts": {
+  "row_id": "r279",
+  "institution_name": "Georgia-Pacific",
+  "institution_type": "unknown",
+  "official_website": "https://www.gp.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.gp.com/about-us/locations",
+   "evidence_quote": "United States | Georgia-Pacific"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Christian Fischer",
+   "designation": "CEO",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.gp.com/about-us/history",
+   "evidence_quote": "Christian Fischer named CEO; Jim Hannan, former CEO, promoted."
+  },
+  "alternates": [
+   {
+    "name": "Jim Hannan",
+    "designation": "Former CEO",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.gp.com/about-us/history",
+    "evidence_quote": "Christian Fischer named CEO; Jim Hannan, former CEO, promoted.",
+    "why_chosen": "Principal / director (no Erasmus contact found). Jim Hannan is mentioned as a former CEO of Georgia-Pacific."
+   },
+   {
+    "name": "David Duncan",
+    "designation": "President and CEO",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.gp.com/about-us/executive-leadership-team/david-duncan",
+    "evidence_quote": "David Duncan ... President and CEO",
+    "why_chosen": "Principal / director (no Erasmus contact found). David Duncan is the President and CEO of Georgia-Pacific."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Christian Fischer is named as CEO of Georgia-Pacific.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "American Forest & Paper Association",
+    "partner_country": "United States",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gp.com/stewardship/governance",
+    "evidence_quote": "The American Forest & Paper Association",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "U.S. Green Building Council",
+    "partner_country": "United States",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gp.com/stewardship/governance",
+    "evidence_quote": "U.S. Green Building Council",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UNICEF",
+    "partner_country": "unknown",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.gp.com/about-us/executive-leadership-team/patrick-boushka",
+    "evidence_quote": "Pat also focuses his efforts supporting UNICEF, serving on their board in the U.S. Southeast Region since 2006. Pat led the development of The Green-Hand Project between GP Cellulose and UNICEF that provides funding to improve the sanitation and access to clean water for schools across China.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "Georgia-Pacific is a commercial manufacturing enterprise rather than an educational institution. No academic mobility programs or university exchange agreements exist in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 9.6,
+  "ai_calls": 3,
+  "model_s": 18.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 8,
+  "email_search_s": 0.0,
+  "total_seconds": 145.9
+ }
+}
