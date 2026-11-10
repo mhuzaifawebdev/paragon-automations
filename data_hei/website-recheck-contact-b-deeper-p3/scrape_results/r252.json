@@ -1,0 +1,79 @@
+{
+ "row_id": "r252",
+ "scraped_at": "2026-11-10T09:00:07Z",
+ "contacts": {
+  "row_id": "r252",
+  "institution_name": "Lycée Polyvalent Simone Veil",
+  "institution_type": "school",
+  "official_website": "https://lyceesimoneveil.fr/",
+  "country": {
+   "value": "France",
+   "source_url": "https://lyceesimoneveil.fr/contacts/2015-11-09-09-36-14",
+   "evidence_quote": "France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ce.0771940r@ac-creteil.fr",
+  "generic_email_url": "https://lyceesimoneveil.fr/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Porec",
+    "partner_country": "Croatia",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceesimoneveil.fr/",
+    "evidence_quote": "Une visio pour commencer le jumelage avec Porec",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Espagne",
+    "partner_country": "Spain",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://lyceesimoneveil.fr/",
+    "evidence_quote": "Mobilités ERAMUS Espagne",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Simone Veil",
+    "city": "Noisiel",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lyceesimoneveil.fr/",
+    "evidence_quote": "LYCEE Simone VEIL 1, avenue Pierre Mendes France 77186 NOISIEL"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The website mentions Erasmus+ projects and jumelage (twinning) with schools in Porec and Spain, but does not provide a formal list of partner institutions or specific contact persons for international mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.1,
+  "crawl_s": 13.5,
+  "ai_calls": 3,
+  "model_s": 53.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 128.4
+ }
+}
