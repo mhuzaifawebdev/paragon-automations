@@ -1,0 +1,75 @@
+{
+ "row_id": "r422",
+ "scraped_at": "2026-11-10T08:29:33Z",
+ "contacts": {
+  "row_id": "r422",
+  "institution_name": "IES Francisco de Quevedo",
+  "institution_type": "school",
+  "official_website": "https://ies-franciscodequevedo.centros.castillalamancha.es/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "13003464.ies@educastillalamancha.es",
+  "generic_email_url": "https://ies-franciscodequevedo.centros.castillalamancha.es/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini. 6 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Gymnazium Futurim de Kosice",
+    "partner_country": "Slovakia",
+    "partner_type": "school",
+    "mobility_type": "study",
+    "source_url": "https://ies-franciscodequevedo.centros.castillalamancha.es/anuncios/erasmus-movilidad-de-corta-duraci%C3%B3n-gymnazium-futurim-de-kosice-eslovaquia",
+    "evidence_quote": "Erasmus +: Movilidad de corta duración Gymnazium Futurim de Kosice (Eslovaquia)",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gymnázium a JŠ Zlín",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://ies-franciscodequevedo.centros.castillalamancha.es/anuncios/erasmus-movilidad-de-corta-duraci%C3%B3n-gymnazium-futurim-de-kosice-eslovaquia",
+    "evidence_quote": "Erasmus+: Visita a Granada. Gymnázium Futurum Košice - Gymnázium a JŠ Zlín",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Francisco de Quevedo",
+    "city": "Villanueva de los Infantes",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://ies-franciscodequevedo.centros.castillalamancha.es/",
+    "evidence_quote": "Inicio | IES Francisco de Quevedo, Villanueva de los Infantes (Ciudad Real)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 7,
+  "coverage_note": "The website does not provide a formal list of Erasmus partners, but mentions specific schools in Slovakia and the Czech Republic in news articles. No specific contact names or emails for the Erasmus coordinator are provided. 6 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 63.2,
+  "ai_calls": 3,
+  "model_s": 5.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 7,
+  "total_seconds": 87.8
+ }
+}
