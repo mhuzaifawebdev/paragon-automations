@@ -1,0 +1,55 @@
+{
+ "row_id": "r500",
+ "scraped_at": "2026-11-10T08:48:56Z",
+ "contacts": {
+  "row_id": "r500",
+  "institution_name": "IT Frans Fischer",
+  "institution_type": "school",
+  "official_website": "https://www.fransfischer.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "ICT Frans Fischer",
+    "city": "Schaerbeek",
+    "country": "Belgium",
+    "role": "main",
+    "source_url": "https://www.fransfischer.com/",
+    "evidence_quote": "Elle possède 4 implantations à Schaerbeek : rue Général Eenens, 66 et rue Voltaire 61, rue de la Ruche, 30 et rue Gallait, 94. L’école organise de l’enseignement technique de transition, technique de qualification et professionnel."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 6,
+  "coverage_note": "The institution does not provide a formal list of Erasmus+ partners or a dedicated international office contact. The evidence only mentions a specific internship destination in Malta.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.2,
+  "crawl_s": 9.5,
+  "ai_calls": 2,
+  "model_s": 1.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 25.2
+ }
+}
