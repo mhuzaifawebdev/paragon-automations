@@ -4745,7 +4745,7 @@
    "batch": "website-recheck-contact-b-deeper-p2",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4757,20 +4757,33 @@
    "last_start": "2026-11-10T00:49:12Z",
    "restarts": 2,
    "cap_usd": 0.0,
-   "note": "Today's free AI allowance is used up."
+   "note": "Today's free AI allowance is used up.",
+   "crm_rows": 25,
+   "no_number": 484,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1W6MNMI0Sa42nDGCazK7WU66-gKJ3aG6e/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 479,
+   "finished": "2026-11-10T08:49:34Z",
+   "reason": "494 institutes, 126 with a contact"
   },
   {
    "batch": "website-recheck-contact-b-deeper-p3",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "priority": true,
    "kind": "rescrape",
    "no_paid_search": true,
-   "max_usd": 0.0
+   "max_usd": 0.0,
+   "started": "2026-11-10T08:49:34Z",
+   "last_start": "2026-11-10T08:49:34Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "note": "Free reader only (paid switched off in config.yaml): $0."
   },
   {
    "batch": "website-recheck-contact-b-deeper-p4",
@@ -6135,7 +6148,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-10T08:09:20Z",
+ "updated": "2026-11-10T08:49:34Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
