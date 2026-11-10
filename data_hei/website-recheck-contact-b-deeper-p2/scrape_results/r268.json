@@ -1,0 +1,67 @@
+{
+ "row_id": "r268",
+ "scraped_at": "2026-11-10T01:23:18Z",
+ "contacts": {
+  "row_id": "r268",
+  "institution_name": "Gallagher Fluid Seals",
+  "institution_type": "unknown",
+  "official_website": "https://www.gallagherseals.com/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://www.gallagherseals.com/contact-us",
+   "evidence_quote": "King of Prussia, PA 19406 USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "gfsweb@gallagherseals.com",
+  "generic_email_url": "https://www.gallagherseals.com/contact-us",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 6,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Headquarters",
+    "city": "King of Prussia",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.gallagherseals.com/about-us",
+    "evidence_quote": "Its headquarters in King of Prussia, PA"
+   },
+   {
+    "campus_name": "Gasket fabrication and sales office",
+    "city": "East Longmeadow",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.gallagherseals.com/about-us",
+    "evidence_quote": "Its gasket fabrication and sales office in East Longmeadow, MA"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 6,
+  "coverage_note": "The institution is a fluid sealing manufacturer and distributor rather than an educational establishment. No named contacts with specific job titles or individual partner names are listed in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 12.3,
+  "ai_calls": 2,
+  "model_s": 1.2,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 22.0
+ }
+}
