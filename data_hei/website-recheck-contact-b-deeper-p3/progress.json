@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-contact-b-deeper-p3",
- "status": "running",
- "generated_at": "2026-11-10T09:43:37.255523+00:00",
+ "status": "waiting",
+ "generated_at": "2026-11-10T09:44:12.828118+00:00",
  "chunk": 20,
  "total_chunks": 20,
  "total_rows": 500,
- "done": 457,
- "pending": 43,
- "elapsed_seconds": 4394,
- "eta_seconds": 439,
+ "done": 459,
+ "pending": 41,
+ "elapsed_seconds": 4429,
+ "eta_seconds": 570,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 911,
+ "ai_calls": 916,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -41,13 +41,11 @@
   "high": 26,
   "medium": 68,
   "low": 11,
-  "none": 352
+  "none": 354
  },
  "partners_found": 1575,
- "campuses_found": 853,
+ "campuses_found": 854,
  "recent": [
-  "r438",
-  "r439",
   "r440",
   "r441",
   "r442",
@@ -62,10 +60,15 @@
   "r451",
   "r452",
   "r453",
+  "r454",
+  "r455",
   "r456",
   "r457",
   "r458",
   "r459"
  ],
- "drive_link": "https://docs.google.com/spreadsheets/d/1Y4ecMo-b6Myx4WoGJQEkOcjaO-SWG1Jf/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
+ "drive_link": "https://docs.google.com/spreadsheets/d/1Y4ecMo-b6Myx4WoGJQEkOcjaO-SWG1Jf/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+ "waiting_kind": "daily",
+ "resume_at": "2026-11-11T08:05:00+00:00",
+ "waiting_reason": "Today's free AI allowance is used up."
 }
