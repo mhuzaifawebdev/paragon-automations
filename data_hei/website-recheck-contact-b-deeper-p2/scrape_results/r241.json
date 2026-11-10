@@ -1,0 +1,76 @@
+{
+ "row_id": "r241",
+ "scraped_at": "2026-11-10T01:20:14Z",
+ "contacts": {
+  "row_id": "r241",
+  "institution_name": "Full Scale",
+  "institution_type": "unknown",
+  "official_website": "https://fullscale.io/",
+  "country": {
+   "value": "USA",
+   "source_url": "https://fullscale.io/contact-us/",
+   "evidence_quote": "Overland Park, Kansas, USA"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@fullscale.io",
+  "generic_email_url": "https://fullscale.io/contact-us/",
+  "contact": {
+   "name": "Matt Watson",
+   "designation": "Founder & CEO",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://fullscale.io/",
+   "evidence_quote": "Matt Watson ... Founder & CEO, Full Scale"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). Matt Watson is the Founder and CEO of Full Scale.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Headquarters",
+    "city": "Overland Park",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://fullscale.io/contact-us/",
+    "evidence_quote": "Overland Park, Kansas, USA"
+   },
+   {
+    "campus_name": "Development Office",
+    "city": "Cebu City",
+    "country": "Philippines",
+    "role": "branch",
+    "source_url": "https://fullscale.io/contact-us/",
+    "evidence_quote": "Cebu City, Philippines"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Full Scale is an offshore software development company rather than an educational institution. No academic or Erasmus partner agreements are listed in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 12.3,
+  "ai_calls": 1,
+  "model_s": 21.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 33.8
+ }
+}
