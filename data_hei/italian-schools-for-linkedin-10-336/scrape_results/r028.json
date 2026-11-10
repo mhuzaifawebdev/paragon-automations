@@ -1,0 +1,76 @@
+{
+ "row_id": "r028",
+ "scraped_at": "2026-11-10T08:05:25Z",
+ "contacts": {
+  "row_id": "r028",
+  "institution_name": "L. EINAUDI",
+  "institution_type": "school",
+  "official_website": "https://www.istitutoeinaudi.edu.it/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sris029009@istruzione.it",
+  "generic_email_url": "https://www.istitutoeinaudi.edu.it/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Istituto A. Gagini",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.istitutoeinaudi.edu.it/wp/wp-content/uploads/2026/10/Bando-Selezione-docenti-e-personale-ATA-Progetto-n%C2%B0-2025-1-IT01-KA121-VET-000315458.pdf",
+    "evidence_quote": "scuole partner dell’Istituto “A. Gagini” di Siracusa e dell’Istituto “Leonardo Da Vinci” di Giarre.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Istituto Leonardo Da Vinci",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://www.istitutoeinaudi.edu.it/wp/wp-content/uploads/2026/10/Bando-Selezione-docenti-e-personale-ATA-Progetto-n%C2%B0-2025-1-IT01-KA121-VET-000315458.pdf",
+    "evidence_quote": "scuole partner dell’Istituto “A. Gagini” di Siracusa e dell’Istituto “Leonardo Da Vinci” di Giarre.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Istituto di Istruzione Superiore Luigi Einaudi",
+    "city": "Siracusa",
+    "country": "Italy",
+    "role": "main",
+    "source_url": "https://www.istitutoeinaudi.edu.it/",
+    "evidence_quote": "Via Canonico Nunzio Agnello – 96100 SIRACUSA Tel. 0931 38043"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides details on Erasmus+ projects and internal staff selection but does not contain a comprehensive list of international partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.3,
+  "crawl_s": 14.8,
+  "ai_calls": 3,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 1.9,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 3,
+  "total_seconds": 37.3
+ }
+}
