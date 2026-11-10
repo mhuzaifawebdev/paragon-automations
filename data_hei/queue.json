@@ -6055,25 +6055,34 @@
    "source": "Italian Schools For MailChimp 50%-1682",
    "file_id": "189c9L0WFlpzQDIUf9WXxfCBT8vJMYHR2oXoLn1B64fg",
    "added": "2026-11-06T18:10:22Z",
-   "state": "running",
+   "state": "failed",
    "rows": 1000,
    "part": "1/2",
    "note": "Free reader only (paid switched off in config.yaml): $0.",
    "started": "2026-11-09T17:20:16Z",
    "last_start": "2026-11-10T00:51:43Z",
-   "restarts": 3,
+   "restarts": 4,
    "cap_usd": 0.0,
-   "reader": "free"
+   "reader": "free",
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "finished": "2026-11-10T00:54:09Z",
+   "reason": "Stopped making progress; restarted 3 times without success."
   },
   {
    "batch": "italian-schools-for-mailchimp-50-168-p2",
    "source": "Italian Schools For MailChimp 50%-1682",
    "file_id": "189c9L0WFlpzQDIUf9WXxfCBT8vJMYHR2oXoLn1B64fg",
    "added": "2026-11-06T18:10:22Z",
-   "state": "queued",
+   "state": "running",
    "rows": 657,
    "part": "2/2",
-   "note": "Read the sheet 'Clean_Unique_Leads'."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "started": "2026-11-10T00:54:09Z",
+   "last_start": "2026-11-10T00:54:09Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "reader": "free"
   },
   {
    "batch": "italian-schools-for-calendly-20-672",
@@ -6104,7 +6113,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-10T00:51:43Z",
+ "updated": "2026-11-10T00:54:09Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
