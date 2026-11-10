@@ -1,0 +1,68 @@
+{
+ "row_id": "r328",
+ "scraped_at": "2026-11-10T01:36:18Z",
+ "contacts": {
+  "row_id": "r328",
+  "institution_name": "Hade",
+  "institution_type": "unknown",
+  "official_website": "https://www.haderslev.dk/",
+  "country": {
+   "value": "Denmark",
+   "source_url": "https://www.haderslev.dk/de/buergerservice/personalausweis-gesundheitskarte-name-und-urkunft/cpr-nummer",
+   "evidence_quote": "Wenn du für mehr als drei Monate zum Arbeiten nach Dänemark kommen (6 Monate, wenn Sie aus einem EU-/EWR-Land oder der Schweiz kommen), musst du beim dänischen Nationalregister (Folkeregistret) eine CPR-Nummer beantragen."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "post@haderslev.dk",
+  "generic_email_url": "https://www.haderslev.dk/om-kommunen/kontakt-og-aabningstider",
+  "contact": {
+   "name": "Peter Karm",
+   "designation": "Municipal Director",
+   "designation_local": "",
+   "email": "karm@haderslev.dk",
+   "office_email": "",
+   "phone": "21 24 17 44",
+   "source_url": "https://www.haderslev.dk/om-kommunen/kontakt-og-aabningstider",
+   "evidence_quote": "Kommunaldirektør Peter Karm"
+  },
+  "alternates": [],
+  "rung": "Other role. Peter Karm is the Municipal Director, serving as a key administrative leader.",
+  "source": "web",
+  "confidence": 0.35,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Haderslev Kommune",
+    "city": "Haderslev",
+    "country": "Denmark",
+    "role": "main",
+    "source_url": "https://www.haderslev.dk/",
+    "evidence_quote": "6100 Haderslev"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence represents the website of Haderslev Municipality (Haderslev Kommune) rather than an educational institution, so no academic partner lists or specific Erasmus mobility coordinators are present.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.4,
+  "crawl_s": 13.6,
+  "ai_calls": 1,
+  "model_s": 41.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 56.7
+ }
+}
