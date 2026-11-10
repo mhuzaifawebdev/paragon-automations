@@ -1,0 +1,81 @@
+{
+ "row_id": "r070",
+ "scraped_at": "2026-11-10T21:54:32Z",
+ "contacts": {
+  "row_id": "r070",
+  "institution_name": "COSTA DI ROVIGO",
+  "institution_type": "unknown",
+  "official_website": "https://www.comune.costadirovigo.ro.it/",
+  "country": {
+   "value": "Italia",
+   "source_url": "https://www.comune.costadirovigo.ro.it/",
+   "evidence_quote": "Costa di Rovigo è un comune italiano della Provincia di Rovigo, della Regione del Veneto."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Silvia Fabbietti",
+   "designation": "Official Responsible for the Financial-Administrative Area",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.comune.costadirovigo.ro.it/amministrazione/personale-amministrativo/",
+   "evidence_quote": "Dott.ssa Silvia Fabbietti ... Funzionario Responsabile Area Finanziaria-Amministrativa"
+  },
+  "alternates": [
+   {
+    "name": "Roberta Maria Basso",
+    "designation": "Official Responsible for the Demographic-Cultural, Legal and Contracts Area",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.comune.costadirovigo.ro.it/amministrazione/personale-amministrativo/",
+    "evidence_quote": "Dott.ssa Roberta Maria Basso ... Funzionario Responsabile Area Demografico-Culturale, Legale e Contratti",
+    "why_chosen": "Secretary / administration (last resort). Roberta Maria Basso is an administrative official handling demographic, cultural, legal, and contract services."
+   }
+  ],
+  "rung": "Secretary / administration (last resort). Silvia Fabbietti is an administrative official handling financial and administrative services.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Sede Comunale",
+    "city": "Costa di Rovigo",
+    "country": "Italia",
+    "role": "main",
+    "source_url": "https://www.comune.costadirovigo.ro.it/",
+    "evidence_quote": "Via Scardona, 2, 45023 Costa di Rovigo (RO)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not contain any partner list or international mobility programs, as this is a municipal government website.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.3,
+  "crawl_s": 33.1,
+  "ai_calls": 1,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 5.7,
+  "mode": "gemini",
+  "email_search_s": 5.8,
+  "total_seconds": 52.9
+ }
+}
