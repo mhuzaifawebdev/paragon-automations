@@ -1,0 +1,98 @@
+{
+ "row_id": "r442",
+ "scraped_at": "2026-11-10T08:33:37Z",
+ "contacts": {
+  "row_id": "r442",
+  "institution_name": "IES PUERTA BONITA",
+  "institution_type": "school",
+  "official_website": "https://iespuertabonita.es/",
+  "country": {
+   "value": "Madrid",
+   "source_url": "https://iespuertabonita.es/",
+   "evidence_quote": "Madrid"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "centro@iespuertabonita.com",
+  "generic_email_url": "https://iespuertabonita.es/",
+  "contact": {
+   "name": "IES PUERTA BONITA",
+   "designation": "Responsible for the website",
+   "designation_local": "",
+   "email": "centro@iespuertabonita.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iespuertabonita.es/aviso-legal/",
+   "evidence_quote": "1.- DATOS DEL RESPONSABLE TITULAR DEL SITIO WEB ... Nombre del titular: IES PUERTA BONITA"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). The institution is identified as the owner and responsible party for the website.",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universidad de Chang Mai",
+    "partner_country": "Tailandia",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://iespuertabonita.es/home/internacional/",
+    "evidence_quote": "Intercambio de experiencias educativas con staff de la Universidad de Chang Mai (Tailandia).",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "EFVET",
+    "partner_country": "",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://iespuertabonita.es/wp-content/uploads/2021/06/erasmus_policy_statement.pdf",
+    "evidence_quote": "1.- Continue being members of international associations or networks such as: - EFVET -",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Spanish Association of VET Schools “FPempresa”",
+    "partner_country": "Spain",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://iespuertabonita.es/wp-content/uploads/2021/06/erasmus_policy_statement.pdf",
+    "evidence_quote": "1.- Continue being members of international associations or networks such as: - EFVET -",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Puerta Bonita",
+    "city": "Madrid",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://iespuertabonita.es/",
+    "evidence_quote": "Madrid"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not name specific individual contact persons with associated roles and emails, nor does it contain a full partner list or specific student/staff mobility partner universities beyond general network mentions and Chiang Mai University.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.5,
+  "crawl_s": 15.3,
+  "ai_calls": 3,
+  "model_s": 8.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "email_search_s": 0.0,
+  "total_seconds": 73.2
+ }
+}

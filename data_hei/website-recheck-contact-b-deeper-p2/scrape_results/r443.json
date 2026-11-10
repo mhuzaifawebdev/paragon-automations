@@ -1,0 +1,101 @@
+{
+ "row_id": "r443",
+ "scraped_at": "2026-11-10T08:33:06Z",
+ "contacts": {
+  "row_id": "r443",
+  "institution_name": "IES Pío Baroja",
+  "institution_type": "school",
+  "official_website": "https://piobaroja.eus/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Amiens school",
+    "partner_country": "France",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://piobaroja.eus/erasmus-2023-27-akreditazioa/",
+    "evidence_quote": "2023-2024 ikasturtean Padua (Italia) eta Amienseko (Frantzia) ikastetxeekin elkartrukeak burutu ditugu.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Ceske Budejovice school",
+    "partner_country": "Czech Republic",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://piobaroja.eus/2026-2027-erasmus-elkartrukeak/",
+    "evidence_quote": "Lehenengo mailari dagokionez, aurten bi elkartruke antolatuko ditugu. Alde batetik, iadanik gurekin 2 elkartruke egin dituzten Ceske Budejoviceko (Txekiar Errepublika) ikasleekin egingo dugu elkartrukea, eta bestalde, ikasturte honetan lehenbiziko aldiz, Volos-a (Grezia) joango gara ,han bertako eta europako beste herrialde batzuetako ikasleekin biltzeko.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Volos school",
+    "partner_country": "Greece",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://piobaroja.eus/2026-2027-erasmus-elkartrukeak/",
+    "evidence_quote": "Lehenengo mailari dagokionez, aurten bi elkartruke antolatuko ditugu. Alde batetik, iadanik gurekin 2 elkartruke egin dituzten Ceske Budejoviceko (Txekiar Errepublika) ikasleekin egingo dugu elkartrukea, eta bestalde, ikasturte honetan lehenbiziko aldiz, Volos-a (Grezia) joango gara ,han bertako eta europako beste herrialde batzuetako ikasleekin biltzeko.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Padova school",
+    "partner_country": "Italy",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://piobaroja.eus/2026-2027-erasmus-elkartrukeak/",
+    "evidence_quote": "Bigarren mailari dagokionez, iadanik antolatua dagoen Padovako (Italia) elkartrukeaz gain, aurten Budapesteko (Hungaria) ikastetxe batekin ere beste elkartruke bat egiteko asmoa dugu.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Budapest school",
+    "partner_country": "Hungary",
+    "partner_type": "school",
+    "mobility_type": "unknown",
+    "source_url": "https://piobaroja.eus/2026-2027-erasmus-elkartrukeak/",
+    "evidence_quote": "Bigarren mailari dagokionez, iadanik antolatua dagoen Padovako (Italia) elkartrukeaz gain, aurten Budapesteko (Hungaria) ikastetxe batekin ere beste elkartruke bat egiteko asmoa dugu.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "IES Pío Baroja",
+    "city": "Irun",
+    "country": "Spain",
+    "role": "main",
+    "source_url": "https://piobaroja.eus/",
+    "evidence_quote": "Elkano Kalea 2, 20302 Irun"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 5,
+  "pages_read": 9,
+  "coverage_note": "The evidence provides a list of specific partner schools but does not state a total number of partners. No individual contact names with direct email addresses were found.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.5,
+  "crawl_s": 18.9,
+  "ai_calls": 2,
+  "model_s": 2.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 40.7
+ }
+}
