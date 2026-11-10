@@ -6146,18 +6146,22 @@
    "source": "Italian Schools For Sales Zedarma 20%-672",
    "file_id": "1qHfNXGwmSO-d9yubTs6OwSKLnV7ayINp2jcxkQwHuyw",
    "added": "2026-11-06T18:10:22Z",
-   "state": "running",
+   "state": "failed",
    "rows": 666,
    "note": "Free reader only (paid switched off in config.yaml): $0.",
    "started": "2026-11-10T16:09:31Z",
    "last_start": "2026-11-10T21:57:44Z",
-   "restarts": 3,
+   "restarts": 4,
    "cap_usd": 0.0,
-   "reader": "free"
+   "reader": "free",
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "finished": "2026-11-10T21:59:20Z",
+   "reason": "Stopped making progress; restarted 3 times without success."
   }
  ],
  "paused": null,
- "updated": "2026-11-10T21:57:44Z",
+ "updated": "2026-11-10T21:59:20Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
