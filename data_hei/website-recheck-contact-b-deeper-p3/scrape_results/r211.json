@@ -1,0 +1,64 @@
+{
+ "row_id": "r211",
+ "scraped_at": "2026-11-10T08:53:56Z",
+ "contacts": {
+  "row_id": "r211",
+  "institution_name": "Liberty Casting Company",
+  "institution_type": "unknown",
+  "official_website": "https://libertycasting.com/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sales@libertycasting.com",
+  "generic_email_url": "https://libertycasting.com/contact/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Liberty Casting Foundry",
+    "city": "Delaware",
+    "country": "USA",
+    "role": "main",
+    "source_url": "https://libertycasting.com/about-us/",
+    "evidence_quote": "Liberty Casting Foundry"
+   },
+   {
+    "campus_name": "Liberty Technology Foundry",
+    "city": "Delaware",
+    "country": "USA",
+    "role": "branch",
+    "source_url": "https://libertycasting.com/about-us/",
+    "evidence_quote": "Liberty Technology Foundry"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "Liberty Casting is a manufacturing company and does not have academic partnerships or Erasmus+ mobility programs.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.4,
+  "crawl_s": 9.2,
+  "ai_calls": 3,
+  "model_s": 3.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 2,
+  "total_seconds": 25.1
+ }
+}
