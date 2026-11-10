@@ -1,0 +1,81 @@
+{
+ "row_id": "r227",
+ "scraped_at": "2026-11-10T01:15:38Z",
+ "contacts": {
+  "row_id": "r227",
+  "institution_name": "Força Aérea Portuguesa",
+  "institution_type": "unknown",
+  "official_website": "https://www.emfa.pt/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "cfmtfa_cmd_gac_chf@emfa.pt",
+  "generic_email_url": "https://www.emfa.pt/contactos-uteis",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Embraer",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.emfa.pt/noticia-5872-For%C3%A7a%20A%C3%A9rea%20re%C3%BAne%20comunidade%20internacional%20do%20KC-390",
+    "evidence_quote": "Teve início hoje, 27 de outubro, em Lisboa, o 4.º KC-390 Millennium Users Group, organizado pela Força Aérea, em conjunto com a Embraer, que conta com a participação de mais de dez países.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Base Aérea N.º 1",
+    "city": "unknown",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://www.emfa.pt/",
+    "evidence_quote": "Rendição de Comando da Base Aérea N.º 1"
+   },
+   {
+    "campus_name": "Base Aérea N.º 11",
+    "city": "unknown",
+    "country": "Portugal",
+    "role": "branch",
+    "source_url": "https://www.emfa.pt/",
+    "evidence_quote": "Base Aérea N.º 11"
+   },
+   {
+    "campus_name": "Academia da Força Aérea",
+    "city": "Pêro Pinheiro",
+    "country": "Portugal",
+    "role": "main",
+    "source_url": "https://www.emfa.pt/contactos-uteis",
+    "evidence_quote": "Academia da Força Aérea"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not contain a dedicated international office or Erasmus coordination contact, nor a complete list of academic partner institutions.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.2,
+  "crawl_s": 11.2,
+  "ai_calls": 2,
+  "model_s": 5.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 29.0
+ }
+}
