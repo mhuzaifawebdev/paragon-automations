@@ -1,0 +1,75 @@
+{
+ "row_id": "r296",
+ "scraped_at": "2026-11-10T09:06:23Z",
+ "contacts": {
+  "row_id": "r296",
+  "institution_name": "MaltaNutrition.com (Mannarinu Rd)",
+  "institution_type": "unknown",
+  "official_website": "https://www.maltanutrition.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://www.maltanutrition.com/index.php?route=information/contact",
+   "evidence_quote": "21, Dun Gejtanu Mannarinu Road, Birkirkara, BKR9080, Malta (Europe)"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@maltanutrition.com",
+  "generic_email_url": "https://www.maltanutrition.com/index.php?route=information/contact",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Store (Ganu)",
+    "city": "Birkirkara",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://www.maltanutrition.com/index.php?route=information/contact",
+    "evidence_quote": "33, Ganu Street, Birkirkara, BKR1109, Malta"
+   },
+   {
+    "campus_name": "Store (Mannarinu)",
+    "city": "Birkirkara",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://www.maltanutrition.com/index.php?route=information/contact",
+    "evidence_quote": "21, Dun Gejtanu Mannarinu Road, Birkirkara, BKR9080, Malta (Europe)"
+   },
+   {
+    "campus_name": "Store (St Julians)",
+    "city": "St Julians",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://www.maltanutrition.com/index.php?route=information/contact",
+    "evidence_quote": "Triq Elija Zammit, Paceville (St Julians)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The institution is a nutrition e-commerce and retail business rather than an educational institution, so no academic or Erasmus contacts are listed. Partner universities or academic networks are not mentioned in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.7,
+  "crawl_s": 25.9,
+  "ai_calls": 2,
+  "model_s": 1.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 42.5
+ }
+}
