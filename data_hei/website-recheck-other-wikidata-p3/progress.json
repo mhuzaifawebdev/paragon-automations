@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-other-wikidata-p3",
  "status": "running",
- "generated_at": "2026-11-11T10:41:45.165028+00:00",
+ "generated_at": "2026-11-11T10:42:22.942251+00:00",
  "chunk": 2,
  "total_chunks": 20,
  "total_rows": 500,
- "done": 22,
- "pending": 478,
- "elapsed_seconds": 29,
- "eta_seconds": 493,
+ "done": 25,
+ "pending": 475,
+ "elapsed_seconds": 67,
+ "eta_seconds": 654,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 0,
+ "ai_calls": 1,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -39,16 +39,13 @@
  ],
  "confidence": {
   "high": 0,
-  "medium": 0,
+  "medium": 1,
   "low": 0,
-  "none": 22
+  "none": 24
  },
- "partners_found": 0,
+ "partners_found": 1,
  "campuses_found": 0,
  "recent": [
-  "r003",
-  "r004",
-  "r005",
   "r006",
   "r007",
   "r008",
@@ -63,8 +60,11 @@
   "r017",
   "r018",
   "r019",
+  "r020",
   "r021",
   "r022",
+  "r023",
+  "r024",
   "r025"
  ]
 }
