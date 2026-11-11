@@ -4849,7 +4849,7 @@
    "batch": "website-recheck-found-sites-free",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4861,7 +4861,15 @@
    "last_start": "2026-11-11T08:47:50Z",
    "restarts": 0,
    "cap_usd": 0.0,
-   "note": "Free reader only (paid switched off in config.yaml): $0."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "crm_rows": 9,
+   "no_number": 61,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1QTaONBt_6_yUU9o2Awa8wLXkwQvGx4x-/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 66,
+   "finished": "2026-11-11T08:56:49Z",
+   "reason": "66 institutes, 31 with a contact"
   },
   {
    "batch": "fix-bano-batch-1-staff-mobility-ka-101",
@@ -5167,14 +5175,19 @@
    "batch": "website-recheck-education-registry-p1",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "priority": true,
    "kind": "rescrape",
    "max_usd": 0.0,
-   "no_paid_search": true
+   "no_paid_search": true,
+   "started": "2026-11-11T08:56:49Z",
+   "last_start": "2026-11-11T08:56:49Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "note": "Free reader only (paid switched off in config.yaml): $0."
   },
   {
    "batch": "website-recheck-education-registry-p2",
@@ -6200,7 +6213,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-11T08:47:50Z",
+ "updated": "2026-11-11T08:56:49Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
