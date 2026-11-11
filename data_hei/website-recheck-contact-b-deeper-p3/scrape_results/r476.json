@@ -1,0 +1,75 @@
+{
+ "row_id": "r476",
+ "scraped_at": "2026-11-11T08:25:09Z",
+ "contacts": {
+  "row_id": "r476",
+  "institution_name": "Paintball Central",
+  "institution_type": "unknown",
+  "official_website": "https://www.pballcentral.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.pballcentral.com/",
+   "evidence_quote": "6106 Burlington Road, Gibsonville, North Carolina 27249, United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "play@pballcentral.com",
+  "generic_email_url": "https://www.pballcentral.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Greensboro Park",
+    "city": "Gibsonville",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.pballcentral.com/",
+    "evidence_quote": "6106 Burlington Road, Gibsonville, North Carolina 27249, United States"
+   },
+   {
+    "campus_name": "Rockhill Park",
+    "city": "Rock Hill",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.pballcentral.com/",
+    "evidence_quote": "900 South Anderson Road, Rock Hill, South Carolina 29730, United States"
+   },
+   {
+    "campus_name": "Greenville Park",
+    "city": "Wellford",
+    "country": "United States",
+    "role": "branch",
+    "source_url": "https://www.pballcentral.com/",
+    "evidence_quote": "318 Tucapau Road, Wellford, South Carolina 29385, United States"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 7,
+  "coverage_note": "The evidence does not contain any academic partners, partner totals, or named staff members with explicit roles.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.3,
+  "crawl_s": 9.1,
+  "ai_calls": 2,
+  "model_s": 8.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 37.7
+ }
+}
