@@ -1,0 +1,92 @@
+{
+ "row_id": "r009",
+ "scraped_at": "2026-11-11T12:19:38Z",
+ "contacts": {
+  "row_id": "r009",
+  "institution_name": "GROUPE SCOLAIRE L'EDUCATRICE LYCEE GENERAL ET TECHNOLOGIQUE PRIVE NOTRE-DAME",
+  "institution_type": "school",
+  "official_website": "https://notredameguingamp.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Armée de l'Air",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://notredameguingamp.fr/lycee/",
+    "evidence_quote": "Vivez votre passion pour l’aviation grâce à une formation théorique et pratique d’exception, en partenariat avec l’Armée de l’Air et l’Aéroclub de Saint-Brieuc Armor. Réservé aux élèves de Seconde motivés, ce parcours allie rigueur scientifique, séances sur simulateur de vol et initiation au pilotage réel sur DR 400.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Aéroclub de Saint-Brieuc Armor",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://notredameguingamp.fr/lycee/",
+    "evidence_quote": "Vivez votre passion pour l’aviation grâce à une formation théorique et pratique d’exception, en partenariat avec l’Armée de l’Air et l’Aéroclub de Saint-Brieuc Armor. Réservé aux élèves de Seconde motivés, ce parcours allie rigueur scientifique, séances sur simulateur de vol et initiation au pilotage réel sur DR 400.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "En Avant de Guingamp",
+    "partner_country": "France",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://notredameguingamp.fr/lycee/",
+    "evidence_quote": "Association sportive (UGSEL) ouverte à tous, et sections Hand/Foot avec horaires aménagés, encadrement qualifié et suivi scolaire. Partenariat historique avec l’En Avant de Guingamp pour concilier passion et études jusqu’au bac (label SHN). Développement de l’esprit d’équipe, de l’effort et de la persévérance.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Site de Saint-Dominique",
+    "city": "Guingamp",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://notredameguingamp.fr/",
+    "evidence_quote": "Site de Saint-Dominique"
+   },
+   {
+    "campus_name": "Site de Notre-Dame",
+    "city": "Guingamp",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://notredameguingamp.fr/",
+    "evidence_quote": "Site de Notre-Dame"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not name any specific contact persons with associated email addresses or explicit administrative roles for international mobility. Several educational and organizational partners are mentioned.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.3,
+  "crawl_s": 9.4,
+  "ai_calls": 3,
+  "model_s": 5.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 1,
+  "total_seconds": 32.4
+ }
+}
