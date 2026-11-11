@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T10:08:41.778087+00:00",
+ "generated_at": "2026-11-11T10:10:49.112395+00:00",
  "totals": {
   "institutes": 37544,
   "with_contact": 27053,
@@ -17,7 +17,7 @@
   "reachable_missing": 0,
   "reachable_missing_sites": 0,
   "website_dead": 0,
-  "batches": 335
+  "batches": 336
  },
  "days": [
   {
@@ -459,6 +459,29 @@
   }
  ],
  "batches": [
+  {
+   "batch": "website-recheck-other-wikidata-p2",
+   "status": "running",
+   "total_rows": 500,
+   "done": 25,
+   "updated": "2026-11-11T10:10:43.592812+00:00",
+   "institutes": 25,
+   "with_contact": 0,
+   "with_email": 1,
+   "personal_email": 0,
+   "generic_email": 1,
+   "contact_personal": 0,
+   "contact_generic": 0,
+   "with_phone": 0,
+   "partners": 0,
+   "campuses": 0,
+   "no_website": 23,
+   "with_website": 2,
+   "reachable": 1,
+   "reachable_missing": 0,
+   "reachable_missing_sites": 0,
+   "website_dead": 0
+  },
   {
    "batch": "website-recheck-other-wikidata-p1",
    "status": "done",
