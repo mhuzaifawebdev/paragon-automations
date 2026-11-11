@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-education-registry-p2",
- "status": "running",
- "generated_at": "2026-11-11T09:36:16.727096+00:00",
- "chunk": 2,
- "total_chunks": 2,
+ "status": "done",
+ "generated_at": "2026-11-11T09:37:04.872283+00:00",
+ "chunk": 3,
+ "total_chunks": 3,
  "total_rows": 26,
- "done": 25,
- "pending": 1,
- "elapsed_seconds": 129,
- "eta_seconds": 2,
+ "done": 26,
+ "pending": 0,
+ "elapsed_seconds": 150,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 3,
+ "ai_calls": 4,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -39,14 +39,13 @@
  ],
  "confidence": {
   "high": 3,
-  "medium": 0,
+  "medium": 1,
   "low": 0,
   "none": 22
  },
- "partners_found": 48,
- "campuses_found": 9,
+ "partners_found": 53,
+ "campuses_found": 18,
  "recent": [
-  "r006",
   "r007",
   "r008",
   "r009",
@@ -65,6 +64,7 @@
   "r022",
   "r023",
   "r024",
-  "r025"
+  "r025",
+  "r026"
  ]
 }
