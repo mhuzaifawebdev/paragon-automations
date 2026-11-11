@@ -1,23 +1,23 @@
 {
- "generated_at": "2026-11-11T08:45:37.267525+00:00",
+ "generated_at": "2026-11-11T08:50:53.788583+00:00",
  "totals": {
   "institutes": 37544,
-  "with_contact": 26973,
-  "with_email": 29283,
+  "with_contact": 26982,
+  "with_email": 29286,
   "personal_email": 14550,
-  "generic_email": 23688,
-  "contact_personal": 15308,
-  "contact_generic": 9433,
+  "generic_email": 23691,
+  "contact_personal": 15309,
+  "contact_generic": 9437,
   "with_phone": 25365,
-  "partners": 454063,
-  "campuses": 47781,
-  "no_website": 4878,
-  "with_website": 32666,
-  "reachable": 30382,
+  "partners": 454124,
+  "campuses": 47815,
+  "no_website": 4872,
+  "with_website": 32672,
+  "reachable": 30385,
   "reachable_missing": 0,
   "reachable_missing_sites": 0,
   "website_dead": 0,
-  "batches": 331
+  "batches": 332
  },
  "days": [
   {
@@ -459,6 +459,29 @@
   }
  ],
  "batches": [
+  {
+   "batch": "website-recheck-found-sites-free",
+   "status": "running",
+   "total_rows": 67,
+   "done": 26,
+   "updated": "2026-11-11T08:50:46.884640+00:00",
+   "institutes": 25,
+   "with_contact": 13,
+   "with_email": 17,
+   "personal_email": 3,
+   "generic_email": 17,
+   "contact_personal": 3,
+   "contact_generic": 6,
+   "with_phone": 2,
+   "partners": 77,
+   "campuses": 39,
+   "no_website": 0,
+   "with_website": 25,
+   "reachable": 17,
+   "reachable_missing": 0,
+   "reachable_missing_sites": 0,
+   "website_dead": 0
+  },
   {
    "batch": "website-recheck-contact-b-deeper-p4",
    "status": "done",
