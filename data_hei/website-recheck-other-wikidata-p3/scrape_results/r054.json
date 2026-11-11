@@ -1,0 +1,93 @@
+{
+ "row_id": "r054",
+ "scraped_at": "2026-11-11T10:44:26Z",
+ "contacts": {
+  "row_id": "r054",
+  "institution_name": "HS Gesundheit",
+  "institution_type": "university",
+  "official_website": "https://gesundheitscampus.hochschule-bochum.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sabrina.allkaemper@hs-bochum.de",
+  "generic_email_url": "https://www.hochschule-bochum.de/bib/info-kontakt/kontakt-und-ansprechpersonen/",
+  "contact": {
+   "name": "Prof. Dr. André Posenau",
+   "designation": "Dean of the Faculty of PHT",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "+49 234 36186-9462",
+   "source_url": "https://gesundheitscampus.hochschule-bochum.de/fachbereiche/pflege-hebammen-therapiewissenschaft/ansprechpartner-im-fachbereich-pht",
+   "evidence_quote": "[Auf dem Bild sieht man Prof. Dr. André Posenau.] ... Dekan des FB PHT"
+  },
+  "alternates": [
+   {
+    "name": "Prof. Dr. Christian Thiel",
+    "designation": "Vice Dean",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "+49 234 36186-9151",
+    "source_url": "https://gesundheitscampus.hochschule-bochum.de/fachbereiche/pflege-hebammen-therapiewissenschaft/ansprechpartner-im-fachbereich-pht",
+    "evidence_quote": "Prof. Dr. Christian Thiel ... Prodekan",
+    "why_chosen": "Other role. Prof. Dr. Christian Thiel is the Vice Dean of the Faculty of PHT."
+   }
+  ],
+  "rung": "Other role. Prof. Dr. André Posenau is the Dean of the Faculty of Nursing, Midwifery and Therapy Sciences.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Gesundheitscampus",
+    "city": "Bochum",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://gesundheitscampus.hochschule-bochum.de/",
+    "evidence_quote": "Standort Gesundheitscampus"
+   },
+   {
+    "campus_name": "Zentralcampus",
+    "city": "Bochum",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.hochschule-bochum.de/bib/info-kontakt/kontakt-und-ansprechpersonen/",
+    "evidence_quote": "Zentralcampus"
+   },
+   {
+    "campus_name": "Campus Velbert / Heiligenhaus",
+    "city": "Velbert / Heiligenhaus",
+    "country": "Germany",
+    "role": "branch",
+    "source_url": "https://www.hochschule-bochum.de/bib/info-kontakt/kontakt-und-ansprechpersonen/",
+    "evidence_quote": "Campus Velbert / Heiligenhaus"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a list of clinical and practical training partners for specific study programs, but does not contain a formal list of Erasmus+ or international university partners. Contact information for the International Office is mentioned but no specific staff names are provided for that department.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 9.2,
+  "crawl_s": 12.5,
+  "ai_calls": 2,
+  "model_s": 1.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 2,
+  "email_search_s": 0.0,
+  "total_seconds": 25.5
+ }
+}
