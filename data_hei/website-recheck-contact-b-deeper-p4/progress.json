@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-contact-b-deeper-p4",
- "status": "running",
- "generated_at": "2026-11-11T08:44:55.182684+00:00",
+ "status": "done",
+ "generated_at": "2026-11-11T08:45:34.399535+00:00",
  "chunk": 29,
- "total_chunks": 20,
+ "total_chunks": 29,
  "total_rows": 500,
- "done": 497,
- "pending": 3,
- "elapsed_seconds": 3854,
- "eta_seconds": 13,
+ "done": 500,
+ "pending": 0,
+ "elapsed_seconds": 3893,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 676,
+ "ai_calls": 684,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,17 +38,14 @@
   }
  ],
  "confidence": {
-  "high": 21,
+  "high": 22,
   "medium": 63,
   "low": 6,
-  "none": 407
+  "none": 409
  },
- "partners_found": 1249,
- "campuses_found": 535,
+ "partners_found": 1267,
+ "campuses_found": 538,
  "recent": [
-  "r478",
-  "r479",
-  "r480",
   "r481",
   "r482",
   "r483",
@@ -65,7 +62,10 @@
   "r494",
   "r495",
   "r496",
-  "r497"
+  "r497",
+  "r498",
+  "r499",
+  "r500"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1t5rfHFVYVMGv7lCn01r1T4ptkErTAsIA/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
