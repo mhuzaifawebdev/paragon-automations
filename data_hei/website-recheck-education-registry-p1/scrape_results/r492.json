@@ -1,0 +1,109 @@
+{
+ "row_id": "r492",
+ "scraped_at": "2026-11-11T09:32:37Z",
+ "contacts": {
+  "row_id": "r492",
+  "institution_name": "LYCEE MAXIMILIEN VOX",
+  "institution_type": "school",
+  "official_website": "https://www.lyceemaximilienvox.com/edu/",
+  "country": {
+   "value": "France",
+   "source_url": "https://www.lyceemaximilienvox.com/edu/wp-content/uploads/2022/02/Document-a%CC%80-destination-des-e%CC%81tudiants-souhaitant-re%CC%81aliser-une-mobilite%CC%81-Erasmus-a%CC%80-le%CC%81tranger.pdf",
+   "evidence_quote": "France"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ce.0750502n@ac-paris.fr",
+  "generic_email_url": "https://www.lyceemaximilienvox.com/edu/infos-pratiques/contact-acces/",
+  "contact": {
+   "name": "Valérie Constantin",
+   "designation": "Proviseure",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.lyceemaximilienvox.com/edu/le-lycee/organigramme/",
+   "evidence_quote": "Proviseure : Valérie Constantin"
+  },
+  "alternates": [
+   {
+    "name": "Olivier Le Hen",
+    "designation": "Directeur délégué aux formations",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.lyceemaximilienvox.com/edu/le-lycee/organigramme/",
+    "evidence_quote": "Directeur délégué aux formations : Olivier Le Hen",
+    "why_chosen": "Principal / director (no Erasmus contact found). As the Director of training, he holds a leadership role within the institution."
+   },
+   {
+    "name": "Jessica Loussala",
+    "designation": "Secrétariat de direction",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.lyceemaximilienvox.com/edu/le-lycee/organigramme/",
+    "evidence_quote": "Secrétariat de direction : Jessica Loussala",
+    "why_chosen": "Secretary / administration (last resort). She is a member of the administrative staff at the institution."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). As the Proviseure (Principal), she is a member of the Erasmus+ steering committee and leads the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 8,
+  "notes": "site found via: school registry. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Allemagne",
+    "partner_country": "Germany",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.lyceemaximilienvox.com/edu/wp-content/uploads/2020/01/ERASMUS-ok2.pdf",
+    "evidence_quote": "Le lycée a une longue tradition d’échange avec l’Allemagne et a entamé un rapprochement fructueux avec la",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée Maximilien-Vox",
+    "city": "Paris",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.lyceemaximilienvox.com/edu/",
+    "evidence_quote": "5 rue Madame, 75006 Paris"
+   },
+   {
+    "campus_name": "Annexe",
+    "city": "Paris",
+    "country": "France",
+    "role": "branch",
+    "source_url": "https://www.lyceemaximilienvox.com/edu/infos-pratiques/contact-acces/",
+    "evidence_quote": "Annexe – 85 boulevard Raspail, 75006 Paris"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 8,
+  "coverage_note": "The evidence mentions ongoing partnerships with Italian and Spanish institutions but does not provide their names. A list of professional partners is provided, but these are not identified as Erasmus+ mobility partners.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.8,
+  "crawl_s": 13.7,
+  "ai_calls": 1,
+  "model_s": 2.0,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 22.5
+ }
+}
