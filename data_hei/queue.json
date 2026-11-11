@@ -5409,7 +5409,7 @@
    "batch": "website-recheck-outside-edu-1-read",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -5421,7 +5421,15 @@
    "last_start": "2026-11-11T12:18:10Z",
    "restarts": 0,
    "cap_usd": 0.0,
-   "note": "Free reader only (paid switched off in config.yaml): $0."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "crm_rows": 5,
+   "no_number": 49,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1H05GIvAK9kh2w2DGTQEoFAuiCztSyCUP/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 28,
+   "finished": "2026-11-11T12:30:24Z",
+   "reason": "52 institutes, 11 with a contact"
   },
   {
    "batch": "merged-database-euvet",
@@ -6330,7 +6338,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-11T12:18:10Z",
+ "updated": "2026-11-11T12:30:24Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
