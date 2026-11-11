@@ -1,0 +1,110 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-11-11T08:49:26Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "Akademia Ignatianum w Krakowie",
+  "institution_type": "university",
+  "official_website": "https://uik.edu.pl/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rektorat@ignatianum.edu.pl",
+  "generic_email_url": "https://uik.edu.pl/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EUA – European University Association",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://uik.edu.pl/",
+    "evidence_quote": "[EUA – European University Association]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Kircher Network",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://uik.edu.pl/",
+    "evidence_quote": "[Kircher Network]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FUCE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://uik.edu.pl/",
+    "evidence_quote": "[FUCE]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "NEREUS",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://uik.edu.pl/",
+    "evidence_quote": "[NEREUS]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "ECArTE",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://uik.edu.pl/",
+    "evidence_quote": "[ECArTE]",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "FIUC",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://uik.edu.pl/",
+    "evidence_quote": "[FIUC]",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Uniwersytet Ignatianum w Krakowie",
+    "city": "Kraków",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://uik.edu.pl/",
+    "evidence_quote": "ul. Kopernika 15C, 31-501 Kraków"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 6,
+  "pages_read": 5,
+  "coverage_note": "The evidence lists several international networks but does not provide a specific list of individual university partners for student or staff mobility.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.8,
+  "crawl_s": 24.5,
+  "ai_calls": 2,
+  "model_s": 3.5,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 48.4
+ }
+}
