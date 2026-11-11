@@ -1,0 +1,78 @@
+{
+ "row_id": "r024",
+ "scraped_at": "2026-11-11T08:50:28Z",
+ "contacts": {
+  "row_id": "r024",
+  "institution_name": "IES Emilio Alarcos",
+  "institution_type": "unknown",
+  "official_website": "https://emilioalarcos.com/",
+  "country": {
+   "value": "Spain",
+   "source_url": "https://emilioalarcos.com/category/actividades-2026/",
+   "evidence_quote": "Acto institucional presidido por el rector de la Universidad de Oviedo, Ignacio Villaverde Menéndez, y la directora de la Cátedra, Josefina Martínez Álvarez. Presentación del ponente a cargo de Chus Neira, filólogo y periodista del diario La Nueva España."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Josefina Martínez Álvarez",
+   "designation": "Director of the Chair",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://emilioalarcos.com/category/actividades-2026/",
+   "evidence_quote": "Acto institucional presidido por el rector de la Universidad de Oviedo, Ignacio Villaverde Menéndez, y la directora de la Cátedra, Josefina Martínez Álvarez. Presentación del ponente a cargo de Chus Neira, filólogo y periodista del diario La Nueva España."
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). She is the director of the Cátedra Emilio Alarcos Llorach, which is the primary entity described in the evidence.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universidad Internacional Menéndez Pelayo",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://emilioalarcos.com/",
+    "evidence_quote": "Universidad Internacional Menéndez Pelayo",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Universidad de Oviedo",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://emilioalarcos.com/",
+    "evidence_quote": "El 15 de diciembre tendrá lugar en el Paraninfo de la Universidad de Oviedo un acto académico en homenaje a Emilio Alarcos Llorach, cuyo eje central será la conferencia de Darío Villanueva y la presentación del número especial de la revista Archivum dedicado al centenario del lingüista.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 5,
+  "coverage_note": "The evidence describes a research chair (Cátedra) rather than an independent educational institution with its own campuses or Erasmus mobility programs. No specific Erasmus partner list or contact email for international mobility is provided.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 8.5,
+  "ai_calls": 1,
+  "model_s": 2.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 12.0
+ }
+}
