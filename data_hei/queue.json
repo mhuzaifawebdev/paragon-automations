@@ -5331,7 +5331,7 @@
    "batch": "website-recheck-other-wikidata-p5",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -5343,20 +5343,33 @@
    "last_start": "2026-11-11T11:41:21Z",
    "restarts": 0,
    "cap_usd": 0.0,
-   "note": "Free reader only (paid switched off in config.yaml): $0."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "crm_rows": 7,
+   "no_number": 497,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1yv0L1RXpe5xq0pZ4XnxZVW7UDh9gGTME/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 78,
+   "finished": "2026-11-11T12:10:20Z",
+   "reason": "500 institutes, 23 with a contact"
   },
   {
    "batch": "website-recheck-other-wikidata-p6",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "priority": true,
    "kind": "rescrape",
    "no_paid_search": true,
-   "max_usd": 0.0
+   "max_usd": 0.0,
+   "started": "2026-11-11T12:10:20Z",
+   "last_start": "2026-11-11T12:10:20Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "note": "Free reader only (paid switched off in config.yaml): $0."
   },
   {
    "batch": "website-recheck-retail-openstreetmap",
@@ -6291,7 +6304,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-11T11:41:21Z",
+ "updated": "2026-11-11T12:10:20Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
