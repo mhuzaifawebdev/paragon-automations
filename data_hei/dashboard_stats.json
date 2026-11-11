@@ -1,23 +1,23 @@
 {
- "generated_at": "2026-11-11T12:09:48.216374+00:00",
+ "generated_at": "2026-11-11T12:12:52.858093+00:00",
  "totals": {
   "institutes": 37544,
-  "with_contact": 27129,
+  "with_contact": 27131,
   "with_email": 29369,
   "personal_email": 14588,
   "generic_email": 23770,
   "contact_personal": 15385,
-  "contact_generic": 9481,
+  "contact_generic": 9482,
   "with_phone": 25389,
-  "partners": 456206,
-  "campuses": 48287,
+  "partners": 456217,
+  "campuses": 48293,
   "no_website": 4627,
   "with_website": 32917,
   "reachable": 30468,
   "reachable_missing": 0,
   "reachable_missing_sites": 0,
   "website_dead": 0,
-  "batches": 339
+  "batches": 340
  },
  "days": [
   {
@@ -459,6 +459,29 @@
   }
  ],
  "batches": [
+  {
+   "batch": "website-recheck-other-wikidata-p6",
+   "status": "running",
+   "total_rows": 30,
+   "done": 25,
+   "updated": "2026-11-11T12:12:50.135584+00:00",
+   "institutes": 25,
+   "with_contact": 2,
+   "with_email": 1,
+   "personal_email": 0,
+   "generic_email": 1,
+   "contact_personal": 0,
+   "contact_generic": 1,
+   "with_phone": 0,
+   "partners": 11,
+   "campuses": 6,
+   "no_website": 22,
+   "with_website": 3,
+   "reachable": 1,
+   "reachable_missing": 0,
+   "reachable_missing_sites": 0,
+   "website_dead": 0
+  },
   {
    "batch": "website-recheck-other-wikidata-p5",
    "status": "done",
