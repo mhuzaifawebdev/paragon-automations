@@ -1,0 +1,96 @@
+{
+ "row_id": "r394",
+ "scraped_at": "2026-11-11T10:32:20Z",
+ "contacts": {
+  "row_id": "r394",
+  "institution_name": "BBS Haarentor",
+  "institution_type": "college",
+  "official_website": "https://www.bbs-haarentor.de/",
+  "country": {
+   "value": "Oldenburg",
+   "source_url": "https://www.bbs-haarentor.de/",
+   "evidence_quote": "Ammerländer Heerstr. 33 - 39 ,26129 Oldenburg"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "internationales@bbs-haarentor.de",
+  "generic_email_url": "https://www.bbs-haarentor.de/internationale-beziehungen/auslandspraktika/informationen-zu-erasmus-praktika",
+  "contact": {
+   "name": "Olaf Sieger",
+   "designation": "Head of School / Principal",
+   "designation_local": "",
+   "email": "mail@bbs-haarentor.de",
+   "office_email": "",
+   "phone": "0441) 77915-0",
+   "source_url": "https://www.bbs-haarentor.de/",
+   "evidence_quote": "SchulleitungOlaf Sieger"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). He is the head of the institution (Schulleiter).",
+  "source": "web",
+  "confidence": 0.6,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Volksbank Oldenburg",
+    "partner_country": "Germany",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bbs-haarentor.de/schule-lebt/genossenschaft-kauflust/ueber-uns-1/wir-arbeiten-in-organen-1-1-1-1",
+    "evidence_quote": "Volksbank Oldenburg",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Genossenschaftsverband Weser-Ems e.V.",
+    "partner_country": "Germany",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bbs-haarentor.de/schule-lebt/genossenschaft-kauflust/ueber-uns-1/wir-arbeiten-in-organen-1-1-1-1",
+    "evidence_quote": "Genossenschaftsverband Weser-Ems e.V.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Jugendwerkstatt der VHS",
+    "partner_country": "Germany",
+    "partner_type": "college",
+    "mobility_type": "unknown",
+    "source_url": "https://www.bbs-haarentor.de/schule-lebt/genossenschaft-kauflust/ueber-uns-1/wir-arbeiten-in-organen-1-1-1-1",
+    "evidence_quote": "Jugendwerkstatt der VHS ...",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "BBS Haarentor",
+    "city": "Oldenburg",
+    "country": "Germany",
+    "role": "main",
+    "source_url": "https://www.bbs-haarentor.de/",
+    "evidence_quote": "Ammerländer Heerstr. 33 - 39 ,26129 Oldenburg"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence lists a few external partners in the context of the student cooperative, but does not provide a comprehensive list of international or Erasmus+ partner universities/schools.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 16.7,
+  "ai_calls": 1,
+  "model_s": 10.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 1.0,
+  "total_seconds": 27.8
+ }
+}
