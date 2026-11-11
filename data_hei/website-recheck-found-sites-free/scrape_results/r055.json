@@ -1,0 +1,115 @@
+{
+ "row_id": "r055",
+ "scraped_at": "2026-11-11T08:55:14Z",
+ "contacts": {
+  "row_id": "r055",
+  "institution_name": "St. Pölten UAS LLC",
+  "institution_type": "university",
+  "official_website": "https://www.ustp.at/de",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "csc@ustp.at",
+  "generic_email_url": "https://www.ustp.at/de",
+  "contact": {
+   "name": "Daniela Lohner",
+   "designation": "Head of International Office",
+   "designation_local": "",
+   "email": "daniela.lohner@ustp.at",
+   "office_email": "",
+   "phone": "+43/2742/313 228 262",
+   "source_url": "https://www.ustp.at/de/international",
+   "evidence_quote": "[Mag. Mag. Lohner Daniela] ... Leiterin"
+  },
+  "alternates": [
+   {
+    "name": "Lena Fuchssteiner",
+    "designation": "International Officer",
+    "designation_local": "",
+    "email": "lena.fuchssteiner@ustp.at",
+    "office_email": "",
+    "phone": "+43/2742/313 228 458",
+    "source_url": "https://www.ustp.at/de/international",
+    "evidence_quote": "[Fuchssteiner Lena, BA MA] ... International Officer",
+    "why_chosen": "International relations officer. Lena Fuchssteiner is an international officer at the institution."
+   },
+   {
+    "name": "Claudia Grötzl",
+    "designation": "Coordinator Staff Mobility",
+    "designation_local": "",
+    "email": "claudia.groetzl@ustp.at",
+    "office_email": "",
+    "phone": "+43/2742/313 228 260",
+    "source_url": "https://www.ustp.at/de/international",
+    "evidence_quote": "[Grötzl Claudia] ... Koordinatorin Staff Mobility",
+    "why_chosen": "Mobility coordinator. Claudia Grötzl is the coordinator for staff mobility at the institution."
+   }
+  ],
+  "rung": "Head of international relations. Daniela Lohner is the head of the International Office at St. Pölten UAS.",
+  "source": "web",
+  "confidence": 0.9,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "E³UDRES²",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.ustp.at/de",
+    "evidence_quote": "We are European University – E³UDRES²",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus St. Pölten",
+    "city": "St. Pölten",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://www.ustp.at/de/campus/unsere-standorte",
+    "evidence_quote": "Campus St. Pölten (Hauptstandort)"
+   },
+   {
+    "campus_name": "Bildungscampus Mostviertel",
+    "city": "Mauer",
+    "country": "Austria",
+    "role": "branch",
+    "source_url": "https://www.ustp.at/de/campus/unsere-standorte",
+    "evidence_quote": "Mauer"
+   },
+   {
+    "campus_name": "Europacampus Hainburg",
+    "city": "Hainburg",
+    "country": "Austria",
+    "role": "international",
+    "source_url": "https://www.ustp.at/de/campus/unsere-standorte",
+    "evidence_quote": "Europacampus Hainburg"
+   }
+  ],
+  "stated_total": 9,
+  "stated_total_quote": "9 europäische Partnerhochschulen im Netzwerk",
+  "stated_total_url": "https://www.ustp.at/de",
+  "truncated": true,
+  "total_seen": 9,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions a network of 9 partner universities but does not provide a specific list of individual partner institutions. Contact details for specific individuals are not provided, only the general International Office.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.0,
+  "crawl_s": 20.2,
+  "ai_calls": 3,
+  "model_s": 5.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 7,
+  "email_search_s": 0.0,
+  "total_seconds": 39.5
+ }
+}
