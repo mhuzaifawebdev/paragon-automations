@@ -1,0 +1,70 @@
+{
+ "row_id": "r412",
+ "scraped_at": "2026-11-11T08:33:16Z",
+ "contacts": {
+  "row_id": "r412",
+  "institution_name": "ULE Group",
+  "institution_type": "unknown",
+  "official_website": "https://ulegroup.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://ulegroup.com/",
+   "evidence_quote": "ULE Group's project portfolio includes landmark construction projects throughout the United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Eaton",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://ulegroup.com/products/freedom-accessory-auxiliary-contact-used-on-starter-and-contactors-1no-contacts-side-mounting",
+    "evidence_quote": "Eaton",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "3M Electrical",
+    "partner_country": "unknown",
+    "partner_type": "company",
+    "mobility_type": "unknown",
+    "source_url": "https://ulegroup.com/products/freedom-accessory-auxiliary-contact-used-on-starter-and-contactors-1no-contacts-side-mounting",
+    "evidence_quote": "3M Electrical",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 2,
+  "pages_read": 10,
+  "coverage_note": "The institution is a commercial electrical equipment supplier, not an educational institution. No contact persons or specific partner lists are provided in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 14.7,
+  "ai_calls": 3,
+  "model_s": 6.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 8,
+  "total_seconds": 45.6
+ }
+}
