@@ -1,23 +1,23 @@
 {
- "generated_at": "2026-11-11T12:17:39.113872+00:00",
+ "generated_at": "2026-11-11T12:23:03.919383+00:00",
  "totals": {
   "institutes": 37544,
-  "with_contact": 27133,
+  "with_contact": 27134,
   "with_email": 29372,
   "personal_email": 14588,
   "generic_email": 23773,
   "contact_personal": 15385,
-  "contact_generic": 9484,
+  "contact_generic": 9485,
   "with_phone": 25389,
   "partners": 456217,
-  "campuses": 48334,
+  "campuses": 48335,
   "no_website": 4609,
   "with_website": 32935,
   "reachable": 30471,
   "reachable_missing": 0,
   "reachable_missing_sites": 0,
   "website_dead": 0,
-  "batches": 341
+  "batches": 342
  },
  "days": [
   {
@@ -459,6 +459,29 @@
   }
  ],
  "batches": [
+  {
+   "batch": "website-recheck-outside-edu-1-read",
+   "status": "running",
+   "total_rows": 52,
+   "done": 24,
+   "updated": "2026-11-11T12:23:01.907168+00:00",
+   "institutes": 24,
+   "with_contact": 4,
+   "with_email": 5,
+   "personal_email": 1,
+   "generic_email": 5,
+   "contact_personal": 1,
+   "contact_generic": 3,
+   "with_phone": 1,
+   "partners": 33,
+   "campuses": 8,
+   "no_website": 12,
+   "with_website": 12,
+   "reachable": 5,
+   "reachable_missing": 0,
+   "reachable_missing_sites": 0,
+   "website_dead": 0
+  },
   {
    "batch": "website-recheck-retail-openstreetmap",
    "status": "done",
