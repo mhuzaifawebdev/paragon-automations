@@ -1,0 +1,70 @@
+{
+ "row_id": "r433",
+ "scraped_at": "2026-11-11T08:36:55Z",
+ "contacts": {
+  "row_id": "r433",
+  "institution_name": "UNIVERSITAET GRAZ",
+  "institution_type": "university",
+  "official_website": "https://www.uni-graz.at/de/",
+  "country": {
+   "value": "Austria",
+   "source_url": "https://www.uni-graz.at/en/university/campus/",
+   "evidence_quote": "Austria"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@uni-graz.at",
+  "generic_email_url": "https://www.uni-graz.at/de/anfahrt-und-kontakt/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 7,
+  "notes": "site found via: website column in the sheet. mode: gemini. 2 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Arqus",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.uni-graz.at/de/",
+    "evidence_quote": "University of Graz part of Arqus.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Main building",
+    "city": "Graz",
+    "country": "Austria",
+    "role": "main",
+    "source_url": "https://www.uni-graz.at/de/anfahrt-und-kontakt/",
+    "evidence_quote": "Hauptgebäude | Universitätsplatz 3, 8010 Graz |"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 7,
+  "coverage_note": "The website does not provide a list of Erasmus+ partners or specific contact persons for international mobility. Only a general contact email is provided. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 2.0,
+  "crawl_s": 60.6,
+  "ai_calls": 3,
+  "model_s": 4.7,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "free_staff_pages": 5,
+  "total_seconds": 75.2
+ }
+}
