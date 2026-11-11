@@ -1,0 +1,67 @@
+{
+ "row_id": "r016",
+ "scraped_at": "2026-11-11T12:16:03Z",
+ "contacts": {
+  "row_id": "r016",
+  "institution_name": "Mannarinu's Brunch Bar",
+  "institution_type": "unknown",
+  "official_website": "https://www.mannarinu.com/",
+  "country": {
+   "value": "Malta",
+   "source_url": "https://www.mannarinu.com/pages/about-us",
+   "evidence_quote": "Years later, our father Carmelo Borg took over the business and ventured into the confectionery trade. The diversification immediately saw a positive impact on the business and in a short time, Mannarinu had established itself as one of the leading confectioners in Malta."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "info@mannarinu.com",
+  "generic_email_url": "https://www.mannarinu.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Head Office",
+    "city": "Valletta",
+    "country": "Malta",
+    "role": "main",
+    "source_url": "https://www.mannarinu.com/",
+    "evidence_quote": "St. John's Street, Il- Belt Valletta"
+   },
+   {
+    "campus_name": "Naxxar Store",
+    "city": "Naxxar",
+    "country": "Malta",
+    "role": "branch",
+    "source_url": "https://www.mannarinu.com/",
+    "evidence_quote": "Pjazza Vittorja, Naxxar (Behind Church)"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The institution is a catering and confectionery business rather than an educational institution, so no Erasmus or academic partner information is present in the evidence.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 1.1,
+  "crawl_s": 7.8,
+  "ai_calls": 2,
+  "model_s": 1.9,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 18.7
+ }
+}
