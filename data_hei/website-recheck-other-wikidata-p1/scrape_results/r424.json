@@ -1,0 +1,87 @@
+{
+ "row_id": "r424",
+ "scraped_at": "2026-11-11T10:03:33Z",
+ "contacts": {
+  "row_id": "r424",
+  "institution_name": "PANEPISTIMIO PATRON",
+  "institution_type": "university",
+  "official_website": "https://www.upatras.gr/",
+  "country": {
+   "value": "Greece",
+   "source_url": "https://www.upatras.gr/en/international/erasmus/programma-erasmus/staff-mobility-for-training/",
+   "evidence_quote": "University of Patras, 26504 Rio, Greece"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "rectorate@upatras.gr",
+  "generic_email_url": "https://www.upatras.gr/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata (an item with exactly this name). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "EUNICoast",
+    "partner_country": "Europe",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upatras.gr/",
+    "evidence_quote": "Το Πανεπιστήμιο Πατρών συμμετέχει στο Ευρωπαϊκό Πανεπιστήμιο “EUNICoast”",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Johns Hopkins University",
+    "partner_country": "USA",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upatras.gr/international-relations/international-cooperations/",
+    "evidence_quote": "Μνημόνιο Συνεργασίας με Πανεπιστήμιο Johns-Hopkins",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Harvard University Center for Hellenic Studies",
+    "partner_country": "Greece",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.upatras.gr/international-relations/international-cooperations/",
+    "evidence_quote": "Συνεργασία με Κέντρο Ελληνικών Σπουδών του Πανεπιστημίου Harvard στην Ελλάδα",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "University of Patras",
+    "city": "Rio",
+    "country": "Greece",
+    "role": "main",
+    "source_url": "https://www.upatras.gr/",
+    "evidence_quote": "Πανεπιστημιούπολη, 26504 Ρίο, Αχαΐα"
+   }
+  ],
+  "stated_total": 799,
+  "stated_total_quote": "799",
+  "stated_total_url": "https://agreements.upatras.gr/#new_tab",
+  "truncated": true,
+  "total_seen": 799,
+  "pages_read": 10,
+  "coverage_note": "The evidence provides a total count of inter-institutional agreements but does not list the individual partner institutions beyond a few specific examples. Contact information for the International Relations Department is centralized through the rectorate email.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 8.7,
+  "crawl_s": 14.6,
+  "ai_calls": 2,
+  "model_s": 16.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 55.2
+ }
+}
