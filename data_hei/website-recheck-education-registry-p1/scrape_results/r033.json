@@ -1,0 +1,56 @@
+{
+ "row_id": "r033",
+ "scraped_at": "2026-11-11T09:00:05Z",
+ "contacts": {
+  "row_id": "r033",
+  "institution_name": "Lycée georges DUBY",
+  "institution_type": "school",
+  "official_website": "http://www.lyc-luynes.ac-aix-marseille.fr",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 1,
+  "notes": "site found via: the education ministry's school directory. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée georges DUBY",
+    "city": "Luynes",
+    "country": "France",
+    "role": "main",
+    "source_url": "http://www.lyc-luynes.ac-aix-marseille.fr",
+    "evidence_quote": "Académie d'Aix-Marseille"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "The provided evidence contains no information regarding contacts, partners, or specific campus details beyond the institution's name and location.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.6,
+  "crawl_s": 4.0,
+  "thin_home": true,
+  "ai_calls": 2,
+  "model_s": 1.6,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 34.8
+ }
+}
