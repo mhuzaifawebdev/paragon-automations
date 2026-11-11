@@ -1,0 +1,74 @@
+{
+ "row_id": "r035",
+ "scraped_at": "2026-11-11T12:24:39Z",
+ "contacts": {
+  "row_id": "r035",
+  "institution_name": "Lycée des métiers Magnan",
+  "institution_type": "school",
+  "official_website": "https://lp-magnan.fr/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "ce.0060043p@ac-nice.fr",
+  "generic_email_url": "https://lp-magnan.fr/contact/",
+  "contact": {
+   "name": "Nathalie PALETOU",
+   "designation": "Principal",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://lp-magnan.fr/media/2025/10/organigramme-2025.pdf",
+   "evidence_quote": "Mme Nathalie PALETOU ... PROVISEURE"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). She is the principal of the institution as shown in the organizational chart.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: web search (DuckDuckGo). mode: gemini. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "HERMÈS",
+    "partner_country": "France",
+    "partner_type": "network",
+    "mobility_type": "staff",
+    "source_url": "https://lp-magnan.fr/louverture-europeenne-et-internationale/",
+    "evidence_quote": "Le consortium HERMÈS pour la voie professionnelle dans la région académique PACA",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Lycée professionnel Magnan",
+    "city": "Nice",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://lp-magnan.fr/contact/",
+    "evidence_quote": "34 Rue Auguste Renoir, 06000 Nice"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 5,
+  "coverage_note": "The evidence does not list specific individual institutional partner schools or universities beyond the mention of the HERMÈS regional consortium. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 4.2,
+  "crawl_s": 11.9,
+  "ai_calls": 1,
+  "model_s": 7.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 23.9
+ }
+}

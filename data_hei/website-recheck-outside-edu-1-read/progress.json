@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-outside-edu-1-read",
  "status": "running",
- "generated_at": "2026-11-11T12:24:15.527712+00:00",
+ "generated_at": "2026-11-11T12:25:13.039589+00:00",
  "chunk": 3,
  "total_chunks": 3,
  "total_rows": 52,
- "done": 29,
- "pending": 23,
- "elapsed_seconds": 291,
- "eta_seconds": 92,
+ "done": 31,
+ "pending": 21,
+ "elapsed_seconds": 349,
+ "eta_seconds": 89,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 21,
+ "ai_calls": 24,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -39,15 +39,13 @@
  ],
  "confidence": {
   "high": 2,
-  "medium": 4,
+  "medium": 5,
   "low": 0,
-  "none": 23
+  "none": 24
  },
- "partners_found": 53,
- "campuses_found": 10,
+ "partners_found": 54,
+ "campuses_found": 11,
  "recent": [
-  "r010",
-  "r011",
   "r012",
   "r013",
   "r014",
@@ -65,6 +63,8 @@
   "r026",
   "r027",
   "r029",
-  "r033"
+  "r033",
+  "r035",
+  "r036"
  ]
 }
