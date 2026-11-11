@@ -1,14 +1,14 @@
 {
  "batch": "website-recheck-other-wikidata-p2",
- "status": "running",
- "generated_at": "2026-11-11T10:38:56.894172+00:00",
- "chunk": 21,
- "total_chunks": 21,
+ "status": "done",
+ "generated_at": "2026-11-11T10:39:38.979315+00:00",
+ "chunk": 22,
+ "total_chunks": 22,
  "total_rows": 500,
- "done": 497,
- "pending": 3,
- "elapsed_seconds": 1136,
- "eta_seconds": 6,
+ "done": 500,
+ "pending": 0,
+ "elapsed_seconds": 1147,
+ "eta_seconds": null,
  "cost_usd_so_far": 0.0,
  "paid_search_usd": 0.0,
  "paid_search_limit_usd": 0.0,
@@ -17,7 +17,7 @@
  "search_failures": 0,
  "haiku_fallback_calls": 0,
  "cost_usd_projected_total": 0.0,
- "ai_calls": 85,
+ "ai_calls": 86,
  "reader_mode": "free",
  "fast_limit_usd": 15.0,
  "provider": "gemini",
@@ -38,17 +38,14 @@
   }
  ],
  "confidence": {
-  "high": 9,
+  "high": 10,
   "medium": 10,
   "low": 0,
-  "none": 478
+  "none": 480
  },
  "partners_found": 305,
- "campuses_found": 58,
+ "campuses_found": 59,
  "recent": [
-  "r478",
-  "r479",
-  "r480",
   "r481",
   "r482",
   "r483",
@@ -65,7 +62,10 @@
   "r494",
   "r495",
   "r496",
-  "r497"
+  "r497",
+  "r498",
+  "r499",
+  "r500"
  ],
  "drive_link": "https://docs.google.com/spreadsheets/d/1c1l9xE27nSDa4wCLdAVNA2BBR5UDkorJ/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true"
 }
