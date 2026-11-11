@@ -4823,7 +4823,7 @@
    "batch": "website-recheck-contact-b-deeper-p5",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -4835,20 +4835,33 @@
    "last_start": "2026-11-11T08:46:14Z",
    "restarts": 0,
    "cap_usd": 0.0,
-   "note": "Free reader only (paid switched off in config.yaml): $0."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "crm_rows": 11,
+   "no_number": 118,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1p0ZLE-hxT701LAfL9qWoalaEf_ImdJ7n/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 121,
+   "finished": "2026-11-11T08:47:50Z",
+   "reason": "129 institutes, 30 with a contact"
   },
   {
    "batch": "website-recheck-found-sites-free",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "queued",
-   "reader": "paid",
+   "state": "running",
+   "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "priority": true,
    "kind": "rescrape",
    "no_paid_search": true,
-   "max_usd": 2.0
+   "max_usd": 2.0,
+   "started": "2026-11-11T08:47:50Z",
+   "last_start": "2026-11-11T08:47:50Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "note": "Free reader only (paid switched off in config.yaml): $0."
   },
   {
    "batch": "fix-bano-batch-1-staff-mobility-ka-101",
@@ -6187,7 +6200,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-11T08:46:14Z",
+ "updated": "2026-11-11T08:47:50Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
