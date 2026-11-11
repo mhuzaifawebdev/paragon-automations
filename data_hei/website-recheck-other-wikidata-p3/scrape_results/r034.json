@@ -1,0 +1,76 @@
+{
+ "row_id": "r034",
+ "scraped_at": "2026-11-11T10:43:29Z",
+ "contacts": {
+  "row_id": "r034",
+  "institution_name": "Upfield",
+  "institution_type": "unknown",
+  "official_website": "https://www.FloraFoodGroup.com/",
+  "country": {
+   "value": "Netherlands",
+   "source_url": "https://www.FloraFoodGroup.com/contact",
+   "evidence_quote": "Netherlands"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "David Haines",
+   "designation": "Group CEO",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.FloraFoodGroup.com/",
+   "evidence_quote": "Group CEO David Haines welcomes Governor Kelly to the Flora Culinary Centre in Wageningen"
+  },
+  "alternates": [],
+  "rung": "Principal / director (no Erasmus contact found). David Haines is the Group CEO of the organisation, making him the highest-ranking executive listed in the evidence.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Flora Culinary Centre",
+    "city": "Wageningen",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.FloraFoodGroup.com/",
+    "evidence_quote": "Group CEO David Haines welcomes Governor Kelly to the Flora Culinary Centre in Wageningen"
+   },
+   {
+    "campus_name": "Flora Food Group BV HQ",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "role": "main",
+    "source_url": "https://www.FloraFoodGroup.com/contact",
+    "evidence_quote": "Flora Food Group BV"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 9,
+  "coverage_note": "The institution is a corporate entity rather than an academic institution, so no Erasmus or international mobility partners are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 14.8,
+  "crawl_s": 13.0,
+  "ai_calls": 1,
+  "model_s": 3.3,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 1.5,
+  "total_seconds": 32.5
+ }
+}
