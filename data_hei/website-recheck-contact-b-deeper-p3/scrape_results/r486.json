@@ -1,0 +1,78 @@
+{
+ "row_id": "r486",
+ "scraped_at": "2026-11-11T08:26:52Z",
+ "contacts": {
+  "row_id": "r486",
+  "institution_name": "Parkour Sports Association",
+  "institution_type": "unknown",
+  "official_website": "https://sportmegoldasok.hu/",
+  "country": {
+   "value": "Hungary",
+   "source_url": "https://sportmegoldasok.hu/",
+   "evidence_quote": "[Hall Of Parkour Hungary] | Hall Of Parkour Hungary2019 nyarán csatlakoztunk a Magyar Torna Szövetséghez, és így megalakult….."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "sportmegoldasok@gmail.com",
+  "generic_email_url": "https://sportmegoldasok.hu/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Magyar Torna Szövetség",
+    "partner_country": "Hungary",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://sportmegoldasok.hu/",
+    "evidence_quote": "[Hall Of Parkour Hungary] | Hall Of Parkour Hungary2019 nyarán csatlakoztunk a Magyar Torna Szövetséghez, és így megalakult…..",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Word Wakeboard Association",
+    "partner_country": "unknown",
+    "partner_type": "network",
+    "mobility_type": "unknown",
+    "source_url": "https://sportmegoldasok.hu/edzotaborok/sportszovetsegek-adatbankja/sportagak/sportagak-wakeboard/",
+    "evidence_quote": "Akkora volt az érdeklődés az új találmány iránt, hogy Redmon 1985-ben otthagyta az iskolát és bátyjával, Johnnal üzleti tervet készítettek és 1986-ban megalapították saját cégüket a Redline Desingst. Az első deszkák még nem voltak elég strapabíróak és vastagabbak is voltak a maiaknál. Redmon 1987-ben megrendezte az első versenyt, majd 1988-ban megalapította a Word Wakeboard Association nevű szervezetet. Innentől kezdve sportág népszerűsége felívelt. 1992-ben megalapították a Wake Tech nevű céget",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Magyar Snowboard Szövetség",
+    "partner_country": "Hungary",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://sportmegoldasok.hu/edzotaborok/sportszovetsegek-adatbankja/sportagak/sportagak-hodeszka-snowboard/",
+    "evidence_quote": "A Magyar Snowboard Szövetség 1993-ban alakult meg és az ISF tagszervezeteként működött. Miután a Nemzetközi Síszövetség átvette a sportág irányítását, a Magyar Síszövetségben is alakult egy „Hódeszka” szakág. A magyar versenyzők sem az elnevezést, sem a síszövetség felettes jellegét nem támogatták, így hosszas huzavona után a szakág „kivált” a síszövetségből és az MSBSZ-be „olvadva” létrejött az új országos sportági szakszövetség, mely a sporttörvény erejénél fogva Magyar Snowboard Szövetség név",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 5,
+  "coverage_note": "The evidence provided is for a sports information website (Sportmegoldások) that lists various sports associations and clubs, but it does not provide a formal partner list or campus information for the Parkour Sports Association.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.4,
+  "crawl_s": 16.6,
+  "ai_calls": 2,
+  "model_s": 2.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 32.0
+ }
+}

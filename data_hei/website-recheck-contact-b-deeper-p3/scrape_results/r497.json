@@ -1,0 +1,59 @@
+{
+ "row_id": "r497",
+ "scraped_at": "2026-11-11T08:27:15Z",
+ "contacts": {
+  "row_id": "r497",
+  "institution_name": "Peek",
+  "institution_type": "unknown",
+  "official_website": "https://www.peek.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.peek.com/experiences",
+   "evidence_quote": "United States"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "consumersupport@peek.com",
+  "generic_email_url": "https://www.peek.com/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: website column in the sheet. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Peek Travel Inc.",
+    "city": "San Francisco",
+    "country": "United States",
+    "role": "main",
+    "source_url": "https://www.peekpro.com/careers",
+    "evidence_quote": "founded in San Francisco"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "Peek is a commercial booking software company, not an educational institution. No Erasmus+ or international mobility partnerships are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.5,
+  "crawl_s": 5.3,
+  "ai_calls": 2,
+  "model_s": 1.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 15.1
+ }
+}
