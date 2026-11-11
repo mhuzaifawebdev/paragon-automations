@@ -1,0 +1,126 @@
+{
+ "row_id": "r436",
+ "scraped_at": "2026-11-11T10:34:40Z",
+ "contacts": {
+  "row_id": "r436",
+  "institution_name": "IMT Atlantique Bretagne Pays de la Loire",
+  "institution_type": "university",
+  "official_website": "https://www.imt-atlantique.fr/fr",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "international@imt-atlantique.fr",
+  "generic_email_url": "https://www.imt-atlantique.fr/fr/international/contact",
+  "contact": {
+   "name": "Yves Andrès",
+   "designation": "Director of International Relations and Academic Partnerships",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.imt-atlantique.fr/fr",
+   "evidence_quote": "[Yves Andrès] ... Yves Andrès est nommé Directeur des relations internationales et des partenariats académiques"
+  },
+  "alternates": [],
+  "rung": "Head of international relations. He is the named Director of International Relations and Academic Partnerships.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Chalmers Univ of Tech",
+    "partner_country": "Sweden",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-atlantique.fr/sites/default/files/international/eramusplus/strategie-internationale-erasmusplus.pdf",
+    "evidence_quote": "européens et internationaux dont certains comme Cha lmers Univ of Tech, Aalborg Univ, Gdansk Univ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Aalborg Univ",
+    "partner_country": "Denmark",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-atlantique.fr/sites/default/files/international/eramusplus/strategie-internationale-erasmusplus.pdf",
+    "evidence_quote": "européens et internationaux dont certains comme Cha lmers Univ of Tech, Aalborg Univ, Gdansk Univ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Gdansk Univ of Tech",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-atlantique.fr/sites/default/files/international/eramusplus/strategie-internationale-erasmusplus.pdf",
+    "evidence_quote": "européens et internationaux dont certains comme Cha lmers Univ of Tech, Aalborg Univ, Gdansk Univ",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Bristol Univ",
+    "partner_country": "United Kingdom",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-atlantique.fr/sites/default/files/international/eramusplus/strategie-internationale-erasmusplus.pdf",
+    "evidence_quote": "of Tech, Bristol Univ et UP Catalunya sont aussi de s partenaires Erasmus. Nous faisons également",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "UP Catalunya",
+    "partner_country": "Spain",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.imt-atlantique.fr/sites/default/files/international/eramusplus/strategie-internationale-erasmusplus.pdf",
+    "evidence_quote": "of Tech, Bristol Univ et UP Catalunya sont aussi de s partenaires Erasmus. Nous faisons également",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus de Brest",
+    "city": "Brest",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.imt-atlantique.fr/fr",
+    "evidence_quote": "Campus de Brest"
+   },
+   {
+    "campus_name": "Campus de Nantes",
+    "city": "Nantes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.imt-atlantique.fr/fr",
+    "evidence_quote": "Campus de Nantes"
+   },
+   {
+    "campus_name": "Campus de Rennes",
+    "city": "Rennes",
+    "country": "France",
+    "role": "main",
+    "source_url": "https://www.imt-atlantique.fr/fr",
+    "evidence_quote": "Campus de Rennes"
+   }
+  ],
+  "stated_total": 200,
+  "stated_total_quote": "existants de Télécom Bretagne et de Mines Nantes (2 00 au total) restent valides pour IMT Atlantique",
+  "stated_total_url": "https://www.imt-atlantique.fr/sites/default/files/international/eramusplus/strategie-internationale-erasmusplus.pdf",
+  "truncated": true,
+  "total_seen": 200,
+  "pages_read": 10,
+  "coverage_note": "The evidence mentions 200 partners but does not provide a full list of their names. Only a few specific partners are mentioned in the text.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 7.2,
+  "crawl_s": 13.6,
+  "ai_calls": 1,
+  "model_s": 4.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.8,
+  "total_seconds": 26.0
+ }
+}
