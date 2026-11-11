@@ -5227,7 +5227,7 @@
    "batch": "website-recheck-other-wikidata-p1",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "running",
+   "state": "done",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
@@ -5239,20 +5239,33 @@
    "last_start": "2026-11-11T09:37:43Z",
    "restarts": 0,
    "cap_usd": 0.0,
-   "note": "Free reader only (paid switched off in config.yaml): $0."
+   "note": "Free reader only (paid switched off in config.yaml): $0.",
+   "crm_rows": 5,
+   "no_number": 495,
+   "spend_recorded": true,
+   "cost_usd": 0.0,
+   "drive_link": "https://docs.google.com/spreadsheets/d/1bjfmAHp1ZXPTrD_vNtC6TzJO62_iw3Dj/edit?usp=drivesdk&ouid=117939194985845366995&rtpof=true&sd=true",
+   "indexed": 73,
+   "finished": "2026-11-11T10:09:15Z",
+   "reason": "500 institutes, 19 with a contact"
   },
   {
    "batch": "website-recheck-other-wikidata-p2",
    "source": "website re-check",
    "added": "2026-11-01T00:00:00Z",
-   "state": "queued",
+   "state": "running",
    "reader": "free",
    "provider": "gemini",
    "chunk_size": 25,
    "priority": true,
    "kind": "rescrape",
    "no_paid_search": true,
-   "max_usd": 0.0
+   "max_usd": 0.0,
+   "started": "2026-11-11T10:09:15Z",
+   "last_start": "2026-11-11T10:09:15Z",
+   "restarts": 0,
+   "cap_usd": 0.0,
+   "note": "Free reader only (paid switched off in config.yaml): $0."
   },
   {
    "batch": "website-recheck-other-wikidata-p3",
@@ -6239,7 +6252,7 @@
   }
  ],
  "paused": null,
- "updated": "2026-11-11T09:37:43Z",
+ "updated": "2026-11-11T10:09:15Z",
  "auto_queued_ids": [
   "1vvFI19xzskbiuPsWVNz9x3zvil0gLZlQAgHgdHpwvE0",
   "197qpsSa9Ipf16CWSvi53e5xNNng6xOHUOV1GsvImtYY",
