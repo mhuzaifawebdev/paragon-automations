@@ -1,0 +1,78 @@
+{
+ "row_id": "r002",
+ "scraped_at": "2026-11-11T08:58:10Z",
+ "contacts": {
+  "row_id": "r002",
+  "institution_name": "University of Veterinary Medicine Vienna",
+  "institution_type": "university",
+  "official_website": "https://www.vetmeduni.ac.at/",
+  "country": {
+   "value": "Österreich",
+   "source_url": "https://www.vetmeduni.ac.at/",
+   "evidence_quote": "Österreich"
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "international@vetmeduni.ac.at",
+  "generic_email_url": "https://www.vetmeduni.ac.at/kontakt",
+  "contact": {
+   "name": "Christian Gülly",
+   "designation": "Vice-Rector for Research, International Affairs and Sustainability",
+   "designation_local": "",
+   "email": "rektorat@vetmeduni.ac.at",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.vetmeduni.ac.at/universitaet/profil/leitung/rektorat",
+   "evidence_quote": "Vizerektor für Forschung, Internationales und Nachhaltigkeit ... Christian Gülly"
+  },
+  "alternates": [],
+  "rung": "Vice-rector for international affairs. He is the Vice-Rector responsible for international affairs at the university.",
+  "source": "web",
+  "confidence": 0.75,
+  "needs_human_check": false,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata (an item with exactly this name). mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Universität für Bodenkultur Wien",
+    "partner_country": "Österreich",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://www.vetmeduni.ac.at/studium/studienangebot/master-wildtieroekologie-und-wildtiermanagement",
+    "evidence_quote": "Das Masterstudium Wildtierökologie und Wildtiermanagement ist eine Kooperation der Universität für Bodenkultur Wien mit der Veterinärmedizinischen Universität Wien.",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Campus der Veterinärmedizinischen Universität Wien",
+    "city": "Wien",
+    "country": "Österreich",
+    "role": "main",
+    "source_url": "https://www.vetmeduni.ac.at/universitaet/campus",
+    "evidence_quote": "Der Campus der Veterinärmedizinischen Universität Wien befindet sich im Donaufeld in Wien Floridsdorf. Er ist 15 Hektar groß und beheimatet 55 Bauobjekte unterschiedlichster Größe. Am 4. Oktober 1996 (Welttierschutztag) wurde der Floridsdorfer Campus feierlich eröffnet."
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 1,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a list of Erasmus+ or international partners. The contact information for the International Relations Office is provided as a general department email.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 11.8,
+  "crawl_s": 14.8,
+  "ai_calls": 1,
+  "model_s": 2.1,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 28.8
+ }
+}
