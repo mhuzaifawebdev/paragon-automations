@@ -1,0 +1,59 @@
+{
+ "row_id": "r380",
+ "scraped_at": "2026-11-11T11:02:32Z",
+ "contacts": {
+  "row_id": "r380",
+  "institution_name": "Sitel",
+  "institution_type": "unknown",
+  "official_website": "https://www.sitel.com.mk/",
+  "country": {
+   "value": "Македонија",
+   "source_url": "https://www.sitel.com.mk/",
+   "evidence_quote": "Муцунски ја отвори Амбасадата на Република Северна Македонија во..."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "goran.gligorov@sitel.com.mk",
+  "generic_email_url": "https://sitel.com.mk/impresum",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Трговско радиодифузно друштво телевизија СИТЕЛ ДООЕЛ Скопје",
+    "city": "Скопје",
+    "country": "Македонија",
+    "role": "main",
+    "source_url": "https://sitel.com.mk/impresum",
+    "evidence_quote": "Адреса: ул. Столтенбергова бр.2 Скопје"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "The evidence is from Sitel Television, which is a media organisation rather than an educational institution, so no academic partner list is available.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 33.1,
+  "ai_calls": 2,
+  "model_s": 7.8,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "contact_pass": 0,
+  "total_seconds": 49.0
+ }
+}
