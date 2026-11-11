@@ -1,0 +1,91 @@
+{
+ "row_id": "r276",
+ "scraped_at": "2026-11-11T10:24:54Z",
+ "contacts": {
+  "row_id": "r276",
+  "institution_name": "HARP",
+  "institution_type": "unknown",
+  "official_website": "https://www.harpercollins.com/",
+  "country": {
+   "value": "United States",
+   "source_url": "https://www.harpercollins.com/pages/customer-service",
+   "evidence_quote": "We do not ship outside the United States and U.S. Territories."
+  },
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "orders@harpercollins.com",
+  "generic_email_url": "https://www.harpercollins.com/pages/customer-service",
+  "contact": {
+   "name": "Jonathan Burnham",
+   "designation": "President and Publisher",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.harpercollins.com/pages/harperbooks-team",
+   "evidence_quote": "JONATHAN BURNHAM ... President/Publisher"
+  },
+  "alternates": [
+   {
+    "name": "Millicent Bennett",
+    "designation": "Executive Editor",
+    "designation_local": "",
+    "email": "Millicent.Bennett@harpercollins.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.harpercollins.com/pages/harperbooks-team",
+    "evidence_quote": "MILLICENT BENNETT ... Executive Editor, Harper",
+    "why_chosen": "Other role. Millicent Bennett is an Executive Editor with a listed email address."
+   },
+   {
+    "name": "Jennifer Civiletto",
+    "designation": "Senior Director, Backlist",
+    "designation_local": "",
+    "email": "Jennifer.Civiletto@harpercollins.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.harpercollins.com/pages/harperbooks-team",
+    "evidence_quote": "JENNIFER CIVILETTO ... Senior Director, Backlist",
+    "why_chosen": "Other role. Jennifer Civiletto is a Senior Director with a listed email address."
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). Jonathan Burnham is the President and Publisher of the institution.",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 9,
+  "notes": "site found via: Wikidata. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [
+   {
+    "campus_name": "Macken House",
+    "city": "Dublin",
+    "country": "Ireland",
+    "role": "international",
+    "source_url": "https://www.harpercollins.com/pages/customer-service",
+    "evidence_quote": "Our European Representative is: HarperCollins Publishers, Macken House 39/40 Mayor Street Upper, Dublin 1, D01 C9W8, Ireland. Email: enquiries@harpercollins.ieenquiries@harpercollins.ie <enquiries@harpercollins.ie>"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 9,
+  "coverage_note": "The institution is a publishing company (HarperCollins) rather than a school or university, so no Erasmus or academic mobility partners are listed.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 6.5,
+  "crawl_s": 12.7,
+  "ai_calls": 1,
+  "model_s": 9.4,
+  "cost_usd_estimate": 0.0,
+  "mode": "gemini",
+  "email_search_s": 0.0,
+  "total_seconds": 28.7
+ }
+}
