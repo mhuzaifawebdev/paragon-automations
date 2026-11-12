@@ -1,11 +1,11 @@
 {
  "row_id": "r095",
- "scraped_at": "2026-11-10T21:57:14Z",
+ "scraped_at": "2026-11-11T19:18:01Z",
  "contacts": {
   "row_id": "r095",
   "institution_name": "IST.COMPR. CASTEL SAN LORENZO",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.istitutocomprensivocastelsanlorenzo.edu.it",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "notes": "Website could not be read: https://www.istitutocomprensivocastelsanlorenzo.edu.it (blocked by robots.txt - do not fetch this page) Register: IST.COMPR. CASTEL SAN LORENZO (SAIC830007), PEC saic830007@pec.istruzione.it.",
+  "generic_email": "SAIC830007@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 10.0,
-  "total_seconds": 10.0
+  "discover_s": 0.0,
+  "crawl_s": 1.1,
+  "total_seconds": 1.1
  }
 }

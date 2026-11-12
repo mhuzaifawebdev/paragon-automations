@@ -1,11 +1,11 @@
 {
  "row_id": "r004",
- "scraped_at": "2026-11-10T01:33:52Z",
+ "scraped_at": "2026-11-11T18:50:13Z",
  "contacts": {
   "row_id": "r004",
   "institution_name": "IC VR 06 CHIEVO BASSONA B.GO N.",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.ic6verona.edu.it/sitoweb/index.php?idpag=1",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (web search (DuckDuckGo): https://www.ic6verona.edu.it/ -> could not read https://www.ic6verona.edu.it/ (blocked by robots.txt - do not fetch this page); web search (DuckDuckGo): https://unica.istruzione.gov.it/ -> could not read https://unica.istruzione.gov.it/ (blocked by robots.txt - do not fetch this page); web search (DuckDuckGo): https://dpv9deu4le22y.cloudfront.net/ -> could not read https://dpv9deu4le22y.cloudfront.net/ (TimeoutError: The read operation timed out); web search (DuckDuckGo): https://www.scuolaitaly.it/ -> homepage does not mention this institution's name or phone)"
+  "notes": "Website could not be read: https://www.ic6verona.edu.it/sitoweb/index.php?idpag=1 (blocked by robots.txt - do not fetch this page) Register: VR 06 CHIEVO BASSONA B.GO N. (VRIC83900N), PEC vric83900n@pec.istruzione.it.",
+  "generic_email": "VRIC83900N@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 29.7,
-  "total_seconds": 29.7
+  "discover_s": 0.0,
+  "crawl_s": 1.1,
+  "total_seconds": 1.1
  }
 }

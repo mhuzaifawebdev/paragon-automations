@@ -1,0 +1,67 @@
+{
+ "row_id": "r065",
+ "scraped_at": "2026-11-11T16:53:19Z",
+ "contacts": {
+  "row_id": "r065",
+  "institution_name": "Berufskolleg Bethel",
+  "institution_type": "unknown",
+  "official_website": "https://fvb-bk.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "stubo@fvb-bk.de",
+  "generic_email_url": "https://fvb-bk.de/",
+  "contact": {
+   "name": "Tobias Kämper",
+   "designation": "Schulleiter",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://fvb-bk.de/about.html",
+   "evidence_quote": "Tobias Kämper ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Angelika Kettmann",
+    "designation": "Stellv. Schulleiterin",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://fvb-bk.de/about.html",
+    "evidence_quote": "Angelika Kettmann ... Stellv. Schulleiterin",
+    "why_chosen": "Principal / director (no Erasmus contact found). found next to a role keyword on the institution's own page (rules-based)"
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). found next to a role keyword on the institution's own page (rules-based)",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 5,
+  "notes": "site found via: web search (Claude). mode: rules."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 34.8,
+  "crawl_s": 8.0,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "email_search_s": 27.1,
+  "total_seconds": 69.9
+ }
+}

@@ -1,26 +1,59 @@
 {
  "row_id": "r262",
- "scraped_at": "2026-11-10T07:59:29Z",
+ "scraped_at": "2026-11-11T19:01:21Z",
  "contacts": {
   "row_id": "r262",
   "institution_name": "DE GEMMIS",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://iissvoltadegemmis.edu.it/",
   "country": null,
-  "phone": null,
-  "contact": null,
+  "phone": {
+   "value": "080/3714524",
+   "source_url": "https://iissvoltadegemmis.edu.it/",
+   "evidence_quote": "MIM Cod. Mecc. BAIS06700A 080/3714524 <tel 080/3714524> bais06700a@istruzione.it <bais06700a@istruzione.it> bais06700a@pec.istruzione.it <bais06700a@pec.istruzione.it>"
+  },
+  "phone_alt": [],
+  "generic_email": "bais06700a@istruzione.it",
+  "generic_email_url": "https://iissvoltadegemmis.edu.it/",
+  "contact": {
+   "name": "AVVISO PUBBLICO PER STUDENTI",
+   "designation": "2024-IT01-KA121-VET-000200140 DECRETO NOMINA REFERENTE ERASMUS",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://iissvoltadegemmis.edu.it/novita/erasmus/",
+   "evidence_quote": "2024-IT01-KA121-VET-000200140 AVVISO PUBBLICO PER STUDENTI E MANIFESTAZIONE INTERESSE COME ACCOMPAGNATORE ... 2024-IT01-KA121-VET-000200140 DECRETO NOMINA REFERENTE ERASMUS"
+  },
   "alternates": [],
-  "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "rung": "Institutional Erasmus+ coordinator. found next to a role keyword on the institution's own page (rules-based)",
+  "source": "web",
+  "confidence": 0.8,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 10.0,
-  "total_seconds": 10.0
+  "discover_s": 0.0,
+  "crawl_s": 21.9,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "email_search_s": 30.8,
+  "total_seconds": 52.7
  }
 }

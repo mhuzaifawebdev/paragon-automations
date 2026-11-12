@@ -1,26 +1,55 @@
 {
  "row_id": "r044",
- "scraped_at": "2026-11-10T01:35:00Z",
+ "scraped_at": "2026-11-11T18:54:19Z",
  "contacts": {
   "row_id": "r044",
   "institution_name": "IC VR 15 BORGO VENEZIA",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://ic15verona.edu.it",
   "country": null,
   "phone": null,
-  "contact": null,
+  "phone_alt": [],
+  "generic_email": "vric89000v@istruzione.it",
+  "generic_email_url": "https://ic15verona.edu.it",
+  "contact": {
+   "name": "Istituto Comprensivo VR",
+   "designation": "Il 10 ottobre, una piccola rappresentanza di bambini di quarta e quinta primaria del nostro Istituto, accompagnata dalla",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://ic15verona.edu.it/erasmus-days/",
+   "evidence_quote": "Erasmus Days – Istituto Comprensivo VR 15 Borgo Venezia – Verona ... Il 10 ottobre, una piccola rappresentanza di bambini di quarta e quinta primaria del nostro Istituto, accompagnata dalla dirigente scolastica, Patrizia Muscolino, dalla prima collaboratrice, Germana Gottardi, dalle referenti Erasmus, Natascia Aru e Fiorella Campedelli e da una rappresentante degli insegnanti del nostro istituto, Demetra Cipolla, sono andati all’ “Erasmus Days”, un convegno provinciale organizzato presso l’Educandato agli Angeli, con tanta emozione."
+  },
   "alternates": [],
-  "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "rung": "Institutional Erasmus+ coordinator. found next to a role keyword on the institution's own page (rules-based)",
+  "source": "web",
+  "confidence": 0.8,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 5,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 1 page(s) could not be read."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 5,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 12.0,
-  "total_seconds": 12.0
+  "discover_s": 0.0,
+  "crawl_s": 14.0,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "email_search_s": 22.1,
+  "total_seconds": 36.2
  }
 }

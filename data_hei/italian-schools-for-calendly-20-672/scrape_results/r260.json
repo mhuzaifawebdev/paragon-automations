@@ -1,27 +1,49 @@
 {
  "row_id": "r260",
- "scraped_at": "2026-11-10T07:59:28Z",
+ "scraped_at": "2026-11-11T19:00:40Z",
  "contacts": {
   "row_id": "r260",
   "institution_name": "GROTTAMINARDA",
-  "institution_type": "unknown",
-  "official_website": "http://www.comunedigrottaminarda.it/",
+  "institution_type": "university",
+  "official_website": "https://www.iissgrottaminarda.edu.it",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "+39 0825 164 35 44",
+   "source_url": "https://www.iissgrottaminarda.edu.it",
+   "evidence_quote": "+39 0825 164 35 44"
+  },
+  "phone_alt": [],
+  "generic_email": "avis01300c@istruzione.it",
+  "generic_email_url": "https://www.iissgrottaminarda.edu.it",
   "contact": null,
   "alternates": [],
   "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "source": "web",
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website could not be read: http://www.comunedigrottaminarda.it/ (URLError: <urlopen error [Errno -2] Name or service not known>)"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 9.2,
-  "crawl_s": 1.0,
-  "total_seconds": 10.2
+  "discover_s": 0.0,
+  "crawl_s": 14.9,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 14.9
  }
 }

@@ -1,11 +1,11 @@
 {
  "row_id": "r039",
- "scraped_at": "2026-11-10T16:13:07Z",
+ "scraped_at": "2026-11-11T19:16:36Z",
  "contacts": {
   "row_id": "r039",
   "institution_name": "IC \"VIA F. LAPARELLI 60\"",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.icvialaparelli.edu.it/",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "notes": "Website could not be read: https://www.icvialaparelli.edu.it/ (URLError: <urlopen error [Errno 11001] getaddrinfo failed>) Register: IC \"VIA F. LAPARELLI 60\" (RMIC8CK00B), PEC rmic8ck00b@pec.istruzione.it.",
+  "generic_email": "RMIC8CK00B@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 11.0,
-  "total_seconds": 11.0
+  "discover_s": 0.0,
+  "crawl_s": 0.3,
+  "total_seconds": 0.3
  }
 }

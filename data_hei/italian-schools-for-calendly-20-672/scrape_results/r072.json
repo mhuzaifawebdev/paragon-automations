@@ -1,11 +1,11 @@
 {
  "row_id": "r072",
- "scraped_at": "2026-11-10T01:36:43Z",
+ "scraped_at": "2026-11-11T18:54:19Z",
  "contacts": {
   "row_id": "r072",
   "institution_name": "ISTITUTO COMPRENSIVO FABRIZIA",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.ictedeschi.gov.it",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "notes": "Website could not be read: https://www.ictedeschi.gov.it (URLError: <urlopen error [Errno 11001] getaddrinfo failed>) Register: IC A. TEDESCHI S.S.B. FABRIZIA (VVIC824005), PEC vvic824005@pec.istruzione.it.",
+  "generic_email": "VVIC824005@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 4.0,
-  "total_seconds": 4.0
+  "discover_s": 0.0,
+  "crawl_s": 0.3,
+  "total_seconds": 0.3
  }
 }

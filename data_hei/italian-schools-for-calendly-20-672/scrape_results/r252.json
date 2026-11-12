@@ -1,26 +1,59 @@
 {
  "row_id": "r252",
- "scraped_at": "2026-11-10T07:57:55Z",
+ "scraped_at": "2026-11-11T19:00:59Z",
  "contacts": {
   "row_id": "r252",
   "institution_name": "G.GIOVAGNOLI'",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.superiorisansepolcro.edu.it",
   "country": null,
-  "phone": null,
-  "contact": null,
+  "phone": {
+   "value": "0575 741405",
+   "source_url": "https://www.superiorisansepolcro.edu.it/servizio/mobilita-internazionale/",
+   "evidence_quote": "0575 741405 <tel +390575 741405>"
+  },
+  "phone_alt": [],
+  "generic_email": "aris00200r@istruzione.it",
+  "generic_email_url": "https://www.superiorisansepolcro.edu.it",
+  "contact": {
+   "name": "Liceo Città",
+   "designation": "Ai referenti Erasmus+ settore School di ciascun istituto",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.superiorisansepolcro.edu.it/wp-content/uploads/2026/11/Circolare-n.-126-Diffusione-della-Graduatoria-provvisoria-Erasmus-school-Docenti-e-Ata-signed.pdf",
+   "evidence_quote": "Liceo Città di Sansepolcro, Sansepolcro ... Ai referenti Erasmus+ settore School di ciascun istituto"
+  },
   "alternates": [],
-  "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "rung": "Institutional Erasmus+ coordinator. found next to a role keyword on the institution's own page (rules-based)",
+  "source": "web",
+  "confidence": 0.8,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 5.0,
-  "total_seconds": 5.0
+  "discover_s": 0.0,
+  "crawl_s": 25.2,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "email_search_s": 22.1,
+  "total_seconds": 47.3
  }
 }

@@ -1,11 +1,11 @@
 {
  "row_id": "r041",
- "scraped_at": "2026-11-10T01:34:57Z",
+ "scraped_at": "2026-11-11T18:53:35Z",
  "contacts": {
   "row_id": "r041",
   "institution_name": "IC VR 16 VALPANTENA",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.ic16verona.edu.it",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "notes": "Website could not be read: https://www.ic16verona.edu.it (URLError: <urlopen error [Errno 11001] getaddrinfo failed>) Register: IC VR 16-17 VALPANTENA MONTORIO (VRIC887003), PEC vric887003@pec.istruzione.it.",
+  "generic_email": "VRIC887003@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 12.0,
-  "total_seconds": 12.0
+  "discover_s": 0.0,
+  "crawl_s": 0.3,
+  "total_seconds": 0.3
  }
 }

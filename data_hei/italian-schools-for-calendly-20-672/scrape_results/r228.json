@@ -1,135 +1,49 @@
 {
  "row_id": "r228",
- "scraped_at": "2026-11-10T07:57:57Z",
+ "scraped_at": "2026-11-11T18:59:41Z",
  "contacts": {
   "row_id": "r228",
   "institution_name": "I.I.S. \"DON MICHELE ARENA\"",
-  "institution_type": "school",
-  "official_website": "https://www.iissarena.edu.it/",
+  "institution_type": "university",
+  "official_website": "https://www.iissarena.edu.it",
   "country": null,
   "phone": {
    "value": "0925 22510",
-   "source_url": "https://www.iissarena.edu.it/",
+   "source_url": "https://www.iissarena.edu.it",
    "evidence_quote": "Tel. 0925 22510 - Fax 0925 24247"
   },
   "phone_alt": [],
-  "generic_email": "",
-  "generic_email_url": "",
-  "contact": {
-   "name": "Giuseppe Marchetta",
-   "designation": "System Administrator and Website Manager",
-   "designation_local": "",
-   "email": "",
-   "office_email": "",
-   "phone": "",
-   "source_url": "https://www.iissarena.edu.it/images/documenti/doc2022_23/DS%20e%20Organigramma%20staff%20as%202022_23.pdf",
-   "evidence_quote": " Marchetta Giuseppe (Amministratore di Sistema, responsabile infrastrutture ICT e RE Argo)"
-  },
-  "alternates": [
-   {
-    "name": "Leonardo Vaccaro",
-    "designation": "Head of Prevention and Protection Service",
-    "designation_local": "",
-    "email": "",
-    "office_email": "",
-    "phone": "",
-    "source_url": "https://www.iissarena.edu.it/organigramma.html",
-    "evidence_quote": "Responsabile del Servizio di Prevenzione e Protezione: prof. Leonardo Vaccaro",
-    "why_chosen": "Other role. He is the person responsible for safety and protection at the institution."
-   }
-  ],
-  "rung": "Secretary / administration (last resort). He is the administrator of the school's website and ICT infrastructure.",
+  "generic_email": "AGIS01600N@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
   "source": "web",
-  "confidence": 0.3,
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 10,
-  "notes": "site found via: web search (DuckDuckGo). mode: gemini. 4 page(s) could not be read."
+  "pages_read": 9,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 6 page(s) could not be read. Register: IIS - DON MICHELE ARENA (AGIS01600N), PEC agis01600n@pec.istruzione.it."
  },
  "network": {
-  "external_collaboration": [
-   {
-    "partner_name": "Università degli Studi di Palermo",
-    "partner_country": "Italy",
-    "partner_type": "university",
-    "mobility_type": "unknown",
-    "source_url": "https://www.iissarena.edu.it/",
-    "evidence_quote": "Martedì 10 febbraio le classi 5ªC MAT e 5ªB MAT del plesso Miraglia hanno visitato il Dipartimento di Ingegneria dell’Università degli Studi di Palermo, partecipando al corso “Applicazioni di impianti solari termici in ambito urbano”.",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "ATV",
-    "partner_country": "Italy",
-    "partner_type": "company",
-    "mobility_type": "traineeship",
-    "source_url": "https://www.iissarena.edu.it/",
-    "evidence_quote": "ATV società leader nel settore Tecnolgie Meccaniche Oil & Gas",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "Michelangelo Srl",
-    "partner_country": "Italy",
-    "partner_type": "company",
-    "mobility_type": "traineeship",
-    "source_url": "https://www.iissarena.edu.it/",
-    "evidence_quote": "Formazione gratuita presso Michelangelo Srl a Somma Vesuviana (NA)",
-    "confidence": 0.9
-   },
-   {
-    "partner_name": "ALSTOM",
-    "partner_country": "Italy",
-    "partner_type": "company",
-    "mobility_type": "traineeship",
-    "source_url": "https://www.iissarena.edu.it/",
-    "evidence_quote": "Lavora con ALSTOM: nuove opportunità per diplomati",
-    "confidence": 0.9
-   }
-  ],
-  "internal_collaboration": [
-   {
-    "campus_name": "Sede centrale",
-    "city": "Sciacca",
-    "country": "Italy",
-    "role": "main",
-    "source_url": "https://www.iissarena.edu.it/",
-    "evidence_quote": "Sede: Via Nenni Sciacca - Tel. 0925 22510"
-   },
-   {
-    "campus_name": "Plesso di Corso Miraglia",
-    "city": "Sciacca",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.iissarena.edu.it/",
-    "evidence_quote": "Plesso di Corso Miraglia Sciacca - Tel. 0925 22239"
-   },
-   {
-    "campus_name": "Plesso di Via Eta",
-    "city": "Menfi",
-    "country": "Italy",
-    "role": "branch",
-    "source_url": "https://www.iissarena.edu.it/",
-    "evidence_quote": "Plesso di Via Eta Menfi - Tel. 0925 74214"
-   }
-  ],
+  "external_collaboration": [],
+  "internal_collaboration": [],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
-  "total_seen": 4,
-  "pages_read": 10,
-  "coverage_note": "The evidence does not contain a formal list of Erasmus+ partners or international mobility agreements. The institution mentions participation in international projects and mobility, but specific partner names for these programs are not listed. 4 page(s) could not be read.",
+  "total_seen": 0,
+  "pages_read": 9,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 6 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 3.9,
-  "crawl_s": 19.4,
-  "ai_calls": 2,
-  "partner_calls": 0,
-  "cost_usd_estimate": 0.0,
-  "model_s": 3.8,
-  "mode": "gemini",
-  "contact_pass": 2,
-  "email_search_s": 1.2,
-  "total_seconds": 35.8
+  "discover_s": 0.0,
+  "crawl_s": 20.3,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 20.3
  }
 }

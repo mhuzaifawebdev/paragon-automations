@@ -1,26 +1,49 @@
 {
  "row_id": "r097",
- "scraped_at": "2026-11-10T21:57:11Z",
+ "scraped_at": "2026-11-11T19:18:36Z",
  "contacts": {
   "row_id": "r097",
   "institution_name": "I.C. ALTAVILLA S.GIOVANNI XXIII",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.icaltavillasilentina.edu.it",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "0828 982029",
+   "source_url": "https://www.icaltavillasilentina.edu.it",
+   "evidence_quote": "Centralino: 0828 982029 <tel 0828982029>"
+  },
+  "phone_alt": [],
+  "generic_email": "saic83300p@istruzione.it",
+  "generic_email_url": "https://www.icaltavillasilentina.edu.it",
   "contact": null,
   "alternates": [],
   "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "source": "web",
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 4.9,
-  "total_seconds": 4.9
+  "discover_s": 0.0,
+  "crawl_s": 15.2,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 15.2
  }
 }

@@ -1,0 +1,107 @@
+{
+ "row_id": "r036",
+ "scraped_at": "2026-11-11T16:00:44Z",
+ "contacts": {
+  "row_id": "r036",
+  "institution_name": "AKADEMIA SZTUK PIEKNYCH W WARSZAWIE",
+  "institution_type": "university",
+  "official_website": "https://wkirds.asp.waw.pl/en/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "",
+  "generic_email_url": "",
+  "contact": {
+   "name": "Anna Dorota Potocka",
+   "designation": "Head of Research Team",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://wkirds.asp.waw.pl/badania-historyczne-i-konserwatorskie-zespolu-obrazow-oltarzowych-i-fundacyjnych-xvii-xix-w-z-kosciola-akademickiego-sw-anny-w-warszawie/",
+   "evidence_quote": "Kierownik zespołu badawczego: prof. ASP dr hab. Anna Dorota Potocka"
+  },
+  "alternates": [
+   {
+    "name": "Izabela Zając",
+    "designation": "Project Leader",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://wkirds.asp.waw.pl/zespol-projektowy/",
+    "evidence_quote": "dr hab Izabela Zając, prof Uczelni - kierownik projektu",
+    "why_chosen": "Other role. Izabela Zając is a university professor and project leader at Akademia Sztuk Pięknych w Warszawie."
+   }
+  ],
+  "rung": "Other role. Anna Dorota Potocka is a university professor and head of a research team at the institution.",
+  "source": "web",
+  "confidence": 0.3,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: gemini."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "Muzeum Dziedzictwa Sakralnego w Wilnie",
+    "partner_country": "Lithuania",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://wkirds.asp.waw.pl/projekt-prace-dokumentacyjno-konserwatorskie-przy-zespole-ubiorow-i-fragmentow-tkanin-pochodzacych-z-pochowkow-w-kryptach-kosciola-sw-ducha-w-wilnie-etap-ii/",
+    "evidence_quote": "Kościół św. Ducha w Wilnie nie dysponuje pomieszczeniami magazynowymi i ekspozycyjnymi. Dlatego w ramach projektu nawiązano współpracę z Muzeum Dziedzictwa Sakralnego w Wilnie, do którego cały zespół archeologicznych tekstyliów został przekazany jako depozyt. Obiekty trafiły do powierzchni magazynowych Muzeum, gdzie będą przechowywane w stabilnych warunkach temperaturowo-wilgotnościowych.",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Instytut Sztuki PAN",
+    "partner_country": "Poland",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://wkirds.asp.waw.pl/badania-historyczne-i-konserwatorskie-zespolu-obrazow-oltarzowych-i-fundacyjnych-xvii-xix-w-z-kosciola-akademickiego-sw-anny-w-warszawie/",
+    "evidence_quote": "Projekt będzie stanowił platformę dla współpracy i interdyscyplinarnych badań kadry dydaktycznej ASP: artystów konserwatorów dzieł sztuki oraz historyków sztuki a także pracowników Instytutu Sztuki PAN, gdzie prowadzone są badania i dokumentacja zabytków w ramach Katalogu Zabytków Sztuki w Polsce. W ramach zakładanego projektu badawczego planowana jest współpraca z Wydziałem Zarządzania Kulturą Wizualną ASP w Warszawie, Instytutem Sztuki PAN w Warszawie, Laboratorium Badawczym WKiRDS, Międzyucze",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Wydział Zarządzania Kulturą Wizualną ASP w Warszawie",
+    "partner_country": "Poland",
+    "partner_type": "university",
+    "mobility_type": "unknown",
+    "source_url": "https://wkirds.asp.waw.pl/badania-historyczne-i-konserwatorskie-zespolu-obrazow-oltarzowych-i-fundacyjnych-xvii-xix-w-z-kosciola-akademickiego-sw-anny-w-warszawie/",
+    "evidence_quote": "Projekt będzie stanowił platformę dla współpracy i interdyscyplinarnych badań kadry dydaktycznej ASP: artystów konserwatorów dzieł sztuki oraz historyków sztuki a także pracowników Instytutu Sztuki PAN, gdzie prowadzone są badania i dokumentacja zabytków w ramach Katalogu Zabytków Sztuki w Polsce. W ramach zakładanego projektu badawczego planowana jest współpraca z Wydziałem Zarządzania Kulturą Wizualną ASP w Warszawie, Instytutem Sztuki PAN w Warszawie, Laboratorium Badawczym WKiRDS, Międzyucze",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [
+   {
+    "campus_name": "Akademia Sztuk Pięknych w Warszawie",
+    "city": "Warszawa",
+    "country": "Poland",
+    "role": "main",
+    "source_url": "https://wkirds.asp.waw.pl/zespol/",
+    "evidence_quote": "ul. Krakowskie Przedmieście 5,"
+   }
+  ],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "The evidence does not provide a formal list of Erasmus+ partners or a dedicated international office contact. Information is limited to project-based collaborations.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 0.0,
+  "crawl_s": 20.0,
+  "thin_home": true,
+  "ai_calls": 2,
+  "partner_calls": 0,
+  "cost_usd_estimate": 0.0,
+  "model_s": 2.5,
+  "mode": "gemini",
+  "contact_pass": 2,
+  "email_search_s": 5.8,
+  "total_seconds": 67.9
+ }
+}

@@ -1,11 +1,11 @@
 {
  "row_id": "r053",
- "scraped_at": "2026-11-10T21:52:55Z",
+ "scraped_at": "2026-11-11T19:17:12Z",
  "contacts": {
   "row_id": "r053",
   "institution_name": "IC MONDAINO",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.icmondaino.edu.it",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "notes": "Website could not be read: https://www.icmondaino.edu.it (HTTP 503) Register: IC MONDAINO (RNIC80200D), PEC rnic80200d@pec.istruzione.it.",
+  "generic_email": "RNIC80200D@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 6.3,
-  "total_seconds": 6.3
+  "discover_s": 0.0,
+  "crawl_s": 2.3,
+  "total_seconds": 2.3
  }
 }

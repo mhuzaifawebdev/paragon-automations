@@ -1,27 +1,59 @@
 {
  "row_id": "r051",
- "scraped_at": "2026-11-10T01:37:31Z",
+ "scraped_at": "2026-11-11T18:54:41Z",
  "contacts": {
   "row_id": "r051",
   "institution_name": "MONTALTO DI CASTRO",
   "institution_type": "unknown",
-  "official_website": "http://www.comune.montaltodicastro.vt.it/",
+  "official_website": "https://www.icmontaltodicastro.edu.it",
   "country": null,
-  "phone": null,
-  "contact": null,
+  "phone": {
+   "value": "0766 870174",
+   "source_url": "https://www.icmontaltodicastro.edu.it",
+   "evidence_quote": "Via G. Cesare, snc - Montalto di Castro (VT) | Telefono: 0766 870174 <tel 0766870174> | E-mail: VTIC805005@istruzione.it <VTIC805005@istruzione.it> | Pec: VTIC805005@pec.istruzione.it <VTIC805005@pec.istruzione.it>"
+  },
+  "phone_alt": [],
+  "generic_email": "vtic805005@istruzione.it",
+  "generic_email_url": "https://www.icmontaltodicastro.edu.it",
+  "contact": {
+   "name": "Valeria Capuzzi",
+   "designation": "Le referenti Erasmus",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.icmontaltodicastro.edu.it/un-viaggio-educativo-lesperienza-erasmus-degli-studenti-a-budapest/",
+   "evidence_quote": "Le referenti Erasmus ... Prof.ssa Valeria Capuzzi"
+  },
   "alternates": [],
-  "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "rung": "Institutional Erasmus+ coordinator. found next to a role keyword on the institution's own page (rules-based)",
+  "source": "web",
+  "confidence": 0.8,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website could not be read: http://www.comune.montaltodicastro.vt.it/ (URLError: <urlopen error timed out>)"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 1 page(s) could not be read."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 58.8,
-  "crawl_s": 25.2,
-  "total_seconds": 84.1
+  "discover_s": 0.1,
+  "crawl_s": 24.4,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "email_search_s": 22.4,
+  "total_seconds": 47.0
  }
 }

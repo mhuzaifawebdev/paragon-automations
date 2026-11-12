@@ -67,7 +67,7 @@ def institute_row(result, batch):
     """One line of the Institutes view: counts only, no people or addresses (the page is public)."""
     c = result.get("contacts") or {}
     n = institute_counts(result)
-    line = {"name": " ".join(str(c.get("institution_name") or "").strip(" \"'").split()), "country": (c.get("country") or {}).get("value") or "",
+    line = {"name": " ".join(str(c.get("institution_name") or "").strip(" \"'").split()), "country": (c.get("country") if isinstance(c.get("country"), str) else (c.get("country") or {}).get("value")) or "",
             "type": c.get("institution_type") or "", "batch": batch, "campuses": n["campuses"], "partners": n["partners"],
             "website": n["with_website"],
             # what the row already counts on its own, so a re-check never counts it a second time

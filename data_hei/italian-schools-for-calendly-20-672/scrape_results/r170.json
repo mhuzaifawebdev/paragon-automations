@@ -1,24 +1,37 @@
 {
  "row_id": "r170",
- "scraped_at": "2026-11-10T01:44:34Z",
+ "scraped_at": "2026-11-11T18:58:42Z",
  "contacts": {
   "row_id": "r170",
   "institution_name": "FAEDIS",
   "institution_type": "unknown",
-  "official_website": "https://www.comune.faedis.ud.it/",
+  "official_website": "https://icfaedis.edu.it/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "827004 0432 728014",
+   "source_url": "https://icfaedis.edu.it/",
+   "evidence_quote": "MIM Cod. Mecc. UDIC827004 0432 728014 <tel 0432 728014> udic827004@istruzione.it <udic827004@istruzione.it> udic827004@pec.istruzione.it <udic827004@pec.istruzione.it>"
+  },
   "phone_alt": [],
-  "generic_email": "",
-  "generic_email_url": "",
-  "contact": null,
+  "generic_email": "udic827004@istruzione.it",
+  "generic_email_url": "https://icfaedis.edu.it/",
+  "contact": {
+   "name": "Česká Lípa",
+   "designation": "Docente di inglese presso la Scuola Secondaria di 1°",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://icfaedis.edu.it/wp-content/uploads/sites/837/Elena-Modesti-Presentazione-Progetto-Erasmus-ka1-_TIE-Training-in-Europe_-.pdf?x95910",
+   "evidence_quote": "Klíč s.r.o., Klášterní 2490, Česká Lípa, Czech Republic ... Docente di inglese presso la Scuola Secondaria di 1°"
+  },
   "alternates": [],
-  "rung": "",
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). found next to a role keyword on the institution's own page (rules-based)",
   "source": "web",
-  "confidence": 0.2,
+  "confidence": 0.4,
   "needs_human_check": true,
-  "pages_read": 7,
-  "notes": "site found via: Wikidata. mode: gemini."
+  "pages_read": 8,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [],
@@ -28,21 +41,19 @@
   "stated_total_url": "",
   "truncated": false,
   "total_seen": 0,
-  "pages_read": 7,
-  "coverage_note": "The provided evidence contains no information about institution type, country, contacts, partners, or campuses.",
+  "pages_read": 8,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 14.3,
-  "crawl_s": 10.8,
-  "thin_home": true,
-  "ai_calls": 2,
-  "partner_calls": 0,
-  "cost_usd_estimate": 0.0,
-  "model_s": 7.1,
-  "mode": "gemini",
-  "contact_pass": 0,
-  "total_seconds": 40.6
+  "discover_s": 0.0,
+  "crawl_s": 23.7,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "email_search_s": 22.2,
+  "total_seconds": 45.9
  }
 }

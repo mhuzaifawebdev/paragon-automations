@@ -1,0 +1,78 @@
+{
+ "row_id": "r321",
+ "scraped_at": "2026-11-11T17:31:34Z",
+ "contacts": {
+  "row_id": "r321",
+  "institution_name": "Staatliche Berufsschule II Bayreuth",
+  "institution_type": "university",
+  "official_website": "https://kbs-bth.de/",
+  "country": null,
+  "phone": null,
+  "phone_alt": [],
+  "generic_email": "kbsbayreuth@kbs-bth.de",
+  "generic_email_url": "https://kbs-bth.de/datenschutzhinweise/",
+  "contact": {
+   "name": "Stefan Mahnke",
+   "designation": "Schulleiter",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://kbs-bth.de/ansprechpartner/schulleitung/",
+   "evidence_quote": "[Stefan Mahnke] ... Schulleiter"
+  },
+  "alternates": [
+   {
+    "name": "Alexandra Fraissinet",
+    "designation": "Stefan Mahnke, Oberstudiendirektor",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://kbs-bth.de/ansprechpartner/schulleitung/",
+    "evidence_quote": "Bild: Alexandra Fraissinet ... Stefan Mahnke, Oberstudiendirektor",
+    "why_chosen": "Principal / director (no Erasmus contact found). found next to a role keyword on the institution's own page (rules-based)"
+   },
+   {
+    "name": "Manuela Stöcker",
+    "designation": "Ständige Vertreterin des Schulleiters",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://kbs-bth.de/ansprechpartner/schulleitung/",
+    "evidence_quote": "[Manuela Stöcker] ... Ständige Vertreterin des Schulleiters",
+    "why_chosen": "Principal / director (no Erasmus contact found). found next to a role keyword on the institution's own page (rules-based)"
+   }
+  ],
+  "rung": "Principal / director (no Erasmus contact found). found next to a role keyword on the institution's own page (rules-based)",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: Wikidata. mode: rules."
+ },
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 3.9,
+  "crawl_s": 10.4,
+  "ai_calls": 0,
+  "model_s": 0.1,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "email_search_s": 22.1,
+  "total_seconds": 36.5
+ }
+}

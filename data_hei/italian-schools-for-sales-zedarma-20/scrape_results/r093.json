@@ -1,26 +1,49 @@
 {
  "row_id": "r093",
- "scraped_at": "2026-11-10T21:57:07Z",
+ "scraped_at": "2026-11-11T19:18:12Z",
  "contacts": {
   "row_id": "r093",
   "institution_name": "IST.COMPR. GIFFONI SEI CASALI",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.icsanciprianopicentino.edu.it",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "0892096584",
+   "source_url": "https://www.icsanciprianopicentino.edu.it",
+   "evidence_quote": "Indirizzo: Via Domenico Amato, 2 - 84099 – San Cipriano Picentino (Sa)Centralino: 0892096584 <tel 0892096584>"
+  },
+  "phone_alt": [],
+  "generic_email": "saic87700c@istruzione.it",
+  "generic_email_url": "https://www.icsanciprianopicentino.edu.it",
   "contact": null,
   "alternates": [],
   "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "source": "web",
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 1 page(s) could not be read."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 5.1,
-  "total_seconds": 5.1
+  "discover_s": 0.0,
+  "crawl_s": 18.3,
+  "ai_calls": 0,
+  "model_s": 0.1,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 18.4
  }
 }

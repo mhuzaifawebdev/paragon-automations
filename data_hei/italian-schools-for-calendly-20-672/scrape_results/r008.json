@@ -1,11 +1,11 @@
 {
  "row_id": "r008",
- "scraped_at": "2026-11-10T01:33:32Z",
+ "scraped_at": "2026-11-11T18:52:58Z",
  "contacts": {
   "row_id": "r008",
   "institution_name": "IC MONTEFORTE D'ALPONE",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.istruzionemonteforte.edu.it/myportal/ISTSC_VR/home",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "notes": "Website could not be read: https://www.istruzionemonteforte.edu.it/myportal/ISTSC_VR/home (HTTP 500) Register: IC MONTEFORTE D'ALPONE (VRIC844005), PEC vric844005@pec.istruzione.it.",
+  "generic_email": "VRIC844005@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 6.0,
-  "total_seconds": 6.0
+  "discover_s": 0.0,
+  "crawl_s": 2.0,
+  "total_seconds": 2.0
  }
 }

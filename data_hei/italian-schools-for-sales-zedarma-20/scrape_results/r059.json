@@ -1,26 +1,67 @@
 {
  "row_id": "r059",
- "scraped_at": "2026-11-10T21:53:07Z",
+ "scraped_at": "2026-11-11T19:17:50Z",
  "contacts": {
   "row_id": "r059",
   "institution_name": "IC BELLARIA",
-  "institution_type": "unknown",
-  "official_website": "",
+  "institution_type": "school",
+  "official_website": "https://www.alberghieromalatestarimini.edu.it",
   "country": null,
   "phone": null,
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "none",
-  "confidence": 0,
-  "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "phone_alt": [],
+  "generic_email": "rnrh030001@istruzione.it",
+  "generic_email_url": "https://www.alberghieromalatestarimini.edu.it",
+  "contact": {
+   "name": "Hotel Gianfranco",
+   "designation": "Posizione ricercata: reception",
+   "designation_local": "",
+   "email": "santannahotelrimini@gmail.com",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.alberghieromalatestarimini.edu.it/servizio/job-board-accoglienza/",
+   "evidence_quote": "Azienda/Datore: Hotel Gianfranco ... Posizione ricercata: reception"
+  },
+  "alternates": [
+   {
+    "name": "Lido San Giuliano",
+    "designation": "Posizione ricercata: receptionist",
+    "designation_local": "",
+    "email": "rosannaamadei75@gmail.com",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://www.alberghieromalatestarimini.edu.it/servizio/job-board-accoglienza/",
+    "evidence_quote": "Azienda/Datore: Lido San Giuliano ... Posizione ricercata: receptionist",
+    "why_chosen": "Secretary / administration (last resort). found next to a role keyword on the institution's own page (rules-based)"
+   }
+  ],
+  "rung": "Secretary / administration (last resort). found next to a role keyword on the institution's own page (rules-based)",
+  "source": "web",
+  "confidence": 0.45,
+  "needs_human_check": false,
+  "pages_read": 8,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 2 page(s) could not be read."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 8,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 2 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 10.0,
-  "total_seconds": 10.0
+  "discover_s": 0.0,
+  "crawl_s": 23.0,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "email_search_s": 0.0,
+  "total_seconds": 23.1
  }
 }

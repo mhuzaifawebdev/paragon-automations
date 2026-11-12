@@ -1,11 +1,11 @@
 {
  "row_id": "r100",
- "scraped_at": "2026-11-10T01:38:46Z",
+ "scraped_at": "2026-11-11T18:55:12Z",
  "contacts": {
   "row_id": "r100",
   "institution_name": "LICEO LAURA BASSI",
   "institution_type": "unknown",
-  "official_website": "https://laurabassi.edu.it/",
+  "official_website": "https://www.laurabassi.edu.it",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,13 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website could not be read: https://laurabassi.edu.it/ (blocked by robots.txt - do not fetch this page)"
+  "notes": "Website could not be read: https://www.laurabassi.edu.it (HTTP 509) Register: LICEO LAURA BASSI (BOPM030005), PEC bopm030005@pec.istruzione.it.",
+  "generic_email": "BOPM030005@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 8.5,
-  "crawl_s": 0.0,
-  "total_seconds": 8.5
+  "discover_s": 0.0,
+  "crawl_s": 2.4,
+  "total_seconds": 2.4
  }
 }

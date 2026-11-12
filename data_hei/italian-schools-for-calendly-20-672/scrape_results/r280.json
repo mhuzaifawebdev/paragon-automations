@@ -1,26 +1,45 @@
 {
  "row_id": "r280",
- "scraped_at": "2026-11-10T08:01:31Z",
+ "scraped_at": "2026-11-11T19:02:34Z",
  "contacts": {
   "row_id": "r280",
   "institution_name": "I.P.S.S.C.T.S.P. \"MONS. ANTONIO BELLO\"",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.luigidellerba.edu.it/",
   "country": null,
   "phone": null,
+  "phone_alt": [],
+  "generic_email": "bais07900l@istruzione.it",
+  "generic_email_url": "https://www.luigidellerba.edu.it/",
   "contact": null,
   "alternates": [],
   "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "source": "web",
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 2.5,
-  "total_seconds": 2.5
+  "discover_s": 0.0,
+  "crawl_s": 5.2,
+  "ai_calls": 0,
+  "model_s": 0.1,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 5.4
  }
 }

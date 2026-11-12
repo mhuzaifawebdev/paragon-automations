@@ -248,6 +248,10 @@ def merge(rows):
         else:
             res = json.loads(f.read_text(encoding="utf-8"))
         c = res.get("contacts") or {}
+        # some re-read passes stored the country / phone as plain text: same shape as the scraper's {value, source_url}
+        for k in ("country", "phone"):
+            if isinstance(c.get(k), str):
+                c[k] = {"value": c[k], "source_url": ""}
         ct = c.get("contact") or {}
         site = c.get("official_website") or ""
         country = (c.get("country") or {}).get("value") or ""

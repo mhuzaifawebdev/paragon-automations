@@ -1,65 +1,49 @@
 {
  "row_id": "r068",
- "scraped_at": "2026-11-10T21:54:14Z",
+ "scraped_at": "2026-11-11T19:18:04Z",
  "contacts": {
   "row_id": "r068",
   "institution_name": "TRECENTA",
   "institution_type": "unknown",
-  "official_website": "https://www.comune.trecenta.ro.it/",
+  "official_website": "https://icbadiatrecenta.edu.it/",
   "country": null,
-  "phone": null,
-  "phone_alt": [],
-  "generic_email": "",
-  "generic_email_url": "",
-  "contact": {
-   "name": "Simone Spirandelli",
-   "designation": "Head of Procedure for Library, Culture and Education",
-   "designation_local": "",
-   "email": "",
-   "office_email": "",
-   "phone": "",
-   "source_url": "https://www.comune.trecenta.ro.it/amministrazione/personale-amministrativo/",
-   "evidence_quote": "Simone Spirandelli ... Responsabile di procedimento Biblioteca, Cultura - Istruzione"
+  "phone": {
+   "value": "042551368",
+   "source_url": "https://icbadiatrecenta.edu.it/",
+   "evidence_quote": "MIM 042551368 <tel 042551368> roic816004@istruzione.it <roic816004@istruzione.it> Cod. Mecc. ROIC816004 roic816004@pec.istruzione.it <roic816004@pec.istruzione.it>"
   },
+  "phone_alt": [],
+  "generic_email": "roic816004@istruzione.it",
+  "generic_email_url": "https://icbadiatrecenta.edu.it/",
+  "contact": null,
   "alternates": [],
-  "rung": "Secretary / administration (last resort). Simone Spirandelli oversees education and culture procedures for the municipality.",
+  "rung": "",
   "source": "web",
-  "confidence": 0.3,
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 5,
-  "notes": "site found via: Wikidata. mode: gemini."
+  "pages_read": 8,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 1 page(s) could not be read."
  },
  "network": {
   "external_collaboration": [],
-  "internal_collaboration": [
-   {
-    "campus_name": "Comune di Trecenta",
-    "city": "Trecenta",
-    "country": "Italia",
-    "role": "main",
-    "source_url": "https://www.comune.trecenta.ro.it/",
-    "evidence_quote": "Piazza G.marconi,1 - 45027 Trecenta (RO)"
-   }
-  ],
+  "internal_collaboration": [],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
   "total_seen": 0,
-  "pages_read": 5,
-  "coverage_note": "The institution is a local municipality (Comune di Trecenta) rather than a university, and no international partner list is provided in the evidence.",
+  "pages_read": 8,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 1 page(s) could not be read.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 11.1,
-  "crawl_s": 33.9,
-  "ai_calls": 1,
-  "partner_calls": 0,
-  "cost_usd_estimate": 0.0,
-  "model_s": 5.2,
-  "mode": "gemini",
-  "email_search_s": 5.4,
-  "total_seconds": 55.5
+  "discover_s": 0.0,
+  "crawl_s": 23.8,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 23.8
  }
 }

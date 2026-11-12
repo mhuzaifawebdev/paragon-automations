@@ -1,26 +1,49 @@
 {
  "row_id": "r132",
- "scraped_at": "2026-11-10T01:42:07Z",
+ "scraped_at": "2026-11-11T18:56:33Z",
  "contacts": {
   "row_id": "r132",
   "institution_name": "ALESSANDRO MANZONI",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.iismanzoni.edu.it/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "182 98073",
+   "source_url": "https://www.iismanzoni.edu.it/",
+   "evidence_quote": "Via Nazionale 182 98073 Mistretta (ME) | Tel. 0921 381135| mail: MEIS001004@istruzione.it| pec: meis001004@pec.istruzione.it"
+  },
+  "phone_alt": [],
+  "generic_email": "meis001004@istruzione.it",
+  "generic_email_url": "https://www.iismanzoni.edu.it/",
   "contact": null,
   "alternates": [],
   "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "source": "web",
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 10.2,
-  "total_seconds": 10.2
+  "discover_s": 0.0,
+  "crawl_s": 27.6,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 27.7
  }
 }

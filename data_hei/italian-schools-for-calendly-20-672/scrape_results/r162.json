@@ -1,26 +1,67 @@
 {
  "row_id": "r162",
- "scraped_at": "2026-11-10T01:43:48Z",
+ "scraped_at": "2026-11-11T18:57:56Z",
  "contacts": {
   "row_id": "r162",
   "institution_name": "\"ALBERTINA SANVITALE\"",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://liceosanvitale.org/",
   "country": null,
   "phone": null,
-  "contact": null,
-  "alternates": [],
-  "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "phone_alt": [],
+  "generic_email": "mariacristina.ruozi@liceosanvitale.it",
+  "generic_email_url": "https://liceosanvitale.org/candidature-per-il-progetto-erasmus/",
+  "contact": {
+   "name": "Mariacristina Ruozi",
+   "designation": "La Coordinatrice Erasmus+",
+   "designation_local": "",
+   "email": "",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://liceosanvitale.org/al-via-le-mobilita-erasmus/",
+   "evidence_quote": "La Coordinatrice Erasmus+ ... Mariacristina Ruozi"
+  },
+  "alternates": [
+   {
+    "name": "Alytaus Panemunes",
+    "designation": "Al primo incontro hanno partecipato le Prof.sse Mariacristina Ruozi (Coordinatrice Erasmus+) e Mariasilvia Cicconi; il p",
+    "designation_local": "",
+    "email": "",
+    "office_email": "",
+    "phone": "",
+    "source_url": "https://liceosanvitale.org/apertura-al-mondo-con-erasmus/",
+    "evidence_quote": "Grazie al progetto KA 122 sono state organizzate due group mobilities nel mese di maggio con destinazione Lituania (Alytaus Panemunes progimnazija, Alytus) e Spagna (Centro Publico Integrado O Cruce, Cerceda) ed altrettanti job shadowing; studenti e docenti potranno così conoscere nuove realtà culturali, formative e professionali, avendo la possibilità di partecipare alla vita scolastica nei paesi di destinazione per una settimana. ... Al primo incontro hanno partecipato le Prof.sse Mariacristina Ruozi (Coordinatrice Erasmus+) e Mariasilvia Cicconi; il progetto prevede, oltre alla preparazione di materiali didattici, la creazione di corsi di formazione, la stesura di Business Plans ed una formazione, rivolta agli studenti, sul tema delle Istituzioni Europee.",
+    "why_chosen": "Institutional Erasmus+ coordinator. found next to a role keyword on the institution's own page (rules-based)"
+   }
+  ],
+  "rung": "Institutional Erasmus+ coordinator. found next to a role keyword on the institution's own page (rules-based)",
+  "source": "web",
+  "confidence": 0.8,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 5.0,
-  "total_seconds": 5.0
+  "discover_s": 0.0,
+  "crawl_s": 31.4,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "email_search_s": 22.1,
+  "total_seconds": 53.5
  }
 }

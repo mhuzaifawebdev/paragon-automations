@@ -1,27 +1,49 @@
 {
  "row_id": "r074",
- "scraped_at": "2026-11-10T21:54:00Z",
+ "scraped_at": "2026-11-11T19:18:15Z",
  "contacts": {
   "row_id": "r074",
   "institution_name": "LENDINARA",
   "institution_type": "unknown",
-  "official_website": "http://www.comune.lendinara.ro.it/",
+  "official_website": "https://icslendinara.edu.it/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "0425 641058",
+   "source_url": "https://icslendinara.edu.it/",
+   "evidence_quote": "Tel 0425 641058"
+  },
+  "phone_alt": [],
+  "generic_email": "roic81700x@istruzione.it",
+  "generic_email_url": "https://icslendinara.edu.it/",
   "contact": null,
   "alternates": [],
   "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "source": "web",
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website could not be read: http://www.comune.lendinara.ro.it/ (HTTP 500)"
+  "pages_read": 9,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 4 page(s) could not be read."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 9,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 4 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 3.4,
-  "crawl_s": 1.0,
-  "total_seconds": 4.4
+  "discover_s": 0.0,
+  "crawl_s": 21.8,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 21.8
  }
 }

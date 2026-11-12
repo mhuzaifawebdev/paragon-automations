@@ -1,11 +1,11 @@
 {
  "row_id": "r239",
- "scraped_at": "2026-11-10T07:57:43Z",
+ "scraped_at": "2026-11-11T18:59:34Z",
  "contacts": {
   "row_id": "r239",
   "institution_name": "CIAMPINI - BOCCARDO",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.ciampini-boccardo.gov.it",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "notes": "Website could not be read: https://www.ciampini-boccardo.gov.it ([WinError 5] Access is denied: 'D:\\\\thesocialnexus\\\\magento_automation\\\\data\\\\cache\\\\_last_request.35956.24836.tmp' -> 'D:\\\\thesocialnexus\\\\magento_automation\\\\data\\\\cache\\\\_last_request.json') Register: CIAMPINI - BOCCARDO (ALIS017004), PEC alis017004@pec.istruzione.it.",
+  "generic_email": "ALIS017004@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 9.9,
-  "total_seconds": 9.9
+  "discover_s": 0.0,
+  "crawl_s": 0.6,
+  "total_seconds": 0.6
  }
 }
