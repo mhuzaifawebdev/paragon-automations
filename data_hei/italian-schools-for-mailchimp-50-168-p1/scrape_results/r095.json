@@ -1,26 +1,49 @@
 {
  "row_id": "r095",
- "scraped_at": "2026-11-10T00:50:26Z",
+ "scraped_at": "2026-11-12T07:47:33Z",
  "contacts": {
   "row_id": "r095",
   "institution_name": "ITC-G.CALO'  - FRANCAVILLA F.",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.itesgiovannicalo.edu.it",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "0831852147",
+   "source_url": "https://www.itesgiovannicalo.edu.it",
+   "evidence_quote": "Via Gorizia, 71, 72021 Francavilla Fontana (BR) | Tel. 0831852147 | mail: BRTD01000T@istruzione.it | pec: brtd01000t@pec.istruzione.it"
+  },
+  "phone_alt": [],
+  "generic_email": "brtd01000t@istruzione.it",
+  "generic_email_url": "https://www.itesgiovannicalo.edu.it",
   "contact": null,
   "alternates": [],
   "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "source": "web",
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 5.0,
-  "total_seconds": 5.0
+  "discover_s": 0.0,
+  "crawl_s": 20.2,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 20.3
  }
 }

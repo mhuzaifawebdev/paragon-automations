@@ -1,26 +1,49 @@
 {
  "row_id": "r006",
- "scraped_at": "2026-11-09T17:21:07Z",
+ "scraped_at": "2026-11-12T07:41:41Z",
  "contacts": {
   "row_id": "r006",
   "institution_name": "ARTISTICO \"A.PASSAGLIA\"",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.liceopassaglia.edu.it",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "0583467174",
+   "source_url": "https://www.liceopassaglia.edu.it",
+   "evidence_quote": "Via Fillungo 205 Lucca 55100 (LU) | Telefono: 0583467174 <tel 0583467174> | E-mail: LUSL02000X@istruzione.it <LUSL02000X@istruzione.it> | Pec: LUSL02000X@PEC.ISTRUZIONE.IT <LUSL02000X@PEC.ISTRUZIONE.IT>"
+  },
+  "phone_alt": [],
+  "generic_email": "lusl02000x@liceopassaglia.edu.it",
+  "generic_email_url": "https://www.liceopassaglia.edu.it/servizio/portale-materiali-google-drive-per-docenti-e-ata/",
   "contact": null,
   "alternates": [],
   "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "source": "web",
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 2.2,
-  "total_seconds": 2.2
+  "discover_s": 0.0,
+  "crawl_s": 15.3,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 15.4
  }
 }

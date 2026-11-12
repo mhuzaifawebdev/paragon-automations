@@ -1,27 +1,45 @@
 {
  "row_id": "r033",
- "scraped_at": "2026-11-10T08:08:52Z",
+ "scraped_at": "2026-11-11T19:36:32Z",
  "contacts": {
   "row_id": "r033",
   "institution_name": "CREMONA",
-  "institution_type": "unknown",
-  "official_website": "https://www.comune.cremona.it/",
+  "institution_type": "school",
+  "official_website": "https://www.iiscremona.edu.it",
   "country": null,
   "phone": null,
+  "phone_alt": [],
+  "generic_email": "miis02600q@istruzione.it",
+  "generic_email_url": "https://www.iiscremona.edu.it",
   "contact": null,
   "alternates": [],
   "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "source": "web",
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website could not be read: https://www.comune.cremona.it/ (URLError: <urlopen error timed out>)"
+  "pages_read": 1,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 10 page(s) could not be read."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 1,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 10 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 160.3,
-  "crawl_s": 75.3,
-  "total_seconds": 235.6
+  "discover_s": 0.0,
+  "crawl_s": 11.4,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 11.4
  }
 }

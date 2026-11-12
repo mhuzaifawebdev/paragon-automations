@@ -1,11 +1,11 @@
 {
  "row_id": "r079",
- "scraped_at": "2026-11-10T16:06:52Z",
+ "scraped_at": "2026-11-11T19:36:47Z",
  "contacts": {
   "row_id": "r079",
   "institution_name": "GIUSEPPE LUOSI",
   "institution_type": "unknown",
-  "official_website": "https://www.iisgluosi.com",
+  "official_website": "https://www.iisgluosi.it",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,13 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website could not be read: https://www.iisgluosi.com (URLError: <urlopen error [Errno -3] Temporary failure in name resolution>)"
+  "notes": "Website could not be read: https://www.iisgluosi.it (URLError: <urlopen error [Errno 11001] getaddrinfo failed>) Register: GIUSEPPE LUOSI (MOIS00600Q), PEC mois00600q@pec.istruzione.it.",
+  "generic_email": "MOIS00600Q@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 14.8,
-  "crawl_s": 2.6,
-  "total_seconds": 17.5
+  "discover_s": 0.0,
+  "crawl_s": 0.3,
+  "total_seconds": 0.3
  }
 }

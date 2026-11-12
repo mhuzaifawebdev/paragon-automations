@@ -1,69 +1,59 @@
 {
  "row_id": "r039",
- "scraped_at": "2026-11-09T17:22:40Z",
+ "scraped_at": "2026-11-12T07:42:01Z",
  "contacts": {
   "row_id": "r039",
   "institution_name": "OLIVETTI",
-  "institution_type": "unknown",
-  "official_website": "https://www.olivetti.com/",
-  "country": {
-   "value": "Italy",
-   "source_url": "https://www.olivetti.com/",
-   "evidence_quote": "Olivetti SpA - Società Benefit, con unico azionista Gruppo TIM • Direzione e coordinamento di Telecom Italia S.p.A. - Cap. Soc. Euro 11.000.000,00 i.v. • Sede legale: Strada Monte Navale 2/C - 10015 Ivrea (TO) - Tel. +39 0125 7751 - P.IVA 02298700010 • Iscriz. al Reg. delle Imp. REA di Torino 547040 - adminpec@olivetti.telecompost.it"
+  "institution_type": "school",
+  "official_website": "https://www.istitutoolivetti.it",
+  "country": null,
+  "phone": {
+   "value": "0125 230013",
+   "source_url": "https://www.istitutoolivetti.it",
+   "evidence_quote": "Centralino: 0125 230013 <tel 0125230013>"
   },
-  "phone": null,
   "phone_alt": [],
-  "generic_email": "",
-  "generic_email_url": "",
+  "generic_email": "tois01200t@istruzione.it",
+  "generic_email_url": "https://www.istitutoolivetti.it",
   "contact": {
-   "name": "NGO DINH Quang",
-   "designation": "Chief Executive Officer",
+   "name": "Annalisa Nola",
+   "designation": "Le colleghe sono state accolte dalla referente Erasmus, prof.ssa Marta Bargay Juan, dal Dirigente scolastico, dott. Andr",
    "designation_local": "",
    "email": "",
    "office_email": "",
    "phone": "",
-   "source_url": "https://www.olivetti.com/it/corporate/governance",
-   "evidence_quote": "Amministratore Delegato | ... NGO DINH Quang |"
+   "source_url": "https://www.istitutoolivetti.it/2026/05/19/murcia-spagna-11-13-maggio-2026/",
+   "evidence_quote": "Da giorno 11 al 13 maggio, la prof.ssa Annalisa Nola, in qualità di prima collaboratrice del Dirigente scolastico e la prof.ssa Cascio Mariacatena, docente di inglese e in rappresentanza del team Erasmus+ del nostro Istituto, grazie all’accreditamento 2025-1-IT02-KA121-SCH-000337238 hanno svolto un’attività di job shadowing presso l’IES Alfonso X el Sabio di Murcia. ... Le colleghe sono state accolte dalla referente Erasmus, prof.ssa Marta Bargay Juan, dal Dirigente scolastico, dott. Andrés Nieto Salinas, e dal team Erasmus VET della scuola. Durante la permanenza hanno osservato alcune lezioni di lingua inglese e hanno preso parte a una tavola rotonda dedicata alle tematiche legate alla gestione dei processi di internazionalizzazione, in particolare del progetto Erasmus all’interno dell’Istituto ospitante, favorendo così uno scambio di esperienze e di buone pra"
   },
   "alternates": [],
-  "rung": "Principal / director (no Erasmus contact found). He is the Chief Executive Officer of the company.",
+  "rung": "Institutional Erasmus+ coordinator. found next to a role keyword on the institution's own page (rules-based)",
   "source": "web",
-  "confidence": 0.45,
+  "confidence": 0.8,
   "needs_human_check": true,
-  "pages_read": 5,
-  "notes": "site found via: Wikidata. mode: gemini."
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules."
  },
  "network": {
   "external_collaboration": [],
-  "internal_collaboration": [
-   {
-    "campus_name": "Olivetti SpA",
-    "city": "Ivrea",
-    "country": "Italy",
-    "role": "main",
-    "source_url": "https://www.olivetti.com/",
-    "evidence_quote": "Olivetti SpA - Società Benefit, con unico azionista Gruppo TIM • Direzione e coordinamento di Telecom Italia S.p.A. - Cap. Soc. Euro 11.000.000,00 i.v. • Sede legale: Strada Monte Navale 2/C - 10015 Ivrea (TO) - Tel. +39 0125 7751 - P.IVA 02298700010 • Iscriz. al Reg. delle Imp. REA di Torino 547040 - adminpec@olivetti.telecompost.it"
-   }
-  ],
+  "internal_collaboration": [],
   "stated_total": null,
   "stated_total_quote": "",
   "stated_total_url": "",
   "truncated": false,
   "total_seen": 0,
-  "pages_read": 5,
-  "coverage_note": "The institution is a company (Olivetti) and not an educational institution, therefore it does not have Erasmus+ partnerships or mobility programs. No specific contact for international relations is listed.",
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete.",
   "needs_human_check": false,
   "multiplier_hook": ""
  },
  "timing": {
-  "discover_s": 11.3,
-  "crawl_s": 8.9,
-  "ai_calls": 1,
-  "partner_calls": 0,
-  "cost_usd_estimate": 0.0,
-  "model_s": 1.7,
-  "mode": "gemini",
+  "discover_s": 0.0,
+  "crawl_s": 21.1,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
   "email_search_s": 1.1,
-  "total_seconds": 22.9
+  "total_seconds": 22.3
  }
 }

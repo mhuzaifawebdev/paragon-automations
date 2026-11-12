@@ -1,0 +1,77 @@
+{
+ "row_id": "r302",
+ "scraped_at": "2026-11-11T18:31:07Z",
+ "contacts": {
+  "row_id": "r302",
+  "institution_name": "ITI  MARCONI-PADOVA",
+  "institution_type": "university",
+  "official_website": "https://www.itismarconipadova.edu.it/",
+  "country": null,
+  "phone": {
+   "value": "049 8040211",
+   "source_url": "https://www.itismarconipadova.edu.it/",
+   "evidence_quote": "Tel: 049 8040211 <tel 049 8040211>"
+  },
+  "phone_alt": [],
+  "generic_email": "pdtf02000e@istruzione.it",
+  "generic_email_url": "https://www.itismarconipadova.edu.it/",
+  "contact": null,
+  "alternates": [],
+  "rung": "",
+  "source": "web",
+  "confidence": 0.2,
+  "needs_human_check": true,
+  "pages_read": 10,
+  "notes": "site found via: web search (Claude). mode: rules. 1 page(s) could not be read."
+ },
+ "network": {
+  "external_collaboration": [
+   {
+    "partner_name": "GTO Osterburken: https://www.ganztagsgymnasium-osterburken.de/",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itismarconipadova.edu.it/pagine/partners",
+    "evidence_quote": "GTO Osterburken: https://www.ganztagsgymnasium-osterburken.de/",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Swan Training Institute, Dublin: https://selt.ie/",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itismarconipadova.edu.it/pagine/partners",
+    "evidence_quote": "Swan Training Institute, Dublin: https://selt.ie/",
+    "confidence": 0.9
+   },
+   {
+    "partner_name": "Sint Leo College, Brugge: https://www.sint-leo.be/",
+    "partner_country": "",
+    "partner_type": "other",
+    "mobility_type": "unknown",
+    "source_url": "https://www.itismarconipadova.edu.it/pagine/partners",
+    "evidence_quote": "Sint Leo College, Brugge: https://www.sint-leo.be/",
+    "confidence": 0.9
+   }
+  ],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 3,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
+ "timing": {
+  "discover_s": 33.7,
+  "crawl_s": 10.5,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 44.3
+ }
+}

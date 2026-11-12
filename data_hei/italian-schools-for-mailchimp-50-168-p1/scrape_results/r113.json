@@ -1,11 +1,11 @@
 {
  "row_id": "r113",
- "scraped_at": "2026-11-10T00:52:43Z",
+ "scraped_at": "2026-11-12T07:47:29Z",
  "contacts": {
   "row_id": "r113",
   "institution_name": "ITC  \"L.PALMA\" CORIGLIANO",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.itcpalma.it/",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "notes": "Website could not be read: https://www.itcpalma.it/ (blocked by robots.txt - do not fetch this page) Register: IIS L.PALMA ITI ITG GREEN FALCONE BORS. (CSIS086006), PEC CSIS086006@pec.istruzione.it.",
+  "generic_email": "csis086006@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 5.0,
-  "total_seconds": 5.0
+  "discover_s": 0.0,
+  "crawl_s": 0.2,
+  "total_seconds": 0.2
  }
 }

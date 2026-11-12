@@ -1,26 +1,49 @@
 {
  "row_id": "r049",
- "scraped_at": "2026-11-10T08:05:33Z",
+ "scraped_at": "2026-11-11T19:36:48Z",
  "contacts": {
   "row_id": "r049",
   "institution_name": "GALVANI",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://iisgalvanimi.edu.it/",
   "country": null,
-  "phone": null,
+  "phone": {
+   "value": "026435651",
+   "source_url": "https://iisgalvanimi.edu.it/",
+   "evidence_quote": "Cod. Mecc. MIIS05400X 026435651 <tel 026435651> miis05400x@istruzione.it <miis05400x@istruzione.it> miis05400x@pec.istruzione.it <miis05400x@pec.istruzione.it>"
+  },
+  "phone_alt": [],
+  "generic_email": "didattica@iisgalvanimi.edu.it",
+  "generic_email_url": "https://iisgalvanimi.edu.it/contatti/",
   "contact": null,
   "alternates": [],
   "rung": "",
-  "source": "none",
-  "confidence": 0,
+  "source": "web",
+  "confidence": 0.2,
   "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "pages_read": 10,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 1 page(s) could not be read."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 10,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 1 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 4.0,
-  "total_seconds": 4.0
+  "discover_s": 0.0,
+  "crawl_s": 26.9,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "total_seconds": 26.9
  }
 }

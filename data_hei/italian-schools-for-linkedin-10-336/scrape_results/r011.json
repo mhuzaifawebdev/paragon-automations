@@ -1,11 +1,11 @@
 {
  "row_id": "r011",
- "scraped_at": "2026-11-10T08:03:44Z",
+ "scraped_at": "2026-11-11T19:36:21Z",
  "contacts": {
   "row_id": "r011",
   "institution_name": "I.S.BARCELLONA FERRARI",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.istitutoprofessionaleferrari.it/eferrari_barcellona/index.php",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "notes": "Website could not be read: https://www.istitutoprofessionaleferrari.it/eferrari_barcellona/index.php (URLError: <urlopen error [Errno 11001] getaddrinfo failed>) Register: I.S.BARCELLONA FERRARI (MEIS01100P), PEC meis01100p@pec.istruzione.it.",
+  "generic_email": "MEIS01100P@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 10.0,
-  "total_seconds": 10.0
+  "discover_s": 0.0,
+  "crawl_s": 0.3,
+  "total_seconds": 0.3
  }
 }

@@ -1,11 +1,11 @@
 {
  "row_id": "r012",
- "scraped_at": "2026-11-10T08:03:41Z",
+ "scraped_at": "2026-11-11T19:36:21Z",
  "contacts": {
   "row_id": "r012",
   "institution_name": "I.S.\"BISAZZA\" ME",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.liceobisazza.it",
   "country": null,
   "phone": null,
   "contact": null,
@@ -15,12 +15,15 @@
   "confidence": 0,
   "needs_human_check": true,
   "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "notes": "Website could not be read: https://www.liceobisazza.it (URLError: <urlopen error [Errno 11001] getaddrinfo failed>) Register: I.S.\"BISAZZA\" ME (MEIS01300A), PEC meis01300a@pec.istruzione.it.",
+  "generic_email": "MEIS01300A@istruzione.it",
+  "generic_email_url": "https://dati.istruzione.it (official school register)"
  },
  "network": null,
  "network_skipped": "website not found",
  "timing": {
-  "discover_s": 5.0,
-  "total_seconds": 5.0
+  "discover_s": 0.0,
+  "crawl_s": 0.4,
+  "total_seconds": 0.5
  }
 }

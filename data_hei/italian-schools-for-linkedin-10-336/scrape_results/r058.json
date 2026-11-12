@@ -1,26 +1,59 @@
 {
  "row_id": "r058",
- "scraped_at": "2026-11-10T16:03:58Z",
+ "scraped_at": "2026-11-11T19:37:03Z",
  "contacts": {
   "row_id": "r058",
   "institution_name": "IIS \"LUIGI CASTIGLIONI\"",
   "institution_type": "unknown",
-  "official_website": "",
+  "official_website": "https://www.iiscastiglioni.edu.it",
   "country": null,
-  "phone": null,
-  "contact": null,
+  "phone": {
+   "value": "029965595",
+   "source_url": "https://www.iiscastiglioni.edu.it",
+   "evidence_quote": "Centralino: 029965595 <tel 029965595>"
+  },
+  "phone_alt": [],
+  "generic_email": "martina.ferrario.d@iiscastiglioni.edu.it",
+  "generic_email_url": "https://www.iiscastiglioni.edu.it/wp-content/uploads/2025/10/towards-internationalization-4.pdf",
+  "contact": {
+   "name": "LANGUAGE COURSES",
+   "designation": "teachers’ language skills with the possibility of taking a Language Certificate.",
+   "designation_local": "",
+   "email": "martina.ferrario.d@iiscastiglioni.edu.it",
+   "office_email": "",
+   "phone": "",
+   "source_url": "https://www.iiscastiglioni.edu.it/wp-content/uploads/2025/10/towards-internationalization-4.pdf",
+   "evidence_quote": "✓ LANGUAGE COURSES: ... teachers’ language skills with the possibility of taking a Language Certificate."
+  },
   "alternates": [],
-  "rung": "",
-  "source": "none",
-  "confidence": 0,
-  "needs_human_check": true,
-  "pages_read": 0,
-  "notes": "Website not found (no website source available (add one in the 'Website override' column))"
+  "rung": "English / language or EU-project teacher (no Erasmus contact found). found next to a role keyword on the institution's own page (rules-based)",
+  "source": "web",
+  "confidence": 0.55,
+  "needs_human_check": false,
+  "pages_read": 9,
+  "notes": "site found via: remembered from an earlier run. mode: rules. 3 page(s) could not be read."
  },
- "network": null,
- "network_skipped": "website not found",
+ "network": {
+  "external_collaboration": [],
+  "internal_collaboration": [],
+  "stated_total": null,
+  "stated_total_quote": "",
+  "stated_total_url": "",
+  "truncated": false,
+  "total_seen": 0,
+  "pages_read": 9,
+  "coverage_note": "Rules-only extraction (no model): partner and campus lists may be incomplete. 3 page(s) could not be read.",
+  "needs_human_check": false,
+  "multiplier_hook": ""
+ },
  "timing": {
-  "discover_s": 6.1,
-  "total_seconds": 6.1
+  "discover_s": 0.0,
+  "crawl_s": 17.4,
+  "ai_calls": 0,
+  "model_s": 0.0,
+  "cost_usd_estimate": 0,
+  "mode": "rules",
+  "email_search_s": 22.1,
+  "total_seconds": 39.4
  }
 }
